@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_NPGW90JP.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/MathNPGW90JP/column/AdvancedExtensions>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/CommonChallenges>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/Definition>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/InnovativeApplications>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/MathArea>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/Properties>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/RealWorldConnections>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/SpecificTopic>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/SymbolismsNotations>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/TeachingStrategies> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathNPGW90JP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/AdvancedExtensions> a dsv:Column ;
+    rdfs:label " Advanced Extensions" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/CommonChallenges> a dsv:Column ;
+    rdfs:label " Common Challenges" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/Definition> a dsv:Column ;
+    rdfs:label " Definition" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/InnovativeApplications> a dsv:Column ;
+    rdfs:label " Innovative Applications" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/MathArea> a dsv:Column ;
+    rdfs:label "Math Area" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/Properties> a dsv:Column ;
+    rdfs:label " Properties" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/RealWorldConnections> a dsv:Column ;
+    rdfs:label " Real-World Connections." .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/SpecificTopic> a dsv:Column ;
+    rdfs:label " Specific Topic" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/SymbolismsNotations> a dsv:Column ;
+    rdfs:label " Symbolisms & Notations" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/TeachingStrategies> a dsv:Column ;
+    rdfs:label " Teaching Strategies" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Horticulture0MYOE45D> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_0MYOE45D.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/AdditionalNotes>,
+        <http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/AverageMaturityTime>,
+        <http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/CommonPestsAndDiseases>,
+        <http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/FloweringSeason>,
+        <http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/FruitBearingSeason>,
+        <http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/GrowthRate>,
+        <http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/MaintenanceCost>,
+        <http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/MaximumTemperature>,
+        <http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/MinimumTemperature>,
+        <http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/PollinationDetails>,
+        <http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/PreferredCompanionPlants>,
+        <http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/SeparationDistance> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Horticulture0MYOE45D/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/AdditionalNotes> a dsv:Column ;
+    rdfs:label "AdditionalNotes" .
+
+<http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/AverageMaturityTime> a dsv:Column ;
+    rdfs:label "AverageMaturityTime" .
+
+<http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/CommonPestsAndDiseases> a dsv:Column ;
+    rdfs:label "CommonPestsAndDiseases" .
+
+<http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/FloweringSeason> a dsv:Column ;
+    rdfs:label "FloweringSeason" .
+
+<http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/FruitBearingSeason> a dsv:Column ;
+    rdfs:label "FruitBearingSeason" .
+
+<http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/GrowthRate> a dsv:Column ;
+    rdfs:label "GrowthRate" .
+
+<http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/MaintenanceCost> a dsv:Column ;
+    rdfs:label "MaintenanceCost" .
+
+<http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/MaximumTemperature> a dsv:Column ;
+    rdfs:label "MaximumTemperature" .
+
+<http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/MinimumTemperature> a dsv:Column ;
+    rdfs:label "MinimumTemperature" .
+
+<http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/PollinationDetails> a dsv:Column ;
+    rdfs:label "PollinationDetails" .
+
+<http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/PreferredCompanionPlants> a dsv:Column ;
+    rdfs:label "PreferredCompanionPlants" .
+
+<http://metaUnionSearch/datasets/Horticulture0MYOE45D/column/SeparationDistance> a dsv:Column ;
+    rdfs:label "SeparationDistance" .
+
+<http://metaUnionSearch/datasets/Horticulture0MYOE45D/datasetSchema> a dsv:DatasetSchema .
+

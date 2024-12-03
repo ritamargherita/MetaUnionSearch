@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FashionQQ81XRZN> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_QQ81XRZN.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/FashionQQ81XRZN/column/Availability>,
+        <http://metaUnionSearch/datasets/FashionQQ81XRZN/column/CareInstruction>,
+        <http://metaUnionSearch/datasets/FashionQQ81XRZN/column/Collection>,
+        <http://metaUnionSearch/datasets/FashionQQ81XRZN/column/Designer>,
+        <http://metaUnionSearch/datasets/FashionQQ81XRZN/column/Event>,
+        <http://metaUnionSearch/datasets/FashionQQ81XRZN/column/Fabric>,
+        <http://metaUnionSearch/datasets/FashionQQ81XRZN/column/Inspiration>,
+        <http://metaUnionSearch/datasets/FashionQQ81XRZN/column/ModelNumber>,
+        <http://metaUnionSearch/datasets/FashionQQ81XRZN/column/Origin>,
+        <http://metaUnionSearch/datasets/FashionQQ81XRZN/column/ReleaseDate>,
+        <http://metaUnionSearch/datasets/FashionQQ81XRZN/column/Trend> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FashionQQ81XRZN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FashionQQ81XRZN/column/Availability> a dsv:Column ;
+    rdfs:label " Availability" .
+
+<http://metaUnionSearch/datasets/FashionQQ81XRZN/column/CareInstruction> a dsv:Column ;
+    rdfs:label " Care Instruction" .
+
+<http://metaUnionSearch/datasets/FashionQQ81XRZN/column/Collection> a dsv:Column ;
+    rdfs:label " Collection" .
+
+<http://metaUnionSearch/datasets/FashionQQ81XRZN/column/Designer> a dsv:Column ;
+    rdfs:label " Designer" .
+
+<http://metaUnionSearch/datasets/FashionQQ81XRZN/column/Event> a dsv:Column ;
+    rdfs:label " Event" .
+
+<http://metaUnionSearch/datasets/FashionQQ81XRZN/column/Fabric> a dsv:Column ;
+    rdfs:label " Fabric" .
+
+<http://metaUnionSearch/datasets/FashionQQ81XRZN/column/Inspiration> a dsv:Column ;
+    rdfs:label " Inspiration" .
+
+<http://metaUnionSearch/datasets/FashionQQ81XRZN/column/ModelNumber> a dsv:Column ;
+    rdfs:label "Model Number" .
+
+<http://metaUnionSearch/datasets/FashionQQ81XRZN/column/Origin> a dsv:Column ;
+    rdfs:label " Origin" .
+
+<http://metaUnionSearch/datasets/FashionQQ81XRZN/column/ReleaseDate> a dsv:Column ;
+    rdfs:label " Release Date" .
+
+<http://metaUnionSearch/datasets/FashionQQ81XRZN/column/Trend> a dsv:Column ;
+    rdfs:label " Trend" .
+
+<http://metaUnionSearch/datasets/FashionQQ81XRZN/datasetSchema> a dsv:DatasetSchema .
+

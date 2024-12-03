@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawJ0N064DI> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_J0N064DI.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/LawJ0N064DI/column/AppealStatus>,
+        <http://metaUnionSearch/datasets/LawJ0N064DI/column/DefendantsNames>,
+        <http://metaUnionSearch/datasets/LawJ0N064DI/column/Evidencepresented>,
+        <http://metaUnionSearch/datasets/LawJ0N064DI/column/FinancialImplications>,
+        <http://metaUnionSearch/datasets/LawJ0N064DI/column/Judgesinvolved>,
+        <http://metaUnionSearch/datasets/LawJ0N064DI/column/JuryVerdictorJudgeRuling>,
+        <http://metaUnionSearch/datasets/LawJ0N064DI/column/LegalCaseName>,
+        <http://metaUnionSearch/datasets/LawJ0N064DI/column/PlaintiffsNames>,
+        <http://metaUnionSearch/datasets/LawJ0N064DI/column/Professionalshired>,
+        <http://metaUnionSearch/datasets/LawJ0N064DI/column/RelevantPrecedentsCited>,
+        <http://metaUnionSearch/datasets/LawJ0N064DI/column/Sentencinginformation>,
+        <http://metaUnionSearch/datasets/LawJ0N064DI/column/StatuteViolations>,
+        <http://metaUnionSearch/datasets/LawJ0N064DI/column/TrialLocation>,
+        <http://metaUnionSearch/datasets/LawJ0N064DI/column/Witnessescalled> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawJ0N064DI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawJ0N064DI/column/AppealStatus> a dsv:Column ;
+    rdfs:label " Appeal Status" .
+
+<http://metaUnionSearch/datasets/LawJ0N064DI/column/DefendantsNames> a dsv:Column ;
+    rdfs:label " Defendant(s) Names" .
+
+<http://metaUnionSearch/datasets/LawJ0N064DI/column/Evidencepresented> a dsv:Column ;
+    rdfs:label " Evidence presented" .
+
+<http://metaUnionSearch/datasets/LawJ0N064DI/column/FinancialImplications> a dsv:Column ;
+    rdfs:label " Financial Implications" .
+
+<http://metaUnionSearch/datasets/LawJ0N064DI/column/Judgesinvolved> a dsv:Column ;
+    rdfs:label " Judges involved" .
+
+<http://metaUnionSearch/datasets/LawJ0N064DI/column/JuryVerdictorJudgeRuling> a dsv:Column ;
+    rdfs:label " Jury Verdict or Judge Ruling" .
+
+<http://metaUnionSearch/datasets/LawJ0N064DI/column/LegalCaseName> a dsv:Column ;
+    rdfs:label "Legal Case Name" .
+
+<http://metaUnionSearch/datasets/LawJ0N064DI/column/PlaintiffsNames> a dsv:Column ;
+    rdfs:label " Plaintiff(s) Names" .
+
+<http://metaUnionSearch/datasets/LawJ0N064DI/column/Professionalshired> a dsv:Column ;
+    rdfs:label " Professionals hired" .
+
+<http://metaUnionSearch/datasets/LawJ0N064DI/column/RelevantPrecedentsCited> a dsv:Column ;
+    rdfs:label " Relevant Precedents Cited" .
+
+<http://metaUnionSearch/datasets/LawJ0N064DI/column/Sentencinginformation> a dsv:Column ;
+    rdfs:label " Sentencing information" .
+
+<http://metaUnionSearch/datasets/LawJ0N064DI/column/StatuteViolations> a dsv:Column ;
+    rdfs:label " Statute Violations" .
+
+<http://metaUnionSearch/datasets/LawJ0N064DI/column/TrialLocation> a dsv:Column ;
+    rdfs:label " Trial Location" .
+
+<http://metaUnionSearch/datasets/LawJ0N064DI/column/Witnessescalled> a dsv:Column ;
+    rdfs:label " Witnesses called" .
+
+<http://metaUnionSearch/datasets/LawJ0N064DI/datasetSchema> a dsv:DatasetSchema .
+

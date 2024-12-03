@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_CL472RL1.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/AcquisitionYear>,
+        <http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/AudioGuideAvailability>,
+        <http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/CafeAvailability>,
+        <http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/ConservationTeamMembers>,
+        <http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/GiftShopAvailability>,
+        <http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/MuseumLocation>,
+        <http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/MuseumName>,
+        <http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/NumberOfVisitorsLastYear>,
+        <http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/OwnershipNature>,
+        <http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/PreviousExhibitions>,
+        <http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/PublicAccessibility>,
+        <http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/RestorationProjectDetails>,
+        <http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/UpcomingEvents>,
+        <http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/Value> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistoryCL472RL1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/AcquisitionYear> a dsv:Column ;
+    rdfs:label " Acquisition Year" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/AudioGuideAvailability> a dsv:Column ;
+    rdfs:label " Audio Guide Availability" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/CafeAvailability> a dsv:Column ;
+    rdfs:label " Cafe Availability" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/ConservationTeamMembers> a dsv:Column ;
+    rdfs:label " Conservation Team Members" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/GiftShopAvailability> a dsv:Column ;
+    rdfs:label " Gift Shop Availability`" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/MuseumLocation> a dsv:Column ;
+    rdfs:label " Museum Location" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/MuseumName> a dsv:Column ;
+    rdfs:label "`Museum Name" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/NumberOfVisitorsLastYear> a dsv:Column ;
+    rdfs:label " Number Of Visitors Last Year" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/OwnershipNature> a dsv:Column ;
+    rdfs:label " Ownership Nature" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/PreservationStatus> a dsv:Column ;
+    rdfs:label " Preservation Status" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/PreviousExhibitions> a dsv:Column ;
+    rdfs:label " Previous Exhibitions" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/PublicAccessibility> a dsv:Column ;
+    rdfs:label " Public Accessibility" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/RestorationProjectDetails> a dsv:Column ;
+    rdfs:label " Restoration Project Details" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/UpcomingEvents> a dsv:Column ;
+    rdfs:label " Upcoming Events" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1/column/Value> a dsv:Column ;
+    rdfs:label " Value" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCL472RL1/datasetSchema> a dsv:DatasetSchema .
+

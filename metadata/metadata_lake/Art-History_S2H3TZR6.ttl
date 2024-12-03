@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_S2H3TZR6.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/CensorshipIncidentsImpactingArtworksorArtists>,
+        <http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/EffectiveDatesifapplicable>,
+        <http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/GeographicRegionswithMajorArtisticContribution>,
+        <http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/HistoricalPrecedents>,
+        <http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/InfluentialCriticsTheories>,
+        <http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/MostSignificantlyImpactfulEvents>,
+        <http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/NotableInstitutionsExhibitions>,
+        <http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/PreservationEfforts>,
+        <http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/ProminentMovementsTheirKeyFigures>,
+        <http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/SocietalFactorsInfluencingArts> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/CensorshipIncidentsImpactingArtworksorArtists> a dsv:Column ;
+    rdfs:label " Censorship Incidents Impacting Artworks or Artists" .
+
+<http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/EffectiveDatesifapplicable> a dsv:Column ;
+    rdfs:label " Effective Dates (if applicable)" .
+
+<http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/GeographicRegionswithMajorArtisticContribution> a dsv:Column ;
+    rdfs:label " Geographic Regions with Major Artistic Contribution" .
+
+<http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/HistoricalPrecedents> a dsv:Column ;
+    rdfs:label " Historical Precedents" .
+
+<http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/InfluentialCriticsTheories> a dsv:Column ;
+    rdfs:label " Influential Critics & Theories" .
+
+<http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/MostSignificantlyImpactfulEvents> a dsv:Column ;
+    rdfs:label "Most Significantly Impactful Events" .
+
+<http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/NotableInstitutionsExhibitions> a dsv:Column ;
+    rdfs:label " Notable Institutions & Exhibitions" .
+
+<http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/PreservationEfforts> a dsv:Column ;
+    rdfs:label " Preservation Efforts" .
+
+<http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/ProminentMovementsTheirKeyFigures> a dsv:Column ;
+    rdfs:label " Prominent Movements & Their Key Figures" .
+
+<http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/column/SocietalFactorsInfluencingArts> a dsv:Column ;
+    rdfs:label " Societal Factors Influencing Arts" .
+
+<http://metaUnionSearch/datasets/ArtHistoryS2H3TZR6/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Medicine3E3R1UQK> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_3E3R1UQK.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/AdditionalInformation>,
+        <http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/DosageII>,
+        <http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/DosageIII>,
+        <http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/EndDateII>,
+        <http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/MedicationII>,
+        <http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/MedicationIII>,
+        <http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/PrescribingPhysicianII>,
+        <http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/RefillFrequencyII>,
+        <http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/RefillsRemainingII>,
+        <http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/StartDateII> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Medicine3E3R1UQK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/AdditionalInformation> a dsv:Column ;
+    rdfs:label "Additional Information" .
+
+<http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/DosageII> a dsv:Column ;
+    rdfs:label "Dosage II" .
+
+<http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/DosageIII> a dsv:Column ;
+    rdfs:label "Dosage III" .
+
+<http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/EndDateII> a dsv:Column ;
+    rdfs:label "End Date II" .
+
+<http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/MedicationII> a dsv:Column ;
+    rdfs:label "Medication II" .
+
+<http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/MedicationIII> a dsv:Column ;
+    rdfs:label "Medication III" .
+
+<http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/PrescribingPhysicianII> a dsv:Column ;
+    rdfs:label "Prescribing Physician II" .
+
+<http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/RefillFrequencyII> a dsv:Column ;
+    rdfs:label "Refill Frequency II" .
+
+<http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/RefillsRemainingII> a dsv:Column ;
+    rdfs:label "Refills Remaining II" .
+
+<http://metaUnionSearch/datasets/Medicine3E3R1UQK/column/StartDateII> a dsv:Column ;
+    rdfs:label "Start Date II" .
+
+<http://metaUnionSearch/datasets/Medicine3E3R1UQK/datasetSchema> a dsv:DatasetSchema .
+

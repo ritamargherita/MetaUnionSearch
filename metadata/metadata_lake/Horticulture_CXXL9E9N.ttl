@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/HorticultureCXXL9E9N> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_CXXL9E9N.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/ColorsOfFlowers>,
+        <http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/DiseaseResistance>,
+        <http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/FertilityRequirements>,
+        <http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/GrowthHabit>,
+        <http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/MycorrhizalAssociation>,
+        <http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/PropagationByCuttings>,
+        <http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/PruningFrequency>,
+        <http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/QuantityPerAcre>,
+        <http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/SoiltemperatureRange>,
+        <http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/WildlifeValue> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/HorticultureCXXL9E9N/datasetSchema> .
+
+<http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/ColorsOfFlowers> a dsv:Column ;
+    rdfs:label "ColorsOfFlowers" .
+
+<http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/DiseaseResistance> a dsv:Column ;
+    rdfs:label "DiseaseResistance" .
+
+<http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/FertilityRequirements> a dsv:Column ;
+    rdfs:label "FertilityRequirements" .
+
+<http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/GrowthHabit> a dsv:Column ;
+    rdfs:label "GrowthHabit" .
+
+<http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/MycorrhizalAssociation> a dsv:Column ;
+    rdfs:label "MycorrhizalAssociation" .
+
+<http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/PropagationByCuttings> a dsv:Column ;
+    rdfs:label "PropagationByCuttings" .
+
+<http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/PruningFrequency> a dsv:Column ;
+    rdfs:label "PruningFrequency" .
+
+<http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/QuantityPerAcre> a dsv:Column ;
+    rdfs:label "QuantityPerAcre" .
+
+<http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/SoiltemperatureRange> a dsv:Column ;
+    rdfs:label "SoiltemperatureRange" .
+
+<http://metaUnionSearch/datasets/HorticultureCXXL9E9N/column/WildlifeValue> a dsv:Column ;
+    rdfs:label "WildlifeValue" .
+
+<http://metaUnionSearch/datasets/HorticultureCXXL9E9N/datasetSchema> a dsv:DatasetSchema .
+

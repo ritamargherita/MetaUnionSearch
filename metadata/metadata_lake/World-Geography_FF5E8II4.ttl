@@ -1,0 +1,31 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeographyFF5E8II4> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_FF5E8II4.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeographyFF5E8II4/column/>,
+        <http://metaUnionSearch/datasets/WorldGeographyFF5E8II4/column/CoastlineLengthkm>,
+        <http://metaUnionSearch/datasets/WorldGeographyFF5E8II4/column/IslandAreakm2>,
+        <http://metaUnionSearch/datasets/WorldGeographyFF5E8II4/column/IslandNation>,
+        <http://metaUnionSearch/datasets/WorldGeographyFF5E8II4/column/NumberOfIslands> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeographyFF5E8II4/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeographyFF5E8II4/column/> a dsv:Column ;
+    rdfs:label " " .
+
+<http://metaUnionSearch/datasets/WorldGeographyFF5E8II4/column/CoastlineLengthkm> a dsv:Column ;
+    rdfs:label " Coastline Length (km)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyFF5E8II4/column/IslandAreakm2> a dsv:Column ;
+    rdfs:label " Island Area (km2)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyFF5E8II4/column/IslandNation> a dsv:Column ;
+    rdfs:label "Island Nation" .
+
+<http://metaUnionSearch/datasets/WorldGeographyFF5E8II4/column/NumberOfIslands> a dsv:Column ;
+    rdfs:label " Number Of Islands" .
+
+<http://metaUnionSearch/datasets/WorldGeographyFF5E8II4/datasetSchema> a dsv:DatasetSchema .
+

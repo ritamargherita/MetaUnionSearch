@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArcheologyXWNREK8P> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_XWNREK8P.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/AdditionalNotes>,
+        <http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/ArchiveDepartment>,
+        <http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/ConservationSpecialist1>,
+        <http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/ConservationSpecialist2>,
+        <http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/CultureGroup>,
+        <http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/DatingTechnique>,
+        <http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/DiscoveryMethod>,
+        <http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/FundAmount>,
+        <http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/ImportanceLevel>,
+        <http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/PreservationEfforts>,
+        <http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/ResearchFundingSource>,
+        <http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/SepultureStyle>,
+        <http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/SiteCoordinates> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArcheologyXWNREK8P/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/AdditionalNotes> a dsv:Column ;
+    rdfs:label " AdditionalNotes" .
+
+<http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/ArchiveDepartment> a dsv:Column ;
+    rdfs:label " ArchiveDepartment" .
+
+<http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/ConservationSpecialist1> a dsv:Column ;
+    rdfs:label " ConservationSpecialist1" .
+
+<http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/ConservationSpecialist2> a dsv:Column ;
+    rdfs:label " ConservationSpecialist2" .
+
+<http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/CultureGroup> a dsv:Column ;
+    rdfs:label " CultureGroup" .
+
+<http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/DatingTechnique> a dsv:Column ;
+    rdfs:label " DatingTechnique" .
+
+<http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/DiscoveryMethod> a dsv:Column ;
+    rdfs:label " DiscoveryMethod" .
+
+<http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/FundAmount> a dsv:Column ;
+    rdfs:label " FundAmount" .
+
+<http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/ImportanceLevel> a dsv:Column ;
+    rdfs:label " ImportanceLevel" .
+
+<http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/PreservationEfforts> a dsv:Column ;
+    rdfs:label " PreservationEfforts" .
+
+<http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/ResearchFundingSource> a dsv:Column ;
+    rdfs:label " ResearchFundingSource" .
+
+<http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/SepultureStyle> a dsv:Column ;
+    rdfs:label "SepultureStyle" .
+
+<http://metaUnionSearch/datasets/ArcheologyXWNREK8P/column/SiteCoordinates> a dsv:Column ;
+    rdfs:label " SiteCoordinates" .
+
+<http://metaUnionSearch/datasets/ArcheologyXWNREK8P/datasetSchema> a dsv:DatasetSchema .
+

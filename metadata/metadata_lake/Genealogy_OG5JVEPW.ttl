@@ -1,0 +1,27 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GenealogyOG5JVEPW> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_OG5JVEPW.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/GenealogyOG5JVEPW/column/>,
+        <http://metaUnionSearch/datasets/GenealogyOG5JVEPW/column/AncestorsCountAft3Generations>,
+        <http://metaUnionSearch/datasets/GenealogyOG5JVEPW/column/NumberofDirectLinage>,
+        <http://metaUnionSearch/datasets/GenealogyOG5JVEPW/column/PaternalFamilyTreeSize> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GenealogyOG5JVEPW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GenealogyOG5JVEPW/column/> a dsv:Column ;
+    rdfs:label " \\" .
+
+<http://metaUnionSearch/datasets/GenealogyOG5JVEPW/column/AncestorsCountAft3Generations> a dsv:Column ;
+    rdfs:label " AncestorsCountAft3Generations" .
+
+<http://metaUnionSearch/datasets/GenealogyOG5JVEPW/column/NumberofDirectLinage> a dsv:Column ;
+    rdfs:label "NumberofDirectLinage" .
+
+<http://metaUnionSearch/datasets/GenealogyOG5JVEPW/column/PaternalFamilyTreeSize> a dsv:Column ;
+    rdfs:label " PaternalFamilyTreeSize" .
+
+<http://metaUnionSearch/datasets/GenealogyOG5JVEPW/datasetSchema> a dsv:DatasetSchema .
+

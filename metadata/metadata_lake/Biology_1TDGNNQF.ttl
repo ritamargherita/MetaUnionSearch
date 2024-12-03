@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Biology1TDGNNQF> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_1TDGNNQF.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Biologicalentityname>,
+        <http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Cellularlocationscompartmentalization>,
+        <http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Evolutionaryhistory>,
+        <http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Expressionpatternsacrosstissueslifestages>,
+        <http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Geneticinformationtype>,
+        <http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Interactionswithotherentities>,
+        <http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Mutationsandtheireffects>,
+        <http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Pathwayannotations>,
+        <http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Posttranslationalmodifications>,
+        <http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Proteinproteininteractionnetworks>,
+        <http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Proteintertiarystructure>,
+        <http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Roleorfunctionwithinsystem> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Biology1TDGNNQF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Biologicalentityname> a dsv:Column ;
+    rdfs:label "Biological entity name" .
+
+<http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Cellularlocationscompartmentalization> a dsv:Column ;
+    rdfs:label " Cellular location(s)/compartmentalization" .
+
+<http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Evolutionaryhistory> a dsv:Column ;
+    rdfs:label " Evolutionary history" .
+
+<http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Expressionpatternsacrosstissueslifestages> a dsv:Column ;
+    rdfs:label " Expression patterns across tissues / life stages" .
+
+<http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Geneticinformationtype> a dsv:Column ;
+    rdfs:label " Genetic information (type)" .
+
+<http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Interactionswithotherentities> a dsv:Column ;
+    rdfs:label " Interactions with other entities" .
+
+<http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Mutationsandtheireffects> a dsv:Column ;
+    rdfs:label " Mutations and their effects" .
+
+<http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Pathwayannotations> a dsv:Column ;
+    rdfs:label " Pathway annotations**" .
+
+<http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Posttranslationalmodifications> a dsv:Column ;
+    rdfs:label " Post-translational modifications" .
+
+<http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Proteinproteininteractionnetworks> a dsv:Column ;
+    rdfs:label " Protein-protein interaction networks" .
+
+<http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Proteintertiarystructure> a dsv:Column ;
+    rdfs:label " Protein tertiary structure" .
+
+<http://metaUnionSearch/datasets/Biology1TDGNNQF/column/Roleorfunctionwithinsystem> a dsv:Column ;
+    rdfs:label " Role or function within system" .
+
+<http://metaUnionSearch/datasets/Biology1TDGNNQF/datasetSchema> a dsv:DatasetSchema .
+

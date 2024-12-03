@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE> a dsv:Dataset ;
+    dcterms:subject "international-relations" ;
+    dcterms:title "International-Relations_KIRTR5JE.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/ClimateChangeInitiativeMembershipcounts>,
+        <http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/EducationExchangeProgramCount>,
+        <http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/ForeignDirectInvestmentoutflows>,
+        <http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/HumanitarianAidContributions>,
+        <http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/InternationalTreatyParticipation>,
+        <http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/PeacekeepingMissionsSignups>,
+        <http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/ScientificResearchPartnershipprojectscount>,
+        <http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/SpaceExplorationCollaborativeProjectscount>,
+        <http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/TourismReceiptsincoming>,
+        <http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/TradeAgreements> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/ClimateChangeInitiativeMembershipcounts> a dsv:Column ;
+    rdfs:label " \\*Climate Change Initiative Membership counts*\\" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/EducationExchangeProgramCount> a dsv:Column ;
+    rdfs:label " \\*Education Exchange Program Count*\\" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/ForeignDirectInvestmentoutflows> a dsv:Column ;
+    rdfs:label " \\*Foreign Direct Investment outflows \\*($)\\*" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/HumanitarianAidContributions> a dsv:Column ;
+    rdfs:label " \\*Humanitarian Aid Contributions \\*($)\\*" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/InternationalTreatyParticipation> a dsv:Column ;
+    rdfs:label "*International Treaty Participation*" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/PeacekeepingMissionsSignups> a dsv:Column ;
+    rdfs:label " *Peacekeeping Missions*\\* Signups" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/ScientificResearchPartnershipprojectscount> a dsv:Column ;
+    rdfs:label " \\*Scientific Research Partnership projects count*" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/SpaceExplorationCollaborativeProjectscount> a dsv:Column ;
+    rdfs:label " \\*Space Exploration Collaborative Projects count*\\" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/TourismReceiptsincoming> a dsv:Column ;
+    rdfs:label " \\*Tourism Receipts \\*($, incoming)\\*" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/column/TradeAgreements> a dsv:Column ;
+    rdfs:label " *Trade Agreements*\\*" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsKIRTR5JE/datasetSchema> a dsv:DatasetSchema .
+

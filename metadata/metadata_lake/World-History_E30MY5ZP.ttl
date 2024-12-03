@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP> a dsv:Dataset ;
+    dcterms:subject "world-history" ;
+    dcterms:title "World-History_E30MY5ZP.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/AncientCivilizationsLaws>,
+        <http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/ArchaeologicalSites>,
+        <http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/ColonialEmpiresBorders>,
+        <http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/EnvironmentalMovements>,
+        <http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/GlobalConflictsTurningPoints>,
+        <http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/IdeologiesFounders>,
+        <http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/IndustrialErasInventions>,
+        <http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/LiteraryGenres>,
+        <http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/MedievalSocietiesCustoms>,
+        <http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/RenaissanceArtists> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/AncientCivilizationsLaws> a dsv:Column ;
+    rdfs:label "Ancient Civilizations' Laws" .
+
+<http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/ArchaeologicalSites> a dsv:Column ;
+    rdfs:label " Archaeological Sites " .
+
+<http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/ColonialEmpiresBorders> a dsv:Column ;
+    rdfs:label " Colonial Empires' Borders " .
+
+<http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/EnvironmentalMovements> a dsv:Column ;
+    rdfs:label " Environmental Movements " .
+
+<http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/GlobalConflictsTurningPoints> a dsv:Column ;
+    rdfs:label " Global Conflicts' Turning Points " .
+
+<http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/IdeologiesFounders> a dsv:Column ;
+    rdfs:label " Ideologies' Founders " .
+
+<http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/IndustrialErasInventions> a dsv:Column ;
+    rdfs:label " Industrial Era's Inventions " .
+
+<http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/LiteraryGenres> a dsv:Column ;
+    rdfs:label " Literary Genres." .
+
+<http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/MedievalSocietiesCustoms> a dsv:Column ;
+    rdfs:label " Medieval Societies' Customs " .
+
+<http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/column/RenaissanceArtists> a dsv:Column ;
+    rdfs:label " Renaissance Artists " .
+
+<http://metaUnionSearch/datasets/WorldHistoryE30MY5ZP/datasetSchema> a dsv:DatasetSchema .
+

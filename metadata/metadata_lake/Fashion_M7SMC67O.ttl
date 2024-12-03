@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FashionM7SMC67O> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_M7SMC67O.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/FashionM7SMC67O/column/actualsellingamount>,
+        <http://metaUnionSearch/datasets/FashionM7SMC67O/column/brandnameoriginal>,
+        <http://metaUnionSearch/datasets/FashionM7SMC67O/column/clothingtype>,
+        <http://metaUnionSearch/datasets/FashionM7SMC67O/column/color>,
+        <http://metaUnionSearch/datasets/FashionM7SMC67O/column/designercollaborationflag>,
+        <http://metaUnionSearch/datasets/FashionM7SMC67O/column/fashionitemid>,
+        <http://metaUnionSearch/datasets/FashionM7SMC67O/column/material>,
+        <http://metaUnionSearch/datasets/FashionM7SMC67O/column/priceperunit>,
+        <http://metaUnionSearch/datasets/FashionM7SMC67O/column/purchasedate>,
+        <http://metaUnionSearch/datasets/FashionM7SMC67O/column/returnpolicy>,
+        <http://metaUnionSearch/datasets/FashionM7SMC67O/column/salestatusdiscountpercentageoff>,
+        <http://metaUnionSearch/datasets/FashionM7SMC67O/column/size>,
+        <http://metaUnionSearch/datasets/FashionM7SMC67O/column/store> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FashionM7SMC67O/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FashionM7SMC67O/column/actualsellingamount> a dsv:Column ;
+    rdfs:label " actual selling amount" .
+
+<http://metaUnionSearch/datasets/FashionM7SMC67O/column/brandnameoriginal> a dsv:Column ;
+    rdfs:label " brand name original" .
+
+<http://metaUnionSearch/datasets/FashionM7SMC67O/column/clothingtype> a dsv:Column ;
+    rdfs:label " clothing type" .
+
+<http://metaUnionSearch/datasets/FashionM7SMC67O/column/color> a dsv:Column ;
+    rdfs:label " color" .
+
+<http://metaUnionSearch/datasets/FashionM7SMC67O/column/designercollaborationflag> a dsv:Column ;
+    rdfs:label " designer collaboration flag" .
+
+<http://metaUnionSearch/datasets/FashionM7SMC67O/column/fashionitemid> a dsv:Column ;
+    rdfs:label "fashion item id" .
+
+<http://metaUnionSearch/datasets/FashionM7SMC67O/column/material> a dsv:Column ;
+    rdfs:label " material" .
+
+<http://metaUnionSearch/datasets/FashionM7SMC67O/column/priceperunit> a dsv:Column ;
+    rdfs:label " price per unit$" .
+
+<http://metaUnionSearch/datasets/FashionM7SMC67O/column/purchasedate> a dsv:Column ;
+    rdfs:label " purchase date" .
+
+<http://metaUnionSearch/datasets/FashionM7SMC67O/column/returnpolicy> a dsv:Column ;
+    rdfs:label " return policy" .
+
+<http://metaUnionSearch/datasets/FashionM7SMC67O/column/salestatusdiscountpercentageoff> a dsv:Column ;
+    rdfs:label " sale status [discount] percentage off" .
+
+<http://metaUnionSearch/datasets/FashionM7SMC67O/column/size> a dsv:Column ;
+    rdfs:label " size" .
+
+<http://metaUnionSearch/datasets/FashionM7SMC67O/column/store> a dsv:Column ;
+    rdfs:label " store" .
+
+<http://metaUnionSearch/datasets/FashionM7SMC67O/datasetSchema> a dsv:DatasetSchema .
+

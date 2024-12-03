@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_G1X3J1L7.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/ArchitecturalInfluences>,
+        <http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/ArtisticInteractionsCollaborations>,
+        <http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/CommonSymbolisminArt>,
+        <http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/CulturalExchangeImpact>,
+        <http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/DominantSocialStructures>,
+        <http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/ImpactofScienceTechnology>,
+        <http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/InfluentialLiteraturePhilosophy>,
+        <http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/PatronageSponsorship>,
+        <http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/PrevailingReligiousBeliefs>,
+        <http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/TradeCommerceRoutes> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/ArchitecturalInfluences> a dsv:Column ;
+    rdfs:label " Architectural Influences" .
+
+<http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/ArtisticInteractionsCollaborations> a dsv:Column ;
+    rdfs:label " Artistic Interactions & Collaborations" .
+
+<http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/CommonSymbolisminArt> a dsv:Column ;
+    rdfs:label " Common Symbolism in Art" .
+
+<http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/CulturalExchangeImpact> a dsv:Column ;
+    rdfs:label " Cultural Exchange Impact." .
+
+<http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/DominantSocialStructures> a dsv:Column ;
+    rdfs:label "Dominant Social Structures" .
+
+<http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/ImpactofScienceTechnology> a dsv:Column ;
+    rdfs:label " Impact of Science & Technology" .
+
+<http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/InfluentialLiteraturePhilosophy> a dsv:Column ;
+    rdfs:label " Influential Literature & Philosophy" .
+
+<http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/PatronageSponsorship> a dsv:Column ;
+    rdfs:label " Patronage & Sponsorship" .
+
+<http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/PrevailingReligiousBeliefs> a dsv:Column ;
+    rdfs:label " Prevailing Religious Beliefs" .
+
+<http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/column/TradeCommerceRoutes> a dsv:Column ;
+    rdfs:label " Trade & Commerce Routes" .
+
+<http://metaUnionSearch/datasets/ArtHistoryG1X3J1L7/datasetSchema> a dsv:DatasetSchema .
+

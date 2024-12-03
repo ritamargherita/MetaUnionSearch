@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoliticsXZXCZD9M> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_XZXCZD9M.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/AgeRestrictionsForVotersAndContestants>,
+        <http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/AverageCampaignExpensesPerCandidate>,
+        <http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/ElectionsData>,
+        <http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/FrequencyOfElection>,
+        <http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/LegislativeBranchStructureInformation>,
+        <http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/MediaAccessDuringCampaigning>,
+        <http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/MinisterialPositionDetails>,
+        <http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/NumberOfGenerationsInPower>,
+        <http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/ParliamentaryImmunityRegulations>,
+        <http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/PoliticalDynastiesDetails>,
+        <http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/RelativesInPoliticsCount>,
+        <http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/VoterTurnoutRates>,
+        <http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/VotingMethodExplanation> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoliticsXZXCZD9M/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/AgeRestrictionsForVotersAndContestants> a dsv:Column ;
+    rdfs:label " AgeRestrictionsForVotersAndContestants" .
+
+<http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/AverageCampaignExpensesPerCandidate> a dsv:Column ;
+    rdfs:label " AverageCampaignExpensesPerCandidate" .
+
+<http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/ElectionsData> a dsv:Column ;
+    rdfs:label "Elections Data" .
+
+<http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/FrequencyOfElection> a dsv:Column ;
+    rdfs:label " Frequency Of Election" .
+
+<http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/LegislativeBranchStructureInformation> a dsv:Column ;
+    rdfs:label " LegislativeBranchStructureInformation" .
+
+<http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/MediaAccessDuringCampaigning> a dsv:Column ;
+    rdfs:label " MediaAccessDuringCampaigning" .
+
+<http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/MinisterialPositionDetails> a dsv:Column ;
+    rdfs:label " MinisterialPositionDetails" .
+
+<http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/NumberOfGenerationsInPower> a dsv:Column ;
+    rdfs:label " NumberOfGenerationsInPower" .
+
+<http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/ParliamentaryImmunityRegulations> a dsv:Column ;
+    rdfs:label " ParliamentaryImmunityRegulations" .
+
+<http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/PoliticalDynastiesDetails> a dsv:Column ;
+    rdfs:label " Political Dynasties Details" .
+
+<http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/RelativesInPoliticsCount> a dsv:Column ;
+    rdfs:label " RelativesInPoliticsCount" .
+
+<http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/VoterTurnoutRates> a dsv:Column ;
+    rdfs:label " Voter Turnout Rates%" .
+
+<http://metaUnionSearch/datasets/PoliticsXZXCZD9M/column/VotingMethodExplanation> a dsv:Column ;
+    rdfs:label " VotingMethodExplanation" .
+
+<http://metaUnionSearch/datasets/PoliticsXZXCZD9M/datasetSchema> a dsv:DatasetSchema .
+

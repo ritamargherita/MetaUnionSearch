@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArtsNC9Q884J> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_NC9Q884J.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/ArchitectureStyle>,
+        <http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/Capacity>,
+        <http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/ConstructionYear>,
+        <http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/EducationalPrograms>,
+        <http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/MainCurtainWeight>,
+        <http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/MainStageDimensions>,
+        <http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/OfBalconies>,
+        <http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/SeatingOccupancy>,
+        <http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/TheaterType>,
+        <http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/TicketPriceRangeminmax> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/ArchitectureStyle> a dsv:Column ;
+    rdfs:label " Architecture Style" .
+
+<http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/Capacity> a dsv:Column ;
+    rdfs:label " Capacity " .
+
+<http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/ConstructionYear> a dsv:Column ;
+    rdfs:label " Construction Year" .
+
+<http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/EducationalPrograms> a dsv:Column ;
+    rdfs:label " '§' Educational Programs(*_*)" .
+
+<http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/MainCurtainWeight> a dsv:Column ;
+    rdfs:label " Main Curtain Weight" .
+
+<http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/MainStageDimensions> a dsv:Column ;
+    rdfs:label " Main Stage Dimensions" .
+
+<http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/OfBalconies> a dsv:Column ;
+    rdfs:label " # Of Balconies" .
+
+<http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/SeatingOccupancy> a dsv:Column ;
+    rdfs:label " % Seating Occupancy" .
+
+<http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/TheaterType> a dsv:Column ;
+    rdfs:label "Theater Type" .
+
+<http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/column/TicketPriceRangeminmax> a dsv:Column ;
+    rdfs:label " $ Ticket Price Range (min-$ max$-)" .
+
+<http://metaUnionSearch/datasets/PerformingArtsNC9Q884J/datasetSchema> a dsv:DatasetSchema .
+

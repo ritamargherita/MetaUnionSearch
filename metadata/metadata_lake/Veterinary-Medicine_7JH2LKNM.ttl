@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_7JH2LKNM.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/AdditionalTherapiesNeeded>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/AdvancedAnalytics>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/FollowupExamDate>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/InitialWeight>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/PaymentMethod>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/RecheckAppointment>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/SpeciesDistribution>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/StrainInformation>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/SymptomSeverityLevel>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/TreatingVeterinarian> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/AdditionalTherapiesNeeded> a dsv:Column ;
+    rdfs:label " Additional Therapies Needed" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/AdvancedAnalytics> a dsv:Column ;
+    rdfs:label "Advanced Analytics" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/FollowupExamDate> a dsv:Column ;
+    rdfs:label " Followup Exam Date" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/InitialWeight> a dsv:Column ;
+    rdfs:label " Initial Weight" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/PaymentMethod> a dsv:Column ;
+    rdfs:label " Payment Method" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/RecheckAppointment> a dsv:Column ;
+    rdfs:label " Recheck Appointment" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/SpeciesDistribution> a dsv:Column ;
+    rdfs:label " Species Distribution" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/StrainInformation> a dsv:Column ;
+    rdfs:label " Strain Information" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/SymptomSeverityLevel> a dsv:Column ;
+    rdfs:label " Symptom Severity Level" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/column/TreatingVeterinarian> a dsv:Column ;
+    rdfs:label " Treating Veterinarian" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7JH2LKNM/datasetSchema> a dsv:DatasetSchema .
+

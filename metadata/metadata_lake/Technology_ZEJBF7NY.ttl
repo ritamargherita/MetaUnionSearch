@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologyZEJBF7NY> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_ZEJBF7NY.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/AugmentedRealityGrowth>,
+        <http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/AutonomousVehiclesDesigners>,
+        <http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/BlockchainAdoptionPercentage>,
+        <http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/CryptocurrencyMarketAnalysis>,
+        <http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/CybersecurityTrendsWatch>,
+        <http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/InternetofThingsInnovators>,
+        <http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/PrivacyInfringementsCaseStudiesAccountablePartiesTrackerRegulatoryChangesImpactPublicOpinionPollBuzzEducationalTechnologyOutlookWorkforceUpskillingNeedsEnvironmentalFootprintAssessmentforSocietalSustainableDevelopingGoalsGeopoliticalLandscapesStudiedTechnologicalUncertaintiesAheadQuarterlyFintechInnovationReportsMonthlyNanotechnologyPatentsReview>,
+        <http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/QuantumComputingProgress>,
+        <http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/RoboticsMilestones>,
+        <http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/SocialMediaStrategiesEvaluationandUserGeneratedContentAnalytics>,
+        <http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/VirtualRealityDevelopments> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologyZEJBF7NY/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/AugmentedRealityGrowth> a dsv:Column ;
+    rdfs:label " Augmented Reality Growth" .
+
+<http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/AutonomousVehiclesDesigners> a dsv:Column ;
+    rdfs:label " Autonomous Vehicles Designers" .
+
+<http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/BlockchainAdoptionPercentage> a dsv:Column ;
+    rdfs:label " Blockchain Adoption Percentage" .
+
+<http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/CryptocurrencyMarketAnalysis> a dsv:Column ;
+    rdfs:label " Cryptocurrency Market Analysis" .
+
+<http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/CybersecurityTrendsWatch> a dsv:Column ;
+    rdfs:label " Cybersecurity Trends Watch" .
+
+<http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/InternetofThingsInnovators> a dsv:Column ;
+    rdfs:label " Internet of Things Innovators" .
+
+<http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/PrivacyInfringementsCaseStudiesAccountablePartiesTrackerRegulatoryChangesImpactPublicOpinionPollBuzzEducationalTechnologyOutlookWorkforceUpskillingNeedsEnvironmentalFootprintAssessmentforSocietalSustainableDevelopingGoalsGeopoliticalLandscapesStudiedTechnologicalUncertaintiesAheadQuarterlyFintechInnovationReportsMonthlyNanotechnologyPatentsReview> a dsv:Column ;
+    rdfs:label " Privacy Infringements Case Studies, Accountable Parties Tracker, Regulatory Changes Impact, Public Opinion Poll Buzz, Educational Technology Outlook, Workforce Upskilling Needs, Environmental Footprint Assessment for Societal Sustainable Developing Goals, Geopolitical Landscapes Studied, Technological Uncertainties Ahead, Quarterly Fintech Innovation Reports, Monthly Nanotechnology Patents Review" .
+
+<http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/QuantumComputingProgress> a dsv:Column ;
+    rdfs:label "Quantum Computing Progress" .
+
+<http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/RoboticsMilestones> a dsv:Column ;
+    rdfs:label " Robotics Milestones" .
+
+<http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/SocialMediaStrategiesEvaluationandUserGeneratedContentAnalytics> a dsv:Column ;
+    rdfs:label " Social Media Strategies Evaluation and User Generated Content Analytics" .
+
+<http://metaUnionSearch/datasets/TechnologyZEJBF7NY/column/VirtualRealityDevelopments> a dsv:Column ;
+    rdfs:label " Virtual Reality Developments" .
+
+<http://metaUnionSearch/datasets/TechnologyZEJBF7NY/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_HSXOOI4J.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/CultureHSXOOI4J/column/ArchitectureStyles>,
+        <http://metaUnionSearch/datasets/CultureHSXOOI4J/column/ArtMovements>,
+        <http://metaUnionSearch/datasets/CultureHSXOOI4J/column/CinemaMedia>,
+        <http://metaUnionSearch/datasets/CultureHSXOOI4J/column/CulturalLandmarks>,
+        <http://metaUnionSearch/datasets/CultureHSXOOI4J/column/DanceForms>,
+        <http://metaUnionSearch/datasets/CultureHSXOOI4J/column/Folktales>,
+        <http://metaUnionSearch/datasets/CultureHSXOOI4J/column/HistoricalPlaces>,
+        <http://metaUnionSearch/datasets/CultureHSXOOI4J/column/LiteraryFigures>,
+        <http://metaUnionSearch/datasets/CultureHSXOOI4J/column/Literature>,
+        <http://metaUnionSearch/datasets/CultureHSXOOI4J/column/MuseumsGalleries>,
+        <http://metaUnionSearch/datasets/CultureHSXOOI4J/column/MusicalInstruments>,
+        <http://metaUnionSearch/datasets/CultureHSXOOI4J/column/NationalHolidays>,
+        <http://metaUnionSearch/datasets/CultureHSXOOI4J/column/RecreationalActivities>,
+        <http://metaUnionSearch/datasets/CultureHSXOOI4J/column/Sports>,
+        <http://metaUnionSearch/datasets/CultureHSXOOI4J/column/VisualArts> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CultureHSXOOI4J/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J/column/ArchitectureStyles> a dsv:Column ;
+    rdfs:label " Architecture Styles" .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J/column/ArtMovements> a dsv:Column ;
+    rdfs:label " Art Movements" .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J/column/CinemaMedia> a dsv:Column ;
+    rdfs:label " Cinema & Media" .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J/column/CulturalLandmarks> a dsv:Column ;
+    rdfs:label " Cultural Landmarks" .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J/column/DanceForms> a dsv:Column ;
+    rdfs:label " Dance Forms" .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J/column/Folktales> a dsv:Column ;
+    rdfs:label " Folktales" .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J/column/HistoricalPlaces> a dsv:Column ;
+    rdfs:label " Historical Places" .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J/column/LiteraryFigures> a dsv:Column ;
+    rdfs:label " Literary Figures" .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J/column/Literature> a dsv:Column ;
+    rdfs:label "Literature" .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J/column/MuseumsGalleries> a dsv:Column ;
+    rdfs:label " Museums & Galleries" .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J/column/MusicalInstruments> a dsv:Column ;
+    rdfs:label " Musical Instruments" .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J/column/NationalHolidays> a dsv:Column ;
+    rdfs:label " National Holidays" .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J/column/RecreationalActivities> a dsv:Column ;
+    rdfs:label " Recreational Activities" .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J/column/Sports> a dsv:Column ;
+    rdfs:label " Sports" .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J/column/VisualArts> a dsv:Column ;
+    rdfs:label " Visual Arts" .
+
+<http://metaUnionSearch/datasets/CultureHSXOOI4J/datasetSchema> a dsv:DatasetSchema .
+

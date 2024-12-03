@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologyNE9NNOVJ> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_NE9NNOVJ.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/AugmentedRealityIntegration>,
+        <http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/AutonomousVehicleControl>,
+        <http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/CybersecurityProtocols>,
+        <http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/DroneNavigationSystems>,
+        <http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/EcoFriendliness>,
+        <http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/RideHailingServices>,
+        <http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/SelfDrivingCars>,
+        <http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/SmartHomeDevices>,
+        <http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/VirtualAssistant>,
+        <http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/WarehouseOperations> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/AugmentedRealityIntegration> a dsv:Column ;
+    rdfs:label " Augmented Reality Integration" .
+
+<http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/AutonomousVehicleControl> a dsv:Column ;
+    rdfs:label " Autonomous Vehicle Control" .
+
+<http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/CybersecurityProtocols> a dsv:Column ;
+    rdfs:label " Cybersecurity Protocols" .
+
+<http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/DroneNavigationSystems> a dsv:Column ;
+    rdfs:label "Drone Navigation Systems" .
+
+<http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/EcoFriendliness> a dsv:Column ;
+    rdfs:label " Eco-Friendliness" .
+
+<http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/RideHailingServices> a dsv:Column ;
+    rdfs:label " Ride-Hailing Services" .
+
+<http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/SelfDrivingCars> a dsv:Column ;
+    rdfs:label " Self-Driving Cars" .
+
+<http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/SmartHomeDevices> a dsv:Column ;
+    rdfs:label " Smart Home Devices" .
+
+<http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/VirtualAssistant> a dsv:Column ;
+    rdfs:label " Virtual Assistant" .
+
+<http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/column/WarehouseOperations> a dsv:Column ;
+    rdfs:label " Warehouse Operations" .
+
+<http://metaUnionSearch/datasets/TechnologyNE9NNOVJ/datasetSchema> a dsv:DatasetSchema .
+

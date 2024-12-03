@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EcologyC9Y7DMS2> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_C9Y7DMS2.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/BiodiversityHotspots>,
+        <http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/CarbonSequestration>,
+        <http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/ClimateChangeImpact>,
+        <http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/EcologicalFootprint>,
+        <http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/EcologicalRestoration>,
+        <http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/EndangeredSpecies>,
+        <http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/InvasiveSpecies>,
+        <http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/NativeSpecies>,
+        <http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/ProtectedAreas>,
+        <http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/SustainablePractices>,
+        <http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/ThreatenedEcosystems> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EcologyC9Y7DMS2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/BiodiversityHotspots> a dsv:Column ;
+    rdfs:label " Biodiversity Hotspots" .
+
+<http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/CarbonSequestration> a dsv:Column ;
+    rdfs:label " Carbon Sequestration" .
+
+<http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/ClimateChangeImpact> a dsv:Column ;
+    rdfs:label " Climate Change Impact." .
+
+<http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/EcologicalFootprint> a dsv:Column ;
+    rdfs:label " Ecological Footprint" .
+
+<http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/EcologicalRestoration> a dsv:Column ;
+    rdfs:label " Ecological Restoration" .
+
+<http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/EndangeredSpecies> a dsv:Column ;
+    rdfs:label " Endangered Species" .
+
+<http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/InvasiveSpecies> a dsv:Column ;
+    rdfs:label "Invasive Species" .
+
+<http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/NativeSpecies> a dsv:Column ;
+    rdfs:label " Native Species" .
+
+<http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/ProtectedAreas> a dsv:Column ;
+    rdfs:label " Protected Areas" .
+
+<http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/SustainablePractices> a dsv:Column ;
+    rdfs:label " Sustainable Practices" .
+
+<http://metaUnionSearch/datasets/EcologyC9Y7DMS2/column/ThreatenedEcosystems> a dsv:Column ;
+    rdfs:label " Threatened Ecosystems" .
+
+<http://metaUnionSearch/datasets/EcologyC9Y7DMS2/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CultureD96M8JKU> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_D96M8JKU.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/CultureD96M8JKU/column/ArchitectureStyles>,
+        <http://metaUnionSearch/datasets/CultureD96M8JKU/column/Celebrations>,
+        <http://metaUnionSearch/datasets/CultureD96M8JKU/column/CinemaTVShows>,
+        <http://metaUnionSearch/datasets/CultureD96M8JKU/column/DanceForms>,
+        <http://metaUnionSearch/datasets/CultureD96M8JKU/column/HistoricalPlaces>,
+        <http://metaUnionSearch/datasets/CultureD96M8JKU/column/Literature>,
+        <http://metaUnionSearch/datasets/CultureD96M8JKU/column/NationalHolidays>,
+        <http://metaUnionSearch/datasets/CultureD96M8JKU/column/SportsGames>,
+        <http://metaUnionSearch/datasets/CultureD96M8JKU/column/TraditionalCrafts>,
+        <http://metaUnionSearch/datasets/CultureD96M8JKU/column/VisualArts> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CultureD96M8JKU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CultureD96M8JKU/column/ArchitectureStyles> a dsv:Column ;
+    rdfs:label " Architecture Styles" .
+
+<http://metaUnionSearch/datasets/CultureD96M8JKU/column/Celebrations> a dsv:Column ;
+    rdfs:label " Celebrations" .
+
+<http://metaUnionSearch/datasets/CultureD96M8JKU/column/CinemaTVShows> a dsv:Column ;
+    rdfs:label " Cinema & TV Shows" .
+
+<http://metaUnionSearch/datasets/CultureD96M8JKU/column/DanceForms> a dsv:Column ;
+    rdfs:label " Dance Forms" .
+
+<http://metaUnionSearch/datasets/CultureD96M8JKU/column/HistoricalPlaces> a dsv:Column ;
+    rdfs:label " Historical Places" .
+
+<http://metaUnionSearch/datasets/CultureD96M8JKU/column/Literature> a dsv:Column ;
+    rdfs:label "Literature" .
+
+<http://metaUnionSearch/datasets/CultureD96M8JKU/column/NationalHolidays> a dsv:Column ;
+    rdfs:label " National Holidays" .
+
+<http://metaUnionSearch/datasets/CultureD96M8JKU/column/SportsGames> a dsv:Column ;
+    rdfs:label " Sports & Games" .
+
+<http://metaUnionSearch/datasets/CultureD96M8JKU/column/TraditionalCrafts> a dsv:Column ;
+    rdfs:label " Traditional Crafts" .
+
+<http://metaUnionSearch/datasets/CultureD96M8JKU/column/VisualArts> a dsv:Column ;
+    rdfs:label " Visual Arts" .
+
+<http://metaUnionSearch/datasets/CultureD96M8JKU/datasetSchema> a dsv:DatasetSchema .
+

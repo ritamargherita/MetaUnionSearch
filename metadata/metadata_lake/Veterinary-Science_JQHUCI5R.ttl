@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_JQHUCI5R.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/AdditionalTestsResult>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/AllergiesTestResults>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/AppointmentsHistory>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/DiagnosticImagingReport>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/FollowupVisit>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/MedicationDosageInstructions>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/OwnerContactInfo>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/PrescribedMedicationsDetails>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/RehabilitationTherapySchedule>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/SpecialDietaryGuidelines>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/VeterinarianNotes> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/AdditionalTestsResult> a dsv:Column ;
+    rdfs:label "Additional Tests Result" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/AllergiesTestResults> a dsv:Column ;
+    rdfs:label " Allergies Test Results " .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/AppointmentsHistory> a dsv:Column ;
+    rdfs:label " Appointments History" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/DiagnosticImagingReport> a dsv:Column ;
+    rdfs:label " Diagnostic Imaging Report" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/FollowupVisit> a dsv:Column ;
+    rdfs:label " Follow-up Visit" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/MedicationDosageInstructions> a dsv:Column ;
+    rdfs:label " Medication Dosage Instructions" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/OwnerContactInfo> a dsv:Column ;
+    rdfs:label " Owner Contact Info" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/PrescribedMedicationsDetails> a dsv:Column ;
+    rdfs:label " Prescribed Medications Details" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/RehabilitationTherapySchedule> a dsv:Column ;
+    rdfs:label " Rehabilitation Therapy Schedule" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/SpecialDietaryGuidelines> a dsv:Column ;
+    rdfs:label " Special Dietary Guidelines" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/column/VeterinarianNotes> a dsv:Column ;
+    rdfs:label " Veterinarian Notes" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceJQHUCI5R/datasetSchema> a dsv:DatasetSchema .
+

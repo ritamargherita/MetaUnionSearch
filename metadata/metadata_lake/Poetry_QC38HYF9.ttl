@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryQC38HYF9> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_QC38HYF9.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryQC38HYF9/column/ContextualAmbiguity>,
+        <http://metaUnionSearch/datasets/PoetryQC38HYF9/column/EmotionalIntensity>,
+        <http://metaUnionSearch/datasets/PoetryQC38HYF9/column/FormalElementsAdapted>,
+        <http://metaUnionSearch/datasets/PoetryQC38HYF9/column/InfluencesonthePoet>,
+        <http://metaUnionSearch/datasets/PoetryQC38HYF9/column/InitialReception>,
+        <http://metaUnionSearch/datasets/PoetryQC38HYF9/column/LevelsofAbstraction>,
+        <http://metaUnionSearch/datasets/PoetryQC38HYF9/column/NarrativeStructure>,
+        <http://metaUnionSearch/datasets/PoetryQC38HYF9/column/ParallelismandRepetition>,
+        <http://metaUnionSearch/datasets/PoetryQC38HYF9/column/PoeticForm>,
+        <http://metaUnionSearch/datasets/PoetryQC38HYF9/column/PoetsCountryofOrigin>,
+        <http://metaUnionSearch/datasets/PoetryQC38HYF9/column/PublicationYear>,
+        <http://metaUnionSearch/datasets/PoetryQC38HYF9/column/UseofSarcasm> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryQC38HYF9/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryQC38HYF9/column/ContextualAmbiguity> a dsv:Column ;
+    rdfs:label " Contextual Ambiguity" .
+
+<http://metaUnionSearch/datasets/PoetryQC38HYF9/column/EmotionalIntensity> a dsv:Column ;
+    rdfs:label " Emotional Intensity" .
+
+<http://metaUnionSearch/datasets/PoetryQC38HYF9/column/FormalElementsAdapted> a dsv:Column ;
+    rdfs:label " Formal Elements Adapted" .
+
+<http://metaUnionSearch/datasets/PoetryQC38HYF9/column/InfluencesonthePoet> a dsv:Column ;
+    rdfs:label " Influences on the Poet" .
+
+<http://metaUnionSearch/datasets/PoetryQC38HYF9/column/InitialReception> a dsv:Column ;
+    rdfs:label " Initial Reception" .
+
+<http://metaUnionSearch/datasets/PoetryQC38HYF9/column/LevelsofAbstraction> a dsv:Column ;
+    rdfs:label " Levels of Abstraction" .
+
+<http://metaUnionSearch/datasets/PoetryQC38HYF9/column/NarrativeStructure> a dsv:Column ;
+    rdfs:label " Narrative Structure" .
+
+<http://metaUnionSearch/datasets/PoetryQC38HYF9/column/ParallelismandRepetition> a dsv:Column ;
+    rdfs:label " Parallelism and Repetition" .
+
+<http://metaUnionSearch/datasets/PoetryQC38HYF9/column/PoeticForm> a dsv:Column ;
+    rdfs:label " Poetic Form" .
+
+<http://metaUnionSearch/datasets/PoetryQC38HYF9/column/PoetsCountryofOrigin> a dsv:Column ;
+    rdfs:label "Poet's Country of Origin" .
+
+<http://metaUnionSearch/datasets/PoetryQC38HYF9/column/PublicationYear> a dsv:Column ;
+    rdfs:label " Publication Year" .
+
+<http://metaUnionSearch/datasets/PoetryQC38HYF9/column/UseofSarcasm> a dsv:Column ;
+    rdfs:label " Use of Sarcasm" .
+
+<http://metaUnionSearch/datasets/PoetryQC38HYF9/datasetSchema> a dsv:DatasetSchema .
+

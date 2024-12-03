@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathG1OL73D9> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_G1OL73D9.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinArt>,
+        <http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinBusiness>,
+        <http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinDailyLife>,
+        <http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinFilm>,
+        <http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinGames>,
+        <http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinLiterature>,
+        <http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinMusic>,
+        <http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinNature>,
+        <http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinPopCulture>,
+        <http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinSports>,
+        <http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinTechnology> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathG1OL73D9/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinArt> a dsv:Column ;
+    rdfs:label "\"Math in Art\"" .
+
+<http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinBusiness> a dsv:Column ;
+    rdfs:label "\"Math in Business\"" .
+
+<http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinDailyLife> a dsv:Column ;
+    rdfs:label "\"Math in Daily Life\"" .
+
+<http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinFilm> a dsv:Column ;
+    rdfs:label "\"Math in Film\"" .
+
+<http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinGames> a dsv:Column ;
+    rdfs:label "\"Math in Games\"" .
+
+<http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinLiterature> a dsv:Column ;
+    rdfs:label "\"Math in Literature\"" .
+
+<http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinMusic> a dsv:Column ;
+    rdfs:label "\"Math in Music\"" .
+
+<http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinNature> a dsv:Column ;
+    rdfs:label "\"Math in Nature\"" .
+
+<http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinPopCulture> a dsv:Column ;
+    rdfs:label "\"Math in Pop Culture\"" .
+
+<http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinSports> a dsv:Column ;
+    rdfs:label "\"Math in Sports\"" .
+
+<http://metaUnionSearch/datasets/MathG1OL73D9/column/MathinTechnology> a dsv:Column ;
+    rdfs:label "\"Math in Technology\"" .
+
+<http://metaUnionSearch/datasets/MathG1OL73D9/datasetSchema> a dsv:DatasetSchema .
+

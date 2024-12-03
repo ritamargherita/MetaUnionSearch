@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EcologyU3P1ZCYU> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_U3P1ZCYU.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/BiodiverseRichnessIndex>,
+        <http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/CarbonSequestrationRates>,
+        <http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/ClimaticStabilityImpacts>,
+        <http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/CulturalSignificanceScores>,
+        <http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/EcologicalFootprint>,
+        <http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/EconomicEvaluationEstimation>,
+        <http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/EcosystemServices>,
+        <http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/HabitatsConnectivityRatings>,
+        <http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/NutrientCyclingEfficiency>,
+        <http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/OxygenProductionValues>,
+        <http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/PollinationContributions>,
+        <http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/RecreationalUseValueIndicators>,
+        <http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/WaterPurificationLevels> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EcologyU3P1ZCYU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/BiodiverseRichnessIndex> a dsv:Column ;
+    rdfs:label " Biodiverse Richness Index" .
+
+<http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/CarbonSequestrationRates> a dsv:Column ;
+    rdfs:label " Carbon Sequestration Rates" .
+
+<http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/ClimaticStabilityImpacts> a dsv:Column ;
+    rdfs:label " Climatic Stability Impacts" .
+
+<http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/CulturalSignificanceScores> a dsv:Column ;
+    rdfs:label " Cultural Significance Scores" .
+
+<http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/EcologicalFootprint> a dsv:Column ;
+    rdfs:label " Ecological Footprint" .
+
+<http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/EconomicEvaluationEstimation> a dsv:Column ;
+    rdfs:label " Economic Evaluation Estimation" .
+
+<http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/EcosystemServices> a dsv:Column ;
+    rdfs:label "Ecosystem Services" .
+
+<http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/HabitatsConnectivityRatings> a dsv:Column ;
+    rdfs:label " Habitats Connectivity Ratings" .
+
+<http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/NutrientCyclingEfficiency> a dsv:Column ;
+    rdfs:label " Nutrient Cycling Efficiency" .
+
+<http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/OxygenProductionValues> a dsv:Column ;
+    rdfs:label " Oxygen Production Values" .
+
+<http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/PollinationContributions> a dsv:Column ;
+    rdfs:label " Pollination Contributions" .
+
+<http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/RecreationalUseValueIndicators> a dsv:Column ;
+    rdfs:label " Recreational Use Value Indicators" .
+
+<http://metaUnionSearch/datasets/EcologyU3P1ZCYU/column/WaterPurificationLevels> a dsv:Column ;
+    rdfs:label " Water Purification Levels" .
+
+<http://metaUnionSearch/datasets/EcologyU3P1ZCYU/datasetSchema> a dsv:DatasetSchema .
+

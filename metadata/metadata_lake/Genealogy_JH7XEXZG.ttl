@@ -1,0 +1,43 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GenealogyJH7XEXZG> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_JH7XEXZG.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/GenealogyJH7XEXZG/column/>,
+        <http://metaUnionSearch/datasets/GenealogyJH7XEXZG/column/AdoptionStatus>,
+        <http://metaUnionSearch/datasets/GenealogyJH7XEXZG/column/ChildGivenName>,
+        <http://metaUnionSearch/datasets/GenealogyJH7XEXZG/column/ChildMiddleName>,
+        <http://metaUnionSearch/datasets/GenealogyJH7XEXZG/column/ChildSSN>,
+        <http://metaUnionSearch/datasets/GenealogyJH7XEXZG/column/RelationToProband>,
+        <http://metaUnionSearch/datasets/GenealogyJH7XEXZG/column/SpouseGivenName>,
+        <http://metaUnionSearch/datasets/GenealogyJH7XEXZG/column/SpouseSSN> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GenealogyJH7XEXZG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GenealogyJH7XEXZG/column/> a dsv:Column ;
+    rdfs:label "\\" .
+
+<http://metaUnionSearch/datasets/GenealogyJH7XEXZG/column/AdoptionStatus> a dsv:Column ;
+    rdfs:label "AdoptionStatus" .
+
+<http://metaUnionSearch/datasets/GenealogyJH7XEXZG/column/ChildGivenName> a dsv:Column ;
+    rdfs:label "ChildGivenName" .
+
+<http://metaUnionSearch/datasets/GenealogyJH7XEXZG/column/ChildMiddleName> a dsv:Column ;
+    rdfs:label "ChildMiddleName" .
+
+<http://metaUnionSearch/datasets/GenealogyJH7XEXZG/column/ChildSSN> a dsv:Column ;
+    rdfs:label "ChildSSN" .
+
+<http://metaUnionSearch/datasets/GenealogyJH7XEXZG/column/RelationToProband> a dsv:Column ;
+    rdfs:label "RelationToProband" .
+
+<http://metaUnionSearch/datasets/GenealogyJH7XEXZG/column/SpouseGivenName> a dsv:Column ;
+    rdfs:label "SpouseGivenName" .
+
+<http://metaUnionSearch/datasets/GenealogyJH7XEXZG/column/SpouseSSN> a dsv:Column ;
+    rdfs:label "SpouseSSN" .
+
+<http://metaUnionSearch/datasets/GenealogyJH7XEXZG/datasetSchema> a dsv:DatasetSchema .
+

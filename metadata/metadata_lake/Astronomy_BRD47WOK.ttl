@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronomyBRD47WOK> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_BRD47WOK.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/ConstellationsLocatedIn>,
+        <http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/DustDistribution>,
+        <http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/GasComposition>,
+        <http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/MagneticFieldStrength>,
+        <http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/NebulaCategory>,
+        <http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/NebulaName>,
+        <http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/RadiationLevel>,
+        <http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/RotationalPeriod>,
+        <http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/Sizelightyears>,
+        <http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/StarFormationRate>,
+        <http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/TemperatureK> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronomyBRD47WOK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/ConstellationsLocatedIn> a dsv:Column ;
+    rdfs:label " Constellations Located In" .
+
+<http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/DustDistribution> a dsv:Column ;
+    rdfs:label " Dust Distribution" .
+
+<http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/GasComposition> a dsv:Column ;
+    rdfs:label " Gas Composition (%)" .
+
+<http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/MagneticFieldStrength> a dsv:Column ;
+    rdfs:label " Magnetic Field Strength" .
+
+<http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/NebulaCategory> a dsv:Column ;
+    rdfs:label " Nebula Category" .
+
+<http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/NebulaName> a dsv:Column ;
+    rdfs:label "`Nebula Name" .
+
+<http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/RadiationLevel> a dsv:Column ;
+    rdfs:label " Radiation Level" .
+
+<http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/RotationalPeriod> a dsv:Column ;
+    rdfs:label " Rotational Period`" .
+
+<http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/Sizelightyears> a dsv:Column ;
+    rdfs:label " Size (light years)" .
+
+<http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/StarFormationRate> a dsv:Column ;
+    rdfs:label " Star Formation Rate" .
+
+<http://metaUnionSearch/datasets/AstronomyBRD47WOK/column/TemperatureK> a dsv:Column ;
+    rdfs:label " Temperature (K)" .
+
+<http://metaUnionSearch/datasets/AstronomyBRD47WOK/datasetSchema> a dsv:DatasetSchema .
+

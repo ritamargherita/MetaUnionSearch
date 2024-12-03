@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MedicineVCZHN738> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_VCZHN738.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/MedicineVCZHN738/column/AdditionalInstructionsfromDoctor>,
+        <http://metaUnionSearch/datasets/MedicineVCZHN738/column/ConsultationFee>,
+        <http://metaUnionSearch/datasets/MedicineVCZHN738/column/FollowUpAppointmentDate>,
+        <http://metaUnionSearch/datasets/MedicineVCZHN738/column/FollowUpReason>,
+        <http://metaUnionSearch/datasets/MedicineVCZHN738/column/InsuranceCoverageAmount>,
+        <http://metaUnionSearch/datasets/MedicineVCZHN738/column/PaymentMethod>,
+        <http://metaUnionSearch/datasets/MedicineVCZHN738/column/PharmacistName>,
+        <http://metaUnionSearch/datasets/MedicineVCZHN738/column/PharmacyName>,
+        <http://metaUnionSearch/datasets/MedicineVCZHN738/column/PrescriptionCost>,
+        <http://metaUnionSearch/datasets/MedicineVCZHN738/column/SideEffectsExperienced> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MedicineVCZHN738/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MedicineVCZHN738/column/AdditionalInstructionsfromDoctor> a dsv:Column ;
+    rdfs:label "Additional Instructions from Doctor" .
+
+<http://metaUnionSearch/datasets/MedicineVCZHN738/column/ConsultationFee> a dsv:Column ;
+    rdfs:label "Consultation Fee" .
+
+<http://metaUnionSearch/datasets/MedicineVCZHN738/column/FollowUpAppointmentDate> a dsv:Column ;
+    rdfs:label "Follow Up Appointment Date" .
+
+<http://metaUnionSearch/datasets/MedicineVCZHN738/column/FollowUpReason> a dsv:Column ;
+    rdfs:label "Follow Up Reason" .
+
+<http://metaUnionSearch/datasets/MedicineVCZHN738/column/InsuranceCoverageAmount> a dsv:Column ;
+    rdfs:label "Insurance Coverage Amount" .
+
+<http://metaUnionSearch/datasets/MedicineVCZHN738/column/PaymentMethod> a dsv:Column ;
+    rdfs:label "Payment Method" .
+
+<http://metaUnionSearch/datasets/MedicineVCZHN738/column/PharmacistName> a dsv:Column ;
+    rdfs:label "Pharmacist Name" .
+
+<http://metaUnionSearch/datasets/MedicineVCZHN738/column/PharmacyName> a dsv:Column ;
+    rdfs:label "Pharmacy Name" .
+
+<http://metaUnionSearch/datasets/MedicineVCZHN738/column/PrescriptionCost> a dsv:Column ;
+    rdfs:label "Prescription Cost" .
+
+<http://metaUnionSearch/datasets/MedicineVCZHN738/column/SideEffectsExperienced> a dsv:Column ;
+    rdfs:label "Side Effects Experienced" .
+
+<http://metaUnionSearch/datasets/MedicineVCZHN738/datasetSchema> a dsv:DatasetSchema .
+

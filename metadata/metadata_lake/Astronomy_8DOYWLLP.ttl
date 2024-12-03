@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Astronomy8DOYWLLP> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_8DOYWLLP.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/DataAcquiredYear>,
+        <http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/NebulaAssociation>,
+        <http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/OrbitalPeriod>,
+        <http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/PlanetName>,
+        <http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/PlanetaryMass>,
+        <http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/Radius>,
+        <http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/RotationalSpeed>,
+        <http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/SatelliteCount>,
+        <http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/StellarBodyitOrbits>,
+        <http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/SurfaceComposition>,
+        <http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/Temperature> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Astronomy8DOYWLLP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/DataAcquiredYear> a dsv:Column ;
+    rdfs:label " Data Acquired Year`" .
+
+<http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/NebulaAssociation> a dsv:Column ;
+    rdfs:label " Nebula Association" .
+
+<http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/OrbitalPeriod> a dsv:Column ;
+    rdfs:label " Orbital Period" .
+
+<http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/PlanetName> a dsv:Column ;
+    rdfs:label "`Planet Name" .
+
+<http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/PlanetaryMass> a dsv:Column ;
+    rdfs:label " Planetary Mass" .
+
+<http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/Radius> a dsv:Column ;
+    rdfs:label " Radius" .
+
+<http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/RotationalSpeed> a dsv:Column ;
+    rdfs:label " Rotational Speed" .
+
+<http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/SatelliteCount> a dsv:Column ;
+    rdfs:label " Satellite Count" .
+
+<http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/StellarBodyitOrbits> a dsv:Column ;
+    rdfs:label " Stellar Body it Orbits" .
+
+<http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/SurfaceComposition> a dsv:Column ;
+    rdfs:label " Surface Composition" .
+
+<http://metaUnionSearch/datasets/Astronomy8DOYWLLP/column/Temperature> a dsv:Column ;
+    rdfs:label " Temperature" .
+
+<http://metaUnionSearch/datasets/Astronomy8DOYWLLP/datasetSchema> a dsv:DatasetSchema .
+

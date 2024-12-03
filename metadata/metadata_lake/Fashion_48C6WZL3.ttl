@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Fashion48C6WZL3> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_48C6WZL3.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Fashion48C6WZL3/column/CampaignReleaseDate>,
+        <http://metaUnionSearch/datasets/Fashion48C6WZL3/column/CelebrityInspiration>,
+        <http://metaUnionSearch/datasets/Fashion48C6WZL3/column/ConsumerPollRatingPercentage>,
+        <http://metaUnionSearch/datasets/Fashion48C6WZL3/column/DesignerName>,
+        <http://metaUnionSearch/datasets/Fashion48C6WZL3/column/FashionTrendsetter>,
+        <http://metaUnionSearch/datasets/Fashion48C6WZL3/column/MagazineFeatured>,
+        <http://metaUnionSearch/datasets/Fashion48C6WZL3/column/Model>,
+        <http://metaUnionSearch/datasets/Fashion48C6WZL3/column/PhotoCredits>,
+        <http://metaUnionSearch/datasets/Fashion48C6WZL3/column/RunwayTheme>,
+        <http://metaUnionSearch/datasets/Fashion48C6WZL3/column/SocialMediaBuzzPercentage> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Fashion48C6WZL3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Fashion48C6WZL3/column/CampaignReleaseDate> a dsv:Column ;
+    rdfs:label " Campaign Release Date" .
+
+<http://metaUnionSearch/datasets/Fashion48C6WZL3/column/CelebrityInspiration> a dsv:Column ;
+    rdfs:label " Celebrity Inspiration" .
+
+<http://metaUnionSearch/datasets/Fashion48C6WZL3/column/ConsumerPollRatingPercentage> a dsv:Column ;
+    rdfs:label " Consumer Poll Rating (Percentage)" .
+
+<http://metaUnionSearch/datasets/Fashion48C6WZL3/column/DesignerName> a dsv:Column ;
+    rdfs:label " Designer Name" .
+
+<http://metaUnionSearch/datasets/Fashion48C6WZL3/column/FashionTrendsetter> a dsv:Column ;
+    rdfs:label "Fashion Trendsetter" .
+
+<http://metaUnionSearch/datasets/Fashion48C6WZL3/column/MagazineFeatured> a dsv:Column ;
+    rdfs:label " Magazine Featured" .
+
+<http://metaUnionSearch/datasets/Fashion48C6WZL3/column/Model> a dsv:Column ;
+    rdfs:label " Model" .
+
+<http://metaUnionSearch/datasets/Fashion48C6WZL3/column/PhotoCredits> a dsv:Column ;
+    rdfs:label " Photo Credits" .
+
+<http://metaUnionSearch/datasets/Fashion48C6WZL3/column/RunwayTheme> a dsv:Column ;
+    rdfs:label " Runway Theme" .
+
+<http://metaUnionSearch/datasets/Fashion48C6WZL3/column/SocialMediaBuzzPercentage> a dsv:Column ;
+    rdfs:label " Social Media Buzz (Percentage)" .
+
+<http://metaUnionSearch/datasets/Fashion48C6WZL3/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoliticsUUMK5635> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_UUMK5635.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/PoliticsUUMK5635/column/AverageVoterTurnout>,
+        <http://metaUnionSearch/datasets/PoliticsUUMK5635/column/CampaignFinancingSources>,
+        <http://metaUnionSearch/datasets/PoliticsUUMK5635/column/ElectionsData>,
+        <http://metaUnionSearch/datasets/PoliticsUUMK5635/column/FrequencyOfElections>,
+        <http://metaUnionSearch/datasets/PoliticsUUMK5635/column/GenderBreakdownofRegisteredVoters>,
+        <http://metaUnionSearch/datasets/PoliticsUUMK5635/column/OpinionPollingMethodologies>,
+        <http://metaUnionSearch/datasets/PoliticsUUMK5635/column/OpposingPoliticalPartiesPopularity>,
+        <http://metaUnionSearch/datasets/PoliticsUUMK5635/column/PenaltiesForViolatingCampaignFinanceRegulations>,
+        <http://metaUnionSearch/datasets/PoliticsUUMK5635/column/PoliticalAdvertisementSpending>,
+        <http://metaUnionSearch/datasets/PoliticsUUMK5635/column/PopularPoliciesSupportingRate>,
+        <http://metaUnionSearch/datasets/PoliticsUUMK5635/column/ThirdPartyEndorsements>,
+        <http://metaUnionSearch/datasets/PoliticsUUMK5635/column/TotalNumberofSeats>,
+        <http://metaUnionSearch/datasets/PoliticsUUMK5635/column/VoterParticipationbyAgeGroup> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoliticsUUMK5635/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoliticsUUMK5635/column/AverageVoterTurnout> a dsv:Column ;
+    rdfs:label " Average Voter Turnout" .
+
+<http://metaUnionSearch/datasets/PoliticsUUMK5635/column/CampaignFinancingSources> a dsv:Column ;
+    rdfs:label " Campaign Financing Sources" .
+
+<http://metaUnionSearch/datasets/PoliticsUUMK5635/column/ElectionsData> a dsv:Column ;
+    rdfs:label "`Elections Data" .
+
+<http://metaUnionSearch/datasets/PoliticsUUMK5635/column/FrequencyOfElections> a dsv:Column ;
+    rdfs:label " Frequency Of Elections" .
+
+<http://metaUnionSearch/datasets/PoliticsUUMK5635/column/GenderBreakdownofRegisteredVoters> a dsv:Column ;
+    rdfs:label " Gender Breakdown of Registered Voters" .
+
+<http://metaUnionSearch/datasets/PoliticsUUMK5635/column/OpinionPollingMethodologies> a dsv:Column ;
+    rdfs:label " Opinion Polling Methodologies" .
+
+<http://metaUnionSearch/datasets/PoliticsUUMK5635/column/OpposingPoliticalPartiesPopularity> a dsv:Column ;
+    rdfs:label " Opposing Political Parties’ Popularity" .
+
+<http://metaUnionSearch/datasets/PoliticsUUMK5635/column/PenaltiesForViolatingCampaignFinanceRegulations> a dsv:Column ;
+    rdfs:label " Penalties For Violating Campaign Finance Regulations" .
+
+<http://metaUnionSearch/datasets/PoliticsUUMK5635/column/PoliticalAdvertisementSpending> a dsv:Column ;
+    rdfs:label " Political Advertisement Spending" .
+
+<http://metaUnionSearch/datasets/PoliticsUUMK5635/column/PopularPoliciesSupportingRate> a dsv:Column ;
+    rdfs:label " Popular Policies Supporting Rate" .
+
+<http://metaUnionSearch/datasets/PoliticsUUMK5635/column/ThirdPartyEndorsements> a dsv:Column ;
+    rdfs:label " Third-Party Endorsements`" .
+
+<http://metaUnionSearch/datasets/PoliticsUUMK5635/column/TotalNumberofSeats> a dsv:Column ;
+    rdfs:label " Total Number of Seats" .
+
+<http://metaUnionSearch/datasets/PoliticsUUMK5635/column/VoterParticipationbyAgeGroup> a dsv:Column ;
+    rdfs:label " Voter Participation by Age Group" .
+
+<http://metaUnionSearch/datasets/PoliticsUUMK5635/datasetSchema> a dsv:DatasetSchema .
+

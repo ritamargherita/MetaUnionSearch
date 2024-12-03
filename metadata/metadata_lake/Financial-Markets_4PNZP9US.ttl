@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US> a dsv:Dataset ;
+    dcterms:subject "financial-markets" ;
+    dcterms:title "Financial-Markets_4PNZP9US.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/BondYields>,
+        <http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/CentralBankPolicy>,
+        <http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/CommodityPrices>,
+        <http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/ConsumerSpending>,
+        <http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/CorporateEarnings>,
+        <http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/HousingMarket>,
+        <http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/ImportExportData>,
+        <http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/MergersandAcquisitions>,
+        <http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/ProductionIndex>,
+        <http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/RetailSales>,
+        <http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/TreasuryYields> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/BondYields> a dsv:Column ;
+    rdfs:label "Bond Yields" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/CentralBankPolicy> a dsv:Column ;
+    rdfs:label "Central Bank Policy" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/CommodityPrices> a dsv:Column ;
+    rdfs:label "Commodity Prices" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/ConsumerSpending> a dsv:Column ;
+    rdfs:label "Consumer Spending" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/CorporateEarnings> a dsv:Column ;
+    rdfs:label "Corporate Earnings" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/HousingMarket> a dsv:Column ;
+    rdfs:label "Housing Market" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/ImportExportData> a dsv:Column ;
+    rdfs:label "Import/Export Data" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/MergersandAcquisitions> a dsv:Column ;
+    rdfs:label "Mergers and Acquisitions" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/ProductionIndex> a dsv:Column ;
+    rdfs:label "Production Index" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/RetailSales> a dsv:Column ;
+    rdfs:label "Retail Sales" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/column/TreasuryYields> a dsv:Column ;
+    rdfs:label "Treasury Yields" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets4PNZP9US/datasetSchema> a dsv:DatasetSchema .
+

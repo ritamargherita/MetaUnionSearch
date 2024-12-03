@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geology4OOJQXZL> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_4OOJQXZL.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Geology4OOJQXZL/column/CrustalFluidFlow>,
+        <http://metaUnionSearch/datasets/Geology4OOJQXZL/column/EarthquakeEnvironmentalEffects>,
+        <http://metaUnionSearch/datasets/Geology4OOJQXZL/column/EarthquakeOccurrence>,
+        <http://metaUnionSearch/datasets/Geology4OOJQXZL/column/GravityAnomalyData>,
+        <http://metaUnionSearch/datasets/Geology4OOJQXZL/column/IslandArcClassification>,
+        <http://metaUnionSearch/datasets/Geology4OOJQXZL/column/MagmaticAffinity>,
+        <http://metaUnionSearch/datasets/Geology4OOJQXZL/column/MagnitudeDistribution>,
+        <http://metaUnionSearch/datasets/Geology4OOJQXZL/column/PaleoseismologicalEvidence>,
+        <http://metaUnionSearch/datasets/Geology4OOJQXZL/column/RegionalTectonicStressField>,
+        <http://metaUnionSearch/datasets/Geology4OOJQXZL/column/SeismicityRate>,
+        <http://metaUnionSearch/datasets/Geology4OOJQXZL/column/SurfaceRuptureFeatures>,
+        <http://metaUnionSearch/datasets/Geology4OOJQXZL/column/TectonicSetting>,
+        <http://metaUnionSearch/datasets/Geology4OOJQXZL/column/ThermobarometricIndications>,
+        <http://metaUnionSearch/datasets/Geology4OOJQXZL/column/VolcanicAssociation> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geology4OOJQXZL/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geology4OOJQXZL/column/CrustalFluidFlow> a dsv:Column ;
+    rdfs:label " Crustal Fluid Flow" .
+
+<http://metaUnionSearch/datasets/Geology4OOJQXZL/column/EarthquakeEnvironmentalEffects> a dsv:Column ;
+    rdfs:label " Earthquake Environmental Effects" .
+
+<http://metaUnionSearch/datasets/Geology4OOJQXZL/column/EarthquakeOccurrence> a dsv:Column ;
+    rdfs:label "Earthquake Occurrence" .
+
+<http://metaUnionSearch/datasets/Geology4OOJQXZL/column/GravityAnomalyData> a dsv:Column ;
+    rdfs:label " Gravity Anomaly Data" .
+
+<http://metaUnionSearch/datasets/Geology4OOJQXZL/column/IslandArcClassification> a dsv:Column ;
+    rdfs:label " Island Arc Classification" .
+
+<http://metaUnionSearch/datasets/Geology4OOJQXZL/column/MagmaticAffinity> a dsv:Column ;
+    rdfs:label " Magmatic Affinity" .
+
+<http://metaUnionSearch/datasets/Geology4OOJQXZL/column/MagnitudeDistribution> a dsv:Column ;
+    rdfs:label " Magnitude Distribution" .
+
+<http://metaUnionSearch/datasets/Geology4OOJQXZL/column/PaleoseismologicalEvidence> a dsv:Column ;
+    rdfs:label " Paleoseismological Evidence" .
+
+<http://metaUnionSearch/datasets/Geology4OOJQXZL/column/RegionalTectonicStressField> a dsv:Column ;
+    rdfs:label " Regional Tectonic Stress Field" .
+
+<http://metaUnionSearch/datasets/Geology4OOJQXZL/column/SeismicityRate> a dsv:Column ;
+    rdfs:label " Seismicity Rate" .
+
+<http://metaUnionSearch/datasets/Geology4OOJQXZL/column/SurfaceRuptureFeatures> a dsv:Column ;
+    rdfs:label " Surface Rupture Features" .
+
+<http://metaUnionSearch/datasets/Geology4OOJQXZL/column/TectonicSetting> a dsv:Column ;
+    rdfs:label " Tectonic Setting" .
+
+<http://metaUnionSearch/datasets/Geology4OOJQXZL/column/ThermobarometricIndications> a dsv:Column ;
+    rdfs:label " Thermobarometric Indications" .
+
+<http://metaUnionSearch/datasets/Geology4OOJQXZL/column/VolcanicAssociation> a dsv:Column ;
+    rdfs:label " Volcanic Association" .
+
+<http://metaUnionSearch/datasets/Geology4OOJQXZL/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,83 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_USSR6GI0.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/AvgRainfallmm>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/AvgTemperatureC>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/BiodiversityIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/ClimateChangeAwarenessSurveyResults>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/EcologicalBalanceIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/FashionablyGreenSpaces>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/ForestAreakm2>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/GreenInfrastructureImpactScore>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/IndustrialEmissionskgperday>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/LegislationStatus>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/NoisyAreasPercentage>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/PollutionLevel>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/PopulationDensity>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/PublicEngagementScore>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/RecyclingRate>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/SoilHealthIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/SpeciesCount>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/WildlifeCorridorsKm2> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/AvgRainfallmm> a dsv:Column ;
+    rdfs:label " Avg\\_Rainfall\\_mm" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/AvgTemperatureC> a dsv:Column ;
+    rdfs:label " Avg\\_Temperature\\_C" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/BiodiversityIndex> a dsv:Column ;
+    rdfs:label " Biodiversity\\_Index" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/ClimateChangeAwarenessSurveyResults> a dsv:Column ;
+    rdfs:label " Climate\\_Change\\_Awareness\\_Survey\\_Results" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/EcologicalBalanceIndex> a dsv:Column ;
+    rdfs:label " Ecological\\_Balance\\_Index" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/FashionablyGreenSpaces> a dsv:Column ;
+    rdfs:label "Fashionably\\_Green\\_Spaces" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/ForestAreakm2> a dsv:Column ;
+    rdfs:label " Forest\\_Area\\_km2" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/GreenInfrastructureImpactScore> a dsv:Column ;
+    rdfs:label " Green\\_Infrastructure\\_Impact\\_Score" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/IndustrialEmissionskgperday> a dsv:Column ;
+    rdfs:label " Industrial\\_Emissions\\_kgper\\_day" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/LegislationStatus> a dsv:Column ;
+    rdfs:label " Legislation\\_Status" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/NoisyAreasPercentage> a dsv:Column ;
+    rdfs:label " Noisy\\_Areas\\_Percentage" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/PollutionLevel> a dsv:Column ;
+    rdfs:label " Pollution\\_Level" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/PopulationDensity> a dsv:Column ;
+    rdfs:label " Population\\_Density" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/PublicEngagementScore> a dsv:Column ;
+    rdfs:label " Public\\_Engagement\\_Score" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/RecyclingRate> a dsv:Column ;
+    rdfs:label " Recycling\\_Rate" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/SoilHealthIndex> a dsv:Column ;
+    rdfs:label " Soil\\_Health\\_Index" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/SpeciesCount> a dsv:Column ;
+    rdfs:label " Species\\_Count" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/WildlifeCorridorsKm2> a dsv:Column ;
+    rdfs:label " Wildlife\\_Corridors\\_Km2" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/datasetSchema> a dsv:DatasetSchema .
+

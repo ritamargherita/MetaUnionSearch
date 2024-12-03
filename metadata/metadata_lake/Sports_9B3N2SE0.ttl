@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Sports9B3N2SE0> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_9B3N2SE0.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Sports9B3N2SE0/column/AverageRatingperGame>,
+        <http://metaUnionSearch/datasets/Sports9B3N2SE0/column/Blocks>,
+        <http://metaUnionSearch/datasets/Sports9B3N2SE0/column/CoachName>,
+        <http://metaUnionSearch/datasets/Sports9B3N2SE0/column/FreeThrowsMade>,
+        <http://metaUnionSearch/datasets/Sports9B3N2SE0/column/Heightcm>,
+        <http://metaUnionSearch/datasets/Sports9B3N2SE0/column/PenaltiesCalled>,
+        <http://metaUnionSearch/datasets/Sports9B3N2SE0/column/RedCardsReceived>,
+        <http://metaUnionSearch/datasets/Sports9B3N2SE0/column/SeparateShootingPercentage>,
+        <http://metaUnionSearch/datasets/Sports9B3N2SE0/column/TeamID>,
+        <http://metaUnionSearch/datasets/Sports9B3N2SE0/column/TeamName>,
+        <http://metaUnionSearch/datasets/Sports9B3N2SE0/column/TotalPlaytimeMinutes>,
+        <http://metaUnionSearch/datasets/Sports9B3N2SE0/column/Weightkg>,
+        <http://metaUnionSearch/datasets/Sports9B3N2SE0/column/YellowCardsReceived> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Sports9B3N2SE0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Sports9B3N2SE0/column/AverageRatingperGame> a dsv:Column ;
+    rdfs:label " Average Rating per Game" .
+
+<http://metaUnionSearch/datasets/Sports9B3N2SE0/column/Blocks> a dsv:Column ;
+    rdfs:label " Blocks" .
+
+<http://metaUnionSearch/datasets/Sports9B3N2SE0/column/CoachName> a dsv:Column ;
+    rdfs:label " Coach Name" .
+
+<http://metaUnionSearch/datasets/Sports9B3N2SE0/column/FreeThrowsMade> a dsv:Column ;
+    rdfs:label " Free Throws Made" .
+
+<http://metaUnionSearch/datasets/Sports9B3N2SE0/column/Heightcm> a dsv:Column ;
+    rdfs:label " Height (cm)" .
+
+<http://metaUnionSearch/datasets/Sports9B3N2SE0/column/PenaltiesCalled> a dsv:Column ;
+    rdfs:label " Penalties Called" .
+
+<http://metaUnionSearch/datasets/Sports9B3N2SE0/column/RedCardsReceived> a dsv:Column ;
+    rdfs:label " Red Cards Received$" .
+
+<http://metaUnionSearch/datasets/Sports9B3N2SE0/column/SeparateShootingPercentage> a dsv:Column ;
+    rdfs:label "Separate Shooting Percentage" .
+
+<http://metaUnionSearch/datasets/Sports9B3N2SE0/column/TeamID> a dsv:Column ;
+    rdfs:label " Team ID" .
+
+<http://metaUnionSearch/datasets/Sports9B3N2SE0/column/TeamName> a dsv:Column ;
+    rdfs:label " Team Name" .
+
+<http://metaUnionSearch/datasets/Sports9B3N2SE0/column/TotalPlaytimeMinutes> a dsv:Column ;
+    rdfs:label " Total Playtime Minutes" .
+
+<http://metaUnionSearch/datasets/Sports9B3N2SE0/column/Weightkg> a dsv:Column ;
+    rdfs:label " Weight (kg)" .
+
+<http://metaUnionSearch/datasets/Sports9B3N2SE0/column/YellowCardsReceived> a dsv:Column ;
+    rdfs:label " Yellow Cards Received$" .
+
+<http://metaUnionSearch/datasets/Sports9B3N2SE0/datasetSchema> a dsv:DatasetSchema .
+

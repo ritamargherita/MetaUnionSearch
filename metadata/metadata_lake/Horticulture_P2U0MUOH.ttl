@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/HorticultureP2U0MUOH> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_P2U0MUOH.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/AccessibilityCompliance>,
+        <http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/AveragePestResistanceScore>,
+        <http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/CompanionPlantsSuited>,
+        <http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/DominantFlowerColor>,
+        <http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/FruitShapeVariants>,
+        <http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/GeneticDiversityIndex>,
+        <http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/HydroponicNutrientsSolutionUsed>,
+        <http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/IndustryStandardCertifications>,
+        <http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/MaximumPlantHeight>,
+        <http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/MinimumSurvivalTemperature>,
+        <http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/PreferredGrowthMedium>,
+        <http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/PublicEngagementActivities>,
+        <http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/TypicalYieldPerHarvest> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/HorticultureP2U0MUOH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/AccessibilityCompliance> a dsv:Column ;
+    rdfs:label "AccessibilityCompliance" .
+
+<http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/AveragePestResistanceScore> a dsv:Column ;
+    rdfs:label "AveragePestResistanceScore" .
+
+<http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/CompanionPlantsSuited> a dsv:Column ;
+    rdfs:label "CompanionPlantsSuited" .
+
+<http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/DominantFlowerColor> a dsv:Column ;
+    rdfs:label "DominantFlowerColor" .
+
+<http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/FruitShapeVariants> a dsv:Column ;
+    rdfs:label "FruitShapeVariants" .
+
+<http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/GeneticDiversityIndex> a dsv:Column ;
+    rdfs:label "GeneticDiversityIndex" .
+
+<http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/HydroponicNutrientsSolutionUsed> a dsv:Column ;
+    rdfs:label "HydroponicNutrientsSolutionUsed" .
+
+<http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/IndustryStandardCertifications> a dsv:Column ;
+    rdfs:label "IndustryStandardCertifications" .
+
+<http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/MaximumPlantHeight> a dsv:Column ;
+    rdfs:label "MaximumPlantHeight" .
+
+<http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/MinimumSurvivalTemperature> a dsv:Column ;
+    rdfs:label "MinimumSurvivalTemperature" .
+
+<http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/PreferredGrowthMedium> a dsv:Column ;
+    rdfs:label "PreferredGrowthMedium" .
+
+<http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/PublicEngagementActivities> a dsv:Column ;
+    rdfs:label "PublicEngagementActivities" .
+
+<http://metaUnionSearch/datasets/HorticultureP2U0MUOH/column/TypicalYieldPerHarvest> a dsv:Column ;
+    rdfs:label "TypicalYieldPerHarvest" .
+
+<http://metaUnionSearch/datasets/HorticultureP2U0MUOH/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_K3I8BZBF.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/CommonMisconceptions>,
+        <http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/CulturalSignificance>,
+        <http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/EpistemologicalStances>,
+        <http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/GenderDistribution>,
+        <http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/GeographicalSpread>,
+        <http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/ImpactonOtherFields>,
+        <http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/KeyCriticisms>,
+        <http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/LastingImpact>,
+        <http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/MajorDebates>,
+        <http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/MajorInfluences>,
+        <http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/MetaphysicalBeliefs>,
+        <http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/PhilosophicalEra>,
+        <http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/ProminentIdeas>,
+        <http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/ReligiousTies>,
+        <http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/TeachingMethodologies> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/CommonMisconceptions> a dsv:Column ;
+    rdfs:label "Common Misconceptions" .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/CulturalSignificance> a dsv:Column ;
+    rdfs:label "Cultural Significance" .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/EpistemologicalStances> a dsv:Column ;
+    rdfs:label "Epistemological Stances" .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/GenderDistribution> a dsv:Column ;
+    rdfs:label "Gender Distribution" .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/GeographicalSpread> a dsv:Column ;
+    rdfs:label "Geographical Spread" .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/ImpactonOtherFields> a dsv:Column ;
+    rdfs:label "Impact on Other Fields" .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/KeyCriticisms> a dsv:Column ;
+    rdfs:label "Key Criticisms" .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/LastingImpact> a dsv:Column ;
+    rdfs:label "Lasting Impact" .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/MajorDebates> a dsv:Column ;
+    rdfs:label "Major Debates" .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/MajorInfluences> a dsv:Column ;
+    rdfs:label "Major Influences" .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/MetaphysicalBeliefs> a dsv:Column ;
+    rdfs:label "Metaphysical Beliefs" .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/PhilosophicalEra> a dsv:Column ;
+    rdfs:label "Philosophical Era" .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/ProminentIdeas> a dsv:Column ;
+    rdfs:label "Prominent Ideas" .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/ReligiousTies> a dsv:Column ;
+    rdfs:label "Religious Ties" .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/column/TeachingMethodologies> a dsv:Column ;
+    rdfs:label "Teaching Methodologies" .
+
+<http://metaUnionSearch/datasets/PhilosophyK3I8BZBF/datasetSchema> a dsv:DatasetSchema .
+

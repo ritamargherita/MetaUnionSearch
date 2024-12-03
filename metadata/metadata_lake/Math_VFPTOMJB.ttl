@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathVFPTOMJB> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_VFPTOMJB.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/MathVFPTOMJB/column/AbstractReasoning>,
+        <http://metaUnionSearch/datasets/MathVFPTOMJB/column/Algorithms>,
+        <http://metaUnionSearch/datasets/MathVFPTOMJB/column/AssessmentStrategies>,
+        <http://metaUnionSearch/datasets/MathVFPTOMJB/column/CareerOpportunities>,
+        <http://metaUnionSearch/datasets/MathVFPTOMJB/column/ComputationalMethods>,
+        <http://metaUnionSearch/datasets/MathVFPTOMJB/column/CrossDisciplinaryLinks>,
+        <http://metaUnionSearch/datasets/MathVFPTOMJB/column/DataStructures>,
+        <http://metaUnionSearch/datasets/MathVFPTOMJB/column/DiversityandInclusion>,
+        <http://metaUnionSearch/datasets/MathVFPTOMJB/column/EthicalConsiderations>,
+        <http://metaUnionSearch/datasets/MathVFPTOMJB/column/MathematicalModels>,
+        <http://metaUnionSearch/datasets/MathVFPTOMJB/column/PedagogicalApproaches>,
+        <http://metaUnionSearch/datasets/MathVFPTOMJB/column/ProblemstoExplore>,
+        <http://metaUnionSearch/datasets/MathVFPTOMJB/column/ProofTechniques>,
+        <http://metaUnionSearch/datasets/MathVFPTOMJB/column/RealWorldConnections> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathVFPTOMJB/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathVFPTOMJB/column/AbstractReasoning> a dsv:Column ;
+    rdfs:label "\"Abstract Reasoning\"" .
+
+<http://metaUnionSearch/datasets/MathVFPTOMJB/column/Algorithms> a dsv:Column ;
+    rdfs:label "\"Algorithms\"" .
+
+<http://metaUnionSearch/datasets/MathVFPTOMJB/column/AssessmentStrategies> a dsv:Column ;
+    rdfs:label "\"Assessment Strategies\"" .
+
+<http://metaUnionSearch/datasets/MathVFPTOMJB/column/CareerOpportunities> a dsv:Column ;
+    rdfs:label "\"Career Opportunities\"" .
+
+<http://metaUnionSearch/datasets/MathVFPTOMJB/column/ComputationalMethods> a dsv:Column ;
+    rdfs:label "\"Computational Methods\"" .
+
+<http://metaUnionSearch/datasets/MathVFPTOMJB/column/CrossDisciplinaryLinks> a dsv:Column ;
+    rdfs:label "\"Cross-Disciplinary Links\"" .
+
+<http://metaUnionSearch/datasets/MathVFPTOMJB/column/DataStructures> a dsv:Column ;
+    rdfs:label "\"Data Structures\"" .
+
+<http://metaUnionSearch/datasets/MathVFPTOMJB/column/DiversityandInclusion> a dsv:Column ;
+    rdfs:label "\"Diversity and Inclusion\"" .
+
+<http://metaUnionSearch/datasets/MathVFPTOMJB/column/EthicalConsiderations> a dsv:Column ;
+    rdfs:label "\"Ethical Considerations\"" .
+
+<http://metaUnionSearch/datasets/MathVFPTOMJB/column/MathematicalModels> a dsv:Column ;
+    rdfs:label "\"Mathematical Models\"" .
+
+<http://metaUnionSearch/datasets/MathVFPTOMJB/column/PedagogicalApproaches> a dsv:Column ;
+    rdfs:label "\"Pedagogical Approaches\"" .
+
+<http://metaUnionSearch/datasets/MathVFPTOMJB/column/ProblemstoExplore> a dsv:Column ;
+    rdfs:label "\"Problems to Explore\"" .
+
+<http://metaUnionSearch/datasets/MathVFPTOMJB/column/ProofTechniques> a dsv:Column ;
+    rdfs:label "\"Proof Techniques\"" .
+
+<http://metaUnionSearch/datasets/MathVFPTOMJB/column/RealWorldConnections> a dsv:Column ;
+    rdfs:label "\"Real-World Connections\"" .
+
+<http://metaUnionSearch/datasets/MathVFPTOMJB/datasetSchema> a dsv:DatasetSchema .
+

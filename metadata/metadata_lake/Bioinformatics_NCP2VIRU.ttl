@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_NCP2VIRU.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/PosttranslationalModifications>,
+        <http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinAbundance>,
+        <http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinDomains>,
+        <http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinEvolutionaryRelationships>,
+        <http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinExpressionLevels>,
+        <http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinFunctionalAnnotation>,
+        <http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinHalflife>,
+        <http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinMutationFrequency>,
+        <http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinProteinInteractions>,
+        <http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinSequenceFeatures>,
+        <http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinStructures>,
+        <http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinSubcellularLocalization> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/PosttranslationalModifications> a dsv:Column ;
+    rdfs:label " Post-translational Modifications" .
+
+<http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinAbundance> a dsv:Column ;
+    rdfs:label " Protein Abundance" .
+
+<http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinDomains> a dsv:Column ;
+    rdfs:label " Protein Domains" .
+
+<http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinEvolutionaryRelationships> a dsv:Column ;
+    rdfs:label " Protein Evolutionary Relationships" .
+
+<http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinExpressionLevels> a dsv:Column ;
+    rdfs:label " Protein Expression Levels" .
+
+<http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinFunctionalAnnotation> a dsv:Column ;
+    rdfs:label " Protein Functional Annotation" .
+
+<http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinHalflife> a dsv:Column ;
+    rdfs:label " Protein Half-life\"" .
+
+<http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinMutationFrequency> a dsv:Column ;
+    rdfs:label " Protein Mutation Frequency" .
+
+<http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinProteinInteractions> a dsv:Column ;
+    rdfs:label " Protein-Protein Interactions" .
+
+<http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinSequenceFeatures> a dsv:Column ;
+    rdfs:label " Protein Sequence Features" .
+
+<http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinStructures> a dsv:Column ;
+    rdfs:label "\"Protein Structures" .
+
+<http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/column/ProteinSubcellularLocalization> a dsv:Column ;
+    rdfs:label " Protein Subcellular Localization" .
+
+<http://metaUnionSearch/datasets/BioinformaticsNCP2VIRU/datasetSchema> a dsv:DatasetSchema .
+

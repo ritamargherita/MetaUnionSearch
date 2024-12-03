@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_UHT6T0UZ.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/AestheticConsiderations>,
+        <http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/CodeCompliance>,
+        <http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/ConstructionTechniques>,
+        <http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/CulturalImpactContextualization>,
+        <http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/Era>,
+        <http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/FutureTrendsPredictions>,
+        <http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/InfluentialFiguresArchitect>,
+        <http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/SustainabilityFactors>,
+        <http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/SymbolismInterpretation>,
+        <http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/TheoreticApproach>,
+        <http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/TypeofArchitecture>,
+        <http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/ZoningLawsUrbanPlanning> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/AestheticConsiderations> a dsv:Column ;
+    rdfs:label " \"Aesthetic Considerations\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/CodeCompliance> a dsv:Column ;
+    rdfs:label " \"Code Compliance\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/ConstructionTechniques> a dsv:Column ;
+    rdfs:label " 'Construction Techniques'" .
+
+<http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/CulturalImpactContextualization> a dsv:Column ;
+    rdfs:label " \"Cultural Impact & Contextualization\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/Era> a dsv:Column ;
+    rdfs:label " \"Era\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/FutureTrendsPredictions> a dsv:Column ;
+    rdfs:label " \"Future Trends & Predictions\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/InfluentialFiguresArchitect> a dsv:Column ;
+    rdfs:label " \"Influential Figures (Architect)\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/SustainabilityFactors> a dsv:Column ;
+    rdfs:label " \"Sustainability Factors\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/SymbolismInterpretation> a dsv:Column ;
+    rdfs:label " \"Symbolism & Interpretation\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/TheoreticApproach> a dsv:Column ;
+    rdfs:label "'Theoretic Approach'" .
+
+<http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/TypeofArchitecture> a dsv:Column ;
+    rdfs:label " '_Type\\_of Architecture$'" .
+
+<http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/column/ZoningLawsUrbanPlanning> a dsv:Column ;
+    rdfs:label " \"Zoning Laws & Urban Planning\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureUHT6T0UZ/datasetSchema> a dsv:DatasetSchema .
+

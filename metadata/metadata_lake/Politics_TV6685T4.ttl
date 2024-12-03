@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoliticsTV6685T4> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_TV6685T4.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/PoliticsTV6685T4/column/BudgetsAllocationsperDepartment>,
+        <http://metaUnionSearch/datasets/PoliticsTV6685T4/column/ConstituentOpinionPollData>,
+        <http://metaUnionSearch/datasets/PoliticsTV6685T4/column/ElectionsResultsbyDistrict>,
+        <http://metaUnionSearch/datasets/PoliticsTV6685T4/column/InternationalRelationshipswithOtherPartiesCountries>,
+        <http://metaUnionSearch/datasets/PoliticsTV6685T4/column/LeadershipElectionDatesandWinners>,
+        <http://metaUnionSearch/datasets/PoliticsTV6685T4/column/LegislationSponsorshipCosponsoring>,
+        <http://metaUnionSearch/datasets/PoliticsTV6685T4/column/LobbyingGroupContributions>,
+        <http://metaUnionSearch/datasets/PoliticsTV6685T4/column/MembersTenureLengthDistribution>,
+        <http://metaUnionSearch/datasets/PoliticsTV6685T4/column/PartyIdeologyTrendOverYears>,
+        <http://metaUnionSearch/datasets/PoliticsTV6685T4/column/PublicReactionToMajorPolicies> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoliticsTV6685T4/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoliticsTV6685T4/column/BudgetsAllocationsperDepartment> a dsv:Column ;
+    rdfs:label "Budgets Allocations per Department" .
+
+<http://metaUnionSearch/datasets/PoliticsTV6685T4/column/ConstituentOpinionPollData> a dsv:Column ;
+    rdfs:label "Constituent Opinion Poll Data" .
+
+<http://metaUnionSearch/datasets/PoliticsTV6685T4/column/ElectionsResultsbyDistrict> a dsv:Column ;
+    rdfs:label "Elections Results by District" .
+
+<http://metaUnionSearch/datasets/PoliticsTV6685T4/column/InternationalRelationshipswithOtherPartiesCountries> a dsv:Column ;
+    rdfs:label "International Relationships with Other Parties/Countries" .
+
+<http://metaUnionSearch/datasets/PoliticsTV6685T4/column/LeadershipElectionDatesandWinners> a dsv:Column ;
+    rdfs:label "Leadership Election Dates and Winners" .
+
+<http://metaUnionSearch/datasets/PoliticsTV6685T4/column/LegislationSponsorshipCosponsoring> a dsv:Column ;
+    rdfs:label "Legislation Sponsorship & Co-sponsoring" .
+
+<http://metaUnionSearch/datasets/PoliticsTV6685T4/column/LobbyingGroupContributions> a dsv:Column ;
+    rdfs:label "Lobbying Group Contributions" .
+
+<http://metaUnionSearch/datasets/PoliticsTV6685T4/column/MembersTenureLengthDistribution> a dsv:Column ;
+    rdfs:label "Members’ Tenure Length Distribution" .
+
+<http://metaUnionSearch/datasets/PoliticsTV6685T4/column/PartyIdeologyTrendOverYears> a dsv:Column ;
+    rdfs:label "Party Ideology Trend Over Years" .
+
+<http://metaUnionSearch/datasets/PoliticsTV6685T4/column/PublicReactionToMajorPolicies> a dsv:Column ;
+    rdfs:label "Public Reaction To Major Policies" .
+
+<http://metaUnionSearch/datasets/PoliticsTV6685T4/datasetSchema> a dsv:DatasetSchema .
+

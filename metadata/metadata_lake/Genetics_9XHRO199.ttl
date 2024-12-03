@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_9XHRO199.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Genetics9XHRO199/column/AdditionalPhysicalFeatures>,
+        <http://metaUnionSearch/datasets/Genetics9XHRO199/column/AverageAgeatOnset>,
+        <http://metaUnionSearch/datasets/Genetics9XHRO199/column/BiologicalFunction>,
+        <http://metaUnionSearch/datasets/Genetics9XHRO199/column/Complications>,
+        <http://metaUnionSearch/datasets/Genetics9XHRO199/column/DiagnosticMarkers>,
+        <http://metaUnionSearch/datasets/Genetics9XHRO199/column/DrugResponseEffect>,
+        <http://metaUnionSearch/datasets/Genetics9XHRO199/column/ExpressionDetailsifapplicable>,
+        <http://metaUnionSearch/datasets/Genetics9XHRO199/column/GeneLociModifiers>,
+        <http://metaUnionSearch/datasets/Genetics9XHRO199/column/GenesAffectingTraits>,
+        <http://metaUnionSearch/datasets/Genetics9XHRO199/column/MutationsnotResultinginDisease>,
+        <http://metaUnionSearch/datasets/Genetics9XHRO199/column/PopularNames>,
+        <http://metaUnionSearch/datasets/Genetics9XHRO199/column/PreviouslyAssociatedGenes>,
+        <http://metaUnionSearch/datasets/Genetics9XHRO199/column/ProteinImpactAnalysis>,
+        <http://metaUnionSearch/datasets/Genetics9XHRO199/column/RelatedNoncodingRNAs>,
+        <http://metaUnionSearch/datasets/Genetics9XHRO199/column/RequiredEnvironmentalTriggers> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Genetics9XHRO199/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199/column/AdditionalPhysicalFeatures> a dsv:Column ;
+    rdfs:label " Additional Physical Features" .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199/column/AverageAgeatOnset> a dsv:Column ;
+    rdfs:label " Average Age at Onset" .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199/column/BiologicalFunction> a dsv:Column ;
+    rdfs:label " Biological Function" .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199/column/Complications> a dsv:Column ;
+    rdfs:label " Complications" .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199/column/DiagnosticMarkers> a dsv:Column ;
+    rdfs:label " Diagnostic Markers" .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199/column/DrugResponseEffect> a dsv:Column ;
+    rdfs:label " Drug Response Effect" .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199/column/ExpressionDetailsifapplicable> a dsv:Column ;
+    rdfs:label " Expression Details (if applicable)" .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199/column/GeneLociModifiers> a dsv:Column ;
+    rdfs:label " Gene Loci Modifiers" .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199/column/GenesAffectingTraits> a dsv:Column ;
+    rdfs:label "Genes Affecting Traits" .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199/column/MutationsnotResultinginDisease> a dsv:Column ;
+    rdfs:label " Mutations not Resulting in Disease" .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199/column/PopularNames> a dsv:Column ;
+    rdfs:label " Popular Name(s)" .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199/column/PreviouslyAssociatedGenes> a dsv:Column ;
+    rdfs:label " Previously Associated Genes" .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199/column/ProteinImpactAnalysis> a dsv:Column ;
+    rdfs:label " Protein Impact Analysis" .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199/column/RelatedNoncodingRNAs> a dsv:Column ;
+    rdfs:label " Related Noncoding RNAs" .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199/column/RequiredEnvironmentalTriggers> a dsv:Column ;
+    rdfs:label " Required Environmental Triggers" .
+
+<http://metaUnionSearch/datasets/Genetics9XHRO199/datasetSchema> a dsv:DatasetSchema .
+

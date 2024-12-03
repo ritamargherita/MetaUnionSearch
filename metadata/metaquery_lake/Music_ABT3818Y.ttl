@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MusicABT3818Y> a dsv:Dataset ;
+    dcterms:subject "music" ;
+    dcterms:title "Music_ABT3818Y.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/MusicABT3818Y/column/Album>,
+        <http://metaUnionSearch/datasets/MusicABT3818Y/column/Artists>,
+        <http://metaUnionSearch/datasets/MusicABT3818Y/column/Format>,
+        <http://metaUnionSearch/datasets/MusicABT3818Y/column/Genre>,
+        <http://metaUnionSearch/datasets/MusicABT3818Y/column/Label>,
+        <http://metaUnionSearch/datasets/MusicABT3818Y/column/Language>,
+        <http://metaUnionSearch/datasets/MusicABT3818Y/column/Playtime>,
+        <http://metaUnionSearch/datasets/MusicABT3818Y/column/Producers>,
+        <http://metaUnionSearch/datasets/MusicABT3818Y/column/Publisher>,
+        <http://metaUnionSearch/datasets/MusicABT3818Y/column/ReleaseDate>,
+        <http://metaUnionSearch/datasets/MusicABT3818Y/column/Title> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MusicABT3818Y/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MusicABT3818Y/column/Album> a dsv:Column ;
+    rdfs:label " Album" .
+
+<http://metaUnionSearch/datasets/MusicABT3818Y/column/Artists> a dsv:Column ;
+    rdfs:label " Artist(s)" .
+
+<http://metaUnionSearch/datasets/MusicABT3818Y/column/Format> a dsv:Column ;
+    rdfs:label " Format" .
+
+<http://metaUnionSearch/datasets/MusicABT3818Y/column/Genre> a dsv:Column ;
+    rdfs:label " Genre" .
+
+<http://metaUnionSearch/datasets/MusicABT3818Y/column/Label> a dsv:Column ;
+    rdfs:label " Label" .
+
+<http://metaUnionSearch/datasets/MusicABT3818Y/column/Language> a dsv:Column ;
+    rdfs:label " Language" .
+
+<http://metaUnionSearch/datasets/MusicABT3818Y/column/Playtime> a dsv:Column ;
+    rdfs:label " Playtime" .
+
+<http://metaUnionSearch/datasets/MusicABT3818Y/column/Producers> a dsv:Column ;
+    rdfs:label " Producer(s)" .
+
+<http://metaUnionSearch/datasets/MusicABT3818Y/column/Publisher> a dsv:Column ;
+    rdfs:label " Publisher" .
+
+<http://metaUnionSearch/datasets/MusicABT3818Y/column/ReleaseDate> a dsv:Column ;
+    rdfs:label " Release Date" .
+
+<http://metaUnionSearch/datasets/MusicABT3818Y/column/Title> a dsv:Column ;
+    rdfs:label "Title" .
+
+<http://metaUnionSearch/datasets/MusicABT3818Y/datasetSchema> a dsv:DatasetSchema .
+

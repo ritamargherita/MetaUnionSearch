@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhilosophyU26192K4> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_U26192K4.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/PhilosophyU26192K4/column/CriticismsReceivedResponsestoIt>,
+        <http://metaUnionSearch/datasets/PhilosophyU26192K4/column/FamousStudentsandMentees>,
+        <http://metaUnionSearch/datasets/PhilosophyU26192K4/column/GeographicalImpact>,
+        <http://metaUnionSearch/datasets/PhilosophyU26192K4/column/GoverningPoliticalTheoryifapplicable>,
+        <http://metaUnionSearch/datasets/PhilosophyU26192K4/column/PhilosopherBiography>,
+        <http://metaUnionSearch/datasets/PhilosophyU26192K4/column/PhilosophicalThought>,
+        <http://metaUnionSearch/datasets/PhilosophyU26192K4/column/RelatedArtworksArchitecture>,
+        <http://metaUnionSearch/datasets/PhilosophyU26192K4/column/ReligiousBeliefsImpactifnotable>,
+        <http://metaUnionSearch/datasets/PhilosophyU26192K4/column/SchoolorMovementAffiliation>,
+        <http://metaUnionSearch/datasets/PhilosophyU26192K4/column/TimePeriodSpanned>,
+        <http://metaUnionSearch/datasets/PhilosophyU26192K4/column/UniqueIdeasContributions> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhilosophyU26192K4/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhilosophyU26192K4/column/CriticismsReceivedResponsestoIt> a dsv:Column ;
+    rdfs:label " Criticisms Received & Responses to It" .
+
+<http://metaUnionSearch/datasets/PhilosophyU26192K4/column/FamousStudentsandMentees> a dsv:Column ;
+    rdfs:label " Famous Students and Mentees" .
+
+<http://metaUnionSearch/datasets/PhilosophyU26192K4/column/GeographicalImpact> a dsv:Column ;
+    rdfs:label " Geographical Impact" .
+
+<http://metaUnionSearch/datasets/PhilosophyU26192K4/column/GoverningPoliticalTheoryifapplicable> a dsv:Column ;
+    rdfs:label "Governing Political Theory (if applicable)" .
+
+<http://metaUnionSearch/datasets/PhilosophyU26192K4/column/PhilosopherBiography> a dsv:Column ;
+    rdfs:label " Philosopher Biography" .
+
+<http://metaUnionSearch/datasets/PhilosophyU26192K4/column/PhilosophicalThought> a dsv:Column ;
+    rdfs:label "Philosophical Thought" .
+
+<http://metaUnionSearch/datasets/PhilosophyU26192K4/column/RelatedArtworksArchitecture> a dsv:Column ;
+    rdfs:label " Related Artworks & Architecture" .
+
+<http://metaUnionSearch/datasets/PhilosophyU26192K4/column/ReligiousBeliefsImpactifnotable> a dsv:Column ;
+    rdfs:label "&Religious Beliefs (&Impact if notable)" .
+
+<http://metaUnionSearch/datasets/PhilosophyU26192K4/column/SchoolorMovementAffiliation> a dsv:Column ;
+    rdfs:label " School or Movement Affiliation" .
+
+<http://metaUnionSearch/datasets/PhilosophyU26192K4/column/TimePeriodSpanned> a dsv:Column ;
+    rdfs:label " Time Period Spanned" .
+
+<http://metaUnionSearch/datasets/PhilosophyU26192K4/column/UniqueIdeasContributions> a dsv:Column ;
+    rdfs:label " Unique Ideas Contributions" .
+
+<http://metaUnionSearch/datasets/PhilosophyU26192K4/datasetSchema> a dsv:DatasetSchema .
+

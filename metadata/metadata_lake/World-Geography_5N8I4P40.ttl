@@ -1,0 +1,27 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeography5N8I4P40> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_5N8I4P40.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeography5N8I4P40/column/>,
+        <http://metaUnionSearch/datasets/WorldGeography5N8I4P40/column/IslandNation>,
+        <http://metaUnionSearch/datasets/WorldGeography5N8I4P40/column/NumberOfIslands>,
+        <http://metaUnionSearch/datasets/WorldGeography5N8I4P40/column/OceanicRegion> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeography5N8I4P40/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeography5N8I4P40/column/> a dsv:Column ;
+    rdfs:label " " .
+
+<http://metaUnionSearch/datasets/WorldGeography5N8I4P40/column/IslandNation> a dsv:Column ;
+    rdfs:label "Island Nation" .
+
+<http://metaUnionSearch/datasets/WorldGeography5N8I4P40/column/NumberOfIslands> a dsv:Column ;
+    rdfs:label " Number Of Islands" .
+
+<http://metaUnionSearch/datasets/WorldGeography5N8I4P40/column/OceanicRegion> a dsv:Column ;
+    rdfs:label " Oceanic Region" .
+
+<http://metaUnionSearch/datasets/WorldGeography5N8I4P40/datasetSchema> a dsv:DatasetSchema .
+

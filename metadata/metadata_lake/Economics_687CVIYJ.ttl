@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Economics687CVIYJ> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_687CVIYJ.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Economics687CVIYJ/column/consumerpriceindex>,
+        <http://metaUnionSearch/datasets/Economics687CVIYJ/column/economicsystemtype>,
+        <http://metaUnionSearch/datasets/Economics687CVIYJ/column/globalcompetitivenessranking>,
+        <http://metaUnionSearch/datasets/Economics687CVIYJ/column/globalinnovationIndexGII>,
+        <http://metaUnionSearch/datasets/Economics687CVIYJ/column/humandevelopmentindexHDI>,
+        <http://metaUnionSearch/datasets/Economics687CVIYJ/column/inflationrate>,
+        <http://metaUnionSearch/datasets/Economics687CVIYJ/column/interestedpartycomments>,
+        <http://metaUnionSearch/datasets/Economics687CVIYJ/column/laborforceparticipationrate>,
+        <http://metaUnionSearch/datasets/Economics687CVIYJ/column/lawregulationstrength>,
+        <http://metaUnionSearch/datasets/Economics687CVIYJ/column/merchandisetradebalancebn>,
+        <http://metaUnionSearch/datasets/Economics687CVIYJ/column/minimumwagevalue>,
+        <http://metaUnionSearch/datasets/Economics687CVIYJ/column/publicdebtasofgrossdomesticproductGTD>,
+        <http://metaUnionSearch/datasets/Economics687CVIYJ/column/totaltaxrevenueasofGDPTTF>,
+        <http://metaUnionSearch/datasets/Economics687CVIYJ/column/unemploymentpercentage> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Economics687CVIYJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Economics687CVIYJ/column/consumerpriceindex> a dsv:Column ;
+    rdfs:label " consumer price index" .
+
+<http://metaUnionSearch/datasets/Economics687CVIYJ/column/economicsystemtype> a dsv:Column ;
+    rdfs:label "economic system type" .
+
+<http://metaUnionSearch/datasets/Economics687CVIYJ/column/globalcompetitivenessranking> a dsv:Column ;
+    rdfs:label " global competitiveness ranking" .
+
+<http://metaUnionSearch/datasets/Economics687CVIYJ/column/globalinnovationIndexGII> a dsv:Column ;
+    rdfs:label " global innovation Index (GII)*" .
+
+<http://metaUnionSearch/datasets/Economics687CVIYJ/column/humandevelopmentindexHDI> a dsv:Column ;
+    rdfs:label " human development index (HDI)***" .
+
+<http://metaUnionSearch/datasets/Economics687CVIYJ/column/inflationrate> a dsv:Column ;
+    rdfs:label " inflation rate " .
+
+<http://metaUnionSearch/datasets/Economics687CVIYJ/column/interestedpartycomments> a dsv:Column ;
+    rdfs:label " interested party comments" .
+
+<http://metaUnionSearch/datasets/Economics687CVIYJ/column/laborforceparticipationrate> a dsv:Column ;
+    rdfs:label " labor force participation rate" .
+
+<http://metaUnionSearch/datasets/Economics687CVIYJ/column/lawregulationstrength> a dsv:Column ;
+    rdfs:label " law regulation strength" .
+
+<http://metaUnionSearch/datasets/Economics687CVIYJ/column/merchandisetradebalancebn> a dsv:Column ;
+    rdfs:label " merchandise trade balance ($bn)**" .
+
+<http://metaUnionSearch/datasets/Economics687CVIYJ/column/minimumwagevalue> a dsv:Column ;
+    rdfs:label " minimum wage value" .
+
+<http://metaUnionSearch/datasets/Economics687CVIYJ/column/publicdebtasofgrossdomesticproductGTD> a dsv:Column ;
+    rdfs:label " public debt as %of gross domestic product(GTD)" .
+
+<http://metaUnionSearch/datasets/Economics687CVIYJ/column/totaltaxrevenueasofGDPTTF> a dsv:Column ;
+    rdfs:label " total tax revenue as %of GDP (TTF)" .
+
+<http://metaUnionSearch/datasets/Economics687CVIYJ/column/unemploymentpercentage> a dsv:Column ;
+    rdfs:label " unemployment percentage" .
+
+<http://metaUnionSearch/datasets/Economics687CVIYJ/datasetSchema> a dsv:DatasetSchema .
+

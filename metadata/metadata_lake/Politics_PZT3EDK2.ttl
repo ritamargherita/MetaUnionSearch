@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoliticsPZT3EDK2> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_PZT3EDK2.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/DateofLastIntrapartyLeadershipContest>,
+        <http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/ElectionResultsTrends>,
+        <http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/ExternalAffairsEngagement>,
+        <http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/GrassrootsMobilizationEfforts>,
+        <http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/InternalRegulations>,
+        <http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/MajorDonorsList>,
+        <http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/MemberCollaborationInitiatives>,
+        <http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/PolicyAreaAVotesReceived>,
+        <http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/PolicyAreaBVotesReceived>,
+        <http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/PoliticalIdeology>,
+        <http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/PublicOpinionPollingScores>,
+        <http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/SocialMediaPresenceMetrics> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoliticsPZT3EDK2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/DateofLastIntrapartyLeadershipContest> a dsv:Column ;
+    rdfs:label " Date of Last Intraparty Leadership Contest" .
+
+<http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/ElectionResultsTrends> a dsv:Column ;
+    rdfs:label " Election Results Trends" .
+
+<http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/ExternalAffairsEngagement> a dsv:Column ;
+    rdfs:label " External Affairs Engagement`." .
+
+<http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/GrassrootsMobilizationEfforts> a dsv:Column ;
+    rdfs:label " Grassroots Mobilization Efforts" .
+
+<http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/InternalRegulations> a dsv:Column ;
+    rdfs:label " Internal Regulations" .
+
+<http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/MajorDonorsList> a dsv:Column ;
+    rdfs:label " Major Donors List" .
+
+<http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/MemberCollaborationInitiatives> a dsv:Column ;
+    rdfs:label " Member Collaboration Initiatives" .
+
+<http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/PolicyAreaAVotesReceived> a dsv:Column ;
+    rdfs:label "`Policy Area A Votes Received" .
+
+<http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/PolicyAreaBVotesReceived> a dsv:Column ;
+    rdfs:label " Policy Area B Votes Received" .
+
+<http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/PoliticalIdeology> a dsv:Column ;
+    rdfs:label " Political Ideology" .
+
+<http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/PublicOpinionPollingScores> a dsv:Column ;
+    rdfs:label " Public Opinion Polling Scores%" .
+
+<http://metaUnionSearch/datasets/PoliticsPZT3EDK2/column/SocialMediaPresenceMetrics> a dsv:Column ;
+    rdfs:label " Social Media Presence Metrics" .
+
+<http://metaUnionSearch/datasets/PoliticsPZT3EDK2/datasetSchema> a dsv:DatasetSchema .
+

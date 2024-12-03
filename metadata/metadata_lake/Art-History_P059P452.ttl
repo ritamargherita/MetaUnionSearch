@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistoryP059P452> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_P059P452.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistoryP059P452/column/ARTID>,
+        <http://metaUnionSearch/datasets/ArtHistoryP059P452/column/AdditionalDetails>,
+        <http://metaUnionSearch/datasets/ArtHistoryP059P452/column/AdditionalNoteswhereasterisksindicatealignmentwithcorrespondingcolumnsfromtable1>,
+        <http://metaUnionSearch/datasets/ArtHistoryP059P452/column/CurrentLocation>,
+        <http://metaUnionSearch/datasets/ArtHistoryP059P452/column/DepartmentinMuseum>,
+        <http://metaUnionSearch/datasets/ArtHistoryP059P452/column/Genre>,
+        <http://metaUnionSearch/datasets/ArtHistoryP059P452/column/IconographyandSymbolism>,
+        <http://metaUnionSearch/datasets/ArtHistoryP059P452/column/LocationFound>,
+        <http://metaUnionSearch/datasets/ArtHistoryP059P452/column/Medium>,
+        <http://metaUnionSearch/datasets/ArtHistoryP059P452/column/MovementorStyle>,
+        <http://metaUnionSearch/datasets/ArtHistoryP059P452/column/OriginalLocation>,
+        <http://metaUnionSearch/datasets/ArtHistoryP059P452/column/Period>,
+        <http://metaUnionSearch/datasets/ArtHistoryP059P452/column/SchoolofThought>,
+        <http://metaUnionSearch/datasets/ArtHistoryP059P452/column/TitleCultureDatCreated> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistoryP059P452/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistoryP059P452/column/ARTID> a dsv:Column ;
+    rdfs:label "`ARTID_" .
+
+<http://metaUnionSearch/datasets/ArtHistoryP059P452/column/AdditionalDetails> a dsv:Column ;
+    rdfs:label "Additional_Details" .
+
+<http://metaUnionSearch/datasets/ArtHistoryP059P452/column/AdditionalNoteswhereasterisksindicatealignmentwithcorrespondingcolumnsfromtable1> a dsv:Column ;
+    rdfs:label "Additional_Notes`,where asterisks indicate alignment with corresponding columns from **table 1**." .
+
+<http://metaUnionSearch/datasets/ArtHistoryP059P452/column/CurrentLocation> a dsv:Column ;
+    rdfs:label "Current_Location" .
+
+<http://metaUnionSearch/datasets/ArtHistoryP059P452/column/DepartmentinMuseum> a dsv:Column ;
+    rdfs:label "Department_in_Museum" .
+
+<http://metaUnionSearch/datasets/ArtHistoryP059P452/column/Genre> a dsv:Column ;
+    rdfs:label "Genre" .
+
+<http://metaUnionSearch/datasets/ArtHistoryP059P452/column/IconographyandSymbolism> a dsv:Column ;
+    rdfs:label "Iconography_and_Symbolism" .
+
+<http://metaUnionSearch/datasets/ArtHistoryP059P452/column/LocationFound> a dsv:Column ;
+    rdfs:label "Location_Found" .
+
+<http://metaUnionSearch/datasets/ArtHistoryP059P452/column/Medium> a dsv:Column ;
+    rdfs:label "Medium" .
+
+<http://metaUnionSearch/datasets/ArtHistoryP059P452/column/MovementorStyle> a dsv:Column ;
+    rdfs:label "Movement_or_Style" .
+
+<http://metaUnionSearch/datasets/ArtHistoryP059P452/column/OriginalLocation> a dsv:Column ;
+    rdfs:label "Original_Location" .
+
+<http://metaUnionSearch/datasets/ArtHistoryP059P452/column/Period> a dsv:Column ;
+    rdfs:label "Period" .
+
+<http://metaUnionSearch/datasets/ArtHistoryP059P452/column/SchoolofThought> a dsv:Column ;
+    rdfs:label "School_of_Thought" .
+
+<http://metaUnionSearch/datasets/ArtHistoryP059P452/column/TitleCultureDatCreated> a dsv:Column ;
+    rdfs:label "Title；Culture；DatCreated*" .
+
+<http://metaUnionSearch/datasets/ArtHistoryP059P452/datasetSchema> a dsv:DatasetSchema .
+

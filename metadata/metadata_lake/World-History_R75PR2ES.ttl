@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES> a dsv:Dataset ;
+    dcterms:subject "world-history" ;
+    dcterms:title "World-History_R75PR2ES.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/ArtisticMovements>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/ClimateChangesEffects>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/DiplomacyEvents>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/ExplorationVoyages>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/InfrastructureProjects>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/LegalSystemDevelopments>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/LiteratureMasterpieces>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/MilitaryConflictsandAlliances>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/MinorityGroupsStatuses>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/PopulationDynamics>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/ReligionsandPhilosophicalBeliefs>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/TradeRoutesEstablished>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/WomenEmpowermentDocuments> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/ArtisticMovements> a dsv:Column ;
+    rdfs:label " Artistic Movements" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/ClimateChangesEffects> a dsv:Column ;
+    rdfs:label " Climate Changes Effects" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/DiplomacyEvents> a dsv:Column ;
+    rdfs:label " Diplomacy Events" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/ExplorationVoyages> a dsv:Column ;
+    rdfs:label " Exploration Voyages" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/InfrastructureProjects> a dsv:Column ;
+    rdfs:label " Infrastructure Projects" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/LegalSystemDevelopments> a dsv:Column ;
+    rdfs:label " Legal System Developments" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/LiteratureMasterpieces> a dsv:Column ;
+    rdfs:label " Literature Masterpieces" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/MilitaryConflictsandAlliances> a dsv:Column ;
+    rdfs:label " Military Conflicts and Alliances" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/MinorityGroupsStatuses> a dsv:Column ;
+    rdfs:label " Minority Groups Statuses" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/PopulationDynamics> a dsv:Column ;
+    rdfs:label " Population Dynamics" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/ReligionsandPhilosophicalBeliefs> a dsv:Column ;
+    rdfs:label "Religions and Philosophical Beliefs" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/TradeRoutesEstablished> a dsv:Column ;
+    rdfs:label " Trade Routes Established" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/WomenEmpowermentDocuments> a dsv:Column ;
+    rdfs:label " Women Empowerment Documents" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/datasetSchema> a dsv:DatasetSchema .
+

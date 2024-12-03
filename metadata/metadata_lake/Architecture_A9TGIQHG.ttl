@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArchitectureA9TGIQHG> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_A9TGIQHG.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/AestheticPrinciples>,
+        <http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/ArchitecturalTheories>,
+        <http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/ConstructionTechniques>,
+        <http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/CulturalImpact>,
+        <http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/EconomicImpact>,
+        <http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/EnvironmentalImpact>,
+        <http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/EthicalConsiderations>,
+        <http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/FutureTrendPredictions>,
+        <http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/InfluentialFigures>,
+        <http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/Philosophy>,
+        <http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/PreservationMethodologies>,
+        <http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/ProminentCriticisms>,
+        <http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/SociologicalImpact>,
+        <http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/UnPopularOpinionsaboutStyle> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/AestheticPrinciples> a dsv:Column ;
+    rdfs:label " 'Aesthetic Principles'" .
+
+<http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/ArchitecturalTheories> a dsv:Column ;
+    rdfs:label "'Architectural Theories'" .
+
+<http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/ConstructionTechniques> a dsv:Column ;
+    rdfs:label " 'Construction Techniques'" .
+
+<http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/CulturalImpact> a dsv:Column ;
+    rdfs:label " 'Cultural Impact'" .
+
+<http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/EconomicImpact> a dsv:Column ;
+    rdfs:label " 'Economic Impact'" .
+
+<http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/EnvironmentalImpact> a dsv:Column ;
+    rdfs:label " 'Environmental Impact'" .
+
+<http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/EthicalConsiderations> a dsv:Column ;
+    rdfs:label " 'Ethical Considerations'" .
+
+<http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/FutureTrendPredictions> a dsv:Column ;
+    rdfs:label " 'Future Trend Predictions'" .
+
+<http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/InfluentialFigures> a dsv:Column ;
+    rdfs:label " 'Influential Figures'" .
+
+<http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/Philosophy> a dsv:Column ;
+    rdfs:label " 'Philosophy'" .
+
+<http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/PreservationMethodologies> a dsv:Column ;
+    rdfs:label " 'Preservation Methodologies'" .
+
+<http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/ProminentCriticisms> a dsv:Column ;
+    rdfs:label " 'Prominent Criticisms'" .
+
+<http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/SociologicalImpact> a dsv:Column ;
+    rdfs:label " 'Sociological Impact'" .
+
+<http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/column/UnPopularOpinionsaboutStyle> a dsv:Column ;
+    rdfs:label " '(Un)Popular Opinions about Style'" .
+
+<http://metaUnionSearch/datasets/ArchitectureA9TGIQHG/datasetSchema> a dsv:DatasetSchema .
+

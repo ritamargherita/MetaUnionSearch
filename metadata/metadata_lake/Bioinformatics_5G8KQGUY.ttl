@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_5G8KQGUY.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/ChromosomeNumber>,
+        <http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/ExpressioninTissues>,
+        <http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/GeneSimilarity>,
+        <http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/PosttranslationalModifications>,
+        <http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/ProteinFunction>,
+        <http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/ProteinName>,
+        <http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/RegulatoryRegions>,
+        <http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/SpliceVariants>,
+        <http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/TranscriptionStartSite>,
+        <http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/mRNAsecondarystructure> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/ChromosomeNumber> a dsv:Column ;
+    rdfs:label " Chromosome Number" .
+
+<http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/ExpressioninTissues> a dsv:Column ;
+    rdfs:label " Expression in Tissues" .
+
+<http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/GeneSimilarity> a dsv:Column ;
+    rdfs:label " Gene Similarity" .
+
+<http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/PosttranslationalModifications> a dsv:Column ;
+    rdfs:label " Post-translational Modifications" .
+
+<http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/ProteinFunction> a dsv:Column ;
+    rdfs:label " Protein Function\"" .
+
+<http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/ProteinName> a dsv:Column ;
+    rdfs:label "\"Protein Name" .
+
+<http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/RegulatoryRegions> a dsv:Column ;
+    rdfs:label " Regulatory Regions" .
+
+<http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/SpliceVariants> a dsv:Column ;
+    rdfs:label " Splice Variants" .
+
+<http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/TranscriptionStartSite> a dsv:Column ;
+    rdfs:label " Transcription Start Site" .
+
+<http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/column/mRNAsecondarystructure> a dsv:Column ;
+    rdfs:label " mRNA secondary structure" .
+
+<http://metaUnionSearch/datasets/Bioinformatics5G8KQGUY/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArcheologyZXOI65FD> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_ZXOI65FD.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/ArtefactMaterial1>,
+        <http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/ArtefactMaterial2>,
+        <http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/ArtefactMaterial3>,
+        <http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/ArtefactMaterial4>,
+        <http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/ArtefactMaterial5>,
+        <http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/ExcavationToolsUsed>,
+        <http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/FieldEquipmentAndTechniques>,
+        <http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/FundingAmounts>,
+        <http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/FundingSources>,
+        <http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/OtherRelevantInformation>,
+        <http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/PublicEngagementActivities>,
+        <http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/SurveyMethodsUsed> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArcheologyZXOI65FD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/ArtefactMaterial1> a dsv:Column ;
+    rdfs:label "ArtefactMaterial1" .
+
+<http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/ArtefactMaterial2> a dsv:Column ;
+    rdfs:label " ArtefactMaterial2" .
+
+<http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/ArtefactMaterial3> a dsv:Column ;
+    rdfs:label " ArtefactMaterial3" .
+
+<http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/ArtefactMaterial4> a dsv:Column ;
+    rdfs:label " ArtefactMaterial4" .
+
+<http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/ArtefactMaterial5> a dsv:Column ;
+    rdfs:label " ArtefactMaterial5" .
+
+<http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/ExcavationToolsUsed> a dsv:Column ;
+    rdfs:label " ExcavationToolsUsed" .
+
+<http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/FieldEquipmentAndTechniques> a dsv:Column ;
+    rdfs:label " FieldEquipmentAndTechniques" .
+
+<http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/FundingAmounts> a dsv:Column ;
+    rdfs:label " FundingAmounts" .
+
+<http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/FundingSources> a dsv:Column ;
+    rdfs:label " FundingSources" .
+
+<http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/OtherRelevantInformation> a dsv:Column ;
+    rdfs:label " OtherRelevantInformation" .
+
+<http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/PublicEngagementActivities> a dsv:Column ;
+    rdfs:label " PublicEngagementActivities" .
+
+<http://metaUnionSearch/datasets/ArcheologyZXOI65FD/column/SurveyMethodsUsed> a dsv:Column ;
+    rdfs:label " SurveyMethodsUsed" .
+
+<http://metaUnionSearch/datasets/ArcheologyZXOI65FD/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MedicineQGCEEQ2B> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_QGCEEQ2B.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/AdditionalMedicalResources>,
+        <http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/AlternativeTreatmentsConsidered>,
+        <http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/ClinicalTrialAvailability>,
+        <http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/PrescriptionCoverage>,
+        <http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TherapistName>,
+        <http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TherapyEndDate>,
+        <http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TherapyFrequency>,
+        <http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TherapyProgressNotes>,
+        <http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TherapyStartDate>,
+        <http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TreatmentCompliance>,
+        <http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TreatmentCost>,
+        <http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TreatmentEfficacyRating>,
+        <http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TreatmentSideEffects>,
+        <http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TreatmentType> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MedicineQGCEEQ2B/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/AdditionalMedicalResources> a dsv:Column ;
+    rdfs:label "Additional Medical Resources" .
+
+<http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/AlternativeTreatmentsConsidered> a dsv:Column ;
+    rdfs:label "Alternative Treatments Considered" .
+
+<http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/ClinicalTrialAvailability> a dsv:Column ;
+    rdfs:label "Clinical Trial Availability" .
+
+<http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/PrescriptionCoverage> a dsv:Column ;
+    rdfs:label "Prescription Coverage" .
+
+<http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TherapistName> a dsv:Column ;
+    rdfs:label "Therapist Name" .
+
+<http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TherapyEndDate> a dsv:Column ;
+    rdfs:label "Therapy End Date" .
+
+<http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TherapyFrequency> a dsv:Column ;
+    rdfs:label "Therapy Frequency" .
+
+<http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TherapyProgressNotes> a dsv:Column ;
+    rdfs:label "Therapy Progress Notes" .
+
+<http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TherapyStartDate> a dsv:Column ;
+    rdfs:label "Therapy Start Date" .
+
+<http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TreatmentCompliance> a dsv:Column ;
+    rdfs:label "Treatment Compliance" .
+
+<http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TreatmentCost> a dsv:Column ;
+    rdfs:label "Treatment Cost" .
+
+<http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TreatmentEfficacyRating> a dsv:Column ;
+    rdfs:label "Treatment Efficacy Rating" .
+
+<http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TreatmentSideEffects> a dsv:Column ;
+    rdfs:label "Treatment Side Effects" .
+
+<http://metaUnionSearch/datasets/MedicineQGCEEQ2B/column/TreatmentType> a dsv:Column ;
+    rdfs:label "Treatment Type" .
+
+<http://metaUnionSearch/datasets/MedicineQGCEEQ2B/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArcheologyFF5E8II4> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_FF5E8II4.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/ArchivalRepository>,
+        <http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/ExcavationDate>,
+        <http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/ExcavationTeamSize>,
+        <http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/FieldDirector>,
+        <http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/FundingSource>,
+        <http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/InclementWeatherPlan>,
+        <http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/LocalCollaboration>,
+        <http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/ProjectTimeline>,
+        <http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/ResearchSignificance>,
+        <http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/SiteAccessibility>,
+        <http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/WorkLog> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArcheologyFF5E8II4/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/ArchivalRepository> a dsv:Column ;
+    rdfs:label " ArchivalRepository" .
+
+<http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/ExcavationDate> a dsv:Column ;
+    rdfs:label "ExcavationDate" .
+
+<http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/ExcavationTeamSize> a dsv:Column ;
+    rdfs:label " ExcavationTeamSize" .
+
+<http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/FieldDirector> a dsv:Column ;
+    rdfs:label " FieldDirector" .
+
+<http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/FundingSource> a dsv:Column ;
+    rdfs:label " FundingSource" .
+
+<http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/InclementWeatherPlan> a dsv:Column ;
+    rdfs:label " InclementWeatherPlan" .
+
+<http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/LocalCollaboration> a dsv:Column ;
+    rdfs:label " LocalCollaboration" .
+
+<http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/ProjectTimeline> a dsv:Column ;
+    rdfs:label " ProjectTimeline" .
+
+<http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/ResearchSignificance> a dsv:Column ;
+    rdfs:label " ResearchSignificance" .
+
+<http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/SiteAccessibility> a dsv:Column ;
+    rdfs:label " SiteAccessibility" .
+
+<http://metaUnionSearch/datasets/ArcheologyFF5E8II4/column/WorkLog> a dsv:Column ;
+    rdfs:label " WorkLog" .
+
+<http://metaUnionSearch/datasets/ArcheologyFF5E8II4/datasetSchema> a dsv:DatasetSchema .
+

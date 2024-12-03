@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Religion5JMSND8D> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_5JMSND8D.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Religion5JMSND8D/column/ArtMusicCultureExpressions>,
+        <http://metaUnionSearch/datasets/Religion5JMSND8D/column/Demographics>,
+        <http://metaUnionSearch/datasets/Religion5JMSND8D/column/EvangelismEffortsandOutreachPrograms>,
+        <http://metaUnionSearch/datasets/Religion5JMSND8D/column/HolyDays>,
+        <http://metaUnionSearch/datasets/Religion5JMSND8D/column/HolyTexts>,
+        <http://metaUnionSearch/datasets/Religion5JMSND8D/column/InfluenceWithinGovernments>,
+        <http://metaUnionSearch/datasets/Religion5JMSND8D/column/InternalConflictIssues>,
+        <http://metaUnionSearch/datasets/Religion5JMSND8D/column/Prophets>,
+        <http://metaUnionSearch/datasets/Religion5JMSND8D/column/ReinterpretationTrends>,
+        <http://metaUnionSearch/datasets/Religion5JMSND8D/column/RelativePopulationSize>,
+        <http://metaUnionSearch/datasets/Religion5JMSND8D/column/SacredSpaces>,
+        <http://metaUnionSearch/datasets/Religion5JMSND8D/column/SocioeconomicStatus>,
+        <http://metaUnionSearch/datasets/Religion5JMSND8D/column/WomenandLGBTQRights> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Religion5JMSND8D/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Religion5JMSND8D/column/ArtMusicCultureExpressions> a dsv:Column ;
+    rdfs:label " Art, Music, & Culture Expressions" .
+
+<http://metaUnionSearch/datasets/Religion5JMSND8D/column/Demographics> a dsv:Column ;
+    rdfs:label " Demographics" .
+
+<http://metaUnionSearch/datasets/Religion5JMSND8D/column/EvangelismEffortsandOutreachPrograms> a dsv:Column ;
+    rdfs:label " Evangelism Efforts and Outreach Programs" .
+
+<http://metaUnionSearch/datasets/Religion5JMSND8D/column/HolyDays> a dsv:Column ;
+    rdfs:label " Holy Days" .
+
+<http://metaUnionSearch/datasets/Religion5JMSND8D/column/HolyTexts> a dsv:Column ;
+    rdfs:label " Holy Texts" .
+
+<http://metaUnionSearch/datasets/Religion5JMSND8D/column/InfluenceWithinGovernments> a dsv:Column ;
+    rdfs:label " Influence Within Governments" .
+
+<http://metaUnionSearch/datasets/Religion5JMSND8D/column/InternalConflictIssues> a dsv:Column ;
+    rdfs:label " Internal Conflict Issues" .
+
+<http://metaUnionSearch/datasets/Religion5JMSND8D/column/Prophets> a dsv:Column ;
+    rdfs:label " Prophets" .
+
+<http://metaUnionSearch/datasets/Religion5JMSND8D/column/ReinterpretationTrends> a dsv:Column ;
+    rdfs:label " (Re)interpretation Trends" .
+
+<http://metaUnionSearch/datasets/Religion5JMSND8D/column/RelativePopulationSize> a dsv:Column ;
+    rdfs:label "Relative Population Size" .
+
+<http://metaUnionSearch/datasets/Religion5JMSND8D/column/SacredSpaces> a dsv:Column ;
+    rdfs:label " Sacred Spaces" .
+
+<http://metaUnionSearch/datasets/Religion5JMSND8D/column/SocioeconomicStatus> a dsv:Column ;
+    rdfs:label " Socioeconomic Status" .
+
+<http://metaUnionSearch/datasets/Religion5JMSND8D/column/WomenandLGBTQRights> a dsv:Column ;
+    rdfs:label " Women and LGBTQ+ Rights" .
+
+<http://metaUnionSearch/datasets/Religion5JMSND8D/datasetSchema> a dsv:DatasetSchema .
+

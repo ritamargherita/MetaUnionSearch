@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_H8IUNCLV.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/AdditionalNotes>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/FDAApprovalStatus>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/LastRenewalDate>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/MEDInsuranceCoPayAmount>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/ManufacturerName>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/NextRefillingDueDate>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/PatientOutofPocketCost>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/PharmacyNameandContactInfo>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/QuantityPrescribed>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/SideEffects>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/StorageInstructions> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MedicineH8IUNCLV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/AdditionalNotes> a dsv:Column ;
+    rdfs:label " Additional Notes." .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/FDAApprovalStatus> a dsv:Column ;
+    rdfs:label " FDA Approval Status" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/LastRenewalDate> a dsv:Column ;
+    rdfs:label " Last Renewal Date" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/MEDInsuranceCoPayAmount> a dsv:Column ;
+    rdfs:label " MED Insurance Co Pay Amount" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/ManufacturerName> a dsv:Column ;
+    rdfs:label " Manufacturer Name" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/NextRefillingDueDate> a dsv:Column ;
+    rdfs:label " Next Refilling Due Date" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/PatientOutofPocketCost> a dsv:Column ;
+    rdfs:label " Patient Out-of-Pocket Cost" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/PharmacyNameandContactInfo> a dsv:Column ;
+    rdfs:label " Pharmacy Name and Contact Info" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/QuantityPrescribed> a dsv:Column ;
+    rdfs:label "Quantity Prescribed" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/SideEffects> a dsv:Column ;
+    rdfs:label " Side Effects" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/StorageInstructions> a dsv:Column ;
+    rdfs:label " Storage Instructions" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/datasetSchema> a dsv:DatasetSchema .
+

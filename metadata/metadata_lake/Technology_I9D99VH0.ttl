@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologyI9D99VH0> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_I9D99VH0.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/BigDataAnalyticsGrowth>,
+        <http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/CloudServicesConsolidation>,
+        <http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/CybersecurityThreatLandscape>,
+        <http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/DistributedLedgerImplementation>,
+        <http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/EdgeComputingProliferation>,
+        <http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/InternetOfThingsExpansion>,
+        <http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/NaturalLanguageUnderstandingEvolution>,
+        <http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/OpenSourceProjectAdoption>,
+        <http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/QuantumComputingProgression>,
+        <http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/RoboticsProcessAutomationDevelopment>,
+        <http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/SupercomputersCapabilities>,
+        <http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/TechGiantsInvestments>,
+        <http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/VirtualRealityApplications> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologyI9D99VH0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/BigDataAnalyticsGrowth> a dsv:Column ;
+    rdfs:label " Big Data Analytics Growth" .
+
+<http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/CloudServicesConsolidation> a dsv:Column ;
+    rdfs:label " Cloud Services Consolidation" .
+
+<http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/CybersecurityThreatLandscape> a dsv:Column ;
+    rdfs:label " Cybersecurity Threat Landscape" .
+
+<http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/DistributedLedgerImplementation> a dsv:Column ;
+    rdfs:label " Distributed Ledger Implementation" .
+
+<http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/EdgeComputingProliferation> a dsv:Column ;
+    rdfs:label " Edge Computing Proliferation" .
+
+<http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/InternetOfThingsExpansion> a dsv:Column ;
+    rdfs:label " Internet Of Things Expansion" .
+
+<http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/NaturalLanguageUnderstandingEvolution> a dsv:Column ;
+    rdfs:label " Natural Language Understanding Evolution" .
+
+<http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/OpenSourceProjectAdoption> a dsv:Column ;
+    rdfs:label " Open Source Project Adoption" .
+
+<http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/QuantumComputingProgression> a dsv:Column ;
+    rdfs:label " Quantum Computing Progression" .
+
+<http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/RoboticsProcessAutomationDevelopment> a dsv:Column ;
+    rdfs:label " Robotics Process Automation Development" .
+
+<http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/SupercomputersCapabilities> a dsv:Column ;
+    rdfs:label " Supercomputers Capabilities" .
+
+<http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/TechGiantsInvestments> a dsv:Column ;
+    rdfs:label "Tech Giants Investments" .
+
+<http://metaUnionSearch/datasets/TechnologyI9D99VH0/column/VirtualRealityApplications> a dsv:Column ;
+    rdfs:label " Virtual Reality Applications" .
+
+<http://metaUnionSearch/datasets/TechnologyI9D99VH0/datasetSchema> a dsv:DatasetSchema .
+

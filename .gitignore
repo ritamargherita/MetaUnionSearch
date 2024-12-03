@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# conda
+*.conda
+
 # Jupyter notebook
 **/.ipynb_checkpoints/
 

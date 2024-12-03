@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LanguageDBZ7FGQJ> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_DBZ7FGQJ.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/LanguageFamily>,
+        <http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/LanguageLearningDifficulty>,
+        <http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/LanguageName>,
+        <http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/LinguisticComplexity>,
+        <http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/LiteraryTradition>,
+        <http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/NativeSpeakers>,
+        <http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/Origin>,
+        <http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/Script>,
+        <http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/Speakers>,
+        <http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/UseinPopularMedia> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/LanguageFamily> a dsv:Column ;
+    rdfs:label " Language Family" .
+
+<http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/LanguageLearningDifficulty> a dsv:Column ;
+    rdfs:label " Language Learning Difficulty" .
+
+<http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/LanguageName> a dsv:Column ;
+    rdfs:label "Language Name" .
+
+<http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/LinguisticComplexity> a dsv:Column ;
+    rdfs:label " Linguistic Complexity" .
+
+<http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/LiteraryTradition> a dsv:Column ;
+    rdfs:label " Literary Tradition" .
+
+<http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/NativeSpeakers> a dsv:Column ;
+    rdfs:label " Native Speakers" .
+
+<http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/Origin> a dsv:Column ;
+    rdfs:label " Origin" .
+
+<http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/Script> a dsv:Column ;
+    rdfs:label " Script" .
+
+<http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/Speakers> a dsv:Column ;
+    rdfs:label " Speakers" .
+
+<http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/column/UseinPopularMedia> a dsv:Column ;
+    rdfs:label " Use in Popular Media" .
+
+<http://metaUnionSearch/datasets/LanguageDBZ7FGQJ/datasetSchema> a dsv:DatasetSchema .
+

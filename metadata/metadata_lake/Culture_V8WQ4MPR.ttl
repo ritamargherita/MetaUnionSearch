@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CultureV8WQ4MPR> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_V8WQ4MPR.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/CensusSize>,
+        <http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/CuisineIngredients>,
+        <http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/CulturalAttireDetails>,
+        <http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/Festivals2>,
+        <http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/Language2>,
+        <http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/MusicGenres>,
+        <http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/NationalHeroes>,
+        <http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/PopulationGrowthRate>,
+        <http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/PreferredCommunicationStyle2>,
+        <http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/Religion2>,
+        <http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/SocialCulture2>,
+        <http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/WorkHours2> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CultureV8WQ4MPR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/CensusSize> a dsv:Column ;
+    rdfs:label "Census Size" .
+
+<http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/CuisineIngredients> a dsv:Column ;
+    rdfs:label " Cuisine Ingredients" .
+
+<http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/CulturalAttireDetails> a dsv:Column ;
+    rdfs:label " Cultural Attire Details" .
+
+<http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/Festivals2> a dsv:Column ;
+    rdfs:label " Festivals 2" .
+
+<http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/Language2> a dsv:Column ;
+    rdfs:label " Language 2" .
+
+<http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/MusicGenres> a dsv:Column ;
+    rdfs:label " Music Genres" .
+
+<http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/NationalHeroes> a dsv:Column ;
+    rdfs:label " National Heroes" .
+
+<http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/PopulationGrowthRate> a dsv:Column ;
+    rdfs:label " Population Growth Rate" .
+
+<http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/PreferredCommunicationStyle2> a dsv:Column ;
+    rdfs:label " Preferred Communication Style 2" .
+
+<http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/Religion2> a dsv:Column ;
+    rdfs:label " Religion 2" .
+
+<http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/SocialCulture2> a dsv:Column ;
+    rdfs:label " Social Culture 2" .
+
+<http://metaUnionSearch/datasets/CultureV8WQ4MPR/column/WorkHours2> a dsv:Column ;
+    rdfs:label " Work Hours 2" .
+
+<http://metaUnionSearch/datasets/CultureV8WQ4MPR/datasetSchema> a dsv:DatasetSchema .
+

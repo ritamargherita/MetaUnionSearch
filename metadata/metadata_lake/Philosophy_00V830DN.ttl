@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_00V830DN.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Philosophy00V830DN/column/AdherentDemographics>,
+        <http://metaUnionSearch/datasets/Philosophy00V830DN/column/AdherentSurveyed>,
+        <http://metaUnionSearch/datasets/Philosophy00V830DN/column/CriticismsofConcept>,
+        <http://metaUnionSearch/datasets/Philosophy00V830DN/column/CriticismsofTheorist>,
+        <http://metaUnionSearch/datasets/Philosophy00V830DN/column/InfluenceonArt>,
+        <http://metaUnionSearch/datasets/Philosophy00V830DN/column/InfluenceonPolitics>,
+        <http://metaUnionSearch/datasets/Philosophy00V830DN/column/InfluenceonScience>,
+        <http://metaUnionSearch/datasets/Philosophy00V830DN/column/InfluenceonSociety>,
+        <http://metaUnionSearch/datasets/Philosophy00V830DN/column/InfluentialWork>,
+        <http://metaUnionSearch/datasets/Philosophy00V830DN/column/InfluentialWorkTranslation>,
+        <http://metaUnionSearch/datasets/Philosophy00V830DN/column/MajorTheorist>,
+        <http://metaUnionSearch/datasets/Philosophy00V830DN/column/MajorTheoristSchool>,
+        <http://metaUnionSearch/datasets/Philosophy00V830DN/column/NewPhilosophicalField>,
+        <http://metaUnionSearch/datasets/Philosophy00V830DN/column/PhilosophicalConceptVariation>,
+        <http://metaUnionSearch/datasets/Philosophy00V830DN/column/RelatedTerminology>,
+        <http://metaUnionSearch/datasets/Philosophy00V830DN/column/ofAdherents> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Philosophy00V830DN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/column/AdherentDemographics> a dsv:Column ;
+    rdfs:label " Adherent Demographics" .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/column/AdherentSurveyed> a dsv:Column ;
+    rdfs:label " Adherent Surveyed" .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/column/CriticismsofConcept> a dsv:Column ;
+    rdfs:label " Criticisms of Concept" .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/column/CriticismsofTheorist> a dsv:Column ;
+    rdfs:label " Criticisms of Theorist" .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/column/InfluenceonArt> a dsv:Column ;
+    rdfs:label " Influence on Art" .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/column/InfluenceonPolitics> a dsv:Column ;
+    rdfs:label " Influence on Politics" .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/column/InfluenceonScience> a dsv:Column ;
+    rdfs:label " Influence on Science" .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/column/InfluenceonSociety> a dsv:Column ;
+    rdfs:label " Influence on Society" .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/column/InfluentialWork> a dsv:Column ;
+    rdfs:label " Influential Work" .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/column/InfluentialWorkTranslation> a dsv:Column ;
+    rdfs:label " Influential Work Translation" .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/column/MajorTheorist> a dsv:Column ;
+    rdfs:label " Major Theorist" .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/column/MajorTheoristSchool> a dsv:Column ;
+    rdfs:label " Major Theorist School" .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/column/NewPhilosophicalField> a dsv:Column ;
+    rdfs:label " New Philosophical Field" .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/column/PhilosophicalConceptVariation> a dsv:Column ;
+    rdfs:label "Philosophical Concept Variation" .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/column/RelatedTerminology> a dsv:Column ;
+    rdfs:label " Related Terminology" .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/column/ofAdherents> a dsv:Column ;
+    rdfs:label " # of Adherents" .
+
+<http://metaUnionSearch/datasets/Philosophy00V830DN/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Religion3UEA3GE8> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_3UEA3GE8.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Religion3UEA3GE8/column/AfterlifeConcepts>,
+        <http://metaUnionSearch/datasets/Religion3UEA3GE8/column/ArchitecturalStructures>,
+        <http://metaUnionSearch/datasets/Religion3UEA3GE8/column/ArtisticExpressiveness>,
+        <http://metaUnionSearch/datasets/Religion3UEA3GE8/column/ClothingRules>,
+        <http://metaUnionSearch/datasets/Religion3UEA3GE8/column/DietaryRestrictions>,
+        <http://metaUnionSearch/datasets/Religion3UEA3GE8/column/EvangelizationMethods>,
+        <http://metaUnionSearch/datasets/Religion3UEA3GE8/column/FestivalsUniqueToThem>,
+        <http://metaUnionSearch/datasets/Religion3UEA3GE8/column/MeditationTypes>,
+        <http://metaUnionSearch/datasets/Religion3UEA3GE8/column/ModernChallenges>,
+        <http://metaUnionSearch/datasets/Religion3UEA3GE8/column/MoralityTeachings>,
+        <http://metaUnionSearch/datasets/Religion3UEA3GE8/column/MusicStyles>,
+        <http://metaUnionSearch/datasets/Religion3UEA3GE8/column/SacredAnimals>,
+        <http://metaUnionSearch/datasets/Religion3UEA3GE8/column/SpiritualPractices> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Religion3UEA3GE8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Religion3UEA3GE8/column/AfterlifeConcepts> a dsv:Column ;
+    rdfs:label " Afterlife Concepts" .
+
+<http://metaUnionSearch/datasets/Religion3UEA3GE8/column/ArchitecturalStructures> a dsv:Column ;
+    rdfs:label " Architectural Structures" .
+
+<http://metaUnionSearch/datasets/Religion3UEA3GE8/column/ArtisticExpressiveness> a dsv:Column ;
+    rdfs:label " Artistic Expressiveness" .
+
+<http://metaUnionSearch/datasets/Religion3UEA3GE8/column/ClothingRules> a dsv:Column ;
+    rdfs:label " Clothing Rules" .
+
+<http://metaUnionSearch/datasets/Religion3UEA3GE8/column/DietaryRestrictions> a dsv:Column ;
+    rdfs:label " Dietary Restrictions" .
+
+<http://metaUnionSearch/datasets/Religion3UEA3GE8/column/EvangelizationMethods> a dsv:Column ;
+    rdfs:label " Evangelization Methods" .
+
+<http://metaUnionSearch/datasets/Religion3UEA3GE8/column/FestivalsUniqueToThem> a dsv:Column ;
+    rdfs:label " Festivals Unique To Them" .
+
+<http://metaUnionSearch/datasets/Religion3UEA3GE8/column/MeditationTypes> a dsv:Column ;
+    rdfs:label " Meditation Types" .
+
+<http://metaUnionSearch/datasets/Religion3UEA3GE8/column/ModernChallenges> a dsv:Column ;
+    rdfs:label " Modern Challenges" .
+
+<http://metaUnionSearch/datasets/Religion3UEA3GE8/column/MoralityTeachings> a dsv:Column ;
+    rdfs:label "Morality Teachings" .
+
+<http://metaUnionSearch/datasets/Religion3UEA3GE8/column/MusicStyles> a dsv:Column ;
+    rdfs:label " Music Styles" .
+
+<http://metaUnionSearch/datasets/Religion3UEA3GE8/column/SacredAnimals> a dsv:Column ;
+    rdfs:label " Sacred Animals" .
+
+<http://metaUnionSearch/datasets/Religion3UEA3GE8/column/SpiritualPractices> a dsv:Column ;
+    rdfs:label " Spiritual Practices" .
+
+<http://metaUnionSearch/datasets/Religion3UEA3GE8/datasetSchema> a dsv:DatasetSchema .
+

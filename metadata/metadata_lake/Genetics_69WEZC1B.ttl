@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Genetics69WEZC1B> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_69WEZC1B.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Genetics69WEZC1B/column/CurrentAffiliation>,
+        <http://metaUnionSearch/datasets/Genetics69WEZC1B/column/FamousFor>,
+        <http://metaUnionSearch/datasets/Genetics69WEZC1B/column/FieldofStudy>,
+        <http://metaUnionSearch/datasets/Genetics69WEZC1B/column/GeneticCounselingExperience>,
+        <http://metaUnionSearch/datasets/Genetics69WEZC1B/column/GeneticianName>,
+        <http://metaUnionSearch/datasets/Genetics69WEZC1B/column/HereditaryDiseasesStudied>,
+        <http://metaUnionSearch/datasets/Genetics69WEZC1B/column/HighestDegree>,
+        <http://metaUnionSearch/datasets/Genetics69WEZC1B/column/InstitutionName>,
+        <http://metaUnionSearch/datasets/Genetics69WEZC1B/column/NumberofPublications>,
+        <http://metaUnionSearch/datasets/Genetics69WEZC1B/column/PreviouslyHeldPositions>,
+        <http://metaUnionSearch/datasets/Genetics69WEZC1B/column/ProfessionalWorkingUnderHimHer>,
+        <http://metaUnionSearch/datasets/Genetics69WEZC1B/column/ResearchGrantAmount>,
+        <http://metaUnionSearch/datasets/Genetics69WEZC1B/column/YearsofExperience> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Genetics69WEZC1B/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Genetics69WEZC1B/column/CurrentAffiliation> a dsv:Column ;
+    rdfs:label " Current Affiliation" .
+
+<http://metaUnionSearch/datasets/Genetics69WEZC1B/column/FamousFor> a dsv:Column ;
+    rdfs:label " Famous For" .
+
+<http://metaUnionSearch/datasets/Genetics69WEZC1B/column/FieldofStudy> a dsv:Column ;
+    rdfs:label " Field of Study" .
+
+<http://metaUnionSearch/datasets/Genetics69WEZC1B/column/GeneticCounselingExperience> a dsv:Column ;
+    rdfs:label " Genetic Counseling Experience" .
+
+<http://metaUnionSearch/datasets/Genetics69WEZC1B/column/GeneticianName> a dsv:Column ;
+    rdfs:label "Genetician Name" .
+
+<http://metaUnionSearch/datasets/Genetics69WEZC1B/column/HereditaryDiseasesStudied> a dsv:Column ;
+    rdfs:label " Hereditary Diseases Studied" .
+
+<http://metaUnionSearch/datasets/Genetics69WEZC1B/column/HighestDegree> a dsv:Column ;
+    rdfs:label " Highest Degree" .
+
+<http://metaUnionSearch/datasets/Genetics69WEZC1B/column/InstitutionName> a dsv:Column ;
+    rdfs:label " Institution Name" .
+
+<http://metaUnionSearch/datasets/Genetics69WEZC1B/column/NumberofPublications> a dsv:Column ;
+    rdfs:label " Number of Publications" .
+
+<http://metaUnionSearch/datasets/Genetics69WEZC1B/column/PreviouslyHeldPositions> a dsv:Column ;
+    rdfs:label " Previously Held Positions" .
+
+<http://metaUnionSearch/datasets/Genetics69WEZC1B/column/ProfessionalWorkingUnderHimHer> a dsv:Column ;
+    rdfs:label " Professional Working Under Him/Her" .
+
+<http://metaUnionSearch/datasets/Genetics69WEZC1B/column/ResearchGrantAmount> a dsv:Column ;
+    rdfs:label " Research Grant Amount" .
+
+<http://metaUnionSearch/datasets/Genetics69WEZC1B/column/YearsofExperience> a dsv:Column ;
+    rdfs:label " Years of Experience" .
+
+<http://metaUnionSearch/datasets/Genetics69WEZC1B/datasetSchema> a dsv:DatasetSchema .
+

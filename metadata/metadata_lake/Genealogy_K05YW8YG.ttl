@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GenealogyK05YW8YG> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_K05YW8YG.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/AncesterCountryOrigin>,
+        <http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/AncestralProfession>,
+        <http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/Child1BirthDate>,
+        <http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/Child1GivenName>,
+        <http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/Child1PlaceOfBirth>,
+        <http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/Morgender>,
+        <http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/NumberofChildren>,
+        <http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/NumberoftimesMarried>,
+        <http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/Secondspousename>,
+        <http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/SpousesDeceasedStatus> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GenealogyK05YW8YG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/AncesterCountryOrigin> a dsv:Column ;
+    rdfs:label "AncesterCountryOrigin" .
+
+<http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/AncestralProfession> a dsv:Column ;
+    rdfs:label " AncestralProfession " .
+
+<http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/Child1BirthDate> a dsv:Column ;
+    rdfs:label " Child1BirthDate" .
+
+<http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/Child1GivenName> a dsv:Column ;
+    rdfs:label " Child1GivenName" .
+
+<http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/Child1PlaceOfBirth> a dsv:Column ;
+    rdfs:label " Child1PlaceOfBirth" .
+
+<http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/Morgender> a dsv:Column ;
+    rdfs:label " Morgender" .
+
+<http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/NumberofChildren> a dsv:Column ;
+    rdfs:label " NumberofChildren" .
+
+<http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/NumberoftimesMarried> a dsv:Column ;
+    rdfs:label " NumberoftimesMarried" .
+
+<http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/Secondspousename> a dsv:Column ;
+    rdfs:label " Secondspousename" .
+
+<http://metaUnionSearch/datasets/GenealogyK05YW8YG/column/SpousesDeceasedStatus> a dsv:Column ;
+    rdfs:label " SpousesDeceasedStatus " .
+
+<http://metaUnionSearch/datasets/GenealogyK05YW8YG/datasetSchema> a dsv:DatasetSchema .
+

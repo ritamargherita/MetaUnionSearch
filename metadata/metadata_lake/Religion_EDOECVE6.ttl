@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ReligionEDOECVE6> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_EDOECVE6.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ReligionEDOECVE6/column/ArtifactsRelics>,
+        <http://metaUnionSearch/datasets/ReligionEDOECVE6/column/HistoricalDevelopment>,
+        <http://metaUnionSearch/datasets/ReligionEDOECVE6/column/InterfaithDialogueParticipation>,
+        <http://metaUnionSearch/datasets/ReligionEDOECVE6/column/InternalDebatesExclusivityvsTolerance>,
+        <http://metaUnionSearch/datasets/ReligionEDOECVE6/column/ModernReinterpretationalWorks>,
+        <http://metaUnionSearch/datasets/ReligionEDOECVE6/column/MoralityTeachings>,
+        <http://metaUnionSearch/datasets/ReligionEDOECVE6/column/SacredSpaces>,
+        <http://metaUnionSearch/datasets/ReligionEDOECVE6/column/ScientificorPseudoscientificEndorsements>,
+        <http://metaUnionSearch/datasets/ReligionEDOECVE6/column/SocialServiceInitiatives>,
+        <http://metaUnionSearch/datasets/ReligionEDOECVE6/column/SpiritualPractices>,
+        <http://metaUnionSearch/datasets/ReligionEDOECVE6/column/YouthEngagementActivities> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ReligionEDOECVE6/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ReligionEDOECVE6/column/ArtifactsRelics> a dsv:Column ;
+    rdfs:label " Artifacts & Relics" .
+
+<http://metaUnionSearch/datasets/ReligionEDOECVE6/column/HistoricalDevelopment> a dsv:Column ;
+    rdfs:label " Historical Development" .
+
+<http://metaUnionSearch/datasets/ReligionEDOECVE6/column/InterfaithDialogueParticipation> a dsv:Column ;
+    rdfs:label " Interfaith Dialogue Participation" .
+
+<http://metaUnionSearch/datasets/ReligionEDOECVE6/column/InternalDebatesExclusivityvsTolerance> a dsv:Column ;
+    rdfs:label " Internal Debates (\"Exclusivity vs. Tolerance\")" .
+
+<http://metaUnionSearch/datasets/ReligionEDOECVE6/column/ModernReinterpretationalWorks> a dsv:Column ;
+    rdfs:label " Modern Reinterpretational Works" .
+
+<http://metaUnionSearch/datasets/ReligionEDOECVE6/column/MoralityTeachings> a dsv:Column ;
+    rdfs:label "Morality Teachings" .
+
+<http://metaUnionSearch/datasets/ReligionEDOECVE6/column/SacredSpaces> a dsv:Column ;
+    rdfs:label " Sacred Spaces" .
+
+<http://metaUnionSearch/datasets/ReligionEDOECVE6/column/ScientificorPseudoscientificEndorsements> a dsv:Column ;
+    rdfs:label " Scientific or Pseudoscientific Endorsements" .
+
+<http://metaUnionSearch/datasets/ReligionEDOECVE6/column/SocialServiceInitiatives> a dsv:Column ;
+    rdfs:label " Social Service Initiatives" .
+
+<http://metaUnionSearch/datasets/ReligionEDOECVE6/column/SpiritualPractices> a dsv:Column ;
+    rdfs:label " Spiritual Practices" .
+
+<http://metaUnionSearch/datasets/ReligionEDOECVE6/column/YouthEngagementActivities> a dsv:Column ;
+    rdfs:label " Youth Engagement Activities" .
+
+<http://metaUnionSearch/datasets/ReligionEDOECVE6/datasetSchema> a dsv:DatasetSchema .
+

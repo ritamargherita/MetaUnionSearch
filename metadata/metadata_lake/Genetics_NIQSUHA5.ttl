@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeneticsNIQSUHA5> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_NIQSUHA5.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/AdditionalPrevalenceData>,
+        <http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/ChromosomeLocation2>,
+        <http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/ChromosomeNumber2>,
+        <http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/ExpressionPattern2>,
+        <http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/GeneDescription2>,
+        <http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/GeneticDisorder2>,
+        <http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/InheritancePattern2>,
+        <http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/MutationLocation2>,
+        <http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/NewlyDiscoveredGenes>,
+        <http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/NovelMutationsTypes>,
+        <http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/PopulationFrequency2>,
+        <http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/RecessiveAllelesNeeded2>,
+        <http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/Symptoms2>,
+        <http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/TestMethod2> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeneticsNIQSUHA5/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/AdditionalPrevalenceData> a dsv:Column ;
+    rdfs:label " AdditionalPrevalenceData" .
+
+<http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/ChromosomeLocation2> a dsv:Column ;
+    rdfs:label " ChromosomeLocation2" .
+
+<http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/ChromosomeNumber2> a dsv:Column ;
+    rdfs:label " ChromosomeNumber2" .
+
+<http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/ExpressionPattern2> a dsv:Column ;
+    rdfs:label " ExpressionPattern2" .
+
+<http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/GeneDescription2> a dsv:Column ;
+    rdfs:label " GeneDescription2" .
+
+<http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/GeneticDisorder2> a dsv:Column ;
+    rdfs:label " GeneticDisorder2" .
+
+<http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/InheritancePattern2> a dsv:Column ;
+    rdfs:label " InheritancePattern2" .
+
+<http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/MutationLocation2> a dsv:Column ;
+    rdfs:label " MutationLocation2" .
+
+<http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/NewlyDiscoveredGenes> a dsv:Column ;
+    rdfs:label "NewlyDiscoveredGenes" .
+
+<http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/NovelMutationsTypes> a dsv:Column ;
+    rdfs:label " NovelMutationsTypes" .
+
+<http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/PopulationFrequency2> a dsv:Column ;
+    rdfs:label " PopulationFrequency2" .
+
+<http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/RecessiveAllelesNeeded2> a dsv:Column ;
+    rdfs:label " RecessiveAllelesNeeded2" .
+
+<http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/Symptoms2> a dsv:Column ;
+    rdfs:label " Symptoms2" .
+
+<http://metaUnionSearch/datasets/GeneticsNIQSUHA5/column/TestMethod2> a dsv:Column ;
+    rdfs:label " TestMethod2" .
+
+<http://metaUnionSearch/datasets/GeneticsNIQSUHA5/datasetSchema> a dsv:DatasetSchema .
+

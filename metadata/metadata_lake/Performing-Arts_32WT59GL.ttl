@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArts32WT59GL> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_32WT59GL.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/AdditionalInfo1>,
+        <http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/AdditionalInfo2>,
+        <http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/AdditionalInfo3>,
+        <http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/AudienceReaction>,
+        <http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/AuditoriumCapacity>,
+        <http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/Date>,
+        <http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/Genre>,
+        <http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/PaidAttendees>,
+        <http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/PerformanceType>,
+        <http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/RevenuesProfits>,
+        <http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/Venue>,
+        <http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/YearsActive> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArts32WT59GL/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/AdditionalInfo1> a dsv:Column ;
+    rdfs:label " Additional Info 1" .
+
+<http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/AdditionalInfo2> a dsv:Column ;
+    rdfs:label " Additional Info 2" .
+
+<http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/AdditionalInfo3> a dsv:Column ;
+    rdfs:label " Additional Info 3" .
+
+<http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/AudienceReaction> a dsv:Column ;
+    rdfs:label " Audience Reaction" .
+
+<http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/AuditoriumCapacity> a dsv:Column ;
+    rdfs:label " Auditorium Capacity" .
+
+<http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/Date> a dsv:Column ;
+    rdfs:label " Date" .
+
+<http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/Genre> a dsv:Column ;
+    rdfs:label " Genre" .
+
+<http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/PaidAttendees> a dsv:Column ;
+    rdfs:label " Paid Attendees" .
+
+<http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/PerformanceType> a dsv:Column ;
+    rdfs:label "Performance Type" .
+
+<http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/RevenuesProfits> a dsv:Column ;
+    rdfs:label " Revenues & Profits" .
+
+<http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/Venue> a dsv:Column ;
+    rdfs:label " Venue" .
+
+<http://metaUnionSearch/datasets/PerformingArts32WT59GL/column/YearsActive> a dsv:Column ;
+    rdfs:label " Years Active" .
+
+<http://metaUnionSearch/datasets/PerformingArts32WT59GL/datasetSchema> a dsv:DatasetSchema .
+

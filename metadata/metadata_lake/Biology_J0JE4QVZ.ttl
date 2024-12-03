@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BiologyJ0JE4QVZ> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_J0JE4QVZ.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Additionalnotes>,
+        <http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Developmentallycontrolledgeneexpressionheatmap>,
+        <http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Homologousstructurescomparisonbetweenspecies>,
+        <http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Interactingproteinslistandtheirfunctions>,
+        <http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Morphologicallyrelevantphenotypechangesunderknockoutconditions>,
+        <http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Phylogeneticaltreebasedonconserveddomains>,
+        <http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Posttranslationalmodificationsdetails>,
+        <http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Proteinfamilyclassification>,
+        <http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Regulationmechanismsattranscriptionlevel>,
+        <http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Regulationmechanismsattranslationlevel>,
+        <http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Relatedmetabolicpathwaysanalysis>,
+        <http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Speciesdistributionmap>,
+        <http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Subcellularlocalizeddomaincomposition>,
+        <http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Uniquebiologicalfunctions> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Additionalnotes> a dsv:Column ;
+    rdfs:label " Additional notes" .
+
+<http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Developmentallycontrolledgeneexpressionheatmap> a dsv:Column ;
+    rdfs:label " Developmentally controlled gene expression heatmap" .
+
+<http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Homologousstructurescomparisonbetweenspecies> a dsv:Column ;
+    rdfs:label " Homologous structures comparison between species" .
+
+<http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Interactingproteinslistandtheirfunctions> a dsv:Column ;
+    rdfs:label " Interacting proteins list and their functions" .
+
+<http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Morphologicallyrelevantphenotypechangesunderknockoutconditions> a dsv:Column ;
+    rdfs:label " Morphologically relevant phenotype changes under knockout conditions" .
+
+<http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Phylogeneticaltreebasedonconserveddomains> a dsv:Column ;
+    rdfs:label " Phylogenetical tree based on conserved domains" .
+
+<http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Posttranslationalmodificationsdetails> a dsv:Column ;
+    rdfs:label " Posttranslational modifications details" .
+
+<http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Proteinfamilyclassification> a dsv:Column ;
+    rdfs:label "Protein family classification" .
+
+<http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Regulationmechanismsattranscriptionlevel> a dsv:Column ;
+    rdfs:label " Regulation mechanisms at transcription level" .
+
+<http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Regulationmechanismsattranslationlevel> a dsv:Column ;
+    rdfs:label " Regulation mechanisms at translation level" .
+
+<http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Relatedmetabolicpathwaysanalysis> a dsv:Column ;
+    rdfs:label " Related metabolic pathways analysis" .
+
+<http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Speciesdistributionmap> a dsv:Column ;
+    rdfs:label " Species distribution map" .
+
+<http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Subcellularlocalizeddomaincomposition> a dsv:Column ;
+    rdfs:label " Subcellular localized domain composition" .
+
+<http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/column/Uniquebiologicalfunctions> a dsv:Column ;
+    rdfs:label " Unique biological functions" .
+
+<http://metaUnionSearch/datasets/BiologyJ0JE4QVZ/datasetSchema> a dsv:DatasetSchema .
+

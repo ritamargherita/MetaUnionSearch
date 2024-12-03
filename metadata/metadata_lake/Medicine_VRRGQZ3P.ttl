@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MedicineVRRGQZ3P> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_VRRGQZ3P.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/AdditionalTreatment>,
+        <http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/Anaesthetist>,
+        <http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/Anesthesiologist>,
+        <http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/AssistantPhysician>,
+        <http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/FollowupRequired>,
+        <http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/MedicalProcedure>,
+        <http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/NurseInCharge>,
+        <http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/PatientSatisfaction>,
+        <http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/PaymentInformation>,
+        <http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/RecoveryTime>,
+        <http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/TreatingPhysician>,
+        <http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/TreatmentDate>,
+        <http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/TreatmentLocation>,
+        <http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/TreatmentType> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MedicineVRRGQZ3P/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/AdditionalTreatment> a dsv:Column ;
+    rdfs:label "Additional Treatment" .
+
+<http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/Anaesthetist> a dsv:Column ;
+    rdfs:label "Anaesthetist" .
+
+<http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/Anesthesiologist> a dsv:Column ;
+    rdfs:label "Anesthesiologist" .
+
+<http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/AssistantPhysician> a dsv:Column ;
+    rdfs:label "Assistant Physician" .
+
+<http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/FollowupRequired> a dsv:Column ;
+    rdfs:label "Follow-up Required" .
+
+<http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/MedicalProcedure> a dsv:Column ;
+    rdfs:label "Medical Procedure" .
+
+<http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/NurseInCharge> a dsv:Column ;
+    rdfs:label "Nurse In-Charge" .
+
+<http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/PatientSatisfaction> a dsv:Column ;
+    rdfs:label "Patient Satisfaction." .
+
+<http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/PaymentInformation> a dsv:Column ;
+    rdfs:label "Payment Information" .
+
+<http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/RecoveryTime> a dsv:Column ;
+    rdfs:label "Recovery Time" .
+
+<http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/TreatingPhysician> a dsv:Column ;
+    rdfs:label "Treating Physician" .
+
+<http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/TreatmentDate> a dsv:Column ;
+    rdfs:label "Treatment Date" .
+
+<http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/TreatmentLocation> a dsv:Column ;
+    rdfs:label "Treatment Location" .
+
+<http://metaUnionSearch/datasets/MedicineVRRGQZ3P/column/TreatmentType> a dsv:Column ;
+    rdfs:label "Treatment Type" .
+
+<http://metaUnionSearch/datasets/MedicineVRRGQZ3P/datasetSchema> a dsv:DatasetSchema .
+

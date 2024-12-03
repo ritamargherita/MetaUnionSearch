@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CriminologyJHT51TIW> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_JHT51TIW.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/DateTimeOccurred>,
+        <http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/IncidentNumber>,
+        <http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/IncidentType>,
+        <http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/Location>,
+        <http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/OffenseCategory>,
+        <http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/OffenseDescription>,
+        <http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/SuspectAge>,
+        <http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/SuspectGender>,
+        <http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/SuspectName>,
+        <http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/SuspectRace>,
+        <http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/VictimAge>,
+        <http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/VictimGender>,
+        <http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/VictimRace> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CriminologyJHT51TIW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/DateTimeOccurred> a dsv:Column ;
+    rdfs:label " Date & Time Occurred" .
+
+<http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/IncidentNumber> a dsv:Column ;
+    rdfs:label "Incident Number" .
+
+<http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/IncidentType> a dsv:Column ;
+    rdfs:label " Incident Type" .
+
+<http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/Location> a dsv:Column ;
+    rdfs:label " Location" .
+
+<http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/OffenseCategory> a dsv:Column ;
+    rdfs:label " Offense Category" .
+
+<http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/OffenseDescription> a dsv:Column ;
+    rdfs:label " Offense Description" .
+
+<http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/SuspectAge> a dsv:Column ;
+    rdfs:label " Suspect Age" .
+
+<http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/SuspectGender> a dsv:Column ;
+    rdfs:label " Suspect Gender" .
+
+<http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/SuspectName> a dsv:Column ;
+    rdfs:label " Suspect Name" .
+
+<http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/SuspectRace> a dsv:Column ;
+    rdfs:label " Suspect Race" .
+
+<http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/VictimAge> a dsv:Column ;
+    rdfs:label " Victim Age" .
+
+<http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/VictimGender> a dsv:Column ;
+    rdfs:label " Victim Gender" .
+
+<http://metaUnionSearch/datasets/CriminologyJHT51TIW/column/VictimRace> a dsv:Column ;
+    rdfs:label " Victim Race" .
+
+<http://metaUnionSearch/datasets/CriminologyJHT51TIW/datasetSchema> a dsv:DatasetSchema .
+

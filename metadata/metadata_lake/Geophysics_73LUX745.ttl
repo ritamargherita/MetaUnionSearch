@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_73LUX745.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Geophysics73LUX745/column/Density>,
+        <http://metaUnionSearch/datasets/Geophysics73LUX745/column/FocalMechanisms>,
+        <http://metaUnionSearch/datasets/Geophysics73LUX745/column/FreeSurfaceEffect>,
+        <http://metaUnionSearch/datasets/Geophysics73LUX745/column/GeologicHazardAssessment>,
+        <http://metaUnionSearch/datasets/Geophysics73LUX745/column/GravityAnomalies>,
+        <http://metaUnionSearch/datasets/Geophysics73LUX745/column/MagneticAnomalies>,
+        <http://metaUnionSearch/datasets/Geophysics73LUX745/column/MicroearthquakeLocations>,
+        <http://metaUnionSearch/datasets/Geophysics73LUX745/column/PWaveVelocities>,
+        <http://metaUnionSearch/datasets/Geophysics73LUX745/column/ReflectionCoefficients>,
+        <http://metaUnionSearch/datasets/Geophysics73LUX745/column/SeaLevelChanges>,
+        <http://metaUnionSearch/datasets/Geophysics73LUX745/column/SeismicAttenuation>,
+        <http://metaUnionSearch/datasets/Geophysics73LUX745/column/ShearSWaves>,
+        <http://metaUnionSearch/datasets/Geophysics73LUX745/column/SubsurfaceImagingTechniques>,
+        <http://metaUnionSearch/datasets/Geophysics73LUX745/column/TopographicCorrections>,
+        <http://metaUnionSearch/datasets/Geophysics73LUX745/column/VolcanicEmissionsMonitoring> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geophysics73LUX745/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745/column/Density> a dsv:Column ;
+    rdfs:label "Density" .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745/column/FocalMechanisms> a dsv:Column ;
+    rdfs:label "Focal Mechanisms*" .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745/column/FreeSurfaceEffect> a dsv:Column ;
+    rdfs:label "Free Surface Effect*" .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745/column/GeologicHazardAssessment> a dsv:Column ;
+    rdfs:label "Geologic Hazard Assessment*" .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745/column/GravityAnomalies> a dsv:Column ;
+    rdfs:label "Gravity Anomalies" .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745/column/MagneticAnomalies> a dsv:Column ;
+    rdfs:label "Magnetic Anomalies" .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745/column/MicroearthquakeLocations> a dsv:Column ;
+    rdfs:label "Microearthquake Locations" .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745/column/PWaveVelocities> a dsv:Column ;
+    rdfs:label "P-Wave Velocities" .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745/column/ReflectionCoefficients> a dsv:Column ;
+    rdfs:label "Reflection Coefficients" .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745/column/SeaLevelChanges> a dsv:Column ;
+    rdfs:label "Sea Level Changes*" .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745/column/SeismicAttenuation> a dsv:Column ;
+    rdfs:label "Seismic Attenuation" .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745/column/ShearSWaves> a dsv:Column ;
+    rdfs:label "Shear (S)Waves" .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745/column/SubsurfaceImagingTechniques> a dsv:Column ;
+    rdfs:label "Subsurface Imaging Techniques*" .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745/column/TopographicCorrections> a dsv:Column ;
+    rdfs:label "Topographic Corrections*" .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745/column/VolcanicEmissionsMonitoring> a dsv:Column ;
+    rdfs:label "Volcanic Emissions Monitoring" .
+
+<http://metaUnionSearch/datasets/Geophysics73LUX745/datasetSchema> a dsv:DatasetSchema .
+

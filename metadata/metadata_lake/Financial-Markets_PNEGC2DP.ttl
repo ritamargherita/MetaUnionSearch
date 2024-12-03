@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP> a dsv:Dataset ;
+    dcterms:subject "financial-markets" ;
+    dcterms:title "Financial-Markets_PNEGC2DP.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/CentralBankPolicy>,
+        <http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/CommodityPrices>,
+        <http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/ConsumerPriceIndex>,
+        <http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/CurrentAccount>,
+        <http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/FiscalPolicy>,
+        <http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/ForeignExchangeRate>,
+        <http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/GrossDomesticProduct>,
+        <http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/InflationRate>,
+        <http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/InterestRates>,
+        <http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/PoliticalStability>,
+        <http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/ProducerPriceIndex>,
+        <http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/PublicDebt>,
+        <http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/StockMarketIndex>,
+        <http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/StockMarketSector>,
+        <http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/TradeBalance> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/CentralBankPolicy> a dsv:Column ;
+    rdfs:label "Central Bank Policy" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/CommodityPrices> a dsv:Column ;
+    rdfs:label "Commodity Prices" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/ConsumerPriceIndex> a dsv:Column ;
+    rdfs:label "Consumer Price Index" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/CurrentAccount> a dsv:Column ;
+    rdfs:label "Current Account" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/FiscalPolicy> a dsv:Column ;
+    rdfs:label "Fiscal Policy" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/ForeignExchangeRate> a dsv:Column ;
+    rdfs:label "Foreign Exchange Rate" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/GrossDomesticProduct> a dsv:Column ;
+    rdfs:label "Gross Domestic Product" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/InflationRate> a dsv:Column ;
+    rdfs:label "Inflation Rate" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/InterestRates> a dsv:Column ;
+    rdfs:label "Interest Rates" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/PoliticalStability> a dsv:Column ;
+    rdfs:label "Political Stability" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/ProducerPriceIndex> a dsv:Column ;
+    rdfs:label "Producer Price Index" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/PublicDebt> a dsv:Column ;
+    rdfs:label "Public Debt" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/StockMarketIndex> a dsv:Column ;
+    rdfs:label "Stock Market Index" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/StockMarketSector> a dsv:Column ;
+    rdfs:label "Stock Market Sector" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/column/TradeBalance> a dsv:Column ;
+    rdfs:label "Trade Balance" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsPNEGC2DP/datasetSchema> a dsv:DatasetSchema .
+

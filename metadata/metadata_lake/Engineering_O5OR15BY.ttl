@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EngineeringO5OR15BY> a dsv:Dataset ;
+    dcterms:subject "engineering" ;
+    dcterms:title "Engineering_O5OR15BY.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/AdditionalResources>,
+        <http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/CollaborativeTools>,
+        <http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/CommunicationPlan>,
+        <http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/ComplexitiesChallenges>,
+        <http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/DepartmentalInterfaces>,
+        <http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/OriginalColumns>,
+        <http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/ProjectObjectives>,
+        <http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/RegulatoryCompliance>,
+        <http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/Resolutions>,
+        <http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/ResourceAllocation>,
+        <http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/RiskManagement>,
+        <http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/StakeholderExpectations>,
+        <http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/TestCases>,
+        <http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/TrainingDevelopment> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EngineeringO5OR15BY/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/AdditionalResources> a dsv:Column ;
+    rdfs:label " Additional Resources" .
+
+<http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/CollaborativeTools> a dsv:Column ;
+    rdfs:label " Collaborative Tools" .
+
+<http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/CommunicationPlan> a dsv:Column ;
+    rdfs:label " Communication Plan" .
+
+<http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/ComplexitiesChallenges> a dsv:Column ;
+    rdfs:label " Complexities & Challenges" .
+
+<http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/DepartmentalInterfaces> a dsv:Column ;
+    rdfs:label " Departmental Interfaces" .
+
+<http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/OriginalColumns> a dsv:Column ;
+    rdfs:label "\"Original Columns\"" .
+
+<http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/ProjectObjectives> a dsv:Column ;
+    rdfs:label " Project Objectives" .
+
+<http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/RegulatoryCompliance> a dsv:Column ;
+    rdfs:label " Regulatory Compliance" .
+
+<http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/Resolutions> a dsv:Column ;
+    rdfs:label " Resolutions" .
+
+<http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/ResourceAllocation> a dsv:Column ;
+    rdfs:label " Resource Allocation" .
+
+<http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/RiskManagement> a dsv:Column ;
+    rdfs:label " Risk Management" .
+
+<http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/StakeholderExpectations> a dsv:Column ;
+    rdfs:label " Stakeholder Expectations" .
+
+<http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/TestCases> a dsv:Column ;
+    rdfs:label " Test Cases" .
+
+<http://metaUnionSearch/datasets/EngineeringO5OR15BY/column/TrainingDevelopment> a dsv:Column ;
+    rdfs:label " Training & Development" .
+
+<http://metaUnionSearch/datasets/EngineeringO5OR15BY/datasetSchema> a dsv:DatasetSchema .
+

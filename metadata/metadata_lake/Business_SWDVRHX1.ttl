@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BusinessSWDVRHX1> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_SWDVRHX1.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/BrandReputationScore>,
+        <http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/BusinessLocation>,
+        <http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/CompetitorAnalysis>,
+        <http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/CustomerSatisfactionScore>,
+        <http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/EmployeeProductivityIndex>,
+        <http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/EmployeeTurnoverRate>,
+        <http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/EthicalResponsibilityRating>,
+        <http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/MarketShare>,
+        <http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/NumberOfEmployees>,
+        <http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/RegulatoryComplianceRating>,
+        <http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/SupplyChainManagementEfficiency>,
+        <http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/SustainabilityScore>,
+        <http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/TechnologicalAdaptationIndex> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BusinessSWDVRHX1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/BrandReputationScore> a dsv:Column ;
+    rdfs:label "Brand Reputation Score" .
+
+<http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/BusinessLocation> a dsv:Column ;
+    rdfs:label "Business Location" .
+
+<http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/CompetitorAnalysis> a dsv:Column ;
+    rdfs:label "Competitor Analysis" .
+
+<http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/CustomerSatisfactionScore> a dsv:Column ;
+    rdfs:label "Customer Satisfaction Score" .
+
+<http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/EmployeeProductivityIndex> a dsv:Column ;
+    rdfs:label "Employee Productivity Index" .
+
+<http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/EmployeeTurnoverRate> a dsv:Column ;
+    rdfs:label "Employee Turnover Rate" .
+
+<http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/EthicalResponsibilityRating> a dsv:Column ;
+    rdfs:label "Ethical Responsibility Rating" .
+
+<http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/MarketShare> a dsv:Column ;
+    rdfs:label "Market Share" .
+
+<http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/NumberOfEmployees> a dsv:Column ;
+    rdfs:label "Number Of Employees" .
+
+<http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/RegulatoryComplianceRating> a dsv:Column ;
+    rdfs:label "Regulatory Compliance Rating" .
+
+<http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/SupplyChainManagementEfficiency> a dsv:Column ;
+    rdfs:label "Supply Chain Management Efficiency" .
+
+<http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/SustainabilityScore> a dsv:Column ;
+    rdfs:label "Sustainability Score" .
+
+<http://metaUnionSearch/datasets/BusinessSWDVRHX1/column/TechnologicalAdaptationIndex> a dsv:Column ;
+    rdfs:label "Technological Adaptation Index" .
+
+<http://metaUnionSearch/datasets/BusinessSWDVRHX1/datasetSchema> a dsv:DatasetSchema .
+

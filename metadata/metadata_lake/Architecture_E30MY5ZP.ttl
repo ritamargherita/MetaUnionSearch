@@ -1,0 +1,31 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArchitectureE30MY5ZP> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_E30MY5ZP.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ArchitectureE30MY5ZP/column/ArchitecturalTheories>,
+        <http://metaUnionSearch/datasets/ArchitectureE30MY5ZP/column/BIMdetails>,
+        <http://metaUnionSearch/datasets/ArchitectureE30MY5ZP/column/CADModel>,
+        <http://metaUnionSearch/datasets/ArchitectureE30MY5ZP/column/EnergyConsumption>,
+        <http://metaUnionSearch/datasets/ArchitectureE30MY5ZP/column/inchDrawingsscale> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArchitectureE30MY5ZP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArchitectureE30MY5ZP/column/ArchitecturalTheories> a dsv:Column ;
+    rdfs:label "\"Architectural Theories\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureE30MY5ZP/column/BIMdetails> a dsv:Column ;
+    rdfs:label " \"\\*\\*BIM\\*\\* details\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureE30MY5ZP/column/CADModel> a dsv:Column ;
+    rdfs:label " \"\\*\\*CAD\\*\\* Model\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureE30MY5ZP/column/EnergyConsumption> a dsv:Column ;
+    rdfs:label " \"Energy Consumption\"\\" .
+
+<http://metaUnionSearch/datasets/ArchitectureE30MY5ZP/column/inchDrawingsscale> a dsv:Column ;
+    rdfs:label " \"_inch Drawings scale\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureE30MY5ZP/datasetSchema> a dsv:DatasetSchema .
+

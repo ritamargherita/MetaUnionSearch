@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Music45BA890A> a dsv:Dataset ;
+    dcterms:subject "music" ;
+    dcterms:title "Music_45BA890A.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Music45BA890A/column/Album>,
+        <http://metaUnionSearch/datasets/Music45BA890A/column/Arranger>,
+        <http://metaUnionSearch/datasets/Music45BA890A/column/Artists>,
+        <http://metaUnionSearch/datasets/Music45BA890A/column/Composer>,
+        <http://metaUnionSearch/datasets/Music45BA890A/column/ContributiontoSoundtrack>,
+        <http://metaUnionSearch/datasets/Music45BA890A/column/ExtraNotes>,
+        <http://metaUnionSearch/datasets/Music45BA890A/column/Genre>,
+        <http://metaUnionSearch/datasets/Music45BA890A/column/Lyricist>,
+        <http://metaUnionSearch/datasets/Music45BA890A/column/ReleasedYear>,
+        <http://metaUnionSearch/datasets/Music45BA890A/column/SongName>,
+        <http://metaUnionSearch/datasets/Music45BA890A/column/TrackNumber> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Music45BA890A/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Music45BA890A/column/Album> a dsv:Column ;
+    rdfs:label " Album" .
+
+<http://metaUnionSearch/datasets/Music45BA890A/column/Arranger> a dsv:Column ;
+    rdfs:label " Arranger" .
+
+<http://metaUnionSearch/datasets/Music45BA890A/column/Artists> a dsv:Column ;
+    rdfs:label " Artists" .
+
+<http://metaUnionSearch/datasets/Music45BA890A/column/Composer> a dsv:Column ;
+    rdfs:label " Composer" .
+
+<http://metaUnionSearch/datasets/Music45BA890A/column/ContributiontoSoundtrack> a dsv:Column ;
+    rdfs:label " Contribution to Soundtrack" .
+
+<http://metaUnionSearch/datasets/Music45BA890A/column/ExtraNotes> a dsv:Column ;
+    rdfs:label " Extra Notes" .
+
+<http://metaUnionSearch/datasets/Music45BA890A/column/Genre> a dsv:Column ;
+    rdfs:label " Genre" .
+
+<http://metaUnionSearch/datasets/Music45BA890A/column/Lyricist> a dsv:Column ;
+    rdfs:label " Lyricist" .
+
+<http://metaUnionSearch/datasets/Music45BA890A/column/ReleasedYear> a dsv:Column ;
+    rdfs:label " Released Year" .
+
+<http://metaUnionSearch/datasets/Music45BA890A/column/SongName> a dsv:Column ;
+    rdfs:label " Song Name" .
+
+<http://metaUnionSearch/datasets/Music45BA890A/column/TrackNumber> a dsv:Column ;
+    rdfs:label "Track Number" .
+
+<http://metaUnionSearch/datasets/Music45BA890A/datasetSchema> a dsv:DatasetSchema .
+

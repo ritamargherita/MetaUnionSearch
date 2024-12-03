@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FashionR5L6RZOI> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_R5L6RZOI.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/FashionR5L6RZOI/column/AdditionalDetails>,
+        <http://metaUnionSearch/datasets/FashionR5L6RZOI/column/AvailabilityStatus>,
+        <http://metaUnionSearch/datasets/FashionR5L6RZOI/column/Brand>,
+        <http://metaUnionSearch/datasets/FashionR5L6RZOI/column/ClothingType>,
+        <http://metaUnionSearch/datasets/FashionR5L6RZOI/column/Color>,
+        <http://metaUnionSearch/datasets/FashionR5L6RZOI/column/Material>,
+        <http://metaUnionSearch/datasets/FashionR5L6RZOI/column/OccasionAppropriateness>,
+        <http://metaUnionSearch/datasets/FashionR5L6RZOI/column/Price>,
+        <http://metaUnionSearch/datasets/FashionR5L6RZOI/column/ProductID>,
+        <http://metaUnionSearch/datasets/FashionR5L6RZOI/column/ProductName>,
+        <http://metaUnionSearch/datasets/FashionR5L6RZOI/column/SeasonalTrendingness>,
+        <http://metaUnionSearch/datasets/FashionR5L6RZOI/column/Size>,
+        <http://metaUnionSearch/datasets/FashionR5L6RZOI/column/StoreLocation>,
+        <http://metaUnionSearch/datasets/FashionR5L6RZOI/column/StylePoints> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FashionR5L6RZOI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FashionR5L6RZOI/column/AdditionalDetails> a dsv:Column ;
+    rdfs:label " AdditionalDetails" .
+
+<http://metaUnionSearch/datasets/FashionR5L6RZOI/column/AvailabilityStatus> a dsv:Column ;
+    rdfs:label " AvailabilityStatus" .
+
+<http://metaUnionSearch/datasets/FashionR5L6RZOI/column/Brand> a dsv:Column ;
+    rdfs:label " Brand" .
+
+<http://metaUnionSearch/datasets/FashionR5L6RZOI/column/ClothingType> a dsv:Column ;
+    rdfs:label " ClothingType" .
+
+<http://metaUnionSearch/datasets/FashionR5L6RZOI/column/Color> a dsv:Column ;
+    rdfs:label " Color" .
+
+<http://metaUnionSearch/datasets/FashionR5L6RZOI/column/Material> a dsv:Column ;
+    rdfs:label " Material" .
+
+<http://metaUnionSearch/datasets/FashionR5L6RZOI/column/OccasionAppropriateness> a dsv:Column ;
+    rdfs:label " OccasionAppropriateness" .
+
+<http://metaUnionSearch/datasets/FashionR5L6RZOI/column/Price> a dsv:Column ;
+    rdfs:label " Price" .
+
+<http://metaUnionSearch/datasets/FashionR5L6RZOI/column/ProductID> a dsv:Column ;
+    rdfs:label "ProductID" .
+
+<http://metaUnionSearch/datasets/FashionR5L6RZOI/column/ProductName> a dsv:Column ;
+    rdfs:label " ProductName" .
+
+<http://metaUnionSearch/datasets/FashionR5L6RZOI/column/SeasonalTrendingness> a dsv:Column ;
+    rdfs:label " SeasonalTrendingness" .
+
+<http://metaUnionSearch/datasets/FashionR5L6RZOI/column/Size> a dsv:Column ;
+    rdfs:label " Size" .
+
+<http://metaUnionSearch/datasets/FashionR5L6RZOI/column/StoreLocation> a dsv:Column ;
+    rdfs:label " StoreLocation" .
+
+<http://metaUnionSearch/datasets/FashionR5L6RZOI/column/StylePoints> a dsv:Column ;
+    rdfs:label " StylePoints" .
+
+<http://metaUnionSearch/datasets/FashionR5L6RZOI/datasetSchema> a dsv:DatasetSchema .
+

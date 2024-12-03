@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Biology70LKLFYP> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_70LKLFYP.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Biology70LKLFYP/column/Chromosomallocation>,
+        <http://metaUnionSearch/datasets/Biology70LKLFYP/column/Coexpressionnetworks>,
+        <http://metaUnionSearch/datasets/Biology70LKLFYP/column/Diseaseassociations>,
+        <http://metaUnionSearch/datasets/Biology70LKLFYP/column/Expressionregulationmechanisms>,
+        <http://metaUnionSearch/datasets/Biology70LKLFYP/column/Geneduplicationevents>,
+        <http://metaUnionSearch/datasets/Biology70LKLFYP/column/Genomiccontextsynteny>,
+        <http://metaUnionSearch/datasets/Biology70LKLFYP/column/Naturalselectionpressures>,
+        <http://metaUnionSearch/datasets/Biology70LKLFYP/column/Phosphorylationdynamics>,
+        <http://metaUnionSearch/datasets/Biology70LKLFYP/column/Posttranslationalmodificationsites>,
+        <http://metaUnionSearch/datasets/Biology70LKLFYP/column/Proteinfamilyclassification>,
+        <http://metaUnionSearch/datasets/Biology70LKLFYP/column/Subcellularlocalizeddomaincomposition>,
+        <http://metaUnionSearch/datasets/Biology70LKLFYP/column/Symbioticrelationships> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Biology70LKLFYP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Biology70LKLFYP/column/Chromosomallocation> a dsv:Column ;
+    rdfs:label " Chromosomal location" .
+
+<http://metaUnionSearch/datasets/Biology70LKLFYP/column/Coexpressionnetworks> a dsv:Column ;
+    rdfs:label " Coexpression networks" .
+
+<http://metaUnionSearch/datasets/Biology70LKLFYP/column/Diseaseassociations> a dsv:Column ;
+    rdfs:label " Disease associations" .
+
+<http://metaUnionSearch/datasets/Biology70LKLFYP/column/Expressionregulationmechanisms> a dsv:Column ;
+    rdfs:label " Expression regulation mechanisms" .
+
+<http://metaUnionSearch/datasets/Biology70LKLFYP/column/Geneduplicationevents> a dsv:Column ;
+    rdfs:label " Gene duplication events" .
+
+<http://metaUnionSearch/datasets/Biology70LKLFYP/column/Genomiccontextsynteny> a dsv:Column ;
+    rdfs:label " Genomic context (synteny)" .
+
+<http://metaUnionSearch/datasets/Biology70LKLFYP/column/Naturalselectionpressures> a dsv:Column ;
+    rdfs:label " Natural selection pressures" .
+
+<http://metaUnionSearch/datasets/Biology70LKLFYP/column/Phosphorylationdynamics> a dsv:Column ;
+    rdfs:label " Phosphorylation dynamics" .
+
+<http://metaUnionSearch/datasets/Biology70LKLFYP/column/Posttranslationalmodificationsites> a dsv:Column ;
+    rdfs:label " Posttranslational modification sites" .
+
+<http://metaUnionSearch/datasets/Biology70LKLFYP/column/Proteinfamilyclassification> a dsv:Column ;
+    rdfs:label "Protein family classification" .
+
+<http://metaUnionSearch/datasets/Biology70LKLFYP/column/Subcellularlocalizeddomaincomposition> a dsv:Column ;
+    rdfs:label " Subcellular localized domain composition" .
+
+<http://metaUnionSearch/datasets/Biology70LKLFYP/column/Symbioticrelationships> a dsv:Column ;
+    rdfs:label " Symbiotic relationships" .
+
+<http://metaUnionSearch/datasets/Biology70LKLFYP/datasetSchema> a dsv:DatasetSchema .
+

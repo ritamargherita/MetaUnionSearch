@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Criminology5TXZTFII> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_5TXZTFII.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Criminology5TXZTFII/column/AverageLengthOfStayForJuvenileRehabilitationPrograms>,
+        <http://metaUnionSearch/datasets/Criminology5TXZTFII/column/CommunityPolicingEffortsEvaluationMetrics>,
+        <http://metaUnionSearch/datasets/Criminology5TXZTFII/column/ImpactOfMentalHealthResourcesOnReducingCrimeRates>,
+        <http://metaUnionSearch/datasets/Criminology5TXZTFII/column/JuvenileCrimeTrending>,
+        <http://metaUnionSearch/datasets/Criminology5TXZTFII/column/MediaPortrayalsOfCrimeAndTheirRoleInConstructiveDialogue>,
+        <http://metaUnionSearch/datasets/Criminology5TXZTFII/column/OfCorrectionalStaffPerInstitution>,
+        <http://metaUnionSearch/datasets/Criminology5TXZTFII/column/OpioidsAddictionEpidemicStatisticsByCounty>,
+        <http://metaUnionSearch/datasets/Criminology5TXZTFII/column/PrisonOvercrowdingImpactOnReoffendingRates>,
+        <http://metaUnionSearch/datasets/Criminology5TXZTFII/column/PrisonsBudgetvsEducationFundAllocations>,
+        <http://metaUnionSearch/datasets/Criminology5TXZTFII/column/PublicSatisfactionWithCommunityPolicing>,
+        <http://metaUnionSearch/datasets/Criminology5TXZTFII/column/RecidivismRate>,
+        <http://metaUnionSearch/datasets/Criminology5TXZTFII/column/RehabilitationProgramCompletionRates>,
+        <http://metaUnionSearch/datasets/Criminology5TXZTFII/column/RelationshipBetweenUnemploymentRatesCrime>,
+        <http://metaUnionSearch/datasets/Criminology5TXZTFII/column/SolutionsProposedForOpioidsAddictionEpidemic> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Criminology5TXZTFII/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Criminology5TXZTFII/column/AverageLengthOfStayForJuvenileRehabilitationPrograms> a dsv:Column ;
+    rdfs:label "Average Length Of Stay For Juvenile Rehabilitation Programs" .
+
+<http://metaUnionSearch/datasets/Criminology5TXZTFII/column/CommunityPolicingEffortsEvaluationMetrics> a dsv:Column ;
+    rdfs:label """\\
+Community Policing Efforts Evaluation Metrics""" .
+
+<http://metaUnionSearch/datasets/Criminology5TXZTFII/column/ImpactOfMentalHealthResourcesOnReducingCrimeRates> a dsv:Column ;
+    rdfs:label """\\
+Impact Of Mental Health Resources On Reducing Crime Rates""" .
+
+<http://metaUnionSearch/datasets/Criminology5TXZTFII/column/JuvenileCrimeTrending> a dsv:Column ;
+    rdfs:label """\\
+Juvenile Crime Trending""" .
+
+<http://metaUnionSearch/datasets/Criminology5TXZTFII/column/MediaPortrayalsOfCrimeAndTheirRoleInConstructiveDialogue> a dsv:Column ;
+    rdfs:label """\\
+Media Portrayals Of Crime And Their Role In Constructive Dialogue""" .
+
+<http://metaUnionSearch/datasets/Criminology5TXZTFII/column/OfCorrectionalStaffPerInstitution> a dsv:Column ;
+    rdfs:label "\\#Of Correctional Staff Per Institution" .
+
+<http://metaUnionSearch/datasets/Criminology5TXZTFII/column/OpioidsAddictionEpidemicStatisticsByCounty> a dsv:Column ;
+    rdfs:label """\\
+Opioids Addiction Epidemic Statistics By County""" .
+
+<http://metaUnionSearch/datasets/Criminology5TXZTFII/column/PrisonOvercrowdingImpactOnReoffendingRates> a dsv:Column ;
+    rdfs:label "Prison Overcrowding Impact On Reoffending Rates" .
+
+<http://metaUnionSearch/datasets/Criminology5TXZTFII/column/PrisonsBudgetvsEducationFundAllocations> a dsv:Column ;
+    rdfs:label "Prisons Budget vs Education Fund Allocations" .
+
+<http://metaUnionSearch/datasets/Criminology5TXZTFII/column/PublicSatisfactionWithCommunityPolicing> a dsv:Column ;
+    rdfs:label "Public Satisfaction With Community Policing" .
+
+<http://metaUnionSearch/datasets/Criminology5TXZTFII/column/RecidivismRate> a dsv:Column ;
+    rdfs:label """\\
+Recidivism Rate""" .
+
+<http://metaUnionSearch/datasets/Criminology5TXZTFII/column/RehabilitationProgramCompletionRates> a dsv:Column ;
+    rdfs:label """\\
+Rehabilitation Program Completion Rates""" .
+
+<http://metaUnionSearch/datasets/Criminology5TXZTFII/column/RelationshipBetweenUnemploymentRatesCrime> a dsv:Column ;
+    rdfs:label """\\
+Relationship Between Unemployment Rates & Crime""" .
+
+<http://metaUnionSearch/datasets/Criminology5TXZTFII/column/SolutionsProposedForOpioidsAddictionEpidemic> a dsv:Column ;
+    rdfs:label """\\
+Solutions Proposed For Opioids Addiction Epidemic""" .
+
+<http://metaUnionSearch/datasets/Criminology5TXZTFII/datasetSchema> a dsv:DatasetSchema .
+

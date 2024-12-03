@@ -1,0 +1,23 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Gardening8MMS2LEL> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_8MMS2LEL.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Gardening8MMS2LEL/column/>,
+        <http://metaUnionSearch/datasets/Gardening8MMS2LEL/column/GardenerReviewScore>,
+        <http://metaUnionSearch/datasets/Gardening8MMS2LEL/column/ofRatings> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Gardening8MMS2LEL/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Gardening8MMS2LEL/column/> a dsv:Column ;
+    rdfs:label " " .
+
+<http://metaUnionSearch/datasets/Gardening8MMS2LEL/column/GardenerReviewScore> a dsv:Column ;
+    rdfs:label "GardenerReviewScore" .
+
+<http://metaUnionSearch/datasets/Gardening8MMS2LEL/column/ofRatings> a dsv:Column ;
+    rdfs:label " \\#ofRatings" .
+
+<http://metaUnionSearch/datasets/Gardening8MMS2LEL/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Gardening6625CSMU> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_6625CSMU.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Gardening6625CSMU/column/CommunityGardenAvailability>,
+        <http://metaUnionSearch/datasets/Gardening6625CSMU/column/CompostTypeUsed>,
+        <http://metaUnionSearch/datasets/Gardening6625CSMU/column/EstimatedAnnualCost>,
+        <http://metaUnionSearch/datasets/Gardening6625CSMU/column/FertilityAmendment>,
+        <http://metaUnionSearch/datasets/Gardening6625CSMU/column/GardenBedsDimension>,
+        <http://metaUnionSearch/datasets/Gardening6625CSMU/column/IrrigationSystem>,
+        <http://metaUnionSearch/datasets/Gardening6625CSMU/column/MulchingMaterial>,
+        <http://metaUnionSearch/datasets/Gardening6625CSMU/column/SeasonalCareTasks>,
+        <http://metaUnionSearch/datasets/Gardening6625CSMU/column/SoilTestingSchedule>,
+        <http://metaUnionSearch/datasets/Gardening6625CSMU/column/TherapeuticBenefitsForSpecifiedHealthConditions> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Gardening6625CSMU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Gardening6625CSMU/column/CommunityGardenAvailability> a dsv:Column ;
+    rdfs:label " CommunityGardenAvailability" .
+
+<http://metaUnionSearch/datasets/Gardening6625CSMU/column/CompostTypeUsed> a dsv:Column ;
+    rdfs:label " CompostTypeUsed" .
+
+<http://metaUnionSearch/datasets/Gardening6625CSMU/column/EstimatedAnnualCost> a dsv:Column ;
+    rdfs:label " EstimatedAnnualCost" .
+
+<http://metaUnionSearch/datasets/Gardening6625CSMU/column/FertilityAmendment> a dsv:Column ;
+    rdfs:label " FertilityAmendment" .
+
+<http://metaUnionSearch/datasets/Gardening6625CSMU/column/GardenBedsDimension> a dsv:Column ;
+    rdfs:label "GardenBedsDimension" .
+
+<http://metaUnionSearch/datasets/Gardening6625CSMU/column/IrrigationSystem> a dsv:Column ;
+    rdfs:label " IrrigationSystem" .
+
+<http://metaUnionSearch/datasets/Gardening6625CSMU/column/MulchingMaterial> a dsv:Column ;
+    rdfs:label " MulchingMaterial" .
+
+<http://metaUnionSearch/datasets/Gardening6625CSMU/column/SeasonalCareTasks> a dsv:Column ;
+    rdfs:label " SeasonalCareTasks" .
+
+<http://metaUnionSearch/datasets/Gardening6625CSMU/column/SoilTestingSchedule> a dsv:Column ;
+    rdfs:label " SoilTestingSchedule" .
+
+<http://metaUnionSearch/datasets/Gardening6625CSMU/column/TherapeuticBenefitsForSpecifiedHealthConditions> a dsv:Column ;
+    rdfs:label " TherapeuticBenefitsForSpecifiedHealthConditions" .
+
+<http://metaUnionSearch/datasets/Gardening6625CSMU/datasetSchema> a dsv:DatasetSchema .
+

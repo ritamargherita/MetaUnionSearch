@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BusinessMIP5BX9X> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_MIP5BX9X.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/BoardofDirectors>,
+        <http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/BusinessLocation>,
+        <http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/BusinessStrategy>,
+        <http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/CompetitorAnalysis>,
+        <http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/CustomerAnalysis>,
+        <http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/HistoricalPerformanceAnalysis>,
+        <http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/IndustryTrends>,
+        <http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/ManagementTeam>,
+        <http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/MarketShare>,
+        <http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/NumberofEmployees>,
+        <http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/RegulatoryEnvironment>,
+        <http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/SupplierAnalysis> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BusinessMIP5BX9X/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/BoardofDirectors> a dsv:Column ;
+    rdfs:label "Board of Directors" .
+
+<http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/BusinessLocation> a dsv:Column ;
+    rdfs:label "Business Location" .
+
+<http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/BusinessStrategy> a dsv:Column ;
+    rdfs:label "Business Strategy" .
+
+<http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/CompetitorAnalysis> a dsv:Column ;
+    rdfs:label "Competitor Analysis" .
+
+<http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/CustomerAnalysis> a dsv:Column ;
+    rdfs:label "Customer Analysis" .
+
+<http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/HistoricalPerformanceAnalysis> a dsv:Column ;
+    rdfs:label "Historical Performance Analysis" .
+
+<http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/IndustryTrends> a dsv:Column ;
+    rdfs:label "Industry Trends" .
+
+<http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/ManagementTeam> a dsv:Column ;
+    rdfs:label "Management Team" .
+
+<http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/MarketShare> a dsv:Column ;
+    rdfs:label "Market Share" .
+
+<http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/NumberofEmployees> a dsv:Column ;
+    rdfs:label "Number of Employees" .
+
+<http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/RegulatoryEnvironment> a dsv:Column ;
+    rdfs:label "Regulatory Environment" .
+
+<http://metaUnionSearch/datasets/BusinessMIP5BX9X/column/SupplierAnalysis> a dsv:Column ;
+    rdfs:label "Supplier Analysis" .
+
+<http://metaUnionSearch/datasets/BusinessMIP5BX9X/datasetSchema> a dsv:DatasetSchema .
+

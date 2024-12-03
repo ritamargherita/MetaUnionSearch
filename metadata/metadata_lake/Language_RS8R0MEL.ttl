@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LanguageRS8R0MEL> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_RS8R0MEL.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/ComputerProgrammingUsage>,
+        <http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/CulturalImpact>,
+        <http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/Dialects>,
+        <http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/EtymologicalStudies>,
+        <http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/LanguageSpread>,
+        <http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/LinguisticHeritage>,
+        <http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/LinguisticsResearch>,
+        <http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/LiteratureWorks>,
+        <http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/NonnativeLearningDifficulties>,
+        <http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/OrthographyVariants>,
+        <http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/ProficiencyTestScores>,
+        <http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/SpeechSounds>,
+        <http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/WritingMethods> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LanguageRS8R0MEL/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/ComputerProgrammingUsage> a dsv:Column ;
+    rdfs:label " Computer Programming Usage" .
+
+<http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/CulturalImpact> a dsv:Column ;
+    rdfs:label " Cultural Impact" .
+
+<http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/Dialects> a dsv:Column ;
+    rdfs:label "Dialects" .
+
+<http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/EtymologicalStudies> a dsv:Column ;
+    rdfs:label " Etymological Studies" .
+
+<http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/LanguageSpread> a dsv:Column ;
+    rdfs:label " Language Spread" .
+
+<http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/LinguisticHeritage> a dsv:Column ;
+    rdfs:label " Linguistic Heritage" .
+
+<http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/LinguisticsResearch> a dsv:Column ;
+    rdfs:label " Linguistics Research" .
+
+<http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/LiteratureWorks> a dsv:Column ;
+    rdfs:label " Literature Works" .
+
+<http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/NonnativeLearningDifficulties> a dsv:Column ;
+    rdfs:label " Nonnative Learning Difficulties" .
+
+<http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/OrthographyVariants> a dsv:Column ;
+    rdfs:label " Orthography Variants" .
+
+<http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/ProficiencyTestScores> a dsv:Column ;
+    rdfs:label " Proficiency Test Scores" .
+
+<http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/SpeechSounds> a dsv:Column ;
+    rdfs:label " Speech Sounds" .
+
+<http://metaUnionSearch/datasets/LanguageRS8R0MEL/column/WritingMethods> a dsv:Column ;
+    rdfs:label " Writing Methods" .
+
+<http://metaUnionSearch/datasets/LanguageRS8R0MEL/datasetSchema> a dsv:DatasetSchema .
+

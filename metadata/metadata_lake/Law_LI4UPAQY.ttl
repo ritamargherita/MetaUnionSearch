@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawLI4UPAQY> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_LI4UPAQY.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/LawLI4UPAQY/column/BillsAmendments>,
+        <http://metaUnionSearch/datasets/LawLI4UPAQY/column/ConstitutionalInterpretationEffects>,
+        <http://metaUnionSearch/datasets/LawLI4UPAQY/column/CourtpetitionsPending>,
+        <http://metaUnionSearch/datasets/LawLI4UPAQY/column/HearingTranscripts>,
+        <http://metaUnionSearch/datasets/LawLI4UPAQY/column/LegislativeHistory>,
+        <http://metaUnionSearch/datasets/LawLI4UPAQY/column/LegislatorsInformation>,
+        <http://metaUnionSearch/datasets/LawLI4UPAQY/column/LobbyistDetails>,
+        <http://metaUnionSearch/datasets/LawLI4UPAQY/column/PolicyImpactAnalysis>,
+        <http://metaUnionSearch/datasets/LawLI4UPAQY/column/PublicOpinionSurveys>,
+        <http://metaUnionSearch/datasets/LawLI4UPAQY/column/VotingRecords> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawLI4UPAQY/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawLI4UPAQY/column/BillsAmendments> a dsv:Column ;
+    rdfs:label " Bills Amendments" .
+
+<http://metaUnionSearch/datasets/LawLI4UPAQY/column/ConstitutionalInterpretationEffects> a dsv:Column ;
+    rdfs:label " Constitutional Interpretation Effects" .
+
+<http://metaUnionSearch/datasets/LawLI4UPAQY/column/CourtpetitionsPending> a dsv:Column ;
+    rdfs:label " Court petitions Pending" .
+
+<http://metaUnionSearch/datasets/LawLI4UPAQY/column/HearingTranscripts> a dsv:Column ;
+    rdfs:label " Hearing Transcripts" .
+
+<http://metaUnionSearch/datasets/LawLI4UPAQY/column/LegislativeHistory> a dsv:Column ;
+    rdfs:label "Legislative History" .
+
+<http://metaUnionSearch/datasets/LawLI4UPAQY/column/LegislatorsInformation> a dsv:Column ;
+    rdfs:label " Legislators Information" .
+
+<http://metaUnionSearch/datasets/LawLI4UPAQY/column/LobbyistDetails> a dsv:Column ;
+    rdfs:label " Lobbyist Details" .
+
+<http://metaUnionSearch/datasets/LawLI4UPAQY/column/PolicyImpactAnalysis> a dsv:Column ;
+    rdfs:label " Policy Impact Analysis." .
+
+<http://metaUnionSearch/datasets/LawLI4UPAQY/column/PublicOpinionSurveys> a dsv:Column ;
+    rdfs:label " Public Opinion Surveys" .
+
+<http://metaUnionSearch/datasets/LawLI4UPAQY/column/VotingRecords> a dsv:Column ;
+    rdfs:label " Voting Records" .
+
+<http://metaUnionSearch/datasets/LawLI4UPAQY/datasetSchema> a dsv:DatasetSchema .
+

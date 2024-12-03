@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Technology2EFUJEIR> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_2EFUJEIR.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Technology2EFUJEIR/column/AugMENTEDREALITYContentCreation>,
+        <http://metaUnionSearch/datasets/Technology2EFUJEIR/column/BlockchainTransparencyEnhanced>,
+        <http://metaUnionSearch/datasets/Technology2EFUJEIR/column/CybersecurityThreatMitigation>,
+        <http://metaUnionSearch/datasets/Technology2EFUJEIR/column/DigitalPlatformEquityDistribution>,
+        <http://metaUnionSearch/datasets/Technology2EFUJEIR/column/IPOTracker>,
+        <http://metaUnionSearch/datasets/Technology2EFUJEIR/column/InternetOfThingsIOTEcosystemDevelopment>,
+        <http://metaUnionSearch/datasets/Technology2EFUJEIR/column/InvestmentsLandscape>,
+        <http://metaUnionSearch/datasets/Technology2EFUJEIR/column/MarketCapitalizations>,
+        <http://metaUnionSearch/datasets/Technology2EFUJEIR/column/MergersAndAcquisitions>,
+        <http://metaUnionSearch/datasets/Technology2EFUJEIR/column/QuantumComputingSolutions>,
+        <http://metaUnionSearch/datasets/Technology2EFUJEIR/column/RoboticProcessAutomationAdoption>,
+        <http://metaUnionSearch/datasets/Technology2EFUJEIR/column/StartupsOverview>,
+        <http://metaUnionSearch/datasets/Technology2EFUJEIR/column/VirtualRealityApplications> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Technology2EFUJEIR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Technology2EFUJEIR/column/AugMENTEDREALITYContentCreation> a dsv:Column ;
+    rdfs:label " AugMENTED REALITY Content Creation" .
+
+<http://metaUnionSearch/datasets/Technology2EFUJEIR/column/BlockchainTransparencyEnhanced> a dsv:Column ;
+    rdfs:label " Blockchain Transparency Enhanced" .
+
+<http://metaUnionSearch/datasets/Technology2EFUJEIR/column/CybersecurityThreatMitigation> a dsv:Column ;
+    rdfs:label " Cybersecurity Threat Mitigation" .
+
+<http://metaUnionSearch/datasets/Technology2EFUJEIR/column/DigitalPlatformEquityDistribution> a dsv:Column ;
+    rdfs:label " Digital Platform Equity Distribution" .
+
+<http://metaUnionSearch/datasets/Technology2EFUJEIR/column/IPOTracker> a dsv:Column ;
+    rdfs:label " IPO Tracker" .
+
+<http://metaUnionSearch/datasets/Technology2EFUJEIR/column/InternetOfThingsIOTEcosystemDevelopment> a dsv:Column ;
+    rdfs:label " Internet Of Things (IOT) Ecosystem Development" .
+
+<http://metaUnionSearch/datasets/Technology2EFUJEIR/column/InvestmentsLandscape> a dsv:Column ;
+    rdfs:label " Investments Landscape" .
+
+<http://metaUnionSearch/datasets/Technology2EFUJEIR/column/MarketCapitalizations> a dsv:Column ;
+    rdfs:label " Market Capitalizations" .
+
+<http://metaUnionSearch/datasets/Technology2EFUJEIR/column/MergersAndAcquisitions> a dsv:Column ;
+    rdfs:label " Mergers And Acquisitions" .
+
+<http://metaUnionSearch/datasets/Technology2EFUJEIR/column/QuantumComputingSolutions> a dsv:Column ;
+    rdfs:label "Quantum Computing Solutions" .
+
+<http://metaUnionSearch/datasets/Technology2EFUJEIR/column/RoboticProcessAutomationAdoption> a dsv:Column ;
+    rdfs:label " Robotic Process Automation Adoption" .
+
+<http://metaUnionSearch/datasets/Technology2EFUJEIR/column/StartupsOverview> a dsv:Column ;
+    rdfs:label " Startups Overview" .
+
+<http://metaUnionSearch/datasets/Technology2EFUJEIR/column/VirtualRealityApplications> a dsv:Column ;
+    rdfs:label " Virtual Reality Applications" .
+
+<http://metaUnionSearch/datasets/Technology2EFUJEIR/datasetSchema> a dsv:DatasetSchema .
+

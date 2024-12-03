@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Genealogy1Z5BY1LW> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_1Z5BY1LW.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/AncestryOrigins>,
+        <http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/ChildFatherFirstName>,
+        <http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/ChildFatherLastName>,
+        <http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/ChildGivenName>,
+        <http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/ChildMotherMaidenName>,
+        <http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/DivorceDate>,
+        <http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/FamilyWealth>,
+        <http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/MarriageLocation>,
+        <http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/NumberOfChildren>,
+        <http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/SpouseAliasNames> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/AncestryOrigins> a dsv:Column ;
+    rdfs:label " AncestryOrigins" .
+
+<http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/ChildFatherFirstName> a dsv:Column ;
+    rdfs:label " ChildFatherFirstName" .
+
+<http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/ChildFatherLastName> a dsv:Column ;
+    rdfs:label " ChildFatherLastName" .
+
+<http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/ChildGivenName> a dsv:Column ;
+    rdfs:label "ChildGivenName" .
+
+<http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/ChildMotherMaidenName> a dsv:Column ;
+    rdfs:label " ChildMotherMaidenName" .
+
+<http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/DivorceDate> a dsv:Column ;
+    rdfs:label " DivorceDate" .
+
+<http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/FamilyWealth> a dsv:Column ;
+    rdfs:label " FamilyWealth" .
+
+<http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/MarriageLocation> a dsv:Column ;
+    rdfs:label " MarriageLocation" .
+
+<http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/NumberOfChildren> a dsv:Column ;
+    rdfs:label " NumberOfChildren" .
+
+<http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/column/SpouseAliasNames> a dsv:Column ;
+    rdfs:label " SpouseAliasNames" .
+
+<http://metaUnionSearch/datasets/Genealogy1Z5BY1LW/datasetSchema> a dsv:DatasetSchema .
+

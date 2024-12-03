@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8> a dsv:Dataset ;
+    dcterms:subject "financial-markets" ;
+    dcterms:title "Financial-Markets_890AB7R8.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/CentralBankPolicy>,
+        <http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/CommodityPrices>,
+        <http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/ConsumerCredit>,
+        <http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/CorporateEarnings>,
+        <http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/DerivativesMarket>,
+        <http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/EconomicIndicators>,
+        <http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/GovernmentDebt>,
+        <http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/HousingMarket>,
+        <http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/InternationalTrade>,
+        <http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/LaborMarket>,
+        <http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/MoneySupply>,
+        <http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/PublicOpinion>,
+        <http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/RetailSales>,
+        <http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/ShadowBanking>,
+        <http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/SovereignWealthFunds> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/CentralBankPolicy> a dsv:Column ;
+    rdfs:label "Central Bank Policy" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/CommodityPrices> a dsv:Column ;
+    rdfs:label "Commodity Prices" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/ConsumerCredit> a dsv:Column ;
+    rdfs:label "Consumer Credit" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/CorporateEarnings> a dsv:Column ;
+    rdfs:label "Corporate Earnings" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/DerivativesMarket> a dsv:Column ;
+    rdfs:label "Derivatives Market" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/EconomicIndicators> a dsv:Column ;
+    rdfs:label "Economic Indicators" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/GovernmentDebt> a dsv:Column ;
+    rdfs:label "Government Debt" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/HousingMarket> a dsv:Column ;
+    rdfs:label "Housing Market" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/InternationalTrade> a dsv:Column ;
+    rdfs:label "International Trade" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/LaborMarket> a dsv:Column ;
+    rdfs:label "Labor Market" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/MoneySupply> a dsv:Column ;
+    rdfs:label "Money Supply" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/PublicOpinion> a dsv:Column ;
+    rdfs:label "Public Opinion" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/RetailSales> a dsv:Column ;
+    rdfs:label "Retail Sales" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/ShadowBanking> a dsv:Column ;
+    rdfs:label "Shadow Banking" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/column/SovereignWealthFunds> a dsv:Column ;
+    rdfs:label "Sovereign Wealth Funds" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets890AB7R8/datasetSchema> a dsv:DatasetSchema .
+

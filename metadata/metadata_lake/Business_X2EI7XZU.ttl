@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_X2EI7XZU.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/AdvertisingCampaignImpactMetrics>,
+        <http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/BusinessIndustryTrends>,
+        <http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/CompetingCompaniesInformation>,
+        <http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/CustomerDemographics>,
+        <http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/DistributionChannelAnalysis>,
+        <http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/EconomicEnvironmentAnalysis>,
+        <http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/EmployeeHeadcountStatistics>,
+        <http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/EmployeeSalaryStatistics>,
+        <http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/MarketPenetrationStrategies>,
+        <http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/MarketSharePercentages>,
+        <http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/ProductInnovationsTimeline>,
+        <http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/RegulatoryComplianceHistory>,
+        <http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/SocialResponsibilityInitiatives>,
+        <http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/SupplierRelationshipManagement>,
+        <http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/TechnologyIntegrationWithinTheOrganization> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BusinessX2EI7XZU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/AdvertisingCampaignImpactMetrics> a dsv:Column ;
+    rdfs:label " AdvertisingCampaignImpactMetrics" .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/BusinessIndustryTrends> a dsv:Column ;
+    rdfs:label "BusinessIndustryTrends" .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/CompetingCompaniesInformation> a dsv:Column ;
+    rdfs:label " CompetingCompaniesInformation" .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/CustomerDemographics> a dsv:Column ;
+    rdfs:label " CustomerDemographics" .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/DistributionChannelAnalysis> a dsv:Column ;
+    rdfs:label " DistributionChannelAnalysis" .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/EconomicEnvironmentAnalysis> a dsv:Column ;
+    rdfs:label " EconomicEnvironmentAnalysis" .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/EmployeeHeadcountStatistics> a dsv:Column ;
+    rdfs:label " EmployeeHeadcountStatistics" .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/EmployeeSalaryStatistics> a dsv:Column ;
+    rdfs:label " EmployeeSalaryStatistics" .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/MarketPenetrationStrategies> a dsv:Column ;
+    rdfs:label " MarketPenetrationStrategies" .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/MarketSharePercentages> a dsv:Column ;
+    rdfs:label " MarketSharePercentages" .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/ProductInnovationsTimeline> a dsv:Column ;
+    rdfs:label " ProductInnovationsTimeline" .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/RegulatoryComplianceHistory> a dsv:Column ;
+    rdfs:label " RegulatoryComplianceHistory" .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/SocialResponsibilityInitiatives> a dsv:Column ;
+    rdfs:label " SocialResponsibilityInitiatives" .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/SupplierRelationshipManagement> a dsv:Column ;
+    rdfs:label " SupplierRelationshipManagement" .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU/column/TechnologyIntegrationWithinTheOrganization> a dsv:Column ;
+    rdfs:label " TechnologyIntegrationWithinTheOrganization" .
+
+<http://metaUnionSearch/datasets/BusinessX2EI7XZU/datasetSchema> a dsv:DatasetSchema .
+

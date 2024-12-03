@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LiteratureNZDKYAYQ> a dsv:Dataset ;
+    dcterms:subject "literature" ;
+    dcterms:title "Literature_NZDKYAYQ.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/AdaptationsMoviesTV>,
+        <http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/AgeGroupappeal>,
+        <http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/AwardsWon>,
+        <http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/BookDesignIllustrations>,
+        <http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/CriticReviews>,
+        <http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/GenreTrends>,
+        <http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/InfluenceOnOtherWriters>,
+        <http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/PublicReaction>,
+        <http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/PublicationDate>,
+        <http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/SentimentAnalysis>,
+        <http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/Title> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/AdaptationsMoviesTV> a dsv:Column ;
+    rdfs:label " Adaptations (Movies, TV)" .
+
+<http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/AgeGroupappeal> a dsv:Column ;
+    rdfs:label " Age Group appeal" .
+
+<http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/AwardsWon> a dsv:Column ;
+    rdfs:label " Awards Won" .
+
+<http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/BookDesignIllustrations> a dsv:Column ;
+    rdfs:label " \"Book Design & Illustrations\"" .
+
+<http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/CriticReviews> a dsv:Column ;
+    rdfs:label " Critic Reviews" .
+
+<http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/GenreTrends> a dsv:Column ;
+    rdfs:label " Genre Trends" .
+
+<http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/InfluenceOnOtherWriters> a dsv:Column ;
+    rdfs:label " Influence On Other Writers" .
+
+<http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/PublicReaction> a dsv:Column ;
+    rdfs:label " Public Reaction" .
+
+<http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/PublicationDate> a dsv:Column ;
+    rdfs:label " Publication Date" .
+
+<http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/SentimentAnalysis> a dsv:Column ;
+    rdfs:label " Sentiment Analysis" .
+
+<http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/column/Title> a dsv:Column ;
+    rdfs:label "Title" .
+
+<http://metaUnionSearch/datasets/LiteratureNZDKYAYQ/datasetSchema> a dsv:DatasetSchema .
+

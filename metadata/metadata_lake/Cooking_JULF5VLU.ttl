@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CookingJULF5VLU> a dsv:Dataset ;
+    dcterms:subject "cooking" ;
+    dcterms:title "Cooking_JULF5VLU.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/CookingJULF5VLU/column/Category>,
+        <http://metaUnionSearch/datasets/CookingJULF5VLU/column/CuisineType>,
+        <http://metaUnionSearch/datasets/CookingJULF5VLU/column/Ingredient1>,
+        <http://metaUnionSearch/datasets/CookingJULF5VLU/column/Ingredient2>,
+        <http://metaUnionSearch/datasets/CookingJULF5VLU/column/Ingredient3>,
+        <http://metaUnionSearch/datasets/CookingJULF5VLU/column/Ingredient4>,
+        <http://metaUnionSearch/datasets/CookingJULF5VLU/column/InstructionStep1>,
+        <http://metaUnionSearch/datasets/CookingJULF5VLU/column/InstructionStep2>,
+        <http://metaUnionSearch/datasets/CookingJULF5VLU/column/PrepDuration>,
+        <http://metaUnionSearch/datasets/CookingJULF5VLU/column/RecipesReviews>,
+        <http://metaUnionSearch/datasets/CookingJULF5VLU/column/Servings>,
+        <http://metaUnionSearch/datasets/CookingJULF5VLU/column/SkillLevel> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CookingJULF5VLU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CookingJULF5VLU/column/Category> a dsv:Column ;
+    rdfs:label " Category" .
+
+<http://metaUnionSearch/datasets/CookingJULF5VLU/column/CuisineType> a dsv:Column ;
+    rdfs:label " CuisineType" .
+
+<http://metaUnionSearch/datasets/CookingJULF5VLU/column/Ingredient1> a dsv:Column ;
+    rdfs:label " Ingredient1" .
+
+<http://metaUnionSearch/datasets/CookingJULF5VLU/column/Ingredient2> a dsv:Column ;
+    rdfs:label " Ingredient2" .
+
+<http://metaUnionSearch/datasets/CookingJULF5VLU/column/Ingredient3> a dsv:Column ;
+    rdfs:label " Ingredient3" .
+
+<http://metaUnionSearch/datasets/CookingJULF5VLU/column/Ingredient4> a dsv:Column ;
+    rdfs:label " Ingredient4" .
+
+<http://metaUnionSearch/datasets/CookingJULF5VLU/column/InstructionStep1> a dsv:Column ;
+    rdfs:label " InstructionStep1" .
+
+<http://metaUnionSearch/datasets/CookingJULF5VLU/column/InstructionStep2> a dsv:Column ;
+    rdfs:label " InstructionStep2" .
+
+<http://metaUnionSearch/datasets/CookingJULF5VLU/column/PrepDuration> a dsv:Column ;
+    rdfs:label " PrepDuration" .
+
+<http://metaUnionSearch/datasets/CookingJULF5VLU/column/RecipesReviews> a dsv:Column ;
+    rdfs:label "Recipes Reviews" .
+
+<http://metaUnionSearch/datasets/CookingJULF5VLU/column/Servings> a dsv:Column ;
+    rdfs:label " Servings" .
+
+<http://metaUnionSearch/datasets/CookingJULF5VLU/column/SkillLevel> a dsv:Column ;
+    rdfs:label " SkillLevel" .
+
+<http://metaUnionSearch/datasets/CookingJULF5VLU/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,95 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_34CK9XH0.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/AgeatSelection>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/AstronautID>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/ClosestPersonalRecordForEnduranceActivities>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/CurrentStatusContributionsMade>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/EducationBackgroundtype>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/FavoriteLeisureActivityWhileOnboard>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/FoodRestrictionsBasedUponReligiousBeliefs>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/Gender>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/MaximumCapabilitywithRespectToPhysicalStrength>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/MedicalConditionBeforeFinalClearanceAndAfterEachFlight>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/MostMemorableMomentsfromPreviousExperiences>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/Nationality>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/ProficiencyRatingDuringLastQualifyingExam>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/Retired>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/SpacesuitManufacturer>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/Specialty>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/TotalHoursSpentOutsideLEO>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/TotalMissionsQuantified>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/TrainingPeriodDays>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/VaccinationRecordsbeforeLaunch>,
+        <http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/WeightBearingAbilityduringEVAs> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Astronautics34CK9XH0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/AgeatSelection> a dsv:Column ;
+    rdfs:label " Age at Selection" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/AstronautID> a dsv:Column ;
+    rdfs:label "Astronaut ID" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/ClosestPersonalRecordForEnduranceActivities> a dsv:Column ;
+    rdfs:label " Closest Personal Record For Endurance Activities" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/CurrentStatusContributionsMade> a dsv:Column ;
+    rdfs:label " Current Status & Contributions Made" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/EducationBackgroundtype> a dsv:Column ;
+    rdfs:label " Education Background(type)" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/FavoriteLeisureActivityWhileOnboard> a dsv:Column ;
+    rdfs:label " Favorite Leisure Activity While Onboard" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/FoodRestrictionsBasedUponReligiousBeliefs> a dsv:Column ;
+    rdfs:label " Food Restrictions Based Upon Religious Beliefs" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/Gender> a dsv:Column ;
+    rdfs:label " Gender" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/MaximumCapabilitywithRespectToPhysicalStrength> a dsv:Column ;
+    rdfs:label " Maximum Capability with Respect To Physical Strength" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/MedicalConditionBeforeFinalClearanceAndAfterEachFlight> a dsv:Column ;
+    rdfs:label " Medical Condition Before Final Clearance And After Each Flight" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/MostMemorableMomentsfromPreviousExperiences> a dsv:Column ;
+    rdfs:label " Most Memorable Moments from Previous Experiences" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/Nationality> a dsv:Column ;
+    rdfs:label " Nationality" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/ProficiencyRatingDuringLastQualifyingExam> a dsv:Column ;
+    rdfs:label " Proficiency Rating During Last Qualifying Exam" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/Retired> a dsv:Column ;
+    rdfs:label " Retired?" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/SpacesuitManufacturer> a dsv:Column ;
+    rdfs:label " Spacesuit Manufacturer" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/Specialty> a dsv:Column ;
+    rdfs:label " Specialty" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/TotalHoursSpentOutsideLEO> a dsv:Column ;
+    rdfs:label " Total Hours Spent Outside LEO" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/TotalMissionsQuantified> a dsv:Column ;
+    rdfs:label " Total Missions Quantified" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/TrainingPeriodDays> a dsv:Column ;
+    rdfs:label " Training Period Days" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/VaccinationRecordsbeforeLaunch> a dsv:Column ;
+    rdfs:label " Vaccination Records before Launch" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/column/WeightBearingAbilityduringEVAs> a dsv:Column ;
+    rdfs:label " Weight Bearing Ability during EVAs" .
+
+<http://metaUnionSearch/datasets/Astronautics34CK9XH0/datasetSchema> a dsv:DatasetSchema .
+

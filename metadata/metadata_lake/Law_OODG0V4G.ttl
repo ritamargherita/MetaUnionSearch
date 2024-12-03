@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawOODG0V4G> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_OODG0V4G.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/LawOODG0V4G/column/AmendmentsProposedbyLegislators>,
+        <http://metaUnionSearch/datasets/LawOODG0V4G/column/BillDraftspersonAuditor>,
+        <http://metaUnionSearch/datasets/LawOODG0V4G/column/BudgetaryAllocationalChanges>,
+        <http://metaUnionSearch/datasets/LawOODG0V4G/column/FundamentalRightsAffectivityAnalysis>,
+        <http://metaUnionSearch/datasets/LawOODG0V4G/column/InterestGroupsConsultation>,
+        <http://metaUnionSearch/datasets/LawOODG0V4G/column/LegislativeJurisdiction>,
+        <http://metaUnionSearch/datasets/LawOODG0V4G/column/LegislatureSessionDate>,
+        <http://metaUnionSearch/datasets/LawOODG0V4G/column/LobbyistsEngaged>,
+        <http://metaUnionSearch/datasets/LawOODG0V4G/column/PoliticalPartiesSupported>,
+        <http://metaUnionSearch/datasets/LawOODG0V4G/column/PublicOpinionSurveysConducted>,
+        <http://metaUnionSearch/datasets/LawOODG0V4G/column/VotingResultsBreakdownperRepresentativesPoliticalParty> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawOODG0V4G/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawOODG0V4G/column/AmendmentsProposedbyLegislators> a dsv:Column ;
+    rdfs:label " Amendments Proposed by Legislators" .
+
+<http://metaUnionSearch/datasets/LawOODG0V4G/column/BillDraftspersonAuditor> a dsv:Column ;
+    rdfs:label " Bill Draftsperson/Auditor" .
+
+<http://metaUnionSearch/datasets/LawOODG0V4G/column/BudgetaryAllocationalChanges> a dsv:Column ;
+    rdfs:label " Budgetary Allocational Changes" .
+
+<http://metaUnionSearch/datasets/LawOODG0V4G/column/FundamentalRightsAffectivityAnalysis> a dsv:Column ;
+    rdfs:label " Fundamental Rights Affectivity Analysis" .
+
+<http://metaUnionSearch/datasets/LawOODG0V4G/column/InterestGroupsConsultation> a dsv:Column ;
+    rdfs:label " Interest Groups Consultation" .
+
+<http://metaUnionSearch/datasets/LawOODG0V4G/column/LegislativeJurisdiction> a dsv:Column ;
+    rdfs:label "Legislative Jurisdiction" .
+
+<http://metaUnionSearch/datasets/LawOODG0V4G/column/LegislatureSessionDate> a dsv:Column ;
+    rdfs:label " Legislature Session & Date" .
+
+<http://metaUnionSearch/datasets/LawOODG0V4G/column/LobbyistsEngaged> a dsv:Column ;
+    rdfs:label " Lobbyists Engaged" .
+
+<http://metaUnionSearch/datasets/LawOODG0V4G/column/PoliticalPartiesSupported> a dsv:Column ;
+    rdfs:label " Political Parties Supported" .
+
+<http://metaUnionSearch/datasets/LawOODG0V4G/column/PublicOpinionSurveysConducted> a dsv:Column ;
+    rdfs:label " Public Opinion Surveys Conducted" .
+
+<http://metaUnionSearch/datasets/LawOODG0V4G/column/VotingResultsBreakdownperRepresentativesPoliticalParty> a dsv:Column ;
+    rdfs:label " Voting Results Breakdown per Representatives/Political Party" .
+
+<http://metaUnionSearch/datasets/LawOODG0V4G/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerScience87CVIYJK> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_87CVIYJK.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/ArtificialIntelligenceMethodologies>,
+        <http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/CloudServicesSecurityControlMeasures>,
+        <http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/CybersecurityThreatIntelligenceSharingPlatformFeatures>,
+        <http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/DatabaseSystemTypes>,
+        <http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/DigitalForensicsProceduralStandards>,
+        <http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/HumanComputerInteractionTechniques>,
+        <http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/MobileApplicationDevelopmentFrameworks>,
+        <http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/ParallelandDistributedSystemsTheory>,
+        <http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/PrivacyPreservationMechanisms>,
+        <http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/SoftwareEngineeringDesignPatterns> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerScience87CVIYJK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/ArtificialIntelligenceMethodologies> a dsv:Column ;
+    rdfs:label " Artificial Intelligence Methodologies" .
+
+<http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/CloudServicesSecurityControlMeasures> a dsv:Column ;
+    rdfs:label " Cloud Services Security Control Measures" .
+
+<http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/CybersecurityThreatIntelligenceSharingPlatformFeatures> a dsv:Column ;
+    rdfs:label " Cybersecurity Threat Intelligence Sharing Platform Features" .
+
+<http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/DatabaseSystemTypes> a dsv:Column ;
+    rdfs:label " Database System Types" .
+
+<http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/DigitalForensicsProceduralStandards> a dsv:Column ;
+    rdfs:label " Digital Forensics Procedural Standards" .
+
+<http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/HumanComputerInteractionTechniques> a dsv:Column ;
+    rdfs:label " Human-Computer Interaction Techniques" .
+
+<http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/MobileApplicationDevelopmentFrameworks> a dsv:Column ;
+    rdfs:label " Mobile Application Development Frameworks" .
+
+<http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/ParallelandDistributedSystemsTheory> a dsv:Column ;
+    rdfs:label " Parallel and Distributed Systems Theory" .
+
+<http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/PrivacyPreservationMechanisms> a dsv:Column ;
+    rdfs:label " Privacy Preservation Mechanisms" .
+
+<http://metaUnionSearch/datasets/ComputerScience87CVIYJK/column/SoftwareEngineeringDesignPatterns> a dsv:Column ;
+    rdfs:label "Software Engineering Design Patterns" .
+
+<http://metaUnionSearch/datasets/ComputerScience87CVIYJK/datasetSchema> a dsv:DatasetSchema .
+

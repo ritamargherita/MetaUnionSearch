@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeomancyMPP566YH> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_MPP566YH.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/GeomancyMPP566YH/column/CulturalContext>,
+        <http://metaUnionSearch/datasets/GeomancyMPP566YH/column/ElementalAssociations>,
+        <http://metaUnionSearch/datasets/GeomancyMPP566YH/column/FrequencyUsedbyCulture>,
+        <http://metaUnionSearch/datasets/GeomancyMPP566YH/column/InheritedvsInnovativeMethods>,
+        <http://metaUnionSearch/datasets/GeomancyMPP566YH/column/InterpretationRitualUse>,
+        <http://metaUnionSearch/datasets/GeomancyMPP566YH/column/LimitationonAlphanumericReadability>,
+        <http://metaUnionSearch/datasets/GeomancyMPP566YH/column/MethodsofDivination>,
+        <http://metaUnionSearch/datasets/GeomancyMPP566YH/column/PlanetaryConnections>,
+        <http://metaUnionSearch/datasets/GeomancyMPP566YH/column/PossibleOutcomes>,
+        <http://metaUnionSearch/datasets/GeomancyMPP566YH/column/ShapeAttributes>,
+        <http://metaUnionSearch/datasets/GeomancyMPP566YH/column/SignificanceinTheory>,
+        <http://metaUnionSearch/datasets/GeomancyMPP566YH/column/TypeofGeometry>,
+        <http://metaUnionSearch/datasets/GeomancyMPP566YH/column/ZodiacSignSymbolism> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeomancyMPP566YH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeomancyMPP566YH/column/CulturalContext> a dsv:Column ;
+    rdfs:label "Cultural Context" .
+
+<http://metaUnionSearch/datasets/GeomancyMPP566YH/column/ElementalAssociations> a dsv:Column ;
+    rdfs:label "Elemental Associations" .
+
+<http://metaUnionSearch/datasets/GeomancyMPP566YH/column/FrequencyUsedbyCulture> a dsv:Column ;
+    rdfs:label "Frequency Used by Culture" .
+
+<http://metaUnionSearch/datasets/GeomancyMPP566YH/column/InheritedvsInnovativeMethods> a dsv:Column ;
+    rdfs:label "Inherited vs Innovative Methods" .
+
+<http://metaUnionSearch/datasets/GeomancyMPP566YH/column/InterpretationRitualUse> a dsv:Column ;
+    rdfs:label "Interpretation & Ritual Use" .
+
+<http://metaUnionSearch/datasets/GeomancyMPP566YH/column/LimitationonAlphanumericReadability> a dsv:Column ;
+    rdfs:label "Limitation on Alphanumeric Readability" .
+
+<http://metaUnionSearch/datasets/GeomancyMPP566YH/column/MethodsofDivination> a dsv:Column ;
+    rdfs:label "Methods of Divination" .
+
+<http://metaUnionSearch/datasets/GeomancyMPP566YH/column/PlanetaryConnections> a dsv:Column ;
+    rdfs:label "Planetary Connections" .
+
+<http://metaUnionSearch/datasets/GeomancyMPP566YH/column/PossibleOutcomes> a dsv:Column ;
+    rdfs:label "Possible Outcomes" .
+
+<http://metaUnionSearch/datasets/GeomancyMPP566YH/column/ShapeAttributes> a dsv:Column ;
+    rdfs:label "Shape Attributes" .
+
+<http://metaUnionSearch/datasets/GeomancyMPP566YH/column/SignificanceinTheory> a dsv:Column ;
+    rdfs:label "Significance in Theory" .
+
+<http://metaUnionSearch/datasets/GeomancyMPP566YH/column/TypeofGeometry> a dsv:Column ;
+    rdfs:label "Type of Geometry" .
+
+<http://metaUnionSearch/datasets/GeomancyMPP566YH/column/ZodiacSignSymbolism> a dsv:Column ;
+    rdfs:label "Zodiac Sign Symbolism" .
+
+<http://metaUnionSearch/datasets/GeomancyMPP566YH/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_HPCF07UQ.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/AmygdalaActivity>,
+        <http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/AuditoryCorticalThickness>,
+        <http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/BrAINVolume>,
+        <http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/BrainStructureSize>,
+        <http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/CerebralCortexThickness>,
+        <http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/CorpusCallosumWidth>,
+        <http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/DefaultModeNetworkConnectivity>,
+        <http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/EyeMovement>,
+        <http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/FrontotemporalLobeFunction>,
+        <http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/HeschlsGyrusSize>,
+        <http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/HippocampusShape>,
+        <http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/LimbicSystemActivities>,
+        <http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/ReactionTime>,
+        <http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/ThalamicConnectionsToPrefrontals>,
+        <http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/WhiteMatterIntegrity> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PsychologyHPCF07UQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/AmygdalaActivity> a dsv:Column ;
+    rdfs:label " AmygdalaActivity" .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/AuditoryCorticalThickness> a dsv:Column ;
+    rdfs:label " AuditoryCorticalThickness" .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/BrAINVolume> a dsv:Column ;
+    rdfs:label " BrAINVolume" .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/BrainStructureSize> a dsv:Column ;
+    rdfs:label "BrainStructureSize" .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/CerebralCortexThickness> a dsv:Column ;
+    rdfs:label " CerebralCortexThickness" .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/CorpusCallosumWidth> a dsv:Column ;
+    rdfs:label " CorpusCallosumWidth" .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/DefaultModeNetworkConnectivity> a dsv:Column ;
+    rdfs:label " DefaultModeNetworkConnectivity" .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/EyeMovement> a dsv:Column ;
+    rdfs:label " EyeMovement" .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/FrontotemporalLobeFunction> a dsv:Column ;
+    rdfs:label " FrontotemporalLobeFunction" .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/HeschlsGyrusSize> a dsv:Column ;
+    rdfs:label " HeschlsGyrusSize" .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/HippocampusShape> a dsv:Column ;
+    rdfs:label " HippocampusShape" .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/LimbicSystemActivities> a dsv:Column ;
+    rdfs:label " LimbicSystemActivities" .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/ReactionTime> a dsv:Column ;
+    rdfs:label " ReactionTime" .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/ThalamicConnectionsToPrefrontals> a dsv:Column ;
+    rdfs:label " ThalamicConnectionsToPrefrontals" .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ/column/WhiteMatterIntegrity> a dsv:Column ;
+    rdfs:label " WhiteMatterIntegrity" .
+
+<http://metaUnionSearch/datasets/PsychologyHPCF07UQ/datasetSchema> a dsv:DatasetSchema .
+

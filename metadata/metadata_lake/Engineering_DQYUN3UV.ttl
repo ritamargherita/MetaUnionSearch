@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV> a dsv:Dataset ;
+    dcterms:subject "engineering" ;
+    dcterms:title "Engineering_DQYUN3UV.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/BudgetAllocation>,
+        <http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/CodeReviewProcesses>,
+        <http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/CurrentIterationPhase>,
+        <http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/DevOpsTeam>,
+        <http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/DevelopmentApproach>,
+        <http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/FinalizationDate>,
+        <http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/FurtherDevelopmentPhases>,
+        <http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/InitiationDate>,
+        <http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/NumberofModules>,
+        <http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/ProjectDeliverables>,
+        <http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/ProjectIterationLead>,
+        <http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/QualityAssurance>,
+        <http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/SafetyProtocols>,
+        <http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/SoftwareEngineeringDiscipline>,
+        <http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/TestingStrategies> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EngineeringDQYUN3UV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/BudgetAllocation> a dsv:Column ;
+    rdfs:label " Budget Allocation" .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/CodeReviewProcesses> a dsv:Column ;
+    rdfs:label " Code Review Processes" .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/CurrentIterationPhase> a dsv:Column ;
+    rdfs:label " Current Iteration Phase" .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/DevOpsTeam> a dsv:Column ;
+    rdfs:label " DevOps Team" .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/DevelopmentApproach> a dsv:Column ;
+    rdfs:label " Development Approach" .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/FinalizationDate> a dsv:Column ;
+    rdfs:label " Finalization Date" .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/FurtherDevelopmentPhases> a dsv:Column ;
+    rdfs:label " Further Development Phases" .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/InitiationDate> a dsv:Column ;
+    rdfs:label " Initiation Date" .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/NumberofModules> a dsv:Column ;
+    rdfs:label " Number of Modules" .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/ProjectDeliverables> a dsv:Column ;
+    rdfs:label " Project Deliverables" .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/ProjectIterationLead> a dsv:Column ;
+    rdfs:label " Project Iteration Lead" .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/QualityAssurance> a dsv:Column ;
+    rdfs:label " Quality Assurance" .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/SafetyProtocols> a dsv:Column ;
+    rdfs:label " Safety Protocols" .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/SoftwareEngineeringDiscipline> a dsv:Column ;
+    rdfs:label "Software Engineering Discipline" .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV/column/TestingStrategies> a dsv:Column ;
+    rdfs:label " Testing Strategies" .
+
+<http://metaUnionSearch/datasets/EngineeringDQYUN3UV/datasetSchema> a dsv:DatasetSchema .
+

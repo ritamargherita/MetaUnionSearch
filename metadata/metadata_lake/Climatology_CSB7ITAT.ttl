@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ClimatologyCSB7ITAT> a dsv:Dataset ;
+    dcterms:subject "climatology" ;
+    dcterms:title "Climatology_CSB7ITAT.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/AdditionalData>,
+        <http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/AtmosphericPressureinHg>,
+        <http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/DateTimeStamp>,
+        <http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/EvapotranspirationRatekghm2>,
+        <http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/FreezeIndexValue>,
+        <http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/HeatWaveDurationdays>,
+        <http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/LandTypeClassification>,
+        <http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/RelativeHumidity>,
+        <http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/SatelliteImageReference>,
+        <http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/SnowCoverage>,
+        <http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/StormCellTrackingCategorynoneassignedifexists>,
+        <http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/StudyAreaID>,
+        <http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/TemperatureF> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/AdditionalData> a dsv:Column ;
+    rdfs:label "Additional Data" .
+
+<http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/AtmosphericPressureinHg> a dsv:Column ;
+    rdfs:label " Atmospheric Pressure (inHg)" .
+
+<http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/DateTimeStamp> a dsv:Column ;
+    rdfs:label " Date & Time Stamp" .
+
+<http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/EvapotranspirationRatekghm2> a dsv:Column ;
+    rdfs:label " Evapotranspiration Rate (kg/(hm^2))" .
+
+<http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/FreezeIndexValue> a dsv:Column ;
+    rdfs:label " Freeze Index Value" .
+
+<http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/HeatWaveDurationdays> a dsv:Column ;
+    rdfs:label " Heat Wave Duration (days)" .
+
+<http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/LandTypeClassification> a dsv:Column ;
+    rdfs:label " Land Type Classification" .
+
+<http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/RelativeHumidity> a dsv:Column ;
+    rdfs:label " Relative Humidity (%)" .
+
+<http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/SatelliteImageReference> a dsv:Column ;
+    rdfs:label " Satellite Image Reference" .
+
+<http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/SnowCoverage> a dsv:Column ;
+    rdfs:label " Snow Coverage (+/-)" .
+
+<http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/StormCellTrackingCategorynoneassignedifexists> a dsv:Column ;
+    rdfs:label " Storm Cell Tracking Category (- none – assigned if exists–)" .
+
+<http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/StudyAreaID> a dsv:Column ;
+    rdfs:label " Study Area ID" .
+
+<http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/column/TemperatureF> a dsv:Column ;
+    rdfs:label " Temperature (°F)" .
+
+<http://metaUnionSearch/datasets/ClimatologyCSB7ITAT/datasetSchema> a dsv:DatasetSchema .
+

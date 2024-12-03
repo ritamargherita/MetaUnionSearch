@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_X69GUP3H.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/BusinessX69GUP3H/column/AdditionalMetricA>,
+        <http://metaUnionSearch/datasets/BusinessX69GUP3H/column/AdditionalMetricB>,
+        <http://metaUnionSearch/datasets/BusinessX69GUP3H/column/AdditionalMetricC>,
+        <http://metaUnionSearch/datasets/BusinessX69GUP3H/column/AdditionalMetricD>,
+        <http://metaUnionSearch/datasets/BusinessX69GUP3H/column/AnnualExpenses>,
+        <http://metaUnionSearch/datasets/BusinessX69GUP3H/column/AnnualRevenue>,
+        <http://metaUnionSearch/datasets/BusinessX69GUP3H/column/BusinessExpansionPlans>,
+        <http://metaUnionSearch/datasets/BusinessX69GUP3H/column/CensusClassificationCodeNAICScode>,
+        <http://metaUnionSearch/datasets/BusinessX69GUP3H/column/CompanyName>,
+        <http://metaUnionSearch/datasets/BusinessX69GUP3H/column/CurrentAssetValue>,
+        <http://metaUnionSearch/datasets/BusinessX69GUP3H/column/CurrentLiabilityValue>,
+        <http://metaUnionSearch/datasets/BusinessX69GUP3H/column/EmployeeHeadcount>,
+        <http://metaUnionSearch/datasets/BusinessX69GUP3H/column/GeographicLocation>,
+        <http://metaUnionSearch/datasets/BusinessX69GUP3H/column/NetWorth>,
+        <http://metaUnionSearch/datasets/BusinessX69GUP3H/column/OtherUniqueDataPoints> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BusinessX69GUP3H/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H/column/AdditionalMetricA> a dsv:Column ;
+    rdfs:label " AdditionalMetricA" .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H/column/AdditionalMetricB> a dsv:Column ;
+    rdfs:label " AdditionalMetricB" .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H/column/AdditionalMetricC> a dsv:Column ;
+    rdfs:label " AdditionalMetricC" .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H/column/AdditionalMetricD> a dsv:Column ;
+    rdfs:label " AdditionalMetricD" .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H/column/AnnualExpenses> a dsv:Column ;
+    rdfs:label " AnnualExpenses" .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H/column/AnnualRevenue> a dsv:Column ;
+    rdfs:label " AnnualRevenue" .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H/column/BusinessExpansionPlans> a dsv:Column ;
+    rdfs:label "BusinessExpansionPlans" .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H/column/CensusClassificationCodeNAICScode> a dsv:Column ;
+    rdfs:label " CensusClassificationCode(NAICScode)" .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H/column/CompanyName> a dsv:Column ;
+    rdfs:label " CompanyName" .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H/column/CurrentAssetValue> a dsv:Column ;
+    rdfs:label " CurrentAssetValue" .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H/column/CurrentLiabilityValue> a dsv:Column ;
+    rdfs:label " CurrentLiabilityValue" .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H/column/EmployeeHeadcount> a dsv:Column ;
+    rdfs:label " EmployeeHeadcount" .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H/column/GeographicLocation> a dsv:Column ;
+    rdfs:label " GeographicLocation" .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H/column/NetWorth> a dsv:Column ;
+    rdfs:label " NetWorth" .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H/column/OtherUniqueDataPoints> a dsv:Column ;
+    rdfs:label " OtherUniqueDataPoints" .
+
+<http://metaUnionSearch/datasets/BusinessX69GUP3H/datasetSchema> a dsv:DatasetSchema .
+

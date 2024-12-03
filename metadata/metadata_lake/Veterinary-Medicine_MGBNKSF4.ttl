@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_MGBNKSF4.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/Age>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/AnimalType>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/Breed>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/ConditionName>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/Cost>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/DietaryRestrictions>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/ExerciseNeeds>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/Gender>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/MedicalEquipment>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/PrescribedMedication>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/PreventiveCare>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/VaccinationStatus> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/Age> a dsv:Column ;
+    rdfs:label " Age" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/AnimalType> a dsv:Column ;
+    rdfs:label " Animal\\_Type" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/Breed> a dsv:Column ;
+    rdfs:label " Breed" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/ConditionName> a dsv:Column ;
+    rdfs:label "Condition Name" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/Cost> a dsv:Column ;
+    rdfs:label " Cost" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/DietaryRestrictions> a dsv:Column ;
+    rdfs:label " Dietary Restrictions" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/ExerciseNeeds> a dsv:Column ;
+    rdfs:label " Exercise Needs" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/Gender> a dsv:Column ;
+    rdfs:label " Gender" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/MedicalEquipment> a dsv:Column ;
+    rdfs:label " Medical Equipment" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/PrescribedMedication> a dsv:Column ;
+    rdfs:label " Prescribed Medication" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/PreventiveCare> a dsv:Column ;
+    rdfs:label " Preventive Care" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/column/VaccinationStatus> a dsv:Column ;
+    rdfs:label " Vaccination Status" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMGBNKSF4/datasetSchema> a dsv:DatasetSchema .
+

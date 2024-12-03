@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_H8P2YAZQ.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/AwardsandHonors>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/Collaborations>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/CurrentProjects>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/EducationalBackground>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/FutureGoals>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/GrantFunding>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/LabEquipmentUsed>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/MentorshipExperience>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/NumberofPublications>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/ProfessionalMemberships>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/ResearchFocus>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/SpeciesStudied>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/TeachingExperience>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/VeterinaryMedicineField>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/YearsofExperience> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/AwardsandHonors> a dsv:Column ;
+    rdfs:label " Awards and Honors" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/Collaborations> a dsv:Column ;
+    rdfs:label " Collaborations" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/CurrentProjects> a dsv:Column ;
+    rdfs:label " Current Projects" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/EducationalBackground> a dsv:Column ;
+    rdfs:label " Educational Background" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/FutureGoals> a dsv:Column ;
+    rdfs:label " Future Goals" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/GrantFunding> a dsv:Column ;
+    rdfs:label " Grant Funding" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/LabEquipmentUsed> a dsv:Column ;
+    rdfs:label " Lab Equipment Used" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/MentorshipExperience> a dsv:Column ;
+    rdfs:label " Mentorship Experience" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/NumberofPublications> a dsv:Column ;
+    rdfs:label " Number of Publications" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/ProfessionalMemberships> a dsv:Column ;
+    rdfs:label " Professional Memberships" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/ResearchFocus> a dsv:Column ;
+    rdfs:label " Research Focus" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/SpeciesStudied> a dsv:Column ;
+    rdfs:label " Species Studied" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/TeachingExperience> a dsv:Column ;
+    rdfs:label " Teaching Experience" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/VeterinaryMedicineField> a dsv:Column ;
+    rdfs:label "Veterinary Medicine Field" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/YearsofExperience> a dsv:Column ;
+    rdfs:label " Years of Experience" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/datasetSchema> a dsv:DatasetSchema .
+

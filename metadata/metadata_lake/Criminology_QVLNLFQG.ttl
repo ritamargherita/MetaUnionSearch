@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CriminologyQVLNLFQG> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_QVLNLFQG.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/ArrestDetails>,
+        <http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/ArrestingOfficer>,
+        <http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/BailAmount>,
+        <http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/BookingNumber>,
+        <http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/CaseStatus>,
+        <http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/CourtDisposition>,
+        <http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/EvidencePreserved>,
+        <http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/InvestigatingAgency>,
+        <http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/Mugshot>,
+        <http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/SuspectAddress>,
+        <http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/SuspectedMotive>,
+        <http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/VictimsOccupation>,
+        <http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/WeaponInformation>,
+        <http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/WitnessesPresent> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CriminologyQVLNLFQG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/ArrestDetails> a dsv:Column ;
+    rdfs:label "Arrest Details" .
+
+<http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/ArrestingOfficer> a dsv:Column ;
+    rdfs:label " Arresting Officer" .
+
+<http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/BailAmount> a dsv:Column ;
+    rdfs:label " Bail Amount" .
+
+<http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/BookingNumber> a dsv:Column ;
+    rdfs:label " Booking Number" .
+
+<http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/CaseStatus> a dsv:Column ;
+    rdfs:label " Case Status" .
+
+<http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/CourtDisposition> a dsv:Column ;
+    rdfs:label " Court Disposition" .
+
+<http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/EvidencePreserved> a dsv:Column ;
+    rdfs:label " Evidence Preserved?" .
+
+<http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/InvestigatingAgency> a dsv:Column ;
+    rdfs:label " Investigating Agency" .
+
+<http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/Mugshot> a dsv:Column ;
+    rdfs:label " Mugshot" .
+
+<http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/SuspectAddress> a dsv:Column ;
+    rdfs:label " Suspect Address" .
+
+<http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/SuspectedMotive> a dsv:Column ;
+    rdfs:label " Suspected Motive" .
+
+<http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/VictimsOccupation> a dsv:Column ;
+    rdfs:label " Victims' Occupation" .
+
+<http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/WeaponInformation> a dsv:Column ;
+    rdfs:label " Weapon Information" .
+
+<http://metaUnionSearch/datasets/CriminologyQVLNLFQG/column/WitnessesPresent> a dsv:Column ;
+    rdfs:label " Witnesses Present?" .
+
+<http://metaUnionSearch/datasets/CriminologyQVLNLFQG/datasetSchema> a dsv:DatasetSchema .
+

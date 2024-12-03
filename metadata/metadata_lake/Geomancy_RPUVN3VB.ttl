@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeomancyRPUVN3VB> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_RPUVN3VB.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/AnecdotalEvidencefromFieldObservations>,
+        <http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/EthnicGroupswithHighUsageStatistics>,
+        <http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/FusionWithOtherDivinatoryArts>,
+        <http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/GenderDifferencesamongProfessionals>,
+        <http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/GeographicalDistribution>,
+        <http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/GeomanticTextReferences>,
+        <http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/HistoricalDevelopmentStages>,
+        <http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/InfluenceonCulturalPractices>,
+        <http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/KeyTeachingsfromAncientManuscripts>,
+        <http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/ModernBooksExploringConcepts>,
+        <http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/ProminentPractitionersThroughoutHistory>,
+        <http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/RegionalVariantswithinaSingleEthnicGroup>,
+        <http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/ScientificExplanations>,
+        <http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/SymbolicInterpretations> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeomancyRPUVN3VB/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/AnecdotalEvidencefromFieldObservations> a dsv:Column ;
+    rdfs:label "Anecdotal Evidence from Field Observations" .
+
+<http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/EthnicGroupswithHighUsageStatistics> a dsv:Column ;
+    rdfs:label "Ethnic Groups with High Usage Statistics" .
+
+<http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/FusionWithOtherDivinatoryArts> a dsv:Column ;
+    rdfs:label "Fusion With Other Divinatory Arts" .
+
+<http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/GenderDifferencesamongProfessionals> a dsv:Column ;
+    rdfs:label "Gender Differences among Professionals" .
+
+<http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/GeographicalDistribution> a dsv:Column ;
+    rdfs:label "Geographical Distribution" .
+
+<http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/GeomanticTextReferences> a dsv:Column ;
+    rdfs:label "Geomantic Text References" .
+
+<http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/HistoricalDevelopmentStages> a dsv:Column ;
+    rdfs:label "Historical Development Stages" .
+
+<http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/InfluenceonCulturalPractices> a dsv:Column ;
+    rdfs:label "Influence on Cultural Practices" .
+
+<http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/KeyTeachingsfromAncientManuscripts> a dsv:Column ;
+    rdfs:label "Key Teachings from Ancient Manuscripts" .
+
+<http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/ModernBooksExploringConcepts> a dsv:Column ;
+    rdfs:label "Modern Books Exploring Concepts" .
+
+<http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/ProminentPractitionersThroughoutHistory> a dsv:Column ;
+    rdfs:label "Prominent Practitioners Throughout History" .
+
+<http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/RegionalVariantswithinaSingleEthnicGroup> a dsv:Column ;
+    rdfs:label "Regional Variants within a Single Ethnic Group" .
+
+<http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/ScientificExplanations> a dsv:Column ;
+    rdfs:label "Scientific Explanations" .
+
+<http://metaUnionSearch/datasets/GeomancyRPUVN3VB/column/SymbolicInterpretations> a dsv:Column ;
+    rdfs:label "Symbolic Interpretations" .
+
+<http://metaUnionSearch/datasets/GeomancyRPUVN3VB/datasetSchema> a dsv:DatasetSchema .
+

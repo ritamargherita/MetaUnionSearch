@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LiteratureUN5Z3JQI> a dsv:Dataset ;
+    dcterms:subject "literature" ;
+    dcterms:title "Literature_UN5Z3JQI.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/AuthorNationality>,
+        <http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/CriticOpinions>,
+        <http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/Genre>,
+        <http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/LiteraryTechniques>,
+        <http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/MajorCharacters>,
+        <http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/OtherRelevantInformation>,
+        <http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/PublicationDate>,
+        <http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/Reviews>,
+        <http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/Setting>,
+        <http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/Title> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/AuthorNationality> a dsv:Column ;
+    rdfs:label " Author Nationality" .
+
+<http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/CriticOpinions> a dsv:Column ;
+    rdfs:label " Critic Opinions" .
+
+<http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/Genre> a dsv:Column ;
+    rdfs:label " Genre" .
+
+<http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/LiteraryTechniques> a dsv:Column ;
+    rdfs:label " Literary Techniques" .
+
+<http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/MajorCharacters> a dsv:Column ;
+    rdfs:label " Major Characters" .
+
+<http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/OtherRelevantInformation> a dsv:Column ;
+    rdfs:label " Other Relevant Information" .
+
+<http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/PublicationDate> a dsv:Column ;
+    rdfs:label " Publication Date" .
+
+<http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/Reviews> a dsv:Column ;
+    rdfs:label " Reviews" .
+
+<http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/Setting> a dsv:Column ;
+    rdfs:label " Setting" .
+
+<http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/column/Title> a dsv:Column ;
+    rdfs:label "Title" .
+
+<http://metaUnionSearch/datasets/LiteratureUN5Z3JQI/datasetSchema> a dsv:DatasetSchema .
+

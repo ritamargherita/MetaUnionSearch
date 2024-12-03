@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerScienceI42AFBQN> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_I42AFBQN.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/ArtificialIntelligence>,
+        <http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/AugmentativeandRehabilitativeTechnologies>,
+        <http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/CloudComputing>,
+        <http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/ComputationalTheory>,
+        <http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/CybersecurityConcepts>,
+        <http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/DigitalLogicCircuitry>,
+        <http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/EthicalConsiderationsAroundCS>,
+        <http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/HumanComputerInteraction>,
+        <http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/ProgramDesignMethodologies>,
+        <http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/QuantumComputation>,
+        <http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/Robotics>,
+        <http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/SoftwareEngineeringPrinciples> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/ArtificialIntelligence> a dsv:Column ;
+    rdfs:label " Artificial Intelligence" .
+
+<http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/AugmentativeandRehabilitativeTechnologies> a dsv:Column ;
+    rdfs:label " Augmentative and Rehabilitative Technologies" .
+
+<http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/CloudComputing> a dsv:Column ;
+    rdfs:label " Cloud Computing" .
+
+<http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/ComputationalTheory> a dsv:Column ;
+    rdfs:label "Computational Theory" .
+
+<http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/CybersecurityConcepts> a dsv:Column ;
+    rdfs:label " Cybersecurity Concepts" .
+
+<http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/DigitalLogicCircuitry> a dsv:Column ;
+    rdfs:label " Digital Logic & Circuitry" .
+
+<http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/EthicalConsiderationsAroundCS> a dsv:Column ;
+    rdfs:label " Ethical Considerations Around CS" .
+
+<http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/HumanComputerInteraction> a dsv:Column ;
+    rdfs:label " Human-Computer Interaction" .
+
+<http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/ProgramDesignMethodologies> a dsv:Column ;
+    rdfs:label " Program Design Methodologies" .
+
+<http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/QuantumComputation> a dsv:Column ;
+    rdfs:label " Quantum Computation" .
+
+<http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/Robotics> a dsv:Column ;
+    rdfs:label " Robotics" .
+
+<http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/column/SoftwareEngineeringPrinciples> a dsv:Column ;
+    rdfs:label " Software Engineering Principles" .
+
+<http://metaUnionSearch/datasets/ComputerScienceI42AFBQN/datasetSchema> a dsv:DatasetSchema .
+

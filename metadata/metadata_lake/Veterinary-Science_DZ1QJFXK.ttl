@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_DZ1QJFXK.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/AdditionalCommentsorNotes>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/AlternativeTherapyOptionsConsiderations>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/DateOfVisit>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/DosageInstructions>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/FollowUpAppointmentsScheduled>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/PaymentMethodAcceptance>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/PrescribedMedicines>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/ReasonForConsultation>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/SpecialistReferralRequired>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/TreatMENTCOSTEstimateexcludingmedicines>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/VeterinarianName> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/AdditionalCommentsorNotes> a dsv:Column ;
+    rdfs:label " Additional Comments or Notes" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/AlternativeTherapyOptionsConsiderations> a dsv:Column ;
+    rdfs:label " Alternative Therapy Options Considerations" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/DateOfVisit> a dsv:Column ;
+    rdfs:label " Date Of Visit" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/DosageInstructions> a dsv:Column ;
+    rdfs:label " Dosage Instructions" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/FollowUpAppointmentsScheduled> a dsv:Column ;
+    rdfs:label " Follow Up Appointments Scheduled?" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/PaymentMethodAcceptance> a dsv:Column ;
+    rdfs:label " Payment Method Acceptance" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/PrescribedMedicines> a dsv:Column ;
+    rdfs:label " Prescribed Medicine(s)" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/ReasonForConsultation> a dsv:Column ;
+    rdfs:label " Reason For Consultation" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/SpecialistReferralRequired> a dsv:Column ;
+    rdfs:label " Specialist Referral Required?" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/TreatMENTCOSTEstimateexcludingmedicines> a dsv:Column ;
+    rdfs:label " TreatMENT COST Estimate (excluding medicines)" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/column/VeterinarianName> a dsv:Column ;
+    rdfs:label "Veterinarian Name" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceDZ1QJFXK/datasetSchema> a dsv:DatasetSchema .
+

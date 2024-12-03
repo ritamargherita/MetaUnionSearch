@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BusinessK2043NVJ> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_K2043NVJ.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/BusinessK2043NVJ/column/BoardofDirectors>,
+        <http://metaUnionSearch/datasets/BusinessK2043NVJ/column/BusinessLocation>,
+        <http://metaUnionSearch/datasets/BusinessK2043NVJ/column/BusinessStrategy>,
+        <http://metaUnionSearch/datasets/BusinessK2043NVJ/column/CompanyValuation>,
+        <http://metaUnionSearch/datasets/BusinessK2043NVJ/column/CompetitorAnalysis>,
+        <http://metaUnionSearch/datasets/BusinessK2043NVJ/column/CustomerAnalysis>,
+        <http://metaUnionSearch/datasets/BusinessK2043NVJ/column/IndustryTrends>,
+        <http://metaUnionSearch/datasets/BusinessK2043NVJ/column/ManagementTeam>,
+        <http://metaUnionSearch/datasets/BusinessK2043NVJ/column/MarketShare>,
+        <http://metaUnionSearch/datasets/BusinessK2043NVJ/column/NumberofEmployees>,
+        <http://metaUnionSearch/datasets/BusinessK2043NVJ/column/RegulatoryEnvironment>,
+        <http://metaUnionSearch/datasets/BusinessK2043NVJ/column/SupplierAnalysis> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BusinessK2043NVJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BusinessK2043NVJ/column/BoardofDirectors> a dsv:Column ;
+    rdfs:label "Board of Directors" .
+
+<http://metaUnionSearch/datasets/BusinessK2043NVJ/column/BusinessLocation> a dsv:Column ;
+    rdfs:label "Business Location" .
+
+<http://metaUnionSearch/datasets/BusinessK2043NVJ/column/BusinessStrategy> a dsv:Column ;
+    rdfs:label "Business Strategy" .
+
+<http://metaUnionSearch/datasets/BusinessK2043NVJ/column/CompanyValuation> a dsv:Column ;
+    rdfs:label "Company Valuation" .
+
+<http://metaUnionSearch/datasets/BusinessK2043NVJ/column/CompetitorAnalysis> a dsv:Column ;
+    rdfs:label "Competitor Analysis" .
+
+<http://metaUnionSearch/datasets/BusinessK2043NVJ/column/CustomerAnalysis> a dsv:Column ;
+    rdfs:label "Customer Analysis" .
+
+<http://metaUnionSearch/datasets/BusinessK2043NVJ/column/IndustryTrends> a dsv:Column ;
+    rdfs:label "Industry Trends" .
+
+<http://metaUnionSearch/datasets/BusinessK2043NVJ/column/ManagementTeam> a dsv:Column ;
+    rdfs:label "Management Team" .
+
+<http://metaUnionSearch/datasets/BusinessK2043NVJ/column/MarketShare> a dsv:Column ;
+    rdfs:label "Market Share" .
+
+<http://metaUnionSearch/datasets/BusinessK2043NVJ/column/NumberofEmployees> a dsv:Column ;
+    rdfs:label "Number of Employees" .
+
+<http://metaUnionSearch/datasets/BusinessK2043NVJ/column/RegulatoryEnvironment> a dsv:Column ;
+    rdfs:label "Regulatory Environment" .
+
+<http://metaUnionSearch/datasets/BusinessK2043NVJ/column/SupplierAnalysis> a dsv:Column ;
+    rdfs:label "Supplier Analysis" .
+
+<http://metaUnionSearch/datasets/BusinessK2043NVJ/datasetSchema> a dsv:DatasetSchema .
+

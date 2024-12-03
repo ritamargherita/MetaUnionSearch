@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_EG8LXUM3.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/SportsEG8LXUM3/column/AverageAttendance>,
+        <http://metaUnionSearch/datasets/SportsEG8LXUM3/column/Budget>,
+        <http://metaUnionSearch/datasets/SportsEG8LXUM3/column/CityLocation>,
+        <http://metaUnionSearch/datasets/SportsEG8LXUM3/column/CoachNames>,
+        <http://metaUnionSearch/datasets/SportsEG8LXUM3/column/LeaguePosition>,
+        <http://metaUnionSearch/datasets/SportsEG8LXUM3/column/Losses>,
+        <http://metaUnionSearch/datasets/SportsEG8LXUM3/column/MatchesPlayed>,
+        <http://metaUnionSearch/datasets/SportsEG8LXUM3/column/MerchandiseSales>,
+        <http://metaUnionSearch/datasets/SportsEG8LXUM3/column/RedCards>,
+        <http://metaUnionSearch/datasets/SportsEG8LXUM3/column/SponsorsLogos>,
+        <http://metaUnionSearch/datasets/SportsEG8LXUM3/column/StadiumCapacity>,
+        <http://metaUnionSearch/datasets/SportsEG8LXUM3/column/TeamMascot>,
+        <http://metaUnionSearch/datasets/SportsEG8LXUM3/column/TeamNames>,
+        <http://metaUnionSearch/datasets/SportsEG8LXUM3/column/Wins>,
+        <http://metaUnionSearch/datasets/SportsEG8LXUM3/column/YellowCards> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SportsEG8LXUM3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3/column/AverageAttendance> a dsv:Column ;
+    rdfs:label " Average Attendance" .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3/column/Budget> a dsv:Column ;
+    rdfs:label " Budget" .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3/column/CityLocation> a dsv:Column ;
+    rdfs:label " City Location" .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3/column/CoachNames> a dsv:Column ;
+    rdfs:label " Coach Names" .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3/column/LeaguePosition> a dsv:Column ;
+    rdfs:label " League Position" .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3/column/Losses> a dsv:Column ;
+    rdfs:label " Losses" .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3/column/MatchesPlayed> a dsv:Column ;
+    rdfs:label " Matches Played" .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3/column/MerchandiseSales> a dsv:Column ;
+    rdfs:label " Merchandise Sales" .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3/column/RedCards> a dsv:Column ;
+    rdfs:label " Red Cards" .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3/column/SponsorsLogos> a dsv:Column ;
+    rdfs:label " Sponsors Logos" .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3/column/StadiumCapacity> a dsv:Column ;
+    rdfs:label " Stadium Capacity" .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3/column/TeamMascot> a dsv:Column ;
+    rdfs:label " Team Mascot" .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3/column/TeamNames> a dsv:Column ;
+    rdfs:label "Team Names" .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3/column/Wins> a dsv:Column ;
+    rdfs:label " Wins" .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3/column/YellowCards> a dsv:Column ;
+    rdfs:label " Yellow Cards" .
+
+<http://metaUnionSearch/datasets/SportsEG8LXUM3/datasetSchema> a dsv:DatasetSchema .
+

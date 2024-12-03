@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Astronautics37XB2JA7> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_37XB2JA7.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/AstrONAUTID>,
+        <http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/CelestialBodyVisited>,
+        <http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/CountryOrigin>,
+        <http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/EducationBackground>,
+        <http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/FirstFlightYear>,
+        <http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/Gender>,
+        <http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/MicrogravityExposureTolerance>,
+        <http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/MissionSpecialty>,
+        <http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/SpacewalkExperiencehours>,
+        <http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/SuborbitalFlightExperience>,
+        <http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/TotalFlights>,
+        <http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/TotalHoursofWeightlessness>,
+        <http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/TypeOfSpacesuitWorn>,
+        <http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/WeightlessTrainingMethod> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Astronautics37XB2JA7/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/AstrONAUTID> a dsv:Column ;
+    rdfs:label "AstrONAUT ID" .
+
+<http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/CelestialBodyVisited> a dsv:Column ;
+    rdfs:label " Celestial Body Visited%" .
+
+<http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/CountryOrigin> a dsv:Column ;
+    rdfs:label " Country Origin" .
+
+<http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/EducationBackground> a dsv:Column ;
+    rdfs:label " Education Background*" .
+
+<http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/FirstFlightYear> a dsv:Column ;
+    rdfs:label " First Flight Year**" .
+
+<http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/Gender> a dsv:Column ;
+    rdfs:label " Gender" .
+
+<http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/MicrogravityExposureTolerance> a dsv:Column ;
+    rdfs:label " Microgravity Exposure Tolerance#" .
+
+<http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/MissionSpecialty> a dsv:Column ;
+    rdfs:label " Mission Specialty" .
+
+<http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/SpacewalkExperiencehours> a dsv:Column ;
+    rdfs:label " Spacewalk Experience(hours)****" .
+
+<http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/SuborbitalFlightExperience> a dsv:Column ;
+    rdfs:label " Suborbital Flight Experience^" .
+
+<http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/TotalFlights> a dsv:Column ;
+    rdfs:label " Total Flights " .
+
+<http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/TotalHoursofWeightlessness> a dsv:Column ;
+    rdfs:label " Total Hours of Weightlessness^" .
+
+<http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/TypeOfSpacesuitWorn> a dsv:Column ;
+    rdfs:label " Type Of Spacesuit Worn++" .
+
+<http://metaUnionSearch/datasets/Astronautics37XB2JA7/column/WeightlessTrainingMethod> a dsv:Column ;
+    rdfs:label " Weightless Training Method***" .
+
+<http://metaUnionSearch/datasets/Astronautics37XB2JA7/datasetSchema> a dsv:DatasetSchema .
+

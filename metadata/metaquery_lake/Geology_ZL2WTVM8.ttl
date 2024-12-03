@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeologyZL2WTVM8> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_ZL2WTVM8.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/AgeMillionYears>,
+        <http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/DepositionalEnvironment>,
+        <http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/FormationLocation>,
+        <http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/FossilContent>,
+        <http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/HydrologicalProperties>,
+        <http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/MechanicalProperties>,
+        <http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/MineralComposition>,
+        <http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/RockType>,
+        <http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/StratigraphicPosition>,
+        <http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/SubsurfaceConditions>,
+        <http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/WeatheringGrade> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeologyZL2WTVM8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/AgeMillionYears> a dsv:Column ;
+    rdfs:label " Age (Million Years)" .
+
+<http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/DepositionalEnvironment> a dsv:Column ;
+    rdfs:label " Depositional Environment" .
+
+<http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/FormationLocation> a dsv:Column ;
+    rdfs:label " Formation Location" .
+
+<http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/FossilContent> a dsv:Column ;
+    rdfs:label " Fossil Content" .
+
+<http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/HydrologicalProperties> a dsv:Column ;
+    rdfs:label " Hydrological Properties" .
+
+<http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/MechanicalProperties> a dsv:Column ;
+    rdfs:label " Mechanical Properties" .
+
+<http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/MineralComposition> a dsv:Column ;
+    rdfs:label " Mineral Composition" .
+
+<http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/RockType> a dsv:Column ;
+    rdfs:label "Rock Type" .
+
+<http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/StratigraphicPosition> a dsv:Column ;
+    rdfs:label " Stratigraphic Position" .
+
+<http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/SubsurfaceConditions> a dsv:Column ;
+    rdfs:label " Subsurface Conditions" .
+
+<http://metaUnionSearch/datasets/GeologyZL2WTVM8/column/WeatheringGrade> a dsv:Column ;
+    rdfs:label " Weathering Grade" .
+
+<http://metaUnionSearch/datasets/GeologyZL2WTVM8/datasetSchema> a dsv:DatasetSchema .
+

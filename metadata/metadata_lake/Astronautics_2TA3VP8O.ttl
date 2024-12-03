@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Astronautics2TA3VP8O> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_2TA3VP8O.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/CollaboratingAgency>,
+        <http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/FundingSources>,
+        <http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/FutureApplications>,
+        <http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/LaunchLocation>,
+        <http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/MediaCoverageIntensity>,
+        <http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/MissionPatchDesign>,
+        <http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/RocketType>,
+        <http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/ScientificDiscoveries>,
+        <http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/SurfacedLandingSite>,
+        <http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/TechnologicalAdvancements> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Astronautics2TA3VP8O/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/CollaboratingAgency> a dsv:Column ;
+    rdfs:label " Collaborating Agency" .
+
+<http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/FundingSources> a dsv:Column ;
+    rdfs:label " Funding Sources" .
+
+<http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/FutureApplications> a dsv:Column ;
+    rdfs:label " Future Applications" .
+
+<http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/LaunchLocation> a dsv:Column ;
+    rdfs:label " Launch Location" .
+
+<http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/MediaCoverageIntensity> a dsv:Column ;
+    rdfs:label " Media Coverage Intensity" .
+
+<http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/MissionPatchDesign> a dsv:Column ;
+    rdfs:label " Mission Patch Design" .
+
+<http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/RocketType> a dsv:Column ;
+    rdfs:label "Rocket Type" .
+
+<http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/ScientificDiscoveries> a dsv:Column ;
+    rdfs:label " Scientific Discoveries" .
+
+<http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/SurfacedLandingSite> a dsv:Column ;
+    rdfs:label " Surfaced Landing Site" .
+
+<http://metaUnionSearch/datasets/Astronautics2TA3VP8O/column/TechnologicalAdvancements> a dsv:Column ;
+    rdfs:label " Technological Advancements" .
+
+<http://metaUnionSearch/datasets/Astronautics2TA3VP8O/datasetSchema> a dsv:DatasetSchema .
+

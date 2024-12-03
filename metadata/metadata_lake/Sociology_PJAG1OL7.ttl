@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_PJAG1OL7.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/AgeDistribution>,
+        <http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/CriminalJusticeInvolvement>,
+        <http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/CulturalPractices>,
+        <http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/EducationalLevel>,
+        <http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/EmploymentStatus>,
+        <http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/FamilyStructure>,
+        <http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/GenderIdentity>,
+        <http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/HealthStatus>,
+        <http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/IncomeLevel>,
+        <http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/RaceEthnicity>,
+        <http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/ReligiousAffiliation>,
+        <http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/ResearchMethods>,
+        <http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/ResidentialLocation>,
+        <http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/SocioeconomicStatus>,
+        <http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/TechnologyAccess> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SociologyPJAG1OL7/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/AgeDistribution> a dsv:Column ;
+    rdfs:label " AgeDistribution" .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/CriminalJusticeInvolvement> a dsv:Column ;
+    rdfs:label " CriminalJusticeInvolvement" .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/CulturalPractices> a dsv:Column ;
+    rdfs:label " CulturalPractices" .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/EducationalLevel> a dsv:Column ;
+    rdfs:label " EducationalLevel" .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/EmploymentStatus> a dsv:Column ;
+    rdfs:label " EmploymentStatus" .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/FamilyStructure> a dsv:Column ;
+    rdfs:label " FamilyStructure" .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/GenderIdentity> a dsv:Column ;
+    rdfs:label " GenderIdentity" .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/HealthStatus> a dsv:Column ;
+    rdfs:label " HealthStatus" .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/IncomeLevel> a dsv:Column ;
+    rdfs:label " IncomeLevel" .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/RaceEthnicity> a dsv:Column ;
+    rdfs:label " RaceEthnicity" .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/ReligiousAffiliation> a dsv:Column ;
+    rdfs:label " ReligiousAffiliation" .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/ResearchMethods> a dsv:Column ;
+    rdfs:label " ResearchMethods." .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/ResidentialLocation> a dsv:Column ;
+    rdfs:label " ResidentialLocation" .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/SocioeconomicStatus> a dsv:Column ;
+    rdfs:label "SocioeconomicStatus" .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7/column/TechnologyAccess> a dsv:Column ;
+    rdfs:label " TechnologyAccess" .
+
+<http://metaUnionSearch/datasets/SociologyPJAG1OL7/datasetSchema> a dsv:DatasetSchema .
+

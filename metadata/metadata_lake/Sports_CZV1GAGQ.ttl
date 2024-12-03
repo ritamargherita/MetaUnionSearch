@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_CZV1GAGQ.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/AverageAgeOfPlayers>,
+        <http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/CoachName>,
+        <http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/DomesticPlayersRatio>,
+        <http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/DraftPicksHistory>,
+        <http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/HeightVariance>,
+        <http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/InternationalPlayersRatio>,
+        <http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/NumberOfMajorAchievements>,
+        <http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/NumberOfMinorAchievements>,
+        <http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/RecentSponsorshipDeals>,
+        <http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/SocialMediaFollowersCount>,
+        <http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/TeamID>,
+        <http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/TeamName>,
+        <http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/TotalTeamValue>,
+        <http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/TrainingFacilitiesRating>,
+        <http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/WeightVariance> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SportsCZV1GAGQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/AverageAgeOfPlayers> a dsv:Column ;
+    rdfs:label " AverageAgeOfPlayers" .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/CoachName> a dsv:Column ;
+    rdfs:label " CoachName" .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/DomesticPlayersRatio> a dsv:Column ;
+    rdfs:label " DomesticPlayersRatio" .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/DraftPicksHistory> a dsv:Column ;
+    rdfs:label " DraftPicksHistory" .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/HeightVariance> a dsv:Column ;
+    rdfs:label " HeightVariance" .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/InternationalPlayersRatio> a dsv:Column ;
+    rdfs:label " InternationalPlayersRatio" .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/NumberOfMajorAchievements> a dsv:Column ;
+    rdfs:label " NumberOfMajorAchievements." .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/NumberOfMinorAchievements> a dsv:Column ;
+    rdfs:label " NumberOfMinorAchievements" .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/RecentSponsorshipDeals> a dsv:Column ;
+    rdfs:label " RecentSponsorshipDeals" .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/SocialMediaFollowersCount> a dsv:Column ;
+    rdfs:label " SocialMediaFollowersCount" .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/TeamID> a dsv:Column ;
+    rdfs:label " TeamID" .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/TeamName> a dsv:Column ;
+    rdfs:label "TeamName" .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/TotalTeamValue> a dsv:Column ;
+    rdfs:label " TotalTeamValue" .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/TrainingFacilitiesRating> a dsv:Column ;
+    rdfs:label " TrainingFacilitiesRating" .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ/column/WeightVariance> a dsv:Column ;
+    rdfs:label " WeightVariance" .
+
+<http://metaUnionSearch/datasets/SportsCZV1GAGQ/datasetSchema> a dsv:DatasetSchema .
+

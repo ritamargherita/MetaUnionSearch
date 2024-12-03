@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Gardening749AHW2P> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_749AHW2P.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Gardening749AHW2P/column/AverageBloomPeriodDuration>,
+        <http://metaUnionSearch/datasets/Gardening749AHW2P/column/ColdClimateAdaptations>,
+        <http://metaUnionSearch/datasets/Gardening749AHW2P/column/CompanionFlowers>,
+        <http://metaUnionSearch/datasets/Gardening749AHW2P/column/DroughtToleranceTechniques>,
+        <http://metaUnionSearch/datasets/Gardening749AHW2P/column/FertilitySchedule>,
+        <http://metaUnionSearch/datasets/Gardening749AHW2P/column/GardenBeds>,
+        <http://metaUnionSearch/datasets/Gardening749AHW2P/column/GardenDesignElements>,
+        <http://metaUnionSearch/datasets/Gardening749AHW2P/column/IrrigationSystem>,
+        <http://metaUnionSearch/datasets/Gardening749AHW2P/column/MicroclimateManagement>,
+        <http://metaUnionSearch/datasets/Gardening749AHW2P/column/SeasonalInterestFeatures>,
+        <http://metaUnionSearch/datasets/Gardening749AHW2P/column/SoothingGardenSounds>,
+        <http://metaUnionSearch/datasets/Gardening749AHW2P/column/WildlifeAttractorsAndHabitatProviders> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Gardening749AHW2P/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Gardening749AHW2P/column/AverageBloomPeriodDuration> a dsv:Column ;
+    rdfs:label " AverageBloomPeriodDuration" .
+
+<http://metaUnionSearch/datasets/Gardening749AHW2P/column/ColdClimateAdaptations> a dsv:Column ;
+    rdfs:label " ColdClimateAdaptations" .
+
+<http://metaUnionSearch/datasets/Gardening749AHW2P/column/CompanionFlowers> a dsv:Column ;
+    rdfs:label " CompanionFlowers" .
+
+<http://metaUnionSearch/datasets/Gardening749AHW2P/column/DroughtToleranceTechniques> a dsv:Column ;
+    rdfs:label " DroughtToleranceTechniques" .
+
+<http://metaUnionSearch/datasets/Gardening749AHW2P/column/FertilitySchedule> a dsv:Column ;
+    rdfs:label " FertilitySchedule" .
+
+<http://metaUnionSearch/datasets/Gardening749AHW2P/column/GardenBeds> a dsv:Column ;
+    rdfs:label "GardenBeds" .
+
+<http://metaUnionSearch/datasets/Gardening749AHW2P/column/GardenDesignElements> a dsv:Column ;
+    rdfs:label " GardenDesignElements" .
+
+<http://metaUnionSearch/datasets/Gardening749AHW2P/column/IrrigationSystem> a dsv:Column ;
+    rdfs:label " IrrigationSystem" .
+
+<http://metaUnionSearch/datasets/Gardening749AHW2P/column/MicroclimateManagement> a dsv:Column ;
+    rdfs:label " MicroclimateManagement" .
+
+<http://metaUnionSearch/datasets/Gardening749AHW2P/column/SeasonalInterestFeatures> a dsv:Column ;
+    rdfs:label " SeasonalInterestFeatures" .
+
+<http://metaUnionSearch/datasets/Gardening749AHW2P/column/SoothingGardenSounds> a dsv:Column ;
+    rdfs:label " SoothingGardenSounds" .
+
+<http://metaUnionSearch/datasets/Gardening749AHW2P/column/WildlifeAttractorsAndHabitatProviders> a dsv:Column ;
+    rdfs:label " WildlifeAttractorsAndHabitatProviders" .
+
+<http://metaUnionSearch/datasets/Gardening749AHW2P/datasetSchema> a dsv:DatasetSchema .
+

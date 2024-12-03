@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Language2FYS3JKV> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_2FYS3JKV.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Language2FYS3JKV/column/GrammarDescription>,
+        <http://metaUnionSearch/datasets/Language2FYS3JKV/column/InstitutionalStatusNongovernmentalBodyRegisteredVarietyRecognizedCoofficialOfficialWorkingLanguageSecondaryAssociateAdditionalOfficialLanguage>,
+        <http://metaUnionSearch/datasets/Language2FYS3JKV/column/LanguageFamily>,
+        <http://metaUnionSearch/datasets/Language2FYS3JKV/column/LanguageName>,
+        <http://metaUnionSearch/datasets/Language2FYS3JKV/column/OfficialStatus>,
+        <http://metaUnionSearch/datasets/Language2FYS3JKV/column/Origin>,
+        <http://metaUnionSearch/datasets/Language2FYS3JKV/column/PragmaticAspectorUseinCommunicationandConversation>,
+        <http://metaUnionSearch/datasets/Language2FYS3JKV/column/SemanticFeaturesMeaningRepresentation>,
+        <http://metaUnionSearch/datasets/Language2FYS3JKV/column/SpeakerCount>,
+        <http://metaUnionSearch/datasets/Language2FYS3JKV/column/SyntaxDetailsSentenceStructureandRulesIncludingWordOrder>,
+        <http://metaUnionSearch/datasets/Language2FYS3JKV/column/TypicalScripts>,
+        <http://metaUnionSearch/datasets/Language2FYS3JKV/column/VocabularyDescriptionThematicRolesLexiconRelatedFeatures>,
+        <http://metaUnionSearch/datasets/Language2FYS3JKV/column/WritingSystemDetails> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Language2FYS3JKV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Language2FYS3JKV/column/GrammarDescription> a dsv:Column ;
+    rdfs:label " Grammar Description" .
+
+<http://metaUnionSearch/datasets/Language2FYS3JKV/column/InstitutionalStatusNongovernmentalBodyRegisteredVarietyRecognizedCoofficialOfficialWorkingLanguageSecondaryAssociateAdditionalOfficialLanguage> a dsv:Column ;
+    rdfs:label " Institutional Status: Non-governmental Body, Registered Variety, Recognized, Co-official, Official, Working Language, Secondary/Associate/Additional Official Language." .
+
+<http://metaUnionSearch/datasets/Language2FYS3JKV/column/LanguageFamily> a dsv:Column ;
+    rdfs:label " Language Family" .
+
+<http://metaUnionSearch/datasets/Language2FYS3JKV/column/LanguageName> a dsv:Column ;
+    rdfs:label "Language Name" .
+
+<http://metaUnionSearch/datasets/Language2FYS3JKV/column/OfficialStatus> a dsv:Column ;
+    rdfs:label " Official Status" .
+
+<http://metaUnionSearch/datasets/Language2FYS3JKV/column/Origin> a dsv:Column ;
+    rdfs:label " Origin" .
+
+<http://metaUnionSearch/datasets/Language2FYS3JKV/column/PragmaticAspectorUseinCommunicationandConversation> a dsv:Column ;
+    rdfs:label " Pragmatic Aspect or Use in Communication and Conversation" .
+
+<http://metaUnionSearch/datasets/Language2FYS3JKV/column/SemanticFeaturesMeaningRepresentation> a dsv:Column ;
+    rdfs:label " Semantic Features: Meaning Representation" .
+
+<http://metaUnionSearch/datasets/Language2FYS3JKV/column/SpeakerCount> a dsv:Column ;
+    rdfs:label " Speaker Count" .
+
+<http://metaUnionSearch/datasets/Language2FYS3JKV/column/SyntaxDetailsSentenceStructureandRulesIncludingWordOrder> a dsv:Column ;
+    rdfs:label " Syntax Details: Sentence Structure and Rules Including Word Order" .
+
+<http://metaUnionSearch/datasets/Language2FYS3JKV/column/TypicalScripts> a dsv:Column ;
+    rdfs:label " Typical Scripts" .
+
+<http://metaUnionSearch/datasets/Language2FYS3JKV/column/VocabularyDescriptionThematicRolesLexiconRelatedFeatures> a dsv:Column ;
+    rdfs:label " Vocabulary Description: Thematic Roles & Lexicon Related Features" .
+
+<http://metaUnionSearch/datasets/Language2FYS3JKV/column/WritingSystemDetails> a dsv:Column ;
+    rdfs:label " Writing System Details" .
+
+<http://metaUnionSearch/datasets/Language2FYS3JKV/datasetSchema> a dsv:DatasetSchema .
+

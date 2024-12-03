@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Math0BLV0PRK> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_0BLV0PRK.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Math0BLV0PRK/column/CareersinMath>,
+        <http://metaUnionSearch/datasets/Math0BLV0PRK/column/EducationalTools>,
+        <http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathandSports>,
+        <http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathematicalProblems>,
+        <http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathematicalPuzzles>,
+        <http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathinArtDesign>,
+        <http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathinDailyLife>,
+        <http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathinFilmMedia>,
+        <http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathinGamesToys>,
+        <http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathinLiterature>,
+        <http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathinPopCulture> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Math0BLV0PRK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Math0BLV0PRK/column/CareersinMath> a dsv:Column ;
+    rdfs:label "\"Careers in Math\"" .
+
+<http://metaUnionSearch/datasets/Math0BLV0PRK/column/EducationalTools> a dsv:Column ;
+    rdfs:label "\"Educational Tools\"" .
+
+<http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathandSports> a dsv:Column ;
+    rdfs:label "\"Math and Sports\"" .
+
+<http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathematicalProblems> a dsv:Column ;
+    rdfs:label "\"Mathematical Problems\"" .
+
+<http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathematicalPuzzles> a dsv:Column ;
+    rdfs:label "\"Mathematical Puzzles\"" .
+
+<http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathinArtDesign> a dsv:Column ;
+    rdfs:label "\"Math in Art & Design\"" .
+
+<http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathinDailyLife> a dsv:Column ;
+    rdfs:label "\"Math in Daily Life\"" .
+
+<http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathinFilmMedia> a dsv:Column ;
+    rdfs:label "\"Math in Film & Media\"" .
+
+<http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathinGamesToys> a dsv:Column ;
+    rdfs:label "\"Math in Games & Toys\"" .
+
+<http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathinLiterature> a dsv:Column ;
+    rdfs:label "\"Math in Literature\"" .
+
+<http://metaUnionSearch/datasets/Math0BLV0PRK/column/MathinPopCulture> a dsv:Column ;
+    rdfs:label "\"Math in Pop Culture\"" .
+
+<http://metaUnionSearch/datasets/Math0BLV0PRK/datasetSchema> a dsv:DatasetSchema .
+

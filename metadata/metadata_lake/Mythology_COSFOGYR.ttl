@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MythologyCOSFOGYR> a dsv:Dataset ;
+    dcterms:subject "mythology" ;
+    dcterms:title "Mythology_COSFOGYR.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/ArtRepresentations>,
+        <http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/Category>,
+        <http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/CurseBlessing>,
+        <http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/DivineRetinue>,
+        <http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/Festivals>,
+        <http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/GodGoddess>,
+        <http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/ImmortalityOrigin>,
+        <http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/MajorFeats>,
+        <http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/MythologicalSites>,
+        <http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/PrayerPractices>,
+        <http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/PunishmentReward>,
+        <http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/ReligiousTexts>,
+        <http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/SacredAnimals>,
+        <http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/SymbolicItems> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MythologyCOSFOGYR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/ArtRepresentations> a dsv:Column ;
+    rdfs:label "Art Representations" .
+
+<http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/Category> a dsv:Column ;
+    rdfs:label "Category" .
+
+<http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/CurseBlessing> a dsv:Column ;
+    rdfs:label "Curse/Blessing" .
+
+<http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/DivineRetinue> a dsv:Column ;
+    rdfs:label "Divine Retinue" .
+
+<http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/Festivals> a dsv:Column ;
+    rdfs:label "Festivals" .
+
+<http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/GodGoddess> a dsv:Column ;
+    rdfs:label "God/Goddess" .
+
+<http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/ImmortalityOrigin> a dsv:Column ;
+    rdfs:label "Immortality Origin" .
+
+<http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/MajorFeats> a dsv:Column ;
+    rdfs:label "Major Feats" .
+
+<http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/MythologicalSites> a dsv:Column ;
+    rdfs:label "Mythological Sites" .
+
+<http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/PrayerPractices> a dsv:Column ;
+    rdfs:label "Prayer Practices" .
+
+<http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/PunishmentReward> a dsv:Column ;
+    rdfs:label "Punishment/Reward" .
+
+<http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/ReligiousTexts> a dsv:Column ;
+    rdfs:label "Religious Texts" .
+
+<http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/SacredAnimals> a dsv:Column ;
+    rdfs:label "Sacred Animals" .
+
+<http://metaUnionSearch/datasets/MythologyCOSFOGYR/column/SymbolicItems> a dsv:Column ;
+    rdfs:label "Symbolic Items" .
+
+<http://metaUnionSearch/datasets/MythologyCOSFOGYR/datasetSchema> a dsv:DatasetSchema .
+

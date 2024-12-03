@@ -1,17 +1,4 @@
-;"\
-ExcavationDate";"\
-PrimaryInvestment";"\
-FundingSource";"\
-ExcavationTeamLeader";"\
-FieldSpecialist1";"\
-FieldSpecialist2";"\
-FieldSpecialist3";"\
-FieldSpecialistNotes";"\
-LabSpecialist1";"\
-LabSpecialist2";"\
-LabSpecialist3";"\
-LabSpecialistNotes";"\
-PublicationYear"
+;"\ExcavationDate";"\PrimaryInvestment";"\FundingSource";"\ExcavationTeamLeader";"\FieldSpecialist1";"\FieldSpecialist2";"\FieldSpecialist3";"\FieldSpecialistNotes";"\LabSpecialist1";"\LabSpecialist2";"\LabSpecialist3";"\LabSpecialistNotes";"PublicationYear"
 0;9/15/2018; Great Zimbabwe Ruins; National Geographic Society; Dr. Alice Thompson;;;;;;;;;
 1;Dr. Henry Jackson (Ceramics); Dr. Maria Rodriguez (Human Remains); Dr. James Lee (Botany);;;;;;;;;;
 2;Dr. Jackson found several examples of Rhodesian red slipware.;;;;;;;;;;;;

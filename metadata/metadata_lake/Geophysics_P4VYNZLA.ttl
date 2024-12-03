@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeophysicsP4VYNZLA> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_P4VYNZLA.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/CompressionalVelocities>,
+        <http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/EffectiveStressLaw>,
+        <http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/FluidSubstitution>,
+        <http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/GeologicHazardAssessment>,
+        <http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/NoiseReduction>,
+        <http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/OverburdenPressure>,
+        <http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/PoissonsRatioShearModulusRelationship>,
+        <http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/PoroelasticWavePropagation>,
+        <http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/ReservoirCharacterizationFluidsQuantification>,
+        <http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/SignalAttenuation>,
+        <http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/SubsurfaceImagingTechniques>,
+        <http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/TemperatureGradients> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/CompressionalVelocities> a dsv:Column ;
+    rdfs:label "Compressional Velocities" .
+
+<http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/EffectiveStressLaw> a dsv:Column ;
+    rdfs:label "Effective Stress Law" .
+
+<http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/FluidSubstitution> a dsv:Column ;
+    rdfs:label "Fluid Substitution" .
+
+<http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/GeologicHazardAssessment> a dsv:Column ;
+    rdfs:label "Geologic Hazard Assessment" .
+
+<http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/NoiseReduction> a dsv:Column ;
+    rdfs:label "Noise Reduction" .
+
+<http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/OverburdenPressure> a dsv:Column ;
+    rdfs:label "Overburden Pressure" .
+
+<http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/PoissonsRatioShearModulusRelationship> a dsv:Column ;
+    rdfs:label "Poisson’s Ratio-Shear Modulus Relationship" .
+
+<http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/PoroelasticWavePropagation> a dsv:Column ;
+    rdfs:label "Poroelastic Wave Propagation" .
+
+<http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/ReservoirCharacterizationFluidsQuantification> a dsv:Column ;
+    rdfs:label "Reservoir Characterization-Fluids Quantification" .
+
+<http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/SignalAttenuation> a dsv:Column ;
+    rdfs:label "Signal Attenuation" .
+
+<http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/SubsurfaceImagingTechniques> a dsv:Column ;
+    rdfs:label "Subsurface Imaging Techniques" .
+
+<http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/column/TemperatureGradients> a dsv:Column ;
+    rdfs:label "Temperature Gradients" .
+
+<http://metaUnionSearch/datasets/GeophysicsP4VYNZLA/datasetSchema> a dsv:DatasetSchema .
+

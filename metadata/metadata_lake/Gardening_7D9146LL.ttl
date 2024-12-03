@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Gardening7D9146LL> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_7D9146LL.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Gardening7D9146LL/column/AverageRainfall>,
+        <http://metaUnionSearch/datasets/Gardening7D9146LL/column/BestCompanionPlants>,
+        <http://metaUnionSearch/datasets/Gardening7D9146LL/column/ClimateCondition>,
+        <http://metaUnionSearch/datasets/Gardening7D9146LL/column/DateLastTended>,
+        <http://metaUnionSearch/datasets/Gardening7D9146LL/column/FertilityRequirements>,
+        <http://metaUnionSearch/datasets/Gardening7D9146LL/column/GardenLocation>,
+        <http://metaUnionSearch/datasets/Gardening7D9146LL/column/HarvestSeason>,
+        <http://metaUnionSearch/datasets/Gardening7D9146LL/column/MaintenanceSchedule>,
+        <http://metaUnionSearch/datasets/Gardening7D9146LL/column/SoilingType>,
+        <http://metaUnionSearch/datasets/Gardening7D9146LL/column/ToolsUsed> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Gardening7D9146LL/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Gardening7D9146LL/column/AverageRainfall> a dsv:Column ;
+    rdfs:label " AverageRainfall" .
+
+<http://metaUnionSearch/datasets/Gardening7D9146LL/column/BestCompanionPlants> a dsv:Column ;
+    rdfs:label " BestCompanionPlants" .
+
+<http://metaUnionSearch/datasets/Gardening7D9146LL/column/ClimateCondition> a dsv:Column ;
+    rdfs:label " ClimateCondition" .
+
+<http://metaUnionSearch/datasets/Gardening7D9146LL/column/DateLastTended> a dsv:Column ;
+    rdfs:label " DateLastTended" .
+
+<http://metaUnionSearch/datasets/Gardening7D9146LL/column/FertilityRequirements> a dsv:Column ;
+    rdfs:label " FertilityRequirements" .
+
+<http://metaUnionSearch/datasets/Gardening7D9146LL/column/GardenLocation> a dsv:Column ;
+    rdfs:label "GardenLocation" .
+
+<http://metaUnionSearch/datasets/Gardening7D9146LL/column/HarvestSeason> a dsv:Column ;
+    rdfs:label " HarvestSeason" .
+
+<http://metaUnionSearch/datasets/Gardening7D9146LL/column/MaintenanceSchedule> a dsv:Column ;
+    rdfs:label " MaintenanceSchedule" .
+
+<http://metaUnionSearch/datasets/Gardening7D9146LL/column/SoilingType> a dsv:Column ;
+    rdfs:label " SoilingType" .
+
+<http://metaUnionSearch/datasets/Gardening7D9146LL/column/ToolsUsed> a dsv:Column ;
+    rdfs:label " ToolsUsed" .
+
+<http://metaUnionSearch/datasets/Gardening7D9146LL/datasetSchema> a dsv:DatasetSchema .
+

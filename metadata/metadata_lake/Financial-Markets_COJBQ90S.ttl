@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S> a dsv:Dataset ;
+    dcterms:subject "financial-markets" ;
+    dcterms:title "Financial-Markets_COJBQ90S.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/BalanceofTrade>,
+        <http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/BudgetDeficitSurplus>,
+        <http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/CentralBankInterestRates>,
+        <http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/CommodityPrices>,
+        <http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/ConsumerPriceIndex>,
+        <http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/ExportImportData>,
+        <http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/GrossFixedCapitalFormation>,
+        <http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/HousingMarketIndex>,
+        <http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/IndustrialProduction>,
+        <http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/ProducerPriceIndex>,
+        <http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/RetailSales> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/BalanceofTrade> a dsv:Column ;
+    rdfs:label "Balance of Trade" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/BudgetDeficitSurplus> a dsv:Column ;
+    rdfs:label "Budget Deficit/Surplus" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/CentralBankInterestRates> a dsv:Column ;
+    rdfs:label "Central Bank Interest Rates" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/CommodityPrices> a dsv:Column ;
+    rdfs:label "Commodity Prices" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/ConsumerPriceIndex> a dsv:Column ;
+    rdfs:label "Consumer Price Index" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/ExportImportData> a dsv:Column ;
+    rdfs:label "Export Import Data" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/GrossFixedCapitalFormation> a dsv:Column ;
+    rdfs:label "Gross Fixed Capital Formation." .
+
+<http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/HousingMarketIndex> a dsv:Column ;
+    rdfs:label "Housing Market Index" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/IndustrialProduction> a dsv:Column ;
+    rdfs:label "Industrial Production" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/ProducerPriceIndex> a dsv:Column ;
+    rdfs:label "Producer Price Index" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/column/RetailSales> a dsv:Column ;
+    rdfs:label "Retail Sales" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsCOJBQ90S/datasetSchema> a dsv:DatasetSchema .
+

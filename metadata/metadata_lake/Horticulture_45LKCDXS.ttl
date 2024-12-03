@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Horticulture45LKCDXS> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_45LKCDXS.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/AverageHeightMM>,
+        <http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/FloweringPeriod>,
+        <http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/FoliageColor>,
+        <http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/FruitingBodies>,
+        <http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/GrowthHabit>,
+        <http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/JapaneseNames>,
+        <http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/LifeCycleTypes>,
+        <http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/PropagationMethods>,
+        <http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/RootSystemDescriptions>,
+        <http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/SpecialFeaturesComments>,
+        <http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/SuggestedUSDAHardinessZones> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Horticulture45LKCDXS/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/AverageHeightMM> a dsv:Column ;
+    rdfs:label "AverageHeightMM" .
+
+<http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/FloweringPeriod> a dsv:Column ;
+    rdfs:label "FloweringPeriod" .
+
+<http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/FoliageColor> a dsv:Column ;
+    rdfs:label "FoliageColor" .
+
+<http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/FruitingBodies> a dsv:Column ;
+    rdfs:label "FruitingBodies" .
+
+<http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/GrowthHabit> a dsv:Column ;
+    rdfs:label "GrowthHabit" .
+
+<http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/JapaneseNames> a dsv:Column ;
+    rdfs:label "JapaneseNames" .
+
+<http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/LifeCycleTypes> a dsv:Column ;
+    rdfs:label "LifeCycleTypes" .
+
+<http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/PropagationMethods> a dsv:Column ;
+    rdfs:label "PropagationMethods" .
+
+<http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/RootSystemDescriptions> a dsv:Column ;
+    rdfs:label "RootSystemDescriptions" .
+
+<http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/SpecialFeaturesComments> a dsv:Column ;
+    rdfs:label "SpecialFeaturesComments" .
+
+<http://metaUnionSearch/datasets/Horticulture45LKCDXS/column/SuggestedUSDAHardinessZones> a dsv:Column ;
+    rdfs:label "SuggestedUSDAHardinessZones" .
+
+<http://metaUnionSearch/datasets/Horticulture45LKCDXS/datasetSchema> a dsv:DatasetSchema .
+

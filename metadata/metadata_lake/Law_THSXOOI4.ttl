@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawTHSXOOI4> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_THSXOOI4.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/LawTHSXOOI4/column/BillNumber>,
+        <http://metaUnionSearch/datasets/LawTHSXOOI4/column/EffectiveDate>,
+        <http://metaUnionSearch/datasets/LawTHSXOOI4/column/GovernmentAgencyComments>,
+        <http://metaUnionSearch/datasets/LawTHSXOOI4/column/LegislativeJurisdiction>,
+        <http://metaUnionSearch/datasets/LawTHSXOOI4/column/LegislatureSession>,
+        <http://metaUnionSearch/datasets/LawTHSXOOI4/column/LinkedElectionswithCandidatePlatformComparisons>,
+        <http://metaUnionSearch/datasets/LawTHSXOOI4/column/LobbyistsEngagedTheirContributions>,
+        <http://metaUnionSearch/datasets/LawTHSXOOI4/column/ProposedLegislationText>,
+        <http://metaUnionSearch/datasets/LawTHSXOOI4/column/RelatedPoliticalPartyPositions>,
+        <http://metaUnionSearch/datasets/LawTHSXOOI4/column/StakeholderOpinionPollResults>,
+        <http://metaUnionSearch/datasets/LawTHSXOOI4/column/VoteCount>,
+        <http://metaUnionSearch/datasets/LawTHSXOOI4/column/VotingBodyMembers> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawTHSXOOI4/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawTHSXOOI4/column/BillNumber> a dsv:Column ;
+    rdfs:label " Bill Number" .
+
+<http://metaUnionSearch/datasets/LawTHSXOOI4/column/EffectiveDate> a dsv:Column ;
+    rdfs:label " Effective Date" .
+
+<http://metaUnionSearch/datasets/LawTHSXOOI4/column/GovernmentAgencyComments> a dsv:Column ;
+    rdfs:label " Government Agency Comments" .
+
+<http://metaUnionSearch/datasets/LawTHSXOOI4/column/LegislativeJurisdiction> a dsv:Column ;
+    rdfs:label "Legislative Jurisdiction" .
+
+<http://metaUnionSearch/datasets/LawTHSXOOI4/column/LegislatureSession> a dsv:Column ;
+    rdfs:label " Legislature Session" .
+
+<http://metaUnionSearch/datasets/LawTHSXOOI4/column/LinkedElectionswithCandidatePlatformComparisons> a dsv:Column ;
+    rdfs:label " Linked Elections with Candidate Platform Comparisons" .
+
+<http://metaUnionSearch/datasets/LawTHSXOOI4/column/LobbyistsEngagedTheirContributions> a dsv:Column ;
+    rdfs:label " Lobbyists Engaged & Their Contributions" .
+
+<http://metaUnionSearch/datasets/LawTHSXOOI4/column/ProposedLegislationText> a dsv:Column ;
+    rdfs:label " Proposed Legislation Text" .
+
+<http://metaUnionSearch/datasets/LawTHSXOOI4/column/RelatedPoliticalPartyPositions> a dsv:Column ;
+    rdfs:label " Related Political Party Positions" .
+
+<http://metaUnionSearch/datasets/LawTHSXOOI4/column/StakeholderOpinionPollResults> a dsv:Column ;
+    rdfs:label " Stakeholder Opinion Poll Results" .
+
+<http://metaUnionSearch/datasets/LawTHSXOOI4/column/VoteCount> a dsv:Column ;
+    rdfs:label " Vote Count" .
+
+<http://metaUnionSearch/datasets/LawTHSXOOI4/column/VotingBodyMembers> a dsv:Column ;
+    rdfs:label " Voting Body Members" .
+
+<http://metaUnionSearch/datasets/LawTHSXOOI4/datasetSchema> a dsv:DatasetSchema .
+

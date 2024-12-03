@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_HO2KGN6Z.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/CelebrityEndorsements>,
+        <http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/CollaborationsBrandxArtist>,
+        <http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/CulturalInspiration>,
+        <http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/CustomerReviewsAverageRating>,
+        <http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/DesignerName>,
+        <http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/EnvironmentalImpact>,
+        <http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/EthicalCertifications>,
+        <http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/FabricCareInstructions>,
+        <http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/GenderCategory>,
+        <http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/HistoricalSignificance>,
+        <http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/KeywordAnalysis>,
+        <http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/MarketSegmentation>,
+        <http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/ModelNumber>,
+        <http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/ProductionCountry>,
+        <http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/SocialMediaBuzzScore>,
+        <http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/TrendingStatus> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FashionHO2KGN6Z/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/CelebrityEndorsements> a dsv:Column ;
+    rdfs:label " Celebrity Endorsements" .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/CollaborationsBrandxArtist> a dsv:Column ;
+    rdfs:label " Collaborations (Brand x Artist)" .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/CulturalInspiration> a dsv:Column ;
+    rdfs:label " Cultural Inspiration" .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/CustomerReviewsAverageRating> a dsv:Column ;
+    rdfs:label " Customer Reviews Average Rating" .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/DesignerName> a dsv:Column ;
+    rdfs:label " Designer Name" .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/EnvironmentalImpact> a dsv:Column ;
+    rdfs:label " Environmental Impact" .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/EthicalCertifications> a dsv:Column ;
+    rdfs:label " Ethical Certifications" .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/FabricCareInstructions> a dsv:Column ;
+    rdfs:label "Fabric Care Instructions" .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/GenderCategory> a dsv:Column ;
+    rdfs:label " Gender Category" .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/HistoricalSignificance> a dsv:Column ;
+    rdfs:label " Historical Significance" .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/KeywordAnalysis> a dsv:Column ;
+    rdfs:label " Keyword Analysis" .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/MarketSegmentation> a dsv:Column ;
+    rdfs:label " Market Segmentation" .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/ModelNumber> a dsv:Column ;
+    rdfs:label " Model Number" .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/ProductionCountry> a dsv:Column ;
+    rdfs:label " Production Country" .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/SocialMediaBuzzScore> a dsv:Column ;
+    rdfs:label " Social Media Buzz Score" .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/column/TrendingStatus> a dsv:Column ;
+    rdfs:label " Trending Status" .
+
+<http://metaUnionSearch/datasets/FashionHO2KGN6Z/datasetSchema> a dsv:DatasetSchema .
+

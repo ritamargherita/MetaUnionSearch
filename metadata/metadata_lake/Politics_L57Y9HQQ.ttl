@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoliticsL57Y9HQQ> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_L57Y9HQQ.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/CampaignIssuePriorities>,
+        <http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/DateoftheNextElection>,
+        <http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/ElectionsHeld>,
+        <http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/LevelOfFundingForOpposingCampaigns>,
+        <http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/MinimumAgeRequirementforVoting>,
+        <http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/NumberofSeatsWonbyWinningCandidate>,
+        <http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/OppositionPartyLeader>,
+        <http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/PoliticalAdSpending>,
+        <http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/TotalPopulationinConstituency>,
+        <http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/VoterTurnout>,
+        <http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/WinningCandidate> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/CampaignIssuePriorities> a dsv:Column ;
+    rdfs:label " Campaign Issue Priorities" .
+
+<http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/DateoftheNextElection> a dsv:Column ;
+    rdfs:label " Date of the Next Election" .
+
+<http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/ElectionsHeld> a dsv:Column ;
+    rdfs:label "Elections Held" .
+
+<http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/LevelOfFundingForOpposingCampaigns> a dsv:Column ;
+    rdfs:label " Level Of Funding For Opposing Campaigns$" .
+
+<http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/MinimumAgeRequirementforVoting> a dsv:Column ;
+    rdfs:label " Minimum Age Requirement for Voting" .
+
+<http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/NumberofSeatsWonbyWinningCandidate> a dsv:Column ;
+    rdfs:label " Number of Seats Won by Winning Candidate" .
+
+<http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/OppositionPartyLeader> a dsv:Column ;
+    rdfs:label " Opposition Party Leader" .
+
+<http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/PoliticalAdSpending> a dsv:Column ;
+    rdfs:label " Political Ad Spending$" .
+
+<http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/TotalPopulationinConstituency> a dsv:Column ;
+    rdfs:label " Total Population in Constituency" .
+
+<http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/VoterTurnout> a dsv:Column ;
+    rdfs:label " Voter Turnout%" .
+
+<http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/column/WinningCandidate> a dsv:Column ;
+    rdfs:label " Winning Candidate" .
+
+<http://metaUnionSearch/datasets/PoliticsL57Y9HQQ/datasetSchema> a dsv:DatasetSchema .
+

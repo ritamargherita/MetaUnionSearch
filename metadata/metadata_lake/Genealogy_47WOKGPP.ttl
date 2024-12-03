@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Genealogy47WOKGPP> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_47WOKGPP.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/AncestorFatherFirstName>,
+        <http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/AncestorFatherLastName>,
+        <http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/AncestorMotherMaidenName>,
+        <http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/AncestralHome>,
+        <http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/DNAProfile>,
+        <http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/DeathDate>,
+        <http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/MarriageDate>,
+        <http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/PersonID>,
+        <http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/SSN>,
+        <http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/SpouseName> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Genealogy47WOKGPP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/AncestorFatherFirstName> a dsv:Column ;
+    rdfs:label " AncestorFatherFirstName" .
+
+<http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/AncestorFatherLastName> a dsv:Column ;
+    rdfs:label " AncestorFatherLastName" .
+
+<http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/AncestorMotherMaidenName> a dsv:Column ;
+    rdfs:label " AncestorMotherMaidenName" .
+
+<http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/AncestralHome> a dsv:Column ;
+    rdfs:label " AncestralHome" .
+
+<http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/DNAProfile> a dsv:Column ;
+    rdfs:label " DNAProfile" .
+
+<http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/DeathDate> a dsv:Column ;
+    rdfs:label " DeathDate" .
+
+<http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/MarriageDate> a dsv:Column ;
+    rdfs:label " MarriageDate" .
+
+<http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/PersonID> a dsv:Column ;
+    rdfs:label "PersonID" .
+
+<http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/SSN> a dsv:Column ;
+    rdfs:label " SSN" .
+
+<http://metaUnionSearch/datasets/Genealogy47WOKGPP/column/SpouseName> a dsv:Column ;
+    rdfs:label " SpouseName" .
+
+<http://metaUnionSearch/datasets/Genealogy47WOKGPP/datasetSchema> a dsv:DatasetSchema .
+

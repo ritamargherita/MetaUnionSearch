@@ -1,0 +1,79 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_K5635T5B.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/BusinessK5635T5B/column/AnnualExpenses>,
+        <http://metaUnionSearch/datasets/BusinessK5635T5B/column/AnnualIncome>,
+        <http://metaUnionSearch/datasets/BusinessK5635T5B/column/CensusClassificationCodeegNAICS>,
+        <http://metaUnionSearch/datasets/BusinessK5635T5B/column/CompanyName>,
+        <http://metaUnionSearch/datasets/BusinessK5635T5B/column/CurrentAssetValue>,
+        <http://metaUnionSearch/datasets/BusinessK5635T5B/column/CurrentLiabilitiesValue>,
+        <http://metaUnionSearch/datasets/BusinessK5635T5B/column/DividendsPaidperiodicreturnsbasedondistributionstoparticulargroupsonadollarbasis>,
+        <http://metaUnionSearch/datasets/BusinessK5635T5B/column/EarningsBeforeSpecialItemsAdjustmentsDeductionsTaxesInterestAmortizationandDepreciationEBITDAMargin>,
+        <http://metaUnionSearch/datasets/BusinessK5635T5B/column/GrossProfitMarginpartofthecompanysgeneralsalesdollarsthataredirectlyattributabletothesellingpricesofallgoodsorservicesproducedbyacompanyexpressedasapercentage>,
+        <http://metaUnionSearch/datasets/BusinessK5635T5B/column/InterestCoverageRatio>,
+        <http://metaUnionSearch/datasets/BusinessK5635T5B/column/MarketingCostsmoneypaidforeffortsundertakenaimedatsupplyinginformationaboutproductsorservicestocustomersorfuturepotentialcustomerstopromotetheirmainproductlineorsubsequentincreaseddemand>,
+        <http://metaUnionSearch/datasets/BusinessK5635T5B/column/NetProfitMarginshareofannualsalesrevenuethatgoestooperatingincomeexpressedindecimalformwithoutthesymbol>,
+        <http://metaUnionSearch/datasets/BusinessK5635T5B/column/NetWorthValueRecalculated>,
+        <http://metaUnionSearch/datasets/BusinessK5635T5B/column/ProfitabilityRatio>,
+        <http://metaUnionSearch/datasets/BusinessK5635T5B/column/QuantitativeFinancialAnalysis>,
+        <http://metaUnionSearch/datasets/BusinessK5635T5B/column/ReturnonInvestmentROI>,
+        <http://metaUnionSearch/datasets/BusinessK5635T5B/column/RevenueGrowthRatechangefrompreviousyear> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BusinessK5635T5B/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/AnnualExpenses> a dsv:Column ;
+    rdfs:label " Annual Expenses" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/AnnualIncome> a dsv:Column ;
+    rdfs:label " Annual Income" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/CensusClassificationCodeegNAICS> a dsv:Column ;
+    rdfs:label " Census Classification Code (e.g., NAICS)" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/CompanyName> a dsv:Column ;
+    rdfs:label " Company Name" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/CurrentAssetValue> a dsv:Column ;
+    rdfs:label " Current Asset Value" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/CurrentLiabilitiesValue> a dsv:Column ;
+    rdfs:label " Current Liabilities Value" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/DividendsPaidperiodicreturnsbasedondistributionstoparticulargroupsonadollarbasis> a dsv:Column ;
+    rdfs:label " Dividends Paid (periodic returns based on distributions to particular groups on a dollar basis)" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/EarningsBeforeSpecialItemsAdjustmentsDeductionsTaxesInterestAmortizationandDepreciationEBITDAMargin> a dsv:Column ;
+    rdfs:label " Earnings Before Special Items, Adjustments, Deductions, Taxes, Interest, Amortization, and Depreciation (EBITDA Margin)" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/GrossProfitMarginpartofthecompanysgeneralsalesdollarsthataredirectlyattributabletothesellingpricesofallgoodsorservicesproducedbyacompanyexpressedasapercentage> a dsv:Column ;
+    rdfs:label " Gross Profit Margin (%, part of the company's general sales dollars that are directly attributable to the selling prices of all goods or services produced by a company, expressed as a percentage)" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/InterestCoverageRatio> a dsv:Column ;
+    rdfs:label " Interest Coverage Ratio %" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/MarketingCostsmoneypaidforeffortsundertakenaimedatsupplyinginformationaboutproductsorservicestocustomersorfuturepotentialcustomerstopromotetheirmainproductlineorsubsequentincreaseddemand> a dsv:Column ;
+    rdfs:label " Marketing Costs (money paid for efforts undertaken aimed at supplying information about products or services to customers or future potential customers to promote their main product line or subsequent increased demand)" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/NetProfitMarginshareofannualsalesrevenuethatgoestooperatingincomeexpressedindecimalformwithoutthesymbol> a dsv:Column ;
+    rdfs:label " Net Profit Margin (%, share of annual sales revenue that goes to operating income, expressed in decimal form without the symbol)" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/NetWorthValueRecalculated> a dsv:Column ;
+    rdfs:label " Net Worth Value Re-calculated" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/ProfitabilityRatio> a dsv:Column ;
+    rdfs:label " Profitability Ratio" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/QuantitativeFinancialAnalysis> a dsv:Column ;
+    rdfs:label "Quantitative Financial Analysis" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/ReturnonInvestmentROI> a dsv:Column ;
+    rdfs:label " Return on Investment (ROI) %" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/column/RevenueGrowthRatechangefrompreviousyear> a dsv:Column ;
+    rdfs:label " Revenue Growth Rate (%, change from previous year)" .
+
+<http://metaUnionSearch/datasets/BusinessK5635T5B/datasetSchema> a dsv:DatasetSchema .
+

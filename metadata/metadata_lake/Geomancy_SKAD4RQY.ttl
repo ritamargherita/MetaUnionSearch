@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeomancySKAD4RQY> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_SKAD4RQY.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/ArtisticRepresentations>,
+        <http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/EsotericismInterconnections>,
+        <http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/EthicalConsiderations>,
+        <http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/GeographicalDistribution>,
+        <http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/GeomanticSymbols>,
+        <http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/HistoricalDevelopmentStages>,
+        <http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/ModernAdaptations>,
+        <http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/PoliticalSignificance>,
+        <http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/ProminentPractitionersThroughoutHistory>,
+        <http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/ReligiousIntegration>,
+        <http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/ScientificPerspectives>,
+        <http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/SocialContext>,
+        <http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/SymbolicImageryDepictions> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeomancySKAD4RQY/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/ArtisticRepresentations> a dsv:Column ;
+    rdfs:label " Artistic Representations" .
+
+<http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/EsotericismInterconnections> a dsv:Column ;
+    rdfs:label " Esotericism Interconnections" .
+
+<http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/EthicalConsiderations> a dsv:Column ;
+    rdfs:label " Ethical Considerations" .
+
+<http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/GeographicalDistribution> a dsv:Column ;
+    rdfs:label "Geographical Distribution" .
+
+<http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/GeomanticSymbols> a dsv:Column ;
+    rdfs:label " Geomantic Symbols" .
+
+<http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/HistoricalDevelopmentStages> a dsv:Column ;
+    rdfs:label " Historical Development Stages" .
+
+<http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/ModernAdaptations> a dsv:Column ;
+    rdfs:label " Modern Adaptations" .
+
+<http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/PoliticalSignificance> a dsv:Column ;
+    rdfs:label " Political Significance" .
+
+<http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/ProminentPractitionersThroughoutHistory> a dsv:Column ;
+    rdfs:label " Prominent Practitioners Throughout History" .
+
+<http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/ReligiousIntegration> a dsv:Column ;
+    rdfs:label " Religious Integration" .
+
+<http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/ScientificPerspectives> a dsv:Column ;
+    rdfs:label " Scientific Perspectives" .
+
+<http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/SocialContext> a dsv:Column ;
+    rdfs:label " Social Context" .
+
+<http://metaUnionSearch/datasets/GeomancySKAD4RQY/column/SymbolicImageryDepictions> a dsv:Column ;
+    rdfs:label " Symbolic Imagery Depictions" .
+
+<http://metaUnionSearch/datasets/GeomancySKAD4RQY/datasetSchema> a dsv:DatasetSchema .
+

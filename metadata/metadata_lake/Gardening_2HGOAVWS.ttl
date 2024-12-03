@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Gardening2HGOAVWS> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_2HGOAVWS.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/AverageMaturityDays>,
+        <http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/BloomingSeason>,
+        <http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/CropRotationInterval>,
+        <http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/FamilyName>,
+        <http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/FlowerColor>,
+        <http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/FoliageAppearance>,
+        <http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/GardenerReviews>,
+        <http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/HeightRange>,
+        <http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/InvasiveSpecies>,
+        <http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/NativeToRegion>,
+        <http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/PropagationMethods>,
+        <http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/RarityScale>,
+        <http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/SeedsBankAvailability>,
+        <http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/SpreadRange> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Gardening2HGOAVWS/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/AverageMaturityDays> a dsv:Column ;
+    rdfs:label " AverageMaturityDays" .
+
+<http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/BloomingSeason> a dsv:Column ;
+    rdfs:label " BloomingSeason" .
+
+<http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/CropRotationInterval> a dsv:Column ;
+    rdfs:label " CropRotationInterval" .
+
+<http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/FamilyName> a dsv:Column ;
+    rdfs:label " FamilyName" .
+
+<http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/FlowerColor> a dsv:Column ;
+    rdfs:label " FlowerColor" .
+
+<http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/FoliageAppearance> a dsv:Column ;
+    rdfs:label " FoliageAppearance" .
+
+<http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/GardenerReviews> a dsv:Column ;
+    rdfs:label "GardenerReviews" .
+
+<http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/HeightRange> a dsv:Column ;
+    rdfs:label " HeightRange" .
+
+<http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/InvasiveSpecies> a dsv:Column ;
+    rdfs:label " InvasiveSpecies" .
+
+<http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/NativeToRegion> a dsv:Column ;
+    rdfs:label " NativeToRegion" .
+
+<http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/PropagationMethods> a dsv:Column ;
+    rdfs:label " PropagationMethods" .
+
+<http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/RarityScale> a dsv:Column ;
+    rdfs:label " RarityScale" .
+
+<http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/SeedsBankAvailability> a dsv:Column ;
+    rdfs:label " SeedsBankAvailability" .
+
+<http://metaUnionSearch/datasets/Gardening2HGOAVWS/column/SpreadRange> a dsv:Column ;
+    rdfs:label " SpreadRange" .
+
+<http://metaUnionSearch/datasets/Gardening2HGOAVWS/datasetSchema> a dsv:DatasetSchema .
+

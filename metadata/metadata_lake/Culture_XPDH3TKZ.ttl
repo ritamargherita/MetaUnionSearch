@@ -1,0 +1,111 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_XPDH3TKZ.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/ArchitecturalStyles>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/Architecture>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/Celebrations>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/ClothingTypes>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/Cuisine>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/CurrencyDesign>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/DanceForms>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/FolkTalesandBeliefs>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/HeritageSites>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/HistoricalFigures>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/Literature>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/MoviesandTelevision>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/MusicInstruments>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/NationalHolidays>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/Philanthropy>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/Philosophy>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/Poetry>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/PreferredCommunicationStyle>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/RecreationalActivities>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/ScientificAchievements>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/Sports>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/TechnologicalInnovationandInfrastructure>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/TheatreandDrama>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/TraditionalArtsandCrafts>,
+        <http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/VisualArts> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CultureXPDH3TKZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/ArchitecturalStyles> a dsv:Column ;
+    rdfs:label " Architectural Styles" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/Architecture> a dsv:Column ;
+    rdfs:label " Architecture" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/Celebrations> a dsv:Column ;
+    rdfs:label " Celebrations" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/ClothingTypes> a dsv:Column ;
+    rdfs:label " Clothing Types" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/Cuisine> a dsv:Column ;
+    rdfs:label " Cuisine" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/CurrencyDesign> a dsv:Column ;
+    rdfs:label " Currency Design" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/DanceForms> a dsv:Column ;
+    rdfs:label " Dance Forms" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/FolkTalesandBeliefs> a dsv:Column ;
+    rdfs:label " Folk Tales and Beliefs" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/HeritageSites> a dsv:Column ;
+    rdfs:label "Heritage Sites" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/HistoricalFigures> a dsv:Column ;
+    rdfs:label " Historical Figures" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/Literature> a dsv:Column ;
+    rdfs:label " Literature" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/MoviesandTelevision> a dsv:Column ;
+    rdfs:label " Movies and Television" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/MusicInstruments> a dsv:Column ;
+    rdfs:label " Music Instruments" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/NationalHolidays> a dsv:Column ;
+    rdfs:label " National Holidays" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/Philanthropy> a dsv:Column ;
+    rdfs:label " Philanthropy" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/Philosophy> a dsv:Column ;
+    rdfs:label " Philosophy" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/Poetry> a dsv:Column ;
+    rdfs:label " Poetry" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/PreferredCommunicationStyle> a dsv:Column ;
+    rdfs:label " Preferred Communication Style" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/RecreationalActivities> a dsv:Column ;
+    rdfs:label " Recreational Activities" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/ScientificAchievements> a dsv:Column ;
+    rdfs:label " Scientific Achievements" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/Sports> a dsv:Column ;
+    rdfs:label " Sports" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/TechnologicalInnovationandInfrastructure> a dsv:Column ;
+    rdfs:label " Technological Innovation and Infrastructure" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/TheatreandDrama> a dsv:Column ;
+    rdfs:label " Theatre and Drama" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/TraditionalArtsandCrafts> a dsv:Column ;
+    rdfs:label " Traditional Arts and Crafts" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/column/VisualArts> a dsv:Column ;
+    rdfs:label " Visual Arts" .
+
+<http://metaUnionSearch/datasets/CultureXPDH3TKZ/datasetSchema> a dsv:DatasetSchema .
+

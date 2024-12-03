@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BiologyYXGO4B9U> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_YXGO4B9U.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Biodiversitydistribution>,
+        <http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Biomolecularinteractionsnetwork>,
+        <http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Chloroplastmitochondrialgenomecomposition>,
+        <http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Chromosomallocationsandvariations>,
+        <http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Conservationstatus>,
+        <http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Ecologicallysignificanttraits>,
+        <http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Epigeneticsmarksandmodifications>,
+        <http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Expressionpatternsacrossenvironments>,
+        <http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Geneduplicationeventsandtheireffects>,
+        <http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Generegulationelementsandassociatedfactors>,
+        <http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Metabolicpathwaysinvolved>,
+        <http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Proteincomplexessubunitsoligomerizations>,
+        <http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/semicolonseparatedtable2columnheadersPhylogenictreestructure> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BiologyYXGO4B9U/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Biodiversitydistribution> a dsv:Column ;
+    rdfs:label """\\
+Biodiversity distribution""" .
+
+<http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Biomolecularinteractionsnetwork> a dsv:Column ;
+    rdfs:label """\\
+Biomolecular interactions network""" .
+
+<http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Chloroplastmitochondrialgenomecomposition> a dsv:Column ;
+    rdfs:label """\\
+Chloroplast/mitochondrial genome composition""" .
+
+<http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Chromosomallocationsandvariations> a dsv:Column ;
+    rdfs:label """\\
+Chromosomal locations and variations""" .
+
+<http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Conservationstatus> a dsv:Column ;
+    rdfs:label """\\
+Conservation status""" .
+
+<http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Ecologicallysignificanttraits> a dsv:Column ;
+    rdfs:label """\\
+Ecologically significant traits""" .
+
+<http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Epigeneticsmarksandmodifications> a dsv:Column ;
+    rdfs:label """\\
+Epigenetics marks and modifications""" .
+
+<http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Expressionpatternsacrossenvironments> a dsv:Column ;
+    rdfs:label """\\
+Expression patterns across environments""" .
+
+<http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Geneduplicationeventsandtheireffects> a dsv:Column ;
+    rdfs:label """\\
+Gene duplication events and their effects""" .
+
+<http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Generegulationelementsandassociatedfactors> a dsv:Column ;
+    rdfs:label """\\
+Gene regulation elements and associated factors""" .
+
+<http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Metabolicpathwaysinvolved> a dsv:Column ;
+    rdfs:label """\\
+Metabolic pathways involved""" .
+
+<http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/Proteincomplexessubunitsoligomerizations> a dsv:Column ;
+    rdfs:label """\\
+Protein complexes (subunits & oligomerizations)""" .
+
+<http://metaUnionSearch/datasets/BiologyYXGO4B9U/column/semicolonseparatedtable2columnheadersPhylogenictreestructure> a dsv:Column ;
+    rdfs:label """<semi-colon-separated table 2 column headers>\\
+Phylogenic tree structure""" .
+
+<http://metaUnionSearch/datasets/BiologyYXGO4B9U/datasetSchema> a dsv:DatasetSchema .
+

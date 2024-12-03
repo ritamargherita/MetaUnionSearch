@@ -1,16 +1,4 @@
-;"\
-ArchaeologistName";"\
-ExcavationYear";"\
-FieldNotesReferenceID";"\
-ResearchQuestion";"\
-FundingSource";"\
-CollaboratingInstitution(s)";"\
-DataAnalysisMethodologiesUsed";"\
-SignificanceOfFindings";"\
-PublicationsResultFromThisStudy";"\
-YearOfPublication";"\
-ConferencePresentation(Yes/No)";"\
-StudentCollaborator(Yes/No)"
+;"\ArchaeologistName";"\ExcavationYear";"FieldNotesReferenceID";"\ResearchQuestion";"FundingSource";"\CollaboratingInstitution(s)";"\DataAnalysisMethodologiesUsed";"\SignificanceOfFindings";"\PublicationsResultFromThisStudy";"\YearOfPublication";"\ConferencePresentation(Yes/No)";"\StudentCollaborator(Yes/No)"
 0; Smith, Susan; 1998; NM981234; Exploring ancient urbanization; National Geographic; University of Pennsylvania; Stratigraphic analysis, Ceramic typology; Revolutionized urban studies of the Indus Valley;" ""The Urban Mystery of Harappa"""; 2000; Yes; No.
 1;Jones, James; 2003; FR035678; Ritual practices in Mayan civilization; French Institute of America; University of Mexico; Carbon-14 dating, Ethnographic analysis; Provided new insights into Mayan religious practices;" ""Rituals and Myths of the Maya"""; 2005; Yes; Yes.
 2;Williams, Wendy; 2010; UK109921; Origins of agriculture in Europe; European Research Council; University College London; Palynology, AMS dating; Overturned traditional theories on the Neolithic Revolution;" ""First Farmers in Europe"""; 2012; Yes; Yes.

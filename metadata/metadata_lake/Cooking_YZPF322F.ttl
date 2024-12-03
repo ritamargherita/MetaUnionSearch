@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CookingYZPF322F> a dsv:Dataset ;
+    dcterms:subject "cooking" ;
+    dcterms:title "Cooking_YZPF322F.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/CookingYZPF322F/column/CaloricContent>,
+        <http://metaUnionSearch/datasets/CookingYZPF322F/column/ChefName>,
+        <http://metaUnionSearch/datasets/CookingYZPF322F/column/CourseTypeNumber>,
+        <http://metaUnionSearch/datasets/CookingYZPF322F/column/CultureBackgroundofDish>,
+        <http://metaUnionSearch/datasets/CookingYZPF322F/column/CustomerReviewScore>,
+        <http://metaUnionSearch/datasets/CookingYZPF322F/column/EstimatedCostperServing>,
+        <http://metaUnionSearch/datasets/CookingYZPF322F/column/MealType>,
+        <http://metaUnionSearch/datasets/CookingYZPF322F/column/NutritionFactsLabel>,
+        <http://metaUnionSearch/datasets/CookingYZPF322F/column/OccasiontoServe>,
+        <http://metaUnionSearch/datasets/CookingYZPF322F/column/TasteDescription> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CookingYZPF322F/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CookingYZPF322F/column/CaloricContent> a dsv:Column ;
+    rdfs:label "Caloric Content" .
+
+<http://metaUnionSearch/datasets/CookingYZPF322F/column/ChefName> a dsv:Column ;
+    rdfs:label "Chef Name" .
+
+<http://metaUnionSearch/datasets/CookingYZPF322F/column/CourseTypeNumber> a dsv:Column ;
+    rdfs:label "Course Type Number" .
+
+<http://metaUnionSearch/datasets/CookingYZPF322F/column/CultureBackgroundofDish> a dsv:Column ;
+    rdfs:label "Culture Background of Dish" .
+
+<http://metaUnionSearch/datasets/CookingYZPF322F/column/CustomerReviewScore> a dsv:Column ;
+    rdfs:label "Customer Review Score" .
+
+<http://metaUnionSearch/datasets/CookingYZPF322F/column/EstimatedCostperServing> a dsv:Column ;
+    rdfs:label "Estimated Cost per Serving" .
+
+<http://metaUnionSearch/datasets/CookingYZPF322F/column/MealType> a dsv:Column ;
+    rdfs:label "Meal Type" .
+
+<http://metaUnionSearch/datasets/CookingYZPF322F/column/NutritionFactsLabel> a dsv:Column ;
+    rdfs:label "Nutrition Facts Label" .
+
+<http://metaUnionSearch/datasets/CookingYZPF322F/column/OccasiontoServe> a dsv:Column ;
+    rdfs:label "Occasion to Serve" .
+
+<http://metaUnionSearch/datasets/CookingYZPF322F/column/TasteDescription> a dsv:Column ;
+    rdfs:label "Taste Description" .
+
+<http://metaUnionSearch/datasets/CookingYZPF322F/datasetSchema> a dsv:DatasetSchema .
+

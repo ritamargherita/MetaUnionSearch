@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Science9JYM6IER> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_9JYM6IER.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Science9JYM6IER/column/Conclusion>,
+        <http://metaUnionSearch/datasets/Science9JYM6IER/column/ControlledVariables>,
+        <http://metaUnionSearch/datasets/Science9JYM6IER/column/DataAnalysisMethods>,
+        <http://metaUnionSearch/datasets/Science9JYM6IER/column/DependentVariables>,
+        <http://metaUnionSearch/datasets/Science9JYM6IER/column/Description>,
+        <http://metaUnionSearch/datasets/Science9JYM6IER/column/ElectronEnergyLevels>,
+        <http://metaUnionSearch/datasets/Science9JYM6IER/column/Findings>,
+        <http://metaUnionSearch/datasets/Science9JYM6IER/column/HypothesisTested>,
+        <http://metaUnionSearch/datasets/Science9JYM6IER/column/IndependentVariables>,
+        <http://metaUnionSearch/datasets/Science9JYM6IER/column/Observations>,
+        <http://metaUnionSearch/datasets/Science9JYM6IER/column/ProcessedData>,
+        <http://metaUnionSearch/datasets/Science9JYM6IER/column/QuantumPhysics>,
+        <http://metaUnionSearch/datasets/Science9JYM6IER/column/RawData> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Science9JYM6IER/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Science9JYM6IER/column/Conclusion> a dsv:Column ;
+    rdfs:label " Conclusion" .
+
+<http://metaUnionSearch/datasets/Science9JYM6IER/column/ControlledVariables> a dsv:Column ;
+    rdfs:label " Controlled Variables" .
+
+<http://metaUnionSearch/datasets/Science9JYM6IER/column/DataAnalysisMethods> a dsv:Column ;
+    rdfs:label " Data Analysis Methods" .
+
+<http://metaUnionSearch/datasets/Science9JYM6IER/column/DependentVariables> a dsv:Column ;
+    rdfs:label " Dependent Variable(s)" .
+
+<http://metaUnionSearch/datasets/Science9JYM6IER/column/Description> a dsv:Column ;
+    rdfs:label " Description" .
+
+<http://metaUnionSearch/datasets/Science9JYM6IER/column/ElectronEnergyLevels> a dsv:Column ;
+    rdfs:label " Electron Energy Levels" .
+
+<http://metaUnionSearch/datasets/Science9JYM6IER/column/Findings> a dsv:Column ;
+    rdfs:label " Findings" .
+
+<http://metaUnionSearch/datasets/Science9JYM6IER/column/HypothesisTested> a dsv:Column ;
+    rdfs:label " Hypothesis Tested" .
+
+<http://metaUnionSearch/datasets/Science9JYM6IER/column/IndependentVariables> a dsv:Column ;
+    rdfs:label " Independent Variables" .
+
+<http://metaUnionSearch/datasets/Science9JYM6IER/column/Observations> a dsv:Column ;
+    rdfs:label " Observations" .
+
+<http://metaUnionSearch/datasets/Science9JYM6IER/column/ProcessedData> a dsv:Column ;
+    rdfs:label " Processed Data" .
+
+<http://metaUnionSearch/datasets/Science9JYM6IER/column/QuantumPhysics> a dsv:Column ;
+    rdfs:label "Quantum Physics" .
+
+<http://metaUnionSearch/datasets/Science9JYM6IER/column/RawData> a dsv:Column ;
+    rdfs:label " Raw Data" .
+
+<http://metaUnionSearch/datasets/Science9JYM6IER/datasetSchema> a dsv:DatasetSchema .
+

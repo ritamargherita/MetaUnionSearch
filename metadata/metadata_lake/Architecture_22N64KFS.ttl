@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Architecture22N64KFS> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_22N64KFS.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Architecture22N64KFS/column/ArchitecturalTheoryBehindDesign>,
+        <http://metaUnionSearch/datasets/Architecture22N64KFS/column/AwardsRecognition>,
+        <http://metaUnionSearch/datasets/Architecture22N64KFS/column/CriticReviews>,
+        <http://metaUnionSearch/datasets/Architecture22N64KFS/column/EconomicFactors>,
+        <http://metaUnionSearch/datasets/Architecture22N64KFS/column/EnvironmentalImpact>,
+        <http://metaUnionSearch/datasets/Architecture22N64KFS/column/ImpactOnCommunity>,
+        <http://metaUnionSearch/datasets/Architecture22N64KFS/column/InfluenceOnUrbanPlanning>,
+        <http://metaUnionSearch/datasets/Architecture22N64KFS/column/LegalConsiderations>,
+        <http://metaUnionSearch/datasets/Architecture22N64KFS/column/PoliticalInfluence>,
+        <http://metaUnionSearch/datasets/Architecture22N64KFS/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/Architecture22N64KFS/column/PublicEngagement>,
+        <http://metaUnionSearch/datasets/Architecture22N64KFS/column/RestorationEfforts>,
+        <http://metaUnionSearch/datasets/Architecture22N64KFS/column/SocialImplications>,
+        <http://metaUnionSearch/datasets/Architecture22N64KFS/column/TechnologicalInnovationsUsed> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Architecture22N64KFS/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Architecture22N64KFS/column/ArchitecturalTheoryBehindDesign> a dsv:Column ;
+    rdfs:label "\"Architectural Theory Behind Design\"" .
+
+<http://metaUnionSearch/datasets/Architecture22N64KFS/column/AwardsRecognition> a dsv:Column ;
+    rdfs:label " \"Awards & Recognition\"" .
+
+<http://metaUnionSearch/datasets/Architecture22N64KFS/column/CriticReviews> a dsv:Column ;
+    rdfs:label " \"Critic Reviews\"" .
+
+<http://metaUnionSearch/datasets/Architecture22N64KFS/column/EconomicFactors> a dsv:Column ;
+    rdfs:label " \"Economic Factors\"" .
+
+<http://metaUnionSearch/datasets/Architecture22N64KFS/column/EnvironmentalImpact> a dsv:Column ;
+    rdfs:label " \"Environmental Impact\"" .
+
+<http://metaUnionSearch/datasets/Architecture22N64KFS/column/ImpactOnCommunity> a dsv:Column ;
+    rdfs:label " \"Impact On Community\"" .
+
+<http://metaUnionSearch/datasets/Architecture22N64KFS/column/InfluenceOnUrbanPlanning> a dsv:Column ;
+    rdfs:label " \"Influence On Urban Planning\"" .
+
+<http://metaUnionSearch/datasets/Architecture22N64KFS/column/LegalConsiderations> a dsv:Column ;
+    rdfs:label " \"Legal Considerations\"" .
+
+<http://metaUnionSearch/datasets/Architecture22N64KFS/column/PoliticalInfluence> a dsv:Column ;
+    rdfs:label " \"Political Influence\"" .
+
+<http://metaUnionSearch/datasets/Architecture22N64KFS/column/PreservationStatus> a dsv:Column ;
+    rdfs:label " \"Preservation Status\"" .
+
+<http://metaUnionSearch/datasets/Architecture22N64KFS/column/PublicEngagement> a dsv:Column ;
+    rdfs:label " \"Public Engagement\"" .
+
+<http://metaUnionSearch/datasets/Architecture22N64KFS/column/RestorationEfforts> a dsv:Column ;
+    rdfs:label " \"Restoration Efforts\"" .
+
+<http://metaUnionSearch/datasets/Architecture22N64KFS/column/SocialImplications> a dsv:Column ;
+    rdfs:label " \"Social Implications\"" .
+
+<http://metaUnionSearch/datasets/Architecture22N64KFS/column/TechnologicalInnovationsUsed> a dsv:Column ;
+    rdfs:label " \"Technological Innovations Used\"" .
+
+<http://metaUnionSearch/datasets/Architecture22N64KFS/datasetSchema> a dsv:DatasetSchema .
+

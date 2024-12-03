@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_LAOQTR1Y.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/ActiveIngredients>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/CommonUses>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/ContraindicationsInformation>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/DrugClassification>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/DrugInteractions>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/ManufacturerName>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/MechanismOfAction>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/PharmacokineticProperties>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/ProductCode>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/QuantitySold>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/ReorderLevelinUnits>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/SideEffectsWarnings>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/SpeciesSensitivityProfile>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/StorageRequirements>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/UsageInstructionsForPetOwnersTextFormat> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/ActiveIngredients> a dsv:Column ;
+    rdfs:label " Active Ingredient(s)" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/CommonUses> a dsv:Column ;
+    rdfs:label " Common Uses" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/ContraindicationsInformation> a dsv:Column ;
+    rdfs:label " Contraindications Information" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/DrugClassification> a dsv:Column ;
+    rdfs:label " Drug Classification" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/DrugInteractions> a dsv:Column ;
+    rdfs:label " Drug Interactions" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/ManufacturerName> a dsv:Column ;
+    rdfs:label " Manufacturer Name" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/MechanismOfAction> a dsv:Column ;
+    rdfs:label " Mechanism Of Action" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/PharmacokineticProperties> a dsv:Column ;
+    rdfs:label " Pharmacokinetic Properties." .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/ProductCode> a dsv:Column ;
+    rdfs:label " Product Code" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/QuantitySold> a dsv:Column ;
+    rdfs:label "Quantity Sold" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/ReorderLevelinUnits> a dsv:Column ;
+    rdfs:label " Reorder Level (in Units)" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/SideEffectsWarnings> a dsv:Column ;
+    rdfs:label " Side Effects Warnings" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/SpeciesSensitivityProfile> a dsv:Column ;
+    rdfs:label " Species Sensitivity Profile" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/StorageRequirements> a dsv:Column ;
+    rdfs:label " Storage Requirements" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/column/UsageInstructionsForPetOwnersTextFormat> a dsv:Column ;
+    rdfs:label " Usage Instructions For Pet Owners - Text Format" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineLAOQTR1Y/datasetSchema> a dsv:DatasetSchema .
+

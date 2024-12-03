@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_NSM0L0JB.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/Allergies>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/AnesthesiaUsed>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/AppointmentTime>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/DentalHealth>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/FollowupAppointment>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/MicrochipNumber>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/PrescriptionMedication>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/RadiologyResults>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/ReasonforVisit>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/SurgeryPerformed>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/TreatmentCost>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/VaccinationHistory>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/VeterinaryName> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/Allergies> a dsv:Column ;
+    rdfs:label " Allergies" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/AnesthesiaUsed> a dsv:Column ;
+    rdfs:label " Anesthesia Used" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/AppointmentTime> a dsv:Column ;
+    rdfs:label " Appointment Time" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/DentalHealth> a dsv:Column ;
+    rdfs:label " Dental Health" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/FollowupAppointment> a dsv:Column ;
+    rdfs:label " Follow-up Appointment." .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/MicrochipNumber> a dsv:Column ;
+    rdfs:label " Microchip Number" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/PrescriptionMedication> a dsv:Column ;
+    rdfs:label " Prescription Medication" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/RadiologyResults> a dsv:Column ;
+    rdfs:label " Radiology Results" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/ReasonforVisit> a dsv:Column ;
+    rdfs:label " Reason for Visit" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/SurgeryPerformed> a dsv:Column ;
+    rdfs:label " Surgery Performed" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/TreatmentCost> a dsv:Column ;
+    rdfs:label " Treatment Cost" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/VaccinationHistory> a dsv:Column ;
+    rdfs:label " Vaccination History" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/column/VeterinaryName> a dsv:Column ;
+    rdfs:label "Veterinary Name" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNSM0L0JB/datasetSchema> a dsv:DatasetSchema .
+

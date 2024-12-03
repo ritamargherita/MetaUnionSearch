@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CookingN4VPAAFH> a dsv:Dataset ;
+    dcterms:subject "cooking" ;
+    dcterms:title "Cooking_N4VPAAFH.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/CookingN4VPAAFH/column/CookTimeminutes>,
+        <http://metaUnionSearch/datasets/CookingN4VPAAFH/column/CuisineRegion>,
+        <http://metaUnionSearch/datasets/CookingN4VPAAFH/column/Difficultylevel>,
+        <http://metaUnionSearch/datasets/CookingN4VPAAFH/column/Ingredient4>,
+        <http://metaUnionSearch/datasets/CookingN4VPAAFH/column/Ingredient5>,
+        <http://metaUnionSearch/datasets/CookingN4VPAAFH/column/Ingredient6>,
+        <http://metaUnionSearch/datasets/CookingN4VPAAFH/column/IngredientSourcelocal>,
+        <http://metaUnionSearch/datasets/CookingN4VPAAFH/column/Instructionstep4>,
+        <http://metaUnionSearch/datasets/CookingN4VPAAFH/column/PrepTimeminutes>,
+        <http://metaUnionSearch/datasets/CookingN4VPAAFH/column/PrepTool3>,
+        <http://metaUnionSearch/datasets/CookingN4VPAAFH/column/RandomColumnName>,
+        <http://metaUnionSearch/datasets/CookingN4VPAAFH/column/RecipeNameen>,
+        <http://metaUnionSearch/datasets/CookingN4VPAAFH/column/ServesPersons> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CookingN4VPAAFH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CookingN4VPAAFH/column/CookTimeminutes> a dsv:Column ;
+    rdfs:label " CookTime_minutes" .
+
+<http://metaUnionSearch/datasets/CookingN4VPAAFH/column/CuisineRegion> a dsv:Column ;
+    rdfs:label " CuisineRegion" .
+
+<http://metaUnionSearch/datasets/CookingN4VPAAFH/column/Difficultylevel> a dsv:Column ;
+    rdfs:label " Difficulty_level" .
+
+<http://metaUnionSearch/datasets/CookingN4VPAAFH/column/Ingredient4> a dsv:Column ;
+    rdfs:label " Ingredient_4" .
+
+<http://metaUnionSearch/datasets/CookingN4VPAAFH/column/Ingredient5> a dsv:Column ;
+    rdfs:label " Ingredient_5" .
+
+<http://metaUnionSearch/datasets/CookingN4VPAAFH/column/Ingredient6> a dsv:Column ;
+    rdfs:label " Ingredient_6" .
+
+<http://metaUnionSearch/datasets/CookingN4VPAAFH/column/IngredientSourcelocal> a dsv:Column ;
+    rdfs:label " IngredientSource_local" .
+
+<http://metaUnionSearch/datasets/CookingN4VPAAFH/column/Instructionstep4> a dsv:Column ;
+    rdfs:label " Instruction_step_4" .
+
+<http://metaUnionSearch/datasets/CookingN4VPAAFH/column/PrepTimeminutes> a dsv:Column ;
+    rdfs:label " PrepTime_minutes" .
+
+<http://metaUnionSearch/datasets/CookingN4VPAAFH/column/PrepTool3> a dsv:Column ;
+    rdfs:label " PrepTool_3" .
+
+<http://metaUnionSearch/datasets/CookingN4VPAAFH/column/RandomColumnName> a dsv:Column ;
+    rdfs:label " RandomColumnName" .
+
+<http://metaUnionSearch/datasets/CookingN4VPAAFH/column/RecipeNameen> a dsv:Column ;
+    rdfs:label "RecipeName_en" .
+
+<http://metaUnionSearch/datasets/CookingN4VPAAFH/column/ServesPersons> a dsv:Column ;
+    rdfs:label " ServesPersons" .
+
+<http://metaUnionSearch/datasets/CookingN4VPAAFH/datasetSchema> a dsv:DatasetSchema .
+

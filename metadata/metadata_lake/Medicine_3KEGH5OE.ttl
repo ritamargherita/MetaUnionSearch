@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Medicine3KEGH5OE> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_3KEGH5OE.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/ARPUnit>,
+        <http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/AverageRetailPrice>,
+        <http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/Contraindications>,
+        <http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/DrugFormula>,
+        <http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/FoodInteractions>,
+        <http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/HalfLifet12>,
+        <http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/Indications>,
+        <http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/MaxConcentrationCmax>,
+        <http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/PeakPlasmaTimeTp>,
+        <http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/PharmacodynamicsEffectMechanism>,
+        <http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/PharmacokineticsAbsorptionDistributionMetabolismExcretion>,
+        <http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/VolumeDistributionVLiverMetabolicRateSRenalClearanceCLr> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Medicine3KEGH5OE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/ARPUnit> a dsv:Column ;
+    rdfs:label "ARP Unit" .
+
+<http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/AverageRetailPrice> a dsv:Column ;
+    rdfs:label "Average Retail Price (*)" .
+
+<http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/Contraindications> a dsv:Column ;
+    rdfs:label "Contraindications (*)" .
+
+<http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/DrugFormula> a dsv:Column ;
+    rdfs:label "Drug Formula" .
+
+<http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/FoodInteractions> a dsv:Column ;
+    rdfs:label "Food Interactions (*)" .
+
+<http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/HalfLifet12> a dsv:Column ;
+    rdfs:label "Half Life (t1/2)" .
+
+<http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/Indications> a dsv:Column ;
+    rdfs:label "Indications (*)" .
+
+<http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/MaxConcentrationCmax> a dsv:Column ;
+    rdfs:label "Max Concentration (Cmax)" .
+
+<http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/PeakPlasmaTimeTp> a dsv:Column ;
+    rdfs:label "Peak Plasma Time (Tp)" .
+
+<http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/PharmacodynamicsEffectMechanism> a dsv:Column ;
+    rdfs:label "Pharmacodynamics (Effect Mechanism)" .
+
+<http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/PharmacokineticsAbsorptionDistributionMetabolismExcretion> a dsv:Column ;
+    rdfs:label "Pharmacokinetics (Absorption, Distribution, Metabolism, Excretion)" .
+
+<http://metaUnionSearch/datasets/Medicine3KEGH5OE/column/VolumeDistributionVLiverMetabolicRateSRenalClearanceCLr> a dsv:Column ;
+    rdfs:label "Volume Distribution (V) - Liver Metabolic Rate (S) - Renal Clearance (CLr)" .
+
+<http://metaUnionSearch/datasets/Medicine3KEGH5OE/datasetSchema> a dsv:DatasetSchema .
+

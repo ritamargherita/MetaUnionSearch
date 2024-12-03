@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_KMP1LPTS.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/CellularLocation>,
+        <http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/DiseaseAssociations>,
+        <http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/DomainInformation>,
+        <http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/EvolutionaryHistory>,
+        <http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/FunctionalDescription>,
+        <http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/MetabolicPathwaysinvolved>,
+        <http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/PostTranslationalModifications>,
+        <http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/ProteinInteractions>,
+        <http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/ProteinsProduced>,
+        <http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/RegulatoryElements>,
+        <http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/SubcelluarLocalizationSignals>,
+        <http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/TissueSpecificExpressions>,
+        <http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/mRNASplicingVariants> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/CellularLocation> a dsv:Column ;
+    rdfs:label " Cellular Location" .
+
+<http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/DiseaseAssociations> a dsv:Column ;
+    rdfs:label " Disease Associations\"" .
+
+<http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/DomainInformation> a dsv:Column ;
+    rdfs:label " Domain Information" .
+
+<http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/EvolutionaryHistory> a dsv:Column ;
+    rdfs:label " Evolutionary History" .
+
+<http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/FunctionalDescription> a dsv:Column ;
+    rdfs:label " Functional Description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/MetabolicPathwaysinvolved> a dsv:Column ;
+    rdfs:label " Metabolic Pathways involved" .
+
+<http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/PostTranslationalModifications> a dsv:Column ;
+    rdfs:label " Post Translational Modifications" .
+
+<http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/ProteinInteractions> a dsv:Column ;
+    rdfs:label " Protein Interactions" .
+
+<http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/ProteinsProduced> a dsv:Column ;
+    rdfs:label "\"Proteins Produced" .
+
+<http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/RegulatoryElements> a dsv:Column ;
+    rdfs:label " Regulatory Elements" .
+
+<http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/SubcelluarLocalizationSignals> a dsv:Column ;
+    rdfs:label " Subcelluar Localization Signals" .
+
+<http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/TissueSpecificExpressions> a dsv:Column ;
+    rdfs:label " Tissue Specific Expressions" .
+
+<http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/column/mRNASplicingVariants> a dsv:Column ;
+    rdfs:label " mRNA Splicing Variants" .
+
+<http://metaUnionSearch/datasets/BioinformaticsKMP1LPTS/datasetSchema> a dsv:DatasetSchema .
+

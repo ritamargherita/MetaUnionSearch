@@ -1,0 +1,77 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ> a dsv:Dataset ;
+    dcterms:subject "music" ;
+    dcterms:title "Music_WDG1OEVZ.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/>,
+        <http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/Composer>,
+        <http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/ForclassicalorchestralmusicTouryesno>,
+        <http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/IfitisaclassicalmusicpiecethenincludeInformationaboutPerformerGroupOrchestrahereMusicScoreVendor>,
+        <http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/IfyesIncludeMovienameSongtitletdMusicalTheaterYesNo>,
+        <http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/LicenseEnddate>,
+        <http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/LicenseStartDate>,
+        <http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/LyricsWriter>,
+        <http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/MixingEngineer>,
+        <http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/MovieGameetcSoundtrackYesNo>,
+        <http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/RecordingLocationStudioName>,
+        <http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/SoundEngineer>,
+        <http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/detailsneededonlywhenitsYESDistributorName>,
+        <http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/ifapplicableArrangerLyricistifdifferentfromComposersornotincluded>,
+        <http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/musicalvendordetailslikeplayscriptpublisherConductorDetails> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MusicWDG1OEVZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/> a dsv:Column ;
+    rdfs:label "/*" .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/Composer> a dsv:Column ;
+    rdfs:label "Composer" .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/ForclassicalorchestralmusicTouryesno> a dsv:Column ;
+    rdfs:label """/* For classical/orchestral music */
+Tour -_yes 'no'""" .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/IfitisaclassicalmusicpiecethenincludeInformationaboutPerformerGroupOrchestrahereMusicScoreVendor> a dsv:Column ;
+    rdfs:label """/* If it is a classical music piece, then include Information about Performer(/Group)/Orchestra here \\*/ 
+Music Score Vendor""" .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/IfyesIncludeMovienameSongtitletdMusicalTheaterYesNo> a dsv:Column ;
+    rdfs:label """/* If yes > Include Movie name<& Song title</td> */ 
+Musical Theater –Yes '/ No'""" .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/LicenseEnddate> a dsv:Column ;
+    rdfs:label "License–End­date" .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/LicenseStartDate> a dsv:Column ;
+    rdfs:label "License-Start‐Date" .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/LyricsWriter> a dsv:Column ;
+    rdfs:label "Lyrics Writer" .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/MixingEngineer> a dsv:Column ;
+    rdfs:label "Mixing Engineer" .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/MovieGameetcSoundtrackYesNo> a dsv:Column ;
+    rdfs:label "Movie/(Game etc.) Soundtrack - Yes/'No'" .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/RecordingLocationStudioName> a dsv:Column ;
+    rdfs:label "Recording Location & Studio Name" .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/SoundEngineer> a dsv:Column ;
+    rdfs:label "Sound Engineer" .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/detailsneededonlywhenitsYESDistributorName> a dsv:Column ;
+    rdfs:label """/* details needed only when its "YES" */
+Distributor_Name""" .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/ifapplicableArrangerLyricistifdifferentfromComposersornotincluded> a dsv:Column ;
+    rdfs:label """/* if applicable *\\/ 
+Arranger / Lyricist (if different from Composers or not included)""" .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ/column/musicalvendordetailslikeplayscriptpublisherConductorDetails> a dsv:Column ;
+    rdfs:label """/* musical vendor details like play script publisher. */ 
+Conductor Details""" .
+
+<http://metaUnionSearch/datasets/MusicWDG1OEVZ/datasetSchema> a dsv:DatasetSchema .
+

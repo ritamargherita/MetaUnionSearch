@@ -1,0 +1,87 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_WTOOBMZV.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/Asterisk>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/CentralIdeasThemes>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/CircumflexAccent>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/DollarSign>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/EmergenceDevelopmentwithCulturalImpact>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/GeographicalReach>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/OfRelatedWorks>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/PercentageSign>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/PhilosophicArtifact>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/SignificanceToOtherFields>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/SubscriptForFormulas>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/Symbol>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/TextBoxforNotes>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/TildeAccent>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/TildeDiacriticalTermsinPhilosophy>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/Underline>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/UnrelatedColumn5>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/UnrelatedColumn6>,
+        <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/UnrelatedColumn7> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/Asterisk> a dsv:Column ;
+    rdfs:label "Asterisk" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/CentralIdeasThemes> a dsv:Column ;
+    rdfs:label "Central Ideas & Themes" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/CircumflexAccent> a dsv:Column ;
+    rdfs:label "Circumflex Accent" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/DollarSign> a dsv:Column ;
+    rdfs:label "Dollar Sign" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/EmergenceDevelopmentwithCulturalImpact> a dsv:Column ;
+    rdfs:label "Emergence & Development (with Cultural Impact)" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/GeographicalReach> a dsv:Column ;
+    rdfs:label "Geographical Reach" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/OfRelatedWorks> a dsv:Column ;
+    rdfs:label "#Of Related Works" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/PercentageSign> a dsv:Column ;
+    rdfs:label "Percentage Sign" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/PhilosophicArtifact> a dsv:Column ;
+    rdfs:label "Philosophic Artifact" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/SignificanceToOtherFields> a dsv:Column ;
+    rdfs:label "Significance To Other Fields" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/SubscriptForFormulas> a dsv:Column ;
+    rdfs:label "Subscript For Formulas" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/Symbol> a dsv:Column ;
+    rdfs:label "@ Symbol" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/TextBoxforNotes> a dsv:Column ;
+    rdfs:label "TextBox (for Notes)" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/TildeAccent> a dsv:Column ;
+    rdfs:label "Tilde Accent" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/TildeDiacriticalTermsinPhilosophy> a dsv:Column ;
+    rdfs:label "Tilde Diacritical Terms in Philosophy" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/Underline> a dsv:Column ;
+    rdfs:label "Underline" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/UnrelatedColumn5> a dsv:Column ;
+    rdfs:label "Unrelated Column 5" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/UnrelatedColumn6> a dsv:Column ;
+    rdfs:label "Unrelated Column 6" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/column/UnrelatedColumn7> a dsv:Column ;
+    rdfs:label "Unrelated Column 7" .
+
+<http://metaUnionSearch/datasets/PhilosophyWTOOBMZV/datasetSchema> a dsv:DatasetSchema .
+

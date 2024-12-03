@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhotographyIIPJUPZ5> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_IIPJUPZ5.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/AutoFocusState>,
+        <http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/DateTaken>,
+        <http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/ExpCompVal>,
+        <http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/FifthColumn>,
+        <http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/FilterAttached>,
+        <http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/FlashMode>,
+        <http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/FlashStatus>,
+        <http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/FourthColumn>,
+        <http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/ISOSetting>,
+        <http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/ImageStabilization>,
+        <http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/LENSType>,
+        <http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/LensesUsed>,
+        <http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/WhiteBalance> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/AutoFocusState> a dsv:Column ;
+    rdfs:label " AutoFocusState " .
+
+<http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/DateTaken> a dsv:Column ;
+    rdfs:label " DateTaken" .
+
+<http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/ExpCompVal> a dsv:Column ;
+    rdfs:label " ExpCompVal" .
+
+<http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/FifthColumn> a dsv:Column ;
+    rdfs:label " FifthColumn " .
+
+<http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/FilterAttached> a dsv:Column ;
+    rdfs:label " FilterAttached? " .
+
+<http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/FlashMode> a dsv:Column ;
+    rdfs:label " FlashMode " .
+
+<http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/FlashStatus> a dsv:Column ;
+    rdfs:label " FlashStatus " .
+
+<http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/FourthColumn> a dsv:Column ;
+    rdfs:label " Fourth Column " .
+
+<http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/ISOSetting> a dsv:Column ;
+    rdfs:label " ISOSetting " .
+
+<http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/ImageStabilization> a dsv:Column ;
+    rdfs:label " ImageStabilization " .
+
+<http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/LENSType> a dsv:Column ;
+    rdfs:label "LENS Type" .
+
+<http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/LensesUsed> a dsv:Column ;
+    rdfs:label " LensesUsed " .
+
+<http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/column/WhiteBalance> a dsv:Column ;
+    rdfs:label " WhiteBalance " .
+
+<http://metaUnionSearch/datasets/PhotographyIIPJUPZ5/datasetSchema> a dsv:DatasetSchema .
+

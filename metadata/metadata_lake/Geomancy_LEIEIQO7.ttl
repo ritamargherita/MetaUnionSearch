@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeomancyLEIEIQO7> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_LEIEIQO7.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/AcademicResearch>,
+        <http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/ArtisticRepresentations>,
+        <http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/GeomancySymbols>,
+        <http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/HistoricalDevelopment>,
+        <http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/InfluentialFigures>,
+        <http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/IntangibleCulturalHeritage>,
+        <http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/PopularInterest>,
+        <http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/RegionalVariations>,
+        <http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/SymbolCreationMethods>,
+        <http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/SymbolMeanings> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeomancyLEIEIQO7/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/AcademicResearch> a dsv:Column ;
+    rdfs:label "Academic Research" .
+
+<http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/ArtisticRepresentations> a dsv:Column ;
+    rdfs:label "Artistic Representations" .
+
+<http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/GeomancySymbols> a dsv:Column ;
+    rdfs:label "Geomancy Symbols" .
+
+<http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/HistoricalDevelopment> a dsv:Column ;
+    rdfs:label "Historical Development" .
+
+<http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/InfluentialFigures> a dsv:Column ;
+    rdfs:label "Influential Figures" .
+
+<http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/IntangibleCulturalHeritage> a dsv:Column ;
+    rdfs:label "Intangible Cultural Heritage" .
+
+<http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/PopularInterest> a dsv:Column ;
+    rdfs:label "Popular Interest" .
+
+<http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/PreservationStatus> a dsv:Column ;
+    rdfs:label "Preservation Status" .
+
+<http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/RegionalVariations> a dsv:Column ;
+    rdfs:label "Regional Variations" .
+
+<http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/SymbolCreationMethods> a dsv:Column ;
+    rdfs:label "Symbol Creation Methods" .
+
+<http://metaUnionSearch/datasets/GeomancyLEIEIQO7/column/SymbolMeanings> a dsv:Column ;
+    rdfs:label "Symbol Meanings" .
+
+<http://metaUnionSearch/datasets/GeomancyLEIEIQO7/datasetSchema> a dsv:DatasetSchema .
+

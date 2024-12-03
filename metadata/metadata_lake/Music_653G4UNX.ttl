@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Music653G4UNX> a dsv:Dataset ;
+    dcterms:subject "music" ;
+    dcterms:title "Music_653G4UNX.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Music653G4UNX/column/AdditionalArtist>,
+        <http://metaUnionSearch/datasets/Music653G4UNX/column/AlbumDetails>,
+        <http://metaUnionSearch/datasets/Music653G4UNX/column/AlternativeTitle>,
+        <http://metaUnionSearch/datasets/Music653G4UNX/column/ExtraInfo>,
+        <http://metaUnionSearch/datasets/Music653G4UNX/column/Format>,
+        <http://metaUnionSearch/datasets/Music653G4UNX/column/GenreDiversify>,
+        <http://metaUnionSearch/datasets/Music653G4UNX/column/LabelName>,
+        <http://metaUnionSearch/datasets/Music653G4UNX/column/LabelType>,
+        <http://metaUnionSearch/datasets/Music653G4UNX/column/PeakPosition>,
+        <http://metaUnionSearch/datasets/Music653G4UNX/column/PlaytimeRange>,
+        <http://metaUnionSearch/datasets/Music653G4UNX/column/Producedbyadditional>,
+        <http://metaUnionSearch/datasets/Music653G4UNX/column/PublisherPlus>,
+        <http://metaUnionSearch/datasets/Music653G4UNX/column/Quality>,
+        <http://metaUnionSearch/datasets/Music653G4UNX/column/ReleaseDate>,
+        <http://metaUnionSearch/datasets/Music653G4UNX/column/SongID>,
+        <http://metaUnionSearch/datasets/Music653G4UNX/column/WeeksOnChart> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Music653G4UNX/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/column/AdditionalArtist> a dsv:Column ;
+    rdfs:label " Additional Artist" .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/column/AlbumDetails> a dsv:Column ;
+    rdfs:label " Album Details" .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/column/AlternativeTitle> a dsv:Column ;
+    rdfs:label " Alternative Title" .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/column/ExtraInfo> a dsv:Column ;
+    rdfs:label " Extra Info" .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/column/Format> a dsv:Column ;
+    rdfs:label " Format" .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/column/GenreDiversify> a dsv:Column ;
+    rdfs:label " Genre Diversify" .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/column/LabelName> a dsv:Column ;
+    rdfs:label " Label Name" .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/column/LabelType> a dsv:Column ;
+    rdfs:label " Label Type" .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/column/PeakPosition> a dsv:Column ;
+    rdfs:label " Peak Position" .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/column/PlaytimeRange> a dsv:Column ;
+    rdfs:label " Playtime Range" .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/column/Producedbyadditional> a dsv:Column ;
+    rdfs:label " Produced by (additional)" .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/column/PublisherPlus> a dsv:Column ;
+    rdfs:label " Publisher Plus" .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/column/Quality> a dsv:Column ;
+    rdfs:label " Quality" .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/column/ReleaseDate> a dsv:Column ;
+    rdfs:label " Release Date" .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/column/SongID> a dsv:Column ;
+    rdfs:label "Song ID" .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/column/WeeksOnChart> a dsv:Column ;
+    rdfs:label " Weeks On Chart" .
+
+<http://metaUnionSearch/datasets/Music653G4UNX/datasetSchema> a dsv:DatasetSchema .
+

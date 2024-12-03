@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ScienceYYJ5CI6V> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_YYJ5CI6V.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/AtomicModel>,
+        <http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/ExperimentTypeDoubleSlitExperimentsElectronSphericalShellmodel>,
+        <http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/FutureDirectionsOpenQuestions>,
+        <http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/HistoryDevelopment>,
+        <http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/LimitationsDebates>,
+        <http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/MathematicalRepresentations>,
+        <http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/MeasurementResultsInterpretations>,
+        <http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/Observables>,
+        <http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/ProbabilityDistribution>,
+        <http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/Psi2dVprobabilityfindingelectronwithinvolumeelementdVi>,
+        <http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/QuantizationRuleSpin>,
+        <http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/QuantumMechanics>,
+        <http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/SchrdingerEquation>,
+        <http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/SignificanceApplications> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ScienceYYJ5CI6V/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/AtomicModel> a dsv:Column ;
+    rdfs:label " Atomic Model" .
+
+<http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/ExperimentTypeDoubleSlitExperimentsElectronSphericalShellmodel> a dsv:Column ;
+    rdfs:label " Experiment Type: Double Slit Experiments, Electron Spherical Shell model" .
+
+<http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/FutureDirectionsOpenQuestions> a dsv:Column ;
+    rdfs:label " Future Directions & Open Questions" .
+
+<http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/HistoryDevelopment> a dsv:Column ;
+    rdfs:label " History & Development" .
+
+<http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/LimitationsDebates> a dsv:Column ;
+    rdfs:label " Limitations & Debates" .
+
+<http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/MathematicalRepresentations> a dsv:Column ;
+    rdfs:label " Mathematical Representations" .
+
+<http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/MeasurementResultsInterpretations> a dsv:Column ;
+    rdfs:label " Measurement Results & Interpretations" .
+
+<http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/Observables> a dsv:Column ;
+    rdfs:label " Observables" .
+
+<http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/ProbabilityDistribution> a dsv:Column ;
+    rdfs:label " Probability Distribution" .
+
+<http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/Psi2dVprobabilityfindingelectronwithinvolumeelementdVi> a dsv:Column ;
+    rdfs:label " ∫/Psi^2 dV= probability finding electron within volume element dVi" .
+
+<http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/QuantizationRuleSpin> a dsv:Column ;
+    rdfs:label " Quantization Rule: Spin" .
+
+<http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/QuantumMechanics> a dsv:Column ;
+    rdfs:label "Quantum Mechanics" .
+
+<http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/SchrdingerEquation> a dsv:Column ;
+    rdfs:label " Schrödinger Equation" .
+
+<http://metaUnionSearch/datasets/ScienceYYJ5CI6V/column/SignificanceApplications> a dsv:Column ;
+    rdfs:label " Significance & Applications" .
+
+<http://metaUnionSearch/datasets/ScienceYYJ5CI6V/datasetSchema> a dsv:DatasetSchema .
+

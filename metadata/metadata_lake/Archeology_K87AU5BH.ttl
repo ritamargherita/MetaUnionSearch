@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArcheologyK87AU5BH> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_K87AU5BH.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/AdditionalArtifactTypes>,
+        <http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/ArchaeobotanyFindings>,
+        <http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/AveragePreservationScore>,
+        <http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/CommunityImpactStatement>,
+        <http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/FieldWorkDuration>,
+        <http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/FundingAgency>,
+        <http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/PublicEngagementActivity>,
+        <http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/PublicEngagementAttendance>,
+        <http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/ResearchAssistant1>,
+        <http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/ResearchAssistant2>,
+        <http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/RestorationCostEstimate>,
+        <http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/SatelliteImageryAnalysisReport>,
+        <http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/UniqueIdentifier>,
+        <http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/ZooarchaeologyResults> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArcheologyK87AU5BH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/AdditionalArtifactTypes> a dsv:Column ;
+    rdfs:label "AdditionalArtifactTypes" .
+
+<http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/ArchaeobotanyFindings> a dsv:Column ;
+    rdfs:label " ArchaeobotanyFindings" .
+
+<http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/AveragePreservationScore> a dsv:Column ;
+    rdfs:label " AveragePreservationScore" .
+
+<http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/CommunityImpactStatement> a dsv:Column ;
+    rdfs:label " CommunityImpactStatement" .
+
+<http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/FieldWorkDuration> a dsv:Column ;
+    rdfs:label " FieldWorkDuration" .
+
+<http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/FundingAgency> a dsv:Column ;
+    rdfs:label " FundingAgency" .
+
+<http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/PublicEngagementActivity> a dsv:Column ;
+    rdfs:label " PublicEngagementActivity" .
+
+<http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/PublicEngagementAttendance> a dsv:Column ;
+    rdfs:label " PublicEngagementAttendance" .
+
+<http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/ResearchAssistant1> a dsv:Column ;
+    rdfs:label " ResearchAssistant1" .
+
+<http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/ResearchAssistant2> a dsv:Column ;
+    rdfs:label " ResearchAssistant2" .
+
+<http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/RestorationCostEstimate> a dsv:Column ;
+    rdfs:label " RestorationCostEstimate" .
+
+<http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/SatelliteImageryAnalysisReport> a dsv:Column ;
+    rdfs:label " SatelliteImageryAnalysisReport" .
+
+<http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/UniqueIdentifier> a dsv:Column ;
+    rdfs:label " UniqueIdentifier" .
+
+<http://metaUnionSearch/datasets/ArcheologyK87AU5BH/column/ZooarchaeologyResults> a dsv:Column ;
+    rdfs:label " ZooarchaeologyResults" .
+
+<http://metaUnionSearch/datasets/ArcheologyK87AU5BH/datasetSchema> a dsv:DatasetSchema .
+

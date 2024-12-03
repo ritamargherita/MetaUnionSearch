@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeneticsNE9NNOVJ> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_NE9NNOVJ.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader1>,
+        <http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader10>,
+        <http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader11>,
+        <http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader2>,
+        <http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader3>,
+        <http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader4>,
+        <http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader5>,
+        <http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader6>,
+        <http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader7>,
+        <http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader8>,
+        <http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader9> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader1> a dsv:Column ;
+    rdfs:label "Column Header 1" .
+
+<http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader10> a dsv:Column ;
+    rdfs:label " Column Header 10" .
+
+<http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader11> a dsv:Column ;
+    rdfs:label " Column Header 11" .
+
+<http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader2> a dsv:Column ;
+    rdfs:label " Column Header 2" .
+
+<http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader3> a dsv:Column ;
+    rdfs:label " Column Header 3" .
+
+<http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader4> a dsv:Column ;
+    rdfs:label " Column Header 4" .
+
+<http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader5> a dsv:Column ;
+    rdfs:label " Column Header 5" .
+
+<http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader6> a dsv:Column ;
+    rdfs:label " Column Header 6" .
+
+<http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader7> a dsv:Column ;
+    rdfs:label " Column Header 7" .
+
+<http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader8> a dsv:Column ;
+    rdfs:label " Column Header 8" .
+
+<http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/column/ColumnHeader9> a dsv:Column ;
+    rdfs:label " Column Header 9" .
+
+<http://metaUnionSearch/datasets/GeneticsNE9NNOVJ/datasetSchema> a dsv:DatasetSchema .
+

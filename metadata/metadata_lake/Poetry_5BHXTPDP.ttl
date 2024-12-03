@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Poetry5BHXTPDP> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_5BHXTPDP.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/AllegoryRepresentation>,
+        <http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/AudienceEngagementApproach>,
+        <http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/CulturalImpact>,
+        <http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/FormalityLevel>,
+        <http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/FreeVerse>,
+        <http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/GenderPoliticalAgenda>,
+        <http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/GenreClassification>,
+        <http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/LanguageOriginDiversity>,
+        <http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/ReligiousorPhilosophicIdeasPresent>,
+        <http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/SoundDeviceUtilization>,
+        <http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/StanzaCount>,
+        <http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/Typeofpoetry>,
+        <http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/VisualPresentationLayout>,
+        <http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/WordChoice> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Poetry5BHXTPDP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/AllegoryRepresentation> a dsv:Column ;
+    rdfs:label " Allegory Representation" .
+
+<http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/AudienceEngagementApproach> a dsv:Column ;
+    rdfs:label " Audience Engagement Approach" .
+
+<http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/CulturalImpact> a dsv:Column ;
+    rdfs:label " Cultural Impact" .
+
+<http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/FormalityLevel> a dsv:Column ;
+    rdfs:label " Formality Level" .
+
+<http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/FreeVerse> a dsv:Column ;
+    rdfs:label " Free Verse" .
+
+<http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/GenderPoliticalAgenda> a dsv:Column ;
+    rdfs:label " Gender/Political Agenda" .
+
+<http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/GenreClassification> a dsv:Column ;
+    rdfs:label " Genre Classification" .
+
+<http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/LanguageOriginDiversity> a dsv:Column ;
+    rdfs:label " Language Origin & Diversity" .
+
+<http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/ReligiousorPhilosophicIdeasPresent> a dsv:Column ;
+    rdfs:label " Religious or Philosophic Ideas Present" .
+
+<http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/SoundDeviceUtilization> a dsv:Column ;
+    rdfs:label " Sound Device Utilization" .
+
+<http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/StanzaCount> a dsv:Column ;
+    rdfs:label " Stanza Count" .
+
+<http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/Typeofpoetry> a dsv:Column ;
+    rdfs:label "Type (of poetry)" .
+
+<http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/VisualPresentationLayout> a dsv:Column ;
+    rdfs:label " Visual Presentation & Layout" .
+
+<http://metaUnionSearch/datasets/Poetry5BHXTPDP/column/WordChoice> a dsv:Column ;
+    rdfs:label " Word Choice" .
+
+<http://metaUnionSearch/datasets/Poetry5BHXTPDP/datasetSchema> a dsv:DatasetSchema .
+

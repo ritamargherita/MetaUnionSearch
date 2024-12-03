@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ReligionGPMM82I1> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_GPMM82I1.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ReligionGPMM82I1/column/DietaryRestrictions>,
+        <http://metaUnionSearch/datasets/ReligionGPMM82I1/column/FastingPractices>,
+        <http://metaUnionSearch/datasets/ReligionGPMM82I1/column/FestivalsFairs>,
+        <http://metaUnionSearch/datasets/ReligionGPMM82I1/column/LanguagesScripts>,
+        <http://metaUnionSearch/datasets/ReligionGPMM82I1/column/MythologicalCreatures>,
+        <http://metaUnionSearch/datasets/ReligionGPMM82I1/column/PrayerMethods>,
+        <http://metaUnionSearch/datasets/ReligionGPMM82I1/column/RitualsCeremonies>,
+        <http://metaUnionSearch/datasets/ReligionGPMM82I1/column/SacredDance>,
+        <http://metaUnionSearch/datasets/ReligionGPMM82I1/column/SaintsGurus>,
+        <http://metaUnionSearch/datasets/ReligionGPMM82I1/column/SymbolicColors> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ReligionGPMM82I1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ReligionGPMM82I1/column/DietaryRestrictions> a dsv:Column ;
+    rdfs:label " Dietary Restrictions" .
+
+<http://metaUnionSearch/datasets/ReligionGPMM82I1/column/FastingPractices> a dsv:Column ;
+    rdfs:label "Fasting Practices" .
+
+<http://metaUnionSearch/datasets/ReligionGPMM82I1/column/FestivalsFairs> a dsv:Column ;
+    rdfs:label " Festivals & Fairs" .
+
+<http://metaUnionSearch/datasets/ReligionGPMM82I1/column/LanguagesScripts> a dsv:Column ;
+    rdfs:label " Languages & Scripts" .
+
+<http://metaUnionSearch/datasets/ReligionGPMM82I1/column/MythologicalCreatures> a dsv:Column ;
+    rdfs:label " Mythological Creatures" .
+
+<http://metaUnionSearch/datasets/ReligionGPMM82I1/column/PrayerMethods> a dsv:Column ;
+    rdfs:label " Prayer Methods" .
+
+<http://metaUnionSearch/datasets/ReligionGPMM82I1/column/RitualsCeremonies> a dsv:Column ;
+    rdfs:label " Rituals & Ceremonies" .
+
+<http://metaUnionSearch/datasets/ReligionGPMM82I1/column/SacredDance> a dsv:Column ;
+    rdfs:label " Sacred Dance" .
+
+<http://metaUnionSearch/datasets/ReligionGPMM82I1/column/SaintsGurus> a dsv:Column ;
+    rdfs:label " Saints & Gurus" .
+
+<http://metaUnionSearch/datasets/ReligionGPMM82I1/column/SymbolicColors> a dsv:Column ;
+    rdfs:label " Symbolic Colors" .
+
+<http://metaUnionSearch/datasets/ReligionGPMM82I1/datasetSchema> a dsv:DatasetSchema .
+

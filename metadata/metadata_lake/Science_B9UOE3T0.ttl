@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ScienceB9UOE3T0> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_B9UOE3T0.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/ControlGroup>,
+        <http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/DataCollectionMethod1>,
+        <http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/DataCollectionMethod2>,
+        <http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/ExperimentalGroup>,
+        <http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/FindingsImplications>,
+        <http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/PublicationYear>,
+        <http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/Researchers>,
+        <http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/SampleSize>,
+        <http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/StatisticalAnalysisTool>,
+        <http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/StudyLocation> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ScienceB9UOE3T0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/ControlGroup> a dsv:Column ;
+    rdfs:label "Control Group" .
+
+<http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/DataCollectionMethod1> a dsv:Column ;
+    rdfs:label "Data Collection Method 1" .
+
+<http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/DataCollectionMethod2> a dsv:Column ;
+    rdfs:label "Data Collection Method 2" .
+
+<http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/ExperimentalGroup> a dsv:Column ;
+    rdfs:label "Experimental Group" .
+
+<http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/FindingsImplications> a dsv:Column ;
+    rdfs:label "Findings & Implications" .
+
+<http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/PublicationYear> a dsv:Column ;
+    rdfs:label "Publication Year" .
+
+<http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/Researchers> a dsv:Column ;
+    rdfs:label "Researchers" .
+
+<http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/SampleSize> a dsv:Column ;
+    rdfs:label "Sample Size" .
+
+<http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/StatisticalAnalysisTool> a dsv:Column ;
+    rdfs:label "Statistical Analysis Tool" .
+
+<http://metaUnionSearch/datasets/ScienceB9UOE3T0/column/StudyLocation> a dsv:Column ;
+    rdfs:label "Study Location" .
+
+<http://metaUnionSearch/datasets/ScienceB9UOE3T0/datasetSchema> a dsv:DatasetSchema .
+

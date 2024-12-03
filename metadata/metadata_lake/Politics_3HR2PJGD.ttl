@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Politics3HR2PJGD> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_3HR2PJGD.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Politics3HR2PJGD/column/AdditionalMemberQualifications>,
+        <http://metaUnionSearch/datasets/Politics3HR2PJGD/column/CharitableContributionsSummary>,
+        <http://metaUnionSearch/datasets/Politics3HR2PJGD/column/ControversialStances>,
+        <http://metaUnionSearch/datasets/Politics3HR2PJGD/column/DemographicsOfVotingPublic>,
+        <http://metaUnionSearch/datasets/Politics3HR2PJGD/column/ElectedOfficesHeld>,
+        <http://metaUnionSearch/datasets/Politics3HR2PJGD/column/FrequencyOfMeetings>,
+        <http://metaUnionSearch/datasets/Politics3HR2PJGD/column/InternationalAffiliations>,
+        <http://metaUnionSearch/datasets/Politics3HR2PJGD/column/MinimumAgeRequirementForMembership>,
+        <http://metaUnionSearch/datasets/Politics3HR2PJGD/column/NumberOfLocalChapters>,
+        <http://metaUnionSearch/datasets/Politics3HR2PJGD/column/OpinionPollRating>,
+        <http://metaUnionSearch/datasets/Politics3HR2PJGD/column/TopCampaignPromises>,
+        <http://metaUnionSearch/datasets/Politics3HR2PJGD/column/TotalVotesLastElection>,
+        <http://metaUnionSearch/datasets/Politics3HR2PJGD/column/WinningPercentageLastElection>,
+        <http://metaUnionSearch/datasets/Politics3HR2PJGD/column/YearlyDues> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Politics3HR2PJGD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Politics3HR2PJGD/column/AdditionalMemberQualifications> a dsv:Column ;
+    rdfs:label " Additional Member Qualifications" .
+
+<http://metaUnionSearch/datasets/Politics3HR2PJGD/column/CharitableContributionsSummary> a dsv:Column ;
+    rdfs:label " Charitable Contributions Summary" .
+
+<http://metaUnionSearch/datasets/Politics3HR2PJGD/column/ControversialStances> a dsv:Column ;
+    rdfs:label " Controversial Stances`" .
+
+<http://metaUnionSearch/datasets/Politics3HR2PJGD/column/DemographicsOfVotingPublic> a dsv:Column ;
+    rdfs:label " Demographics Of Voting Public" .
+
+<http://metaUnionSearch/datasets/Politics3HR2PJGD/column/ElectedOfficesHeld> a dsv:Column ;
+    rdfs:label "`Elected Offices Held" .
+
+<http://metaUnionSearch/datasets/Politics3HR2PJGD/column/FrequencyOfMeetings> a dsv:Column ;
+    rdfs:label " Frequency Of Meetings" .
+
+<http://metaUnionSearch/datasets/Politics3HR2PJGD/column/InternationalAffiliations> a dsv:Column ;
+    rdfs:label " International Affiliations" .
+
+<http://metaUnionSearch/datasets/Politics3HR2PJGD/column/MinimumAgeRequirementForMembership> a dsv:Column ;
+    rdfs:label " Minimum Age Requirement For Membership" .
+
+<http://metaUnionSearch/datasets/Politics3HR2PJGD/column/NumberOfLocalChapters> a dsv:Column ;
+    rdfs:label " Number Of Local Chapters" .
+
+<http://metaUnionSearch/datasets/Politics3HR2PJGD/column/OpinionPollRating> a dsv:Column ;
+    rdfs:label " Opinion Poll Rating" .
+
+<http://metaUnionSearch/datasets/Politics3HR2PJGD/column/TopCampaignPromises> a dsv:Column ;
+    rdfs:label " Top Campaign Promises" .
+
+<http://metaUnionSearch/datasets/Politics3HR2PJGD/column/TotalVotesLastElection> a dsv:Column ;
+    rdfs:label " Total Votes Last Election" .
+
+<http://metaUnionSearch/datasets/Politics3HR2PJGD/column/WinningPercentageLastElection> a dsv:Column ;
+    rdfs:label " Winning Percentage Last Election" .
+
+<http://metaUnionSearch/datasets/Politics3HR2PJGD/column/YearlyDues> a dsv:Column ;
+    rdfs:label " Yearly Dues" .
+
+<http://metaUnionSearch/datasets/Politics3HR2PJGD/datasetSchema> a dsv:DatasetSchema .
+

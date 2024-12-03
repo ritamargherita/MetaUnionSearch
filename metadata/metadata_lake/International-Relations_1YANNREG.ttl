@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/InternationalRelations1YANNREG> a dsv:Dataset ;
+    dcterms:subject "international-relations" ;
+    dcterms:title "International-Relations_1YANNREG.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/CybersecurityCollaborativeInitiatives>,
+        <http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/DemographicCharacteristics>,
+        <http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/EconomicIntegrationLevel>,
+        <http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/IRTheoryPractice>,
+        <http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/IntelligenceSharing>,
+        <http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/LegalFrameworks>,
+        <http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/PublicOpinionandSentimentAnalysis>,
+        <http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/RegionalBlocMembership>,
+        <http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/SecurityCoordination>,
+        <http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/SoftPowerProjectionMeasures> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/InternationalRelations1YANNREG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/CybersecurityCollaborativeInitiatives> a dsv:Column ;
+    rdfs:label " Cybersecurity Collaborative Initiatives" .
+
+<http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/DemographicCharacteristics> a dsv:Column ;
+    rdfs:label " Demographic Characteristics" .
+
+<http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/EconomicIntegrationLevel> a dsv:Column ;
+    rdfs:label " Economic Integration Level" .
+
+<http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/IRTheoryPractice> a dsv:Column ;
+    rdfs:label " IR Theory & Practice" .
+
+<http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/IntelligenceSharing> a dsv:Column ;
+    rdfs:label " Intelligence Sharing" .
+
+<http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/LegalFrameworks> a dsv:Column ;
+    rdfs:label " Legal Frameworks" .
+
+<http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/PublicOpinionandSentimentAnalysis> a dsv:Column ;
+    rdfs:label " Public Opinion and Sentiment Analysis" .
+
+<http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/RegionalBlocMembership> a dsv:Column ;
+    rdfs:label "Regional Bloc Membership" .
+
+<http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/SecurityCoordination> a dsv:Column ;
+    rdfs:label " Security Coordination" .
+
+<http://metaUnionSearch/datasets/InternationalRelations1YANNREG/column/SoftPowerProjectionMeasures> a dsv:Column ;
+    rdfs:label " Soft Power Projection Measures" .
+
+<http://metaUnionSearch/datasets/InternationalRelations1YANNREG/datasetSchema> a dsv:DatasetSchema .
+

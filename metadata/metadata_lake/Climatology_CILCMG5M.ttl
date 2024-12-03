@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ClimatologyCILCMG5M> a dsv:Dataset ;
+    dcterms:subject "climatology" ;
+    dcterms:title "Climatology_CILCMG5M.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/BedrockType>,
+        <http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/ElevationRangem>,
+        <http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/FirnThicknessm>,
+        <http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/GlacierAreakm>,
+        <http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/GlacierClassification>,
+        <http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/GlacierName>,
+        <http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/GlaciologicalMonitoringMethod>,
+        <http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/IceVolumeChangeRatekmyear>,
+        <http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/MassBalancemwe> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ClimatologyCILCMG5M/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/BedrockType> a dsv:Column ;
+    rdfs:label "Bedrock Type" .
+
+<http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/ElevationRangem> a dsv:Column ;
+    rdfs:label "Elevation Range (m)" .
+
+<http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/FirnThicknessm> a dsv:Column ;
+    rdfs:label "Firn Thickness (m)" .
+
+<http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/GlacierAreakm> a dsv:Column ;
+    rdfs:label "Glacier Area (km²)" .
+
+<http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/GlacierClassification> a dsv:Column ;
+    rdfs:label "Glacier Classification" .
+
+<http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/GlacierName> a dsv:Column ;
+    rdfs:label "Glacier Name" .
+
+<http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/GlaciologicalMonitoringMethod> a dsv:Column ;
+    rdfs:label "Glaciological Monitoring Method" .
+
+<http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/IceVolumeChangeRatekmyear> a dsv:Column ;
+    rdfs:label "Ice Volume Change Rate (km³/year)" .
+
+<http://metaUnionSearch/datasets/ClimatologyCILCMG5M/column/MassBalancemwe> a dsv:Column ;
+    rdfs:label "Mass Balance (m w.e.)" .
+
+<http://metaUnionSearch/datasets/ClimatologyCILCMG5M/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Environment8N1GPTC2> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_8N1GPTC2.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Environment8N1GPTC2/column/CarbonEmissionsperCapita>,
+        <http://metaUnionSearch/datasets/Environment8N1GPTC2/column/ClimateChangeVulnerabilityIndex>,
+        <http://metaUnionSearch/datasets/Environment8N1GPTC2/column/EnergyEfficiencyIndex>,
+        <http://metaUnionSearch/datasets/Environment8N1GPTC2/column/NumberofGreenSpaces>,
+        <http://metaUnionSearch/datasets/Environment8N1GPTC2/column/PublicTransportationUsage>,
+        <http://metaUnionSearch/datasets/Environment8N1GPTC2/column/RecyclingRate>,
+        <http://metaUnionSearch/datasets/Environment8N1GPTC2/column/RenewableEnergyContribution>,
+        <http://metaUnionSearch/datasets/Environment8N1GPTC2/column/SpeciesProtectionLaws>,
+        <http://metaUnionSearch/datasets/Environment8N1GPTC2/column/SustainableAgriculturePractices>,
+        <http://metaUnionSearch/datasets/Environment8N1GPTC2/column/WasteGenerationperCapita> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Environment8N1GPTC2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Environment8N1GPTC2/column/CarbonEmissionsperCapita> a dsv:Column ;
+    rdfs:label "Carbon\\_Emissions\\_per\\_Capita" .
+
+<http://metaUnionSearch/datasets/Environment8N1GPTC2/column/ClimateChangeVulnerabilityIndex> a dsv:Column ;
+    rdfs:label "Climate\\_Change\\_Vulnerability\\_Index" .
+
+<http://metaUnionSearch/datasets/Environment8N1GPTC2/column/EnergyEfficiencyIndex> a dsv:Column ;
+    rdfs:label "Energy\\_Efficiency\\_Index" .
+
+<http://metaUnionSearch/datasets/Environment8N1GPTC2/column/NumberofGreenSpaces> a dsv:Column ;
+    rdfs:label "Number\\_of\\_Green\\_Spaces" .
+
+<http://metaUnionSearch/datasets/Environment8N1GPTC2/column/PublicTransportationUsage> a dsv:Column ;
+    rdfs:label "Public\\_Transportation\\_Usage" .
+
+<http://metaUnionSearch/datasets/Environment8N1GPTC2/column/RecyclingRate> a dsv:Column ;
+    rdfs:label "Recycling\\_Rate" .
+
+<http://metaUnionSearch/datasets/Environment8N1GPTC2/column/RenewableEnergyContribution> a dsv:Column ;
+    rdfs:label "Renewable\\_Energy\\_Contribution" .
+
+<http://metaUnionSearch/datasets/Environment8N1GPTC2/column/SpeciesProtectionLaws> a dsv:Column ;
+    rdfs:label "Species\\_Protection\\_Laws" .
+
+<http://metaUnionSearch/datasets/Environment8N1GPTC2/column/SustainableAgriculturePractices> a dsv:Column ;
+    rdfs:label "Sustainable\\_Agriculture\\_Practices" .
+
+<http://metaUnionSearch/datasets/Environment8N1GPTC2/column/WasteGenerationperCapita> a dsv:Column ;
+    rdfs:label "Waste\\_Generation\\_per\\_Capita" .
+
+<http://metaUnionSearch/datasets/Environment8N1GPTC2/datasetSchema> a dsv:DatasetSchema .
+

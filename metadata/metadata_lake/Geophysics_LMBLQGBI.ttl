@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeophysicsLMBLQGBI> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_LMBLQGBI.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/AdditionalColumn1>,
+        <http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/AdditionalColumn2>,
+        <http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/AdditionalColumn3>,
+        <http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/Amplitude>,
+        <http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/FrequencyBands>,
+        <http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/LayerThickness>,
+        <http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/Phase>,
+        <http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/ReflectionCoefficient>,
+        <http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/SeismicWavesSP>,
+        <http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/SubsurfaceImagingTechniques>,
+        <http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/VelocityStructurePS> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/AdditionalColumn1> a dsv:Column ;
+    rdfs:label "Additional Column 1" .
+
+<http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/AdditionalColumn2> a dsv:Column ;
+    rdfs:label "Additional Column 2" .
+
+<http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/AdditionalColumn3> a dsv:Column ;
+    rdfs:label "Additional Column 3" .
+
+<http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/Amplitude> a dsv:Column ;
+    rdfs:label "Amplitude" .
+
+<http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/FrequencyBands> a dsv:Column ;
+    rdfs:label "Frequency Bands" .
+
+<http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/LayerThickness> a dsv:Column ;
+    rdfs:label "Layer Thickness" .
+
+<http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/Phase> a dsv:Column ;
+    rdfs:label "Phase" .
+
+<http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/ReflectionCoefficient> a dsv:Column ;
+    rdfs:label "Reflection Coefficient" .
+
+<http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/SeismicWavesSP> a dsv:Column ;
+    rdfs:label "Seismic Waves (S, P)" .
+
+<http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/SubsurfaceImagingTechniques> a dsv:Column ;
+    rdfs:label "Subsurface Imaging Techniques" .
+
+<http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/column/VelocityStructurePS> a dsv:Column ;
+    rdfs:label "Velocity Structure (P, S)" .
+
+<http://metaUnionSearch/datasets/GeophysicsLMBLQGBI/datasetSchema> a dsv:DatasetSchema .
+

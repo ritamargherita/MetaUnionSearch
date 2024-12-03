@@ -1,0 +1,35 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsM3HQ57UY> a dsv:Dataset ;
+    dcterms:subject "international-relations" ;
+    dcterms:title "International-Relations_M3HQ57UY.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/InternationalRelationsM3HQ57UY/column/ContemporarypostWWIIera>,
+        <http://metaUnionSearch/datasets/InternationalRelationsM3HQ57UY/column/EarlyModernlate13thCenturyearlyeighteenthcentury>,
+        <http://metaUnionSearch/datasets/InternationalRelationsM3HQ57UY/column/LateModernearlyeighteenthcenturytillendWWII>,
+        <http://metaUnionSearch/datasets/InternationalRelationsM3HQ57UY/column/Postclassical600late13thCentury>,
+        <http://metaUnionSearch/datasets/InternationalRelationsM3HQ57UY/column/Premoderntoc500CE>,
+        <http://metaUnionSearch/datasets/InternationalRelationsM3HQ57UY/column/TimePeriod> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/InternationalRelationsM3HQ57UY/datasetSchema> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsM3HQ57UY/column/ContemporarypostWWIIera> a dsv:Column ;
+    rdfs:label " Contemporary (post WW II era)" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsM3HQ57UY/column/EarlyModernlate13thCenturyearlyeighteenthcentury> a dsv:Column ;
+    rdfs:label " Early Modern (~late 13th Century - *early eighteenth century*)" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsM3HQ57UY/column/LateModernearlyeighteenthcenturytillendWWII> a dsv:Column ;
+    rdfs:label " Late Modern (~early eighteenth century till end WWII)" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsM3HQ57UY/column/Postclassical600late13thCentury> a dsv:Column ;
+    rdfs:label " Postclassical (~600 - ~late 13th Century)" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsM3HQ57UY/column/Premoderntoc500CE> a dsv:Column ;
+    rdfs:label " Premodern (to c.500 CE)" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsM3HQ57UY/column/TimePeriod> a dsv:Column ;
+    rdfs:label "Time Period" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsM3HQ57UY/datasetSchema> a dsv:DatasetSchema .
+

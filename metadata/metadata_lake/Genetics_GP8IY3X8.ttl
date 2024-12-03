@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_GP8IY3X8.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/AdditionalInformation>,
+        <http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/ChromosomeLocation>,
+        <http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/ChromosomeNumber>,
+        <http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/DominantAlleleFrequency>,
+        <http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/ExpressionPattern>,
+        <http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/GeneDescription>,
+        <http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/GeneSymbol>,
+        <http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/GeneticDisorder>,
+        <http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/InheritancePattern>,
+        <http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/MutationLocation>,
+        <http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/MutationType>,
+        <http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/PopulationFrequency>,
+        <http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/PrevalenceRate>,
+        <http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/RecessiveAllelesNeeded>,
+        <http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/Symptoms> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeneticsGP8IY3X8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/AdditionalInformation> a dsv:Column ;
+    rdfs:label " Additional Information" .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/ChromosomeLocation> a dsv:Column ;
+    rdfs:label " Chromosome Location" .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/ChromosomeNumber> a dsv:Column ;
+    rdfs:label " Chromosome Number" .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/DominantAlleleFrequency> a dsv:Column ;
+    rdfs:label " Dominant Allele Frequency" .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/ExpressionPattern> a dsv:Column ;
+    rdfs:label " Expression Pattern" .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/GeneDescription> a dsv:Column ;
+    rdfs:label " Gene Description" .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/GeneSymbol> a dsv:Column ;
+    rdfs:label " Gene Symbol" .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/GeneticDisorder> a dsv:Column ;
+    rdfs:label "Genetic Disorder" .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/InheritancePattern> a dsv:Column ;
+    rdfs:label " Inheritance Pattern" .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/MutationLocation> a dsv:Column ;
+    rdfs:label " Mutation Location" .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/MutationType> a dsv:Column ;
+    rdfs:label " Mutation Type" .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/PopulationFrequency> a dsv:Column ;
+    rdfs:label " Population Frequency" .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/PrevalenceRate> a dsv:Column ;
+    rdfs:label " Prevalence Rate" .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/RecessiveAllelesNeeded> a dsv:Column ;
+    rdfs:label " Recessive Alleles Needed" .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8/column/Symptoms> a dsv:Column ;
+    rdfs:label " Symptoms" .
+
+<http://metaUnionSearch/datasets/GeneticsGP8IY3X8/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LiteratureH8RVHS1K> a dsv:Dataset ;
+    dcterms:subject "literature" ;
+    dcterms:title "Literature_H8RVHS1K.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/AudioBooksPercentage>,
+        <http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/AwardsRecognition>,
+        <http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/BookFairsFestivals>,
+        <http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/CriticalReception>,
+        <http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/GeographicDistribution>,
+        <http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/GraphicsNovelsPercentage>,
+        <http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/InfluencesInspiration>,
+        <http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/MajorWorksbyRegion>,
+        <http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/OnlineResources>,
+        <http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/PeriodicTimeline>,
+        <http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/PopularAuthors>,
+        <http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/PrintvsDigital>,
+        <http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/SocialMediaImpact> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LiteratureH8RVHS1K/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/AudioBooksPercentage> a dsv:Column ;
+    rdfs:label " Audio Books Percentage" .
+
+<http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/AwardsRecognition> a dsv:Column ;
+    rdfs:label " Awards & Recognition" .
+
+<http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/BookFairsFestivals> a dsv:Column ;
+    rdfs:label " Book Fairs & Festivals" .
+
+<http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/CriticalReception> a dsv:Column ;
+    rdfs:label " Critical Reception" .
+
+<http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/GeographicDistribution> a dsv:Column ;
+    rdfs:label " Geographic Distribution" .
+
+<http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/GraphicsNovelsPercentage> a dsv:Column ;
+    rdfs:label " Graphics Novels Percentage." .
+
+<http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/InfluencesInspiration> a dsv:Column ;
+    rdfs:label " Influences & Inspiration" .
+
+<http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/MajorWorksbyRegion> a dsv:Column ;
+    rdfs:label " Major Works by Region" .
+
+<http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/OnlineResources> a dsv:Column ;
+    rdfs:label " Online Resources" .
+
+<http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/PeriodicTimeline> a dsv:Column ;
+    rdfs:label "Periodic Timeline" .
+
+<http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/PopularAuthors> a dsv:Column ;
+    rdfs:label " Popular Authors" .
+
+<http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/PrintvsDigital> a dsv:Column ;
+    rdfs:label " Print vs Digital" .
+
+<http://metaUnionSearch/datasets/LiteratureH8RVHS1K/column/SocialMediaImpact> a dsv:Column ;
+    rdfs:label " Social Media Impact" .
+
+<http://metaUnionSearch/datasets/LiteratureH8RVHS1K/datasetSchema> a dsv:DatasetSchema .
+

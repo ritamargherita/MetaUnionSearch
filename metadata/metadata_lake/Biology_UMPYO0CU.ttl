@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_UMPYO0CU.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/Algorithmsimplemented>,
+        <http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/Bioinformaticsresourcesused>,
+        <http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/CRISPRScreens>,
+        <http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/Dataprocessingworkflow>,
+        <http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/DiseaseAssociationStudies>,
+        <http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/Epigenetics>,
+        <http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/Experimentalmethodsemployed>,
+        <http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/HomologousSequenceIdentification>,
+        <http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/NoncodingRNARegulation>,
+        <http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/Organismstudied>,
+        <http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/PhylogenicTreeConstruction>,
+        <http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/PosttranslationalModifications>,
+        <http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/Proteomicsdataintegration>,
+        <http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/Synergisticpathwaysanalysis>,
+        <http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/TranscriptionFactorBindingSites>,
+        <http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/eQTLAnalysis> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BiologyUMPYO0CU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/Algorithmsimplemented> a dsv:Column ;
+    rdfs:label " Algorithms implemented" .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/Bioinformaticsresourcesused> a dsv:Column ;
+    rdfs:label "Bioinformatics resources used " .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/CRISPRScreens> a dsv:Column ;
+    rdfs:label " CRISPR Screens" .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/Dataprocessingworkflow> a dsv:Column ;
+    rdfs:label " Data processing workflow" .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/DiseaseAssociationStudies> a dsv:Column ;
+    rdfs:label " Disease Association Studies" .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/Epigenetics> a dsv:Column ;
+    rdfs:label " Epigenetics" .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/Experimentalmethodsemployed> a dsv:Column ;
+    rdfs:label " Experimental methods employed" .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/HomologousSequenceIdentification> a dsv:Column ;
+    rdfs:label " Homologous Sequence Identification" .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/NoncodingRNARegulation> a dsv:Column ;
+    rdfs:label " Noncoding RNA Regulation" .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/Organismstudied> a dsv:Column ;
+    rdfs:label " Organism studied" .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/PhylogenicTreeConstruction> a dsv:Column ;
+    rdfs:label " Phylogenic Tree Construction" .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/PosttranslationalModifications> a dsv:Column ;
+    rdfs:label " Posttranslational Modifications" .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/Proteomicsdataintegration> a dsv:Column ;
+    rdfs:label " Proteomics data integration" .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/Synergisticpathwaysanalysis> a dsv:Column ;
+    rdfs:label " Synergistic pathways analysis" .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/TranscriptionFactorBindingSites> a dsv:Column ;
+    rdfs:label " Transcription Factor Binding Sites" .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/column/eQTLAnalysis> a dsv:Column ;
+    rdfs:label " eQTL Analysis" .
+
+<http://metaUnionSearch/datasets/BiologyUMPYO0CU/datasetSchema> a dsv:DatasetSchema .
+

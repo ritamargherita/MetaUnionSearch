@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronauticsT2VY4II6> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_T2VY4II6.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/AdditionalExperimentCargo>,
+        <http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/AstronautsDegrees>,
+        <http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/AstronautsNameandBio>,
+        <http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/CrewQuantity>,
+        <http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/DurationinSpace>,
+        <http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/FirstStageRecovery>,
+        <http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/LaunchDate>,
+        <http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/MissionTitle>,
+        <http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/TargetOrbit>,
+        <http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/VehicleReusability> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronauticsT2VY4II6/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/AdditionalExperimentCargo> a dsv:Column ;
+    rdfs:label " Additional Experiment/Cargo." .
+
+<http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/AstronautsDegrees> a dsv:Column ;
+    rdfs:label " Astronaut's Degrees" .
+
+<http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/AstronautsNameandBio> a dsv:Column ;
+    rdfs:label " Astronaut's Name and Bio" .
+
+<http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/CrewQuantity> a dsv:Column ;
+    rdfs:label " Crew Quantity" .
+
+<http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/DurationinSpace> a dsv:Column ;
+    rdfs:label " Duration in Space" .
+
+<http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/FirstStageRecovery> a dsv:Column ;
+    rdfs:label " First Stage Recovery" .
+
+<http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/LaunchDate> a dsv:Column ;
+    rdfs:label " Launch Date" .
+
+<http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/MissionTitle> a dsv:Column ;
+    rdfs:label "Mission Title" .
+
+<http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/TargetOrbit> a dsv:Column ;
+    rdfs:label " Target Orbit" .
+
+<http://metaUnionSearch/datasets/AstronauticsT2VY4II6/column/VehicleReusability> a dsv:Column ;
+    rdfs:label " Vehicle Reusability" .
+
+<http://metaUnionSearch/datasets/AstronauticsT2VY4II6/datasetSchema> a dsv:DatasetSchema .
+

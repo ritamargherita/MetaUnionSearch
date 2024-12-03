@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_UPFR2P3Y.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Artist>,
+        <http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Artwork>,
+        <http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Condition>,
+        <http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/DateCreated>,
+        <http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Depth>,
+        <http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Height>,
+        <http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Medium>,
+        <http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Notes>,
+        <http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Period>,
+        <http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Style>,
+        <http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/SubjectMatter>,
+        <http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Technique>,
+        <http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Width> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Artist> a dsv:Column ;
+    rdfs:label " Artist" .
+
+<http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Artwork> a dsv:Column ;
+    rdfs:label "`Artwork" .
+
+<http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Condition> a dsv:Column ;
+    rdfs:label " Condition" .
+
+<http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/DateCreated> a dsv:Column ;
+    rdfs:label " Date Created" .
+
+<http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Depth> a dsv:Column ;
+    rdfs:label " Depth" .
+
+<http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Height> a dsv:Column ;
+    rdfs:label " Height" .
+
+<http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Medium> a dsv:Column ;
+    rdfs:label " Medium" .
+
+<http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Notes> a dsv:Column ;
+    rdfs:label " Notes`" .
+
+<http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Period> a dsv:Column ;
+    rdfs:label " Period" .
+
+<http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Style> a dsv:Column ;
+    rdfs:label " Style" .
+
+<http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/SubjectMatter> a dsv:Column ;
+    rdfs:label " Subject Matter" .
+
+<http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Technique> a dsv:Column ;
+    rdfs:label " Technique" .
+
+<http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/column/Width> a dsv:Column ;
+    rdfs:label " Width" .
+
+<http://metaUnionSearch/datasets/ArtHistoryUPFR2P3Y/datasetSchema> a dsv:DatasetSchema .
+

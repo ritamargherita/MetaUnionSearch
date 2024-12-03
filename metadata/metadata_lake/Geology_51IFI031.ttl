@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geology51IFI031> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_51IFI031.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Geology51IFI031/column/AdditionalData>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/Biogenicity>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/ChemicalsElementalAnalysis>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/Crystallinity>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/GrainSize>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/IgneousTexture>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/LandscapeImpact>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/LithologicalDescription>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/MetamorphismLevel>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/TectonicSettingEarthquakePotential> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geology51IFI031/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/AdditionalData> a dsv:Column ;
+    rdfs:label " Additional Data" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/Biogenicity> a dsv:Column ;
+    rdfs:label " Biogenicity" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/ChemicalsElementalAnalysis> a dsv:Column ;
+    rdfs:label " Chemicals & Elemental Analysis" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/Crystallinity> a dsv:Column ;
+    rdfs:label " Crystallinity" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/GrainSize> a dsv:Column ;
+    rdfs:label " Grain Size" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/IgneousTexture> a dsv:Column ;
+    rdfs:label " Igneous Texture" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/LandscapeImpact> a dsv:Column ;
+    rdfs:label " Landscape Impact" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/LithologicalDescription> a dsv:Column ;
+    rdfs:label "Lithological Description" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/MetamorphismLevel> a dsv:Column ;
+    rdfs:label " Metamorphism Level" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/TectonicSettingEarthquakePotential> a dsv:Column ;
+    rdfs:label " Tectonic Setting : Earthquake Potential" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/datasetSchema> a dsv:DatasetSchema .
+

@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_1Z0SHZBU.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/AdditionalSymptomsDescriptions>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/ChromosomeLocationNEW>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/ChromosomeNumber>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/DominantlyExpressedAllelesNumberNeedED>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/ExpressionPatternSecondView>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/GeneDescriptionEXTRAdataIFapplicable>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/GeneSymbolFORnewDisorder>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/InheritancePatternWITHvariants>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/MutatedGeneLocationAdditionalInfo>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/MutationtypeEXTRAdataIFapplicable>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/NewlyDiscoveredGeneticDisorder>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/PopulationFrequencyINFOaddedlaterORirrelevantTOtabletwo>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/PrevalenceRateNEW>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/TestMethodIFrequiredFORparticularstudyORirrelevantTOtabletwo> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/AdditionalSymptomsDescriptions> a dsv:Column ;
+    rdfs:label " AdditionalSymptomsDescriptions" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/ChromosomeLocationNEW> a dsv:Column ;
+    rdfs:label " ChromosomeLocation_NEW" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/ChromosomeNumber> a dsv:Column ;
+    rdfs:label " ChromosomeNumber" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/DominantlyExpressedAllelesNumberNeedED> a dsv:Column ;
+    rdfs:label " DominantlyExpressedAllelesNumberNeedED" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/ExpressionPatternSecondView> a dsv:Column ;
+    rdfs:label " ExpressionPatternSecondView" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/GeneDescriptionEXTRAdataIFapplicable> a dsv:Column ;
+    rdfs:label " GeneDescriptionEXTRAdataIFapplicable" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/GeneSymbolFORnewDisorder> a dsv:Column ;
+    rdfs:label " GeneSymbolFORnewDisorder" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/InheritancePatternWITHvariants> a dsv:Column ;
+    rdfs:label " InheritancePatternWITHvariants" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/MutatedGeneLocationAdditionalInfo> a dsv:Column ;
+    rdfs:label " MutatedGeneLocationAdditionalInfo" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/MutationtypeEXTRAdataIFapplicable> a dsv:Column ;
+    rdfs:label " MutationtypeEXTRAdataIFapplicable" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/NewlyDiscoveredGeneticDisorder> a dsv:Column ;
+    rdfs:label "NewlyDiscoveredGeneticDisorder" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/PopulationFrequencyINFOaddedlaterORirrelevantTOtabletwo> a dsv:Column ;
+    rdfs:label " PopulationFrequencyINFOaddedlaterORirrelevantTOtabletwo" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/PrevalenceRateNEW> a dsv:Column ;
+    rdfs:label " PrevalenceRate_NEW" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/TestMethodIFrequiredFORparticularstudyORirrelevantTOtabletwo> a dsv:Column ;
+    rdfs:label " TestMethodIFrequiredFORparticularstudyORirrelevantTOtabletwo" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/datasetSchema> a dsv:DatasetSchema .
+

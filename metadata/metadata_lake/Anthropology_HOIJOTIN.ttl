@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AnthropologyHOIJOTIN> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_HOIJOTIN.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/AnthropologicalSiteName>,
+        <http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/Artifacts>,
+        <http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/BurialPractices>,
+        <http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/Culture>,
+        <http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/EnvironmentalImpact>,
+        <http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/EthnographicDataSource>,
+        <http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/Language>,
+        <http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/Location>,
+        <http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/ObserversName>,
+        <http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/Period>,
+        <http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/PopulationSize>,
+        <http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/Religion> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/AnthropologicalSiteName> a dsv:Column ;
+    rdfs:label "Anthropological Site Name" .
+
+<http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/Artifacts> a dsv:Column ;
+    rdfs:label " Artifacts" .
+
+<http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/BurialPractices> a dsv:Column ;
+    rdfs:label " Burial Practices" .
+
+<http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/Culture> a dsv:Column ;
+    rdfs:label " Culture" .
+
+<http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/EnvironmentalImpact> a dsv:Column ;
+    rdfs:label " Environmental Impact" .
+
+<http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/EthnographicDataSource> a dsv:Column ;
+    rdfs:label " Ethnographic Data Source" .
+
+<http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/Language> a dsv:Column ;
+    rdfs:label " Language" .
+
+<http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/Location> a dsv:Column ;
+    rdfs:label " Location" .
+
+<http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/ObserversName> a dsv:Column ;
+    rdfs:label " Observer's Name" .
+
+<http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/Period> a dsv:Column ;
+    rdfs:label " Period" .
+
+<http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/PopulationSize> a dsv:Column ;
+    rdfs:label " Population Size" .
+
+<http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/column/Religion> a dsv:Column ;
+    rdfs:label " Religion" .
+
+<http://metaUnionSearch/datasets/AnthropologyHOIJOTIN/datasetSchema> a dsv:DatasetSchema .
+

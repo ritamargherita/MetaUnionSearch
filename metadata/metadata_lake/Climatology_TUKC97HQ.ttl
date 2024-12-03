@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ClimatologyTUKC97HQ> a dsv:Dataset ;
+    dcterms:subject "climatology" ;
+    dcterms:title "Climatology_TUKC97HQ.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/AirQualityIndex>,
+        <http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/AtmosphericPressurehPa>,
+        <http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/CloudCover>,
+        <http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/DateTimeStamp>,
+        <http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/Precipitationmm>,
+        <http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/RelativeHumidity>,
+        <http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/SoilMoisture>,
+        <http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/SolarRadiationWm>,
+        <http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/StudyAreaID>,
+        <http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/TemperatureC>,
+        <http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/Visibilitykm>,
+        <http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/WeatherCondition>,
+        <http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/WindSpeedms> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/AirQualityIndex> a dsv:Column ;
+    rdfs:label " Air Quality Index" .
+
+<http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/AtmosphericPressurehPa> a dsv:Column ;
+    rdfs:label " Atmospheric Pressure (hPa)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/CloudCover> a dsv:Column ;
+    rdfs:label " Cloud Cover (%)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/DateTimeStamp> a dsv:Column ;
+    rdfs:label " Date & Time Stamp" .
+
+<http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/Precipitationmm> a dsv:Column ;
+    rdfs:label " Precipitation (mm)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/RelativeHumidity> a dsv:Column ;
+    rdfs:label " Relative Humidity (%)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/SoilMoisture> a dsv:Column ;
+    rdfs:label " Soil Moisture (%)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/SolarRadiationWm> a dsv:Column ;
+    rdfs:label " Solar Radiation (W/m²)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/StudyAreaID> a dsv:Column ;
+    rdfs:label "Study Area ID" .
+
+<http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/TemperatureC> a dsv:Column ;
+    rdfs:label " Temperature (°C)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/Visibilitykm> a dsv:Column ;
+    rdfs:label " Visibility (km)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/WeatherCondition> a dsv:Column ;
+    rdfs:label " Weather Condition" .
+
+<http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/column/WindSpeedms> a dsv:Column ;
+    rdfs:label " Wind Speed (m/s)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTUKC97HQ/datasetSchema> a dsv:DatasetSchema .
+

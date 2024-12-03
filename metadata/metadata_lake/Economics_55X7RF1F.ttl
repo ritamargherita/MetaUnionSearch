@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Economics55X7RF1F> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_55X7RF1F.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Economics55X7RF1F/column/GDPgrowthrate>,
+        <http://metaUnionSearch/datasets/Economics55X7RF1F/column/consumerpriceindex>,
+        <http://metaUnionSearch/datasets/Economics55X7RF1F/column/economicpolicy>,
+        <http://metaUnionSearch/datasets/Economics55X7RF1F/column/exchangerate>,
+        <http://metaUnionSearch/datasets/Economics55X7RF1F/column/fiscalbalance>,
+        <http://metaUnionSearch/datasets/Economics55X7RF1F/column/incomedistributioninequalitymeasure>,
+        <http://metaUnionSearch/datasets/Economics55X7RF1F/column/inflationrate>,
+        <http://metaUnionSearch/datasets/Economics55X7RF1F/column/interestrate>,
+        <http://metaUnionSearch/datasets/Economics55X7RF1F/column/laborforceparticipation>,
+        <http://metaUnionSearch/datasets/Economics55X7RF1F/column/policydetails>,
+        <http://metaUnionSearch/datasets/Economics55X7RF1F/column/povertylevel>,
+        <http://metaUnionSearch/datasets/Economics55X7RF1F/column/tradebalance>,
+        <http://metaUnionSearch/datasets/Economics55X7RF1F/column/unemploymentrate> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Economics55X7RF1F/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Economics55X7RF1F/column/GDPgrowthrate> a dsv:Column ;
+    rdfs:label " GDP\\_growth\\_rate%" .
+
+<http://metaUnionSearch/datasets/Economics55X7RF1F/column/consumerpriceindex> a dsv:Column ;
+    rdfs:label " consumer\\_price\\_index" .
+
+<http://metaUnionSearch/datasets/Economics55X7RF1F/column/economicpolicy> a dsv:Column ;
+    rdfs:label "economic\\_policy" .
+
+<http://metaUnionSearch/datasets/Economics55X7RF1F/column/exchangerate> a dsv:Column ;
+    rdfs:label " exchange\\_rate" .
+
+<http://metaUnionSearch/datasets/Economics55X7RF1F/column/fiscalbalance> a dsv:Column ;
+    rdfs:label " fiscal\\_balance" .
+
+<http://metaUnionSearch/datasets/Economics55X7RF1F/column/incomedistributioninequalitymeasure> a dsv:Column ;
+    rdfs:label " income\\_distribution\\_inequality\\_measure" .
+
+<http://metaUnionSearch/datasets/Economics55X7RF1F/column/inflationrate> a dsv:Column ;
+    rdfs:label " inflation\\_rate%" .
+
+<http://metaUnionSearch/datasets/Economics55X7RF1F/column/interestrate> a dsv:Column ;
+    rdfs:label " interest\\_rate" .
+
+<http://metaUnionSearch/datasets/Economics55X7RF1F/column/laborforceparticipation> a dsv:Column ;
+    rdfs:label " labor\\_force\\_participation" .
+
+<http://metaUnionSearch/datasets/Economics55X7RF1F/column/policydetails> a dsv:Column ;
+    rdfs:label " policy\\_details" .
+
+<http://metaUnionSearch/datasets/Economics55X7RF1F/column/povertylevel> a dsv:Column ;
+    rdfs:label " poverty\\_level" .
+
+<http://metaUnionSearch/datasets/Economics55X7RF1F/column/tradebalance> a dsv:Column ;
+    rdfs:label " trade\\_balance" .
+
+<http://metaUnionSearch/datasets/Economics55X7RF1F/column/unemploymentrate> a dsv:Column ;
+    rdfs:label " unemployment\\_rate%" .
+
+<http://metaUnionSearch/datasets/Economics55X7RF1F/datasetSchema> a dsv:DatasetSchema .
+

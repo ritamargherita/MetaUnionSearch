@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_0YLTZ9AT.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/AdditionalCategory1>,
+        <http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/AdditionalCategory2>,
+        <http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/ArchitecturalType>,
+        <http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/BuildYear>,
+        <http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/Description>,
+        <http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/Designer>,
+        <http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/HistoricalSignificance>,
+        <http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/Location>,
+        <http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/Period>,
+        <http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/Size>,
+        <http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/SpatialConfiguration>,
+        <http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/SpecialFeatures>,
+        <http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/Style>,
+        <http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/SurroundingEnvironment>,
+        <http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/SustainabilityRating> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Architecture0YLTZ9AT/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/AdditionalCategory1> a dsv:Column ;
+    rdfs:label " \"Additional Category 1\"" .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/AdditionalCategory2> a dsv:Column ;
+    rdfs:label " \"Additional Category 2\"." .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/ArchitecturalType> a dsv:Column ;
+    rdfs:label "\"Architectural Type\"" .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/BuildYear> a dsv:Column ;
+    rdfs:label " \"Build Year\"" .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/Description> a dsv:Column ;
+    rdfs:label " \"Description\"" .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/Designer> a dsv:Column ;
+    rdfs:label " \"Designer\"" .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/HistoricalSignificance> a dsv:Column ;
+    rdfs:label " \"Historical Significance\"" .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/Location> a dsv:Column ;
+    rdfs:label " \"Location\"" .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/Period> a dsv:Column ;
+    rdfs:label " \"Period\"" .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/Size> a dsv:Column ;
+    rdfs:label " \"Size\"" .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/SpatialConfiguration> a dsv:Column ;
+    rdfs:label " \"Spatial Configuration\"" .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/SpecialFeatures> a dsv:Column ;
+    rdfs:label " \"Special Features\"" .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/Style> a dsv:Column ;
+    rdfs:label " \"Style\"" .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/SurroundingEnvironment> a dsv:Column ;
+    rdfs:label " \"Surrounding Environment\"" .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT/column/SustainabilityRating> a dsv:Column ;
+    rdfs:label " \"Sustainability Rating\"" .
+
+<http://metaUnionSearch/datasets/Architecture0YLTZ9AT/datasetSchema> a dsv:DatasetSchema .
+

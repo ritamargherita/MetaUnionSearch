@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Philosophy5OR15BYV> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_5OR15BYV.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/10ImpactonScienceandMath>,
+        <http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/11ConnectionstoLiteratureandArt>,
+        <http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/12UniqueCharacteristicsofEachEra>,
+        <http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/13SpecialTerminologyorVocabulary>,
+        <http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/14SymbolicObjectsorActionsusedwithinThisField>,
+        <http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/1VariationofPhilosophicalConcept>,
+        <http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/2MajorTheorist>,
+        <http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/3ofAdherents>,
+        <http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/4InfluentialWork>,
+        <http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/5AdditionalTheoreticalIdeas>,
+        <http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/6VariationofMajorTheorist>,
+        <http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/7ofAdherentsofSpecificSchools>,
+        <http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/8ReligiousBeliefsSimilarDifferent>,
+        <http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/9SpiritualPracticesFoundAmongstTheseSchools> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Philosophy5OR15BYV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/10ImpactonScienceandMath> a dsv:Column ;
+    rdfs:label "10. Impact on Science and Math" .
+
+<http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/11ConnectionstoLiteratureandArt> a dsv:Column ;
+    rdfs:label "11. Connections to Literature and Art" .
+
+<http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/12UniqueCharacteristicsofEachEra> a dsv:Column ;
+    rdfs:label "12. Unique Characteristics of Each Era" .
+
+<http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/13SpecialTerminologyorVocabulary> a dsv:Column ;
+    rdfs:label "13. Special Terminology or Vocabulary" .
+
+<http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/14SymbolicObjectsorActionsusedwithinThisField> a dsv:Column ;
+    rdfs:label "14. Symbolic Objects or Actions used within This Field" .
+
+<http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/1VariationofPhilosophicalConcept> a dsv:Column ;
+    rdfs:label "1. Variation of Philosophical Concept" .
+
+<http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/2MajorTheorist> a dsv:Column ;
+    rdfs:label "2. Major Theorist" .
+
+<http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/3ofAdherents> a dsv:Column ;
+    rdfs:label "3. # of Adherents" .
+
+<http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/4InfluentialWork> a dsv:Column ;
+    rdfs:label "4. Influential Work" .
+
+<http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/5AdditionalTheoreticalIdeas> a dsv:Column ;
+    rdfs:label "5. Additional Theoretical Ideas" .
+
+<http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/6VariationofMajorTheorist> a dsv:Column ;
+    rdfs:label "6. Variation of Major Theorist" .
+
+<http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/7ofAdherentsofSpecificSchools> a dsv:Column ;
+    rdfs:label "7. # of Adherents of Specific Schools" .
+
+<http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/8ReligiousBeliefsSimilarDifferent> a dsv:Column ;
+    rdfs:label "8. Religious Beliefs Similar & Different" .
+
+<http://metaUnionSearch/datasets/Philosophy5OR15BYV/column/9SpiritualPracticesFoundAmongstTheseSchools> a dsv:Column ;
+    rdfs:label "9. Spiritual Practices Found Amongst These Schools" .
+
+<http://metaUnionSearch/datasets/Philosophy5OR15BYV/datasetSchema> a dsv:DatasetSchema .
+

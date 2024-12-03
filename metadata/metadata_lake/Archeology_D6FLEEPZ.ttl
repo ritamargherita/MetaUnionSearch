@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_D6FLEEPZ.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/ArchaeologicalFindings>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/CollaborativeProject>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/Coordinates>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/Culture>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/ErodingStatus>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/FundAllocation>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/FundingAgency>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/JewelryTypes>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/LeadInvestigator>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/NumberOfBurials>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/PotteryStyles>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/RadiocarbonDating>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/SepultureType>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/SurveyMethod> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/ArchaeologicalFindings> a dsv:Column ;
+    rdfs:label " Archaeological Findings" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/CollaborativeProject> a dsv:Column ;
+    rdfs:label " Collaborative Project" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/Coordinates> a dsv:Column ;
+    rdfs:label " Coordinates" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/Culture> a dsv:Column ;
+    rdfs:label " Culture" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/ErodingStatus> a dsv:Column ;
+    rdfs:label " Eroding Status" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/FundAllocation> a dsv:Column ;
+    rdfs:label " Fund Allocation" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/FundingAgency> a dsv:Column ;
+    rdfs:label " Funding Agency" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/JewelryTypes> a dsv:Column ;
+    rdfs:label " Jewelry Types" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/LeadInvestigator> a dsv:Column ;
+    rdfs:label " Lead Investigator" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/NumberOfBurials> a dsv:Column ;
+    rdfs:label " Number Of Burials" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/PotteryStyles> a dsv:Column ;
+    rdfs:label " Pottery Styles" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/RadiocarbonDating> a dsv:Column ;
+    rdfs:label " Radiocarbon Dating" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/SepultureType> a dsv:Column ;
+    rdfs:label "Sepulture Type" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/SurveyMethod> a dsv:Column ;
+    rdfs:label " Survey Method" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/datasetSchema> a dsv:DatasetSchema .
+

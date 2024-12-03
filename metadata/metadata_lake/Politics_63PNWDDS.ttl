@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Politics63PNWDDS> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_63PNWDDS.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Politics63PNWDDS/column/AverageAgeOfMembers>,
+        <http://metaUnionSearch/datasets/Politics63PNWDDS/column/EducationLevelOfmembersImmigrationStancePointsLobbyingSpendingbySectorC>,
+        <http://metaUnionSearch/datasets/Politics63PNWDDS/column/ElectionResultsTrends>,
+        <http://metaUnionSearch/datasets/Politics63PNWDDS/column/PolicyAreaA>,
+        <http://metaUnionSearch/datasets/Politics63PNWDDS/column/PolicyAreaB>,
+        <http://metaUnionSearch/datasets/Politics63PNWDDS/column/PolicyAreaC>,
+        <http://metaUnionSearch/datasets/Politics63PNWDDS/column/PolicyAreaD>,
+        <http://metaUnionSearch/datasets/Politics63PNWDDS/column/PoliticalIdeology>,
+        <http://metaUnionSearch/datasets/Politics63PNWDDS/column/VotesReceived>,
+        <http://metaUnionSearch/datasets/Politics63PNWDDS/column/VotesReceived1>,
+        <http://metaUnionSearch/datasets/Politics63PNWDDS/column/VotesReceived2>,
+        <http://metaUnionSearch/datasets/Politics63PNWDDS/column/VotesReceived3> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Politics63PNWDDS/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Politics63PNWDDS/column/AverageAgeOfMembers> a dsv:Column ;
+    rdfs:label " Average Age OfMembers%" .
+
+<http://metaUnionSearch/datasets/Politics63PNWDDS/column/EducationLevelOfmembersImmigrationStancePointsLobbyingSpendingbySectorC> a dsv:Column ;
+    rdfs:label " Education LevelOfmembers%：Immigration Stance Points :Lobbying Spending by Sector C`" .
+
+<http://metaUnionSearch/datasets/Politics63PNWDDS/column/ElectionResultsTrends> a dsv:Column ;
+    rdfs:label " Election Results Trends$" .
+
+<http://metaUnionSearch/datasets/Politics63PNWDDS/column/PolicyAreaA> a dsv:Column ;
+    rdfs:label "`Policy Area A" .
+
+<http://metaUnionSearch/datasets/Politics63PNWDDS/column/PolicyAreaB> a dsv:Column ;
+    rdfs:label " Policy Area B" .
+
+<http://metaUnionSearch/datasets/Politics63PNWDDS/column/PolicyAreaC> a dsv:Column ;
+    rdfs:label " Policy Area C" .
+
+<http://metaUnionSearch/datasets/Politics63PNWDDS/column/PolicyAreaD> a dsv:Column ;
+    rdfs:label " Policy Area D" .
+
+<http://metaUnionSearch/datasets/Politics63PNWDDS/column/PoliticalIdeology> a dsv:Column ;
+    rdfs:label " Political Ideology" .
+
+<http://metaUnionSearch/datasets/Politics63PNWDDS/column/VotesReceived> a dsv:Column ;
+    rdfs:label " Votes Received " .
+
+<http://metaUnionSearch/datasets/Politics63PNWDDS/column/VotesReceived1> a dsv:Column ;
+    rdfs:label " Votes Received .1" .
+
+<http://metaUnionSearch/datasets/Politics63PNWDDS/column/VotesReceived2> a dsv:Column ;
+    rdfs:label " Votes Received .2" .
+
+<http://metaUnionSearch/datasets/Politics63PNWDDS/column/VotesReceived3> a dsv:Column ;
+    rdfs:label " Votes Received .3" .
+
+<http://metaUnionSearch/datasets/Politics63PNWDDS/datasetSchema> a dsv:DatasetSchema .
+

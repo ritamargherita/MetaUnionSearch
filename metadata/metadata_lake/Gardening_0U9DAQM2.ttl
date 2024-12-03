@@ -1,0 +1,126 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_0U9DAQM2.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/AdditionalNotes>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/AvgPlantSpread>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/BloomingPeriod>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/Family>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/FlowerColor>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/IdealSoilType>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/NativeTo>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/PropagationMethods>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/RecommendedUse>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/TypeOfPlant>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameAvgPlantHeight>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameCommonName>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameGrowthHabit>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameHardinessZone>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameLightRequirement>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenamePestsAndDiseases>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenamePlantedOn>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenamePruningInstructions>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameScientificName>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameSoilPh>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameSunExposure>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameWateringFrequency>,
+        <http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameYieldPerPlant> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Gardening0U9DAQM2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/AdditionalNotes> a dsv:Column ;
+    rdfs:label """\\
+AdditionalNotes""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/AvgPlantSpread> a dsv:Column ;
+    rdfs:label """\\
+AvgPlantSpread""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/BloomingPeriod> a dsv:Column ;
+    rdfs:label """\\
+BloomingPeriod""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/Family> a dsv:Column ;
+    rdfs:label """\\
+Family""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/FlowerColor> a dsv:Column ;
+    rdfs:label """\\
+FlowerColor""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/IdealSoilType> a dsv:Column ;
+    rdfs:label """\\
+IdealSoilType""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/NativeTo> a dsv:Column ;
+    rdfs:label """\\
+NativeTo""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/PropagationMethods> a dsv:Column ;
+    rdfs:label """\\
+PropagationMethods""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/RecommendedUse> a dsv:Column ;
+    rdfs:label """\\
+RecommendedUse""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/TypeOfPlant> a dsv:Column ;
+    rdfs:label """\\
+TypeOfPlant""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameAvgPlantHeight> a dsv:Column ;
+    rdfs:label """\\	// this column is semantically similar to Table 1's column of the same name
+AvgPlantHeight""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameCommonName> a dsv:Column ;
+    rdfs:label """\\	// this column is semantically similar to Table 1's column of the same name
+CommonName""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameGrowthHabit> a dsv:Column ;
+    rdfs:label """\\	// this column is semantically similar to Table 1's column of the same name
+GrowthHabit""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameHardinessZone> a dsv:Column ;
+    rdfs:label """\\	// this column is semantically similar to Table 1's column of the same name
+HardinessZone""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameLightRequirement> a dsv:Column ;
+    rdfs:label """\\	// this column is semantically similar to Table 1's column of the same name
+LightRequirement""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenamePestsAndDiseases> a dsv:Column ;
+    rdfs:label """\\	// this column is semantically similar to Table 1's column of the same name
+PestsAndDiseases""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenamePlantedOn> a dsv:Column ;
+    rdfs:label """\\	// this column is semantically similar to Table 1's column of the same name
+PlantedOn""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenamePruningInstructions> a dsv:Column ;
+    rdfs:label """\\	// this column is semantically similar to Table 1's column of the same name
+PruningInstructions""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameScientificName> a dsv:Column ;
+    rdfs:label """\\	// this column is semantically similar to Table 1's column of the same name
+ScientificName""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameSoilPh> a dsv:Column ;
+    rdfs:label """\\	// this column is semantically similar to Table 1's column of the same name
+SoilPh""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameSunExposure> a dsv:Column ;
+    rdfs:label """\\	// this column is semantically similar to Table 1's column of the same name
+SunExposure""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameWateringFrequency> a dsv:Column ;
+    rdfs:label """\\	// this column is semantically similar to Table 1's column of the same name
+WateringFrequency""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/column/thiscolumnissemanticallysimilartoTable1scolumnofthesamenameYieldPerPlant> a dsv:Column ;
+    rdfs:label """\\	// this column is semantically similar to Table 1's column of the same name
+YieldPerPlant""" .
+
+<http://metaUnionSearch/datasets/Gardening0U9DAQM2/datasetSchema> a dsv:DatasetSchema .
+

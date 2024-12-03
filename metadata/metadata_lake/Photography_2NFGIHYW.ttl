@@ -1,0 +1,79 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_2NFGIHYW.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Category>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Characteristics>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Contrast>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/FileFormat>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/FlashUsage>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/FocusMode>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/HueSettings>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/ImageOrientation>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/ImageSize>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/LensType>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Location>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/PhotoTitle>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/PostProcessingSoftware>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Saturation>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/SharpnessandNoiseLevel>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/SubjectDistance>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/WhiteBalanceSetting> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Photography2NFGIHYW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Category> a dsv:Column ;
+    rdfs:label "Category" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Characteristics> a dsv:Column ;
+    rdfs:label "Characteristics" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Contrast> a dsv:Column ;
+    rdfs:label "Contrast" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/FileFormat> a dsv:Column ;
+    rdfs:label "File Format" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/FlashUsage> a dsv:Column ;
+    rdfs:label "Flash Usage" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/FocusMode> a dsv:Column ;
+    rdfs:label "Focus Mode" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/HueSettings> a dsv:Column ;
+    rdfs:label "Hue Settings" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/ImageOrientation> a dsv:Column ;
+    rdfs:label "Image Orientation" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/ImageSize> a dsv:Column ;
+    rdfs:label "Image Size" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/LensType> a dsv:Column ;
+    rdfs:label "Lens Type" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Location> a dsv:Column ;
+    rdfs:label "Location" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/PhotoTitle> a dsv:Column ;
+    rdfs:label "Photo Title" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/PostProcessingSoftware> a dsv:Column ;
+    rdfs:label "Post-Processing Software" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Saturation> a dsv:Column ;
+    rdfs:label "Saturation" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/SharpnessandNoiseLevel> a dsv:Column ;
+    rdfs:label "Sharpness and Noise Level" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/SubjectDistance> a dsv:Column ;
+    rdfs:label "Subject Distance" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/WhiteBalanceSetting> a dsv:Column ;
+    rdfs:label "White Balance Setting" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/datasetSchema> a dsv:DatasetSchema .
+

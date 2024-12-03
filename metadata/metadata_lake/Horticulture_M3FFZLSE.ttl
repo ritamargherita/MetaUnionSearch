@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/HorticultureM3FFZLSE> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_M3FFZLSE.csv" ;
+    dsv:column <http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/AvgBloomPeriod>,
+        <http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/BestClimateConditions>,
+        <http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/CommonUsesInHorticulture>,
+        <http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/CompanionPlants>,
+        <http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/FavoriteHorticultureVarieties>,
+        <http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/FloralDesignUses>,
+        <http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/FrequentPestsAndDiseases>,
+        <http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/GrowthPatternNotes>,
+        <http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/IdealSoilTypes>,
+        <http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/NumberOfSpeciesInHorticulture>,
+        <http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/PreferredClimateZones>,
+        <http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/PropagationMethods>,
+        <http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/TypicalLandscapeApplicationsUS>,
+        <http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/WateringNeeds> ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/HorticultureM3FFZLSE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/AvgBloomPeriod> a dsv:Column ;
+    rdfs:label "\\_AvgBloomPeriod" .
+
+<http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/BestClimateConditions> a dsv:Column ;
+    rdfs:label "BestClimateConditions" .
+
+<http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/CommonUsesInHorticulture> a dsv:Column ;
+    rdfs:label "CommonUsesInHorticulture" .
+
+<http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/CompanionPlants> a dsv:Column ;
+    rdfs:label "CompanionPlants" .
+
+<http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/FavoriteHorticultureVarieties> a dsv:Column ;
+    rdfs:label "FavoriteHorticultureVarieties" .
+
+<http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/FloralDesignUses> a dsv:Column ;
+    rdfs:label "FloralDesignUses" .
+
+<http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/FrequentPestsAndDiseases> a dsv:Column ;
+    rdfs:label "FrequentPestsAndDiseases" .
+
+<http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/GrowthPatternNotes> a dsv:Column ;
+    rdfs:label "GrowthPatternNotes" .
+
+<http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/IdealSoilTypes> a dsv:Column ;
+    rdfs:label "IdealSoilTypes" .
+
+<http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/NumberOfSpeciesInHorticulture> a dsv:Column ;
+    rdfs:label "NumberOfSpeciesInHorticulture" .
+
+<http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/PreferredClimateZones> a dsv:Column ;
+    rdfs:label "PreferredClimateZones" .
+
+<http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/PropagationMethods> a dsv:Column ;
+    rdfs:label "PropagationMethods" .
+
+<http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/TypicalLandscapeApplicationsUS> a dsv:Column ;
+    rdfs:label "TypicalLandscapeApplications\\_US" .
+
+<http://metaUnionSearch/datasets/HorticultureM3FFZLSE/column/WateringNeeds> a dsv:Column ;
+    rdfs:label "WateringNeeds" .
+
+<http://metaUnionSearch/datasets/HorticultureM3FFZLSE/datasetSchema> a dsv:DatasetSchema .
+

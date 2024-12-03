@@ -1,16 +1,4 @@
-;"\
-ExcavationSiteName";"\
-ExcavationSiteType";"\
-Era";"\
-Latitude";"\
-Longitude";"\
-LeadArchaeologist";"\
-SecondaryArchaeologist";"\
-NoOfArtifactsFound";"\
-ArtifactType";"\
-ArtifactDescription";"\
-PreservationStatus";"\
-FieldWorkFundingSource"
+;"\ExcavationSiteName";"\ExcavationSiteType";"\Era";"\Latitude";"\Longitude";"\LeadArchaeologist";"\SecondaryArchaeologist";"\NoOfArtifactsFound";"\ArtifactType";"ArtifactDescription";"\PreservationStatus";"\FieldWorkFundingSource"
 0;"""Pompeii";;;;;;;;;;;
 1;Roman City;;;;;;;;;;;
 2;1st Century CE;;;;;;;;;;;
