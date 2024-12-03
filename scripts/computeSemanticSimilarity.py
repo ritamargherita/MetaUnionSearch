@@ -105,7 +105,7 @@ def main(candidate_folder, query_folder, model, output_filepath):
 if __name__ == "__main__":
     embedding_model = 'all-MiniLM-L6-v2'
     model = SentenceTransformer(embedding_model)
-    candidate_folder = '../metadata/metadata_lake'
-    query_folder = '../metadata/metaquery_lake'
+    candidate_folder = '../data/metadata/simple/metadata_lake'
+    query_folder = '../data/metadata/simple/metaquery_lake'
     output_filepath = '../results/similarities_results.csv'
     main(candidate_folder, query_folder, model, output_filepath)
