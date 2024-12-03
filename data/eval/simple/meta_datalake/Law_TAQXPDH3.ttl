@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_TAQXPDH3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawTAQXPDH3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3/column/AmicusCuriaeFilings> a dsv:Column ;
+    rdfs:label " Amicus Curiae Filings" .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3/column/AppealedtoHigherCourt> a dsv:Column ;
+    rdfs:label " Appealed to Higher Court" .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3/column/CounterclaimsifAny> a dsv:Column ;
+    rdfs:label " Counterclaims (if Any)" .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3/column/CourtDate> a dsv:Column ;
+    rdfs:label "Court Date" .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3/column/CourtroomObserversPublicImpact> a dsv:Column ;
+    rdfs:label " Courtroom Observers & Public Impact" .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3/column/DefendantsNames> a dsv:Column ;
+    rdfs:label " Defendant(s) Names" .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3/column/DefenseArguments> a dsv:Column ;
+    rdfs:label " Defense Arguments" .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3/column/FinalDisposition> a dsv:Column ;
+    rdfs:label " Final Disposition" .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3/column/HigherCourtRulingDetailswhereapplicable> a dsv:Column ;
+    rdfs:label " Higher Court Ruling Details (where applicable)" .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3/column/JudicialOpinionandAnalysis> a dsv:Column ;
+    rdfs:label " Judicial Opinion and Analysis" .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3/column/LegalCaseName> a dsv:Column ;
+    rdfs:label " Legal Case Name" .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3/column/LegislationUnderReview> a dsv:Column ;
+    rdfs:label " Legislation Under Review" .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3/column/PlaintiffsNames> a dsv:Column ;
+    rdfs:label " Plaintiff(s) Names" .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3/column/StatuteViolations> a dsv:Column ;
+    rdfs:label " Statute Violations" .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3/column/TypeofHearing> a dsv:Column ;
+    rdfs:label " Type of Hearing" .
+
+<http://metaUnionSearch/datasets/LawTAQXPDH3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LawTAQXPDH3/column/AmicusCuriaeFilings>,
+        <http://metaUnionSearch/datasets/LawTAQXPDH3/column/AppealedtoHigherCourt>,
+        <http://metaUnionSearch/datasets/LawTAQXPDH3/column/CounterclaimsifAny>,
+        <http://metaUnionSearch/datasets/LawTAQXPDH3/column/CourtDate>,
+        <http://metaUnionSearch/datasets/LawTAQXPDH3/column/CourtroomObserversPublicImpact>,
+        <http://metaUnionSearch/datasets/LawTAQXPDH3/column/DefendantsNames>,
+        <http://metaUnionSearch/datasets/LawTAQXPDH3/column/DefenseArguments>,
+        <http://metaUnionSearch/datasets/LawTAQXPDH3/column/FinalDisposition>,
+        <http://metaUnionSearch/datasets/LawTAQXPDH3/column/HigherCourtRulingDetailswhereapplicable>,
+        <http://metaUnionSearch/datasets/LawTAQXPDH3/column/JudicialOpinionandAnalysis>,
+        <http://metaUnionSearch/datasets/LawTAQXPDH3/column/LegalCaseName>,
+        <http://metaUnionSearch/datasets/LawTAQXPDH3/column/LegislationUnderReview>,
+        <http://metaUnionSearch/datasets/LawTAQXPDH3/column/PlaintiffsNames>,
+        <http://metaUnionSearch/datasets/LawTAQXPDH3/column/StatuteViolations>,
+        <http://metaUnionSearch/datasets/LawTAQXPDH3/column/TypeofHearing> .
+

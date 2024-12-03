@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhilosophyWNPGW90J> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_WNPGW90J.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhilosophyWNPGW90J/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/CenturyFounded> a dsv:Column ;
+    rdfs:label " Century Founded" .
+
+<http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/ContributionstoEthicsETH> a dsv:Column ;
+    rdfs:label " Contributions to Ethics (ETH)" .
+
+<http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/ContributionstoMetaphysicsEpistemologyMETETH> a dsv:Column ;
+    rdfs:label " Contributions to Metaphysics/Epistemology (MET/ETH)" .
+
+<http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/FamousQuotesFQ> a dsv:Column ;
+    rdfs:label " Famous Quotes (FQ)" .
+
+<http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/InfluenceonOtherDisciplinesINFL> a dsv:Column ;
+    rdfs:label " Influence on Other Disciplines (INFL)" .
+
+<http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/KeyCritiquesResponsesKCR> a dsv:Column ;
+    rdfs:label " Key Critiques & Responses (KCR)" .
+
+<http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/MainIdeasBeliefs> a dsv:Column ;
+    rdfs:label " Main Ideas & Beliefs" .
+
+<http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/PhilosophicEra> a dsv:Column ;
+    rdfs:label "Philosophic Era" .
+
+<http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/ProminentSupportersPS> a dsv:Column ;
+    rdfs:label " Prominent Supporters (PS)" .
+
+<http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/RelationtoScienceRTS> a dsv:Column ;
+    rdfs:label " Relation to Science (RTS)" .
+
+<http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/SchoolsOfThought> a dsv:Column ;
+    rdfs:label " * Schools Of Thought*" .
+
+<http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/UnrelatedColumn12> a dsv:Column ;
+    rdfs:label " Unrelated Column 12" .
+
+<http://metaUnionSearch/datasets/PhilosophyWNPGW90J/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/CenturyFounded>,
+        <http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/ContributionstoEthicsETH>,
+        <http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/ContributionstoMetaphysicsEpistemologyMETETH>,
+        <http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/FamousQuotesFQ>,
+        <http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/InfluenceonOtherDisciplinesINFL>,
+        <http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/KeyCritiquesResponsesKCR>,
+        <http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/MainIdeasBeliefs>,
+        <http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/PhilosophicEra>,
+        <http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/ProminentSupportersPS>,
+        <http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/RelationtoScienceRTS>,
+        <http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/SchoolsOfThought>,
+        <http://metaUnionSearch/datasets/PhilosophyWNPGW90J/column/UnrelatedColumn12> .
+

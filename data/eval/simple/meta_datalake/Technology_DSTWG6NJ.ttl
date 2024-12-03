@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologyDSTWG6NJ> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_DSTWG6NJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/AutonomousVehicles> a dsv:Column ;
+    rdfs:label " Autonomous Vehicles" .
+
+<http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/IndustrialIoT> a dsv:Column ;
+    rdfs:label " Industrial IoT" .
+
+<http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/IoTDevices> a dsv:Column ;
+    rdfs:label "IoT Devices" .
+
+<http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/IoTSecurity> a dsv:Column ;
+    rdfs:label " IoT Security" .
+
+<http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/IoTinAgriculture> a dsv:Column ;
+    rdfs:label " IoT in Agriculture" .
+
+<http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/IoTinHealthcare> a dsv:Column ;
+    rdfs:label " IoT in Healthcare" .
+
+<http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/IoTinRetail> a dsv:Column ;
+    rdfs:label " IoT in Retail" .
+
+<http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/SmartCities> a dsv:Column ;
+    rdfs:label " Smart Cities" .
+
+<http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/WearableDevices> a dsv:Column ;
+    rdfs:label " Wearable Devices" .
+
+<http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/WearableTechEthics> a dsv:Column ;
+    rdfs:label " Wearable Tech Ethics" .
+
+<http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/WearableTechPrivacyPolicies> a dsv:Column ;
+    rdfs:label " Wearable Tech Privacy Policies" .
+
+<http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/WearableTechRegulations> a dsv:Column ;
+    rdfs:label " Wearable Tech Regulations" .
+
+<http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/AutonomousVehicles>,
+        <http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/IndustrialIoT>,
+        <http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/IoTDevices>,
+        <http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/IoTSecurity>,
+        <http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/IoTinAgriculture>,
+        <http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/IoTinHealthcare>,
+        <http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/IoTinRetail>,
+        <http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/SmartCities>,
+        <http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/WearableDevices>,
+        <http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/WearableTechEthics>,
+        <http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/WearableTechPrivacyPolicies>,
+        <http://metaUnionSearch/datasets/TechnologyDSTWG6NJ/column/WearableTechRegulations> .
+

@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_2WB0DZ6X.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/ArtificialIntelligence> a dsv:Column ;
+    rdfs:label " Artificial Intelligence" .
+
+<http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/CloudComputingandVirtualization> a dsv:Column ;
+    rdfs:label " Cloud Computing and Virtualization" .
+
+<http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/ComputationalTheory> a dsv:Column ;
+    rdfs:label "Computational Theory" .
+
+<http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/CybersecurityandEncryption> a dsv:Column ;
+    rdfs:label " Cybersecurity and Encryption" .
+
+<http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/DataVisualization> a dsv:Column ;
+    rdfs:label " Data Visualization" .
+
+<http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/EthicsinCS> a dsv:Column ;
+    rdfs:label " Ethics in CS" .
+
+<http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/HumanComputerInteraction> a dsv:Column ;
+    rdfs:label " Human-Computer Interaction" .
+
+<http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/NaturalLanguageProcessing> a dsv:Column ;
+    rdfs:label " Natural Language Processing" .
+
+<http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/ParallelProcessing> a dsv:Column ;
+    rdfs:label " Parallel Processing" .
+
+<http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/ProgramLogicProofs> a dsv:Column ;
+    rdfs:label " Program Logic & Proofs" .
+
+<http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/QuantumComputing> a dsv:Column ;
+    rdfs:label " Quantum Computing" .
+
+<http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/ResearchMethodology> a dsv:Column ;
+    rdfs:label " Research Methodology" .
+
+<http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/SoftwareEngineeringPrinciples> a dsv:Column ;
+    rdfs:label " Software Engineering Principles" .
+
+<http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/ArtificialIntelligence>,
+        <http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/CloudComputingandVirtualization>,
+        <http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/ComputationalTheory>,
+        <http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/CybersecurityandEncryption>,
+        <http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/DataVisualization>,
+        <http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/EthicsinCS>,
+        <http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/HumanComputerInteraction>,
+        <http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/NaturalLanguageProcessing>,
+        <http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/ParallelProcessing>,
+        <http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/ProgramLogicProofs>,
+        <http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/QuantumComputing>,
+        <http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/ResearchMethodology>,
+        <http://metaUnionSearch/datasets/ComputerScience2WB0DZ6X/column/SoftwareEngineeringPrinciples> .
+

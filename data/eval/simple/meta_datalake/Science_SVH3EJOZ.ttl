@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_SVH3EJOZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/CollaboratingInstitutes> a dsv:Column ;
+    rdfs:label " Collaborating\\_Institutes" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Duration> a dsv:Column ;
+    rdfs:label " Duration" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/ExperimentDate> a dsv:Column ;
+    rdfs:label " Experiment\\_Date" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Findings> a dsv:Column ;
+    rdfs:label " Findings" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/FundingAgency> a dsv:Column ;
+    rdfs:label " Funding\\_Agency" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Miscellaneous> a dsv:Column ;
+    rdfs:label " Miscellaneous" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Objective> a dsv:Column ;
+    rdfs:label " Objective" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Observations> a dsv:Column ;
+    rdfs:label " Observations" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Procedure> a dsv:Column ;
+    rdfs:label " Procedure" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/References> a dsv:Column ;
+    rdfs:label " References" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Scientist> a dsv:Column ;
+    rdfs:label "Scientist" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/CollaboratingInstitutes>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Duration>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/ExperimentDate>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Findings>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/FundingAgency>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Miscellaneous>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Objective>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Observations>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Procedure>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/References>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Scientist> .
+

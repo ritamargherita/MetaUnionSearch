@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Psychology72HPOEVB> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_72HPOEVB.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Psychology72HPOEVB/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Psychology72HPOEVB/column/Age> a dsv:Column ;
+    rdfs:label " Age" .
+
+<http://metaUnionSearch/datasets/Psychology72HPOEVB/column/AnnualIncome> a dsv:Column ;
+    rdfs:label " AnnualIncome" .
+
+<http://metaUnionSearch/datasets/Psychology72HPOEVB/column/DateOfBirth> a dsv:Column ;
+    rdfs:label " DateOfBirth" .
+
+<http://metaUnionSearch/datasets/Psychology72HPOEVB/column/EducationLevel> a dsv:Column ;
+    rdfs:label " EducationLevel" .
+
+<http://metaUnionSearch/datasets/Psychology72HPOEVB/column/Gender> a dsv:Column ;
+    rdfs:label " Gender" .
+
+<http://metaUnionSearch/datasets/Psychology72HPOEVB/column/HasChildren> a dsv:Column ;
+    rdfs:label " HasChildren" .
+
+<http://metaUnionSearch/datasets/Psychology72HPOEVB/column/MaritalStatus> a dsv:Column ;
+    rdfs:label " MaritalStatus" .
+
+<http://metaUnionSearch/datasets/Psychology72HPOEVB/column/Occupation> a dsv:Column ;
+    rdfs:label " Occupation" .
+
+<http://metaUnionSearch/datasets/Psychology72HPOEVB/column/PersonalityType> a dsv:Column ;
+    rdfs:label " PersonalityType" .
+
+<http://metaUnionSearch/datasets/Psychology72HPOEVB/column/SubjectID> a dsv:Column ;
+    rdfs:label "SubjectID" .
+
+<http://metaUnionSearch/datasets/Psychology72HPOEVB/column/Trait6> a dsv:Column ;
+    rdfs:label " Trait6" .
+
+<http://metaUnionSearch/datasets/Psychology72HPOEVB/column/Trait7> a dsv:Column ;
+    rdfs:label " Trait7" .
+
+<http://metaUnionSearch/datasets/Psychology72HPOEVB/column/Trait8> a dsv:Column ;
+    rdfs:label " Trait8" .
+
+<http://metaUnionSearch/datasets/Psychology72HPOEVB/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Psychology72HPOEVB/column/Age>,
+        <http://metaUnionSearch/datasets/Psychology72HPOEVB/column/AnnualIncome>,
+        <http://metaUnionSearch/datasets/Psychology72HPOEVB/column/DateOfBirth>,
+        <http://metaUnionSearch/datasets/Psychology72HPOEVB/column/EducationLevel>,
+        <http://metaUnionSearch/datasets/Psychology72HPOEVB/column/Gender>,
+        <http://metaUnionSearch/datasets/Psychology72HPOEVB/column/HasChildren>,
+        <http://metaUnionSearch/datasets/Psychology72HPOEVB/column/MaritalStatus>,
+        <http://metaUnionSearch/datasets/Psychology72HPOEVB/column/Occupation>,
+        <http://metaUnionSearch/datasets/Psychology72HPOEVB/column/PersonalityType>,
+        <http://metaUnionSearch/datasets/Psychology72HPOEVB/column/SubjectID>,
+        <http://metaUnionSearch/datasets/Psychology72HPOEVB/column/Trait6>,
+        <http://metaUnionSearch/datasets/Psychology72HPOEVB/column/Trait7>,
+        <http://metaUnionSearch/datasets/Psychology72HPOEVB/column/Trait8> .
+

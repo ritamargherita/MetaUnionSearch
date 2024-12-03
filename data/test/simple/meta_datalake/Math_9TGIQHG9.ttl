@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Math9TGIQHG9> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_9TGIQHG9.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Math9TGIQHG9/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Math9TGIQHG9/column/AlgebraicExpressions> a dsv:Column ;
+    rdfs:label "\"Algebraic Expressions\"" .
+
+<http://metaUnionSearch/datasets/Math9TGIQHG9/column/FractionsDecimals> a dsv:Column ;
+    rdfs:label "\"Fractions & Decimals\"" .
+
+<http://metaUnionSearch/datasets/Math9TGIQHG9/column/GeometryMeasurements> a dsv:Column ;
+    rdfs:label "\"Geometry - Measurements\"" .
+
+<http://metaUnionSearch/datasets/Math9TGIQHG9/column/GeometryShapes> a dsv:Column ;
+    rdfs:label "\"Geometry - Shapes\"" .
+
+<http://metaUnionSearch/datasets/Math9TGIQHG9/column/HistoricalContext> a dsv:Column ;
+    rdfs:label "\"Historical Context\"" .
+
+<http://metaUnionSearch/datasets/Math9TGIQHG9/column/Identities> a dsv:Column ;
+    rdfs:label "\"Identities\"" .
+
+<http://metaUnionSearch/datasets/Math9TGIQHG9/column/KeyFigures> a dsv:Column ;
+    rdfs:label "\"Key Figures\"" .
+
+<http://metaUnionSearch/datasets/Math9TGIQHG9/column/MeasurementTools> a dsv:Column ;
+    rdfs:label "\"Measurement Tools\"" .
+
+<http://metaUnionSearch/datasets/Math9TGIQHG9/column/Misconceptions> a dsv:Column ;
+    rdfs:label "\"Misconceptions\"" .
+
+<http://metaUnionSearch/datasets/Math9TGIQHG9/column/NumberType> a dsv:Column ;
+    rdfs:label "\"Number Type\"" .
+
+<http://metaUnionSearch/datasets/Math9TGIQHG9/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Math9TGIQHG9/column/AlgebraicExpressions>,
+        <http://metaUnionSearch/datasets/Math9TGIQHG9/column/FractionsDecimals>,
+        <http://metaUnionSearch/datasets/Math9TGIQHG9/column/GeometryMeasurements>,
+        <http://metaUnionSearch/datasets/Math9TGIQHG9/column/GeometryShapes>,
+        <http://metaUnionSearch/datasets/Math9TGIQHG9/column/HistoricalContext>,
+        <http://metaUnionSearch/datasets/Math9TGIQHG9/column/Identities>,
+        <http://metaUnionSearch/datasets/Math9TGIQHG9/column/KeyFigures>,
+        <http://metaUnionSearch/datasets/Math9TGIQHG9/column/MeasurementTools>,
+        <http://metaUnionSearch/datasets/Math9TGIQHG9/column/Misconceptions>,
+        <http://metaUnionSearch/datasets/Math9TGIQHG9/column/NumberType> .
+

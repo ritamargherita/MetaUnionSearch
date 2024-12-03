@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerScienceEL532UUJ> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_EL532UUJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/ArtificialIntelligence> a dsv:Column ;
+    rdfs:label " Artificial Intelligence" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/CloudComputing> a dsv:Column ;
+    rdfs:label " Cloud Computing" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/DataStructuresAlgorithms> a dsv:Column ;
+    rdfs:label " Data Structures & Algorithms" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/Databases> a dsv:Column ;
+    rdfs:label " Databases" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/FileHandling> a dsv:Column ;
+    rdfs:label " File Handling" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/InformationSecurity> a dsv:Column ;
+    rdfs:label " Information Security" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/MachineLearning> a dsv:Column ;
+    rdfs:label " Machine Learning" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/MemoryManagement> a dsv:Column ;
+    rdfs:label " Memory Management" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/Networking> a dsv:Column ;
+    rdfs:label " Networking" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/OperatingSystems> a dsv:Column ;
+    rdfs:label " Operating Systems" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/ProgrammingFundamentals> a dsv:Column ;
+    rdfs:label "Programming Fundamentals" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/QuantumComputing> a dsv:Column ;
+    rdfs:label " Quantum Computing" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/SoftwareEngineering> a dsv:Column ;
+    rdfs:label " Software Engineering" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/WebDevelopment> a dsv:Column ;
+    rdfs:label " Web Development" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/ArtificialIntelligence>,
+        <http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/CloudComputing>,
+        <http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/DataStructuresAlgorithms>,
+        <http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/Databases>,
+        <http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/FileHandling>,
+        <http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/InformationSecurity>,
+        <http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/MachineLearning>,
+        <http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/MemoryManagement>,
+        <http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/Networking>,
+        <http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/OperatingSystems>,
+        <http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/ProgrammingFundamentals>,
+        <http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/QuantumComputing>,
+        <http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/SoftwareEngineering>,
+        <http://metaUnionSearch/datasets/ComputerScienceEL532UUJ/column/WebDevelopment> .
+

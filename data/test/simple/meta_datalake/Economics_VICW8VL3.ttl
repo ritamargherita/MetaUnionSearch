@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EconomicsVICW8VL3> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_VICW8VL3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EconomicsVICW8VL3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/GrossDomesticProductTrillions> a dsv:Column ;
+    rdfs:label " Gross\\_Domestic\\_Product,\\_Trillions" .
+
+<http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/additionalcolumn1> a dsv:Column ;
+    rdfs:label " additional\\_column1" .
+
+<http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/additionalcolumn2> a dsv:Column ;
+    rdfs:label " additional\\_column2" .
+
+<http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/countrynameFullISO3ALPHAFormat> a dsv:Column ;
+    rdfs:label " country\\_name\\_Full\\_ISO\\_3\\_ALPHA\\_Format" .
+
+<http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/datasource> a dsv:Column ;
+    rdfs:label " data\\_source" .
+
+<http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/industryCodeEconomicActivityNACERev4> a dsv:Column ;
+    rdfs:label " industryCode\\_EconomicActivityNACE\\_Rev4" .
+
+<http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/populationsizeMillionPeople> a dsv:Column ;
+    rdfs:label " population\\_size\\_Million\\_People" .
+
+<http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/sampledescription> a dsv:Column ;
+    rdfs:label " sample\\_description" .
+
+<http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/stateabbreviation> a dsv:Column ;
+    rdfs:label " state\\_abbreviation" .
+
+<http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/timeperiod> a dsv:Column ;
+    rdfs:label "time\\_period" .
+
+<http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/variabletype> a dsv:Column ;
+    rdfs:label " variable\\_type" .
+
+<http://metaUnionSearch/datasets/EconomicsVICW8VL3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/GrossDomesticProductTrillions>,
+        <http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/additionalcolumn1>,
+        <http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/additionalcolumn2>,
+        <http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/countrynameFullISO3ALPHAFormat>,
+        <http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/datasource>,
+        <http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/industryCodeEconomicActivityNACERev4>,
+        <http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/populationsizeMillionPeople>,
+        <http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/sampledescription>,
+        <http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/stateabbreviation>,
+        <http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/timeperiod>,
+        <http://metaUnionSearch/datasets/EconomicsVICW8VL3/column/variabletype> .
+

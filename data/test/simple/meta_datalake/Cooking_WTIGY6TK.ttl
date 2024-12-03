@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CookingWTIGY6TK> a dsv:Dataset ;
+    dcterms:subject "cooking" ;
+    dcterms:title "Cooking_WTIGY6TK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CookingWTIGY6TK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CookingWTIGY6TK/column/AverageMarketPriceperServing> a dsv:Column ;
+    rdfs:label "Average Market Price per Serving" .
+
+<http://metaUnionSearch/datasets/CookingWTIGY6TK/column/ChefName> a dsv:Column ;
+    rdfs:label "Chef Name" .
+
+<http://metaUnionSearch/datasets/CookingWTIGY6TK/column/DoesitContainNuts> a dsv:Column ;
+    rdfs:label "Does it Contain Nuts?" .
+
+<http://metaUnionSearch/datasets/CookingWTIGY6TK/column/EstimatedCostperMeal> a dsv:Column ;
+    rdfs:label "Estimated Cost per Meal" .
+
+<http://metaUnionSearch/datasets/CookingWTIGY6TK/column/IsitVegan> a dsv:Column ;
+    rdfs:label "Is it Vegan?" .
+
+<http://metaUnionSearch/datasets/CookingWTIGY6TK/column/MinimumAgeGroup> a dsv:Column ;
+    rdfs:label "Minimum Age Group" .
+
+<http://metaUnionSearch/datasets/CookingWTIGY6TK/column/NumberofPansUsed> a dsv:Column ;
+    rdfs:label "Number of Pans Used" .
+
+<http://metaUnionSearch/datasets/CookingWTIGY6TK/column/NumberofSocialMediaShares> a dsv:Column ;
+    rdfs:label "Number of Social Media Shares" .
+
+<http://metaUnionSearch/datasets/CookingWTIGY6TK/column/ReviewScorefromUsers> a dsv:Column ;
+    rdfs:label "Review Score from Users" .
+
+<http://metaUnionSearch/datasets/CookingWTIGY6TK/column/Seasonality> a dsv:Column ;
+    rdfs:label "Seasonality" .
+
+<http://metaUnionSearch/datasets/CookingWTIGY6TK/column/TimesViewedonPlatform> a dsv:Column ;
+    rdfs:label "Times Viewed on Platform" .
+
+<http://metaUnionSearch/datasets/CookingWTIGY6TK/column/TrendingLearnabilityIndex> a dsv:Column ;
+    rdfs:label "Trending Learnability Index" .
+
+<http://metaUnionSearch/datasets/CookingWTIGY6TK/column/TypeofFuel> a dsv:Column ;
+    rdfs:label "Type of Fuel" .
+
+<http://metaUnionSearch/datasets/CookingWTIGY6TK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CookingWTIGY6TK/column/AverageMarketPriceperServing>,
+        <http://metaUnionSearch/datasets/CookingWTIGY6TK/column/ChefName>,
+        <http://metaUnionSearch/datasets/CookingWTIGY6TK/column/DoesitContainNuts>,
+        <http://metaUnionSearch/datasets/CookingWTIGY6TK/column/EstimatedCostperMeal>,
+        <http://metaUnionSearch/datasets/CookingWTIGY6TK/column/IsitVegan>,
+        <http://metaUnionSearch/datasets/CookingWTIGY6TK/column/MinimumAgeGroup>,
+        <http://metaUnionSearch/datasets/CookingWTIGY6TK/column/NumberofPansUsed>,
+        <http://metaUnionSearch/datasets/CookingWTIGY6TK/column/NumberofSocialMediaShares>,
+        <http://metaUnionSearch/datasets/CookingWTIGY6TK/column/ReviewScorefromUsers>,
+        <http://metaUnionSearch/datasets/CookingWTIGY6TK/column/Seasonality>,
+        <http://metaUnionSearch/datasets/CookingWTIGY6TK/column/TimesViewedonPlatform>,
+        <http://metaUnionSearch/datasets/CookingWTIGY6TK/column/TrendingLearnabilityIndex>,
+        <http://metaUnionSearch/datasets/CookingWTIGY6TK/column/TypeofFuel> .
+

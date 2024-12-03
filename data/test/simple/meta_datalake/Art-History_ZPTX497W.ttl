@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistoryZPTX497W> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_ZPTX497W.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistoryZPTX497W/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/10CulturalSignificance> a dsv:Column ;
+    rdfs:label "10. Cultural Significance" .
+
+<http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/1MostFamousWorks> a dsv:Column ;
+    rdfs:label "1. Most Famous Works" .
+
+<http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/2NumberOfMajorExhibitions> a dsv:Column ;
+    rdfs:label "2. Number Of Major Exhibitions" .
+
+<http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/3AverageVisitorRating> a dsv:Column ;
+    rdfs:label "3. Average Visitor Rating" .
+
+<http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/4AverageSizem> a dsv:Column ;
+    rdfs:label "4. Average Size (m²)" .
+
+<http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/5MuseumsOwningArtwork> a dsv:Column ;
+    rdfs:label "5. Museums Owning Artwork" .
+
+<http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/6ArtworkCondition> a dsv:Column ;
+    rdfs:label "6. Artwork Condition" .
+
+<http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/7RestorationHistory> a dsv:Column ;
+    rdfs:label "7. Restoration History" .
+
+<http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/8ArtworkProvenance> a dsv:Column ;
+    rdfs:label "8. Artwork Provenance" .
+
+<http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/9SymbolismInArtwork> a dsv:Column ;
+    rdfs:label "9. Symbolism In Artwork" .
+
+<http://metaUnionSearch/datasets/ArtHistoryZPTX497W/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/10CulturalSignificance>,
+        <http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/1MostFamousWorks>,
+        <http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/2NumberOfMajorExhibitions>,
+        <http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/3AverageVisitorRating>,
+        <http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/4AverageSizem>,
+        <http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/5MuseumsOwningArtwork>,
+        <http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/6ArtworkCondition>,
+        <http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/7RestorationHistory>,
+        <http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/8ArtworkProvenance>,
+        <http://metaUnionSearch/datasets/ArtHistoryZPTX497W/column/9SymbolismInArtwork> .
+

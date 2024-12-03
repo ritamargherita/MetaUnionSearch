@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Sociology92K42QPR> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_92K42QPR.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Sociology92K42QPR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Sociology92K42QPR/column/Collaborators> a dsv:Column ;
+    rdfs:label " Collaborators" .
+
+<http://metaUnionSearch/datasets/Sociology92K42QPR/column/ConflictOfInterest> a dsv:Column ;
+    rdfs:label " ConflictOfInterest" .
+
+<http://metaUnionSearch/datasets/Sociology92K42QPR/column/Copyright> a dsv:Column ;
+    rdfs:label " Copyright" .
+
+<http://metaUnionSearch/datasets/Sociology92K42QPR/column/DataQuality> a dsv:Column ;
+    rdfs:label " DataQuality" .
+
+<http://metaUnionSearch/datasets/Sociology92K42QPR/column/DataSharing> a dsv:Column ;
+    rdfs:label " DataSharing" .
+
+<http://metaUnionSearch/datasets/Sociology92K42QPR/column/DataTransformations> a dsv:Column ;
+    rdfs:label " DataTransformations" .
+
+<http://metaUnionSearch/datasets/Sociology92K42QPR/column/FundingSources> a dsv:Column ;
+    rdfs:label " FundingSources" .
+
+<http://metaUnionSearch/datasets/Sociology92K42QPR/column/ResearchParticipants> a dsv:Column ;
+    rdfs:label " ResearchParticipants" .
+
+<http://metaUnionSearch/datasets/Sociology92K42QPR/column/ResearchQuestion> a dsv:Column ;
+    rdfs:label "ResearchQuestion" .
+
+<http://metaUnionSearch/datasets/Sociology92K42QPR/column/ResearchSetting> a dsv:Column ;
+    rdfs:label " ResearchSetting" .
+
+<http://metaUnionSearch/datasets/Sociology92K42QPR/column/ResearcherPositionality> a dsv:Column ;
+    rdfs:label " ResearcherPositionality" .
+
+<http://metaUnionSearch/datasets/Sociology92K42QPR/column/Results> a dsv:Column ;
+    rdfs:label " Results" .
+
+<http://metaUnionSearch/datasets/Sociology92K42QPR/column/StatisticalAnalysis> a dsv:Column ;
+    rdfs:label " StatisticalAnalysis" .
+
+<http://metaUnionSearch/datasets/Sociology92K42QPR/column/Variables> a dsv:Column ;
+    rdfs:label " Variables" .
+
+<http://metaUnionSearch/datasets/Sociology92K42QPR/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Sociology92K42QPR/column/Collaborators>,
+        <http://metaUnionSearch/datasets/Sociology92K42QPR/column/ConflictOfInterest>,
+        <http://metaUnionSearch/datasets/Sociology92K42QPR/column/Copyright>,
+        <http://metaUnionSearch/datasets/Sociology92K42QPR/column/DataQuality>,
+        <http://metaUnionSearch/datasets/Sociology92K42QPR/column/DataSharing>,
+        <http://metaUnionSearch/datasets/Sociology92K42QPR/column/DataTransformations>,
+        <http://metaUnionSearch/datasets/Sociology92K42QPR/column/FundingSources>,
+        <http://metaUnionSearch/datasets/Sociology92K42QPR/column/ResearchParticipants>,
+        <http://metaUnionSearch/datasets/Sociology92K42QPR/column/ResearchQuestion>,
+        <http://metaUnionSearch/datasets/Sociology92K42QPR/column/ResearchSetting>,
+        <http://metaUnionSearch/datasets/Sociology92K42QPR/column/ResearcherPositionality>,
+        <http://metaUnionSearch/datasets/Sociology92K42QPR/column/Results>,
+        <http://metaUnionSearch/datasets/Sociology92K42QPR/column/StatisticalAnalysis>,
+        <http://metaUnionSearch/datasets/Sociology92K42QPR/column/Variables> .
+

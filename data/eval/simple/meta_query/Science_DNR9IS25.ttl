@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ScienceDNR9IS25> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_DNR9IS25.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ScienceDNR9IS25/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ScienceDNR9IS25/column/Analysis> a dsv:Column ;
+    rdfs:label "Analysis" .
+
+<http://metaUnionSearch/datasets/ScienceDNR9IS25/column/ConceptName> a dsv:Column ;
+    rdfs:label "Concept Name" .
+
+<http://metaUnionSearch/datasets/ScienceDNR9IS25/column/Conclusion> a dsv:Column ;
+    rdfs:label "Conclusion" .
+
+<http://metaUnionSearch/datasets/ScienceDNR9IS25/column/Control> a dsv:Column ;
+    rdfs:label "Control" .
+
+<http://metaUnionSearch/datasets/ScienceDNR9IS25/column/Data> a dsv:Column ;
+    rdfs:label "Data" .
+
+<http://metaUnionSearch/datasets/ScienceDNR9IS25/column/Description> a dsv:Column ;
+    rdfs:label "Description" .
+
+<http://metaUnionSearch/datasets/ScienceDNR9IS25/column/Hypothesis> a dsv:Column ;
+    rdfs:label "Hypothesis" .
+
+<http://metaUnionSearch/datasets/ScienceDNR9IS25/column/ScientificDiscipline> a dsv:Column ;
+    rdfs:label "Scientific Discipline" .
+
+<http://metaUnionSearch/datasets/ScienceDNR9IS25/column/Test> a dsv:Column ;
+    rdfs:label "Test" .
+
+<http://metaUnionSearch/datasets/ScienceDNR9IS25/column/Variables> a dsv:Column ;
+    rdfs:label "Variables" .
+
+<http://metaUnionSearch/datasets/ScienceDNR9IS25/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ScienceDNR9IS25/column/Analysis>,
+        <http://metaUnionSearch/datasets/ScienceDNR9IS25/column/ConceptName>,
+        <http://metaUnionSearch/datasets/ScienceDNR9IS25/column/Conclusion>,
+        <http://metaUnionSearch/datasets/ScienceDNR9IS25/column/Control>,
+        <http://metaUnionSearch/datasets/ScienceDNR9IS25/column/Data>,
+        <http://metaUnionSearch/datasets/ScienceDNR9IS25/column/Description>,
+        <http://metaUnionSearch/datasets/ScienceDNR9IS25/column/Hypothesis>,
+        <http://metaUnionSearch/datasets/ScienceDNR9IS25/column/ScientificDiscipline>,
+        <http://metaUnionSearch/datasets/ScienceDNR9IS25/column/Test>,
+        <http://metaUnionSearch/datasets/ScienceDNR9IS25/column/Variables> .
+

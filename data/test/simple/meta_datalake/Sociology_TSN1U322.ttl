@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SociologyTSN1U322> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_TSN1U322.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SociologyTSN1U322/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SociologyTSN1U322/column/DataTransformations> a dsv:Column ;
+    rdfs:label " DataTransformations" .
+
+<http://metaUnionSearch/datasets/SociologyTSN1U322/column/FundingSources> a dsv:Column ;
+    rdfs:label " FundingSources" .
+
+<http://metaUnionSearch/datasets/SociologyTSN1U322/column/Hypotheses> a dsv:Column ;
+    rdfs:label " Hypotheses" .
+
+<http://metaUnionSearch/datasets/SociologyTSN1U322/column/ResearchPresentation> a dsv:Column ;
+    rdfs:label " ResearchPresentation" .
+
+<http://metaUnionSearch/datasets/SociologyTSN1U322/column/ResearchPublication> a dsv:Column ;
+    rdfs:label " ResearchPublication." .
+
+<http://metaUnionSearch/datasets/SociologyTSN1U322/column/ResearchQuestion> a dsv:Column ;
+    rdfs:label " ResearchQuestion" .
+
+<http://metaUnionSearch/datasets/SociologyTSN1U322/column/ResearchSetting> a dsv:Column ;
+    rdfs:label "ResearchSetting" .
+
+<http://metaUnionSearch/datasets/SociologyTSN1U322/column/ResearchSupervisor> a dsv:Column ;
+    rdfs:label " ResearchSupervisor" .
+
+<http://metaUnionSearch/datasets/SociologyTSN1U322/column/ResearchTeam> a dsv:Column ;
+    rdfs:label " ResearchTeam" .
+
+<http://metaUnionSearch/datasets/SociologyTSN1U322/column/ResearchTimeline> a dsv:Column ;
+    rdfs:label " ResearchTimeline" .
+
+<http://metaUnionSearch/datasets/SociologyTSN1U322/column/ResearchType> a dsv:Column ;
+    rdfs:label " ResearchType" .
+
+<http://metaUnionSearch/datasets/SociologyTSN1U322/column/StatisticalTests> a dsv:Column ;
+    rdfs:label " StatisticalTests" .
+
+<http://metaUnionSearch/datasets/SociologyTSN1U322/column/Variables> a dsv:Column ;
+    rdfs:label " Variables" .
+
+<http://metaUnionSearch/datasets/SociologyTSN1U322/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SociologyTSN1U322/column/DataTransformations>,
+        <http://metaUnionSearch/datasets/SociologyTSN1U322/column/FundingSources>,
+        <http://metaUnionSearch/datasets/SociologyTSN1U322/column/Hypotheses>,
+        <http://metaUnionSearch/datasets/SociologyTSN1U322/column/ResearchPresentation>,
+        <http://metaUnionSearch/datasets/SociologyTSN1U322/column/ResearchPublication>,
+        <http://metaUnionSearch/datasets/SociologyTSN1U322/column/ResearchQuestion>,
+        <http://metaUnionSearch/datasets/SociologyTSN1U322/column/ResearchSetting>,
+        <http://metaUnionSearch/datasets/SociologyTSN1U322/column/ResearchSupervisor>,
+        <http://metaUnionSearch/datasets/SociologyTSN1U322/column/ResearchTeam>,
+        <http://metaUnionSearch/datasets/SociologyTSN1U322/column/ResearchTimeline>,
+        <http://metaUnionSearch/datasets/SociologyTSN1U322/column/ResearchType>,
+        <http://metaUnionSearch/datasets/SociologyTSN1U322/column/StatisticalTests>,
+        <http://metaUnionSearch/datasets/SociologyTSN1U322/column/Variables> .
+

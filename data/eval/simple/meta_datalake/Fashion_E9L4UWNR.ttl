@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_E9L4UWNR.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FashionE9L4UWNR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/CulturalImpact> a dsv:Column ;
+    rdfs:label " Cultural Impact" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/DesignerInfluence> a dsv:Column ;
+    rdfs:label " Designer Influence" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/FashionTrendsetter> a dsv:Column ;
+    rdfs:label "Fashion Trendsetter" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/GenderCategory> a dsv:Column ;
+    rdfs:label " Gender Category" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/IconicStatus> a dsv:Column ;
+    rdfs:label " Iconic Status" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/MaterialInnovation> a dsv:Column ;
+    rdfs:label " Material Innovation" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/OriginalRetailCost> a dsv:Column ;
+    rdfs:label " Original Retail Cost" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/ProductionLocation> a dsv:Column ;
+    rdfs:label " Production Location" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/SocialMediaHype> a dsv:Column ;
+    rdfs:label " Social Media Hype" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/SustainabilityRating> a dsv:Column ;
+    rdfs:label " Sustainability Rating" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/TargetMarketIncome> a dsv:Column ;
+    rdfs:label " Target Market Income" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/TrendLifespan> a dsv:Column ;
+    rdfs:label " Trend Lifespan" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/YearLaunched> a dsv:Column ;
+    rdfs:label " Year Launched" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/CulturalImpact>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/DesignerInfluence>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/FashionTrendsetter>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/GenderCategory>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/IconicStatus>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/MaterialInnovation>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/OriginalRetailCost>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/ProductionLocation>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/SocialMediaHype>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/SustainabilityRating>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/TargetMarketIncome>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/TrendLifespan>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/YearLaunched> .
+

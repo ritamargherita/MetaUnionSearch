@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_NO6B9M80.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryNO6B9M80/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/column/Allusions> a dsv:Column ;
+    rdfs:label " Allusions" .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/column/Author> a dsv:Column ;
+    rdfs:label " Author" .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/column/EmotionalAppeal> a dsv:Column ;
+    rdfs:label " Emotional Appeal" .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/column/FreeVerse> a dsv:Column ;
+    rdfs:label " Free Verse?" .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/column/GenreClassification> a dsv:Column ;
+    rdfs:label " Genre Classification" .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/column/ImageryandSymbolism> a dsv:Column ;
+    rdfs:label " Imagery and Symbolism" .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/column/LiteraryDevicesUsed> a dsv:Column ;
+    rdfs:label " Literary Devices Used" .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/column/MetaphorUsage> a dsv:Column ;
+    rdfs:label " Metaphor Usage" .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/column/RhetoricalQuestions> a dsv:Column ;
+    rdfs:label " Rhetorical Questions" .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/column/RhymeScheme> a dsv:Column ;
+    rdfs:label " Rhyme Scheme" .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/column/StanzaCount> a dsv:Column ;
+    rdfs:label " Stanza Count" .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/column/SyntaxPlay> a dsv:Column ;
+    rdfs:label " Syntax Play" .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/column/ThemeDevelopment> a dsv:Column ;
+    rdfs:label " Theme Development" .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/column/Title> a dsv:Column ;
+    rdfs:label "Title" .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/column/ToneVariation> a dsv:Column ;
+    rdfs:label " Tone Variation" .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/column/WordChoice> a dsv:Column ;
+    rdfs:label " Word Choice" .
+
+<http://metaUnionSearch/datasets/PoetryNO6B9M80/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryNO6B9M80/column/Allusions>,
+        <http://metaUnionSearch/datasets/PoetryNO6B9M80/column/Author>,
+        <http://metaUnionSearch/datasets/PoetryNO6B9M80/column/EmotionalAppeal>,
+        <http://metaUnionSearch/datasets/PoetryNO6B9M80/column/FreeVerse>,
+        <http://metaUnionSearch/datasets/PoetryNO6B9M80/column/GenreClassification>,
+        <http://metaUnionSearch/datasets/PoetryNO6B9M80/column/ImageryandSymbolism>,
+        <http://metaUnionSearch/datasets/PoetryNO6B9M80/column/LiteraryDevicesUsed>,
+        <http://metaUnionSearch/datasets/PoetryNO6B9M80/column/MetaphorUsage>,
+        <http://metaUnionSearch/datasets/PoetryNO6B9M80/column/RhetoricalQuestions>,
+        <http://metaUnionSearch/datasets/PoetryNO6B9M80/column/RhymeScheme>,
+        <http://metaUnionSearch/datasets/PoetryNO6B9M80/column/StanzaCount>,
+        <http://metaUnionSearch/datasets/PoetryNO6B9M80/column/SyntaxPlay>,
+        <http://metaUnionSearch/datasets/PoetryNO6B9M80/column/ThemeDevelopment>,
+        <http://metaUnionSearch/datasets/PoetryNO6B9M80/column/Title>,
+        <http://metaUnionSearch/datasets/PoetryNO6B9M80/column/ToneVariation>,
+        <http://metaUnionSearch/datasets/PoetryNO6B9M80/column/WordChoice> .
+

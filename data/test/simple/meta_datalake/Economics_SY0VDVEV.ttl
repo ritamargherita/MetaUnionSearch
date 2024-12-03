@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EconomicsSY0VDVEV> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_SY0VDVEV.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EconomicsSY0VDVEV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/additionalcomments> a dsv:Column ;
+    rdfs:label " additional_comments" .
+
+<http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/dataversion> a dsv:Column ;
+    rdfs:label " data_version" .
+
+<http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/economicsector> a dsv:Column ;
+    rdfs:label " economic_sector" .
+
+<http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/indicatorcode> a dsv:Column ;
+    rdfs:label " indicator_code" .
+
+<http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/malelaborforceparticipation> a dsv:Column ;
+    rdfs:label " male_labor_force_participation" .
+
+<http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/notes> a dsv:Column ;
+    rdfs:label " notes" .
+
+<http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/populationdensity> a dsv:Column ;
+    rdfs:label " population_density" .
+
+<http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/quarter> a dsv:Column ;
+    rdfs:label " quarter" .
+
+<http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/regionname> a dsv:Column ;
+    rdfs:label " region_name" .
+
+<http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/researchdepartment> a dsv:Column ;
+    rdfs:label " research_department" .
+
+<http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/sampledescription> a dsv:Column ;
+    rdfs:label " sample_description" .
+
+<http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/urbanizationrate> a dsv:Column ;
+    rdfs:label " urbanization_rate" .
+
+<http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/variablecategory> a dsv:Column ;
+    rdfs:label " variable_category" .
+
+<http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/year> a dsv:Column ;
+    rdfs:label "year" .
+
+<http://metaUnionSearch/datasets/EconomicsSY0VDVEV/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/additionalcomments>,
+        <http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/dataversion>,
+        <http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/economicsector>,
+        <http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/indicatorcode>,
+        <http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/malelaborforceparticipation>,
+        <http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/notes>,
+        <http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/populationdensity>,
+        <http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/quarter>,
+        <http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/regionname>,
+        <http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/researchdepartment>,
+        <http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/sampledescription>,
+        <http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/urbanizationrate>,
+        <http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/variablecategory>,
+        <http://metaUnionSearch/datasets/EconomicsSY0VDVEV/column/year> .
+

@@ -1,0 +1,79 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_YMQC1A78.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SociologyYMQC1A78/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/AdditionalDataMethod1> a dsv:Column ;
+    rdfs:label " AdditionalDataMethod1" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/AdditionalDataMethod2> a dsv:Column ;
+    rdfs:label " AdditionalDataMethod2" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/Conclusion> a dsv:Column ;
+    rdfs:label " Conclusion" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/ContributionToSociologicalTheory> a dsv:Column ;
+    rdfs:label " ContributionToSociologicalTheory" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/DataAnalysisPlan> a dsv:Column ;
+    rdfs:label " DataAnalysisPlan" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/DataCollectionMethod> a dsv:Column ;
+    rdfs:label " DataCollectionMethod" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/FindingsOfAdditionalMethods> a dsv:Column ;
+    rdfs:label " FindingsOfAdditionalMethods" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/FutureResearch> a dsv:Column ;
+    rdfs:label " FutureResearch" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/Limitations> a dsv:Column ;
+    rdfs:label " Limitations" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/Population> a dsv:Column ;
+    rdfs:label " Population" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/References> a dsv:Column ;
+    rdfs:label " References" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/Replicability> a dsv:Column ;
+    rdfs:label " Replicability" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/ResearchDesign> a dsv:Column ;
+    rdfs:label " ResearchDesign" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/ResearchEthics> a dsv:Column ;
+    rdfs:label " ResearchEthics" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/SampleSize> a dsv:Column ;
+    rdfs:label " SampleSize" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/SamplingStrategy> a dsv:Column ;
+    rdfs:label " SamplingStrategy" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/column/SociologicalTheory> a dsv:Column ;
+    rdfs:label "SociologicalTheory" .
+
+<http://metaUnionSearch/datasets/SociologyYMQC1A78/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/AdditionalDataMethod1>,
+        <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/AdditionalDataMethod2>,
+        <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/Conclusion>,
+        <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/ContributionToSociologicalTheory>,
+        <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/DataAnalysisPlan>,
+        <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/DataCollectionMethod>,
+        <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/FindingsOfAdditionalMethods>,
+        <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/FutureResearch>,
+        <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/Limitations>,
+        <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/Population>,
+        <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/References>,
+        <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/Replicability>,
+        <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/ResearchDesign>,
+        <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/ResearchEthics>,
+        <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/SampleSize>,
+        <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/SamplingStrategy>,
+        <http://metaUnionSearch/datasets/SociologyYMQC1A78/column/SociologicalTheory> .
+

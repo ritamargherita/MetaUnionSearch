@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CookingSXU1HGCA> a dsv:Dataset ;
+    dcterms:subject "cooking" ;
+    dcterms:title "Cooking_SXU1HGCA.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CookingSXU1HGCA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CookingSXU1HGCA/column/AverageCost> a dsv:Column ;
+    rdfs:label " Average Cost" .
+
+<http://metaUnionSearch/datasets/CookingSXU1HGCA/column/CookTime> a dsv:Column ;
+    rdfs:label " Cook Time" .
+
+<http://metaUnionSearch/datasets/CookingSXU1HGCA/column/CuisineType> a dsv:Column ;
+    rdfs:label " Cuisine Type" .
+
+<http://metaUnionSearch/datasets/CookingSXU1HGCA/column/Ingredient2AdditionalIngredients> a dsv:Column ;
+    rdfs:label " Ingredient 2|Additional Ingredients" .
+
+<http://metaUnionSearch/datasets/CookingSXU1HGCA/column/IngredientSource> a dsv:Column ;
+    rdfs:label " Ingredient Source" .
+
+<http://metaUnionSearch/datasets/CookingSXU1HGCA/column/MainIngredient> a dsv:Column ;
+    rdfs:label " Main Ingredient" .
+
+<http://metaUnionSearch/datasets/CookingSXU1HGCA/column/PrepTime> a dsv:Column ;
+    rdfs:label " Prep Time" .
+
+<http://metaUnionSearch/datasets/CookingSXU1HGCA/column/PrepTools> a dsv:Column ;
+    rdfs:label " Prep Tools" .
+
+<http://metaUnionSearch/datasets/CookingSXU1HGCA/column/RecipeSuggestions> a dsv:Column ;
+    rdfs:label "Recipe Suggestions" .
+
+<http://metaUnionSearch/datasets/CookingSXU1HGCA/column/Servings> a dsv:Column ;
+    rdfs:label " Servings" .
+
+<http://metaUnionSearch/datasets/CookingSXU1HGCA/column/SkillLevel> a dsv:Column ;
+    rdfs:label " Skill Level" .
+
+<http://metaUnionSearch/datasets/CookingSXU1HGCA/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CookingSXU1HGCA/column/AverageCost>,
+        <http://metaUnionSearch/datasets/CookingSXU1HGCA/column/CookTime>,
+        <http://metaUnionSearch/datasets/CookingSXU1HGCA/column/CuisineType>,
+        <http://metaUnionSearch/datasets/CookingSXU1HGCA/column/Ingredient2AdditionalIngredients>,
+        <http://metaUnionSearch/datasets/CookingSXU1HGCA/column/IngredientSource>,
+        <http://metaUnionSearch/datasets/CookingSXU1HGCA/column/MainIngredient>,
+        <http://metaUnionSearch/datasets/CookingSXU1HGCA/column/PrepTime>,
+        <http://metaUnionSearch/datasets/CookingSXU1HGCA/column/PrepTools>,
+        <http://metaUnionSearch/datasets/CookingSXU1HGCA/column/RecipeSuggestions>,
+        <http://metaUnionSearch/datasets/CookingSXU1HGCA/column/Servings>,
+        <http://metaUnionSearch/datasets/CookingSXU1HGCA/column/SkillLevel> .
+

@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SociologyH3I379U2> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_H3I379U2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SociologyH3I379U2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SociologyH3I379U2/column/CriticismsAndDebates> a dsv:Column ;
+    rdfs:label " CriticismsAndDebates" .
+
+<http://metaUnionSearch/datasets/SociologyH3I379U2/column/HistoricalDevelopment> a dsv:Column ;
+    rdfs:label " HistoricalDevelopment" .
+
+<http://metaUnionSearch/datasets/SociologyH3I379U2/column/InfluentialStudies> a dsv:Column ;
+    rdfs:label " InfluentialStudies" .
+
+<http://metaUnionSearch/datasets/SociologyH3I379U2/column/KeyConcepts> a dsv:Column ;
+    rdfs:label " KeyConcepts" .
+
+<http://metaUnionSearch/datasets/SociologyH3I379U2/column/MajorContributors> a dsv:Column ;
+    rdfs:label " MajorContributors" .
+
+<http://metaUnionSearch/datasets/SociologyH3I379U2/column/MethodologicalApproaches> a dsv:Column ;
+    rdfs:label " MethodologicalApproaches" .
+
+<http://metaUnionSearch/datasets/SociologyH3I379U2/column/PolicyImplications> a dsv:Column ;
+    rdfs:label " PolicyImplications" .
+
+<http://metaUnionSearch/datasets/SociologyH3I379U2/column/PracticalApplications> a dsv:Column ;
+    rdfs:label " PracticalApplications" .
+
+<http://metaUnionSearch/datasets/SociologyH3I379U2/column/ResearchCommunities> a dsv:Column ;
+    rdfs:label " ResearchCommunities" .
+
+<http://metaUnionSearch/datasets/SociologyH3I379U2/column/SociologicalPerspectives> a dsv:Column ;
+    rdfs:label "SociologicalPerspectives" .
+
+<http://metaUnionSearch/datasets/SociologyH3I379U2/column/TeachingResources> a dsv:Column ;
+    rdfs:label " TeachingResources" .
+
+<http://metaUnionSearch/datasets/SociologyH3I379U2/column/TechnologicalImplications> a dsv:Column ;
+    rdfs:label " TechnologicalImplications" .
+
+<http://metaUnionSearch/datasets/SociologyH3I379U2/column/TheoreticalIntegration> a dsv:Column ;
+    rdfs:label " TheoreticalIntegration" .
+
+<http://metaUnionSearch/datasets/SociologyH3I379U2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SociologyH3I379U2/column/CriticismsAndDebates>,
+        <http://metaUnionSearch/datasets/SociologyH3I379U2/column/HistoricalDevelopment>,
+        <http://metaUnionSearch/datasets/SociologyH3I379U2/column/InfluentialStudies>,
+        <http://metaUnionSearch/datasets/SociologyH3I379U2/column/KeyConcepts>,
+        <http://metaUnionSearch/datasets/SociologyH3I379U2/column/MajorContributors>,
+        <http://metaUnionSearch/datasets/SociologyH3I379U2/column/MethodologicalApproaches>,
+        <http://metaUnionSearch/datasets/SociologyH3I379U2/column/PolicyImplications>,
+        <http://metaUnionSearch/datasets/SociologyH3I379U2/column/PracticalApplications>,
+        <http://metaUnionSearch/datasets/SociologyH3I379U2/column/ResearchCommunities>,
+        <http://metaUnionSearch/datasets/SociologyH3I379U2/column/SociologicalPerspectives>,
+        <http://metaUnionSearch/datasets/SociologyH3I379U2/column/TeachingResources>,
+        <http://metaUnionSearch/datasets/SociologyH3I379U2/column/TechnologicalImplications>,
+        <http://metaUnionSearch/datasets/SociologyH3I379U2/column/TheoreticalIntegration> .
+

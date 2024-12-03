@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeneticsXTUFDJKD> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_XTUFDJKD.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeneticsXTUFDJKD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/AdditionalInformation> a dsv:Column ;
+    rdfs:label " Additional Information" .
+
+<http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/AnimalModelsUsed> a dsv:Column ;
+    rdfs:label " Animal Models Used" .
+
+<http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/AverageAgeOfOnset> a dsv:Column ;
+    rdfs:label " Average Age Of Onset" .
+
+<http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/ChromosomeRegion> a dsv:Column ;
+    rdfs:label " Chromosome Region" .
+
+<http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/DiagnosticMarkers> a dsv:Column ;
+    rdfs:label " Diagnostic Markers" .
+
+<http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/Expressivity> a dsv:Column ;
+    rdfs:label " Expressivity%" .
+
+<http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/GeneName> a dsv:Column ;
+    rdfs:label " Gene Name" .
+
+<http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/GenesAffectingTraits> a dsv:Column ;
+    rdfs:label "Genes Affecting Traits" .
+
+<http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/LocusHeterogeneity> a dsv:Column ;
+    rdfs:label " Locus Heterogeneity?" .
+
+<http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/OtherClinicalFeatures> a dsv:Column ;
+    rdfs:label " Other Clinical Features" .
+
+<http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/Penetrance> a dsv:Column ;
+    rdfs:label " Penetrance%" .
+
+<http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/PopulationFrequency> a dsv:Column ;
+    rdfs:label " Population Frequency" .
+
+<http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/ProteinFunction> a dsv:Column ;
+    rdfs:label " Protein Function" .
+
+<http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/RelatedConditions> a dsv:Column ;
+    rdfs:label " Related Conditions" .
+
+<http://metaUnionSearch/datasets/GeneticsXTUFDJKD/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/AdditionalInformation>,
+        <http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/AnimalModelsUsed>,
+        <http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/AverageAgeOfOnset>,
+        <http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/ChromosomeRegion>,
+        <http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/DiagnosticMarkers>,
+        <http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/Expressivity>,
+        <http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/GeneName>,
+        <http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/GenesAffectingTraits>,
+        <http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/LocusHeterogeneity>,
+        <http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/OtherClinicalFeatures>,
+        <http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/Penetrance>,
+        <http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/PopulationFrequency>,
+        <http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/ProteinFunction>,
+        <http://metaUnionSearch/datasets/GeneticsXTUFDJKD/column/RelatedConditions> .
+

@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_CW8VL34L.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BusinessCW8VL34L/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L/column/AnnualExpense> a dsv:Column ;
+    rdfs:label "Annual Expense" .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L/column/AnnualRevenue> a dsv:Column ;
+    rdfs:label "Annual Revenue" .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L/column/BusinessFinancialAnalysis> a dsv:Column ;
+    rdfs:label "BusinessFinancialAnalysis" .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L/column/CensusClassificationCodeegNAICS> a dsv:Column ;
+    rdfs:label "Census Classification Code (e.g., NAICS)" .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L/column/CompanyName> a dsv:Column ;
+    rdfs:label "Company Name" .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L/column/CurrentAssetValue> a dsv:Column ;
+    rdfs:label "Current Asset Value" .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L/column/CurrentLiabilityValue> a dsv:Column ;
+    rdfs:label "Current Liability Value" .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L/column/EBITDAMargin> a dsv:Column ;
+    rdfs:label "EBITDA Margin" .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L/column/GrossMargin> a dsv:Column ;
+    rdfs:label "Gross Margin" .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L/column/InterestCoverageRatio> a dsv:Column ;
+    rdfs:label "Interest Coverage Ratio %" .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L/column/NetProfitMargin> a dsv:Column ;
+    rdfs:label "Net Profit Margin" .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L/column/NetWorth> a dsv:Column ;
+    rdfs:label "Net Worth" .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L/column/ProfitabilityRatio> a dsv:Column ;
+    rdfs:label "Profitability Ratio" .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L/column/ReturnonInvestmentROI> a dsv:Column ;
+    rdfs:label "Return on Investment (ROI) %" .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L/column/RevenueGrowthRate> a dsv:Column ;
+    rdfs:label "Revenue Growth Rate" .
+
+<http://metaUnionSearch/datasets/BusinessCW8VL34L/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BusinessCW8VL34L/column/AnnualExpense>,
+        <http://metaUnionSearch/datasets/BusinessCW8VL34L/column/AnnualRevenue>,
+        <http://metaUnionSearch/datasets/BusinessCW8VL34L/column/BusinessFinancialAnalysis>,
+        <http://metaUnionSearch/datasets/BusinessCW8VL34L/column/CensusClassificationCodeegNAICS>,
+        <http://metaUnionSearch/datasets/BusinessCW8VL34L/column/CompanyName>,
+        <http://metaUnionSearch/datasets/BusinessCW8VL34L/column/CurrentAssetValue>,
+        <http://metaUnionSearch/datasets/BusinessCW8VL34L/column/CurrentLiabilityValue>,
+        <http://metaUnionSearch/datasets/BusinessCW8VL34L/column/EBITDAMargin>,
+        <http://metaUnionSearch/datasets/BusinessCW8VL34L/column/GrossMargin>,
+        <http://metaUnionSearch/datasets/BusinessCW8VL34L/column/InterestCoverageRatio>,
+        <http://metaUnionSearch/datasets/BusinessCW8VL34L/column/NetProfitMargin>,
+        <http://metaUnionSearch/datasets/BusinessCW8VL34L/column/NetWorth>,
+        <http://metaUnionSearch/datasets/BusinessCW8VL34L/column/ProfitabilityRatio>,
+        <http://metaUnionSearch/datasets/BusinessCW8VL34L/column/ReturnonInvestmentROI>,
+        <http://metaUnionSearch/datasets/BusinessCW8VL34L/column/RevenueGrowthRate> .
+

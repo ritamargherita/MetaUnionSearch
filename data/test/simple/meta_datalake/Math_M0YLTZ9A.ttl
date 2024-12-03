@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_M0YLTZ9A.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathM0YLTZ9A/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A/column/AssessmentMethods> a dsv:Column ;
+    rdfs:label " \"Assessment Methods\"" .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A/column/ConferencesandWorkshops> a dsv:Column ;
+    rdfs:label " \"Conferences and Workshops\"" .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A/column/FamousMathProblems> a dsv:Column ;
+    rdfs:label " \"Famous Math Problems\"" .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A/column/HistoricalTheorems> a dsv:Column ;
+    rdfs:label " \"Historical Theorems\"" .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A/column/LearningStrategies> a dsv:Column ;
+    rdfs:label " \"Learning Strategies\"" .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A/column/MathSoftware> a dsv:Column ;
+    rdfs:label " \"Math Software\"" .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A/column/MathematicalModels> a dsv:Column ;
+    rdfs:label " \"Mathematical Models\"" .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A/column/MathematicalStructures> a dsv:Column ;
+    rdfs:label " \"Mathematical Structures\"" .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A/column/MathinPopCulture> a dsv:Column ;
+    rdfs:label " \"Math in Pop Culture\"" .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A/column/ProblemsandSolutions> a dsv:Column ;
+    rdfs:label "\"Problems and Solutions\"" .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A/column/ProfessionalOrganizations> a dsv:Column ;
+    rdfs:label " \"Professional Organizations\"" .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A/column/PuzzlesandGames> a dsv:Column ;
+    rdfs:label " \"Puzzles and Games\"" .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A/column/ResearchTopics> a dsv:Column ;
+    rdfs:label " \"Research Topics\"" .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A/column/TeachingTechniques> a dsv:Column ;
+    rdfs:label " \"Teaching Techniques\"" .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A/column/TechnicalVocabulary> a dsv:Column ;
+    rdfs:label " \"Technical Vocabulary\"" .
+
+<http://metaUnionSearch/datasets/MathM0YLTZ9A/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MathM0YLTZ9A/column/AssessmentMethods>,
+        <http://metaUnionSearch/datasets/MathM0YLTZ9A/column/ConferencesandWorkshops>,
+        <http://metaUnionSearch/datasets/MathM0YLTZ9A/column/FamousMathProblems>,
+        <http://metaUnionSearch/datasets/MathM0YLTZ9A/column/HistoricalTheorems>,
+        <http://metaUnionSearch/datasets/MathM0YLTZ9A/column/LearningStrategies>,
+        <http://metaUnionSearch/datasets/MathM0YLTZ9A/column/MathSoftware>,
+        <http://metaUnionSearch/datasets/MathM0YLTZ9A/column/MathematicalModels>,
+        <http://metaUnionSearch/datasets/MathM0YLTZ9A/column/MathematicalStructures>,
+        <http://metaUnionSearch/datasets/MathM0YLTZ9A/column/MathinPopCulture>,
+        <http://metaUnionSearch/datasets/MathM0YLTZ9A/column/ProblemsandSolutions>,
+        <http://metaUnionSearch/datasets/MathM0YLTZ9A/column/ProfessionalOrganizations>,
+        <http://metaUnionSearch/datasets/MathM0YLTZ9A/column/PuzzlesandGames>,
+        <http://metaUnionSearch/datasets/MathM0YLTZ9A/column/ResearchTopics>,
+        <http://metaUnionSearch/datasets/MathM0YLTZ9A/column/TeachingTechniques>,
+        <http://metaUnionSearch/datasets/MathM0YLTZ9A/column/TechnicalVocabulary> .
+

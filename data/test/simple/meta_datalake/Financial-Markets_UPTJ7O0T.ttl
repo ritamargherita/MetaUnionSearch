@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T> a dsv:Dataset ;
+    dcterms:subject "financial-markets" ;
+    dcterms:title "Financial-Markets_UPTJ7O0T.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/BondTypes> a dsv:Column ;
+    rdfs:label "Bond Types" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/BusinessInvestments> a dsv:Column ;
+    rdfs:label "Business Investments" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/CentralBankInterventions> a dsv:Column ;
+    rdfs:label "Central Bank Interventions" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/CommodityPrices> a dsv:Column ;
+    rdfs:label "Commodity Prices" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/ConsumerSpending> a dsv:Column ;
+    rdfs:label "Consumer Spending" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/CorporateEarnings> a dsv:Column ;
+    rdfs:label "Corporate Earnings" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/DerivativesFutures> a dsv:Column ;
+    rdfs:label "Derivatives (Futures)" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/DerivativesOptions> a dsv:Column ;
+    rdfs:label "Derivatives (Options)" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/Exchanges> a dsv:Column ;
+    rdfs:label "Exchanges" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/GovernmentExpenditure> a dsv:Column ;
+    rdfs:label "Government Expenditure" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/MonetaryPolicy> a dsv:Column ;
+    rdfs:label "Monetary Policy" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/PersonalSavingsRate> a dsv:Column ;
+    rdfs:label "Personal Savings Rate" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/PoliticalStabilityIndex> a dsv:Column ;
+    rdfs:label "Political Stability Index" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/TaxRevenue> a dsv:Column ;
+    rdfs:label "Tax Revenue" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/YearsToMaturity> a dsv:Column ;
+    rdfs:label "Years To Maturity" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/BondTypes>,
+        <http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/BusinessInvestments>,
+        <http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/CentralBankInterventions>,
+        <http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/CommodityPrices>,
+        <http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/ConsumerSpending>,
+        <http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/CorporateEarnings>,
+        <http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/DerivativesFutures>,
+        <http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/DerivativesOptions>,
+        <http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/Exchanges>,
+        <http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/GovernmentExpenditure>,
+        <http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/MonetaryPolicy>,
+        <http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/PersonalSavingsRate>,
+        <http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/PoliticalStabilityIndex>,
+        <http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/TaxRevenue>,
+        <http://metaUnionSearch/datasets/FinancialMarketsUPTJ7O0T/column/YearsToMaturity> .
+

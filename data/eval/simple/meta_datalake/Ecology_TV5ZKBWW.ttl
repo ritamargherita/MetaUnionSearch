@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_TV5ZKBWW.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EcologyTV5ZKBWW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/AdditionalCharacteristics> a dsv:Column ;
+    rdfs:label " Additional Characteristics" .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/AtmosphericConditions> a dsv:Column ;
+    rdfs:label " Atmospheric Conditions" .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/BiodiversityMetrics> a dsv:Column ;
+    rdfs:label " Biodiversity Metrics" .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/ConservationEfforts> a dsv:Column ;
+    rdfs:label " Conservation Efforts" .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/EconomicValue> a dsv:Column ;
+    rdfs:label " Economic Value" .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/EcosystemInteractions> a dsv:Column ;
+    rdfs:label " Ecosystem Interactions" .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/GroundComposition> a dsv:Column ;
+    rdfs:label " Ground Composition" .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/HumanPresence> a dsv:Column ;
+    rdfs:label " Human Presence" .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/LegislationPolicies> a dsv:Column ;
+    rdfs:label " Legislation & Policies" .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/ManagementTechniques> a dsv:Column ;
+    rdfs:label " Management Techniques" .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/PublicPerception> a dsv:Column ;
+    rdfs:label " Public Perception" .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/SecondaryHabitat> a dsv:Column ;
+    rdfs:label "Secondary Habitat" .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/SocioCulturalImpact> a dsv:Column ;
+    rdfs:label " Socio-Cultural Impact" .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/TerrainFeatures> a dsv:Column ;
+    rdfs:label " Terrain Features" .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/WaterSources> a dsv:Column ;
+    rdfs:label " Water Sources" .
+
+<http://metaUnionSearch/datasets/EcologyTV5ZKBWW/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/AdditionalCharacteristics>,
+        <http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/AtmosphericConditions>,
+        <http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/BiodiversityMetrics>,
+        <http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/ConservationEfforts>,
+        <http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/EconomicValue>,
+        <http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/EcosystemInteractions>,
+        <http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/GroundComposition>,
+        <http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/HumanPresence>,
+        <http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/LegislationPolicies>,
+        <http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/ManagementTechniques>,
+        <http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/PublicPerception>,
+        <http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/SecondaryHabitat>,
+        <http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/SocioCulturalImpact>,
+        <http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/TerrainFeatures>,
+        <http://metaUnionSearch/datasets/EcologyTV5ZKBWW/column/WaterSources> .
+

@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeography103DGDZV> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_103DGDZV.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeography103DGDZV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/CityName> a dsv:Column ;
+    rdfs:label "\"City Name\"" .
+
+<http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/Continent> a dsv:Column ;
+    rdfs:label " \"Continent\"" .
+
+<http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/CountryName> a dsv:Column ;
+    rdfs:label " \"CountryName\"" .
+
+<http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/Currency> a dsv:Column ;
+    rdfs:label " \"Currency\"" .
+
+<http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/CurrencyCode> a dsv:Column ;
+    rdfs:label " \"Currency Code\"" .
+
+<http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/MainIndustryies> a dsv:Column ;
+    rdfs:label " \"Main Industry(ies)\"" .
+
+<http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/MeanElevation> a dsv:Column ;
+    rdfs:label " \"Mean Elevation\"" .
+
+<http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/MetroPop> a dsv:Column ;
+    rdfs:label "\"Metro Pop.\"" .
+
+<http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/PhonePrefixcountrycode> a dsv:Column ;
+    rdfs:label " \"Phone Prefix\"+(\"country code\")" .
+
+<http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/StateorProvince> a dsv:Column ;
+    rdfs:label " \"State or Province\"" .
+
+<http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/Timezone> a dsv:Column ;
+    rdfs:label " \"Timezone\"" .
+
+<http://metaUnionSearch/datasets/WorldGeography103DGDZV/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/CityName>,
+        <http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/Continent>,
+        <http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/CountryName>,
+        <http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/Currency>,
+        <http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/CurrencyCode>,
+        <http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/MainIndustryies>,
+        <http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/MeanElevation>,
+        <http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/MetroPop>,
+        <http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/PhonePrefixcountrycode>,
+        <http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/StateorProvince>,
+        <http://metaUnionSearch/datasets/WorldGeography103DGDZV/column/Timezone> .
+

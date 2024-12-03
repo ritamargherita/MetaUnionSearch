@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_IE3CSMCM.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BusinessIE3CSMCM/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/AnnualRevenue> a dsv:Column ;
+    rdfs:label "Annual Revenue" .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/BusinessAnalyticsDossier> a dsv:Column ;
+    rdfs:label "BusinessAnalyticsDossier" .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/CensusClassificationCodeegNAICS> a dsv:Column ;
+    rdfs:label "Census Classification Code (e.g., NAICS)" .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/CompanyName> a dsv:Column ;
+    rdfs:label "Company Name" .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/Demographics> a dsv:Column ;
+    rdfs:label "Demographics" .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/EmployeeCount> a dsv:Column ;
+    rdfs:label "Employee Count" .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/GeographicLocation> a dsv:Column ;
+    rdfs:label "Geographic Location" .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/GrowthMomentum> a dsv:Column ;
+    rdfs:label "Growth Momentum" .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/IndustryDivision> a dsv:Column ;
+    rdfs:label "Industry Division" .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/MarketSituationalAwareness> a dsv:Column ;
+    rdfs:label "Market Situational Awareness" .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/MarketingExpense> a dsv:Column ;
+    rdfs:label "Marketing Expense (%)" .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/ProfitabilityRatios> a dsv:Column ;
+    rdfs:label "Profitability Ratios %" .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/ProjectionsForecasts> a dsv:Column ;
+    rdfs:label "Projections & Forecasts" .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/QuarterlyRevenue> a dsv:Column ;
+    rdfs:label "Quarterly Revenue" .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/SalesExpense> a dsv:Column ;
+    rdfs:label "Sales Expense (%)" .
+
+<http://metaUnionSearch/datasets/BusinessIE3CSMCM/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/AnnualRevenue>,
+        <http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/BusinessAnalyticsDossier>,
+        <http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/CensusClassificationCodeegNAICS>,
+        <http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/CompanyName>,
+        <http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/Demographics>,
+        <http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/EmployeeCount>,
+        <http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/GeographicLocation>,
+        <http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/GrowthMomentum>,
+        <http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/IndustryDivision>,
+        <http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/MarketSituationalAwareness>,
+        <http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/MarketingExpense>,
+        <http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/ProfitabilityRatios>,
+        <http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/ProjectionsForecasts>,
+        <http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/QuarterlyRevenue>,
+        <http://metaUnionSearch/datasets/BusinessIE3CSMCM/column/SalesExpense> .
+

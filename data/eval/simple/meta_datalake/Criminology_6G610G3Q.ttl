@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_6G610G3Q.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Criminology6G610G3Q/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/AdditionalDetails> a dsv:Column ;
+    rdfs:label "Additional Details" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/ArresteesCount> a dsv:Column ;
+    rdfs:label "Arrestees Count" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/ArrestingOfficer> a dsv:Column ;
+    rdfs:label "Arresting Officer" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/CourtDisposition> a dsv:Column ;
+    rdfs:label "Court Disposition" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/DateTimeArrestMade> a dsv:Column ;
+    rdfs:label "Date & Time Arrest Made" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/EvidenceRecovered> a dsv:Column ;
+    rdfs:label "Evidence Recovered" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/IncidentNumber> a dsv:Column ;
+    rdfs:label "Incident Number" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/InjuryPresent> a dsv:Column ;
+    rdfs:label "Injury Present?" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/LegalOutcome> a dsv:Column ;
+    rdfs:label "Legal Outcome" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/PerpetratorGender> a dsv:Column ;
+    rdfs:label "Perpetrator Gender" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/PerpetratorRace> a dsv:Column ;
+    rdfs:label "Perpetrator Race" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/SuspectedMotive> a dsv:Column ;
+    rdfs:label "Suspected Motive" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/WeaponUsed> a dsv:Column ;
+    rdfs:label "Weapon Used" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/WitnessReports> a dsv:Column ;
+    rdfs:label "Witness Reports" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/AdditionalDetails>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/ArresteesCount>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/ArrestingOfficer>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/CourtDisposition>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/DateTimeArrestMade>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/EvidenceRecovered>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/IncidentNumber>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/InjuryPresent>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/LegalOutcome>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/PerpetratorGender>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/PerpetratorRace>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/SuspectedMotive>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/WeaponUsed>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/WitnessReports> .
+

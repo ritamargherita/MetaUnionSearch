@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_XPAKFRZW.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FashionXPAKFRZW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/CelebrityEndorsementStatusWithNamesList> a dsv:Column ;
+    rdfs:label " Celebrity Endorsement Status With Names List" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/CollaborationDetailswithOtherBrandsOrArtists> a dsv:Column ;
+    rdfs:label " Collaboration Details with Other Brands Or Artists" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/DesignerName> a dsv:Column ;
+    rdfs:label " Designer Name" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/EthicalManufacturingCertificationsHeldbyCompany> a dsv:Column ;
+    rdfs:label " Ethical Manufacturing Certifications Held by Company." .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/FashionTrendsetter> a dsv:Column ;
+    rdfs:label "Fashion Trendsetter" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/GenderNeutralorSpecializedCollection> a dsv:Column ;
+    rdfs:label " Gender Neutral or Specialized Collection?" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/ModelHeightandMeasurements> a dsv:Column ;
+    rdfs:label " Model Height and Measurements" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/NumberOfLikesAndCommentsOnPostings> a dsv:Column ;
+    rdfs:label " Number Of Likes And Comments On Postings" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/ProfessionalModelsWearingOutfitPhotosURL> a dsv:Column ;
+    rdfs:label " Professional Models Wearing Outfit Photos (URL)" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/RunwayInspiration> a dsv:Column ;
+    rdfs:label " Runway Inspiration" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/SocialMediaBuzzScoreHashtags> a dsv:Column ;
+    rdfs:label " Social Media Buzz Score #Hashtags" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/SustainableFabricsUsed> a dsv:Column ;
+    rdfs:label " Sustainable Fabrics Used%" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/TargetAudience> a dsv:Column ;
+    rdfs:label " Target Audience" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/UserGeneratedContentGalleryURLInstagram> a dsv:Column ;
+    rdfs:label " User Generated Content Gallery URL(Instagram)" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/CelebrityEndorsementStatusWithNamesList>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/CollaborationDetailswithOtherBrandsOrArtists>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/DesignerName>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/EthicalManufacturingCertificationsHeldbyCompany>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/FashionTrendsetter>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/GenderNeutralorSpecializedCollection>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/ModelHeightandMeasurements>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/NumberOfLikesAndCommentsOnPostings>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/ProfessionalModelsWearingOutfitPhotosURL>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/RunwayInspiration>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/SocialMediaBuzzScoreHashtags>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/SustainableFabricsUsed>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/TargetAudience>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/UserGeneratedContentGalleryURLInstagram> .
+

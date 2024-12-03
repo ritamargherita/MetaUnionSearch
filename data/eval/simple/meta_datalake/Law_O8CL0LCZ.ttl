@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_O8CL0LCZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawO8CL0LCZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/AmendmentHistory> a dsv:Column ;
+    rdfs:label " Amendment History" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/BillNumber> a dsv:Column ;
+    rdfs:label " Bill Number" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/ComplianceDeadline> a dsv:Column ;
+    rdfs:label " Compliance Deadline" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/EffectiveDate> a dsv:Column ;
+    rdfs:label " Effective Date" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/EnforcementBodies> a dsv:Column ;
+    rdfs:label " Enforcement Bodies" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/LawType> a dsv:Column ;
+    rdfs:label " Law Type" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/LegislativeJurisdiction> a dsv:Column ;
+    rdfs:label "Legislative Jurisdiction" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/LegislatureSession> a dsv:Column ;
+    rdfs:label " Legislature Session" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/PenaltiesforNoncompliance> a dsv:Column ;
+    rdfs:label " Penaltiesfor Noncompliance" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/ProposerDetails> a dsv:Column ;
+    rdfs:label " Proposer Details" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/PublicationInformation> a dsv:Column ;
+    rdfs:label " Publication Information" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/RegulatingBody> a dsv:Column ;
+    rdfs:label " Regulating Body" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/RegulationsDetailed> a dsv:Column ;
+    rdfs:label " Regulations Detailed" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/TopicCategory> a dsv:Column ;
+    rdfs:label " Topic Category" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/URL> a dsv:Column ;
+    rdfs:label " URL" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/AmendmentHistory>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/BillNumber>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/ComplianceDeadline>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/EffectiveDate>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/EnforcementBodies>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/LawType>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/LegislativeJurisdiction>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/LegislatureSession>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/PenaltiesforNoncompliance>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/ProposerDetails>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/PublicationInformation>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/RegulatingBody>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/RegulationsDetailed>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/TopicCategory>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/URL> .
+

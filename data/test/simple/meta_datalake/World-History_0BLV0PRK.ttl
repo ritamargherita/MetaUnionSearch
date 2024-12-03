@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldHistory0BLV0PRK> a dsv:Dataset ;
+    dcterms:subject "world-history" ;
+    dcterms:title "World-History_0BLV0PRK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/ArtArchitecturalStyles> a dsv:Column ;
+    rdfs:label " Art & Architectural Styles" .
+
+<http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/ClassDivisions> a dsv:Column ;
+    rdfs:label " Class Divisions " .
+
+<http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/CulturalNorms> a dsv:Column ;
+    rdfs:label " Cultural Norms " .
+
+<http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/EnvironmentalImpact> a dsv:Column ;
+    rdfs:label " Environmental Impact" .
+
+<http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/GovernmentalSystems> a dsv:Column ;
+    rdfs:label " Governmental Systems" .
+
+<http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/HistoricalFrameworks> a dsv:Column ;
+    rdfs:label " Historical Frameworks " .
+
+<http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/InfluentialFigures> a dsv:Column ;
+    rdfs:label " Influential Figures" .
+
+<http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/MonetarySystems> a dsv:Column ;
+    rdfs:label " Monetary Systems " .
+
+<http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/OriginalDocuments> a dsv:Column ;
+    rdfs:label "Original Documents" .
+
+<http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/ScholarlyInterpretations> a dsv:Column ;
+    rdfs:label " Scholarly Interpretations " .
+
+<http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/ScientificDiscoveries> a dsv:Column ;
+    rdfs:label " Scientific Discoveries " .
+
+<http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/TechnologicalDevelopments> a dsv:Column ;
+    rdfs:label " Technological Developments " .
+
+<http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/ArtArchitecturalStyles>,
+        <http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/ClassDivisions>,
+        <http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/CulturalNorms>,
+        <http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/EnvironmentalImpact>,
+        <http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/GovernmentalSystems>,
+        <http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/HistoricalFrameworks>,
+        <http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/InfluentialFigures>,
+        <http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/MonetarySystems>,
+        <http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/OriginalDocuments>,
+        <http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/ScholarlyInterpretations>,
+        <http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/ScientificDiscoveries>,
+        <http://metaUnionSearch/datasets/WorldHistory0BLV0PRK/column/TechnologicalDevelopments> .
+

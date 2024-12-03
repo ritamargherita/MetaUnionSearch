@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CultureBZQANEC1> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_BZQANEC1.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CultureBZQANEC1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CultureBZQANEC1/column/Architecture> a dsv:Column ;
+    rdfs:label " Architecture" .
+
+<http://metaUnionSearch/datasets/CultureBZQANEC1/column/DanceForms> a dsv:Column ;
+    rdfs:label " Dance Forms" .
+
+<http://metaUnionSearch/datasets/CultureBZQANEC1/column/EducationSystem> a dsv:Column ;
+    rdfs:label " Education System" .
+
+<http://metaUnionSearch/datasets/CultureBZQANEC1/column/FamousPersonalitiesPastPresent> a dsv:Column ;
+    rdfs:label " Famous Personalities (Past & Present)" .
+
+<http://metaUnionSearch/datasets/CultureBZQANEC1/column/HistoricalPlaces> a dsv:Column ;
+    rdfs:label " Historical Places" .
+
+<http://metaUnionSearch/datasets/CultureBZQANEC1/column/Holidays> a dsv:Column ;
+    rdfs:label " Holidays" .
+
+<http://metaUnionSearch/datasets/CultureBZQANEC1/column/Literature> a dsv:Column ;
+    rdfs:label "Literature" .
+
+<http://metaUnionSearch/datasets/CultureBZQANEC1/column/LocalGovernmentStructure> a dsv:Column ;
+    rdfs:label " Local Government Structure" .
+
+<http://metaUnionSearch/datasets/CultureBZQANEC1/column/Museums> a dsv:Column ;
+    rdfs:label " Museums" .
+
+<http://metaUnionSearch/datasets/CultureBZQANEC1/column/Sports> a dsv:Column ;
+    rdfs:label " Sports" .
+
+<http://metaUnionSearch/datasets/CultureBZQANEC1/column/TechnologyAdoption> a dsv:Column ;
+    rdfs:label " Technology Adoption" .
+
+<http://metaUnionSearch/datasets/CultureBZQANEC1/column/TheatreTradition> a dsv:Column ;
+    rdfs:label " Theatre Tradition" .
+
+<http://metaUnionSearch/datasets/CultureBZQANEC1/column/VisualArts> a dsv:Column ;
+    rdfs:label " Visual Arts" .
+
+<http://metaUnionSearch/datasets/CultureBZQANEC1/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CultureBZQANEC1/column/Architecture>,
+        <http://metaUnionSearch/datasets/CultureBZQANEC1/column/DanceForms>,
+        <http://metaUnionSearch/datasets/CultureBZQANEC1/column/EducationSystem>,
+        <http://metaUnionSearch/datasets/CultureBZQANEC1/column/FamousPersonalitiesPastPresent>,
+        <http://metaUnionSearch/datasets/CultureBZQANEC1/column/HistoricalPlaces>,
+        <http://metaUnionSearch/datasets/CultureBZQANEC1/column/Holidays>,
+        <http://metaUnionSearch/datasets/CultureBZQANEC1/column/Literature>,
+        <http://metaUnionSearch/datasets/CultureBZQANEC1/column/LocalGovernmentStructure>,
+        <http://metaUnionSearch/datasets/CultureBZQANEC1/column/Museums>,
+        <http://metaUnionSearch/datasets/CultureBZQANEC1/column/Sports>,
+        <http://metaUnionSearch/datasets/CultureBZQANEC1/column/TechnologyAdoption>,
+        <http://metaUnionSearch/datasets/CultureBZQANEC1/column/TheatreTradition>,
+        <http://metaUnionSearch/datasets/CultureBZQANEC1/column/VisualArts> .
+

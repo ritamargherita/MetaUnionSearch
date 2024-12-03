@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Religion37Q9AH8R> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_37Q9AH8R.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Religion37Q9AH8R/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Religion37Q9AH8R/column/10EducationalInstitutionsSponsoredByThisFaith> a dsv:Column ;
+    rdfs:label """\\
+10. Educational Institutions Sponsored By This Faith""" .
+
+<http://metaUnionSearch/datasets/Religion37Q9AH8R/column/11CharitableWorkandHumanitarianServicesProvidedbyFollowers> a dsv:Column ;
+    rdfs:label """\\
+11. Charitable Work and Humanitarian Services Provided by Followers""" .
+
+<http://metaUnionSearch/datasets/Religion37Q9AH8R/column/12ScientificAdvancementsSupportedorOpposedThroughHistory> a dsv:Column ;
+    rdfs:label """\\
+12. Scientific Advancements Supported or Opposed Through History""" .
+
+<http://metaUnionSearch/datasets/Religion37Q9AH8R/column/13EnvironmentalandConservationInitiativesTiedtoBeliefSystems> a dsv:Column ;
+    rdfs:label """\\
+13. Environmental and Conservation Initiatives Tied to Belief Systems""" .
+
+<http://metaUnionSearch/datasets/Religion37Q9AH8R/column/1HistoricalDevelopmentTimeline> a dsv:Column ;
+    rdfs:label """\\
+1. Historical Development Timeline""" .
+
+<http://metaUnionSearch/datasets/Religion37Q9AH8R/column/2GeographicalDistributionbyCountryRegion> a dsv:Column ;
+    rdfs:label """\\
+2. Geographical Distribution by Country/Region""" .
+
+<http://metaUnionSearch/datasets/Religion37Q9AH8R/column/3NumberofAdherentsWorldwide> a dsv:Column ;
+    rdfs:label """\\
+3. Number of Adherents Worldwide""" .
+
+<http://metaUnionSearch/datasets/Religion37Q9AH8R/column/4GrowthRate> a dsv:Column ;
+    rdfs:label """\\
+4. Growth Rate (\\%)""" .
+
+<http://metaUnionSearch/datasets/Religion37Q9AH8R/column/5ProminentFiguresTheirContributions> a dsv:Column ;
+    rdfs:label """\\
+5. Prominent Figures & Their Contributions""" .
+
+<http://metaUnionSearch/datasets/Religion37Q9AH8R/column/6ArtArchitectureMaterialCultureInfluences> a dsv:Column ;
+    rdfs:label """\\
+6. Art, Architecture, & Material Culture Influences""" .
+
+<http://metaUnionSearch/datasets/Religion37Q9AH8R/column/7CulturalFestivalsTraditionalPracticesWithinCommunity> a dsv:Column ;
+    rdfs:label """\\
+7. Cultural Festivals & Traditional Practices Within Community""" .
+
+<http://metaUnionSearch/datasets/Religion37Q9AH8R/column/8ImmigrationImpactonDiasporas> a dsv:Column ;
+    rdfs:label """\\
+8. Immigration Impact on Diasporas""" .
+
+<http://metaUnionSearch/datasets/Religion37Q9AH8R/column/9PoliticoLegalRoleofChurchandStateInteractions> a dsv:Column ;
+    rdfs:label """\\
+9. Politico-Legal Role of Church and State Interactions""" .
+
+<http://metaUnionSearch/datasets/Religion37Q9AH8R/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Religion37Q9AH8R/column/10EducationalInstitutionsSponsoredByThisFaith>,
+        <http://metaUnionSearch/datasets/Religion37Q9AH8R/column/11CharitableWorkandHumanitarianServicesProvidedbyFollowers>,
+        <http://metaUnionSearch/datasets/Religion37Q9AH8R/column/12ScientificAdvancementsSupportedorOpposedThroughHistory>,
+        <http://metaUnionSearch/datasets/Religion37Q9AH8R/column/13EnvironmentalandConservationInitiativesTiedtoBeliefSystems>,
+        <http://metaUnionSearch/datasets/Religion37Q9AH8R/column/1HistoricalDevelopmentTimeline>,
+        <http://metaUnionSearch/datasets/Religion37Q9AH8R/column/2GeographicalDistributionbyCountryRegion>,
+        <http://metaUnionSearch/datasets/Religion37Q9AH8R/column/3NumberofAdherentsWorldwide>,
+        <http://metaUnionSearch/datasets/Religion37Q9AH8R/column/4GrowthRate>,
+        <http://metaUnionSearch/datasets/Religion37Q9AH8R/column/5ProminentFiguresTheirContributions>,
+        <http://metaUnionSearch/datasets/Religion37Q9AH8R/column/6ArtArchitectureMaterialCultureInfluences>,
+        <http://metaUnionSearch/datasets/Religion37Q9AH8R/column/7CulturalFestivalsTraditionalPracticesWithinCommunity>,
+        <http://metaUnionSearch/datasets/Religion37Q9AH8R/column/8ImmigrationImpactonDiasporas>,
+        <http://metaUnionSearch/datasets/Religion37Q9AH8R/column/9PoliticoLegalRoleofChurchandStateInteractions> .
+

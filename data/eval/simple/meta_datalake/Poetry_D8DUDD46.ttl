@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryD8DUDD46> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_D8DUDD46.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryD8DUDD46/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryD8DUDD46/column/AverageSyllablesperLine> a dsv:Column ;
+    rdfs:label " Average Syllables per Line" .
+
+<http://metaUnionSearch/datasets/PoetryD8DUDD46/column/CriticReviews> a dsv:Column ;
+    rdfs:label " Critic Reviews" .
+
+<http://metaUnionSearch/datasets/PoetryD8DUDD46/column/CulturalContextExamination> a dsv:Column ;
+    rdfs:label " Cultural Context Examination" .
+
+<http://metaUnionSearch/datasets/PoetryD8DUDD46/column/LineLengthVarietyIndex> a dsv:Column ;
+    rdfs:label " Line Length Variety Index" .
+
+<http://metaUnionSearch/datasets/PoetryD8DUDD46/column/LinguisticDiversityAssessment> a dsv:Column ;
+    rdfs:label " Linguistic Diversity Assessment" .
+
+<http://metaUnionSearch/datasets/PoetryD8DUDD46/column/MostFrequentMeterTypes> a dsv:Column ;
+    rdfs:label " Most Frequent Meter Types" .
+
+<http://metaUnionSearch/datasets/PoetryD8DUDD46/column/PoetBiography> a dsv:Column ;
+    rdfs:label "Poet Biography" .
+
+<http://metaUnionSearch/datasets/PoetryD8DUDD46/column/PublicationsOverview> a dsv:Column ;
+    rdfs:label " Publications Overview" .
+
+<http://metaUnionSearch/datasets/PoetryD8DUDD46/column/PunctuationUsePatternAnalysis> a dsv:Column ;
+    rdfs:label " Punctuation Use Pattern Analysis" .
+
+<http://metaUnionSearch/datasets/PoetryD8DUDD46/column/SentimentScoreDistribution> a dsv:Column ;
+    rdfs:label " Sentiment Score Distribution" .
+
+<http://metaUnionSearch/datasets/PoetryD8DUDD46/column/StylisticsComparisonwithPeers> a dsv:Column ;
+    rdfs:label " Stylistics Comparison with Peers" .
+
+<http://metaUnionSearch/datasets/PoetryD8DUDD46/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryD8DUDD46/column/AverageSyllablesperLine>,
+        <http://metaUnionSearch/datasets/PoetryD8DUDD46/column/CriticReviews>,
+        <http://metaUnionSearch/datasets/PoetryD8DUDD46/column/CulturalContextExamination>,
+        <http://metaUnionSearch/datasets/PoetryD8DUDD46/column/LineLengthVarietyIndex>,
+        <http://metaUnionSearch/datasets/PoetryD8DUDD46/column/LinguisticDiversityAssessment>,
+        <http://metaUnionSearch/datasets/PoetryD8DUDD46/column/MostFrequentMeterTypes>,
+        <http://metaUnionSearch/datasets/PoetryD8DUDD46/column/PoetBiography>,
+        <http://metaUnionSearch/datasets/PoetryD8DUDD46/column/PublicationsOverview>,
+        <http://metaUnionSearch/datasets/PoetryD8DUDD46/column/PunctuationUsePatternAnalysis>,
+        <http://metaUnionSearch/datasets/PoetryD8DUDD46/column/SentimentScoreDistribution>,
+        <http://metaUnionSearch/datasets/PoetryD8DUDD46/column/StylisticsComparisonwithPeers> .
+

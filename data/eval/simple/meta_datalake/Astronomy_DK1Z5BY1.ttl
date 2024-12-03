@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronomyDK1Z5BY1> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_DK1Z5BY1.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/ClosestStar1StarNameDistancefromNebula> a dsv:Column ;
+    rdfs:label " Closest Star 1 (Star Name, Distance from Nebula)" .
+
+<http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/ClosestStar2StarNameDistancefromNebula> a dsv:Column ;
+    rdfs:label " Closest Star 2 (Star Name, Distance from Nebula)" .
+
+<http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/ClosestStar3StarNameDistancefromNebula> a dsv:Column ;
+    rdfs:label " Closest Star 3 (Star Name, Distance from Nebula)" .
+
+<http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/ClosestStar4StarNameDistancefromNebula> a dsv:Column ;
+    rdfs:label " Closest Star 4 (Star Name, Distance from Nebula)" .
+
+<http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/DistancefromSolarSystemsCenterkpc> a dsv:Column ;
+    rdfs:label " Distance from Solar Systems Center (kpc)" .
+
+<http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/DustComponent> a dsv:Column ;
+    rdfs:label " Dust Component" .
+
+<http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/GasComposition> a dsv:Column ;
+    rdfs:label " Gas Composition (%)" .
+
+<http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/NebulaCategory> a dsv:Column ;
+    rdfs:label " Nebula Category" .
+
+<http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/NebulaName> a dsv:Column ;
+    rdfs:label "Nebula Name" .
+
+<http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/RadiationIntensityWm> a dsv:Column ;
+    rdfs:label " Radiation Intensity (W/m³)" .
+
+<http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/ClosestStar1StarNameDistancefromNebula>,
+        <http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/ClosestStar2StarNameDistancefromNebula>,
+        <http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/ClosestStar3StarNameDistancefromNebula>,
+        <http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/ClosestStar4StarNameDistancefromNebula>,
+        <http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/DistancefromSolarSystemsCenterkpc>,
+        <http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/DustComponent>,
+        <http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/GasComposition>,
+        <http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/NebulaCategory>,
+        <http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/NebulaName>,
+        <http://metaUnionSearch/datasets/AstronomyDK1Z5BY1/column/RadiationIntensityWm> .
+

@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeologySWI6GZGU> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_SWI6GZGU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeologySWI6GZGU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeologySWI6GZGU/column/CrustalThickness> a dsv:Column ;
+    rdfs:label " Crustal Thickness" .
+
+<http://metaUnionSearch/datasets/GeologySWI6GZGU/column/EarthquakeHistory> a dsv:Column ;
+    rdfs:label " Earthquake History" .
+
+<http://metaUnionSearch/datasets/GeologySWI6GZGU/column/FaultOrientations> a dsv:Column ;
+    rdfs:label " Fault Orientations" .
+
+<http://metaUnionSearch/datasets/GeologySWI6GZGU/column/GroundwaterChemistry> a dsv:Column ;
+    rdfs:label " Groundwater Chemistry" .
+
+<http://metaUnionSearch/datasets/GeologySWI6GZGU/column/MagmaticArcProximity> a dsv:Column ;
+    rdfs:label " Magmatic Arc Proximity" .
+
+<http://metaUnionSearch/datasets/GeologySWI6GZGU/column/NaturalRadioactivity> a dsv:Column ;
+    rdfs:label " Natural Radioactivity" .
+
+<http://metaUnionSearch/datasets/GeologySWI6GZGU/column/PlateBoundaryTypes> a dsv:Column ;
+    rdfs:label " Plate Boundary Types" .
+
+<http://metaUnionSearch/datasets/GeologySWI6GZGU/column/SeismicityRate> a dsv:Column ;
+    rdfs:label "Seismicity Rate" .
+
+<http://metaUnionSearch/datasets/GeologySWI6GZGU/column/SoilpHLevels> a dsv:Column ;
+    rdfs:label " Soil pH Levels" .
+
+<http://metaUnionSearch/datasets/GeologySWI6GZGU/column/SurfaceDeformation> a dsv:Column ;
+    rdfs:label " Surface Deformation" .
+
+<http://metaUnionSearch/datasets/GeologySWI6GZGU/column/TectonicSetting> a dsv:Column ;
+    rdfs:label " Tectonic Setting" .
+
+<http://metaUnionSearch/datasets/GeologySWI6GZGU/column/VolcanologicalActivity> a dsv:Column ;
+    rdfs:label " Volcanological Activity" .
+
+<http://metaUnionSearch/datasets/GeologySWI6GZGU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeologySWI6GZGU/column/CrustalThickness>,
+        <http://metaUnionSearch/datasets/GeologySWI6GZGU/column/EarthquakeHistory>,
+        <http://metaUnionSearch/datasets/GeologySWI6GZGU/column/FaultOrientations>,
+        <http://metaUnionSearch/datasets/GeologySWI6GZGU/column/GroundwaterChemistry>,
+        <http://metaUnionSearch/datasets/GeologySWI6GZGU/column/MagmaticArcProximity>,
+        <http://metaUnionSearch/datasets/GeologySWI6GZGU/column/NaturalRadioactivity>,
+        <http://metaUnionSearch/datasets/GeologySWI6GZGU/column/PlateBoundaryTypes>,
+        <http://metaUnionSearch/datasets/GeologySWI6GZGU/column/SeismicityRate>,
+        <http://metaUnionSearch/datasets/GeologySWI6GZGU/column/SoilpHLevels>,
+        <http://metaUnionSearch/datasets/GeologySWI6GZGU/column/SurfaceDeformation>,
+        <http://metaUnionSearch/datasets/GeologySWI6GZGU/column/TectonicSetting>,
+        <http://metaUnionSearch/datasets/GeologySWI6GZGU/column/VolcanologicalActivity> .
+

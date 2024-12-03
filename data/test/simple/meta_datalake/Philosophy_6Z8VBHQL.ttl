@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Philosophy6Z8VBHQL> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_6Z8VBHQL.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/RelatedInfluentialWork> a dsv:Column ;
+    rdfs:label " RelatedInfluentialWork" .
+
+<http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/RelatedMajorTheorist> a dsv:Column ;
+    rdfs:label " RelatedMajorTheorist" .
+
+<http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/RelatedPhilosophicalConcept> a dsv:Column ;
+    rdfs:label "RelatedPhilosophicalConcept" .
+
+<http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/RelatedPhilosophyCount> a dsv:Column ;
+    rdfs:label " RelatedPhilosophyCount" .
+
+<http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/UnrelatedColumn10> a dsv:Column ;
+    rdfs:label " UnrelatedColumn10" .
+
+<http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/UnrelatedColumn11> a dsv:Column ;
+    rdfs:label " UnrelatedColumn11" .
+
+<http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/UnrelatedColumn12> a dsv:Column ;
+    rdfs:label " UnrelatedColumn12" .
+
+<http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/UnrelatedColumn5> a dsv:Column ;
+    rdfs:label " UnrelatedColumn5" .
+
+<http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/UnrelatedColumn6> a dsv:Column ;
+    rdfs:label " UnrelatedColumn6" .
+
+<http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/UnrelatedColumn7> a dsv:Column ;
+    rdfs:label " UnrelatedColumn7" .
+
+<http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/UnrelatedColumn8> a dsv:Column ;
+    rdfs:label " UnrelatedColumn8" .
+
+<http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/UnrelatedColumn9> a dsv:Column ;
+    rdfs:label " UnrelatedColumn9" .
+
+<http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/RelatedInfluentialWork>,
+        <http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/RelatedMajorTheorist>,
+        <http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/RelatedPhilosophicalConcept>,
+        <http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/RelatedPhilosophyCount>,
+        <http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/UnrelatedColumn10>,
+        <http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/UnrelatedColumn11>,
+        <http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/UnrelatedColumn12>,
+        <http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/UnrelatedColumn5>,
+        <http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/UnrelatedColumn6>,
+        <http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/UnrelatedColumn7>,
+        <http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/UnrelatedColumn8>,
+        <http://metaUnionSearch/datasets/Philosophy6Z8VBHQL/column/UnrelatedColumn9> .
+

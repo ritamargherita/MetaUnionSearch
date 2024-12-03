@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Environment3DTLHAIA> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_3DTLHAIA.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Environment3DTLHAIA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Environment3DTLHAIA/column/CarbonEmissionTrends> a dsv:Column ;
+    rdfs:label "Carbon\\_Emission\\_Trends" .
+
+<http://metaUnionSearch/datasets/Environment3DTLHAIA/column/ClimateChangeImpact> a dsv:Column ;
+    rdfs:label "Climate\\_Change\\_Impact" .
+
+<http://metaUnionSearch/datasets/Environment3DTLHAIA/column/CorporateSustainabilityScore> a dsv:Column ;
+    rdfs:label "Corporate\\_Sustainability\\_Score" .
+
+<http://metaUnionSearch/datasets/Environment3DTLHAIA/column/EndangeredSpeciesProtection> a dsv:Column ;
+    rdfs:label "Endangered\\_Species\\_Protection" .
+
+<http://metaUnionSearch/datasets/Environment3DTLHAIA/column/EnergyConsumptionperCapita> a dsv:Column ;
+    rdfs:label "Energy\\_Consumption\\_per\\_Capita" .
+
+<http://metaUnionSearch/datasets/Environment3DTLHAIA/column/EnvironmentalEducationIndex> a dsv:Column ;
+    rdfs:label "Environmental\\_Education\\_Index" .
+
+<http://metaUnionSearch/datasets/Environment3DTLHAIA/column/NaturalResourceUsage> a dsv:Column ;
+    rdfs:label "Natural\\_Resource\\_Usage" .
+
+<http://metaUnionSearch/datasets/Environment3DTLHAIA/column/NatureReserveAreakm2> a dsv:Column ;
+    rdfs:label "Nature\\_Reserve\\_Area\\_km2" .
+
+<http://metaUnionSearch/datasets/Environment3DTLHAIA/column/RenewableEnergyContribution> a dsv:Column ;
+    rdfs:label "Renewable\\_Energy\\_Contribution" .
+
+<http://metaUnionSearch/datasets/Environment3DTLHAIA/column/WasteManagementEfficiency> a dsv:Column ;
+    rdfs:label "Waste\\_Management\\_Efficiency" .
+
+<http://metaUnionSearch/datasets/Environment3DTLHAIA/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Environment3DTLHAIA/column/CarbonEmissionTrends>,
+        <http://metaUnionSearch/datasets/Environment3DTLHAIA/column/ClimateChangeImpact>,
+        <http://metaUnionSearch/datasets/Environment3DTLHAIA/column/CorporateSustainabilityScore>,
+        <http://metaUnionSearch/datasets/Environment3DTLHAIA/column/EndangeredSpeciesProtection>,
+        <http://metaUnionSearch/datasets/Environment3DTLHAIA/column/EnergyConsumptionperCapita>,
+        <http://metaUnionSearch/datasets/Environment3DTLHAIA/column/EnvironmentalEducationIndex>,
+        <http://metaUnionSearch/datasets/Environment3DTLHAIA/column/NaturalResourceUsage>,
+        <http://metaUnionSearch/datasets/Environment3DTLHAIA/column/NatureReserveAreakm2>,
+        <http://metaUnionSearch/datasets/Environment3DTLHAIA/column/RenewableEnergyContribution>,
+        <http://metaUnionSearch/datasets/Environment3DTLHAIA/column/WasteManagementEfficiency> .
+

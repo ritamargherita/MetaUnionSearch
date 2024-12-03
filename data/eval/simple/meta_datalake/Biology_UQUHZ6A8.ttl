@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BiologyUQUHZ6A8> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_UQUHZ6A8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BiologyUQUHZ6A8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Biomolecularinteractionsnetwork> a dsv:Column ;
+    rdfs:label "Biomolecular interactions network" .
+
+<http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Chromosomallocations> a dsv:Column ;
+    rdfs:label "Chromosomal locations" .
+
+<http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Conservationstatus> a dsv:Column ;
+    rdfs:label "Conservation status" .
+
+<http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Developmentprocessesinfluencingorganismgrowth> a dsv:Column ;
+    rdfs:label "Development processes influencing organism growth" .
+
+<http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Diseaseassociationstudyresults> a dsv:Column ;
+    rdfs:label "Disease association study results" .
+
+<http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Ecologicallyrelevanttraits> a dsv:Column ;
+    rdfs:label "Ecologically relevant traits" .
+
+<http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Environmentalfactorsaffectinggeneexpression> a dsv:Column ;
+    rdfs:label "Environmental factors affecting gene expression" .
+
+<http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Genecoexpressionclusters> a dsv:Column ;
+    rdfs:label "Gene coexpression clusters" .
+
+<http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Phenotypeobservations> a dsv:Column ;
+    rdfs:label "Phenotype observations" .
+
+<http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Phylogenetictreestructure> a dsv:Column ;
+    rdfs:label "Phylogenetic tree structure" .
+
+<http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Populationgeneticsdiversityvalues> a dsv:Column ;
+    rdfs:label "Population genetics diversity values" .
+
+<http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Proteinfoldingpattern> a dsv:Column ;
+    rdfs:label "Protein folding pattern" .
+
+<http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Regulationmechanismsattranscriptionlevel> a dsv:Column ;
+    rdfs:label "Regulation mechanisms at transcription level" .
+
+<http://metaUnionSearch/datasets/BiologyUQUHZ6A8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Biomolecularinteractionsnetwork>,
+        <http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Chromosomallocations>,
+        <http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Conservationstatus>,
+        <http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Developmentprocessesinfluencingorganismgrowth>,
+        <http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Diseaseassociationstudyresults>,
+        <http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Ecologicallyrelevanttraits>,
+        <http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Environmentalfactorsaffectinggeneexpression>,
+        <http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Genecoexpressionclusters>,
+        <http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Phenotypeobservations>,
+        <http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Phylogenetictreestructure>,
+        <http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Populationgeneticsdiversityvalues>,
+        <http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Proteinfoldingpattern>,
+        <http://metaUnionSearch/datasets/BiologyUQUHZ6A8/column/Regulationmechanismsattranscriptionlevel> .
+

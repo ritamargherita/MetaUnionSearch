@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_57XD6KET.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/AdditionalDiagnosis> a dsv:Column ;
+    rdfs:label " Additional Diagnosis" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/AdditionalNotes> a dsv:Column ;
+    rdfs:label " Additional Notes" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/AdditionalTreatment> a dsv:Column ;
+    rdfs:label " Additional Treatment" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/AllergyInformation> a dsv:Column ;
+    rdfs:label " Allergy Information" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/Cost2> a dsv:Column ;
+    rdfs:label " Cost 2" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/DietaryNeeds> a dsv:Column ;
+    rdfs:label " Dietary Needs" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/FollowUpAppointments> a dsv:Column ;
+    rdfs:label " Follow-Up Appointments" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/MedicalConditionsRecord> a dsv:Column ;
+    rdfs:label " Medical Conditions Record" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/OwnershipDetails> a dsv:Column ;
+    rdfs:label " Ownership Details" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/PrescribedMedication2> a dsv:Column ;
+    rdfs:label " Prescribed Medication 2" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/SurgeriesPerformed> a dsv:Column ;
+    rdfs:label " Surgeries Performed" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/TreatmentDuration2> a dsv:Column ;
+    rdfs:label " Treatment Duration 2" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/VaccinationHistory> a dsv:Column ;
+    rdfs:label "Vaccination History" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/AdditionalDiagnosis>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/AdditionalNotes>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/AdditionalTreatment>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/AllergyInformation>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/Cost2>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/DietaryNeeds>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/FollowUpAppointments>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/MedicalConditionsRecord>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/OwnershipDetails>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/PrescribedMedication2>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/SurgeriesPerformed>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/TreatmentDuration2>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine57XD6KET/column/VaccinationHistory> .
+

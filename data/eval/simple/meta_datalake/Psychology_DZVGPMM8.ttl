@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_DZVGPMM8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PsychologyDZVGPMM8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure10Size> a dsv:Column ;
+    rdfs:label " BrainStructure10Size" .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure11Size> a dsv:Column ;
+    rdfs:label " BrainStructure11Size" .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure12Size> a dsv:Column ;
+    rdfs:label " BrainStructure12Size" .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure13Size> a dsv:Column ;
+    rdfs:label " BrainStructure13Size" .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure14Size> a dsv:Column ;
+    rdfs:label " BrainStructure14Size" .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure15Size> a dsv:Column ;
+    rdfs:label " BrainStructure15Size" .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure1Size> a dsv:Column ;
+    rdfs:label "BrainStructure1Size" .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure2Size> a dsv:Column ;
+    rdfs:label " BrainStructure2Size" .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure3Size> a dsv:Column ;
+    rdfs:label " BrainStructure3Size" .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure4Size> a dsv:Column ;
+    rdfs:label " BrainStructure4Size" .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure5Size> a dsv:Column ;
+    rdfs:label " BrainStructure5Size" .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure6Size> a dsv:Column ;
+    rdfs:label " BrainStructure6Size" .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure7Size> a dsv:Column ;
+    rdfs:label " BrainStructure7Size" .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure8Size> a dsv:Column ;
+    rdfs:label " BrainStructure8Size" .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure9Size> a dsv:Column ;
+    rdfs:label " BrainStructure9Size" .
+
+<http://metaUnionSearch/datasets/PsychologyDZVGPMM8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure10Size>,
+        <http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure11Size>,
+        <http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure12Size>,
+        <http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure13Size>,
+        <http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure14Size>,
+        <http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure15Size>,
+        <http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure1Size>,
+        <http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure2Size>,
+        <http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure3Size>,
+        <http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure4Size>,
+        <http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure5Size>,
+        <http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure6Size>,
+        <http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure7Size>,
+        <http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure8Size>,
+        <http://metaUnionSearch/datasets/PsychologyDZVGPMM8/column/BrainStructure9Size> .
+

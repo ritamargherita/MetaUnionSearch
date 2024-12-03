@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ClimatologyPL990GW3> a dsv:Dataset ;
+    dcterms:subject "climatology" ;
+    dcterms:title "Climatology_PL990GW3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ClimatologyPL990GW3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/AltitudinalZone> a dsv:Column ;
+    rdfs:label " Altitudinal Zone" .
+
+<http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/BiomeClassification> a dsv:Column ;
+    rdfs:label " Biome Classification " .
+
+<http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/CloudTypeCoverage> a dsv:Column ;
+    rdfs:label " Cloud Type & Coverage (%)" .
+
+<http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/Elevationmasl> a dsv:Column ;
+    rdfs:label " Elevation(masl) " .
+
+<http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/GeologicalFeatureID> a dsv:Column ;
+    rdfs:label " Geological Feature ID" .
+
+<http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/LandUseCategory> a dsv:Column ;
+    rdfs:label " Land Use Category" .
+
+<http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/Latitude> a dsv:Column ;
+    rdfs:label " Latitude" .
+
+<http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/LightningActivitytimeskmyr> a dsv:Column ;
+    rdfs:label " Lightning Activity (times/km².yr)" .
+
+<http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/Longitude> a dsv:Column ;
+    rdfs:label " Longitude" .
+
+<http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/SlopeGradient> a dsv:Column ;
+    rdfs:label " Slope Gradient(%)" .
+
+<http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/StratumName> a dsv:Column ;
+    rdfs:label "Stratum Name" .
+
+<http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/TopographicAspectDegrees> a dsv:Column ;
+    rdfs:label " Topographic Aspect/Degrees" .
+
+<http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/VaporPressuredifferencekPA> a dsv:Column ;
+    rdfs:label " Vapor Pressure difference(kPA) " .
+
+<http://metaUnionSearch/datasets/ClimatologyPL990GW3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/AltitudinalZone>,
+        <http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/BiomeClassification>,
+        <http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/CloudTypeCoverage>,
+        <http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/Elevationmasl>,
+        <http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/GeologicalFeatureID>,
+        <http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/LandUseCategory>,
+        <http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/Latitude>,
+        <http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/LightningActivitytimeskmyr>,
+        <http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/Longitude>,
+        <http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/SlopeGradient>,
+        <http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/StratumName>,
+        <http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/TopographicAspectDegrees>,
+        <http://metaUnionSearch/datasets/ClimatologyPL990GW3/column/VaporPressuredifferencekPA> .
+

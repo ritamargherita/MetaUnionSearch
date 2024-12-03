@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CriminologyF1XL11FC> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_F1XL11FC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CriminologyF1XL11FC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/ClearanceRatesComparedAcrossStates> a dsv:Column ;
+    rdfs:label "Clearance Rates Compared Across States" .
+
+<http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/CommunityPolicingEffectsonCrimeReduction> a dsv:Column ;
+    rdfs:label "Community Policing Effects on Crime Reduction" .
+
+<http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/CorrelationbetweenEducationLevelandCrimeCommitted> a dsv:Column ;
+    rdfs:label "Correlation between Education Level and \"Crime Committed\"" .
+
+<http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/DrugUseStatsbyRegion> a dsv:Column ;
+    rdfs:label "Drug Use Stats by Region" .
+
+<http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/IncarcerationCostperIndividual> a dsv:Column ;
+    rdfs:label "Incarceration Cost per Individual" .
+
+<http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/JuvenileCrimeTrending> a dsv:Column ;
+    rdfs:label "Juvenile Crime Trending" .
+
+<http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/PoliceForceDiversityMetrics> a dsv:Column ;
+    rdfs:label "Police Force Diversity Metrics" .
+
+<http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/PrisonOvercrowdingStatistics> a dsv:Column ;
+    rdfs:label "Prison Overcrowding Statistics" .
+
+<http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/PublicPerceptionOfPoliceEfficiency> a dsv:Column ;
+    rdfs:label "Public Perception Of Police Efficiency" .
+
+<http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/RecidivismRate> a dsv:Column ;
+    rdfs:label "Recidivism Rate" .
+
+<http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/ReoffendingProbabilityBasedOnRehabilitationProgramParticipation> a dsv:Column ;
+    rdfs:label "Reoffending Probability Based On Rehabilitation Program Participation" .
+
+<http://metaUnionSearch/datasets/CriminologyF1XL11FC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/ClearanceRatesComparedAcrossStates>,
+        <http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/CommunityPolicingEffectsonCrimeReduction>,
+        <http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/CorrelationbetweenEducationLevelandCrimeCommitted>,
+        <http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/DrugUseStatsbyRegion>,
+        <http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/IncarcerationCostperIndividual>,
+        <http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/JuvenileCrimeTrending>,
+        <http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/PoliceForceDiversityMetrics>,
+        <http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/PrisonOvercrowdingStatistics>,
+        <http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/PublicPerceptionOfPoliceEfficiency>,
+        <http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/RecidivismRate>,
+        <http://metaUnionSearch/datasets/CriminologyF1XL11FC/column/ReoffendingProbabilityBasedOnRehabilitationProgramParticipation> .
+

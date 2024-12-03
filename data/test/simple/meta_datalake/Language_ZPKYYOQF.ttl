@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LanguageZPKYYOQF> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_ZPKYYOQF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LanguageZPKYYOQF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/Dialects> a dsv:Column ;
+    rdfs:label "Dialects" .
+
+<http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/Grammar> a dsv:Column ;
+    rdfs:label " Grammar" .
+
+<http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/LanguageCode> a dsv:Column ;
+    rdfs:label " Language Code" .
+
+<http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/LanguageType> a dsv:Column ;
+    rdfs:label " Language Type" .
+
+<http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/NativeSpeakers> a dsv:Column ;
+    rdfs:label " Native Speakers" .
+
+<http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/OfficialLanguageStatus> a dsv:Column ;
+    rdfs:label " Official Language Status" .
+
+<http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/Speakers> a dsv:Column ;
+    rdfs:label " Speakers" .
+
+<http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/SpeakingCommunitiesSize> a dsv:Column ;
+    rdfs:label " Speaking Communities Size" .
+
+<http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/Syntax> a dsv:Column ;
+    rdfs:label " Syntax" .
+
+<http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/UsageRegions> a dsv:Column ;
+    rdfs:label " Usage Regions" .
+
+<http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/Vocabulary> a dsv:Column ;
+    rdfs:label " Vocabulary" .
+
+<http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/WritingSystemsVariants> a dsv:Column ;
+    rdfs:label " Writing Systems Variants" .
+
+<http://metaUnionSearch/datasets/LanguageZPKYYOQF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/Dialects>,
+        <http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/Grammar>,
+        <http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/LanguageCode>,
+        <http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/LanguageType>,
+        <http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/NativeSpeakers>,
+        <http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/OfficialLanguageStatus>,
+        <http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/Speakers>,
+        <http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/SpeakingCommunitiesSize>,
+        <http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/Syntax>,
+        <http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/UsageRegions>,
+        <http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/Vocabulary>,
+        <http://metaUnionSearch/datasets/LanguageZPKYYOQF/column/WritingSystemsVariants> .
+

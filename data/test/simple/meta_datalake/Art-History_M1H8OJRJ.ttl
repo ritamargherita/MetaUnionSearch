@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_M1H8OJRJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/Artist> a dsv:Column ;
+    rdfs:label " Artist" .
+
+<http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/Artwork> a dsv:Column ;
+    rdfs:label "`Artwork" .
+
+<http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/CriticalReceptionandAnalysis> a dsv:Column ;
+    rdfs:label " Critical Reception and Analysis" .
+
+<http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/DateCreated> a dsv:Column ;
+    rdfs:label " Date Created" .
+
+<http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/DescriptionandInterpretation> a dsv:Column ;
+    rdfs:label " Description and Interpretation" .
+
+<http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/Dimensions> a dsv:Column ;
+    rdfs:label " Dimensions" .
+
+<http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/ExhibitionHistory> a dsv:Column ;
+    rdfs:label " Exhibition History" .
+
+<http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/InfluenceandLegacy> a dsv:Column ;
+    rdfs:label " Influence and Legacy" .
+
+<http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/Medium> a dsv:Column ;
+    rdfs:label " Medium" .
+
+<http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/Provenance> a dsv:Column ;
+    rdfs:label " Provenance" .
+
+<http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/ScholarlyResourcesandReferences> a dsv:Column ;
+    rdfs:label " Scholarly Resources and References`" .
+
+<http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/Artist>,
+        <http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/Artwork>,
+        <http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/CriticalReceptionandAnalysis>,
+        <http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/DateCreated>,
+        <http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/DescriptionandInterpretation>,
+        <http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/Dimensions>,
+        <http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/ExhibitionHistory>,
+        <http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/InfluenceandLegacy>,
+        <http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/Medium>,
+        <http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/Provenance>,
+        <http://metaUnionSearch/datasets/ArtHistoryM1H8OJRJ/column/ScholarlyResourcesandReferences> .
+

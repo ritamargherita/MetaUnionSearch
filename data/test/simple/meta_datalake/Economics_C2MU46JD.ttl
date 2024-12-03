@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EconomicsC2MU46JD> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_C2MU46JD.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EconomicsC2MU46JD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/GDPgrowth> a dsv:Column ;
+    rdfs:label " GDP\\_growth" .
+
+<http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/annualrevenue> a dsv:Column ;
+    rdfs:label " $ annual\\_revenue" .
+
+<http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/billion> a dsv:Column ;
+    rdfs:label " $ billion" .
+
+<http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/companyname> a dsv:Column ;
+    rdfs:label " company\\_name" .
+
+<http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/datasource> a dsv:Column ;
+    rdfs:label " data\\_source" .
+
+<http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/employeecount> a dsv:Column ;
+    rdfs:label " employee\\_count" .
+
+<http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/industrycode> a dsv:Column ;
+    rdfs:label " industry\\_code" .
+
+<http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/marketvalue> a dsv:Column ;
+    rdfs:label " market\\_value" .
+
+<http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/sampledescription> a dsv:Column ;
+    rdfs:label " sample\\_description" .
+
+<http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/stateabbreviation> a dsv:Column ;
+    rdfs:label " state\\_abbreviation" .
+
+<http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/timeperiod> a dsv:Column ;
+    rdfs:label "time\\_period" .
+
+<http://metaUnionSearch/datasets/EconomicsC2MU46JD/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/GDPgrowth>,
+        <http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/annualrevenue>,
+        <http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/billion>,
+        <http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/companyname>,
+        <http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/datasource>,
+        <http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/employeecount>,
+        <http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/industrycode>,
+        <http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/marketvalue>,
+        <http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/sampledescription>,
+        <http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/stateabbreviation>,
+        <http://metaUnionSearch/datasets/EconomicsC2MU46JD/column/timeperiod> .
+

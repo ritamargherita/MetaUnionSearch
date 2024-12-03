@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhilosophyBLV0PRKG> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_BLV0PRKG.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/AdditionalPhilosopher> a dsv:Column ;
+    rdfs:label "Additional Philosopher" .
+
+<http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/NumberOfWorks> a dsv:Column ;
+    rdfs:label " Number Of Works" .
+
+<http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/PhilosophicSystem> a dsv:Column ;
+    rdfs:label " Philosophic System" .
+
+<http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/RelationtoMajorTheorist> a dsv:Column ;
+    rdfs:label " Relation to Major Theorist" .
+
+<http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/SupportingIdeas> a dsv:Column ;
+    rdfs:label " Supporting Ideas" .
+
+<http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/UnrelatedColumn10> a dsv:Column ;
+    rdfs:label " Unrelated Column 10" .
+
+<http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/UnrelatedColumn5> a dsv:Column ;
+    rdfs:label " Unrelated Column 5" .
+
+<http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/UnrelatedColumn6> a dsv:Column ;
+    rdfs:label " Unrelated Column 6" .
+
+<http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/UnrelatedColumn7> a dsv:Column ;
+    rdfs:label " Unrelated Column 7" .
+
+<http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/UnrelatedColumn8> a dsv:Column ;
+    rdfs:label " Unrelated Column 8" .
+
+<http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/UnrelatedColumn9> a dsv:Column ;
+    rdfs:label " Unrelated Column 9" .
+
+<http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/AdditionalPhilosopher>,
+        <http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/NumberOfWorks>,
+        <http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/PhilosophicSystem>,
+        <http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/RelationtoMajorTheorist>,
+        <http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/SupportingIdeas>,
+        <http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/UnrelatedColumn10>,
+        <http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/UnrelatedColumn5>,
+        <http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/UnrelatedColumn6>,
+        <http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/UnrelatedColumn7>,
+        <http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/UnrelatedColumn8>,
+        <http://metaUnionSearch/datasets/PhilosophyBLV0PRKG/column/UnrelatedColumn9> .
+

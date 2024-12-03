@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SociologyR2ESPRVU> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_R2ESPRVU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SociologyR2ESPRVU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/Collaboration> a dsv:Column ;
+    rdfs:label " Collaboration" .
+
+<http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/DataSecurity> a dsv:Column ;
+    rdfs:label " DataSecurity" .
+
+<http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/DataVisualization> a dsv:Column ;
+    rdfs:label " DataVisualization" .
+
+<http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/FocusGroup> a dsv:Column ;
+    rdfs:label " FocusGroup" .
+
+<http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/InformedConsent> a dsv:Column ;
+    rdfs:label " InformedConsent" .
+
+<http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/InterviewGuide> a dsv:Column ;
+    rdfs:label " InterviewGuide" .
+
+<http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/ParticipantObservation> a dsv:Column ;
+    rdfs:label " ParticipantObservation" .
+
+<http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/PeerReview> a dsv:Column ;
+    rdfs:label " PeerReview" .
+
+<http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/Questionnaire> a dsv:Column ;
+    rdfs:label " Questionnaire" .
+
+<http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/ResearchBudget> a dsv:Column ;
+    rdfs:label " ResearchBudget" .
+
+<http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/SociologistBackground> a dsv:Column ;
+    rdfs:label "SociologistBackground" .
+
+<http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/StudySetting> a dsv:Column ;
+    rdfs:label " StudySetting" .
+
+<http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/SurveySample> a dsv:Column ;
+    rdfs:label " SurveySample" .
+
+<http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/Timeline> a dsv:Column ;
+    rdfs:label " Timeline." .
+
+<http://metaUnionSearch/datasets/SociologyR2ESPRVU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/Collaboration>,
+        <http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/DataSecurity>,
+        <http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/DataVisualization>,
+        <http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/FocusGroup>,
+        <http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/InformedConsent>,
+        <http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/InterviewGuide>,
+        <http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/ParticipantObservation>,
+        <http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/PeerReview>,
+        <http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/Questionnaire>,
+        <http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/ResearchBudget>,
+        <http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/SociologistBackground>,
+        <http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/StudySetting>,
+        <http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/SurveySample>,
+        <http://metaUnionSearch/datasets/SociologyR2ESPRVU/column/Timeline> .
+

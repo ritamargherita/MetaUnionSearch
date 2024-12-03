@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GenealogyR2JCPS50> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_R2JCPS50.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GenealogyR2JCPS50/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/AnnualIncome> a dsv:Column ;
+    rdfs:label " AnnualIncome" .
+
+<http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/CensusYear> a dsv:Column ;
+    rdfs:label "CensusYear" .
+
+<http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/CityOrTown> a dsv:Column ;
+    rdfs:label " CityOrTown" .
+
+<http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/CountryOfBirth> a dsv:Column ;
+    rdfs:label " CountryOfBirth" .
+
+<http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/CountyName> a dsv:Column ;
+    rdfs:label " CountyName" .
+
+<http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/EducationLevelAttained> a dsv:Column ;
+    rdfs:label " EducationLevelAttained" .
+
+<http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/Ethnicity> a dsv:Column ;
+    rdfs:label " Ethnicity" .
+
+<http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/LifeExpectancy> a dsv:Column ;
+    rdfs:label " LifeExpectancy" .
+
+<http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/OccupationalGroup> a dsv:Column ;
+    rdfs:label " OccupationalGroup" .
+
+<http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/StateAbbreviation> a dsv:Column ;
+    rdfs:label " StateAbbreviation" .
+
+<http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/TotalPopulation> a dsv:Column ;
+    rdfs:label " TotalPopulation" .
+
+<http://metaUnionSearch/datasets/GenealogyR2JCPS50/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/AnnualIncome>,
+        <http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/CensusYear>,
+        <http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/CityOrTown>,
+        <http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/CountryOfBirth>,
+        <http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/CountyName>,
+        <http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/EducationLevelAttained>,
+        <http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/Ethnicity>,
+        <http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/LifeExpectancy>,
+        <http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/OccupationalGroup>,
+        <http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/StateAbbreviation>,
+        <http://metaUnionSearch/datasets/GenealogyR2JCPS50/column/TotalPopulation> .
+

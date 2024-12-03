@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologyI8QLHBIA> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_I8QLHBIA.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologyI8QLHBIA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/BlockchainTransactionsSpeedOptimizations> a dsv:Column ;
+    rdfs:label " Blockchain Transactions Speed Optimizations" .
+
+<http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/CloudServicesPricingModels> a dsv:Column ;
+    rdfs:label " Cloud Services Pricing Models" .
+
+<http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/CybersecurityThreatAnalysisTools> a dsv:Column ;
+    rdfs:label " Cybersecurity Threat Analysis Tools" .
+
+<http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/DatacenterPhysicalLayoutPlanning> a dsv:Column ;
+    rdfs:label " Datacenter Physical Layout Planning" .
+
+<http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/EdgeComputingInfrastructureImprovements> a dsv:Column ;
+    rdfs:label " Edge Computing Infrastructure Improvements" .
+
+<http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/ITProjectManagementMethodologies> a dsv:Column ;
+    rdfs:label " IT Project Management Methodologies" .
+
+<http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/InternetOfThingsIoTProtocolStandards> a dsv:Column ;
+    rdfs:label " Internet Of Things (IoT) Protocol Standards" .
+
+<http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/LegalIssuesinTechnology> a dsv:Column ;
+    rdfs:label " Legal Issues in Technology." .
+
+<http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/OpenSourceLicensingOptions> a dsv:Column ;
+    rdfs:label " Open Source Licensing Options" .
+
+<http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/ProgrammingLanguagesAdoption> a dsv:Column ;
+    rdfs:label " Programming Languages Adoption" .
+
+<http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/QuantumComputingResearchDevelopments> a dsv:Column ;
+    rdfs:label " Quantum Computing Research Developments" .
+
+<http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/SoftwareArchitecturePatterns> a dsv:Column ;
+    rdfs:label "Software Architecture Patterns" .
+
+<http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/UserExperienceDesignGuidelines> a dsv:Column ;
+    rdfs:label " User Experience Design Guidelines" .
+
+<http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/VirtualRealityAugmentedRealityApplications> a dsv:Column ;
+    rdfs:label " Virtual Reality / Augmented Reality Applications" .
+
+<http://metaUnionSearch/datasets/TechnologyI8QLHBIA/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/BlockchainTransactionsSpeedOptimizations>,
+        <http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/CloudServicesPricingModels>,
+        <http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/CybersecurityThreatAnalysisTools>,
+        <http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/DatacenterPhysicalLayoutPlanning>,
+        <http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/EdgeComputingInfrastructureImprovements>,
+        <http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/ITProjectManagementMethodologies>,
+        <http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/InternetOfThingsIoTProtocolStandards>,
+        <http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/LegalIssuesinTechnology>,
+        <http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/OpenSourceLicensingOptions>,
+        <http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/ProgrammingLanguagesAdoption>,
+        <http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/QuantumComputingResearchDevelopments>,
+        <http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/SoftwareArchitecturePatterns>,
+        <http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/UserExperienceDesignGuidelines>,
+        <http://metaUnionSearch/datasets/TechnologyI8QLHBIA/column/VirtualRealityAugmentedRealityApplications> .
+

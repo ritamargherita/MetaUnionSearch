@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_Q9AH8RVH.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/AdditionalPreservationDetails> a dsv:Column ;
+    rdfs:label "\\AdditionalPreservationDetails" .
+
+<http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/ArtifactDescription2> a dsv:Column ;
+    rdfs:label "\\ArtifactDescription2" .
+
+<http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/ArtifactType4> a dsv:Column ;
+    rdfs:label "\\ArtifactType4" .
+
+<http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/ArtifactType5> a dsv:Column ;
+    rdfs:label "\\ArtifactType5" .
+
+<http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/ArtifactType6> a dsv:Column ;
+    rdfs:label "\\ArtifactType6" .
+
+<http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/NewColumn10> a dsv:Column ;
+    rdfs:label "\\NewColumn\\_10" .
+
+<http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/NewColumn11> a dsv:Column ;
+    rdfs:label "\\NewColumn\\_11" .
+
+<http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/NewColumn12> a dsv:Column ;
+    rdfs:label "\\NewColumn\\_12" .
+
+<http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/NewColumn13> a dsv:Column ;
+    rdfs:label "\\NewColumn\\_13" .
+
+<http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/NewColumn7> a dsv:Column ;
+    rdfs:label "\\NewColumn\\_7" .
+
+<http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/NewColumn8> a dsv:Column ;
+    rdfs:label "\\NewColumn\\_8" .
+
+<http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/NewColumn9> a dsv:Column ;
+    rdfs:label "\\NewColumn\\_9" .
+
+<http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/AdditionalPreservationDetails>,
+        <http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/ArtifactDescription2>,
+        <http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/ArtifactType4>,
+        <http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/ArtifactType5>,
+        <http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/ArtifactType6>,
+        <http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/NewColumn10>,
+        <http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/NewColumn11>,
+        <http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/NewColumn12>,
+        <http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/NewColumn13>,
+        <http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/NewColumn7>,
+        <http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/NewColumn8>,
+        <http://metaUnionSearch/datasets/ArcheologyQ9AH8RVH/column/NewColumn9> .
+

@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Criminology4H5W21BK> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_4H5W21BK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Criminology4H5W21BK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Criminology4H5W21BK/column/ArrestOfficerID> a dsv:Column ;
+    rdfs:label "Arrest Officer ID" .
+
+<http://metaUnionSearch/datasets/Criminology4H5W21BK/column/ArrestingOfficeDepartment> a dsv:Column ;
+    rdfs:label " Arresting Office Department" .
+
+<http://metaUnionSearch/datasets/Criminology4H5W21BK/column/CaseComplexity> a dsv:Column ;
+    rdfs:label " Case Complexity" .
+
+<http://metaUnionSearch/datasets/Criminology4H5W21BK/column/InvestigationStatus> a dsv:Column ;
+    rdfs:label " Investigation Status" .
+
+<http://metaUnionSearch/datasets/Criminology4H5W21BK/column/LocationType> a dsv:Column ;
+    rdfs:label " Location Type" .
+
+<http://metaUnionSearch/datasets/Criminology4H5W21BK/column/RehabilitationProgress> a dsv:Column ;
+    rdfs:label " Rehabilitation Progress" .
+
+<http://metaUnionSearch/datasets/Criminology4H5W21BK/column/SentencingOutcome> a dsv:Column ;
+    rdfs:label " Sentencing Outcome" .
+
+<http://metaUnionSearch/datasets/Criminology4H5W21BK/column/SuspectedWeaponsInvolved> a dsv:Column ;
+    rdfs:label " Suspected Weapon(s) Involved" .
+
+<http://metaUnionSearch/datasets/Criminology4H5W21BK/column/TimeofDay> a dsv:Column ;
+    rdfs:label " Time of Day" .
+
+<http://metaUnionSearch/datasets/Criminology4H5W21BK/column/Year> a dsv:Column ;
+    rdfs:label " Year" .
+
+<http://metaUnionSearch/datasets/Criminology4H5W21BK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Criminology4H5W21BK/column/ArrestOfficerID>,
+        <http://metaUnionSearch/datasets/Criminology4H5W21BK/column/ArrestingOfficeDepartment>,
+        <http://metaUnionSearch/datasets/Criminology4H5W21BK/column/CaseComplexity>,
+        <http://metaUnionSearch/datasets/Criminology4H5W21BK/column/InvestigationStatus>,
+        <http://metaUnionSearch/datasets/Criminology4H5W21BK/column/LocationType>,
+        <http://metaUnionSearch/datasets/Criminology4H5W21BK/column/RehabilitationProgress>,
+        <http://metaUnionSearch/datasets/Criminology4H5W21BK/column/SentencingOutcome>,
+        <http://metaUnionSearch/datasets/Criminology4H5W21BK/column/SuspectedWeaponsInvolved>,
+        <http://metaUnionSearch/datasets/Criminology4H5W21BK/column/TimeofDay>,
+        <http://metaUnionSearch/datasets/Criminology4H5W21BK/column/Year> .
+

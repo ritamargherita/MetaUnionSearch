@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Culture5F62D3I6> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_5F62D3I6.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Culture5F62D3I6/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Culture5F62D3I6/column/ArchitectureandDesign> a dsv:Column ;
+    rdfs:label " Architecture and Design" .
+
+<http://metaUnionSearch/datasets/Culture5F62D3I6/column/Cinematography> a dsv:Column ;
+    rdfs:label " Cinematography" .
+
+<http://metaUnionSearch/datasets/Culture5F62D3I6/column/Climate> a dsv:Column ;
+    rdfs:label " Climate" .
+
+<http://metaUnionSearch/datasets/Culture5F62D3I6/column/Cuisine> a dsv:Column ;
+    rdfs:label " Cuisine" .
+
+<http://metaUnionSearch/datasets/Culture5F62D3I6/column/DanceandTheatre> a dsv:Column ;
+    rdfs:label " Dance and Theatre" .
+
+<http://metaUnionSearch/datasets/Culture5F62D3I6/column/FamilyStructure> a dsv:Column ;
+    rdfs:label "Family Structure" .
+
+<http://metaUnionSearch/datasets/Culture5F62D3I6/column/GreetingsandEtiquette> a dsv:Column ;
+    rdfs:label " Greetings and Etiquette" .
+
+<http://metaUnionSearch/datasets/Culture5F62D3I6/column/LiteratureandPoetry> a dsv:Column ;
+    rdfs:label " Literature and Poetry" .
+
+<http://metaUnionSearch/datasets/Culture5F62D3I6/column/NationalHolidays> a dsv:Column ;
+    rdfs:label " National Holidays" .
+
+<http://metaUnionSearch/datasets/Culture5F62D3I6/column/NonverbalCommunications> a dsv:Column ;
+    rdfs:label " Non-verbal Communications" .
+
+<http://metaUnionSearch/datasets/Culture5F62D3I6/column/PopCulture> a dsv:Column ;
+    rdfs:label " Pop Culture" .
+
+<http://metaUnionSearch/datasets/Culture5F62D3I6/column/PreferredCommunicationStyle> a dsv:Column ;
+    rdfs:label " Preferred Communication Style" .
+
+<http://metaUnionSearch/datasets/Culture5F62D3I6/column/SportsandExercise> a dsv:Column ;
+    rdfs:label " Sports and Exercise" .
+
+<http://metaUnionSearch/datasets/Culture5F62D3I6/column/VisualArts> a dsv:Column ;
+    rdfs:label " Visual Arts" .
+
+<http://metaUnionSearch/datasets/Culture5F62D3I6/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Culture5F62D3I6/column/ArchitectureandDesign>,
+        <http://metaUnionSearch/datasets/Culture5F62D3I6/column/Cinematography>,
+        <http://metaUnionSearch/datasets/Culture5F62D3I6/column/Climate>,
+        <http://metaUnionSearch/datasets/Culture5F62D3I6/column/Cuisine>,
+        <http://metaUnionSearch/datasets/Culture5F62D3I6/column/DanceandTheatre>,
+        <http://metaUnionSearch/datasets/Culture5F62D3I6/column/FamilyStructure>,
+        <http://metaUnionSearch/datasets/Culture5F62D3I6/column/GreetingsandEtiquette>,
+        <http://metaUnionSearch/datasets/Culture5F62D3I6/column/LiteratureandPoetry>,
+        <http://metaUnionSearch/datasets/Culture5F62D3I6/column/NationalHolidays>,
+        <http://metaUnionSearch/datasets/Culture5F62D3I6/column/NonverbalCommunications>,
+        <http://metaUnionSearch/datasets/Culture5F62D3I6/column/PopCulture>,
+        <http://metaUnionSearch/datasets/Culture5F62D3I6/column/PreferredCommunicationStyle>,
+        <http://metaUnionSearch/datasets/Culture5F62D3I6/column/SportsandExercise>,
+        <http://metaUnionSearch/datasets/Culture5F62D3I6/column/VisualArts> .
+

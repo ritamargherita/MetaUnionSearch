@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsQX653G4U> a dsv:Dataset ;
+    dcterms:subject "financial-markets" ;
+    dcterms:title "Financial-Markets_QX653G4U.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/BondTypesMaturities> a dsv:Column ;
+    rdfs:label "Bond Types & Maturities" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/CentralBankPolicy> a dsv:Column ;
+    rdfs:label "Central Bank Policy" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/CommodityPrices> a dsv:Column ;
+    rdfs:label "Commodity Prices" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/ConsumerSpending> a dsv:Column ;
+    rdfs:label "Consumer Spending" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/CorporateEarningReports> a dsv:Column ;
+    rdfs:label "Corporate Earning Reports" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/DerivativesProducts> a dsv:Column ;
+    rdfs:label "Derivatives Products" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/EconomicIndicatorsLeadingTrailing> a dsv:Column ;
+    rdfs:label "Economic Indicators (Leading, Trailing)" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/FinancialRegulationsandPolicies> a dsv:Column ;
+    rdfs:label "Financial Regulations and Policies" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/GeopoliticalEventsImpact> a dsv:Column ;
+    rdfs:label "Geopolitical Events Impact" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/HousingStartData> a dsv:Column ;
+    rdfs:label "Housing Start Data" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/ImportExportTariffs> a dsv:Column ;
+    rdfs:label "Import / Export Tariffs" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/MergersAcquisitionsAnnouncements> a dsv:Column ;
+    rdfs:label "Mergers Acquisitions Announcements" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/RetailSalesTrend> a dsv:Column ;
+    rdfs:label "Retail Sales Trend" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/BondTypesMaturities>,
+        <http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/CentralBankPolicy>,
+        <http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/CommodityPrices>,
+        <http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/ConsumerSpending>,
+        <http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/CorporateEarningReports>,
+        <http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/DerivativesProducts>,
+        <http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/EconomicIndicatorsLeadingTrailing>,
+        <http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/FinancialRegulationsandPolicies>,
+        <http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/GeopoliticalEventsImpact>,
+        <http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/HousingStartData>,
+        <http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/ImportExportTariffs>,
+        <http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/MergersAcquisitionsAnnouncements>,
+        <http://metaUnionSearch/datasets/FinancialMarketsQX653G4U/column/RetailSalesTrend> .
+

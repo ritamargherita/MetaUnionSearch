@@ -1,0 +1,27 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologyTUFDJKDF> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_TUFDJKDF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologyTUFDJKDF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologyTUFDJKDF/column/> a dsv:Column ;
+    rdfs:label "\\" .
+
+<http://metaUnionSearch/datasets/TechnologyTUFDJKDF/column/AugmentedRealityUsecases> a dsv:Column ;
+    rdfs:label " Augmented Reality Use-cases" .
+
+<http://metaUnionSearch/datasets/TechnologyTUFDJKDF/column/QuantumComputingSolutions> a dsv:Column ;
+    rdfs:label "Quantum Computing Solutions" .
+
+<http://metaUnionSearch/datasets/TechnologyTUFDJKDF/column/VirtualRealityApplications> a dsv:Column ;
+    rdfs:label " Virtual Reality Applications" .
+
+<http://metaUnionSearch/datasets/TechnologyTUFDJKDF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologyTUFDJKDF/column/>,
+        <http://metaUnionSearch/datasets/TechnologyTUFDJKDF/column/AugmentedRealityUsecases>,
+        <http://metaUnionSearch/datasets/TechnologyTUFDJKDF/column/QuantumComputingSolutions>,
+        <http://metaUnionSearch/datasets/TechnologyTUFDJKDF/column/VirtualRealityApplications> .
+

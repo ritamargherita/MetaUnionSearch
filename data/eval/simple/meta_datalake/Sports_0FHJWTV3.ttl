@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Sports0FHJWTV3> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_0FHJWTV3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Sports0FHJWTV3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Sports0FHJWTV3/column/AverageTicketPrice> a dsv:Column ;
+    rdfs:label " Average Ticket Price" .
+
+<http://metaUnionSearch/datasets/Sports0FHJWTV3/column/Coach> a dsv:Column ;
+    rdfs:label " Coach" .
+
+<http://metaUnionSearch/datasets/Sports0FHJWTV3/column/Conference> a dsv:Column ;
+    rdfs:label " Conference" .
+
+<http://metaUnionSearch/datasets/Sports0FHJWTV3/column/Division> a dsv:Column ;
+    rdfs:label " Division" .
+
+<http://metaUnionSearch/datasets/Sports0FHJWTV3/column/FoundingYear> a dsv:Column ;
+    rdfs:label " Founding Year" .
+
+<http://metaUnionSearch/datasets/Sports0FHJWTV3/column/League> a dsv:Column ;
+    rdfs:label " League" .
+
+<http://metaUnionSearch/datasets/Sports0FHJWTV3/column/Mascot> a dsv:Column ;
+    rdfs:label " Mascot" .
+
+<http://metaUnionSearch/datasets/Sports0FHJWTV3/column/NumberofPlayers> a dsv:Column ;
+    rdfs:label " Number of Players" .
+
+<http://metaUnionSearch/datasets/Sports0FHJWTV3/column/TeamColors> a dsv:Column ;
+    rdfs:label " Team Colors" .
+
+<http://metaUnionSearch/datasets/Sports0FHJWTV3/column/TeamName> a dsv:Column ;
+    rdfs:label "Team Name" .
+
+<http://metaUnionSearch/datasets/Sports0FHJWTV3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Sports0FHJWTV3/column/AverageTicketPrice>,
+        <http://metaUnionSearch/datasets/Sports0FHJWTV3/column/Coach>,
+        <http://metaUnionSearch/datasets/Sports0FHJWTV3/column/Conference>,
+        <http://metaUnionSearch/datasets/Sports0FHJWTV3/column/Division>,
+        <http://metaUnionSearch/datasets/Sports0FHJWTV3/column/FoundingYear>,
+        <http://metaUnionSearch/datasets/Sports0FHJWTV3/column/League>,
+        <http://metaUnionSearch/datasets/Sports0FHJWTV3/column/Mascot>,
+        <http://metaUnionSearch/datasets/Sports0FHJWTV3/column/NumberofPlayers>,
+        <http://metaUnionSearch/datasets/Sports0FHJWTV3/column/TeamColors>,
+        <http://metaUnionSearch/datasets/Sports0FHJWTV3/column/TeamName> .
+

@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathE30MY5ZP> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_E30MY5ZP.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathE30MY5ZP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathE30MY5ZP/column/ConceptGeometricObjects> a dsv:Column ;
+    rdfs:label " \"Concept\": \"Geometric Objects\"" .
+
+<http://metaUnionSearch/datasets/MathE30MY5ZP/column/CurrentUseExpansionSpecificUsesandApplicationsofGeometryinCurrentContexts> a dsv:Column ;
+    rdfs:label " **\"Current Use Expansion\"**: \"Specific Uses and Applications of Geometry in Current Contexts\"" .
+
+<http://metaUnionSearch/datasets/MathE30MY5ZP/column/DefinitionExtDefinitionsofGeometricObjectsandTheirProperties> a dsv:Column ;
+    rdfs:label " **\"Definition (Ext)\": \"Definitions of Geometric Objects and Their Properties\"**" .
+
+<http://metaUnionSearch/datasets/MathE30MY5ZP/column/EmergingTrendsEmergingResearchAreasandTrendsinGeometry> a dsv:Column ;
+    rdfs:label " **\"Emerging Trends\"**: \"Emerging Research Areas and Trends in Geometry\"" .
+
+<http://metaUnionSearch/datasets/MathE30MY5ZP/column/ExamplesExtendedExtendedExamplesinGeometry> a dsv:Column ;
+    rdfs:label " **\"Examples Extended\"**: \"Extended Examples in Geometry\"" .
+
+<http://metaUnionSearch/datasets/MathE30MY5ZP/column/FutureProjectionsPotentialFutureDevelopmentsinGeometry> a dsv:Column ;
+    rdfs:label " **\"Future Projections\"**: \"Potential Future Developments in Geometry\"" .
+
+<http://metaUnionSearch/datasets/MathE30MY5ZP/column/MathematicsAreaGeometryDetailed> a dsv:Column ;
+    rdfs:label "\"Mathematics Area\": \"Geometry Detailed\"" .
+
+<http://metaUnionSearch/datasets/MathE30MY5ZP/column/OperationsNewNewGeometricOperations> a dsv:Column ;
+    rdfs:label " **\"Operations(New)\": \"New Geometric Operations\"**" .
+
+<http://metaUnionSearch/datasets/MathE30MY5ZP/column/PropertiesFurtherFurtherPropertiesofGeometricObjects> a dsv:Column ;
+    rdfs:label " *\"Properties(Further)* \": \"*Further Properties of Geometric Objects*\" " .
+
+<http://metaUnionSearch/datasets/MathE30MY5ZP/column/SymbolismsMoreAdditionalSymbolicRepresentationsinGeometry> a dsv:Column ;
+    rdfs:label " _\" Symbolisms (More)\": \"Additional Symbolic Representations in Geometry\"_" .
+
+<http://metaUnionSearch/datasets/MathE30MY5ZP/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MathE30MY5ZP/column/ConceptGeometricObjects>,
+        <http://metaUnionSearch/datasets/MathE30MY5ZP/column/CurrentUseExpansionSpecificUsesandApplicationsofGeometryinCurrentContexts>,
+        <http://metaUnionSearch/datasets/MathE30MY5ZP/column/DefinitionExtDefinitionsofGeometricObjectsandTheirProperties>,
+        <http://metaUnionSearch/datasets/MathE30MY5ZP/column/EmergingTrendsEmergingResearchAreasandTrendsinGeometry>,
+        <http://metaUnionSearch/datasets/MathE30MY5ZP/column/ExamplesExtendedExtendedExamplesinGeometry>,
+        <http://metaUnionSearch/datasets/MathE30MY5ZP/column/FutureProjectionsPotentialFutureDevelopmentsinGeometry>,
+        <http://metaUnionSearch/datasets/MathE30MY5ZP/column/MathematicsAreaGeometryDetailed>,
+        <http://metaUnionSearch/datasets/MathE30MY5ZP/column/OperationsNewNewGeometricOperations>,
+        <http://metaUnionSearch/datasets/MathE30MY5ZP/column/PropertiesFurtherFurtherPropertiesofGeometricObjects>,
+        <http://metaUnionSearch/datasets/MathE30MY5ZP/column/SymbolismsMoreAdditionalSymbolicRepresentationsinGeometry> .
+

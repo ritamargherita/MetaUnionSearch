@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M> a dsv:Dataset ;
+    dcterms:subject "financial-markets" ;
+    dcterms:title "Financial-Markets_NVF2XF8M.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/BalanceofTrade> a dsv:Column ;
+    rdfs:label "Balance of Trade" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/BudgetBalance> a dsv:Column ;
+    rdfs:label "Budget Balance" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/CentralBankInterestRates> a dsv:Column ;
+    rdfs:label "Central Bank Interest Rates" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/CommodityPrices> a dsv:Column ;
+    rdfs:label "Commodity Prices" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/ConsumerPriceIndex> a dsv:Column ;
+    rdfs:label "Consumer Price Index" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/GrossNationalProduct> a dsv:Column ;
+    rdfs:label "Gross National Product" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/HousingMarketIndex> a dsv:Column ;
+    rdfs:label "Housing Market Index" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/IndustrialProduction> a dsv:Column ;
+    rdfs:label "Industrial Production" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/LaborProductivity> a dsv:Column ;
+    rdfs:label "Labor Productivity." .
+
+<http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/ProducerPriceIndex> a dsv:Column ;
+    rdfs:label "Producer Price Index" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/RetailSales> a dsv:Column ;
+    rdfs:label "Retail Sales" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/BalanceofTrade>,
+        <http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/BudgetBalance>,
+        <http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/CentralBankInterestRates>,
+        <http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/CommodityPrices>,
+        <http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/ConsumerPriceIndex>,
+        <http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/GrossNationalProduct>,
+        <http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/HousingMarketIndex>,
+        <http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/IndustrialProduction>,
+        <http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/LaborProductivity>,
+        <http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/ProducerPriceIndex>,
+        <http://metaUnionSearch/datasets/FinancialMarketsNVF2XF8M/column/RetailSales> .
+

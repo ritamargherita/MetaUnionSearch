@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawYZWJSCSF> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_YZWJSCSF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawYZWJSCSF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawYZWJSCSF/column/AssociationwithCurrentCase> a dsv:Column ;
+    rdfs:label " Association with Current Case" .
+
+<http://metaUnionSearch/datasets/LawYZWJSCSF/column/BillNumber> a dsv:Column ;
+    rdfs:label " Bill Number" .
+
+<http://metaUnionSearch/datasets/LawYZWJSCSF/column/ConstitutionalityExaminationresults> a dsv:Column ;
+    rdfs:label " Constitutionality Examination results" .
+
+<http://metaUnionSearch/datasets/LawYZWJSCSF/column/DivisionofPowerAnalysis> a dsv:Column ;
+    rdfs:label " Division of Power Analysis" .
+
+<http://metaUnionSearch/datasets/LawYZWJSCSF/column/ImplementationProgressChallenges> a dsv:Column ;
+    rdfs:label " Implementation Progress & Challenges" .
+
+<http://metaUnionSearch/datasets/LawYZWJSCSF/column/LegislativeJurisdiction> a dsv:Column ;
+    rdfs:label "Legislative Jurisdiction" .
+
+<http://metaUnionSearch/datasets/LawYZWJSCSF/column/LegislatureSession> a dsv:Column ;
+    rdfs:label " Legislature Session" .
+
+<http://metaUnionSearch/datasets/LawYZWJSCSF/column/LobbyistsEngaged> a dsv:Column ;
+    rdfs:label " Lobbyists Engaged" .
+
+<http://metaUnionSearch/datasets/LawYZWJSCSF/column/PoliticalImpactPredictions> a dsv:Column ;
+    rdfs:label " Political Impact Predictions" .
+
+<http://metaUnionSearch/datasets/LawYZWJSCSF/column/ProposedLegislationText> a dsv:Column ;
+    rdfs:label " Proposed Legislation Text" .
+
+<http://metaUnionSearch/datasets/LawYZWJSCSF/column/PublicHearingsInformation> a dsv:Column ;
+    rdfs:label " Public Hearings Information" .
+
+<http://metaUnionSearch/datasets/LawYZWJSCSF/column/VotingResults> a dsv:Column ;
+    rdfs:label " Voting Results" .
+
+<http://metaUnionSearch/datasets/LawYZWJSCSF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LawYZWJSCSF/column/AssociationwithCurrentCase>,
+        <http://metaUnionSearch/datasets/LawYZWJSCSF/column/BillNumber>,
+        <http://metaUnionSearch/datasets/LawYZWJSCSF/column/ConstitutionalityExaminationresults>,
+        <http://metaUnionSearch/datasets/LawYZWJSCSF/column/DivisionofPowerAnalysis>,
+        <http://metaUnionSearch/datasets/LawYZWJSCSF/column/ImplementationProgressChallenges>,
+        <http://metaUnionSearch/datasets/LawYZWJSCSF/column/LegislativeJurisdiction>,
+        <http://metaUnionSearch/datasets/LawYZWJSCSF/column/LegislatureSession>,
+        <http://metaUnionSearch/datasets/LawYZWJSCSF/column/LobbyistsEngaged>,
+        <http://metaUnionSearch/datasets/LawYZWJSCSF/column/PoliticalImpactPredictions>,
+        <http://metaUnionSearch/datasets/LawYZWJSCSF/column/ProposedLegislationText>,
+        <http://metaUnionSearch/datasets/LawYZWJSCSF/column/PublicHearingsInformation>,
+        <http://metaUnionSearch/datasets/LawYZWJSCSF/column/VotingResults> .
+

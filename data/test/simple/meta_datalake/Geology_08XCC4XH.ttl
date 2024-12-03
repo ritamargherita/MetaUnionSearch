@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_08XCC4XH.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geology08XCC4XH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH/column/11columnsfromTable2> a dsv:Column ;
+    rdfs:label " (11 columns from Table 2)" .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH/column/4commoncolumns> a dsv:Column ;
+    rdfs:label " (4 common columns)" .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH/column/AgeMillionYears> a dsv:Column ;
+    rdfs:label " Age (Million Years)" .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH/column/Alteration> a dsv:Column ;
+    rdfs:label " Alteration" .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH/column/Contactvsregionalmetamorphism> a dsv:Column ;
+    rdfs:label " Contact vs regional metamorphism" .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH/column/Crystallinestructure> a dsv:Column ;
+    rdfs:label " Crystalline structure" .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH/column/FormationLocation> a dsv:Column ;
+    rdfs:label " Formation Location" .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH/column/Geologicalsignificance> a dsv:Column ;
+    rdfs:label " Geological significance" .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH/column/Igneousdifferentiation> a dsv:Column ;
+    rdfs:label " Igneous differentiation" .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH/column/Metamorphicrocktypes> a dsv:Column ;
+    rdfs:label " Metamorphic rock types" .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH/column/Rockformingprocesses> a dsv:Column ;
+    rdfs:label " Rock-forming processes" .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH/column/Secondaryminerals> a dsv:Column ;
+    rdfs:label "Secondary minerals" .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH/column/StratigraphicPosition> a dsv:Column ;
+    rdfs:label " Stratigraphic Position" .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH/column/SubsurfaceConditions> a dsv:Column ;
+    rdfs:label " Subsurface Conditions" .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH/column/Weatheringproducts> a dsv:Column ;
+    rdfs:label " Weathering products" .
+
+<http://metaUnionSearch/datasets/Geology08XCC4XH/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Geology08XCC4XH/column/11columnsfromTable2>,
+        <http://metaUnionSearch/datasets/Geology08XCC4XH/column/4commoncolumns>,
+        <http://metaUnionSearch/datasets/Geology08XCC4XH/column/AgeMillionYears>,
+        <http://metaUnionSearch/datasets/Geology08XCC4XH/column/Alteration>,
+        <http://metaUnionSearch/datasets/Geology08XCC4XH/column/Contactvsregionalmetamorphism>,
+        <http://metaUnionSearch/datasets/Geology08XCC4XH/column/Crystallinestructure>,
+        <http://metaUnionSearch/datasets/Geology08XCC4XH/column/FormationLocation>,
+        <http://metaUnionSearch/datasets/Geology08XCC4XH/column/Geologicalsignificance>,
+        <http://metaUnionSearch/datasets/Geology08XCC4XH/column/Igneousdifferentiation>,
+        <http://metaUnionSearch/datasets/Geology08XCC4XH/column/Metamorphicrocktypes>,
+        <http://metaUnionSearch/datasets/Geology08XCC4XH/column/Rockformingprocesses>,
+        <http://metaUnionSearch/datasets/Geology08XCC4XH/column/Secondaryminerals>,
+        <http://metaUnionSearch/datasets/Geology08XCC4XH/column/StratigraphicPosition>,
+        <http://metaUnionSearch/datasets/Geology08XCC4XH/column/SubsurfaceConditions>,
+        <http://metaUnionSearch/datasets/Geology08XCC4XH/column/Weatheringproducts> .
+

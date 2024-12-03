@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GardeningG9O9YP6S> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_G9O9YP6S.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GardeningG9O9YP6S/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/AverageRainfall> a dsv:Column ;
+    rdfs:label " AverageRainfall" .
+
+<http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/CompostPresence> a dsv:Column ;
+    rdfs:label " CompostPresence" .
+
+<http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/FertilityLevel> a dsv:Column ;
+    rdfs:label " FertilityLevel" .
+
+<http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/GardenBedsDimension> a dsv:Column ;
+    rdfs:label "GardenBedsDimension" .
+
+<http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/GardenDesignStyle> a dsv:Column ;
+    rdfs:label " GardenDesignStyle" .
+
+<http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/HarvestMonth> a dsv:Column ;
+    rdfs:label " HarvestMonth" .
+
+<http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/IrrigationSystemUsed> a dsv:Column ;
+    rdfs:label " IrrigationSystemUsed" .
+
+<http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/MaintenanceSchedule> a dsv:Column ;
+    rdfs:label " MaintenanceSchedule" .
+
+<http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/PlantDensity> a dsv:Column ;
+    rdfs:label " PlantDensity" .
+
+<http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/PotentialPollinators> a dsv:Column ;
+    rdfs:label " PotentialPollinators" .
+
+<http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/SoilDrainage> a dsv:Column ;
+    rdfs:label " SoilDrainage" .
+
+<http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/SoilTemperature> a dsv:Column ;
+    rdfs:label " SoilTemperature" .
+
+<http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/SoilingMaterialType> a dsv:Column ;
+    rdfs:label " SoilingMaterialType" .
+
+<http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/ToolStorageAvailability> a dsv:Column ;
+    rdfs:label " ToolStorageAvailability" .
+
+<http://metaUnionSearch/datasets/GardeningG9O9YP6S/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/AverageRainfall>,
+        <http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/CompostPresence>,
+        <http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/FertilityLevel>,
+        <http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/GardenBedsDimension>,
+        <http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/GardenDesignStyle>,
+        <http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/HarvestMonth>,
+        <http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/IrrigationSystemUsed>,
+        <http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/MaintenanceSchedule>,
+        <http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/PlantDensity>,
+        <http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/PotentialPollinators>,
+        <http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/SoilDrainage>,
+        <http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/SoilTemperature>,
+        <http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/SoilingMaterialType>,
+        <http://metaUnionSearch/datasets/GardeningG9O9YP6S/column/ToolStorageAvailability> .
+

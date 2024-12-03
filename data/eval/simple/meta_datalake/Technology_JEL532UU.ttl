@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologyJEL532UU> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_JEL532UU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologyJEL532UU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologyJEL532UU/column/AgileMethodologiesAdoption> a dsv:Column ;
+    rdfs:label " Agile Methodologies Adoption" .
+
+<http://metaUnionSearch/datasets/TechnologyJEL532UU/column/BlockchainImplementationsForTransparencyAndTraceability> a dsv:Column ;
+    rdfs:label " Blockchain Implementations For Transparency And Traceability" .
+
+<http://metaUnionSearch/datasets/TechnologyJEL532UU/column/CybersecurityThreatMitigationApproaches> a dsv:Column ;
+    rdfs:label " Cybersecurity Threat Mitigation Approaches" .
+
+<http://metaUnionSearch/datasets/TechnologyJEL532UU/column/DevOpsCultureIntegration> a dsv:Column ;
+    rdfs:label " DevOps Culture Integration" .
+
+<http://metaUnionSearch/datasets/TechnologyJEL532UU/column/IntellectualPropertyProtectionStrategies> a dsv:Column ;
+    rdfs:label " Intellectual Property Protection Strategies" .
+
+<http://metaUnionSearch/datasets/TechnologyJEL532UU/column/InternetOfThingsIoTArchitectures> a dsv:Column ;
+    rdfs:label " Internet Of Things (IoT) Architectures" .
+
+<http://metaUnionSearch/datasets/TechnologyJEL532UU/column/NaturalLanguageProcessingUtilizations> a dsv:Column ;
+    rdfs:label " Natural Language Processing Utilizations" .
+
+<http://metaUnionSearch/datasets/TechnologyJEL532UU/column/QuantumComputingResearchDevelopments> a dsv:Column ;
+    rdfs:label " Quantum Computing Research Developments" .
+
+<http://metaUnionSearch/datasets/TechnologyJEL532UU/column/SoftwareEngineeringPractices> a dsv:Column ;
+    rdfs:label "Software Engineering Practices" .
+
+<http://metaUnionSearch/datasets/TechnologyJEL532UU/column/TestingAutomationFrameworks> a dsv:Column ;
+    rdfs:label " Testing Automation Frameworks" .
+
+<http://metaUnionSearch/datasets/TechnologyJEL532UU/column/UserExperienceDesignPrinciples> a dsv:Column ;
+    rdfs:label " User Experience Design Principles" .
+
+<http://metaUnionSearch/datasets/TechnologyJEL532UU/column/VirtualRealityAugmentedRealityApplications> a dsv:Column ;
+    rdfs:label " Virtual Reality / Augmented Reality Applications" .
+
+<http://metaUnionSearch/datasets/TechnologyJEL532UU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologyJEL532UU/column/AgileMethodologiesAdoption>,
+        <http://metaUnionSearch/datasets/TechnologyJEL532UU/column/BlockchainImplementationsForTransparencyAndTraceability>,
+        <http://metaUnionSearch/datasets/TechnologyJEL532UU/column/CybersecurityThreatMitigationApproaches>,
+        <http://metaUnionSearch/datasets/TechnologyJEL532UU/column/DevOpsCultureIntegration>,
+        <http://metaUnionSearch/datasets/TechnologyJEL532UU/column/IntellectualPropertyProtectionStrategies>,
+        <http://metaUnionSearch/datasets/TechnologyJEL532UU/column/InternetOfThingsIoTArchitectures>,
+        <http://metaUnionSearch/datasets/TechnologyJEL532UU/column/NaturalLanguageProcessingUtilizations>,
+        <http://metaUnionSearch/datasets/TechnologyJEL532UU/column/QuantumComputingResearchDevelopments>,
+        <http://metaUnionSearch/datasets/TechnologyJEL532UU/column/SoftwareEngineeringPractices>,
+        <http://metaUnionSearch/datasets/TechnologyJEL532UU/column/TestingAutomationFrameworks>,
+        <http://metaUnionSearch/datasets/TechnologyJEL532UU/column/UserExperienceDesignPrinciples>,
+        <http://metaUnionSearch/datasets/TechnologyJEL532UU/column/VirtualRealityAugmentedRealityApplications> .
+

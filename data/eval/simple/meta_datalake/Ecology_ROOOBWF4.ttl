@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EcologyROOOBWF4> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_ROOOBWF4.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EcologyROOOBWF4/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EcologyROOOBWF4/column/AveragePrecipitation> a dsv:Column ;
+    rdfs:label " Average Precipitation" .
+
+<http://metaUnionSearch/datasets/EcologyROOOBWF4/column/BiotaInteractionsSpecificextrainfo> a dsv:Column ;
+    rdfs:label " Biota Interactions [Specific] (extra info)" .
+
+<http://metaUnionSearch/datasets/EcologyROOOBWF4/column/HabitatCharacteristicssubspeciesspecific> a dsv:Column ;
+    rdfs:label " Habitat Characteristics (subspecies-specific)" .
+
+<http://metaUnionSearch/datasets/EcologyROOOBWF4/column/MineralContent> a dsv:Column ;
+    rdfs:label " Mineral Content" .
+
+<http://metaUnionSearch/datasets/EcologyROOOBWF4/column/NonnativeInvadersCountSuccessRate> a dsv:Column ;
+    rdfs:label " Non-native Invaders' Count & Success Rate%" .
+
+<http://metaUnionSearch/datasets/EcologyROOOBWF4/column/OverallHealthAssessmentScore> a dsv:Column ;
+    rdfs:label " Overall Health Assessment Score" .
+
+<http://metaUnionSearch/datasets/EcologyROOOBWF4/column/SecondaryHabitats> a dsv:Column ;
+    rdfs:label "Secondary Habitats" .
+
+<http://metaUnionSearch/datasets/EcologyROOOBWF4/column/SoilpHTypeadditionaldata> a dsv:Column ;
+    rdfs:label " Soil pH/Type (additional data)" .
+
+<http://metaUnionSearch/datasets/EcologyROOOBWF4/column/UniqueColumn11newlyaddeduniquetopic> a dsv:Column ;
+    rdfs:label " Unique Column 11 (newly added unique topic)" .
+
+<http://metaUnionSearch/datasets/EcologyROOOBWF4/column/WaterQualityIndex> a dsv:Column ;
+    rdfs:label " Water Quality Index" .
+
+<http://metaUnionSearch/datasets/EcologyROOOBWF4/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EcologyROOOBWF4/column/AveragePrecipitation>,
+        <http://metaUnionSearch/datasets/EcologyROOOBWF4/column/BiotaInteractionsSpecificextrainfo>,
+        <http://metaUnionSearch/datasets/EcologyROOOBWF4/column/HabitatCharacteristicssubspeciesspecific>,
+        <http://metaUnionSearch/datasets/EcologyROOOBWF4/column/MineralContent>,
+        <http://metaUnionSearch/datasets/EcologyROOOBWF4/column/NonnativeInvadersCountSuccessRate>,
+        <http://metaUnionSearch/datasets/EcologyROOOBWF4/column/OverallHealthAssessmentScore>,
+        <http://metaUnionSearch/datasets/EcologyROOOBWF4/column/SecondaryHabitats>,
+        <http://metaUnionSearch/datasets/EcologyROOOBWF4/column/SoilpHTypeadditionaldata>,
+        <http://metaUnionSearch/datasets/EcologyROOOBWF4/column/UniqueColumn11newlyaddeduniquetopic>,
+        <http://metaUnionSearch/datasets/EcologyROOOBWF4/column/WaterQualityIndex> .
+

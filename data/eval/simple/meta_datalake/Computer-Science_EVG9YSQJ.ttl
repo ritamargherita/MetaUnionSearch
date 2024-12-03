@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_EVG9YSQJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/10EthicsinTechnology> a dsv:Column ;
+    rdfs:label "10. Ethics in Technology" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/11ProfessionalDevelopment> a dsv:Column ;
+    rdfs:label "11. Professional Development" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/12StudentResources> a dsv:Column ;
+    rdfs:label "12. Student Resources" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/13CSTheoryConcepts> a dsv:Column ;
+    rdfs:label "13. CS Theory Concepts" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/14ProgrammingLanguagesPractices> a dsv:Column ;
+    rdfs:label "14. Programming Languages Practices" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/1ComputationalTheory> a dsv:Column ;
+    rdfs:label "1. Computational Theory" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/2SoftwareEngineeringPrinciples> a dsv:Column ;
+    rdfs:label "2. Software Engineering Principles" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/3ProgramDesignPatterns> a dsv:Column ;
+    rdfs:label "3. Program Design Patterns" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/4DigitalLogicCircuitry> a dsv:Column ;
+    rdfs:label "4. Digital Logic & Circuitry" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/5ArtificialIntelligence> a dsv:Column ;
+    rdfs:label "5. Artificial Intelligence" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/6MachineLearning> a dsv:Column ;
+    rdfs:label "6. Machine Learning" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/7HumanComputerInteractionHCI> a dsv:Column ;
+    rdfs:label "7. Human-Computer Interaction (HCI)" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/8CybersecurityCryptography> a dsv:Column ;
+    rdfs:label "8. Cybersecurity & Cryptography" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/9ResearchMethodologiesfrCS> a dsv:Column ;
+    rdfs:label "9. Research Methodologies für CS" .
+
+<http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/10EthicsinTechnology>,
+        <http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/11ProfessionalDevelopment>,
+        <http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/12StudentResources>,
+        <http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/13CSTheoryConcepts>,
+        <http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/14ProgrammingLanguagesPractices>,
+        <http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/1ComputationalTheory>,
+        <http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/2SoftwareEngineeringPrinciples>,
+        <http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/3ProgramDesignPatterns>,
+        <http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/4DigitalLogicCircuitry>,
+        <http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/5ArtificialIntelligence>,
+        <http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/6MachineLearning>,
+        <http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/7HumanComputerInteractionHCI>,
+        <http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/8CybersecurityCryptography>,
+        <http://metaUnionSearch/datasets/ComputerScienceEVG9YSQJ/column/9ResearchMethodologiesfrCS> .
+

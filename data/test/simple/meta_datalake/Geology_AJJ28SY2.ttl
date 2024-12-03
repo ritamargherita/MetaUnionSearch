@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeologyAJJ28SY2> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_AJJ28SY2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeologyAJJ28SY2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/CrystallinityDegree> a dsv:Column ;
+    rdfs:label " Crystallinity Degree" .
+
+<http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/FelsICAssociationsSiliceus> a dsv:Column ;
+    rdfs:label " FelsIC Associations - Siliceus" .
+
+<http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/GiantPorphyroblastsPresent> a dsv:Column ;
+    rdfs:label " Giant Porphyroblasts Present?" .
+
+<http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/IgneousRocksTypes> a dsv:Column ;
+    rdfs:label "Igneous Rocks Types" .
+
+<http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/MetamorphismHistoryTimeline> a dsv:Column ;
+    rdfs:label " Metamorphism History Timeline" .
+
+<http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/MineralAggregatesIntermediary> a dsv:Column ;
+    rdfs:label " Mineral Aggregates – Intermediary" .
+
+<http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/MineralAssemblagesMafics> a dsv:Column ;
+    rdfs:label " Mineral Assemblages - Mafics" .
+
+<http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/OccurrenceChronicleEvents> a dsv:Column ;
+    rdfs:label " Occurrence Chronicle (Events)" .
+
+<http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/PlutonicvsPhaneritric> a dsv:Column ;
+    rdfs:label " \"Plutonic vs Phaneritric\"" .
+
+<http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/RegionalDynamicsduringOrogenesis> a dsv:Column ;
+    rdfs:label " Regional Dynamics during Orogenesis" .
+
+<http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/VolcanicityIndex> a dsv:Column ;
+    rdfs:label " Volcanicity Index" .
+
+<http://metaUnionSearch/datasets/GeologyAJJ28SY2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/CrystallinityDegree>,
+        <http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/FelsICAssociationsSiliceus>,
+        <http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/GiantPorphyroblastsPresent>,
+        <http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/IgneousRocksTypes>,
+        <http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/MetamorphismHistoryTimeline>,
+        <http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/MineralAggregatesIntermediary>,
+        <http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/MineralAssemblagesMafics>,
+        <http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/OccurrenceChronicleEvents>,
+        <http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/PlutonicvsPhaneritric>,
+        <http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/RegionalDynamicsduringOrogenesis>,
+        <http://metaUnionSearch/datasets/GeologyAJJ28SY2/column/VolcanicityIndex> .
+

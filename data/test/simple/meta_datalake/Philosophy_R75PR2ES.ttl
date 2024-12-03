@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhilosophyR75PR2ES> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_R75PR2ES.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhilosophyR75PR2ES/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/Applications> a dsv:Column ;
+    rdfs:label " Applications" .
+
+<http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/CentralTenets> a dsv:Column ;
+    rdfs:label " Central Tenets" .
+
+<http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/DirectOpponentSchools> a dsv:Column ;
+    rdfs:label " Direct Opponent Schools" .
+
+<http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/DistinctiveIdeas> a dsv:Column ;
+    rdfs:label "Distinctive Ideas" .
+
+<http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/HistoricalImpact> a dsv:Column ;
+    rdfs:label " Historical Impact" .
+
+<http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/ModernRelevance> a dsv:Column ;
+    rdfs:label " Modern Relevance" .
+
+<http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/NotableQuotes> a dsv:Column ;
+    rdfs:label " Notable Quotes" .
+
+<http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/OriginatingRegionTimePeriod> a dsv:Column ;
+    rdfs:label " Originating Region & Time Period" .
+
+<http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/PreservedWorks> a dsv:Column ;
+    rdfs:label " Preserved Works" .
+
+<http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/RelatedMovements> a dsv:Column ;
+    rdfs:label " Related Movements" .
+
+<http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/ScholarlyCriticism> a dsv:Column ;
+    rdfs:label " Scholarly Criticism" .
+
+<http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/SympatheticThinkers> a dsv:Column ;
+    rdfs:label " Sympathetic Thinkers" .
+
+<http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/UniqueMethodology> a dsv:Column ;
+    rdfs:label " Unique Methodology" .
+
+<http://metaUnionSearch/datasets/PhilosophyR75PR2ES/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/Applications>,
+        <http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/CentralTenets>,
+        <http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/DirectOpponentSchools>,
+        <http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/DistinctiveIdeas>,
+        <http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/HistoricalImpact>,
+        <http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/ModernRelevance>,
+        <http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/NotableQuotes>,
+        <http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/OriginatingRegionTimePeriod>,
+        <http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/PreservedWorks>,
+        <http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/RelatedMovements>,
+        <http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/ScholarlyCriticism>,
+        <http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/SympatheticThinkers>,
+        <http://metaUnionSearch/datasets/PhilosophyR75PR2ES/column/UniqueMethodology> .
+

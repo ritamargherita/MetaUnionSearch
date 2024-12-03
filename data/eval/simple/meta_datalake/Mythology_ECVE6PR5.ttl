@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5> a dsv:Dataset ;
+    dcterms:subject "mythology" ;
+    dcterms:title "Mythology_ECVE6PR5.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MythologyECVE6PR5/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5/column/AssociationswithNaturalPhenomena> a dsv:Column ;
+    rdfs:label " Associations with Natural Phenomena" .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5/column/Children> a dsv:Column ;
+    rdfs:label " Children" .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5/column/CulturalImpact> a dsv:Column ;
+    rdfs:label " Cultural Impact" .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5/column/DivineRoles> a dsv:Column ;
+    rdfs:label " Divine Roles" .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5/column/FamilyTreeConnections> a dsv:Column ;
+    rdfs:label " Family Tree Connections" .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5/column/God> a dsv:Column ;
+    rdfs:label "God" .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5/column/InteractionWithHumans> a dsv:Column ;
+    rdfs:label " Interaction With Humans" .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5/column/MythmakingPurpose> a dsv:Column ;
+    rdfs:label " Mythmaking Purpose" .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5/column/OriginStories> a dsv:Column ;
+    rdfs:label " Origin Stories" .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5/column/ParallelsWithinOtherCultures> a dsv:Column ;
+    rdfs:label " Parallels Within Other Cultures" .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5/column/ParentalRelationships> a dsv:Column ;
+    rdfs:label " Parental Relationships" .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5/column/PopCulturePortrayals> a dsv:Column ;
+    rdfs:label " Pop Culture Portrayals" .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5/column/ReligiousStatus> a dsv:Column ;
+    rdfs:label " Religious Status" .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5/column/SiblingDynamics> a dsv:Column ;
+    rdfs:label " Sibling Dynamics" .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5/column/Spouseves> a dsv:Column ;
+    rdfs:label " Spouse(ves)" .
+
+<http://metaUnionSearch/datasets/MythologyECVE6PR5/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MythologyECVE6PR5/column/AssociationswithNaturalPhenomena>,
+        <http://metaUnionSearch/datasets/MythologyECVE6PR5/column/Children>,
+        <http://metaUnionSearch/datasets/MythologyECVE6PR5/column/CulturalImpact>,
+        <http://metaUnionSearch/datasets/MythologyECVE6PR5/column/DivineRoles>,
+        <http://metaUnionSearch/datasets/MythologyECVE6PR5/column/FamilyTreeConnections>,
+        <http://metaUnionSearch/datasets/MythologyECVE6PR5/column/God>,
+        <http://metaUnionSearch/datasets/MythologyECVE6PR5/column/InteractionWithHumans>,
+        <http://metaUnionSearch/datasets/MythologyECVE6PR5/column/MythmakingPurpose>,
+        <http://metaUnionSearch/datasets/MythologyECVE6PR5/column/OriginStories>,
+        <http://metaUnionSearch/datasets/MythologyECVE6PR5/column/ParallelsWithinOtherCultures>,
+        <http://metaUnionSearch/datasets/MythologyECVE6PR5/column/ParentalRelationships>,
+        <http://metaUnionSearch/datasets/MythologyECVE6PR5/column/PopCulturePortrayals>,
+        <http://metaUnionSearch/datasets/MythologyECVE6PR5/column/ReligiousStatus>,
+        <http://metaUnionSearch/datasets/MythologyECVE6PR5/column/SiblingDynamics>,
+        <http://metaUnionSearch/datasets/MythologyECVE6PR5/column/Spouseves> .
+

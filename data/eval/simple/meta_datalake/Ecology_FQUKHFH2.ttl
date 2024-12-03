@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EcologyFQUKHFH2> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_FQUKHFH2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EcologyFQUKHFH2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/BiotaInteractions> a dsv:Column ;
+    rdfs:label " Biota Interactions" .
+
+<http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/FutureClimateProjections> a dsv:Column ;
+    rdfs:label " Future Climate Projections" .
+
+<http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/GeologicalHazards> a dsv:Column ;
+    rdfs:label " Geological Hazards" .
+
+<http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/GroundwaterDepthFluctuations> a dsv:Column ;
+    rdfs:label " Groundwater Depth & Fluctuations" .
+
+<http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/HistoricHabitatChanges> a dsv:Column ;
+    rdfs:label " Historic Habitat Changes" .
+
+<http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/HumanImpactMitigation> a dsv:Column ;
+    rdfs:label " Human Impact Mitigation." .
+
+<http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/PolicyCompliance> a dsv:Column ;
+    rdfs:label " Policy Compliance" .
+
+<http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/PublicAwarenessEngagement> a dsv:Column ;
+    rdfs:label " Public Awareness & Engagement" .
+
+<http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/SecondaryHabitats> a dsv:Column ;
+    rdfs:label "Secondary Habitats" .
+
+<http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/SoilpHLevels> a dsv:Column ;
+    rdfs:label " Soil - pH Levels" .
+
+<http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/SpeciesDistributions> a dsv:Column ;
+    rdfs:label " Species Distributions" .
+
+<http://metaUnionSearch/datasets/EcologyFQUKHFH2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/BiotaInteractions>,
+        <http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/FutureClimateProjections>,
+        <http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/GeologicalHazards>,
+        <http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/GroundwaterDepthFluctuations>,
+        <http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/HistoricHabitatChanges>,
+        <http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/HumanImpactMitigation>,
+        <http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/PolicyCompliance>,
+        <http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/PublicAwarenessEngagement>,
+        <http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/SecondaryHabitats>,
+        <http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/SoilpHLevels>,
+        <http://metaUnionSearch/datasets/EcologyFQUKHFH2/column/SpeciesDistributions> .
+

@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_4AAL095Z.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geomancy4AAL095Z/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/AdditionalElementLinkages> a dsv:Column ;
+    rdfs:label "Additional Element Linkages" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/AdvancedShapeAnalysis> a dsv:Column ;
+    rdfs:label "Advanced Shape Analysis" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/AlternatePredictiveTechniques> a dsv:Column ;
+    rdfs:label "Alternate Predictive Techniques" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/EsotericMeaningsExploration> a dsv:Column ;
+    rdfs:label "Esoteric Meanings Exploration" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/EvaluationScoresandRanking> a dsv:Column ;
+    rdfs:label "Evaluation Scores and Ranking" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/ExpertInsights> a dsv:Column ;
+    rdfs:label "Expert Insights" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/FrequencyUsedbyCulture> a dsv:Column ;
+    rdfs:label "Frequency Used by Culture" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/GeometricFigures> a dsv:Column ;
+    rdfs:label "Geometric Figures" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/HistoricalUsageExamination> a dsv:Column ;
+    rdfs:label "Historical Usage Examination" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/InheritedvsInnovativeMethods> a dsv:Column ;
+    rdfs:label "Inherited vs Innovative Methods" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/LimitationonAlphanumericReadability> a dsv:Column ;
+    rdfs:label "Limitation on Alphanumeric Readability" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/PossibilitiesRealized> a dsv:Column ;
+    rdfs:label "Possibilities Realized" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/SpecialDrawProceduralRules> a dsv:Column ;
+    rdfs:label "Special Draw Procedural Rules" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/SymbolCombinatoricsImpact> a dsv:Column ;
+    rdfs:label "Symbol Combinatorics Impact" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/ZodiacSignSymbolism> a dsv:Column ;
+    rdfs:label "Zodiac Sign Symbolism" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/AdditionalElementLinkages>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/AdvancedShapeAnalysis>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/AlternatePredictiveTechniques>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/EsotericMeaningsExploration>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/EvaluationScoresandRanking>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/ExpertInsights>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/FrequencyUsedbyCulture>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/GeometricFigures>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/HistoricalUsageExamination>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/InheritedvsInnovativeMethods>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/LimitationonAlphanumericReadability>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/PossibilitiesRealized>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/SpecialDrawProceduralRules>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/SymbolCombinatoricsImpact>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/ZodiacSignSymbolism> .
+

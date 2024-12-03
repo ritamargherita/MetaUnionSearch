@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB> a dsv:Dataset ;
+    dcterms:subject "world-history" ;
+    dcterms:title "World-History_VFPTOMJB.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/ArtisticExpressionsasavariantofArtArchitecture> a dsv:Column ;
+    rdfs:label " Artistic Expressions (as a variant of Art & Architecture)" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/ClimateandEnvironment> a dsv:Column ;
+    rdfs:label " Climate and Environment" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/CulturalRitualsasavariantofCulturalPractices> a dsv:Column ;
+    rdfs:label " Cultural Rituals (as a variant of Cultural Practices)" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/DemographicsandMigration> a dsv:Column ;
+    rdfs:label " Demographics and Migration" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/EconomicExchanges> a dsv:Column ;
+    rdfs:label " Economic Exchanges" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/GenderRoles> a dsv:Column ;
+    rdfs:label " Gender Roles" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/GeographicalInfluences> a dsv:Column ;
+    rdfs:label " Geographical Influences" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/LanguagesandLiterature> a dsv:Column ;
+    rdfs:label " Languages and Literature" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/LawsandJustice> a dsv:Column ;
+    rdfs:label " Laws and Justice" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/PhilosophicalThoughts> a dsv:Column ;
+    rdfs:label " Philosophical Thoughts" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/PoliticalIdeologies> a dsv:Column ;
+    rdfs:label " Political Ideologies" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/ReligionsandBeliefSystems> a dsv:Column ;
+    rdfs:label "Religions and Belief Systems" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/ScientificMethods> a dsv:Column ;
+    rdfs:label " Scientific Methods" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/SocialInteractions> a dsv:Column ;
+    rdfs:label " Social Interactions" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/TechnologicalApplications> a dsv:Column ;
+    rdfs:label " Technological Applications" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/ArtisticExpressionsasavariantofArtArchitecture>,
+        <http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/ClimateandEnvironment>,
+        <http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/CulturalRitualsasavariantofCulturalPractices>,
+        <http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/DemographicsandMigration>,
+        <http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/EconomicExchanges>,
+        <http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/GenderRoles>,
+        <http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/GeographicalInfluences>,
+        <http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/LanguagesandLiterature>,
+        <http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/LawsandJustice>,
+        <http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/PhilosophicalThoughts>,
+        <http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/PoliticalIdeologies>,
+        <http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/ReligionsandBeliefSystems>,
+        <http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/ScientificMethods>,
+        <http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/SocialInteractions>,
+        <http://metaUnionSearch/datasets/WorldHistoryVFPTOMJB/column/TechnologicalApplications> .
+

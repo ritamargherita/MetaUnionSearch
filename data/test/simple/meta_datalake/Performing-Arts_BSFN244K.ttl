@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArtsBSFN244K> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_BSFN244K.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArtsBSFN244K/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/Active> a dsv:Column ;
+    rdfs:label "Active" .
+
+<http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/AdditionalAwards> a dsv:Column ;
+    rdfs:label "Additional Awards" .
+
+<http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/AdditionalInfo> a dsv:Column ;
+    rdfs:label "Additional Info" .
+
+<http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/AwardsWon> a dsv:Column ;
+    rdfs:label "Awards Won" .
+
+<http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/BirthYear> a dsv:Column ;
+    rdfs:label "Birth Year" .
+
+<http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/CityofBirth> a dsv:Column ;
+    rdfs:label "City of Birth" .
+
+<http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/MainGenreDebutPerformance> a dsv:Column ;
+    rdfs:label "Main Genre, Debut Performance" .
+
+<http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/PerformerFirstName> a dsv:Column ;
+    rdfs:label "Performer First Name" .
+
+<http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/PerformerLastName> a dsv:Column ;
+    rdfs:label "Performer Last Name" .
+
+<http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/PopularWorks> a dsv:Column ;
+    rdfs:label "Popular Works" .
+
+<http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/TotalAwardsWon> a dsv:Column ;
+    rdfs:label "Total Awards Won" .
+
+<http://metaUnionSearch/datasets/PerformingArtsBSFN244K/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/Active>,
+        <http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/AdditionalAwards>,
+        <http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/AdditionalInfo>,
+        <http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/AwardsWon>,
+        <http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/BirthYear>,
+        <http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/CityofBirth>,
+        <http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/MainGenreDebutPerformance>,
+        <http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/PerformerFirstName>,
+        <http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/PerformerLastName>,
+        <http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/PopularWorks>,
+        <http://metaUnionSearch/datasets/PerformingArtsBSFN244K/column/TotalAwardsWon> .
+

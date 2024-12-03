@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Language8R92I8L3> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_8R92I8L3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Language8R92I8L3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Language8R92I8L3/column/LanguageFamily> a dsv:Column ;
+    rdfs:label " Language Family" .
+
+<http://metaUnionSearch/datasets/Language8R92I8L3/column/LanguageName> a dsv:Column ;
+    rdfs:label "Language Name" .
+
+<http://metaUnionSearch/datasets/Language8R92I8L3/column/MorphologicalTypology> a dsv:Column ;
+    rdfs:label " Morphological Typology" .
+
+<http://metaUnionSearch/datasets/Language8R92I8L3/column/NativeSpeakerCount> a dsv:Column ;
+    rdfs:label " Native Speaker Count" .
+
+<http://metaUnionSearch/datasets/Language8R92I8L3/column/OfficialStatusYN> a dsv:Column ;
+    rdfs:label " Official Status (Y/N)" .
+
+<http://metaUnionSearch/datasets/Language8R92I8L3/column/Origin> a dsv:Column ;
+    rdfs:label " Origin" .
+
+<http://metaUnionSearch/datasets/Language8R92I8L3/column/PhoneticInventory> a dsv:Column ;
+    rdfs:label " Phonetic Inventory" .
+
+<http://metaUnionSearch/datasets/Language8R92I8L3/column/PragmaticRulesandConstraints> a dsv:Column ;
+    rdfs:label " Pragmatic Rules and Constraints" .
+
+<http://metaUnionSearch/datasets/Language8R92I8L3/column/Script> a dsv:Column ;
+    rdfs:label " Script" .
+
+<http://metaUnionSearch/datasets/Language8R92I8L3/column/SemanticDensity> a dsv:Column ;
+    rdfs:label " Semantic Density %" .
+
+<http://metaUnionSearch/datasets/Language8R92I8L3/column/SpeakerCount> a dsv:Column ;
+    rdfs:label " Speaker Count" .
+
+<http://metaUnionSearch/datasets/Language8R92I8L3/column/SyntaxComplexityLevel> a dsv:Column ;
+    rdfs:label " Syntax Complexity Level" .
+
+<http://metaUnionSearch/datasets/Language8R92I8L3/column/WritingSystemType> a dsv:Column ;
+    rdfs:label " Writing System Type" .
+
+<http://metaUnionSearch/datasets/Language8R92I8L3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Language8R92I8L3/column/LanguageFamily>,
+        <http://metaUnionSearch/datasets/Language8R92I8L3/column/LanguageName>,
+        <http://metaUnionSearch/datasets/Language8R92I8L3/column/MorphologicalTypology>,
+        <http://metaUnionSearch/datasets/Language8R92I8L3/column/NativeSpeakerCount>,
+        <http://metaUnionSearch/datasets/Language8R92I8L3/column/OfficialStatusYN>,
+        <http://metaUnionSearch/datasets/Language8R92I8L3/column/Origin>,
+        <http://metaUnionSearch/datasets/Language8R92I8L3/column/PhoneticInventory>,
+        <http://metaUnionSearch/datasets/Language8R92I8L3/column/PragmaticRulesandConstraints>,
+        <http://metaUnionSearch/datasets/Language8R92I8L3/column/Script>,
+        <http://metaUnionSearch/datasets/Language8R92I8L3/column/SemanticDensity>,
+        <http://metaUnionSearch/datasets/Language8R92I8L3/column/SpeakerCount>,
+        <http://metaUnionSearch/datasets/Language8R92I8L3/column/SyntaxComplexityLevel>,
+        <http://metaUnionSearch/datasets/Language8R92I8L3/column/WritingSystemType> .
+

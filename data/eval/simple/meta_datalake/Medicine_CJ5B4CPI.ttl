@@ -1,0 +1,27 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MedicineCJ5B4CPI> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_CJ5B4CPI.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MedicineCJ5B4CPI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MedicineCJ5B4CPI/column/> a dsv:Column ;
+    rdfs:label "\\" .
+
+<http://metaUnionSearch/datasets/MedicineCJ5B4CPI/column/DiagnosticTestDetails> a dsv:Column ;
+    rdfs:label " Diagnostic Test Details" .
+
+<http://metaUnionSearch/datasets/MedicineCJ5B4CPI/column/ReasonForPrescription> a dsv:Column ;
+    rdfs:label " Reason For Prescription" .
+
+<http://metaUnionSearch/datasets/MedicineCJ5B4CPI/column/SeparationTechnique> a dsv:Column ;
+    rdfs:label "Separation Technique" .
+
+<http://metaUnionSearch/datasets/MedicineCJ5B4CPI/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MedicineCJ5B4CPI/column/>,
+        <http://metaUnionSearch/datasets/MedicineCJ5B4CPI/column/DiagnosticTestDetails>,
+        <http://metaUnionSearch/datasets/MedicineCJ5B4CPI/column/ReasonForPrescription>,
+        <http://metaUnionSearch/datasets/MedicineCJ5B4CPI/column/SeparationTechnique> .
+

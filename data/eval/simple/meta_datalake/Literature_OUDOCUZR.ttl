@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LiteratureOUDOCUZR> a dsv:Dataset ;
+    dcterms:subject "literature" ;
+    dcterms:title "Literature_OUDOCUZR.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LiteratureOUDOCUZR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/AdaptationsOverTime> a dsv:Column ;
+    rdfs:label " Adaptations Over Time" .
+
+<http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/AestheticAppeal> a dsv:Column ;
+    rdfs:label " Aesthetic Appeal" .
+
+<http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/AudioBookVersions> a dsv:Column ;
+    rdfs:label " AudioBook Versions" .
+
+<http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/BookCoverDesigns> a dsv:Column ;
+    rdfs:label " Book Cover Designs" .
+
+<http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/ComparativeStudies> a dsv:Column ;
+    rdfs:label " Comparative Studies" .
+
+<http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/CritiquebyOtherAuthors> a dsv:Column ;
+    rdfs:label " Critique by Other Authors" .
+
+<http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/IconographicRepresentations> a dsv:Column ;
+    rdfs:label " Iconographic Representations" .
+
+<http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/MerchandisingCommercialization> a dsv:Column ;
+    rdfs:label " Merchandising & Commercialization" .
+
+<http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/MostFrequentReaders> a dsv:Column ;
+    rdfs:label " Most Frequent Readers" .
+
+<http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/ParodiesandSatires> a dsv:Column ;
+    rdfs:label " Parodies and Satires" .
+
+<http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/PeriodicImpact> a dsv:Column ;
+    rdfs:label "Periodic Impact" .
+
+<http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/SocialReception> a dsv:Column ;
+    rdfs:label " Social Reception" .
+
+<http://metaUnionSearch/datasets/LiteratureOUDOCUZR/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/AdaptationsOverTime>,
+        <http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/AestheticAppeal>,
+        <http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/AudioBookVersions>,
+        <http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/BookCoverDesigns>,
+        <http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/ComparativeStudies>,
+        <http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/CritiquebyOtherAuthors>,
+        <http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/IconographicRepresentations>,
+        <http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/MerchandisingCommercialization>,
+        <http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/MostFrequentReaders>,
+        <http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/ParodiesandSatires>,
+        <http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/PeriodicImpact>,
+        <http://metaUnionSearch/datasets/LiteratureOUDOCUZR/column/SocialReception> .
+

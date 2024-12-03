@@ -1,0 +1,99 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_4FXZYK42.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/AlignmentScores> a dsv:Column ;
+    rdfs:label " Alignment Scores" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/CellularLocation> a dsv:Column ;
+    rdfs:label " Cellular Location" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/Chromosome> a dsv:Column ;
+    rdfs:label " Chromosome" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/Domains> a dsv:Column ;
+    rdfs:label " Domains" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/EndPosition> a dsv:Column ;
+    rdfs:label " End Position" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/ExpressionAnalysis> a dsv:Column ;
+    rdfs:label " Expression Analysis" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/ExpressionLevel> a dsv:Column ;
+    rdfs:label " Expression Level" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/GOTerms> a dsv:Column ;
+    rdfs:label " GO Terms\"" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/GeneName> a dsv:Column ;
+    rdfs:label " Gene Name" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/GeneType> a dsv:Column ;
+    rdfs:label " Gene Type" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/GeneticDisorders> a dsv:Column ;
+    rdfs:label " Genetic Disorders" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/MolecularWeight> a dsv:Column ;
+    rdfs:label " Molecular Weight" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/MutationFrequency> a dsv:Column ;
+    rdfs:label " Mutation Frequency" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/PostTranslationalModifications> a dsv:Column ;
+    rdfs:label " Post Translational Modifications" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/ProteINID> a dsv:Column ;
+    rdfs:label "\"ProteIN ID" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/ProteinInteractions> a dsv:Column ;
+    rdfs:label " Protein Interactions" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/Sequence> a dsv:Column ;
+    rdfs:label " Sequence" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/SequencedFragments> a dsv:Column ;
+    rdfs:label " Sequenced Fragments" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/SimilaritytoOtherSpecies> a dsv:Column ;
+    rdfs:label " Similarity to Other Species" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/StartPosition> a dsv:Column ;
+    rdfs:label " Start Position" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/Strand> a dsv:Column ;
+    rdfs:label " Strand" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/pIValue> a dsv:Column ;
+    rdfs:label " pI Value" .
+
+<http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/AlignmentScores>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/CellularLocation>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/Chromosome>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/Domains>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/EndPosition>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/ExpressionAnalysis>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/ExpressionLevel>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/GOTerms>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/GeneName>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/GeneType>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/GeneticDisorders>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/MolecularWeight>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/MutationFrequency>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/PostTranslationalModifications>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/ProteINID>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/ProteinInteractions>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/Sequence>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/SequencedFragments>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/SimilaritytoOtherSpecies>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/StartPosition>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/Strand>,
+        <http://metaUnionSearch/datasets/Bioinformatics4FXZYK42/column/pIValue> .
+

@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryNUN5Z3JQ> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_NUN5Z3JQ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/AgeRangeofPoets> a dsv:Column ;
+    rdfs:label " *Age Range of Poets*" .
+
+<http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/ArtworkDesign> a dsv:Column ;
+    rdfs:label " *Artwork & Design*" .
+
+<http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/AudienceFeedback> a dsv:Column ;
+    rdfs:label " *Audience Feedback*" .
+
+<http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/AvailabilityAccess> a dsv:Column ;
+    rdfs:label " *Availability & Access*" .
+
+<http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/CriticalReviews> a dsv:Column ;
+    rdfs:label " *Critical Reviews*" .
+
+<http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/CulturalInfluence> a dsv:Column ;
+    rdfs:label " *Cultural Influence*" .
+
+<http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/GenreTypes> a dsv:Column ;
+    rdfs:label " *Genre Types*" .
+
+<http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/InspirationsThemes> a dsv:Column ;
+    rdfs:label " *Inspirations & Themes*" .
+
+<http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/Languages> a dsv:Column ;
+    rdfs:label " *Language(s)*" .
+
+<http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/PoetBiography> a dsv:Column ;
+    rdfs:label "*Poet Biography*" .
+
+<http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/PublicationYear> a dsv:Column ;
+    rdfs:label " *Publication Year*" .
+
+<http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/TotalPoems> a dsv:Column ;
+    rdfs:label " *Total Poems*" .
+
+<http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/AgeRangeofPoets>,
+        <http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/ArtworkDesign>,
+        <http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/AudienceFeedback>,
+        <http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/AvailabilityAccess>,
+        <http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/CriticalReviews>,
+        <http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/CulturalInfluence>,
+        <http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/GenreTypes>,
+        <http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/InspirationsThemes>,
+        <http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/Languages>,
+        <http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/PoetBiography>,
+        <http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/PublicationYear>,
+        <http://metaUnionSearch/datasets/PoetryNUN5Z3JQ/column/TotalPoems> .
+

@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BusinessGDSY0PKU> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_GDSY0PKU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BusinessGDSY0PKU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/AlexaRank> a dsv:Column ;
+    rdfs:label "Alexa Rank" .
+
+<http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/Industry> a dsv:Column ;
+    rdfs:label "Industry" .
+
+<http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/LastFundingAmount> a dsv:Column ;
+    rdfs:label "Last Funding Amount" .
+
+<http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/LastFundingType> a dsv:Column ;
+    rdfs:label "Last Funding Type" .
+
+<http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/LegalStatus> a dsv:Column ;
+    rdfs:label "Legal Status" .
+
+<http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/Location> a dsv:Column ;
+    rdfs:label "Location" .
+
+<http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/MarketCompetitors> a dsv:Column ;
+    rdfs:label "Market Competitors" .
+
+<http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/NumberofEmployees> a dsv:Column ;
+    rdfs:label "Number of Employees" .
+
+<http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/OwnershipStructure> a dsv:Column ;
+    rdfs:label "Ownership Structure" .
+
+<http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/TopExecutives> a dsv:Column ;
+    rdfs:label "Top Executives" .
+
+<http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/Valuation> a dsv:Column ;
+    rdfs:label "Valuation" .
+
+<http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/YearFounded> a dsv:Column ;
+    rdfs:label "Year Founded" .
+
+<http://metaUnionSearch/datasets/BusinessGDSY0PKU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/AlexaRank>,
+        <http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/Industry>,
+        <http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/LastFundingAmount>,
+        <http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/LastFundingType>,
+        <http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/LegalStatus>,
+        <http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/Location>,
+        <http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/MarketCompetitors>,
+        <http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/NumberofEmployees>,
+        <http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/OwnershipStructure>,
+        <http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/TopExecutives>,
+        <http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/Valuation>,
+        <http://metaUnionSearch/datasets/BusinessGDSY0PKU/column/YearFounded> .
+

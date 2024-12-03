@@ -1,0 +1,43 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Anthropology8AGN64XL> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_8AGN64XL.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Anthropology8AGN64XL/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Anthropology8AGN64XL/column/AgriculturalPractices> a dsv:Column ;
+    rdfs:label " AgriculturalPractices" .
+
+<http://metaUnionSearch/datasets/Anthropology8AGN64XL/column/CultureCeramicStyle> a dsv:Column ;
+    rdfs:label "Culture ↔ CeramicStyle" .
+
+<http://metaUnionSearch/datasets/Anthropology8AGN64XL/column/DressAndOrnaments> a dsv:Column ;
+    rdfs:label " DressAndOrnaments" .
+
+<http://metaUnionSearch/datasets/Anthropology8AGN64XL/column/FoodPreferences> a dsv:Column ;
+    rdfs:label " FoodPreferences" .
+
+<http://metaUnionSearch/datasets/Anthropology8AGN64XL/column/HousingStructures> a dsv:Column ;
+    rdfs:label " HousingStructures" .
+
+<http://metaUnionSearch/datasets/Anthropology8AGN64XL/column/OralTraditions> a dsv:Column ;
+    rdfs:label " OralTraditions" .
+
+<http://metaUnionSearch/datasets/Anthropology8AGN64XL/column/SocialStructure> a dsv:Column ;
+    rdfs:label " SocialStructure" .
+
+<http://metaUnionSearch/datasets/Anthropology8AGN64XL/column/ToolTypes> a dsv:Column ;
+    rdfs:label " ToolTypes" .
+
+<http://metaUnionSearch/datasets/Anthropology8AGN64XL/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Anthropology8AGN64XL/column/AgriculturalPractices>,
+        <http://metaUnionSearch/datasets/Anthropology8AGN64XL/column/CultureCeramicStyle>,
+        <http://metaUnionSearch/datasets/Anthropology8AGN64XL/column/DressAndOrnaments>,
+        <http://metaUnionSearch/datasets/Anthropology8AGN64XL/column/FoodPreferences>,
+        <http://metaUnionSearch/datasets/Anthropology8AGN64XL/column/HousingStructures>,
+        <http://metaUnionSearch/datasets/Anthropology8AGN64XL/column/OralTraditions>,
+        <http://metaUnionSearch/datasets/Anthropology8AGN64XL/column/SocialStructure>,
+        <http://metaUnionSearch/datasets/Anthropology8AGN64XL/column/ToolTypes> .
+

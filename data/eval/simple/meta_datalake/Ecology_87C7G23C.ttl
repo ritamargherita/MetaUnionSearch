@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Ecology87C7G23C> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_87C7G23C.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Ecology87C7G23C/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Ecology87C7G23C/column/Additionalgeologicalfeatures> a dsv:Column ;
+    rdfs:label " Additional geological features " .
+
+<http://metaUnionSearch/datasets/Ecology87C7G23C/column/Annualprecipitationchanges> a dsv:Column ;
+    rdfs:label " Annual precipitation changes " .
+
+<http://metaUnionSearch/datasets/Ecology87C7G23C/column/Averagetemperatureshifts> a dsv:Column ;
+    rdfs:label " Average temperature shifts " .
+
+<http://metaUnionSearch/datasets/Ecology87C7G23C/column/Biodiverseareasimportance> a dsv:Column ;
+    rdfs:label " Biodiverse areas importance " .
+
+<http://metaUnionSearch/datasets/Ecology87C7G23C/column/Biospherereservestatus> a dsv:Column ;
+    rdfs:label " Biosphere reserve status " .
+
+<http://metaUnionSearch/datasets/Ecology87C7G23C/column/Ecosystemservicesvalue> a dsv:Column ;
+    rdfs:label " Ecosystem services value " .
+
+<http://metaUnionSearch/datasets/Ecology87C7G23C/column/Endemicspeciescount> a dsv:Column ;
+    rdfs:label "Endemic species count " .
+
+<http://metaUnionSearch/datasets/Ecology87C7G23C/column/HabitatCharacteristics> a dsv:Column ;
+    rdfs:label " Habitat Characteristics " .
+
+<http://metaUnionSearch/datasets/Ecology87C7G23C/column/HumanImpact> a dsv:Column ;
+    rdfs:label " Human Impact" .
+
+<http://metaUnionSearch/datasets/Ecology87C7G23C/column/Nonnativeinvasivespeciepresence> a dsv:Column ;
+    rdfs:label " Non-native invasive specie presence " .
+
+<http://metaUnionSearch/datasets/Ecology87C7G23C/column/Pollutionlevels> a dsv:Column ;
+    rdfs:label " Pollution levels " .
+
+<http://metaUnionSearch/datasets/Ecology87C7G23C/column/Soilsanalysisdata> a dsv:Column ;
+    rdfs:label " Soils analysis data " .
+
+<http://metaUnionSearch/datasets/Ecology87C7G23C/column/Wateravailabilitytrends> a dsv:Column ;
+    rdfs:label " Water availability trends " .
+
+<http://metaUnionSearch/datasets/Ecology87C7G23C/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Ecology87C7G23C/column/Additionalgeologicalfeatures>,
+        <http://metaUnionSearch/datasets/Ecology87C7G23C/column/Annualprecipitationchanges>,
+        <http://metaUnionSearch/datasets/Ecology87C7G23C/column/Averagetemperatureshifts>,
+        <http://metaUnionSearch/datasets/Ecology87C7G23C/column/Biodiverseareasimportance>,
+        <http://metaUnionSearch/datasets/Ecology87C7G23C/column/Biospherereservestatus>,
+        <http://metaUnionSearch/datasets/Ecology87C7G23C/column/Ecosystemservicesvalue>,
+        <http://metaUnionSearch/datasets/Ecology87C7G23C/column/Endemicspeciescount>,
+        <http://metaUnionSearch/datasets/Ecology87C7G23C/column/HabitatCharacteristics>,
+        <http://metaUnionSearch/datasets/Ecology87C7G23C/column/HumanImpact>,
+        <http://metaUnionSearch/datasets/Ecology87C7G23C/column/Nonnativeinvasivespeciepresence>,
+        <http://metaUnionSearch/datasets/Ecology87C7G23C/column/Pollutionlevels>,
+        <http://metaUnionSearch/datasets/Ecology87C7G23C/column/Soilsanalysisdata>,
+        <http://metaUnionSearch/datasets/Ecology87C7G23C/column/Wateravailabilitytrends> .
+

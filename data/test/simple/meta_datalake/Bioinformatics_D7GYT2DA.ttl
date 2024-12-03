@@ -1,0 +1,35 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BioinformaticsD7GYT2DA> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_D7GYT2DA.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BioinformaticsD7GYT2DA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BioinformaticsD7GYT2DA/column/> a dsv:Column ;
+    rdfs:label "\\" .
+
+<http://metaUnionSearch/datasets/BioinformaticsD7GYT2DA/column/ProteinDomain> a dsv:Column ;
+    rdfs:label " Protein Domain" .
+
+<http://metaUnionSearch/datasets/BioinformaticsD7GYT2DA/column/ProteinFamily> a dsv:Column ;
+    rdfs:label " Protein Family" .
+
+<http://metaUnionSearch/datasets/BioinformaticsD7GYT2DA/column/ProteinID> a dsv:Column ;
+    rdfs:label "\"Protein ID" .
+
+<http://metaUnionSearch/datasets/BioinformaticsD7GYT2DA/column/ProteinInteractionNetwork> a dsv:Column ;
+    rdfs:label " Protein Interaction Network" .
+
+<http://metaUnionSearch/datasets/BioinformaticsD7GYT2DA/column/ProteinSequence> a dsv:Column ;
+    rdfs:label " Protein Sequence" .
+
+<http://metaUnionSearch/datasets/BioinformaticsD7GYT2DA/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BioinformaticsD7GYT2DA/column/>,
+        <http://metaUnionSearch/datasets/BioinformaticsD7GYT2DA/column/ProteinDomain>,
+        <http://metaUnionSearch/datasets/BioinformaticsD7GYT2DA/column/ProteinFamily>,
+        <http://metaUnionSearch/datasets/BioinformaticsD7GYT2DA/column/ProteinID>,
+        <http://metaUnionSearch/datasets/BioinformaticsD7GYT2DA/column/ProteinInteractionNetwork>,
+        <http://metaUnionSearch/datasets/BioinformaticsD7GYT2DA/column/ProteinSequence> .
+

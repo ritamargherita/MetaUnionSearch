@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_4UPAQYP2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Culture4UPAQYP2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2/column/ArchitecturalTypes> a dsv:Column ;
+    rdfs:label " Architectural Types" .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2/column/ClimatePreferences> a dsv:Column ;
+    rdfs:label " Climate Preferences" .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2/column/DanceForms> a dsv:Column ;
+    rdfs:label " Dance Forms" .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2/column/EducationSystem> a dsv:Column ;
+    rdfs:label " Education System" .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2/column/FamilyStructure> a dsv:Column ;
+    rdfs:label " Family Structure" .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2/column/HeroesorRoleModels> a dsv:Column ;
+    rdfs:label " Heroes or Role Models" .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2/column/HolidayTraditions> a dsv:Column ;
+    rdfs:label " Holiday Traditions" .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2/column/LiteratureGenres> a dsv:Column ;
+    rdfs:label "Literature Genres" .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2/column/MarriageCustoms> a dsv:Column ;
+    rdfs:label " Marriage Customs" .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2/column/PoliticalSystems> a dsv:Column ;
+    rdfs:label " Political Systems" .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2/column/RecreationActivities> a dsv:Column ;
+    rdfs:label " Recreation Activities" .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2/column/SpaceHabitatDesign> a dsv:Column ;
+    rdfs:label " Space & Habitat Design" .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2/column/Sports> a dsv:Column ;
+    rdfs:label " Sports" .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2/column/TechnologyAdaptation> a dsv:Column ;
+    rdfs:label " Technology Adaptation" .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2/column/VisualArtsStyles> a dsv:Column ;
+    rdfs:label " Visual Arts Styles" .
+
+<http://metaUnionSearch/datasets/Culture4UPAQYP2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Culture4UPAQYP2/column/ArchitecturalTypes>,
+        <http://metaUnionSearch/datasets/Culture4UPAQYP2/column/ClimatePreferences>,
+        <http://metaUnionSearch/datasets/Culture4UPAQYP2/column/DanceForms>,
+        <http://metaUnionSearch/datasets/Culture4UPAQYP2/column/EducationSystem>,
+        <http://metaUnionSearch/datasets/Culture4UPAQYP2/column/FamilyStructure>,
+        <http://metaUnionSearch/datasets/Culture4UPAQYP2/column/HeroesorRoleModels>,
+        <http://metaUnionSearch/datasets/Culture4UPAQYP2/column/HolidayTraditions>,
+        <http://metaUnionSearch/datasets/Culture4UPAQYP2/column/LiteratureGenres>,
+        <http://metaUnionSearch/datasets/Culture4UPAQYP2/column/MarriageCustoms>,
+        <http://metaUnionSearch/datasets/Culture4UPAQYP2/column/PoliticalSystems>,
+        <http://metaUnionSearch/datasets/Culture4UPAQYP2/column/RecreationActivities>,
+        <http://metaUnionSearch/datasets/Culture4UPAQYP2/column/SpaceHabitatDesign>,
+        <http://metaUnionSearch/datasets/Culture4UPAQYP2/column/Sports>,
+        <http://metaUnionSearch/datasets/Culture4UPAQYP2/column/TechnologyAdaptation>,
+        <http://metaUnionSearch/datasets/Culture4UPAQYP2/column/VisualArtsStyles> .
+

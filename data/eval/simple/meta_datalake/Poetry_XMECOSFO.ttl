@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryXMECOSFO> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_XMECOSFO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryXMECOSFO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryXMECOSFO/column/AllegoryIncluded> a dsv:Column ;
+    rdfs:label " Allegory Included" .
+
+<http://metaUnionSearch/datasets/PoetryXMECOSFO/column/AssonancePresence> a dsv:Column ;
+    rdfs:label " Assonance Presence" .
+
+<http://metaUnionSearch/datasets/PoetryXMECOSFO/column/ConsonanceUsage> a dsv:Column ;
+    rdfs:label " Consonance Usage" .
+
+<http://metaUnionSearch/datasets/PoetryXMECOSFO/column/ContrastsParallels> a dsv:Column ;
+    rdfs:label " Contrasts & Parallels" .
+
+<http://metaUnionSearch/datasets/PoetryXMECOSFO/column/EnjambmentUsage> a dsv:Column ;
+    rdfs:label " Enjambment Usage" .
+
+<http://metaUnionSearch/datasets/PoetryXMECOSFO/column/FigurativeLanguagesVariety> a dsv:Column ;
+    rdfs:label " Figurative Languages Variety" .
+
+<http://metaUnionSearch/datasets/PoetryXMECOSFO/column/HistoricalContextAnalysis> a dsv:Column ;
+    rdfs:label " Historical Context Analysis" .
+
+<http://metaUnionSearch/datasets/PoetryXMECOSFO/column/MoodExpression> a dsv:Column ;
+    rdfs:label " Mood Expression" .
+
+<http://metaUnionSearch/datasets/PoetryXMECOSFO/column/SensoryLanguageExtent> a dsv:Column ;
+    rdfs:label " Sensory Language Extent" .
+
+<http://metaUnionSearch/datasets/PoetryXMECOSFO/column/SimilesQuantity> a dsv:Column ;
+    rdfs:label " Similes Quantity" .
+
+<http://metaUnionSearch/datasets/PoetryXMECOSFO/column/SocialCommentariesFrequency> a dsv:Column ;
+    rdfs:label " Social Commentaries Frequency" .
+
+<http://metaUnionSearch/datasets/PoetryXMECOSFO/column/SonnetType> a dsv:Column ;
+    rdfs:label "Sonnet Type" .
+
+<http://metaUnionSearch/datasets/PoetryXMECOSFO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryXMECOSFO/column/AllegoryIncluded>,
+        <http://metaUnionSearch/datasets/PoetryXMECOSFO/column/AssonancePresence>,
+        <http://metaUnionSearch/datasets/PoetryXMECOSFO/column/ConsonanceUsage>,
+        <http://metaUnionSearch/datasets/PoetryXMECOSFO/column/ContrastsParallels>,
+        <http://metaUnionSearch/datasets/PoetryXMECOSFO/column/EnjambmentUsage>,
+        <http://metaUnionSearch/datasets/PoetryXMECOSFO/column/FigurativeLanguagesVariety>,
+        <http://metaUnionSearch/datasets/PoetryXMECOSFO/column/HistoricalContextAnalysis>,
+        <http://metaUnionSearch/datasets/PoetryXMECOSFO/column/MoodExpression>,
+        <http://metaUnionSearch/datasets/PoetryXMECOSFO/column/SensoryLanguageExtent>,
+        <http://metaUnionSearch/datasets/PoetryXMECOSFO/column/SimilesQuantity>,
+        <http://metaUnionSearch/datasets/PoetryXMECOSFO/column/SocialCommentariesFrequency>,
+        <http://metaUnionSearch/datasets/PoetryXMECOSFO/column/SonnetType> .
+

@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MusicDA0IOEJA> a dsv:Dataset ;
+    dcterms:subject "music" ;
+    dcterms:title "Music_DA0IOEJA.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MusicDA0IOEJA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MusicDA0IOEJA/column/Audiencesize> a dsv:Column ;
+    rdfs:label " Audience size" .
+
+<http://metaUnionSearch/datasets/MusicDA0IOEJA/column/Liveperformances> a dsv:Column ;
+    rdfs:label " Live performances" .
+
+<http://metaUnionSearch/datasets/MusicDA0IOEJA/column/Lyricsby> a dsv:Column ;
+    rdfs:label " Lyrics by" .
+
+<http://metaUnionSearch/datasets/MusicDA0IOEJA/column/MusicalKey> a dsv:Column ;
+    rdfs:label "Musical Key" .
+
+<http://metaUnionSearch/datasets/MusicDA0IOEJA/column/Origin> a dsv:Column ;
+    rdfs:label " Origin" .
+
+<http://metaUnionSearch/datasets/MusicDA0IOEJA/column/Professionalreviews> a dsv:Column ;
+    rdfs:label " Professional reviews" .
+
+<http://metaUnionSearch/datasets/MusicDA0IOEJA/column/Satisfactionscore> a dsv:Column ;
+    rdfs:label " Satisfaction score*" .
+
+<http://metaUnionSearch/datasets/MusicDA0IOEJA/column/Subgenres> a dsv:Column ;
+    rdfs:label " Subgenres" .
+
+<http://metaUnionSearch/datasets/MusicDA0IOEJA/column/TempoBPM> a dsv:Column ;
+    rdfs:label " Tempo (BPM)" .
+
+<http://metaUnionSearch/datasets/MusicDA0IOEJA/column/TimeSignature> a dsv:Column ;
+    rdfs:label " Time Signature" .
+
+<http://metaUnionSearch/datasets/MusicDA0IOEJA/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MusicDA0IOEJA/column/Audiencesize>,
+        <http://metaUnionSearch/datasets/MusicDA0IOEJA/column/Liveperformances>,
+        <http://metaUnionSearch/datasets/MusicDA0IOEJA/column/Lyricsby>,
+        <http://metaUnionSearch/datasets/MusicDA0IOEJA/column/MusicalKey>,
+        <http://metaUnionSearch/datasets/MusicDA0IOEJA/column/Origin>,
+        <http://metaUnionSearch/datasets/MusicDA0IOEJA/column/Professionalreviews>,
+        <http://metaUnionSearch/datasets/MusicDA0IOEJA/column/Satisfactionscore>,
+        <http://metaUnionSearch/datasets/MusicDA0IOEJA/column/Subgenres>,
+        <http://metaUnionSearch/datasets/MusicDA0IOEJA/column/TempoBPM>,
+        <http://metaUnionSearch/datasets/MusicDA0IOEJA/column/TimeSignature> .
+

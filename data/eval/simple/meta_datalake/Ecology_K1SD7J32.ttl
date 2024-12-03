@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EcologyK1SD7J32> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_K1SD7J32.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EcologyK1SD7J32/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EcologyK1SD7J32/column/AdaptiveTraits> a dsv:Column ;
+    rdfs:label " Adaptive Traits" .
+
+<http://metaUnionSearch/datasets/EcologyK1SD7J32/column/BiodiverseGroups> a dsv:Column ;
+    rdfs:label "Biodiverse Groups" .
+
+<http://metaUnionSearch/datasets/EcologyK1SD7J32/column/BiodiversityMetrics> a dsv:Column ;
+    rdfs:label " Biodiversity Metrics" .
+
+<http://metaUnionSearch/datasets/EcologyK1SD7J32/column/ConservationEfforts> a dsv:Column ;
+    rdfs:label " Conservation Efforts" .
+
+<http://metaUnionSearch/datasets/EcologyK1SD7J32/column/ConservationFunding> a dsv:Column ;
+    rdfs:label " Conservation Funding" .
+
+<http://metaUnionSearch/datasets/EcologyK1SD7J32/column/Endemicspecies> a dsv:Column ;
+    rdfs:label " \\*Endemic species*" .
+
+<http://metaUnionSearch/datasets/EcologyK1SD7J32/column/GroupDistribution> a dsv:Column ;
+    rdfs:label " Group Distribution" .
+
+<http://metaUnionSearch/datasets/EcologyK1SD7J32/column/HabitatModifications> a dsv:Column ;
+    rdfs:label " Habitat Modifications" .
+
+<http://metaUnionSearch/datasets/EcologyK1SD7J32/column/HabitatPreferences> a dsv:Column ;
+    rdfs:label " Habitat Preferences" .
+
+<http://metaUnionSearch/datasets/EcologyK1SD7J32/column/InvasiveAliens> a dsv:Column ;
+    rdfs:label " \\*\\*Invasive Aliens\\*\\*" .
+
+<http://metaUnionSearch/datasets/EcologyK1SD7J32/column/LegislationandPolicies> a dsv:Column ;
+    rdfs:label " Legislation and Policies" .
+
+<http://metaUnionSearch/datasets/EcologyK1SD7J32/column/PopulationTrends> a dsv:Column ;
+    rdfs:label " Population Trends" .
+
+<http://metaUnionSearch/datasets/EcologyK1SD7J32/column/ThreatsandChallenges> a dsv:Column ;
+    rdfs:label " Threats and Challenges." .
+
+<http://metaUnionSearch/datasets/EcologyK1SD7J32/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EcologyK1SD7J32/column/AdaptiveTraits>,
+        <http://metaUnionSearch/datasets/EcologyK1SD7J32/column/BiodiverseGroups>,
+        <http://metaUnionSearch/datasets/EcologyK1SD7J32/column/BiodiversityMetrics>,
+        <http://metaUnionSearch/datasets/EcologyK1SD7J32/column/ConservationEfforts>,
+        <http://metaUnionSearch/datasets/EcologyK1SD7J32/column/ConservationFunding>,
+        <http://metaUnionSearch/datasets/EcologyK1SD7J32/column/Endemicspecies>,
+        <http://metaUnionSearch/datasets/EcologyK1SD7J32/column/GroupDistribution>,
+        <http://metaUnionSearch/datasets/EcologyK1SD7J32/column/HabitatModifications>,
+        <http://metaUnionSearch/datasets/EcologyK1SD7J32/column/HabitatPreferences>,
+        <http://metaUnionSearch/datasets/EcologyK1SD7J32/column/InvasiveAliens>,
+        <http://metaUnionSearch/datasets/EcologyK1SD7J32/column/LegislationandPolicies>,
+        <http://metaUnionSearch/datasets/EcologyK1SD7J32/column/PopulationTrends>,
+        <http://metaUnionSearch/datasets/EcologyK1SD7J32/column/ThreatsandChallenges> .
+

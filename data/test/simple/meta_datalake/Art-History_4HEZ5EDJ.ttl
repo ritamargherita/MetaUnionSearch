@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_4HEZ5EDJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/ArWorkcode> a dsv:Column ;
+    rdfs:label "`Ar Workcode" .
+
+<http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/Artist> a dsv:Column ;
+    rdfs:label "Artist" .
+
+<http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/CreatedLocation> a dsv:Column ;
+    rdfs:label "Created Location" .
+
+<http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/DateCreated> a dsv:Column ;
+    rdfs:label "Date Created" .
+
+<http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/Depth> a dsv:Column ;
+    rdfs:label "Depth" .
+
+<http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/Height> a dsv:Column ;
+    rdfs:label "Height" .
+
+<http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/Medium> a dsv:Column ;
+    rdfs:label "Medium" .
+
+<http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/Notes> a dsv:Column ;
+    rdfs:label "Notes`" .
+
+<http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/Period> a dsv:Column ;
+    rdfs:label "Period" .
+
+<http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/PreservedMuseum> a dsv:Column ;
+    rdfs:label "Preserved Museum" .
+
+<http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/RestorationDetails> a dsv:Column ;
+    rdfs:label "Restoration Details" .
+
+<http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/Style> a dsv:Column ;
+    rdfs:label "Style" .
+
+<http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/SubjectMatter> a dsv:Column ;
+    rdfs:label "Subject Matter" .
+
+<http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/Width> a dsv:Column ;
+    rdfs:label "Width" .
+
+<http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/ArWorkcode>,
+        <http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/Artist>,
+        <http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/CreatedLocation>,
+        <http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/DateCreated>,
+        <http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/Depth>,
+        <http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/Height>,
+        <http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/Medium>,
+        <http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/Notes>,
+        <http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/Period>,
+        <http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/PreservedMuseum>,
+        <http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/RestorationDetails>,
+        <http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/Style>,
+        <http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/SubjectMatter>,
+        <http://metaUnionSearch/datasets/ArtHistory4HEZ5EDJ/column/Width> .
+

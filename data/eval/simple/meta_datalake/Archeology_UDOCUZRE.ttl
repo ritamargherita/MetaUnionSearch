@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_UDOCUZRE.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/ArrowheadShape> a dsv:Column ;
+    rdfs:label "ArrowheadShape" .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/ComparativeEthnicityResearch> a dsv:Column ;
+    rdfs:label " ComparativeEthnicityResearch" .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/CulturalAffiliation> a dsv:Column ;
+    rdfs:label " CulturalAffiliation" .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/DendrochronologyMethodUsed> a dsv:Column ;
+    rdfs:label " DendrochronologyMethodUsed" .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/EthnoarchaeologyFindings> a dsv:Column ;
+    rdfs:label " EthnoarchaeologyFindings" .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/ExperimentalReconstructionOutcome> a dsv:Column ;
+    rdfs:label " ExperimentalReconstructionOutcome" .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/GeophysicsSurveyMethodUtilized> a dsv:Column ;
+    rdfs:label " GeophysicsSurveyMethodUtilized" .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/PaleoethnobotanyDataCollected> a dsv:Column ;
+    rdfs:label " PaleoethnobotanyDataCollected" .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/PetroglyphIconographyInterpretation> a dsv:Column ;
+    rdfs:label " PetroglyphIconographyInterpretation" .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/PotteryDesignPattern> a dsv:Column ;
+    rdfs:label " PotteryDesignPattern" .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/PublicEngagementActivities> a dsv:Column ;
+    rdfs:label " PublicEngagementActivities" .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/RadiocarbonDatingResults> a dsv:Column ;
+    rdfs:label " RadiocarbonDatingResults" .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/SampleSizeStudied> a dsv:Column ;
+    rdfs:label " SampleSizeStudied" .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/SoilComposition> a dsv:Column ;
+    rdfs:label " SoilComposition" .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/StratigraphyLayerClassification> a dsv:Column ;
+    rdfs:label " StratigraphyLayerClassification" .
+
+<http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/ArrowheadShape>,
+        <http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/ComparativeEthnicityResearch>,
+        <http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/CulturalAffiliation>,
+        <http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/DendrochronologyMethodUsed>,
+        <http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/EthnoarchaeologyFindings>,
+        <http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/ExperimentalReconstructionOutcome>,
+        <http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/GeophysicsSurveyMethodUtilized>,
+        <http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/PaleoethnobotanyDataCollected>,
+        <http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/PetroglyphIconographyInterpretation>,
+        <http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/PotteryDesignPattern>,
+        <http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/PublicEngagementActivities>,
+        <http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/RadiocarbonDatingResults>,
+        <http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/SampleSizeStudied>,
+        <http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/SoilComposition>,
+        <http://metaUnionSearch/datasets/ArcheologyUDOCUZRE/column/StratigraphyLayerClassification> .
+

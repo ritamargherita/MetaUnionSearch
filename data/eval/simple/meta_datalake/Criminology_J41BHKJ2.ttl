@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CriminologyJ41BHKJ2> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_J41BHKJ2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/ArrestType> a dsv:Column ;
+    rdfs:label " Arrest Type" .
+
+<http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/ArrestWarrantsIssued> a dsv:Column ;
+    rdfs:label "Arrest Warrants Issued" .
+
+<http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/CaseStatus> a dsv:Column ;
+    rdfs:label " Case Status" .
+
+<http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/EvidenceCollected> a dsv:Column ;
+    rdfs:label " Evidence Collected" .
+
+<http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/IncidentLocationDetails> a dsv:Column ;
+    rdfs:label " Incident Location Details" .
+
+<http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/InjuriesSufferedByOfficerYesNoifyesdescribeinjuryseverity> a dsv:Column ;
+    rdfs:label " Injuries Suffered By Officer (Yes / No), if yes describe injury severity" .
+
+<http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/InvestigatingOfficer> a dsv:Column ;
+    rdfs:label " Investigating Officer" .
+
+<http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/NextCourtDate> a dsv:Column ;
+    rdfs:label " Next Court Date." .
+
+<http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/NumberofWitnesses> a dsv:Column ;
+    rdfs:label " Number\\_of\\_Witnesses" .
+
+<http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/ProsecutingAttorney> a dsv:Column ;
+    rdfs:label " Prosecuting Attorney" .
+
+<http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/WeaponifanyUsedPossessed> a dsv:Column ;
+    rdfs:label " Weapon(if any) Used / Possessed" .
+
+<http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/ArrestType>,
+        <http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/ArrestWarrantsIssued>,
+        <http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/CaseStatus>,
+        <http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/EvidenceCollected>,
+        <http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/IncidentLocationDetails>,
+        <http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/InjuriesSufferedByOfficerYesNoifyesdescribeinjuryseverity>,
+        <http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/InvestigatingOfficer>,
+        <http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/NextCourtDate>,
+        <http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/NumberofWitnesses>,
+        <http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/ProsecutingAttorney>,
+        <http://metaUnionSearch/datasets/CriminologyJ41BHKJ2/column/WeaponifanyUsedPossessed> .
+

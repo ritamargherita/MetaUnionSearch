@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologyRN6HW1HS> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_RN6HW1HS.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologyRN6HW1HS/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/10BlockchainImplementationChallenges> a dsv:Column ;
+    rdfs:label "10. Blockchain Implementation Challenges" .
+
+<http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/11Quantumcomputingresearchdirections> a dsv:Column ;
+    rdfs:label "11. Quantum computing research directions" .
+
+<http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/12DatacenterEnergyEfficiencyOptimizations> a dsv:Column ;
+    rdfs:label "12. Datacenter Energy Efficiency Optimizations" .
+
+<http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/1SoftwareArchitecturePatterns> a dsv:Column ;
+    rdfs:label "1. Software Architecture Patterns" .
+
+<http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/2HardwareDesignPrinciples> a dsv:Column ;
+    rdfs:label "2. Hardware Design Principles" .
+
+<http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/3EmergingTechStandards> a dsv:Column ;
+    rdfs:label "3. Emerging Tech Standards" .
+
+<http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/4OpenSourceProjectLandscape> a dsv:Column ;
+    rdfs:label "4. Open Source Project Landscape" .
+
+<http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/5DigitalDivideConcerns> a dsv:Column ;
+    rdfs:label "5. Digital Divide Concerns" .
+
+<http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/6EnterpriseITGovernance> a dsv:Column ;
+    rdfs:label "6. Enterprise IT Governance" .
+
+<http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/7CloudComputingAdoptionStrategies> a dsv:Column ;
+    rdfs:label "7. Cloud Computing Adoption Strategies" .
+
+<http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/8InternetOfThingsIoTUseCases> a dsv:Column ;
+    rdfs:label "8. Internet Of Things (IoT) Use Cases" .
+
+<http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/9CybersecurityThreatMitigationApproaches> a dsv:Column ;
+    rdfs:label "9. Cybersecurity Threat Mitigation Approaches" .
+
+<http://metaUnionSearch/datasets/TechnologyRN6HW1HS/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/10BlockchainImplementationChallenges>,
+        <http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/11Quantumcomputingresearchdirections>,
+        <http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/12DatacenterEnergyEfficiencyOptimizations>,
+        <http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/1SoftwareArchitecturePatterns>,
+        <http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/2HardwareDesignPrinciples>,
+        <http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/3EmergingTechStandards>,
+        <http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/4OpenSourceProjectLandscape>,
+        <http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/5DigitalDivideConcerns>,
+        <http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/6EnterpriseITGovernance>,
+        <http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/7CloudComputingAdoptionStrategies>,
+        <http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/8InternetOfThingsIoTUseCases>,
+        <http://metaUnionSearch/datasets/TechnologyRN6HW1HS/column/9CybersecurityThreatMitigationApproaches> .
+

@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MythologyDKYAYQ3S> a dsv:Dataset ;
+    dcterms:subject "mythology" ;
+    dcterms:title "Mythology_DKYAYQ3S.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MythologyDKYAYQ3S/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Alliance> a dsv:Column ;
+    rdfs:label "Alliance" .
+
+<http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Ascension> a dsv:Column ;
+    rdfs:label "Ascension" .
+
+<http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Children> a dsv:Column ;
+    rdfs:label "Children" .
+
+<http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Demise> a dsv:Column ;
+    rdfs:label "Demise" .
+
+<http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Domains> a dsv:Column ;
+    rdfs:label "Domains" .
+
+<http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Enemies> a dsv:Column ;
+    rdfs:label "Enemies" .
+
+<http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Festivals> a dsv:Column ;
+    rdfs:label "Festivals" .
+
+<http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Goddess> a dsv:Column ;
+    rdfs:label "God(dess)" .
+
+<http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Nephilim> a dsv:Column ;
+    rdfs:label "Nephilim" .
+
+<http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Offspring> a dsv:Column ;
+    rdfs:label "Offspring" .
+
+<http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Regalia> a dsv:Column ;
+    rdfs:label "Regalia" .
+
+<http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Roles> a dsv:Column ;
+    rdfs:label "Roles" .
+
+<http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Siblings> a dsv:Column ;
+    rdfs:label "Siblings" .
+
+<http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Spouse> a dsv:Column ;
+    rdfs:label "Spouse" .
+
+<http://metaUnionSearch/datasets/MythologyDKYAYQ3S/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Alliance>,
+        <http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Ascension>,
+        <http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Children>,
+        <http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Demise>,
+        <http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Domains>,
+        <http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Enemies>,
+        <http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Festivals>,
+        <http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Goddess>,
+        <http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Nephilim>,
+        <http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Offspring>,
+        <http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Regalia>,
+        <http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Roles>,
+        <http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Siblings>,
+        <http://metaUnionSearch/datasets/MythologyDKYAYQ3S/column/Spouse> .
+

@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FashionDKYAFJ41> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_DKYAFJ41.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FashionDKYAFJ41/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FashionDKYAFJ41/column/ClothesType> a dsv:Column ;
+    rdfs:label " Clothes Type" .
+
+<http://metaUnionSearch/datasets/FashionDKYAFJ41/column/Discount> a dsv:Column ;
+    rdfs:label " Discount" .
+
+<http://metaUnionSearch/datasets/FashionDKYAFJ41/column/FabricDetails> a dsv:Column ;
+    rdfs:label " Fabric Details" .
+
+<http://metaUnionSearch/datasets/FashionDKYAFJ41/column/GenderCategory> a dsv:Column ;
+    rdfs:label " Gender Category" .
+
+<http://metaUnionSearch/datasets/FashionDKYAFJ41/column/Manufacturer> a dsv:Column ;
+    rdfs:label " Manufacturer" .
+
+<http://metaUnionSearch/datasets/FashionDKYAFJ41/column/NewPrice> a dsv:Column ;
+    rdfs:label " New Price" .
+
+<http://metaUnionSearch/datasets/FashionDKYAFJ41/column/OriginalPrice> a dsv:Column ;
+    rdfs:label " Original Price" .
+
+<http://metaUnionSearch/datasets/FashionDKYAFJ41/column/ProductID> a dsv:Column ;
+    rdfs:label "Product ID" .
+
+<http://metaUnionSearch/datasets/FashionDKYAFJ41/column/RetailerName> a dsv:Column ;
+    rdfs:label " Retailer Name" .
+
+<http://metaUnionSearch/datasets/FashionDKYAFJ41/column/SKUNumber> a dsv:Column ;
+    rdfs:label " SKU Number " .
+
+<http://metaUnionSearch/datasets/FashionDKYAFJ41/column/SaleType> a dsv:Column ;
+    rdfs:label " Sale Type" .
+
+<http://metaUnionSearch/datasets/FashionDKYAFJ41/column/UPCCode> a dsv:Column ;
+    rdfs:label " UPC Code" .
+
+<http://metaUnionSearch/datasets/FashionDKYAFJ41/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FashionDKYAFJ41/column/ClothesType>,
+        <http://metaUnionSearch/datasets/FashionDKYAFJ41/column/Discount>,
+        <http://metaUnionSearch/datasets/FashionDKYAFJ41/column/FabricDetails>,
+        <http://metaUnionSearch/datasets/FashionDKYAFJ41/column/GenderCategory>,
+        <http://metaUnionSearch/datasets/FashionDKYAFJ41/column/Manufacturer>,
+        <http://metaUnionSearch/datasets/FashionDKYAFJ41/column/NewPrice>,
+        <http://metaUnionSearch/datasets/FashionDKYAFJ41/column/OriginalPrice>,
+        <http://metaUnionSearch/datasets/FashionDKYAFJ41/column/ProductID>,
+        <http://metaUnionSearch/datasets/FashionDKYAFJ41/column/RetailerName>,
+        <http://metaUnionSearch/datasets/FashionDKYAFJ41/column/SKUNumber>,
+        <http://metaUnionSearch/datasets/FashionDKYAFJ41/column/SaleType>,
+        <http://metaUnionSearch/datasets/FashionDKYAFJ41/column/UPCCode> .
+

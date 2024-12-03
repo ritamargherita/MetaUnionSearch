@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_IFL9NP6F.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/AdditionalFeatures> a dsv:Column ;
+    rdfs:label " Additional Features\"" .
+
+<http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/Chromosome> a dsv:Column ;
+    rdfs:label " Chromosome" .
+
+<http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/EndPosition> a dsv:Column ;
+    rdfs:label " End Position" .
+
+<http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/ExpressionLevel> a dsv:Column ;
+    rdfs:label " Expression Level" .
+
+<http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/GeneType> a dsv:Column ;
+    rdfs:label " Gene Type" .
+
+<http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/MutationFrequency> a dsv:Column ;
+    rdfs:label " Mutation Frequency" .
+
+<http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/NewGeneNames> a dsv:Column ;
+    rdfs:label "\"New Gene Names" .
+
+<http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/ProteinInteractions> a dsv:Column ;
+    rdfs:label " Protein Interactions" .
+
+<http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/Sequence> a dsv:Column ;
+    rdfs:label " Sequence" .
+
+<http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/StartPosition> a dsv:Column ;
+    rdfs:label " Start Position" .
+
+<http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/Strand> a dsv:Column ;
+    rdfs:label " Strand" .
+
+<http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/AdditionalFeatures>,
+        <http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/Chromosome>,
+        <http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/EndPosition>,
+        <http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/ExpressionLevel>,
+        <http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/GeneType>,
+        <http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/MutationFrequency>,
+        <http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/NewGeneNames>,
+        <http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/ProteinInteractions>,
+        <http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/Sequence>,
+        <http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/StartPosition>,
+        <http://metaUnionSearch/datasets/BioinformaticsIFL9NP6F/column/Strand> .
+

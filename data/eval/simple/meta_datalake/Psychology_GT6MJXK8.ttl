@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PsychologyGT6MJXK8> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_GT6MJXK8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PsychologyGT6MJXK8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/AdditionalColumn1> a dsv:Column ;
+    rdfs:label "AdditionalColumn1" .
+
+<http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/AdditionalColumn2> a dsv:Column ;
+    rdfs:label "AdditionalColumn2" .
+
+<http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/AverageRatingFromReviewers> a dsv:Column ;
+    rdfs:label "AverageRatingFromReviewers" .
+
+<http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/FavoritePsychologist> a dsv:Column ;
+    rdfs:label "FavoritePsychologist" .
+
+<http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/FirstBookReadinField> a dsv:Column ;
+    rdfs:label "FirstBookRead\\_inField" .
+
+<http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/MostImpactfulTheorytoPatient> a dsv:Column ;
+    rdfs:label "MostImpactfulTheory\\_toPatient" .
+
+<http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/NumberOfPublicationsLastYear> a dsv:Column ;
+    rdfs:label "NumberOfPublicationsLastYear" .
+
+<http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/NumberofYearsExperience> a dsv:Column ;
+    rdfs:label "NumberofYearsExperience" .
+
+<http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/PatientsDemographicPrefereceage> a dsv:Column ;
+    rdfs:label "PatientsDemographicPreferece\\_age" .
+
+<http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/PreferredResearchMethodologies> a dsv:Column ;
+    rdfs:label "PreferredResearchMethodologies" .
+
+<http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/PreferredSessionTimeslothour> a dsv:Column ;
+    rdfs:label "PreferredSessionTimeslot\\_hour" .
+
+<http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/SpecializationArea01> a dsv:Column ;
+    rdfs:label "SpecializationArea01" .
+
+<http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/SpecializationArea02> a dsv:Column ;
+    rdfs:label "SpecializationArea02" .
+
+<http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/SpecializedTechniquesUsed> a dsv:Column ;
+    rdfs:label "SpecializedTechniquesUsed" .
+
+<http://metaUnionSearch/datasets/PsychologyGT6MJXK8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/AdditionalColumn1>,
+        <http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/AdditionalColumn2>,
+        <http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/AverageRatingFromReviewers>,
+        <http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/FavoritePsychologist>,
+        <http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/FirstBookReadinField>,
+        <http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/MostImpactfulTheorytoPatient>,
+        <http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/NumberOfPublicationsLastYear>,
+        <http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/NumberofYearsExperience>,
+        <http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/PatientsDemographicPrefereceage>,
+        <http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/PreferredResearchMethodologies>,
+        <http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/PreferredSessionTimeslothour>,
+        <http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/SpecializationArea01>,
+        <http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/SpecializationArea02>,
+        <http://metaUnionSearch/datasets/PsychologyGT6MJXK8/column/SpecializedTechniquesUsed> .
+

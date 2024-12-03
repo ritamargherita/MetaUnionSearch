@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArcheologyB9OOAEDO> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_B9OOAEDO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/Archaeobotany> a dsv:Column ;
+    rdfs:label " Archaeobotany" .
+
+<http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/ChemicalTests> a dsv:Column ;
+    rdfs:label " ChemicalTests" .
+
+<http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/ConservationStatus> a dsv:Column ;
+    rdfs:label " ConservationStatus" .
+
+<http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/ExcavationDate> a dsv:Column ;
+    rdfs:label "ExcavationDate" .
+
+<http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/FieldDirector> a dsv:Column ;
+    rdfs:label " FieldDirector" .
+
+<http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/GeologicalAnalysis> a dsv:Column ;
+    rdfs:label " GeologicalAnalysis" .
+
+<http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/LabAnalysisBy> a dsv:Column ;
+    rdfs:label " LabAnalysisBy" .
+
+<http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/Photogrammetry> a dsv:Column ;
+    rdfs:label " Photogrammetry" .
+
+<http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/RadiocarbonDating> a dsv:Column ;
+    rdfs:label " RadiocarbonDating" .
+
+<http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/SurveyMethod> a dsv:Column ;
+    rdfs:label " SurveyMethod" .
+
+<http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/Zooarchaeology> a dsv:Column ;
+    rdfs:label " Zooarchaeology" .
+
+<http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/Archaeobotany>,
+        <http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/ChemicalTests>,
+        <http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/ConservationStatus>,
+        <http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/ExcavationDate>,
+        <http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/FieldDirector>,
+        <http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/GeologicalAnalysis>,
+        <http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/LabAnalysisBy>,
+        <http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/Photogrammetry>,
+        <http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/RadiocarbonDating>,
+        <http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/SurveyMethod>,
+        <http://metaUnionSearch/datasets/ArcheologyB9OOAEDO/column/Zooarchaeology> .
+

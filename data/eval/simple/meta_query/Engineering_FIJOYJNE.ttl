@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EngineeringFIJOYJNE> a dsv:Dataset ;
+    dcterms:subject "engineering" ;
+    dcterms:title "Engineering_FIJOYJNE.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EngineeringFIJOYJNE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/CostEstimation> a dsv:Column ;
+    rdfs:label "Cost Estimation" .
+
+<http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/DesignMethodology> a dsv:Column ;
+    rdfs:label "Design Methodology" .
+
+<http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/EndDate> a dsv:Column ;
+    rdfs:label "End Date\"" .
+
+<http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/EngineeredSystem> a dsv:Column ;
+    rdfs:label "\"Engineered System" .
+
+<http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/MaterialSelection> a dsv:Column ;
+    rdfs:label "Material Selection" .
+
+<http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/ProjectManager> a dsv:Column ;
+    rdfs:label "Project Manager" .
+
+<http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/ProjectScope> a dsv:Column ;
+    rdfs:label "Project Scope" .
+
+<http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/ProjectStatus> a dsv:Column ;
+    rdfs:label "Project Status" .
+
+<http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/ProjectTeam> a dsv:Column ;
+    rdfs:label "Project Team" .
+
+<http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/ProjectTimeline> a dsv:Column ;
+    rdfs:label "Project Timeline" .
+
+<http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/QualityAssurance> a dsv:Column ;
+    rdfs:label "Quality Assurance" .
+
+<http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/SafetyProtocols> a dsv:Column ;
+    rdfs:label "Safety Protocols" .
+
+<http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/StartDate> a dsv:Column ;
+    rdfs:label "Start Date" .
+
+<http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/WorkPackages> a dsv:Column ;
+    rdfs:label "#Work Packages" .
+
+<http://metaUnionSearch/datasets/EngineeringFIJOYJNE/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/CostEstimation>,
+        <http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/DesignMethodology>,
+        <http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/EndDate>,
+        <http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/EngineeredSystem>,
+        <http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/MaterialSelection>,
+        <http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/ProjectManager>,
+        <http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/ProjectScope>,
+        <http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/ProjectStatus>,
+        <http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/ProjectTeam>,
+        <http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/ProjectTimeline>,
+        <http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/QualityAssurance>,
+        <http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/SafetyProtocols>,
+        <http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/StartDate>,
+        <http://metaUnionSearch/datasets/EngineeringFIJOYJNE/column/WorkPackages> .
+

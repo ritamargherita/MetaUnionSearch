@@ -1,0 +1,107 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_KD6FLEEP.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ReligionKD6FLEEP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/1HistoricalDevelopmentsTimeline> a dsv:Column ;
+    rdfs:label "1. Historical Developments Timeline" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/2GeographicalSpreadOverTime> a dsv:Column ;
+    rdfs:label "2. Geographical Spread Over Time" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/3InfluentialFiguresnotincludingProphets> a dsv:Column ;
+    rdfs:label "3. Influential Figures not including Prophets" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/4ArtArchitectureInspiredByTheFaith> a dsv:Column ;
+    rdfs:label "4. Art & Architecture Inspired By The Faith" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/5RitualsPerformedbyIndividuals> a dsv:Column ;
+    rdfs:label "5. Rituals Performed by Individuals" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/6CulturalImpactOutsideObservantsOfTheFaith> a dsv:Column ;
+    rdfs:label "6. Cultural Impact Outside Observants Of The Faith" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/7CommunityGatheringPracticesAndEvents> a dsv:Column ;
+    rdfs:label "7. Community Gathering Practices And Events" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/8FestivalsEvolvedFromThisReligion> a dsv:Column ;
+    rdfs:label "8. Festivals Evolved From This Religion" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/9UniqueWoodblockPrintArtsXylographhy> a dsv:Column ;
+    rdfs:label "9. Unique Woodblock Print Arts (Xylographhy)" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/BeliefSystem> a dsv:Column ;
+    rdfs:label "\"Belief System\"" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/ChallengesFacedbyFollowers> a dsv:Column ;
+    rdfs:label "\"Challenges Faced by Followers\"" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/CommunityStructureVariations> a dsv:Column ;
+    rdfs:label "\"Community Structure Variations\"" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/ContemporaryInterpretationsInfluencingPractice> a dsv:Column ;
+    rdfs:label "\"Contemporary Interpretations Influencing Practice\"" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/DeitiesWorshipped> a dsv:Column ;
+    rdfs:label "\"Deities Worshipped\"" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/Demographics> a dsv:Column ;
+    rdfs:label "\"Demographics\"" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/Founder> a dsv:Column ;
+    rdfs:label "\"Founder\"" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/HistoricalElementsImpactingBeliefs> a dsv:Column ;
+    rdfs:label "\"Historical Elements Impacting Beliefs\"" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/ImportantSymbols> a dsv:Column ;
+    rdfs:label "\"Important Symbols\"" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/MajorDenominations> a dsv:Column ;
+    rdfs:label "\"Major Denominations\"" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/ReligiousCelebrations> a dsv:Column ;
+    rdfs:label "\"Religious Celebrations\"" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/SecondaryDivisions> a dsv:Column ;
+    rdfs:label "\"Secondary Divisions\"" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/SectarianDifferences> a dsv:Column ;
+    rdfs:label "\"Sectarian Differences\"" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/scurrrangecounter18Timetaken3433355712890625secondsTimetaken4397950768470764secondsReligiousName> a dsv:Column ;
+    rdfs:label """</s>
+curr_range_counter:  18
+Time taken: 34.33355712890625 seconds
+Time taken: 43.97950768470764 seconds
+"Religious Name\"""" .
+
+<http://metaUnionSearch/datasets/ReligionKD6FLEEP/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/1HistoricalDevelopmentsTimeline>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/2GeographicalSpreadOverTime>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/3InfluentialFiguresnotincludingProphets>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/4ArtArchitectureInspiredByTheFaith>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/5RitualsPerformedbyIndividuals>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/6CulturalImpactOutsideObservantsOfTheFaith>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/7CommunityGatheringPracticesAndEvents>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/8FestivalsEvolvedFromThisReligion>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/9UniqueWoodblockPrintArtsXylographhy>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/BeliefSystem>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/ChallengesFacedbyFollowers>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/CommunityStructureVariations>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/ContemporaryInterpretationsInfluencingPractice>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/DeitiesWorshipped>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/Demographics>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/Founder>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/HistoricalElementsImpactingBeliefs>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/ImportantSymbols>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/MajorDenominations>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/ReligiousCelebrations>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/SecondaryDivisions>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/SectarianDifferences>,
+        <http://metaUnionSearch/datasets/ReligionKD6FLEEP/column/scurrrangecounter18Timetaken3433355712890625secondsTimetaken4397950768470764secondsReligiousName> .
+

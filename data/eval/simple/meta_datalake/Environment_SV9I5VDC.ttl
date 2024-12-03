@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EnvironmentSV9I5VDC> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_SV9I5VDC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/AvgRainfallmm> a dsv:Column ;
+    rdfs:label " AvgRainfall_mm" .
+
+<http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/AvgTemperatureC> a dsv:Column ;
+    rdfs:label " AvgTemperature_C" .
+
+<http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/BiodiversityIndex> a dsv:Column ;
+    rdfs:label " BiodiversityIndex" .
+
+<http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/ConservationistCount> a dsv:Column ;
+    rdfs:label "ConservationistCount" .
+
+<http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/EndangeredSpeciesRatio> a dsv:Column ;
+    rdfs:label " EndangeredSpeciesRatio" .
+
+<http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/ForestAreaKm2> a dsv:Column ;
+    rdfs:label " ForestAreaKm2" .
+
+<http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/OtherMetric> a dsv:Column ;
+    rdfs:label " OtherMetric" .
+
+<http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/PollutionLevel> a dsv:Column ;
+    rdfs:label " PollutionLevel" .
+
+<http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/PopulationDensity> a dsv:Column ;
+    rdfs:label " PopulationDensity" .
+
+<http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/SoilHealthIndex> a dsv:Column ;
+    rdfs:label " SoilHealthIndex" .
+
+<http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/VolcanoesActive> a dsv:Column ;
+    rdfs:label " VolcanoesActive" .
+
+<http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/AvgRainfallmm>,
+        <http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/AvgTemperatureC>,
+        <http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/BiodiversityIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/ConservationistCount>,
+        <http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/EndangeredSpeciesRatio>,
+        <http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/ForestAreaKm2>,
+        <http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/OtherMetric>,
+        <http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/PollutionLevel>,
+        <http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/PopulationDensity>,
+        <http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/SoilHealthIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentSV9I5VDC/column/VolcanoesActive> .
+

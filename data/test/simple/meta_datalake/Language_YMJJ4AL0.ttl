@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_YMJJ4AL0.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/LanguageCode> a dsv:Column ;
+    rdfs:label " Language Code" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/LanguageFamily> a dsv:Column ;
+    rdfs:label " Language Family" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/LanguageName> a dsv:Column ;
+    rdfs:label "Language Name" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Morphology> a dsv:Column ;
+    rdfs:label " Morphology" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/NativeSpeakers> a dsv:Column ;
+    rdfs:label " Native Speakers" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/OfficialStatus> a dsv:Column ;
+    rdfs:label " Official Status" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Origin> a dsv:Column ;
+    rdfs:label " Origin" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Pragmatics> a dsv:Column ;
+    rdfs:label " Pragmatics" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Script> a dsv:Column ;
+    rdfs:label " Script" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Semantics> a dsv:Column ;
+    rdfs:label " Semantics" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Speakers> a dsv:Column ;
+    rdfs:label " Speakers" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Syntax> a dsv:Column ;
+    rdfs:label " Syntax" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/WritingSystem> a dsv:Column ;
+    rdfs:label " Writing System" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/LanguageCode>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/LanguageFamily>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/LanguageName>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Morphology>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/NativeSpeakers>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/OfficialStatus>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Origin>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Pragmatics>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Script>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Semantics>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Speakers>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Syntax>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/WritingSystem> .
+

@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Engineering00V830DN> a dsv:Dataset ;
+    dcterms:subject "engineering" ;
+    dcterms:title "Engineering_00V830DN.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Engineering00V830DN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Engineering00V830DN/column/EndDate> a dsv:Column ;
+    rdfs:label "End Date" .
+
+<http://metaUnionSearch/datasets/Engineering00V830DN/column/FundingAmount> a dsv:Column ;
+    rdfs:label "Funding Amount" .
+
+<http://metaUnionSearch/datasets/Engineering00V830DN/column/FundingSource> a dsv:Column ;
+    rdfs:label "Funding Source" .
+
+<http://metaUnionSearch/datasets/Engineering00V830DN/column/Location> a dsv:Column ;
+    rdfs:label "Location" .
+
+<http://metaUnionSearch/datasets/Engineering00V830DN/column/MaterialSelection> a dsv:Column ;
+    rdfs:label "Material Selection" .
+
+<http://metaUnionSearch/datasets/Engineering00V830DN/column/MilestonesandDeliverables> a dsv:Column ;
+    rdfs:label "Milestones and Deliverables" .
+
+<http://metaUnionSearch/datasets/Engineering00V830DN/column/ProjectName> a dsv:Column ;
+    rdfs:label "\"Project Name" .
+
+<http://metaUnionSearch/datasets/Engineering00V830DN/column/RiskManagement> a dsv:Column ;
+    rdfs:label "Risk Management\"" .
+
+<http://metaUnionSearch/datasets/Engineering00V830DN/column/StartDate> a dsv:Column ;
+    rdfs:label "Start Date" .
+
+<http://metaUnionSearch/datasets/Engineering00V830DN/column/TeamLeadsCollaborators> a dsv:Column ;
+    rdfs:label "Team Lead(s) & Collaborators" .
+
+<http://metaUnionSearch/datasets/Engineering00V830DN/column/WorkPackages> a dsv:Column ;
+    rdfs:label "#Work Packages" .
+
+<http://metaUnionSearch/datasets/Engineering00V830DN/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Engineering00V830DN/column/EndDate>,
+        <http://metaUnionSearch/datasets/Engineering00V830DN/column/FundingAmount>,
+        <http://metaUnionSearch/datasets/Engineering00V830DN/column/FundingSource>,
+        <http://metaUnionSearch/datasets/Engineering00V830DN/column/Location>,
+        <http://metaUnionSearch/datasets/Engineering00V830DN/column/MaterialSelection>,
+        <http://metaUnionSearch/datasets/Engineering00V830DN/column/MilestonesandDeliverables>,
+        <http://metaUnionSearch/datasets/Engineering00V830DN/column/ProjectName>,
+        <http://metaUnionSearch/datasets/Engineering00V830DN/column/RiskManagement>,
+        <http://metaUnionSearch/datasets/Engineering00V830DN/column/StartDate>,
+        <http://metaUnionSearch/datasets/Engineering00V830DN/column/TeamLeadsCollaborators>,
+        <http://metaUnionSearch/datasets/Engineering00V830DN/column/WorkPackages> .
+

@@ -1,0 +1,39 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CriminologyO5QVWC9R> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_O5QVWC9R.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CriminologyO5QVWC9R/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CriminologyO5QVWC9R/column/> a dsv:Column ;
+    rdfs:label "\\" .
+
+<http://metaUnionSearch/datasets/CriminologyO5QVWC9R/column/DateTimeOccurred> a dsv:Column ;
+    rdfs:label " Date & Time Occurred" .
+
+<http://metaUnionSearch/datasets/CriminologyO5QVWC9R/column/IncidentNumber> a dsv:Column ;
+    rdfs:label "Incident Number" .
+
+<http://metaUnionSearch/datasets/CriminologyO5QVWC9R/column/IncidentType> a dsv:Column ;
+    rdfs:label " Incident Type" .
+
+<http://metaUnionSearch/datasets/CriminologyO5QVWC9R/column/Location> a dsv:Column ;
+    rdfs:label " Location" .
+
+<http://metaUnionSearch/datasets/CriminologyO5QVWC9R/column/OffenseCategory> a dsv:Column ;
+    rdfs:label " Offense Category" .
+
+<http://metaUnionSearch/datasets/CriminologyO5QVWC9R/column/OffenseDescription> a dsv:Column ;
+    rdfs:label " Offense Description" .
+
+<http://metaUnionSearch/datasets/CriminologyO5QVWC9R/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CriminologyO5QVWC9R/column/>,
+        <http://metaUnionSearch/datasets/CriminologyO5QVWC9R/column/DateTimeOccurred>,
+        <http://metaUnionSearch/datasets/CriminologyO5QVWC9R/column/IncidentNumber>,
+        <http://metaUnionSearch/datasets/CriminologyO5QVWC9R/column/IncidentType>,
+        <http://metaUnionSearch/datasets/CriminologyO5QVWC9R/column/Location>,
+        <http://metaUnionSearch/datasets/CriminologyO5QVWC9R/column/OffenseCategory>,
+        <http://metaUnionSearch/datasets/CriminologyO5QVWC9R/column/OffenseDescription> .
+

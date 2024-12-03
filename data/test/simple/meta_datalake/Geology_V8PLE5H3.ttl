@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_V8PLE5H3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeologyV8PLE5H3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/EarthquakeEpicenterDistribution> a dsv:Column ;
+    rdfs:label " Earthquake Epicenter Distribution" .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/EarthquakeOccurrence> a dsv:Column ;
+    rdfs:label "Earthquake Occurrence" .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/GravityAnomalies> a dsv:Column ;
+    rdfs:label " Gravity Anomalies" .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/HeatFlowValues> a dsv:Column ;
+    rdfs:label " Heat Flow Values" .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/MagmaticActivityDetails> a dsv:Column ;
+    rdfs:label " Magmatic Activity Details" .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/MagneticAnomalies> a dsv:Column ;
+    rdfs:label " Magnetic Anomalies" .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/MetamorphismTypes> a dsv:Column ;
+    rdfs:label " Metamorphism Types" .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/PaleomagneticData> a dsv:Column ;
+    rdfs:label " Paleomagnetic Data" .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/PeriodunderTectonicStress> a dsv:Column ;
+    rdfs:label " Period under Tectonic Stress?" .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/PlateBoundaryClassification> a dsv:Column ;
+    rdfs:label " Plate Boundary Classification" .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/SeismicHazardZones> a dsv:Column ;
+    rdfs:label " Seismic Hazard Zones" .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/SeismoactiveRegionIdentifier> a dsv:Column ;
+    rdfs:label " Seismoactive Region Identifier" .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/TectonicDeformationFeatures> a dsv:Column ;
+    rdfs:label " Tectonic Deformation Features" .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/TerrestrialImpactStructuresList> a dsv:Column ;
+    rdfs:label " Terrestrial Impact Structures List" .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/VolcanicityIndex> a dsv:Column ;
+    rdfs:label " Volcanicity Index" .
+
+<http://metaUnionSearch/datasets/GeologyV8PLE5H3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/EarthquakeEpicenterDistribution>,
+        <http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/EarthquakeOccurrence>,
+        <http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/GravityAnomalies>,
+        <http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/HeatFlowValues>,
+        <http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/MagmaticActivityDetails>,
+        <http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/MagneticAnomalies>,
+        <http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/MetamorphismTypes>,
+        <http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/PaleomagneticData>,
+        <http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/PeriodunderTectonicStress>,
+        <http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/PlateBoundaryClassification>,
+        <http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/SeismicHazardZones>,
+        <http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/SeismoactiveRegionIdentifier>,
+        <http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/TectonicDeformationFeatures>,
+        <http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/TerrestrialImpactStructuresList>,
+        <http://metaUnionSearch/datasets/GeologyV8PLE5H3/column/VolcanicityIndex> .
+

@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L> a dsv:Dataset ;
+    dcterms:subject "music" ;
+    dcterms:title "Music_25OW9Y1L.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Music25OW9Y1L/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L/column/Album> a dsv:Column ;
+    rdfs:label " Album" .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L/column/Artists> a dsv:Column ;
+    rdfs:label " Artists" .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L/column/Format> a dsv:Column ;
+    rdfs:label " Format" .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L/column/Genres> a dsv:Column ;
+    rdfs:label " Genres" .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L/column/Label> a dsv:Column ;
+    rdfs:label " Label" .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L/column/Language> a dsv:Column ;
+    rdfs:label " Language" .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L/column/LyricsAuthor> a dsv:Column ;
+    rdfs:label " Lyrics Author" .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L/column/MusicVideoURL> a dsv:Column ;
+    rdfs:label " Music Video URL" .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L/column/Playtime> a dsv:Column ;
+    rdfs:label " Playtime" .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L/column/Producers> a dsv:Column ;
+    rdfs:label " Producers" .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L/column/ProductionCompany> a dsv:Column ;
+    rdfs:label " Production Company" .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L/column/Publisher> a dsv:Column ;
+    rdfs:label " Publisher" .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L/column/ReleaseDate> a dsv:Column ;
+    rdfs:label " Release Date" .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L/column/Title> a dsv:Column ;
+    rdfs:label " Title" .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L/column/TrackNumber> a dsv:Column ;
+    rdfs:label "Track Number" .
+
+<http://metaUnionSearch/datasets/Music25OW9Y1L/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Music25OW9Y1L/column/Album>,
+        <http://metaUnionSearch/datasets/Music25OW9Y1L/column/Artists>,
+        <http://metaUnionSearch/datasets/Music25OW9Y1L/column/Format>,
+        <http://metaUnionSearch/datasets/Music25OW9Y1L/column/Genres>,
+        <http://metaUnionSearch/datasets/Music25OW9Y1L/column/Label>,
+        <http://metaUnionSearch/datasets/Music25OW9Y1L/column/Language>,
+        <http://metaUnionSearch/datasets/Music25OW9Y1L/column/LyricsAuthor>,
+        <http://metaUnionSearch/datasets/Music25OW9Y1L/column/MusicVideoURL>,
+        <http://metaUnionSearch/datasets/Music25OW9Y1L/column/Playtime>,
+        <http://metaUnionSearch/datasets/Music25OW9Y1L/column/Producers>,
+        <http://metaUnionSearch/datasets/Music25OW9Y1L/column/ProductionCompany>,
+        <http://metaUnionSearch/datasets/Music25OW9Y1L/column/Publisher>,
+        <http://metaUnionSearch/datasets/Music25OW9Y1L/column/ReleaseDate>,
+        <http://metaUnionSearch/datasets/Music25OW9Y1L/column/Title>,
+        <http://metaUnionSearch/datasets/Music25OW9Y1L/column/TrackNumber> .
+

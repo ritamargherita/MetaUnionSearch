@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SportsG22UETCH> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_G22UETCH.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SportsG22UETCH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SportsG22UETCH/column/AveragePointsPerGame> a dsv:Column ;
+    rdfs:label " AveragePointsPerGame" .
+
+<http://metaUnionSearch/datasets/SportsG22UETCH/column/BettingOdds> a dsv:Column ;
+    rdfs:label " Betting Odds" .
+
+<http://metaUnionSearch/datasets/SportsG22UETCH/column/HighestPoints> a dsv:Column ;
+    rdfs:label " Highest Points" .
+
+<http://metaUnionSearch/datasets/SportsG22UETCH/column/Injuriesplayername> a dsv:Column ;
+    rdfs:label " Injuries\\playername" .
+
+<http://metaUnionSearch/datasets/SportsG22UETCH/column/LeaguePosition> a dsv:Column ;
+    rdfs:label " League Position" .
+
+<http://metaUnionSearch/datasets/SportsG22UETCH/column/PassesCompleted> a dsv:Column ;
+    rdfs:label " Passes Completed%" .
+
+<http://metaUnionSearch/datasets/SportsG22UETCH/column/PenaltiesYellowCards> a dsv:Column ;
+    rdfs:label " Penalties/YellowCards" .
+
+<http://metaUnionSearch/datasets/SportsG22UETCH/column/Rank> a dsv:Column ;
+    rdfs:label " Rank" .
+
+<http://metaUnionSearch/datasets/SportsG22UETCH/column/RedCardsOffside> a dsv:Column ;
+    rdfs:label " Red Cards/Offside" .
+
+<http://metaUnionSearch/datasets/SportsG22UETCH/column/SeparateWins> a dsv:Column ;
+    rdfs:label "Separate Wins" .
+
+<http://metaUnionSearch/datasets/SportsG22UETCH/column/TeamsPlaying> a dsv:Column ;
+    rdfs:label " Teams Playing" .
+
+<http://metaUnionSearch/datasets/SportsG22UETCH/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SportsG22UETCH/column/AveragePointsPerGame>,
+        <http://metaUnionSearch/datasets/SportsG22UETCH/column/BettingOdds>,
+        <http://metaUnionSearch/datasets/SportsG22UETCH/column/HighestPoints>,
+        <http://metaUnionSearch/datasets/SportsG22UETCH/column/Injuriesplayername>,
+        <http://metaUnionSearch/datasets/SportsG22UETCH/column/LeaguePosition>,
+        <http://metaUnionSearch/datasets/SportsG22UETCH/column/PassesCompleted>,
+        <http://metaUnionSearch/datasets/SportsG22UETCH/column/PenaltiesYellowCards>,
+        <http://metaUnionSearch/datasets/SportsG22UETCH/column/Rank>,
+        <http://metaUnionSearch/datasets/SportsG22UETCH/column/RedCardsOffside>,
+        <http://metaUnionSearch/datasets/SportsG22UETCH/column/SeparateWins>,
+        <http://metaUnionSearch/datasets/SportsG22UETCH/column/TeamsPlaying> .
+

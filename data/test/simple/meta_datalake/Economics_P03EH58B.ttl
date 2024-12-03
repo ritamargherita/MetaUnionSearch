@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EconomicsP03EH58B> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_P03EH58B.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EconomicsP03EH58B/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EconomicsP03EH58B/column/HumanDevelopmentIndexvalue> a dsv:Column ;
+    rdfs:label " Human Development Index value" .
+
+<http://metaUnionSearch/datasets/EconomicsP03EH58B/column/corruptionperceptionindexvalue> a dsv:Column ;
+    rdfs:label " corruption perception index value" .
+
+<http://metaUnionSearch/datasets/EconomicsP03EH58B/column/economicsystemtype> a dsv:Column ;
+    rdfs:label "economic system type" .
+
+<http://metaUnionSearch/datasets/EconomicsP03EH58B/column/energyconsumptionpercapitaPPP> a dsv:Column ;
+    rdfs:label " energy consumption per capita PPP$" .
+
+<http://metaUnionSearch/datasets/EconomicsP03EH58B/column/exchangeratevsUSDollar> a dsv:Column ;
+    rdfs:label " exchange rate vs US Dollar" .
+
+<http://metaUnionSearch/datasets/EconomicsP03EH58B/column/globalcompetitivenessranking> a dsv:Column ;
+    rdfs:label " global competitiveness ranking" .
+
+<http://metaUnionSearch/datasets/EconomicsP03EH58B/column/governmentdebtofGDPratio> a dsv:Column ;
+    rdfs:label " government debt % of GDP ratio" .
+
+<http://metaUnionSearch/datasets/EconomicsP03EH58B/column/inflationrateCPI> a dsv:Column ;
+    rdfs:label " inflation rate (CPI)" .
+
+<http://metaUnionSearch/datasets/EconomicsP03EH58B/column/interestsratesshortterm> a dsv:Column ;
+    rdfs:label " interests rates - short term" .
+
+<http://metaUnionSearch/datasets/EconomicsP03EH58B/column/numberofpubliclytradedcompanies> a dsv:Column ;
+    rdfs:label " number of publicly traded companies" .
+
+<http://metaUnionSearch/datasets/EconomicsP03EH58B/column/tourismrevenuebillions> a dsv:Column ;
+    rdfs:label " tourism revenue (\"$ billions\")" .
+
+<http://metaUnionSearch/datasets/EconomicsP03EH58B/column/unemploymentrate> a dsv:Column ;
+    rdfs:label " unemployment rate" .
+
+<http://metaUnionSearch/datasets/EconomicsP03EH58B/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EconomicsP03EH58B/column/HumanDevelopmentIndexvalue>,
+        <http://metaUnionSearch/datasets/EconomicsP03EH58B/column/corruptionperceptionindexvalue>,
+        <http://metaUnionSearch/datasets/EconomicsP03EH58B/column/economicsystemtype>,
+        <http://metaUnionSearch/datasets/EconomicsP03EH58B/column/energyconsumptionpercapitaPPP>,
+        <http://metaUnionSearch/datasets/EconomicsP03EH58B/column/exchangeratevsUSDollar>,
+        <http://metaUnionSearch/datasets/EconomicsP03EH58B/column/globalcompetitivenessranking>,
+        <http://metaUnionSearch/datasets/EconomicsP03EH58B/column/governmentdebtofGDPratio>,
+        <http://metaUnionSearch/datasets/EconomicsP03EH58B/column/inflationrateCPI>,
+        <http://metaUnionSearch/datasets/EconomicsP03EH58B/column/interestsratesshortterm>,
+        <http://metaUnionSearch/datasets/EconomicsP03EH58B/column/numberofpubliclytradedcompanies>,
+        <http://metaUnionSearch/datasets/EconomicsP03EH58B/column/tourismrevenuebillions>,
+        <http://metaUnionSearch/datasets/EconomicsP03EH58B/column/unemploymentrate> .
+

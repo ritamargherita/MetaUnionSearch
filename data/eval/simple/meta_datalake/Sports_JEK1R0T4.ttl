@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SportsJEK1R0T4> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_JEK1R0T4.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SportsJEK1R0T4/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SportsJEK1R0T4/column/AverageAttendance> a dsv:Column ;
+    rdfs:label " Average Attendance" .
+
+<http://metaUnionSearch/datasets/SportsJEK1R0T4/column/EquipmentCostPerAthlete> a dsv:Column ;
+    rdfs:label " Equipment Cost Per Athlete" .
+
+<http://metaUnionSearch/datasets/SportsJEK1R0T4/column/FanRating> a dsv:Column ;
+    rdfs:label " Fan Rating" .
+
+<http://metaUnionSearch/datasets/SportsJEK1R0T4/column/MatchVenue> a dsv:Column ;
+    rdfs:label " Match Venue" .
+
+<http://metaUnionSearch/datasets/SportsJEK1R0T4/column/MostValuablePlayersMVP> a dsv:Column ;
+    rdfs:label " Most Valuable Players (MVP)" .
+
+<http://metaUnionSearch/datasets/SportsJEK1R0T4/column/NumberOfRegisteredCoaches> a dsv:Column ;
+    rdfs:label " Number Of Registered Coaches" .
+
+<http://metaUnionSearch/datasets/SportsJEK1R0T4/column/RefereeSalaries> a dsv:Column ;
+    rdfs:label " Referee Salaries" .
+
+<http://metaUnionSearch/datasets/SportsJEK1R0T4/column/SeparateWins> a dsv:Column ;
+    rdfs:label "Separate Wins" .
+
+<http://metaUnionSearch/datasets/SportsJEK1R0T4/column/SponsorsContribution> a dsv:Column ;
+    rdfs:label " Sponsors' Contribution" .
+
+<http://metaUnionSearch/datasets/SportsJEK1R0T4/column/TeamsPlaying> a dsv:Column ;
+    rdfs:label " Teams Playing" .
+
+<http://metaUnionSearch/datasets/SportsJEK1R0T4/column/TotalPrizeMoney> a dsv:Column ;
+    rdfs:label " Total Prize Money" .
+
+<http://metaUnionSearch/datasets/SportsJEK1R0T4/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SportsJEK1R0T4/column/AverageAttendance>,
+        <http://metaUnionSearch/datasets/SportsJEK1R0T4/column/EquipmentCostPerAthlete>,
+        <http://metaUnionSearch/datasets/SportsJEK1R0T4/column/FanRating>,
+        <http://metaUnionSearch/datasets/SportsJEK1R0T4/column/MatchVenue>,
+        <http://metaUnionSearch/datasets/SportsJEK1R0T4/column/MostValuablePlayersMVP>,
+        <http://metaUnionSearch/datasets/SportsJEK1R0T4/column/NumberOfRegisteredCoaches>,
+        <http://metaUnionSearch/datasets/SportsJEK1R0T4/column/RefereeSalaries>,
+        <http://metaUnionSearch/datasets/SportsJEK1R0T4/column/SeparateWins>,
+        <http://metaUnionSearch/datasets/SportsJEK1R0T4/column/SponsorsContribution>,
+        <http://metaUnionSearch/datasets/SportsJEK1R0T4/column/TeamsPlaying>,
+        <http://metaUnionSearch/datasets/SportsJEK1R0T4/column/TotalPrizeMoney> .
+

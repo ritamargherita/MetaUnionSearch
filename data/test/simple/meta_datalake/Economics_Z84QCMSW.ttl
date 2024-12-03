@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EconomicsZ84QCMSW> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_Z84QCMSW.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EconomicsZ84QCMSW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/GDPtrillion> a dsv:Column ;
+    rdfs:label " GDP\\_$\\_trillion" .
+
+<http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/countryname> a dsv:Column ;
+    rdfs:label " country\\_name" .
+
+<http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/datasource> a dsv:Column ;
+    rdfs:label " data\\_source" .
+
+<http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/industrycode> a dsv:Column ;
+    rdfs:label " industry\\_code" .
+
+<http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/inflationrate> a dsv:Column ;
+    rdfs:label " inflation\\_rate" .
+
+<http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/populationsize> a dsv:Column ;
+    rdfs:label " population\\_size" .
+
+<http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/sampledescription> a dsv:Column ;
+    rdfs:label " sample\\_description" .
+
+<http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/stateabbreviation> a dsv:Column ;
+    rdfs:label " state\\_abbreviation" .
+
+<http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/timeperiod> a dsv:Column ;
+    rdfs:label "time\\_period" .
+
+<http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/unemploymentrate> a dsv:Column ;
+    rdfs:label " unemployment\\_rate" .
+
+<http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/variabletype> a dsv:Column ;
+    rdfs:label " variable\\_type" .
+
+<http://metaUnionSearch/datasets/EconomicsZ84QCMSW/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/GDPtrillion>,
+        <http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/countryname>,
+        <http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/datasource>,
+        <http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/industrycode>,
+        <http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/inflationrate>,
+        <http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/populationsize>,
+        <http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/sampledescription>,
+        <http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/stateabbreviation>,
+        <http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/timeperiod>,
+        <http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/unemploymentrate>,
+        <http://metaUnionSearch/datasets/EconomicsZ84QCMSW/column/variabletype> .
+

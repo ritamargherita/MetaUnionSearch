@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_Q51250KJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronauticsQ51250KJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/AdditionalInfo1> a dsv:Column ;
+    rdfs:label " Additional_Info_1" .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/AstronomerOnBoard> a dsv:Column ;
+    rdfs:label " Astronomer_On_Board" .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/CrewCount> a dsv:Column ;
+    rdfs:label " Crew_Count" .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/DurationDays> a dsv:Column ;
+    rdfs:label " Duration_Days" .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/FirstStageReturn> a dsv:Column ;
+    rdfs:label " First_Stage_Return" .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/MISSIONID> a dsv:Column ;
+    rdfs:label "MISSION_ID" .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/MissionName> a dsv:Column ;
+    rdfs:label " Mission_Name" .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/OrbitsAchieved> a dsv:Column ;
+    rdfs:label " Orbits_Achieved" .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/PayloadsDeployed> a dsv:Column ;
+    rdfs:label " Payloads_Deployed" .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/PrimaryObjective> a dsv:Column ;
+    rdfs:label " Primary_Objective" .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/Reusable> a dsv:Column ;
+    rdfs:label " Reusable" .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/SpacecraftUsed> a dsv:Column ;
+    rdfs:label " Spacecraft_Used" .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/SpaceflightProgram> a dsv:Column ;
+    rdfs:label " Spaceflight_Program" .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/StarshipType> a dsv:Column ;
+    rdfs:label " Starship_Type" .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/StartDate> a dsv:Column ;
+    rdfs:label " Start_Date" .
+
+<http://metaUnionSearch/datasets/AstronauticsQ51250KJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/AdditionalInfo1>,
+        <http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/AstronomerOnBoard>,
+        <http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/CrewCount>,
+        <http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/DurationDays>,
+        <http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/FirstStageReturn>,
+        <http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/MISSIONID>,
+        <http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/MissionName>,
+        <http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/OrbitsAchieved>,
+        <http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/PayloadsDeployed>,
+        <http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/PrimaryObjective>,
+        <http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/Reusable>,
+        <http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/SpacecraftUsed>,
+        <http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/SpaceflightProgram>,
+        <http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/StarshipType>,
+        <http://metaUnionSearch/datasets/AstronauticsQ51250KJ/column/StartDate> .
+

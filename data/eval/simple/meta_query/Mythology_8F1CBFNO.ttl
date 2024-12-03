@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO> a dsv:Dataset ;
+    dcterms:subject "mythology" ;
+    dcterms:title "Mythology_8F1CBFNO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Mythology8F1CBFNO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Behavior> a dsv:Column ;
+    rdfs:label "Behavior" .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Culture> a dsv:Column ;
+    rdfs:label "Culture" .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Description> a dsv:Column ;
+    rdfs:label "Description" .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Habitat> a dsv:Column ;
+    rdfs:label "Habitat" .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Importance> a dsv:Column ;
+    rdfs:label "Importance" .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/LifeSpan> a dsv:Column ;
+    rdfs:label "Life Span" .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/ModernDepictions> a dsv:Column ;
+    rdfs:label "Modern Depictions" .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/MythologicalCreature> a dsv:Column ;
+    rdfs:label "Mythological Creature" .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Origin> a dsv:Column ;
+    rdfs:label "Origin" .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/PhysicalAppearance> a dsv:Column ;
+    rdfs:label "Physical Appearance" .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Powers> a dsv:Column ;
+    rdfs:label "Powers" .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/RelatedMythologies> a dsv:Column ;
+    rdfs:label "Related Mythologies" .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/SignificanceinMythsandLegends> a dsv:Column ;
+    rdfs:label "Significance in Myths and Legends" .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Symbolism> a dsv:Column ;
+    rdfs:label "Symbolism" .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Weaknesses> a dsv:Column ;
+    rdfs:label "Weaknesses" .
+
+<http://metaUnionSearch/datasets/Mythology8F1CBFNO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Behavior>,
+        <http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Culture>,
+        <http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Description>,
+        <http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Habitat>,
+        <http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Importance>,
+        <http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/LifeSpan>,
+        <http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/ModernDepictions>,
+        <http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/MythologicalCreature>,
+        <http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Origin>,
+        <http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/PhysicalAppearance>,
+        <http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Powers>,
+        <http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/RelatedMythologies>,
+        <http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/SignificanceinMythsandLegends>,
+        <http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Symbolism>,
+        <http://metaUnionSearch/datasets/Mythology8F1CBFNO/column/Weaknesses> .
+

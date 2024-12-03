@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_ZSDP5YHP.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhotographyZSDP5YHP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/ArtisticCredit> a dsv:Column ;
+    rdfs:label "Artistic Credit" .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/CityStateUS> a dsv:Column ;
+    rdfs:label "City, State (US)" .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/CopyrightTrade> a dsv:Column ;
+    rdfs:label "Copyright & Trade" .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/Country> a dsv:Column ;
+    rdfs:label "Country" .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/FlashSetting> a dsv:Column ;
+    rdfs:label "Flash Setting" .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/GPSLatitude> a dsv:Column ;
+    rdfs:label "GPS Latitude" .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/GPSLongitude> a dsv:Column ;
+    rdfs:label "GPS Longitude" .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/ImageHeight> a dsv:Column ;
+    rdfs:label "Image Height" .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/ImageWidth> a dsv:Column ;
+    rdfs:label "Image Width" .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/LensMake> a dsv:Column ;
+    rdfs:label "Lens Make" .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/LensModel> a dsv:Column ;
+    rdfs:label "Lens Model" .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/RemarksorComments> a dsv:Column ;
+    rdfs:label "Remarks or Comments" .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/SerialNumber> a dsv:Column ;
+    rdfs:label "Serial Number" .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/SoftwareUsed> a dsv:Column ;
+    rdfs:label "Software Used" .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/WhiteBalance> a dsv:Column ;
+    rdfs:label "White Balance" .
+
+<http://metaUnionSearch/datasets/PhotographyZSDP5YHP/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/ArtisticCredit>,
+        <http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/CityStateUS>,
+        <http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/CopyrightTrade>,
+        <http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/Country>,
+        <http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/FlashSetting>,
+        <http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/GPSLatitude>,
+        <http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/GPSLongitude>,
+        <http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/ImageHeight>,
+        <http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/ImageWidth>,
+        <http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/LensMake>,
+        <http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/LensModel>,
+        <http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/RemarksorComments>,
+        <http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/SerialNumber>,
+        <http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/SoftwareUsed>,
+        <http://metaUnionSearch/datasets/PhotographyZSDP5YHP/column/WhiteBalance> .
+

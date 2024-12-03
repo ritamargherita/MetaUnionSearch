@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geophysics5NF4EK6Y> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_5NF4EK6Y.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/ElectricalResistivity> a dsv:Column ;
+    rdfs:label "Electrical Resistivity" .
+
+<http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/GPSDisplacements> a dsv:Column ;
+    rdfs:label "GPS Displacements" .
+
+<http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/GravityAnomalies> a dsv:Column ;
+    rdfs:label "Gravity Anomalies" .
+
+<http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/HeatFlowDensity> a dsv:Column ;
+    rdfs:label "Heat Flow Density" .
+
+<http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/MagneticSusceptibility> a dsv:Column ;
+    rdfs:label "Magnetic Susceptibility" .
+
+<http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/RadonEmission> a dsv:Column ;
+    rdfs:label "Radon Emission" .
+
+<http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/SoilMoisture> a dsv:Column ;
+    rdfs:label "Soil Moisture" .
+
+<http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/StrainRate> a dsv:Column ;
+    rdfs:label "Strain Rate" .
+
+<http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/TectonicPlateMovements> a dsv:Column ;
+    rdfs:label "Tectonic Plate Movements" .
+
+<http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/VolcanologicalEruptionsPrediction> a dsv:Column ;
+    rdfs:label "Volcanological Eruptions Prediction" .
+
+<http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/ElectricalResistivity>,
+        <http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/GPSDisplacements>,
+        <http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/GravityAnomalies>,
+        <http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/HeatFlowDensity>,
+        <http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/MagneticSusceptibility>,
+        <http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/RadonEmission>,
+        <http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/SoilMoisture>,
+        <http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/StrainRate>,
+        <http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/TectonicPlateMovements>,
+        <http://metaUnionSearch/datasets/Geophysics5NF4EK6Y/column/VolcanologicalEruptionsPrediction> .
+

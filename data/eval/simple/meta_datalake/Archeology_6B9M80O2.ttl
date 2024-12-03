@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Archeology6B9M80O2> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_6B9M80O2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Archeology6B9M80O2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Archeology6B9M80O2/column/ArtifactCondition> a dsv:Column ;
+    rdfs:label " ArtifactCondition" .
+
+<http://metaUnionSearch/datasets/Archeology6B9M80O2/column/ArtifactsCount> a dsv:Column ;
+    rdfs:label " ArtifactsCount" .
+
+<http://metaUnionSearch/datasets/Archeology6B9M80O2/column/Discoverer> a dsv:Column ;
+    rdfs:label " Discoverer" .
+
+<http://metaUnionSearch/datasets/Archeology6B9M80O2/column/DiscoveryYear> a dsv:Column ;
+    rdfs:label " DiscoveryYear" .
+
+<http://metaUnionSearch/datasets/Archeology6B9M80O2/column/GPSLocation> a dsv:Column ;
+    rdfs:label " GPSLocation" .
+
+<http://metaUnionSearch/datasets/Archeology6B9M80O2/column/Period> a dsv:Column ;
+    rdfs:label " Period" .
+
+<http://metaUnionSearch/datasets/Archeology6B9M80O2/column/PreservationMethod> a dsv:Column ;
+    rdfs:label " PreservationMethod" .
+
+<http://metaUnionSearch/datasets/Archeology6B9M80O2/column/ResearchBudget> a dsv:Column ;
+    rdfs:label " ResearchBudget" .
+
+<http://metaUnionSearch/datasets/Archeology6B9M80O2/column/Researcher3> a dsv:Column ;
+    rdfs:label " Researcher3" .
+
+<http://metaUnionSearch/datasets/Archeology6B9M80O2/column/Researcher4> a dsv:Column ;
+    rdfs:label " Researcher4" .
+
+<http://metaUnionSearch/datasets/Archeology6B9M80O2/column/SiteName> a dsv:Column ;
+    rdfs:label "SiteName" .
+
+<http://metaUnionSearch/datasets/Archeology6B9M80O2/column/SiteType> a dsv:Column ;
+    rdfs:label " SiteType" .
+
+<http://metaUnionSearch/datasets/Archeology6B9M80O2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Archeology6B9M80O2/column/ArtifactCondition>,
+        <http://metaUnionSearch/datasets/Archeology6B9M80O2/column/ArtifactsCount>,
+        <http://metaUnionSearch/datasets/Archeology6B9M80O2/column/Discoverer>,
+        <http://metaUnionSearch/datasets/Archeology6B9M80O2/column/DiscoveryYear>,
+        <http://metaUnionSearch/datasets/Archeology6B9M80O2/column/GPSLocation>,
+        <http://metaUnionSearch/datasets/Archeology6B9M80O2/column/Period>,
+        <http://metaUnionSearch/datasets/Archeology6B9M80O2/column/PreservationMethod>,
+        <http://metaUnionSearch/datasets/Archeology6B9M80O2/column/ResearchBudget>,
+        <http://metaUnionSearch/datasets/Archeology6B9M80O2/column/Researcher3>,
+        <http://metaUnionSearch/datasets/Archeology6B9M80O2/column/Researcher4>,
+        <http://metaUnionSearch/datasets/Archeology6B9M80O2/column/SiteName>,
+        <http://metaUnionSearch/datasets/Archeology6B9M80O2/column/SiteType> .
+

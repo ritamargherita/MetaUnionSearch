@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_QEG9DDVP.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/BehaviorAssessment> a dsv:Column ;
+    rdfs:label """\\
+Behavior Assessment""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/ConsultationFee> a dsv:Column ;
+    rdfs:label """\\
+Consultation Fee""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/DietRecommendation> a dsv:Column ;
+    rdfs:label """\\
+Diet Recommendation""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/ExerciseRecommendation> a dsv:Column ;
+    rdfs:label """\\
+Exercise Recommendation""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/FollowupAppointment> a dsv:Column ;
+    rdfs:label """\\
+Follow-up Appointment""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/LabTestResults> a dsv:Column ;
+    rdfs:label """\\
+Lab Test Results""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/MedicationsPrescribed> a dsv:Column ;
+    rdfs:label """\\
+Medications Prescribed""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/ParasitePrevention> a dsv:Column ;
+    rdfs:label """\\
+Parasite Prevention""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/ProcedureRecommended> a dsv:Column ;
+    rdfs:label """\\
+Procedure Recommended""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/RadiologyResults> a dsv:Column ;
+    rdfs:label """\\
+Radiology Results""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/ReferraltoSpecialist> a dsv:Column ;
+    rdfs:label """\\
+Referral to Specialist""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/Specialization> a dsv:Column ;
+    rdfs:label """\\
+Specialization""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/VaccinationStatus> a dsv:Column ;
+    rdfs:label """\\
+Vaccination Status""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/VeterinarianName> a dsv:Column ;
+    rdfs:label """\\
+Veterinarian Name""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/BehaviorAssessment>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/ConsultationFee>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/DietRecommendation>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/ExerciseRecommendation>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/FollowupAppointment>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/LabTestResults>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/MedicationsPrescribed>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/ParasitePrevention>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/ProcedureRecommended>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/RadiologyResults>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/ReferraltoSpecialist>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/Specialization>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/VaccinationStatus>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceQEG9DDVP/column/VeterinarianName> .
+

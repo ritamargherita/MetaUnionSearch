@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PsychologyHJK1EYY3> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_HJK1EYY3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PsychologyHJK1EYY3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/CharacterFromNovelOrMovieThatRemindsThemOfPsychology> a dsv:Column ;
+    rdfs:label "CharacterFromNovelOrMovieThatRemindsThemOfPsychology" .
+
+<http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/DreamExperiment> a dsv:Column ;
+    rdfs:label "DreamExperiment" .
+
+<http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/FavoritePlaceToThink> a dsv:Column ;
+    rdfs:label "FavoritePlaceToThink" .
+
+<http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/FavoritePsychologist> a dsv:Column ;
+    rdfs:label "FavoritePsychologist" .
+
+<http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/FieldWorkOrLibraryStudy> a dsv:Column ;
+    rdfs:label "FieldWorkOrLibraryStudy" .
+
+<http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/LikesChocolate> a dsv:Column ;
+    rdfs:label "LikesChocolate" .
+
+<http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/MostRespectedScientificJournal> a dsv:Column ;
+    rdfs:label "MostRespectedScientificJournal" .
+
+<http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/MusicForConcentrationPlaylistTrackList0> a dsv:Column ;
+    rdfs:label "MusicForConcentrationPlaylistTrackList0" .
+
+<http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/MusicForConcentrationPlaylistTrackList1> a dsv:Column ;
+    rdfs:label "MusicForConcentrationPlaylistTrackList1" .
+
+<http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/MusicForConcentrationPlaylistTrackList2> a dsv:Column ;
+    rdfs:label "MusicForConcentrationPlaylistTrackList2" .
+
+<http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/MusicForConcentrationPlaylistTrackList3> a dsv:Column ;
+    rdfs:label "MusicForConcentrationPlaylistTrackList3" .
+
+<http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/MusicForConcentrationPlaylistTrackList4> a dsv:Column ;
+    rdfs:label "MusicForConcentrationPlaylistTrackList4" .
+
+<http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/MusicForConcentrationPlaylistTrackList5> a dsv:Column ;
+    rdfs:label "MusicForConcentrationPlaylistTrackList5" .
+
+<http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/PreferredTheory> a dsv:Column ;
+    rdfs:label "PreferredTheory" .
+
+<http://metaUnionSearch/datasets/PsychologyHJK1EYY3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/CharacterFromNovelOrMovieThatRemindsThemOfPsychology>,
+        <http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/DreamExperiment>,
+        <http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/FavoritePlaceToThink>,
+        <http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/FavoritePsychologist>,
+        <http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/FieldWorkOrLibraryStudy>,
+        <http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/LikesChocolate>,
+        <http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/MostRespectedScientificJournal>,
+        <http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/MusicForConcentrationPlaylistTrackList0>,
+        <http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/MusicForConcentrationPlaylistTrackList1>,
+        <http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/MusicForConcentrationPlaylistTrackList2>,
+        <http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/MusicForConcentrationPlaylistTrackList3>,
+        <http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/MusicForConcentrationPlaylistTrackList4>,
+        <http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/MusicForConcentrationPlaylistTrackList5>,
+        <http://metaUnionSearch/datasets/PsychologyHJK1EYY3/column/PreferredTheory> .
+

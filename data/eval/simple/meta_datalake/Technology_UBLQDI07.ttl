@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologyUBLQDI07> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_UBLQDI07.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologyUBLQDI07/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/ArtificialIntelligenceAdvancements> a dsv:Column ;
+    rdfs:label " Artificial Intelligence Advancements" .
+
+<http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/DigitalDivide> a dsv:Column ;
+    rdfs:label " Digital Divide" .
+
+<http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/EmergingMarketsOpportunities> a dsv:Column ;
+    rdfs:label " Emerging Markets Opportunities" .
+
+<http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/InfluenceonGlobalBusinesses> a dsv:Column ;
+    rdfs:label " Influence on Global Businesses" .
+
+<http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/LegalEthicalGuidelines> a dsv:Column ;
+    rdfs:label " Legal & Ethical Guidelines" .
+
+<http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/MachineLearningApplications> a dsv:Column ;
+    rdfs:label " Machine Learning Applications" .
+
+<http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/MarketConsolidation> a dsv:Column ;
+    rdfs:label " Market Consolidation" .
+
+<http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/NewPartnershipAlliances> a dsv:Column ;
+    rdfs:label " New Partnership Alliances" .
+
+<http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/QuantumComputingProgression> a dsv:Column ;
+    rdfs:label "Quantum Computing Progression" .
+
+<http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/SocialMediaTransformation> a dsv:Column ;
+    rdfs:label " Social Media Transformation" .
+
+<http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/StartupEcosystem> a dsv:Column ;
+    rdfs:label " Startup Ecosystem" .
+
+<http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/TechnologyAdoptionRates> a dsv:Column ;
+    rdfs:label " Technology Adoption Rates" .
+
+<http://metaUnionSearch/datasets/TechnologyUBLQDI07/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/ArtificialIntelligenceAdvancements>,
+        <http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/DigitalDivide>,
+        <http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/EmergingMarketsOpportunities>,
+        <http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/InfluenceonGlobalBusinesses>,
+        <http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/LegalEthicalGuidelines>,
+        <http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/MachineLearningApplications>,
+        <http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/MarketConsolidation>,
+        <http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/NewPartnershipAlliances>,
+        <http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/QuantumComputingProgression>,
+        <http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/SocialMediaTransformation>,
+        <http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/StartupEcosystem>,
+        <http://metaUnionSearch/datasets/TechnologyUBLQDI07/column/TechnologyAdoptionRates> .
+

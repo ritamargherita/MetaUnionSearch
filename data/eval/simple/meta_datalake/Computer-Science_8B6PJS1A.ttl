@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerScience8B6PJS1A> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_8B6PJS1A.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/ArtificialIntelligence> a dsv:Column ;
+    rdfs:label " Artificial Intelligence" .
+
+<http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/ComputationalTheory> a dsv:Column ;
+    rdfs:label "Computational Theory" .
+
+<http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/ComputerGraphics> a dsv:Column ;
+    rdfs:label " Computer Graphics" .
+
+<http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/DistributedSystems> a dsv:Column ;
+    rdfs:label " Distributed Systems" .
+
+<http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/EmbeddedSystems> a dsv:Column ;
+    rdfs:label " Embedded Systems" .
+
+<http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/HumanComputerInteraction> a dsv:Column ;
+    rdfs:label " Human-Computer Interaction" .
+
+<http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/InformationSecurity> a dsv:Column ;
+    rdfs:label " Information Security" .
+
+<http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/MachineLearning> a dsv:Column ;
+    rdfs:label " Machine Learning" .
+
+<http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/NaturalLanguageProcessing> a dsv:Column ;
+    rdfs:label " Natural Language Processing" .
+
+<http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/ProgrammableLogicControllers> a dsv:Column ;
+    rdfs:label " Programmable Logic Controllers" .
+
+<http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/SoftwareEngineering> a dsv:Column ;
+    rdfs:label " Software Engineering" .
+
+<http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/VirtualReality> a dsv:Column ;
+    rdfs:label " Virtual Reality" .
+
+<http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/WebTechnologies> a dsv:Column ;
+    rdfs:label " Web Technologies" .
+
+<http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/ArtificialIntelligence>,
+        <http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/ComputationalTheory>,
+        <http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/ComputerGraphics>,
+        <http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/DistributedSystems>,
+        <http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/EmbeddedSystems>,
+        <http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/HumanComputerInteraction>,
+        <http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/InformationSecurity>,
+        <http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/MachineLearning>,
+        <http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/NaturalLanguageProcessing>,
+        <http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/ProgrammableLogicControllers>,
+        <http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/SoftwareEngineering>,
+        <http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/VirtualReality>,
+        <http://metaUnionSearch/datasets/ComputerScience8B6PJS1A/column/WebTechnologies> .
+

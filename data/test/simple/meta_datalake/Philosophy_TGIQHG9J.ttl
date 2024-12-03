@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhilosophyTGIQHG9J> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_TGIQHG9J.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/InfluentialWorkShared> a dsv:Column ;
+    rdfs:label "Influential Work* (Shared)" .
+
+<http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/MajorTheoristShared> a dsv:Column ;
+    rdfs:label "Major Theorist* (Shared)" .
+
+<http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/PhilosophicalConceptShared> a dsv:Column ;
+    rdfs:label "Philosophical Concept* (Shared)" .
+
+<http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/RelatedColumn1> a dsv:Column ;
+    rdfs:label "Related Column 1" .
+
+<http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/RelatedColumn2> a dsv:Column ;
+    rdfs:label "Related Column 2" .
+
+<http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/RelatedColumn3> a dsv:Column ;
+    rdfs:label "Related Column 3" .
+
+<http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/RelatedColumn4> a dsv:Column ;
+    rdfs:label "Related Column 4" .
+
+<http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/RelatedColumn5> a dsv:Column ;
+    rdfs:label "Related Column 5" .
+
+<http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/ofAdherentsShared> a dsv:Column ;
+    rdfs:label "# of Adherents* (Shared)" .
+
+<http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/InfluentialWorkShared>,
+        <http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/MajorTheoristShared>,
+        <http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/PhilosophicalConceptShared>,
+        <http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/RelatedColumn1>,
+        <http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/RelatedColumn2>,
+        <http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/RelatedColumn3>,
+        <http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/RelatedColumn4>,
+        <http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/RelatedColumn5>,
+        <http://metaUnionSearch/datasets/PhilosophyTGIQHG9J/column/ofAdherentsShared> .
+

@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJ3D90097> a dsv:Dataset ;
+    dcterms:subject "financial-markets" ;
+    dcterms:title "Financial-Markets_J3D90097.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/BondRating> a dsv:Column ;
+    rdfs:label "Bond Rating" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/CentralBankPolicy> a dsv:Column ;
+    rdfs:label "Central Bank Policy" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/CommodityPrices> a dsv:Column ;
+    rdfs:label "Commodity Prices" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/CorporateProfits> a dsv:Column ;
+    rdfs:label "Corporate Profits" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/HousingStarts> a dsv:Column ;
+    rdfs:label "Housing Starts" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/NonFarmPayrolls> a dsv:Column ;
+    rdfs:label "Non-Farm Payrolls" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/PoliticalRisk> a dsv:Column ;
+    rdfs:label "Political Risk" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/PublicDebttoGDP> a dsv:Column ;
+    rdfs:label "Public Debt to GDP" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/RetailSales> a dsv:Column ;
+    rdfs:label "Retail Sales" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/TradeBalance> a dsv:Column ;
+    rdfs:label "Trade Balance" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/TreasuryYields> a dsv:Column ;
+    rdfs:label "Treasury Yields" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/BondRating>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/CentralBankPolicy>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/CommodityPrices>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/CorporateProfits>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/HousingStarts>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/NonFarmPayrolls>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/PoliticalRisk>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/PublicDebttoGDP>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/RetailSales>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/TradeBalance>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJ3D90097/column/TreasuryYields> .
+

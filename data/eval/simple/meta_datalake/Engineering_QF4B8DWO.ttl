@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EngineeringQF4B8DWO> a dsv:Dataset ;
+    dcterms:subject "engineering" ;
+    dcterms:title "Engineering_QF4B8DWO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EngineeringQF4B8DWO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/CollaborativePlatforms> a dsv:Column ;
+    rdfs:label "Collaborative Platforms" .
+
+<http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/CommunicationChannels> a dsv:Column ;
+    rdfs:label "Communication Channels" .
+
+<http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/EnvironmentalImpactAssessment> a dsv:Column ;
+    rdfs:label "Environmental Impact Assessment" .
+
+<http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/InnovationImplemented> a dsv:Column ;
+    rdfs:label "Innovation Implemented" .
+
+<http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/LegalCompliance> a dsv:Column ;
+    rdfs:label "Legal Compliance" .
+
+<http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/LessonsLearned> a dsv:Column ;
+    rdfs:label "Lessons Learned" .
+
+<http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/ProcurementStrategy> a dsv:Column ;
+    rdfs:label "Procurement Strategy" .
+
+<http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/ProjectKPIs> a dsv:Column ;
+    rdfs:label "Project KPIs\"" .
+
+<http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/ProjectMilestones> a dsv:Column ;
+    rdfs:label "Project Milestones" .
+
+<http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/RiskManagementPlan> a dsv:Column ;
+    rdfs:label "\"Risk Management Plan" .
+
+<http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/StakeholderEngagement> a dsv:Column ;
+    rdfs:label "Stakeholder Engagement" .
+
+<http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/TrainingPrograms> a dsv:Column ;
+    rdfs:label "Training Programs" .
+
+<http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/WorkHealthandSafety> a dsv:Column ;
+    rdfs:label "Work Health and Safety" .
+
+<http://metaUnionSearch/datasets/EngineeringQF4B8DWO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/CollaborativePlatforms>,
+        <http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/CommunicationChannels>,
+        <http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/EnvironmentalImpactAssessment>,
+        <http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/InnovationImplemented>,
+        <http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/LegalCompliance>,
+        <http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/LessonsLearned>,
+        <http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/ProcurementStrategy>,
+        <http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/ProjectKPIs>,
+        <http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/ProjectMilestones>,
+        <http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/RiskManagementPlan>,
+        <http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/StakeholderEngagement>,
+        <http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/TrainingPrograms>,
+        <http://metaUnionSearch/datasets/EngineeringQF4B8DWO/column/WorkHealthandSafety> .
+

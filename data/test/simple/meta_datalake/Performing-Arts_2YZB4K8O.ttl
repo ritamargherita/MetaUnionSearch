@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArts2YZB4K8O> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_2YZB4K8O.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/Achievements> a dsv:Column ;
+    rdfs:label "Achievements" .
+
+<http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/Active> a dsv:Column ;
+    rdfs:label "Active" .
+
+<http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/ArtistName> a dsv:Column ;
+    rdfs:label "Artist Name" .
+
+<http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/AwardsReceived> a dsv:Column ;
+    rdfs:label "Awards Received" .
+
+<http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/BirthPlace> a dsv:Column ;
+    rdfs:label "Birth Place" .
+
+<http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/Debut> a dsv:Column ;
+    rdfs:label "Debut" .
+
+<http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/Medium> a dsv:Column ;
+    rdfs:label "Medium" .
+
+<http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/PopularWorks> a dsv:Column ;
+    rdfs:label "Popular Works" .
+
+<http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/TotalAwards> a dsv:Column ;
+    rdfs:label "Total Awards" .
+
+<http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/YearofBirth> a dsv:Column ;
+    rdfs:label "Year of Birth" .
+
+<http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/Achievements>,
+        <http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/Active>,
+        <http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/ArtistName>,
+        <http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/AwardsReceived>,
+        <http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/BirthPlace>,
+        <http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/Debut>,
+        <http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/Medium>,
+        <http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/PopularWorks>,
+        <http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/TotalAwards>,
+        <http://metaUnionSearch/datasets/PerformingArts2YZB4K8O/column/YearofBirth> .
+

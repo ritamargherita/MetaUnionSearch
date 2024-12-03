@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Medicine4T48OYY4> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_4T48OYY4.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Medicine4T48OYY4/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Medicine4T48OYY4/column/AppointmentDate> a dsv:Column ;
+    rdfs:label " Appointment Date" .
+
+<http://metaUnionSearch/datasets/Medicine4T48OYY4/column/BalanceDue> a dsv:Column ;
+    rdfs:label " Balance Due" .
+
+<http://metaUnionSearch/datasets/Medicine4T48OYY4/column/BillingAmount> a dsv:Column ;
+    rdfs:label " Billing Amount" .
+
+<http://metaUnionSearch/datasets/Medicine4T48OYY4/column/FollowupDueDate> a dsv:Column ;
+    rdfs:label " Follow-up Due Date" .
+
+<http://metaUnionSearch/datasets/Medicine4T48OYY4/column/InsuranceProviderName> a dsv:Column ;
+    rdfs:label " Insurance Provider Name" .
+
+<http://metaUnionSearch/datasets/Medicine4T48OYY4/column/PaymentReceived> a dsv:Column ;
+    rdfs:label " Payment Received" .
+
+<http://metaUnionSearch/datasets/Medicine4T48OYY4/column/PharmacyNameandContactInfo> a dsv:Column ;
+    rdfs:label " Pharmacy Name and Contact Info" .
+
+<http://metaUnionSearch/datasets/Medicine4T48OYY4/column/PolicyNumber> a dsv:Column ;
+    rdfs:label " Policy Number" .
+
+<http://metaUnionSearch/datasets/Medicine4T48OYY4/column/PrescriptionPickUpDeliveryMethod> a dsv:Column ;
+    rdfs:label " Prescription Pick Up / Delivery Method" .
+
+<http://metaUnionSearch/datasets/Medicine4T48OYY4/column/ReasonforVisit> a dsv:Column ;
+    rdfs:label " Reason for Visit" .
+
+<http://metaUnionSearch/datasets/Medicine4T48OYY4/column/SpecialistDoctor> a dsv:Column ;
+    rdfs:label " Specialist Doctor" .
+
+<http://metaUnionSearch/datasets/Medicine4T48OYY4/column/TherapyType> a dsv:Column ;
+    rdfs:label "Therapy Type" .
+
+<http://metaUnionSearch/datasets/Medicine4T48OYY4/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Medicine4T48OYY4/column/AppointmentDate>,
+        <http://metaUnionSearch/datasets/Medicine4T48OYY4/column/BalanceDue>,
+        <http://metaUnionSearch/datasets/Medicine4T48OYY4/column/BillingAmount>,
+        <http://metaUnionSearch/datasets/Medicine4T48OYY4/column/FollowupDueDate>,
+        <http://metaUnionSearch/datasets/Medicine4T48OYY4/column/InsuranceProviderName>,
+        <http://metaUnionSearch/datasets/Medicine4T48OYY4/column/PaymentReceived>,
+        <http://metaUnionSearch/datasets/Medicine4T48OYY4/column/PharmacyNameandContactInfo>,
+        <http://metaUnionSearch/datasets/Medicine4T48OYY4/column/PolicyNumber>,
+        <http://metaUnionSearch/datasets/Medicine4T48OYY4/column/PrescriptionPickUpDeliveryMethod>,
+        <http://metaUnionSearch/datasets/Medicine4T48OYY4/column/ReasonforVisit>,
+        <http://metaUnionSearch/datasets/Medicine4T48OYY4/column/SpecialistDoctor>,
+        <http://metaUnionSearch/datasets/Medicine4T48OYY4/column/TherapyType> .
+

@@ -1,0 +1,117 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR> a dsv:Dataset ;
+    dcterms:subject "climatology" ;
+    dcterms:title "Climatology_3DX90XDR.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Climatology3DX90XDR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/AdditionalDataSetID> a dsv:Column ;
+    rdfs:label "Additional Data SetID" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/AtmosphericPressurehPa> a dsv:Column ;
+    rdfs:label "Atmospheric Pressure (hPa)" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/ClimateModelType> a dsv:Column ;
+    rdfs:label "Climate Model Type" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/ComputationalResourcesUsedCPUhours> a dsv:Column ;
+    rdfs:label "Computational Resources Used _(CPU hours)" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/ConecolumnforeachlayeruptosevenlayersasnecessaryandmarkedaccordinglyfromGroundTempLayer02deg> a dsv:Column ;
+    rdfs:label "C - one column for each layer up to seven layers as necessary and marked accordingly from 'GroundTempLayer_02(&deg" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/DateTimeStamp> a dsv:Column ;
+    rdfs:label "Date & Time Stamp" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/EvapotranspirationRatemmday> a dsv:Column ;
+    rdfs:label "Evapotranspiration Rate( mm day^-¹ )" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/ForcingUncertaintyoftotaluncertainty> a dsv:Column ;
+    rdfs:label "Forcing Uncertainty _(_% of total uncertainty_)_" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/GroundTempatMultipleLayersdeg> a dsv:Column ;
+    rdfs:label "Ground Temp at Multiple Layers (&deg" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/InitialConditionsVarianceoftotalvariance> a dsv:Column ;
+    rdfs:label "Initial Conditions Variance _(_% of total variance_)_" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/NumberofDiagnosticVariablesTracked> a dsv:Column ;
+    rdfs:label """_ 
+Number of Diagnostic Variables Tracked""" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/NumberofEnsembleMembers> a dsv:Column ;
+    rdfs:label "Number of Ensemble Members" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/Precipitationmm> a dsv:Column ;
+    rdfs:label "Precipitation (mm)" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/PublicationReferenceCitationorlinkscurrrangecounter8Timetaken42873818159103394secondsStudyAreaID> a dsv:Column ;
+    rdfs:label """_ 
+Publication Reference _(_Citation or link_)_.</s>
+curr_range_counter:  8
+Time taken: 42.873818159103394 seconds
+Study Area ID""" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/RelativeHumidity> a dsv:Column ;
+    rdfs:label "Relative Humidity (%)" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/SimulatedUntilYear> a dsv:Column ;
+    rdfs:label "Simulated Until Year" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/SimulationStartYear> a dsv:Column ;
+    rdfs:label "Simulation Start Year" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/SnowDepthcm> a dsv:Column ;
+    rdfs:label "Snow Depth(cm)" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/SoilMoisture> a dsv:Column ;
+    rdfs:label "Soil Moisture (%)" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/SolarRadiationWm> a dsv:Column ;
+    rdfs:label "Solar Radiation (W/m²)" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/SpatialResolutiondegreeslatitudexdegreeslongitudegridcells> a dsv:Column ;
+    rdfs:label "Spatial Resolution _(degrees latitude x degrees longitude grid cells)" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/TemperatureC> a dsv:Column ;
+    rdfs:label "Temperature (°C)" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/TemporalResolutiontimestepinseconds> a dsv:Column ;
+    rdfs:label """_ 
+Temporal Resolution _(timestep in seconds)""" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/WeatherCondition> a dsv:Column ;
+    rdfs:label "Weather Condition" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/column/WindSpeedms> a dsv:Column ;
+    rdfs:label "Wind Speed (m/s)" .
+
+<http://metaUnionSearch/datasets/Climatology3DX90XDR/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/AdditionalDataSetID>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/AtmosphericPressurehPa>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/ClimateModelType>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/ComputationalResourcesUsedCPUhours>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/ConecolumnforeachlayeruptosevenlayersasnecessaryandmarkedaccordinglyfromGroundTempLayer02deg>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/DateTimeStamp>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/EvapotranspirationRatemmday>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/ForcingUncertaintyoftotaluncertainty>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/GroundTempatMultipleLayersdeg>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/InitialConditionsVarianceoftotalvariance>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/NumberofDiagnosticVariablesTracked>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/NumberofEnsembleMembers>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/Precipitationmm>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/PublicationReferenceCitationorlinkscurrrangecounter8Timetaken42873818159103394secondsStudyAreaID>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/RelativeHumidity>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/SimulatedUntilYear>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/SimulationStartYear>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/SnowDepthcm>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/SoilMoisture>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/SolarRadiationWm>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/SpatialResolutiondegreeslatitudexdegreeslongitudegridcells>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/TemperatureC>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/TemporalResolutiontimestepinseconds>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/WeatherCondition>,
+        <http://metaUnionSearch/datasets/Climatology3DX90XDR/column/WindSpeedms> .
+

@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GenealogyLBZ299PG> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_LBZ299PG.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GenealogyLBZ299PG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/AncesterCount> a dsv:Column ;
+    rdfs:label "AncesterCount" .
+
+<http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/DNAConnectionProbabilityScore> a dsv:Column ;
+    rdfs:label " DNAConnectionProbabilityScore" .
+
+<http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/DNAProfilesOfRelatives> a dsv:Column ;
+    rdfs:label " DNAProfilesOfRelatives" .
+
+<http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/DirectLineDescendantCount> a dsv:Column ;
+    rdfs:label " DirectLineDescendantCount" .
+
+<http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/FamousRelatives> a dsv:Column ;
+    rdfs:label " FamousRelatives" .
+
+<http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/GeographicOriginsAnalysis> a dsv:Column ;
+    rdfs:label " GeographicOriginsAnalysis" .
+
+<http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/HaplogroupResults> a dsv:Column ;
+    rdfs:label " HaplogroupResults" .
+
+<http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/LivingUserRelationshipProbability> a dsv:Column ;
+    rdfs:label " LivingUserRelationshipProbability" .
+
+<http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/PatronymicOrMatronymicAnalysis> a dsv:Column ;
+    rdfs:label " PatronymicOrMatronymicAnalysis" .
+
+<http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/UniqueSharedDNAInformation> a dsv:Column ;
+    rdfs:label " UniqueSharedDNAInformation" .
+
+<http://metaUnionSearch/datasets/GenealogyLBZ299PG/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/AncesterCount>,
+        <http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/DNAConnectionProbabilityScore>,
+        <http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/DNAProfilesOfRelatives>,
+        <http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/DirectLineDescendantCount>,
+        <http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/FamousRelatives>,
+        <http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/GeographicOriginsAnalysis>,
+        <http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/HaplogroupResults>,
+        <http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/LivingUserRelationshipProbability>,
+        <http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/PatronymicOrMatronymicAnalysis>,
+        <http://metaUnionSearch/datasets/GenealogyLBZ299PG/column/UniqueSharedDNAInformation> .
+

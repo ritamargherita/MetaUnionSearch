@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_EHD96M8J.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawEHD96M8J/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/AmendmentVotes> a dsv:Column ;
+    rdfs:label " Amendment Votes" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/AmendmentsProposed> a dsv:Column ;
+    rdfs:label " Amendments Proposed" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/BillNumber> a dsv:Column ;
+    rdfs:label " Bill Number" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/BudgetaryImpact> a dsv:Column ;
+    rdfs:label " Budgetary Impact" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/CaseImpactAnalysis> a dsv:Column ;
+    rdfs:label " Case Impact Analysis" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/CommitteeInvolved> a dsv:Column ;
+    rdfs:label " Committee Involved" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/ImplementationTimeline> a dsv:Column ;
+    rdfs:label " Implementation Timeline" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/LegislativeBodyComposition> a dsv:Column ;
+    rdfs:label " Legislative Body Composition" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/LegislativeJurisdiction> a dsv:Column ;
+    rdfs:label "Legislative Jurisdiction" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/LegislatureSession> a dsv:Column ;
+    rdfs:label " Legislature Session" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/LobbyistInformation> a dsv:Column ;
+    rdfs:label " Lobbyist Information" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/PassageVoteFinalReadingResult> a dsv:Column ;
+    rdfs:label " Passage Vote & Final Reading Result" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/VotingRecord> a dsv:Column ;
+    rdfs:label " Voting Record" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LawEHD96M8J/column/AmendmentVotes>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/AmendmentsProposed>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/BillNumber>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/BudgetaryImpact>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/CaseImpactAnalysis>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/CommitteeInvolved>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/ImplementationTimeline>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/LegislativeBodyComposition>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/LegislativeJurisdiction>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/LegislatureSession>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/LobbyistInformation>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/PassageVoteFinalReadingResult>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/VotingRecord> .
+

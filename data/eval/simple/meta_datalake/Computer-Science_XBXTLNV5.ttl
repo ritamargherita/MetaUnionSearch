@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_XBXTLNV5.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/ArtificialIntelligence> a dsv:Column ;
+    rdfs:label " Artificial Intelligence" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/AugmentedReality> a dsv:Column ;
+    rdfs:label " Augmented Reality" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/BigDataAnalytics> a dsv:Column ;
+    rdfs:label " Big Data Analytics" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/Cloudcomputingconcepts> a dsv:Column ;
+    rdfs:label " Cloud computing concepts" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/ComputationalTheory> a dsv:Column ;
+    rdfs:label "Computational Theory" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/CybersecurityFundamentals> a dsv:Column ;
+    rdfs:label " Cybersecurity Fundamentals" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/DigitalLogicCircuitry> a dsv:Column ;
+    rdfs:label " Digital Logic & Circuitry" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/EncryptionTechniques> a dsv:Column ;
+    rdfs:label " Encryption Techniques" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/HumanComputerInteraction> a dsv:Column ;
+    rdfs:label " Human-Computer Interaction" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/InternetofThings> a dsv:Column ;
+    rdfs:label " Internet of Things" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/NaturalLanguageProcessing> a dsv:Column ;
+    rdfs:label " Natural Language Processing" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/ProgramDesignPatterns> a dsv:Column ;
+    rdfs:label " Program Design Patterns" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/QuantumComputingArchitecture> a dsv:Column ;
+    rdfs:label " Quantum Computing Architecture" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/SoftwareEngineeringPrinciples> a dsv:Column ;
+    rdfs:label " Software Engineering Principles" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/VirtualReality> a dsv:Column ;
+    rdfs:label " Virtual Reality" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/ArtificialIntelligence>,
+        <http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/AugmentedReality>,
+        <http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/BigDataAnalytics>,
+        <http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/Cloudcomputingconcepts>,
+        <http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/ComputationalTheory>,
+        <http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/CybersecurityFundamentals>,
+        <http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/DigitalLogicCircuitry>,
+        <http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/EncryptionTechniques>,
+        <http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/HumanComputerInteraction>,
+        <http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/InternetofThings>,
+        <http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/NaturalLanguageProcessing>,
+        <http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/ProgramDesignPatterns>,
+        <http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/QuantumComputingArchitecture>,
+        <http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/SoftwareEngineeringPrinciples>,
+        <http://metaUnionSearch/datasets/ComputerScienceXBXTLNV5/column/VirtualReality> .
+

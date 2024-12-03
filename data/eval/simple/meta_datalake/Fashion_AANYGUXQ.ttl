@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FashionAANYGUXQ> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_AANYGUXQ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FashionAANYGUXQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FashionAANYGUXQ/column/AdditionalFeatures> a dsv:Column ;
+    rdfs:label " Additional Features" .
+
+<http://metaUnionSearch/datasets/FashionAANYGUXQ/column/Color> a dsv:Column ;
+    rdfs:label " Color" .
+
+<http://metaUnionSearch/datasets/FashionAANYGUXQ/column/CustomerReviewCountAverageScore> a dsv:Column ;
+    rdfs:label " Customer Review Count & Average Score" .
+
+<http://metaUnionSearch/datasets/FashionAANYGUXQ/column/DeliveryMethod> a dsv:Column ;
+    rdfs:label " Delivery Method" .
+
+<http://metaUnionSearch/datasets/FashionAANYGUXQ/column/Material> a dsv:Column ;
+    rdfs:label " Material" .
+
+<http://metaUnionSearch/datasets/FashionAANYGUXQ/column/OriginalDiscount> a dsv:Column ;
+    rdfs:label " Original Discount %" .
+
+<http://metaUnionSearch/datasets/FashionAANYGUXQ/column/ProductID> a dsv:Column ;
+    rdfs:label "Product ID" .
+
+<http://metaUnionSearch/datasets/FashionAANYGUXQ/column/ProductNameClothingItem> a dsv:Column ;
+    rdfs:label " Product Name - Clothing Item" .
+
+<http://metaUnionSearch/datasets/FashionAANYGUXQ/column/SellerRating> a dsv:Column ;
+    rdfs:label " Seller Rating" .
+
+<http://metaUnionSearch/datasets/FashionAANYGUXQ/column/ShippingTimeRange> a dsv:Column ;
+    rdfs:label " Shipping Time Range" .
+
+<http://metaUnionSearch/datasets/FashionAANYGUXQ/column/Size> a dsv:Column ;
+    rdfs:label " Size" .
+
+<http://metaUnionSearch/datasets/FashionAANYGUXQ/column/SoldBy> a dsv:Column ;
+    rdfs:label " Sold By" .
+
+<http://metaUnionSearch/datasets/FashionAANYGUXQ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FashionAANYGUXQ/column/AdditionalFeatures>,
+        <http://metaUnionSearch/datasets/FashionAANYGUXQ/column/Color>,
+        <http://metaUnionSearch/datasets/FashionAANYGUXQ/column/CustomerReviewCountAverageScore>,
+        <http://metaUnionSearch/datasets/FashionAANYGUXQ/column/DeliveryMethod>,
+        <http://metaUnionSearch/datasets/FashionAANYGUXQ/column/Material>,
+        <http://metaUnionSearch/datasets/FashionAANYGUXQ/column/OriginalDiscount>,
+        <http://metaUnionSearch/datasets/FashionAANYGUXQ/column/ProductID>,
+        <http://metaUnionSearch/datasets/FashionAANYGUXQ/column/ProductNameClothingItem>,
+        <http://metaUnionSearch/datasets/FashionAANYGUXQ/column/SellerRating>,
+        <http://metaUnionSearch/datasets/FashionAANYGUXQ/column/ShippingTimeRange>,
+        <http://metaUnionSearch/datasets/FashionAANYGUXQ/column/Size>,
+        <http://metaUnionSearch/datasets/FashionAANYGUXQ/column/SoldBy> .
+

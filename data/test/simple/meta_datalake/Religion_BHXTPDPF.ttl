@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ReligionBHXTPDPF> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_BHXTPDPF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ReligionBHXTPDPF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/AfterlifeConcepts> a dsv:Column ;
+    rdfs:label " Afterlife Concepts" .
+
+<http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/ArtisticExpressions> a dsv:Column ;
+    rdfs:label " Artistic Expressions" .
+
+<http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/GeographicDistribution> a dsv:Column ;
+    rdfs:label " Geographic Distribution" .
+
+<http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/HistoricalDevelopmentTimeline> a dsv:Column ;
+    rdfs:label " Historical Development Timeline" .
+
+<http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/InfluenceonCulturePoliticsandSocialLife> a dsv:Column ;
+    rdfs:label " Influence on Culture, Politics, and Social Life" .
+
+<http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/InteractionwithOtherFaithSystemsandHumanDiversity> a dsv:Column ;
+    rdfs:label " Interaction with Other Faith Systems and Human Diversity" .
+
+<http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/MoralityTeachings> a dsv:Column ;
+    rdfs:label "Morality Teachings" .
+
+<http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/RitualsandCeremonies> a dsv:Column ;
+    rdfs:label " Rituals and Ceremonies" .
+
+<http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/SpiritualPractices> a dsv:Column ;
+    rdfs:label " Spiritual Practices" .
+
+<http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/SymbolicRepresentations> a dsv:Column ;
+    rdfs:label " Symbolic Representations" .
+
+<http://metaUnionSearch/datasets/ReligionBHXTPDPF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/AfterlifeConcepts>,
+        <http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/ArtisticExpressions>,
+        <http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/GeographicDistribution>,
+        <http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/HistoricalDevelopmentTimeline>,
+        <http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/InfluenceonCulturePoliticsandSocialLife>,
+        <http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/InteractionwithOtherFaithSystemsandHumanDiversity>,
+        <http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/MoralityTeachings>,
+        <http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/RitualsandCeremonies>,
+        <http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/SpiritualPractices>,
+        <http://metaUnionSearch/datasets/ReligionBHXTPDPF/column/SymbolicRepresentations> .
+

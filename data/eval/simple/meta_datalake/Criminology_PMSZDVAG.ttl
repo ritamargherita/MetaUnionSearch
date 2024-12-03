@@ -1,0 +1,23 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CriminologyPMSZDVAG> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_PMSZDVAG.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CriminologyPMSZDVAG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CriminologyPMSZDVAG/column/> a dsv:Column ;
+    rdfs:label "\\" .
+
+<http://metaUnionSearch/datasets/CriminologyPMSZDVAG/column/ArrestDetailsifapplicable> a dsv:Column ;
+    rdfs:label "Arrest Details (if applicable)" .
+
+<http://metaUnionSearch/datasets/CriminologyPMSZDVAG/column/DateTimeArrested> a dsv:Column ;
+    rdfs:label " Date & Time Arrested" .
+
+<http://metaUnionSearch/datasets/CriminologyPMSZDVAG/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CriminologyPMSZDVAG/column/>,
+        <http://metaUnionSearch/datasets/CriminologyPMSZDVAG/column/ArrestDetailsifapplicable>,
+        <http://metaUnionSearch/datasets/CriminologyPMSZDVAG/column/DateTimeArrested> .
+

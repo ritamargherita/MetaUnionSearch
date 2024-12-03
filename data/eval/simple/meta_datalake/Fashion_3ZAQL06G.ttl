@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Fashion3ZAQL06G> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_3ZAQL06G.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Fashion3ZAQL06G/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/ConsumerImpact> a dsv:Column ;
+    rdfs:label " Consumer Impact" .
+
+<http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/CulturalSignificance> a dsv:Column ;
+    rdfs:label " Cultural Significance" .
+
+<http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/EthicalProduction> a dsv:Column ;
+    rdfs:label " Ethical Production" .
+
+<http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/FabricCareTips> a dsv:Column ;
+    rdfs:label "Fabric Care Tips" .
+
+<http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/GenderNeutrality> a dsv:Column ;
+    rdfs:label " Gender Neutrality" .
+
+<http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/InfluencerEndorsements> a dsv:Column ;
+    rdfs:label " Influencer Endorsements" .
+
+<http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/RedCarpetMoments> a dsv:Column ;
+    rdfs:label " Red Carpet Moments" .
+
+<http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/RunwayInspiration> a dsv:Column ;
+    rdfs:label " Runway Inspiration" .
+
+<http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/SizeInclusivity> a dsv:Column ;
+    rdfs:label " Size Inclusivity" .
+
+<http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/SustainableBrands> a dsv:Column ;
+    rdfs:label " Sustainable Brands" .
+
+<http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/TrendingDesigners> a dsv:Column ;
+    rdfs:label " Trending Designers" .
+
+<http://metaUnionSearch/datasets/Fashion3ZAQL06G/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/ConsumerImpact>,
+        <http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/CulturalSignificance>,
+        <http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/EthicalProduction>,
+        <http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/FabricCareTips>,
+        <http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/GenderNeutrality>,
+        <http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/InfluencerEndorsements>,
+        <http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/RedCarpetMoments>,
+        <http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/RunwayInspiration>,
+        <http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/SizeInclusivity>,
+        <http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/SustainableBrands>,
+        <http://metaUnionSearch/datasets/Fashion3ZAQL06G/column/TrendingDesigners> .
+

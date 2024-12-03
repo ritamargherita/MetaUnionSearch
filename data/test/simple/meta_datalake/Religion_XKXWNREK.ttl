@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ReligionXKXWNREK> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_XKXWNREK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ReligionXKXWNREK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ReligionXKXWNREK/column/ArtandLiterature> a dsv:Column ;
+    rdfs:label " Art and Literature" .
+
+<http://metaUnionSearch/datasets/ReligionXKXWNREK/column/FamousPhilosophers> a dsv:Column ;
+    rdfs:label " Famous Philosophers" .
+
+<http://metaUnionSearch/datasets/ReligionXKXWNREK/column/FoodandDietaryPractices> a dsv:Column ;
+    rdfs:label " Food and Dietary Practices" .
+
+<http://metaUnionSearch/datasets/ReligionXKXWNREK/column/HistoricalEvolution> a dsv:Column ;
+    rdfs:label "Historical Evolution" .
+
+<http://metaUnionSearch/datasets/ReligionXKXWNREK/column/InfluenceonCulture> a dsv:Column ;
+    rdfs:label " Influence on Culture" .
+
+<http://metaUnionSearch/datasets/ReligionXKXWNREK/column/LanguagesandScriptures> a dsv:Column ;
+    rdfs:label " Languages and Scriptures" .
+
+<http://metaUnionSearch/datasets/ReligionXKXWNREK/column/MartyrsandHeroes> a dsv:Column ;
+    rdfs:label " Martyrs and Heroes" .
+
+<http://metaUnionSearch/datasets/ReligionXKXWNREK/column/MusicandDance> a dsv:Column ;
+    rdfs:label " Music and Dance" .
+
+<http://metaUnionSearch/datasets/ReligionXKXWNREK/column/RitesofPassage> a dsv:Column ;
+    rdfs:label " Rites of Passage" .
+
+<http://metaUnionSearch/datasets/ReligionXKXWNREK/column/SaintsandGurus> a dsv:Column ;
+    rdfs:label " Saints and Gurus" .
+
+<http://metaUnionSearch/datasets/ReligionXKXWNREK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ReligionXKXWNREK/column/ArtandLiterature>,
+        <http://metaUnionSearch/datasets/ReligionXKXWNREK/column/FamousPhilosophers>,
+        <http://metaUnionSearch/datasets/ReligionXKXWNREK/column/FoodandDietaryPractices>,
+        <http://metaUnionSearch/datasets/ReligionXKXWNREK/column/HistoricalEvolution>,
+        <http://metaUnionSearch/datasets/ReligionXKXWNREK/column/InfluenceonCulture>,
+        <http://metaUnionSearch/datasets/ReligionXKXWNREK/column/LanguagesandScriptures>,
+        <http://metaUnionSearch/datasets/ReligionXKXWNREK/column/MartyrsandHeroes>,
+        <http://metaUnionSearch/datasets/ReligionXKXWNREK/column/MusicandDance>,
+        <http://metaUnionSearch/datasets/ReligionXKXWNREK/column/RitesofPassage>,
+        <http://metaUnionSearch/datasets/ReligionXKXWNREK/column/SaintsandGurus> .
+

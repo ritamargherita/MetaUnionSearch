@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_CAQ6YTZX.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/AdditionalTestsRecommended> a dsv:Column ;
+    rdfs:label "Additional Tests Recommended" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/AppointmentScheduleReminders> a dsv:Column ;
+    rdfs:label " Appointment Schedule Reminders" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/BehavioralModificationsSuggested> a dsv:Column ;
+    rdfs:label " Behavioral Modifications Suggested" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/DosageInstructions> a dsv:Column ;
+    rdfs:label " Dosage Instructions" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/ExerciseRequirements> a dsv:Column ;
+    rdfs:label " Exercise Requirements" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/FeesandPaymentsDueDates> a dsv:Column ;
+    rdfs:label " Fees and Payments Due Dates" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/MedicinePrescribed> a dsv:Column ;
+    rdfs:label " Medicine Prescribed" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/OwnerEducationMaterials> a dsv:Column ;
+    rdfs:label " Owner Education Materials" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/RecoveryProgress> a dsv:Column ;
+    rdfs:label " Recovery Progress" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/ReferraltoSpecialistDetails> a dsv:Column ;
+    rdfs:label " Referral to Specialist Details" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/SpecialDietaryNeeds> a dsv:Column ;
+    rdfs:label " Special Dietary Needs" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/SurgeonNotes> a dsv:Column ;
+    rdfs:label " Surgeon Notes" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/SurgeryPerformed> a dsv:Column ;
+    rdfs:label " Surgery Performed" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/AdditionalTestsRecommended>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/AppointmentScheduleReminders>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/BehavioralModificationsSuggested>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/DosageInstructions>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/ExerciseRequirements>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/FeesandPaymentsDueDates>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/MedicinePrescribed>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/OwnerEducationMaterials>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/RecoveryProgress>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/ReferraltoSpecialistDetails>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/SpecialDietaryNeeds>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/SurgeonNotes>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCAQ6YTZX/column/SurgeryPerformed> .
+

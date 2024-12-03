@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeologyWSSKCTQD> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_WSSKCTQD.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeologyWSSKCTQD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/DurabilityIndex> a dsv:Column ;
+    rdfs:label "Durability Index" .
+
+<http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/DynamicYoungModulusLinearCorrelationwithPulseVelocity> a dsv:Column ;
+    rdfs:label "Dynamic Young Modulus (Linear Correlation with Pulse Velocity)" .
+
+<http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/FractureInitiationEnergyJoulessquaremetermeterBrazierCrack> a dsv:Column ;
+    rdfs:label "Fracture Initiation Energy (Joules/square meter/meter, Brazier Crack)" .
+
+<http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/PermeabilityCoefficientdarcy> a dsv:Column ;
+    rdfs:label "Permeability Coefficient (darcy)" .
+
+<http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/PoissonsRatio> a dsv:Column ;
+    rdfs:label "Poisson's Ratio" .
+
+<http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/RelativeDensityofMass> a dsv:Column ;
+    rdfs:label "Relative Density of Mass" .
+
+<http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/RockMassClassification> a dsv:Column ;
+    rdfs:label "Rock Mass Classification" .
+
+<http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/SchmidtHammerHardness> a dsv:Column ;
+    rdfs:label "Schmidt Hammer Hardness" .
+
+<http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/SeismicMicrofissuringIntensityScaleMICASTMD5608ASTMD6750> a dsv:Column ;
+    rdfs:label "Seismic Microfissuring Intensity Scale (MIC, ASTM D5608 - ASTM D6750)" .
+
+<http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/TensileStrength> a dsv:Column ;
+    rdfs:label "Tensile Strength" .
+
+<http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/UniaxialCompressiveStrength> a dsv:Column ;
+    rdfs:label "Uniaxial Compressive Strength" .
+
+<http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/VolcaniclasticParticleSizeClassificationsincludingPhreatomagmaticFragmentSizeAnalysis> a dsv:Column ;
+    rdfs:label "Volcaniclastic Particle Size Classifications (including Phreatomagmatic Fragment Size Analysis)" .
+
+<http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/YoungModulus> a dsv:Column ;
+    rdfs:label "Young Modulus" .
+
+<http://metaUnionSearch/datasets/GeologyWSSKCTQD/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/DurabilityIndex>,
+        <http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/DynamicYoungModulusLinearCorrelationwithPulseVelocity>,
+        <http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/FractureInitiationEnergyJoulessquaremetermeterBrazierCrack>,
+        <http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/PermeabilityCoefficientdarcy>,
+        <http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/PoissonsRatio>,
+        <http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/RelativeDensityofMass>,
+        <http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/RockMassClassification>,
+        <http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/SchmidtHammerHardness>,
+        <http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/SeismicMicrofissuringIntensityScaleMICASTMD5608ASTMD6750>,
+        <http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/TensileStrength>,
+        <http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/UniaxialCompressiveStrength>,
+        <http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/VolcaniclasticParticleSizeClassificationsincludingPhreatomagmaticFragmentSizeAnalysis>,
+        <http://metaUnionSearch/datasets/GeologyWSSKCTQD/column/YoungModulus> .
+

@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistoryCW81XE6V> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_CW81XE6V.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Artist> a dsv:Column ;
+    rdfs:label "Artist" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Artwork> a dsv:Column ;
+    rdfs:label "`Artwork" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/CulturalContext> a dsv:Column ;
+    rdfs:label "Cultural Context" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/DateCreated> a dsv:Column ;
+    rdfs:label "Date Created" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Depth> a dsv:Column ;
+    rdfs:label "Depth" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/ExhibitionHistory> a dsv:Column ;
+    rdfs:label "Exhibition History`" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Height> a dsv:Column ;
+    rdfs:label "Height" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Influences> a dsv:Column ;
+    rdfs:label "Influences" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Medium> a dsv:Column ;
+    rdfs:label "Medium" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Notes> a dsv:Column ;
+    rdfs:label "Notes" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Period> a dsv:Column ;
+    rdfs:label "Period" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Style> a dsv:Column ;
+    rdfs:label "Style" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/SubjectMatter> a dsv:Column ;
+    rdfs:label "Subject Matter" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Width> a dsv:Column ;
+    rdfs:label "Width" .
+
+<http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Artist>,
+        <http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Artwork>,
+        <http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/CulturalContext>,
+        <http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/DateCreated>,
+        <http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Depth>,
+        <http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/ExhibitionHistory>,
+        <http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Height>,
+        <http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Influences>,
+        <http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Medium>,
+        <http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Notes>,
+        <http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Period>,
+        <http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Style>,
+        <http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/SubjectMatter>,
+        <http://metaUnionSearch/datasets/ArtHistoryCW81XE6V/column/Width> .
+

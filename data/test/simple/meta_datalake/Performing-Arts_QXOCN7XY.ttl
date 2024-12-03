@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_QXOCN7XY.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/1SeparateProductionCompany> a dsv:Column ;
+    rdfs:label "1. Separate Production Company" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/2ArtisticDirection> a dsv:Column ;
+    rdfs:label "2. Artistic Direction" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/CharityWork> a dsv:Column ;
+    rdfs:label "Charity Work" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/CollaborativePerformances> a dsv:Column ;
+    rdfs:label "Collaborative Performances" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/DanceStylesMastered> a dsv:Column ;
+    rdfs:label "Dance Styles Mastered" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/FamousTeachers> a dsv:Column ;
+    rdfs:label "Famous Teachers" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/InspirationalArtists> a dsv:Column ;
+    rdfs:label "Inspirational Artists" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/InternationalTours> a dsv:Column ;
+    rdfs:label "International Tours" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/LocalCommunityEngagement> a dsv:Column ;
+    rdfs:label "Local Community Engagement" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/MusicalInstrumentsPlayed> a dsv:Column ;
+    rdfs:label "Musical Instruments Played" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/PuppetrySkills> a dsv:Column ;
+    rdfs:label "Puppetry Skills" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/scurrrangecounter11Timetaken24789568662643433secondsTimetaken5044835865497589secondsTimetaken23474632740020752secondsnbsp> a dsv:Column ;
+    rdfs:label """</s>
+curr_range_counter:  11
+Time taken: 24.789568662643433 seconds
+Time taken: 504.4835865497589 seconds
+Time taken: 23.474632740020752 seconds
+&nbsp""" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/1SeparateProductionCompany>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/2ArtisticDirection>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/CharityWork>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/CollaborativePerformances>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/DanceStylesMastered>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/FamousTeachers>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/InspirationalArtists>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/InternationalTours>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/LocalCommunityEngagement>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/MusicalInstrumentsPlayed>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/PuppetrySkills>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/scurrrangecounter11Timetaken24789568662643433secondsTimetaken5044835865497589secondsTimetaken23474632740020752secondsnbsp> .
+

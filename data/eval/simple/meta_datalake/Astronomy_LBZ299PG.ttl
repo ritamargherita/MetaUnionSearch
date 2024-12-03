@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronomyLBZ299PG> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_LBZ299PG.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronomyLBZ299PG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/AxialTiltDegrees> a dsv:Column ;
+    rdfs:label " Axial Tilt Degrees" .
+
+<http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/DistancefromMilkyWayCenterlightyears> a dsv:Column ;
+    rdfs:label " Distance from Milky Way Center (light years)" .
+
+<http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/GalacticCoordinatesXYZ> a dsv:Column ;
+    rdfs:label " Galactic Coordinates X, Y, Z" .
+
+<http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/GalaxyCategory> a dsv:Column ;
+    rdfs:label " Galaxy Category" .
+
+<http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/GalaxyName> a dsv:Column ;
+    rdfs:label " Galaxy Name" .
+
+<http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/MassRelativetoEarth> a dsv:Column ;
+    rdfs:label " Mass Relative to Earth" .
+
+<http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/MeanDistancefromStarAU> a dsv:Column ;
+    rdfs:label " Mean Distance from Star (AU)" .
+
+<http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/NumberofStarsinSystem> a dsv:Column ;
+    rdfs:label " Number of Stars in System" .
+
+<http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/OrbitalPeriodDays> a dsv:Column ;
+    rdfs:label " Orbital Period Days" .
+
+<http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/PlanetName> a dsv:Column ;
+    rdfs:label "`Planet Name" .
+
+<http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/RadiusRelativetoEarth> a dsv:Column ;
+    rdfs:label " Radius Relative to Earth" .
+
+<http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/SatelliteBodiesCount> a dsv:Column ;
+    rdfs:label " Satellite Bodies Count`" .
+
+<http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/StellarBodyType> a dsv:Column ;
+    rdfs:label " Stellar Body Type" .
+
+<http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/SupernovaeProximityIndex> a dsv:Column ;
+    rdfs:label " Supernovae Proximity Index" .
+
+<http://metaUnionSearch/datasets/AstronomyLBZ299PG/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/AxialTiltDegrees>,
+        <http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/DistancefromMilkyWayCenterlightyears>,
+        <http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/GalacticCoordinatesXYZ>,
+        <http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/GalaxyCategory>,
+        <http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/GalaxyName>,
+        <http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/MassRelativetoEarth>,
+        <http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/MeanDistancefromStarAU>,
+        <http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/NumberofStarsinSystem>,
+        <http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/OrbitalPeriodDays>,
+        <http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/PlanetName>,
+        <http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/RadiusRelativetoEarth>,
+        <http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/SatelliteBodiesCount>,
+        <http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/StellarBodyType>,
+        <http://metaUnionSearch/datasets/AstronomyLBZ299PG/column/SupernovaeProximityIndex> .
+

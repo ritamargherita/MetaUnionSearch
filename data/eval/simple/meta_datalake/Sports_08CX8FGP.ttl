@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_08CX8FGP.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Sports08CX8FGP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP/column/FieldGoalPercentage> a dsv:Column ;
+    rdfs:label "FieldGoalPercentage" .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP/column/FreeThrowPercentage> a dsv:Column ;
+    rdfs:label "FreeThrowPercentage" .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP/column/GameDate> a dsv:Column ;
+    rdfs:label "GameDate" .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP/column/League> a dsv:Column ;
+    rdfs:label "League" .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP/column/MatchID> a dsv:Column ;
+    rdfs:label "MatchID" .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP/column/MinutesPlayed> a dsv:Column ;
+    rdfs:label "MinutesPlayed" .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP/column/PlayerID> a dsv:Column ;
+    rdfs:label "PlayerID" .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP/column/PlayerName> a dsv:Column ;
+    rdfs:label "PlayerName" .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP/column/ReboundType> a dsv:Column ;
+    rdfs:label "ReboundType" .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP/column/Sport> a dsv:Column ;
+    rdfs:label "Sport" .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP/column/StealType> a dsv:Column ;
+    rdfs:label "StealType" .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP/column/TeamName> a dsv:Column ;
+    rdfs:label "TeamName" .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP/column/ThreePointFieldGoalPercentage> a dsv:Column ;
+    rdfs:label "ThreePointFieldGoalPercentage" .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP/column/TotalPoints> a dsv:Column ;
+    rdfs:label "TotalPoints" .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP/column/TurnoverType> a dsv:Column ;
+    rdfs:label "TurnoverType" .
+
+<http://metaUnionSearch/datasets/Sports08CX8FGP/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Sports08CX8FGP/column/FieldGoalPercentage>,
+        <http://metaUnionSearch/datasets/Sports08CX8FGP/column/FreeThrowPercentage>,
+        <http://metaUnionSearch/datasets/Sports08CX8FGP/column/GameDate>,
+        <http://metaUnionSearch/datasets/Sports08CX8FGP/column/League>,
+        <http://metaUnionSearch/datasets/Sports08CX8FGP/column/MatchID>,
+        <http://metaUnionSearch/datasets/Sports08CX8FGP/column/MinutesPlayed>,
+        <http://metaUnionSearch/datasets/Sports08CX8FGP/column/PlayerID>,
+        <http://metaUnionSearch/datasets/Sports08CX8FGP/column/PlayerName>,
+        <http://metaUnionSearch/datasets/Sports08CX8FGP/column/ReboundType>,
+        <http://metaUnionSearch/datasets/Sports08CX8FGP/column/Sport>,
+        <http://metaUnionSearch/datasets/Sports08CX8FGP/column/StealType>,
+        <http://metaUnionSearch/datasets/Sports08CX8FGP/column/TeamName>,
+        <http://metaUnionSearch/datasets/Sports08CX8FGP/column/ThreePointFieldGoalPercentage>,
+        <http://metaUnionSearch/datasets/Sports08CX8FGP/column/TotalPoints>,
+        <http://metaUnionSearch/datasets/Sports08CX8FGP/column/TurnoverType> .
+

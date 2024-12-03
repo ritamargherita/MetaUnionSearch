@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GardeningK5I0GQMM> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_K5I0GQMM.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GardeningK5I0GQMM/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/AveragePrice> a dsv:Column ;
+    rdfs:label " AveragePrice" .
+
+<http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/BestTimeToPrune> a dsv:Column ;
+    rdfs:label " BestTimeToPrune" .
+
+<http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/DownTimes> a dsv:Column ;
+    rdfs:label " DownTimes" .
+
+<http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/FertilizerRecommendations> a dsv:Column ;
+    rdfs:label " FertilizerRecommendations" .
+
+<http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/HarvestMonths> a dsv:Column ;
+    rdfs:label " HarvestMonths" .
+
+<http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/HeightAtMaturity> a dsv:Column ;
+    rdfs:label " HeightAtMaturity" .
+
+<http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/PropagationMethods> a dsv:Column ;
+    rdfs:label " PropagationMethods" .
+
+<http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/QuantityInStock> a dsv:Column ;
+    rdfs:label "QuantityInStock" .
+
+<http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/SoilPh> a dsv:Column ;
+    rdfs:label " SoilPh" .
+
+<http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/SpacingRequirements> a dsv:Column ;
+    rdfs:label " SpacingRequirements" .
+
+<http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/SunExposure> a dsv:Column ;
+    rdfs:label " SunExposure" .
+
+<http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/TemperaturePreference> a dsv:Column ;
+    rdfs:label " TemperaturePreference" .
+
+<http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/ToolsNeedForMaintenance> a dsv:Column ;
+    rdfs:label " ToolsNeedForMaintenance" .
+
+<http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/WaterUsagePeakSeason> a dsv:Column ;
+    rdfs:label " WaterUsagePeakSeason" .
+
+<http://metaUnionSearch/datasets/GardeningK5I0GQMM/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/AveragePrice>,
+        <http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/BestTimeToPrune>,
+        <http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/DownTimes>,
+        <http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/FertilizerRecommendations>,
+        <http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/HarvestMonths>,
+        <http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/HeightAtMaturity>,
+        <http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/PropagationMethods>,
+        <http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/QuantityInStock>,
+        <http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/SoilPh>,
+        <http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/SpacingRequirements>,
+        <http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/SunExposure>,
+        <http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/TemperaturePreference>,
+        <http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/ToolsNeedForMaintenance>,
+        <http://metaUnionSearch/datasets/GardeningK5I0GQMM/column/WaterUsagePeakSeason> .
+

@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Astronomy85W6UYRL> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_85W6UYRL.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Astronomy85W6UYRL/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/AxialTilt> a dsv:Column ;
+    rdfs:label " Axial Tilt" .
+
+<http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/MassEarthmasses> a dsv:Column ;
+    rdfs:label " Mass (Earth masses)" .
+
+<http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/OrbitalPeriodyears> a dsv:Column ;
+    rdfs:label " Orbital Period (years)" .
+
+<http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/OtherRelevantInformationaboutObject> a dsv:Column ;
+    rdfs:label " Other Relevant Information about Object`" .
+
+<http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/PlanetName> a dsv:Column ;
+    rdfs:label "`Planet Name" .
+
+<http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/Radiuskm> a dsv:Column ;
+    rdfs:label " Radius (km)" .
+
+<http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/RingSystemyesorno> a dsv:Column ;
+    rdfs:label " Ring System (yes or no)" .
+
+<http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/Satelliteifapplicable> a dsv:Column ;
+    rdfs:label " Satellite (if applicable)" .
+
+<http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/StellarBodyitOrbits> a dsv:Column ;
+    rdfs:label " Stellar Body it Orbits" .
+
+<http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/SurfaceTemperatureKelvin> a dsv:Column ;
+    rdfs:label " Surface Temperature (Kelvin)" .
+
+<http://metaUnionSearch/datasets/Astronomy85W6UYRL/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/AxialTilt>,
+        <http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/MassEarthmasses>,
+        <http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/OrbitalPeriodyears>,
+        <http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/OtherRelevantInformationaboutObject>,
+        <http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/PlanetName>,
+        <http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/Radiuskm>,
+        <http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/RingSystemyesorno>,
+        <http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/Satelliteifapplicable>,
+        <http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/StellarBodyitOrbits>,
+        <http://metaUnionSearch/datasets/Astronomy85W6UYRL/column/SurfaceTemperatureKelvin> .
+

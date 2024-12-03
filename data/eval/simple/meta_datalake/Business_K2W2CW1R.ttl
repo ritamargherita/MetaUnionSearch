@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BusinessK2W2CW1R> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_K2W2CW1R.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BusinessK2W2CW1R/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/BusinessModelCanvas> a dsv:Column ;
+    rdfs:label "Business Model Canvas" .
+
+<http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/CompetitorAnalysis> a dsv:Column ;
+    rdfs:label "Competitor Analysis" .
+
+<http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/Industry> a dsv:Column ;
+    rdfs:label "Industry" .
+
+<http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/Location> a dsv:Column ;
+    rdfs:label "Location" .
+
+<http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/ManagementStructure> a dsv:Column ;
+    rdfs:label "Management Structure" .
+
+<http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/MarketPresence> a dsv:Column ;
+    rdfs:label "Market Presence" .
+
+<http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/MarketingStrategy> a dsv:Column ;
+    rdfs:label "Marketing Strategy" .
+
+<http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/NumberofEmployees> a dsv:Column ;
+    rdfs:label "Number of Employees" .
+
+<http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/OwnershipStructure> a dsv:Column ;
+    rdfs:label "Ownership Structure" .
+
+<http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/SWOTAnalysis> a dsv:Column ;
+    rdfs:label "SWOT Analysis" .
+
+<http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/ValueProposition> a dsv:Column ;
+    rdfs:label "Value Proposition" .
+
+<http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/YearEstablished> a dsv:Column ;
+    rdfs:label "Year Established" .
+
+<http://metaUnionSearch/datasets/BusinessK2W2CW1R/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/BusinessModelCanvas>,
+        <http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/CompetitorAnalysis>,
+        <http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/Industry>,
+        <http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/Location>,
+        <http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/ManagementStructure>,
+        <http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/MarketPresence>,
+        <http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/MarketingStrategy>,
+        <http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/NumberofEmployees>,
+        <http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/OwnershipStructure>,
+        <http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/SWOTAnalysis>,
+        <http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/ValueProposition>,
+        <http://metaUnionSearch/datasets/BusinessK2W2CW1R/column/YearEstablished> .
+

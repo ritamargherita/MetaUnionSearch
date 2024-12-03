@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W> a dsv:Dataset ;
+    dcterms:subject "financial-markets" ;
+    dcterms:title "Financial-Markets_Y8VYIF6W.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/DividendYield2> a dsv:Column ;
+    rdfs:label " Dividend Yield_2" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/InterestRates2> a dsv:Column ;
+    rdfs:label " Interest Rates_2" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/MarketCapitalization2> a dsv:Column ;
+    rdfs:label " Market Capitalization_2" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/NewColumn1> a dsv:Column ;
+    rdfs:label " New Column 1" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/NewColumn2> a dsv:Column ;
+    rdfs:label " New Column 2" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/NewColumn3> a dsv:Column ;
+    rdfs:label " New Column 3" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/NewColumn4> a dsv:Column ;
+    rdfs:label " New Column 4" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/PriceEarningsRatio2> a dsv:Column ;
+    rdfs:label " Price/Earnings Ratio_2" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/StockMarketIndex2> a dsv:Column ;
+    rdfs:label "Stock Market Index_2" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/StockMarketSector2> a dsv:Column ;
+    rdfs:label " Stock Market Sector_2" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/TradingVolume2> a dsv:Column ;
+    rdfs:label " Trading Volume_2" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/VolatilityIndex2> a dsv:Column ;
+    rdfs:label " Volatility Index_2" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/DividendYield2>,
+        <http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/InterestRates2>,
+        <http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/MarketCapitalization2>,
+        <http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/NewColumn1>,
+        <http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/NewColumn2>,
+        <http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/NewColumn3>,
+        <http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/NewColumn4>,
+        <http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/PriceEarningsRatio2>,
+        <http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/StockMarketIndex2>,
+        <http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/StockMarketSector2>,
+        <http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/TradingVolume2>,
+        <http://metaUnionSearch/datasets/FinancialMarketsY8VYIF6W/column/VolatilityIndex2> .
+

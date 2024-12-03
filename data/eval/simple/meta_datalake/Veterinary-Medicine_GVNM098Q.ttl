@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_GVNM098Q.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/Age> a dsv:Column ;
+    rdfs:label " Age" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/AnimalOwnerName> a dsv:Column ;
+    rdfs:label " Animal Owner Name" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/AnimalType> a dsv:Column ;
+    rdfs:label " Animal Type" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/Breed> a dsv:Column ;
+    rdfs:label " Breed" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/ConditionName> a dsv:Column ;
+    rdfs:label "Condition Name" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/Cost> a dsv:Column ;
+    rdfs:label " Cost" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/Diagnosis> a dsv:Column ;
+    rdfs:label " Diagnosis" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/Gender> a dsv:Column ;
+    rdfs:label " Gender" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/Symptoms> a dsv:Column ;
+    rdfs:label " Symptoms" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/TreatmentDuration> a dsv:Column ;
+    rdfs:label " Treatment Duration" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/TreatmentProcedure> a dsv:Column ;
+    rdfs:label " Treatment Procedure" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/Age>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/AnimalOwnerName>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/AnimalType>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/Breed>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/ConditionName>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/Cost>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/Diagnosis>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/Gender>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/Symptoms>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/TreatmentDuration>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGVNM098Q/column/TreatmentProcedure> .
+

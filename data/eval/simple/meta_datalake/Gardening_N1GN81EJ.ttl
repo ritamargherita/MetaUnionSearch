@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GardeningN1GN81EJ> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_N1GN81EJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GardeningN1GN81EJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/AdditionalNutrients> a dsv:Column ;
+    rdfs:label " AdditionalNutrients" .
+
+<http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/AverageGrowRate> a dsv:Column ;
+    rdfs:label " AverageGrowRate" .
+
+<http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/ColorVariations> a dsv:Column ;
+    rdfs:label " ColorVariations" .
+
+<http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/HardinessZone> a dsv:Column ;
+    rdfs:label " HardinessZone" .
+
+<http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/HarvestSeason> a dsv:Column ;
+    rdfs:label " HarvestSeason" .
+
+<http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/LightCondition> a dsv:Column ;
+    rdfs:label " LightCondition" .
+
+<http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/MatureSizeHeight> a dsv:Column ;
+    rdfs:label " MatureSizeHeight" .
+
+<http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/MatureSizeWidth> a dsv:Column ;
+    rdfs:label " MatureSizeWidth" .
+
+<http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/PropagationMethods> a dsv:Column ;
+    rdfs:label " PropagationMethods" .
+
+<http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/QuantityPurchased> a dsv:Column ;
+    rdfs:label "QuantityPurchased" .
+
+<http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/ReasonForPopularity> a dsv:Column ;
+    rdfs:label " ReasonForPopularity" .
+
+<http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/SoilType> a dsv:Column ;
+    rdfs:label " SoilType" .
+
+<http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/TotalCost> a dsv:Column ;
+    rdfs:label " TotalCost" .
+
+<http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/WaterRequirement> a dsv:Column ;
+    rdfs:label " WaterRequirement" .
+
+<http://metaUnionSearch/datasets/GardeningN1GN81EJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/AdditionalNutrients>,
+        <http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/AverageGrowRate>,
+        <http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/ColorVariations>,
+        <http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/HardinessZone>,
+        <http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/HarvestSeason>,
+        <http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/LightCondition>,
+        <http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/MatureSizeHeight>,
+        <http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/MatureSizeWidth>,
+        <http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/PropagationMethods>,
+        <http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/QuantityPurchased>,
+        <http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/ReasonForPopularity>,
+        <http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/SoilType>,
+        <http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/TotalCost>,
+        <http://metaUnionSearch/datasets/GardeningN1GN81EJ/column/WaterRequirement> .
+

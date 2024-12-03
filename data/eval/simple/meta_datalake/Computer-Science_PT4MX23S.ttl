@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_PT4MX23S.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/ArtificialIntelligence> a dsv:Column ;
+    rdfs:label "Artificial Intelligence" .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/AugmentedRealityVirtualReality> a dsv:Column ;
+    rdfs:label " Augmented Reality/Virtual Reality" .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/BackendTechnologies> a dsv:Column ;
+    rdfs:label " Backend Technologies" .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/Blockchain> a dsv:Column ;
+    rdfs:label " Blockchain" .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/CloudComputing> a dsv:Column ;
+    rdfs:label " Cloud Computing" .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/CybersecurityConcepts> a dsv:Column ;
+    rdfs:label " Cybersecurity Concepts" .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/DataVisualization> a dsv:Column ;
+    rdfs:label " Data Visualization" .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/FrontendTechnologies> a dsv:Column ;
+    rdfs:label " Frontend Technologies" .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/HumanComputerInteraction> a dsv:Column ;
+    rdfs:label " Human-Computer Interaction" .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/MachineLearning> a dsv:Column ;
+    rdfs:label " Machine Learning" .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/NaturalLanguageProcessing> a dsv:Column ;
+    rdfs:label " Natural Language Processing" .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/ProgrammingLanguagesParadigms> a dsv:Column ;
+    rdfs:label " Programming Languages Paradigms." .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/QuantumComputing> a dsv:Column ;
+    rdfs:label " Quantum Computing" .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/SoftwareEngineering> a dsv:Column ;
+    rdfs:label " Software Engineering" .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/WebDevelopment> a dsv:Column ;
+    rdfs:label " Web Development" .
+
+<http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/ArtificialIntelligence>,
+        <http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/AugmentedRealityVirtualReality>,
+        <http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/BackendTechnologies>,
+        <http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/Blockchain>,
+        <http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/CloudComputing>,
+        <http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/CybersecurityConcepts>,
+        <http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/DataVisualization>,
+        <http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/FrontendTechnologies>,
+        <http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/HumanComputerInteraction>,
+        <http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/MachineLearning>,
+        <http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/NaturalLanguageProcessing>,
+        <http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/ProgrammingLanguagesParadigms>,
+        <http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/QuantumComputing>,
+        <http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/SoftwareEngineering>,
+        <http://metaUnionSearch/datasets/ComputerSciencePT4MX23S/column/WebDevelopment> .
+

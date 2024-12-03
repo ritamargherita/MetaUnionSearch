@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_V6685T4B.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BusinessV6685T4B/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B/column/BrandReputationScore> a dsv:Column ;
+    rdfs:label " Brand Reputation Score (%)" .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B/column/BusinessIndustryTrendAnalysis> a dsv:Column ;
+    rdfs:label "Business Industry Trend Analysis" .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B/column/CompetitorMarketingStrategies> a dsv:Column ;
+    rdfs:label " Competitor Marketing Strategies" .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B/column/CustomerBuyingPatterns> a dsv:Column ;
+    rdfs:label " Customer Buying Patterns" .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B/column/DistributionChannelEffectiveness> a dsv:Column ;
+    rdfs:label " Distribution Channel Effectiveness" .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B/column/GeographicalImpactonSales> a dsv:Column ;
+    rdfs:label " Geographical Impact on Sales" .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B/column/MarketPenetrationStrategy> a dsv:Column ;
+    rdfs:label " Market Penetration Strategy" .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B/column/MarketTrendsandOpportunities> a dsv:Column ;
+    rdfs:label " Market Trends and Opportunities" .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B/column/OrganizationalCulture> a dsv:Column ;
+    rdfs:label " Organizational Culture" .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B/column/PersonnelTrainingandDevelopment> a dsv:Column ;
+    rdfs:label " Personnel Training and Development" .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B/column/ProductLifeCycle> a dsv:Column ;
+    rdfs:label " Product Life Cycle" .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B/column/RegulatoryComplianceCost> a dsv:Column ;
+    rdfs:label " Regulatory Compliance Cost" .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B/column/SalesTeamPerformance> a dsv:Column ;
+    rdfs:label " Sales Team Performance" .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B/column/StakeholderCommunication> a dsv:Column ;
+    rdfs:label " Stakeholder Communication" .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B/column/SupplierNegotiationSkills> a dsv:Column ;
+    rdfs:label " Supplier Negotiation Skills" .
+
+<http://metaUnionSearch/datasets/BusinessV6685T4B/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BusinessV6685T4B/column/BrandReputationScore>,
+        <http://metaUnionSearch/datasets/BusinessV6685T4B/column/BusinessIndustryTrendAnalysis>,
+        <http://metaUnionSearch/datasets/BusinessV6685T4B/column/CompetitorMarketingStrategies>,
+        <http://metaUnionSearch/datasets/BusinessV6685T4B/column/CustomerBuyingPatterns>,
+        <http://metaUnionSearch/datasets/BusinessV6685T4B/column/DistributionChannelEffectiveness>,
+        <http://metaUnionSearch/datasets/BusinessV6685T4B/column/GeographicalImpactonSales>,
+        <http://metaUnionSearch/datasets/BusinessV6685T4B/column/MarketPenetrationStrategy>,
+        <http://metaUnionSearch/datasets/BusinessV6685T4B/column/MarketTrendsandOpportunities>,
+        <http://metaUnionSearch/datasets/BusinessV6685T4B/column/OrganizationalCulture>,
+        <http://metaUnionSearch/datasets/BusinessV6685T4B/column/PersonnelTrainingandDevelopment>,
+        <http://metaUnionSearch/datasets/BusinessV6685T4B/column/ProductLifeCycle>,
+        <http://metaUnionSearch/datasets/BusinessV6685T4B/column/RegulatoryComplianceCost>,
+        <http://metaUnionSearch/datasets/BusinessV6685T4B/column/SalesTeamPerformance>,
+        <http://metaUnionSearch/datasets/BusinessV6685T4B/column/StakeholderCommunication>,
+        <http://metaUnionSearch/datasets/BusinessV6685T4B/column/SupplierNegotiationSkills> .
+

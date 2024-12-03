@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryAYQ3S195> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_AYQ3S195.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryAYQ3S195/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryAYQ3S195/column/AllegoryReferences> a dsv:Column ;
+    rdfs:label " Allegory References" .
+
+<http://metaUnionSearch/datasets/PoetryAYQ3S195/column/EuphemismsorDysphemisms> a dsv:Column ;
+    rdfs:label " Euphemisms or Dysphemisms" .
+
+<http://metaUnionSearch/datasets/PoetryAYQ3S195/column/FreeVerse> a dsv:Column ;
+    rdfs:label " Free Verse" .
+
+<http://metaUnionSearch/datasets/PoetryAYQ3S195/column/HistoricContextIntegrations> a dsv:Column ;
+    rdfs:label " Historic Context Integrations" .
+
+<http://metaUnionSearch/datasets/PoetryAYQ3S195/column/ID> a dsv:Column ;
+    rdfs:label " _ID_" .
+
+<http://metaUnionSearch/datasets/PoetryAYQ3S195/column/IronicTwist> a dsv:Column ;
+    rdfs:label " Ironic Twist" .
+
+<http://metaUnionSearch/datasets/PoetryAYQ3S195/column/MetaphorsExplained> a dsv:Column ;
+    rdfs:label " Metaphors Explained" .
+
+<http://metaUnionSearch/datasets/PoetryAYQ3S195/column/MoodChanges> a dsv:Column ;
+    rdfs:label " Mood Changes" .
+
+<http://metaUnionSearch/datasets/PoetryAYQ3S195/column/RhymingPatterns> a dsv:Column ;
+    rdfs:label " Rhyming Patterns" .
+
+<http://metaUnionSearch/datasets/PoetryAYQ3S195/column/StanzaBreakdown> a dsv:Column ;
+    rdfs:label " Stanza Breakdown" .
+
+<http://metaUnionSearch/datasets/PoetryAYQ3S195/column/Type> a dsv:Column ;
+    rdfs:label "Type" .
+
+<http://metaUnionSearch/datasets/PoetryAYQ3S195/column/UseOfSimiles> a dsv:Column ;
+    rdfs:label " Use Of Similes" .
+
+<http://metaUnionSearch/datasets/PoetryAYQ3S195/column/VocabularyAnalysis> a dsv:Column ;
+    rdfs:label " Vocabulary Analysis" .
+
+<http://metaUnionSearch/datasets/PoetryAYQ3S195/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryAYQ3S195/column/AllegoryReferences>,
+        <http://metaUnionSearch/datasets/PoetryAYQ3S195/column/EuphemismsorDysphemisms>,
+        <http://metaUnionSearch/datasets/PoetryAYQ3S195/column/FreeVerse>,
+        <http://metaUnionSearch/datasets/PoetryAYQ3S195/column/HistoricContextIntegrations>,
+        <http://metaUnionSearch/datasets/PoetryAYQ3S195/column/ID>,
+        <http://metaUnionSearch/datasets/PoetryAYQ3S195/column/IronicTwist>,
+        <http://metaUnionSearch/datasets/PoetryAYQ3S195/column/MetaphorsExplained>,
+        <http://metaUnionSearch/datasets/PoetryAYQ3S195/column/MoodChanges>,
+        <http://metaUnionSearch/datasets/PoetryAYQ3S195/column/RhymingPatterns>,
+        <http://metaUnionSearch/datasets/PoetryAYQ3S195/column/StanzaBreakdown>,
+        <http://metaUnionSearch/datasets/PoetryAYQ3S195/column/Type>,
+        <http://metaUnionSearch/datasets/PoetryAYQ3S195/column/UseOfSimiles>,
+        <http://metaUnionSearch/datasets/PoetryAYQ3S195/column/VocabularyAnalysis> .
+

@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3> a dsv:Dataset ;
+    dcterms:subject "international-relations" ;
+    dcterms:title "International-Relations_XHM8L9B3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/ConflictResolution> a dsv:Column ;
+    rdfs:label " Conflict Resolution " .
+
+<http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/CrisisManagement> a dsv:Column ;
+    rdfs:label " Crisis Management " .
+
+<http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/CybersecurityThreats> a dsv:Column ;
+    rdfs:label " Cybersecurity Threats " .
+
+<http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/DiplomaticRecognition> a dsv:Column ;
+    rdfs:label " Diplomatic Recognition " .
+
+<http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/EconomicSanctions> a dsv:Column ;
+    rdfs:label " Economic Sanctions " .
+
+<http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/Geopolitics> a dsv:Column ;
+    rdfs:label " Geopolitics " .
+
+<http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/GlobalEvents> a dsv:Column ;
+    rdfs:label " Global Events" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/InternationalOrganizations> a dsv:Column ;
+    rdfs:label " International Organizations " .
+
+<http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/MajorPowers> a dsv:Column ;
+    rdfs:label " Major Powers " .
+
+<http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/NonstateActors> a dsv:Column ;
+    rdfs:label " Nonstate Actors" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/PeaceBuilding> a dsv:Column ;
+    rdfs:label " Peace Building " .
+
+<http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/SpaceExploration> a dsv:Column ;
+    rdfs:label " Space Exploration" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/TimePeriod> a dsv:Column ;
+    rdfs:label "Time Period" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/TransitionalPhases> a dsv:Column ;
+    rdfs:label " Transitional Phases " .
+
+<http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/ConflictResolution>,
+        <http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/CrisisManagement>,
+        <http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/CybersecurityThreats>,
+        <http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/DiplomaticRecognition>,
+        <http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/EconomicSanctions>,
+        <http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/Geopolitics>,
+        <http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/GlobalEvents>,
+        <http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/InternationalOrganizations>,
+        <http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/MajorPowers>,
+        <http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/NonstateActors>,
+        <http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/PeaceBuilding>,
+        <http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/SpaceExploration>,
+        <http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/TimePeriod>,
+        <http://metaUnionSearch/datasets/InternationalRelationsXHM8L9B3/column/TransitionalPhases> .
+

@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK> a dsv:Dataset ;
+    dcterms:subject "financial-markets" ;
+    dcterms:title "Financial-Markets_VQ553KWK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/CapitalFlowCentralBankPolicies> a dsv:Column ;
+    rdfs:label "Capital Flow-Central Bank Policies" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/CommodityPrices> a dsv:Column ;
+    rdfs:label "Commodity Prices" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/CompaniesEarningReportsAnalystRatings> a dsv:Column ;
+    rdfs:label "Companies' Earning Reports & Analyst Ratings" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/ConsumerPriceIndexCPI> a dsv:Column ;
+    rdfs:label "Consumer Price Index (CPI)" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/CorporateBondSpread> a dsv:Column ;
+    rdfs:label "Corporate Bond Spread" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/DerivativesandOptionsData> a dsv:Column ;
+    rdfs:label "Derivatives and Options Data" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/FintechDisruptionsDigitalCurrencies> a dsv:Column ;
+    rdfs:label "Fintech Disruptions/Digital Currencies" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/FiscalPolicyUpdates> a dsv:Column ;
+    rdfs:label "Fiscal Policy Updates" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/MergersAcquisitionsNews> a dsv:Column ;
+    rdfs:label "Mergers & Acquisitions News" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/ProducerPriceIndex> a dsv:Column ;
+    rdfs:label "Producer Price Index" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/RegulatoryChanges> a dsv:Column ;
+    rdfs:label "Regulatory Changes" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/TreasuryYieldCurveData> a dsv:Column ;
+    rdfs:label "Treasury Yield Curve Data" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/CapitalFlowCentralBankPolicies>,
+        <http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/CommodityPrices>,
+        <http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/CompaniesEarningReportsAnalystRatings>,
+        <http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/ConsumerPriceIndexCPI>,
+        <http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/CorporateBondSpread>,
+        <http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/DerivativesandOptionsData>,
+        <http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/FintechDisruptionsDigitalCurrencies>,
+        <http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/FiscalPolicyUpdates>,
+        <http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/MergersAcquisitionsNews>,
+        <http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/ProducerPriceIndex>,
+        <http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/RegulatoryChanges>,
+        <http://metaUnionSearch/datasets/FinancialMarketsVQ553KWK/column/TreasuryYieldCurveData> .
+

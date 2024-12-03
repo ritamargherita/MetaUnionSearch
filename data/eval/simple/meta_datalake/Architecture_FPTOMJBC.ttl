@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArchitectureFPTOMJBC> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_FPTOMJBC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/AcousticQuality> a dsv:Column ;
+    rdfs:label " \"Acoustic Quality\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/AdditionalMaterial> a dsv:Column ;
+    rdfs:label " \"Additional Material\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/Condition> a dsv:Column ;
+    rdfs:label " \"Condition\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/ConstructionMethod> a dsv:Column ;
+    rdfs:label " \"Construction Method\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/EnergyEfficiencyRating> a dsv:Column ;
+    rdfs:label " \"Energy Efficiency Rating\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/FlooringType> a dsv:Column ;
+    rdfs:label " \"Flooring Type\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/LandscapeIntegration> a dsv:Column ;
+    rdfs:label " \"Landscape Integration\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/PreservationLevel> a dsv:Column ;
+    rdfs:label " \"Preservation Level\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/RenovationStatus> a dsv:Column ;
+    rdfs:label " \"Renovation Status\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/RoofStyle> a dsv:Column ;
+    rdfs:label " \"Roof Style\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/SpecialFeatures> a dsv:Column ;
+    rdfs:label " \"Special Features\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/StructureType> a dsv:Column ;
+    rdfs:label "\"Structure Type\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/SurroundingEnvironment> a dsv:Column ;
+    rdfs:label " \"Surrounding Environment\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/WindowStyle> a dsv:Column ;
+    rdfs:label " \"Window Style\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/AcousticQuality>,
+        <http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/AdditionalMaterial>,
+        <http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/Condition>,
+        <http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/ConstructionMethod>,
+        <http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/EnergyEfficiencyRating>,
+        <http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/FlooringType>,
+        <http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/LandscapeIntegration>,
+        <http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/PreservationLevel>,
+        <http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/RenovationStatus>,
+        <http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/RoofStyle>,
+        <http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/SpecialFeatures>,
+        <http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/StructureType>,
+        <http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/SurroundingEnvironment>,
+        <http://metaUnionSearch/datasets/ArchitectureFPTOMJBC/column/WindowStyle> .
+

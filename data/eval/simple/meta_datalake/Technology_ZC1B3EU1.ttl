@@ -1,0 +1,23 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologyZC1B3EU1> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_ZC1B3EU1.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologyZC1B3EU1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologyZC1B3EU1/column/> a dsv:Column ;
+    rdfs:label "\\" .
+
+<http://metaUnionSearch/datasets/TechnologyZC1B3EU1/column/QuantumComputingSolutions> a dsv:Column ;
+    rdfs:label "Quantum Computing Solutions" .
+
+<http://metaUnionSearch/datasets/TechnologyZC1B3EU1/column/VirtualRealityApplications> a dsv:Column ;
+    rdfs:label " Virtual Reality Applications" .
+
+<http://metaUnionSearch/datasets/TechnologyZC1B3EU1/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologyZC1B3EU1/column/>,
+        <http://metaUnionSearch/datasets/TechnologyZC1B3EU1/column/QuantumComputingSolutions>,
+        <http://metaUnionSearch/datasets/TechnologyZC1B3EU1/column/VirtualRealityApplications> .
+

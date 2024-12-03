@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Religion6B9M80O2> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_6B9M80O2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Religion6B9M80O2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Religion6B9M80O2/column/ChallengesFaced> a dsv:Column ;
+    rdfs:label " Challenges Faced" .
+
+<http://metaUnionSearch/datasets/Religion6B9M80O2/column/CoreBeliefs> a dsv:Column ;
+    rdfs:label " Core Beliefs" .
+
+<http://metaUnionSearch/datasets/Religion6B9M80O2/column/DemographicsDistribution> a dsv:Column ;
+    rdfs:label " Demographics Distribution" .
+
+<http://metaUnionSearch/datasets/Religion6B9M80O2/column/DivineEntitiesorConceptsofWorshippedTheirAttributes> a dsv:Column ;
+    rdfs:label " Divine Entities or Concepts of Worshipped & Their Attributes" .
+
+<http://metaUnionSearch/datasets/Religion6B9M80O2/column/FoundationalTextsTeachings> a dsv:Column ;
+    rdfs:label " Foundational Texts & Teachings" .
+
+<http://metaUnionSearch/datasets/Religion6B9M80O2/column/GeographicalSpreadHistoricalRange> a dsv:Column ;
+    rdfs:label " Geographical Spread & Historical Range" .
+
+<http://metaUnionSearch/datasets/Religion6B9M80O2/column/ImportantHolidays> a dsv:Column ;
+    rdfs:label " Important Holidays" .
+
+<http://metaUnionSearch/datasets/Religion6B9M80O2/column/KeyHistoricalFigures> a dsv:Column ;
+    rdfs:label " Key Historical Figures" .
+
+<http://metaUnionSearch/datasets/Religion6B9M80O2/column/MajorSubgroupsEstimatedAdherents> a dsv:Column ;
+    rdfs:label " Major Subgroups & Estimated Adherents\"" .
+
+<http://metaUnionSearch/datasets/Religion6B9M80O2/column/ReligiousGroup> a dsv:Column ;
+    rdfs:label "\"Religious Group" .
+
+<http://metaUnionSearch/datasets/Religion6B9M80O2/column/RepresentativeSymbolism> a dsv:Column ;
+    rdfs:label " Representative Symbolism" .
+
+<http://metaUnionSearch/datasets/Religion6B9M80O2/column/SocioeconomicStatus> a dsv:Column ;
+    rdfs:label " Socioeconomic Status" .
+
+<http://metaUnionSearch/datasets/Religion6B9M80O2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Religion6B9M80O2/column/ChallengesFaced>,
+        <http://metaUnionSearch/datasets/Religion6B9M80O2/column/CoreBeliefs>,
+        <http://metaUnionSearch/datasets/Religion6B9M80O2/column/DemographicsDistribution>,
+        <http://metaUnionSearch/datasets/Religion6B9M80O2/column/DivineEntitiesorConceptsofWorshippedTheirAttributes>,
+        <http://metaUnionSearch/datasets/Religion6B9M80O2/column/FoundationalTextsTeachings>,
+        <http://metaUnionSearch/datasets/Religion6B9M80O2/column/GeographicalSpreadHistoricalRange>,
+        <http://metaUnionSearch/datasets/Religion6B9M80O2/column/ImportantHolidays>,
+        <http://metaUnionSearch/datasets/Religion6B9M80O2/column/KeyHistoricalFigures>,
+        <http://metaUnionSearch/datasets/Religion6B9M80O2/column/MajorSubgroupsEstimatedAdherents>,
+        <http://metaUnionSearch/datasets/Religion6B9M80O2/column/ReligiousGroup>,
+        <http://metaUnionSearch/datasets/Religion6B9M80O2/column/RepresentativeSymbolism>,
+        <http://metaUnionSearch/datasets/Religion6B9M80O2/column/SocioeconomicStatus> .
+

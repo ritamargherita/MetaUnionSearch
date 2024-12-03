@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoliticsFCQN0B58> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_FCQN0B58.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoliticsFCQN0B58/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/ElectionsData> a dsv:Column ;
+    rdfs:label "`Elections Data" .
+
+<http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/ForeignPolicyStanceComparisonAcrossYearsCountryXvsCountryY> a dsv:Column ;
+    rdfs:label " Foreign Policy Stance Comparison Across Years - Country X vs Country Y" .
+
+<http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/FrequencyOfElection> a dsv:Column ;
+    rdfs:label " Frequency Of Election" .
+
+<http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/MajorLegislationPassageYearPartyA> a dsv:Column ;
+    rdfs:label " Major Legislation Passage Year - Party A" .
+
+<http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/MajorLegislationPassageYearPartyB> a dsv:Column ;
+    rdfs:label " Major Legislation Passage Year - Party B" .
+
+<http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/PoliticalDonationsAmount> a dsv:Column ;
+    rdfs:label " Political Donations Amount" .
+
+<http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/PublicOpinionPollingTrendOnIssueA> a dsv:Column ;
+    rdfs:label " Public Opinion Polling Trend On Issue A" .
+
+<http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/PublicOpinionPollingTrendOnIssueB> a dsv:Column ;
+    rdfs:label " Public Opinion Polling Trend On Issue B" .
+
+<http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/SocialMediaEngagementMetricsForTop5RepresentativesFromEachParliamentaryGroup> a dsv:Column ;
+    rdfs:label " Social Media Engagement Metrics For Top 5 Representatives From Each Parliamentary Group`" .
+
+<http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/SourcesOfDonationDemographicsSplits> a dsv:Column ;
+    rdfs:label " Sources Of Donation Demographics Splits" .
+
+<http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/VoterTurnoutRates> a dsv:Column ;
+    rdfs:label " Voter Turnout Rates" .
+
+<http://metaUnionSearch/datasets/PoliticsFCQN0B58/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/ElectionsData>,
+        <http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/ForeignPolicyStanceComparisonAcrossYearsCountryXvsCountryY>,
+        <http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/FrequencyOfElection>,
+        <http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/MajorLegislationPassageYearPartyA>,
+        <http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/MajorLegislationPassageYearPartyB>,
+        <http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/PoliticalDonationsAmount>,
+        <http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/PublicOpinionPollingTrendOnIssueA>,
+        <http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/PublicOpinionPollingTrendOnIssueB>,
+        <http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/SocialMediaEngagementMetricsForTop5RepresentativesFromEachParliamentaryGroup>,
+        <http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/SourcesOfDonationDemographicsSplits>,
+        <http://metaUnionSearch/datasets/PoliticsFCQN0B58/column/VoterTurnoutRates> .
+

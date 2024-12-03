@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EcologyKUE98HLU> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_KUE98HLU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EcologyKUE98HLU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EcologyKUE98HLU/column/AdditionalHabitatCharacteristics> a dsv:Column ;
+    rdfs:label " Additional Habitat Characteristics" .
+
+<http://metaUnionSearch/datasets/EcologyKUE98HLU/column/AnthropogenicInfluences> a dsv:Column ;
+    rdfs:label " Anthropogenic Influences" .
+
+<http://metaUnionSearch/datasets/EcologyKUE98HLU/column/AtmosphericConditions> a dsv:Column ;
+    rdfs:label " Atmospheric Conditions" .
+
+<http://metaUnionSearch/datasets/EcologyKUE98HLU/column/BioticInteractions> a dsv:Column ;
+    rdfs:label " Biotic Interactions" .
+
+<http://metaUnionSearch/datasets/EcologyKUE98HLU/column/ConservationStatus> a dsv:Column ;
+    rdfs:label " Conservation Status" .
+
+<http://metaUnionSearch/datasets/EcologyKUE98HLU/column/DistinctiveBiodiversityFeatures> a dsv:Column ;
+    rdfs:label " Distinctive Biodiversity Features" .
+
+<http://metaUnionSearch/datasets/EcologyKUE98HLU/column/EcosystemServicesValue> a dsv:Column ;
+    rdfs:label " Ecosystem Services Value" .
+
+<http://metaUnionSearch/datasets/EcologyKUE98HLU/column/ManagementStrategies> a dsv:Column ;
+    rdfs:label " Management Strategies" .
+
+<http://metaUnionSearch/datasets/EcologyKUE98HLU/column/MineralComposition> a dsv:Column ;
+    rdfs:label " Mineral Composition" .
+
+<http://metaUnionSearch/datasets/EcologyKUE98HLU/column/RestorationChallenges> a dsv:Column ;
+    rdfs:label " Restoration Challenges" .
+
+<http://metaUnionSearch/datasets/EcologyKUE98HLU/column/SecondaryHabitats> a dsv:Column ;
+    rdfs:label "Secondary Habitats" .
+
+<http://metaUnionSearch/datasets/EcologyKUE98HLU/column/SoilLayersandOrganismDistribution> a dsv:Column ;
+    rdfs:label " Soil Layers and Organism Distribution" .
+
+<http://metaUnionSearch/datasets/EcologyKUE98HLU/column/WaterSourcesandFlowPatterns> a dsv:Column ;
+    rdfs:label " Water Sources and Flow Patterns" .
+
+<http://metaUnionSearch/datasets/EcologyKUE98HLU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EcologyKUE98HLU/column/AdditionalHabitatCharacteristics>,
+        <http://metaUnionSearch/datasets/EcologyKUE98HLU/column/AnthropogenicInfluences>,
+        <http://metaUnionSearch/datasets/EcologyKUE98HLU/column/AtmosphericConditions>,
+        <http://metaUnionSearch/datasets/EcologyKUE98HLU/column/BioticInteractions>,
+        <http://metaUnionSearch/datasets/EcologyKUE98HLU/column/ConservationStatus>,
+        <http://metaUnionSearch/datasets/EcologyKUE98HLU/column/DistinctiveBiodiversityFeatures>,
+        <http://metaUnionSearch/datasets/EcologyKUE98HLU/column/EcosystemServicesValue>,
+        <http://metaUnionSearch/datasets/EcologyKUE98HLU/column/ManagementStrategies>,
+        <http://metaUnionSearch/datasets/EcologyKUE98HLU/column/MineralComposition>,
+        <http://metaUnionSearch/datasets/EcologyKUE98HLU/column/RestorationChallenges>,
+        <http://metaUnionSearch/datasets/EcologyKUE98HLU/column/SecondaryHabitats>,
+        <http://metaUnionSearch/datasets/EcologyKUE98HLU/column/SoilLayersandOrganismDistribution>,
+        <http://metaUnionSearch/datasets/EcologyKUE98HLU/column/WaterSourcesandFlowPatterns> .
+

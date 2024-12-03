@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/HorticultureB4TK3B33> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_B4TK3B33.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/HorticultureB4TK3B33/datasetSchema> .
+
+<http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/AvailabilityinLocalMarkets> a dsv:Column ;
+    rdfs:label " AvailabilityinLocalMarkets" .
+
+<http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/AveragePlantHeight> a dsv:Column ;
+    rdfs:label " AveragePlantHeight" .
+
+<http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/CommonPestsAndDiseases> a dsv:Column ;
+    rdfs:label " CommonPestsAndDiseases" .
+
+<http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/CultivarNamesSuitableforRegions> a dsv:Column ;
+    rdfs:label " CultivarNamesSuitableforRegions" .
+
+<http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/DeerResistance> a dsv:Column ;
+    rdfs:label " DeerResistance" .
+
+<http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/FruitBearingSeason> a dsv:Column ;
+    rdfs:label "FruitBearingSeason" .
+
+<http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/GrowthZones> a dsv:Column ;
+    rdfs:label " GrowthZones" .
+
+<http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/IdealSoilpHValue> a dsv:Column ;
+    rdfs:label " IdealSoilpHValue" .
+
+<http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/MostCommonlyUsedCuisineStylesAndRecipes> a dsv:Column ;
+    rdfs:label " MostCommonlyUsedCuisineStylesAndRecipes" .
+
+<http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/PreferredCompanionPlants> a dsv:Column ;
+    rdfs:label " PreferredCompanionPlants" .
+
+<http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/TypicalLookAndFeelOfFruit> a dsv:Column ;
+    rdfs:label " TypicalLookAndFeelOfFruit" .
+
+<http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/YearsFirstProductionAfterPlantingAndTransplanting> a dsv:Column ;
+    rdfs:label " YearsFirstProductionAfterPlantingAndTransplanting" .
+
+<http://metaUnionSearch/datasets/HorticultureB4TK3B33/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/AvailabilityinLocalMarkets>,
+        <http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/AveragePlantHeight>,
+        <http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/CommonPestsAndDiseases>,
+        <http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/CultivarNamesSuitableforRegions>,
+        <http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/DeerResistance>,
+        <http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/FruitBearingSeason>,
+        <http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/GrowthZones>,
+        <http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/IdealSoilpHValue>,
+        <http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/MostCommonlyUsedCuisineStylesAndRecipes>,
+        <http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/PreferredCompanionPlants>,
+        <http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/TypicalLookAndFeelOfFruit>,
+        <http://metaUnionSearch/datasets/HorticultureB4TK3B33/column/YearsFirstProductionAfterPlantingAndTransplanting> .
+

@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Sociology0YBY4AWT> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_0YBY4AWT.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Sociology0YBY4AWT/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/Collaboration> a dsv:Column ;
+    rdfs:label " Collaboration" .
+
+<http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/DataSharing> a dsv:Column ;
+    rdfs:label " DataSharing" .
+
+<http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/FundingSource> a dsv:Column ;
+    rdfs:label " FundingSource" .
+
+<http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/IndustryImpact> a dsv:Column ;
+    rdfs:label " IndustryImpact" .
+
+<http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/MediaCoverage> a dsv:Column ;
+    rdfs:label " MediaCoverage" .
+
+<http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/OpenResearch> a dsv:Column ;
+    rdfs:label " OpenResearch" .
+
+<http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/PeerReviewStatus> a dsv:Column ;
+    rdfs:label " PeerReviewStatus" .
+
+<http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/ResearchBias> a dsv:Column ;
+    rdfs:label " ResearchBias" .
+
+<http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/ResearchLocation> a dsv:Column ;
+    rdfs:label " ResearchLocation" .
+
+<http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/SociologistProfile> a dsv:Column ;
+    rdfs:label "SociologistProfile" .
+
+<http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/StudyYear> a dsv:Column ;
+    rdfs:label " StudyYear" .
+
+<http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/SupervisionExperience> a dsv:Column ;
+    rdfs:label " SupervisionExperience" .
+
+<http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/TeachingExperience> a dsv:Column ;
+    rdfs:label " TeachingExperience" .
+
+<http://metaUnionSearch/datasets/Sociology0YBY4AWT/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/Collaboration>,
+        <http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/DataSharing>,
+        <http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/FundingSource>,
+        <http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/IndustryImpact>,
+        <http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/MediaCoverage>,
+        <http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/OpenResearch>,
+        <http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/PeerReviewStatus>,
+        <http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/ResearchBias>,
+        <http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/ResearchLocation>,
+        <http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/SociologistProfile>,
+        <http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/StudyYear>,
+        <http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/SupervisionExperience>,
+        <http://metaUnionSearch/datasets/Sociology0YBY4AWT/column/TeachingExperience> .
+

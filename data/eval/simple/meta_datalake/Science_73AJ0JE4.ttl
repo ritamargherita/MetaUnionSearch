@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Science73AJ0JE4> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_73AJ0JE4.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Science73AJ0JE4/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Science73AJ0JE4/column/AnalysisTechniques> a dsv:Column ;
+    rdfs:label "Analysis Techniques" .
+
+<http://metaUnionSearch/datasets/Science73AJ0JE4/column/Antiparticles> a dsv:Column ;
+    rdfs:label "Antiparticles" .
+
+<http://metaUnionSearch/datasets/Science73AJ0JE4/column/ConceptName> a dsv:Column ;
+    rdfs:label "Concept Name" .
+
+<http://metaUnionSearch/datasets/Science73AJ0JE4/column/DataCollected> a dsv:Column ;
+    rdfs:label "Data Collected" .
+
+<http://metaUnionSearch/datasets/Science73AJ0JE4/column/Description> a dsv:Column ;
+    rdfs:label "Description" .
+
+<http://metaUnionSearch/datasets/Science73AJ0JE4/column/ExperimentProcedures> a dsv:Column ;
+    rdfs:label "Experiment Procedures" .
+
+<http://metaUnionSearch/datasets/Science73AJ0JE4/column/Hypothesis> a dsv:Column ;
+    rdfs:label "Hypothesis" .
+
+<http://metaUnionSearch/datasets/Science73AJ0JE4/column/Particles> a dsv:Column ;
+    rdfs:label "Particles" .
+
+<http://metaUnionSearch/datasets/Science73AJ0JE4/column/QuantumPhysics> a dsv:Column ;
+    rdfs:label "Quantum Physics" .
+
+<http://metaUnionSearch/datasets/Science73AJ0JE4/column/ResultsInterpretation> a dsv:Column ;
+    rdfs:label "Results & Interpretation" .
+
+<http://metaUnionSearch/datasets/Science73AJ0JE4/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Science73AJ0JE4/column/AnalysisTechniques>,
+        <http://metaUnionSearch/datasets/Science73AJ0JE4/column/Antiparticles>,
+        <http://metaUnionSearch/datasets/Science73AJ0JE4/column/ConceptName>,
+        <http://metaUnionSearch/datasets/Science73AJ0JE4/column/DataCollected>,
+        <http://metaUnionSearch/datasets/Science73AJ0JE4/column/Description>,
+        <http://metaUnionSearch/datasets/Science73AJ0JE4/column/ExperimentProcedures>,
+        <http://metaUnionSearch/datasets/Science73AJ0JE4/column/Hypothesis>,
+        <http://metaUnionSearch/datasets/Science73AJ0JE4/column/Particles>,
+        <http://metaUnionSearch/datasets/Science73AJ0JE4/column/QuantumPhysics>,
+        <http://metaUnionSearch/datasets/Science73AJ0JE4/column/ResultsInterpretation> .
+

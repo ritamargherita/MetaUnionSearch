@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_MQC1A78M.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/Aesthetics> a dsv:Column ;
+    rdfs:label " \"Aesthetics\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/ArchitecturalType> a dsv:Column ;
+    rdfs:label "\"Architectural Type\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/ConstructionTimeline> a dsv:Column ;
+    rdfs:label " \"Construction Timeline\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/CulturalConnection> a dsv:Column ;
+    rdfs:label " \"Cultural Connection\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/EraInformationInfluencesandPrecedents> a dsv:Column ;
+    rdfs:label " \"Era Information - Influences and Precedents\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/EraInformationRenovations> a dsv:Column ;
+    rdfs:label " \"Era Information - Renovations\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/GeographicLocation> a dsv:Column ;
+    rdfs:label " \"Geographic Location\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/LandmarkStatus> a dsv:Column ;
+    rdfs:label " \"Landmark Status\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/PreservationStatus> a dsv:Column ;
+    rdfs:label " \"Preservation Status\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/PublicAccessibility> a dsv:Column ;
+    rdfs:label " \"Public Accessibility\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/SpecialFeatures> a dsv:Column ;
+    rdfs:label " \"Special Features\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/StructureDetailsConstructionTechniques> a dsv:Column ;
+    rdfs:label " \"Structure Details - Construction Techniques\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/StructureDetailsFoundationMaterial> a dsv:Column ;
+    rdfs:label " \"Structure Details - Foundation Material\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/StructureDetailsRoofStyle> a dsv:Column ;
+    rdfs:label " \"Structure Details - Roof Style\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/SurroundingEnvironmentLandscapeIntegration> a dsv:Column ;
+    rdfs:label " \"Surrounding Environment - Landscape Integration\"" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/Aesthetics>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/ArchitecturalType>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/ConstructionTimeline>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/CulturalConnection>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/EraInformationInfluencesandPrecedents>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/EraInformationRenovations>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/GeographicLocation>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/LandmarkStatus>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/PublicAccessibility>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/SpecialFeatures>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/StructureDetailsConstructionTechniques>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/StructureDetailsFoundationMaterial>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/StructureDetailsRoofStyle>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/SurroundingEnvironmentLandscapeIntegration> .
+

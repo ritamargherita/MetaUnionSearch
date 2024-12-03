@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Philosophy65QDF1RC> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_65QDF1RC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Philosophy65QDF1RC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/AreasofStudies> a dsv:Column ;
+    rdfs:label "Areas of Studies" .
+
+<http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/CenturyDuration> a dsv:Column ;
+    rdfs:label "Century Duration" .
+
+<http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/CriticismsAndControversies> a dsv:Column ;
+    rdfs:label "Criticisms And Controversies" .
+
+<http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/FamousStudents> a dsv:Column ;
+    rdfs:label "Famous Student(s)" .
+
+<http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/IndustriesImpacted> a dsv:Column ;
+    rdfs:label "Industries Impacted" .
+
+<http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/NotableConcern> a dsv:Column ;
+    rdfs:label "Notable Concern" .
+
+<http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/NumberOfYearsActive> a dsv:Column ;
+    rdfs:label "NumberOfYearsActive" .
+
+<http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/PhilosopherBirthplace> a dsv:Column ;
+    rdfs:label "Philosopher Birthplace" .
+
+<http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/PhilosophersbyCentury> a dsv:Column ;
+    rdfs:label "Philosophers by Century" .
+
+<http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/RelatingtoOtherDisciplines> a dsv:Column ;
+    rdfs:label "Relating to Other Disciplines" .
+
+<http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/SchoolOfThoughtFoundingDate> a dsv:Column ;
+    rdfs:label "School Of Thought Founding Date" .
+
+<http://metaUnionSearch/datasets/Philosophy65QDF1RC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/AreasofStudies>,
+        <http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/CenturyDuration>,
+        <http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/CriticismsAndControversies>,
+        <http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/FamousStudents>,
+        <http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/IndustriesImpacted>,
+        <http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/NotableConcern>,
+        <http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/NumberOfYearsActive>,
+        <http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/PhilosopherBirthplace>,
+        <http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/PhilosophersbyCentury>,
+        <http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/RelatingtoOtherDisciplines>,
+        <http://metaUnionSearch/datasets/Philosophy65QDF1RC/column/SchoolOfThoughtFoundingDate> .
+

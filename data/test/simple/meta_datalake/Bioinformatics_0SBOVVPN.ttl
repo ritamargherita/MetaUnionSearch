@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_0SBOVVPN.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/Chromosome> a dsv:Column ;
+    rdfs:label " Chromosome" .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/DiseaseAssociation> a dsv:Column ;
+    rdfs:label " Disease Association\"" .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/EndPosition> a dsv:Column ;
+    rdfs:label " End Position" .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/ExpressionLevel> a dsv:Column ;
+    rdfs:label " Expression Level" .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/GOTerms> a dsv:Column ;
+    rdfs:label " GO Terms" .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/GeneName> a dsv:Column ;
+    rdfs:label "\"Gene Name" .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/GeneType> a dsv:Column ;
+    rdfs:label " Gene Type" .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/MutationFrequency> a dsv:Column ;
+    rdfs:label " Mutation Frequency" .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/ProteinInteractions> a dsv:Column ;
+    rdfs:label " Protein Interactions" .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/ProteinTertiaryStructures> a dsv:Column ;
+    rdfs:label " Protein Tertiary Structures" .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/StartPosition> a dsv:Column ;
+    rdfs:label " Start Position" .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/Strand> a dsv:Column ;
+    rdfs:label " Strand" .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/TranscriptionFactorBindingSites> a dsv:Column ;
+    rdfs:label " Transcription Factor Binding Sites" .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/mRNASecondaryStructures> a dsv:Column ;
+    rdfs:label " mRNA Secondary Structures" .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/microRNATargets> a dsv:Column ;
+    rdfs:label " microRNA Targets" .
+
+<http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/Chromosome>,
+        <http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/DiseaseAssociation>,
+        <http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/EndPosition>,
+        <http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/ExpressionLevel>,
+        <http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/GOTerms>,
+        <http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/GeneName>,
+        <http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/GeneType>,
+        <http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/MutationFrequency>,
+        <http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/ProteinInteractions>,
+        <http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/ProteinTertiaryStructures>,
+        <http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/StartPosition>,
+        <http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/Strand>,
+        <http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/TranscriptionFactorBindingSites>,
+        <http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/mRNASecondaryStructures>,
+        <http://metaUnionSearch/datasets/Bioinformatics0SBOVVPN/column/microRNATargets> .
+

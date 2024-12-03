@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_GGGS8W0Q.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/AdditionalTherapiesRecommended> a dsv:Column ;
+    rdfs:label " Additional Therapies Recommended" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/AdvancedAnalytics> a dsv:Column ;
+    rdfs:label "Advanced Analytics" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/DiseasePrevalenceRate> a dsv:Column ;
+    rdfs:label " Disease Prevalence Rate" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/FieldObservationNotes> a dsv:Column ;
+    rdfs:label " Field Observation Notes" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/FollowUpCarePlans> a dsv:Column ;
+    rdfs:label " Follow-Up Care Plans." .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/GeneticDispositionAnalysisResults> a dsv:Column ;
+    rdfs:label " Genetic Disposition Analysis Results" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/SpeciesSpecificConditions> a dsv:Column ;
+    rdfs:label " Species-Specific Conditions" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/TreatmentsEfficacyData> a dsv:Column ;
+    rdfs:label " Treatments Efficacy Data" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/WildlifeExposureRiskFactors> a dsv:Column ;
+    rdfs:label " Wildlife Exposure Risk Factors" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/ZoonoticDiseasesTransmissionMethods> a dsv:Column ;
+    rdfs:label " Zoonotic Diseases Transmission Methods" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/AdditionalTherapiesRecommended>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/AdvancedAnalytics>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/DiseasePrevalenceRate>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/FieldObservationNotes>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/FollowUpCarePlans>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/GeneticDispositionAnalysisResults>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/SpeciesSpecificConditions>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/TreatmentsEfficacyData>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/WildlifeExposureRiskFactors>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineGGGS8W0Q/column/ZoonoticDiseasesTransmissionMethods> .
+

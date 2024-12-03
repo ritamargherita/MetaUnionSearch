@@ -1,0 +1,23 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathAVIQK291> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_AVIQK291.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathAVIQK291/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathAVIQK291/column/ExampleExamplePurposePurposeDescriptionTheoryKeyTheoremsNotationNotationNameSymbolMeaningRelationsRelationDescriptionFormalizationProofMethodologyFormalizationDescription> a dsv:Column ;
+    rdfs:label " \"Example\": \"Example\", \"*Purpose*\": \"Purpose Description\", \"*Theory*\": \"Key Theorems\", \"[Notation]\": \"[Notation Name] -> [Symbol Meaning]\", \"Relations\": \"Relation Description\", \"(Formalization, Proof Methodology)\": \"(Formalization Description" .
+
+<http://metaUnionSearch/datasets/MathAVIQK291/column/MathematicsFieldFieldName> a dsv:Column ;
+    rdfs:label "[\"Mathematics Field\": \"Field Name\"" .
+
+<http://metaUnionSearch/datasets/MathAVIQK291/column/ProofMethodologyResearchDirectionsRelatedResearchDirectionsChALLENGESRelatedChallengesSOLVEDPROBLEMSResolvedProblemsAppliedProjectExamplesAppliedProjectExamplesExtensionsandGeneralizationsRelatedExtensionsandGeneralizations> a dsv:Column ;
+    rdfs:label " Proof Methodology)\", \"Research Directions\": \"Related Research Directions\", \"ChALLENGES\": \"Related Challenges\", \"SOLVED PROBLEMS\": \"Resolved Problems\", \"Applied Project Examples\": \"Applied Project Examples\", \"Extensions and Generalizations\": \"Related Extensions and Generalizations\"]" .
+
+<http://metaUnionSearch/datasets/MathAVIQK291/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MathAVIQK291/column/ExampleExamplePurposePurposeDescriptionTheoryKeyTheoremsNotationNotationNameSymbolMeaningRelationsRelationDescriptionFormalizationProofMethodologyFormalizationDescription>,
+        <http://metaUnionSearch/datasets/MathAVIQK291/column/MathematicsFieldFieldName>,
+        <http://metaUnionSearch/datasets/MathAVIQK291/column/ProofMethodologyResearchDirectionsRelatedResearchDirectionsChALLENGESRelatedChallengesSOLVEDPROBLEMSResolvedProblemsAppliedProjectExamplesAppliedProjectExamplesExtensionsandGeneralizationsRelatedExtensionsandGeneralizations> .
+

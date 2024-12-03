@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CriminologyGD23HGG9> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_GD23HGG9.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CriminologyGD23HGG9/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/ArrestWarrantsIssued> a dsv:Column ;
+    rdfs:label "Arrest Warrants Issued" .
+
+<http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/CommunityServiceHours> a dsv:Column ;
+    rdfs:label " Community\\_Service\\_Hours" .
+
+<http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/FinesImposed> a dsv:Column ;
+    rdfs:label " Fines\\_Imposed (\\$" .
+
+<http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/NumberofWitnesses> a dsv:Column ;
+    rdfs:label " Number\\_of\\_Witnesses" .
+
+<http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/ParoleEligibilityDate> a dsv:Column ;
+    rdfs:label " Parole\\_Eligibility\\_Date" .
+
+<http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/ParoleHearingOutcome> a dsv:Column ;
+    rdfs:label " Parole\\_Hearing\\_Outcome" .
+
+<http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/ParoleSupervisionStatus> a dsv:Column ;
+    rdfs:label " Parole\\_Supervision\\_Status." .
+
+<http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/RehabilitationProgramsAttended> a dsv:Column ;
+    rdfs:label " Rehabilitation\\_Programs\\_Attended" .
+
+<http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/RestitutionFundsReceived> a dsv:Column ;
+    rdfs:label " Restitution\\_Funds\\_Received" .
+
+<http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/TypeofProbation> a dsv:Column ;
+    rdfs:label " Type\\_of\\_Probation" .
+
+<http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/WeaponsUsedifany> a dsv:Column ;
+    rdfs:label " Weapons\\_Used\\_if\\_any" .
+
+<http://metaUnionSearch/datasets/CriminologyGD23HGG9/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/ArrestWarrantsIssued>,
+        <http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/CommunityServiceHours>,
+        <http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/FinesImposed>,
+        <http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/NumberofWitnesses>,
+        <http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/ParoleEligibilityDate>,
+        <http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/ParoleHearingOutcome>,
+        <http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/ParoleSupervisionStatus>,
+        <http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/RehabilitationProgramsAttended>,
+        <http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/RestitutionFundsReceived>,
+        <http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/TypeofProbation>,
+        <http://metaUnionSearch/datasets/CriminologyGD23HGG9/column/WeaponsUsedifany> .
+

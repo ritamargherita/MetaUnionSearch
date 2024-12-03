@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeophysicsLC5BLMEY> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_LC5BLMEY.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/DensityLogging> a dsv:Column ;
+    rdfs:label "Density Logging" .
+
+<http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/ElectricalResistivity> a dsv:Column ;
+    rdfs:label "Electrical Resistivity" .
+
+<http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/GravityAnomalies> a dsv:Column ;
+    rdfs:label "Gravity Anomalies" .
+
+<http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/MagneticFieldIntensity> a dsv:Column ;
+    rdfs:label "Magnetic Field Intensity" .
+
+<http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/MagneticSusceptibility> a dsv:Column ;
+    rdfs:label "Magnetic Susceptibility" .
+
+<http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/PoroelasticProperties> a dsv:Column ;
+    rdfs:label "Poroelastic Properties" .
+
+<http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/RockStressMeasurements> a dsv:Column ;
+    rdfs:label "Rock Stress Measurements" .
+
+<http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/SeismicRefraction> a dsv:Column ;
+    rdfs:label "Seismic Refraction" .
+
+<http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/StrainAnalysis> a dsv:Column ;
+    rdfs:label "Strain Analysis" .
+
+<http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/ThermalProperties> a dsv:Column ;
+    rdfs:label "Thermal Properties" .
+
+<http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/DensityLogging>,
+        <http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/ElectricalResistivity>,
+        <http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/GravityAnomalies>,
+        <http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/MagneticFieldIntensity>,
+        <http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/MagneticSusceptibility>,
+        <http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/PoroelasticProperties>,
+        <http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/RockStressMeasurements>,
+        <http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/SeismicRefraction>,
+        <http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/StrainAnalysis>,
+        <http://metaUnionSearch/datasets/GeophysicsLC5BLMEY/column/ThermalProperties> .
+

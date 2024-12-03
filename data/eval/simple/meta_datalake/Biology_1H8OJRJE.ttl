@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Biology1H8OJRJE> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_1H8OJRJE.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Biology1H8OJRJE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Biology1H8OJRJE/column/ClimateFactors> a dsv:Column ;
+    rdfs:label "Climate Factors" .
+
+<http://metaUnionSearch/datasets/Biology1H8OJRJE/column/CommunityEcology> a dsv:Column ;
+    rdfs:label "Community Ecology" .
+
+<http://metaUnionSearch/datasets/Biology1H8OJRJE/column/ConservationStatus> a dsv:Column ;
+    rdfs:label "Conservation Status" .
+
+<http://metaUnionSearch/datasets/Biology1H8OJRJE/column/Diseases> a dsv:Column ;
+    rdfs:label "Diseases" .
+
+<http://metaUnionSearch/datasets/Biology1H8OJRJE/column/Epidemiology> a dsv:Column ;
+    rdfs:label "Epidemiology" .
+
+<http://metaUnionSearch/datasets/Biology1H8OJRJE/column/FoodSource> a dsv:Column ;
+    rdfs:label "Food Source" .
+
+<http://metaUnionSearch/datasets/Biology1H8OJRJE/column/HabitatPreferences> a dsv:Column ;
+    rdfs:label "Habitat Preferences" .
+
+<http://metaUnionSearch/datasets/Biology1H8OJRJE/column/MatingSystem> a dsv:Column ;
+    rdfs:label "Mating System" .
+
+<http://metaUnionSearch/datasets/Biology1H8OJRJE/column/Parasites> a dsv:Column ;
+    rdfs:label "Parasites" .
+
+<http://metaUnionSearch/datasets/Biology1H8OJRJE/column/Phylogeny> a dsv:Column ;
+    rdfs:label "Phylogeny" .
+
+<http://metaUnionSearch/datasets/Biology1H8OJRJE/column/Phylogeography> a dsv:Column ;
+    rdfs:label "Phylogeography" .
+
+<http://metaUnionSearch/datasets/Biology1H8OJRJE/column/PopulationGenetics> a dsv:Column ;
+    rdfs:label "Population Genetics" .
+
+<http://metaUnionSearch/datasets/Biology1H8OJRJE/column/Predators> a dsv:Column ;
+    rdfs:label "Predators" .
+
+<http://metaUnionSearch/datasets/Biology1H8OJRJE/column/SymbioticRelationships> a dsv:Column ;
+    rdfs:label "Symbiotic Relationships" .
+
+<http://metaUnionSearch/datasets/Biology1H8OJRJE/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Biology1H8OJRJE/column/ClimateFactors>,
+        <http://metaUnionSearch/datasets/Biology1H8OJRJE/column/CommunityEcology>,
+        <http://metaUnionSearch/datasets/Biology1H8OJRJE/column/ConservationStatus>,
+        <http://metaUnionSearch/datasets/Biology1H8OJRJE/column/Diseases>,
+        <http://metaUnionSearch/datasets/Biology1H8OJRJE/column/Epidemiology>,
+        <http://metaUnionSearch/datasets/Biology1H8OJRJE/column/FoodSource>,
+        <http://metaUnionSearch/datasets/Biology1H8OJRJE/column/HabitatPreferences>,
+        <http://metaUnionSearch/datasets/Biology1H8OJRJE/column/MatingSystem>,
+        <http://metaUnionSearch/datasets/Biology1H8OJRJE/column/Parasites>,
+        <http://metaUnionSearch/datasets/Biology1H8OJRJE/column/Phylogeny>,
+        <http://metaUnionSearch/datasets/Biology1H8OJRJE/column/Phylogeography>,
+        <http://metaUnionSearch/datasets/Biology1H8OJRJE/column/PopulationGenetics>,
+        <http://metaUnionSearch/datasets/Biology1H8OJRJE/column/Predators>,
+        <http://metaUnionSearch/datasets/Biology1H8OJRJE/column/SymbioticRelationships> .
+

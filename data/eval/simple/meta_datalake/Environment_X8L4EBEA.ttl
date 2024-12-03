@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EnvironmentX8L4EBEA> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_X8L4EBEA.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/bioaccumulativeContaminantsData> a dsv:Column ;
+    rdfs:label " bioaccumulativeContaminantsData" .
+
+<http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/climateChangeMitigationPolicies> a dsv:Column ;
+    rdfs:label " climateChangeMitigationPolicies" .
+
+<http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/ecologicalFootprintIndicators> a dsv:Column ;
+    rdfs:label " ecologicalFootprintIndicators" .
+
+<http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/fashionablyGreenSpaces> a dsv:Column ;
+    rdfs:label "fashionablyGreenSpaces" .
+
+<http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/naturallyPreservedAreas> a dsv:Column ;
+    rdfs:label " naturallyPreservedAreas" .
+
+<http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/publicAwarenessCampaignEffectiveness> a dsv:Column ;
+    rdfs:label " publicAwarenessCampaignEffectiveness" .
+
+<http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/socialEquityInEnvironmentalActions> a dsv:Column ;
+    rdfs:label " socialEquityInEnvironmentalActions" .
+
+<http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/speciesProtectionLawsStrength> a dsv:Column ;
+    rdfs:label " speciesProtectionLawsStrength" .
+
+<http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/sustainabilityInnovationLeaders> a dsv:Column ;
+    rdfs:label " sustainabilityInnovationLeaders" .
+
+<http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/unrelatedColumn12> a dsv:Column ;
+    rdfs:label " unrelatedColumn12" .
+
+<http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/urbanWildlifeIntegrationsScore> a dsv:Column ;
+    rdfs:label " urbanWildlifeIntegrations Score" .
+
+<http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/wasteManagementEfficiency> a dsv:Column ;
+    rdfs:label " wasteManagementEfficiency%" .
+
+<http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/bioaccumulativeContaminantsData>,
+        <http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/climateChangeMitigationPolicies>,
+        <http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/ecologicalFootprintIndicators>,
+        <http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/fashionablyGreenSpaces>,
+        <http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/naturallyPreservedAreas>,
+        <http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/publicAwarenessCampaignEffectiveness>,
+        <http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/socialEquityInEnvironmentalActions>,
+        <http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/speciesProtectionLawsStrength>,
+        <http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/sustainabilityInnovationLeaders>,
+        <http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/unrelatedColumn12>,
+        <http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/urbanWildlifeIntegrationsScore>,
+        <http://metaUnionSearch/datasets/EnvironmentX8L4EBEA/column/wasteManagementEfficiency> .
+

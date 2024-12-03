@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_RQ8LYYXE.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/CharityWork> a dsv:Column ;
+    rdfs:label "Charity Work" .
+
+<http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/CollaborativePerformances> a dsv:Column ;
+    rdfs:label "Collaborative Performances" .
+
+<http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/DanceStylesMastered> a dsv:Column ;
+    rdfs:label "Dance Styles Mastered" .
+
+<http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/FamousTeachers> a dsv:Column ;
+    rdfs:label "Famous Teachers" .
+
+<http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/InspirationalArtists> a dsv:Column ;
+    rdfs:label "Inspirational Artists" .
+
+<http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/InternationalTours> a dsv:Column ;
+    rdfs:label "International Tours" .
+
+<http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/LocalCommunityEngagement> a dsv:Column ;
+    rdfs:label "Local Community Engagement" .
+
+<http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/MusicalInstrumentsPlayed> a dsv:Column ;
+    rdfs:label "Musical Instruments Played" .
+
+<http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/PuppetrySkills> a dsv:Column ;
+    rdfs:label "Puppetry Skills" .
+
+<http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/Sponsorships> a dsv:Column ;
+    rdfs:label "Sponsorships." .
+
+<http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/nbsp> a dsv:Column ;
+    rdfs:label "&nbsp" .
+
+<http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/CharityWork>,
+        <http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/CollaborativePerformances>,
+        <http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/DanceStylesMastered>,
+        <http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/FamousTeachers>,
+        <http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/InspirationalArtists>,
+        <http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/InternationalTours>,
+        <http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/LocalCommunityEngagement>,
+        <http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/MusicalInstrumentsPlayed>,
+        <http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/PuppetrySkills>,
+        <http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/Sponsorships>,
+        <http://metaUnionSearch/datasets/PerformingArtsRQ8LYYXE/column/nbsp> .
+

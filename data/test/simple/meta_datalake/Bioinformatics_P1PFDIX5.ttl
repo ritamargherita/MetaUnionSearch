@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_P1PFDIX5.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/Chromosome> a dsv:Column ;
+    rdfs:label " Chromosome" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/EndPosition> a dsv:Column ;
+    rdfs:label " End Position" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/ExpressionLevel> a dsv:Column ;
+    rdfs:label " Expression Level" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/GeneName> a dsv:Column ;
+    rdfs:label "\"Gene Name" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/MutationFrequency> a dsv:Column ;
+    rdfs:label " Mutation Frequency" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/ProteinEvolution> a dsv:Column ;
+    rdfs:label " Protein Evolution\"" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/ProteinFunction> a dsv:Column ;
+    rdfs:label " Protein Function" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/ProteinInteractions> a dsv:Column ;
+    rdfs:label " Protein Interactions" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/ProteinStructure> a dsv:Column ;
+    rdfs:label " Protein Structure" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/StartPosition> a dsv:Column ;
+    rdfs:label " Start Position" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/Chromosome>,
+        <http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/EndPosition>,
+        <http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/ExpressionLevel>,
+        <http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/GeneName>,
+        <http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/MutationFrequency>,
+        <http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/ProteinEvolution>,
+        <http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/ProteinFunction>,
+        <http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/ProteinInteractions>,
+        <http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/ProteinStructure>,
+        <http://metaUnionSearch/datasets/BioinformaticsP1PFDIX5/column/StartPosition> .
+

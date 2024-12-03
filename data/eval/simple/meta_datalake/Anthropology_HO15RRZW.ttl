@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AnthropologyHO15RRZW> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_HO15RRZW.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AnthropologyHO15RRZW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/AnimalBoneAnalysis> a dsv:Column ;
+    rdfs:label " Animal Bone Analysis" .
+
+<http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/ArchaeologistName> a dsv:Column ;
+    rdfs:label "Archaeologist Name" .
+
+<http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/ArchitectureFeatures> a dsv:Column ;
+    rdfs:label " Architecture Features" .
+
+<http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/ClimateReconstruction> a dsv:Column ;
+    rdfs:label " Climate Reconstruction" .
+
+<http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/CulturalArtifactDescriptions> a dsv:Column ;
+    rdfs:label " Cultural Artifact Descriptions" .
+
+<http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/ExcavationYear> a dsv:Column ;
+    rdfs:label " Excavation Year" .
+
+<http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/FieldNotes> a dsv:Column ;
+    rdfs:label " Field Notes" .
+
+<http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/FoodRemainsStudy> a dsv:Column ;
+    rdfs:label " Food Remains Study" .
+
+<http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/GeographicalLandscapeDescription> a dsv:Column ;
+    rdfs:label " Geographical Landscape Description" .
+
+<http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/HumanSkeletalAnalysis> a dsv:Column ;
+    rdfs:label " Human Skeletal Analysis" .
+
+<http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/PotteryStyleAnalysis> a dsv:Column ;
+    rdfs:label " Pottery Style Analysis" .
+
+<http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/RadiocarbonDatingResults> a dsv:Column ;
+    rdfs:label " Radiocarbon Dating Results" .
+
+<http://metaUnionSearch/datasets/AnthropologyHO15RRZW/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/AnimalBoneAnalysis>,
+        <http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/ArchaeologistName>,
+        <http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/ArchitectureFeatures>,
+        <http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/ClimateReconstruction>,
+        <http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/CulturalArtifactDescriptions>,
+        <http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/ExcavationYear>,
+        <http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/FieldNotes>,
+        <http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/FoodRemainsStudy>,
+        <http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/GeographicalLandscapeDescription>,
+        <http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/HumanSkeletalAnalysis>,
+        <http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/PotteryStyleAnalysis>,
+        <http://metaUnionSearch/datasets/AnthropologyHO15RRZW/column/RadiocarbonDatingResults> .
+
