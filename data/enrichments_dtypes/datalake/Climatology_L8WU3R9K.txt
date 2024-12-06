@@ -1,0 +1,8 @@
+duration
+age
+position
+range
+plays
+capacity
+position
+status

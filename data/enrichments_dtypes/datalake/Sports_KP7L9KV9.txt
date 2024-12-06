@@ -1,0 +1,11 @@
+team
+team Name
+class
+team
+species
+city
+classification
+year
+plays
+address
+owner

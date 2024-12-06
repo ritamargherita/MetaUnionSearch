@@ -1,0 +1,10 @@
+album
+plays
+rank
+address
+location
+category
+notes
+person
+album
+album

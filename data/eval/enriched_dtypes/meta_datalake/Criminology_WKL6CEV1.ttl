@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CriminologyWKL6CEV1> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_WKL6CEV1.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CriminologyWKL6CEV1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/ArrestingOfficerBadgeNumber> a dsv:Column ;
+    rdfs:label " Arresting Officer Badge Number" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/ArrestingOfficerID> a dsv:Column ;
+    rdfs:label "Arresting Officer ID" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/ArrestingOfficerYearsofService> a dsv:Column ;
+    rdfs:label " Arresting Officer Years of Service" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/BailAmount> a dsv:Column ;
+    rdfs:label " Bail Amount" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/BookingNumber> a dsv:Column ;
+    rdfs:label " Booking Number" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/Charges> a dsv:Column ;
+    rdfs:label " Charges" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/CourtDate> a dsv:Column ;
+    rdfs:label " Court Date" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/IncidentArrestType> a dsv:Column ;
+    rdfs:label " Incident Arrest Type" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/JudgeAssigned> a dsv:Column ;
+    rdfs:label " Judge Assigned" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/SuspectArrestType> a dsv:Column ;
+    rdfs:label " Suspect Arrest Type" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/CriminologyWKL6CEV1/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/ArrestingOfficerBadgeNumber>,
+        <http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/ArrestingOfficerID>,
+        <http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/ArrestingOfficerYearsofService>,
+        <http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/BailAmount>,
+        <http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/BookingNumber>,
+        <http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/Charges>,
+        <http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/CourtDate>,
+        <http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/IncidentArrestType>,
+        <http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/JudgeAssigned>,
+        <http://metaUnionSearch/datasets/CriminologyWKL6CEV1/column/SuspectArrestType> .
+

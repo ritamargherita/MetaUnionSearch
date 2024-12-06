@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Politics629RHIGZ> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_629RHIGZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Politics629RHIGZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Politics629RHIGZ/column/CorruptionPerceptionIndex> a dsv:Column ;
+    rdfs:label " CorruptionPerceptionIndex" ;
+    dcterms:type "affiliation" .
+
+<http://metaUnionSearch/datasets/Politics629RHIGZ/column/ElectionResultsLegislativeTrackRecords> a dsv:Column ;
+    rdfs:label " ElectionResults_LegislativeTrackRecords" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/Politics629RHIGZ/column/ElectionResultsPublicOpinionPollingData> a dsv:Column ;
+    rdfs:label " ElectionResults_PublicOpinionPollingData" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Politics629RHIGZ/column/ElectionResultsVotingPatternAnalysis> a dsv:Column ;
+    rdfs:label " ElectionResults_VotingPatternAnalysis" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Politics629RHIGZ/column/InternationalRelationsOverview> a dsv:Column ;
+    rdfs:label " InternationalRelationsOverview" ;
+    dcterms:type "service" .
+
+<http://metaUnionSearch/datasets/Politics629RHIGZ/column/MemberDemographicsAge> a dsv:Column ;
+    rdfs:label " MemberDemographics_Age" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/Politics629RHIGZ/column/MemberDemographicsEthnicity> a dsv:Column ;
+    rdfs:label " MemberDemographics_Ethnicity" ;
+    dcterms:type "nationality" .
+
+<http://metaUnionSearch/datasets/Politics629RHIGZ/column/MemberDemographicsGender> a dsv:Column ;
+    rdfs:label " MemberDemographics_Gender" ;
+    dcterms:type "gender" .
+
+<http://metaUnionSearch/datasets/Politics629RHIGZ/column/MembershipCriteriaSpecificRequirements> a dsv:Column ;
+    rdfs:label " MembershipCriteria_SpecificRequirements" ;
+    dcterms:type "credit" .
+
+<http://metaUnionSearch/datasets/Politics629RHIGZ/column/MiscellaneousInformation> a dsv:Column ;
+    rdfs:label " MiscellaneousInformation`" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Politics629RHIGZ/column/PolicyFocusAdditionalDetails> a dsv:Column ;
+    rdfs:label "`PolicyFocus_AdditionalDetails" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Politics629RHIGZ/column/SocialMediaPresence> a dsv:Column ;
+    rdfs:label " SocialMediaPresence" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Politics629RHIGZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Politics629RHIGZ/column/CorruptionPerceptionIndex>,
+        <http://metaUnionSearch/datasets/Politics629RHIGZ/column/ElectionResultsLegislativeTrackRecords>,
+        <http://metaUnionSearch/datasets/Politics629RHIGZ/column/ElectionResultsPublicOpinionPollingData>,
+        <http://metaUnionSearch/datasets/Politics629RHIGZ/column/ElectionResultsVotingPatternAnalysis>,
+        <http://metaUnionSearch/datasets/Politics629RHIGZ/column/InternationalRelationsOverview>,
+        <http://metaUnionSearch/datasets/Politics629RHIGZ/column/MemberDemographicsAge>,
+        <http://metaUnionSearch/datasets/Politics629RHIGZ/column/MemberDemographicsEthnicity>,
+        <http://metaUnionSearch/datasets/Politics629RHIGZ/column/MemberDemographicsGender>,
+        <http://metaUnionSearch/datasets/Politics629RHIGZ/column/MembershipCriteriaSpecificRequirements>,
+        <http://metaUnionSearch/datasets/Politics629RHIGZ/column/MiscellaneousInformation>,
+        <http://metaUnionSearch/datasets/Politics629RHIGZ/column/PolicyFocusAdditionalDetails>,
+        <http://metaUnionSearch/datasets/Politics629RHIGZ/column/SocialMediaPresence> .
+

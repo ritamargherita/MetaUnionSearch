@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Religion8II49KQ7> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_8II49KQ7.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Religion8II49KQ7/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Religion8II49KQ7/column/CommunityStructureRoles> a dsv:Column ;
+    rdfs:label " Community Structure & Roles" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Religion8II49KQ7/column/Demographics> a dsv:Column ;
+    rdfs:label " Demographics" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/Religion8II49KQ7/column/DistinctivePractices> a dsv:Column ;
+    rdfs:label " Distinctive Practices\"" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Religion8II49KQ7/column/HolyTexts> a dsv:Column ;
+    rdfs:label " Holy Texts" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Religion8II49KQ7/column/ImportantSymbols> a dsv:Column ;
+    rdfs:label " Important Symbols" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Religion8II49KQ7/column/MajorSectsSubsects> a dsv:Column ;
+    rdfs:label " Major Sects & Subsects" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/Religion8II49KQ7/column/Prophets> a dsv:Column ;
+    rdfs:label " Prophets" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Religion8II49KQ7/column/ReligionName> a dsv:Column ;
+    rdfs:label "\"Religion Name" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/Religion8II49KQ7/column/ReligiousCelebrations> a dsv:Column ;
+    rdfs:label " Religious Celebrations" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Religion8II49KQ7/column/SocioeconomicStatus> a dsv:Column ;
+    rdfs:label " Socioeconomic Status" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Religion8II49KQ7/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Religion8II49KQ7/column/CommunityStructureRoles>,
+        <http://metaUnionSearch/datasets/Religion8II49KQ7/column/Demographics>,
+        <http://metaUnionSearch/datasets/Religion8II49KQ7/column/DistinctivePractices>,
+        <http://metaUnionSearch/datasets/Religion8II49KQ7/column/HolyTexts>,
+        <http://metaUnionSearch/datasets/Religion8II49KQ7/column/ImportantSymbols>,
+        <http://metaUnionSearch/datasets/Religion8II49KQ7/column/MajorSectsSubsects>,
+        <http://metaUnionSearch/datasets/Religion8II49KQ7/column/Prophets>,
+        <http://metaUnionSearch/datasets/Religion8II49KQ7/column/ReligionName>,
+        <http://metaUnionSearch/datasets/Religion8II49KQ7/column/ReligiousCelebrations>,
+        <http://metaUnionSearch/datasets/Religion8II49KQ7/column/SocioeconomicStatus> .
+

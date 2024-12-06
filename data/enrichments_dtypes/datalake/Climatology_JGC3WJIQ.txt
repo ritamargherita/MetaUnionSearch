@@ -1,0 +1,13 @@
+artist
+elevation
+elevation
+education
+plays
+plays
+director
+director
+plays
+weight
+range
+plays
+range

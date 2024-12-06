@@ -1,0 +1,10 @@
+family
+family
+type
+type
+sales
+sales
+operator
+language
+name
+category

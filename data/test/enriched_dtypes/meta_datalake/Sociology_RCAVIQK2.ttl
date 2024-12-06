@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_RCAVIQK2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SociologyRCAVIQK2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/DataVisualization> a dsv:Column ;
+    rdfs:label " DataVisualization" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/PolicyRecommendations> a dsv:Column ;
+    rdfs:label " PolicyRecommendations" ;
+    dcterms:type "credit" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchCollaboration> a dsv:Column ;
+    rdfs:label " ResearchCollaboration" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchCollaborationOutcome> a dsv:Column ;
+    rdfs:label " ResearchCollaborationOutcome" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchDissemination> a dsv:Column ;
+    rdfs:label " ResearchDissemination" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchFunding> a dsv:Column ;
+    rdfs:label " ResearchFunding" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchSupervision> a dsv:Column ;
+    rdfs:label " ResearchSupervision" ;
+    dcterms:type "credit" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchTimeline> a dsv:Column ;
+    rdfs:label " ResearchTimeline" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/SociologicalImplications> a dsv:Column ;
+    rdfs:label "SociologicalImplications" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/StakeholderEngagement> a dsv:Column ;
+    rdfs:label " StakeholderEngagement" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/DataVisualization>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/PolicyRecommendations>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchCollaboration>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchCollaborationOutcome>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchDissemination>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchFunding>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchSupervision>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchTimeline>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/SociologicalImplications>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/StakeholderEngagement> .
+

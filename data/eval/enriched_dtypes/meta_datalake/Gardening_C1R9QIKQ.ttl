@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GardeningC1R9QIKQ> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_C1R9QIKQ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GardeningC1R9QIKQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/BotanicalName> a dsv:Column ;
+    rdfs:label " BotanicalName" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/ChickenType> a dsv:Column ;
+    rdfs:label "ChickenType" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/ColdResistanceZone> a dsv:Column ;
+    rdfs:label " ColdResistanceZone" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/CommonName> a dsv:Column ;
+    rdfs:label " CommonName" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/DevelopmentTraits> a dsv:Column ;
+    rdfs:label " DevelopmentTraits" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/MoistnessFactor> a dsv:Column ;
+    rdfs:label " MoistnessFactor" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/OptimalRadiation> a dsv:Column ;
+    rdfs:label " OptimalRadiation" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/OriginalPlantDate> a dsv:Column ;
+    rdfs:label " OriginalPlantDate" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/PestsAndDiseases> a dsv:Column ;
+    rdfs:label " PestsAndDiseases" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/PreferredSoilpH> a dsv:Column ;
+    rdfs:label " PreferredSoilpH" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/TrimmingSteps> a dsv:Column ;
+    rdfs:label " TrimmingSteps" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/YieldPerUnit> a dsv:Column ;
+    rdfs:label " YieldPerUnit" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GardeningC1R9QIKQ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/BotanicalName>,
+        <http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/ChickenType>,
+        <http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/ColdResistanceZone>,
+        <http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/CommonName>,
+        <http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/DevelopmentTraits>,
+        <http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/MoistnessFactor>,
+        <http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/OptimalRadiation>,
+        <http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/OriginalPlantDate>,
+        <http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/PestsAndDiseases>,
+        <http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/PreferredSoilpH>,
+        <http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/TrimmingSteps>,
+        <http://metaUnionSearch/datasets/GardeningC1R9QIKQ/column/YieldPerUnit> .
+

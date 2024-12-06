@@ -1,0 +1,11 @@
+rank
+album
+person
+year
+brand
+location
+category
+nationality
+origin
+nationality
+notes

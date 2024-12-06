@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Business473J6IUU> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_473J6IUU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Business473J6IUU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/AnnualIncome> a dsv:Column ;
+    rdfs:label " Annual Income" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/BusinessPerformanceIndicators> a dsv:Column ;
+    rdfs:label "Business Performance Indicators" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/CensusClassificationCodeegNAICSCode> a dsv:Column ;
+    rdfs:label " Census Classification Code (e.g., NAICS Code)" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/CompanyName> a dsv:Column ;
+    rdfs:label " Company Name" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/CurrentAssetsValue> a dsv:Column ;
+    rdfs:label " Current Assets Value" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/CurrentLiabilitiesValue> a dsv:Column ;
+    rdfs:label " Current Liabilities Value" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/EBITDAMargin> a dsv:Column ;
+    rdfs:label " EBITDA Margin" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/Equity> a dsv:Column ;
+    rdfs:label " Equity" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/GrossMargin> a dsv:Column ;
+    rdfs:label " Gross Margin" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/InterestCoverageRatio> a dsv:Column ;
+    rdfs:label " Interest Coverage Ratio" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/NetProfitMargin> a dsv:Column ;
+    rdfs:label " Net Profit Margin" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/ReturnonInvestmentROI> a dsv:Column ;
+    rdfs:label " Return on Investment (ROI) %" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/RevenueGrowthRateorSalesGrowthRateYoY> a dsv:Column ;
+    rdfs:label " Revenue Growth Rate or Sales Growth Rate YoY" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/TotalExpenses> a dsv:Column ;
+    rdfs:label " Total Expenses" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Business473J6IUU/column/AnnualIncome>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/BusinessPerformanceIndicators>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/CensusClassificationCodeegNAICSCode>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/CompanyName>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/CurrentAssetsValue>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/CurrentLiabilitiesValue>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/EBITDAMargin>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/Equity>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/GrossMargin>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/InterestCoverageRatio>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/NetProfitMargin>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/ReturnonInvestmentROI>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/RevenueGrowthRateorSalesGrowthRateYoY>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/TotalExpenses> .
+

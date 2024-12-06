@@ -1,0 +1,15 @@
+range
+address
+organisation
+product
+description
+duration
+area
+capacity
+address
+address
+result
+capacity
+country
+status
+status

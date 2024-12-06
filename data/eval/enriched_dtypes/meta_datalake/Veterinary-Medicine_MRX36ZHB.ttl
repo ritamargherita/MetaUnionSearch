@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_MRX36ZHB.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/AdditionalComments> a dsv:Column ;
+    rdfs:label " Additional Comments" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/CaseID> a dsv:Column ;
+    rdfs:label " Case ID" ;
+    dcterms:type "ranking" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/Cost> a dsv:Column ;
+    rdfs:label " Cost" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/FollowupSchedule> a dsv:Column ;
+    rdfs:label " Follow-up Schedule" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/MedicalHistoryDetails> a dsv:Column ;
+    rdfs:label " Medical History Details" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/OccurrenceDate> a dsv:Column ;
+    rdfs:label " Occurrence Date" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/PrescribedMedication> a dsv:Column ;
+    rdfs:label " Prescribed Medication" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/PreviousSurgeries> a dsv:Column ;
+    rdfs:label " Previous Surgeries" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/PrognosticOutlook> a dsv:Column ;
+    rdfs:label " Prognostic Outlook" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/SpecialistConsultationNotes> a dsv:Column ;
+    rdfs:label " Specialist Consultation Notes" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/TreatingVeterinarian> a dsv:Column ;
+    rdfs:label " Treating Veterinarian" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/TreatmentDuration> a dsv:Column ;
+    rdfs:label " Treatment Duration" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/VaccinationStatus> a dsv:Column ;
+    rdfs:label "Vaccination Status" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/AdditionalComments>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/CaseID>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/Cost>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/FollowupSchedule>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/MedicalHistoryDetails>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/OccurrenceDate>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/PrescribedMedication>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/PreviousSurgeries>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/PrognosticOutlook>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/SpecialistConsultationNotes>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/TreatingVeterinarian>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/TreatmentDuration>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineMRX36ZHB/column/VaccinationStatus> .
+

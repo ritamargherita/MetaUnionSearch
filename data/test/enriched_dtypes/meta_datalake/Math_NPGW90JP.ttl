@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_NPGW90JP.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathNPGW90JP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/AdvancedExtensions> a dsv:Column ;
+    rdfs:label " Advanced Extensions" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/CommonChallenges> a dsv:Column ;
+    rdfs:label " Common Challenges" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/Definition> a dsv:Column ;
+    rdfs:label " Definition" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/InnovativeApplications> a dsv:Column ;
+    rdfs:label " Innovative Applications" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/MathArea> a dsv:Column ;
+    rdfs:label "Math Area" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/Properties> a dsv:Column ;
+    rdfs:label " Properties" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/RealWorldConnections> a dsv:Column ;
+    rdfs:label " Real-World Connections." ;
+    dcterms:type "director" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/SpecificTopic> a dsv:Column ;
+    rdfs:label " Specific Topic" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/SymbolismsNotations> a dsv:Column ;
+    rdfs:label " Symbolisms & Notations" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/column/TeachingStrategies> a dsv:Column ;
+    rdfs:label " Teaching Strategies" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathNPGW90JP/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MathNPGW90JP/column/AdvancedExtensions>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/CommonChallenges>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/Definition>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/InnovativeApplications>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/MathArea>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/Properties>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/RealWorldConnections>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/SpecificTopic>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/SymbolismsNotations>,
+        <http://metaUnionSearch/datasets/MathNPGW90JP/column/TeachingStrategies> .
+

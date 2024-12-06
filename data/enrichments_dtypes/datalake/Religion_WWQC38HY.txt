@@ -1,0 +1,11 @@
+sex
+origin
+name
+name
+name
+religion
+language
+album
+affiliation
+album
+region

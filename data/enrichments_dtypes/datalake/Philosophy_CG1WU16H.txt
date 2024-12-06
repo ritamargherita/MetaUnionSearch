@@ -1,0 +1,14 @@
+person
+address
+plays
+description
+notes
+notes
+notes
+notes
+status
+area
+category
+artist
+artist
+artist

@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Biology2KTBCUDS> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_2KTBCUDS.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Biology2KTBCUDS/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Biology2KTBCUDS/column/1Ecosystemrole> a dsv:Column ;
+    rdfs:label "1. Ecosystem role" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/Biology2KTBCUDS/column/2Trophiclevel> a dsv:Column ;
+    rdfs:label "2. Trophic level" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Biology2KTBCUDS/column/3Adaptationmechanisms> a dsv:Column ;
+    rdfs:label "3. Adaptation mechanisms" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Chromosomallocation> a dsv:Column ;
+    rdfs:label "Chromosomal location" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Coexpressionnetworks> a dsv:Column ;
+    rdfs:label "Coexpression networks" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Diseaseassociations> a dsv:Column ;
+    rdfs:label "Disease associations" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Expressionregulationmechanisms> a dsv:Column ;
+    rdfs:label "Expression regulation mechanisms" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Geneduplicationevents> a dsv:Column ;
+    rdfs:label "Gene duplication events" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Genomiccontextsynteny> a dsv:Column ;
+    rdfs:label "Genomic context (synteny)" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Phosphorylationdynamics> a dsv:Column ;
+    rdfs:label "Phosphorylation dynamics" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Posttranslationalmodificationsites> a dsv:Column ;
+    rdfs:label "Posttranslational modification sites" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Proteinfamilyclassification> a dsv:Column ;
+    rdfs:label "Protein family classification" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Subcellularlocalizeddomaincomposition> a dsv:Column ;
+    rdfs:label "Subcellular localized domain composition" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Symbioticrelationships> a dsv:Column ;
+    rdfs:label "Symbiotic relationships" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Biology2KTBCUDS/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Biology2KTBCUDS/column/1Ecosystemrole>,
+        <http://metaUnionSearch/datasets/Biology2KTBCUDS/column/2Trophiclevel>,
+        <http://metaUnionSearch/datasets/Biology2KTBCUDS/column/3Adaptationmechanisms>,
+        <http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Chromosomallocation>,
+        <http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Coexpressionnetworks>,
+        <http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Diseaseassociations>,
+        <http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Expressionregulationmechanisms>,
+        <http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Geneduplicationevents>,
+        <http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Genomiccontextsynteny>,
+        <http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Phosphorylationdynamics>,
+        <http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Posttranslationalmodificationsites>,
+        <http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Proteinfamilyclassification>,
+        <http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Subcellularlocalizeddomaincomposition>,
+        <http://metaUnionSearch/datasets/Biology2KTBCUDS/column/Symbioticrelationships> .
+

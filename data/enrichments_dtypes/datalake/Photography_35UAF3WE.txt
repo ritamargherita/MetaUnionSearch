@@ -1,0 +1,16 @@
+description
+name
+product
+location
+component
+category
+company
+name
+code
+product
+product
+weight
+position
+education
+notes
+class

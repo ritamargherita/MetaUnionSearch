@@ -1,0 +1,15 @@
+location
+location
+year
+artist
+category
+type
+operator
+notes
+description
+sales
+description
+operator
+operator
+status
+artist

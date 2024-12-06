@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Fashion7AYNU0XG> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_7AYNU0XG.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Fashion7AYNU0XG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/ApparelType> a dsv:Column ;
+    rdfs:label "Apparel Type" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Collection> a dsv:Column ;
+    rdfs:label " Collection" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Cost> a dsv:Column ;
+    rdfs:label " Cost" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Design> a dsv:Column ;
+    rdfs:label " Design" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Event> a dsv:Column ;
+    rdfs:label " Event" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Fabric> a dsv:Column ;
+    rdfs:label " Fabric" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Fit> a dsv:Column ;
+    rdfs:label " Fit" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Hue> a dsv:Column ;
+    rdfs:label " Hue" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Label> a dsv:Column ;
+    rdfs:label " Label" ;
+    dcterms:type "brand" .
+
+<http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/PurchaseTime> a dsv:Column ;
+    rdfs:label " Purchase Time" ;
+    dcterms:type "day" .
+
+<http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Quantity> a dsv:Column ;
+    rdfs:label " Quantity" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/ReturnPeriod> a dsv:Column ;
+    rdfs:label " Return Period" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Supplier> a dsv:Column ;
+    rdfs:label " Supplier" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/Fashion7AYNU0XG/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/ApparelType>,
+        <http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Collection>,
+        <http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Cost>,
+        <http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Design>,
+        <http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Event>,
+        <http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Fabric>,
+        <http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Fit>,
+        <http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Hue>,
+        <http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Label>,
+        <http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/PurchaseTime>,
+        <http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Quantity>,
+        <http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/ReturnPeriod>,
+        <http://metaUnionSearch/datasets/Fashion7AYNU0XG/column/Supplier> .
+

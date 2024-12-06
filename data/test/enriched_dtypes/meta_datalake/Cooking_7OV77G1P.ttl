@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P> a dsv:Dataset ;
+    dcterms:subject "cooking" ;
+    dcterms:title "Cooking_7OV77G1P.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Cooking7OV77G1P/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/AverageCost> a dsv:Column ;
+    rdfs:label " Average Cost$$" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/CookTimealternate> a dsv:Column ;
+    rdfs:label " Cook Time (alternate)" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/Cuisine> a dsv:Column ;
+    rdfs:label " Cuisine" ;
+    dcterms:type "nationality" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/DietaryRestrictions> a dsv:Column ;
+    rdfs:label " Dietary Restrictions?" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/EstimatedCalories> a dsv:Column ;
+    rdfs:label " Estimated Calories*" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/IngredientSource> a dsv:Column ;
+    rdfs:label " Ingredient Source*$" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/IngredientsList> a dsv:Column ;
+    rdfs:label " Ingredients List" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/NewToolsUsed> a dsv:Column ;
+    rdfs:label " New Tools Used^" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/PrepTimealternate> a dsv:Column ;
+    rdfs:label " Prep Time (alternate)" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/RecipeName> a dsv:Column ;
+    rdfs:label "Recipe Name" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/Servings> a dsv:Column ;
+    rdfs:label " Servings**" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/StepswithTimestamps> a dsv:Column ;
+    rdfs:label " Steps with Timestamps$" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/AverageCost>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/CookTimealternate>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/Cuisine>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/DietaryRestrictions>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/EstimatedCalories>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/IngredientSource>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/IngredientsList>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/NewToolsUsed>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/PrepTimealternate>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/RecipeName>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/Servings>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/StepswithTimestamps> .
+

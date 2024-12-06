@@ -1,0 +1,16 @@
+product
+description
+address
+year
+notes
+location
+classification
+manufacturer
+country
+organisation
+description
+class
+notes
+description
+type
+description

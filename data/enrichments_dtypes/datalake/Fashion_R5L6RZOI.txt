@@ -1,0 +1,14 @@
+rank
+product
+category
+code
+description
+product
+brand
+rank
+status
+category
+ranking
+status
+company
+description

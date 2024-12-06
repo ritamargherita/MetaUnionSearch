@@ -1,0 +1,11 @@
+depth
+result
+name
+capacity
+type
+capacity
+range
+service
+address
+status
+type

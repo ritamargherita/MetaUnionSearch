@@ -1,0 +1,15 @@
+type
+area
+area
+component
+notes
+description
+product
+description
+description
+result
+duration
+capacity
+description
+affiliation
+location

@@ -1,0 +1,15 @@
+name
+origin
+capacity
+region
+area
+species
+description
+classification
+type
+type
+species
+species
+description
+component
+category

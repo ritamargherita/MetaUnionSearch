@@ -1,0 +1,10 @@
+description
+class
+capacity
+description
+description
+weight
+description
+notes
+capacity
+type

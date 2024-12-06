@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeographyT6MJXK87> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_T6MJXK87.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/AverageAnnualTemperature> a dsv:Column ;
+    rdfs:label "\"Average Annual Temperature\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/CapitalCityStatus> a dsv:Column ;
+    rdfs:label "\"\\* Capital City Status *\"" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/CityAreaOutOfCountryTotal> a dsv:Column ;
+    rdfs:label "\"\\* City Area Out Of Country Total *\"" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/CityAreaofCountry> a dsv:Column ;
+    rdfs:label "\"% City Area of Country\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/CityNames> a dsv:Column ;
+    rdfs:label "\"City Names\"" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/CityTimeZone> a dsv:Column ;
+    rdfs:label "\"\\* City Time Zone *\"" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/ClosenesstoMajorRiver> a dsv:Column ;
+    rdfs:label "\"Closeness to Major River\"" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/ContinentinCity> a dsv:Column ;
+    rdfs:label "\"Continent in City\"" ;
+    dcterms:type "continent" .
+
+<http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/CountryInternetTLDinCity> a dsv:Column ;
+    rdfs:label "\"\\* Country Internet TLD in City *\"" ;
+    dcterms:type "collection" .
+
+<http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/MajorRiverFlowsThroughCity> a dsv:Column ;
+    rdfs:label "\"\\* Major River Flows Through City *\"" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/OfficialLanguagesinCity> a dsv:Column ;
+    rdfs:label "\"\\* Official Language(s) in City *\"" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/PopulationDensityinCity> a dsv:Column ;
+    rdfs:label "\"\\* Population Density in City *\"" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/TouristAttractions> a dsv:Column ;
+    rdfs:label "\"Tourist Attractions\"" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/UrbanPopulation> a dsv:Column ;
+    rdfs:label "\"Urban Population\"" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/AverageAnnualTemperature>,
+        <http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/CapitalCityStatus>,
+        <http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/CityAreaOutOfCountryTotal>,
+        <http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/CityAreaofCountry>,
+        <http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/CityNames>,
+        <http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/CityTimeZone>,
+        <http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/ClosenesstoMajorRiver>,
+        <http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/ContinentinCity>,
+        <http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/CountryInternetTLDinCity>,
+        <http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/MajorRiverFlowsThroughCity>,
+        <http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/OfficialLanguagesinCity>,
+        <http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/PopulationDensityinCity>,
+        <http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/TouristAttractions>,
+        <http://metaUnionSearch/datasets/WorldGeographyT6MJXK87/column/UrbanPopulation> .
+

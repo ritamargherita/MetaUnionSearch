@@ -1,0 +1,10 @@
+name
+city
+origin
+language
+notes
+album
+operator
+name
+notes
+education

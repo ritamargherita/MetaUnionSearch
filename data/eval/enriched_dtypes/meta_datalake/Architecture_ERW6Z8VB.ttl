@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_ERW6Z8VB.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/AdditionalColumnA> a dsv:Column ;
+    rdfs:label " \"Additional Column A\"" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/AdditionalColumnB> a dsv:Column ;
+    rdfs:label " \"Additional Column B\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/AdditionalColumnC> a dsv:Column ;
+    rdfs:label " \"Additional Column C\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/AdditionalColumnD> a dsv:Column ;
+    rdfs:label " \"Additional Column D\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/AdditionalColumnE> a dsv:Column ;
+    rdfs:label " \"Additional Column E\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/AdditionalColumnF> a dsv:Column ;
+    rdfs:label " \"Additional Column F\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/AdditionalColumnG> a dsv:Column ;
+    rdfs:label " \"Additional Column G\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/AdditionalColumnH> a dsv:Column ;
+    rdfs:label " \"Additional Column H\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/ArchitecturalType> a dsv:Column ;
+    rdfs:label "\"Architectural Type\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/EffectiveAreawithitsunitsasAreaValueunits> a dsv:Column ;
+    rdfs:label " \"Effective Area\" with its units as AreaValue[units]" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/ExtendedInfoasSizePlus> a dsv:Column ;
+    rdfs:label " \"Extended Info\" as SizePlus" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/MaterialEquivalentasMatNew> a dsv:Column ;
+    rdfs:label " \"Material Equivalent\" as MatNew" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/PeriodEquivalent> a dsv:Column ;
+    rdfs:label " \"Period Equivalent\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/StructurallySimilarLocationasStructLoc> a dsv:Column ;
+    rdfs:label " \"Structurally Similar Location\" as StructLoc" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/StyleEquivalent> a dsv:Column ;
+    rdfs:label " \"Style Equivalent\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/AdditionalColumnA>,
+        <http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/AdditionalColumnB>,
+        <http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/AdditionalColumnC>,
+        <http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/AdditionalColumnD>,
+        <http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/AdditionalColumnE>,
+        <http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/AdditionalColumnF>,
+        <http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/AdditionalColumnG>,
+        <http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/AdditionalColumnH>,
+        <http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/ArchitecturalType>,
+        <http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/EffectiveAreawithitsunitsasAreaValueunits>,
+        <http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/ExtendedInfoasSizePlus>,
+        <http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/MaterialEquivalentasMatNew>,
+        <http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/PeriodEquivalent>,
+        <http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/StructurallySimilarLocationasStructLoc>,
+        <http://metaUnionSearch/datasets/ArchitectureERW6Z8VB/column/StyleEquivalent> .
+

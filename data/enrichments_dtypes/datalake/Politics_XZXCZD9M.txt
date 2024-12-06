@@ -1,0 +1,13 @@
+category
+age
+address
+artist
+duration
+currency
+description
+age
+type
+category
+description
+affiliation
+description

@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ReligionWWQC38HY> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_WWQC38HY.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ReligionWWQC38HY/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ReligionWWQC38HY/column/AfterlifeConcepts> a dsv:Column ;
+    rdfs:label " Afterlife Concepts" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ReligionWWQC38HY/column/Architecture> a dsv:Column ;
+    rdfs:label " Architecture" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/ReligionWWQC38HY/column/Artifacts> a dsv:Column ;
+    rdfs:label " Artifacts" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/ReligionWWQC38HY/column/EthicalGuidelinesForLiving> a dsv:Column ;
+    rdfs:label " Ethical Guidelines For Living." ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ReligionWWQC38HY/column/Holidays> a dsv:Column ;
+    rdfs:label " Holidays" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ReligionWWQC38HY/column/LayOrganizations> a dsv:Column ;
+    rdfs:label " Lay Organizations" ;
+    dcterms:type "affiliation" .
+
+<http://metaUnionSearch/datasets/ReligionWWQC38HY/column/MoralityTeachings> a dsv:Column ;
+    rdfs:label "Morality Teachings" ;
+    dcterms:type "sex" .
+
+<http://metaUnionSearch/datasets/ReligionWWQC38HY/column/MusicAndDanceForms> a dsv:Column ;
+    rdfs:label " Music And Dance Forms" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/ReligionWWQC38HY/column/SacredSpaces> a dsv:Column ;
+    rdfs:label " Sacred Spaces" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ReligionWWQC38HY/column/ScholarlyInstitutions> a dsv:Column ;
+    rdfs:label " Scholarly Institutions" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/ReligionWWQC38HY/column/SpiritualPractices> a dsv:Column ;
+    rdfs:label " Spiritual Practices" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/ReligionWWQC38HY/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ReligionWWQC38HY/column/AfterlifeConcepts>,
+        <http://metaUnionSearch/datasets/ReligionWWQC38HY/column/Architecture>,
+        <http://metaUnionSearch/datasets/ReligionWWQC38HY/column/Artifacts>,
+        <http://metaUnionSearch/datasets/ReligionWWQC38HY/column/EthicalGuidelinesForLiving>,
+        <http://metaUnionSearch/datasets/ReligionWWQC38HY/column/Holidays>,
+        <http://metaUnionSearch/datasets/ReligionWWQC38HY/column/LayOrganizations>,
+        <http://metaUnionSearch/datasets/ReligionWWQC38HY/column/MoralityTeachings>,
+        <http://metaUnionSearch/datasets/ReligionWWQC38HY/column/MusicAndDanceForms>,
+        <http://metaUnionSearch/datasets/ReligionWWQC38HY/column/SacredSpaces>,
+        <http://metaUnionSearch/datasets/ReligionWWQC38HY/column/ScholarlyInstitutions>,
+        <http://metaUnionSearch/datasets/ReligionWWQC38HY/column/SpiritualPractices> .
+

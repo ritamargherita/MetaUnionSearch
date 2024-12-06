@@ -1,0 +1,13 @@
+brand
+genre
+genre
+name
+description
+organisation
+artist
+publisher
+species
+description
+person
+language
+name

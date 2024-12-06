@@ -1,0 +1,13 @@
+rank
+album
+artist
+genre
+format
+grades
+album
+category
+grades
+operator
+status
+artist
+duration

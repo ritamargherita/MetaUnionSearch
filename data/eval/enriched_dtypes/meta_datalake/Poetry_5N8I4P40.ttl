@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Poetry5N8I4P40> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_5N8I4P40.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Poetry5N8I4P40/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Poetry5N8I4P40/column/Author> a dsv:Column ;
+    rdfs:label " Author" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Poetry5N8I4P40/column/LiteraryTechnique1> a dsv:Column ;
+    rdfs:label " Literary Technique 1" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Poetry5N8I4P40/column/LiteraryTechnique2> a dsv:Column ;
+    rdfs:label " Literary Technique 2" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Poetry5N8I4P40/column/MetaphorUsage> a dsv:Column ;
+    rdfs:label " Metaphor Usage" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Poetry5N8I4P40/column/RhetoricalQuestions> a dsv:Column ;
+    rdfs:label " Rhetorical Questions" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Poetry5N8I4P40/column/RhymeScheme> a dsv:Column ;
+    rdfs:label " Rhyme Scheme" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/Poetry5N8I4P40/column/StanzaCount> a dsv:Column ;
+    rdfs:label " Stanza Count" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Poetry5N8I4P40/column/Title> a dsv:Column ;
+    rdfs:label "Title" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Poetry5N8I4P40/column/ToneVariation> a dsv:Column ;
+    rdfs:label " Tone Variation" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Poetry5N8I4P40/column/WordChoice> a dsv:Column ;
+    rdfs:label " Word Choice" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Poetry5N8I4P40/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Poetry5N8I4P40/column/Author>,
+        <http://metaUnionSearch/datasets/Poetry5N8I4P40/column/LiteraryTechnique1>,
+        <http://metaUnionSearch/datasets/Poetry5N8I4P40/column/LiteraryTechnique2>,
+        <http://metaUnionSearch/datasets/Poetry5N8I4P40/column/MetaphorUsage>,
+        <http://metaUnionSearch/datasets/Poetry5N8I4P40/column/RhetoricalQuestions>,
+        <http://metaUnionSearch/datasets/Poetry5N8I4P40/column/RhymeScheme>,
+        <http://metaUnionSearch/datasets/Poetry5N8I4P40/column/StanzaCount>,
+        <http://metaUnionSearch/datasets/Poetry5N8I4P40/column/Title>,
+        <http://metaUnionSearch/datasets/Poetry5N8I4P40/column/ToneVariation>,
+        <http://metaUnionSearch/datasets/Poetry5N8I4P40/column/WordChoice> .
+

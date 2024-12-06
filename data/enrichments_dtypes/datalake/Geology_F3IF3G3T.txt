@@ -1,0 +1,10 @@
+publisher
+brand
+range
+region
+operator
+address
+album
+capacity
+capacity
+capacity

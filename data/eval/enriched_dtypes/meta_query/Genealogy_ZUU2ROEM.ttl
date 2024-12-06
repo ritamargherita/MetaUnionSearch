@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GenealogyZUU2ROEM> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_ZUU2ROEM.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GenealogyZUU2ROEM/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/DateOfBirth> a dsv:Column ;
+    rdfs:label " DateOfBirth" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/DeathDate> a dsv:Column ;
+    rdfs:label " DeathDate" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/FatherFirstName> a dsv:Column ;
+    rdfs:label " FatherFirstName" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/FatherLastName> a dsv:Column ;
+    rdfs:label " FatherLastName" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/GivenName> a dsv:Column ;
+    rdfs:label " GivenName" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/MarriageDate> a dsv:Column ;
+    rdfs:label " MarriageDate" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/MiddleName> a dsv:Column ;
+    rdfs:label " MiddleName" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/MotherMaidenName> a dsv:Column ;
+    rdfs:label " MotherMaidenName" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/PersonID> a dsv:Column ;
+    rdfs:label "PersonID" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/PlaceOfBirth> a dsv:Column ;
+    rdfs:label " PlaceOfBirth" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/SSN> a dsv:Column ;
+    rdfs:label " SSN" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/SpouseName> a dsv:Column ;
+    rdfs:label " SpouseName" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/Surname> a dsv:Column ;
+    rdfs:label " Surname" ;
+    dcterms:type "family" .
+
+<http://metaUnionSearch/datasets/GenealogyZUU2ROEM/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/DateOfBirth>,
+        <http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/DeathDate>,
+        <http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/FatherFirstName>,
+        <http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/FatherLastName>,
+        <http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/GivenName>,
+        <http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/MarriageDate>,
+        <http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/MiddleName>,
+        <http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/MotherMaidenName>,
+        <http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/PersonID>,
+        <http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/PlaceOfBirth>,
+        <http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/SSN>,
+        <http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/SpouseName>,
+        <http://metaUnionSearch/datasets/GenealogyZUU2ROEM/column/Surname> .
+

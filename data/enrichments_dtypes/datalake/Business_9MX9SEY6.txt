@@ -1,0 +1,15 @@
+name
+industry
+industry
+sales
+address
+capacity
+age
+capacity
+address
+address
+address
+address
+address
+address
+address

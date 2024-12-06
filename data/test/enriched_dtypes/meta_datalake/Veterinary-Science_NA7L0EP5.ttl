@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_NA7L0EP5.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/Allergies> a dsv:Column ;
+    rdfs:label " Allergies" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/AllergyReaction> a dsv:Column ;
+    rdfs:label " Allergy Reaction" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/DentalChart> a dsv:Column ;
+    rdfs:label " Dental Chart" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/EmergencyContactInfo> a dsv:Column ;
+    rdfs:label " Emergency Contact Info" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/FollowupAppointmentDate> a dsv:Column ;
+    rdfs:label " Follow-up Appointment Date" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/LabResults> a dsv:Column ;
+    rdfs:label " Lab Results" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/LastVaccinationDate> a dsv:Column ;
+    rdfs:label " Last Vaccination Date" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/MedicationsPrescribed> a dsv:Column ;
+    rdfs:label " Medications Prescribed" ;
+    dcterms:type "requirement" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/OwnerEducationLevel> a dsv:Column ;
+    rdfs:label " Owner Education Level" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/RadiologyReports> a dsv:Column ;
+    rdfs:label " Radiology Reports" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/RehabilitationTherapyNotes> a dsv:Column ;
+    rdfs:label " Rehabilitation Therapy Notes" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/SpecialistConsultations> a dsv:Column ;
+    rdfs:label " Specialist Consultations" ;
+    dcterms:type "service" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/SurgicalProcedures> a dsv:Column ;
+    rdfs:label " Surgical Procedures" ;
+    dcterms:type "sex" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/VaccinationStatus> a dsv:Column ;
+    rdfs:label " Vaccination Status" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/VetStaffName> a dsv:Column ;
+    rdfs:label "Vet Staff Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/Allergies>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/AllergyReaction>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/DentalChart>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/EmergencyContactInfo>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/FollowupAppointmentDate>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/LabResults>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/LastVaccinationDate>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/MedicationsPrescribed>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/OwnerEducationLevel>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/RadiologyReports>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/RehabilitationTherapyNotes>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/SpecialistConsultations>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/SurgicalProcedures>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/VaccinationStatus>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceNA7L0EP5/column/VetStaffName> .
+

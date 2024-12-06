@@ -1,0 +1,11 @@
+product
+credit
+origin
+name
+name
+description
+description
+name
+description
+description
+category

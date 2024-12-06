@@ -1,0 +1,11 @@
+sales
+product
+name
+description
+area
+description
+description
+description
+description
+description
+description

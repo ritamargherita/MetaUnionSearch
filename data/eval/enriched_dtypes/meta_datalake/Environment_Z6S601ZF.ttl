@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EnvironmentZ6S601ZF> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_Z6S601ZF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/ClimatePolicyIndex> a dsv:Column ;
+    rdfs:label "Climate\\_Policy\\_Index" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/ConservationBudget> a dsv:Column ;
+    rdfs:label "Conservation\\_Budget" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/EcoTourismRevenue> a dsv:Column ;
+    rdfs:label "Eco\\_Tourism\\_Revenue" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/EndangeredSpeciesListed> a dsv:Column ;
+    rdfs:label "Endangered\\_Species\\_Listed" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/FossilFuelConsumption> a dsv:Column ;
+    rdfs:label "Fossil\\_Fuel\\_Consumption" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/NaturalDisasterFrequency> a dsv:Column ;
+    rdfs:label "Natural\\_Disaster\\_Frequency" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/ProtectedAreaPercentage> a dsv:Column ;
+    rdfs:label "Protected\\_Area\\_Percentage" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/PublicEducationLevelonEnvironment> a dsv:Column ;
+    rdfs:label "Public\\_Education\\_Level\\_on\\_Environment" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/RecyclingRate> a dsv:Column ;
+    rdfs:label "Recycling\\_Rate" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/RenewableEnergyPercentage> a dsv:Column ;
+    rdfs:label "Renewable\\_Energy\\_Percentage" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/TreeCoveragePercentage> a dsv:Column ;
+    rdfs:label "Tree\\_Coverage\\_Percentage" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/WildlifeCrimeIncidents> a dsv:Column ;
+    rdfs:label "Wildlife\\_Crime\\_Incidents" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/ClimatePolicyIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/ConservationBudget>,
+        <http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/EcoTourismRevenue>,
+        <http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/EndangeredSpeciesListed>,
+        <http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/FossilFuelConsumption>,
+        <http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/NaturalDisasterFrequency>,
+        <http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/ProtectedAreaPercentage>,
+        <http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/PublicEducationLevelonEnvironment>,
+        <http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/RecyclingRate>,
+        <http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/RenewableEnergyPercentage>,
+        <http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/TreeCoveragePercentage>,
+        <http://metaUnionSearch/datasets/EnvironmentZ6S601ZF/column/WildlifeCrimeIncidents> .
+

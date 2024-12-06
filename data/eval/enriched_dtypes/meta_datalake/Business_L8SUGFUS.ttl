@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_L8SUGFUS.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BusinessL8SUGFUS/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/AnnualRevenue> a dsv:Column ;
+    rdfs:label "AnnualRevenue" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/BusinessIndustryTrendAnalysis> a dsv:Column ;
+    rdfs:label "BusinessIndustryTrendAnalysis" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/CensusClassificationCodeegNAICSSIC> a dsv:Column ;
+    rdfs:label "CensusClassificationCode(e.g.,NAICS,SIC)" ;
+    dcterms:type "industry" .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/CompanyName> a dsv:Column ;
+    rdfs:label "CompanyName" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/CurrentAssetValue> a dsv:Column ;
+    rdfs:label "CurrentAssetValue" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/CurrentLiabilityValueTrend5Years> a dsv:Column ;
+    rdfs:label "CurrentLiabilityValueTrend(5Years)" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/FiveYearIndustryAverageRevenueTrend5Years> a dsv:Column ;
+    rdfs:label "FiveYearIndustryAverageRevenueTrend(5Years)" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/GrossProfitMarginpercent> a dsv:Column ;
+    rdfs:label "GrossProfitMargin(percent,%)" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/InterestCoverageRatioEndingFiveYears> a dsv:Column ;
+    rdfs:label "InterestCoverageRatioEndingFiveYears" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/MarketCapitalizationoptional> a dsv:Column ;
+    rdfs:label "MarketCapitalization(optional)" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/NetProfitMarginpercent> a dsv:Column ;
+    rdfs:label "NetProfitMargin(percent,%)" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/NetWorthEndingYearoptional> a dsv:Column ;
+    rdfs:label "NetWorthEndingYear(optional)" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/ROIVariabilitypercent> a dsv:Column ;
+    rdfs:label "ROIVariability(percent,%)" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/RevenueGrowthRate> a dsv:Column ;
+    rdfs:label "RevenueGrowthRate" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/StockPerformanceAnalysisPercentChangeOptional> a dsv:Column ;
+    rdfs:label "StockPerformanceAnalysis(PercentChange,Optional)" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/BusinessL8SUGFUS/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/AnnualRevenue>,
+        <http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/BusinessIndustryTrendAnalysis>,
+        <http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/CensusClassificationCodeegNAICSSIC>,
+        <http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/CompanyName>,
+        <http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/CurrentAssetValue>,
+        <http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/CurrentLiabilityValueTrend5Years>,
+        <http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/FiveYearIndustryAverageRevenueTrend5Years>,
+        <http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/GrossProfitMarginpercent>,
+        <http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/InterestCoverageRatioEndingFiveYears>,
+        <http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/MarketCapitalizationoptional>,
+        <http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/NetProfitMarginpercent>,
+        <http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/NetWorthEndingYearoptional>,
+        <http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/ROIVariabilitypercent>,
+        <http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/RevenueGrowthRate>,
+        <http://metaUnionSearch/datasets/BusinessL8SUGFUS/column/StockPerformanceAnalysisPercentChangeOptional> .
+

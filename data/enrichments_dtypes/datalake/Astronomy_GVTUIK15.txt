@@ -1,0 +1,12 @@
+album
+type
+duration
+depth
+region
+duration
+range
+product
+range
+year
+position
+status

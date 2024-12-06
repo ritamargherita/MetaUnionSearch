@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SociologyBCP4E30M> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_BCP4E30M.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SociologyBCP4E30M/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SociologyBCP4E30M/column/AccessibilityStatement> a dsv:Column ;
+    rdfs:label " AccessibilityStatement" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/SociologyBCP4E30M/column/CollaborationDetails> a dsv:Column ;
+    rdfs:label " CollaborationDetails" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/SociologyBCP4E30M/column/DataQuality> a dsv:Column ;
+    rdfs:label " DataQuality" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/SociologyBCP4E30M/column/DataSharingPolicy> a dsv:Column ;
+    rdfs:label " DataSharingPolicy" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyBCP4E30M/column/FundingSource> a dsv:Column ;
+    rdfs:label " FundingSource" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/SociologyBCP4E30M/column/OpenResearchPractices> a dsv:Column ;
+    rdfs:label " OpenResearchPractices" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyBCP4E30M/column/ResearchBias> a dsv:Column ;
+    rdfs:label " ResearchBias" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyBCP4E30M/column/ResearchImpact> a dsv:Column ;
+    rdfs:label " ResearchImpact." ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyBCP4E30M/column/SociologistBackground> a dsv:Column ;
+    rdfs:label "SociologistBackground" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/SociologyBCP4E30M/column/StudyDuration> a dsv:Column ;
+    rdfs:label " StudyDuration" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/SociologyBCP4E30M/column/StudyYear> a dsv:Column ;
+    rdfs:label " StudyYear" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/SociologyBCP4E30M/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SociologyBCP4E30M/column/AccessibilityStatement>,
+        <http://metaUnionSearch/datasets/SociologyBCP4E30M/column/CollaborationDetails>,
+        <http://metaUnionSearch/datasets/SociologyBCP4E30M/column/DataQuality>,
+        <http://metaUnionSearch/datasets/SociologyBCP4E30M/column/DataSharingPolicy>,
+        <http://metaUnionSearch/datasets/SociologyBCP4E30M/column/FundingSource>,
+        <http://metaUnionSearch/datasets/SociologyBCP4E30M/column/OpenResearchPractices>,
+        <http://metaUnionSearch/datasets/SociologyBCP4E30M/column/ResearchBias>,
+        <http://metaUnionSearch/datasets/SociologyBCP4E30M/column/ResearchImpact>,
+        <http://metaUnionSearch/datasets/SociologyBCP4E30M/column/SociologistBackground>,
+        <http://metaUnionSearch/datasets/SociologyBCP4E30M/column/StudyDuration>,
+        <http://metaUnionSearch/datasets/SociologyBCP4E30M/column/StudyYear> .
+

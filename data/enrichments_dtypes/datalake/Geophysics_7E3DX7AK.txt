@@ -1,0 +1,12 @@
+product
+rank
+status
+description
+address
+weight
+operator
+description
+album
+status
+status
+status

@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ScienceQ3TMY4GP> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_Q3TMY4GP.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ScienceQ3TMY4GP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/ComparisonGroups> a dsv:Column ;
+    rdfs:label "Comparison Group(s)" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/EthicalApprovalStatus> a dsv:Column ;
+    rdfs:label "Ethical Approval Status" ;
+    dcterms:type "director" .
+
+<http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/ExperimentalGroup> a dsv:Column ;
+    rdfs:label "Experimental Group" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/FundingSource> a dsv:Column ;
+    rdfs:label "Funding Source" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/Keywords> a dsv:Column ;
+    rdfs:label "Keywords" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/NotableQuotes> a dsv:Column ;
+    rdfs:label "Notable Quotes" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/ObservationalFindings> a dsv:Column ;
+    rdfs:label "Observational Findings" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/PublicationYear> a dsv:Column ;
+    rdfs:label "Publication Year" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/ResearchLimitations> a dsv:Column ;
+    rdfs:label "Research Limitations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/Researchers> a dsv:Column ;
+    rdfs:label "Researchers" ;
+    dcterms:type "director" .
+
+<http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/SampleSize> a dsv:Column ;
+    rdfs:label "Sample Size" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/StatisticalMethodologyUsed> a dsv:Column ;
+    rdfs:label "Statistical Methodology Used" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/StudyLocation> a dsv:Column ;
+    rdfs:label "Study Location" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/TestingEquipmentDetails> a dsv:Column ;
+    rdfs:label "Testing Equipment Details" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceQ3TMY4GP/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/ComparisonGroups>,
+        <http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/EthicalApprovalStatus>,
+        <http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/ExperimentalGroup>,
+        <http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/FundingSource>,
+        <http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/Keywords>,
+        <http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/NotableQuotes>,
+        <http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/ObservationalFindings>,
+        <http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/PublicationYear>,
+        <http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/ResearchLimitations>,
+        <http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/Researchers>,
+        <http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/SampleSize>,
+        <http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/StatisticalMethodologyUsed>,
+        <http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/StudyLocation>,
+        <http://metaUnionSearch/datasets/ScienceQ3TMY4GP/column/TestingEquipmentDetails> .
+

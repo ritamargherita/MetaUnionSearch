@@ -1,0 +1,10 @@
+name
+birth Date
+duration
+name
+name
+notes
+description
+person
+album
+description

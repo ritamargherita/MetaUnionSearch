@@ -1,0 +1,12 @@
+manufacturer
+name
+name
+city
+region
+country
+status
+product
+component
+component
+description
+description

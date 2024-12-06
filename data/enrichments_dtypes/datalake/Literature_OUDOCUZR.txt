@@ -1,0 +1,12 @@
+album
+notes
+description
+genre
+class
+notes
+notes
+description
+genre
+notes
+position
+format

@@ -1,0 +1,13 @@
+name
+capacity
+education
+area
+position
+description
+description
+description
+family
+species
+name
+description
+component

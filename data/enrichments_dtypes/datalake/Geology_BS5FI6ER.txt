@@ -1,0 +1,10 @@
+album
+address
+rank
+description
+description
+description
+description
+code
+classification
+description

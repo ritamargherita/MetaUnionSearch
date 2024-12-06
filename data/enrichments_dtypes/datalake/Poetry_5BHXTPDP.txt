@@ -1,0 +1,14 @@
+name
+description
+album
+class
+description
+album
+album
+album
+class
+requirement
+religion
+category
+capacity
+artist

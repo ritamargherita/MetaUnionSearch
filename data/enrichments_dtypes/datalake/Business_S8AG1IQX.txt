@@ -1,0 +1,12 @@
+credit
+capacity
+description
+address
+category
+notes
+area
+name
+owner
+year
+plays
+address

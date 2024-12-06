@@ -1,0 +1,16 @@
+religion
+album
+artist
+artist
+birth Place
+religion
+notes
+name
+description
+origin
+person
+description
+religion
+artist
+country
+category

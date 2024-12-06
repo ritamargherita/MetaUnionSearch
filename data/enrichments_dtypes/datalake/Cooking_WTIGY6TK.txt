@@ -1,0 +1,13 @@
+person
+address
+type
+capacity
+type
+status
+status
+address
+address
+region
+rank
+rank
+address

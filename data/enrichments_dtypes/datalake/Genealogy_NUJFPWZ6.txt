@@ -1,0 +1,15 @@
+rank
+person
+name
+name
+birth Date
+city
+name
+name
+name
+name
+birth Date
+year
+address
+nationality
+credit

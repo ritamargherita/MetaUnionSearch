@@ -1,0 +1,15 @@
+name
+city
+name
+language
+publisher
+language
+religion
+notes
+range
+description
+description
+industry
+description
+description
+description

@@ -1,0 +1,12 @@
+depth
+position
+manufacturer
+address
+capacity
+range
+status
+range
+age
+name
+status
+status

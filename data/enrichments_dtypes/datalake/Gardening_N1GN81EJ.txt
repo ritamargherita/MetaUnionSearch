@@ -1,0 +1,14 @@
+rank
+address
+duration
+city
+area
+description
+species
+position
+position
+species
+classification
+album
+age
+description

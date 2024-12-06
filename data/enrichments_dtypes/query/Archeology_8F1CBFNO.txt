@@ -1,0 +1,15 @@
+album
+religion
+area
+location
+owner
+year
+artist
+area
+type
+area
+location
+notes
+name
+name
+day

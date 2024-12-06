@@ -1,0 +1,14 @@
+album
+person
+year
+brand
+depth
+result
+type
+album
+album
+name
+album
+location
+location
+notes

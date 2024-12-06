@@ -1,0 +1,14 @@
+year
+name
+creator
+status
+category
+depth
+class
+age
+type
+day
+depth
+sales
+weight
+code

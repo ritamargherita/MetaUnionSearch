@@ -1,0 +1,10 @@
+album
+description
+description
+credit
+description
+description
+origin
+description
+description
+affiliation

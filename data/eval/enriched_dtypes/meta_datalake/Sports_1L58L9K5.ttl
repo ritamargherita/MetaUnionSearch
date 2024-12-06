@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Sports1L58L9K5> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_1L58L9K5.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Sports1L58L9K5/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Sports1L58L9K5/column/Assists> a dsv:Column ;
+    rdfs:label " Assists" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/Sports1L58L9K5/column/AverageAge> a dsv:Column ;
+    rdfs:label " AverageAge" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/Sports1L58L9K5/column/CoachName> a dsv:Column ;
+    rdfs:label " CoachName" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Sports1L58L9K5/column/Fouls> a dsv:Column ;
+    rdfs:label " Fouls" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/Sports1L58L9K5/column/GoalsScored> a dsv:Column ;
+    rdfs:label " GoalsScored" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Sports1L58L9K5/column/Losses> a dsv:Column ;
+    rdfs:label " Losses" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/Sports1L58L9K5/column/Rebounds> a dsv:Column ;
+    rdfs:label " Rebounds" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/Sports1L58L9K5/column/Steals> a dsv:Column ;
+    rdfs:label " Steals" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/Sports1L58L9K5/column/TeamID> a dsv:Column ;
+    rdfs:label " TeamID" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Sports1L58L9K5/column/TeamName> a dsv:Column ;
+    rdfs:label "TeamName" ;
+    dcterms:type "team" .
+
+<http://metaUnionSearch/datasets/Sports1L58L9K5/column/TotalMatchesPlayed> a dsv:Column ;
+    rdfs:label " TotalMatchesPlayed" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/Sports1L58L9K5/column/Turnovers> a dsv:Column ;
+    rdfs:label " Turnovers" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/Sports1L58L9K5/column/Wins> a dsv:Column ;
+    rdfs:label " Wins" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/Sports1L58L9K5/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Sports1L58L9K5/column/Assists>,
+        <http://metaUnionSearch/datasets/Sports1L58L9K5/column/AverageAge>,
+        <http://metaUnionSearch/datasets/Sports1L58L9K5/column/CoachName>,
+        <http://metaUnionSearch/datasets/Sports1L58L9K5/column/Fouls>,
+        <http://metaUnionSearch/datasets/Sports1L58L9K5/column/GoalsScored>,
+        <http://metaUnionSearch/datasets/Sports1L58L9K5/column/Losses>,
+        <http://metaUnionSearch/datasets/Sports1L58L9K5/column/Rebounds>,
+        <http://metaUnionSearch/datasets/Sports1L58L9K5/column/Steals>,
+        <http://metaUnionSearch/datasets/Sports1L58L9K5/column/TeamID>,
+        <http://metaUnionSearch/datasets/Sports1L58L9K5/column/TeamName>,
+        <http://metaUnionSearch/datasets/Sports1L58L9K5/column/TotalMatchesPlayed>,
+        <http://metaUnionSearch/datasets/Sports1L58L9K5/column/Turnovers>,
+        <http://metaUnionSearch/datasets/Sports1L58L9K5/column/Wins> .
+

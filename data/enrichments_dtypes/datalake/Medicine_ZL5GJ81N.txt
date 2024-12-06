@@ -1,0 +1,10 @@
+brand
+capacity
+address
+status
+album
+type
+address
+company
+address
+description

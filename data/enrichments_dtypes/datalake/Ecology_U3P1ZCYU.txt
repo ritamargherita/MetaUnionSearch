@@ -1,0 +1,13 @@
+artist
+area
+weight
+position
+capacity
+capacity
+weight
+capacity
+weight
+capacity
+capacity
+capacity
+capacity

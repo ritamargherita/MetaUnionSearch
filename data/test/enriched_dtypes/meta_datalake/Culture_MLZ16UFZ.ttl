@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_MLZ16UFZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CultureMLZ16UFZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/Climate> a dsv:Column ;
+    rdfs:label " Climate" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/CulturalValues> a dsv:Column ;
+    rdfs:label "Cultural Values" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/DressCode> a dsv:Column ;
+    rdfs:label " Dress Code" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/Food> a dsv:Column ;
+    rdfs:label " Food" ;
+    dcterms:type "team" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/Literature> a dsv:Column ;
+    rdfs:label " Literature" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/NationalAnthem> a dsv:Column ;
+    rdfs:label " National Anthem" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/PreferredCommunicationStyle> a dsv:Column ;
+    rdfs:label " Preferred Communication Style" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/SocialCulture> a dsv:Column ;
+    rdfs:label " Social Culture" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/Sports> a dsv:Column ;
+    rdfs:label " Sports" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/WorkHours> a dsv:Column ;
+    rdfs:label " Work Hours" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/Climate>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/CulturalValues>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/DressCode>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/Food>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/Literature>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/NationalAnthem>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/PreferredCommunicationStyle>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/SocialCulture>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/Sports>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/WorkHours> .
+

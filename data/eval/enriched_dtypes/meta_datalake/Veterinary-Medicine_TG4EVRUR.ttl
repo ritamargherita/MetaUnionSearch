@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_TG4EVRUR.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/ActiveIngredient> a dsv:Column ;
+    rdfs:label " Active Ingredient" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/AverageRatingOutofFiveStarPointsifapplicableandavailableforthatproductcodeonly> a dsv:Column ;
+    rdfs:label " Average Rating Out of Five Star Points (if applicable and available for that product code only)" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/CountryWhereTheActiveIngredientIsExtractedSourcedProducedByTheCompanyManufacturingThisVeterinaryPharmaceuticalsProductListItemorTheNumberOneFinishedGoodUnitDistributedToPetOwnersCliniciansVetsHospitalsFarmsZoosWildlifeConservationCentersetcalphanumericwithcountryabbreviationslikeUSAIndiaChinaGermanyUKCanadaJapanAustraliaetc> a dsv:Column ;
+    rdfs:label " Country Where The Active Ingredient Is Extracted/Sourced/Produced By The Company Manufacturing This Veterinary Pharmaceuticals Product List Item or The Number One Finished Good Unit Distributed To Pet Owners, Clinicians, Vets, Hospitals, Farms, Zoos, Wildlife Conservation Centers, etc. (alphanumeric with country abbreviations like USA, India, China, Germany, UK, Canada, Japan, Australia, etc.)" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/DrugFormularyRegistrationStatusApprovedRejectedNotYetAppliednotnullable> a dsv:Column ;
+    rdfs:label " Drug Formulary Registration Status (Approved/Rejected/Not Yet Applied, not nullable)" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/FormulationType> a dsv:Column ;
+    rdfs:label " Formulation Type" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/ManufacturerName> a dsv:Column ;
+    rdfs:label " Manufacturer Name" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/NIHNationalInstitutesofHealthListifapplicableyesnonotnullable> a dsv:Column ;
+    rdfs:label " NIH National Institutes of Health List (if applicable, yes/no, not nullable)." ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/NumberOfReviewersProvidingAverageRatingifapplicableandavailableforthatproductcodeonlyasanintegerscalarvaluenotdecimalorsymbolrepresentation> a dsv:Column ;
+    rdfs:label " Number Of Reviewers Providing Average Rating (if applicable and available for that product code only, as an integer scalar value, not decimal or symbol representation)" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/PackageQuantityPerBox> a dsv:Column ;
+    rdfs:label " Package Quantity Per Box" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/ProductCode> a dsv:Column ;
+    rdfs:label " Product Code" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/QuantitySold> a dsv:Column ;
+    rdfs:label "Quantity Sold" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/ShelfLife> a dsv:Column ;
+    rdfs:label " Shelf Life" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/StorageConditions> a dsv:Column ;
+    rdfs:label " Storage Conditions" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/TotalCostofPackageUnitandMedicineforOnePetMonthSupply> a dsv:Column ;
+    rdfs:label " Total Cost of Package Unit and Medicine for One Pet Month Supply" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/UnitPriceperpackagequantityunit> a dsv:Column ;
+    rdfs:label " Unit Price (per package quantity unit)" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/ActiveIngredient>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/AverageRatingOutofFiveStarPointsifapplicableandavailableforthatproductcodeonly>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/CountryWhereTheActiveIngredientIsExtractedSourcedProducedByTheCompanyManufacturingThisVeterinaryPharmaceuticalsProductListItemorTheNumberOneFinishedGoodUnitDistributedToPetOwnersCliniciansVetsHospitalsFarmsZoosWildlifeConservationCentersetcalphanumericwithcountryabbreviationslikeUSAIndiaChinaGermanyUKCanadaJapanAustraliaetc>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/DrugFormularyRegistrationStatusApprovedRejectedNotYetAppliednotnullable>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/FormulationType>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/ManufacturerName>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/NIHNationalInstitutesofHealthListifapplicableyesnonotnullable>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/NumberOfReviewersProvidingAverageRatingifapplicableandavailableforthatproductcodeonlyasanintegerscalarvaluenotdecimalorsymbolrepresentation>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/PackageQuantityPerBox>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/ProductCode>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/QuantitySold>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/ShelfLife>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/StorageConditions>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/TotalCostofPackageUnitandMedicineforOnePetMonthSupply>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineTG4EVRUR/column/UnitPriceperpackagequantityunit> .
+

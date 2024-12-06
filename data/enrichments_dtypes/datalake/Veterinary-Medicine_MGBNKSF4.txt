@@ -1,0 +1,12 @@
+class
+species
+name
+duration
+sex
+description
+service
+description
+description
+service
+classification
+description

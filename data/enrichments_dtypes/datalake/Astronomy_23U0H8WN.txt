@@ -1,0 +1,14 @@
+name
+classification
+area
+age
+owner
+product
+range
+status
+category
+notes
+affiliation
+product
+album
+notes

@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_CYXQBWEW.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EconomicsCYXQBWEW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/businessconfidence> a dsv:Column ;
+    rdfs:label " business confidence ()" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/consumerpriceindexCPJ> a dsv:Column ;
+    rdfs:label " consumer price index (CPJ)" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/datasource> a dsv:Column ;
+    rdfs:label " data source" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/dateacquired> a dsv:Column ;
+    rdfs:label " date acquired" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/economicindicators> a dsv:Column ;
+    rdfs:label "economic indicators" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/exchangerateslocalcurrencyperUSdollar> a dsv:Column ;
+    rdfs:label " exchange rates (local currency per US dollar)" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/exportvolumeconstantbillions> a dsv:Column ;
+    rdfs:label " export volume (${constant} billions)" ;
+    dcterms:type "code" .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/grossdomesticproductdeflator> a dsv:Column ;
+    rdfs:label " gross domestic product deflator" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/humandevelopmentIndexmaxscore3> a dsv:Column ;
+    rdfs:label " human development Index (max score = 3)" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/importvaluecurrentmillions> a dsv:Column ;
+    rdfs:label " import value ($ current millions)" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/inflationratepercent> a dsv:Column ;
+    rdfs:label " inflation rate percent" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/interestratesbaseline> a dsv:Column ;
+    rdfs:label " interest rates baseline (%)" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/laborproductivityhour> a dsv:Column ;
+    rdfs:label " labor productivity ($/hour)" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/notes> a dsv:Column ;
+    rdfs:label " notes" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/unemploymentratepercent> a dsv:Column ;
+    rdfs:label " unemployment rate percent" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/EconomicsCYXQBWEW/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/businessconfidence>,
+        <http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/consumerpriceindexCPJ>,
+        <http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/datasource>,
+        <http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/dateacquired>,
+        <http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/economicindicators>,
+        <http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/exchangerateslocalcurrencyperUSdollar>,
+        <http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/exportvolumeconstantbillions>,
+        <http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/grossdomesticproductdeflator>,
+        <http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/humandevelopmentIndexmaxscore3>,
+        <http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/importvaluecurrentmillions>,
+        <http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/inflationratepercent>,
+        <http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/interestratesbaseline>,
+        <http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/laborproductivityhour>,
+        <http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/notes>,
+        <http://metaUnionSearch/datasets/EconomicsCYXQBWEW/column/unemploymentratepercent> .
+

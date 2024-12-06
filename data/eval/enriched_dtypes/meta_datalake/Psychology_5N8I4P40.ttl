@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Psychology5N8I4P40> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_5N8I4P40.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Psychology5N8I4P40/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Psychology5N8I4P40/column/Column6> a dsv:Column ;
+    rdfs:label "Column6" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Psychology5N8I4P40/column/Column7> a dsv:Column ;
+    rdfs:label "Column7" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Psychology5N8I4P40/column/Column8> a dsv:Column ;
+    rdfs:label "Column8" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Psychology5N8I4P40/column/Column9> a dsv:Column ;
+    rdfs:label "Column9" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/Psychology5N8I4P40/column/ExtraversionTraits> a dsv:Column ;
+    rdfs:label "ExtraversionTraits" ;
+    dcterms:type "credit" .
+
+<http://metaUnionSearch/datasets/Psychology5N8I4P40/column/GritScaleValue> a dsv:Column ;
+    rdfs:label "GritScaleValue" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Psychology5N8I4P40/column/MentalHealthRating> a dsv:Column ;
+    rdfs:label "MentalHealthRating" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/Psychology5N8I4P40/column/NeurosisIndicators> a dsv:Column ;
+    rdfs:label "NeurosisIndicators" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Psychology5N8I4P40/column/PreTestScore> a dsv:Column ;
+    rdfs:label "PreTestScore" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/Psychology5N8I4P40/column/SubtopicName> a dsv:Column ;
+    rdfs:label "SubtopicName" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/Psychology5N8I4P40/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Psychology5N8I4P40/column/Column6>,
+        <http://metaUnionSearch/datasets/Psychology5N8I4P40/column/Column7>,
+        <http://metaUnionSearch/datasets/Psychology5N8I4P40/column/Column8>,
+        <http://metaUnionSearch/datasets/Psychology5N8I4P40/column/Column9>,
+        <http://metaUnionSearch/datasets/Psychology5N8I4P40/column/ExtraversionTraits>,
+        <http://metaUnionSearch/datasets/Psychology5N8I4P40/column/GritScaleValue>,
+        <http://metaUnionSearch/datasets/Psychology5N8I4P40/column/MentalHealthRating>,
+        <http://metaUnionSearch/datasets/Psychology5N8I4P40/column/NeurosisIndicators>,
+        <http://metaUnionSearch/datasets/Psychology5N8I4P40/column/PreTestScore>,
+        <http://metaUnionSearch/datasets/Psychology5N8I4P40/column/SubtopicName> .
+

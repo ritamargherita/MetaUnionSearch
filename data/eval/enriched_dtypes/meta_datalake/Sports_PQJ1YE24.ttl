@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_PQJ1YE24.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SportsPQJ1YE24/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24/column/AverageTicketPrice> a dsv:Column ;
+    rdfs:label " Average Ticket Price" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24/column/CharitableDonations> a dsv:Column ;
+    rdfs:label " Charitable Donations" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24/column/CoachSalary> a dsv:Column ;
+    rdfs:label " Coach Salary" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24/column/Division> a dsv:Column ;
+    rdfs:label " Division" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24/column/EstablishedYear> a dsv:Column ;
+    rdfs:label " Established Year" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24/column/JerseyColors> a dsv:Column ;
+    rdfs:label " Jersey Colors" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24/column/League> a dsv:Column ;
+    rdfs:label " League" ;
+    dcterms:type "team" .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24/column/MascotName> a dsv:Column ;
+    rdfs:label " Mascot Name" ;
+    dcterms:type "team Name" .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24/column/NumberofTitlesWon> a dsv:Column ;
+    rdfs:label " Number of Titles Won" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24/column/OpponentsFaced> a dsv:Column ;
+    rdfs:label " Opponents Faced" ;
+    dcterms:type "team" .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24/column/SocialMediaFollowers> a dsv:Column ;
+    rdfs:label " Social Media Followers" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24/column/StadiumLocation> a dsv:Column ;
+    rdfs:label " Stadium Location" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24/column/TeamSlogan> a dsv:Column ;
+    rdfs:label "Team Slogan" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24/column/TrainingHoursperWeek> a dsv:Column ;
+    rdfs:label " Training Hours per Week" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24/column/TrainingStaffSize> a dsv:Column ;
+    rdfs:label " Training Staff Size" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/SportsPQJ1YE24/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SportsPQJ1YE24/column/AverageTicketPrice>,
+        <http://metaUnionSearch/datasets/SportsPQJ1YE24/column/CharitableDonations>,
+        <http://metaUnionSearch/datasets/SportsPQJ1YE24/column/CoachSalary>,
+        <http://metaUnionSearch/datasets/SportsPQJ1YE24/column/Division>,
+        <http://metaUnionSearch/datasets/SportsPQJ1YE24/column/EstablishedYear>,
+        <http://metaUnionSearch/datasets/SportsPQJ1YE24/column/JerseyColors>,
+        <http://metaUnionSearch/datasets/SportsPQJ1YE24/column/League>,
+        <http://metaUnionSearch/datasets/SportsPQJ1YE24/column/MascotName>,
+        <http://metaUnionSearch/datasets/SportsPQJ1YE24/column/NumberofTitlesWon>,
+        <http://metaUnionSearch/datasets/SportsPQJ1YE24/column/OpponentsFaced>,
+        <http://metaUnionSearch/datasets/SportsPQJ1YE24/column/SocialMediaFollowers>,
+        <http://metaUnionSearch/datasets/SportsPQJ1YE24/column/StadiumLocation>,
+        <http://metaUnionSearch/datasets/SportsPQJ1YE24/column/TeamSlogan>,
+        <http://metaUnionSearch/datasets/SportsPQJ1YE24/column/TrainingHoursperWeek>,
+        <http://metaUnionSearch/datasets/SportsPQJ1YE24/column/TrainingStaffSize> .
+

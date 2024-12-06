@@ -1,0 +1,136 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM> a dsv:Dataset ;
+    dcterms:subject "mythology" ;
+    dcterms:title "Mythology_DGDZVGPM.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MythologyDGDZVGPM/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Attributes> a dsv:Column ;
+    rdfs:label "Attributes" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/BehavioralTendencies> a dsv:Column ;
+    rdfs:label "Behavioral Tendencies" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Children> a dsv:Column ;
+    rdfs:label "Children" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Description> a dsv:Column ;
+    rdfs:label "Description" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/DivineRoles> a dsv:Column ;
+    rdfs:label "Divine Roles" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Festivals> a dsv:Column ;
+    rdfs:label "Festivals" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/GodHeroineDeityStatus> a dsv:Column ;
+    rdfs:label "God/Heroine/Deity Status" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Habitat> a dsv:Column ;
+    rdfs:label "Habitat" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/ImportancetoCultureReligion> a dsv:Column ;
+    rdfs:label "Importance to Culture/Religion" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/InfluenceonSociety> a dsv:Column ;
+    rdfs:label "Influence on Society" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/LifeSpanorEquivalentConcept> a dsv:Column ;
+    rdfs:label "\"Life Span\" or Equivalent Concept" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/ModernInterpretationsscurrrangecounter18Timetaken3091391086578369secondsTimetaken4276182532310486secondsMythologicalFigure> a dsv:Column ;
+    rdfs:label """Modern Interpretations</s>
+curr_range_counter:  18
+Time taken: 30.91391086578369 seconds
+Time taken: 42.76182532310486 seconds
+Mythological Figure""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/MythmakingPeriod> a dsv:Column ;
+    rdfs:label "Mythmaking Period" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/OriginContinent> a dsv:Column ;
+    rdfs:label "Origin (Continent)" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/PhysicalAppearance> a dsv:Column ;
+    rdfs:label "Physical Appearance" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Powers> a dsv:Column ;
+    rdfs:label "Powers" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Region> a dsv:Column ;
+    rdfs:label "Region" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/SacredObjects> a dsv:Column ;
+    rdfs:label "Sacred Objects" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/SignificanceinMythsandLegendsContemporaryPopularCulture> a dsv:Column ;
+    rdfs:label "Significance in Myths and Legends, Contemporary Popular Culture" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Spouseves> a dsv:Column ;
+    rdfs:label "Spouse(ves)" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Symbolism> a dsv:Column ;
+    rdfs:label "Symbolism" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Weaknesses> a dsv:Column ;
+    rdfs:label "Weaknesses" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/WorshipMethods> a dsv:Column ;
+    rdfs:label "Worship Methods" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/semicolonseparatedtable2columnheadersGod> a dsv:Column ;
+    rdfs:label """<semi-colon-separated table 2 column headers>
+God""" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyDGDZVGPM/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Attributes>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/BehavioralTendencies>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Children>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Description>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/DivineRoles>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Festivals>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/GodHeroineDeityStatus>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Habitat>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/ImportancetoCultureReligion>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/InfluenceonSociety>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/LifeSpanorEquivalentConcept>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/ModernInterpretationsscurrrangecounter18Timetaken3091391086578369secondsTimetaken4276182532310486secondsMythologicalFigure>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/MythmakingPeriod>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/OriginContinent>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/PhysicalAppearance>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Powers>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Region>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/SacredObjects>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/SignificanceinMythsandLegendsContemporaryPopularCulture>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Spouseves>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Symbolism>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/Weaknesses>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/WorshipMethods>,
+        <http://metaUnionSearch/datasets/MythologyDGDZVGPM/column/semicolonseparatedtable2columnheadersGod> .
+

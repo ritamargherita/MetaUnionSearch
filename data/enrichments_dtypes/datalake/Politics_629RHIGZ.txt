@@ -1,0 +1,12 @@
+address
+credit
+gender
+age
+nationality
+description
+description
+rank
+affiliation
+service
+description
+artist

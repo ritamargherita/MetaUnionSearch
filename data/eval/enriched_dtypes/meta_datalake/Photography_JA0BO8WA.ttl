@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhotographyJA0BO8WA> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_JA0BO8WA.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhotographyJA0BO8WA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/Category> a dsv:Column ;
+    rdfs:label " Category" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/Characteristics> a dsv:Column ;
+    rdfs:label " Characteristics" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/ColorProfile> a dsv:Column ;
+    rdfs:label " Color Profile" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/EditingSoftware> a dsv:Column ;
+    rdfs:label " Editing Software" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/EquipmentUsed> a dsv:Column ;
+    rdfs:label " Equipment Used" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/FileFormat> a dsv:Column ;
+    rdfs:label " File Format" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/ImageSize> a dsv:Column ;
+    rdfs:label " Image Size" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/Location> a dsv:Column ;
+    rdfs:label " Location" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/PhotoOrientations> a dsv:Column ;
+    rdfs:label " Photo Orientations" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/PhotoTitle> a dsv:Column ;
+    rdfs:label "Photo Title" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/PostProcessApplied> a dsv:Column ;
+    rdfs:label " Post Process Applied" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/ResolutionQuality> a dsv:Column ;
+    rdfs:label " Resolution & Quality" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/TakingScene> a dsv:Column ;
+    rdfs:label " Taking Scene" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/TimeOfDay> a dsv:Column ;
+    rdfs:label " Time Of Day" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PhotographyJA0BO8WA/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/Category>,
+        <http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/Characteristics>,
+        <http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/ColorProfile>,
+        <http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/EditingSoftware>,
+        <http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/EquipmentUsed>,
+        <http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/FileFormat>,
+        <http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/ImageSize>,
+        <http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/Location>,
+        <http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/PhotoOrientations>,
+        <http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/PhotoTitle>,
+        <http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/PostProcessApplied>,
+        <http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/ResolutionQuality>,
+        <http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/TakingScene>,
+        <http://metaUnionSearch/datasets/PhotographyJA0BO8WA/column/TimeOfDay> .
+

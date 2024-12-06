@@ -1,0 +1,16 @@
+name
+album
+rank
+rank
+origin
+notes
+origin
+description
+origin
+origin
+description
+origin
+notes
+artist
+artist
+artist

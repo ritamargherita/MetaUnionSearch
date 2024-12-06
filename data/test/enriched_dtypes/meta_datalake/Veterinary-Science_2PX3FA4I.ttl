@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_2PX3FA4I.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/AdditionalNotesfromVet> a dsv:Column ;
+    rdfs:label " Additional Notes from Vet" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/AllergiesorAdverseReactions> a dsv:Column ;
+    rdfs:label " Allergies or Adverse Reactions" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/AnatomicalSystem> a dsv:Column ;
+    rdfs:label "Anatomical System" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/ClientConsentForm> a dsv:Column ;
+    rdfs:label " Client Consent Form" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/DietandExerciseChanges> a dsv:Column ;
+    rdfs:label " Diet and Exercise Changes" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/FollowupVisitDetails> a dsv:Column ;
+    rdfs:label " Follow-up Visit Details" ;
+    dcterms:type "service" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/MedicationPrescribed> a dsv:Column ;
+    rdfs:label " Medication Prescribed" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/PreventativeCareMeasures> a dsv:Column ;
+    rdfs:label " Preventative Care Measures" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/PrimaryComplaint> a dsv:Column ;
+    rdfs:label " Primary Complaint" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/RehabilitationProgressifapplicable> a dsv:Column ;
+    rdfs:label " Rehabilitation Progress (if applicable)" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/SecondaryIssue> a dsv:Column ;
+    rdfs:label " Secondary Issue" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/TestResults> a dsv:Column ;
+    rdfs:label " Test Results" ;
+    dcterms:type "service" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/AdditionalNotesfromVet>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/AllergiesorAdverseReactions>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/AnatomicalSystem>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/ClientConsentForm>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/DietandExerciseChanges>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/FollowupVisitDetails>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/MedicationPrescribed>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/PreventativeCareMeasures>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/PrimaryComplaint>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/RehabilitationProgressifapplicable>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/SecondaryIssue>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2PX3FA4I/column/TestResults> .
+

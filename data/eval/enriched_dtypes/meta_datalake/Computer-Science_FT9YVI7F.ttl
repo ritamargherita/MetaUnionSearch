@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_FT9YVI7F.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/ArtificialIntelligence> a dsv:Column ;
+    rdfs:label "Artificial Intelligence" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/CloudComputing> a dsv:Column ;
+    rdfs:label " Cloud Computing" ;
+    dcterms:type "credit" .
+
+<http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/ComputerVision> a dsv:Column ;
+    rdfs:label " Computer Vision" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/Cybersecurity> a dsv:Column ;
+    rdfs:label " Cybersecurity" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/DataMiningandWarehousing> a dsv:Column ;
+    rdfs:label " Data Mining and Warehousing" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/DistributedSystems> a dsv:Column ;
+    rdfs:label " Distributed Systems" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/HumanComputerInteraction> a dsv:Column ;
+    rdfs:label " Human-Computer Interaction" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/MachineLearning> a dsv:Column ;
+    rdfs:label " Machine Learning" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/NaturalLanguageProcessing> a dsv:Column ;
+    rdfs:label " Natural Language Processing" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/ProgrammableLogicControllers> a dsv:Column ;
+    rdfs:label " Programmable Logic Controllers" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/Robotics> a dsv:Column ;
+    rdfs:label " Robotics" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/SoftwareEngineeringPractices> a dsv:Column ;
+    rdfs:label " Software Engineering Practices" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/ArtificialIntelligence>,
+        <http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/CloudComputing>,
+        <http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/ComputerVision>,
+        <http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/Cybersecurity>,
+        <http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/DataMiningandWarehousing>,
+        <http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/DistributedSystems>,
+        <http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/HumanComputerInteraction>,
+        <http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/MachineLearning>,
+        <http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/NaturalLanguageProcessing>,
+        <http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/ProgrammableLogicControllers>,
+        <http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/Robotics>,
+        <http://metaUnionSearch/datasets/ComputerScienceFT9YVI7F/column/SoftwareEngineeringPractices> .
+

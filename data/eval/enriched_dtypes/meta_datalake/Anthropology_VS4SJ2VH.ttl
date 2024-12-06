@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_VS4SJ2VH.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/AgeGroupDistribution> a dsv:Column ;
+    rdfs:label "Age Group Distribution" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/ClothingStyles> a dsv:Column ;
+    rdfs:label " Clothing Styles" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/EnvironmentalAdaptations> a dsv:Column ;
+    rdfs:label " Environmental Adaptations." ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/FoodPreferences> a dsv:Column ;
+    rdfs:label " Food Preferences" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/HousingStructures> a dsv:Column ;
+    rdfs:label " Housing Structures" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/InitiationRites> a dsv:Column ;
+    rdfs:label " Initiation Rites" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/MarriageCustoms> a dsv:Column ;
+    rdfs:label " Marriage Customs" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/MusicInstruments> a dsv:Column ;
+    rdfs:label " Music Instruments" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/PopulationMigration> a dsv:Column ;
+    rdfs:label " Population Migration" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/PotteryDesigns> a dsv:Column ;
+    rdfs:label " Pottery Designs" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/TradingItems> a dsv:Column ;
+    rdfs:label " Trading Items" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/AgeGroupDistribution>,
+        <http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/ClothingStyles>,
+        <http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/EnvironmentalAdaptations>,
+        <http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/FoodPreferences>,
+        <http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/HousingStructures>,
+        <http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/InitiationRites>,
+        <http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/MarriageCustoms>,
+        <http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/MusicInstruments>,
+        <http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/PopulationMigration>,
+        <http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/PotteryDesigns>,
+        <http://metaUnionSearch/datasets/AnthropologyVS4SJ2VH/column/TradingItems> .
+

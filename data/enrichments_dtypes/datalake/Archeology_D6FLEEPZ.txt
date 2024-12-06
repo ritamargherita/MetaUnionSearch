@@ -1,0 +1,14 @@
+name
+religion
+product
+capacity
+position
+description
+year
+product
+product
+classification
+operator
+club
+affiliation
+range

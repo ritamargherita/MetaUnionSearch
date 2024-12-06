@@ -1,0 +1,10 @@
+origin
+status
+range
+range
+range
+sales
+capacity
+ranking
+rank
+address

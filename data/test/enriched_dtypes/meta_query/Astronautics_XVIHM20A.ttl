@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronauticsXVIHM20A> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_XVIHM20A.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronauticsXVIHM20A/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/AstronomerOnBoard> a dsv:Column ;
+    rdfs:label " Astronomer On Board" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/CrewCount> a dsv:Column ;
+    rdfs:label " Crew Count" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/Durationdays> a dsv:Column ;
+    rdfs:label " Duration (days)" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/FirstStageReturn> a dsv:Column ;
+    rdfs:label " First Stage Return?" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/MissionName> a dsv:Column ;
+    rdfs:label "Mission Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/OrbitAchieved> a dsv:Column ;
+    rdfs:label " Orbit Achieved" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/PayloadsDeployed> a dsv:Column ;
+    rdfs:label " Payloads Deployed" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/PrimaryObjective> a dsv:Column ;
+    rdfs:label " Primary Objective" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/Reusable> a dsv:Column ;
+    rdfs:label " Reusable?" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/SpacecraftUsed> a dsv:Column ;
+    rdfs:label " Spacecraft Used" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/StartDate> a dsv:Column ;
+    rdfs:label " Start Date" ;
+    dcterms:type "birth Date" .
+
+<http://metaUnionSearch/datasets/AstronauticsXVIHM20A/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/AstronomerOnBoard>,
+        <http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/CrewCount>,
+        <http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/Durationdays>,
+        <http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/FirstStageReturn>,
+        <http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/MissionName>,
+        <http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/OrbitAchieved>,
+        <http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/PayloadsDeployed>,
+        <http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/PrimaryObjective>,
+        <http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/Reusable>,
+        <http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/SpacecraftUsed>,
+        <http://metaUnionSearch/datasets/AstronauticsXVIHM20A/column/StartDate> .
+

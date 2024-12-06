@@ -1,0 +1,13 @@
+sex
+description
+artist
+area
+capacity
+rank
+range
+age
+rank
+capacity
+status
+address
+description

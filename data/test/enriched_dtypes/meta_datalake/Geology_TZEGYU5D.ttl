@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeologyTZEGYU5D> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_TZEGYU5D.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeologyTZEGYU5D/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/ChemistryDiversity> a dsv:Column ;
+    rdfs:label " Chemistry Diversity" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/CrystalLatticeIntegrity> a dsv:Column ;
+    rdfs:label " Crystal Lattice Integrity" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/GroundwaterInfluence> a dsv:Column ;
+    rdfs:label " Groundwater Influence" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/HeatConductivity> a dsv:Column ;
+    rdfs:label " Heat Conductivity" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/IgneousCategory> a dsv:Column ;
+    rdfs:label "Igneous Category" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/MetamorphismLevel> a dsv:Column ;
+    rdfs:label " Metamorphism Level" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/PoroelasticBehavior> a dsv:Column ;
+    rdfs:label " Poroelastic Behavior" ;
+    dcterms:type "team" .
+
+<http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/SampleID> a dsv:Column ;
+    rdfs:label " Sample ID" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/SecondaryDeposites> a dsv:Column ;
+    rdfs:label " Secondary Deposites" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/SeismicWaveTransmission> a dsv:Column ;
+    rdfs:label " Seismic Wave Transmission" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/SoilaroundstoneInteractions> a dsv:Column ;
+    rdfs:label " Soil- aroundstone Interactions" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/TectonicSetting> a dsv:Column ;
+    rdfs:label " Tectonic Setting" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeologyTZEGYU5D/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/ChemistryDiversity>,
+        <http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/CrystalLatticeIntegrity>,
+        <http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/GroundwaterInfluence>,
+        <http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/HeatConductivity>,
+        <http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/IgneousCategory>,
+        <http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/MetamorphismLevel>,
+        <http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/PoroelasticBehavior>,
+        <http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/SampleID>,
+        <http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/SecondaryDeposites>,
+        <http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/SeismicWaveTransmission>,
+        <http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/SoilaroundstoneInteractions>,
+        <http://metaUnionSearch/datasets/GeologyTZEGYU5D/column/TectonicSetting> .
+

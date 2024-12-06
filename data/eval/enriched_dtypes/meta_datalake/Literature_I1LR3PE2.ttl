@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LiteratureI1LR3PE2> a dsv:Dataset ;
+    dcterms:subject "literature" ;
+    dcterms:title "Literature_I1LR3PE2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LiteratureI1LR3PE2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/AdditionalInformation> a dsv:Column ;
+    rdfs:label " Additional Information" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/AuthorAffiliationBirthplaceetc> a dsv:Column ;
+    rdfs:label "\\*\\*Author Affiliation (Birthplace etc.)\\*\\*" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/CharacterEvolution> a dsv:Column ;
+    rdfs:label " \\**Character Evolution*\\}" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/Genre> a dsv:Column ;
+    rdfs:label "\\*Genre\\*" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/HistoricalSetting> a dsv:Column ;
+    rdfs:label " *Historical Setting*" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/LanguageOriginalvsTranslation> a dsv:Column ;
+    rdfs:label " **Language**, Original vs Translation" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/LiteraryCriticism> a dsv:Column ;
+    rdfs:label " Literary Criticism" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/PublicationDate> a dsv:Column ;
+    rdfs:label " Publication Date " ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/PublisherJournalName> a dsv:Column ;
+    rdfs:label " Publisher / Journal Name" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/SocioculturalEnvironment> a dsv:Column ;
+    rdfs:label " Sociocultural Environment" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/StylisticPeriod> a dsv:Column ;
+    rdfs:label "\\*\\*Stylistic Period\\*\\*" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/Subgenres> a dsv:Column ;
+    rdfs:label " Subgenres" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/Title> a dsv:Column ;
+    rdfs:label "Title" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureI1LR3PE2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/AdditionalInformation>,
+        <http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/AuthorAffiliationBirthplaceetc>,
+        <http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/CharacterEvolution>,
+        <http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/Genre>,
+        <http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/HistoricalSetting>,
+        <http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/LanguageOriginalvsTranslation>,
+        <http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/LiteraryCriticism>,
+        <http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/PublicationDate>,
+        <http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/PublisherJournalName>,
+        <http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/SocioculturalEnvironment>,
+        <http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/StylisticPeriod>,
+        <http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/Subgenres>,
+        <http://metaUnionSearch/datasets/LiteratureI1LR3PE2/column/Title> .
+

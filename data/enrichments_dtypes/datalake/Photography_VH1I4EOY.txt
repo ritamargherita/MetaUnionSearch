@@ -1,0 +1,16 @@
+description
+description
+location
+product
+description
+manufacturer
+result
+format
+company
+category
+description
+description
+category
+capacity
+type
+status

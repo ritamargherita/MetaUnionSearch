@@ -1,0 +1,41 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineT7ZGA6X9> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_T7ZGA6X9.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicineT7ZGA6X9/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineT7ZGA6X9/column/> a dsv:Column ;
+    rdfs:label "\\" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineT7ZGA6X9/column/DietaryNeeds> a dsv:Column ;
+    rdfs:label " Dietary Needs" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineT7ZGA6X9/column/EnvironmentalFactors> a dsv:Column ;
+    rdfs:label " Environmental Factors" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineT7ZGA6X9/column/MedicalHistorySummary> a dsv:Column ;
+    rdfs:label " Medical History Summary" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineT7ZGA6X9/column/PreviousSurgeries> a dsv:Column ;
+    rdfs:label " Previous Surgeries" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineT7ZGA6X9/column/VaccinationStatus> a dsv:Column ;
+    rdfs:label "Vaccination Status" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineT7ZGA6X9/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicineT7ZGA6X9/column/>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineT7ZGA6X9/column/DietaryNeeds>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineT7ZGA6X9/column/EnvironmentalFactors>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineT7ZGA6X9/column/MedicalHistorySummary>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineT7ZGA6X9/column/PreviousSurgeries>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineT7ZGA6X9/column/VaccinationStatus> .
+

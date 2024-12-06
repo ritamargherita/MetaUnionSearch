@@ -1,0 +1,13 @@
+album
+region
+name
+person
+name
+description
+description
+origin
+genre
+origin
+artist
+artist
+artist

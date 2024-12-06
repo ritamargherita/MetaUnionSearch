@@ -1,0 +1,14 @@
+name
+year
+address
+description
+description
+classification
+description
+publisher
+classification
+affiliation
+format
+publisher
+affiliation
+person

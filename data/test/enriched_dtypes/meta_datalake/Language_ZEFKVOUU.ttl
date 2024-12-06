@@ -1,0 +1,36 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LanguageZEFKVOUU> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_ZEFKVOUU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LanguageZEFKVOUU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LanguageZEFKVOUU/column/> a dsv:Column ;
+    rdfs:label " \\" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/LanguageZEFKVOUU/column/EtymologyDictionary> a dsv:Column ;
+    rdfs:label " Etymology Dictionary" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/LanguageZEFKVOUU/column/LanguageContact> a dsv:Column ;
+    rdfs:label " Language Contact" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/LanguageZEFKVOUU/column/LinguisticArea> a dsv:Column ;
+    rdfs:label "Linguistic Area" ;
+    dcterms:type "family" .
+
+<http://metaUnionSearch/datasets/LanguageZEFKVOUU/column/NumberOfDialects> a dsv:Column ;
+    rdfs:label " Number Of Dialects" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LanguageZEFKVOUU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LanguageZEFKVOUU/column/>,
+        <http://metaUnionSearch/datasets/LanguageZEFKVOUU/column/EtymologyDictionary>,
+        <http://metaUnionSearch/datasets/LanguageZEFKVOUU/column/LanguageContact>,
+        <http://metaUnionSearch/datasets/LanguageZEFKVOUU/column/LinguisticArea>,
+        <http://metaUnionSearch/datasets/LanguageZEFKVOUU/column/NumberOfDialects> .
+

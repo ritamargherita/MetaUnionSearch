@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CriminologyGX6M52Y4> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_GX6M52Y4.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CriminologyGX6M52Y4/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/DateTimeOccurred> a dsv:Column ;
+    rdfs:label " Date & Time Occurred" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/IncidentCategory> a dsv:Column ;
+    rdfs:label " Incident Category" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/IncidentNumber> a dsv:Column ;
+    rdfs:label "Incident Number" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/Location> a dsv:Column ;
+    rdfs:label " Location" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/OffenseDescription> a dsv:Column ;
+    rdfs:label " Offense Description" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/OfficerName> a dsv:Column ;
+    rdfs:label " Officer Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/ResponseDuration> a dsv:Column ;
+    rdfs:label " Response Duration" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/ResponseType> a dsv:Column ;
+    rdfs:label " Response Type" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/SuspectAge> a dsv:Column ;
+    rdfs:label " Suspect Age" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/SuspectGender> a dsv:Column ;
+    rdfs:label " Suspect Gender" ;
+    dcterms:type "gender" .
+
+<http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/SuspectRace> a dsv:Column ;
+    rdfs:label " Suspect Race" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/CriminologyGX6M52Y4/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/DateTimeOccurred>,
+        <http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/IncidentCategory>,
+        <http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/IncidentNumber>,
+        <http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/Location>,
+        <http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/OffenseDescription>,
+        <http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/OfficerName>,
+        <http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/ResponseDuration>,
+        <http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/ResponseType>,
+        <http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/SuspectAge>,
+        <http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/SuspectGender>,
+        <http://metaUnionSearch/datasets/CriminologyGX6M52Y4/column/SuspectRace> .
+

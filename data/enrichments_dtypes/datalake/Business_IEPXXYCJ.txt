@@ -1,0 +1,14 @@
+year
+company
+address
+description
+year
+symbol
+result
+range
+address
+sales
+range
+position
+address
+artist

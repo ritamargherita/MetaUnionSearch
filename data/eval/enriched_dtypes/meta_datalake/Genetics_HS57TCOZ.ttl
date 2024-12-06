@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_HS57TCOZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeneticsHS57TCOZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/AveragePublicationsperYear> a dsv:Column ;
+    rdfs:label " Average Publications per Year" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/CurrentLabTeamSize> a dsv:Column ;
+    rdfs:label " Current Lab Team Size" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/FamousDiscoveries> a dsv:Column ;
+    rdfs:label " Famous Discoveries" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/GeneticianName> a dsv:Column ;
+    rdfs:label "Genetician Name" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/HighestImpactFactorArticleAuthored> a dsv:Column ;
+    rdfs:label " Highest Impact Factor Article Authored" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/InvolvementinEthicalDebates> a dsv:Column ;
+    rdfs:label " Involvement in Ethical Debates" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/NumberofStudiesPublished> a dsv:Column ;
+    rdfs:label " Number of Studies Published" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/ProfessionalMembershipandAssociations> a dsv:Column ;
+    rdfs:label " Professional Membership and Associations" ;
+    dcterms:type "affiliation" .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/ResearchGrantAmountReceivedLast5Years> a dsv:Column ;
+    rdfs:label " Research Grant Amount Received Last 5 Years" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/ScientificConferencesAttended> a dsv:Column ;
+    rdfs:label " Scientific Conferences Attended" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/TeachingExperienceatGraduateLevel> a dsv:Column ;
+    rdfs:label " Teaching Experience at Graduate Level" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/TeachingExperienceatUndergraduateLevel> a dsv:Column ;
+    rdfs:label " Teaching Experience at Undergraduate Level" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/TotalMasterStudentsAdvised> a dsv:Column ;
+    rdfs:label " Total Master Students Advised" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/TotalPhDStudentsAdvised> a dsv:Column ;
+    rdfs:label " Total PhD Students Advised" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/YearsofExperience> a dsv:Column ;
+    rdfs:label " Years of Experience" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/GeneticsHS57TCOZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/AveragePublicationsperYear>,
+        <http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/CurrentLabTeamSize>,
+        <http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/FamousDiscoveries>,
+        <http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/GeneticianName>,
+        <http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/HighestImpactFactorArticleAuthored>,
+        <http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/InvolvementinEthicalDebates>,
+        <http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/NumberofStudiesPublished>,
+        <http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/ProfessionalMembershipandAssociations>,
+        <http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/ResearchGrantAmountReceivedLast5Years>,
+        <http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/ScientificConferencesAttended>,
+        <http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/TeachingExperienceatGraduateLevel>,
+        <http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/TeachingExperienceatUndergraduateLevel>,
+        <http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/TotalMasterStudentsAdvised>,
+        <http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/TotalPhDStudentsAdvised>,
+        <http://metaUnionSearch/datasets/GeneticsHS57TCOZ/column/YearsofExperience> .
+

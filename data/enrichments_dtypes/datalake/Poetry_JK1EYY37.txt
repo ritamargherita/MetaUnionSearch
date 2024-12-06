@@ -1,0 +1,10 @@
+director
+album
+type
+type
+location
+type
+region
+origin
+position
+name

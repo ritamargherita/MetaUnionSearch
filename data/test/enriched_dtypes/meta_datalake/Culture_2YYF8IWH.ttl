@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Culture2YYF8IWH> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_2YYF8IWH.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Culture2YYF8IWH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Culture2YYF8IWH/column/ArchitecturalStyles> a dsv:Column ;
+    rdfs:label " Architectural Styles" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/Culture2YYF8IWH/column/CuisineTypes> a dsv:Column ;
+    rdfs:label " Cuisine Types" ;
+    dcterms:type "nationality" .
+
+<http://metaUnionSearch/datasets/Culture2YYF8IWH/column/DanceForms> a dsv:Column ;
+    rdfs:label "Dance Forms" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Culture2YYF8IWH/column/FilmIndustry> a dsv:Column ;
+    rdfs:label " Film Industry" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/Culture2YYF8IWH/column/FolkloreMythology> a dsv:Column ;
+    rdfs:label " Folklore & Mythology" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Culture2YYF8IWH/column/HistoricalPlaces> a dsv:Column ;
+    rdfs:label " Historical Places" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Culture2YYF8IWH/column/LiteratureGenres> a dsv:Column ;
+    rdfs:label " Literature Genres" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/Culture2YYF8IWH/column/MusicalInstruments> a dsv:Column ;
+    rdfs:label " Musical Instruments" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Culture2YYF8IWH/column/NationalHolidays> a dsv:Column ;
+    rdfs:label " National Holidays" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Culture2YYF8IWH/column/PoetrySchools> a dsv:Column ;
+    rdfs:label " Poetry Schools" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Culture2YYF8IWH/column/SportsGames> a dsv:Column ;
+    rdfs:label " Sports & Games" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/Culture2YYF8IWH/column/VisualArtsCrafts> a dsv:Column ;
+    rdfs:label " Visual Arts & Crafts" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Culture2YYF8IWH/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Culture2YYF8IWH/column/ArchitecturalStyles>,
+        <http://metaUnionSearch/datasets/Culture2YYF8IWH/column/CuisineTypes>,
+        <http://metaUnionSearch/datasets/Culture2YYF8IWH/column/DanceForms>,
+        <http://metaUnionSearch/datasets/Culture2YYF8IWH/column/FilmIndustry>,
+        <http://metaUnionSearch/datasets/Culture2YYF8IWH/column/FolkloreMythology>,
+        <http://metaUnionSearch/datasets/Culture2YYF8IWH/column/HistoricalPlaces>,
+        <http://metaUnionSearch/datasets/Culture2YYF8IWH/column/LiteratureGenres>,
+        <http://metaUnionSearch/datasets/Culture2YYF8IWH/column/MusicalInstruments>,
+        <http://metaUnionSearch/datasets/Culture2YYF8IWH/column/NationalHolidays>,
+        <http://metaUnionSearch/datasets/Culture2YYF8IWH/column/PoetrySchools>,
+        <http://metaUnionSearch/datasets/Culture2YYF8IWH/column/SportsGames>,
+        <http://metaUnionSearch/datasets/Culture2YYF8IWH/column/VisualArtsCrafts> .
+

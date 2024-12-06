@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Genealogy7P8BYW48> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_7P8BYW48.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Genealogy7P8BYW48/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/AdoptiveParentsGivenName> a dsv:Column ;
+    rdfs:label "AdoptiveParentsGivenName" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/BirthDate> a dsv:Column ;
+    rdfs:label "BirthDate" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/ChildGivenName> a dsv:Column ;
+    rdfs:label "ChildGivenName" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/ChildMiddleName> a dsv:Column ;
+    rdfs:label "ChildMiddleName" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/ChildSurname> a dsv:Column ;
+    rdfs:label "ChildSurname" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/DeathDate> a dsv:Column ;
+    rdfs:label "DeathDate" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/EducationalBackground> a dsv:Column ;
+    rdfs:label "EducationalBackground" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/MarriageDate> a dsv:Column ;
+    rdfs:label "MarriageDate" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/Occupation> a dsv:Column ;
+    rdfs:label "Occupation" ;
+    dcterms:type "credit" .
+
+<http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/PlaceOfBirth> a dsv:Column ;
+    rdfs:label "PlaceOfBirth" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/ReligiousAffiliation> a dsv:Column ;
+    rdfs:label "ReligiousAffiliation" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/SSN> a dsv:Column ;
+    rdfs:label "SSN" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/SpouseNames> a dsv:Column ;
+    rdfs:label "SpouseNames" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Genealogy7P8BYW48/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/AdoptiveParentsGivenName>,
+        <http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/BirthDate>,
+        <http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/ChildGivenName>,
+        <http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/ChildMiddleName>,
+        <http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/ChildSurname>,
+        <http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/DeathDate>,
+        <http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/EducationalBackground>,
+        <http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/MarriageDate>,
+        <http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/Occupation>,
+        <http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/PlaceOfBirth>,
+        <http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/ReligiousAffiliation>,
+        <http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/SSN>,
+        <http://metaUnionSearch/datasets/Genealogy7P8BYW48/column/SpouseNames> .
+

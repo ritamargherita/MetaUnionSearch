@@ -1,0 +1,10 @@
+class
+address
+name
+position
+age
+duration
+rank
+sales
+capacity
+result

@@ -1,0 +1,10 @@
+range
+area
+capacity
+requirement
+description
+format
+depth
+symbol
+address
+capacity

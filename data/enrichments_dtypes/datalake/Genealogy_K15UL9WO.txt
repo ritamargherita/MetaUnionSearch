@@ -1,0 +1,13 @@
+year
+country
+year
+address
+address
+address
+position
+notes
+religion
+education
+result
+name
+name

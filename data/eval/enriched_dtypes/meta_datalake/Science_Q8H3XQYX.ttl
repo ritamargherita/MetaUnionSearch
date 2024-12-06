@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ScienceQ8H3XQYX> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_Q8H3XQYX.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ScienceQ8H3XQYX/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/AdditionalObservationalEvidencesuchasimagesvideoetc> a dsv:Column ;
+    rdfs:label " Additional Observational Evidence \\(such as images、video etc.\\)" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/CalculationsPerformedifapplicable> a dsv:Column ;
+    rdfs:label " Calculations Performed \\( \\(if applicable \\)\\)" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/ConcreteObjectAbstractPrinciple> a dsv:Column ;
+    rdfs:label " Concrete Object / Abstract Principle" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/DataCollectionMethod> a dsv:Column ;
+    rdfs:label " Data Collection Method" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/ErrorMargin> a dsv:Column ;
+    rdfs:label " Error Margin" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/ExperimentType> a dsv:Column ;
+    rdfs:label " Experiment Type" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/FundingSource> a dsv:Column ;
+    rdfs:label " Funding Source" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/IfApplicablePhenomenaorEffectAssociATEDWITHIt> a dsv:Column ;
+    rdfs:label " \\(If Applicable\\) Phenomena or Effect AssociATED WITH It " ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/MeasurementDataPoints> a dsv:Column ;
+    rdfs:label " Measurement Data Points" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/ObservationResults> a dsv:Column ;
+    rdfs:label " Observation Results" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/ResearcherNotesCommentsInferencesDrawnFromFindingsandAnalysis> a dsv:Column ;
+    rdfs:label " Researcher Notes & Comments: Inferences Drawn From Findings and Analysis" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/SampleSize> a dsv:Column ;
+    rdfs:label " Sample Size" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/ScientificField> a dsv:Column ;
+    rdfs:label "*Scientific Field*" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/StatisticalTests> a dsv:Column ;
+    rdfs:label " Statistical Tests" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ScienceQ8H3XQYX/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/AdditionalObservationalEvidencesuchasimagesvideoetc>,
+        <http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/CalculationsPerformedifapplicable>,
+        <http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/ConcreteObjectAbstractPrinciple>,
+        <http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/DataCollectionMethod>,
+        <http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/ErrorMargin>,
+        <http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/ExperimentType>,
+        <http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/FundingSource>,
+        <http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/IfApplicablePhenomenaorEffectAssociATEDWITHIt>,
+        <http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/MeasurementDataPoints>,
+        <http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/ObservationResults>,
+        <http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/ResearcherNotesCommentsInferencesDrawnFromFindingsandAnalysis>,
+        <http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/SampleSize>,
+        <http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/ScientificField>,
+        <http://metaUnionSearch/datasets/ScienceQ8H3XQYX/column/StatisticalTests> .
+

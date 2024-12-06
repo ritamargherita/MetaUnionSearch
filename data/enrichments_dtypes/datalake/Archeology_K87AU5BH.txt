@@ -1,0 +1,14 @@
+album
+weight
+duration
+name
+name
+requirement
+capacity
+address
+description
+notes
+notes
+species
+product
+publisher

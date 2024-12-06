@@ -1,0 +1,13 @@
+name
+classification
+name
+description
+capacity
+artist
+notes
+description
+notes
+description
+description
+duration
+status

@@ -1,0 +1,15 @@
+album
+language
+nationality
+year
+album
+owner
+format
+format
+rank
+age
+rank
+location
+genre
+publisher
+language

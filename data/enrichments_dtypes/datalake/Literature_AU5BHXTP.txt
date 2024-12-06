@@ -1,0 +1,5 @@
+address
+description
+category
+genre
+format

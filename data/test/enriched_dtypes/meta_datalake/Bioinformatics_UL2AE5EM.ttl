@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_UL2AE5EM.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/DomainAnnotation> a dsv:Column ;
+    rdfs:label " Domain Annotation" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/EvolutionaryConservation> a dsv:Column ;
+    rdfs:label " Evolutionary Conservation" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/GeneOntologyAnnotation> a dsv:Column ;
+    rdfs:label " Gene Ontology Annotation" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/ModificationSites> a dsv:Column ;
+    rdfs:label " Modification Sites\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/PosttranslationalModifications> a dsv:Column ;
+    rdfs:label " Post-translational Modifications" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/ProteinComplexMembership> a dsv:Column ;
+    rdfs:label " Protein Complex Membership" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/ProteinDisorder> a dsv:Column ;
+    rdfs:label " Protein Disorder" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/ProteinFunction> a dsv:Column ;
+    rdfs:label " Protein Function" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/ProteinLength> a dsv:Column ;
+    rdfs:label " Protein Length" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/ProteinLigandBinding> a dsv:Column ;
+    rdfs:label " Protein-Ligand Binding" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/ProteinProteinInteractions> a dsv:Column ;
+    rdfs:label " Protein-Protein Interactions" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/ProteinStructure> a dsv:Column ;
+    rdfs:label "\"Protein Structure" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/SequenceMotifs> a dsv:Column ;
+    rdfs:label " Sequence Motifs" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/SubcellularLocalization> a dsv:Column ;
+    rdfs:label " Subcellular Localization" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/DomainAnnotation>,
+        <http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/EvolutionaryConservation>,
+        <http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/GeneOntologyAnnotation>,
+        <http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/ModificationSites>,
+        <http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/PosttranslationalModifications>,
+        <http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/ProteinComplexMembership>,
+        <http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/ProteinDisorder>,
+        <http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/ProteinFunction>,
+        <http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/ProteinLength>,
+        <http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/ProteinLigandBinding>,
+        <http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/ProteinProteinInteractions>,
+        <http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/ProteinStructure>,
+        <http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/SequenceMotifs>,
+        <http://metaUnionSearch/datasets/BioinformaticsUL2AE5EM/column/SubcellularLocalization> .
+

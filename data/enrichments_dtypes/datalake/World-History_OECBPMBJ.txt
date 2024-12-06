@@ -1,0 +1,10 @@
+name
+position
+name
+affiliation
+album
+album
+creator
+status
+position
+category

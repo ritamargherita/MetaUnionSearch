@@ -1,0 +1,13 @@
+species
+genre
+class
+area
+description
+album
+notes
+species
+species
+product
+album
+category
+product

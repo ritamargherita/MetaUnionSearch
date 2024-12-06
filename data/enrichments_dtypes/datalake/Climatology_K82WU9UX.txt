@@ -1,0 +1,10 @@
+rank
+team
+description
+product
+category
+product
+class
+family
+operator
+command

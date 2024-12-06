@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_VLU9AAEA.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MedicineVLU9AAEA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/AdditionalNotes> a dsv:Column ;
+    rdfs:label "Additional Notes" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/AdverseReactions> a dsv:Column ;
+    rdfs:label "Adverse Reactions" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/DateFilled> a dsv:Column ;
+    rdfs:label "Date Filled" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/FollowupAppointmentSchedule> a dsv:Column ;
+    rdfs:label "Follow-up Appointment Schedule" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/InsuranceCoverage> a dsv:Column ;
+    rdfs:label "Insurance Coverage" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/MedicationInteractions> a dsv:Column ;
+    rdfs:label "Medication Interactions" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/MedicationSideEffects> a dsv:Column ;
+    rdfs:label "Medication Side Effects" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/MedicationStorage> a dsv:Column ;
+    rdfs:label "Medication Storage" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/MedicationWarnings> a dsv:Column ;
+    rdfs:label "Medication Warnings" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/PatientID> a dsv:Column ;
+    rdfs:label "Patient ID" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/PatientSatisfaction> a dsv:Column ;
+    rdfs:label "Patient Satisfaction" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/PharmacyName> a dsv:Column ;
+    rdfs:label "Pharmacy Name" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/PrescribingGuidelines> a dsv:Column ;
+    rdfs:label "Prescribing Guidelines" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/PrescriptionCost> a dsv:Column ;
+    rdfs:label "Prescription Cost" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/PrescriptionRenewal> a dsv:Column ;
+    rdfs:label "Prescription Renewal" ;
+    dcterms:type "director" .
+
+<http://metaUnionSearch/datasets/MedicineVLU9AAEA/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/AdditionalNotes>,
+        <http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/AdverseReactions>,
+        <http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/DateFilled>,
+        <http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/FollowupAppointmentSchedule>,
+        <http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/InsuranceCoverage>,
+        <http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/MedicationInteractions>,
+        <http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/MedicationSideEffects>,
+        <http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/MedicationStorage>,
+        <http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/MedicationWarnings>,
+        <http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/PatientID>,
+        <http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/PatientSatisfaction>,
+        <http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/PharmacyName>,
+        <http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/PrescribingGuidelines>,
+        <http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/PrescriptionCost>,
+        <http://metaUnionSearch/datasets/MedicineVLU9AAEA/column/PrescriptionRenewal> .
+

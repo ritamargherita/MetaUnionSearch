@@ -1,0 +1,12 @@
+language
+family
+country
+sales
+sales
+operator
+genre
+day
+notes
+country
+language
+origin

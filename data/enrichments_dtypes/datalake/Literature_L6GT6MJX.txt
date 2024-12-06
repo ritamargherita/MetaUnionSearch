@@ -1,0 +1,13 @@
+album
+year
+publisher
+artist
+capacity
+genre
+notes
+education
+product
+area
+genre
+notes
+genre

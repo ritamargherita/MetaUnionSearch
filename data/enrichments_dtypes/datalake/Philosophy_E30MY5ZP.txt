@@ -1,0 +1,10 @@
+component
+person
+capacity
+album
+rank
+rank
+rank
+rank
+rank
+range

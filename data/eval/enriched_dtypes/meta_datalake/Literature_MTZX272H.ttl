@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LiteratureMTZX272H> a dsv:Dataset ;
+    dcterms:subject "literature" ;
+    dcterms:title "Literature_MTZX272H.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LiteratureMTZX272H/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LiteratureMTZX272H/column/AvailableFormats> a dsv:Column ;
+    rdfs:label " Available Formats" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/LiteratureMTZX272H/column/Awards> a dsv:Column ;
+    rdfs:label " Awards" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/LiteratureMTZX272H/column/BookTitle> a dsv:Column ;
+    rdfs:label "Book Title" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureMTZX272H/column/ISBN> a dsv:Column ;
+    rdfs:label " ISBN" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/LiteratureMTZX272H/column/InPrint> a dsv:Column ;
+    rdfs:label " In Print" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/LiteratureMTZX272H/column/Language> a dsv:Column ;
+    rdfs:label " Language" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/LiteratureMTZX272H/column/ListPrice> a dsv:Column ;
+    rdfs:label " List Price" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/LiteratureMTZX272H/column/NumberofRatings> a dsv:Column ;
+    rdfs:label " Number of Ratings" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/LiteratureMTZX272H/column/Pages> a dsv:Column ;
+    rdfs:label " Pages" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/LiteratureMTZX272H/column/PublicationYear> a dsv:Column ;
+    rdfs:label " Publication Year" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/LiteratureMTZX272H/column/Publisher> a dsv:Column ;
+    rdfs:label " Publisher" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/LiteratureMTZX272H/column/ReadersAverageRating> a dsv:Column ;
+    rdfs:label " Reader’s Average Rating" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/LiteratureMTZX272H/column/SeriesInfo> a dsv:Column ;
+    rdfs:label " Series Info" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureMTZX272H/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LiteratureMTZX272H/column/AvailableFormats>,
+        <http://metaUnionSearch/datasets/LiteratureMTZX272H/column/Awards>,
+        <http://metaUnionSearch/datasets/LiteratureMTZX272H/column/BookTitle>,
+        <http://metaUnionSearch/datasets/LiteratureMTZX272H/column/ISBN>,
+        <http://metaUnionSearch/datasets/LiteratureMTZX272H/column/InPrint>,
+        <http://metaUnionSearch/datasets/LiteratureMTZX272H/column/Language>,
+        <http://metaUnionSearch/datasets/LiteratureMTZX272H/column/ListPrice>,
+        <http://metaUnionSearch/datasets/LiteratureMTZX272H/column/NumberofRatings>,
+        <http://metaUnionSearch/datasets/LiteratureMTZX272H/column/Pages>,
+        <http://metaUnionSearch/datasets/LiteratureMTZX272H/column/PublicationYear>,
+        <http://metaUnionSearch/datasets/LiteratureMTZX272H/column/Publisher>,
+        <http://metaUnionSearch/datasets/LiteratureMTZX272H/column/ReadersAverageRating>,
+        <http://metaUnionSearch/datasets/LiteratureMTZX272H/column/SeriesInfo> .
+

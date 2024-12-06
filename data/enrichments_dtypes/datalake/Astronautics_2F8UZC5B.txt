@@ -1,0 +1,10 @@
+name
+birth Date
+rank
+name
+class
+album
+description
+range
+creator
+result

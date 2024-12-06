@@ -1,0 +1,15 @@
+address
+company
+description
+sales
+sales
+address
+address
+capacity
+location
+industry
+range
+category
+type
+category
+product

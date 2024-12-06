@@ -1,0 +1,13 @@
+name
+name
+notes
+status
+artist
+description
+name
+area
+description
+team
+description
+description
+album

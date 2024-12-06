@@ -1,0 +1,10 @@
+address
+location
+company
+product
+sales
+sales
+range
+category
+region
+name

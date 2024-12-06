@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArts9FTNWN06> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_9FTNWN06.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArts9FTNWN06/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/FestivalName> a dsv:Column ;
+    rdfs:label "Festival Name" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/FestivalType> a dsv:Column ;
+    rdfs:label "Festival Type" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/HonoraryAwards> a dsv:Column ;
+    rdfs:label "Honorary Awards" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/Locale> a dsv:Column ;
+    rdfs:label "Locale" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/NumberOfAttendees> a dsv:Column ;
+    rdfs:label "Number Of Attendees" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/Sponsors> a dsv:Column ;
+    rdfs:label "Sponsors" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/TicketSalesLink> a dsv:Column ;
+    rdfs:label "Ticket Sales Link" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/TopPerformances> a dsv:Column ;
+    rdfs:label "Top Performances" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/VolunteerOpportunities> a dsv:Column ;
+    rdfs:label "Volunteer Opportunities" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/YearFounded> a dsv:Column ;
+    rdfs:label "Year Founded" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/PerformingArts9FTNWN06/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/FestivalName>,
+        <http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/FestivalType>,
+        <http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/HonoraryAwards>,
+        <http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/Locale>,
+        <http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/NumberOfAttendees>,
+        <http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/Sponsors>,
+        <http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/TicketSalesLink>,
+        <http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/TopPerformances>,
+        <http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/VolunteerOpportunities>,
+        <http://metaUnionSearch/datasets/PerformingArts9FTNWN06/column/YearFounded> .
+

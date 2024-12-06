@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologyUY7S361G> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_UY7S361G.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologyUY7S361G/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologyUY7S361G/column/AugmentedRealityVirtualReality> a dsv:Column ;
+    rdfs:label " Augmented Reality & Virtual Reality." ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/TechnologyUY7S361G/column/Blockchain> a dsv:Column ;
+    rdfs:label " Blockchain" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/TechnologyUY7S361G/column/CloudComputing> a dsv:Column ;
+    rdfs:label " Cloud Computing" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/TechnologyUY7S361G/column/CybersecurityThreats> a dsv:Column ;
+    rdfs:label " Cybersecurity Threats" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/TechnologyUY7S361G/column/EdgeComputing> a dsv:Column ;
+    rdfs:label " Edge Computing" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/TechnologyUY7S361G/column/HardwareComponents> a dsv:Column ;
+    rdfs:label " Hardware Components" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/TechnologyUY7S361G/column/InternetofThings> a dsv:Column ;
+    rdfs:label " Internet of Things" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/TechnologyUY7S361G/column/NetworkProtocols> a dsv:Column ;
+    rdfs:label " Network Protocols" ;
+    dcterms:type "command" .
+
+<http://metaUnionSearch/datasets/TechnologyUY7S361G/column/OpenSourcevsProprietary> a dsv:Column ;
+    rdfs:label " Open Source vs Proprietary" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/TechnologyUY7S361G/column/QuantumComputing> a dsv:Column ;
+    rdfs:label " Quantum Computing" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/TechnologyUY7S361G/column/SoftwareArchitecture> a dsv:Column ;
+    rdfs:label "Software Architecture" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/TechnologyUY7S361G/column/UsageMetricsAnalysis> a dsv:Column ;
+    rdfs:label " Usage Metrics Analysis" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/TechnologyUY7S361G/column/UserExperience> a dsv:Column ;
+    rdfs:label " User Experience" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/TechnologyUY7S361G/column/Virtualization> a dsv:Column ;
+    rdfs:label " Virtualization" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/TechnologyUY7S361G/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologyUY7S361G/column/AugmentedRealityVirtualReality>,
+        <http://metaUnionSearch/datasets/TechnologyUY7S361G/column/Blockchain>,
+        <http://metaUnionSearch/datasets/TechnologyUY7S361G/column/CloudComputing>,
+        <http://metaUnionSearch/datasets/TechnologyUY7S361G/column/CybersecurityThreats>,
+        <http://metaUnionSearch/datasets/TechnologyUY7S361G/column/EdgeComputing>,
+        <http://metaUnionSearch/datasets/TechnologyUY7S361G/column/HardwareComponents>,
+        <http://metaUnionSearch/datasets/TechnologyUY7S361G/column/InternetofThings>,
+        <http://metaUnionSearch/datasets/TechnologyUY7S361G/column/NetworkProtocols>,
+        <http://metaUnionSearch/datasets/TechnologyUY7S361G/column/OpenSourcevsProprietary>,
+        <http://metaUnionSearch/datasets/TechnologyUY7S361G/column/QuantumComputing>,
+        <http://metaUnionSearch/datasets/TechnologyUY7S361G/column/SoftwareArchitecture>,
+        <http://metaUnionSearch/datasets/TechnologyUY7S361G/column/UsageMetricsAnalysis>,
+        <http://metaUnionSearch/datasets/TechnologyUY7S361G/column/UserExperience>,
+        <http://metaUnionSearch/datasets/TechnologyUY7S361G/column/Virtualization> .
+

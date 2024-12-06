@@ -1,0 +1,11 @@
+artist
+year
+name
+region
+result
+description
+description
+origin
+notes
+album
+status

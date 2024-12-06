@@ -1,0 +1,15 @@
+person
+age
+position
+result
+description
+description
+affiliation
+description
+description
+description
+duration
+description
+description
+notes
+notes

@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Engineering452BFSOZ> a dsv:Dataset ;
+    dcterms:subject "engineering" ;
+    dcterms:title "Engineering_452BFSOZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Engineering452BFSOZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Engineering452BFSOZ/column/AdditionalResourcesRequired> a dsv:Column ;
+    rdfs:label "Additional Resources Required" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering452BFSOZ/column/CurrentPhaseStatuses> a dsv:Column ;
+    rdfs:label "Current Phase Statuses" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/Engineering452BFSOZ/column/EngagedSystems> a dsv:Column ;
+    rdfs:label "\"Engaged Systems" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering452BFSOZ/column/EnhancedQualityAssurance> a dsv:Column ;
+    rdfs:label "Enhanced Quality Assurance" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering452BFSOZ/column/ExtendedProjectScopes> a dsv:Column ;
+    rdfs:label "Extended Project Scopes" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering452BFSOZ/column/ExternalCollaborations> a dsv:Column ;
+    rdfs:label "External Collaborations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering452BFSOZ/column/ImprovedDesignMethodologies> a dsv:Column ;
+    rdfs:label "Improved Design Methodologies" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering452BFSOZ/column/LeadImplementers> a dsv:Column ;
+    rdfs:label "Lead Implementers" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Engineering452BFSOZ/column/ModifiedCostEstimations> a dsv:Column ;
+    rdfs:label "Modified Cost Estimations" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/Engineering452BFSOZ/column/RemainingTasks> a dsv:Column ;
+    rdfs:label "#Remaining Tasks" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/Engineering452BFSOZ/column/RevisedSafetyProtocols> a dsv:Column ;
+    rdfs:label "Revised Safety Protocols" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering452BFSOZ/column/Unassigned> a dsv:Column ;
+    rdfs:label "Unassigned\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering452BFSOZ/column/UpdatedDates> a dsv:Column ;
+    rdfs:label "Updated Dates" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Engineering452BFSOZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Engineering452BFSOZ/column/AdditionalResourcesRequired>,
+        <http://metaUnionSearch/datasets/Engineering452BFSOZ/column/CurrentPhaseStatuses>,
+        <http://metaUnionSearch/datasets/Engineering452BFSOZ/column/EngagedSystems>,
+        <http://metaUnionSearch/datasets/Engineering452BFSOZ/column/EnhancedQualityAssurance>,
+        <http://metaUnionSearch/datasets/Engineering452BFSOZ/column/ExtendedProjectScopes>,
+        <http://metaUnionSearch/datasets/Engineering452BFSOZ/column/ExternalCollaborations>,
+        <http://metaUnionSearch/datasets/Engineering452BFSOZ/column/ImprovedDesignMethodologies>,
+        <http://metaUnionSearch/datasets/Engineering452BFSOZ/column/LeadImplementers>,
+        <http://metaUnionSearch/datasets/Engineering452BFSOZ/column/ModifiedCostEstimations>,
+        <http://metaUnionSearch/datasets/Engineering452BFSOZ/column/RemainingTasks>,
+        <http://metaUnionSearch/datasets/Engineering452BFSOZ/column/RevisedSafetyProtocols>,
+        <http://metaUnionSearch/datasets/Engineering452BFSOZ/column/Unassigned>,
+        <http://metaUnionSearch/datasets/Engineering452BFSOZ/column/UpdatedDates> .
+

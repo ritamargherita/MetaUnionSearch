@@ -1,0 +1,14 @@
+artist
+artist
+director
+artist
+publisher
+location
+name
+name
+name
+company
+brand
+company
+service
+album

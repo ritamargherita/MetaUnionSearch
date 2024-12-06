@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CookingMXAU7MBA> a dsv:Dataset ;
+    dcterms:subject "cooking" ;
+    dcterms:title "Cooking_MXAU7MBA.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CookingMXAU7MBA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CookingMXAU7MBA/column/> a dsv:Column ;
+    rdfs:label " ... " ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingMXAU7MBA/column/AdditionalCookTime> a dsv:Column ;
+    rdfs:label " Additional Cook Time" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/CookingMXAU7MBA/column/CookTime> a dsv:Column ;
+    rdfs:label " Cook Time" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/CookingMXAU7MBA/column/Cuisine> a dsv:Column ;
+    rdfs:label " Cuisine" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/CookingMXAU7MBA/column/Ingredient1> a dsv:Column ;
+    rdfs:label " Ingredient 1" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingMXAU7MBA/column/Ingredient13> a dsv:Column ;
+    rdfs:label " Ingredient 13" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingMXAU7MBA/column/Ingredient2> a dsv:Column ;
+    rdfs:label " Ingredient 2" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingMXAU7MBA/column/Ingredient3> a dsv:Column ;
+    rdfs:label " Ingredient 3" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CookingMXAU7MBA/column/InstructionSteps> a dsv:Column ;
+    rdfs:label " Instruction Steps" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CookingMXAU7MBA/column/NutritionFacts> a dsv:Column ;
+    rdfs:label " Nutrition Facts" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/CookingMXAU7MBA/column/PrepTime> a dsv:Column ;
+    rdfs:label " Prep Time" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/CookingMXAU7MBA/column/RecipeSuggestions> a dsv:Column ;
+    rdfs:label "Recipe Suggestions" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingMXAU7MBA/column/Servings> a dsv:Column ;
+    rdfs:label " Servings" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/CookingMXAU7MBA/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CookingMXAU7MBA/column/>,
+        <http://metaUnionSearch/datasets/CookingMXAU7MBA/column/AdditionalCookTime>,
+        <http://metaUnionSearch/datasets/CookingMXAU7MBA/column/CookTime>,
+        <http://metaUnionSearch/datasets/CookingMXAU7MBA/column/Cuisine>,
+        <http://metaUnionSearch/datasets/CookingMXAU7MBA/column/Ingredient1>,
+        <http://metaUnionSearch/datasets/CookingMXAU7MBA/column/Ingredient13>,
+        <http://metaUnionSearch/datasets/CookingMXAU7MBA/column/Ingredient2>,
+        <http://metaUnionSearch/datasets/CookingMXAU7MBA/column/Ingredient3>,
+        <http://metaUnionSearch/datasets/CookingMXAU7MBA/column/InstructionSteps>,
+        <http://metaUnionSearch/datasets/CookingMXAU7MBA/column/NutritionFacts>,
+        <http://metaUnionSearch/datasets/CookingMXAU7MBA/column/PrepTime>,
+        <http://metaUnionSearch/datasets/CookingMXAU7MBA/column/RecipeSuggestions>,
+        <http://metaUnionSearch/datasets/CookingMXAU7MBA/column/Servings> .
+

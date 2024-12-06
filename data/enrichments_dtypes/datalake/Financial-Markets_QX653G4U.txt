@@ -1,0 +1,13 @@
+product
+type
+description
+description
+name
+command
+category
+name
+description
+description
+industry
+company
+description

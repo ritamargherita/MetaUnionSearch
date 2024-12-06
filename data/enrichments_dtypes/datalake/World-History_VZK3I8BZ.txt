@@ -1,0 +1,11 @@
+origin
+religion
+class
+origin
+origin
+area
+name
+notes
+organisation
+description
+operator

@@ -1,0 +1,11 @@
+name
+city
+description
+result
+capacity
+age
+capacity
+range
+range
+product
+album

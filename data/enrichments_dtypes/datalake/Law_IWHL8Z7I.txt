@@ -1,0 +1,13 @@
+team
+address
+name
+description
+address
+description
+address
+description
+duration
+status
+rank
+industry
+name

@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ClimatologyGTCYFDVW> a dsv:Dataset ;
+    dcterms:subject "climatology" ;
+    dcterms:title "Climatology_GTCYFDVW.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/AdaptiveMeasuresTaken> a dsv:Column ;
+    rdfs:label " Adaptive Measures Taken*" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/ChangeinDroughtFrequencydecade> a dsv:Column ;
+    rdfs:label " Change in Drought Frequency (/decade)" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/ClimateModelType> a dsv:Column ;
+    rdfs:label "Climate Model Type" ;
+    dcterms:type "affiliation" .
+
+<http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/EvaluationMetricsUsed> a dsv:Column ;
+    rdfs:label " Evaluation Metrics Used*" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/FutureExtremeEventsFrequencyHightempeventsper50yearsColdtempeventsper50yearsHeavyrainepisodesper50years> a dsv:Column ;
+    rdfs:label " Future Extreme Events Frequency: High temp events per 50 years, Cold temp events per 50 years, Heavy rain episodes per 50 years" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/GlobalMeanTempIncreaseC> a dsv:Column ;
+    rdfs:label " Global Mean Temp Increase (°C)" ;
+    dcterms:type "code" .
+
+<http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/ProjectedRainfallChangeSpringSummerAutumnWinter> a dsv:Column ;
+    rdfs:label " Projected Rainfall Change (%): Spring, Summer, Autumn, Winter" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/ProjectedeCO2change> a dsv:Column ;
+    rdfs:label " Projected eCO2 % change" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/ScenarioUsed> a dsv:Column ;
+    rdfs:label " Scenario Used" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/SeasonalVariationTrendSpringtrendvalueSummertrendvalueAutumntrendvalueWintertrendvalue> a dsv:Column ;
+    rdfs:label " Seasonal Variation Trend: Spring(trend value), Summer(trend value), Autumn(trend value), Winter(trend value)" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/AdaptiveMeasuresTaken>,
+        <http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/ChangeinDroughtFrequencydecade>,
+        <http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/ClimateModelType>,
+        <http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/EvaluationMetricsUsed>,
+        <http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/FutureExtremeEventsFrequencyHightempeventsper50yearsColdtempeventsper50yearsHeavyrainepisodesper50years>,
+        <http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/GlobalMeanTempIncreaseC>,
+        <http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/ProjectedRainfallChangeSpringSummerAutumnWinter>,
+        <http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/ProjectedeCO2change>,
+        <http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/ScenarioUsed>,
+        <http://metaUnionSearch/datasets/ClimatologyGTCYFDVW/column/SeasonalVariationTrendSpringtrendvalueSummertrendvalueAutumntrendvalueWintertrendvalue> .
+

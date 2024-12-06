@@ -1,0 +1,11 @@
+year
+state
+county
+city
+address
+country
+industry
+address
+education
+category
+depth

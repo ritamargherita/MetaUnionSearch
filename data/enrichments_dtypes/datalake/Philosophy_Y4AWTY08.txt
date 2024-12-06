@@ -1,0 +1,15 @@
+person
+location
+company
+notes
+description
+notes
+classification
+album
+person
+album
+album
+genre
+format
+artist
+artist

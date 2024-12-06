@@ -1,0 +1,12 @@
+address
+genre
+address
+location
+name
+age
+album
+credit
+description
+capacity
+capacity
+address

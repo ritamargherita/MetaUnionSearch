@@ -1,0 +1,11 @@
+team
+address
+affiliation
+name
+affiliation
+notes
+classification
+description
+address
+notes
+artist

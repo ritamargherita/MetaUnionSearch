@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Genetics9UY7S361> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_9UY7S361.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Genetics9UY7S361/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Genetics9UY7S361/column/EpigeneticModifications> a dsv:Column ;
+    rdfs:label " <Epigenetic Modifications>" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Genetics9UY7S361/column/GeneExpressionLevels> a dsv:Column ;
+    rdfs:label " <Gene Expression Levels>" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Genetics9UY7S361/column/GenesAssociatedWithDiseases> a dsv:Column ;
+    rdfs:label "<Genes Associated With Diseases>" ;
+    dcterms:type "symbol" .
+
+<http://metaUnionSearch/datasets/Genetics9UY7S361/column/GeneticCounselingConsiderations> a dsv:Column ;
+    rdfs:label " <Genetic Counseling Considerations>" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/Genetics9UY7S361/column/GeneticResearchEthics> a dsv:Column ;
+    rdfs:label " <Genetic Research Ethics>" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Genetics9UY7S361/column/GeneticVariantsFrequency> a dsv:Column ;
+    rdfs:label " <Genetic Variants Frequency>" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Genetics9UY7S361/column/GenotypePhenotypeCorrelations> a dsv:Column ;
+    rdfs:label " <Genotype-Phenotype Correlations>" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Genetics9UY7S361/column/MutationConsequences> a dsv:Column ;
+    rdfs:label " <Mutation Consequences>" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/Genetics9UY7S361/column/PopulationGeneticStudies> a dsv:Column ;
+    rdfs:label " <Population Genetic Studies>" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Genetics9UY7S361/column/ProteinFunction> a dsv:Column ;
+    rdfs:label " <Protein Function>" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Genetics9UY7S361/column/RelatedPathways> a dsv:Column ;
+    rdfs:label " <Related Pathways>" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Genetics9UY7S361/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Genetics9UY7S361/column/EpigeneticModifications>,
+        <http://metaUnionSearch/datasets/Genetics9UY7S361/column/GeneExpressionLevels>,
+        <http://metaUnionSearch/datasets/Genetics9UY7S361/column/GenesAssociatedWithDiseases>,
+        <http://metaUnionSearch/datasets/Genetics9UY7S361/column/GeneticCounselingConsiderations>,
+        <http://metaUnionSearch/datasets/Genetics9UY7S361/column/GeneticResearchEthics>,
+        <http://metaUnionSearch/datasets/Genetics9UY7S361/column/GeneticVariantsFrequency>,
+        <http://metaUnionSearch/datasets/Genetics9UY7S361/column/GenotypePhenotypeCorrelations>,
+        <http://metaUnionSearch/datasets/Genetics9UY7S361/column/MutationConsequences>,
+        <http://metaUnionSearch/datasets/Genetics9UY7S361/column/PopulationGeneticStudies>,
+        <http://metaUnionSearch/datasets/Genetics9UY7S361/column/ProteinFunction>,
+        <http://metaUnionSearch/datasets/Genetics9UY7S361/column/RelatedPathways> .
+

@@ -1,0 +1,83 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CookingDE4M6HY7> a dsv:Dataset ;
+    dcterms:subject "cooking" ;
+    dcterms:title "Cooking_DE4M6HY7.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CookingDE4M6HY7/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CookingDE4M6HY7/column/AllergenFree> a dsv:Column ;
+    rdfs:label """\\
+Allergen Free""" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/CookingDE4M6HY7/column/CaloricContent> a dsv:Column ;
+    rdfs:label """\\
+Caloric Content""" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/CookingDE4M6HY7/column/ChefName> a dsv:Column ;
+    rdfs:label """\\
+Chef Name""" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CookingDE4M6HY7/column/CulturalNotes> a dsv:Column ;
+    rdfs:label """\\
+Cultural Notes""" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingDE4M6HY7/column/DishPresentationScore> a dsv:Column ;
+    rdfs:label """\\
+Dish Presentation Score""" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/CookingDE4M6HY7/column/EstimatedCostPerMeal> a dsv:Column ;
+    rdfs:label """\\
+Estimated Cost Per Meal""" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/CookingDE4M6HY7/column/LastUpdated> a dsv:Column ;
+    rdfs:label """\\
+Last Updated""" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/CookingDE4M6HY7/column/Seasonality> a dsv:Column ;
+    rdfs:label """\\
+Seasonality""" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/CookingDE4M6HY7/column/SpecialOccasion> a dsv:Column ;
+    rdfs:label """\\
+Special Occasion""" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/CookingDE4M6HY7/column/SustainabilitySource> a dsv:Column ;
+    rdfs:label """\\
+Sustainability Source""" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CookingDE4M6HY7/column/TasteRating> a dsv:Column ;
+    rdfs:label """\\
+Taste Rating""" ;
+    dcterms:type "day" .
+
+<http://metaUnionSearch/datasets/CookingDE4M6HY7/column/WouldMakeAgain> a dsv:Column ;
+    rdfs:label """\\
+Would Make Again""" ;
+    dcterms:type "operator" .
+
+<http://metaUnionSearch/datasets/CookingDE4M6HY7/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CookingDE4M6HY7/column/AllergenFree>,
+        <http://metaUnionSearch/datasets/CookingDE4M6HY7/column/CaloricContent>,
+        <http://metaUnionSearch/datasets/CookingDE4M6HY7/column/ChefName>,
+        <http://metaUnionSearch/datasets/CookingDE4M6HY7/column/CulturalNotes>,
+        <http://metaUnionSearch/datasets/CookingDE4M6HY7/column/DishPresentationScore>,
+        <http://metaUnionSearch/datasets/CookingDE4M6HY7/column/EstimatedCostPerMeal>,
+        <http://metaUnionSearch/datasets/CookingDE4M6HY7/column/LastUpdated>,
+        <http://metaUnionSearch/datasets/CookingDE4M6HY7/column/Seasonality>,
+        <http://metaUnionSearch/datasets/CookingDE4M6HY7/column/SpecialOccasion>,
+        <http://metaUnionSearch/datasets/CookingDE4M6HY7/column/SustainabilitySource>,
+        <http://metaUnionSearch/datasets/CookingDE4M6HY7/column/TasteRating>,
+        <http://metaUnionSearch/datasets/CookingDE4M6HY7/column/WouldMakeAgain> .
+

@@ -1,0 +1,10 @@
+family
+language
+language
+category
+type
+description
+genre
+religion
+album
+class

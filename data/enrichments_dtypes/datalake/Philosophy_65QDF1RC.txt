@@ -1,0 +1,11 @@
+person
+location
+format
+language
+age
+person
+classification
+notes
+organisation
+religion
+notes

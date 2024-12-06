@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/HorticultureX3AEYV7C> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_X3AEYV7C.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/HorticultureX3AEYV7C/datasetSchema> .
+
+<http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/Availability> a dsv:Column ;
+    rdfs:label "Availability" ;
+    dcterms:type "service" .
+
+<http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/BloomTimePerYear> a dsv:Column ;
+    rdfs:label "BloomTimePerYear" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/FruitColor> a dsv:Column ;
+    rdfs:label "FruitColor" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/GeneticModifications> a dsv:Column ;
+    rdfs:label "GeneticModifications" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/GrowthHabit> a dsv:Column ;
+    rdfs:label "GrowthHabit" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/MainUses> a dsv:Column ;
+    rdfs:label "MainUses" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/NurseryLocation> a dsv:Column ;
+    rdfs:label "NurseryLocation" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/PlantedHeight> a dsv:Column ;
+    rdfs:label "PlantedHeight" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/PropagationByCuttings> a dsv:Column ;
+    rdfs:label "PropagationByCuttings" ;
+    dcterms:type "operator" .
+
+<http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/SeedsSource> a dsv:Column ;
+    rdfs:label "SeedsSource" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/SellerContactInfo> a dsv:Column ;
+    rdfs:label "SellerContactInfo" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/HorticultureX3AEYV7C/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/Availability>,
+        <http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/BloomTimePerYear>,
+        <http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/FruitColor>,
+        <http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/GeneticModifications>,
+        <http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/GrowthHabit>,
+        <http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/MainUses>,
+        <http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/NurseryLocation>,
+        <http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/PlantedHeight>,
+        <http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/PropagationByCuttings>,
+        <http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/SeedsSource>,
+        <http://metaUnionSearch/datasets/HorticultureX3AEYV7C/column/SellerContactInfo> .
+

@@ -1,0 +1,12 @@
+state
+result
+code
+description
+affiliation
+duration
+industry
+description
+affiliation
+position
+description
+description

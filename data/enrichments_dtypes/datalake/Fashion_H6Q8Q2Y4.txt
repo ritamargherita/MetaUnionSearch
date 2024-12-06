@@ -1,0 +1,14 @@
+rank
+product
+category
+company
+operator
+product
+description
+artist
+family
+rank
+album
+category
+status
+nationality

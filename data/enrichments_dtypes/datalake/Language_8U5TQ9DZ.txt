@@ -1,0 +1,13 @@
+family
+language
+person
+origin
+region
+description
+origin
+collection
+description
+description
+description
+album
+album

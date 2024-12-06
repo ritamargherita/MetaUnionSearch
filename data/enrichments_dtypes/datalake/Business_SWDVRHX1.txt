@@ -1,0 +1,13 @@
+city
+weight
+address
+weight
+category
+address
+address
+category
+ranking
+type
+ranking
+class
+class

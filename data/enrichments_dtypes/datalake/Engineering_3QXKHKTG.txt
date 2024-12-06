@@ -1,0 +1,15 @@
+name
+industry
+person
+position
+publisher
+company
+description
+name
+description
+description
+description
+service
+position
+description
+publisher

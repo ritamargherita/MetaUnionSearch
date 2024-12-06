@@ -1,0 +1,10 @@
+name
+location
+operator
+status
+capacity
+sales
+duration
+description
+capacity
+description

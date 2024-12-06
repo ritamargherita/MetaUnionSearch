@@ -1,0 +1,14 @@
+name
+area
+type
+description
+notes
+description
+description
+description
+description
+description
+description
+notes
+notes
+album

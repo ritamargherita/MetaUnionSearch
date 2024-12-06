@@ -1,0 +1,14 @@
+album
+person
+person
+language
+religion
+origin
+classification
+origin
+class
+description
+description
+religion
+notes
+origin

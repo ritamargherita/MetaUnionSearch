@@ -1,0 +1,96 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA> a dsv:Dataset ;
+    dcterms:subject "climatology" ;
+    dcterms:title "Climatology_57QDXOEA.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Climatology57QDXOEA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/AdditionalDataSetID> a dsv:Column ;
+    rdfs:label " Additional Data SetID" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/AtmosphericPressurehPa> a dsv:Column ;
+    rdfs:label " Atmospheric Pressure (hPa)" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/CloudCoverage> a dsv:Column ;
+    rdfs:label " Cloud Coverage (%)" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/DateTimeStamp> a dsv:Column ;
+    rdfs:label " Date & Time Stamp" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/EvapotranspirationETkg2s> a dsv:Column ;
+    rdfs:label " Evapotranspiration(ET) (kg/(м^2 s))" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/FrequencyOfExtremeWeathers> a dsv:Column ;
+    rdfs:label " FrequencyOfExtremeWeathers." ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/LeafAreaIndexLAIunitless> a dsv:Column ;
+    rdfs:label " LeafAreaIndex$(LAI)$ (unitless)" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/NetPrimaryProductivityNPPgm3d> a dsv:Column ;
+    rdfs:label " Net Primary Productivity($NPP$) (g/((m^3)*d))" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/Precipitationmm> a dsv:Column ;
+    rdfs:label " Precipitation (mm)" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/RelativeHumidity> a dsv:Column ;
+    rdfs:label " Relative Humidity (%)" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/SatelliteImageryType> a dsv:Column ;
+    rdfs:label " Satellite Imagery Type" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/SoilMoisture> a dsv:Column ;
+    rdfs:label " Soil Moisture (%)" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/SolarRadiationWm> a dsv:Column ;
+    rdfs:label " Solar Radiation (W/m²)" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/StudyAreaID> a dsv:Column ;
+    rdfs:label "Study Area ID" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/TemperatureC> a dsv:Column ;
+    rdfs:label " Temperature (°C)" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/WeatherCondition> a dsv:Column ;
+    rdfs:label " Weather Condition" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/column/WindSpeedms> a dsv:Column ;
+    rdfs:label " Wind Speed (m/s)" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/Climatology57QDXOEA/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/AdditionalDataSetID>,
+        <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/AtmosphericPressurehPa>,
+        <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/CloudCoverage>,
+        <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/DateTimeStamp>,
+        <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/EvapotranspirationETkg2s>,
+        <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/FrequencyOfExtremeWeathers>,
+        <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/LeafAreaIndexLAIunitless>,
+        <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/NetPrimaryProductivityNPPgm3d>,
+        <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/Precipitationmm>,
+        <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/RelativeHumidity>,
+        <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/SatelliteImageryType>,
+        <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/SoilMoisture>,
+        <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/SolarRadiationWm>,
+        <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/StudyAreaID>,
+        <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/TemperatureC>,
+        <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/WeatherCondition>,
+        <http://metaUnionSearch/datasets/Climatology57QDXOEA/column/WindSpeedms> .
+

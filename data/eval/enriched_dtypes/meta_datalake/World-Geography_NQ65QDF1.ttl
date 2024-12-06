@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_NQ65QDF1.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/AverageTemperatureC> a dsv:Column ;
+    rdfs:label " Average Temperature (°C)" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/ClosestContinent> a dsv:Column ;
+    rdfs:label " Closest Continent" ;
+    dcterms:type "continent" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/CoastlineLengthkm> a dsv:Column ;
+    rdfs:label " Coastline Length (km)" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/DominantMarineLife> a dsv:Column ;
+    rdfs:label " Dominant Marine Life" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/FamousCoralReefSystem> a dsv:Column ;
+    rdfs:label " Famous Coral Reef System" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/HighestElevationm> a dsv:Column ;
+    rdfs:label " Highest Elevation (m)" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/IslandAreakm2> a dsv:Column ;
+    rdfs:label " Island Area (km2)" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/IslandNation> a dsv:Column ;
+    rdfs:label "Island Nation" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/NumberOfIslands> a dsv:Column ;
+    rdfs:label " Number Of Islands" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/Population> a dsv:Column ;
+    rdfs:label " Population" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/Precipitationmm> a dsv:Column ;
+    rdfs:label " Precipitation (mm)" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/UnderwaterVolcanoes> a dsv:Column ;
+    rdfs:label " Underwater Volcanoes" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/AverageTemperatureC>,
+        <http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/ClosestContinent>,
+        <http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/CoastlineLengthkm>,
+        <http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/DominantMarineLife>,
+        <http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/FamousCoralReefSystem>,
+        <http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/HighestElevationm>,
+        <http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/IslandAreakm2>,
+        <http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/IslandNation>,
+        <http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/NumberOfIslands>,
+        <http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/Population>,
+        <http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/Precipitationmm>,
+        <http://metaUnionSearch/datasets/WorldGeographyNQ65QDF1/column/UnderwaterVolcanoes> .
+

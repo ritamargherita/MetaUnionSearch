@@ -1,0 +1,11 @@
+album
+component
+description
+category
+position
+description
+area
+description
+component
+area
+description

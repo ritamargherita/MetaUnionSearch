@@ -1,0 +1,12 @@
+operator
+album
+class
+album
+religion
+origin
+album
+name
+language
+name
+notes
+description

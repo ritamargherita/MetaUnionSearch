@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CookingZUIB5SQ0> a dsv:Dataset ;
+    dcterms:subject "cooking" ;
+    dcterms:title "Cooking_ZUIB5SQ0.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CookingZUIB5SQ0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/CookTime> a dsv:Column ;
+    rdfs:label "Cook Time" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/Cuisine> a dsv:Column ;
+    rdfs:label "Cuisine" ;
+    dcterms:type "operator" .
+
+<http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/Difficulty> a dsv:Column ;
+    rdfs:label "Difficulty" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/Ingredient1> a dsv:Column ;
+    rdfs:label "Ingredient 1" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/Ingredient2> a dsv:Column ;
+    rdfs:label "Ingredient 2" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/Ingredient3> a dsv:Column ;
+    rdfs:label "Ingredient 3" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/IngredientSource> a dsv:Column ;
+    rdfs:label "Ingredient Source" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/Instructions> a dsv:Column ;
+    rdfs:label "Instructions" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/PrepTime> a dsv:Column ;
+    rdfs:label "Prep Time" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/PrepTools> a dsv:Column ;
+    rdfs:label "Prep Tools" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/RecipeName> a dsv:Column ;
+    rdfs:label "Recipe Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/Servings> a dsv:Column ;
+    rdfs:label "Servings" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/CookingZUIB5SQ0/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/CookTime>,
+        <http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/Cuisine>,
+        <http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/Difficulty>,
+        <http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/Ingredient1>,
+        <http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/Ingredient2>,
+        <http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/Ingredient3>,
+        <http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/IngredientSource>,
+        <http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/Instructions>,
+        <http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/PrepTime>,
+        <http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/PrepTools>,
+        <http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/RecipeName>,
+        <http://metaUnionSearch/datasets/CookingZUIB5SQ0/column/Servings> .
+

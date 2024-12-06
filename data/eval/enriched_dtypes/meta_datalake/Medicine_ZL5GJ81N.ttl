@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MedicineZL5GJ81N> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_ZL5GJ81N.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MedicineZL5GJ81N/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/AdditionalNotes> a dsv:Column ;
+    rdfs:label "Additional Notes" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/EndDate> a dsv:Column ;
+    rdfs:label "End Date" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/LastRefillDate> a dsv:Column ;
+    rdfs:label "Last Refill Date" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/MedicationDosage> a dsv:Column ;
+    rdfs:label "Medication Dosage" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/PharmacyName> a dsv:Column ;
+    rdfs:label "Pharmacy Name" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/PrescribedMedication> a dsv:Column ;
+    rdfs:label "Prescribed Medication" ;
+    dcterms:type "brand" .
+
+<http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/PrescriptionCost> a dsv:Column ;
+    rdfs:label "Prescription Cost" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/RefillFrequency> a dsv:Column ;
+    rdfs:label "Refill Frequency" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/RefillsRemaining> a dsv:Column ;
+    rdfs:label "Refills Remaining" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/StartDate> a dsv:Column ;
+    rdfs:label "Start Date" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/MedicineZL5GJ81N/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/AdditionalNotes>,
+        <http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/EndDate>,
+        <http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/LastRefillDate>,
+        <http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/MedicationDosage>,
+        <http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/PharmacyName>,
+        <http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/PrescribedMedication>,
+        <http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/PrescriptionCost>,
+        <http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/RefillFrequency>,
+        <http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/RefillsRemaining>,
+        <http://metaUnionSearch/datasets/MedicineZL5GJ81N/column/StartDate> .
+

@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CookingAT0G7RI0> a dsv:Dataset ;
+    dcterms:subject "cooking" ;
+    dcterms:title "Cooking_AT0G7RI0.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CookingAT0G7RI0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CookingAT0G7RI0/column/Appliances> a dsv:Column ;
+    rdfs:label " Appliances" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/CookingAT0G7RI0/column/CookTimemins> a dsv:Column ;
+    rdfs:label " Cook Time (mins)" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/CookingAT0G7RI0/column/Cookware> a dsv:Column ;
+    rdfs:label " Cookware" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingAT0G7RI0/column/Course> a dsv:Column ;
+    rdfs:label " Course" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/CookingAT0G7RI0/column/Cuisine> a dsv:Column ;
+    rdfs:label " Cuisine" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/CookingAT0G7RI0/column/DietaryPreferences> a dsv:Column ;
+    rdfs:label " Dietary Preferences" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/CookingAT0G7RI0/column/IngredientList> a dsv:Column ;
+    rdfs:label " Ingredient List" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingAT0G7RI0/column/NutritionalValue> a dsv:Column ;
+    rdfs:label " Nutritional Value" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/CookingAT0G7RI0/column/PrepTimemins> a dsv:Column ;
+    rdfs:label " Prep Time (mins)" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/CookingAT0G7RI0/column/RecipeFeatures> a dsv:Column ;
+    rdfs:label "Recipe Features" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingAT0G7RI0/column/RecipeSource> a dsv:Column ;
+    rdfs:label " Recipe Source" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CookingAT0G7RI0/column/Season> a dsv:Column ;
+    rdfs:label " Season" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/CookingAT0G7RI0/column/Servings> a dsv:Column ;
+    rdfs:label " Servings" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/CookingAT0G7RI0/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CookingAT0G7RI0/column/Appliances>,
+        <http://metaUnionSearch/datasets/CookingAT0G7RI0/column/CookTimemins>,
+        <http://metaUnionSearch/datasets/CookingAT0G7RI0/column/Cookware>,
+        <http://metaUnionSearch/datasets/CookingAT0G7RI0/column/Course>,
+        <http://metaUnionSearch/datasets/CookingAT0G7RI0/column/Cuisine>,
+        <http://metaUnionSearch/datasets/CookingAT0G7RI0/column/DietaryPreferences>,
+        <http://metaUnionSearch/datasets/CookingAT0G7RI0/column/IngredientList>,
+        <http://metaUnionSearch/datasets/CookingAT0G7RI0/column/NutritionalValue>,
+        <http://metaUnionSearch/datasets/CookingAT0G7RI0/column/PrepTimemins>,
+        <http://metaUnionSearch/datasets/CookingAT0G7RI0/column/RecipeFeatures>,
+        <http://metaUnionSearch/datasets/CookingAT0G7RI0/column/RecipeSource>,
+        <http://metaUnionSearch/datasets/CookingAT0G7RI0/column/Season>,
+        <http://metaUnionSearch/datasets/CookingAT0G7RI0/column/Servings> .
+

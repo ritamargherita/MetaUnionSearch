@@ -1,0 +1,13 @@
+position
+album
+address
+weight
+duration
+album
+album
+description
+depth
+address
+species
+species
+range

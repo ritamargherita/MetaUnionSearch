@@ -1,0 +1,14 @@
+position
+duration
+category
+duration
+product
+location
+status
+company
+name
+notes
+position
+status
+address
+notes

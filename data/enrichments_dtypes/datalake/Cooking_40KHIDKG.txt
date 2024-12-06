@@ -1,0 +1,13 @@
+rank
+product
+owner
+address
+range
+product
+operator
+notes
+address
+description
+product
+status
+status

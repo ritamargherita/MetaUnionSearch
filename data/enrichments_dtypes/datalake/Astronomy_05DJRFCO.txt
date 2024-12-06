@@ -1,0 +1,10 @@
+name
+description
+address
+weight
+range
+capacity
+plays
+status
+duration
+duration

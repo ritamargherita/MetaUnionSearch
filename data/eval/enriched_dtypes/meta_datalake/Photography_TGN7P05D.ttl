@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhotographyTGN7P05D> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_TGN7P05D.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhotographyTGN7P05D/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/BestLightDirection> a dsv:Column ;
+    rdfs:label " Best Light Direction" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/DigitalRights> a dsv:Column ;
+    rdfs:label " Digital Rights" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/EquipmentRented> a dsv:Column ;
+    rdfs:label " Equipment Rented" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/GPSCoordinates> a dsv:Column ;
+    rdfs:label " GPS Coordinates" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/ImageFormatJPEGorRAW> a dsv:Column ;
+    rdfs:label " Image Format (JPEG or RAW)" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/LensesUsed> a dsv:Column ;
+    rdfs:label " Lenses Used" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/OriginalImageSizepixels> a dsv:Column ;
+    rdfs:label " Original Image Size (pixels)" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/PhotoDescription> a dsv:Column ;
+    rdfs:label " Photo Description" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/PhotoTitle> a dsv:Column ;
+    rdfs:label "Photo Title" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/PhotographersNotes> a dsv:Column ;
+    rdfs:label " Photographer's Notes" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/PostProcessSoftware> a dsv:Column ;
+    rdfs:label " Post Process Software" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/PrintDimensions> a dsv:Column ;
+    rdfs:label " Print Dimensions" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/PhotographyTGN7P05D/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/BestLightDirection>,
+        <http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/DigitalRights>,
+        <http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/EquipmentRented>,
+        <http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/GPSCoordinates>,
+        <http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/ImageFormatJPEGorRAW>,
+        <http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/LensesUsed>,
+        <http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/OriginalImageSizepixels>,
+        <http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/PhotoDescription>,
+        <http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/PhotoTitle>,
+        <http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/PhotographersNotes>,
+        <http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/PostProcessSoftware>,
+        <http://metaUnionSearch/datasets/PhotographyTGN7P05D/column/PrintDimensions> .
+

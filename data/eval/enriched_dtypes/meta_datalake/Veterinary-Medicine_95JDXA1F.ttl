@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_95JDXA1F.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/AppointmentSchedule> a dsv:Column ;
+    rdfs:label " Appointment Schedule" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/ContraindicatedMedications> a dsv:Column ;
+    rdfs:label " Contraindicated Medications" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/EmergencyContacts> a dsv:Column ;
+    rdfs:label " Emergency Contacts" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/FoodAllergies> a dsv:Column ;
+    rdfs:label " Food Allergies" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/InsuranceCoverage> a dsv:Column ;
+    rdfs:label " Insurance Coverage" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/MedicalNotes> a dsv:Column ;
+    rdfs:label " Medical Notes" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/OwnerInformationPhoneAddress> a dsv:Column ;
+    rdfs:label " Owner Information (Phone, Address)" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/PreviousConditions> a dsv:Column ;
+    rdfs:label "Previous Conditions" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/SpecialDietaryNeeds> a dsv:Column ;
+    rdfs:label " Special Dietary Needs" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/VaccinationHistory> a dsv:Column ;
+    rdfs:label " Vaccination History" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/AppointmentSchedule>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/ContraindicatedMedications>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/EmergencyContacts>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/FoodAllergies>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/InsuranceCoverage>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/MedicalNotes>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/OwnerInformationPhoneAddress>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/PreviousConditions>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/SpecialDietaryNeeds>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine95JDXA1F/column/VaccinationHistory> .
+

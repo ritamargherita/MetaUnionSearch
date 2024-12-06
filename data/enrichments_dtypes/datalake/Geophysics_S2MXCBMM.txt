@@ -1,0 +1,10 @@
+day
+type
+location
+address
+address
+type
+type
+position
+type
+classification

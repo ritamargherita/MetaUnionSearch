@@ -1,0 +1,14 @@
+symbol
+age
+area
+description
+description
+class
+address
+status
+status
+species
+description
+area
+description
+format

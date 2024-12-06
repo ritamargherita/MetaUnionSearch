@@ -1,0 +1,10 @@
+location
+description
+name
+name
+weight
+owner
+album
+name
+address
+album

@@ -1,0 +1,12 @@
+result
+address
+gender
+age
+education
+position
+capacity
+status
+status
+team
+area
+area

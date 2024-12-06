@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Environment96HHR8X8> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_96HHR8X8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Environment96HHR8X8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Environment96HHR8X8/column/AdditionalColumn> a dsv:Column ;
+    rdfs:label "Additional\\_Column" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Environment96HHR8X8/column/AirQuality> a dsv:Column ;
+    rdfs:label "Air\\_Quality" ;
+    dcterms:type "sex" .
+
+<http://metaUnionSearch/datasets/Environment96HHR8X8/column/AvgRainfallmm> a dsv:Column ;
+    rdfs:label "Avg\\_Rainfall\\_mm" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/Environment96HHR8X8/column/AvgTemperatureC> a dsv:Column ;
+    rdfs:label "Avg\\_Temperature\\_C" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/Environment96HHR8X8/column/BiodiversityIndex> a dsv:Column ;
+    rdfs:label "Biodiversity\\_Index" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/Environment96HHR8X8/column/ForestAreakm2> a dsv:Column ;
+    rdfs:label "Forest\\_Area\\_km2" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/Environment96HHR8X8/column/LegislationStatus> a dsv:Column ;
+    rdfs:label "Legislation\\_Status" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/Environment96HHR8X8/column/PollutionLevel> a dsv:Column ;
+    rdfs:label "Pollution\\_Level" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/Environment96HHR8X8/column/PopulationDensity> a dsv:Column ;
+    rdfs:label "Population\\_Density" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/Environment96HHR8X8/column/PublicEngagementScore> a dsv:Column ;
+    rdfs:label "Public\\_Engagement\\_Score" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Environment96HHR8X8/column/SoilHealthIndex> a dsv:Column ;
+    rdfs:label "Soil\\_Health\\_Index" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/Environment96HHR8X8/column/SpeciesCount> a dsv:Column ;
+    rdfs:label "Species\\_Count" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Environment96HHR8X8/column/WaterCleanliness> a dsv:Column ;
+    rdfs:label "Water\\_Cleanliness" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Environment96HHR8X8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Environment96HHR8X8/column/AdditionalColumn>,
+        <http://metaUnionSearch/datasets/Environment96HHR8X8/column/AirQuality>,
+        <http://metaUnionSearch/datasets/Environment96HHR8X8/column/AvgRainfallmm>,
+        <http://metaUnionSearch/datasets/Environment96HHR8X8/column/AvgTemperatureC>,
+        <http://metaUnionSearch/datasets/Environment96HHR8X8/column/BiodiversityIndex>,
+        <http://metaUnionSearch/datasets/Environment96HHR8X8/column/ForestAreakm2>,
+        <http://metaUnionSearch/datasets/Environment96HHR8X8/column/LegislationStatus>,
+        <http://metaUnionSearch/datasets/Environment96HHR8X8/column/PollutionLevel>,
+        <http://metaUnionSearch/datasets/Environment96HHR8X8/column/PopulationDensity>,
+        <http://metaUnionSearch/datasets/Environment96HHR8X8/column/PublicEngagementScore>,
+        <http://metaUnionSearch/datasets/Environment96HHR8X8/column/SoilHealthIndex>,
+        <http://metaUnionSearch/datasets/Environment96HHR8X8/column/SpeciesCount>,
+        <http://metaUnionSearch/datasets/Environment96HHR8X8/column/WaterCleanliness> .
+

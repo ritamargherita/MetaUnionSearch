@@ -1,0 +1,11 @@
+year
+address
+address
+capacity
+address
+company
+state
+day
+sales
+location
+industry

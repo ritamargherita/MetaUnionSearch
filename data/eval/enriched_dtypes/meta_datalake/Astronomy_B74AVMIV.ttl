@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronomyB74AVMIV> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_B74AVMIV.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronomyB74AVMIV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/AverageTemperatureK> a dsv:Column ;
+    rdfs:label " Average Temperature (K)" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/GalacticNeighborhood> a dsv:Column ;
+    rdfs:label " Galactic Neighborhood" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/OrbitEccentricity> a dsv:Column ;
+    rdfs:label " Orbit Eccentricity" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/OrbitalInclinedeg> a dsv:Column ;
+    rdfs:label " Orbital Incline (deg)" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/OrbitalSemiMajorAxisAU> a dsv:Column ;
+    rdfs:label " Orbital Semi-Major Axis (AU)" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/PlanetName> a dsv:Column ;
+    rdfs:label "`Planet Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/PositionAngle> a dsv:Column ;
+    rdfs:label " Position Angle" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/PrimaryStar> a dsv:Column ;
+    rdfs:label " Primary Star" ;
+    dcterms:type "day" .
+
+<http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/RotationalPerioddays> a dsv:Column ;
+    rdfs:label " Rotational Period (days)" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/StellarClusterAffiliation> a dsv:Column ;
+    rdfs:label " Stellar Cluster Affiliation`" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/AstronomyB74AVMIV/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/AverageTemperatureK>,
+        <http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/GalacticNeighborhood>,
+        <http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/OrbitEccentricity>,
+        <http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/OrbitalInclinedeg>,
+        <http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/OrbitalSemiMajorAxisAU>,
+        <http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/PlanetName>,
+        <http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/PositionAngle>,
+        <http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/PrimaryStar>,
+        <http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/RotationalPerioddays>,
+        <http://metaUnionSearch/datasets/AstronomyB74AVMIV/column/StellarClusterAffiliation> .
+

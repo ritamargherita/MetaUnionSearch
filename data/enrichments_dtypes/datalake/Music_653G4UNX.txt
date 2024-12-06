@@ -1,0 +1,16 @@
+rank
+rank
+rank
+name
+artist
+genre
+address
+genre
+company
+artist
+format
+type
+address
+name
+album
+publisher

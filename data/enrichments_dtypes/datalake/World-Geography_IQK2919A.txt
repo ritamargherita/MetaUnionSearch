@@ -1,0 +1,12 @@
+range
+continent
+range
+range
+position
+location
+sales
+position
+category
+area
+description
+description

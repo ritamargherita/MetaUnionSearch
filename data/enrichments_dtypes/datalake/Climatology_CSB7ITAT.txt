@@ -1,0 +1,13 @@
+address
+address
+address
+area
+product
+range
+age
+position
+plays
+status
+weight
+address
+artist

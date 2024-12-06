@@ -1,0 +1,10 @@
+sales
+company
+type
+description
+description
+duration
+company
+description
+notes
+description

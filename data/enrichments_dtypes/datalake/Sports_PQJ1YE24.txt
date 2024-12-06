@@ -1,0 +1,15 @@
+album
+team Name
+city
+sales
+year
+team
+region
+team
+species
+sales
+sales
+duration
+rank
+plays
+address

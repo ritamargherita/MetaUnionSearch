@@ -1,0 +1,11 @@
+person
+album
+name
+name
+origin
+name
+publisher
+name
+description
+origin
+origin

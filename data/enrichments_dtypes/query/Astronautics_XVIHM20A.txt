@@ -1,0 +1,11 @@
+name
+birth Date
+capacity
+description
+name
+person
+album
+name
+status
+status
+duration

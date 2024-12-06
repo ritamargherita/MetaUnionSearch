@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Astronomy05DJRFCO> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_05DJRFCO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Astronomy05DJRFCO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/CosmicMicrowaveBackgroundSignalLevelppm> a dsv:Column ;
+    rdfs:label " Cosmic Microwave Background Signal Level (ppm)*`" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/DarkMatterDistributionEnergyDensityMass3> a dsv:Column ;
+    rdfs:label " Dark Matter Distribution (Energy Density Mass %)^3" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/GalacticCoordinateslongitudelatitude> a dsv:Column ;
+    rdfs:label " Galactic Coordinates (longitude, latitude)" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/GasCompositionPercentage> a dsv:Column ;
+    rdfs:label " Gas Composition Percentage" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/NebulaCategory> a dsv:Column ;
+    rdfs:label " Nebula Category" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/NebulaName> a dsv:Column ;
+    rdfs:label "`Nebula Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/NebulaRadiuslightyears> a dsv:Column ;
+    rdfs:label " Nebula Radius (light years)" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/StellarAssociationCount> a dsv:Column ;
+    rdfs:label " Stellar Association Count" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/SupernovaRemnantIndicator> a dsv:Column ;
+    rdfs:label " Supernova Remnant Indicator" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/TemperatureRangeKelvin> a dsv:Column ;
+    rdfs:label " Temperature Range (Kelvin)" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/Astronomy05DJRFCO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/CosmicMicrowaveBackgroundSignalLevelppm>,
+        <http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/DarkMatterDistributionEnergyDensityMass3>,
+        <http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/GalacticCoordinateslongitudelatitude>,
+        <http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/GasCompositionPercentage>,
+        <http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/NebulaCategory>,
+        <http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/NebulaName>,
+        <http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/NebulaRadiuslightyears>,
+        <http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/StellarAssociationCount>,
+        <http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/SupernovaRemnantIndicator>,
+        <http://metaUnionSearch/datasets/Astronomy05DJRFCO/column/TemperatureRangeKelvin> .
+

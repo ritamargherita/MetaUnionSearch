@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PsychologyEPXSK28T> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_EPXSK28T.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PsychologyEPXSK28T/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/ConferenceAttendanceLastYear> a dsv:Column ;
+    rdfs:label "ConferenceAttendanceLastYear" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/DegreeInPsychology> a dsv:Column ;
+    rdfs:label "DegreeInPsychology" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/FavoritePsychologist> a dsv:Column ;
+    rdfs:label "FavoritePsychologist" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/FieldOfSpecialization> a dsv:Column ;
+    rdfs:label "FieldOfSpecialization" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/HighestLevelOfPsychologyEducation> a dsv:Column ;
+    rdfs:label "HighestLevelOfPsychologyEducation" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/MembershipInHonorSocieties> a dsv:Column ;
+    rdfs:label "MembershipInHonorSocieties" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/MostInfluentialPsychologist> a dsv:Column ;
+    rdfs:label "MostInfluentialPsychologist" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/MostRespectedPsychologyJournal> a dsv:Column ;
+    rdfs:label "MostRespectedPsychologyJournal" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/NumberOfPsychologyCoursesTaken> a dsv:Column ;
+    rdfs:label "NumberOfPsychologyCoursesTaken" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/PsychologyResearchInterest> a dsv:Column ;
+    rdfs:label "PsychologyResearchInterest" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/PublicationsInPsychology> a dsv:Column ;
+    rdfs:label "PublicationsInPsychology" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/VolunteerExperienceInPsychology> a dsv:Column ;
+    rdfs:label "VolunteerExperienceInPsychology" ;
+    dcterms:type "service" .
+
+<http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/WorkInAcademiaOrIndustry> a dsv:Column ;
+    rdfs:label "WorkInAcademiaOrIndustry" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/YearsOfExperienceInPsychology> a dsv:Column ;
+    rdfs:label "YearsOfExperienceInPsychology" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/PsychologyEPXSK28T/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/ConferenceAttendanceLastYear>,
+        <http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/DegreeInPsychology>,
+        <http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/FavoritePsychologist>,
+        <http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/FieldOfSpecialization>,
+        <http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/HighestLevelOfPsychologyEducation>,
+        <http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/MembershipInHonorSocieties>,
+        <http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/MostInfluentialPsychologist>,
+        <http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/MostRespectedPsychologyJournal>,
+        <http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/NumberOfPsychologyCoursesTaken>,
+        <http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/PsychologyResearchInterest>,
+        <http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/PublicationsInPsychology>,
+        <http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/VolunteerExperienceInPsychology>,
+        <http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/WorkInAcademiaOrIndustry>,
+        <http://metaUnionSearch/datasets/PsychologyEPXSK28T/column/YearsOfExperienceInPsychology> .
+

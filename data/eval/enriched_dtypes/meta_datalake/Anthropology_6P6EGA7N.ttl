@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Anthropology6P6EGA7N> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_6P6EGA7N.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Anthropology6P6EGA7N/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/ArchaeologistName> a dsv:Column ;
+    rdfs:label "Archaeologist Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/ChallengesFaced> a dsv:Column ;
+    rdfs:label " Challenges Faced" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/EquipmentUsed> a dsv:Column ;
+    rdfs:label " Equipment Used" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/ExcavationYear> a dsv:Column ;
+    rdfs:label " Excavation Year" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/FieldNotes> a dsv:Column ;
+    rdfs:label " Field Notes" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/FundingSource> a dsv:Column ;
+    rdfs:label " Funding Source" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/FutureResearchDirections> a dsv:Column ;
+    rdfs:label " Future Research Directions" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/Methodology> a dsv:Column ;
+    rdfs:label " Methodology" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/NumberofArtifactsDiscovered> a dsv:Column ;
+    rdfs:label " Number of Artifacts Discovered" ;
+    dcterms:type "code" .
+
+<http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/PublicResponse> a dsv:Column ;
+    rdfs:label " Public Response" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/SafetyMeasures> a dsv:Column ;
+    rdfs:label " Safety Measures" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/SignificantFindings> a dsv:Column ;
+    rdfs:label " Significant Findings" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/TeamMorale> a dsv:Column ;
+    rdfs:label " Team Morale" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/WeatherConditions> a dsv:Column ;
+    rdfs:label " Weather Conditions" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Anthropology6P6EGA7N/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/ArchaeologistName>,
+        <http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/ChallengesFaced>,
+        <http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/EquipmentUsed>,
+        <http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/ExcavationYear>,
+        <http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/FieldNotes>,
+        <http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/FundingSource>,
+        <http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/FutureResearchDirections>,
+        <http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/Methodology>,
+        <http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/NumberofArtifactsDiscovered>,
+        <http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/PublicResponse>,
+        <http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/SafetyMeasures>,
+        <http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/SignificantFindings>,
+        <http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/TeamMorale>,
+        <http://metaUnionSearch/datasets/Anthropology6P6EGA7N/column/WeatherConditions> .
+

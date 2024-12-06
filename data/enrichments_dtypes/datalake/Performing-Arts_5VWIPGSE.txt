@@ -1,0 +1,16 @@
+genre
+year
+year
+artist
+artist
+album
+album
+notes
+location
+album
+collection
+artist
+genre
+notes
+description
+status

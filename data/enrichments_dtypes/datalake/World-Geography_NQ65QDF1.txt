@@ -1,0 +1,12 @@
+location
+area
+rank
+result
+weight
+continent
+rank
+age
+species
+region
+weight
+rank

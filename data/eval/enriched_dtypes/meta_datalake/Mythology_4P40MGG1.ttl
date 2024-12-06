@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Mythology4P40MGG1> a dsv:Dataset ;
+    dcterms:subject "mythology" ;
+    dcterms:title "Mythology_4P40MGG1.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Mythology4P40MGG1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Mythology4P40MGG1/column/CulturalSignificance> a dsv:Column ;
+    rdfs:label """\\
+Cultural Significance""" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Mythology4P40MGG1/column/DepictioninArt> a dsv:Column ;
+    rdfs:label """\\
+Depiction in Art""" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/Mythology4P40MGG1/column/Description> a dsv:Column ;
+    rdfs:label """\\
+Description""" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/Mythology4P40MGG1/column/ModernInfluence> a dsv:Column ;
+    rdfs:label """\\
+Modern Influence""" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Mythology4P40MGG1/column/Origin> a dsv:Column ;
+    rdfs:label """\\
+Origin""" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/Mythology4P40MGG1/column/Powers> a dsv:Column ;
+    rdfs:label """\\
+Powers""" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Mythology4P40MGG1/column/ReligiousSignificance> a dsv:Column ;
+    rdfs:label """\\
+Religious Significance""" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Mythology4P40MGG1/column/Symbolism> a dsv:Column ;
+    rdfs:label """\\
+Symbolism""" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Mythology4P40MGG1/column/Table2MythologicalCreature> a dsv:Column ;
+    rdfs:label """Table 2: \\
+Mythological Creature""" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Mythology4P40MGG1/column/Weaknesses> a dsv:Column ;
+    rdfs:label """\\
+Weaknesses""" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Mythology4P40MGG1/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Mythology4P40MGG1/column/CulturalSignificance>,
+        <http://metaUnionSearch/datasets/Mythology4P40MGG1/column/DepictioninArt>,
+        <http://metaUnionSearch/datasets/Mythology4P40MGG1/column/Description>,
+        <http://metaUnionSearch/datasets/Mythology4P40MGG1/column/ModernInfluence>,
+        <http://metaUnionSearch/datasets/Mythology4P40MGG1/column/Origin>,
+        <http://metaUnionSearch/datasets/Mythology4P40MGG1/column/Powers>,
+        <http://metaUnionSearch/datasets/Mythology4P40MGG1/column/ReligiousSignificance>,
+        <http://metaUnionSearch/datasets/Mythology4P40MGG1/column/Symbolism>,
+        <http://metaUnionSearch/datasets/Mythology4P40MGG1/column/Table2MythologicalCreature>,
+        <http://metaUnionSearch/datasets/Mythology4P40MGG1/column/Weaknesses> .
+

@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GardeningT59WEU7O> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_T59WEU7O.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GardeningT59WEU7O/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GardeningT59WEU7O/column/AchievementsUnlocked> a dsv:Column ;
+    rdfs:label " AchievementsUnlocked" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GardeningT59WEU7O/column/BudgetAllocationYearly> a dsv:Column ;
+    rdfs:label " BudgetAllocationYearly" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GardeningT59WEU7O/column/ClimateType> a dsv:Column ;
+    rdfs:label " ClimateType" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GardeningT59WEU7O/column/CommunityEngagementLevel> a dsv:Column ;
+    rdfs:label " CommunityEngagementLevel" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/GardeningT59WEU7O/column/GardenLocation> a dsv:Column ;
+    rdfs:label "GardenLocation" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GardeningT59WEU7O/column/HarvestSeason> a dsv:Column ;
+    rdfs:label " HarvestSeason" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GardeningT59WEU7O/column/IrrigationSystem> a dsv:Column ;
+    rdfs:label " IrrigationSystem" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GardeningT59WEU7O/column/MaintenanceRecordsKept> a dsv:Column ;
+    rdfs:label " MaintenanceRecordsKept" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/GardeningT59WEU7O/column/MembersInvolved> a dsv:Column ;
+    rdfs:label " MembersInvolved" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/GardeningT59WEU7O/column/NumberofYearsUsingGarden> a dsv:Column ;
+    rdfs:label " NumberofYearsUsingGarden" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/GardeningT59WEU7O/column/PestManagement> a dsv:Column ;
+    rdfs:label " PestManagement" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GardeningT59WEU7O/column/SoilingSchedule> a dsv:Column ;
+    rdfs:label " SoilingSchedule" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/GardeningT59WEU7O/column/TotalAreaSqMeters> a dsv:Column ;
+    rdfs:label " TotalAreaSqMeters" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/GardeningT59WEU7O/column/VolunteerEventsOrganizedAnnually> a dsv:Column ;
+    rdfs:label " VolunteerEventsOrganizedAnnually" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/GardeningT59WEU7O/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GardeningT59WEU7O/column/AchievementsUnlocked>,
+        <http://metaUnionSearch/datasets/GardeningT59WEU7O/column/BudgetAllocationYearly>,
+        <http://metaUnionSearch/datasets/GardeningT59WEU7O/column/ClimateType>,
+        <http://metaUnionSearch/datasets/GardeningT59WEU7O/column/CommunityEngagementLevel>,
+        <http://metaUnionSearch/datasets/GardeningT59WEU7O/column/GardenLocation>,
+        <http://metaUnionSearch/datasets/GardeningT59WEU7O/column/HarvestSeason>,
+        <http://metaUnionSearch/datasets/GardeningT59WEU7O/column/IrrigationSystem>,
+        <http://metaUnionSearch/datasets/GardeningT59WEU7O/column/MaintenanceRecordsKept>,
+        <http://metaUnionSearch/datasets/GardeningT59WEU7O/column/MembersInvolved>,
+        <http://metaUnionSearch/datasets/GardeningT59WEU7O/column/NumberofYearsUsingGarden>,
+        <http://metaUnionSearch/datasets/GardeningT59WEU7O/column/PestManagement>,
+        <http://metaUnionSearch/datasets/GardeningT59WEU7O/column/SoilingSchedule>,
+        <http://metaUnionSearch/datasets/GardeningT59WEU7O/column/TotalAreaSqMeters>,
+        <http://metaUnionSearch/datasets/GardeningT59WEU7O/column/VolunteerEventsOrganizedAnnually> .
+

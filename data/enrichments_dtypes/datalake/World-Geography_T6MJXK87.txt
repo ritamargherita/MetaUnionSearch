@@ -1,0 +1,14 @@
+city
+continent
+address
+duration
+address
+area
+area
+weight
+area
+education
+language
+language
+collection
+format

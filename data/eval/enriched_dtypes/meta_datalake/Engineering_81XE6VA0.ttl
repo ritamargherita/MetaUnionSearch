@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Engineering81XE6VA0> a dsv:Dataset ;
+    dcterms:subject "engineering" ;
+    dcterms:title "Engineering_81XE6VA0.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Engineering81XE6VA0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Engineering81XE6VA0/column/AlumniRelations> a dsv:Column ;
+    rdfs:label "Alumni Relations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering81XE6VA0/column/CommunityOutreach> a dsv:Column ;
+    rdfs:label "Community Outreach" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering81XE6VA0/column/ContinuingEducation> a dsv:Column ;
+    rdfs:label "Continuing Education" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering81XE6VA0/column/DiversityInclusion> a dsv:Column ;
+    rdfs:label "Diversity & Inclusion" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering81XE6VA0/column/EngineeringEthics> a dsv:Column ;
+    rdfs:label "\"Engineering Ethics" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering81XE6VA0/column/EnvironmentalImpact> a dsv:Column ;
+    rdfs:label "Environmental Impact" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering81XE6VA0/column/IndustryCollaborations> a dsv:Column ;
+    rdfs:label "Industry Collaborations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering81XE6VA0/column/InternshipOpportunities> a dsv:Column ;
+    rdfs:label "Internship Opportunities" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering81XE6VA0/column/MentorshipPrograms> a dsv:Column ;
+    rdfs:label "Mentorship Programs" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/Engineering81XE6VA0/column/PatentsLicenses> a dsv:Column ;
+    rdfs:label "Patents & Licenses" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering81XE6VA0/column/ProfessionalMemberships> a dsv:Column ;
+    rdfs:label "Professional Memberships" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering81XE6VA0/column/RiskAssessment> a dsv:Column ;
+    rdfs:label "Risk Assessment" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering81XE6VA0/column/StudentOrganizations> a dsv:Column ;
+    rdfs:label "Student Organizations\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering81XE6VA0/column/TechnicalPublications> a dsv:Column ;
+    rdfs:label "Technical Publications" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Engineering81XE6VA0/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Engineering81XE6VA0/column/AlumniRelations>,
+        <http://metaUnionSearch/datasets/Engineering81XE6VA0/column/CommunityOutreach>,
+        <http://metaUnionSearch/datasets/Engineering81XE6VA0/column/ContinuingEducation>,
+        <http://metaUnionSearch/datasets/Engineering81XE6VA0/column/DiversityInclusion>,
+        <http://metaUnionSearch/datasets/Engineering81XE6VA0/column/EngineeringEthics>,
+        <http://metaUnionSearch/datasets/Engineering81XE6VA0/column/EnvironmentalImpact>,
+        <http://metaUnionSearch/datasets/Engineering81XE6VA0/column/IndustryCollaborations>,
+        <http://metaUnionSearch/datasets/Engineering81XE6VA0/column/InternshipOpportunities>,
+        <http://metaUnionSearch/datasets/Engineering81XE6VA0/column/MentorshipPrograms>,
+        <http://metaUnionSearch/datasets/Engineering81XE6VA0/column/PatentsLicenses>,
+        <http://metaUnionSearch/datasets/Engineering81XE6VA0/column/ProfessionalMemberships>,
+        <http://metaUnionSearch/datasets/Engineering81XE6VA0/column/RiskAssessment>,
+        <http://metaUnionSearch/datasets/Engineering81XE6VA0/column/StudentOrganizations>,
+        <http://metaUnionSearch/datasets/Engineering81XE6VA0/column/TechnicalPublications> .
+

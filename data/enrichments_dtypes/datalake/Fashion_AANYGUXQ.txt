@@ -1,0 +1,12 @@
+duration
+product
+product
+creator
+product
+description
+address
+address
+duration
+company
+service
+capacity

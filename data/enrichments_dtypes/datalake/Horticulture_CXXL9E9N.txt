@@ -1,0 +1,10 @@
+address
+artist
+age
+address
+artist
+species
+status
+status
+classification
+address

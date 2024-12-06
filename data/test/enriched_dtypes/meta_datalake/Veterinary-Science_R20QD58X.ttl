@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_R20QD58X.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/AdditionalSymptoms> a dsv:Column ;
+    rdfs:label " Additional Symptoms" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/Age> a dsv:Column ;
+    rdfs:label " Age" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/AnimalType> a dsv:Column ;
+    rdfs:label "Animal Type" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/Breed> a dsv:Column ;
+    rdfs:label " Breed" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/Diagnosis> a dsv:Column ;
+    rdfs:label " Diagnosis" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/Followup> a dsv:Column ;
+    rdfs:label " Follow-up" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/HealthStatus> a dsv:Column ;
+    rdfs:label " Health Status" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/OwnerInformation> a dsv:Column ;
+    rdfs:label " Owner Information" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/SecondaryDiagnosiss> a dsv:Column ;
+    rdfs:label " Secondary Diagnosis</s>" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/Symptoms> a dsv:Column ;
+    rdfs:label " Symptoms" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/TreatmentPlan> a dsv:Column ;
+    rdfs:label " Treatment Plan" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/Weight> a dsv:Column ;
+    rdfs:label " Weight" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/AdditionalSymptoms>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/Age>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/AnimalType>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/Breed>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/Diagnosis>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/Followup>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/HealthStatus>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/OwnerInformation>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/SecondaryDiagnosiss>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/Symptoms>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/TreatmentPlan>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceR20QD58X/column/Weight> .
+

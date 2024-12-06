@@ -1,0 +1,15 @@
+weight
+duration
+brand
+city
+country
+species
+depth
+duration
+position
+position
+address
+depth
+notes
+position
+notes

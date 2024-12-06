@@ -1,0 +1,12 @@
+product
+nationality
+duration
+age
+sales
+product
+product
+product
+product
+type
+category
+command

@@ -1,0 +1,10 @@
+description
+ranking
+rank
+artist
+location
+genre
+product
+category
+capacity
+address

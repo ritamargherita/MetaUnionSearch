@@ -1,0 +1,91 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_E29GD8AF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ReligionE29GD8AF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/column/AverageSocioeconomicStatus> a dsv:Column ;
+    rdfs:label " Average Socioeconomic Status\"" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/column/BeliefSystemName> a dsv:Column ;
+    rdfs:label "\"Belief System Name" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/column/ChallengeDetails> a dsv:Column ;
+    rdfs:label " Challenge Details" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/column/CoreTenets> a dsv:Column ;
+    rdfs:label " Core Tenets" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/column/DeityNames> a dsv:Column ;
+    rdfs:label " Deity Names" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/column/DemographicDistribution> a dsv:Column ;
+    rdfs:label " Demographic Distribution" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/column/FestivalCelebratingFaith> a dsv:Column ;
+    rdfs:label " Festival Celebrating Faith" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/column/FoundersFigureheads> a dsv:Column ;
+    rdfs:label " Founder(s)/Figurehead(s)" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/column/HierarchicalOrganization> a dsv:Column ;
+    rdfs:label " Hierarchical Organization" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/column/HolyScriptures> a dsv:Column ;
+    rdfs:label " Holy Scriptures" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/column/MembershipRules> a dsv:Column ;
+    rdfs:label " Membership Rules" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/column/PlaceofOrigin> a dsv:Column ;
+    rdfs:label " Place of Origin" ;
+    dcterms:type "birth Place" .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/column/SignificantSymbols> a dsv:Column ;
+    rdfs:label " Significant Symbols" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/column/SpiritualLeaders> a dsv:Column ;
+    rdfs:label " Spiritual Leaders" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/column/SubgroupsandBranches> a dsv:Column ;
+    rdfs:label " Subgroups and Branches" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/column/VariousDenominationBeliefs> a dsv:Column ;
+    rdfs:label " Various Denomination Beliefs" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/ReligionE29GD8AF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ReligionE29GD8AF/column/AverageSocioeconomicStatus>,
+        <http://metaUnionSearch/datasets/ReligionE29GD8AF/column/BeliefSystemName>,
+        <http://metaUnionSearch/datasets/ReligionE29GD8AF/column/ChallengeDetails>,
+        <http://metaUnionSearch/datasets/ReligionE29GD8AF/column/CoreTenets>,
+        <http://metaUnionSearch/datasets/ReligionE29GD8AF/column/DeityNames>,
+        <http://metaUnionSearch/datasets/ReligionE29GD8AF/column/DemographicDistribution>,
+        <http://metaUnionSearch/datasets/ReligionE29GD8AF/column/FestivalCelebratingFaith>,
+        <http://metaUnionSearch/datasets/ReligionE29GD8AF/column/FoundersFigureheads>,
+        <http://metaUnionSearch/datasets/ReligionE29GD8AF/column/HierarchicalOrganization>,
+        <http://metaUnionSearch/datasets/ReligionE29GD8AF/column/HolyScriptures>,
+        <http://metaUnionSearch/datasets/ReligionE29GD8AF/column/MembershipRules>,
+        <http://metaUnionSearch/datasets/ReligionE29GD8AF/column/PlaceofOrigin>,
+        <http://metaUnionSearch/datasets/ReligionE29GD8AF/column/SignificantSymbols>,
+        <http://metaUnionSearch/datasets/ReligionE29GD8AF/column/SpiritualLeaders>,
+        <http://metaUnionSearch/datasets/ReligionE29GD8AF/column/SubgroupsandBranches>,
+        <http://metaUnionSearch/datasets/ReligionE29GD8AF/column/VariousDenominationBeliefs> .
+

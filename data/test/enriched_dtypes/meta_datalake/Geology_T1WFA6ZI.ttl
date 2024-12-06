@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeologyT1WFA6ZI> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_T1WFA6ZI.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeologyT1WFA6ZI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/AgeMillionYears> a dsv:Column ;
+    rdfs:label " Age (Million Years)" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/CompressiveStrength> a dsv:Column ;
+    rdfs:label " Compressive Strength" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/ElasticModulus> a dsv:Column ;
+    rdfs:label " Elastic Modulus" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/FormationLocation> a dsv:Column ;
+    rdfs:label " Formation Location" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/MineralComposition> a dsv:Column ;
+    rdfs:label " Mineral Composition" ;
+    dcterms:type "code" .
+
+<http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/Permeability> a dsv:Column ;
+    rdfs:label " Permeability" ;
+    dcterms:type "jockey" .
+
+<http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/Porosity> a dsv:Column ;
+    rdfs:label " Porosity" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/RockDensity> a dsv:Column ;
+    rdfs:label " Rock Density" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/RockType> a dsv:Column ;
+    rdfs:label "Rock Type" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/ShearStrength> a dsv:Column ;
+    rdfs:label " Shear Strength" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/TensileStrength> a dsv:Column ;
+    rdfs:label " Tensile Strength" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/GeologyT1WFA6ZI/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/AgeMillionYears>,
+        <http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/CompressiveStrength>,
+        <http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/ElasticModulus>,
+        <http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/FormationLocation>,
+        <http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/MineralComposition>,
+        <http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/Permeability>,
+        <http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/Porosity>,
+        <http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/RockDensity>,
+        <http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/RockType>,
+        <http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/ShearStrength>,
+        <http://metaUnionSearch/datasets/GeologyT1WFA6ZI/column/TensileStrength> .
+

@@ -1,0 +1,9 @@
+year
+state
+county
+city
+type
+artist
+gender
+position
+position

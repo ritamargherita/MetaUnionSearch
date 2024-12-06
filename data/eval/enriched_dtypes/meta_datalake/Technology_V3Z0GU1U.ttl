@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologyV3Z0GU1U> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_V3Z0GU1U.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/AutonomousVehicles> a dsv:Column ;
+    rdfs:label " Autonomous Vehicles" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/BlockchainandDistributedLedgers> a dsv:Column ;
+    rdfs:label " Blockchain and Distributed Ledgers" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/CybersecurityThreatLandscape> a dsv:Column ;
+    rdfs:label " Cybersecurity Threat Landscape" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/EcommerceEvolution> a dsv:Column ;
+    rdfs:label " E-commerce Evolution" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/EthicalConsiderationsRegulations> a dsv:Column ;
+    rdfs:label " Ethical Considerations & Regulations" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/InternetOfThingsIoT> a dsv:Column ;
+    rdfs:label " Internet Of Things (IoT)" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/QuantumComputing> a dsv:Column ;
+    rdfs:label "Quantum Computing" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/RoboticsProcessAutomationIntelligentSystems> a dsv:Column ;
+    rdfs:label " Robotics Process Automation & Intelligent Systems" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/SmartCities> a dsv:Column ;
+    rdfs:label " Smart Cities" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/VirtualRealityAugmentedReality> a dsv:Column ;
+    rdfs:label " Virtual Reality / Augmented Reality" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/WorkforceTransformation> a dsv:Column ;
+    rdfs:label " Workforce Transformation" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/AutonomousVehicles>,
+        <http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/BlockchainandDistributedLedgers>,
+        <http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/CybersecurityThreatLandscape>,
+        <http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/EcommerceEvolution>,
+        <http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/EthicalConsiderationsRegulations>,
+        <http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/InternetOfThingsIoT>,
+        <http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/QuantumComputing>,
+        <http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/RoboticsProcessAutomationIntelligentSystems>,
+        <http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/SmartCities>,
+        <http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/VirtualRealityAugmentedReality>,
+        <http://metaUnionSearch/datasets/TechnologyV3Z0GU1U/column/WorkforceTransformation> .
+

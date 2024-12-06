@@ -1,0 +1,11 @@
+species
+album
+religion
+name
+name
+album
+album
+name
+religion
+origin
+format

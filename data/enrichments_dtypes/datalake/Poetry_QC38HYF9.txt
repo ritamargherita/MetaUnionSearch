@@ -1,0 +1,12 @@
+country
+year
+notes
+genre
+person
+album
+category
+album
+description
+status
+album
+description

@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_025KFBOS.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Photography025KFBOS/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS/column/Category> a dsv:Column ;
+    rdfs:label " Category" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS/column/Colorspace> a dsv:Column ;
+    rdfs:label " Colorspace" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS/column/CurrentFileFormat> a dsv:Column ;
+    rdfs:label " Current File Format" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS/column/DateModified> a dsv:Column ;
+    rdfs:label " Date Modified" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS/column/FileSize> a dsv:Column ;
+    rdfs:label " File Size" ;
+    dcterms:type "file Size" .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS/column/FlashUsed> a dsv:Column ;
+    rdfs:label " Flash Used" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS/column/FocusMode> a dsv:Column ;
+    rdfs:label " Focus Mode" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS/column/ImageOrientation> a dsv:Column ;
+    rdfs:label " Image Orientation" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS/column/LensType> a dsv:Column ;
+    rdfs:label " Lens Type" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS/column/Location> a dsv:Column ;
+    rdfs:label " Location" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS/column/OriginalImageSizepixels> a dsv:Column ;
+    rdfs:label " Original Image Size (pixels)" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS/column/PhotoTitle> a dsv:Column ;
+    rdfs:label "Photo Title" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS/column/PostProcessorBrand> a dsv:Column ;
+    rdfs:label " Post Processor Brand" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS/column/PostProcessorVersion> a dsv:Column ;
+    rdfs:label " Post Processor Version" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS/column/WhiteBalance> a dsv:Column ;
+    rdfs:label " White Balance" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/Photography025KFBOS/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Photography025KFBOS/column/Category>,
+        <http://metaUnionSearch/datasets/Photography025KFBOS/column/Colorspace>,
+        <http://metaUnionSearch/datasets/Photography025KFBOS/column/CurrentFileFormat>,
+        <http://metaUnionSearch/datasets/Photography025KFBOS/column/DateModified>,
+        <http://metaUnionSearch/datasets/Photography025KFBOS/column/FileSize>,
+        <http://metaUnionSearch/datasets/Photography025KFBOS/column/FlashUsed>,
+        <http://metaUnionSearch/datasets/Photography025KFBOS/column/FocusMode>,
+        <http://metaUnionSearch/datasets/Photography025KFBOS/column/ImageOrientation>,
+        <http://metaUnionSearch/datasets/Photography025KFBOS/column/LensType>,
+        <http://metaUnionSearch/datasets/Photography025KFBOS/column/Location>,
+        <http://metaUnionSearch/datasets/Photography025KFBOS/column/OriginalImageSizepixels>,
+        <http://metaUnionSearch/datasets/Photography025KFBOS/column/PhotoTitle>,
+        <http://metaUnionSearch/datasets/Photography025KFBOS/column/PostProcessorBrand>,
+        <http://metaUnionSearch/datasets/Photography025KFBOS/column/PostProcessorVersion>,
+        <http://metaUnionSearch/datasets/Photography025KFBOS/column/WhiteBalance> .
+

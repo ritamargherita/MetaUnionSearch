@@ -1,0 +1,11 @@
+name
+species
+notes
+range
+product
+origin
+publisher
+description
+class
+product
+address

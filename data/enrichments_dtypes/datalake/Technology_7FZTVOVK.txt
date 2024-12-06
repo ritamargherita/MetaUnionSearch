@@ -1,0 +1,11 @@
+product
+description
+description
+description
+industry
+description
+description
+area
+description
+category
+description

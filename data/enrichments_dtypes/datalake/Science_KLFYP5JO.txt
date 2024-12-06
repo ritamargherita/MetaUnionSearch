@@ -1,0 +1,14 @@
+name
+birth Date
+location
+product
+status
+description
+product
+description
+name
+name
+range
+notes
+description
+artist

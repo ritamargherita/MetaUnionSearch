@@ -1,0 +1,11 @@
+address
+name
+category
+rank
+notes
+notes
+education
+description
+description
+publisher
+description

@@ -1,0 +1,13 @@
+product
+code
+species
+product
+artist
+address
+type
+artist
+gender
+type
+artist
+address
+duration

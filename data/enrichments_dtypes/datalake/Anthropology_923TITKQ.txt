@@ -1,0 +1,13 @@
+name
+product
+status
+description
+name
+name
+description
+affiliation
+description
+area
+area
+component
+publisher

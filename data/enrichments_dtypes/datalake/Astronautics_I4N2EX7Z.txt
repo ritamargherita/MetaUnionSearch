@@ -1,0 +1,10 @@
+name
+location
+company
+capacity
+duration
+address
+description
+plays
+duration
+operator

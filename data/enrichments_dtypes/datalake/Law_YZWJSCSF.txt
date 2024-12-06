@@ -1,0 +1,12 @@
+status
+affiliation
+type
+address
+description
+description
+category
+description
+industry
+company
+artist
+description

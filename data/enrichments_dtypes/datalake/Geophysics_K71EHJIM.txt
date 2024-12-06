@@ -1,0 +1,12 @@
+album
+grades
+notes
+description
+description
+description
+description
+capacity
+description
+artist
+sales
+description

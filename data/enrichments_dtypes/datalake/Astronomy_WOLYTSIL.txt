@@ -1,0 +1,10 @@
+name
+description
+species
+duration
+product
+description
+capacity
+address
+album
+address

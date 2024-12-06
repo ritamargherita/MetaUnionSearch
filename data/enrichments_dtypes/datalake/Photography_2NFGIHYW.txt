@@ -1,0 +1,17 @@
+name
+category
+description
+location
+description
+description
+album
+description
+description
+format
+classification
+position
+type
+album
+description
+notes
+format

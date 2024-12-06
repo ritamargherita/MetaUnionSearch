@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeophysicsZYNZE8YM> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_ZYNZE8YM.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/AdditionalGeophysicalMeasurements> a dsv:Column ;
+    rdfs:label """\\
+Additional Geophysical Measurements""" ;
+    dcterms:type "collection" .
+
+<http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/DataIntegrationTechniques> a dsv:Column ;
+    rdfs:label """\\
+Data Integration Techniques""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/DataProcessingAlgorithms> a dsv:Column ;
+    rdfs:label """\\
+Data Processing Algorithms""" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/GeologicalMapping> a dsv:Column ;
+    rdfs:label """\\
+Geological Mapping""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/InterpretationofSubsurfaceFeatures> a dsv:Column ;
+    rdfs:label """\\
+Interpretation of Subsurface Features""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/PositionAccuracy> a dsv:Column ;
+    rdfs:label """\\
+Position Accuracy""" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/QualityControl> a dsv:Column ;
+    rdfs:label """\\
+Quality Control""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/SeismicHazardAssessment> a dsv:Column ;
+    rdfs:label """\\
+Seismic Hazard Assessment""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/SeparationDistance> a dsv:Column ;
+    rdfs:label """\\
+Separation Distance""" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/UnderstandingSeismicEvents> a dsv:Column ;
+    rdfs:label """\\
+Understanding Seismic Events""" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/AdditionalGeophysicalMeasurements>,
+        <http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/DataIntegrationTechniques>,
+        <http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/DataProcessingAlgorithms>,
+        <http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/GeologicalMapping>,
+        <http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/InterpretationofSubsurfaceFeatures>,
+        <http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/PositionAccuracy>,
+        <http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/QualityControl>,
+        <http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/SeismicHazardAssessment>,
+        <http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/SeparationDistance>,
+        <http://metaUnionSearch/datasets/GeophysicsZYNZE8YM/column/UnderstandingSeismicEvents> .
+

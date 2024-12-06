@@ -1,0 +1,12 @@
+location
+nationality
+religion
+origin
+album
+location
+name
+artist
+album
+category
+code
+description

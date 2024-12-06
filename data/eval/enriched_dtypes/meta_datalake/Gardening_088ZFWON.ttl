@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Gardening088ZFWON> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_088ZFWON.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Gardening088ZFWON/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Gardening088ZFWON/column/AdditionalNotes> a dsv:Column ;
+    rdfs:label " Additional Notes" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/Gardening088ZFWON/column/DeliveryDate> a dsv:Column ;
+    rdfs:label " Delivery Date" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Gardening088ZFWON/column/FlowerColor> a dsv:Column ;
+    rdfs:label " Flower Color" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Gardening088ZFWON/column/Height> a dsv:Column ;
+    rdfs:label " Height" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/Gardening088ZFWON/column/LightRequirement> a dsv:Column ;
+    rdfs:label " Light Requirement" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Gardening088ZFWON/column/PropagationMethod> a dsv:Column ;
+    rdfs:label " Propagation Method" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/Gardening088ZFWON/column/PruningInstructions> a dsv:Column ;
+    rdfs:label " Pruning Instructions" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Gardening088ZFWON/column/Quantity> a dsv:Column ;
+    rdfs:label "Quantity" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Gardening088ZFWON/column/SoilpH> a dsv:Column ;
+    rdfs:label " Soil pH" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/Gardening088ZFWON/column/SpecialFeatures> a dsv:Column ;
+    rdfs:label " Special Features" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/Gardening088ZFWON/column/Spread> a dsv:Column ;
+    rdfs:label " Spread" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Gardening088ZFWON/column/SupplierName> a dsv:Column ;
+    rdfs:label " Supplier Name" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Gardening088ZFWON/column/WateringFrequencyWeek> a dsv:Column ;
+    rdfs:label " Watering Frequency/Week" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/Gardening088ZFWON/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Gardening088ZFWON/column/AdditionalNotes>,
+        <http://metaUnionSearch/datasets/Gardening088ZFWON/column/DeliveryDate>,
+        <http://metaUnionSearch/datasets/Gardening088ZFWON/column/FlowerColor>,
+        <http://metaUnionSearch/datasets/Gardening088ZFWON/column/Height>,
+        <http://metaUnionSearch/datasets/Gardening088ZFWON/column/LightRequirement>,
+        <http://metaUnionSearch/datasets/Gardening088ZFWON/column/PropagationMethod>,
+        <http://metaUnionSearch/datasets/Gardening088ZFWON/column/PruningInstructions>,
+        <http://metaUnionSearch/datasets/Gardening088ZFWON/column/Quantity>,
+        <http://metaUnionSearch/datasets/Gardening088ZFWON/column/SoilpH>,
+        <http://metaUnionSearch/datasets/Gardening088ZFWON/column/SpecialFeatures>,
+        <http://metaUnionSearch/datasets/Gardening088ZFWON/column/Spread>,
+        <http://metaUnionSearch/datasets/Gardening088ZFWON/column/SupplierName>,
+        <http://metaUnionSearch/datasets/Gardening088ZFWON/column/WateringFrequencyWeek> .
+

@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_DV8A4364.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeologyDV8A4364/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364/column/AgeMillionYears> a dsv:Column ;
+    rdfs:label " Age (Million Years)" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364/column/DepositionalEnvironment> a dsv:Column ;
+    rdfs:label " Depositional Environment" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364/column/FormationLocation> a dsv:Column ;
+    rdfs:label " Formation Location" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364/column/FossilContent> a dsv:Column ;
+    rdfs:label " Fossil Content" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364/column/GeologicStructure> a dsv:Column ;
+    rdfs:label " Geologic Structure" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364/column/HydrologicalProperties> a dsv:Column ;
+    rdfs:label " Hydrological Properties" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364/column/MechanicalProperties> a dsv:Column ;
+    rdfs:label " Mechanical Properties" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364/column/MetamorphicGrade> a dsv:Column ;
+    rdfs:label " Metamorphic Grade." ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364/column/MineralComposition> a dsv:Column ;
+    rdfs:label " Mineral Composition" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364/column/RockChemistry> a dsv:Column ;
+    rdfs:label " Rock Chemistry" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364/column/RockType> a dsv:Column ;
+    rdfs:label "Rock Type" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364/column/StratigraphicPosition> a dsv:Column ;
+    rdfs:label " Stratigraphic Position" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364/column/SubsurfaceConditions> a dsv:Column ;
+    rdfs:label " Subsurface Conditions" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364/column/TectonicSetting> a dsv:Column ;
+    rdfs:label " Tectonic Setting" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364/column/WeatheringGrade> a dsv:Column ;
+    rdfs:label " Weathering Grade" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/GeologyDV8A4364/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeologyDV8A4364/column/AgeMillionYears>,
+        <http://metaUnionSearch/datasets/GeologyDV8A4364/column/DepositionalEnvironment>,
+        <http://metaUnionSearch/datasets/GeologyDV8A4364/column/FormationLocation>,
+        <http://metaUnionSearch/datasets/GeologyDV8A4364/column/FossilContent>,
+        <http://metaUnionSearch/datasets/GeologyDV8A4364/column/GeologicStructure>,
+        <http://metaUnionSearch/datasets/GeologyDV8A4364/column/HydrologicalProperties>,
+        <http://metaUnionSearch/datasets/GeologyDV8A4364/column/MechanicalProperties>,
+        <http://metaUnionSearch/datasets/GeologyDV8A4364/column/MetamorphicGrade>,
+        <http://metaUnionSearch/datasets/GeologyDV8A4364/column/MineralComposition>,
+        <http://metaUnionSearch/datasets/GeologyDV8A4364/column/RockChemistry>,
+        <http://metaUnionSearch/datasets/GeologyDV8A4364/column/RockType>,
+        <http://metaUnionSearch/datasets/GeologyDV8A4364/column/StratigraphicPosition>,
+        <http://metaUnionSearch/datasets/GeologyDV8A4364/column/SubsurfaceConditions>,
+        <http://metaUnionSearch/datasets/GeologyDV8A4364/column/TectonicSetting>,
+        <http://metaUnionSearch/datasets/GeologyDV8A4364/column/WeatheringGrade> .
+

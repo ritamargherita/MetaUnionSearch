@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeologyBS5FI6ER> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_BS5FI6ER.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeologyBS5FI6ER/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/GeologicHazards> a dsv:Column ;
+    rdfs:label " Geologic Hazards" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/GeologicTimeScale> a dsv:Column ;
+    rdfs:label " Geologic Time Scale" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/MineralOccurrence> a dsv:Column ;
+    rdfs:label " Mineral Occurrence" ;
+    dcterms:type "code" .
+
+<http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/RockColor> a dsv:Column ;
+    rdfs:label " Rock Color" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/RockDensity> a dsv:Column ;
+    rdfs:label " Rock Density" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/RockDurability> a dsv:Column ;
+    rdfs:label " Rock Durability" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/RockFormationProcess> a dsv:Column ;
+    rdfs:label "Rock Formation Process" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/RockIdentificationFeatures> a dsv:Column ;
+    rdfs:label " Rock Identification Features" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/RockTexture> a dsv:Column ;
+    rdfs:label " Rock Texture" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/RockUses> a dsv:Column ;
+    rdfs:label " Rock Uses" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyBS5FI6ER/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/GeologicHazards>,
+        <http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/GeologicTimeScale>,
+        <http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/MineralOccurrence>,
+        <http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/RockColor>,
+        <http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/RockDensity>,
+        <http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/RockDurability>,
+        <http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/RockFormationProcess>,
+        <http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/RockIdentificationFeatures>,
+        <http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/RockTexture>,
+        <http://metaUnionSearch/datasets/GeologyBS5FI6ER/column/RockUses> .
+

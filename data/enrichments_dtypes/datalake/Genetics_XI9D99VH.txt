@@ -1,0 +1,10 @@
+symbol
+description
+address
+product
+description
+area
+type
+type
+description
+area

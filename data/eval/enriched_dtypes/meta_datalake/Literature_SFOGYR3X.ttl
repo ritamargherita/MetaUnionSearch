@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X> a dsv:Dataset ;
+    dcterms:subject "literature" ;
+    dcterms:title "Literature_SFOGYR3X.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LiteratureSFOGYR3X/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/AuthorsNationality> a dsv:Column ;
+    rdfs:label " Author's Nationality" ;
+    dcterms:type "nationality" .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/AverageRating> a dsv:Column ;
+    rdfs:label " Average Rating" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/Edition> a dsv:Column ;
+    rdfs:label " Edition" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/FormatsAvailable> a dsv:Column ;
+    rdfs:label " Formats Available" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/GenreClassification> a dsv:Column ;
+    rdfs:label " Genre Classification" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/ISBN> a dsv:Column ;
+    rdfs:label " ISBN" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/Language> a dsv:Column ;
+    rdfs:label " Language" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/NumberofRatings> a dsv:Column ;
+    rdfs:label " Number of Ratings" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/PublicationYear> a dsv:Column ;
+    rdfs:label " Publication Year" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/Publisher> a dsv:Column ;
+    rdfs:label " Publisher" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/ReviewSources> a dsv:Column ;
+    rdfs:label " Review Sources" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/SeriesNumber> a dsv:Column ;
+    rdfs:label " Series Number" ;
+    dcterms:type "owner" .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/SeriesTitle> a dsv:Column ;
+    rdfs:label " Series Title" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/Subtitle> a dsv:Column ;
+    rdfs:label " Subtitle" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/Title> a dsv:Column ;
+    rdfs:label "Title" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureSFOGYR3X/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/AuthorsNationality>,
+        <http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/AverageRating>,
+        <http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/Edition>,
+        <http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/FormatsAvailable>,
+        <http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/GenreClassification>,
+        <http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/ISBN>,
+        <http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/Language>,
+        <http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/NumberofRatings>,
+        <http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/PublicationYear>,
+        <http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/Publisher>,
+        <http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/ReviewSources>,
+        <http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/SeriesNumber>,
+        <http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/SeriesTitle>,
+        <http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/Subtitle>,
+        <http://metaUnionSearch/datasets/LiteratureSFOGYR3X/column/Title> .
+

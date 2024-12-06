@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Science3HJ5S6R0> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_3HJ5S6R0.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Science3HJ5S6R0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Science3HJ5S6R0/column/AtomicOrbitals> a dsv:Column ;
+    rdfs:label " Atomic Orbitals" ;
+    dcterms:type "creator" .
+
+<http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumComputing> a dsv:Column ;
+    rdfs:label " Quantum Computing" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumCryptography> a dsv:Column ;
+    rdfs:label " Quantum Cryptography" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumDecoherence> a dsv:Column ;
+    rdfs:label " Quantum Decoherence" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumEntanglement> a dsv:Column ;
+    rdfs:label " Quantum Entanglement" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumInformation> a dsv:Column ;
+    rdfs:label " Quantum Information" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumMetrology> a dsv:Column ;
+    rdfs:label " Quantum Metrology" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumNumbernlms> a dsv:Column ;
+    rdfs:label "Quantum Number (n, l, m, s)" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumSuperposition> a dsv:Column ;
+    rdfs:label " Quantum Superposition" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumTeleportation> a dsv:Column ;
+    rdfs:label " Quantum Teleportation" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumTunneling> a dsv:Column ;
+    rdfs:label " Quantum Tunneling" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Science3HJ5S6R0/column/UncertaintyPrinciple> a dsv:Column ;
+    rdfs:label " Uncertainty Principle" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Science3HJ5S6R0/column/WaveFunction> a dsv:Column ;
+    rdfs:label " Wave Function" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Science3HJ5S6R0/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Science3HJ5S6R0/column/AtomicOrbitals>,
+        <http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumComputing>,
+        <http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumCryptography>,
+        <http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumDecoherence>,
+        <http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumEntanglement>,
+        <http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumInformation>,
+        <http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumMetrology>,
+        <http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumNumbernlms>,
+        <http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumSuperposition>,
+        <http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumTeleportation>,
+        <http://metaUnionSearch/datasets/Science3HJ5S6R0/column/QuantumTunneling>,
+        <http://metaUnionSearch/datasets/Science3HJ5S6R0/column/UncertaintyPrinciple>,
+        <http://metaUnionSearch/datasets/Science3HJ5S6R0/column/WaveFunction> .
+

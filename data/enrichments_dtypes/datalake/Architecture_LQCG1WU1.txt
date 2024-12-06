@@ -1,0 +1,10 @@
+position
+type
+capacity
+classification
+description
+description
+class
+duration
+location
+type

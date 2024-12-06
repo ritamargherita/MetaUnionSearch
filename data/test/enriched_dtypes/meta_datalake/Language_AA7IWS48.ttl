@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LanguageAA7IWS48> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_AA7IWS48.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LanguageAA7IWS48/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LanguageAA7IWS48/column/EducationalRole> a dsv:Column ;
+    rdfs:label " Educational Role" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/LanguageAA7IWS48/column/HistoricalOriginoftheLanguage> a dsv:Column ;
+    rdfs:label " Historical Origin of the Language" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/LanguageAA7IWS48/column/LanguageFamily> a dsv:Column ;
+    rdfs:label " *Language Family*" ;
+    dcterms:type "family" .
+
+<http://metaUnionSearch/datasets/LanguageAA7IWS48/column/LanguageName> a dsv:Column ;
+    rdfs:label "Language Name" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/LanguageAA7IWS48/column/LinguisticInfluenceonOtherLanguages> a dsv:Column ;
+    rdfs:label " Linguistic Influence on Other Languages" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/LanguageAA7IWS48/column/LiteracyRate> a dsv:Column ;
+    rdfs:label " Literacy Rate" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/LanguageAA7IWS48/column/NativeSpeakers> a dsv:Column ;
+    rdfs:label " Native Speakers" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/LanguageAA7IWS48/column/NonstandardDialectCount> a dsv:Column ;
+    rdfs:label " Nonstandard Dialect Count" ;
+    dcterms:type "day" .
+
+<http://metaUnionSearch/datasets/LanguageAA7IWS48/column/OfficialLanguage> a dsv:Column ;
+    rdfs:label " Official Language*" ;
+    dcterms:type "operator" .
+
+<http://metaUnionSearch/datasets/LanguageAA7IWS48/column/Origin> a dsv:Column ;
+    rdfs:label " Origin*" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/LanguageAA7IWS48/column/Speakers> a dsv:Column ;
+    rdfs:label " Speakers" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/LanguageAA7IWS48/column/WritingSystemType> a dsv:Column ;
+    rdfs:label " Writing System Type" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/LanguageAA7IWS48/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LanguageAA7IWS48/column/EducationalRole>,
+        <http://metaUnionSearch/datasets/LanguageAA7IWS48/column/HistoricalOriginoftheLanguage>,
+        <http://metaUnionSearch/datasets/LanguageAA7IWS48/column/LanguageFamily>,
+        <http://metaUnionSearch/datasets/LanguageAA7IWS48/column/LanguageName>,
+        <http://metaUnionSearch/datasets/LanguageAA7IWS48/column/LinguisticInfluenceonOtherLanguages>,
+        <http://metaUnionSearch/datasets/LanguageAA7IWS48/column/LiteracyRate>,
+        <http://metaUnionSearch/datasets/LanguageAA7IWS48/column/NativeSpeakers>,
+        <http://metaUnionSearch/datasets/LanguageAA7IWS48/column/NonstandardDialectCount>,
+        <http://metaUnionSearch/datasets/LanguageAA7IWS48/column/OfficialLanguage>,
+        <http://metaUnionSearch/datasets/LanguageAA7IWS48/column/Origin>,
+        <http://metaUnionSearch/datasets/LanguageAA7IWS48/column/Speakers>,
+        <http://metaUnionSearch/datasets/LanguageAA7IWS48/column/WritingSystemType> .
+

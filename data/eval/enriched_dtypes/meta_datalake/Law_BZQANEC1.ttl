@@ -1,0 +1,91 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_BZQANEC1.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawBZQANEC1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/column/BillNumber> a dsv:Column ;
+    rdfs:label " Bill Number" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/column/BudgetaryAllocation> a dsv:Column ;
+    rdfs:label " Budgetary Allocation" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/column/ConstitutionalityCheck> a dsv:Column ;
+    rdfs:label " Constitutionality Check" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/column/CritiquesfromOpposingParties> a dsv:Column ;
+    rdfs:label " Critiques from Opposing Parties" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/column/ExpertTestimony> a dsv:Column ;
+    rdfs:label " Expert Testimony" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/column/FiscallyRelatedMeasures> a dsv:Column ;
+    rdfs:label " Fiscally Related Measures" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/column/ImplementationTimeline> a dsv:Column ;
+    rdfs:label " Implementation Timeline" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/column/LegislativeJurisdiction> a dsv:Column ;
+    rdfs:label "Legislative Jurisdiction" ;
+    dcterms:type "team" .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/column/LegislatureSession> a dsv:Column ;
+    rdfs:label " Legislature Session" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/column/ObjectionsAmendments> a dsv:Column ;
+    rdfs:label " Objections & Amendments" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/column/PassageInformation> a dsv:Column ;
+    rdfs:label " Passage Information" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/column/Proposer> a dsv:Column ;
+    rdfs:label " Proposer" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/column/PublicHearingsDetails> a dsv:Column ;
+    rdfs:label " Public Hearings Details" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/column/ReferencedBills> a dsv:Column ;
+    rdfs:label " Referenced Bills" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/column/RegulationEffectiveness> a dsv:Column ;
+    rdfs:label " Regulation Effectiveness" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/column/StakeholderInput> a dsv:Column ;
+    rdfs:label " Stakeholder Input" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/LawBZQANEC1/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LawBZQANEC1/column/BillNumber>,
+        <http://metaUnionSearch/datasets/LawBZQANEC1/column/BudgetaryAllocation>,
+        <http://metaUnionSearch/datasets/LawBZQANEC1/column/ConstitutionalityCheck>,
+        <http://metaUnionSearch/datasets/LawBZQANEC1/column/CritiquesfromOpposingParties>,
+        <http://metaUnionSearch/datasets/LawBZQANEC1/column/ExpertTestimony>,
+        <http://metaUnionSearch/datasets/LawBZQANEC1/column/FiscallyRelatedMeasures>,
+        <http://metaUnionSearch/datasets/LawBZQANEC1/column/ImplementationTimeline>,
+        <http://metaUnionSearch/datasets/LawBZQANEC1/column/LegislativeJurisdiction>,
+        <http://metaUnionSearch/datasets/LawBZQANEC1/column/LegislatureSession>,
+        <http://metaUnionSearch/datasets/LawBZQANEC1/column/ObjectionsAmendments>,
+        <http://metaUnionSearch/datasets/LawBZQANEC1/column/PassageInformation>,
+        <http://metaUnionSearch/datasets/LawBZQANEC1/column/Proposer>,
+        <http://metaUnionSearch/datasets/LawBZQANEC1/column/PublicHearingsDetails>,
+        <http://metaUnionSearch/datasets/LawBZQANEC1/column/ReferencedBills>,
+        <http://metaUnionSearch/datasets/LawBZQANEC1/column/RegulationEffectiveness>,
+        <http://metaUnionSearch/datasets/LawBZQANEC1/column/StakeholderInput> .
+

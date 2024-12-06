@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeologyDA9WHSBP> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_DA9WHSBP.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeologyDA9WHSBP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/AstronomicalSatelliteImageryForRegionalSurveys> a dsv:Column ;
+    rdfs:label "Astronomical Satellite Imagery For Regional Surveys" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/BoreholeLoggingDataPoints> a dsv:Column ;
+    rdfs:label "Borehole Logging Data Points" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/GeologicalHazardAssessmentIndices> a dsv:Column ;
+    rdfs:label "Geological Hazard Assessment Indices" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/GeologicalTimeScale> a dsv:Column ;
+    rdfs:label "Geological Time Scale" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/GroundWaterChemistryProfile> a dsv:Column ;
+    rdfs:label "Ground Water Chemistry Profile" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/LocalMagneticFieldVariations> a dsv:Column ;
+    rdfs:label "Local Magnetic Field Variations" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/SeismicityMeasurements> a dsv:Column ;
+    rdfs:label "Seismicity Measurements" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/SoilsAnalysisMethod> a dsv:Column ;
+    rdfs:label "Soils Analysis Method" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/SpaceweathersImpactOnTheRegion> a dsv:Column ;
+    rdfs:label "Spaceweathers Impact On The Region" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/TectonicSettingCharacteristics> a dsv:Column ;
+    rdfs:label "Tectonic Setting Characteristics" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/VolcanologialMonitoringParameters> a dsv:Column ;
+    rdfs:label "Volcanologial Monitoring Parameters" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyDA9WHSBP/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/AstronomicalSatelliteImageryForRegionalSurveys>,
+        <http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/BoreholeLoggingDataPoints>,
+        <http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/GeologicalHazardAssessmentIndices>,
+        <http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/GeologicalTimeScale>,
+        <http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/GroundWaterChemistryProfile>,
+        <http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/LocalMagneticFieldVariations>,
+        <http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/SeismicityMeasurements>,
+        <http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/SoilsAnalysisMethod>,
+        <http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/SpaceweathersImpactOnTheRegion>,
+        <http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/TectonicSettingCharacteristics>,
+        <http://metaUnionSearch/datasets/GeologyDA9WHSBP/column/VolcanologialMonitoringParameters> .
+

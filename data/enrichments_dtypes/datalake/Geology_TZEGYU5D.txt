@@ -1,0 +1,12 @@
+album
+category
+name
+description
+category
+team
+class
+type
+classification
+notes
+album
+component

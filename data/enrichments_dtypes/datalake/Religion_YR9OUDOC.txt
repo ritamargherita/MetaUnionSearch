@@ -1,0 +1,14 @@
+rank
+description
+origin
+name
+description
+age
+origin
+description
+description
+region
+description
+region
+description
+person

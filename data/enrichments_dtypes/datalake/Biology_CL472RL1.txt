@@ -1,0 +1,13 @@
+family
+category
+description
+description
+description
+description
+description
+description
+description
+description
+weight
+description
+artist

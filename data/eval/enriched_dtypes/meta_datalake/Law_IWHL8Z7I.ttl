@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawIWHL8Z7I> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_IWHL8Z7I.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawIWHL8Z7I/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawIWHL8Z7I/column/AmendmentsaddedduringHouseSenateConferenceCommitteeMeeting> a dsv:Column ;
+    rdfs:label " Amendments added during House-Senate Conference Committee Meeting" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawIWHL8Z7I/column/BillProponentsNames> a dsv:Column ;
+    rdfs:label " Bill Proponent(s) Names" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/LawIWHL8Z7I/column/CommitteeMembersBipartisanBalance> a dsv:Column ;
+    rdfs:label " Committee Members Bipartisan Balance" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawIWHL8Z7I/column/FinalPassageVoteResultTimestamp> a dsv:Column ;
+    rdfs:label " Final Passage Vote Result - Timestamp" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/LawIWHL8Z7I/column/FloorDebateTopics> a dsv:Column ;
+    rdfs:label " Floor Debate Topics" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawIWHL8Z7I/column/FloorVotesCountPartisanBreakdown> a dsv:Column ;
+    rdfs:label " Floor Votes Count : Partisan Breakdown" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/LawIWHL8Z7I/column/ImplementationEffectiveDates> a dsv:Column ;
+    rdfs:label " Implementation Effective Dates" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/LawIWHL8Z7I/column/LargestDonorssupportingeachsidewithdatesrangeperelectioncycle> a dsv:Column ;
+    rdfs:label " Largest Donors supporting each side with dates range per election cycle" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/LawIWHL8Z7I/column/LegislativeJurisdiction> a dsv:Column ;
+    rdfs:label "Legislative Jurisdiction" ;
+    dcterms:type "team" .
+
+<http://metaUnionSearch/datasets/LawIWHL8Z7I/column/LegislatureSessionDate> a dsv:Column ;
+    rdfs:label " Legislature Session & Date" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/LawIWHL8Z7I/column/LobbyistGroupInterestsEngaged> a dsv:Column ;
+    rdfs:label " Lobbyist Group Interests Engaged" ;
+    dcterms:type "industry" .
+
+<http://metaUnionSearch/datasets/LawIWHL8Z7I/column/PresidentialActionTypeDate> a dsv:Column ;
+    rdfs:label " Presidential Action Type & Date" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/LawIWHL8Z7I/column/VotingResultsbyCommitteeMembernames> a dsv:Column ;
+    rdfs:label " Voting Results by Committee Member names" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/LawIWHL8Z7I/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LawIWHL8Z7I/column/AmendmentsaddedduringHouseSenateConferenceCommitteeMeeting>,
+        <http://metaUnionSearch/datasets/LawIWHL8Z7I/column/BillProponentsNames>,
+        <http://metaUnionSearch/datasets/LawIWHL8Z7I/column/CommitteeMembersBipartisanBalance>,
+        <http://metaUnionSearch/datasets/LawIWHL8Z7I/column/FinalPassageVoteResultTimestamp>,
+        <http://metaUnionSearch/datasets/LawIWHL8Z7I/column/FloorDebateTopics>,
+        <http://metaUnionSearch/datasets/LawIWHL8Z7I/column/FloorVotesCountPartisanBreakdown>,
+        <http://metaUnionSearch/datasets/LawIWHL8Z7I/column/ImplementationEffectiveDates>,
+        <http://metaUnionSearch/datasets/LawIWHL8Z7I/column/LargestDonorssupportingeachsidewithdatesrangeperelectioncycle>,
+        <http://metaUnionSearch/datasets/LawIWHL8Z7I/column/LegislativeJurisdiction>,
+        <http://metaUnionSearch/datasets/LawIWHL8Z7I/column/LegislatureSessionDate>,
+        <http://metaUnionSearch/datasets/LawIWHL8Z7I/column/LobbyistGroupInterestsEngaged>,
+        <http://metaUnionSearch/datasets/LawIWHL8Z7I/column/PresidentialActionTypeDate>,
+        <http://metaUnionSearch/datasets/LawIWHL8Z7I/column/VotingResultsbyCommitteeMembernames> .
+

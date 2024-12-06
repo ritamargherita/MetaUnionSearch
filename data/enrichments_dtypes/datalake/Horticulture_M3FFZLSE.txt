@@ -1,0 +1,14 @@
+area
+description
+notes
+description
+description
+description
+name
+description
+description
+species
+location
+description
+description
+artist

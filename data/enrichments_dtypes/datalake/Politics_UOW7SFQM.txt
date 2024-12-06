@@ -1,0 +1,11 @@
+duration
+result
+status
+nationality
+result
+age
+category
+class
+category
+notes
+notes

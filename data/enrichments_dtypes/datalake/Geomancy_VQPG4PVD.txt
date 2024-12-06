@@ -1,0 +1,13 @@
+address
+name
+album
+publisher
+album
+description
+artist
+name
+name
+description
+description
+range
+product

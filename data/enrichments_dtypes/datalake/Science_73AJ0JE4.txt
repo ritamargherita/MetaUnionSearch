@@ -1,0 +1,10 @@
+area
+album
+description
+name
+origin
+artist
+result
+description
+area
+description

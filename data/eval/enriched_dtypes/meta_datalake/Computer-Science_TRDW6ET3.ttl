@@ -1,0 +1,141 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_TRDW6ET3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/ArtificialIntelligence> a dsv:Column ;
+    rdfs:label " Artificial Intelligence" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/ComputationalTheory> a dsv:Column ;
+    rdfs:label "Computational Theory" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/Cybersecurity> a dsv:Column ;
+    rdfs:label " Cybersecurity" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/DeepLearning> a dsv:Column ;
+    rdfs:label " Deep Learning." ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/HumanComputerInteraction> a dsv:Column ;
+    rdfs:label " Human-Computer Interaction" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/InformationRetrieval> a dsv:Column ;
+    rdfs:label " Information Retrieval" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/MachineLearningUnsupervised> a dsv:Column ;
+    rdfs:label " Machine Learning (Unsupervised)" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/NaturalLanguageProcessing> a dsv:Column ;
+    rdfs:label " Natural Language Processing" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/ParallelComputing> a dsv:Column ;
+    rdfs:label " Parallel Computing" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/ProgrammableLogicControllersPLC> a dsv:Column ;
+    rdfs:label " Programmable Logic Controllers (PLC)" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/QuantumComputing> a dsv:Column ;
+    rdfs:label " Quantum Computing" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/ReinforcementLearning> a dsv:Column ;
+    rdfs:label " Reinforcement Learning" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/SoftwareEngineering> a dsv:Column ;
+    rdfs:label " Software Engineering" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp> a dsv:Column ;
+    rdfs:label "&nbsp" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp1> a dsv:Column ;
+    rdfs:label "&nbsp.1" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp10> a dsv:Column ;
+    rdfs:label "&nbsp.10" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp11> a dsv:Column ;
+    rdfs:label "&nbsp.11" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp12> a dsv:Column ;
+    rdfs:label "&nbsp.12" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp2> a dsv:Column ;
+    rdfs:label "&nbsp.2" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp3> a dsv:Column ;
+    rdfs:label "&nbsp.3" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp4> a dsv:Column ;
+    rdfs:label "&nbsp.4" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp5> a dsv:Column ;
+    rdfs:label "&nbsp.5" ;
+    dcterms:type "code" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp6> a dsv:Column ;
+    rdfs:label "&nbsp.6" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp7> a dsv:Column ;
+    rdfs:label "&nbsp.7" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp8> a dsv:Column ;
+    rdfs:label "&nbsp.8" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp9> a dsv:Column ;
+    rdfs:label "&nbsp.9" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/ArtificialIntelligence>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/ComputationalTheory>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/Cybersecurity>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/DeepLearning>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/HumanComputerInteraction>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/InformationRetrieval>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/MachineLearningUnsupervised>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/NaturalLanguageProcessing>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/ParallelComputing>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/ProgrammableLogicControllersPLC>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/QuantumComputing>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/ReinforcementLearning>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/SoftwareEngineering>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp1>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp10>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp11>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp12>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp2>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp3>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp4>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp5>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp6>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp7>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp8>,
+        <http://metaUnionSearch/datasets/ComputerScienceTRDW6ET3/column/nbsp9> .
+

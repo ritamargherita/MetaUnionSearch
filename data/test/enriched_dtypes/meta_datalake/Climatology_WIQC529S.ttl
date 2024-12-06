@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S> a dsv:Dataset ;
+    dcterms:subject "climatology" ;
+    dcterms:title "Climatology_WIQC529S.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ClimatologyWIQC529S/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/ArcticOscillationIndex> a dsv:Column ;
+    rdfs:label " Arctic Oscillation Index" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/AtlanticMultidecadalOscillationIndex> a dsv:Column ;
+    rdfs:label " Atlantic Multidecadal Oscillation Index" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/ClimateModelType> a dsv:Column ;
+    rdfs:label "Climate Model Type" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/ElNioSouthernOscillationIndex> a dsv:Column ;
+    rdfs:label " El Niño Southern Oscillation Index" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/GlobalCirculationPatternChanges> a dsv:Column ;
+    rdfs:label " Global Circulation Pattern Changes" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/IndianOceanDipoleModeIndex> a dsv:Column ;
+    rdfs:label " Indian Ocean Dipole Mode Index" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/InitialConditionsSetup> a dsv:Column ;
+    rdfs:label " Initial Conditions Setup" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/NorthAtlanticOscillationIndex> a dsv:Column ;
+    rdfs:label " North Atlantic Oscillation Index" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/PacificDecadalOscillationIndex> a dsv:Column ;
+    rdfs:label " Pacific Decadal Oscillation Index" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/PoissonsRatioOfPolarIceCaps> a dsv:Column ;
+    rdfs:label " Poisson’s Ratio Of Polar Ice Caps" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/PolarVortexStrengthIndex106m3s1> a dsv:Column ;
+    rdfs:label " Polar Vortex Strength Index (*10^6 m^3 s^-1*)" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/SeasonalityCorrectionCoefficientForAntarcticOscillation> a dsv:Column ;
+    rdfs:label " Seasonality Correction Coefficient For Antarctic Oscillation (η)" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/StratosphereCoolingTrendkelvinperdecade> a dsv:Column ;
+    rdfs:label " Stratosphere Cooling Trend (kelvin per decade)" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/ThermohalineCirculationIntensityDifferenceBeforeAndAfterGlobalWarmingkgsec1> a dsv:Column ;
+    rdfs:label " Thermohaline Circulation Intensity Difference Before And After Global Warming (kg•sec^−1)" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/TropopauseHeightVariationskm> a dsv:Column ;
+    rdfs:label " Tropopause Height Variations (km)" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ClimatologyWIQC529S/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/ArcticOscillationIndex>,
+        <http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/AtlanticMultidecadalOscillationIndex>,
+        <http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/ClimateModelType>,
+        <http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/ElNioSouthernOscillationIndex>,
+        <http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/GlobalCirculationPatternChanges>,
+        <http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/IndianOceanDipoleModeIndex>,
+        <http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/InitialConditionsSetup>,
+        <http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/NorthAtlanticOscillationIndex>,
+        <http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/PacificDecadalOscillationIndex>,
+        <http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/PoissonsRatioOfPolarIceCaps>,
+        <http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/PolarVortexStrengthIndex106m3s1>,
+        <http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/SeasonalityCorrectionCoefficientForAntarcticOscillation>,
+        <http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/StratosphereCoolingTrendkelvinperdecade>,
+        <http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/ThermohalineCirculationIntensityDifferenceBeforeAndAfterGlobalWarmingkgsec1>,
+        <http://metaUnionSearch/datasets/ClimatologyWIQC529S/column/TropopauseHeightVariationskm> .
+

@@ -1,0 +1,91 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_VRERW6Z8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SociologyVRERW6Z8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/AlternativeTheory> a dsv:Column ;
+    rdfs:label " AlternativeTheory" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/Contributions> a dsv:Column ;
+    rdfs:label " Contributions" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/DataAnalysisPlan> a dsv:Column ;
+    rdfs:label " DataAnalysisPlan" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/DataCollectionMethod> a dsv:Column ;
+    rdfs:label " DataCollectionMethod" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/Findings> a dsv:Column ;
+    rdfs:label " Findings" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/FutureResearch> a dsv:Column ;
+    rdfs:label " FutureResearch" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/Limitations> a dsv:Column ;
+    rdfs:label " Limitations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/MethodologyNotes> a dsv:Column ;
+    rdfs:label " MethodologyNotes" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/Population> a dsv:Column ;
+    rdfs:label " Population" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/References> a dsv:Column ;
+    rdfs:label " References" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/Replicability> a dsv:Column ;
+    rdfs:label " Replicability" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/ResearchDesign> a dsv:Column ;
+    rdfs:label " ResearchDesign" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/ResearchEthics> a dsv:Column ;
+    rdfs:label " ResearchEthics" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/SampleSize> a dsv:Column ;
+    rdfs:label " SampleSize" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/SamplingStrategy> a dsv:Column ;
+    rdfs:label " SamplingStrategy" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/SociologicalTheory> a dsv:Column ;
+    rdfs:label "SociologicalTheory" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/SociologyVRERW6Z8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/AlternativeTheory>,
+        <http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/Contributions>,
+        <http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/DataAnalysisPlan>,
+        <http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/DataCollectionMethod>,
+        <http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/Findings>,
+        <http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/FutureResearch>,
+        <http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/Limitations>,
+        <http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/MethodologyNotes>,
+        <http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/Population>,
+        <http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/References>,
+        <http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/Replicability>,
+        <http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/ResearchDesign>,
+        <http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/ResearchEthics>,
+        <http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/SampleSize>,
+        <http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/SamplingStrategy>,
+        <http://metaUnionSearch/datasets/SociologyVRERW6Z8/column/SociologicalTheory> .
+

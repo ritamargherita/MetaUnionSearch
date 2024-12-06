@@ -1,0 +1,14 @@
+name
+class
+duration
+address
+sales
+depth
+capacity
+age
+age
+position
+result
+species
+name
+creator

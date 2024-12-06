@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CookingZYCMVO84> a dsv:Dataset ;
+    dcterms:subject "cooking" ;
+    dcterms:title "Cooking_ZYCMVO84.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CookingZYCMVO84/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CookingZYCMVO84/column/Calories> a dsv:Column ;
+    rdfs:label "Calories" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/CookingZYCMVO84/column/CookingComplexity> a dsv:Column ;
+    rdfs:label "Cooking Complexity" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/CookingZYCMVO84/column/Cuisine> a dsv:Column ;
+    rdfs:label "Cuisine" ;
+    dcterms:type "nationality" .
+
+<http://metaUnionSearch/datasets/CookingZYCMVO84/column/Ingredient1> a dsv:Column ;
+    rdfs:label "Ingredient 1" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingZYCMVO84/column/Ingredient2> a dsv:Column ;
+    rdfs:label "Ingredient 2" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingZYCMVO84/column/Ingredient3> a dsv:Column ;
+    rdfs:label "Ingredient 3" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingZYCMVO84/column/Instructions> a dsv:Column ;
+    rdfs:label "Instructions" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingZYCMVO84/column/PrepComplexity> a dsv:Column ;
+    rdfs:label "Prep Complexity" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/CookingZYCMVO84/column/RecipeName> a dsv:Column ;
+    rdfs:label "Recipe Name" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CookingZYCMVO84/column/RecipeSource> a dsv:Column ;
+    rdfs:label "Recipe Source" ;
+    dcterms:type "command" .
+
+<http://metaUnionSearch/datasets/CookingZYCMVO84/column/Servings> a dsv:Column ;
+    rdfs:label "Servings" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/CookingZYCMVO84/column/TotalTime> a dsv:Column ;
+    rdfs:label "Total Time" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/CookingZYCMVO84/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CookingZYCMVO84/column/Calories>,
+        <http://metaUnionSearch/datasets/CookingZYCMVO84/column/CookingComplexity>,
+        <http://metaUnionSearch/datasets/CookingZYCMVO84/column/Cuisine>,
+        <http://metaUnionSearch/datasets/CookingZYCMVO84/column/Ingredient1>,
+        <http://metaUnionSearch/datasets/CookingZYCMVO84/column/Ingredient2>,
+        <http://metaUnionSearch/datasets/CookingZYCMVO84/column/Ingredient3>,
+        <http://metaUnionSearch/datasets/CookingZYCMVO84/column/Instructions>,
+        <http://metaUnionSearch/datasets/CookingZYCMVO84/column/PrepComplexity>,
+        <http://metaUnionSearch/datasets/CookingZYCMVO84/column/RecipeName>,
+        <http://metaUnionSearch/datasets/CookingZYCMVO84/column/RecipeSource>,
+        <http://metaUnionSearch/datasets/CookingZYCMVO84/column/Servings>,
+        <http://metaUnionSearch/datasets/CookingZYCMVO84/column/TotalTime> .
+

@@ -1,0 +1,13 @@
+region
+operator
+duration
+result
+address
+position
+description
+result
+description
+product
+description
+capacity
+capacity

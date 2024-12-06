@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_B8Q93A1D.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeomancyB8Q93A1D/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/AdditionalElementLinkages> a dsv:Column ;
+    rdfs:label " Additional Element Linkages" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/AdvancedShapeFeatures> a dsv:Column ;
+    rdfs:label " Advanced Shape Features" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/AstrologicalCorrespondences> a dsv:Column ;
+    rdfs:label " Astrological Correspondences" ;
+    dcterms:type "collection" .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/DivinatoryProcedures> a dsv:Column ;
+    rdfs:label " Divinatory Procedures" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/ExpandedPossibilities> a dsv:Column ;
+    rdfs:label " Expanded Possibilities" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/GeometricDesign> a dsv:Column ;
+    rdfs:label "Geometric Design" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/InterpretiveAvenues> a dsv:Column ;
+    rdfs:label " Interpretive Avenues" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/LimitationConsiderations> a dsv:Column ;
+    rdfs:label " Limitation Considerations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/MythologicalandHistoricalTies> a dsv:Column ;
+    rdfs:label " Mythological and Historical Ties" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/ReligiousorSpiritualFactors> a dsv:Column ;
+    rdfs:label " Religious or Spiritual Factors" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/SymbolicMeanings> a dsv:Column ;
+    rdfs:label " Symbolic Meanings" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/TransmissionDynamics> a dsv:Column ;
+    rdfs:label " Transmission Dynamics" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/UniqueColumn13> a dsv:Column ;
+    rdfs:label " Unique Column 13" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/UniqueColumn14> a dsv:Column ;
+    rdfs:label " Unique Column 14" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/UsagePopularity> a dsv:Column ;
+    rdfs:label " Usage Popularity" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/GeomancyB8Q93A1D/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/AdditionalElementLinkages>,
+        <http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/AdvancedShapeFeatures>,
+        <http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/AstrologicalCorrespondences>,
+        <http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/DivinatoryProcedures>,
+        <http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/ExpandedPossibilities>,
+        <http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/GeometricDesign>,
+        <http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/InterpretiveAvenues>,
+        <http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/LimitationConsiderations>,
+        <http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/MythologicalandHistoricalTies>,
+        <http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/ReligiousorSpiritualFactors>,
+        <http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/SymbolicMeanings>,
+        <http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/TransmissionDynamics>,
+        <http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/UniqueColumn13>,
+        <http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/UniqueColumn14>,
+        <http://metaUnionSearch/datasets/GeomancyB8Q93A1D/column/UsagePopularity> .
+

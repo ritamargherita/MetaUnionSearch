@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/HorticultureCC46C17Z> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_CC46C17Z.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/HorticultureCC46C17Z/datasetSchema> .
+
+<http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/CommonPestsAndDiseases> a dsv:Column ;
+    rdfs:label "CommonPestsAndDiseases" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/CulinaryUses> a dsv:Column ;
+    rdfs:label "CulinaryUses" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/FloralDesignUsage> a dsv:Column ;
+    rdfs:label "FloralDesignUsage" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/GrowingSeason> a dsv:Column ;
+    rdfs:label "GrowingSeason" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/MaturePlantSize> a dsv:Column ;
+    rdfs:label "MaturePlantSize" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/MedicinalProperties> a dsv:Column ;
+    rdfs:label "MedicinalProperties" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/PlantingDensityGuidelines> a dsv:Column ;
+    rdfs:label "PlantingDensityGuidelines" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/PreferredTemperature> a dsv:Column ;
+    rdfs:label "PreferredTemperature" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/ProfessionalHardinessZoneRating> a dsv:Column ;
+    rdfs:label "ProfessionalHardinessZoneRating" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/PropagationByCuttings> a dsv:Column ;
+    rdfs:label "PropagationByCuttings" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/SeedsGerminationDetails> a dsv:Column ;
+    rdfs:label "SeedsGerminationDetails" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/SoilPhPreference> a dsv:Column ;
+    rdfs:label "SoilPhPreference" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/SuggestedCompanionPlants> a dsv:Column ;
+    rdfs:label "SuggestedCompanionPlants" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/TypicalLandscapingUsage> a dsv:Column ;
+    rdfs:label "TypicalLandscapingUsage" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/HorticultureCC46C17Z/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/CommonPestsAndDiseases>,
+        <http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/CulinaryUses>,
+        <http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/FloralDesignUsage>,
+        <http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/GrowingSeason>,
+        <http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/MaturePlantSize>,
+        <http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/MedicinalProperties>,
+        <http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/PlantingDensityGuidelines>,
+        <http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/PreferredTemperature>,
+        <http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/ProfessionalHardinessZoneRating>,
+        <http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/PropagationByCuttings>,
+        <http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/SeedsGerminationDetails>,
+        <http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/SoilPhPreference>,
+        <http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/SuggestedCompanionPlants>,
+        <http://metaUnionSearch/datasets/HorticultureCC46C17Z/column/TypicalLandscapingUsage> .
+

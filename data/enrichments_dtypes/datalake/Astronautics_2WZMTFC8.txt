@@ -1,0 +1,14 @@
+position
+location
+status
+status
+organisation
+rank
+description
+description
+album
+range
+range
+status
+sales
+rank

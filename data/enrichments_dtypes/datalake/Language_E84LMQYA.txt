@@ -1,0 +1,14 @@
+region
+language
+family
+description
+language
+religion
+album
+credit
+description
+class
+description
+origin
+notes
+result

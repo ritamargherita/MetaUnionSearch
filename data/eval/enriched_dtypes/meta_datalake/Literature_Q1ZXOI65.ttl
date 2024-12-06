@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LiteratureQ1ZXOI65> a dsv:Dataset ;
+    dcterms:subject "literature" ;
+    dcterms:title "Literature_Q1ZXOI65.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/ArtisticRepresentations> a dsv:Column ;
+    rdfs:label " Artistic Representations" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/GenderIdentityExploration> a dsv:Column ;
+    rdfs:label " Gender & Identity Exploration" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/GeographicalImpact> a dsv:Column ;
+    rdfs:label " Geographical Impact" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/IntertextualConnections> a dsv:Column ;
+    rdfs:label " Intertextual Connections" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/ModernMediaMerchandise> a dsv:Column ;
+    rdfs:label " Modern Media Merchandise." ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/NationalLiteraryTraditions> a dsv:Column ;
+    rdfs:label " National Literary Traditions" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/PeriodSpecificStyles> a dsv:Column ;
+    rdfs:label "Period Specific Styles" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/PopCultureReferences> a dsv:Column ;
+    rdfs:label " Pop Culture References" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/ReligiousPhilosophicalIdeas> a dsv:Column ;
+    rdfs:label " Religious & Philosophical Ideas" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/ScientificDiscoveries> a dsv:Column ;
+    rdfs:label " Scientific Discoveries" ;
+    dcterms:type "manufacturer" .
+
+<http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/SocialMovements> a dsv:Column ;
+    rdfs:label " Social Movements" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/ArtisticRepresentations>,
+        <http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/GenderIdentityExploration>,
+        <http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/GeographicalImpact>,
+        <http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/IntertextualConnections>,
+        <http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/ModernMediaMerchandise>,
+        <http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/NationalLiteraryTraditions>,
+        <http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/PeriodSpecificStyles>,
+        <http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/PopCultureReferences>,
+        <http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/ReligiousPhilosophicalIdeas>,
+        <http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/ScientificDiscoveries>,
+        <http://metaUnionSearch/datasets/LiteratureQ1ZXOI65/column/SocialMovements> .
+

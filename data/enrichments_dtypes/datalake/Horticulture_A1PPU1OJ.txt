@@ -1,0 +1,11 @@
+species
+species
+status
+album
+status
+artist
+classification
+notes
+name
+description
+album

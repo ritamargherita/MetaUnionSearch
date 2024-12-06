@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_VFPTOMJB.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/CentralTexts> a dsv:Column ;
+    rdfs:label "Central Texts" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/CommonQuestions> a dsv:Column ;
+    rdfs:label "Common Questions" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/CulturalSignificance> a dsv:Column ;
+    rdfs:label "Cultural Significance" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/EndDate> a dsv:Column ;
+    rdfs:label "End Date" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/HistoricalContext> a dsv:Column ;
+    rdfs:label "Historical Context" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/InfluentialFigures> a dsv:Column ;
+    rdfs:label "Influential Figures" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/MajorImpact> a dsv:Column ;
+    rdfs:label "Major Impact" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/Misconceptions> a dsv:Column ;
+    rdfs:label "Misconceptions" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/PhilosophicEra> a dsv:Column ;
+    rdfs:label "Philosophic Era" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/RelationtoArt> a dsv:Column ;
+    rdfs:label "Relation to Art" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/RelationtoPolitics> a dsv:Column ;
+    rdfs:label "Relation to Politics" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/RelationtoReligion> a dsv:Column ;
+    rdfs:label "Relation to Religion" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/RelationtoScience> a dsv:Column ;
+    rdfs:label "Relation to Science" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/SchoolofThought> a dsv:Column ;
+    rdfs:label "School of Thought" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/StartDate> a dsv:Column ;
+    rdfs:label "Start Date" ;
+    dcterms:type "code" .
+
+<http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/CentralTexts>,
+        <http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/CommonQuestions>,
+        <http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/CulturalSignificance>,
+        <http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/EndDate>,
+        <http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/HistoricalContext>,
+        <http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/InfluentialFigures>,
+        <http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/MajorImpact>,
+        <http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/Misconceptions>,
+        <http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/PhilosophicEra>,
+        <http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/RelationtoArt>,
+        <http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/RelationtoPolitics>,
+        <http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/RelationtoReligion>,
+        <http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/RelationtoScience>,
+        <http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/SchoolofThought>,
+        <http://metaUnionSearch/datasets/PhilosophyVFPTOMJB/column/StartDate> .
+

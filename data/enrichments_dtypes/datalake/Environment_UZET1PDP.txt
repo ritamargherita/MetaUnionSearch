@@ -1,0 +1,11 @@
+description
+address
+classification
+status
+rank
+range
+address
+classification
+location
+sales
+address

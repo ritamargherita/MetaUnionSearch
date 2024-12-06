@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LiteratureT3UEA3GE> a dsv:Dataset ;
+    dcterms:subject "literature" ;
+    dcterms:title "Literature_T3UEA3GE.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LiteratureT3UEA3GE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/Adaptations> a dsv:Column ;
+    rdfs:label " Adaptations" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/AwardsWon> a dsv:Column ;
+    rdfs:label " Awards Won" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/CriticalReception> a dsv:Column ;
+    rdfs:label " Critical Reception" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/GeographicalDistribution> a dsv:Column ;
+    rdfs:label " Geographical Distribution" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/InfluenceOnOtherWorks> a dsv:Column ;
+    rdfs:label " Influence On Other Works" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/Intertextuality> a dsv:Column ;
+    rdfs:label " Intertextuality" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/ParodiesSatires> a dsv:Column ;
+    rdfs:label " Parodies & Satires" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/PeriodicTimeline> a dsv:Column ;
+    rdfs:label "Periodic Timeline" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/SocialImpact> a dsv:Column ;
+    rdfs:label " Social Impact" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/SubgenresSpawned> a dsv:Column ;
+    rdfs:label " Subgenres Spawned" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/VisualArtRepresentations> a dsv:Column ;
+    rdfs:label " Visual Art Representations." ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/LiteratureT3UEA3GE/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/Adaptations>,
+        <http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/AwardsWon>,
+        <http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/CriticalReception>,
+        <http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/GeographicalDistribution>,
+        <http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/InfluenceOnOtherWorks>,
+        <http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/Intertextuality>,
+        <http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/ParodiesSatires>,
+        <http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/PeriodicTimeline>,
+        <http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/SocialImpact>,
+        <http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/SubgenresSpawned>,
+        <http://metaUnionSearch/datasets/LiteratureT3UEA3GE/column/VisualArtRepresentations> .
+

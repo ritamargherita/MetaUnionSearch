@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathNVNQ65QD> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_NVNQ65QD.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathNVNQ65QD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathNVNQ65QD/column/AbstractRepresentations> a dsv:Column ;
+    rdfs:label " \"Abstract Representations\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathNVNQ65QD/column/AssessmentMethods> a dsv:Column ;
+    rdfs:label " \"Assessment Methods\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathNVNQ65QD/column/ConnectionstoOtherDisciplines> a dsv:Column ;
+    rdfs:label " \"Connections to Other Disciplines\"" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/MathNVNQ65QD/column/EthicalConsiderations> a dsv:Column ;
+    rdfs:label " \"Ethical Considerations\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathNVNQ65QD/column/MathConceptVisualizations> a dsv:Column ;
+    rdfs:label "\"Math Concept Visualizations\"" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/MathNVNQ65QD/column/MathematicalStructures> a dsv:Column ;
+    rdfs:label " \"Mathematical Structures\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathNVNQ65QD/column/ModelingandSimulation> a dsv:Column ;
+    rdfs:label " \"Modeling and Simulation\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathNVNQ65QD/column/ProblemSolvingTechniques> a dsv:Column ;
+    rdfs:label " \"Problem-Solving Techniques\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathNVNQ65QD/column/ResearchTrends> a dsv:Column ;
+    rdfs:label " \"Research Trends\"" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/MathNVNQ65QD/column/TeachingandLearningStrategies> a dsv:Column ;
+    rdfs:label " \"Teaching and Learning Strategies\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathNVNQ65QD/column/TechnologicalTools> a dsv:Column ;
+    rdfs:label " \"Technological Tools\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathNVNQ65QD/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MathNVNQ65QD/column/AbstractRepresentations>,
+        <http://metaUnionSearch/datasets/MathNVNQ65QD/column/AssessmentMethods>,
+        <http://metaUnionSearch/datasets/MathNVNQ65QD/column/ConnectionstoOtherDisciplines>,
+        <http://metaUnionSearch/datasets/MathNVNQ65QD/column/EthicalConsiderations>,
+        <http://metaUnionSearch/datasets/MathNVNQ65QD/column/MathConceptVisualizations>,
+        <http://metaUnionSearch/datasets/MathNVNQ65QD/column/MathematicalStructures>,
+        <http://metaUnionSearch/datasets/MathNVNQ65QD/column/ModelingandSimulation>,
+        <http://metaUnionSearch/datasets/MathNVNQ65QD/column/ProblemSolvingTechniques>,
+        <http://metaUnionSearch/datasets/MathNVNQ65QD/column/ResearchTrends>,
+        <http://metaUnionSearch/datasets/MathNVNQ65QD/column/TeachingandLearningStrategies>,
+        <http://metaUnionSearch/datasets/MathNVNQ65QD/column/TechnologicalTools> .
+

@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeomancyI6QW042L> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_I6QW042L.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeomancyI6QW042L/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeomancyI6QW042L/column/AdditionalCulturalMeanings> a dsv:Column ;
+    rdfs:label " Additional Cultural Meanings" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeomancyI6QW042L/column/AstrologicalImpact> a dsv:Column ;
+    rdfs:label " Astrological Impact" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeomancyI6QW042L/column/DivineEntityCorrespondence> a dsv:Column ;
+    rdfs:label " Divine Entity Correspondence" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GeomancyI6QW042L/column/GeometricPattern> a dsv:Column ;
+    rdfs:label " Geometric Pattern" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GeomancyI6QW042L/column/HistoricalTimeline> a dsv:Column ;
+    rdfs:label " Historical Timeline" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/GeomancyI6QW042L/column/MathematicalProbabilities> a dsv:Column ;
+    rdfs:label " Mathematical Probabilities" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeomancyI6QW042L/column/NumberProperties> a dsv:Column ;
+    rdfs:label "Number Properties" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/GeomancyI6QW042L/column/SymbolicInterpretation> a dsv:Column ;
+    rdfs:label " Symbolic Interpretation" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/GeomancyI6QW042L/column/UsageComplexity> a dsv:Column ;
+    rdfs:label " Usage Complexity" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/GeomancyI6QW042L/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeomancyI6QW042L/column/AdditionalCulturalMeanings>,
+        <http://metaUnionSearch/datasets/GeomancyI6QW042L/column/AstrologicalImpact>,
+        <http://metaUnionSearch/datasets/GeomancyI6QW042L/column/DivineEntityCorrespondence>,
+        <http://metaUnionSearch/datasets/GeomancyI6QW042L/column/GeometricPattern>,
+        <http://metaUnionSearch/datasets/GeomancyI6QW042L/column/HistoricalTimeline>,
+        <http://metaUnionSearch/datasets/GeomancyI6QW042L/column/MathematicalProbabilities>,
+        <http://metaUnionSearch/datasets/GeomancyI6QW042L/column/NumberProperties>,
+        <http://metaUnionSearch/datasets/GeomancyI6QW042L/column/SymbolicInterpretation>,
+        <http://metaUnionSearch/datasets/GeomancyI6QW042L/column/UsageComplexity> .
+

@@ -1,0 +1,14 @@
+address
+address
+collection
+status
+artist
+weight
+description
+operator
+creator
+album
+language
+origin
+description
+format

@@ -1,0 +1,13 @@
+region
+origin
+name
+name
+religion
+album
+album
+position
+name
+notes
+format
+album
+artist

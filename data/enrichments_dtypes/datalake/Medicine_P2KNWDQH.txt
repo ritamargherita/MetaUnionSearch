@@ -1,0 +1,13 @@
+description
+address
+name
+class
+product
+address
+status
+album
+ranking
+rank
+age
+address
+manufacturer

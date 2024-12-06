@@ -1,0 +1,12 @@
+capacity
+location
+industry
+year
+director
+type
+company
+operator
+category
+sales
+sales
+area

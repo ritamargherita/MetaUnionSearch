@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geophysics0N229BXI> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_0N229BXI.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geophysics0N229BXI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geophysics0N229BXI/column/Amplitude> a dsv:Column ;
+    rdfs:label " Amplitude" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/Geophysics0N229BXI/column/AnisotropyMeasurements> a dsv:Column ;
+    rdfs:label " Anisotropy Measurements" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/Geophysics0N229BXI/column/ElectromagneticInductionProfiling> a dsv:Column ;
+    rdfs:label " Electromagnetic Induction Profiling" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/Geophysics0N229BXI/column/FreeSurfaceEffect> a dsv:Column ;
+    rdfs:label " Free Surface Effect" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/Geophysics0N229BXI/column/GeologicHazardAssessment> a dsv:Column ;
+    rdfs:label " Geologic Hazard Assessment" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/Geophysics0N229BXI/column/LayeredEarthModeling> a dsv:Column ;
+    rdfs:label " Layered Earth Modeling" ;
+    dcterms:type "manufacturer" .
+
+<http://metaUnionSearch/datasets/Geophysics0N229BXI/column/MagnetometerSurvey> a dsv:Column ;
+    rdfs:label " Magnetometer Survey" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/Geophysics0N229BXI/column/PandSwaveVelocities> a dsv:Column ;
+    rdfs:label " P and S wave Velocities" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Geophysics0N229BXI/column/Phase> a dsv:Column ;
+    rdfs:label " Phase" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Geophysics0N229BXI/column/RefractionMethod> a dsv:Column ;
+    rdfs:label "Refraction Method" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/Geophysics0N229BXI/column/StrainAnalysis> a dsv:Column ;
+    rdfs:label " Strain Analysis" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Geophysics0N229BXI/column/StressEstimation> a dsv:Column ;
+    rdfs:label " Stress Estimation" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/Geophysics0N229BXI/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Geophysics0N229BXI/column/Amplitude>,
+        <http://metaUnionSearch/datasets/Geophysics0N229BXI/column/AnisotropyMeasurements>,
+        <http://metaUnionSearch/datasets/Geophysics0N229BXI/column/ElectromagneticInductionProfiling>,
+        <http://metaUnionSearch/datasets/Geophysics0N229BXI/column/FreeSurfaceEffect>,
+        <http://metaUnionSearch/datasets/Geophysics0N229BXI/column/GeologicHazardAssessment>,
+        <http://metaUnionSearch/datasets/Geophysics0N229BXI/column/LayeredEarthModeling>,
+        <http://metaUnionSearch/datasets/Geophysics0N229BXI/column/MagnetometerSurvey>,
+        <http://metaUnionSearch/datasets/Geophysics0N229BXI/column/PandSwaveVelocities>,
+        <http://metaUnionSearch/datasets/Geophysics0N229BXI/column/Phase>,
+        <http://metaUnionSearch/datasets/Geophysics0N229BXI/column/RefractionMethod>,
+        <http://metaUnionSearch/datasets/Geophysics0N229BXI/column/StrainAnalysis>,
+        <http://metaUnionSearch/datasets/Geophysics0N229BXI/column/StressEstimation> .
+

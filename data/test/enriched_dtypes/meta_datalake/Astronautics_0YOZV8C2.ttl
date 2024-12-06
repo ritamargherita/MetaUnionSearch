@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Astronautics0YOZV8C2> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_0YOZV8C2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Astronautics0YOZV8C2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/CollaborativeAgencies> a dsv:Column ;
+    rdfs:label " Collaborative Agencies" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/DeltaVelocityRequiredmsec> a dsv:Column ;
+    rdfs:label " Delta Velocity Required (m/sec)" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/EngineTypes> a dsv:Column ;
+    rdfs:label " Engine Types" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/FundingAgency> a dsv:Column ;
+    rdfs:label " Funding Agency" ;
+    dcterms:type "operator" .
+
+<http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/LaunchSite> a dsv:Column ;
+    rdfs:label " Launch Site" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/MassatLiftoffkg> a dsv:Column ;
+    rdfs:label " Mass at Lift-off (kg)" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/MaximumAltitudekm> a dsv:Column ;
+    rdfs:label " Maximum Altitude (km)" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/NumberofStages> a dsv:Column ;
+    rdfs:label " Number of Stages" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/PrimaryFlightPhase> a dsv:Column ;
+    rdfs:label " Primary Flight Phase" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/RocketType> a dsv:Column ;
+    rdfs:label "Rocket Type" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Astronautics0YOZV8C2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/CollaborativeAgencies>,
+        <http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/DeltaVelocityRequiredmsec>,
+        <http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/EngineTypes>,
+        <http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/FundingAgency>,
+        <http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/LaunchSite>,
+        <http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/MassatLiftoffkg>,
+        <http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/MaximumAltitudekm>,
+        <http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/NumberofStages>,
+        <http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/PrimaryFlightPhase>,
+        <http://metaUnionSearch/datasets/Astronautics0YOZV8C2/column/RocketType> .
+

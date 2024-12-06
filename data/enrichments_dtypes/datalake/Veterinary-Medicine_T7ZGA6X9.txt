@@ -1,0 +1,6 @@
+type
+notes
+description
+category
+description
+artist

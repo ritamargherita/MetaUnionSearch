@@ -1,0 +1,11 @@
+name
+description
+species
+position
+category
+product
+capacity
+classification
+description
+capacity
+status

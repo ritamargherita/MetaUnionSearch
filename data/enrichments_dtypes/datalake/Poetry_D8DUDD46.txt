@@ -1,0 +1,11 @@
+director
+album
+description
+name
+notes
+type
+description
+result
+origin
+origin
+artist

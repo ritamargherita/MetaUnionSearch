@@ -1,0 +1,8 @@
+type
+product
+collection
+capacity
+artist
+artist
+album
+component

@@ -1,0 +1,11 @@
+description
+area
+day
+name
+ranking
+rank
+range
+range
+range
+capacity
+range

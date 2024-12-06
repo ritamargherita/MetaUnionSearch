@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MythologyQ1ZXOI65> a dsv:Dataset ;
+    dcterms:subject "mythology" ;
+    dcterms:title "Mythology_Q1ZXOI65.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MythologyQ1ZXOI65/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/AnimalsAssociations> a dsv:Column ;
+    rdfs:label "*Animals Associations*" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/Children> a dsv:Column ;
+    rdfs:label "Children" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/DivineToolsAttributes> a dsv:Column ;
+    rdfs:label "Divine Tools/Attributes" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/Domains> a dsv:Column ;
+    rdfs:label "Domains" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/FestivalsHolyDays> a dsv:Column ;
+    rdfs:label "Festivals / Holy Days" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/God> a dsv:Column ;
+    rdfs:label "God" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/GodlyResponsibilitiesPowers> a dsv:Column ;
+    rdfs:label "Godly Responsibilities & Powers" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/MoralTeachings> a dsv:Column ;
+    rdfs:label "Moral Teachings" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/MythmakingRole> a dsv:Column ;
+    rdfs:label "Mythmaking Role" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/RitualsSacrifices> a dsv:Column ;
+    rdfs:label "Rituals/Sacrifices" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/Spouseves> a dsv:Column ;
+    rdfs:label "Spouse(ves)" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/TabooActions> a dsv:Column ;
+    rdfs:label "Taboo Actions" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/Zombies> a dsv:Column ;
+    rdfs:label "#Zombies" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/MythologyQ1ZXOI65/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/AnimalsAssociations>,
+        <http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/Children>,
+        <http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/DivineToolsAttributes>,
+        <http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/Domains>,
+        <http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/FestivalsHolyDays>,
+        <http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/God>,
+        <http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/GodlyResponsibilitiesPowers>,
+        <http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/MoralTeachings>,
+        <http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/MythmakingRole>,
+        <http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/RitualsSacrifices>,
+        <http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/Spouseves>,
+        <http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/TabooActions>,
+        <http://metaUnionSearch/datasets/MythologyQ1ZXOI65/column/Zombies> .
+

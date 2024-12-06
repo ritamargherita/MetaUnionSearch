@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_KBT9H9FM.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/AstronautOnBoard> a dsv:Column ;
+    rdfs:label " Astronaut On Board" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/CollaboratingAgencies> a dsv:Column ;
+    rdfs:label " Collaborating Agencies" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/CrewCount> a dsv:Column ;
+    rdfs:label " Crew Count" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/Durationdays> a dsv:Column ;
+    rdfs:label " Duration (days)" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/FirstStageReturn> a dsv:Column ;
+    rdfs:label " First Stage Return?" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/FundingSource> a dsv:Column ;
+    rdfs:label " Funding Source" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/MissionName> a dsv:Column ;
+    rdfs:label "Mission Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/OrbitAchieved> a dsv:Column ;
+    rdfs:label " Orbit Achieved" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/PayloadsDeployed> a dsv:Column ;
+    rdfs:label " Payloads Deployed" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/PoliticalSignificance> a dsv:Column ;
+    rdfs:label " Political Significance" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/PrimaryObjective> a dsv:Column ;
+    rdfs:label " Primary Objective" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/Reusable> a dsv:Column ;
+    rdfs:label " Reusable?" ;
+    dcterms:type "director" .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/ScientificOutcomes> a dsv:Column ;
+    rdfs:label " Scientific Outcomes" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/SpacecraftUsed> a dsv:Column ;
+    rdfs:label " Spacecraft Used" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/StartDate> a dsv:Column ;
+    rdfs:label " Start Date" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/AstronautOnBoard>,
+        <http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/CollaboratingAgencies>,
+        <http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/CrewCount>,
+        <http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/Durationdays>,
+        <http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/FirstStageReturn>,
+        <http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/FundingSource>,
+        <http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/MissionName>,
+        <http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/OrbitAchieved>,
+        <http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/PayloadsDeployed>,
+        <http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/PoliticalSignificance>,
+        <http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/PrimaryObjective>,
+        <http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/Reusable>,
+        <http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/ScientificOutcomes>,
+        <http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/SpacecraftUsed>,
+        <http://metaUnionSearch/datasets/AstronauticsKBT9H9FM/column/StartDate> .
+

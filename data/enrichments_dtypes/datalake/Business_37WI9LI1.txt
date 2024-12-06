@@ -1,0 +1,12 @@
+company
+industry
+artist
+address
+description
+capacity
+location
+address
+product
+category
+product
+range

@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Language8U5TQ9DZ> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_8U5TQ9DZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Language8U5TQ9DZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/CulturalSignificance> a dsv:Column ;
+    rdfs:label " Cultural Significance" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/EducationalRole> a dsv:Column ;
+    rdfs:label " Educational Role" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/EndangeredStatus> a dsv:Column ;
+    rdfs:label " Endangered Status" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/GeographicalDistribution> a dsv:Column ;
+    rdfs:label " Geographical Distribution" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/HistoricalDevelopment> a dsv:Column ;
+    rdfs:label " Historical Development" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/LanguageContact> a dsv:Column ;
+    rdfs:label " Language Contact" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/LinguisticArea> a dsv:Column ;
+    rdfs:label "Linguistic Area" ;
+    dcterms:type "family" .
+
+<http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/LinguisticTheories> a dsv:Column ;
+    rdfs:label " Linguistic Theories" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/LiteraryTradition> a dsv:Column ;
+    rdfs:label " Literary Tradition" ;
+    dcterms:type "collection" .
+
+<http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/PoliticoeconomicImpact> a dsv:Column ;
+    rdfs:label " Politico–economic Impact" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/ReligiousFunction> a dsv:Column ;
+    rdfs:label " Religious Function" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/SpeechCommunityProperties> a dsv:Column ;
+    rdfs:label " Speech Community Properties" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/TypologicalFeatures> a dsv:Column ;
+    rdfs:label " *Typological Features" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/Language8U5TQ9DZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/CulturalSignificance>,
+        <http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/EducationalRole>,
+        <http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/EndangeredStatus>,
+        <http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/GeographicalDistribution>,
+        <http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/HistoricalDevelopment>,
+        <http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/LanguageContact>,
+        <http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/LinguisticArea>,
+        <http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/LinguisticTheories>,
+        <http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/LiteraryTradition>,
+        <http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/PoliticoeconomicImpact>,
+        <http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/ReligiousFunction>,
+        <http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/SpeechCommunityProperties>,
+        <http://metaUnionSearch/datasets/Language8U5TQ9DZ/column/TypologicalFeatures> .
+

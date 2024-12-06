@@ -1,0 +1,14 @@
+company
+description
+person
+name
+location
+person
+description
+type
+status
+description
+position
+position
+name
+description

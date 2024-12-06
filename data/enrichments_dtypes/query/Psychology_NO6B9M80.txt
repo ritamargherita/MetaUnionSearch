@@ -1,0 +1,15 @@
+duration
+address
+gender
+age
+education
+position
+capacity
+status
+education
+country
+person
+class
+area
+area
+person

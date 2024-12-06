@@ -1,0 +1,10 @@
+album
+day
+name
+weight
+duration
+rank
+position
+sales
+description
+description

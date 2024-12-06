@@ -1,0 +1,14 @@
+name
+name
+description
+duration
+name
+album
+capacity
+weight
+address
+rank
+rank
+plays
+status
+description

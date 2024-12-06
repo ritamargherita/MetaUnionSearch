@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ReligionDKYAYQ3S> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_DKYAYQ3S.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ReligionDKYAYQ3S/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/AdherentsViewpointstowardsScienceTechnology> a dsv:Column ;
+    rdfs:label " Adherents' Viewpoints towards Science & Technology" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/ArtArchitectureassociatedwithreligion> a dsv:Column ;
+    rdfs:label " Art & Architecture associated with religion" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/ConversionEvangelismApproach> a dsv:Column ;
+    rdfs:label " Conversion & Evangelism Approach" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/CulturalImpactwithinsociety> a dsv:Column ;
+    rdfs:label " Cultural Impact within society" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/DemographicBreakdownagegroupgender> a dsv:Column ;
+    rdfs:label " Demographic Breakdown (age group / gender)" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/EducationMorality> a dsv:Column ;
+    rdfs:label " Education & Morality" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/FamousLiteraryWorks> a dsv:Column ;
+    rdfs:label " Famous Literary Works" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/FoodDietaryRestrictions> a dsv:Column ;
+    rdfs:label " Food & Dietary Restrictions" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/GeographicalDistributionbyCountryregion> a dsv:Column ;
+    rdfs:label " Geographical Distribution by Country/region" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/HistoricalDevelopmentTimeline> a dsv:Column ;
+    rdfs:label "Historical Development Timeline" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/MusicDance> a dsv:Column ;
+    rdfs:label " Music & Dance" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/ProminentFiguresnotincludingfoundersorprophets> a dsv:Column ;
+    rdfs:label " Prominent Figures (not including founders or prophets)" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/RitualsPracticesandCeremoniesnotcoveredunderreligiouscelebrations> a dsv:Column ;
+    rdfs:label " Rituals, Practices, and Ceremonies not covered under 'religious celebrations'" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ReligionDKYAYQ3S/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/AdherentsViewpointstowardsScienceTechnology>,
+        <http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/ArtArchitectureassociatedwithreligion>,
+        <http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/ConversionEvangelismApproach>,
+        <http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/CulturalImpactwithinsociety>,
+        <http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/DemographicBreakdownagegroupgender>,
+        <http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/EducationMorality>,
+        <http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/FamousLiteraryWorks>,
+        <http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/FoodDietaryRestrictions>,
+        <http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/GeographicalDistributionbyCountryregion>,
+        <http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/HistoricalDevelopmentTimeline>,
+        <http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/MusicDance>,
+        <http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/ProminentFiguresnotincludingfoundersorprophets>,
+        <http://metaUnionSearch/datasets/ReligionDKYAYQ3S/column/RitualsPracticesandCeremoniesnotcoveredunderreligiouscelebrations> .
+

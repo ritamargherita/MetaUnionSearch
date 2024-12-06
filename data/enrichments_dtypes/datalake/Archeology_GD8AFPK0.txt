@@ -1,0 +1,13 @@
+duration
+name
+status
+rank
+address
+duration
+description
+product
+description
+description
+notes
+status
+publisher

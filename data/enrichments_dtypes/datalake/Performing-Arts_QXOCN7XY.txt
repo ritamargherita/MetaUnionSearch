@@ -1,0 +1,12 @@
+album
+name
+album
+name
+name
+artist
+region
+education
+area
+album
+artist
+artist

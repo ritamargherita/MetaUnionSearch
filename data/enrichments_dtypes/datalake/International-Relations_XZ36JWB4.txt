@@ -1,0 +1,14 @@
+affiliation
+organisation
+region
+position
+description
+education
+organisation
+description
+category
+description
+notes
+notes
+notes
+album

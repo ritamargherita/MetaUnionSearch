@@ -1,0 +1,15 @@
+description
+age
+year
+duration
+species
+description
+description
+industry
+description
+description
+name
+sales
+description
+description
+capacity

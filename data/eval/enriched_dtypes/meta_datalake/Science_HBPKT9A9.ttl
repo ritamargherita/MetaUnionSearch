@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_HBPKT9A9.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ScienceHBPKT9A9/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/AdditionalObservations> a dsv:Column ;
+    rdfs:label "Additional Observations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Analysis> a dsv:Column ;
+    rdfs:label "Analysis" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/ConceptName> a dsv:Column ;
+    rdfs:label "Concept Name" ;
+    dcterms:type "team" .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Conclusion> a dsv:Column ;
+    rdfs:label "Conclusion" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Control> a dsv:Column ;
+    rdfs:label "Control" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Data> a dsv:Column ;
+    rdfs:label "Data" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Description> a dsv:Column ;
+    rdfs:label "Description" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/FundingSource> a dsv:Column ;
+    rdfs:label "Funding Source" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Hypothesis> a dsv:Column ;
+    rdfs:label "Hypothesis" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Limitations> a dsv:Column ;
+    rdfs:label "Limitations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Recommendations> a dsv:Column ;
+    rdfs:label "Recommendations**" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/ResearchMethod> a dsv:Column ;
+    rdfs:label "Research Method" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/ScientificDiscipline> a dsv:Column ;
+    rdfs:label "Scientific Discipline" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Test> a dsv:Column ;
+    rdfs:label "Test" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Variables> a dsv:Column ;
+    rdfs:label "Variables" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceHBPKT9A9/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/AdditionalObservations>,
+        <http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Analysis>,
+        <http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/ConceptName>,
+        <http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Conclusion>,
+        <http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Control>,
+        <http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Data>,
+        <http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Description>,
+        <http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/FundingSource>,
+        <http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Hypothesis>,
+        <http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Limitations>,
+        <http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Recommendations>,
+        <http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/ResearchMethod>,
+        <http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/ScientificDiscipline>,
+        <http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Test>,
+        <http://metaUnionSearch/datasets/ScienceHBPKT9A9/column/Variables> .
+

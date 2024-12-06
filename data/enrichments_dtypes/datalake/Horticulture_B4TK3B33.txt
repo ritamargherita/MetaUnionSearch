@@ -1,0 +1,12 @@
+type
+description
+depth
+name
+species
+address
+weight
+address
+product
+product
+age
+status

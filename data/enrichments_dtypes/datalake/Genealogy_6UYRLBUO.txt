@@ -1,0 +1,13 @@
+year
+state
+county
+location
+sales
+sales
+rank
+sales
+sales
+sales
+sales
+capacity
+rank

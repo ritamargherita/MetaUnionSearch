@@ -1,0 +1,15 @@
+area
+team
+description
+description
+description
+description
+description
+name
+publisher
+result
+description
+description
+type
+description
+format

@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ> a dsv:Dataset ;
+    dcterms:subject "climatology" ;
+    dcterms:title "Climatology_JGC3WJIQ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/AverageCloudCover> a dsv:Column ;
+    rdfs:label "Average Cloud Cover (%)" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/AverageTemperatureAnomalyC> a dsv:Column ;
+    rdfs:label "Average Temperature Anomaly (°C)" ;
+    dcterms:type "elevation" .
+
+<http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/ClimatePatternType> a dsv:Column ;
+    rdfs:label "Climate Pattern Type" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/DroughtPeriodCount> a dsv:Column ;
+    rdfs:label "Drought Period Count" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/ExtremeRainfallEventsCount> a dsv:Column ;
+    rdfs:label "Extreme Rainfall Events Count" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/HailstormOccurrencesCount> a dsv:Column ;
+    rdfs:label "Hailstorm Occurrences Count" ;
+    dcterms:type "director" .
+
+<http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/HeatwaveDurationsCount> a dsv:Column ;
+    rdfs:label "Heatwave Durations Count" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/MaximumTemperatureAnomaliesC> a dsv:Column ;
+    rdfs:label "Maximum Temperature Anomalies (°C)" ;
+    dcterms:type "elevation" .
+
+<http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/MinimumTemperatureAnomaliesC> a dsv:Column ;
+    rdfs:label "Minimum Temperature Anomalies (°C)" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/StormSurgeHeightscm> a dsv:Column ;
+    rdfs:label "Storm Surge Heights (cm)" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/TornadoIncidentsCount> a dsv:Column ;
+    rdfs:label "Tornado Incidents Count" ;
+    dcterms:type "director" .
+
+<http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/TotalSunshineHourshrmin> a dsv:Column ;
+    rdfs:label "Total Sunshine Hours (hr_min)" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/TropicalCycloneFrequency> a dsv:Column ;
+    rdfs:label "Tropical Cyclone Frequency" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/AverageCloudCover>,
+        <http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/AverageTemperatureAnomalyC>,
+        <http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/ClimatePatternType>,
+        <http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/DroughtPeriodCount>,
+        <http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/ExtremeRainfallEventsCount>,
+        <http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/HailstormOccurrencesCount>,
+        <http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/HeatwaveDurationsCount>,
+        <http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/MaximumTemperatureAnomaliesC>,
+        <http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/MinimumTemperatureAnomaliesC>,
+        <http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/StormSurgeHeightscm>,
+        <http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/TornadoIncidentsCount>,
+        <http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/TotalSunshineHourshrmin>,
+        <http://metaUnionSearch/datasets/ClimatologyJGC3WJIQ/column/TropicalCycloneFrequency> .
+

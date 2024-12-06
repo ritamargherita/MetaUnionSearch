@@ -1,0 +1,15 @@
+education
+product
+component
+name
+product
+artist
+address
+city
+name
+category
+status
+company
+address
+duration
+address

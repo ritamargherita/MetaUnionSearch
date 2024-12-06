@@ -1,0 +1,14 @@
+album
+year
+publisher
+genre
+name
+genre
+album
+name
+artist
+language
+area
+artist
+artist
+artist

@@ -1,0 +1,15 @@
+description
+range
+description
+description
+code
+description
+description
+symbol
+notes
+person
+code
+description
+notes
+operator
+description

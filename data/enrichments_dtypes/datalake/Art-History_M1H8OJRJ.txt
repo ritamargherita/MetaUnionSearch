@@ -1,0 +1,11 @@
+album
+artist
+year
+description
+position
+location
+origin
+description
+notes
+description
+notes

@@ -1,0 +1,12 @@
+description
+component
+class
+name
+rank
+description
+description
+category
+description
+component
+artist
+album

@@ -1,0 +1,15 @@
+artist
+artist
+artist
+artist
+description
+artist
+sales
+name
+company
+album
+requirement
+ranking
+genre
+age
+notes

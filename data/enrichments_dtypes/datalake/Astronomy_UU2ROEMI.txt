@@ -1,0 +1,13 @@
+name
+description
+weight
+status
+capacity
+age
+status
+description
+position
+status
+order
+notes
+range

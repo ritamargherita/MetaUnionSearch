@@ -1,0 +1,10 @@
+category
+weight
+position
+category
+credit
+description
+name
+description
+notes
+class

@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_9MX9SEY6.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Business9MX9SEY6/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6/column/CompanyName> a dsv:Column ;
+    rdfs:label " Company Name" ;
+    dcterms:type "industry" .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6/column/CreditorDays> a dsv:Column ;
+    rdfs:label " Creditor Days" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6/column/DebtorDays> a dsv:Column ;
+    rdfs:label " Debtor Days" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6/column/EmployeeHeadcount> a dsv:Column ;
+    rdfs:label " Employee Headcount" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6/column/EnterpriseValuetoEBITDARatio> a dsv:Column ;
+    rdfs:label " Enterprise Value to EBITDA Ratio %" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6/column/IndustryCategoryexpandedegNAICS> a dsv:Column ;
+    rdfs:label " Industry Category - expanded (e.g., NAICS)" ;
+    dcterms:type "industry" .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6/column/InventoryTurnoverratio> a dsv:Column ;
+    rdfs:label " Inventory Turnover ratio %" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6/column/MarketCapitalization> a dsv:Column ;
+    rdfs:label " Market Capitalization" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6/column/NetProfitMargin> a dsv:Column ;
+    rdfs:label " Net Profit Margin %" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6/column/OperatingCashFlow> a dsv:Column ;
+    rdfs:label " Operating Cash Flow %" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6/column/PPEPercentageToTotalAssets> a dsv:Column ;
+    rdfs:label " PPE Percentage To Total Assets" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6/column/PricetoSalesRatio> a dsv:Column ;
+    rdfs:label " Price to Sales Ratio %" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6/column/QuantitativeFinancialAnalysis> a dsv:Column ;
+    rdfs:label "Quantitative Financial Analysis" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6/column/RevenueGrowthRate> a dsv:Column ;
+    rdfs:label " Revenue Growth Rate" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6/column/TaxPaymentDeferralPeriod> a dsv:Column ;
+    rdfs:label " Tax Payment Deferral Period %" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Business9MX9SEY6/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Business9MX9SEY6/column/CompanyName>,
+        <http://metaUnionSearch/datasets/Business9MX9SEY6/column/CreditorDays>,
+        <http://metaUnionSearch/datasets/Business9MX9SEY6/column/DebtorDays>,
+        <http://metaUnionSearch/datasets/Business9MX9SEY6/column/EmployeeHeadcount>,
+        <http://metaUnionSearch/datasets/Business9MX9SEY6/column/EnterpriseValuetoEBITDARatio>,
+        <http://metaUnionSearch/datasets/Business9MX9SEY6/column/IndustryCategoryexpandedegNAICS>,
+        <http://metaUnionSearch/datasets/Business9MX9SEY6/column/InventoryTurnoverratio>,
+        <http://metaUnionSearch/datasets/Business9MX9SEY6/column/MarketCapitalization>,
+        <http://metaUnionSearch/datasets/Business9MX9SEY6/column/NetProfitMargin>,
+        <http://metaUnionSearch/datasets/Business9MX9SEY6/column/OperatingCashFlow>,
+        <http://metaUnionSearch/datasets/Business9MX9SEY6/column/PPEPercentageToTotalAssets>,
+        <http://metaUnionSearch/datasets/Business9MX9SEY6/column/PricetoSalesRatio>,
+        <http://metaUnionSearch/datasets/Business9MX9SEY6/column/QuantitativeFinancialAnalysis>,
+        <http://metaUnionSearch/datasets/Business9MX9SEY6/column/RevenueGrowthRate>,
+        <http://metaUnionSearch/datasets/Business9MX9SEY6/column/TaxPaymentDeferralPeriod> .
+

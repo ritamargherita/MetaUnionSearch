@@ -1,0 +1,12 @@
+rank
+address
+location
+description
+area
+age
+product
+artist
+company
+area
+area
+artist

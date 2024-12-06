@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldHistoryMQC1A78M> a dsv:Dataset ;
+    dcterms:subject "world-history" ;
+    dcterms:title "World-History_MQC1A78M.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/Archaeology> a dsv:Column ;
+    rdfs:label " Archaeology" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/ArtArchitecture> a dsv:Column ;
+    rdfs:label " Art & Architecture" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/CulturalPractices> a dsv:Column ;
+    rdfs:label " Cultural Practices" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/EconomicSystems> a dsv:Column ;
+    rdfs:label " Economic Systems" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/GeographicalImpact> a dsv:Column ;
+    rdfs:label " Geographical Impact" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/KeyFigures> a dsv:Column ;
+    rdfs:label " Key Figures" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/Literature> a dsv:Column ;
+    rdfs:label " Literature" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/Periodization> a dsv:Column ;
+    rdfs:label "Periodization" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/PhilosophicalThought> a dsv:Column ;
+    rdfs:label " Philosophical Thought" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/PoliticalStructures> a dsv:Column ;
+    rdfs:label " Political Structures" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/ReligiousBeliefs> a dsv:Column ;
+    rdfs:label " Religious Beliefs" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/ScientificAdvancements> a dsv:Column ;
+    rdfs:label " Scientific Advancements" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/SocialHierarchies> a dsv:Column ;
+    rdfs:label " Social Hierarchies" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/TechnologicalInnovations> a dsv:Column ;
+    rdfs:label " Technological Innovations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/Archaeology>,
+        <http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/ArtArchitecture>,
+        <http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/CulturalPractices>,
+        <http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/EconomicSystems>,
+        <http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/GeographicalImpact>,
+        <http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/KeyFigures>,
+        <http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/Literature>,
+        <http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/Periodization>,
+        <http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/PhilosophicalThought>,
+        <http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/PoliticalStructures>,
+        <http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/ReligiousBeliefs>,
+        <http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/ScientificAdvancements>,
+        <http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/SocialHierarchies>,
+        <http://metaUnionSearch/datasets/WorldHistoryMQC1A78M/column/TechnologicalInnovations> .
+

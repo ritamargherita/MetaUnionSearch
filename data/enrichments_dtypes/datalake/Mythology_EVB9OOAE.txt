@@ -1,0 +1,14 @@
+origin
+album
+component
+result
+product
+location
+description
+origin
+genre
+product
+album
+result
+name
+religion

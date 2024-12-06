@@ -1,0 +1,10 @@
+address
+description
+status
+artist
+education
+country
+range
+origin
+origin
+year

@@ -1,0 +1,12 @@
+rank
+location
+capacity
+credit
+address
+result
+genre
+description
+description
+description
+description
+description

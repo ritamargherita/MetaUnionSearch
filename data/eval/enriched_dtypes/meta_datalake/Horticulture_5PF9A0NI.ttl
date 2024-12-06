@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Horticulture5PF9A0NI> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_5PF9A0NI.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Horticulture5PF9A0NI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/AdditionalNotes> a dsv:Column ;
+    rdfs:label "AdditionalNotes" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/BotanicalName> a dsv:Column ;
+    rdfs:label "BotanicalName" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/CensusID> a dsv:Column ;
+    rdfs:label "CensusID" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/Cultivar> a dsv:Column ;
+    rdfs:label "Cultivar" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/LeAFArRANGEmeNT> a dsv:Column ;
+    rdfs:label "LeAFArRANGEmeNT" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/NativeOrIntroduced> a dsv:Column ;
+    rdfs:label "NativeOrIntroduced" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/OptimalSunlight> a dsv:Column ;
+    rdfs:label "OptimalSunlight" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/PRoPErCoUlsCOde> a dsv:Column ;
+    rdfs:label "PRoPErCoUlsCOde" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/ScientificClassification> a dsv:Column ;
+    rdfs:label "ScientificClassification" ;
+    dcterms:type "family" .
+
+<http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/SoilTyPe> a dsv:Column ;
+    rdfs:label "SoilTyPe" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/SuGaRSPrUNInGGTeChniQUE> a dsv:Column ;
+    rdfs:label "SuGaRSPrUNInGGTeChniQUE" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/WateRIngNeEd> a dsv:Column ;
+    rdfs:label "WateRIngNeEd" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/pHarDiNeSS> a dsv:Column ;
+    rdfs:label "pHarDiNeSS" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/Horticulture5PF9A0NI/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/AdditionalNotes>,
+        <http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/BotanicalName>,
+        <http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/CensusID>,
+        <http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/Cultivar>,
+        <http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/LeAFArRANGEmeNT>,
+        <http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/NativeOrIntroduced>,
+        <http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/OptimalSunlight>,
+        <http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/PRoPErCoUlsCOde>,
+        <http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/ScientificClassification>,
+        <http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/SoilTyPe>,
+        <http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/SuGaRSPrUNInGGTeChniQUE>,
+        <http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/WateRIngNeEd>,
+        <http://metaUnionSearch/datasets/Horticulture5PF9A0NI/column/pHarDiNeSS> .
+

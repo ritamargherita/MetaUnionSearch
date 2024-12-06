@@ -1,0 +1,12 @@
+name
+category
+description
+category
+name
+genre
+genre
+name
+category
+type
+industry
+name

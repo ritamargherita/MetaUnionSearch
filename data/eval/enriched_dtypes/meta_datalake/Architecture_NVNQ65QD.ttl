@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_NVNQ65QD.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/AdditionalDetails> a dsv:Column ;
+    rdfs:label " \"Additional Details\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/Architect> a dsv:Column ;
+    rdfs:label " \"Architect\"" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/ArchitecturalStyle> a dsv:Column ;
+    rdfs:label " \"Architectural Style\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/BuildingType> a dsv:Column ;
+    rdfs:label "\"Building Type\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/ConstructionMethod> a dsv:Column ;
+    rdfs:label " \"Construction Method\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/HistoricalSignificance> a dsv:Column ;
+    rdfs:label " \"Historical Significance\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/Location> a dsv:Column ;
+    rdfs:label " \"Location\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/MaterialModel> a dsv:Column ;
+    rdfs:label " \"Material Model\"" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/Period> a dsv:Column ;
+    rdfs:label " \"Period\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/Size> a dsv:Column ;
+    rdfs:label " \"Size\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/SpatiallyOrganizedElements> a dsv:Column ;
+    rdfs:label " \"Spatially Organized Elements\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/SpecialArchitectureElements> a dsv:Column ;
+    rdfs:label " \"Special Architecture Elements\"" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/Surroundings> a dsv:Column ;
+    rdfs:label " \"Surroundings\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/SustainabilityRating> a dsv:Column ;
+    rdfs:label " \"Sustainability Rating\"" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/YearBuilt> a dsv:Column ;
+    rdfs:label " \"Year Built\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/AdditionalDetails>,
+        <http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/Architect>,
+        <http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/ArchitecturalStyle>,
+        <http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/BuildingType>,
+        <http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/ConstructionMethod>,
+        <http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/HistoricalSignificance>,
+        <http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/Location>,
+        <http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/MaterialModel>,
+        <http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/Period>,
+        <http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/Size>,
+        <http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/SpatiallyOrganizedElements>,
+        <http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/SpecialArchitectureElements>,
+        <http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/Surroundings>,
+        <http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/SustainabilityRating>,
+        <http://metaUnionSearch/datasets/ArchitectureNVNQ65QD/column/YearBuilt> .
+

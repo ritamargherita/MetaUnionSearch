@@ -1,0 +1,15 @@
+address
+company
+industry
+sales
+description
+sales
+description
+sales
+address
+address
+address
+address
+address
+sales
+artist

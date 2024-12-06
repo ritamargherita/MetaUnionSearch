@@ -1,0 +1,13 @@
+family
+name
+position
+notes
+address
+address
+address
+capacity
+album
+classification
+age
+address
+position

@@ -1,0 +1,12 @@
+affiliation
+description
+name
+description
+position
+description
+organisation
+classification
+organisation
+category
+album
+artist

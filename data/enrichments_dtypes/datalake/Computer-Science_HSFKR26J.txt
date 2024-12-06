@@ -1,0 +1,10 @@
+component
+area
+description
+description
+product
+description
+component
+component
+name
+area

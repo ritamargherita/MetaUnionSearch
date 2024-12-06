@@ -1,0 +1,12 @@
+depth
+birth Date
+elevation
+name
+description
+component
+status
+description
+album
+album
+ranking
+weight

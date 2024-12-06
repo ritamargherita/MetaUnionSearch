@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GenealogyK15UL9WO> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_K15UL9WO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GenealogyK15UL9WO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/AncestralHomeCountry> a dsv:Column ;
+    rdfs:label " AncestralHomeCountry" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/CensusYear> a dsv:Column ;
+    rdfs:label "CensusYear" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/CriminalRecord> a dsv:Column ;
+    rdfs:label " CriminalRecord" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/EducationLevel> a dsv:Column ;
+    rdfs:label " EducationLevel" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/ImmigrationYear> a dsv:Column ;
+    rdfs:label " ImmigrationYear" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/MatriarchyPaternalSide> a dsv:Column ;
+    rdfs:label " MatriarchyPaternalSide" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/NaturalizationDocNumber> a dsv:Column ;
+    rdfs:label " NaturalizationDocNumber" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/NumberOfChildren> a dsv:Column ;
+    rdfs:label " NumberOfChildren" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/OccupationHistory> a dsv:Column ;
+    rdfs:label " OccupationHistory" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/Patrilineage> a dsv:Column ;
+    rdfs:label " Patrilineage" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/PeriodofMilitaryServiceEnddate> a dsv:Column ;
+    rdfs:label " PeriodofMilitaryService\\_Enddate" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/PeriodofMilitaryServiceStartdate> a dsv:Column ;
+    rdfs:label " PeriodofMilitaryService\\_Startdate" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/ReligiousAffiliation> a dsv:Column ;
+    rdfs:label " ReligiousAffiliation" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/GenealogyK15UL9WO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/AncestralHomeCountry>,
+        <http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/CensusYear>,
+        <http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/CriminalRecord>,
+        <http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/EducationLevel>,
+        <http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/ImmigrationYear>,
+        <http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/MatriarchyPaternalSide>,
+        <http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/NaturalizationDocNumber>,
+        <http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/NumberOfChildren>,
+        <http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/OccupationHistory>,
+        <http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/Patrilineage>,
+        <http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/PeriodofMilitaryServiceEnddate>,
+        <http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/PeriodofMilitaryServiceStartdate>,
+        <http://metaUnionSearch/datasets/GenealogyK15UL9WO/column/ReligiousAffiliation> .
+

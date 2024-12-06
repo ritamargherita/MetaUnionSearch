@@ -1,0 +1,13 @@
+location
+description
+description
+operator
+notes
+description
+capacity
+description
+description
+area
+description
+description
+artist

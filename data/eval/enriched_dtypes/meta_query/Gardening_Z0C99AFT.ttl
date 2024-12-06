@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GardeningZ0C99AFT> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_Z0C99AFT.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GardeningZ0C99AFT/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/CommonName> a dsv:Column ;
+    rdfs:label " CommonName" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/GrowthHabit> a dsv:Column ;
+    rdfs:label " GrowthHabit" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/HardinessZone> a dsv:Column ;
+    rdfs:label " HardinessZone" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/LightRequirement> a dsv:Column ;
+    rdfs:label " LightRequirement" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/PestsAndDiseases> a dsv:Column ;
+    rdfs:label " PestsAndDiseases" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/PlantedOn> a dsv:Column ;
+    rdfs:label " PlantedOn" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/PruningInstructions> a dsv:Column ;
+    rdfs:label " PruningInstructions" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/ScientificName> a dsv:Column ;
+    rdfs:label " ScientificName" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/SoilPh> a dsv:Column ;
+    rdfs:label " SoilPh" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/SunExposure> a dsv:Column ;
+    rdfs:label " SunExposure" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/TypeOfPlant> a dsv:Column ;
+    rdfs:label "TypeOfPlant" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/WateringFrequency> a dsv:Column ;
+    rdfs:label " WateringFrequency" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/YieldPerPlant> a dsv:Column ;
+    rdfs:label " YieldPerPlant" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/GardeningZ0C99AFT/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/CommonName>,
+        <http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/GrowthHabit>,
+        <http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/HardinessZone>,
+        <http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/LightRequirement>,
+        <http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/PestsAndDiseases>,
+        <http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/PlantedOn>,
+        <http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/PruningInstructions>,
+        <http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/ScientificName>,
+        <http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/SoilPh>,
+        <http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/SunExposure>,
+        <http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/TypeOfPlant>,
+        <http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/WateringFrequency>,
+        <http://metaUnionSearch/datasets/GardeningZ0C99AFT/column/YieldPerPlant> .
+

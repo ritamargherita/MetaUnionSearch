@@ -1,0 +1,13 @@
+symbol
+name
+name
+religion
+name
+name
+album
+name
+person
+artist
+description
+description
+album

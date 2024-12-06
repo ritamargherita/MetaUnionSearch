@@ -1,0 +1,13 @@
+genre
+birth Date
+address
+location
+genre
+album
+capacity
+artist
+ranking
+address
+year
+status
+artist

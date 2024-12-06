@@ -1,0 +1,12 @@
+region
+origin
+person
+album
+religion
+description
+origin
+notes
+description
+description
+description
+artist

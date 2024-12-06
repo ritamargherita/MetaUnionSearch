@@ -1,0 +1,12 @@
+category
+address
+description
+address
+sales
+capacity
+duration
+capacity
+address
+rank
+position
+origin

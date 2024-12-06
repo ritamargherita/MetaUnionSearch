@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeneticsWDZRMH3F> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_WDZRMH3F.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeneticsWDZRMH3F/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/AverageDominancyRatio> a dsv:Column ;
+    rdfs:label " Average Dominancy Ratio" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/ChromosomeArm> a dsv:Column ;
+    rdfs:label " Chromosome Arm" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/GenesAffected> a dsv:Column ;
+    rdfs:label "Genes Affected" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/GeneticVariation> a dsv:Column ;
+    rdfs:label " Genetic Variation" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/LinkedMarkers> a dsv:Column ;
+    rdfs:label " Linked Markers" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/PopulationFrequency> a dsv:Column ;
+    rdfs:label " Population Frequency" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/TestMethod> a dsv:Column ;
+    rdfs:label " Test Method" ;
+    dcterms:type "code" .
+
+<http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/VariationDescription> a dsv:Column ;
+    rdfs:label " Variation Description" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/VariationExpression> a dsv:Column ;
+    rdfs:label " Variation Expression" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/VariationInheritancePattern> a dsv:Column ;
+    rdfs:label " Variation Inheritance Pattern" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/VariationPrevalence> a dsv:Column ;
+    rdfs:label " Variation Prevalence" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/VariationSymptoms> a dsv:Column ;
+    rdfs:label " Variation Symptoms" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsWDZRMH3F/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/AverageDominancyRatio>,
+        <http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/ChromosomeArm>,
+        <http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/GenesAffected>,
+        <http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/GeneticVariation>,
+        <http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/LinkedMarkers>,
+        <http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/PopulationFrequency>,
+        <http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/TestMethod>,
+        <http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/VariationDescription>,
+        <http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/VariationExpression>,
+        <http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/VariationInheritancePattern>,
+        <http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/VariationPrevalence>,
+        <http://metaUnionSearch/datasets/GeneticsWDZRMH3F/column/VariationSymptoms> .
+

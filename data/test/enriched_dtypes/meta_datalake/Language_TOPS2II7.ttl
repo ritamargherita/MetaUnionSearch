@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LanguageTOPS2II7> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_TOPS2II7.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LanguageTOPS2II7/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LanguageTOPS2II7/column/AgeStandardDeviationForAcquisition> a dsv:Column ;
+    rdfs:label " Age Standard Deviation For Acquisition" ;
+    dcterms:type "ranking" .
+
+<http://metaUnionSearch/datasets/LanguageTOPS2II7/column/GeographicLatitudeRange> a dsv:Column ;
+    rdfs:label " Geographic Latitude Range" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/LanguageTOPS2II7/column/GeographicalDistributionContinent> a dsv:Column ;
+    rdfs:label " Geographical Distribution Continent" ;
+    dcterms:type "continent" .
+
+<http://metaUnionSearch/datasets/LanguageTOPS2II7/column/LanguageComplexityScore> a dsv:Column ;
+    rdfs:label " Language Complexity Score" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/LanguageTOPS2II7/column/LinguisticArea> a dsv:Column ;
+    rdfs:label "Linguistic Area" ;
+    dcterms:type "family" .
+
+<http://metaUnionSearch/datasets/LanguageTOPS2II7/column/LiteracyRate> a dsv:Column ;
+    rdfs:label " Literacy Rate" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/LanguageTOPS2II7/column/NumberOfDialects> a dsv:Column ;
+    rdfs:label " Number Of Dialects" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/LanguageTOPS2II7/column/TypologicalClassification> a dsv:Column ;
+    rdfs:label " Typological Classification" ;
+    dcterms:type "family" .
+
+<http://metaUnionSearch/datasets/LanguageTOPS2II7/column/WordCount> a dsv:Column ;
+    rdfs:label " Word Count" ;
+    dcterms:type "code" .
+
+<http://metaUnionSearch/datasets/LanguageTOPS2II7/column/languageiso6395code> a dsv:Column ;
+    rdfs:label " language\\_iso639\\_5 code" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/LanguageTOPS2II7/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LanguageTOPS2II7/column/AgeStandardDeviationForAcquisition>,
+        <http://metaUnionSearch/datasets/LanguageTOPS2II7/column/GeographicLatitudeRange>,
+        <http://metaUnionSearch/datasets/LanguageTOPS2II7/column/GeographicalDistributionContinent>,
+        <http://metaUnionSearch/datasets/LanguageTOPS2II7/column/LanguageComplexityScore>,
+        <http://metaUnionSearch/datasets/LanguageTOPS2II7/column/LinguisticArea>,
+        <http://metaUnionSearch/datasets/LanguageTOPS2II7/column/LiteracyRate>,
+        <http://metaUnionSearch/datasets/LanguageTOPS2II7/column/NumberOfDialects>,
+        <http://metaUnionSearch/datasets/LanguageTOPS2II7/column/TypologicalClassification>,
+        <http://metaUnionSearch/datasets/LanguageTOPS2II7/column/WordCount>,
+        <http://metaUnionSearch/datasets/LanguageTOPS2II7/column/languageiso6395code> .
+

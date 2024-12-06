@@ -1,0 +1,13 @@
+classification
+year
+product
+name
+affiliation
+description
+person
+description
+description
+status
+description
+description
+description

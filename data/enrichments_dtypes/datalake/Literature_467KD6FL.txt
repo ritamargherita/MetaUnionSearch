@@ -1,0 +1,15 @@
+credit
+year
+publisher
+class
+position
+owner
+isbn
+notes
+category
+plays
+album
+album
+category
+album
+format

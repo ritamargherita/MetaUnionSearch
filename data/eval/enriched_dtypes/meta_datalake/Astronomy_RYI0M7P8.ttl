@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronomyRYI0M7P8> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_RYI0M7P8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronomyRYI0M7P8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/ApparentSize> a dsv:Column ;
+    rdfs:label " Apparent Size" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/AssociatedSupernovaRemnants> a dsv:Column ;
+    rdfs:label " Associated Supernova Remnants" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/AverageNebulaAge> a dsv:Column ;
+    rdfs:label " Average Nebula Age" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/Constellation> a dsv:Column ;
+    rdfs:label " Constellation" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/GalacticCoordinateslb> a dsv:Column ;
+    rdfs:label " Galactic Coordinates (l, b)" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/LightYearDistance> a dsv:Column ;
+    rdfs:label " Light-Year Distance" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/MergerswithOtherNebulas> a dsv:Column ;
+    rdfs:label " Mergers with Other Nebulas" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/MostAbundantElement> a dsv:Column ;
+    rdfs:label " Most Abundant Element" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/NebulaSize> a dsv:Column ;
+    rdfs:label " Nebula Size" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/NebulaType> a dsv:Column ;
+    rdfs:label "`Nebula Type" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/NebulasBrightestPoint> a dsv:Column ;
+    rdfs:label " Nebula's Brightest Point" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/NebulasDarkestPoint> a dsv:Column ;
+    rdfs:label " Nebula's Darkest Point" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/ObservationFrequency> a dsv:Column ;
+    rdfs:label " Observation Frequency" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/Variability> a dsv:Column ;
+    rdfs:label " Variability`" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/AstronomyRYI0M7P8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/ApparentSize>,
+        <http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/AssociatedSupernovaRemnants>,
+        <http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/AverageNebulaAge>,
+        <http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/Constellation>,
+        <http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/GalacticCoordinateslb>,
+        <http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/LightYearDistance>,
+        <http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/MergerswithOtherNebulas>,
+        <http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/MostAbundantElement>,
+        <http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/NebulaSize>,
+        <http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/NebulaType>,
+        <http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/NebulasBrightestPoint>,
+        <http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/NebulasDarkestPoint>,
+        <http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/ObservationFrequency>,
+        <http://metaUnionSearch/datasets/AstronomyRYI0M7P8/column/Variability> .
+

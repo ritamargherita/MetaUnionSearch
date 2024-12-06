@@ -1,0 +1,15 @@
+capacity
+address
+company
+classification
+product
+description
+status
+location
+capacity
+description
+species
+product
+species
+notes
+class

@@ -1,0 +1,11 @@
+artist
+artist
+year
+city
+genre
+album
+name
+notes
+rank
+education
+notes

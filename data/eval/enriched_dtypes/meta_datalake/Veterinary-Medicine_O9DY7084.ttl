@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_O9DY7084.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/AveragePrice> a dsv:Column ;
+    rdfs:label " Average Price." ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/AverageRating> a dsv:Column ;
+    rdfs:label " Average Rating" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/Contraindications> a dsv:Column ;
+    rdfs:label " Contraindications" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/DosageInformation> a dsv:Column ;
+    rdfs:label " Dosage Information" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/FDAApprovalStatus> a dsv:Column ;
+    rdfs:label " FDA Approval Status" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/IngredientList> a dsv:Column ;
+    rdfs:label " Ingredient List" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/ManufacturerName> a dsv:Column ;
+    rdfs:label " Manufacturer Name" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/NumberofReviews> a dsv:Column ;
+    rdfs:label " Number of Reviews" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/PrescriptionRequired> a dsv:Column ;
+    rdfs:label " Prescription Required" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/QuantitySold> a dsv:Column ;
+    rdfs:label "Quantity Sold" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/ReleaseDate> a dsv:Column ;
+    rdfs:label " Release Date" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/SideEffects> a dsv:Column ;
+    rdfs:label " Side Effects" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/StorageInstructions> a dsv:Column ;
+    rdfs:label " Storage Instructions" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/AveragePrice>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/AverageRating>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/Contraindications>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/DosageInformation>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/FDAApprovalStatus>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/IngredientList>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/ManufacturerName>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/NumberofReviews>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/PrescriptionRequired>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/QuantitySold>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/ReleaseDate>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/SideEffects>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineO9DY7084/column/StorageInstructions> .
+

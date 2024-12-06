@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_2L49WWKQ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/AverageDoseperTreatment> a dsv:Column ;
+    rdfs:label " Average Dose per Treatment" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/BatchNumber> a dsv:Column ;
+    rdfs:label " Batch Number" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/DrugActiveIngredient> a dsv:Column ;
+    rdfs:label " Drug Active Ingredient" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/ExpiryDate> a dsv:Column ;
+    rdfs:label " Expiry Date" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/FormulationTypeegtabletinjection> a dsv:Column ;
+    rdfs:label " Formulation Type (e.g.: tablet, injection)" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/ListPrice> a dsv:Column ;
+    rdfs:label " List Price" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/ManufacturerName> a dsv:Column ;
+    rdfs:label " Manufacturer Name" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/PackagingUnitsbottlesetc> a dsv:Column ;
+    rdfs:label " Packaging Units (bottles, etc.)" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/ProductionLocation> a dsv:Column ;
+    rdfs:label " Production Location" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/QuantitySold> a dsv:Column ;
+    rdfs:label "Quantity Sold" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/SpeciesFDAApprovedFor> a dsv:Column ;
+    rdfs:label " Species FDA Approved For" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/AverageDoseperTreatment>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/BatchNumber>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/DrugActiveIngredient>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/ExpiryDate>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/FormulationTypeegtabletinjection>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/ListPrice>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/ManufacturerName>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/PackagingUnitsbottlesetc>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/ProductionLocation>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/QuantitySold>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine2L49WWKQ/column/SpeciesFDAApprovedFor> .
+

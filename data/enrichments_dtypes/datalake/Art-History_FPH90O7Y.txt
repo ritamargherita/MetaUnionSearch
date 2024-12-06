@@ -1,0 +1,11 @@
+location
+year
+person
+class
+person
+address
+range
+location
+status
+credit
+description

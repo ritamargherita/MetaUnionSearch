@@ -1,0 +1,14 @@
+duration
+address
+gender
+age
+education
+position
+capacity
+status
+status
+name
+name
+credit
+name
+position

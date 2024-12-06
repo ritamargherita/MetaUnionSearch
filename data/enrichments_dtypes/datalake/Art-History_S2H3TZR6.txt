@@ -1,0 +1,10 @@
+code
+class
+artist
+language
+country
+location
+album
+album
+name
+range

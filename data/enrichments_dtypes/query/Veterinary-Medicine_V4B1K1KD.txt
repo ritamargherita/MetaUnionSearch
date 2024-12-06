@@ -1,0 +1,10 @@
+description
+species
+artist
+age
+gender
+person
+description
+status
+rank
+service

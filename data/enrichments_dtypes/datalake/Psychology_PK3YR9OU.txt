@@ -1,0 +1,14 @@
+description
+address
+duration
+category
+status
+range
+classification
+classification
+category
+range
+range
+range
+name
+language

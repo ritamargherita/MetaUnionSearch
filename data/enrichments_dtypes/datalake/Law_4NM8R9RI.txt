@@ -1,0 +1,12 @@
+address
+address
+name
+name
+description
+person
+description
+sales
+status
+area
+position
+result

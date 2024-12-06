@@ -1,0 +1,14 @@
+name
+city
+birth Date
+status
+album
+description
+weight
+artist
+product
+organisation
+country
+position
+plays
+duration

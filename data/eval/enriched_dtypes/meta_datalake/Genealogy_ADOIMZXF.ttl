@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GenealogyADOIMZXF> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_ADOIMZXF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GenealogyADOIMZXF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AdoptiveMotherGivenName> a dsv:Column ;
+    rdfs:label " AdoptiveMotherGivenName" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AdoptiveMotherMaidenName> a dsv:Column ;
+    rdfs:label " AdoptiveMotherMaidenName" ;
+    dcterms:type "jockey" .
+
+<http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AdoptiveMotherSSN> a dsv:Column ;
+    rdfs:label " AdoptiveMotherSSN" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AmountInherited> a dsv:Column ;
+    rdfs:label " AmountInherited" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AncestorOneBirthPlace> a dsv:Column ;
+    rdfs:label " AncestorOneBirthPlace" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AncestorOneDeathDate> a dsv:Column ;
+    rdfs:label " AncestorOneDeathDate" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AncestorOneGivenName> a dsv:Column ;
+    rdfs:label "AncestorOneGivenName" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AncestorOneMiddleName> a dsv:Column ;
+    rdfs:label " AncestorOneMiddleName" ;
+    dcterms:type "jockey" .
+
+<http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AncestorOneSSN> a dsv:Column ;
+    rdfs:label " AncestorOneSSN" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AncestorOneSurname> a dsv:Column ;
+    rdfs:label " AncestorOneSurname" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/Ethnicity> a dsv:Column ;
+    rdfs:label " Ethnicity" ;
+    dcterms:type "nationality" .
+
+<http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/NumberOfMarriages> a dsv:Column ;
+    rdfs:label " NumberOfMarriages" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/SpouseName> a dsv:Column ;
+    rdfs:label " SpouseName" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GenealogyADOIMZXF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AdoptiveMotherGivenName>,
+        <http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AdoptiveMotherMaidenName>,
+        <http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AdoptiveMotherSSN>,
+        <http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AmountInherited>,
+        <http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AncestorOneBirthPlace>,
+        <http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AncestorOneDeathDate>,
+        <http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AncestorOneGivenName>,
+        <http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AncestorOneMiddleName>,
+        <http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AncestorOneSSN>,
+        <http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/AncestorOneSurname>,
+        <http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/Ethnicity>,
+        <http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/NumberOfMarriages>,
+        <http://metaUnionSearch/datasets/GenealogyADOIMZXF/column/SpouseName> .
+

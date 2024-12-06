@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_3FNBDVPI.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Technology3FNBDVPI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI/column/AccountabilityMeasures> a dsv:Column ;
+    rdfs:label " Accountability Measures" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI/column/ArtificialIntelligenceMachineLearning> a dsv:Column ;
+    rdfs:label " Artificial Intelligence & Machine Learning" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI/column/BusinessModels> a dsv:Column ;
+    rdfs:label " Business Models" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI/column/CulturalChange> a dsv:Column ;
+    rdfs:label " Cultural Change" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI/column/DataSecurity> a dsv:Column ;
+    rdfs:label " Data Security" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI/column/EthicalConsiderationsRegulations> a dsv:Column ;
+    rdfs:label " Ethical Considerations & Regulations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI/column/FutureTrends> a dsv:Column ;
+    rdfs:label " Future Trends" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI/column/Globalization> a dsv:Column ;
+    rdfs:label " Globalization" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI/column/GoverningLaws> a dsv:Column ;
+    rdfs:label " Governing Laws" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI/column/ImpactOnSociety> a dsv:Column ;
+    rdfs:label " Impact On Society" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI/column/IndustryDisruption> a dsv:Column ;
+    rdfs:label " Industry Disruption" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI/column/Innovations> a dsv:Column ;
+    rdfs:label "Innovations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI/column/NewPlayers> a dsv:Column ;
+    rdfs:label " New Players" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI/column/PrivacyPolicies> a dsv:Column ;
+    rdfs:label " Privacy Policies" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI/column/TechnologicalAdvancement> a dsv:Column ;
+    rdfs:label " Technological Advancement" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Technology3FNBDVPI/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Technology3FNBDVPI/column/AccountabilityMeasures>,
+        <http://metaUnionSearch/datasets/Technology3FNBDVPI/column/ArtificialIntelligenceMachineLearning>,
+        <http://metaUnionSearch/datasets/Technology3FNBDVPI/column/BusinessModels>,
+        <http://metaUnionSearch/datasets/Technology3FNBDVPI/column/CulturalChange>,
+        <http://metaUnionSearch/datasets/Technology3FNBDVPI/column/DataSecurity>,
+        <http://metaUnionSearch/datasets/Technology3FNBDVPI/column/EthicalConsiderationsRegulations>,
+        <http://metaUnionSearch/datasets/Technology3FNBDVPI/column/FutureTrends>,
+        <http://metaUnionSearch/datasets/Technology3FNBDVPI/column/Globalization>,
+        <http://metaUnionSearch/datasets/Technology3FNBDVPI/column/GoverningLaws>,
+        <http://metaUnionSearch/datasets/Technology3FNBDVPI/column/ImpactOnSociety>,
+        <http://metaUnionSearch/datasets/Technology3FNBDVPI/column/IndustryDisruption>,
+        <http://metaUnionSearch/datasets/Technology3FNBDVPI/column/Innovations>,
+        <http://metaUnionSearch/datasets/Technology3FNBDVPI/column/NewPlayers>,
+        <http://metaUnionSearch/datasets/Technology3FNBDVPI/column/PrivacyPolicies>,
+        <http://metaUnionSearch/datasets/Technology3FNBDVPI/column/TechnologicalAdvancement> .
+

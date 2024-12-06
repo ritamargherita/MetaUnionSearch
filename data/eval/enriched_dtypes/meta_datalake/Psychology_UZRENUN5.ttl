@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PsychologyUZRENUN5> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_UZRENUN5.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PsychologyUZRENUN5/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/Age> a dsv:Column ;
+    rdfs:label " Age" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/AgreeableTraits> a dsv:Column ;
+    rdfs:label """ AgreeableTraits
+
+""" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/AnnualIncome> a dsv:Column ;
+    rdfs:label " AnnualIncome" ;
+    dcterms:type "team Name" .
+
+<http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/Dateofbirth> a dsv:Column ;
+    rdfs:label " Dateofbirth" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/EducationLevelOccupation> a dsv:Column ;
+    rdfs:label """ EducationLevel\\
+Occupation""" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/ExtravertedTraits> a dsv:Column ;
+    rdfs:label " ExtravertedTraits" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/Gender> a dsv:Column ;
+    rdfs:label " Gender" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/HasChildrenPersonalityType> a dsv:Column ;
+    rdfs:label """ HasChildren\\
+PersonalityType""" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/HasPets> a dsv:Column ;
+    rdfs:label " HasPets" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/MaritalStatus> a dsv:Column ;
+    rdfs:label " MaritalStatus" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/PoliticalAffiliationSubjectId> a dsv:Column ;
+    rdfs:label """PoliticalAffiliation\\
+SubjectId""" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/SurveySiteUsed> a dsv:Column ;
+    rdfs:label "SurveySiteUsed " ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PsychologyUZRENUN5/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/Age>,
+        <http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/AgreeableTraits>,
+        <http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/AnnualIncome>,
+        <http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/Dateofbirth>,
+        <http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/EducationLevelOccupation>,
+        <http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/ExtravertedTraits>,
+        <http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/Gender>,
+        <http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/HasChildrenPersonalityType>,
+        <http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/HasPets>,
+        <http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/MaritalStatus>,
+        <http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/PoliticalAffiliationSubjectId>,
+        <http://metaUnionSearch/datasets/PsychologyUZRENUN5/column/SurveySiteUsed> .
+

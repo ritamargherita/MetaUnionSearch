@@ -1,0 +1,11 @@
+name
+language
+duration
+duration
+origin
+product
+product
+product
+industry
+type
+status

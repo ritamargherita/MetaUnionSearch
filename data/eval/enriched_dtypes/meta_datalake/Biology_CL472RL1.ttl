@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BiologyCL472RL1> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_CL472RL1.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BiologyCL472RL1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BiologyCL472RL1/column/Biologicalinteractions> a dsv:Column ;
+    rdfs:label "Biological interactions" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/BiologyCL472RL1/column/Communitydistribution> a dsv:Column ;
+    rdfs:label "Community distribution" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BiologyCL472RL1/column/Conservationstatus> a dsv:Column ;
+    rdfs:label "Conservation status" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/BiologyCL472RL1/column/Ecologicallyrelevanttraits> a dsv:Column ;
+    rdfs:label "Ecologically relevant traits" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BiologyCL472RL1/column/Effectofenvironment> a dsv:Column ;
+    rdfs:label "Effect of environment" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BiologyCL472RL1/column/Experimentaltechniquesused> a dsv:Column ;
+    rdfs:label "Experimental techniques used" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BiologyCL472RL1/column/Metabolicpathwayassociations> a dsv:Column ;
+    rdfs:label "Metabolic pathway associations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BiologyCL472RL1/column/Paleontologicalevidence> a dsv:Column ;
+    rdfs:label "Paleontological evidence" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BiologyCL472RL1/column/Phenotypeobservations> a dsv:Column ;
+    rdfs:label "Phenotype observations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BiologyCL472RL1/column/Phylogenictreestructure> a dsv:Column ;
+    rdfs:label "Phylogenic tree structure" ;
+    dcterms:type "family" .
+
+<http://metaUnionSearch/datasets/BiologyCL472RL1/column/Populationgeneticsdata> a dsv:Column ;
+    rdfs:label "Population genetics data" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BiologyCL472RL1/column/Regulatoryelements> a dsv:Column ;
+    rdfs:label "Regulatory elements" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/BiologyCL472RL1/column/SyndromesDiseases> a dsv:Column ;
+    rdfs:label "Syndromes & Diseases" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BiologyCL472RL1/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BiologyCL472RL1/column/Biologicalinteractions>,
+        <http://metaUnionSearch/datasets/BiologyCL472RL1/column/Communitydistribution>,
+        <http://metaUnionSearch/datasets/BiologyCL472RL1/column/Conservationstatus>,
+        <http://metaUnionSearch/datasets/BiologyCL472RL1/column/Ecologicallyrelevanttraits>,
+        <http://metaUnionSearch/datasets/BiologyCL472RL1/column/Effectofenvironment>,
+        <http://metaUnionSearch/datasets/BiologyCL472RL1/column/Experimentaltechniquesused>,
+        <http://metaUnionSearch/datasets/BiologyCL472RL1/column/Metabolicpathwayassociations>,
+        <http://metaUnionSearch/datasets/BiologyCL472RL1/column/Paleontologicalevidence>,
+        <http://metaUnionSearch/datasets/BiologyCL472RL1/column/Phenotypeobservations>,
+        <http://metaUnionSearch/datasets/BiologyCL472RL1/column/Phylogenictreestructure>,
+        <http://metaUnionSearch/datasets/BiologyCL472RL1/column/Populationgeneticsdata>,
+        <http://metaUnionSearch/datasets/BiologyCL472RL1/column/Regulatoryelements>,
+        <http://metaUnionSearch/datasets/BiologyCL472RL1/column/SyndromesDiseases> .
+

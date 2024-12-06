@@ -1,0 +1,10 @@
+name
+city
+description
+artist
+description
+description
+manufacturer
+city
+description
+component

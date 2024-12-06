@@ -1,0 +1,10 @@
+affiliation
+origin
+album
+location
+name
+name
+description
+duration
+description
+region

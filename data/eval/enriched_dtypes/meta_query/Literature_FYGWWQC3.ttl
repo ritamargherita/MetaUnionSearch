@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LiteratureFYGWWQC3> a dsv:Dataset ;
+    dcterms:subject "literature" ;
+    dcterms:title "Literature_FYGWWQC3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LiteratureFYGWWQC3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/AuthorBackground> a dsv:Column ;
+    rdfs:label " Author Background" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/CharacterDevelopment> a dsv:Column ;
+    rdfs:label " Character Development" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/CulturalSignificance> a dsv:Column ;
+    rdfs:label " Cultural Significance" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/Genre> a dsv:Column ;
+    rdfs:label " Genre" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/HistoricalContext> a dsv:Column ;
+    rdfs:label " Historical Context" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/Imagery> a dsv:Column ;
+    rdfs:label " Imagery" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/LanguageandStyle> a dsv:Column ;
+    rdfs:label " Language and Style" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/LiteraryAnalysis> a dsv:Column ;
+    rdfs:label "Literary Analysis" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/LiteraryDevices> a dsv:Column ;
+    rdfs:label " Literary Devices" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/PlotStructure> a dsv:Column ;
+    rdfs:label " Plot Structure" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/Symbolism> a dsv:Column ;
+    rdfs:label " Symbolism" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/Themes> a dsv:Column ;
+    rdfs:label " Themes" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/Tone> a dsv:Column ;
+    rdfs:label " Tone" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/LiteratureFYGWWQC3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/AuthorBackground>,
+        <http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/CharacterDevelopment>,
+        <http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/CulturalSignificance>,
+        <http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/Genre>,
+        <http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/HistoricalContext>,
+        <http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/Imagery>,
+        <http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/LanguageandStyle>,
+        <http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/LiteraryAnalysis>,
+        <http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/LiteraryDevices>,
+        <http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/PlotStructure>,
+        <http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/Symbolism>,
+        <http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/Themes>,
+        <http://metaUnionSearch/datasets/LiteratureFYGWWQC3/column/Tone> .
+

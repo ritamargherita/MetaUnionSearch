@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MythologyK1EYY37Q> a dsv:Dataset ;
+    dcterms:subject "mythology" ;
+    dcterms:title "Mythology_K1EYY37Q.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MythologyK1EYY37Q/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/ConnectedDeitiesorRelatedMythologies> a dsv:Column ;
+    rdfs:label "Connected Deities or Related Mythologies" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/CulturalImpactLiteratureArtReligion> a dsv:Column ;
+    rdfs:label "Cultural Impact: Literature, Art, Religion" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/DivineRole> a dsv:Column ;
+    rdfs:label "Divine Role" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/GoddessName> a dsv:Column ;
+    rdfs:label "Goddess Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/MagickalAbilities> a dsv:Column ;
+    rdfs:label "Magickal Abilities" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/ModernInterpretations> a dsv:Column ;
+    rdfs:label "Modern Interpretations" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/Origin> a dsv:Column ;
+    rdfs:label "Origin" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/Powers> a dsv:Column ;
+    rdfs:label "Powers" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/ReligiousAffiliation> a dsv:Column ;
+    rdfs:label "Religious Affiliation" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/SymbolicAnimalsObjects> a dsv:Column ;
+    rdfs:label "Symbolic Animals/Objects" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/WorshipandCultivation> a dsv:Column ;
+    rdfs:label "Worship and Cultivation" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MythologyK1EYY37Q/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/ConnectedDeitiesorRelatedMythologies>,
+        <http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/CulturalImpactLiteratureArtReligion>,
+        <http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/DivineRole>,
+        <http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/GoddessName>,
+        <http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/MagickalAbilities>,
+        <http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/ModernInterpretations>,
+        <http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/Origin>,
+        <http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/Powers>,
+        <http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/ReligiousAffiliation>,
+        <http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/SymbolicAnimalsObjects>,
+        <http://metaUnionSearch/datasets/MythologyK1EYY37Q/column/WorshipandCultivation> .
+

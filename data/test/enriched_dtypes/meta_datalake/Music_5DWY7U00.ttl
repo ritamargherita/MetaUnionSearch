@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00> a dsv:Dataset ;
+    dcterms:subject "music" ;
+    dcterms:title "Music_5DWY7U00.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Music5DWY7U00/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00/column/AudioResolution> a dsv:Column ;
+    rdfs:label " Audio Resolution" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00/column/BPM> a dsv:Column ;
+    rdfs:label " BPM" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00/column/Composer> a dsv:Column ;
+    rdfs:label " Composer" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00/column/CulturalImpact> a dsv:Column ;
+    rdfs:label " Cultural Impact" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00/column/Era> a dsv:Column ;
+    rdfs:label " Era" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00/column/GrammyNominations> a dsv:Column ;
+    rdfs:label " Grammy Nominations" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00/column/GrammyWins> a dsv:Column ;
+    rdfs:label " Grammy Wins" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00/column/InstrumentsUsed> a dsv:Column ;
+    rdfs:label " Instruments Used" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00/column/LyricsWriter> a dsv:Column ;
+    rdfs:label "Lyrics Writer" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00/column/MasteringEngineer> a dsv:Column ;
+    rdfs:label " Mastering Engineer" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00/column/Mood> a dsv:Column ;
+    rdfs:label " Mood" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00/column/MusicGenre> a dsv:Column ;
+    rdfs:label " Music Genre" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00/column/SongKey> a dsv:Column ;
+    rdfs:label " Song Key" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00/column/Studio> a dsv:Column ;
+    rdfs:label " Studio" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00/column/VirtualAugmentedReality> a dsv:Column ;
+    rdfs:label " Virtual/Augmented Reality" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/Music5DWY7U00/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Music5DWY7U00/column/AudioResolution>,
+        <http://metaUnionSearch/datasets/Music5DWY7U00/column/BPM>,
+        <http://metaUnionSearch/datasets/Music5DWY7U00/column/Composer>,
+        <http://metaUnionSearch/datasets/Music5DWY7U00/column/CulturalImpact>,
+        <http://metaUnionSearch/datasets/Music5DWY7U00/column/Era>,
+        <http://metaUnionSearch/datasets/Music5DWY7U00/column/GrammyNominations>,
+        <http://metaUnionSearch/datasets/Music5DWY7U00/column/GrammyWins>,
+        <http://metaUnionSearch/datasets/Music5DWY7U00/column/InstrumentsUsed>,
+        <http://metaUnionSearch/datasets/Music5DWY7U00/column/LyricsWriter>,
+        <http://metaUnionSearch/datasets/Music5DWY7U00/column/MasteringEngineer>,
+        <http://metaUnionSearch/datasets/Music5DWY7U00/column/Mood>,
+        <http://metaUnionSearch/datasets/Music5DWY7U00/column/MusicGenre>,
+        <http://metaUnionSearch/datasets/Music5DWY7U00/column/SongKey>,
+        <http://metaUnionSearch/datasets/Music5DWY7U00/column/Studio>,
+        <http://metaUnionSearch/datasets/Music5DWY7U00/column/VirtualAugmentedReality> .
+

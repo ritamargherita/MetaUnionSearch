@@ -1,0 +1,11 @@
+region
+result
+name
+name
+industry
+team
+product
+position
+education
+album
+format

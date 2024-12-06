@@ -1,0 +1,11 @@
+team
+name
+weight
+age
+age
+birth Date
+birth Date
+rank
+rank
+capacity
+city

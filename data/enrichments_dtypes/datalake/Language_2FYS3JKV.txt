@@ -1,0 +1,13 @@
+language
+family
+region
+name
+sales
+country
+notes
+description
+category
+location
+description
+album
+description

@@ -1,0 +1,12 @@
+city
+capacity
+description
+product
+description
+description
+description
+category
+description
+team Name
+description
+range

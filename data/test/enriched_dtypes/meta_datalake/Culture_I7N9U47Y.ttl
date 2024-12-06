@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CultureI7N9U47Y> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_I7N9U47Y.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CultureI7N9U47Y/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CultureI7N9U47Y/column/ArchitectureStyle> a dsv:Column ;
+    rdfs:label " Architecture Style" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/CultureI7N9U47Y/column/Cuisine> a dsv:Column ;
+    rdfs:label " Cuisine" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CultureI7N9U47Y/column/CulturalInfluences> a dsv:Column ;
+    rdfs:label " Cultural Influences" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/CultureI7N9U47Y/column/EducationSystem> a dsv:Column ;
+    rdfs:label " Education System" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/CultureI7N9U47Y/column/FamousPersonalities> a dsv:Column ;
+    rdfs:label " Famous Personalities" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/CultureI7N9U47Y/column/HistoricalSites> a dsv:Column ;
+    rdfs:label " Historical Sites" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/CultureI7N9U47Y/column/HolidaysCelebrations> a dsv:Column ;
+    rdfs:label " Holidays & Celebrations" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CultureI7N9U47Y/column/LiteratureGenres> a dsv:Column ;
+    rdfs:label " Literature Genres" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/CultureI7N9U47Y/column/MuseumsGalleries> a dsv:Column ;
+    rdfs:label " Museums & Galleries" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/CultureI7N9U47Y/column/NationalSymbols> a dsv:Column ;
+    rdfs:label " National Symbols" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/CultureI7N9U47Y/column/PerformingArts> a dsv:Column ;
+    rdfs:label " Performing Arts" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/CultureI7N9U47Y/column/Sports> a dsv:Column ;
+    rdfs:label " Sports" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/CultureI7N9U47Y/column/VisualArts> a dsv:Column ;
+    rdfs:label "Visual Arts" ;
+    dcterms:type "brand" .
+
+<http://metaUnionSearch/datasets/CultureI7N9U47Y/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CultureI7N9U47Y/column/ArchitectureStyle>,
+        <http://metaUnionSearch/datasets/CultureI7N9U47Y/column/Cuisine>,
+        <http://metaUnionSearch/datasets/CultureI7N9U47Y/column/CulturalInfluences>,
+        <http://metaUnionSearch/datasets/CultureI7N9U47Y/column/EducationSystem>,
+        <http://metaUnionSearch/datasets/CultureI7N9U47Y/column/FamousPersonalities>,
+        <http://metaUnionSearch/datasets/CultureI7N9U47Y/column/HistoricalSites>,
+        <http://metaUnionSearch/datasets/CultureI7N9U47Y/column/HolidaysCelebrations>,
+        <http://metaUnionSearch/datasets/CultureI7N9U47Y/column/LiteratureGenres>,
+        <http://metaUnionSearch/datasets/CultureI7N9U47Y/column/MuseumsGalleries>,
+        <http://metaUnionSearch/datasets/CultureI7N9U47Y/column/NationalSymbols>,
+        <http://metaUnionSearch/datasets/CultureI7N9U47Y/column/PerformingArts>,
+        <http://metaUnionSearch/datasets/CultureI7N9U47Y/column/Sports>,
+        <http://metaUnionSearch/datasets/CultureI7N9U47Y/column/VisualArts> .
+

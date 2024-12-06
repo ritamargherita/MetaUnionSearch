@@ -1,0 +1,11 @@
+region
+industry
+component
+description
+description
+description
+description
+species
+description
+description
+description

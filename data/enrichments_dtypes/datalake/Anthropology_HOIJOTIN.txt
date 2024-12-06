@@ -1,0 +1,12 @@
+depth
+region
+name
+species
+name
+language
+religion
+description
+description
+description
+creator
+artist

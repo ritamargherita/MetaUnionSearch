@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Environment2EFZ6RX3> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_2EFZ6RX3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Environment2EFZ6RX3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/BiodiversityProtectionPrograms> a dsv:Column ;
+    rdfs:label " BiodiversityProtectionPrograms" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/CarbonFootprintScore> a dsv:Column ;
+    rdfs:label " CarbonFootprintScore" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/EcoCertifiedProductSales> a dsv:Column ;
+    rdfs:label " EcoCertifiedProductSales" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/EnvironmentalEducationPrograms> a dsv:Column ;
+    rdfs:label " EnvironmentalEducationPrograms" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/FashionablyGreenSpaces> a dsv:Column ;
+    rdfs:label "FashionablyGreenSpaces" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/GreenBuildingsRatio> a dsv:Column ;
+    rdfs:label " GreenBuildingsRatio" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/NoisePollutionLevels> a dsv:Column ;
+    rdfs:label " NoisePollutionLevels" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/PublicEngagementLevel> a dsv:Column ;
+    rdfs:label " PublicEngagementLevel" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/RecyclingRatePercentage> a dsv:Column ;
+    rdfs:label " RecyclingRatePercentage" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/RenewableEnergyConsumptionPercentages> a dsv:Column ;
+    rdfs:label " RenewableEnergyConsumptionPercentages" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/SustainabilityPolicies> a dsv:Column ;
+    rdfs:label " SustainabilityPolicies" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/WasteManagementProcesses> a dsv:Column ;
+    rdfs:label " WasteManagementProcesses" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/WaterConsumptionPerCapita> a dsv:Column ;
+    rdfs:label " WaterConsumptionPerCapita" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/WildlifeCorridors> a dsv:Column ;
+    rdfs:label " WildlifeCorridors" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/Environment2EFZ6RX3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/BiodiversityProtectionPrograms>,
+        <http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/CarbonFootprintScore>,
+        <http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/EcoCertifiedProductSales>,
+        <http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/EnvironmentalEducationPrograms>,
+        <http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/FashionablyGreenSpaces>,
+        <http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/GreenBuildingsRatio>,
+        <http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/NoisePollutionLevels>,
+        <http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/PublicEngagementLevel>,
+        <http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/RecyclingRatePercentage>,
+        <http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/RenewableEnergyConsumptionPercentages>,
+        <http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/SustainabilityPolicies>,
+        <http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/WasteManagementProcesses>,
+        <http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/WaterConsumptionPerCapita>,
+        <http://metaUnionSearch/datasets/Environment2EFZ6RX3/column/WildlifeCorridors> .
+

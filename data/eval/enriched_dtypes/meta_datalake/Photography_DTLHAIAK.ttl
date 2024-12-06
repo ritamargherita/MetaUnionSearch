@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhotographyDTLHAIAK> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_DTLHAIAK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhotographyDTLHAIAK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/ClarityScore> a dsv:Column ;
+    rdfs:label "ClarityScore" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/ContrastRatio> a dsv:Column ;
+    rdfs:label "ContrastRatio%" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/GPSCoordinates> a dsv:Column ;
+    rdfs:label "GPSCoordinates()" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/GenreTagstag1tag2> a dsv:Column ;
+    rdfs:label "GenreTags(&tag1,&tag2...)" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/HasPeopleInFrame> a dsv:Column ;
+    rdfs:label "HasPeopleInFrame" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/ImageSizepixelsxImageSizebytes> a dsv:Column ;
+    rdfs:label "\\*ImageSize(pixels)x(* ) Image Size (bytes)" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/LocationStamp> a dsv:Column ;
+    rdfs:label "LocationStamp" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/PhotoTitle> a dsv:Column ;
+    rdfs:label "PhotoTitle" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/PhotographerName> a dsv:Column ;
+    rdfs:label "PhotographerName" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/TimeOfDay> a dsv:Column ;
+    rdfs:label "TimeOfDay" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PhotographyDTLHAIAK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/ClarityScore>,
+        <http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/ContrastRatio>,
+        <http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/GPSCoordinates>,
+        <http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/GenreTagstag1tag2>,
+        <http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/HasPeopleInFrame>,
+        <http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/ImageSizepixelsxImageSizebytes>,
+        <http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/LocationStamp>,
+        <http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/PhotoTitle>,
+        <http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/PhotographerName>,
+        <http://metaUnionSearch/datasets/PhotographyDTLHAIAK/column/TimeOfDay> .
+

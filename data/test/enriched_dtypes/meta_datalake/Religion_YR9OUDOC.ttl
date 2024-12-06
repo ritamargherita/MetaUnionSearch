@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_YR9OUDOC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ReligionYR9OUDOC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/ArtAndArchitecture> a dsv:Column ;
+    rdfs:label " ArtAndArchitecture" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/Demographics> a dsv:Column ;
+    rdfs:label " Demographics" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/EnvironmentalViews> a dsv:Column ;
+    rdfs:label " EnvironmentalViews" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/EthnicityLinks> a dsv:Column ;
+    rdfs:label " EthnicityLinks" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/GenderRoleInfluence> a dsv:Column ;
+    rdfs:label " GenderRoleInfluence" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/GeographicalDivisions> a dsv:Column ;
+    rdfs:label " GeographicalDivisions" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/HistoricalDevelopments> a dsv:Column ;
+    rdfs:label " HistoricalDevelopments" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/NumberOfFollowers> a dsv:Column ;
+    rdfs:label "NumberOfFollowers" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/PoliticalAffiliations> a dsv:Column ;
+    rdfs:label " PoliticalAffiliations" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/RegionalSpread> a dsv:Column ;
+    rdfs:label " RegionalSpread" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/RelationshipToOtherBeliefSystems> a dsv:Column ;
+    rdfs:label " RelationshipToOtherBeliefSystems" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/ScientificCommunityInteractions> a dsv:Column ;
+    rdfs:label " ScientificCommunityInteractions" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/SocioeconomicStatus> a dsv:Column ;
+    rdfs:label " SocioeconomicStatus" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/YoungPeopleImpact> a dsv:Column ;
+    rdfs:label " YoungPeopleImpact" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/ArtAndArchitecture>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/Demographics>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/EnvironmentalViews>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/EthnicityLinks>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/GenderRoleInfluence>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/GeographicalDivisions>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/HistoricalDevelopments>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/NumberOfFollowers>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/PoliticalAffiliations>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/RegionalSpread>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/RelationshipToOtherBeliefSystems>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/ScientificCommunityInteractions>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/SocioeconomicStatus>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/YoungPeopleImpact> .
+

@@ -1,0 +1,11 @@
+location
+area
+rank
+result
+age
+area
+ranking
+position
+capacity
+capacity
+person

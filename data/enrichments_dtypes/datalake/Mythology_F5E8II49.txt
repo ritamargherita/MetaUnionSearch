@@ -1,0 +1,10 @@
+artist
+origin
+category
+origin
+notes
+album
+album
+name
+person
+description

@@ -1,0 +1,121 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_O2RAK1VR.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryO2RAK1VR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/AllusionType> a dsv:Column ;
+    rdfs:label " Allusion Type" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/Author> a dsv:Column ;
+    rdfs:label " Author" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/AverageWordCountperStanza> a dsv:Column ;
+    rdfs:label " Average Word Count per Stanza" ;
+    dcterms:type "ranking" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/BilingualSensoryAppeals> a dsv:Column ;
+    rdfs:label " Bilingual Sensory Appeals" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/ConcretePoem> a dsv:Column ;
+    rdfs:label " Concrete Poem?" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/DisruptedRhymes> a dsv:Column ;
+    rdfs:label " Disrupted Rhymes" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/Enjambments> a dsv:Column ;
+    rdfs:label " Enjambments" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/FiguresofSpeechExtensiveness> a dsv:Column ;
+    rdfs:label " Figures of Speech Extensiveness" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/FormattedTextDecorativeTechniques> a dsv:Column ;
+    rdfs:label " Formatted Text Decorative Techniques" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/FreeVerse> a dsv:Column ;
+    rdfs:label " Free Verse?" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/MusicTypeEmbeddedness> a dsv:Column ;
+    rdfs:label " Music Type Embeddedness" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/NounGenderParityScore> a dsv:Column ;
+    rdfs:label " Noun Gender Parity Score" ;
+    dcterms:type "industry" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/OverallPoemLength> a dsv:Column ;
+    rdfs:label " Overall Poem Length" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/RareWordsList> a dsv:Column ;
+    rdfs:label " Rare Words List" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/SentimentAnalysisResults> a dsv:Column ;
+    rdfs:label " Sentiment Analysis Results" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/SpanishVocabularyPercentage> a dsv:Column ;
+    rdfs:label " Spanish Vocabulary Percentage" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/SpecialCharacterIncorporation> a dsv:Column ;
+    rdfs:label " Special Character Incorporation" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/SymbolDensityOverlaidImagesOpacityRate> a dsv:Column ;
+    rdfs:label " Symbol Density Overlaid Images Opacity Rate" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/Title> a dsv:Column ;
+    rdfs:label "Title" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/UnusualSyllableSequences> a dsv:Column ;
+    rdfs:label " Unusual Syllable Sequences" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/UseofSynesthesia> a dsv:Column ;
+    rdfs:label " Use of Synesthesia" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/VisuoLocalColorChangeFrequency> a dsv:Column ;
+    rdfs:label " Visuo-Local Color Change Frequency" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PoetryO2RAK1VR/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/AllusionType>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/Author>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/AverageWordCountperStanza>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/BilingualSensoryAppeals>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/ConcretePoem>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/DisruptedRhymes>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/Enjambments>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/FiguresofSpeechExtensiveness>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/FormattedTextDecorativeTechniques>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/FreeVerse>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/MusicTypeEmbeddedness>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/NounGenderParityScore>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/OverallPoemLength>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/RareWordsList>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/SentimentAnalysisResults>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/SpanishVocabularyPercentage>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/SpecialCharacterIncorporation>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/SymbolDensityOverlaidImagesOpacityRate>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/Title>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/UnusualSyllableSequences>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/UseofSynesthesia>,
+        <http://metaUnionSearch/datasets/PoetryO2RAK1VR/column/VisuoLocalColorChangeFrequency> .
+

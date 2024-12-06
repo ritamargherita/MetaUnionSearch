@@ -1,0 +1,11 @@
+category
+name
+species
+species
+age
+gender
+notes
+name
+description
+duration
+sales

@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_KXQ9FIFS.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/BodyWaves> a dsv:Column ;
+    rdfs:label "Body Waves" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/DensityInterfaces> a dsv:Column ;
+    rdfs:label " Density Interfaces" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/FreeSurfaceEffect> a dsv:Column ;
+    rdfs:label " Free Surface Effect" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/GravityAnomalies> a dsv:Column ;
+    rdfs:label " Gravity Anomalies" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/MagneticSusceptibility> a dsv:Column ;
+    rdfs:label " Magnetic Susceptibility" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/MicroearthquakeLocations> a dsv:Column ;
+    rdfs:label " Microearthquake Locations" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/PwaveAttenuation> a dsv:Column ;
+    rdfs:label " P-wave Attenuation" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/ShearVelocities> a dsv:Column ;
+    rdfs:label " Shear Velocities" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/SwaveAmplitude> a dsv:Column ;
+    rdfs:label " S-wave Amplitude" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/TopographicCorrections> a dsv:Column ;
+    rdfs:label " Topographic Corrections" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/UnrelatedColumn1> a dsv:Column ;
+    rdfs:label " Unrelated Column 1" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/UnrelatedColumn2> a dsv:Column ;
+    rdfs:label " Unrelated Column 2" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/BodyWaves>,
+        <http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/DensityInterfaces>,
+        <http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/FreeSurfaceEffect>,
+        <http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/GravityAnomalies>,
+        <http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/MagneticSusceptibility>,
+        <http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/MicroearthquakeLocations>,
+        <http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/PwaveAttenuation>,
+        <http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/ShearVelocities>,
+        <http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/SwaveAmplitude>,
+        <http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/TopographicCorrections>,
+        <http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/UnrelatedColumn1>,
+        <http://metaUnionSearch/datasets/GeophysicsKXQ9FIFS/column/UnrelatedColumn2> .
+

@@ -1,0 +1,14 @@
+name
+album
+species
+age
+product
+grades
+type
+status
+capacity
+capacity
+description
+category
+notes
+artist

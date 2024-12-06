@@ -1,0 +1,13 @@
+person
+religion
+region
+region
+region
+region
+region
+region
+region
+region
+region
+region
+region

@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_CUZRENUN.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/AdditionalInfoAreaCode> a dsv:Column ;
+    rdfs:label " \"*Additional Info*\": \"Area\\_Code\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/CityNames> a dsv:Column ;
+    rdfs:label "\"City Names\"" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/CityType> a dsv:Column ;
+    rdfs:label " \"CityType\" " ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/CountryName> a dsv:Column ;
+    rdfs:label " \"CountryName\" " ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/Latitude> a dsv:Column ;
+    rdfs:label " \"Latitude\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/LocationContinent> a dsv:Column ;
+    rdfs:label " \"*Location*\": \"Continent\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/Longitude> a dsv:Column ;
+    rdfs:label " \"Longitude\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/MajorAttractions> a dsv:Column ;
+    rdfs:label " \"MajorAttractions\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/Population> a dsv:Column ;
+    rdfs:label " \"Population\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/PopulationRanking> a dsv:Column ;
+    rdfs:label " \"PopulationRanking\" " ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/Timezone> a dsv:Column ;
+    rdfs:label " \"Timezone\"" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/relationalopeq> a dsv:Column ;
+    rdfs:label " \"_relationalop=(eq)\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/semanticmodifiersCitySize> a dsv:Column ;
+    rdfs:label " \"*semantic_modifiers*\": \"City Size\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/typecityname> a dsv:Column ;
+    rdfs:label " \"_type=city_name\" " ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/AdditionalInfoAreaCode>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/CityNames>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/CityType>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/CountryName>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/Latitude>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/LocationContinent>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/Longitude>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/MajorAttractions>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/Population>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/PopulationRanking>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/Timezone>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/relationalopeq>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/semanticmodifiersCitySize>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/typecityname> .
+

@@ -1,0 +1,14 @@
+person
+credit
+area
+rank
+description
+name
+category
+area
+age
+address
+address
+position
+education
+category

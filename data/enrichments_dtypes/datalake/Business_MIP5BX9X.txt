@@ -1,0 +1,12 @@
+city
+capacity
+industry
+address
+name
+area
+type
+description
+description
+name
+industry
+name

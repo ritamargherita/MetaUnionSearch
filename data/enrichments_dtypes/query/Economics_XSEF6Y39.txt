@@ -1,0 +1,10 @@
+year
+result
+area
+state
+country
+country
+location
+organisation
+class
+location

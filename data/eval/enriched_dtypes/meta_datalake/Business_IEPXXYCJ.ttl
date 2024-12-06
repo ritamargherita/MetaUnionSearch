@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BusinessIEPXXYCJ> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_IEPXXYCJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BusinessIEPXXYCJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/AdditionalFinancialInformation1> a dsv:Column ;
+    rdfs:label " Additional Financial Information #1" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/AdditionalFinancialInformation2> a dsv:Column ;
+    rdfs:label " Additional Financial Information #2" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/CompanyName> a dsv:Column ;
+    rdfs:label " CompanyName" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/DebtorCollectionPeriodOptional> a dsv:Column ;
+    rdfs:label " Debtor Collection Period (*$_) *(-Optional)*" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/DividendYield> a dsv:Column ;
+    rdfs:label " Dividend Yield %" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/EnterpriseValue> a dsv:Column ;
+    rdfs:label " Enterprise Value" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/IndustryCategoryCodeegNAICScodes> a dsv:Column ;
+    rdfs:label " Industry Category Code (e.g., NAICScodes)" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/InterestExpensesToOperatingIncome> a dsv:Column ;
+    rdfs:label " Interest Expenses To Operating Income (*_)" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/MarketCapitalizationoranotheruniqueidentifierlikeatickersymbol> a dsv:Column ;
+    rdfs:label " Market Capitalization (*or another unique identifier like a ticker symbol*)" ;
+    dcterms:type "symbol" .
+
+<http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/PricetoEarningsRatioPE> a dsv:Column ;
+    rdfs:label " Price to Earnings Ratio (PE)" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/PricetoSalesratioPSoptional> a dsv:Column ;
+    rdfs:label " Price to Sales ratio (PS) *(-optional)*" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/QuantitativeAnalysisMetrics> a dsv:Column ;
+    rdfs:label "Quantitative Analysis Metrics" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/QuickRateorAcidTestOptional> a dsv:Column ;
+    rdfs:label " Quick Rate or Acid Test (*$_) *(-Optional)*" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/TotalDebttoEquityratioorunitlessnumberform> a dsv:Column ;
+    rdfs:label " Total Debt to Equity ratio (% or unitless number form)" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/BusinessIEPXXYCJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/AdditionalFinancialInformation1>,
+        <http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/AdditionalFinancialInformation2>,
+        <http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/CompanyName>,
+        <http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/DebtorCollectionPeriodOptional>,
+        <http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/DividendYield>,
+        <http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/EnterpriseValue>,
+        <http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/IndustryCategoryCodeegNAICScodes>,
+        <http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/InterestExpensesToOperatingIncome>,
+        <http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/MarketCapitalizationoranotheruniqueidentifierlikeatickersymbol>,
+        <http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/PricetoEarningsRatioPE>,
+        <http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/PricetoSalesratioPSoptional>,
+        <http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/QuantitativeAnalysisMetrics>,
+        <http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/QuickRateorAcidTestOptional>,
+        <http://metaUnionSearch/datasets/BusinessIEPXXYCJ/column/TotalDebttoEquityratioorunitlessnumberform> .
+

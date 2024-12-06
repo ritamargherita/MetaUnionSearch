@@ -1,0 +1,12 @@
+artist
+symbol
+range
+address
+status
+notes
+classification
+category
+description
+description
+description
+status

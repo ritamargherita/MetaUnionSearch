@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO> a dsv:Dataset ;
+    dcterms:subject "world-history" ;
+    dcterms:title "World-History_4OM3WTOO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/ArchaeologicalSites> a dsv:Column ;
+    rdfs:label " Archaeological Sites" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/ArtisanalCrafts> a dsv:Column ;
+    rdfs:label " Artisanal Crafts" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/ClothingStyles> a dsv:Column ;
+    rdfs:label " Clothing Styles" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/CuisineRecipes> a dsv:Column ;
+    rdfs:label " Cuisine Recipes" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/EnvironmentalImpacts> a dsv:Column ;
+    rdfs:label " Environmental Impacts" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/GoverningBodies> a dsv:Column ;
+    rdfs:label " Governing Bodies" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/LanguagesSpoken> a dsv:Column ;
+    rdfs:label " Languages Spoken" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/LiteratureGenres> a dsv:Column ;
+    rdfs:label " Literature Genres" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/MedicinePublicHealth> a dsv:Column ;
+    rdfs:label " Medicine & Public Health" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/MusicTypes> a dsv:Column ;
+    rdfs:label " Music Types" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/NaturalResourceManagement> a dsv:Column ;
+    rdfs:label " Natural Resource Management" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/ReligionsAndBeliefs> a dsv:Column ;
+    rdfs:label "Religions And Beliefs" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/TradeRoutes> a dsv:Column ;
+    rdfs:label " Trade Routes" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/TransportationMethods> a dsv:Column ;
+    rdfs:label " Transportation Methods" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/UrbanPlanningDevelopment> a dsv:Column ;
+    rdfs:label " Urban Planning & Development" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/ArchaeologicalSites>,
+        <http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/ArtisanalCrafts>,
+        <http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/ClothingStyles>,
+        <http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/CuisineRecipes>,
+        <http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/EnvironmentalImpacts>,
+        <http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/GoverningBodies>,
+        <http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/LanguagesSpoken>,
+        <http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/LiteratureGenres>,
+        <http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/MedicinePublicHealth>,
+        <http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/MusicTypes>,
+        <http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/NaturalResourceManagement>,
+        <http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/ReligionsAndBeliefs>,
+        <http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/TradeRoutes>,
+        <http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/TransportationMethods>,
+        <http://metaUnionSearch/datasets/WorldHistory4OM3WTOO/column/UrbanPlanningDevelopment> .
+

@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeologyUYZY18NL> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_UYZY18NL.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeologyUYZY18NL/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeologyUYZY18NL/column/AdditionalIsotopeData> a dsv:Column ;
+    rdfs:label " Additional Isotope Data" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/GeologyUYZY18NL/column/AverageValue> a dsv:Column ;
+    rdfs:label " Average Value" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/GeologyUYZY18NL/column/BiologicalImpact> a dsv:Column ;
+    rdfs:label " Biological Impact" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyUYZY18NL/column/ChemicalStability> a dsv:Column ;
+    rdfs:label " Chemical Stability" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyUYZY18NL/column/ColourTextureDescription> a dsv:Column ;
+    rdfs:label " Colour & Texture Description" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/GeologyUYZY18NL/column/CrystalStructureDetails> a dsv:Column ;
+    rdfs:label " Crystal Structure Details" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyUYZY18NL/column/EconomicImportance> a dsv:Column ;
+    rdfs:label " Economic Importance" ;
+    dcterms:type "family" .
+
+<http://metaUnionSearch/datasets/GeologyUYZY18NL/column/OtherNotableFeatures> a dsv:Column ;
+    rdfs:label " Other Notable Features" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GeologyUYZY18NL/column/OutlierPresent> a dsv:Column ;
+    rdfs:label " Outlier Present? " ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyUYZY18NL/column/SampleSize> a dsv:Column ;
+    rdfs:label " Sample Size" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/GeologyUYZY18NL/column/StandardDeviation> a dsv:Column ;
+    rdfs:label " Standard Deviation" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/GeologyUYZY18NL/column/StatisticalAnalysisMethod> a dsv:Column ;
+    rdfs:label "Statistical Analysis Method" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GeologyUYZY18NL/column/VarianceRatio> a dsv:Column ;
+    rdfs:label " Variance Ratio" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/GeologyUYZY18NL/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeologyUYZY18NL/column/AdditionalIsotopeData>,
+        <http://metaUnionSearch/datasets/GeologyUYZY18NL/column/AverageValue>,
+        <http://metaUnionSearch/datasets/GeologyUYZY18NL/column/BiologicalImpact>,
+        <http://metaUnionSearch/datasets/GeologyUYZY18NL/column/ChemicalStability>,
+        <http://metaUnionSearch/datasets/GeologyUYZY18NL/column/ColourTextureDescription>,
+        <http://metaUnionSearch/datasets/GeologyUYZY18NL/column/CrystalStructureDetails>,
+        <http://metaUnionSearch/datasets/GeologyUYZY18NL/column/EconomicImportance>,
+        <http://metaUnionSearch/datasets/GeologyUYZY18NL/column/OtherNotableFeatures>,
+        <http://metaUnionSearch/datasets/GeologyUYZY18NL/column/OutlierPresent>,
+        <http://metaUnionSearch/datasets/GeologyUYZY18NL/column/SampleSize>,
+        <http://metaUnionSearch/datasets/GeologyUYZY18NL/column/StandardDeviation>,
+        <http://metaUnionSearch/datasets/GeologyUYZY18NL/column/StatisticalAnalysisMethod>,
+        <http://metaUnionSearch/datasets/GeologyUYZY18NL/column/VarianceRatio> .
+

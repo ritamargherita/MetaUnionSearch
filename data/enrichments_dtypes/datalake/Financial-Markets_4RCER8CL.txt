@@ -1,0 +1,10 @@
+product
+service
+product
+description
+category
+industry
+description
+product
+year
+description

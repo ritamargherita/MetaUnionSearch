@@ -1,0 +1,15 @@
+age
+class
+name
+credit
+region
+origin
+religion
+album
+name
+album
+name
+album
+religion
+religion
+artist

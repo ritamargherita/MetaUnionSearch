@@ -1,0 +1,10 @@
+origin
+origin
+notes
+description
+position
+category
+language
+name
+name
+religion

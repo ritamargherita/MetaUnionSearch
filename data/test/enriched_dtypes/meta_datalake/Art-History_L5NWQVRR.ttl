@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_L5NWQVRR.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/ArtistBirthplace> a dsv:Column ;
+    rdfs:label "Artist Birthplace" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/ArtistName> a dsv:Column ;
+    rdfs:label "Artist Name" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/ArtworkTitle> a dsv:Column ;
+    rdfs:label "Artwork Title" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/ConservationRestorationChallenges> a dsv:Column ;
+    rdfs:label "\"Conservation & Restoration\" Challenges*" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/CuratorialApproach> a dsv:Column ;
+    rdfs:label "Curatorial Approach" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/DateCreated> a dsv:Column ;
+    rdfs:label "Date Created" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/InfluentialWorks> a dsv:Column ;
+    rdfs:label "Influential Work(s)" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/IntellectualMovement> a dsv:Column ;
+    rdfs:label "Intellectual Movement" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/KeyConceptTheme> a dsv:Column ;
+    rdfs:label "Key Concept/Theme" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/MajorExhibitions> a dsv:Column ;
+    rdfs:label "Major Exhibitions" ;
+    dcterms:type "collection" .
+
+<http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/Medium> a dsv:Column ;
+    rdfs:label "Medium" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/PublicResponse> a dsv:Column ;
+    rdfs:label "Public Response*" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/SocioPoliticalClimateImpact> a dsv:Column ;
+    rdfs:label "Socio-Political Climate Impact" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/ArtistBirthplace>,
+        <http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/ArtistName>,
+        <http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/ArtworkTitle>,
+        <http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/ConservationRestorationChallenges>,
+        <http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/CuratorialApproach>,
+        <http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/DateCreated>,
+        <http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/InfluentialWorks>,
+        <http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/IntellectualMovement>,
+        <http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/KeyConceptTheme>,
+        <http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/MajorExhibitions>,
+        <http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/Medium>,
+        <http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/PublicResponse>,
+        <http://metaUnionSearch/datasets/ArtHistoryL5NWQVRR/column/SocioPoliticalClimateImpact> .
+

@@ -1,0 +1,12 @@
+depth
+order
+class
+publisher
+description
+description
+description
+description
+description
+notes
+person
+format

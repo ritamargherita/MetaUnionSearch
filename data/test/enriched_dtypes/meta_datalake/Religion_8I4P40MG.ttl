@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Religion8I4P40MG> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_8I4P40MG.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Religion8I4P40MG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Religion8I4P40MG/column/CelebratoryOccasions> a dsv:Column ;
+    rdfs:label " Celebratory\\_Occasions*" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Religion8I4P40MG/column/CommunityStructure> a dsv:Column ;
+    rdfs:label " Community-Structure@" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Religion8I4P40MG/column/Denomination> a dsv:Column ;
+    rdfs:label " Denomination$" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/Religion8I4P40MG/column/Prophets> a dsv:Column ;
+    rdfs:label " Prophets+" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Religion8I4P40MG/column/ReligiousName> a dsv:Column ;
+    rdfs:label "Religious\\_Name" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/Religion8I4P40MG/column/Rituals> a dsv:Column ;
+    rdfs:label " Rituals%" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Religion8I4P40MG/column/Sect> a dsv:Column ;
+    rdfs:label " Sect*" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/Religion8I4P40MG/column/SharedBeliefs> a dsv:Column ;
+    rdfs:label " Shared\\_Beliefs*" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Religion8I4P40MG/column/SocioDemographicData> a dsv:Column ;
+    rdfs:label " Socio-Demographic-Data&" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/Religion8I4P40MG/column/Symbols> a dsv:Column ;
+    rdfs:label " Symbols*" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Religion8I4P40MG/column/TextualSources> a dsv:Column ;
+    rdfs:label " Textual-Sources~" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Religion8I4P40MG/column/WorshippedDeity> a dsv:Column ;
+    rdfs:label " Worshipped\\_Deity*" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Religion8I4P40MG/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Religion8I4P40MG/column/CelebratoryOccasions>,
+        <http://metaUnionSearch/datasets/Religion8I4P40MG/column/CommunityStructure>,
+        <http://metaUnionSearch/datasets/Religion8I4P40MG/column/Denomination>,
+        <http://metaUnionSearch/datasets/Religion8I4P40MG/column/Prophets>,
+        <http://metaUnionSearch/datasets/Religion8I4P40MG/column/ReligiousName>,
+        <http://metaUnionSearch/datasets/Religion8I4P40MG/column/Rituals>,
+        <http://metaUnionSearch/datasets/Religion8I4P40MG/column/Sect>,
+        <http://metaUnionSearch/datasets/Religion8I4P40MG/column/SharedBeliefs>,
+        <http://metaUnionSearch/datasets/Religion8I4P40MG/column/SocioDemographicData>,
+        <http://metaUnionSearch/datasets/Religion8I4P40MG/column/Symbols>,
+        <http://metaUnionSearch/datasets/Religion8I4P40MG/column/TextualSources>,
+        <http://metaUnionSearch/datasets/Religion8I4P40MG/column/WorshippedDeity> .
+

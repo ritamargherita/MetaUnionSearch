@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2> a dsv:Dataset ;
+    dcterms:subject "mythology" ;
+    dcterms:title "Mythology_6B9M80O2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Mythology6B9M80O2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Affiliation> a dsv:Column ;
+    rdfs:label "Affiliation" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2/column/AnatomicalCharacteristics> a dsv:Column ;
+    rdfs:label "Anatomical Characteristics" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Capabilities> a dsv:Column ;
+    rdfs:label "Capabilities" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Characteristics> a dsv:Column ;
+    rdfs:label "Characteristics" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2/column/ComparativeMythology> a dsv:Column ;
+    rdfs:label "Comparative Mythology" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Habitat> a dsv:Column ;
+    rdfs:label "Habitat" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Interactions> a dsv:Column ;
+    rdfs:label "Interactions" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Lifespan> a dsv:Column ;
+    rdfs:label "Lifespan" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2/column/MythicalBeing> a dsv:Column ;
+    rdfs:label "Mythical Being" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2/column/MythologicalSignificance> a dsv:Column ;
+    rdfs:label "Mythological Significance" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Origination> a dsv:Column ;
+    rdfs:label "Origination" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2/column/PopCultureAppearances> a dsv:Column ;
+    rdfs:label "Pop Culture Appearances" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Representation> a dsv:Column ;
+    rdfs:label "Representation" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Role> a dsv:Column ;
+    rdfs:label "Role" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Vulnerabilities> a dsv:Column ;
+    rdfs:label "Vulnerabilities" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/Mythology6B9M80O2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Affiliation>,
+        <http://metaUnionSearch/datasets/Mythology6B9M80O2/column/AnatomicalCharacteristics>,
+        <http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Capabilities>,
+        <http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Characteristics>,
+        <http://metaUnionSearch/datasets/Mythology6B9M80O2/column/ComparativeMythology>,
+        <http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Habitat>,
+        <http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Interactions>,
+        <http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Lifespan>,
+        <http://metaUnionSearch/datasets/Mythology6B9M80O2/column/MythicalBeing>,
+        <http://metaUnionSearch/datasets/Mythology6B9M80O2/column/MythologicalSignificance>,
+        <http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Origination>,
+        <http://metaUnionSearch/datasets/Mythology6B9M80O2/column/PopCultureAppearances>,
+        <http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Representation>,
+        <http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Role>,
+        <http://metaUnionSearch/datasets/Mythology6B9M80O2/column/Vulnerabilities> .
+

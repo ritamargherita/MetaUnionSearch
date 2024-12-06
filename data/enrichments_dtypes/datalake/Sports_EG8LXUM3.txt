@@ -1,0 +1,15 @@
+team
+name
+age
+rank
+rank
+capacity
+plays
+sales
+team
+capacity
+capacity
+city
+ranking
+name
+address

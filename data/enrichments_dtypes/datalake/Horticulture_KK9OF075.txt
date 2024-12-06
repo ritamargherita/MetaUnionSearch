@@ -1,0 +1,10 @@
+product
+age
+age
+brand
+description
+species
+description
+album
+brand
+component

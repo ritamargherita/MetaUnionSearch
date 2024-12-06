@@ -1,0 +1,10 @@
+artist
+credit
+year
+location
+name
+year
+notes
+notes
+status
+creator

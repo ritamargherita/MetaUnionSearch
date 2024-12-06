@@ -1,0 +1,14 @@
+species
+range
+species
+album
+range
+address
+name
+name
+name
+description
+classification
+species
+capacity
+address

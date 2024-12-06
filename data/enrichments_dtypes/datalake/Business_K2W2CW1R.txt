@@ -1,0 +1,12 @@
+capacity
+industry
+location
+year
+type
+address
+category
+industry
+description
+area
+area
+description

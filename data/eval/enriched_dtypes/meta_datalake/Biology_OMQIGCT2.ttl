@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BiologyOMQIGCT2> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_OMQIGCT2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BiologyOMQIGCT2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Adaptationmechanisms> a dsv:Column ;
+    rdfs:label " Adaptation mechanisms" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Biogeographicaldistribution> a dsv:Column ;
+    rdfs:label " Biogeographical distribution" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Climateadaptations> a dsv:Column ;
+    rdfs:label " Climate adaptations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Conservationstatus> a dsv:Column ;
+    rdfs:label " Conservation status" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Ecosystemrole> a dsv:Column ;
+    rdfs:label "Ecosystem role" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/GenomiccomparisonGainLossfunctions> a dsv:Column ;
+    rdfs:label " Genomic comparison (Gain/Loss functions)" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Habitatpreferences> a dsv:Column ;
+    rdfs:label " Habitat preferences" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Interactionswithenvironment> a dsv:Column ;
+    rdfs:label " Interactions with environment" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Phenotypicplasticity> a dsv:Column ;
+    rdfs:label " Phenotypic plasticity" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Populationgenetics> a dsv:Column ;
+    rdfs:label " Population genetics" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Trophiclevel> a dsv:Column ;
+    rdfs:label " Trophic level" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/BiologyOMQIGCT2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Adaptationmechanisms>,
+        <http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Biogeographicaldistribution>,
+        <http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Climateadaptations>,
+        <http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Conservationstatus>,
+        <http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Ecosystemrole>,
+        <http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/GenomiccomparisonGainLossfunctions>,
+        <http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Habitatpreferences>,
+        <http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Interactionswithenvironment>,
+        <http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Phenotypicplasticity>,
+        <http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Populationgenetics>,
+        <http://metaUnionSearch/datasets/BiologyOMQIGCT2/column/Trophiclevel> .
+

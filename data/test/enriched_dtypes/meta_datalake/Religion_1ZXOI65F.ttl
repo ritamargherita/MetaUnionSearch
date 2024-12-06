@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Religion1ZXOI65F> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_1ZXOI65F.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Religion1ZXOI65F/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column1> a dsv:Column ;
+    rdfs:label "\"Column 1" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column10> a dsv:Column ;
+    rdfs:label " Column 10" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column11> a dsv:Column ;
+    rdfs:label " Column 11\"" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column2> a dsv:Column ;
+    rdfs:label " Column 2" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column3> a dsv:Column ;
+    rdfs:label " Column 3" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column4> a dsv:Column ;
+    rdfs:label " Column 4" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column5> a dsv:Column ;
+    rdfs:label " Column 5" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column6> a dsv:Column ;
+    rdfs:label " Column 6" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column7> a dsv:Column ;
+    rdfs:label " Column 7" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column8> a dsv:Column ;
+    rdfs:label " Column 8" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column9> a dsv:Column ;
+    rdfs:label " Column 9" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Religion1ZXOI65F/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column1>,
+        <http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column10>,
+        <http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column11>,
+        <http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column2>,
+        <http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column3>,
+        <http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column4>,
+        <http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column5>,
+        <http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column6>,
+        <http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column7>,
+        <http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column8>,
+        <http://metaUnionSearch/datasets/Religion1ZXOI65F/column/Column9> .
+

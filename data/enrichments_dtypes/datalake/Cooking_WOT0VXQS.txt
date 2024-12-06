@@ -1,0 +1,15 @@
+rank
+capacity
+weight
+name
+capacity
+ranking
+address
+product
+product
+product
+category
+duration
+duration
+position
+industry

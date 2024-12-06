@@ -1,0 +1,10 @@
+address
+name
+publisher
+format
+name
+origin
+genre
+name
+product
+name

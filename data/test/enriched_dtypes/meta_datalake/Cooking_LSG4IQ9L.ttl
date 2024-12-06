@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CookingLSG4IQ9L> a dsv:Dataset ;
+    dcterms:subject "cooking" ;
+    dcterms:title "Cooking_LSG4IQ9L.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CookingLSG4IQ9L/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/CaloricContent> a dsv:Column ;
+    rdfs:label "CaloricContent" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/ChefName> a dsv:Column ;
+    rdfs:label "ChefName" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/CostPerMeal> a dsv:Column ;
+    rdfs:label "CostPerMeal" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/NumPansUsed> a dsv:Column ;
+    rdfs:label "NumPansUsed" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/Seasonality> a dsv:Column ;
+    rdfs:label "Seasonality" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/SpecialKitchenAppliance> a dsv:Column ;
+    rdfs:label "SpecialKitchenAppliance" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/VeganOrGlutenFree> a dsv:Column ;
+    rdfs:label "VeganOrGlutenFree" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/WebsiteURL> a dsv:Column ;
+    rdfs:label "WebsiteURL" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/WeightOfIngredients> a dsv:Column ;
+    rdfs:label "WeightOfIngredients" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/CookingLSG4IQ9L/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/CaloricContent>,
+        <http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/ChefName>,
+        <http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/CostPerMeal>,
+        <http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/NumPansUsed>,
+        <http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/Seasonality>,
+        <http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/SpecialKitchenAppliance>,
+        <http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/VeganOrGlutenFree>,
+        <http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/WebsiteURL>,
+        <http://metaUnionSearch/datasets/CookingLSG4IQ9L/column/WeightOfIngredients> .
+

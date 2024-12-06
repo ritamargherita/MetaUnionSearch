@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MythologyEVB9OOAE> a dsv:Dataset ;
+    dcterms:subject "mythology" ;
+    dcterms:title "Mythology_EVB9OOAE.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MythologyEVB9OOAE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/ArtisticPortrayals> a dsv:Column ;
+    rdfs:label " Artistic Portrayals" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/ConnectionstoMythologicalCreatures> a dsv:Column ;
+    rdfs:label " Connections to Mythological Creatures" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/CulturalImpact> a dsv:Column ;
+    rdfs:label " Cultural Impact" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/DivineResponsibilities> a dsv:Column ;
+    rdfs:label " Divine Responsibilities" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/DivinityWeakeningFactors> a dsv:Column ;
+    rdfs:label " Divinity Weakening Factors" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/Mythmaker> a dsv:Column ;
+    rdfs:label "Mythmaker" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/Originaddedtoensure14columns> a dsv:Column ;
+    rdfs:label " Origin (added to ensure 14 columns)" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/PowersetExpansion> a dsv:Column ;
+    rdfs:label " Powerset Expansion" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/RareAbilities> a dsv:Column ;
+    rdfs:label " Rare Abilities" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/ReligiousImportance> a dsv:Column ;
+    rdfs:label " Religious Importance" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/RoleExpositionsRelevanceinLesserKnownStoriesorTraditions> a dsv:Column ;
+    rdfs:label " Role Expositions & Relevance in Lesser Known Stories or Traditions" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/SocialStanding> a dsv:Column ;
+    rdfs:label " Social Standing" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/SymbolicRepresentation> a dsv:Column ;
+    rdfs:label " Symbolic Representation" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/TransformationCapabilities> a dsv:Column ;
+    rdfs:label " Transformation Capabilities" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/MythologyEVB9OOAE/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/ArtisticPortrayals>,
+        <http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/ConnectionstoMythologicalCreatures>,
+        <http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/CulturalImpact>,
+        <http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/DivineResponsibilities>,
+        <http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/DivinityWeakeningFactors>,
+        <http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/Mythmaker>,
+        <http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/Originaddedtoensure14columns>,
+        <http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/PowersetExpansion>,
+        <http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/RareAbilities>,
+        <http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/ReligiousImportance>,
+        <http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/RoleExpositionsRelevanceinLesserKnownStoriesorTraditions>,
+        <http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/SocialStanding>,
+        <http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/SymbolicRepresentation>,
+        <http://metaUnionSearch/datasets/MythologyEVB9OOAE/column/TransformationCapabilities> .
+

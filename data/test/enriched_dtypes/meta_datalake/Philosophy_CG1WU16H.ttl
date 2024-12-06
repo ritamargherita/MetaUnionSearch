@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhilosophyCG1WU16H> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_CG1WU16H.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhilosophyCG1WU16H/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/CenturyImpactFactor> a dsv:Column ;
+    rdfs:label "Century Impact Factor" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/CurriculumImpactofisms> a dsv:Column ;
+    rdfs:label "Curriculum Impact of \"isms\"" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/FamousThoughtExperiments> a dsv:Column ;
+    rdfs:label "Famous Thought Experiments" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/InspirationalQuotesforWomeninPhilosophy> a dsv:Column ;
+    rdfs:label "Inspirational Quotes for Women in Philosophy" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/IntersectionalityinEthics> a dsv:Column ;
+    rdfs:label "Intersectionality in Ethics" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/NumberofWomenPhilosophers> a dsv:Column ;
+    rdfs:label "Number of Women Philosophers" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/PhilosopherBirthplace> a dsv:Column ;
+    rdfs:label "Philosopher Birthplace" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/PhilosophersbyCentury> a dsv:Column ;
+    rdfs:label "Philosophers by Century" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/PhilosophyCurriculuminSchoolsToday> a dsv:Column ;
+    rdfs:label "Philosophy Curriculum in Schools Today" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/ProgressiveMovementsInfluenceonModernPedagogy> a dsv:Column ;
+    rdfs:label "Progressive Movements' Influence on Modern Pedagogy" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/QuotesaboutEducationandEpistemology> a dsv:Column ;
+    rdfs:label "Quotes about Education and Epistemology" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/RatedPhilosophyBooks> a dsv:Column ;
+    rdfs:label "Rated Philosophy Books" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/UniquePhilosophicalMethodologies> a dsv:Column ;
+    rdfs:label "Unique Philosophical Methodologies" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/UnrelatedColumn14> a dsv:Column ;
+    rdfs:label "Unrelated Column 14" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/PhilosophyCG1WU16H/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/CenturyImpactFactor>,
+        <http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/CurriculumImpactofisms>,
+        <http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/FamousThoughtExperiments>,
+        <http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/InspirationalQuotesforWomeninPhilosophy>,
+        <http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/IntersectionalityinEthics>,
+        <http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/NumberofWomenPhilosophers>,
+        <http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/PhilosopherBirthplace>,
+        <http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/PhilosophersbyCentury>,
+        <http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/PhilosophyCurriculuminSchoolsToday>,
+        <http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/ProgressiveMovementsInfluenceonModernPedagogy>,
+        <http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/QuotesaboutEducationandEpistemology>,
+        <http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/RatedPhilosophyBooks>,
+        <http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/UniquePhilosophicalMethodologies>,
+        <http://metaUnionSearch/datasets/PhilosophyCG1WU16H/column/UnrelatedColumn14> .
+

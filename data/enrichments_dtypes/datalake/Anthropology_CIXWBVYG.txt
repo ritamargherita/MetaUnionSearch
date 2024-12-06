@@ -1,0 +1,12 @@
+name
+year
+description
+notes
+description
+notes
+origin
+class
+person
+description
+notes
+description

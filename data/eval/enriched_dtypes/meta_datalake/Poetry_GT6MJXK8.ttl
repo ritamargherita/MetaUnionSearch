@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryGT6MJXK8> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_GT6MJXK8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryGT6MJXK8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/CulturalContextAnalysis> a dsv:Column ;
+    rdfs:label " Cultural Context Analysis" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/EthnicityExploration> a dsv:Column ;
+    rdfs:label " Ethnicity Exploration" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/GenderPoliticsRepresentation> a dsv:Column ;
+    rdfs:label " Gender Politics Representation" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/GeographicalAssociation> a dsv:Column ;
+    rdfs:label " Geographical Association" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/HistoricalEventConnection> a dsv:Column ;
+    rdfs:label " Historical Event Connection" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/InitialReaction> a dsv:Column ;
+    rdfs:label " Initial Reaction" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/LanguageOriginImpact> a dsv:Column ;
+    rdfs:label " Language Origin Impact" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/MusicalElements> a dsv:Column ;
+    rdfs:label " Musical Elements" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/PersonalInspiration> a dsv:Column ;
+    rdfs:label " Personal Inspiration" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/PhilosophicThoughtIntersection> a dsv:Column ;
+    rdfs:label " Philosophic Thought Intersection" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/PoetBiography> a dsv:Column ;
+    rdfs:label "Poet Biography" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/PublicationOverview> a dsv:Column ;
+    rdfs:label " Publication Overview" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/ReligiousThemes> a dsv:Column ;
+    rdfs:label " Religious Themes" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/VisualArtReferences> a dsv:Column ;
+    rdfs:label " Visual Art References" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PoetryGT6MJXK8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/CulturalContextAnalysis>,
+        <http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/EthnicityExploration>,
+        <http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/GenderPoliticsRepresentation>,
+        <http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/GeographicalAssociation>,
+        <http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/HistoricalEventConnection>,
+        <http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/InitialReaction>,
+        <http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/LanguageOriginImpact>,
+        <http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/MusicalElements>,
+        <http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/PersonalInspiration>,
+        <http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/PhilosophicThoughtIntersection>,
+        <http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/PoetBiography>,
+        <http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/PublicationOverview>,
+        <http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/ReligiousThemes>,
+        <http://metaUnionSearch/datasets/PoetryGT6MJXK8/column/VisualArtReferences> .
+

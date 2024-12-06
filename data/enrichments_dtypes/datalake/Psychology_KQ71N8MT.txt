@@ -1,0 +1,15 @@
+origin
+capacity
+age
+status
+type
+classification
+classification
+age
+age
+weight
+capacity
+age
+industry
+type
+address

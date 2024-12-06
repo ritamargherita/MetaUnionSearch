@@ -1,0 +1,13 @@
+type
+address
+weight
+weight
+capacity
+capacity
+classification
+address
+capacity
+company
+product
+name
+description

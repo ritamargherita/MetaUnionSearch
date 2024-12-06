@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ScienceSBZRAD5S> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_SBZRAD5S.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ScienceSBZRAD5S/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/ConceptDescription> a dsv:Column ;
+    rdfs:label " Concept Description" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/Conclusion> a dsv:Column ;
+    rdfs:label " Conclusion" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/DataAnalysisAlgorithmsUsed> a dsv:Column ;
+    rdfs:label " Data Analysis Algorithms Used" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/DiscussionofAnalysisMethod> a dsv:Column ;
+    rdfs:label " Discussion of Analysis Method" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/ExperimentalSetup> a dsv:Column ;
+    rdfs:label " Experimental Setup" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/ExternalFactors> a dsv:Column ;
+    rdfs:label " External Factors" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/Implications> a dsv:Column ;
+    rdfs:label " Implications." ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/MeasurementData> a dsv:Column ;
+    rdfs:label " Measurement Data" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/ParticlesInvolved> a dsv:Column ;
+    rdfs:label " Particles Involved" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/QuantumConcept> a dsv:Column ;
+    rdfs:label " Quantum Concept" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/QuantumPhysics> a dsv:Column ;
+    rdfs:label "Quantum Physics" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/ResultDiscussion> a dsv:Column ;
+    rdfs:label " Result Discussion" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/TestHypothesis> a dsv:Column ;
+    rdfs:label " Test Hypothesis" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSBZRAD5S/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/ConceptDescription>,
+        <http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/Conclusion>,
+        <http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/DataAnalysisAlgorithmsUsed>,
+        <http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/DiscussionofAnalysisMethod>,
+        <http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/ExperimentalSetup>,
+        <http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/ExternalFactors>,
+        <http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/Implications>,
+        <http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/MeasurementData>,
+        <http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/ParticlesInvolved>,
+        <http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/QuantumConcept>,
+        <http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/QuantumPhysics>,
+        <http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/ResultDiscussion>,
+        <http://metaUnionSearch/datasets/ScienceSBZRAD5S/column/TestHypothesis> .
+

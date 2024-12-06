@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Politics9LI16DH7> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_9LI16DH7.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Politics9LI16DH7/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Politics9LI16DH7/column/AnnualBudget> a dsv:Column ;
+    rdfs:label " Annual Budget" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/Politics9LI16DH7/column/DateofFoundation> a dsv:Column ;
+    rdfs:label " Date of Foundation" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/Politics9LI16DH7/column/HeadquartersLocation> a dsv:Column ;
+    rdfs:label " Headquarters Location" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/Politics9LI16DH7/column/IdeologicalStance> a dsv:Column ;
+    rdfs:label " Ideological Stance" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/Politics9LI16DH7/column/IdeologicalStance1> a dsv:Column ;
+    rdfs:label " Ideological Stance.1" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Politics9LI16DH7/column/MembershipCriteria> a dsv:Column ;
+    rdfs:label " Membership Criteria" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Politics9LI16DH7/column/MembershipDemographics> a dsv:Column ;
+    rdfs:label " Membership Demographics" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Politics9LI16DH7/column/NumberofScandals> a dsv:Column ;
+    rdfs:label " Number of Scandals" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/Politics9LI16DH7/column/PartyLeader> a dsv:Column ;
+    rdfs:label " Party Leader`" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Politics9LI16DH7/column/PolicyFocus> a dsv:Column ;
+    rdfs:label " Policy Focus" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Politics9LI16DH7/column/PoliticalParty> a dsv:Column ;
+    rdfs:label "`Political Party" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/Politics9LI16DH7/column/PoliticiansCount> a dsv:Column ;
+    rdfs:label " Politicians Count" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/Politics9LI16DH7/column/SourceofAnnualBudget> a dsv:Column ;
+    rdfs:label " Source of Annual Budget" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/Politics9LI16DH7/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Politics9LI16DH7/column/AnnualBudget>,
+        <http://metaUnionSearch/datasets/Politics9LI16DH7/column/DateofFoundation>,
+        <http://metaUnionSearch/datasets/Politics9LI16DH7/column/HeadquartersLocation>,
+        <http://metaUnionSearch/datasets/Politics9LI16DH7/column/IdeologicalStance>,
+        <http://metaUnionSearch/datasets/Politics9LI16DH7/column/IdeologicalStance1>,
+        <http://metaUnionSearch/datasets/Politics9LI16DH7/column/MembershipCriteria>,
+        <http://metaUnionSearch/datasets/Politics9LI16DH7/column/MembershipDemographics>,
+        <http://metaUnionSearch/datasets/Politics9LI16DH7/column/NumberofScandals>,
+        <http://metaUnionSearch/datasets/Politics9LI16DH7/column/PartyLeader>,
+        <http://metaUnionSearch/datasets/Politics9LI16DH7/column/PolicyFocus>,
+        <http://metaUnionSearch/datasets/Politics9LI16DH7/column/PoliticalParty>,
+        <http://metaUnionSearch/datasets/Politics9LI16DH7/column/PoliticiansCount>,
+        <http://metaUnionSearch/datasets/Politics9LI16DH7/column/SourceofAnnualBudget> .
+

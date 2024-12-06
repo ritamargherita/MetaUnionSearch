@@ -1,0 +1,15 @@
+address
+status
+company
+address
+artist
+duration
+result
+education
+album
+position
+artist
+product
+director
+album
+description

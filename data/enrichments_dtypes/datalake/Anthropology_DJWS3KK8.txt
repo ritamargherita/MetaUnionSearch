@@ -1,0 +1,11 @@
+name
+capacity
+name
+industry
+category
+classification
+description
+industry
+language
+religion
+classification

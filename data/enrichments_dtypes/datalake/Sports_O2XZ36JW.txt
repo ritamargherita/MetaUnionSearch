@@ -1,0 +1,11 @@
+album
+address
+address
+category
+capacity
+position
+result
+plays
+result
+age
+status

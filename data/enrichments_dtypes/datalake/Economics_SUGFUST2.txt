@@ -1,0 +1,12 @@
+address
+album
+year
+nationality
+state
+address
+service
+description
+description
+company
+industry
+format

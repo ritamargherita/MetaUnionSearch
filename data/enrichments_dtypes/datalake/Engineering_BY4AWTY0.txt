@@ -1,0 +1,13 @@
+artist
+name
+classification
+city
+age
+description
+publisher
+description
+description
+publisher
+publisher
+publisher
+description

@@ -1,0 +1,13 @@
+depth
+format
+format
+requirement
+position
+capacity
+range
+address
+operator
+position
+type
+range
+grades

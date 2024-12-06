@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CultureRMHVK3QL> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_RMHVK3QL.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CultureRMHVK3QL/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CultureRMHVK3QL/column/Architecture> a dsv:Column ;
+    rdfs:label " Architecture" ;
+    dcterms:type "club" .
+
+<http://metaUnionSearch/datasets/CultureRMHVK3QL/column/Cinematography> a dsv:Column ;
+    rdfs:label " Cinematography" ;
+    dcterms:type "credit" .
+
+<http://metaUnionSearch/datasets/CultureRMHVK3QL/column/CuisineTypes> a dsv:Column ;
+    rdfs:label " Cuisine Types" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CultureRMHVK3QL/column/CulturalSymbols> a dsv:Column ;
+    rdfs:label " Cultural Symbols" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/CultureRMHVK3QL/column/CustomaryRites> a dsv:Column ;
+    rdfs:label " Customary Rites" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/CultureRMHVK3QL/column/FashionTrends> a dsv:Column ;
+    rdfs:label " Fashion Trends" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CultureRMHVK3QL/column/Literature> a dsv:Column ;
+    rdfs:label "Literature" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CultureRMHVK3QL/column/NationalHolidays> a dsv:Column ;
+    rdfs:label " National Holidays" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/CultureRMHVK3QL/column/PerformingArts> a dsv:Column ;
+    rdfs:label " Performing Arts" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/CultureRMHVK3QL/column/SportsandRecreation> a dsv:Column ;
+    rdfs:label " Sports and Recreation" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/CultureRMHVK3QL/column/VisualArts> a dsv:Column ;
+    rdfs:label " Visual Arts" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/CultureRMHVK3QL/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CultureRMHVK3QL/column/Architecture>,
+        <http://metaUnionSearch/datasets/CultureRMHVK3QL/column/Cinematography>,
+        <http://metaUnionSearch/datasets/CultureRMHVK3QL/column/CuisineTypes>,
+        <http://metaUnionSearch/datasets/CultureRMHVK3QL/column/CulturalSymbols>,
+        <http://metaUnionSearch/datasets/CultureRMHVK3QL/column/CustomaryRites>,
+        <http://metaUnionSearch/datasets/CultureRMHVK3QL/column/FashionTrends>,
+        <http://metaUnionSearch/datasets/CultureRMHVK3QL/column/Literature>,
+        <http://metaUnionSearch/datasets/CultureRMHVK3QL/column/NationalHolidays>,
+        <http://metaUnionSearch/datasets/CultureRMHVK3QL/column/PerformingArts>,
+        <http://metaUnionSearch/datasets/CultureRMHVK3QL/column/SportsandRecreation>,
+        <http://metaUnionSearch/datasets/CultureRMHVK3QL/column/VisualArts> .
+

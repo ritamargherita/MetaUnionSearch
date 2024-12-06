@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArcheologyMTZX272H> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_MTZX272H.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArcheologyMTZX272H/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/AdditionalSiteInfo> a dsv:Column ;
+    rdfs:label "AdditionalSiteInfo" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ArtifactAttribute1> a dsv:Column ;
+    rdfs:label " ArtifactAttribute_1" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ArtifactAttribute2> a dsv:Column ;
+    rdfs:label " ArtifactAttribute_2" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ArtifactAttribute3> a dsv:Column ;
+    rdfs:label " ArtifactAttribute_3" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ArtifactAttribute4> a dsv:Column ;
+    rdfs:label " ArtifactAttribute_4" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ArtifactAttribute5> a dsv:Column ;
+    rdfs:label " ArtifactAttribute_5" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ArtifactAttribute6> a dsv:Column ;
+    rdfs:label " ArtifactAttribute_6" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ArtifactAttribute7> a dsv:Column ;
+    rdfs:label " ArtifactAttribute_7" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ArtifactAttribute8> a dsv:Column ;
+    rdfs:label " ArtifactAttribute_8" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ClimateChangeImpactAnalysis> a dsv:Column ;
+    rdfs:label " ClimateChangeImpactAnalysis" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/CollaborativeResearchInitiatives> a dsv:Column ;
+    rdfs:label " CollaborativeResearchInitiatives" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ConservationMethodsUsed> a dsv:Column ;
+    rdfs:label " ConservationMethodsUsed" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/CulturalAffiliation> a dsv:Column ;
+    rdfs:label " CulturalAffiliation" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/UniqueArtifactID1> a dsv:Column ;
+    rdfs:label " UniqueArtifactID_1" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ArcheologyMTZX272H/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/AdditionalSiteInfo>,
+        <http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ArtifactAttribute1>,
+        <http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ArtifactAttribute2>,
+        <http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ArtifactAttribute3>,
+        <http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ArtifactAttribute4>,
+        <http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ArtifactAttribute5>,
+        <http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ArtifactAttribute6>,
+        <http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ArtifactAttribute7>,
+        <http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ArtifactAttribute8>,
+        <http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ClimateChangeImpactAnalysis>,
+        <http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/CollaborativeResearchInitiatives>,
+        <http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/ConservationMethodsUsed>,
+        <http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/CulturalAffiliation>,
+        <http://metaUnionSearch/datasets/ArcheologyMTZX272H/column/UniqueArtifactID1> .
+

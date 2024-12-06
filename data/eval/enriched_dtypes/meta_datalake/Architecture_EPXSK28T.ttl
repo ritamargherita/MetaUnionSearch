@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArchitectureEPXSK28T> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_EPXSK28T.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArchitectureEPXSK28T/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/> a dsv:Column ;
+    rdfs:label "\"_" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/BuildingImage> a dsv:Column ;
+    rdfs:label " Building Image" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/ConstructionTimeline> a dsv:Column ;
+    rdfs:label " Construction Timeline" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/DesignersTeam> a dsv:Column ;
+    rdfs:label " Designers & Team" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/HistoricalFactors> a dsv:Column ;
+    rdfs:label " Historical Factors" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/ID> a dsv:Column ;
+    rdfs:label "\"_ID" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/Location> a dsv:Column ;
+    rdfs:label " Location" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/Material> a dsv:Column ;
+    rdfs:label " Material" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/NaturalSurroundings> a dsv:Column ;
+    rdfs:label " Natural Surroundings" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/Size> a dsv:Column ;
+    rdfs:label " Size" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/SpaceDistribution> a dsv:Column ;
+    rdfs:label " Space Distribution" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/SustainabilityScore> a dsv:Column ;
+    rdfs:label " Sustainability Score" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPXSK28T/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/>,
+        <http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/BuildingImage>,
+        <http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/ConstructionTimeline>,
+        <http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/DesignersTeam>,
+        <http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/HistoricalFactors>,
+        <http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/ID>,
+        <http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/Location>,
+        <http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/Material>,
+        <http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/NaturalSurroundings>,
+        <http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/Size>,
+        <http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/SpaceDistribution>,
+        <http://metaUnionSearch/datasets/ArchitectureEPXSK28T/column/SustainabilityScore> .
+

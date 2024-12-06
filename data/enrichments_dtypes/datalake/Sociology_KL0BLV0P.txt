@@ -1,0 +1,16 @@
+species
+category
+description
+description
+capacity
+education
+album
+description
+description
+notes
+notes
+status
+area
+description
+description
+artist

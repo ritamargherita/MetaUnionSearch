@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeneticsN12O0V3Z> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_N12O0V3Z.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeneticsN12O0V3Z/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeneticsN12O0V3Z/column/ChromosomeLocation> a dsv:Column ;
+    rdfs:label " Chromosome Location" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GeneticsN12O0V3Z/column/ChromosomeNumber> a dsv:Column ;
+    rdfs:label " Chromosome Number" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/GeneticsN12O0V3Z/column/ExpressionPattern> a dsv:Column ;
+    rdfs:label " Expression Pattern" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/GeneticsN12O0V3Z/column/GeneticDisorder> a dsv:Column ;
+    rdfs:label "Genetic Disorder" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/GeneticsN12O0V3Z/column/InheritancePattern> a dsv:Column ;
+    rdfs:label " Inheritance Pattern" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsN12O0V3Z/column/PrevalenceRate> a dsv:Column ;
+    rdfs:label " Prevalence Rate" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/GeneticsN12O0V3Z/column/Symptoms> a dsv:Column ;
+    rdfs:label " Symptoms" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsN12O0V3Z/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeneticsN12O0V3Z/column/ChromosomeLocation>,
+        <http://metaUnionSearch/datasets/GeneticsN12O0V3Z/column/ChromosomeNumber>,
+        <http://metaUnionSearch/datasets/GeneticsN12O0V3Z/column/ExpressionPattern>,
+        <http://metaUnionSearch/datasets/GeneticsN12O0V3Z/column/GeneticDisorder>,
+        <http://metaUnionSearch/datasets/GeneticsN12O0V3Z/column/InheritancePattern>,
+        <http://metaUnionSearch/datasets/GeneticsN12O0V3Z/column/PrevalenceRate>,
+        <http://metaUnionSearch/datasets/GeneticsN12O0V3Z/column/Symptoms> .
+

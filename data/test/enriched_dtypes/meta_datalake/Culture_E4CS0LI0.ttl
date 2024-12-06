@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CultureE4CS0LI0> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_E4CS0LI0.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CultureE4CS0LI0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CultureE4CS0LI0/column/Architecture> a dsv:Column ;
+    rdfs:label " Architecture" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CultureE4CS0LI0/column/ArtForms> a dsv:Column ;
+    rdfs:label " Art Forms" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/CultureE4CS0LI0/column/Folklore> a dsv:Column ;
+    rdfs:label " Folklore" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/CultureE4CS0LI0/column/Holidays> a dsv:Column ;
+    rdfs:label " Holidays" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CultureE4CS0LI0/column/LiteratureGenres> a dsv:Column ;
+    rdfs:label " Literature Genres" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/CultureE4CS0LI0/column/Poetry> a dsv:Column ;
+    rdfs:label " Poetry" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/CultureE4CS0LI0/column/QualitativeResearchApproaches> a dsv:Column ;
+    rdfs:label " Qualitative Research Approaches" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/CultureE4CS0LI0/column/QuantitativeResearchMethodologies> a dsv:Column ;
+    rdfs:label "Quantitative Research Methodologies" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/CultureE4CS0LI0/column/Recreation> a dsv:Column ;
+    rdfs:label " Recreation" ;
+    dcterms:type "command" .
+
+<http://metaUnionSearch/datasets/CultureE4CS0LI0/column/Sports> a dsv:Column ;
+    rdfs:label " Sports" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/CultureE4CS0LI0/column/Symbolism> a dsv:Column ;
+    rdfs:label " Symbolism" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/CultureE4CS0LI0/column/TraditionalPractices> a dsv:Column ;
+    rdfs:label " Traditional Practices" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/CultureE4CS0LI0/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CultureE4CS0LI0/column/Architecture>,
+        <http://metaUnionSearch/datasets/CultureE4CS0LI0/column/ArtForms>,
+        <http://metaUnionSearch/datasets/CultureE4CS0LI0/column/Folklore>,
+        <http://metaUnionSearch/datasets/CultureE4CS0LI0/column/Holidays>,
+        <http://metaUnionSearch/datasets/CultureE4CS0LI0/column/LiteratureGenres>,
+        <http://metaUnionSearch/datasets/CultureE4CS0LI0/column/Poetry>,
+        <http://metaUnionSearch/datasets/CultureE4CS0LI0/column/QualitativeResearchApproaches>,
+        <http://metaUnionSearch/datasets/CultureE4CS0LI0/column/QuantitativeResearchMethodologies>,
+        <http://metaUnionSearch/datasets/CultureE4CS0LI0/column/Recreation>,
+        <http://metaUnionSearch/datasets/CultureE4CS0LI0/column/Sports>,
+        <http://metaUnionSearch/datasets/CultureE4CS0LI0/column/Symbolism>,
+        <http://metaUnionSearch/datasets/CultureE4CS0LI0/column/TraditionalPractices> .
+

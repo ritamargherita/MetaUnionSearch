@@ -1,0 +1,13 @@
+name
+notes
+notes
+description
+format
+album
+notes
+description
+description
+description
+creator
+album
+region

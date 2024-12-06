@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SportsV1ITUM4U> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_V1ITUM4U.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SportsV1ITUM4U/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SportsV1ITUM4U/column/AverageMinutesPlayed> a dsv:Column ;
+    rdfs:label "Average Minutes Played" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/SportsV1ITUM4U/column/BlockShotsPerGame> a dsv:Column ;
+    rdfs:label "Block Shots Per Game" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/SportsV1ITUM4U/column/FieldGoalPercentage> a dsv:Column ;
+    rdfs:label "Field Goal Percentage" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/SportsV1ITUM4U/column/FoulingRate> a dsv:Column ;
+    rdfs:label "Fouling Rate" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/SportsV1ITUM4U/column/FreeThrowPercentage> a dsv:Column ;
+    rdfs:label "Free Throw Percentage" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/SportsV1ITUM4U/column/GamesPlayed> a dsv:Column ;
+    rdfs:label "Games Played" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/SportsV1ITUM4U/column/PlayerGivenName> a dsv:Column ;
+    rdfs:label "Player Given Name" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/SportsV1ITUM4U/column/PlayerSurname> a dsv:Column ;
+    rdfs:label "Player Surname" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/SportsV1ITUM4U/column/PositionType> a dsv:Column ;
+    rdfs:label "Position Type" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/SportsV1ITUM4U/column/ReboundAverage> a dsv:Column ;
+    rdfs:label "Rebound Average" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/SportsV1ITUM4U/column/StealAverage> a dsv:Column ;
+    rdfs:label "Steal Average" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/SportsV1ITUM4U/column/TeamAbbreviation> a dsv:Column ;
+    rdfs:label "Team Abbreviation" ;
+    dcterms:type "team" .
+
+<http://metaUnionSearch/datasets/SportsV1ITUM4U/column/TotalPointsScoredPerGame> a dsv:Column ;
+    rdfs:label "Total Points Scored Per Game" ;
+    dcterms:type "ranking" .
+
+<http://metaUnionSearch/datasets/SportsV1ITUM4U/column/TurnoverRatio> a dsv:Column ;
+    rdfs:label "Turnover Ratio" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/SportsV1ITUM4U/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SportsV1ITUM4U/column/AverageMinutesPlayed>,
+        <http://metaUnionSearch/datasets/SportsV1ITUM4U/column/BlockShotsPerGame>,
+        <http://metaUnionSearch/datasets/SportsV1ITUM4U/column/FieldGoalPercentage>,
+        <http://metaUnionSearch/datasets/SportsV1ITUM4U/column/FoulingRate>,
+        <http://metaUnionSearch/datasets/SportsV1ITUM4U/column/FreeThrowPercentage>,
+        <http://metaUnionSearch/datasets/SportsV1ITUM4U/column/GamesPlayed>,
+        <http://metaUnionSearch/datasets/SportsV1ITUM4U/column/PlayerGivenName>,
+        <http://metaUnionSearch/datasets/SportsV1ITUM4U/column/PlayerSurname>,
+        <http://metaUnionSearch/datasets/SportsV1ITUM4U/column/PositionType>,
+        <http://metaUnionSearch/datasets/SportsV1ITUM4U/column/ReboundAverage>,
+        <http://metaUnionSearch/datasets/SportsV1ITUM4U/column/StealAverage>,
+        <http://metaUnionSearch/datasets/SportsV1ITUM4U/column/TeamAbbreviation>,
+        <http://metaUnionSearch/datasets/SportsV1ITUM4U/column/TotalPointsScoredPerGame>,
+        <http://metaUnionSearch/datasets/SportsV1ITUM4U/column/TurnoverRatio> .
+

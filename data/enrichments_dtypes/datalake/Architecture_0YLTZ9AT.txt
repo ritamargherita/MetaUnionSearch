@@ -1,0 +1,15 @@
+address
+origin
+depth
+description
+range
+address
+depth
+person
+description
+notes
+name
+description
+notes
+format
+artist

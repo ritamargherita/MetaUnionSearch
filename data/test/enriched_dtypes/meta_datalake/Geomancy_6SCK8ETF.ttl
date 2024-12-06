@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geomancy6SCK8ETF> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_6SCK8ETF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geomancy6SCK8ETF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/AdditionalElementALS> a dsv:Column ;
+    rdfs:label "\"Additional ElementALS\"" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/DivineGuidANCESystems> a dsv:Column ;
+    rdfs:label "\"Divine GuidANCE Systems\"" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/EsotericalLore> a dsv:Column ;
+    rdfs:label "\"Esoterical Lore\"" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/ExpandedCulturalMeanings> a dsv:Column ;
+    rdfs:label "\"Expanded Cultural Meanings\"" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/GeometricFigures> a dsv:Column ;
+    rdfs:label "Geometric Figures" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/HistoricalOriginandEvolution> a dsv:Column ;
+    rdfs:label "\"Historical Origin and Evolution\"" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/OfDistinctCultivars> a dsv:Column ;
+    rdfs:label "\"#Of Distinct Cultivars\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/ShapeAttributes> a dsv:Column ;
+    rdfs:label "Shape Attributes" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/SymbolicInteractions> a dsv:Column ;
+    rdfs:label "\"Symbolic Interactions\"" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/UnconventionalResultsifapplicable> a dsv:Column ;
+    rdfs:label "\"Unconventional Results (if applicable)\"" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/UsagePopularityIndex> a dsv:Column ;
+    rdfs:label "\"Usage Popularity Index\"" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Geomancy6SCK8ETF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/AdditionalElementALS>,
+        <http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/DivineGuidANCESystems>,
+        <http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/EsotericalLore>,
+        <http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/ExpandedCulturalMeanings>,
+        <http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/GeometricFigures>,
+        <http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/HistoricalOriginandEvolution>,
+        <http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/OfDistinctCultivars>,
+        <http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/ShapeAttributes>,
+        <http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/SymbolicInteractions>,
+        <http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/UnconventionalResultsifapplicable>,
+        <http://metaUnionSearch/datasets/Geomancy6SCK8ETF/column/UsagePopularityIndex> .
+

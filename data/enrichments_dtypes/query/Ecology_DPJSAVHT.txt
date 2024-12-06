@@ -1,0 +1,11 @@
+person
+species
+origin
+album
+notes
+notes
+category
+classification
+description
+result
+description

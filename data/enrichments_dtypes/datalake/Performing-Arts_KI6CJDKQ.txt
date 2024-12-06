@@ -1,0 +1,10 @@
+credit
+address
+artist
+name
+genre
+album
+category
+artist
+artist
+origin

@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MythologyXWNREK8P> a dsv:Dataset ;
+    dcterms:subject "mythology" ;
+    dcterms:title "Mythology_XWNREK8P.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MythologyXWNREK8P/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MythologyXWNREK8P/column/DivineRolesResponsibilities> a dsv:Column ;
+    rdfs:label " Divine Roles & Responsibilities" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MythologyXWNREK8P/column/GoddessName> a dsv:Column ;
+    rdfs:label "Goddess Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyXWNREK8P/column/Habits> a dsv:Column ;
+    rdfs:label " Habits" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/MythologyXWNREK8P/column/ImportANCEinCULTURE> a dsv:Column ;
+    rdfs:label " ImportANCE in CULTURE" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MythologyXWNREK8P/column/Lifestyle> a dsv:Column ;
+    rdfs:label " Lifestyle" ;
+    dcterms:type "code" .
+
+<http://metaUnionSearch/datasets/MythologyXWNREK8P/column/ModernRepresentations> a dsv:Column ;
+    rdfs:label " Modern Representations" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/MythologyXWNREK8P/column/Origin> a dsv:Column ;
+    rdfs:label " Origin" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/MythologyXWNREK8P/column/PowERS> a dsv:Column ;
+    rdfs:label " PowERS" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyXWNREK8P/column/RelatedDeities> a dsv:Column ;
+    rdfs:label " Related Deities" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/MythologyXWNREK8P/column/RelatedMythologies> a dsv:Column ;
+    rdfs:label " Related Mythologies" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/MythologyXWNREK8P/column/SignificanceinMythsandLegends> a dsv:Column ;
+    rdfs:label " Significance in Myths and Legends" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/MythologyXWNREK8P/column/SymbolicAnimalsorObjects> a dsv:Column ;
+    rdfs:label " Symbolic Animals or Objects" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/MythologyXWNREK8P/column/WeAKneSSEs> a dsv:Column ;
+    rdfs:label " WeAKneSSEs$" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyXWNREK8P/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MythologyXWNREK8P/column/DivineRolesResponsibilities>,
+        <http://metaUnionSearch/datasets/MythologyXWNREK8P/column/GoddessName>,
+        <http://metaUnionSearch/datasets/MythologyXWNREK8P/column/Habits>,
+        <http://metaUnionSearch/datasets/MythologyXWNREK8P/column/ImportANCEinCULTURE>,
+        <http://metaUnionSearch/datasets/MythologyXWNREK8P/column/Lifestyle>,
+        <http://metaUnionSearch/datasets/MythologyXWNREK8P/column/ModernRepresentations>,
+        <http://metaUnionSearch/datasets/MythologyXWNREK8P/column/Origin>,
+        <http://metaUnionSearch/datasets/MythologyXWNREK8P/column/PowERS>,
+        <http://metaUnionSearch/datasets/MythologyXWNREK8P/column/RelatedDeities>,
+        <http://metaUnionSearch/datasets/MythologyXWNREK8P/column/RelatedMythologies>,
+        <http://metaUnionSearch/datasets/MythologyXWNREK8P/column/SignificanceinMythsandLegends>,
+        <http://metaUnionSearch/datasets/MythologyXWNREK8P/column/SymbolicAnimalsorObjects>,
+        <http://metaUnionSearch/datasets/MythologyXWNREK8P/column/WeAKneSSEs> .
+

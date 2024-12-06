@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_24IQLUSM.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/ClinicSchedule> a dsv:Column ;
+    rdfs:label " Clinic Schedule" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/ContinuingEducationCoursesAttended> a dsv:Column ;
+    rdfs:label " Continuing Education Courses Attended" ;
+    dcterms:type "service" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/EmergencyServices> a dsv:Column ;
+    rdfs:label " Emergency Services" ;
+    dcterms:type "day" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/HospitalNameandAddress> a dsv:Column ;
+    rdfs:label " Hospital Name and Address" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/LicenseNumber> a dsv:Column ;
+    rdfs:label " License Number" ;
+    dcterms:type "ranking" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/MedicalEquipmentAvailable> a dsv:Column ;
+    rdfs:label " Medical Equipment Available" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/NumberOfPatientsTreatedToday> a dsv:Column ;
+    rdfs:label " Number Of Patients Treated Today" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/PharmacyInventory> a dsv:Column ;
+    rdfs:label " Pharmacy Inventory" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/ProfessionalAffiliates> a dsv:Column ;
+    rdfs:label " Professional Affiliates" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/ResearchPublications> a dsv:Column ;
+    rdfs:label " Research Publications" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/Specialization> a dsv:Column ;
+    rdfs:label " Specialization" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/VeterinarianName> a dsv:Column ;
+    rdfs:label "Veterinarian Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/YearsOfExperience> a dsv:Column ;
+    rdfs:label " Years Of Experience" ;
+    dcterms:type "day" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/ClinicSchedule>,
+        <http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/ContinuingEducationCoursesAttended>,
+        <http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/EmergencyServices>,
+        <http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/HospitalNameandAddress>,
+        <http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/LicenseNumber>,
+        <http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/MedicalEquipmentAvailable>,
+        <http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/NumberOfPatientsTreatedToday>,
+        <http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/PharmacyInventory>,
+        <http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/ProfessionalAffiliates>,
+        <http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/ResearchPublications>,
+        <http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/Specialization>,
+        <http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/VeterinarianName>,
+        <http://metaUnionSearch/datasets/VeterinaryScience24IQLUSM/column/YearsOfExperience> .
+

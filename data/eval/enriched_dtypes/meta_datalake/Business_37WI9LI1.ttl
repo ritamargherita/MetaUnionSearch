@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Business37WI9LI1> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_37WI9LI1.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Business37WI9LI1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Business37WI9LI1/column/BusinessExpansionPlans> a dsv:Column ;
+    rdfs:label "BusinessExpansionPlans" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/Business37WI9LI1/column/CensusClassificationCodeegNAICS> a dsv:Column ;
+    rdfs:label " Census Classification Code (e.g., NAICS)" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Business37WI9LI1/column/CompanyName> a dsv:Column ;
+    rdfs:label " Company Name" ;
+    dcterms:type "industry" .
+
+<http://metaUnionSearch/datasets/Business37WI9LI1/column/EleventhColumn> a dsv:Column ;
+    rdfs:label " *EleventhColumn*" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/Business37WI9LI1/column/ExpansionCost> a dsv:Column ;
+    rdfs:label " ExpansionCost" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Business37WI9LI1/column/ExpansionFinancing> a dsv:Column ;
+    rdfs:label " ExpansionFinancing" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Business37WI9LI1/column/GrossMarginComparison> a dsv:Column ;
+    rdfs:label " GrossMarginComparison" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Business37WI9LI1/column/NetProfitMarginComparison> a dsv:Column ;
+    rdfs:label " NetProfitMarginComparison" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/Business37WI9LI1/column/NewHireCount> a dsv:Column ;
+    rdfs:label " NewHireCount" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/Business37WI9LI1/column/NewLocation> a dsv:Column ;
+    rdfs:label " NewLocation" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/Business37WI9LI1/column/RevenueGrowthRateComparison> a dsv:Column ;
+    rdfs:label " RevenueGrowthRateComparison" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Business37WI9LI1/column/RevenueProjection> a dsv:Column ;
+    rdfs:label " RevenueProjection" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Business37WI9LI1/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Business37WI9LI1/column/BusinessExpansionPlans>,
+        <http://metaUnionSearch/datasets/Business37WI9LI1/column/CensusClassificationCodeegNAICS>,
+        <http://metaUnionSearch/datasets/Business37WI9LI1/column/CompanyName>,
+        <http://metaUnionSearch/datasets/Business37WI9LI1/column/EleventhColumn>,
+        <http://metaUnionSearch/datasets/Business37WI9LI1/column/ExpansionCost>,
+        <http://metaUnionSearch/datasets/Business37WI9LI1/column/ExpansionFinancing>,
+        <http://metaUnionSearch/datasets/Business37WI9LI1/column/GrossMarginComparison>,
+        <http://metaUnionSearch/datasets/Business37WI9LI1/column/NetProfitMarginComparison>,
+        <http://metaUnionSearch/datasets/Business37WI9LI1/column/NewHireCount>,
+        <http://metaUnionSearch/datasets/Business37WI9LI1/column/NewLocation>,
+        <http://metaUnionSearch/datasets/Business37WI9LI1/column/RevenueGrowthRateComparison>,
+        <http://metaUnionSearch/datasets/Business37WI9LI1/column/RevenueProjection> .
+

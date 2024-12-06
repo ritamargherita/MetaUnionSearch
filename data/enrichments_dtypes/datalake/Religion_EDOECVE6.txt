@@ -1,0 +1,11 @@
+origin
+album
+name
+name
+location
+description
+classification
+description
+album
+organisation
+description

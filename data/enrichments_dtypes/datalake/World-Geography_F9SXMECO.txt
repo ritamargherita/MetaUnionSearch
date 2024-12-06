@@ -1,0 +1,10 @@
+country
+area
+capacity
+region
+address
+currency
+location
+result
+operator
+notes

@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronauticsIY7PGU7M> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_IY7PGU7M.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/AstronomerOnBoard> a dsv:Column ;
+    rdfs:label " Astronomer On Board" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/CrewCount> a dsv:Column ;
+    rdfs:label " Crew Count" ;
+    dcterms:type "ranking" .
+
+<http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/Durationdays> a dsv:Column ;
+    rdfs:label " Duration (days)" ;
+    dcterms:type "elevation" .
+
+<http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/EndDate> a dsv:Column ;
+    rdfs:label " End Date" ;
+    dcterms:type "birth Date" .
+
+<http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/FirstStageReturn> a dsv:Column ;
+    rdfs:label " First Stage Return?" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/MoonLandingSite> a dsv:Column ;
+    rdfs:label "Moon Landing Site" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/OrbitAchieved> a dsv:Column ;
+    rdfs:label " Orbit Achieved" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/PayloadsDeployed> a dsv:Column ;
+    rdfs:label " Payloads Deployed" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/PrimaryObjective> a dsv:Column ;
+    rdfs:label " Primary Objective" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/Reusable> a dsv:Column ;
+    rdfs:label " Reusable?" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/SpacecraftUsed> a dsv:Column ;
+    rdfs:label " Spacecraft Used" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/SurfaceSamplesCollected> a dsv:Column ;
+    rdfs:label " Surface Samples Collected" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/AstronomerOnBoard>,
+        <http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/CrewCount>,
+        <http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/Durationdays>,
+        <http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/EndDate>,
+        <http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/FirstStageReturn>,
+        <http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/MoonLandingSite>,
+        <http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/OrbitAchieved>,
+        <http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/PayloadsDeployed>,
+        <http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/PrimaryObjective>,
+        <http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/Reusable>,
+        <http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/SpacecraftUsed>,
+        <http://metaUnionSearch/datasets/AstronauticsIY7PGU7M/column/SurfaceSamplesCollected> .
+

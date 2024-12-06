@@ -1,0 +1,41 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Biology5CI6VG2G> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_5CI6VG2G.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Biology5CI6VG2G/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Biology5CI6VG2G/column/> a dsv:Column ;
+    rdfs:label "\\" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Biology5CI6VG2G/column/Adaptationsindifferentenvironments> a dsv:Column ;
+    rdfs:label " Adaptations in different environments" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Biology5CI6VG2G/column/Biologicalimportance> a dsv:Column ;
+    rdfs:label " Biological importance" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Biology5CI6VG2G/column/Evolutionaryrelationships> a dsv:Column ;
+    rdfs:label " Evolutionary relationships" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Biology5CI6VG2G/column/Hierarchicaltaxonomicclassification> a dsv:Column ;
+    rdfs:label " Hierarchical taxonomic classification" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Biology5CI6VG2G/column/Phylogenictreestructure> a dsv:Column ;
+    rdfs:label "Phylogenic tree structure" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/Biology5CI6VG2G/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Biology5CI6VG2G/column/>,
+        <http://metaUnionSearch/datasets/Biology5CI6VG2G/column/Adaptationsindifferentenvironments>,
+        <http://metaUnionSearch/datasets/Biology5CI6VG2G/column/Biologicalimportance>,
+        <http://metaUnionSearch/datasets/Biology5CI6VG2G/column/Evolutionaryrelationships>,
+        <http://metaUnionSearch/datasets/Biology5CI6VG2G/column/Hierarchicaltaxonomicclassification>,
+        <http://metaUnionSearch/datasets/Biology5CI6VG2G/column/Phylogenictreestructure> .
+

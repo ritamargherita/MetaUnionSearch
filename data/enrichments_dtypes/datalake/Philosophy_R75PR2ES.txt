@@ -1,0 +1,13 @@
+address
+notes
+result
+person
+description
+location
+class
+name
+origin
+album
+album
+description
+genre

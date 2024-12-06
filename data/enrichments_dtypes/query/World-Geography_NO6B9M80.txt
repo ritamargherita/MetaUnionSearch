@@ -1,0 +1,15 @@
+country
+continent
+address
+address
+depth
+location
+address
+address
+person
+region
+origin
+region
+origin
+language
+area

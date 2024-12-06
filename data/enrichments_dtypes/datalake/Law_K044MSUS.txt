@@ -1,0 +1,15 @@
+address
+status
+name
+company
+name
+name
+status
+status
+status
+type
+family
+component
+sales
+description
+address

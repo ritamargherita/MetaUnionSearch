@@ -1,0 +1,15 @@
+category
+description
+address
+category
+product
+description
+category
+industry
+product
+currency
+industry
+year
+description
+year
+name

@@ -1,0 +1,12 @@
+name
+education
+area
+area
+description
+description
+description
+description
+credit
+description
+component
+description

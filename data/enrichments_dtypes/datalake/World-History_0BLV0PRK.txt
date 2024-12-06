@@ -1,0 +1,12 @@
+origin
+description
+age
+person
+description
+class
+currency
+position
+class
+description
+description
+description

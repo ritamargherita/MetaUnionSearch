@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EnvironmentUZET1PDP> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_UZET1PDP.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EnvironmentUZET1PDP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/EcozoneIntegrityIndex> a dsv:Column ;
+    rdfs:label "Ecozone\\_Integrity\\_Index" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/FreshwaterAvailability> a dsv:Column ;
+    rdfs:label "Freshwater\\_Availability" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/IndustrialEmissionLevels> a dsv:Column ;
+    rdfs:label "Industrial\\_Emission\\_Levels" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/InternationalConventionsSigned> a dsv:Column ;
+    rdfs:label "International\\_Conventions_Signed" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/NaturalDisasterFrequency> a dsv:Column ;
+    rdfs:label "Natural\\_Disaster\\_Frequency" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/NoisePollutionLevel> a dsv:Column ;
+    rdfs:label "Noise\\_Pollution\\_Level" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/PoliticalSupportScore> a dsv:Column ;
+    rdfs:label "Political\\_Support\\_Score" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/PublicEngagementScore> a dsv:Column ;
+    rdfs:label "Public\\_Engagement\\_Score" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/RecyclingRate> a dsv:Column ;
+    rdfs:label "Recycling\\_Rate%" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/ResearchInvestment> a dsv:Column ;
+    rdfs:label "Research\\_Investment" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/WasteManagement> a dsv:Column ;
+    rdfs:label "Waste\\_Management" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EnvironmentUZET1PDP/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/EcozoneIntegrityIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/FreshwaterAvailability>,
+        <http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/IndustrialEmissionLevels>,
+        <http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/InternationalConventionsSigned>,
+        <http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/NaturalDisasterFrequency>,
+        <http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/NoisePollutionLevel>,
+        <http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/PoliticalSupportScore>,
+        <http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/PublicEngagementScore>,
+        <http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/RecyclingRate>,
+        <http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/ResearchInvestment>,
+        <http://metaUnionSearch/datasets/EnvironmentUZET1PDP/column/WasteManagement> .
+

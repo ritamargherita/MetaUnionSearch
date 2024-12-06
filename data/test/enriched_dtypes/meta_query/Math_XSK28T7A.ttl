@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathXSK28T7A> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_XSK28T7A.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathXSK28T7A/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathXSK28T7A/column/Applications> a dsv:Column ;
+    rdfs:label "\"Applications\"" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/MathXSK28T7A/column/Challenges> a dsv:Column ;
+    rdfs:label "\"Challenges\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathXSK28T7A/column/CurrentUses> a dsv:Column ;
+    rdfs:label "\"Current Uses\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathXSK28T7A/column/Definition> a dsv:Column ;
+    rdfs:label "\"Definition\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathXSK28T7A/column/Examples> a dsv:Column ;
+    rdfs:label "\"Examples\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathXSK28T7A/column/Extensions> a dsv:Column ;
+    rdfs:label "\"Extensions\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathXSK28T7A/column/FutureImplications> a dsv:Column ;
+    rdfs:label "\"Future Implications\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathXSK28T7A/column/HistoricalContext> a dsv:Column ;
+    rdfs:label "\"Historical Context\"" ;
+    dcterms:type "owner" .
+
+<http://metaUnionSearch/datasets/MathXSK28T7A/column/KeyFigures> a dsv:Column ;
+    rdfs:label "\"Key Figures\"" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/MathXSK28T7A/column/MathConcept> a dsv:Column ;
+    rdfs:label "\"Math Concept\"" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/MathXSK28T7A/column/Misconceptions> a dsv:Column ;
+    rdfs:label "\"Misconceptions\"" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/MathXSK28T7A/column/Operations> a dsv:Column ;
+    rdfs:label "\"Operations\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathXSK28T7A/column/Properties> a dsv:Column ;
+    rdfs:label "\"Properties\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathXSK28T7A/column/Symbolism> a dsv:Column ;
+    rdfs:label "\"Symbolism\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathXSK28T7A/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MathXSK28T7A/column/Applications>,
+        <http://metaUnionSearch/datasets/MathXSK28T7A/column/Challenges>,
+        <http://metaUnionSearch/datasets/MathXSK28T7A/column/CurrentUses>,
+        <http://metaUnionSearch/datasets/MathXSK28T7A/column/Definition>,
+        <http://metaUnionSearch/datasets/MathXSK28T7A/column/Examples>,
+        <http://metaUnionSearch/datasets/MathXSK28T7A/column/Extensions>,
+        <http://metaUnionSearch/datasets/MathXSK28T7A/column/FutureImplications>,
+        <http://metaUnionSearch/datasets/MathXSK28T7A/column/HistoricalContext>,
+        <http://metaUnionSearch/datasets/MathXSK28T7A/column/KeyFigures>,
+        <http://metaUnionSearch/datasets/MathXSK28T7A/column/MathConcept>,
+        <http://metaUnionSearch/datasets/MathXSK28T7A/column/Misconceptions>,
+        <http://metaUnionSearch/datasets/MathXSK28T7A/column/Operations>,
+        <http://metaUnionSearch/datasets/MathXSK28T7A/column/Properties>,
+        <http://metaUnionSearch/datasets/MathXSK28T7A/column/Symbolism> .
+

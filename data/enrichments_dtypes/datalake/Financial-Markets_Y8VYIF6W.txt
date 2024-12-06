@@ -1,0 +1,12 @@
+company
+industry
+address
+position
+address
+range
+result
+sales
+category
+credit
+product
+category

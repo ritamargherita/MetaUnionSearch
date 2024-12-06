@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArchitectureG1OL73D9> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_G1OL73D9.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArchitectureG1OL73D9/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/ArchitectDesignFirm> a dsv:Column ;
+    rdfs:label " \"Architect/Design Firm\"" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/BuildingType> a dsv:Column ;
+    rdfs:label "\"Building Type\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/ConstructionTimeline> a dsv:Column ;
+    rdfs:label " \"Construction Timeline\"" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/DetailedStyle> a dsv:Column ;
+    rdfs:label " \"Detailed Style\"" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/EnergyEfficiencyScore> a dsv:Column ;
+    rdfs:label " \"Energy Efficiency Score\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/FunctionalZoning> a dsv:Column ;
+    rdfs:label " \"Functional Zoning\"" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/GeographicalLocation> a dsv:Column ;
+    rdfs:label " \"Geographical Location\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/GlobalMaterialType> a dsv:Column ;
+    rdfs:label " \"Global Material Type\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/GrossFloorArea> a dsv:Column ;
+    rdfs:label " \"Gross Floor Area\"" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/HistoricalPeriod> a dsv:Column ;
+    rdfs:label " \"Historical Period\"" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/HistoricalSignificance> a dsv:Column ;
+    rdfs:label " \"Historical Significance\"" ;
+    dcterms:type "credit" .
+
+<http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/SitePlanning> a dsv:Column ;
+    rdfs:label " \"Site Planning\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/UniqueFeatures> a dsv:Column ;
+    rdfs:label " \"Unique Features\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArchitectureG1OL73D9/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/ArchitectDesignFirm>,
+        <http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/BuildingType>,
+        <http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/ConstructionTimeline>,
+        <http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/DetailedStyle>,
+        <http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/EnergyEfficiencyScore>,
+        <http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/FunctionalZoning>,
+        <http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/GeographicalLocation>,
+        <http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/GlobalMaterialType>,
+        <http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/GrossFloorArea>,
+        <http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/HistoricalPeriod>,
+        <http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/HistoricalSignificance>,
+        <http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/SitePlanning>,
+        <http://metaUnionSearch/datasets/ArchitectureG1OL73D9/column/UniqueFeatures> .
+

@@ -1,0 +1,12 @@
+album
+address
+album
+capacity
+album
+city
+album
+area
+album
+position
+category
+description

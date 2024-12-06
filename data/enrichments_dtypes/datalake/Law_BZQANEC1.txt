@@ -1,0 +1,16 @@
+team
+address
+description
+name
+status
+description
+description
+category
+category
+name
+notes
+description
+description
+description
+artist
+status

@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeographyMTZX272H> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_MTZX272H.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeographyMTZX272H/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/AirportCode> a dsv:Column ;
+    rdfs:label "\"Airport Code\"" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/BikeSharingProgramExists> a dsv:Column ;
+    rdfs:label "\"Bike Sharing Program Exists\"" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/CableCarSystems> a dsv:Column ;
+    rdfs:label "\"Cable Car Systems\"" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/CityNames> a dsv:Column ;
+    rdfs:label "\"City Names\"" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/Countriescontainingthecity> a dsv:Column ;
+    rdfs:label "\"Countries containing the city\"" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/ElectricVehicleChargingStationsCountCoverage> a dsv:Column ;
+    rdfs:label "\"Electric Vehicle Charging Stations Count & Coverage\"" ;
+    dcterms:type "team" .
+
+<http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/FamousLandmarks> a dsv:Column ;
+    rdfs:label "\"Famous Landmarks\"" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/GovernmentType> a dsv:Column ;
+    rdfs:label "\"Government Type\"" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/GreenSpaces> a dsv:Column ;
+    rdfs:label "\"Green Spaces (%)\"" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/MainAirporttoMainAttractionsPublicTransitConnectivity> a dsv:Column ;
+    rdfs:label "\"Main Airport to Main Attractions Public Transit Connectivity\"" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/MetropolitanAreaPopulations> a dsv:Column ;
+    rdfs:label "\"Metropolitan Area Populations\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/OfUniversitieswithinCityLimits> a dsv:Column ;
+    rdfs:label "\"# Of Universities within City Limits\"" ;
+    dcterms:type "ranking" .
+
+<http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/PublicTransportation> a dsv:Column ;
+    rdfs:label "\"Public Transportation\"" ;
+    dcterms:type "operator" .
+
+<http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/UNESCOSite> a dsv:Column ;
+    rdfs:label "\"UNESCO Site\"" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/WorldGeographyMTZX272H/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/AirportCode>,
+        <http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/BikeSharingProgramExists>,
+        <http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/CableCarSystems>,
+        <http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/CityNames>,
+        <http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/Countriescontainingthecity>,
+        <http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/ElectricVehicleChargingStationsCountCoverage>,
+        <http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/FamousLandmarks>,
+        <http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/GovernmentType>,
+        <http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/GreenSpaces>,
+        <http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/MainAirporttoMainAttractionsPublicTransitConnectivity>,
+        <http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/MetropolitanAreaPopulations>,
+        <http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/OfUniversitieswithinCityLimits>,
+        <http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/PublicTransportation>,
+        <http://metaUnionSearch/datasets/WorldGeographyMTZX272H/column/UNESCOSite> .
+

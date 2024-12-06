@@ -1,0 +1,14 @@
+brand
+name
+address
+address
+credit
+type
+range
+capacity
+file Size
+album
+duration
+city
+country
+duration

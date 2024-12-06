@@ -1,0 +1,12 @@
+director
+year
+capacity
+album
+origin
+elevation
+album
+code
+notes
+album
+result
+area

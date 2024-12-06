@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MythologyRJNVGFYG> a dsv:Dataset ;
+    dcterms:subject "mythology" ;
+    dcterms:title "Mythology_RJNVGFYG.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MythologyRJNVGFYG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Abilities> a dsv:Column ;
+    rdfs:label "Abilities" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Birthplace> a dsv:Column ;
+    rdfs:label "Birthplace" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Domain> a dsv:Column ;
+    rdfs:label "Domain" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Family> a dsv:Column ;
+    rdfs:label "Family" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Festivals> a dsv:Column ;
+    rdfs:label "Festivals" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Godheads> a dsv:Column ;
+    rdfs:label "Godheads" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/ModernInfluence> a dsv:Column ;
+    rdfs:label "Modern Influence" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Reincarnations> a dsv:Column ;
+    rdfs:label "Reincarnations" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Rituals> a dsv:Column ;
+    rdfs:label "Rituals" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/SpouseChildren> a dsv:Column ;
+    rdfs:label "Spouse & Children" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Symbols> a dsv:Column ;
+    rdfs:label "Symbols" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/MythologyRJNVGFYG/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Abilities>,
+        <http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Birthplace>,
+        <http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Domain>,
+        <http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Family>,
+        <http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Festivals>,
+        <http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Godheads>,
+        <http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/ModernInfluence>,
+        <http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Reincarnations>,
+        <http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Rituals>,
+        <http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/SpouseChildren>,
+        <http://metaUnionSearch/datasets/MythologyRJNVGFYG/column/Symbols> .
+

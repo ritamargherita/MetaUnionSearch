@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_G3BHK23A.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhotographyG3BHK23A/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/Category> a dsv:Column ;
+    rdfs:label " Category" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/DateUploadedToSocialMedia> a dsv:Column ;
+    rdfs:label " Date Uploaded To Social Media" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/EditingSoftwareUsed> a dsv:Column ;
+    rdfs:label " Editing Software Used" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/ExternalStorageDevice> a dsv:Column ;
+    rdfs:label " External Storage Device" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/LocationShootage> a dsv:Column ;
+    rdfs:label " Location Shootage" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/PhotoSizeinMB> a dsv:Column ;
+    rdfs:label " Photo Size (in MB)" ;
+    dcterms:type "ranking" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/PhotoTitle> a dsv:Column ;
+    rdfs:label "Photo Title" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/PostProcessEditsMade> a dsv:Column ;
+    rdfs:label " Post Process Edits Made" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/PrivacySetting> a dsv:Column ;
+    rdfs:label " Privacy Setting." ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/ServerType> a dsv:Column ;
+    rdfs:label " Server Type" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/StorageFolderPath> a dsv:Column ;
+    rdfs:label " Storage Folder Path" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/ThumbnailCreated> a dsv:Column ;
+    rdfs:label " Thumbnail Created?" ;
+    dcterms:type "operator" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/TimeZone> a dsv:Column ;
+    rdfs:label " Time Zone" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/UploadPlatform> a dsv:Column ;
+    rdfs:label " Upload Platform" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/Category>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/DateUploadedToSocialMedia>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/EditingSoftwareUsed>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/ExternalStorageDevice>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/LocationShootage>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/PhotoSizeinMB>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/PhotoTitle>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/PostProcessEditsMade>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/PrivacySetting>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/ServerType>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/StorageFolderPath>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/ThumbnailCreated>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/TimeZone>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/UploadPlatform> .
+

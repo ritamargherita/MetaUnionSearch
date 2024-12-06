@@ -1,0 +1,12 @@
+code
+species
+sex
+capacity
+product
+description
+description
+description
+description
+duration
+name
+description

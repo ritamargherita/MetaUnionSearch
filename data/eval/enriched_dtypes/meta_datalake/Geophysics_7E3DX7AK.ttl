@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geophysics7E3DX7AK> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_7E3DX7AK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geophysics7E3DX7AK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/Amplitude> a dsv:Column ;
+    rdfs:label " Amplitude" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/Column1> a dsv:Column ;
+    rdfs:label "Column 1" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/Column3> a dsv:Column ;
+    rdfs:label " Column 3" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/Column4> a dsv:Column ;
+    rdfs:label " Column 4" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/Column5> a dsv:Column ;
+    rdfs:label " Column 5" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/Column8> a dsv:Column ;
+    rdfs:label " Column 8" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/FreeSurfaceEffect> a dsv:Column ;
+    rdfs:label " Free Surface Effect" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/GeologicHazardAssessment> a dsv:Column ;
+    rdfs:label " Geologic Hazard Assessment" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/Phase> a dsv:Column ;
+    rdfs:label " Phase" ;
+    dcterms:type "operator" .
+
+<http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/ReflectionEnergy> a dsv:Column ;
+    rdfs:label " Reflection Energy" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/SeaLevelChanges> a dsv:Column ;
+    rdfs:label " Sea Level Changes" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/TopographicCorrections> a dsv:Column ;
+    rdfs:label " Topographic Corrections" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/Geophysics7E3DX7AK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/Amplitude>,
+        <http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/Column1>,
+        <http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/Column3>,
+        <http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/Column4>,
+        <http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/Column5>,
+        <http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/Column8>,
+        <http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/FreeSurfaceEffect>,
+        <http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/GeologicHazardAssessment>,
+        <http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/Phase>,
+        <http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/ReflectionEnergy>,
+        <http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/SeaLevelChanges>,
+        <http://metaUnionSearch/datasets/Geophysics7E3DX7AK/column/TopographicCorrections> .
+

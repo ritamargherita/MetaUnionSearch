@@ -1,0 +1,12 @@
+address
+description
+category
+class
+product
+name
+description
+description
+species
+description
+person
+album

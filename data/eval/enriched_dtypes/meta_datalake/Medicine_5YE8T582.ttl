@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Medicine5YE8T582> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_5YE8T582.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Medicine5YE8T582/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Medicine5YE8T582/column/AdditionalInstructionsfromPharmacists> a dsv:Column ;
+    rdfs:label """\\
+Additional Instructions from Pharmacists""" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Medicine5YE8T582/column/AlternativeMedicineCondition> a dsv:Column ;
+    rdfs:label """\\
+Alternative Medicine Condition""" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/Medicine5YE8T582/column/DoseandInstructions> a dsv:Column ;
+    rdfs:label """\\
+Dose and Instructions""" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Medicine5YE8T582/column/ExpirationDate> a dsv:Column ;
+    rdfs:label """\\
+Expiration Date""" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Medicine5YE8T582/column/PatientInsuranceID> a dsv:Column ;
+    rdfs:label """\\
+Patient Insurance ID""" ;
+    dcterms:type "isbn" .
+
+<http://metaUnionSearch/datasets/Medicine5YE8T582/column/PrescriptionCharge> a dsv:Column ;
+    rdfs:label """\\
+Prescription Charge""" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Medicine5YE8T582/column/RecommendedHerbalSupplement> a dsv:Column ;
+    rdfs:label """\\
+Recommended Herbal Supplement""" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Medicine5YE8T582/column/TotalCostofTreatment> a dsv:Column ;
+    rdfs:label """\\
+Total Cost of Treatment""" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Medicine5YE8T582/column/TreatingSpecialist> a dsv:Column ;
+    rdfs:label """\\
+Treating Specialist""" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Medicine5YE8T582/column/UnionKey> a dsv:Column ;
+    rdfs:label """\\
+Union Key""" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/Medicine5YE8T582/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Medicine5YE8T582/column/AdditionalInstructionsfromPharmacists>,
+        <http://metaUnionSearch/datasets/Medicine5YE8T582/column/AlternativeMedicineCondition>,
+        <http://metaUnionSearch/datasets/Medicine5YE8T582/column/DoseandInstructions>,
+        <http://metaUnionSearch/datasets/Medicine5YE8T582/column/ExpirationDate>,
+        <http://metaUnionSearch/datasets/Medicine5YE8T582/column/PatientInsuranceID>,
+        <http://metaUnionSearch/datasets/Medicine5YE8T582/column/PrescriptionCharge>,
+        <http://metaUnionSearch/datasets/Medicine5YE8T582/column/RecommendedHerbalSupplement>,
+        <http://metaUnionSearch/datasets/Medicine5YE8T582/column/TotalCostofTreatment>,
+        <http://metaUnionSearch/datasets/Medicine5YE8T582/column/TreatingSpecialist>,
+        <http://metaUnionSearch/datasets/Medicine5YE8T582/column/UnionKey> .
+

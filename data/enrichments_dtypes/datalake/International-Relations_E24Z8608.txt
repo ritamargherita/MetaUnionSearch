@@ -1,0 +1,15 @@
+name
+religion
+language
+name
+age
+address
+range
+age
+sales
+sales
+category
+notes
+capacity
+area
+artist

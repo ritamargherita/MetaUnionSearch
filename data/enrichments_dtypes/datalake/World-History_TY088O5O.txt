@@ -1,0 +1,13 @@
+religion
+name
+album
+album
+album
+name
+album
+artist
+language
+name
+currency
+area
+artist

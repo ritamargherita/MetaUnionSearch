@@ -1,0 +1,13 @@
+name
+artist
+artist
+age
+artist
+artist
+description
+artist
+artist
+notes
+artist
+artist
+description

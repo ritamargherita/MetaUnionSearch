@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LiteratureREK8PK3Y> a dsv:Dataset ;
+    dcterms:subject "literature" ;
+    dcterms:title "Literature_REK8PK3Y.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LiteratureREK8PK3Y/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/AdaptationsOverTimeandAcrossMedia> a dsv:Column ;
+    rdfs:label " Adaptations Over Time and Across Media" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/AuthorsLifeEvents> a dsv:Column ;
+    rdfs:label " Author's Life Events." ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/AuthorsPurposeIntentions> a dsv:Column ;
+    rdfs:label " Author's Purpose & Intentions" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/CriticalReception> a dsv:Column ;
+    rdfs:label " Critical Reception" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/GeographicalInfluences> a dsv:Column ;
+    rdfs:label " Geographical Influences" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/InfluenceonOtherWorks> a dsv:Column ;
+    rdfs:label " Influence on Other Works" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/LiteraryMovements> a dsv:Column ;
+    rdfs:label " Literary Movements" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/Originality> a dsv:Column ;
+    rdfs:label " Originality" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/PublicResponse> a dsv:Column ;
+    rdfs:label " Public Response" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/ReligiousPhilosophicalThemes> a dsv:Column ;
+    rdfs:label " Religious & Philosophical Themes" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/Titleifapplicable> a dsv:Column ;
+    rdfs:label "Title (if applicable)" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LiteratureREK8PK3Y/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/AdaptationsOverTimeandAcrossMedia>,
+        <http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/AuthorsLifeEvents>,
+        <http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/AuthorsPurposeIntentions>,
+        <http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/CriticalReception>,
+        <http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/GeographicalInfluences>,
+        <http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/InfluenceonOtherWorks>,
+        <http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/LiteraryMovements>,
+        <http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/Originality>,
+        <http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/PublicResponse>,
+        <http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/ReligiousPhilosophicalThemes>,
+        <http://metaUnionSearch/datasets/LiteratureREK8PK3Y/column/Titleifapplicable> .
+

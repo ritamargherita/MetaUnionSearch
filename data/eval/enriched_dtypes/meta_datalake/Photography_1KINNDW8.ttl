@@ -1,0 +1,91 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_1KINNDW8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Photography1KINNDW8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/column/Category> a dsv:Column ;
+    rdfs:label " Category" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/column/ColorSpaceifapplicable> a dsv:Column ;
+    rdfs:label " Color Space (if applicable)" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/column/CopyrightInfo> a dsv:Column ;
+    rdfs:label " Copyright Info" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/column/DateUploaded> a dsv:Column ;
+    rdfs:label " Date Uploaded" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/column/Description> a dsv:Column ;
+    rdfs:label " Description" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/column/ImageURL> a dsv:Column ;
+    rdfs:label " Image URL" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/column/LocationShooting> a dsv:Column ;
+    rdfs:label " Location Shooting" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/column/OriginalFileSizeFormat> a dsv:Column ;
+    rdfs:label " Original File Size & Format" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/column/PhotoTitle> a dsv:Column ;
+    rdfs:label "Photo Title" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/column/PostProcessEdits> a dsv:Column ;
+    rdfs:label " Post Process Edits" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/column/PublishedOn> a dsv:Column ;
+    rdfs:label " Published On" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/column/RecommendedEquipment> a dsv:Column ;
+    rdfs:label " Recommended Equipment" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/column/SocialMediaLink> a dsv:Column ;
+    rdfs:label " Social Media Link" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/column/SoftwareUsed> a dsv:Column ;
+    rdfs:label " Software Used" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/column/TotalRating> a dsv:Column ;
+    rdfs:label " Total Rating" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/column/VersionHistory> a dsv:Column ;
+    rdfs:label " Version History" ;
+    dcterms:type "credit" .
+
+<http://metaUnionSearch/datasets/Photography1KINNDW8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Photography1KINNDW8/column/Category>,
+        <http://metaUnionSearch/datasets/Photography1KINNDW8/column/ColorSpaceifapplicable>,
+        <http://metaUnionSearch/datasets/Photography1KINNDW8/column/CopyrightInfo>,
+        <http://metaUnionSearch/datasets/Photography1KINNDW8/column/DateUploaded>,
+        <http://metaUnionSearch/datasets/Photography1KINNDW8/column/Description>,
+        <http://metaUnionSearch/datasets/Photography1KINNDW8/column/ImageURL>,
+        <http://metaUnionSearch/datasets/Photography1KINNDW8/column/LocationShooting>,
+        <http://metaUnionSearch/datasets/Photography1KINNDW8/column/OriginalFileSizeFormat>,
+        <http://metaUnionSearch/datasets/Photography1KINNDW8/column/PhotoTitle>,
+        <http://metaUnionSearch/datasets/Photography1KINNDW8/column/PostProcessEdits>,
+        <http://metaUnionSearch/datasets/Photography1KINNDW8/column/PublishedOn>,
+        <http://metaUnionSearch/datasets/Photography1KINNDW8/column/RecommendedEquipment>,
+        <http://metaUnionSearch/datasets/Photography1KINNDW8/column/SocialMediaLink>,
+        <http://metaUnionSearch/datasets/Photography1KINNDW8/column/SoftwareUsed>,
+        <http://metaUnionSearch/datasets/Photography1KINNDW8/column/TotalRating>,
+        <http://metaUnionSearch/datasets/Photography1KINNDW8/column/VersionHistory> .
+

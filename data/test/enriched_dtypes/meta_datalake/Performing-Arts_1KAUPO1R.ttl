@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArts1KAUPO1R> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_1KAUPO1R.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/ChoreographerDirector> a dsv:Column ;
+    rdfs:label " Choreographer/Director*" ;
+    dcterms:type "director" .
+
+<http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/CostumeDesigner> a dsv:Column ;
+    rdfs:label " Costume Designer" ;
+    dcterms:type "director" .
+
+<http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/DanceStyles> a dsv:Column ;
+    rdfs:label " Dance Style(s)" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/LightingTechnician> a dsv:Column ;
+    rdfs:label " Lighting Technician" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/Lyricist> a dsv:Column ;
+    rdfs:label " Lyricist(**)" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/MusicComposerAudioEngineer> a dsv:Column ;
+    rdfs:label " Music Composer/Audio Engineer*" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/PlaywrightScriptwriter> a dsv:Column ;
+    rdfs:label " Playwright/Scriptwriter*" ;
+    dcterms:type "director" .
+
+<http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/ProductionCompanyifapplicable> a dsv:Column ;
+    rdfs:label " Production Company (if applicable)" ;
+    dcterms:type "manufacturer" .
+
+<http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/SetDesigner> a dsv:Column ;
+    rdfs:label " Set Designer/*" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/SoundEngineer> a dsv:Column ;
+    rdfs:label " Sound Engineer" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/StageManager> a dsv:Column ;
+    rdfs:label " Stage Manager (*)" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/TheaterType> a dsv:Column ;
+    rdfs:label "Theater Type" ;
+    dcterms:type "credit" .
+
+<http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/ChoreographerDirector>,
+        <http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/CostumeDesigner>,
+        <http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/DanceStyles>,
+        <http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/LightingTechnician>,
+        <http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/Lyricist>,
+        <http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/MusicComposerAudioEngineer>,
+        <http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/PlaywrightScriptwriter>,
+        <http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/ProductionCompanyifapplicable>,
+        <http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/SetDesigner>,
+        <http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/SoundEngineer>,
+        <http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/StageManager>,
+        <http://metaUnionSearch/datasets/PerformingArts1KAUPO1R/column/TheaterType> .
+

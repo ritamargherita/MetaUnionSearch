@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_W78AQPSF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FashionW78AQPSF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF/column/BrandInformation> a dsv:Column ;
+    rdfs:label " BrandInformation" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF/column/ColorSelection> a dsv:Column ;
+    rdfs:label " ColorSelection" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF/column/DeliveryOptions> a dsv:Column ;
+    rdfs:label " DeliveryOptions" ;
+    dcterms:type "service" .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF/column/DiscountRate> a dsv:Column ;
+    rdfs:label " DiscountRate" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF/column/ManufacturingCountry> a dsv:Column ;
+    rdfs:label " ManufacturingCountry" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF/column/MaterialDetails> a dsv:Column ;
+    rdfs:label " MaterialDetails" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF/column/OriginalPrice> a dsv:Column ;
+    rdfs:label " OriginalPrice" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF/column/ProductCondition> a dsv:Column ;
+    rdfs:label " ProductCondition" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF/column/ProductID> a dsv:Column ;
+    rdfs:label "ProductID" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF/column/ProductNameClothesType> a dsv:Column ;
+    rdfs:label " ProductName_ClothesType" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF/column/ProductionTimeframe> a dsv:Column ;
+    rdfs:label " ProductionTimeframe" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF/column/PurchaseDate> a dsv:Column ;
+    rdfs:label " PurchaseDate" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF/column/Quantity> a dsv:Column ;
+    rdfs:label " Quantity" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF/column/SalePrice> a dsv:Column ;
+    rdfs:label " SalePrice" ;
+    dcterms:type "elevation" .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF/column/SizeVariation> a dsv:Column ;
+    rdfs:label " SizeVariation" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/FashionW78AQPSF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FashionW78AQPSF/column/BrandInformation>,
+        <http://metaUnionSearch/datasets/FashionW78AQPSF/column/ColorSelection>,
+        <http://metaUnionSearch/datasets/FashionW78AQPSF/column/DeliveryOptions>,
+        <http://metaUnionSearch/datasets/FashionW78AQPSF/column/DiscountRate>,
+        <http://metaUnionSearch/datasets/FashionW78AQPSF/column/ManufacturingCountry>,
+        <http://metaUnionSearch/datasets/FashionW78AQPSF/column/MaterialDetails>,
+        <http://metaUnionSearch/datasets/FashionW78AQPSF/column/OriginalPrice>,
+        <http://metaUnionSearch/datasets/FashionW78AQPSF/column/ProductCondition>,
+        <http://metaUnionSearch/datasets/FashionW78AQPSF/column/ProductID>,
+        <http://metaUnionSearch/datasets/FashionW78AQPSF/column/ProductNameClothesType>,
+        <http://metaUnionSearch/datasets/FashionW78AQPSF/column/ProductionTimeframe>,
+        <http://metaUnionSearch/datasets/FashionW78AQPSF/column/PurchaseDate>,
+        <http://metaUnionSearch/datasets/FashionW78AQPSF/column/Quantity>,
+        <http://metaUnionSearch/datasets/FashionW78AQPSF/column/SalePrice>,
+        <http://metaUnionSearch/datasets/FashionW78AQPSF/column/SizeVariation> .
+

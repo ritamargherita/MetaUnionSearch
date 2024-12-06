@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Psychology5BHXTPDP> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_5BHXTPDP.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Psychology5BHXTPDP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/AdditionalTrait1> a dsv:Column ;
+    rdfs:label " AdditionalTrait1" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/AdditionalTrait2> a dsv:Column ;
+    rdfs:label " AdditionalTrait2" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/AdditionalTrait3> a dsv:Column ;
+    rdfs:label " AdditionalTrait3" ;
+    dcterms:type "credit" .
+
+<http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/AdditionalTrait4> a dsv:Column ;
+    rdfs:label " AdditionalTrait4" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/AdditionalTrait5> a dsv:Column ;
+    rdfs:label " AdditionalTrait5" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/Age> a dsv:Column ;
+    rdfs:label " Age" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/AnnualIncome> a dsv:Column ;
+    rdfs:label " AnnualIncome" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/DateOfBirth> a dsv:Column ;
+    rdfs:label " DateOfBirth" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/EducationLevel> a dsv:Column ;
+    rdfs:label " EducationLevel" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/Gender> a dsv:Column ;
+    rdfs:label " Gender" ;
+    dcterms:type "gender" .
+
+<http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/HasChildren> a dsv:Column ;
+    rdfs:label " HasChildren" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/MaritalStatus> a dsv:Column ;
+    rdfs:label " MaritalStatus" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/Occupation> a dsv:Column ;
+    rdfs:label " Occupation" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/SubjectID> a dsv:Column ;
+    rdfs:label "SubjectID" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/Psychology5BHXTPDP/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/AdditionalTrait1>,
+        <http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/AdditionalTrait2>,
+        <http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/AdditionalTrait3>,
+        <http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/AdditionalTrait4>,
+        <http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/AdditionalTrait5>,
+        <http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/Age>,
+        <http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/AnnualIncome>,
+        <http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/DateOfBirth>,
+        <http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/EducationLevel>,
+        <http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/Gender>,
+        <http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/HasChildren>,
+        <http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/MaritalStatus>,
+        <http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/Occupation>,
+        <http://metaUnionSearch/datasets/Psychology5BHXTPDP/column/SubjectID> .
+

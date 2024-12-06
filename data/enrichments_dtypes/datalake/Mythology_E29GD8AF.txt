@@ -1,0 +1,15 @@
+name
+continent
+album
+name
+album
+name
+religion
+class
+album
+album
+person
+album
+origin
+artist
+artist

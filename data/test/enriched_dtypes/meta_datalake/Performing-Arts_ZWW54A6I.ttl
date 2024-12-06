@@ -1,0 +1,116 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_ZWW54A6I.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/Active> a dsv:Column ;
+    rdfs:label " Active" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/ArtForm> a dsv:Column ;
+    rdfs:label " Art Form" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/ArtistName> a dsv:Column ;
+    rdfs:label " Artist Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/AudienceResponse> a dsv:Column ;
+    rdfs:label " Audience Response" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/AverageBudget> a dsv:Column ;
+    rdfs:label " Average Budget" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/Awards> a dsv:Column ;
+    rdfs:label " Awards" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/Collaborations> a dsv:Column ;
+    rdfs:label " Collaborations" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/DateFirstAppeared> a dsv:Column ;
+    rdfs:label " Date First Appeared" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/Genre> a dsv:Column ;
+    rdfs:label " Genre" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/HighestGrossingEvent> a dsv:Column ;
+    rdfs:label " Highest Grossing Event" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/KnownFor> a dsv:Column ;
+    rdfs:label " Known For" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/NumberOfShows> a dsv:Column ;
+    rdfs:label " Number Of Shows" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/PerformanceType> a dsv:Column ;
+    rdfs:label "Performance Type" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/PlaceofBirth> a dsv:Column ;
+    rdfs:label " Place of Birth" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/PopularWorks> a dsv:Column ;
+    rdfs:label " Popular Works" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/RehearsalCity> a dsv:Column ;
+    rdfs:label " Rehearsal City" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/Sponsors> a dsv:Column ;
+    rdfs:label " Sponsors" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/StartedCareer> a dsv:Column ;
+    rdfs:label " Started Career" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/TotalAwards> a dsv:Column ;
+    rdfs:label " Total Awards" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/Venue> a dsv:Column ;
+    rdfs:label " Venue" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/YearofBirth> a dsv:Column ;
+    rdfs:label " Year of Birth" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/Active>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/ArtForm>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/ArtistName>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/AudienceResponse>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/AverageBudget>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/Awards>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/Collaborations>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/DateFirstAppeared>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/Genre>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/HighestGrossingEvent>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/KnownFor>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/NumberOfShows>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/PerformanceType>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/PlaceofBirth>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/PopularWorks>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/RehearsalCity>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/Sponsors>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/StartedCareer>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/TotalAwards>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/Venue>,
+        <http://metaUnionSearch/datasets/PerformingArtsZWW54A6I/column/YearofBirth> .
+

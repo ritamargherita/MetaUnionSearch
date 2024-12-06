@@ -1,0 +1,77 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BiologyT5J284WV> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_T5J284WV.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BiologyT5J284WV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BiologyT5J284WV/column/Chromosomelocation> a dsv:Column ;
+    rdfs:label """\\
+Chromosome location""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BiologyT5J284WV/column/Conservationacrossspecies> a dsv:Column ;
+    rdfs:label """\\
+Conservation across species""" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/BiologyT5J284WV/column/Epigeneticmodifications> a dsv:Column ;
+    rdfs:label """\\
+Epigenetic modifications""" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/BiologyT5J284WV/column/Expressioninvariousconditions> a dsv:Column ;
+    rdfs:label """\\
+Expression in various conditions""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BiologyT5J284WV/column/Geneduplicationevents> a dsv:Column ;
+    rdfs:label """\\
+Gene duplication events""" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/BiologyT5J284WV/column/Genefamilyassignment> a dsv:Column ;
+    rdfs:label """\\
+Gene family assignment""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BiologyT5J284WV/column/Generegulationmechanisms> a dsv:Column ;
+    rdfs:label """\\
+Gene regulation mechanisms""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BiologyT5J284WV/column/Numberofhomologousspecies> a dsv:Column ;
+    rdfs:label """\\
+Number of homologous species""" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/BiologyT5J284WV/column/Paralogsandorthologs> a dsv:Column ;
+    rdfs:label """\\
+Paralogs and orthologs""" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/BiologyT5J284WV/column/Phylogeneticstreeposition> a dsv:Column ;
+    rdfs:label """\\
+Phylogenetics tree position""" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/BiologyT5J284WV/column/Taxonomicclassification> a dsv:Column ;
+    rdfs:label """\\
+Taxonomic classification""" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/BiologyT5J284WV/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BiologyT5J284WV/column/Chromosomelocation>,
+        <http://metaUnionSearch/datasets/BiologyT5J284WV/column/Conservationacrossspecies>,
+        <http://metaUnionSearch/datasets/BiologyT5J284WV/column/Epigeneticmodifications>,
+        <http://metaUnionSearch/datasets/BiologyT5J284WV/column/Expressioninvariousconditions>,
+        <http://metaUnionSearch/datasets/BiologyT5J284WV/column/Geneduplicationevents>,
+        <http://metaUnionSearch/datasets/BiologyT5J284WV/column/Genefamilyassignment>,
+        <http://metaUnionSearch/datasets/BiologyT5J284WV/column/Generegulationmechanisms>,
+        <http://metaUnionSearch/datasets/BiologyT5J284WV/column/Numberofhomologousspecies>,
+        <http://metaUnionSearch/datasets/BiologyT5J284WV/column/Paralogsandorthologs>,
+        <http://metaUnionSearch/datasets/BiologyT5J284WV/column/Phylogeneticstreeposition>,
+        <http://metaUnionSearch/datasets/BiologyT5J284WV/column/Taxonomicclassification> .
+

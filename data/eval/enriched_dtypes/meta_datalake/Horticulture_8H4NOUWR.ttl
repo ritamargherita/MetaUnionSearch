@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Horticulture8H4NOUWR> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_8H4NOUWR.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Horticulture8H4NOUWR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/AveragePestandDiseases> a dsv:Column ;
+    rdfs:label "AveragePestandDiseases" ;
+    dcterms:type "brand" .
+
+<http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/BloomTime> a dsv:Column ;
+    rdfs:label "BloomTime" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/BlossomShapeandColor> a dsv:Column ;
+    rdfs:label "BlossomShapeandColor" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/FoliageColor> a dsv:Column ;
+    rdfs:label "FoliageColor" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/GenusAbilityToCrossPollinateWithOtherVarietiesOfTheSameSpecies> a dsv:Column ;
+    rdfs:label "GenusAbilityToCrossPollinateWithOtherVarietiesOfTheSameSpecies" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/GrowthHabit> a dsv:Column ;
+    rdfs:label "GrowthHabit" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/MostPopularRecipeUsingThisPlant> a dsv:Column ;
+    rdfs:label "MostPopularRecipeUsingThisPlant" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/PlantHeightTips> a dsv:Column ;
+    rdfs:label "PlantHeightTips" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/RelativelyEarlyMaturity> a dsv:Column ;
+    rdfs:label "RelativelyEarlyMaturity" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/SeedsPerOunce> a dsv:Column ;
+    rdfs:label "\\_SeedsPerOunce_" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/TypicalWeatherConditionsNeededForOptimalGrowth> a dsv:Column ;
+    rdfs:label "TypicalWeatherConditionsNeededForOptimalGrowth" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Horticulture8H4NOUWR/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/AveragePestandDiseases>,
+        <http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/BloomTime>,
+        <http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/BlossomShapeandColor>,
+        <http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/FoliageColor>,
+        <http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/GenusAbilityToCrossPollinateWithOtherVarietiesOfTheSameSpecies>,
+        <http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/GrowthHabit>,
+        <http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/MostPopularRecipeUsingThisPlant>,
+        <http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/PlantHeightTips>,
+        <http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/RelativelyEarlyMaturity>,
+        <http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/SeedsPerOunce>,
+        <http://metaUnionSearch/datasets/Horticulture8H4NOUWR/column/TypicalWeatherConditionsNeededForOptimalGrowth> .
+

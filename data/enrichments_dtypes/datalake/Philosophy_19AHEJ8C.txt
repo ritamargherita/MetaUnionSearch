@@ -1,0 +1,12 @@
+location
+area
+location
+notes
+collection
+classification
+artist
+artist
+artist
+artist
+artist
+artist

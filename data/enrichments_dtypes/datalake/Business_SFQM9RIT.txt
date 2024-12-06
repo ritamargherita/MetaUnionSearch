@@ -1,0 +1,12 @@
+city
+capacity
+description
+product
+company
+description
+name
+description
+artist
+artist
+artist
+artist

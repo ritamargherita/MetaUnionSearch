@@ -1,0 +1,10 @@
+address
+name
+organisation
+manufacturer
+component
+category
+rank
+album
+notes
+description

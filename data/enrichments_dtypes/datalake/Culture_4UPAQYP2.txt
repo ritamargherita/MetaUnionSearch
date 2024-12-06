@@ -1,0 +1,15 @@
+genre
+category
+origin
+album
+family
+description
+company
+description
+category
+product
+name
+person
+genre
+description
+component

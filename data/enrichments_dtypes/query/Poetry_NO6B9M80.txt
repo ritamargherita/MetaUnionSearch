@@ -1,0 +1,16 @@
+name
+creator
+range
+notes
+result
+album
+album
+region
+album
+album
+notes
+album
+album
+genre
+genre
+status

@@ -1,0 +1,12 @@
+rank
+address
+area
+capacity
+sales
+range
+address
+address
+address
+sales
+position
+education

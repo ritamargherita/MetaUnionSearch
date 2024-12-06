@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsGAGQO679> a dsv:Dataset ;
+    dcterms:subject "international-relations" ;
+    dcterms:title "International-Relations_GAGQO679.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/datasetSchema> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/AfricanContinentProgressMonitoringPoliticalStabilityEconomicGrowth> a dsv:Column ;
+    rdfs:label " African Continent Progress Monitoring (Political Stability + Economic Growth)" ;
+    dcterms:type "state" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/AsianTigersEmergenceRegionalTradingBlockDevelopment> a dsv:Column ;
+    rdfs:label " Asian Tigers Emergence & Regional Trading Block Development" ;
+    dcterms:type "state" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/ColdWarEra> a dsv:Column ;
+    rdfs:label " Cold War Era" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/EUIntegrationTradeBlocFormation> a dsv:Column ;
+    rdfs:label " EU Integration & Trade Bloc Formation" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/InterWarPeriod> a dsv:Column ;
+    rdfs:label " Inter-War Period" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/MiddleEastConflictsImpact> a dsv:Column ;
+    rdfs:label " Middle East Conflicts Impact" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/NATONonNatoCountriesEngagementsIncreasedDefenseSpendingJointExercises> a dsv:Column ;
+    rdfs:label " NATO - Non Nato Countries Engagements (Increased Defense Spending + Joint Exercises)" ;
+    dcterms:type "state" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/PostSovietRussia> a dsv:Column ;
+    rdfs:label " Post Soviet Russia" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/PostWWIIUpToColdWar> a dsv:Column ;
+    rdfs:label " Post-WWII Up To Cold War" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/PreWorldWarI> a dsv:Column ;
+    rdfs:label " Pre-World War I" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/RiseOfChina> a dsv:Column ;
+    rdfs:label " Rise Of China" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/SouthAmericaPoliticsEvolution> a dsv:Column ;
+    rdfs:label " South America Politics Evolution" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/TimePeriod> a dsv:Column ;
+    rdfs:label "Time Period" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/AfricanContinentProgressMonitoringPoliticalStabilityEconomicGrowth>,
+        <http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/AsianTigersEmergenceRegionalTradingBlockDevelopment>,
+        <http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/ColdWarEra>,
+        <http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/EUIntegrationTradeBlocFormation>,
+        <http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/InterWarPeriod>,
+        <http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/MiddleEastConflictsImpact>,
+        <http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/NATONonNatoCountriesEngagementsIncreasedDefenseSpendingJointExercises>,
+        <http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/PostSovietRussia>,
+        <http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/PostWWIIUpToColdWar>,
+        <http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/PreWorldWarI>,
+        <http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/RiseOfChina>,
+        <http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/SouthAmericaPoliticsEvolution>,
+        <http://metaUnionSearch/datasets/InternationalRelationsGAGQO679/column/TimePeriod> .
+

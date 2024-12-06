@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_SUHA51LI.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologySUHA51LI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/AgileProjectManagementTools> a dsv:Column ;
+    rdfs:label " Agile Project Management Tools" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/CloudDeploymentStrategies> a dsv:Column ;
+    rdfs:label " Cloud Deployment Strategies" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/CodeReviewPractices> a dsv:Column ;
+    rdfs:label " Code Review Practices" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/DatabaseManagementTechniques> a dsv:Column ;
+    rdfs:label " Database Management Techniques" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/DevOpsToolsComparison> a dsv:Column ;
+    rdfs:label " DevOps Tools Comparison" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/ITInfrastructureManagement> a dsv:Column ;
+    rdfs:label " IT Infrastructure Management" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/SoftwareArchitecturePatterns> a dsv:Column ;
+    rdfs:label "Software Architecture Patterns" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/SoftwareDevelopmentMethodologies> a dsv:Column ;
+    rdfs:label " Software Development Methodologies" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/SoftwareTestingMetrics> a dsv:Column ;
+    rdfs:label " Software Testing Metrics" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/UIUXDesignTrends> a dsv:Column ;
+    rdfs:label " UI/UX Design Trends" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/VersionControlSystems> a dsv:Column ;
+    rdfs:label " Version Control Systems" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/AgileProjectManagementTools>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/CloudDeploymentStrategies>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/CodeReviewPractices>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/DatabaseManagementTechniques>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/DevOpsToolsComparison>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/ITInfrastructureManagement>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/SoftwareArchitecturePatterns>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/SoftwareDevelopmentMethodologies>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/SoftwareTestingMetrics>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/UIUXDesignTrends>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/VersionControlSystems> .
+

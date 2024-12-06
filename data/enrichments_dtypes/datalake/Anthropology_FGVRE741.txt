@@ -1,0 +1,12 @@
+name
+year
+address
+album
+organisation
+affiliation
+description
+notes
+album
+year
+operator
+result

@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_1Z0SHZBU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/AdditionalSymptomsDescriptions> a dsv:Column ;
+    rdfs:label " AdditionalSymptomsDescriptions" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/ChromosomeLocationNEW> a dsv:Column ;
+    rdfs:label " ChromosomeLocation_NEW" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/ChromosomeNumber> a dsv:Column ;
+    rdfs:label " ChromosomeNumber" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/DominantlyExpressedAllelesNumberNeedED> a dsv:Column ;
+    rdfs:label " DominantlyExpressedAllelesNumberNeedED" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/ExpressionPatternSecondView> a dsv:Column ;
+    rdfs:label " ExpressionPatternSecondView" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/GeneDescriptionEXTRAdataIFapplicable> a dsv:Column ;
+    rdfs:label " GeneDescriptionEXTRAdataIFapplicable" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/GeneSymbolFORnewDisorder> a dsv:Column ;
+    rdfs:label " GeneSymbolFORnewDisorder" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/InheritancePatternWITHvariants> a dsv:Column ;
+    rdfs:label " InheritancePatternWITHvariants" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/MutatedGeneLocationAdditionalInfo> a dsv:Column ;
+    rdfs:label " MutatedGeneLocationAdditionalInfo" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/MutationtypeEXTRAdataIFapplicable> a dsv:Column ;
+    rdfs:label " MutationtypeEXTRAdataIFapplicable" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/NewlyDiscoveredGeneticDisorder> a dsv:Column ;
+    rdfs:label "NewlyDiscoveredGeneticDisorder" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/PopulationFrequencyINFOaddedlaterORirrelevantTOtabletwo> a dsv:Column ;
+    rdfs:label " PopulationFrequencyINFOaddedlaterORirrelevantTOtabletwo" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/PrevalenceRateNEW> a dsv:Column ;
+    rdfs:label " PrevalenceRate_NEW" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/TestMethodIFrequiredFORparticularstudyORirrelevantTOtabletwo> a dsv:Column ;
+    rdfs:label " TestMethodIFrequiredFORparticularstudyORirrelevantTOtabletwo" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Genetics1Z0SHZBU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/AdditionalSymptomsDescriptions>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/ChromosomeLocationNEW>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/ChromosomeNumber>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/DominantlyExpressedAllelesNumberNeedED>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/ExpressionPatternSecondView>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/GeneDescriptionEXTRAdataIFapplicable>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/GeneSymbolFORnewDisorder>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/InheritancePatternWITHvariants>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/MutatedGeneLocationAdditionalInfo>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/MutationtypeEXTRAdataIFapplicable>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/NewlyDiscoveredGeneticDisorder>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/PopulationFrequencyINFOaddedlaterORirrelevantTOtabletwo>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/PrevalenceRateNEW>,
+        <http://metaUnionSearch/datasets/Genetics1Z0SHZBU/column/TestMethodIFrequiredFORparticularstudyORirrelevantTOtabletwo> .
+

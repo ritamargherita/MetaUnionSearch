@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BioinformaticsOGKKC06G> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_OGKKC06G.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/BiochemicalPathwayAnalysis> a dsv:Column ;
+    rdfs:label " Biochemical Pathway Analysis" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/CRISPRCas9EditingScreening> a dsv:Column ;
+    rdfs:label " CRISPR-Cas9 Editing Screening\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/ExpressionLevelComparison> a dsv:Column ;
+    rdfs:label " Expression Level Comparison" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/GenomicConservation> a dsv:Column ;
+    rdfs:label " Genomic Conservation" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/MolecularMarkerIdentification> a dsv:Column ;
+    rdfs:label " Molecular Marker Identification" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/NetworkAnalysisforInteractionStudies> a dsv:Column ;
+    rdfs:label " Network Analysis for Interaction Studies" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/NumberOfSpecies> a dsv:Column ;
+    rdfs:label " Number Of Species" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/PhylogeneticTreeBuilding> a dsv:Column ;
+    rdfs:label " Phylogenetic Tree Building" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/ProteinsIdentified> a dsv:Column ;
+    rdfs:label "\"Proteins Identified" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/ProteomicsData> a dsv:Column ;
+    rdfs:label " Proteomics Data" ;
+    dcterms:type "requirement" .
+
+<http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/RNAFoldingPatterns> a dsv:Column ;
+    rdfs:label " RNA Folding Patterns" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/TranscriptomicsAnalysis> a dsv:Column ;
+    rdfs:label " Transcriptomics Analysis" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/BiochemicalPathwayAnalysis>,
+        <http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/CRISPRCas9EditingScreening>,
+        <http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/ExpressionLevelComparison>,
+        <http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/GenomicConservation>,
+        <http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/MolecularMarkerIdentification>,
+        <http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/NetworkAnalysisforInteractionStudies>,
+        <http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/NumberOfSpecies>,
+        <http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/PhylogeneticTreeBuilding>,
+        <http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/ProteinsIdentified>,
+        <http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/ProteomicsData>,
+        <http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/RNAFoldingPatterns>,
+        <http://metaUnionSearch/datasets/BioinformaticsOGKKC06G/column/TranscriptomicsAnalysis> .
+

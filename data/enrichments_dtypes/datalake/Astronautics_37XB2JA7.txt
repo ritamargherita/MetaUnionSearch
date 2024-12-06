@@ -1,0 +1,14 @@
+education
+gender
+country
+affiliation
+year
+day
+description
+ranking
+service
+description
+status
+elevation
+classification
+album

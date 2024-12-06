@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistoryEKA024SC> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_EKA024SC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistoryEKA024SC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/AudienceImpactRating> a dsv:Column ;
+    rdfs:label " Audience Impact Rating" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/CulturalSignificanceRanking> a dsv:Column ;
+    rdfs:label " Cultural Significance Ranking" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/CuratorComments> a dsv:Column ;
+    rdfs:label " Curator Comments" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/DonorName> a dsv:Column ;
+    rdfs:label " Donor Name" ;
+    dcterms:type "owner" .
+
+<http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/GalleryLocation> a dsv:Column ;
+    rdfs:label "Gallery Location" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/MaterialValueUSD> a dsv:Column ;
+    rdfs:label " Material Value, USD" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/PreservationStatus> a dsv:Column ;
+    rdfs:label " Preservation Status" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/RestorationDetails> a dsv:Column ;
+    rdfs:label " Restoration Details" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/SimilarWorksCount> a dsv:Column ;
+    rdfs:label " Similar Works Count" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/TrendsettingScore> a dsv:Column ;
+    rdfs:label " Trendsetting Score" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/YearAcquired> a dsv:Column ;
+    rdfs:label " Year Acquired" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/ArtHistoryEKA024SC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/AudienceImpactRating>,
+        <http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/CulturalSignificanceRanking>,
+        <http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/CuratorComments>,
+        <http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/DonorName>,
+        <http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/GalleryLocation>,
+        <http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/MaterialValueUSD>,
+        <http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/RestorationDetails>,
+        <http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/SimilarWorksCount>,
+        <http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/TrendsettingScore>,
+        <http://metaUnionSearch/datasets/ArtHistoryEKA024SC/column/YearAcquired> .
+

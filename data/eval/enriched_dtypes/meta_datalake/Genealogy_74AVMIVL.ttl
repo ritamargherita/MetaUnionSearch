@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Genealogy74AVMIVL> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_74AVMIVL.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Genealogy74AVMIVL/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/CensusYear> a dsv:Column ;
+    rdfs:label "CensusYear" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/CityOrTownship> a dsv:Column ;
+    rdfs:label " CityOrTownship" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/CountyName> a dsv:Column ;
+    rdfs:label " CountyName" ;
+    dcterms:type "county" .
+
+<http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/Gender> a dsv:Column ;
+    rdfs:label " Gender" ;
+    dcterms:type "gender" .
+
+<http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/OccupancyStatus> a dsv:Column ;
+    rdfs:label " OccupancyStatus" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/Race> a dsv:Column ;
+    rdfs:label " Race" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/RelationshipToHeadofHousehold> a dsv:Column ;
+    rdfs:label " RelationshipToHeadofHousehold" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/StateAbbreviation> a dsv:Column ;
+    rdfs:label " StateAbbreviation" ;
+    dcterms:type "state" .
+
+<http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/TotalNumberOfPeopleIncludingHead> a dsv:Column ;
+    rdfs:label " TotalNumberOfPeople, Including Head" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Genealogy74AVMIVL/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/CensusYear>,
+        <http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/CityOrTownship>,
+        <http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/CountyName>,
+        <http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/Gender>,
+        <http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/OccupancyStatus>,
+        <http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/Race>,
+        <http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/RelationshipToHeadofHousehold>,
+        <http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/StateAbbreviation>,
+        <http://metaUnionSearch/datasets/Genealogy74AVMIVL/column/TotalNumberOfPeopleIncludingHead> .
+

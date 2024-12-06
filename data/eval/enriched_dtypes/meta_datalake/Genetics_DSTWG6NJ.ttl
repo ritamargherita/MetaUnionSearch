@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeneticsDSTWG6NJ> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_DSTWG6NJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/AdditionalTestsRecommended> a dsv:Column ;
+    rdfs:label " Additional Tests Recommended" ;
+    dcterms:type "service" .
+
+<http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/AppointmentDetails> a dsv:Column ;
+    rdfs:label " Appointment Details" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/BackgroundInformation> a dsv:Column ;
+    rdfs:label " Background Information" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/ContactDetails> a dsv:Column ;
+    rdfs:label " Contact Details" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/CurrentMedicationsDoses> a dsv:Column ;
+    rdfs:label " Current Medications & Doses" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/DateDiagnosed> a dsv:Column ;
+    rdfs:label " Date Diagnosed" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/FollowUpPlan> a dsv:Column ;
+    rdfs:label " Follow Up Plan" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/Gender> a dsv:Column ;
+    rdfs:label " Gender" ;
+    dcterms:type "gender" .
+
+<http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/GeneticianName> a dsv:Column ;
+    rdfs:label "Genetician Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/HistoricalFamilyDiseasesData> a dsv:Column ;
+    rdfs:label " Historical Family Diseases Data" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/MedicalID> a dsv:Column ;
+    rdfs:label " Medical ID" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/Notes> a dsv:Column ;
+    rdfs:label " Notes" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/PatientAge> a dsv:Column ;
+    rdfs:label " Patient Age" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/AdditionalTestsRecommended>,
+        <http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/AppointmentDetails>,
+        <http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/BackgroundInformation>,
+        <http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/ContactDetails>,
+        <http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/CurrentMedicationsDoses>,
+        <http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/DateDiagnosed>,
+        <http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/FollowUpPlan>,
+        <http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/Gender>,
+        <http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/GeneticianName>,
+        <http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/HistoricalFamilyDiseasesData>,
+        <http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/MedicalID>,
+        <http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/Notes>,
+        <http://metaUnionSearch/datasets/GeneticsDSTWG6NJ/column/PatientAge> .
+

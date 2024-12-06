@@ -1,0 +1,10 @@
+religion
+language
+duration
+album
+location
+name
+region
+region
+origin
+director

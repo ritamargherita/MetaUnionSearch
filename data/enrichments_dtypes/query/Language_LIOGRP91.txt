@@ -1,0 +1,14 @@
+nationality
+family
+language
+name
+duration
+country
+description
+notes
+family
+family
+description
+product
+description
+command

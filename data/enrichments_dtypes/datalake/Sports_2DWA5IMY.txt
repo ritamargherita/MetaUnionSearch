@@ -1,0 +1,15 @@
+team
+description
+year
+position
+location
+name
+category
+company
+type
+rank
+plays
+weight
+address
+capacity
+category

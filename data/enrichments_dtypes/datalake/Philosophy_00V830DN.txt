@@ -1,0 +1,16 @@
+religion
+artist
+religion
+capacity
+name
+name
+position
+address
+notes
+description
+description
+notes
+origin
+description
+species
+artist

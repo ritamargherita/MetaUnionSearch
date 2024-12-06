@@ -1,0 +1,13 @@
+language
+family
+country
+language
+sales
+requirement
+country
+description
+category
+address
+album
+area
+language

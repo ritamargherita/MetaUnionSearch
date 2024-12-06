@@ -1,0 +1,12 @@
+duration
+address
+address
+gender
+product
+product
+brand
+description
+type
+address
+address
+credit

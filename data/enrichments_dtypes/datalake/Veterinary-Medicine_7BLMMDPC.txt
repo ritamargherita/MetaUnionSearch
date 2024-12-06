@@ -1,0 +1,15 @@
+weight
+address
+company
+address
+address
+address
+address
+address
+industry
+continent
+name
+address
+address
+address
+address

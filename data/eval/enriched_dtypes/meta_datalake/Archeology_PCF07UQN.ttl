@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArcheologyPCF07UQN> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_PCF07UQN.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArcheologyPCF07UQN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/AnalysisMethod> a dsv:Column ;
+    rdfs:label " AnalysisMethod" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/ArtifactPreservationCondition> a dsv:Column ;
+    rdfs:label " ArtifactPreservationCondition" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/BiofactDescription> a dsv:Column ;
+    rdfs:label " BiofactDescription" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/BiofactType> a dsv:Column ;
+    rdfs:label " BiofactType" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/BiofactsCount> a dsv:Column ;
+    rdfs:label " BiofactsCount" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/ExcavationDate> a dsv:Column ;
+    rdfs:label "ExcavationDate" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/ExcavatorTeamLead> a dsv:Column ;
+    rdfs:label " ExcavatorTeamLead" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/FundingSource> a dsv:Column ;
+    rdfs:label " FundingSource" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/GeologicalFeatures> a dsv:Column ;
+    rdfs:label " GeologicalFeatures" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/SoilComposition> a dsv:Column ;
+    rdfs:label " SoilComposition" ;
+    dcterms:type "manufacturer" .
+
+<http://metaUnionSearch/datasets/ArcheologyPCF07UQN/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/AnalysisMethod>,
+        <http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/ArtifactPreservationCondition>,
+        <http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/BiofactDescription>,
+        <http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/BiofactType>,
+        <http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/BiofactsCount>,
+        <http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/ExcavationDate>,
+        <http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/ExcavatorTeamLead>,
+        <http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/FundingSource>,
+        <http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/GeologicalFeatures>,
+        <http://metaUnionSearch/datasets/ArcheologyPCF07UQN/column/SoilComposition> .
+

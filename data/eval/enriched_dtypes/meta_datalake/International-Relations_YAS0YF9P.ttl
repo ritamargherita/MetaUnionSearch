@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P> a dsv:Dataset ;
+    dcterms:subject "international-relations" ;
+    dcterms:title "International-Relations_YAS0YF9P.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/datasetSchema> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/ColonialHistory> a dsv:Column ;
+    rdfs:label "Colonial History" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/CulturalExchange> a dsv:Column ;
+    rdfs:label " Cultural Exchange" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/Cybersecurity> a dsv:Column ;
+    rdfs:label " Cybersecurity" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/DomesticPolitics> a dsv:Column ;
+    rdfs:label " Domestic Politics" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/EconomicInterdependency> a dsv:Column ;
+    rdfs:label " Economic Interdependency" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/GeographicLocation> a dsv:Column ;
+    rdfs:label " Geographic Location" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/HumanRightsRecord> a dsv:Column ;
+    rdfs:label " Human Rights Record" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/PoliticalIdeology> a dsv:Column ;
+    rdfs:label " Political Ideology" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/RegionalOrganizations> a dsv:Column ;
+    rdfs:label " Regional Organizations" ;
+    dcterms:type "affiliation" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/ResourceDistribution> a dsv:Column ;
+    rdfs:label " Resource Distribution" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/ScientificCollaboration> a dsv:Column ;
+    rdfs:label " Scientific Collaboration" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/SoftPower> a dsv:Column ;
+    rdfs:label " Soft Power" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/TourismandTravel> a dsv:Column ;
+    rdfs:label " Tourism and Travel" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/TradeAgreements> a dsv:Column ;
+    rdfs:label " Trade Agreements" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/ColonialHistory>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/CulturalExchange>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/Cybersecurity>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/DomesticPolitics>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/EconomicInterdependency>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/GeographicLocation>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/HumanRightsRecord>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/PoliticalIdeology>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/RegionalOrganizations>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/ResourceDistribution>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/ScientificCollaboration>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/SoftPower>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/TourismandTravel>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYAS0YF9P/column/TradeAgreements> .
+

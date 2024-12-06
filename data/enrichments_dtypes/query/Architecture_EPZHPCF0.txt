@@ -1,0 +1,14 @@
+album
+genre
+album
+city
+description
+capacity
+status
+year
+artist
+notes
+description
+description
+description
+album

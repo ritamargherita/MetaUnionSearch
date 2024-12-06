@@ -1,0 +1,10 @@
+album
+year
+region
+notes
+duration
+description
+type
+age
+genre
+description

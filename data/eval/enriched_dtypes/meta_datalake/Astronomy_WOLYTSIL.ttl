@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronomyWOLYTSIL> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_WOLYTSIL.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronomyWOLYTSIL/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/ConstellationsAssociated> a dsv:Column ;
+    rdfs:label " Constellations Associated" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/DustParticlesConcentration> a dsv:Column ;
+    rdfs:label " Dust Particles Concentration" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/GalacticCoordinatesLongitudeLatitude> a dsv:Column ;
+    rdfs:label " Galactic Coordinates (Longitude, Latitude)>" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/GasCompositionPercentage> a dsv:Column ;
+    rdfs:label " Gas Composition Percentage" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/LuminosityofSolar> a dsv:Column ;
+    rdfs:label " Luminosity (% of Solar)" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/NebulaCategory> a dsv:Column ;
+    rdfs:label " Nebula Category" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/NebulaName> a dsv:Column ;
+    rdfs:label "<Nebula Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/Radiuslightyears> a dsv:Column ;
+    rdfs:label " Radius (light years)" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/StarswithinNebula> a dsv:Column ;
+    rdfs:label " Stars within Nebula" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/TemperatureK> a dsv:Column ;
+    rdfs:label " Temperature (K)" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/AstronomyWOLYTSIL/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/ConstellationsAssociated>,
+        <http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/DustParticlesConcentration>,
+        <http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/GalacticCoordinatesLongitudeLatitude>,
+        <http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/GasCompositionPercentage>,
+        <http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/LuminosityofSolar>,
+        <http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/NebulaCategory>,
+        <http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/NebulaName>,
+        <http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/Radiuslightyears>,
+        <http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/StarswithinNebula>,
+        <http://metaUnionSearch/datasets/AstronomyWOLYTSIL/column/TemperatureK> .
+

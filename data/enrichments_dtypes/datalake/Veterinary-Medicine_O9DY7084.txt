@@ -1,0 +1,13 @@
+capacity
+company
+address
+product
+description
+album
+notes
+result
+status
+status
+education
+capacity
+address

@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CultureSCATGVS3> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_SCATGVS3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CultureSCATGVS3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CultureSCATGVS3/column/Cinema> a dsv:Column ;
+    rdfs:label " Cinema" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/CultureSCATGVS3/column/DressCode> a dsv:Column ;
+    rdfs:label " Dress Code" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/CultureSCATGVS3/column/FamilyStructure> a dsv:Column ;
+    rdfs:label "Family Structure" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/CultureSCATGVS3/column/Festivals> a dsv:Column ;
+    rdfs:label " Festivals" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/CultureSCATGVS3/column/Food> a dsv:Column ;
+    rdfs:label " Food" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/CultureSCATGVS3/column/Language> a dsv:Column ;
+    rdfs:label " Language" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/CultureSCATGVS3/column/LiteratureandArts> a dsv:Column ;
+    rdfs:label " Literature and Arts" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/CultureSCATGVS3/column/Music> a dsv:Column ;
+    rdfs:label " Music" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/CultureSCATGVS3/column/NationalHolidays> a dsv:Column ;
+    rdfs:label " National Holidays" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/CultureSCATGVS3/column/PreferredCommunicationStyle> a dsv:Column ;
+    rdfs:label " Preferred Communication Style" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/CultureSCATGVS3/column/Religion> a dsv:Column ;
+    rdfs:label " Religion" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/CultureSCATGVS3/column/SocialCulture> a dsv:Column ;
+    rdfs:label " Social Culture" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/CultureSCATGVS3/column/WorkHours> a dsv:Column ;
+    rdfs:label " Work Hours" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/CultureSCATGVS3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CultureSCATGVS3/column/Cinema>,
+        <http://metaUnionSearch/datasets/CultureSCATGVS3/column/DressCode>,
+        <http://metaUnionSearch/datasets/CultureSCATGVS3/column/FamilyStructure>,
+        <http://metaUnionSearch/datasets/CultureSCATGVS3/column/Festivals>,
+        <http://metaUnionSearch/datasets/CultureSCATGVS3/column/Food>,
+        <http://metaUnionSearch/datasets/CultureSCATGVS3/column/Language>,
+        <http://metaUnionSearch/datasets/CultureSCATGVS3/column/LiteratureandArts>,
+        <http://metaUnionSearch/datasets/CultureSCATGVS3/column/Music>,
+        <http://metaUnionSearch/datasets/CultureSCATGVS3/column/NationalHolidays>,
+        <http://metaUnionSearch/datasets/CultureSCATGVS3/column/PreferredCommunicationStyle>,
+        <http://metaUnionSearch/datasets/CultureSCATGVS3/column/Religion>,
+        <http://metaUnionSearch/datasets/CultureSCATGVS3/column/SocialCulture>,
+        <http://metaUnionSearch/datasets/CultureSCATGVS3/column/WorkHours> .
+

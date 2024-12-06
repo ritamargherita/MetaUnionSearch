@@ -1,0 +1,111 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5> a dsv:Dataset ;
+    dcterms:subject "climatology" ;
+    dcterms:title "Climatology_61II49M5.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Climatology61II49M5/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/3kmfromGroundtimes> a dsv:Column ;
+    rdfs:label "3km from Ground)(times/\\*) " ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalAtmosphericPressurehPa> a dsv:Column ;
+    rdfs:label " Additional Atmospheric Pressure (hPa)" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalDataSetID> a dsv:Column ;
+    rdfs:label " Additional Data Set ID" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalPrecipitationmm> a dsv:Column ;
+    rdfs:label " Additional Precipitation (mm)" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalRelativeHumidity> a dsv:Column ;
+    rdfs:label " Additional Relative Humidity (%)" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalSoilMoisture> a dsv:Column ;
+    rdfs:label " Additional Soil Moisture (%)" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalSolarRadiationWm> a dsv:Column ;
+    rdfs:label " Additional Solar Radiation (W/m²)" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalStudyAreaID> a dsv:Column ;
+    rdfs:label "Additional Study Area ID" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalTemperaturedeg> a dsv:Column ;
+    rdfs:label " Additional Temperature (&deg" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalWeatherCondition> a dsv:Column ;
+    rdfs:label " Additional Weather Condition" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalWindSpeedms> a dsv:Column ;
+    rdfs:label " Additional Wind Speed (m/s)" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/C> a dsv:Column ;
+    rdfs:label "C)" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/DateTimeStamp> a dsv:Column ;
+    rdfs:label " Date & Time Stamp" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/DuststormintensitynbspscaleoftoFRAC12> a dsv:Column ;
+    rdfs:label " Dust storm intensity&nbsp(scale_of__to___)&FRAC12" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/LightningFrequencygt> a dsv:Column ;
+    rdfs:label " Lightning Frequency (&gt" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/StormType> a dsv:Column ;
+    rdfs:label "\\* Storm Type" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/ThermalSensationVote> a dsv:Column ;
+    rdfs:label " Thermal Sensation Vote" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/VolcanICActivityStatus> a dsv:Column ;
+    rdfs:label " VolcanIC Activity Status" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/moFRAGMENT> a dsv:Column ;
+    rdfs:label "</mo><!-- FRAGMENT -->" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/column/xA0> a dsv:Column ;
+    rdfs:label "&#xA0" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Climatology61II49M5/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Climatology61II49M5/column/3kmfromGroundtimes>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalAtmosphericPressurehPa>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalDataSetID>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalPrecipitationmm>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalRelativeHumidity>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalSoilMoisture>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalSolarRadiationWm>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalStudyAreaID>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalTemperaturedeg>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalWeatherCondition>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/AdditionalWindSpeedms>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/C>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/DateTimeStamp>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/DuststormintensitynbspscaleoftoFRAC12>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/LightningFrequencygt>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/StormType>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/ThermalSensationVote>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/VolcanICActivityStatus>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/moFRAGMENT>,
+        <http://metaUnionSearch/datasets/Climatology61II49M5/column/xA0> .
+

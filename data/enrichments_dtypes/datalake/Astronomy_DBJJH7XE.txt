@@ -1,0 +1,14 @@
+name
+description
+species
+notes
+range
+product
+range
+capacity
+category
+album
+origin
+origin
+description
+creator

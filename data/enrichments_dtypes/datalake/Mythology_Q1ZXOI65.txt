@@ -1,0 +1,13 @@
+name
+species
+album
+album
+name
+origin
+name
+religion
+name
+genre
+description
+album
+species

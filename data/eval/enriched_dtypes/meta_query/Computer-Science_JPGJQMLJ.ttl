@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_JPGJQMLJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/Algorithms> a dsv:Column ;
+    rdfs:label " Algorithms" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/ComplexityAnalysis> a dsv:Column ;
+    rdfs:label " Complexity Analysis" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/DataStructures> a dsv:Column ;
+    rdfs:label " Data Structures" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/Database> a dsv:Column ;
+    rdfs:label " Database" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/FileHandling> a dsv:Column ;
+    rdfs:label " File Handling" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/MathforCS> a dsv:Column ;
+    rdfs:label " Math for CS" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/MemoryManagement> a dsv:Column ;
+    rdfs:label " Memory Management" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/Networking> a dsv:Column ;
+    rdfs:label " Networking" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/OperatingSystem> a dsv:Column ;
+    rdfs:label " Operating System" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/ProgrammingLanguage> a dsv:Column ;
+    rdfs:label "Programming Language" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/Algorithms>,
+        <http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/ComplexityAnalysis>,
+        <http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/DataStructures>,
+        <http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/Database>,
+        <http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/FileHandling>,
+        <http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/MathforCS>,
+        <http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/MemoryManagement>,
+        <http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/Networking>,
+        <http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/OperatingSystem>,
+        <http://metaUnionSearch/datasets/ComputerScienceJPGJQMLJ/column/ProgrammingLanguage> .
+

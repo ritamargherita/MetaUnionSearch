@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeomancyDIT16WT8> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_DIT16WT8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeomancyDIT16WT8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyPractitioners> a dsv:Column ;
+    rdfs:label "Geomancy Practitioners" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancySymbols> a dsv:Column ;
+    rdfs:label "Geomancy Symbols" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyTools> a dsv:Column ;
+    rdfs:label "Geomancy Tools" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyinArchitecture> a dsv:Column ;
+    rdfs:label "Geomancy in Architecture" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyinCinematography> a dsv:Column ;
+    rdfs:label "Geomancy in Cinematography" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyinDance> a dsv:Column ;
+    rdfs:label "Geomancy in Dance" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyinFashion> a dsv:Column ;
+    rdfs:label "Geomancy in Fashion" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyinLiterature> a dsv:Column ;
+    rdfs:label "Geomancy in Literature" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyinMusic> a dsv:Column ;
+    rdfs:label "Geomancy in Music" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyinReligion> a dsv:Column ;
+    rdfs:label "Geomancy in Religion" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyinVisualArts> a dsv:Column ;
+    rdfs:label "Geomancy in Visual Arts" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeomancyDIT16WT8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyPractitioners>,
+        <http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancySymbols>,
+        <http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyTools>,
+        <http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyinArchitecture>,
+        <http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyinCinematography>,
+        <http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyinDance>,
+        <http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyinFashion>,
+        <http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyinLiterature>,
+        <http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyinMusic>,
+        <http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyinReligion>,
+        <http://metaUnionSearch/datasets/GeomancyDIT16WT8/column/GeomancyinVisualArts> .
+

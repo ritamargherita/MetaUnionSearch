@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathE00V830D> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_E00V830D.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathE00V830D/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathE00V830D/column/FamousMathProblems> a dsv:Column ;
+    rdfs:label "\"Famous Math Problems\"" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/MathE00V830D/column/MathCareers> a dsv:Column ;
+    rdfs:label "\"Math Careers\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathE00V830D/column/MathCompetitions> a dsv:Column ;
+    rdfs:label "\"Math Competitions\"" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MathE00V830D/column/MathCurricula> a dsv:Column ;
+    rdfs:label "\"Math Curricula\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathE00V830D/column/MathEducationStandards> a dsv:Column ;
+    rdfs:label "\"Math Education Standards\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathE00V830D/column/MathJournalsandPublications> a dsv:Column ;
+    rdfs:label "\"Math Journals and Publications\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathE00V830D/column/MathSoftwareandTools> a dsv:Column ;
+    rdfs:label "\"Math Software and Tools\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathE00V830D/column/MathWebsitesandResources> a dsv:Column ;
+    rdfs:label "\"Math Websites and Resources\"" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/MathE00V830D/column/MathematicalModeling> a dsv:Column ;
+    rdfs:label "\"Mathematical Modeling\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathE00V830D/column/MathematicalTheorems> a dsv:Column ;
+    rdfs:label "\"Mathematical Theorems\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathE00V830D/column/MathematiciansBiographies> a dsv:Column ;
+    rdfs:label "\"Mathematicians' Biographies\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathE00V830D/column/ProblemsinMath> a dsv:Column ;
+    rdfs:label "\"Problems in Math\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathE00V830D/column/PuzzlesandBrainTeasers> a dsv:Column ;
+    rdfs:label "\"Puzzles and Brain Teasers\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MathE00V830D/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MathE00V830D/column/FamousMathProblems>,
+        <http://metaUnionSearch/datasets/MathE00V830D/column/MathCareers>,
+        <http://metaUnionSearch/datasets/MathE00V830D/column/MathCompetitions>,
+        <http://metaUnionSearch/datasets/MathE00V830D/column/MathCurricula>,
+        <http://metaUnionSearch/datasets/MathE00V830D/column/MathEducationStandards>,
+        <http://metaUnionSearch/datasets/MathE00V830D/column/MathJournalsandPublications>,
+        <http://metaUnionSearch/datasets/MathE00V830D/column/MathSoftwareandTools>,
+        <http://metaUnionSearch/datasets/MathE00V830D/column/MathWebsitesandResources>,
+        <http://metaUnionSearch/datasets/MathE00V830D/column/MathematicalModeling>,
+        <http://metaUnionSearch/datasets/MathE00V830D/column/MathematicalTheorems>,
+        <http://metaUnionSearch/datasets/MathE00V830D/column/MathematiciansBiographies>,
+        <http://metaUnionSearch/datasets/MathE00V830D/column/ProblemsinMath>,
+        <http://metaUnionSearch/datasets/MathE00V830D/column/PuzzlesandBrainTeasers> .
+

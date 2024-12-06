@@ -1,0 +1,14 @@
+rank
+product
+category
+duration
+duration
+age
+product
+product
+product
+product
+product
+type
+product
+artist

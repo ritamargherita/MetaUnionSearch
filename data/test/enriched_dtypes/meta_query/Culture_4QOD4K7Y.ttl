@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Culture4QOD4K7Y> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_4QOD4K7Y.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Culture4QOD4K7Y/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/CulturalValues> a dsv:Column ;
+    rdfs:label "Cultural Values" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/DressCode> a dsv:Column ;
+    rdfs:label " Dress Code" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/Festivals> a dsv:Column ;
+    rdfs:label " Festivals" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/Food> a dsv:Column ;
+    rdfs:label " Food" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/Language> a dsv:Column ;
+    rdfs:label " Language" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/Music> a dsv:Column ;
+    rdfs:label " Music" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/PreferredCommunicationStyle> a dsv:Column ;
+    rdfs:label " Preferred Communication Style" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/Religion> a dsv:Column ;
+    rdfs:label " Religion" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/SocialCulture> a dsv:Column ;
+    rdfs:label " Social Culture" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/WorkHours> a dsv:Column ;
+    rdfs:label " Work Hours" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Culture4QOD4K7Y/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/CulturalValues>,
+        <http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/DressCode>,
+        <http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/Festivals>,
+        <http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/Food>,
+        <http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/Language>,
+        <http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/Music>,
+        <http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/PreferredCommunicationStyle>,
+        <http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/Religion>,
+        <http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/SocialCulture>,
+        <http://metaUnionSearch/datasets/Culture4QOD4K7Y/column/WorkHours> .
+

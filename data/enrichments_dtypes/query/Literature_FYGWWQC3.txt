@@ -1,0 +1,13 @@
+album
+genre
+name
+album
+language
+album
+person
+person
+location
+name
+language
+person
+position

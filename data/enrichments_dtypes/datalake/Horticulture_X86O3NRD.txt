@@ -1,0 +1,13 @@
+address
+album
+album
+status
+artist
+classification
+depth
+class
+description
+weight
+type
+album
+name

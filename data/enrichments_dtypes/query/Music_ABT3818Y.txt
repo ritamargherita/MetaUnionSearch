@@ -1,0 +1,11 @@
+album
+artist
+genre
+description
+language
+album
+format
+duration
+artist
+album
+album

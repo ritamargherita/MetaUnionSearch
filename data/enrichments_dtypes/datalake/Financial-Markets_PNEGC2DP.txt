@@ -1,0 +1,15 @@
+company
+industry
+address
+day
+address
+address
+sales
+sales
+description
+year
+description
+address
+address
+class
+format

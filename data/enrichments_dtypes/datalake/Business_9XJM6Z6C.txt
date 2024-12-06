@@ -1,0 +1,12 @@
+name
+name
+capacity
+location
+industry
+industry
+company
+address
+notes
+area
+status
+notes

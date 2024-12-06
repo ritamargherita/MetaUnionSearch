@@ -1,0 +1,14 @@
+name
+species
+album
+album
+album
+album
+artist
+team
+album
+album
+artist
+artist
+artist
+artist

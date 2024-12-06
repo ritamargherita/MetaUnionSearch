@@ -1,0 +1,13 @@
+name
+person
+person
+address
+location
+name
+address
+album
+address
+name
+religion
+credit
+education

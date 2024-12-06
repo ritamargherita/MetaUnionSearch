@@ -1,0 +1,14 @@
+format
+name
+country
+affiliation
+position
+region
+class
+name
+description
+affiliation
+category
+description
+description
+component

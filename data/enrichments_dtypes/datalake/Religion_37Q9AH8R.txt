@@ -1,0 +1,13 @@
+duration
+region
+sales
+result
+artist
+family
+album
+origin
+name
+category
+collection
+classification
+album

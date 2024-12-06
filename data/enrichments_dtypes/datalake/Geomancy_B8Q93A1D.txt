@@ -1,0 +1,15 @@
+product
+description
+description
+origin
+origin
+description
+description
+description
+description
+notes
+description
+collection
+album
+artist
+artist

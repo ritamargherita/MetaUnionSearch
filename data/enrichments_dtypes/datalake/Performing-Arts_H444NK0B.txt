@@ -1,0 +1,15 @@
+artist
+genre
+year
+location
+name
+year
+album
+name
+rank
+operator
+album
+director
+location
+album
+name

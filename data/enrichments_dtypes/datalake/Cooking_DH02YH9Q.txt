@@ -1,0 +1,9 @@
+owner
+address
+product
+position
+capacity
+product
+description
+description
+category

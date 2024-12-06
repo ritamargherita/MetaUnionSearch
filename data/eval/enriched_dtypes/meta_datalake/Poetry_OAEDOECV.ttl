@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryOAEDOECV> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_OAEDOECV.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryOAEDOECV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryOAEDOECV/column/AveragePerformanceEvaluation> a dsv:Column ;
+    rdfs:label " Average Performance Evaluation" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/PoetryOAEDOECV/column/CriticReviewscount> a dsv:Column ;
+    rdfs:label " Critic Reviews count" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/PoetryOAEDOECV/column/GeographicalDistribution> a dsv:Column ;
+    rdfs:label " Geographical Distribution" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PoetryOAEDOECV/column/PoetBiography> a dsv:Column ;
+    rdfs:label "Poet Biography" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PoetryOAEDOECV/column/PublicationsList> a dsv:Column ;
+    rdfs:label " Publications List" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PoetryOAEDOECV/column/ReadingDifficultyScores> a dsv:Column ;
+    rdfs:label " Reading Difficulty Scores" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PoetryOAEDOECV/column/RelevancebyHistoricalPeriod> a dsv:Column ;
+    rdfs:label " Relevance by Historical Period" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/PoetryOAEDOECV/column/SocialImpactMeasures> a dsv:Column ;
+    rdfs:label " Social Impact Measures" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/PoetryOAEDOECV/column/SympathyLevel> a dsv:Column ;
+    rdfs:label " Sympathy Level" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/PoetryOAEDOECV/column/TeachingResourcesAvailability> a dsv:Column ;
+    rdfs:label " Teaching Resources Availability" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/PoetryOAEDOECV/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryOAEDOECV/column/AveragePerformanceEvaluation>,
+        <http://metaUnionSearch/datasets/PoetryOAEDOECV/column/CriticReviewscount>,
+        <http://metaUnionSearch/datasets/PoetryOAEDOECV/column/GeographicalDistribution>,
+        <http://metaUnionSearch/datasets/PoetryOAEDOECV/column/PoetBiography>,
+        <http://metaUnionSearch/datasets/PoetryOAEDOECV/column/PublicationsList>,
+        <http://metaUnionSearch/datasets/PoetryOAEDOECV/column/ReadingDifficultyScores>,
+        <http://metaUnionSearch/datasets/PoetryOAEDOECV/column/RelevancebyHistoricalPeriod>,
+        <http://metaUnionSearch/datasets/PoetryOAEDOECV/column/SocialImpactMeasures>,
+        <http://metaUnionSearch/datasets/PoetryOAEDOECV/column/SympathyLevel>,
+        <http://metaUnionSearch/datasets/PoetryOAEDOECV/column/TeachingResourcesAvailability> .
+

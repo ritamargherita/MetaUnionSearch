@@ -1,0 +1,11 @@
+description
+capacity
+year
+origin
+description
+type
+address
+status
+genre
+genre
+album

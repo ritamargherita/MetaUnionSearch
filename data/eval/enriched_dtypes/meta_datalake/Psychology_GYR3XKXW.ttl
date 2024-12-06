@@ -1,0 +1,106 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_GYR3XKXW.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/Age> a dsv:Column ;
+    rdfs:label " Age" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/AnnualIncomeBracket> a dsv:Column ;
+    rdfs:label " AnnualIncomeBracket" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/AttentionSpanLength> a dsv:Column ;
+    rdfs:label " AttentionSpanLength" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/DateOfBirth> a dsv:Column ;
+    rdfs:label " DateOfBirth" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/EducationLevel> a dsv:Column ;
+    rdfs:label " EducationLevel" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/Gender> a dsv:Column ;
+    rdfs:label " Gender" ;
+    dcterms:type "gender" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/HasChildrenPlus> a dsv:Column ;
+    rdfs:label " HasChildrenPlus" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/IntelligenceQuotientIQ> a dsv:Column ;
+    rdfs:label " IntelligenceQuotient(IQ)" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/MaritalStatusII> a dsv:Column ;
+    rdfs:label " MaritalStatusII" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/MemoryScore> a dsv:Column ;
+    rdfs:label " MemoryScore" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/Occupation> a dsv:Column ;
+    rdfs:label " Occupation" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/PersonalityTypePercent> a dsv:Column ;
+    rdfs:label " PersonalityTypePercent" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/ReactionSpeedScore> a dsv:Column ;
+    rdfs:label " ReactionSpeedScore" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/RemainingColumnHeader1> a dsv:Column ;
+    rdfs:label " RemainingColumnHeader1" ;
+    dcterms:type "credit" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/RemainingColumnHeader2> a dsv:Column ;
+    rdfs:label " RemainingColumnHeader2" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/SocialSkillsAssessment> a dsv:Column ;
+    rdfs:label " SocialSkillsAssessment" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/SubjectId> a dsv:Column ;
+    rdfs:label "SubjectId" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/Trait6Perct> a dsv:Column ;
+    rdfs:label " Trait6Perct" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/Trait7Perct> a dsv:Column ;
+    rdfs:label " Trait7Perct" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/PsychologyGYR3XKXW/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/Age>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/AnnualIncomeBracket>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/AttentionSpanLength>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/DateOfBirth>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/EducationLevel>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/Gender>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/HasChildrenPlus>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/IntelligenceQuotientIQ>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/MaritalStatusII>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/MemoryScore>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/Occupation>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/PersonalityTypePercent>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/ReactionSpeedScore>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/RemainingColumnHeader1>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/RemainingColumnHeader2>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/SocialSkillsAssessment>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/SubjectId>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/Trait6Perct>,
+        <http://metaUnionSearch/datasets/PsychologyGYR3XKXW/column/Trait7Perct> .
+

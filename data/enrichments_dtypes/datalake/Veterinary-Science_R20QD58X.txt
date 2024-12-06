@@ -1,0 +1,12 @@
+species
+name
+duration
+weight
+category
+description
+product
+product
+description
+name
+notes
+status

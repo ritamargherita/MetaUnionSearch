@@ -1,0 +1,10 @@
+country
+director
+age
+album
+position
+person
+sex
+person
+address
+city

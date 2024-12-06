@@ -1,0 +1,15 @@
+album
+person
+year
+genre
+publisher
+duration
+address
+education
+address
+format
+owner
+language
+status
+range
+artist

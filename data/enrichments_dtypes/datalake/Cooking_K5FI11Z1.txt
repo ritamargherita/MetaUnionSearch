@@ -1,0 +1,12 @@
+owner
+address
+age
+capacity
+product
+product
+product
+category
+name
+name
+rank
+artist

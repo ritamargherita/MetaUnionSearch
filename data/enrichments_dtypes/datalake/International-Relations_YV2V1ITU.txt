@@ -1,0 +1,13 @@
+name
+region
+class
+industry
+affiliation
+description
+description
+description
+publisher
+description
+description
+notes
+notes

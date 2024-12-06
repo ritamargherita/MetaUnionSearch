@@ -1,0 +1,11 @@
+album
+year
+genre
+person
+description
+description
+notes
+album
+album
+component
+album

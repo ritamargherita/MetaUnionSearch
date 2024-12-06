@@ -1,0 +1,10 @@
+year
+category
+description
+name
+name
+description
+artist
+area
+status
+sales

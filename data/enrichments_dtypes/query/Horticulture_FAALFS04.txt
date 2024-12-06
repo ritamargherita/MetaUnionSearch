@@ -1,0 +1,11 @@
+species
+family
+origin
+status
+age
+album
+brand
+rank
+description
+address
+description

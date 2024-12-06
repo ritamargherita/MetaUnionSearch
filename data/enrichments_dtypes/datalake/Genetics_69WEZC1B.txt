@@ -1,0 +1,13 @@
+name
+age
+area
+area
+capacity
+location
+affiliation
+affiliation
+affiliation
+name
+category
+age
+sales

@@ -1,0 +1,15 @@
+description
+industry
+range
+range
+range
+range
+region
+range
+rank
+region
+ranking
+age
+status
+ranking
+result

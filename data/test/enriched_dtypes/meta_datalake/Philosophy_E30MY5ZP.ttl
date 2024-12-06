@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhilosophyE30MY5ZP> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_E30MY5ZP.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/InfluentialWork2> a dsv:Column ;
+    rdfs:label " Influential Work 2" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/MajorTheorist2> a dsv:Column ;
+    rdfs:label " Major Theorist 2" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/PhilosophicalConcept2> a dsv:Column ;
+    rdfs:label "Philosophical Concept 2" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/UnrelatedColumn10> a dsv:Column ;
+    rdfs:label " Unrelated Column 10." ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/UnrelatedColumn5> a dsv:Column ;
+    rdfs:label " Unrelated Column 5" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/UnrelatedColumn6> a dsv:Column ;
+    rdfs:label " Unrelated Column 6" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/UnrelatedColumn7> a dsv:Column ;
+    rdfs:label " Unrelated Column 7" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/UnrelatedColumn8> a dsv:Column ;
+    rdfs:label " Unrelated Column 8" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/UnrelatedColumn9> a dsv:Column ;
+    rdfs:label " Unrelated Column 9" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/ofAdherents2> a dsv:Column ;
+    rdfs:label " # of Adherents 2" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/InfluentialWork2>,
+        <http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/MajorTheorist2>,
+        <http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/PhilosophicalConcept2>,
+        <http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/UnrelatedColumn10>,
+        <http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/UnrelatedColumn5>,
+        <http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/UnrelatedColumn6>,
+        <http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/UnrelatedColumn7>,
+        <http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/UnrelatedColumn8>,
+        <http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/UnrelatedColumn9>,
+        <http://metaUnionSearch/datasets/PhilosophyE30MY5ZP/column/ofAdherents2> .
+

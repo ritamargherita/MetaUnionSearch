@@ -1,0 +1,12 @@
+name
+operator
+duration
+duration
+origin
+product
+product
+product
+product
+product
+product
+product

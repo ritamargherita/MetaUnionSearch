@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_H8P2YAZQ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/AwardsandHonors> a dsv:Column ;
+    rdfs:label " Awards and Honors" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/Collaborations> a dsv:Column ;
+    rdfs:label " Collaborations" ;
+    dcterms:type "industry" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/CurrentProjects> a dsv:Column ;
+    rdfs:label " Current Projects" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/EducationalBackground> a dsv:Column ;
+    rdfs:label " Educational Background" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/FutureGoals> a dsv:Column ;
+    rdfs:label " Future Goals" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/GrantFunding> a dsv:Column ;
+    rdfs:label " Grant Funding" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/LabEquipmentUsed> a dsv:Column ;
+    rdfs:label " Lab Equipment Used" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/MentorshipExperience> a dsv:Column ;
+    rdfs:label " Mentorship Experience" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/NumberofPublications> a dsv:Column ;
+    rdfs:label " Number of Publications" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/ProfessionalMemberships> a dsv:Column ;
+    rdfs:label " Professional Memberships" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/ResearchFocus> a dsv:Column ;
+    rdfs:label " Research Focus" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/SpeciesStudied> a dsv:Column ;
+    rdfs:label " Species Studied" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/TeachingExperience> a dsv:Column ;
+    rdfs:label " Teaching Experience" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/VeterinaryMedicineField> a dsv:Column ;
+    rdfs:label "Veterinary Medicine Field" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/YearsofExperience> a dsv:Column ;
+    rdfs:label " Years of Experience" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/AwardsandHonors>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/Collaborations>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/CurrentProjects>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/EducationalBackground>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/FutureGoals>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/GrantFunding>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/LabEquipmentUsed>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/MentorshipExperience>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/NumberofPublications>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/ProfessionalMemberships>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/ResearchFocus>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/SpeciesStudied>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/TeachingExperience>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/VeterinaryMedicineField>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceH8P2YAZQ/column/YearsofExperience> .
+

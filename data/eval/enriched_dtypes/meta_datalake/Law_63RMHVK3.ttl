@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Law63RMHVK3> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_63RMHVK3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Law63RMHVK3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Law63RMHVK3/column/AmendmentsProposedtheirFates> a dsv:Column ;
+    rdfs:label " Amendments Proposed & their Fates" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Law63RMHVK3/column/BillNumber> a dsv:Column ;
+    rdfs:label " Bill Number" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Law63RMHVK3/column/ExpectedImpactAnalysis> a dsv:Column ;
+    rdfs:label " Expected Impact Analysis" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/Law63RMHVK3/column/LegislativeJurisdiction> a dsv:Column ;
+    rdfs:label "Legislative Jurisdiction" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/Law63RMHVK3/column/LegislatureSession> a dsv:Column ;
+    rdfs:label " Legislature Session" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/Law63RMHVK3/column/MonitoringEvaluation> a dsv:Column ;
+    rdfs:label " Monitoring & Evaluation." ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Law63RMHVK3/column/Proposer> a dsv:Column ;
+    rdfs:label " Proposer" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Law63RMHVK3/column/PublicHearingsTestimonies> a dsv:Column ;
+    rdfs:label " Public Hearings & Testimonies" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/Law63RMHVK3/column/RegulationCreationImplementationDetails> a dsv:Column ;
+    rdfs:label " Regulation Creation & Implementation Details" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Law63RMHVK3/column/StakeholderEngagement> a dsv:Column ;
+    rdfs:label " Stakeholder Engagement" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Law63RMHVK3/column/StrategicPlanningConsiderations> a dsv:Column ;
+    rdfs:label " Strategic Planning Considerations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Law63RMHVK3/column/SupportersOpposition> a dsv:Column ;
+    rdfs:label " Supporters/Opposition" ;
+    dcterms:type "affiliation" .
+
+<http://metaUnionSearch/datasets/Law63RMHVK3/column/VotingResults> a dsv:Column ;
+    rdfs:label " Voting Results" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Law63RMHVK3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Law63RMHVK3/column/AmendmentsProposedtheirFates>,
+        <http://metaUnionSearch/datasets/Law63RMHVK3/column/BillNumber>,
+        <http://metaUnionSearch/datasets/Law63RMHVK3/column/ExpectedImpactAnalysis>,
+        <http://metaUnionSearch/datasets/Law63RMHVK3/column/LegislativeJurisdiction>,
+        <http://metaUnionSearch/datasets/Law63RMHVK3/column/LegislatureSession>,
+        <http://metaUnionSearch/datasets/Law63RMHVK3/column/MonitoringEvaluation>,
+        <http://metaUnionSearch/datasets/Law63RMHVK3/column/Proposer>,
+        <http://metaUnionSearch/datasets/Law63RMHVK3/column/PublicHearingsTestimonies>,
+        <http://metaUnionSearch/datasets/Law63RMHVK3/column/RegulationCreationImplementationDetails>,
+        <http://metaUnionSearch/datasets/Law63RMHVK3/column/StakeholderEngagement>,
+        <http://metaUnionSearch/datasets/Law63RMHVK3/column/StrategicPlanningConsiderations>,
+        <http://metaUnionSearch/datasets/Law63RMHVK3/column/SupportersOpposition>,
+        <http://metaUnionSearch/datasets/Law63RMHVK3/column/VotingResults> .
+

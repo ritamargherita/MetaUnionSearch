@@ -1,0 +1,14 @@
+album
+name
+rank
+position
+address
+depth
+album
+director
+description
+species
+component
+component
+organisation
+format

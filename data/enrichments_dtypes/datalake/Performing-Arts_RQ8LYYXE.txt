@@ -1,0 +1,11 @@
+genre
+album
+album
+name
+artist
+album
+country
+type
+description
+company
+artist

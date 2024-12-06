@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryDGDZVGPM> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_DGDZVGPM.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryDGDZVGPM/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/AudioRecordingsAvailable> a dsv:Column ;
+    rdfs:label " Audio Recordings Available?" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/CollaborativeWorkswithOtherArtsIntertextualConnectionsWithOtherTextsorAuthors> a dsv:Column ;
+    rdfs:label " Collaborative Works with Other Arts?, Intertextual Connections With Other Texts or Authors,\\*" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/CulturalContext> a dsv:Column ;
+    rdfs:label " Cultural Context" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/EducationalAdaptationsorResourcesBasedOnThePoem> a dsv:Column ;
+    rdfs:label " Educational Adaptations or Resources Based On The Poem" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/LanguageDialectFeatures> a dsv:Column ;
+    rdfs:label " Language/Dialect Features" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/ParodiesOrSatiricalVersions> a dsv:Column ;
+    rdfs:label " Parodies Or Satirical Versions*." ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/PoetBiography> a dsv:Column ;
+    rdfs:label "Poet Biography" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/PublicationYearPlaceifapplicable> a dsv:Column ;
+    rdfs:label " Publication Year & Place (if applicable)" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/TranslationDetailsfornonEnglishpoems> a dsv:Column ;
+    rdfs:label " Translation Details (for non-English poems)" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/VisualArtInspiredbyTheWork> a dsv:Column ;
+    rdfs:label " Visual Art Inspired by The Work?" ;
+    dcterms:type "operator" .
+
+<http://metaUnionSearch/datasets/PoetryDGDZVGPM/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/AudioRecordingsAvailable>,
+        <http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/CollaborativeWorkswithOtherArtsIntertextualConnectionsWithOtherTextsorAuthors>,
+        <http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/CulturalContext>,
+        <http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/EducationalAdaptationsorResourcesBasedOnThePoem>,
+        <http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/LanguageDialectFeatures>,
+        <http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/ParodiesOrSatiricalVersions>,
+        <http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/PoetBiography>,
+        <http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/PublicationYearPlaceifapplicable>,
+        <http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/TranslationDetailsfornonEnglishpoems>,
+        <http://metaUnionSearch/datasets/PoetryDGDZVGPM/column/VisualArtInspiredbyTheWork> .
+

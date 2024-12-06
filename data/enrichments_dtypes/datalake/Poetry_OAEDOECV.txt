@@ -1,0 +1,10 @@
+notes
+name
+language
+category
+origin
+region
+description
+description
+status
+duration

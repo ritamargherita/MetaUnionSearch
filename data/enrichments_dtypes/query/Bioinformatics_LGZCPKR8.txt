@@ -1,0 +1,11 @@
+symbol
+area
+position
+position
+category
+description
+description
+education
+product
+product
+education

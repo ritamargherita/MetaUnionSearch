@@ -1,0 +1,14 @@
+region
+classification
+classification
+component
+classification
+country
+type
+position
+affiliation
+city
+year
+capacity
+address
+sales

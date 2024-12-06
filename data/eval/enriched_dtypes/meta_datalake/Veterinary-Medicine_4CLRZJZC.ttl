@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_4CLRZJZC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/10RehabilitationPeriod> a dsv:Column ;
+    rdfs:label "10. Rehabilitation Period" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/11RecurrenceProbability> a dsv:Column ;
+    rdfs:label "11. Recurrence Probability" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/12NutritionalManagement> a dsv:Column ;
+    rdfs:label "12. Nutritional Management" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/1SeparationAnxietyDisorder> a dsv:Column ;
+    rdfs:label "1. Separation Anxiety Disorder" ;
+    dcterms:type "code" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/2SpeciesDogorCat> a dsv:Column ;
+    rdfs:label "2. Species (Dog or Cat)" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/3NeuteringStatus> a dsv:Column ;
+    rdfs:label "3. Neutering Status" ;
+    dcterms:type "sex" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/4Weight> a dsv:Column ;
+    rdfs:label "4. Weight" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/5Height> a dsv:Column ;
+    rdfs:label "5. Height" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/6TrainingHistory> a dsv:Column ;
+    rdfs:label "6. Training History" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/7EnvironmentalFactorsChanges> a dsv:Column ;
+    rdfs:label "7. Environmental Factors & Changes" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/8DirectCauses> a dsv:Column ;
+    rdfs:label "8. Direct Causes" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/9PreventionMethods> a dsv:Column ;
+    rdfs:label "9. Prevention Methods" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/10RehabilitationPeriod>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/11RecurrenceProbability>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/12NutritionalManagement>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/1SeparationAnxietyDisorder>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/2SpeciesDogorCat>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/3NeuteringStatus>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/4Weight>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/5Height>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/6TrainingHistory>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/7EnvironmentalFactorsChanges>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/8DirectCauses>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine4CLRZJZC/column/9PreventionMethods> .
+

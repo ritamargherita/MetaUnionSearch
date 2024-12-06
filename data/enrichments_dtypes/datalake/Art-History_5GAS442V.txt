@@ -1,0 +1,12 @@
+location
+year
+year
+nationality
+religion
+location
+album
+artist
+artist
+origin
+category
+religion

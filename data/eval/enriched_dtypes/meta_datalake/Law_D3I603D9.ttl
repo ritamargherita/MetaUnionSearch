@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawD3I603D9> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_D3I603D9.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawD3I603D9/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawD3I603D9/column/AppealStatus> a dsv:Column ;
+    rdfs:label " Appeal Status" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/LawD3I603D9/column/ArrestingOfficers> a dsv:Column ;
+    rdfs:label " Arresting Officers" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/LawD3I603D9/column/CourtDate> a dsv:Column ;
+    rdfs:label "Court Date" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/LawD3I603D9/column/DefenseTeam> a dsv:Column ;
+    rdfs:label " Defense Team" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawD3I603D9/column/DetailsofCrimeScene> a dsv:Column ;
+    rdfs:label " Details of Crime Scene" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawD3I603D9/column/FinancialImplications> a dsv:Column ;
+    rdfs:label " Financial Implications" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/LawD3I603D9/column/JudicialVerdict> a dsv:Column ;
+    rdfs:label " Judicial Verdict" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/LawD3I603D9/column/ProsecutionTeam> a dsv:Column ;
+    rdfs:label " Prosecution Team" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/LawD3I603D9/column/SentencingInformation> a dsv:Column ;
+    rdfs:label " Sentencing Information" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/LawD3I603D9/column/TypeOfCrime> a dsv:Column ;
+    rdfs:label " Type Of Crime" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/LawD3I603D9/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LawD3I603D9/column/AppealStatus>,
+        <http://metaUnionSearch/datasets/LawD3I603D9/column/ArrestingOfficers>,
+        <http://metaUnionSearch/datasets/LawD3I603D9/column/CourtDate>,
+        <http://metaUnionSearch/datasets/LawD3I603D9/column/DefenseTeam>,
+        <http://metaUnionSearch/datasets/LawD3I603D9/column/DetailsofCrimeScene>,
+        <http://metaUnionSearch/datasets/LawD3I603D9/column/FinancialImplications>,
+        <http://metaUnionSearch/datasets/LawD3I603D9/column/JudicialVerdict>,
+        <http://metaUnionSearch/datasets/LawD3I603D9/column/ProsecutionTeam>,
+        <http://metaUnionSearch/datasets/LawD3I603D9/column/SentencingInformation>,
+        <http://metaUnionSearch/datasets/LawD3I603D9/column/TypeOfCrime> .
+

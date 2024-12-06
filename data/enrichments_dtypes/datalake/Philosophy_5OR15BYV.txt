@@ -1,0 +1,14 @@
+result
+person
+description
+album
+class
+person
+description
+origin
+status
+category
+description
+description
+notes
+description

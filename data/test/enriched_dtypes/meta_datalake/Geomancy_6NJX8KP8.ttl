@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geomancy6NJX8KP8> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_6NJX8KP8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geomancy6NJX8KP8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/AdditionalSymbolisms> a dsv:Column ;
+    rdfs:label "Additional Symbolisms" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/AdvancedTechniques> a dsv:Column ;
+    rdfs:label "Advanced Techniques" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/FrequencyUsedbyCulture> a dsv:Column ;
+    rdfs:label "Frequency Used by Culture" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/GeographicalVariantsandOffshots> a dsv:Column ;
+    rdfs:label "Geographical Variants and Offshots" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/InheritedvsInnovativeMethods> a dsv:Column ;
+    rdfs:label "Inherited vs Innovative Methods" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/InterpretiveDifferencesinRegions> a dsv:Column ;
+    rdfs:label "Interpretive Differences in Regions" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/LimitationonAlphanumericReadability> a dsv:Column ;
+    rdfs:label "Limitation on Alphanumeric Readability" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/Notes> a dsv:Column ;
+    rdfs:label "Notes" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/PlanetaryConnections> a dsv:Column ;
+    rdfs:label "Planetary Connections" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/PopularityAmongContemporaries> a dsv:Column ;
+    rdfs:label "Popularity Among Contemporaries" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/PossibleOutcomeVariations> a dsv:Column ;
+    rdfs:label "Possible Outcome Variations" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/PractitionerExperienceLevel> a dsv:Column ;
+    rdfs:label "Practitioner Experience Level" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/TimeRequiredforDivinations> a dsv:Column ;
+    rdfs:label "Time Required for Divinations" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/ZodiacSignSymbolism> a dsv:Column ;
+    rdfs:label "Zodiac Sign Symbolism" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/Geomancy6NJX8KP8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/AdditionalSymbolisms>,
+        <http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/AdvancedTechniques>,
+        <http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/FrequencyUsedbyCulture>,
+        <http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/GeographicalVariantsandOffshots>,
+        <http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/InheritedvsInnovativeMethods>,
+        <http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/InterpretiveDifferencesinRegions>,
+        <http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/LimitationonAlphanumericReadability>,
+        <http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/Notes>,
+        <http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/PlanetaryConnections>,
+        <http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/PopularityAmongContemporaries>,
+        <http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/PossibleOutcomeVariations>,
+        <http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/PractitionerExperienceLevel>,
+        <http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/TimeRequiredforDivinations>,
+        <http://metaUnionSearch/datasets/Geomancy6NJX8KP8/column/ZodiacSignSymbolism> .
+

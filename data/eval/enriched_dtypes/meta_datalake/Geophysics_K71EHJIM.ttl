@@ -1,0 +1,83 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeophysicsK71EHJIM> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_K71EHJIM.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeophysicsK71EHJIM/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/ContinentalDriftReconstruction> a dsv:Column ;
+    rdfs:label """\\
+Continental Drift Reconstruction""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/CrustStressFieldAnalysis> a dsv:Column ;
+    rdfs:label """\\
+Crust Stress Field Analysis""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/ElectricalResistivityProfiling> a dsv:Column ;
+    rdfs:label """\\
+Electrical Resistivity Profiling""" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/GravityAnomalies> a dsv:Column ;
+    rdfs:label """\\
+Gravity Anomalies""" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/IsostaticRebound> a dsv:Column ;
+    rdfs:label """\\
+Isostatic Rebound""" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/MagneticSusceptibilityMap> a dsv:Column ;
+    rdfs:label """\\
+Magnetic Susceptibility Map""" ;
+    dcterms:type "grades" .
+
+<http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/PlateTectonicsMapping> a dsv:Column ;
+    rdfs:label """\\
+Plate Tectonics Mapping""" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/PoroelasticityModel> a dsv:Column ;
+    rdfs:label """\\
+Poroelasticity Model?""" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/RadioactiveIsotopeDating> a dsv:Column ;
+    rdfs:label """\\
+Radioactive Isotope Dating""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/RadioactivityMeasurements> a dsv:Column ;
+    rdfs:label """\\
+Radioactivity Measurements""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/StrainRate> a dsv:Column ;
+    rdfs:label """\\
+Strain Rate""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/TemperatureGradient> a dsv:Column ;
+    rdfs:label """\\
+Temperature Gradient""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeophysicsK71EHJIM/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/ContinentalDriftReconstruction>,
+        <http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/CrustStressFieldAnalysis>,
+        <http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/ElectricalResistivityProfiling>,
+        <http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/GravityAnomalies>,
+        <http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/IsostaticRebound>,
+        <http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/MagneticSusceptibilityMap>,
+        <http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/PlateTectonicsMapping>,
+        <http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/PoroelasticityModel>,
+        <http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/RadioactiveIsotopeDating>,
+        <http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/RadioactivityMeasurements>,
+        <http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/StrainRate>,
+        <http://metaUnionSearch/datasets/GeophysicsK71EHJIM/column/TemperatureGradient> .
+

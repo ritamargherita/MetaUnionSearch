@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B> a dsv:Dataset ;
+    dcterms:subject "financial-markets" ;
+    dcterms:title "Financial-Markets_WJRMHC0B.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/ConsumerConfidence> a dsv:Column ;
+    rdfs:label "Consumer Confidence" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/CreditRating> a dsv:Column ;
+    rdfs:label "Credit Rating" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/DividendYield> a dsv:Column ;
+    rdfs:label "Dividend Yield" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/ForeignExchangeRate> a dsv:Column ;
+    rdfs:label "Foreign Exchange Rate" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/GrossDomesticProduct> a dsv:Column ;
+    rdfs:label "Gross Domestic Product" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/InflationRate> a dsv:Column ;
+    rdfs:label "Inflation Rate" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/InterestRates> a dsv:Column ;
+    rdfs:label "Interest Rates" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/MarketCapitalization> a dsv:Column ;
+    rdfs:label "Market Capitalization" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/PoliticalStability> a dsv:Column ;
+    rdfs:label "Political Stability" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/PriceEarningsRatio> a dsv:Column ;
+    rdfs:label "Price/Earnings Ratio" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/StockMarketIndex> a dsv:Column ;
+    rdfs:label "Stock Market Index" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/StockMarketSector> a dsv:Column ;
+    rdfs:label "Stock Market Sector" ;
+    dcterms:type "industry" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/TradingVolume> a dsv:Column ;
+    rdfs:label "Trading Volume" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/UnemploymentRate> a dsv:Column ;
+    rdfs:label "Unemployment Rate" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/VolatilityIndex> a dsv:Column ;
+    rdfs:label "Volatility Index" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/ConsumerConfidence>,
+        <http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/CreditRating>,
+        <http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/DividendYield>,
+        <http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/ForeignExchangeRate>,
+        <http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/GrossDomesticProduct>,
+        <http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/InflationRate>,
+        <http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/InterestRates>,
+        <http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/MarketCapitalization>,
+        <http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/PoliticalStability>,
+        <http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/PriceEarningsRatio>,
+        <http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/StockMarketIndex>,
+        <http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/StockMarketSector>,
+        <http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/TradingVolume>,
+        <http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/UnemploymentRate>,
+        <http://metaUnionSearch/datasets/FinancialMarketsWJRMHC0B/column/VolatilityIndex> .
+

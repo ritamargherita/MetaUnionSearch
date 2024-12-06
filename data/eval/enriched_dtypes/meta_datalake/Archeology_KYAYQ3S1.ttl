@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_KYAYQ3S1.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/ArtifactDescription> a dsv:Column ;
+    rdfs:label "ArtifactDescription" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/ArtifactType> a dsv:Column ;
+    rdfs:label "\\ArtifactType" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/Era> a dsv:Column ;
+    rdfs:label "\\Era" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/ExcavationSiteName> a dsv:Column ;
+    rdfs:label "\\ExcavationSiteName" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/ExcavationSiteType> a dsv:Column ;
+    rdfs:label "\\ExcavationSiteType" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/FieldWorkFundingSource> a dsv:Column ;
+    rdfs:label "\\FieldWorkFundingSource" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/Latitude> a dsv:Column ;
+    rdfs:label "\\Latitude" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/LeadArchaeologist> a dsv:Column ;
+    rdfs:label "\\LeadArchaeologist" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/Longitude> a dsv:Column ;
+    rdfs:label "\\Longitude" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/NoOfArtifactsFound> a dsv:Column ;
+    rdfs:label "\\NoOfArtifactsFound" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/PreservationStatus> a dsv:Column ;
+    rdfs:label "\\PreservationStatus" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/SecondaryArchaeologist> a dsv:Column ;
+    rdfs:label "\\SecondaryArchaeologist" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/ArtifactDescription>,
+        <http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/ArtifactType>,
+        <http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/Era>,
+        <http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/ExcavationSiteName>,
+        <http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/ExcavationSiteType>,
+        <http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/FieldWorkFundingSource>,
+        <http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/Latitude>,
+        <http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/LeadArchaeologist>,
+        <http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/Longitude>,
+        <http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/NoOfArtifactsFound>,
+        <http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/ArcheologyKYAYQ3S1/column/SecondaryArchaeologist> .
+

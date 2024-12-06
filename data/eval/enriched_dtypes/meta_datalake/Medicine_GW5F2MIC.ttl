@@ -1,0 +1,91 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_GW5F2MIC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MedicineGW5F2MIC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/ApprovalAgency> a dsv:Column ;
+    rdfs:label " Approval Agency" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/ClinicalTrialsInformation> a dsv:Column ;
+    rdfs:label " Clinical Trials Information" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/Contraindications> a dsv:Column ;
+    rdfs:label " Contraindications" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/DrugClassificationtable2> a dsv:Column ;
+    rdfs:label " Drug Classification\\_{table\\_2}" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/DrugFormula> a dsv:Column ;
+    rdfs:label "Drug Formula" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/ExpiryDate> a dsv:Column ;
+    rdfs:label " Expiry Date" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/InteractionswithOtherSubstances> a dsv:Column ;
+    rdfs:label " Interactions with Other Substances." ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/ManufacturingDate> a dsv:Column ;
+    rdfs:label " Manufacturing Date" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/MaximumRecommendedAdultDailyIntake> a dsv:Column ;
+    rdfs:label " Maximum Recommended Adult Daily Intake" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/MolecularWeight> a dsv:Column ;
+    rdfs:label " Molecular Weight" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/PharmaceuticalCompany> a dsv:Column ;
+    rdfs:label " Pharmaceutical Company" ;
+    dcterms:type "manufacturer" .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/PrecautionsforHandling> a dsv:Column ;
+    rdfs:label " Precautions for Handling" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/ProductionSite> a dsv:Column ;
+    rdfs:label " Production Site" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/SideEffects> a dsv:Column ;
+    rdfs:label " Side Effects" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/StorageConditions> a dsv:Column ;
+    rdfs:label " Storage Conditions" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/Table2ChemicalName> a dsv:Column ;
+    rdfs:label " Table 2 Chemical Name" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/MedicineGW5F2MIC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/ApprovalAgency>,
+        <http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/ClinicalTrialsInformation>,
+        <http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/Contraindications>,
+        <http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/DrugClassificationtable2>,
+        <http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/DrugFormula>,
+        <http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/ExpiryDate>,
+        <http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/InteractionswithOtherSubstances>,
+        <http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/ManufacturingDate>,
+        <http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/MaximumRecommendedAdultDailyIntake>,
+        <http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/MolecularWeight>,
+        <http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/PharmaceuticalCompany>,
+        <http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/PrecautionsforHandling>,
+        <http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/ProductionSite>,
+        <http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/SideEffects>,
+        <http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/StorageConditions>,
+        <http://metaUnionSearch/datasets/MedicineGW5F2MIC/column/Table2ChemicalName> .
+

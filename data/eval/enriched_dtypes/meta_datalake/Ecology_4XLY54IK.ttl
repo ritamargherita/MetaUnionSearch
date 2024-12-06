@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Ecology4XLY54IK> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_4XLY54IK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Ecology4XLY54IK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Ecology4XLY54IK/column/BiodiversityHotspots> a dsv:Column ;
+    rdfs:label " Biodiversity Hotspots" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/Ecology4XLY54IK/column/ClimateChangeImpact> a dsv:Column ;
+    rdfs:label " Climate Change Impact" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Ecology4XLY54IK/column/ConservationPrograms> a dsv:Column ;
+    rdfs:label " Conservation Programs" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Ecology4XLY54IK/column/EcologicalFootprint> a dsv:Column ;
+    rdfs:label "Ecological Footprint" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Ecology4XLY54IK/column/EcotourismPotential> a dsv:Column ;
+    rdfs:label " Ecotourism Potential" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/Ecology4XLY54IK/column/EndemicSpeciesPresent> a dsv:Column ;
+    rdfs:label " Endemic Species Present" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/Ecology4XLY54IK/column/HabitatRestorationProjects> a dsv:Column ;
+    rdfs:label " Habitat Restoration Projects" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Ecology4XLY54IK/column/InvasiveSpeciesPresent> a dsv:Column ;
+    rdfs:label " Invasive Species Present" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/Ecology4XLY54IK/column/LegislationandPolicies> a dsv:Column ;
+    rdfs:label " Legislation and Policies" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Ecology4XLY54IK/column/PublicEngagement> a dsv:Column ;
+    rdfs:label " Public Engagement" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/Ecology4XLY54IK/column/ResearchInitiatives> a dsv:Column ;
+    rdfs:label " Research Initiatives" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/Ecology4XLY54IK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Ecology4XLY54IK/column/BiodiversityHotspots>,
+        <http://metaUnionSearch/datasets/Ecology4XLY54IK/column/ClimateChangeImpact>,
+        <http://metaUnionSearch/datasets/Ecology4XLY54IK/column/ConservationPrograms>,
+        <http://metaUnionSearch/datasets/Ecology4XLY54IK/column/EcologicalFootprint>,
+        <http://metaUnionSearch/datasets/Ecology4XLY54IK/column/EcotourismPotential>,
+        <http://metaUnionSearch/datasets/Ecology4XLY54IK/column/EndemicSpeciesPresent>,
+        <http://metaUnionSearch/datasets/Ecology4XLY54IK/column/HabitatRestorationProjects>,
+        <http://metaUnionSearch/datasets/Ecology4XLY54IK/column/InvasiveSpeciesPresent>,
+        <http://metaUnionSearch/datasets/Ecology4XLY54IK/column/LegislationandPolicies>,
+        <http://metaUnionSearch/datasets/Ecology4XLY54IK/column/PublicEngagement>,
+        <http://metaUnionSearch/datasets/Ecology4XLY54IK/column/ResearchInitiatives> .
+

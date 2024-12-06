@@ -1,0 +1,10 @@
+type
+ranking
+weight
+album
+genre
+album
+album
+album
+album
+brand

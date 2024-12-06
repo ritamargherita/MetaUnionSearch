@@ -1,0 +1,13 @@
+location
+name
+name
+religion
+name
+language
+religion
+description
+range
+area
+description
+product
+album

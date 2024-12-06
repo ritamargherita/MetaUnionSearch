@@ -1,0 +1,14 @@
+city
+country
+address
+region
+depth
+area
+ranking
+class
+album
+operator
+team
+notes
+category
+notes

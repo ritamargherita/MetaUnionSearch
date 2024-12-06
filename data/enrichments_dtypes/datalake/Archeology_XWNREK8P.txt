@@ -1,0 +1,13 @@
+name
+species
+status
+address
+description
+rank
+description
+name
+person
+publisher
+address
+region
+notes

@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_2W9535HJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/AdditionalAnimals> a dsv:Column ;
+    rdfs:label "Additional Animals" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/AdultWeight> a dsv:Column ;
+    rdfs:label " Adult Weight" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/AdvancedDiagnosticTests> a dsv:Column ;
+    rdfs:label " Advanced Diagnostic Tests" ;
+    dcterms:type "service" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/AgeatMaturity> a dsv:Column ;
+    rdfs:label " Age at Maturity" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/BreedVariations> a dsv:Column ;
+    rdfs:label " Breed Variations" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/HealthConditionHistory> a dsv:Column ;
+    rdfs:label " Health Condition History" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/NewSymptoms> a dsv:Column ;
+    rdfs:label " New Symptoms" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/ProgressNotes> a dsv:Column ;
+    rdfs:label " Progress Notes" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/TherapyOptions> a dsv:Column ;
+    rdfs:label " Therapy Options" ;
+    dcterms:type "service" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/VeterinaryContactInformation> a dsv:Column ;
+    rdfs:label " Veterinary Contact Information" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/AdditionalAnimals>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/AdultWeight>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/AdvancedDiagnosticTests>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/AgeatMaturity>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/BreedVariations>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/HealthConditionHistory>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/NewSymptoms>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/ProgressNotes>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/TherapyOptions>,
+        <http://metaUnionSearch/datasets/VeterinaryScience2W9535HJ/column/VeterinaryContactInformation> .
+

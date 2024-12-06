@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Literature9OOAEDOE> a dsv:Dataset ;
+    dcterms:subject "literature" ;
+    dcterms:title "Literature_9OOAEDOE.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Literature9OOAEDOE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Literature9OOAEDOE/column/Adaptations> a dsv:Column ;
+    rdfs:label " Adaptations" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Literature9OOAEDOE/column/AuthorIntentions> a dsv:Column ;
+    rdfs:label " Author Intentions" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/Literature9OOAEDOE/column/AwardsWon> a dsv:Column ;
+    rdfs:label " Awards Won" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Literature9OOAEDOE/column/BookTitle> a dsv:Column ;
+    rdfs:label "Book Title" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Literature9OOAEDOE/column/CulturalContext> a dsv:Column ;
+    rdfs:label " Cultural Context" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Literature9OOAEDOE/column/Genre> a dsv:Column ;
+    rdfs:label " Genre" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/Literature9OOAEDOE/column/LanguageImagery> a dsv:Column ;
+    rdfs:label " Language & Imagery" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/Literature9OOAEDOE/column/PublicationDate> a dsv:Column ;
+    rdfs:label " Publication Date" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/Literature9OOAEDOE/column/ReceptionCriticism> a dsv:Column ;
+    rdfs:label " Reception & Criticism" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Literature9OOAEDOE/column/SocietalImpact> a dsv:Column ;
+    rdfs:label " Societal Impact" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Literature9OOAEDOE/column/ThemesRevisited> a dsv:Column ;
+    rdfs:label " Themes Revisited" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Literature9OOAEDOE/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Literature9OOAEDOE/column/Adaptations>,
+        <http://metaUnionSearch/datasets/Literature9OOAEDOE/column/AuthorIntentions>,
+        <http://metaUnionSearch/datasets/Literature9OOAEDOE/column/AwardsWon>,
+        <http://metaUnionSearch/datasets/Literature9OOAEDOE/column/BookTitle>,
+        <http://metaUnionSearch/datasets/Literature9OOAEDOE/column/CulturalContext>,
+        <http://metaUnionSearch/datasets/Literature9OOAEDOE/column/Genre>,
+        <http://metaUnionSearch/datasets/Literature9OOAEDOE/column/LanguageImagery>,
+        <http://metaUnionSearch/datasets/Literature9OOAEDOE/column/PublicationDate>,
+        <http://metaUnionSearch/datasets/Literature9OOAEDOE/column/ReceptionCriticism>,
+        <http://metaUnionSearch/datasets/Literature9OOAEDOE/column/SocietalImpact>,
+        <http://metaUnionSearch/datasets/Literature9OOAEDOE/column/ThemesRevisited> .
+

@@ -1,0 +1,9 @@
+rank
+name
+name
+album
+class
+area
+album
+notes
+description

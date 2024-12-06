@@ -1,0 +1,14 @@
+person
+address
+address
+address
+address
+address
+address
+notes
+notes
+area
+area
+address
+operator
+area

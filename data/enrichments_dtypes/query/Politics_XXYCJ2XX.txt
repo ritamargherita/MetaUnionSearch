@@ -1,0 +1,11 @@
+position
+plays
+currency
+type
+affiliation
+religion
+gender
+year
+location
+result
+owner

@@ -1,0 +1,15 @@
+class
+origin
+description
+album
+category
+album
+region
+religion
+category
+religion
+product
+class
+description
+album
+service

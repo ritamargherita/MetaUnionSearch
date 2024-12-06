@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ScienceRAST5J28> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_RAST5J28.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ScienceRAST5J28/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ScienceRAST5J28/column/ControlGroup> a dsv:Column ;
+    rdfs:label " Control Group" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceRAST5J28/column/ExperimentGroup> a dsv:Column ;
+    rdfs:label " Experiment Group" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceRAST5J28/column/FutureResearch> a dsv:Column ;
+    rdfs:label " Future Research" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceRAST5J28/column/Location> a dsv:Column ;
+    rdfs:label " Location" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/ScienceRAST5J28/column/ReplicationInfo> a dsv:Column ;
+    rdfs:label " Replication Info" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceRAST5J28/column/ResearchEthics> a dsv:Column ;
+    rdfs:label " Research Ethics" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/ScienceRAST5J28/column/ResearchTopic> a dsv:Column ;
+    rdfs:label " Research Topic" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/ScienceRAST5J28/column/Researchers> a dsv:Column ;
+    rdfs:label "Researchers" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/ScienceRAST5J28/column/SampleSize> a dsv:Column ;
+    rdfs:label " Sample Size" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/ScienceRAST5J28/column/StatisticalSignificance> a dsv:Column ;
+    rdfs:label " Statistical Significance" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/ScienceRAST5J28/column/StudyDate> a dsv:Column ;
+    rdfs:label " Study Date" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ScienceRAST5J28/column/StudyFunding> a dsv:Column ;
+    rdfs:label " Study Funding" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceRAST5J28/column/pValue> a dsv:Column ;
+    rdfs:label " p Value" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/ScienceRAST5J28/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ScienceRAST5J28/column/ControlGroup>,
+        <http://metaUnionSearch/datasets/ScienceRAST5J28/column/ExperimentGroup>,
+        <http://metaUnionSearch/datasets/ScienceRAST5J28/column/FutureResearch>,
+        <http://metaUnionSearch/datasets/ScienceRAST5J28/column/Location>,
+        <http://metaUnionSearch/datasets/ScienceRAST5J28/column/ReplicationInfo>,
+        <http://metaUnionSearch/datasets/ScienceRAST5J28/column/ResearchEthics>,
+        <http://metaUnionSearch/datasets/ScienceRAST5J28/column/ResearchTopic>,
+        <http://metaUnionSearch/datasets/ScienceRAST5J28/column/Researchers>,
+        <http://metaUnionSearch/datasets/ScienceRAST5J28/column/SampleSize>,
+        <http://metaUnionSearch/datasets/ScienceRAST5J28/column/StatisticalSignificance>,
+        <http://metaUnionSearch/datasets/ScienceRAST5J28/column/StudyDate>,
+        <http://metaUnionSearch/datasets/ScienceRAST5J28/column/StudyFunding>,
+        <http://metaUnionSearch/datasets/ScienceRAST5J28/column/pValue> .
+

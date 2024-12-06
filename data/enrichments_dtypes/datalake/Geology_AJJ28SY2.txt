@@ -1,0 +1,11 @@
+company
+classification
+area
+artist
+status
+religion
+name
+name
+name
+classification
+name

@@ -1,0 +1,13 @@
+artist
+address
+category
+category
+ranking
+code
+product
+status
+status
+address
+category
+classification
+rank

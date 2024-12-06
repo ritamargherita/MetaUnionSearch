@@ -1,0 +1,16 @@
+album
+language
+description
+description
+capacity
+description
+class
+description
+description
+notes
+description
+description
+description
+status
+description
+year

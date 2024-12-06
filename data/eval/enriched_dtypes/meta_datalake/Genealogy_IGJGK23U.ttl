@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GenealogyIGJGK23U> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_IGJGK23U.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GenealogyIGJGK23U/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/DateOfBirth> a dsv:Column ;
+    rdfs:label " DateOfBirth" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/EducationLevel> a dsv:Column ;
+    rdfs:label " EducationLevel" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/Email> a dsv:Column ;
+    rdfs:label " Email" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/FirstName> a dsv:Column ;
+    rdfs:label " FirstName" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/Gender> a dsv:Column ;
+    rdfs:label " Gender" ;
+    dcterms:type "gender" .
+
+<http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/Income> a dsv:Column ;
+    rdfs:label " Income" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/LastName> a dsv:Column ;
+    rdfs:label " LastName" ;
+    dcterms:type "jockey" .
+
+<http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/MemberID> a dsv:Column ;
+    rdfs:label "MemberID" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/Occupation> a dsv:Column ;
+    rdfs:label " Occupation" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/PlaceOfBirth> a dsv:Column ;
+    rdfs:label " PlaceOfBirth" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/RelationshipStatus> a dsv:Column ;
+    rdfs:label " RelationshipStatus" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/GenealogyIGJGK23U/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/DateOfBirth>,
+        <http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/EducationLevel>,
+        <http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/Email>,
+        <http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/FirstName>,
+        <http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/Gender>,
+        <http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/Income>,
+        <http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/LastName>,
+        <http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/MemberID>,
+        <http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/Occupation>,
+        <http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/PlaceOfBirth>,
+        <http://metaUnionSearch/datasets/GenealogyIGJGK23U/column/RelationshipStatus> .
+

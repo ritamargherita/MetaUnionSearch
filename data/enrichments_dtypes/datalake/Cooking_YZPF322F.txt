@@ -1,0 +1,10 @@
+owner
+address
+type
+capacity
+address
+product
+service
+description
+product
+category

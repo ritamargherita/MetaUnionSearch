@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH> a dsv:Dataset ;
+    dcterms:subject "international-relations" ;
+    dcterms:title "International-Relations_W3LTFIUH.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/CountryRepeated> a dsv:Column ;
+    rdfs:label "Country (Repeated)" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/DemographicShiftsandMigrationFlows> a dsv:Column ;
+    rdfs:label " Demographic Shifts and Migration Flows" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/EconomicIntegrationLevel> a dsv:Column ;
+    rdfs:label " Economic Integration Level" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/EducationExchanges> a dsv:Column ;
+    rdfs:label " Education Exchanges" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/EnvironmentalCollaborativeProjects> a dsv:Column ;
+    rdfs:label " Environmental Collaborative Projects" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/GlobalGovernanceParticipants> a dsv:Column ;
+    rdfs:label " Global Governance Participants" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/HumanitarianAidContributions> a dsv:Column ;
+    rdfs:label " Humanitarian Aid Contributions" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/IRTheoryPracticeRepeated> a dsv:Column ;
+    rdfs:label " IR Theory & Practice (Repeated)" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/PeacekeepingInitiatives> a dsv:Column ;
+    rdfs:label " Peacekeeping Initiatives" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/RegionalBlocMembership> a dsv:Column ;
+    rdfs:label " Regional Bloc Membership" ;
+    dcterms:type "affiliation" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/SecurityCoordination> a dsv:Column ;
+    rdfs:label " Security Coordination" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/TechnologyExchangeProgrammes> a dsv:Column ;
+    rdfs:label " Technology Exchange Programmes" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/TourismImpact> a dsv:Column ;
+    rdfs:label " Tourism Impact" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/TradeAgreements> a dsv:Column ;
+    rdfs:label " Trade Agreements" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/CountryRepeated>,
+        <http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/DemographicShiftsandMigrationFlows>,
+        <http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/EconomicIntegrationLevel>,
+        <http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/EducationExchanges>,
+        <http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/EnvironmentalCollaborativeProjects>,
+        <http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/GlobalGovernanceParticipants>,
+        <http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/HumanitarianAidContributions>,
+        <http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/IRTheoryPracticeRepeated>,
+        <http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/PeacekeepingInitiatives>,
+        <http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/RegionalBlocMembership>,
+        <http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/SecurityCoordination>,
+        <http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/TechnologyExchangeProgrammes>,
+        <http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/TourismImpact>,
+        <http://metaUnionSearch/datasets/InternationalRelationsW3LTFIUH/column/TradeAgreements> .
+

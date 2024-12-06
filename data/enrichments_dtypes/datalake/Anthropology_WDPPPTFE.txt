@@ -1,0 +1,13 @@
+year
+description
+description
+description
+description
+range
+region
+species
+area
+album
+class
+description
+artist

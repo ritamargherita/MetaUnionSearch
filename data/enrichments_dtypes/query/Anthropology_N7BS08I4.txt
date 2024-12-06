@@ -1,0 +1,10 @@
+area
+region
+description
+language
+description
+language
+religion
+description
+description
+description

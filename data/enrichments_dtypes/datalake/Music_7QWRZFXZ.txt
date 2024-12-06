@@ -1,0 +1,15 @@
+artist
+artist
+director
+duration
+format
+duration
+album
+status
+album
+album
+range
+description
+location
+notes
+duration

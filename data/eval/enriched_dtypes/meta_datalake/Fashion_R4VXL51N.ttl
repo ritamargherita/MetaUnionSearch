@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FashionR4VXL51N> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_R4VXL51N.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FashionR4VXL51N/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FashionR4VXL51N/column/AverageProductionTime> a dsv:Column ;
+    rdfs:label " Average Production Time" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/FashionR4VXL51N/column/CostPerWearCalculator> a dsv:Column ;
+    rdfs:label " Cost Per Wear Calculator" ;
+    dcterms:type "operator" .
+
+<http://metaUnionSearch/datasets/FashionR4VXL51N/column/CulturalAppropriationConcerns> a dsv:Column ;
+    rdfs:label " Cultural Appropriation Concerns" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/FashionR4VXL51N/column/DIYCustomizationIdeas> a dsv:Column ;
+    rdfs:label " DIY Customization Ideas" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/FashionR4VXL51N/column/EthicalEcoFriendlyBrands> a dsv:Column ;
+    rdfs:label " Ethical & Eco Friendly Brands" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/FashionR4VXL51N/column/FabricCareTips> a dsv:Column ;
+    rdfs:label "Fabric Care Tips" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/FashionR4VXL51N/column/ReviewsRatings> a dsv:Column ;
+    rdfs:label " Reviews & Ratings" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/FashionR4VXL51N/column/RunwayInspirationSources> a dsv:Column ;
+    rdfs:label " Runway Inspiration Sources" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/FashionR4VXL51N/column/TimelessClassicOutfitGuides> a dsv:Column ;
+    rdfs:label " Timeless Classic Outfit Guides" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/FashionR4VXL51N/column/TrendingDesigners> a dsv:Column ;
+    rdfs:label " Trending Designers" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/FashionR4VXL51N/column/VirtualTryOnFeatures> a dsv:Column ;
+    rdfs:label " Virtual Try On Features" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/FashionR4VXL51N/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FashionR4VXL51N/column/AverageProductionTime>,
+        <http://metaUnionSearch/datasets/FashionR4VXL51N/column/CostPerWearCalculator>,
+        <http://metaUnionSearch/datasets/FashionR4VXL51N/column/CulturalAppropriationConcerns>,
+        <http://metaUnionSearch/datasets/FashionR4VXL51N/column/DIYCustomizationIdeas>,
+        <http://metaUnionSearch/datasets/FashionR4VXL51N/column/EthicalEcoFriendlyBrands>,
+        <http://metaUnionSearch/datasets/FashionR4VXL51N/column/FabricCareTips>,
+        <http://metaUnionSearch/datasets/FashionR4VXL51N/column/ReviewsRatings>,
+        <http://metaUnionSearch/datasets/FashionR4VXL51N/column/RunwayInspirationSources>,
+        <http://metaUnionSearch/datasets/FashionR4VXL51N/column/TimelessClassicOutfitGuides>,
+        <http://metaUnionSearch/datasets/FashionR4VXL51N/column/TrendingDesigners>,
+        <http://metaUnionSearch/datasets/FashionR4VXL51N/column/VirtualTryOnFeatures> .
+

@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_SVH3EJOZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/CollaboratingInstitutes> a dsv:Column ;
+    rdfs:label " Collaborating\\_Institutes" ;
+    dcterms:type "affiliation" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Duration> a dsv:Column ;
+    rdfs:label " Duration" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/ExperimentDate> a dsv:Column ;
+    rdfs:label " Experiment\\_Date" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Findings> a dsv:Column ;
+    rdfs:label " Findings" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/FundingAgency> a dsv:Column ;
+    rdfs:label " Funding\\_Agency" ;
+    dcterms:type "affiliation" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Miscellaneous> a dsv:Column ;
+    rdfs:label " Miscellaneous" ;
+    dcterms:type "creator" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Objective> a dsv:Column ;
+    rdfs:label " Objective" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Observations> a dsv:Column ;
+    rdfs:label " Observations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Procedure> a dsv:Column ;
+    rdfs:label " Procedure" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/References> a dsv:Column ;
+    rdfs:label " References" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Scientist> a dsv:Column ;
+    rdfs:label "Scientist" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ScienceSVH3EJOZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/CollaboratingInstitutes>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Duration>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/ExperimentDate>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Findings>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/FundingAgency>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Miscellaneous>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Objective>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Observations>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Procedure>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/References>,
+        <http://metaUnionSearch/datasets/ScienceSVH3EJOZ/column/Scientist> .
+

@@ -1,0 +1,13 @@
+name
+year
+notes
+description
+description
+status
+description
+category
+description
+description
+description
+album
+artist

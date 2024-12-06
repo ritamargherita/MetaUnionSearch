@@ -1,0 +1,13 @@
+product
+category
+rank
+capacity
+duration
+product
+description
+name
+product
+artist
+city
+area
+category

@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_KY9YCKVJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EcologyKY9YCKVJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/BiodiversityLossTrends> a dsv:Column ;
+    rdfs:label " Biodiversity Loss Trends" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/CitizenScienceProjects> a dsv:Column ;
+    rdfs:label " Citizen Science Projects" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/ClimateChangeImpactAssessment> a dsv:Column ;
+    rdfs:label " Climate Change Impact Assessment" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/CommunityEngagement> a dsv:Column ;
+    rdfs:label " Community Engagement" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/ConservationEducationPrograms> a dsv:Column ;
+    rdfs:label " Conservation Education Programs" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/ConservationFundingSources> a dsv:Column ;
+    rdfs:label " Conservation Funding Sources" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/EcosystemServices> a dsv:Column ;
+    rdfs:label "Ecosystem Services" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/EcotourismPotential> a dsv:Column ;
+    rdfs:label " Ecotourism Potential" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/HabitatRestorationTechniques> a dsv:Column ;
+    rdfs:label " Habitat Restoration Techniques" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/IndigenousKnowledge> a dsv:Column ;
+    rdfs:label " Indigenous Knowledge" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/InvasiveSpeciesPresent> a dsv:Column ;
+    rdfs:label " Invasive Species Present" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/PolicyEnforcementAgencies> a dsv:Column ;
+    rdfs:label " Policy Enforcement Agencies" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/ResearchGapsIdentified> a dsv:Column ;
+    rdfs:label " Research Gaps Identified" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/SpeciesDistributionModeling> a dsv:Column ;
+    rdfs:label " Species Distribution Modeling" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/TechnologicalInnovationsinConservation> a dsv:Column ;
+    rdfs:label " Technological Innovations in Conservation" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EcologyKY9YCKVJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/BiodiversityLossTrends>,
+        <http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/CitizenScienceProjects>,
+        <http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/ClimateChangeImpactAssessment>,
+        <http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/CommunityEngagement>,
+        <http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/ConservationEducationPrograms>,
+        <http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/ConservationFundingSources>,
+        <http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/EcosystemServices>,
+        <http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/EcotourismPotential>,
+        <http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/HabitatRestorationTechniques>,
+        <http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/IndigenousKnowledge>,
+        <http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/InvasiveSpeciesPresent>,
+        <http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/PolicyEnforcementAgencies>,
+        <http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/ResearchGapsIdentified>,
+        <http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/SpeciesDistributionModeling>,
+        <http://metaUnionSearch/datasets/EcologyKY9YCKVJ/column/TechnologicalInnovationsinConservation> .
+

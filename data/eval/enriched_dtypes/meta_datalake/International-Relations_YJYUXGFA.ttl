@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA> a dsv:Dataset ;
+    dcterms:subject "international-relations" ;
+    dcterms:title "International-Relations_YJYUXGFA.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/Country> a dsv:Column ;
+    rdfs:label "Country" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/CulturalInfluence> a dsv:Column ;
+    rdfs:label " Cultural Influence" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/ForeignAidDisburser> a dsv:Column ;
+    rdfs:label " Foreign Aid Disburser" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/GDPperCapita> a dsv:Column ;
+    rdfs:label " GDP per Capita" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/GovernmentType> a dsv:Column ;
+    rdfs:label " Government Type" ;
+    dcterms:type "affiliation" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/HeadofState> a dsv:Column ;
+    rdfs:label " Head of State" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/MilitaryStrength> a dsv:Column ;
+    rdfs:label " Military Strength" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/NaturalHeritageSites> a dsv:Column ;
+    rdfs:label " Natural Heritage Sites" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/NeighborNations> a dsv:Column ;
+    rdfs:label " Neighbor Nations" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/PopulationSize> a dsv:Column ;
+    rdfs:label " Population Size" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/RegionalOrganizationMembership> a dsv:Column ;
+    rdfs:label " Regional Organization Membership" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/SomeOtherField> a dsv:Column ;
+    rdfs:label " Some Other Field**" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/TradeAgreements> a dsv:Column ;
+    rdfs:label " Trade Agreements" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/Country>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/CulturalInfluence>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/ForeignAidDisburser>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/GDPperCapita>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/GovernmentType>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/HeadofState>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/MilitaryStrength>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/NaturalHeritageSites>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/NeighborNations>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/PopulationSize>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/RegionalOrganizationMembership>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/SomeOtherField>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYJYUXGFA/column/TradeAgreements> .
+

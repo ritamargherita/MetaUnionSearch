@@ -1,0 +1,12 @@
+album
+genre
+name
+description
+origin
+name
+organisation
+nationality
+genre
+name
+album
+artist

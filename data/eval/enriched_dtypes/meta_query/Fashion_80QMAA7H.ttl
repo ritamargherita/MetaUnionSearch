@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Fashion80QMAA7H> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_80QMAA7H.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Fashion80QMAA7H/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Availability> a dsv:Column ;
+    rdfs:label " Availability" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Brand> a dsv:Column ;
+    rdfs:label " Brand" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Fashion80QMAA7H/column/ClothingItem> a dsv:Column ;
+    rdfs:label "Clothing Item" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Color> a dsv:Column ;
+    rdfs:label " Color" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Material> a dsv:Column ;
+    rdfs:label " Material" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Occasion> a dsv:Column ;
+    rdfs:label " Occasion" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Price> a dsv:Column ;
+    rdfs:label " Price" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Fashion80QMAA7H/column/PurchaseDate> a dsv:Column ;
+    rdfs:label " Purchase Date" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Fashion80QMAA7H/column/ReturnPolicy> a dsv:Column ;
+    rdfs:label " Return Policy" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Season> a dsv:Column ;
+    rdfs:label " Season" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Size> a dsv:Column ;
+    rdfs:label " Size" ;
+    dcterms:type "code" .
+
+<http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Store> a dsv:Column ;
+    rdfs:label " Store" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Style> a dsv:Column ;
+    rdfs:label " Style" ;
+    dcterms:type "gender" .
+
+<http://metaUnionSearch/datasets/Fashion80QMAA7H/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Availability>,
+        <http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Brand>,
+        <http://metaUnionSearch/datasets/Fashion80QMAA7H/column/ClothingItem>,
+        <http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Color>,
+        <http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Material>,
+        <http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Occasion>,
+        <http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Price>,
+        <http://metaUnionSearch/datasets/Fashion80QMAA7H/column/PurchaseDate>,
+        <http://metaUnionSearch/datasets/Fashion80QMAA7H/column/ReturnPolicy>,
+        <http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Season>,
+        <http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Size>,
+        <http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Store>,
+        <http://metaUnionSearch/datasets/Fashion80QMAA7H/column/Style> .
+

@@ -1,0 +1,13 @@
+company
+isbn
+address
+address
+range
+capacity
+range
+address
+capacity
+operator
+operator
+status
+status

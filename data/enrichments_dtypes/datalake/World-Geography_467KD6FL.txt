@@ -1,0 +1,15 @@
+status
+country
+area
+result
+area
+class
+format
+plays
+industry
+description
+country
+currency
+age
+capacity
+club

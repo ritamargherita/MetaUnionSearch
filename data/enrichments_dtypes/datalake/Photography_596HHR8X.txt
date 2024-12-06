@@ -1,0 +1,12 @@
+manufacturer
+product
+address
+address
+range
+result
+product
+capacity
+position
+type
+album
+format

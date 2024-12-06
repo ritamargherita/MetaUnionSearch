@@ -1,0 +1,10 @@
+duration
+area
+component
+duration
+name
+year
+status
+rank
+species
+status

@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_8II49KQ7.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Poetry8II49KQ7/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7/column/AntiThesisAgreeableCounterpoem> a dsv:Column ;
+    rdfs:label " Anti-Thesis ~ Agreeable Counterpoem" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7/column/AwardsRecognition> a dsv:Column ;
+    rdfs:label " Awards & Recognition" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7/column/BestKnownWork> a dsv:Column ;
+    rdfs:label " Best Known Work" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7/column/CriticReception> a dsv:Column ;
+    rdfs:label " Critic Reception" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7/column/CulturalContext> a dsv:Column ;
+    rdfs:label " *Cultural Context*" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7/column/HistoricalSignificance> a dsv:Column ;
+    rdfs:label " *Historical Significance*" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7/column/IllustrativeVisualArtsConnectionsIncludingAlbumCoversorFilmAdaptations> a dsv:Column ;
+    rdfs:label " Illustrative Visual Arts Connections, Including Album Covers or Film Adaptations" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7/column/InfluencesOnOtherArtistsStyle> a dsv:Column ;
+    rdfs:label " Influences On Other Artists & Style?" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7/column/OriginalManuscriptExcerpts> a dsv:Column ;
+    rdfs:label " Original Manuscript Excerpts" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7/column/PoetBiography> a dsv:Column ;
+    rdfs:label "Poet Biography" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7/column/PoliticalIdeologies> a dsv:Column ;
+    rdfs:label " *Political Ideologies*" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7/column/PublicationsHistoryifapplicable> a dsv:Column ;
+    rdfs:label " Publications History(if applicable)" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7/column/ReligiousorSpiritualThemes> a dsv:Column ;
+    rdfs:label " *Religious or Spiritual Themes*" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7/column/SocialImpact> a dsv:Column ;
+    rdfs:label " Social Impact" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7/column/TeachingGuidesLearningResources> a dsv:Column ;
+    rdfs:label " Teaching Guides (& Learning Resources)" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Poetry8II49KQ7/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Poetry8II49KQ7/column/AntiThesisAgreeableCounterpoem>,
+        <http://metaUnionSearch/datasets/Poetry8II49KQ7/column/AwardsRecognition>,
+        <http://metaUnionSearch/datasets/Poetry8II49KQ7/column/BestKnownWork>,
+        <http://metaUnionSearch/datasets/Poetry8II49KQ7/column/CriticReception>,
+        <http://metaUnionSearch/datasets/Poetry8II49KQ7/column/CulturalContext>,
+        <http://metaUnionSearch/datasets/Poetry8II49KQ7/column/HistoricalSignificance>,
+        <http://metaUnionSearch/datasets/Poetry8II49KQ7/column/IllustrativeVisualArtsConnectionsIncludingAlbumCoversorFilmAdaptations>,
+        <http://metaUnionSearch/datasets/Poetry8II49KQ7/column/InfluencesOnOtherArtistsStyle>,
+        <http://metaUnionSearch/datasets/Poetry8II49KQ7/column/OriginalManuscriptExcerpts>,
+        <http://metaUnionSearch/datasets/Poetry8II49KQ7/column/PoetBiography>,
+        <http://metaUnionSearch/datasets/Poetry8II49KQ7/column/PoliticalIdeologies>,
+        <http://metaUnionSearch/datasets/Poetry8II49KQ7/column/PublicationsHistoryifapplicable>,
+        <http://metaUnionSearch/datasets/Poetry8II49KQ7/column/ReligiousorSpiritualThemes>,
+        <http://metaUnionSearch/datasets/Poetry8II49KQ7/column/SocialImpact>,
+        <http://metaUnionSearch/datasets/Poetry8II49KQ7/column/TeachingGuidesLearningResources> .
+

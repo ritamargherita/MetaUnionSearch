@@ -1,0 +1,15 @@
+manufacturer
+product
+region
+rank
+address
+position
+result
+location
+country
+product
+description
+product
+name
+name
+category

@@ -1,0 +1,11 @@
+artist
+day
+position
+duration
+address
+age
+sales
+result
+name
+status
+status

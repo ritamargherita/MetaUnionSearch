@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LanguageQ4G2VQXX> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_Q4G2VQXX.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LanguageQ4G2VQXX/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/CulturalImpactMeasuresMetrics> a dsv:Column ;
+    rdfs:label " Cultural Impact Measures & Metrics" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/IntelligenceSourceArtificialNatural> a dsv:Column ;
+    rdfs:label " Intelligence Source(Artificial / Natural)" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/LanguageGeneticAffiliation> a dsv:Column ;
+    rdfs:label " Language Genetic Affiliation" ;
+    dcterms:type "family" .
+
+<http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/LinguisticAreaname> a dsv:Column ;
+    rdfs:label "Linguistic Area name" ;
+    dcterms:type "family" .
+
+<http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/LiteraryTraditions> a dsv:Column ;
+    rdfs:label " Literary Traditions" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/NativeSpeakers> a dsv:Column ;
+    rdfs:label " Native Speakers" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/OfficialLanguage> a dsv:Column ;
+    rdfs:label " Official Language" ;
+    dcterms:type "operator" .
+
+<http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/ProgrammingIntegrationLevel> a dsv:Column ;
+    rdfs:label " Programming Integration Level" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/Speakers> a dsv:Column ;
+    rdfs:label " Speakers" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/WritingSystem> a dsv:Column ;
+    rdfs:label " Writing System" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/LanguageQ4G2VQXX/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/CulturalImpactMeasuresMetrics>,
+        <http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/IntelligenceSourceArtificialNatural>,
+        <http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/LanguageGeneticAffiliation>,
+        <http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/LinguisticAreaname>,
+        <http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/LiteraryTraditions>,
+        <http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/NativeSpeakers>,
+        <http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/OfficialLanguage>,
+        <http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/ProgrammingIntegrationLevel>,
+        <http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/Speakers>,
+        <http://metaUnionSearch/datasets/LanguageQ4G2VQXX/column/WritingSystem> .
+

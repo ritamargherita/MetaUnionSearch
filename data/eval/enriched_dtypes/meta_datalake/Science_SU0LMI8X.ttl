@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ScienceSU0LMI8X> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_SU0LMI8X.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ScienceSU0LMI8X/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/ConceptName> a dsv:Column ;
+    rdfs:label "Concept Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/Conclusion> a dsv:Column ;
+    rdfs:label "Conclusion" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/ControlGroup> a dsv:Column ;
+    rdfs:label "Control Group" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/Description> a dsv:Column ;
+    rdfs:label "Description" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/ExperimentalGroup> a dsv:Column ;
+    rdfs:label "Experimental Group" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/Hypothesis> a dsv:Column ;
+    rdfs:label "Hypothesis" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/QuantumPhysics> a dsv:Column ;
+    rdfs:label "Quantum Physics" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/StatisticalAnalysis> a dsv:Column ;
+    rdfs:label "Statistical Analysis" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/TestResults> a dsv:Column ;
+    rdfs:label "Test Results" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/Variables> a dsv:Column ;
+    rdfs:label "Variables" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ScienceSU0LMI8X/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/ConceptName>,
+        <http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/Conclusion>,
+        <http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/ControlGroup>,
+        <http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/Description>,
+        <http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/ExperimentalGroup>,
+        <http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/Hypothesis>,
+        <http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/QuantumPhysics>,
+        <http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/StatisticalAnalysis>,
+        <http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/TestResults>,
+        <http://metaUnionSearch/datasets/ScienceSU0LMI8X/column/Variables> .
+

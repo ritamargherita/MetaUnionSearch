@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EngineeringBY4AWTY0> a dsv:Dataset ;
+    dcterms:subject "engineering" ;
+    dcterms:title "Engineering_BY4AWTY0.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EngineeringBY4AWTY0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/CertificationsHeld> a dsv:Column ;
+    rdfs:label "Certifications Held" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/CollaborativeProjects> a dsv:Column ;
+    rdfs:label "Collaborative Projects" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/ConferenceAttendance> a dsv:Column ;
+    rdfs:label "Conference Attendance" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/EngineeringDiscipline> a dsv:Column ;
+    rdfs:label "Engineering Discipline" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/EquipmentUsed> a dsv:Column ;
+    rdfs:label "Equipment Used" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/HoursWorked> a dsv:Column ;
+    rdfs:label "Hours Worked" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/JuniorEngineer> a dsv:Column ;
+    rdfs:label "Junior Engineer" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/Location> a dsv:Column ;
+    rdfs:label "Location" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/MentorshipPrograms> a dsv:Column ;
+    rdfs:label "Mentorship Programs" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/ProfessionalAffiliations> a dsv:Column ;
+    rdfs:label "Professional Affiliations" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/Publications> a dsv:Column ;
+    rdfs:label "Publications\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/SeniorEngineer> a dsv:Column ;
+    rdfs:label "\"Senior Engineer" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/TrainingCompleted> a dsv:Column ;
+    rdfs:label "Training Completed" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EngineeringBY4AWTY0/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/CertificationsHeld>,
+        <http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/CollaborativeProjects>,
+        <http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/ConferenceAttendance>,
+        <http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/EngineeringDiscipline>,
+        <http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/EquipmentUsed>,
+        <http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/HoursWorked>,
+        <http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/JuniorEngineer>,
+        <http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/Location>,
+        <http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/MentorshipPrograms>,
+        <http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/ProfessionalAffiliations>,
+        <http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/Publications>,
+        <http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/SeniorEngineer>,
+        <http://metaUnionSearch/datasets/EngineeringBY4AWTY0/column/TrainingCompleted> .
+

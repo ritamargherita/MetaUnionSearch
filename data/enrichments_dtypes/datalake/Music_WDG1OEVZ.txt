@@ -1,0 +1,15 @@
+artist
+artist
+director
+owner
+company
+artist
+location
+person
+album
+album
+album
+album
+publisher
+name
+species

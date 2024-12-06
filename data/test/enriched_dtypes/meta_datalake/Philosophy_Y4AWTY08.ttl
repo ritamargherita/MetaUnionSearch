@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_Y4AWTY08.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhilosophyY4AWTY08/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/CenturyDuration> a dsv:Column ;
+    rdfs:label "Century Duration" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/CommonMisconceptions> a dsv:Column ;
+    rdfs:label "Common Misconceptions$" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/ImpactfulEvents> a dsv:Column ;
+    rdfs:label "Impactful Events" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/MostFamousQuotes> a dsv:Column ;
+    rdfs:label "Most Famous Quotes%" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/NewColumn1> a dsv:Column ;
+    rdfs:label "New Column 1" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/NewColumn2> a dsv:Column ;
+    rdfs:label "New Column 2" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/NewColumn3> a dsv:Column ;
+    rdfs:label "New Column 3" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/NewColumn4> a dsv:Column ;
+    rdfs:label "New Column 4" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/NewColumn5> a dsv:Column ;
+    rdfs:label "New Column 5" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/NewColumn6> a dsv:Column ;
+    rdfs:label "New Column 6" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/NotableIdeas> a dsv:Column ;
+    rdfs:label "Notable Ideas$" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/PhilosopherBirthplace> a dsv:Column ;
+    rdfs:label "Philosopher Birthplace" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/PhilosophersbyCentury> a dsv:Column ;
+    rdfs:label "Philosophers by Century" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/RelatedDisciplinesAssociations> a dsv:Column ;
+    rdfs:label "Related Disciplines& Associations" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/RelevantCritics> a dsv:Column ;
+    rdfs:label "Relevant Critics" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/PhilosophyY4AWTY08/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/CenturyDuration>,
+        <http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/CommonMisconceptions>,
+        <http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/ImpactfulEvents>,
+        <http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/MostFamousQuotes>,
+        <http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/NewColumn1>,
+        <http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/NewColumn2>,
+        <http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/NewColumn3>,
+        <http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/NewColumn4>,
+        <http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/NewColumn5>,
+        <http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/NewColumn6>,
+        <http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/NotableIdeas>,
+        <http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/PhilosopherBirthplace>,
+        <http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/PhilosophersbyCentury>,
+        <http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/RelatedDisciplinesAssociations>,
+        <http://metaUnionSearch/datasets/PhilosophyY4AWTY08/column/RelevantCritics> .
+

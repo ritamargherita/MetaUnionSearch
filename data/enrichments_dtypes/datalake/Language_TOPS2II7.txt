@@ -1,0 +1,10 @@
+family
+language
+age
+rank
+family
+capacity
+ranking
+continent
+address
+code

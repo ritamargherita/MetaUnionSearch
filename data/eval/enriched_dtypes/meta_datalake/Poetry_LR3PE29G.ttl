@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryLR3PE29G> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_LR3PE29G.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryLR3PE29G/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryLR3PE29G/column/AdditionalLiteraryDevicesUsed> a dsv:Column ;
+    rdfs:label " Additional Literary Devices Used" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PoetryLR3PE29G/column/Author> a dsv:Column ;
+    rdfs:label " Author" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PoetryLR3PE29G/column/EmotionalAppealMoodandAtmosphere> a dsv:Column ;
+    rdfs:label " Emotional Appeal, Mood, and Atmosphere" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PoetryLR3PE29G/column/ExtendedImagerySymbolism> a dsv:Column ;
+    rdfs:label " Extended Imagery / Symbolism" ;
+    dcterms:type "code" .
+
+<http://metaUnionSearch/datasets/PoetryLR3PE29G/column/FreeVerse> a dsv:Column ;
+    rdfs:label " Free Verse?" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/PoetryLR3PE29G/column/Metaphors> a dsv:Column ;
+    rdfs:label " Metaphors" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PoetryLR3PE29G/column/Rhymingifapplicable> a dsv:Column ;
+    rdfs:label " Rhyming\\(if applicable\\)" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/PoetryLR3PE29G/column/SyntaxVarietyandPunctuationPlay> a dsv:Column ;
+    rdfs:label " Syntax Variety and Punctuation Play" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PoetryLR3PE29G/column/ThemeDevelopmentCharacterizationandSetting> a dsv:Column ;
+    rdfs:label " Theme Development, Characterization, and Setting" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/PoetryLR3PE29G/column/Title> a dsv:Column ;
+    rdfs:label "Title" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PoetryLR3PE29G/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryLR3PE29G/column/AdditionalLiteraryDevicesUsed>,
+        <http://metaUnionSearch/datasets/PoetryLR3PE29G/column/Author>,
+        <http://metaUnionSearch/datasets/PoetryLR3PE29G/column/EmotionalAppealMoodandAtmosphere>,
+        <http://metaUnionSearch/datasets/PoetryLR3PE29G/column/ExtendedImagerySymbolism>,
+        <http://metaUnionSearch/datasets/PoetryLR3PE29G/column/FreeVerse>,
+        <http://metaUnionSearch/datasets/PoetryLR3PE29G/column/Metaphors>,
+        <http://metaUnionSearch/datasets/PoetryLR3PE29G/column/Rhymingifapplicable>,
+        <http://metaUnionSearch/datasets/PoetryLR3PE29G/column/SyntaxVarietyandPunctuationPlay>,
+        <http://metaUnionSearch/datasets/PoetryLR3PE29G/column/ThemeDevelopmentCharacterizationandSetting>,
+        <http://metaUnionSearch/datasets/PoetryLR3PE29G/column/Title> .
+

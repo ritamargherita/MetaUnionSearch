@@ -1,0 +1,10 @@
+address
+capacity
+type
+category
+product
+classification
+area
+area
+address
+notes

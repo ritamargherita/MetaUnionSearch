@@ -1,0 +1,12 @@
+result
+duration
+area
+capacity
+product
+address
+position
+location
+description
+position
+notes
+category

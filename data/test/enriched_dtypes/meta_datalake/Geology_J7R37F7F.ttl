@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeologyJ7R37F7F> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_J7R37F7F.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeologyJ7R37F7F/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/ClimateImpact> a dsv:Column ;
+    rdfs:label " Climate Impact" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/EconomicImportance> a dsv:Column ;
+    rdfs:label " Economic Importance" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/ErosionalFeatures> a dsv:Column ;
+    rdfs:label " Erosional Features" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/GemsandPreciousMetals> a dsv:Column ;
+    rdfs:label " Gems and Precious Metals" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/GeomorphologicalProcesses> a dsv:Column ;
+    rdfs:label " Geomorphological Processes" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/GroundwaterAquifers> a dsv:Column ;
+    rdfs:label " Groundwater Aquifers" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/ImpactStructures> a dsv:Column ;
+    rdfs:label " Impact Structures" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/LandformTypes> a dsv:Column ;
+    rdfs:label " Landform Types" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/NaturalDisasterRisk> a dsv:Column ;
+    rdfs:label " Natural Disaster Risk" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/ResearchSignificance> a dsv:Column ;
+    rdfs:label " Research Significance" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/SeismicityRate> a dsv:Column ;
+    rdfs:label "Seismicity Rate" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/SoilsRegolith> a dsv:Column ;
+    rdfs:label " Soils & Regolith" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/TectonicSetting> a dsv:Column ;
+    rdfs:label " Tectonic Setting" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/VolcanologicalActivity> a dsv:Column ;
+    rdfs:label " Volcanological Activity" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/GeologyJ7R37F7F/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/ClimateImpact>,
+        <http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/EconomicImportance>,
+        <http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/ErosionalFeatures>,
+        <http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/GemsandPreciousMetals>,
+        <http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/GeomorphologicalProcesses>,
+        <http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/GroundwaterAquifers>,
+        <http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/ImpactStructures>,
+        <http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/LandformTypes>,
+        <http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/NaturalDisasterRisk>,
+        <http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/ResearchSignificance>,
+        <http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/SeismicityRate>,
+        <http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/SoilsRegolith>,
+        <http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/TectonicSetting>,
+        <http://metaUnionSearch/datasets/GeologyJ7R37F7F/column/VolcanologicalActivity> .
+

@@ -1,0 +1,10 @@
+credit
+category
+species
+person
+status
+status
+name
+description
+rank
+address

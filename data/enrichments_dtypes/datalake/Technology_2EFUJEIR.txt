@@ -1,0 +1,13 @@
+component
+product
+class
+name
+description
+description
+description
+artist
+artist
+artist
+artist
+artist
+artist

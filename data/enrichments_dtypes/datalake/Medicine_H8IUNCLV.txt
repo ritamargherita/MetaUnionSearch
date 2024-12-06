@@ -1,0 +1,11 @@
+capacity
+album
+company
+description
+address
+address
+description
+status
+address
+address
+description

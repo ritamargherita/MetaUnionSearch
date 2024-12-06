@@ -1,0 +1,12 @@
+rank
+year
+description
+service
+duration
+category
+product
+genre
+name
+language
+religion
+name

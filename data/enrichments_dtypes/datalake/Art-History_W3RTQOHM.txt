@@ -1,0 +1,13 @@
+album
+person
+year
+brand
+depth
+status
+notes
+album
+nationality
+language
+location
+album
+genre

@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArts6QKV3EOY> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_6QKV3EOY.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/Capacity> a dsv:Column ;
+    rdfs:label "Capacity" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/ConstructionYear> a dsv:Column ;
+    rdfs:label "Construction Year" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/DirectorName> a dsv:Column ;
+    rdfs:label "Director Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/LightingDesignerName> a dsv:Column ;
+    rdfs:label "Lighting Designer Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/MainGenre> a dsv:Column ;
+    rdfs:label "Main Genre" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/NumberOfShowsPerYear> a dsv:Column ;
+    rdfs:label "Number Of Shows Per Year" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/SeatsSoldLastYear> a dsv:Column ;
+    rdfs:label "Seats Sold Last Year" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/SoundDesignerName> a dsv:Column ;
+    rdfs:label "Sound Designer Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/StageManagerName> a dsv:Column ;
+    rdfs:label "Stage Manager Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/TheaterType> a dsv:Column ;
+    rdfs:label "Theater Type" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/TotalRevenueLastYear> a dsv:Column ;
+    rdfs:label "Total Revenue Last Year" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/Capacity>,
+        <http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/ConstructionYear>,
+        <http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/DirectorName>,
+        <http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/LightingDesignerName>,
+        <http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/MainGenre>,
+        <http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/NumberOfShowsPerYear>,
+        <http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/SeatsSoldLastYear>,
+        <http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/SoundDesignerName>,
+        <http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/StageManagerName>,
+        <http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/TheaterType>,
+        <http://metaUnionSearch/datasets/PerformingArts6QKV3EOY/column/TotalRevenueLastYear> .
+

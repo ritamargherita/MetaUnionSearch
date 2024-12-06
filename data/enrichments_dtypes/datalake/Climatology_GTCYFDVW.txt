@@ -1,0 +1,10 @@
+affiliation
+description
+code
+range
+description
+notes
+album
+product
+component
+artist

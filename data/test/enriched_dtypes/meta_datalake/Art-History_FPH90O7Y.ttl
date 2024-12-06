@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_FPH90O7Y.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/AssociatedArtifacts> a dsv:Column ;
+    rdfs:label " Associated Artifacts" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/DonorName> a dsv:Column ;
+    rdfs:label " Donor Name" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/EducationalPrograms> a dsv:Column ;
+    rdfs:label " Educational Programs" ;
+    dcterms:type "credit" .
+
+<http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/ExhibitionHistory> a dsv:Column ;
+    rdfs:label " Exhibition History" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/GalleryLocation> a dsv:Column ;
+    rdfs:label "Gallery Location" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/InsuranceValue> a dsv:Column ;
+    rdfs:label " Insurance Value" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/MaterialValue> a dsv:Column ;
+    rdfs:label " Material Value" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/PreservationStatus> a dsv:Column ;
+    rdfs:label " Preservation Status" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/PublicAccessibility> a dsv:Column ;
+    rdfs:label " Public Accessibility" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/RestorationHistory> a dsv:Column ;
+    rdfs:label " Restoration History" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/YearAcquired> a dsv:Column ;
+    rdfs:label " Year Acquired" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/AssociatedArtifacts>,
+        <http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/DonorName>,
+        <http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/EducationalPrograms>,
+        <http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/ExhibitionHistory>,
+        <http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/GalleryLocation>,
+        <http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/InsuranceValue>,
+        <http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/MaterialValue>,
+        <http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/PublicAccessibility>,
+        <http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/RestorationHistory>,
+        <http://metaUnionSearch/datasets/ArtHistoryFPH90O7Y/column/YearAcquired> .
+

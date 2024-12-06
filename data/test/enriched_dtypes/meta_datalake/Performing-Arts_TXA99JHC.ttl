@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArtsTXA99JHC> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_TXA99JHC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/AccessibilityEffortsImplementation> a dsv:Column ;
+    rdfs:label " Accessibility Efforts Implementation" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/AvgShowAttendance> a dsv:Column ;
+    rdfs:label " Avg Show Attendance" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/CollaborationsWithOtherArtists> a dsv:Column ;
+    rdfs:label " Collaborations With Other Artists" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/CommunityOutreachProgramsConducted> a dsv:Column ;
+    rdfs:label " Community Outreach Programs Conducted" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/CriticReviews> a dsv:Column ;
+    rdfs:label " Critic Reviews" ;
+    dcterms:type "credit" .
+
+<http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/DiversityInitiativesTakenByOrganizationOrIndividual> a dsv:Column ;
+    rdfs:label " Diversity Initiatives Taken By Organization Or Individual" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/FuturePlansAndGoalsWithinField> a dsv:Column ;
+    rdfs:label " Future Plans And Goals Within Field" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/InfluencesOnTheIndustry> a dsv:Column ;
+    rdfs:label " Influences On The Industry" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/NominationsReceived> a dsv:Column ;
+    rdfs:label " Nominations Received" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/NumberOfShows> a dsv:Column ;
+    rdfs:label "Number Of Shows" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/PositiveCriticalRatings> a dsv:Column ;
+    rdfs:label " Positive Critical Ratings (%)" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/VenuesPlayedAt> a dsv:Column ;
+    rdfs:label " Venues Played At" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/AccessibilityEffortsImplementation>,
+        <http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/AvgShowAttendance>,
+        <http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/CollaborationsWithOtherArtists>,
+        <http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/CommunityOutreachProgramsConducted>,
+        <http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/CriticReviews>,
+        <http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/DiversityInitiativesTakenByOrganizationOrIndividual>,
+        <http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/FuturePlansAndGoalsWithinField>,
+        <http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/InfluencesOnTheIndustry>,
+        <http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/NominationsReceived>,
+        <http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/NumberOfShows>,
+        <http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/PositiveCriticalRatings>,
+        <http://metaUnionSearch/datasets/PerformingArtsTXA99JHC/column/VenuesPlayedAt> .
+

@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_YP1NJGLN.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/Age> a dsv:Column ;
+    rdfs:label " Age" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/AnimalType> a dsv:Column ;
+    rdfs:label "Animal Type" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/Breed> a dsv:Column ;
+    rdfs:label " Breed" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/Diagnosis> a dsv:Column ;
+    rdfs:label " Diagnosis" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/Followup> a dsv:Column ;
+    rdfs:label " Follow-up" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/HealthStatus> a dsv:Column ;
+    rdfs:label " Health Status" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/OwnerInformation> a dsv:Column ;
+    rdfs:label " Owner Information" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/Symptoms> a dsv:Column ;
+    rdfs:label " Symptoms" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/TreatmentPlan> a dsv:Column ;
+    rdfs:label " Treatment Plan" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/Weight> a dsv:Column ;
+    rdfs:label " Weight" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/Age>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/AnimalType>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/Breed>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/Diagnosis>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/Followup>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/HealthStatus>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/OwnerInformation>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/Symptoms>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/TreatmentPlan>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceYP1NJGLN/column/Weight> .
+

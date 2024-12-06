@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_P2I4RKKB.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/CellularLocation> a dsv:Column ;
+    rdfs:label " Cellular Location" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/DiseaseAssociationStudies> a dsv:Column ;
+    rdfs:label " Disease Association Studies" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/DomainInformation> a dsv:Column ;
+    rdfs:label " Domain Information" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/EvolutionaryHistory> a dsv:Column ;
+    rdfs:label " Evolutionary History" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/ExpressionPatternAcrossTissues> a dsv:Column ;
+    rdfs:label " Expression Pattern Across Tissues" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/FunctionalDescription> a dsv:Column ;
+    rdfs:label " Functional Description" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/InteractionNetworkScores> a dsv:Column ;
+    rdfs:label " Interaction Network Scores" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/MetabolicPathwaysinvolved> a dsv:Column ;
+    rdfs:label " Metabolic Pathways involved" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/ProteinsProduced> a dsv:Column ;
+    rdfs:label "Proteins Produced" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/PublicDatabaseLinkageID> a dsv:Column ;
+    rdfs:label " Public Database Linkage ID" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/RegulatoryElementDetails> a dsv:Column ;
+    rdfs:label " Regulatory Element Details" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/SimilaritywithOtherSpeciesGenes> a dsv:Column ;
+    rdfs:label " Similarity with Other Species’ Genes" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/StructuralAnalysisResults> a dsv:Column ;
+    rdfs:label " Structural Analysis Results" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/CellularLocation>,
+        <http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/DiseaseAssociationStudies>,
+        <http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/DomainInformation>,
+        <http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/EvolutionaryHistory>,
+        <http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/ExpressionPatternAcrossTissues>,
+        <http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/FunctionalDescription>,
+        <http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/InteractionNetworkScores>,
+        <http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/MetabolicPathwaysinvolved>,
+        <http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/ProteinsProduced>,
+        <http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/PublicDatabaseLinkageID>,
+        <http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/RegulatoryElementDetails>,
+        <http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/SimilaritywithOtherSpeciesGenes>,
+        <http://metaUnionSearch/datasets/BioinformaticsP2I4RKKB/column/StructuralAnalysisResults> .
+

@@ -1,0 +1,10 @@
+duration
+address
+range
+rank
+capacity
+depth
+description
+name
+operator
+description

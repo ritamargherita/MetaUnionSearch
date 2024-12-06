@@ -1,0 +1,13 @@
+album
+year
+duration
+album
+notes
+format
+publisher
+address
+language
+address
+education
+address
+status

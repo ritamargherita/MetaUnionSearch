@@ -1,0 +1,13 @@
+artist
+description
+type
+description
+location
+product
+class
+description
+status
+description
+artist
+description
+description

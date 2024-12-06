@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoliticsIP5BX9X3> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_IP5BX9X3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoliticsIP5BX9X3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/ElectedOfficialTurnoverRate> a dsv:Column ;
+    rdfs:label " Elected Official Turnover Rate" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/GrassrootsMovementActivityLevel> a dsv:Column ;
+    rdfs:label " Grassroots Movement Activity Level" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/IndependentAuditorReportsFinancialTransparency> a dsv:Column ;
+    rdfs:label " Independent Auditor Reports: Financial Transparency" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/InternationalRelationsInitiatives> a dsv:Column ;
+    rdfs:label " International Relations Initiatives" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/KeyAlliancesandRivalries> a dsv:Column ;
+    rdfs:label " Key Alliances and Rivalries" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/LegislativeBillsSponsored> a dsv:Column ;
+    rdfs:label " Legislative Bills Sponsored" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/PoliticalIdeologieswithinparty> a dsv:Column ;
+    rdfs:label " Political Ideologies within party" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/PublicOpinionPollingData> a dsv:Column ;
+    rdfs:label " Public Opinion Polling Data" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/SocialMediaEngagementMetrics> a dsv:Column ;
+    rdfs:label " Social Media Engagement Metrics`." ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/Table2ElectionResultsbyRegion> a dsv:Column ;
+    rdfs:label "Table 2:`Election Results by Region" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/ThinkTankAffiliates> a dsv:Column ;
+    rdfs:label " Think Tank Affiliates" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/VoterEducationProgramDetails> a dsv:Column ;
+    rdfs:label " Voter Education Program Details" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/PoliticsIP5BX9X3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/ElectedOfficialTurnoverRate>,
+        <http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/GrassrootsMovementActivityLevel>,
+        <http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/IndependentAuditorReportsFinancialTransparency>,
+        <http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/InternationalRelationsInitiatives>,
+        <http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/KeyAlliancesandRivalries>,
+        <http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/LegislativeBillsSponsored>,
+        <http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/PoliticalIdeologieswithinparty>,
+        <http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/PublicOpinionPollingData>,
+        <http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/SocialMediaEngagementMetrics>,
+        <http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/Table2ElectionResultsbyRegion>,
+        <http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/ThinkTankAffiliates>,
+        <http://metaUnionSearch/datasets/PoliticsIP5BX9X3/column/VoterEducationProgramDetails> .
+

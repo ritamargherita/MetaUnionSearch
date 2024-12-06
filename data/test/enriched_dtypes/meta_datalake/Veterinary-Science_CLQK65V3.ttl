@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_CLQK65V3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/ConsultationFee> a dsv:Column ;
+    rdfs:label """\\
+Consultation Fee""" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/DiagnosticTestResults> a dsv:Column ;
+    rdfs:label """\\
+Diagnostic Test Results""" ;
+    dcterms:type "service" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/DietaryRecommendations> a dsv:Column ;
+    rdfs:label """\\
+Dietary Recommendations""" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/FollowupAppointmentDate> a dsv:Column ;
+    rdfs:label """\\
+Follow-up Appointment Date""" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/MedicationsPrescribed> a dsv:Column ;
+    rdfs:label """\\
+Medications Prescribed""" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/ReferraltoSpecialist> a dsv:Column ;
+    rdfs:label """\\
+Referral to Specialist""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/Specialization> a dsv:Column ;
+    rdfs:label """\\
+Specialization""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/TreatmentEquipmentUsed> a dsv:Column ;
+    rdfs:label """\\
+Treatment Equipment Used""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/VaccinationHistory> a dsv:Column ;
+    rdfs:label """\\
+Vaccination History""" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/VeterinarianName> a dsv:Column ;
+    rdfs:label """\\
+Veterinarian Name""" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/ConsultationFee>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/DiagnosticTestResults>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/DietaryRecommendations>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/FollowupAppointmentDate>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/MedicationsPrescribed>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/ReferraltoSpecialist>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/Specialization>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/TreatmentEquipmentUsed>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/VaccinationHistory>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceCLQK65V3/column/VeterinarianName> .
+

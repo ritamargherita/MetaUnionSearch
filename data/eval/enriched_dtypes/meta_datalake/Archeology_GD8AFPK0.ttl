@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArcheologyGD8AFPK0> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_GD8AFPK0.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/ArcherSiteID> a dsv:Column ;
+    rdfs:label "ArcherSiteID" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/ArchivalPhotographPresence> a dsv:Column ;
+    rdfs:label " ArchivalPhotographPresence" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/BioarchaeologicalAnalysisResults> a dsv:Column ;
+    rdfs:label " BioarchaeologicalAnalysisResults" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/CultureAssociation> a dsv:Column ;
+    rdfs:label " CultureAssociation" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/DatingTechniqueUsed> a dsv:Column ;
+    rdfs:label " DatingTechniqueUsed" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/EnvironmentalReconstructionFindings> a dsv:Column ;
+    rdfs:label " EnvironmentalReconstructionFindings" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/FundingSource> a dsv:Column ;
+    rdfs:label " FundingSource" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/GeophysicalSurveyData> a dsv:Column ;
+    rdfs:label " GeophysicalSurveyData" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/HistoricalDocumentEvidenceFound> a dsv:Column ;
+    rdfs:label " HistoricalDocumentEvidenceFound" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/RadiocarbonDateLabNumber> a dsv:Column ;
+    rdfs:label " RadiocarbonDate\\_LabNumber" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/RadiocarbonDateResult> a dsv:Column ;
+    rdfs:label " RadiocarbonDate\\_Result" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/SignificanceLevel> a dsv:Column ;
+    rdfs:label " SignificanceLevel" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/StratigraphicUnitDetails> a dsv:Column ;
+    rdfs:label " StratigraphicUnitDetails" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/ArcherSiteID>,
+        <http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/ArchivalPhotographPresence>,
+        <http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/BioarchaeologicalAnalysisResults>,
+        <http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/CultureAssociation>,
+        <http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/DatingTechniqueUsed>,
+        <http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/EnvironmentalReconstructionFindings>,
+        <http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/FundingSource>,
+        <http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/GeophysicalSurveyData>,
+        <http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/HistoricalDocumentEvidenceFound>,
+        <http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/RadiocarbonDateLabNumber>,
+        <http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/RadiocarbonDateResult>,
+        <http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/SignificanceLevel>,
+        <http://metaUnionSearch/datasets/ArcheologyGD8AFPK0/column/StratigraphicUnitDetails> .
+

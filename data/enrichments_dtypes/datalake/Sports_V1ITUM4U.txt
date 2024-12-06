@@ -1,0 +1,14 @@
+name
+person
+team
+ranking
+address
+address
+education
+result
+weight
+duration
+depth
+age
+weight
+position

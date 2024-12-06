@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronomyHADOIMZX> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_HADOIMZX.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronomyHADOIMZX/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/DustComposition> a dsv:Column ;
+    rdfs:label " Dust Composition" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/ElementalEnrichmentFromSupernovae> a dsv:Column ;
+    rdfs:label " Elemental Enrichment From Supernovae (%)" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/GasComposition> a dsv:Column ;
+    rdfs:label " Gas Composition (%)" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/LightVelocityImpact> a dsv:Column ;
+    rdfs:label " Light Velocity Impact" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/LuminosityComparedToSun> a dsv:Column ;
+    rdfs:label " Luminosity Compared To Sun" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/NebulaCategory> a dsv:Column ;
+    rdfs:label " Nebula Category" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/NebulaName> a dsv:Column ;
+    rdfs:label "Nebula Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/NovaCount> a dsv:Column ;
+    rdfs:label " Nova Count" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/PulsarPresence> a dsv:Column ;
+    rdfs:label " Pulsar Presence." ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/RadiusLY> a dsv:Column ;
+    rdfs:label " Radius (LY)" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/StarFormationTriggerEvent> a dsv:Column ;
+    rdfs:label " Star Formation Trigger Event" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/SupernovaOccurrenceTimeLimit> a dsv:Column ;
+    rdfs:label " Supernova Occurrence Time Limit" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/SurroundingStarsAffected> a dsv:Column ;
+    rdfs:label " Surrounding Stars Affected" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/AstronomyHADOIMZX/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/DustComposition>,
+        <http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/ElementalEnrichmentFromSupernovae>,
+        <http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/GasComposition>,
+        <http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/LightVelocityImpact>,
+        <http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/LuminosityComparedToSun>,
+        <http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/NebulaCategory>,
+        <http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/NebulaName>,
+        <http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/NovaCount>,
+        <http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/PulsarPresence>,
+        <http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/RadiusLY>,
+        <http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/StarFormationTriggerEvent>,
+        <http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/SupernovaOccurrenceTimeLimit>,
+        <http://metaUnionSearch/datasets/AstronomyHADOIMZX/column/SurroundingStarsAffected> .
+

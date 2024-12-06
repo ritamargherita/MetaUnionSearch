@@ -1,0 +1,12 @@
+name
+category
+area
+state
+description
+status
+type
+type
+artist
+description
+classification
+description

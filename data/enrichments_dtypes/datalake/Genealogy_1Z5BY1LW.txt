@@ -1,0 +1,10 @@
+person
+name
+name
+name
+person
+location
+address
+position
+nationality
+status

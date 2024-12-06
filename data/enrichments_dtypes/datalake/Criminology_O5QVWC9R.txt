@@ -1,0 +1,7 @@
+rank
+address
+description
+address
+type
+name
+artist

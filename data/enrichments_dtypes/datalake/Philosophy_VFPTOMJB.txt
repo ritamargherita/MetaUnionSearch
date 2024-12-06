@@ -1,0 +1,15 @@
+album
+code
+year
+origin
+album
+album
+person
+class
+origin
+origin
+notes
+class
+position
+origin
+description

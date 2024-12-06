@@ -1,0 +1,14 @@
+album
+description
+rank
+address
+album
+name
+album
+origin
+religion
+origin
+region
+origin
+album
+class

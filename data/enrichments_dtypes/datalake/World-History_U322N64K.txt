@@ -1,0 +1,12 @@
+origin
+religion
+name
+name
+album
+name
+range
+language
+name
+name
+language
+language

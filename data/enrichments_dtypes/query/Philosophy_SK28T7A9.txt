@@ -1,0 +1,8 @@
+religion
+person
+origin
+album
+region
+region
+region
+status

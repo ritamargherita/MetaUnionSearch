@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EconomicsTZIFT9YV> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_TZIFT9YV.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EconomicsTZIFT9YV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/> a dsv:Column ;
+    rdfs:label "\\*\\*",
+        "\\*\\*\\*",
+        "\\*\\*\\*\\*",
+        "\\*\\*\\*\\*\\*\\*\\*" ;
+    dcterms:type "artist",
+        "description",
+        "year" .
+
+<http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/budgetdeficitbillion> a dsv:Column ;
+    rdfs:label " budget\\_deficit$_{ billion}$" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/currentaccountbillion> a dsv:Column ;
+    rdfs:label " current\\_account$_{ billion}$" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/economicpolicy> a dsv:Column ;
+    rdfs:label "economic\\_policy" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/fiscalbalancebillion> a dsv:Column ;
+    rdfs:label " fiscal\\_balance$ \\_billion" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/humandevelopmentindex> a dsv:Column ;
+    rdfs:label " human\\_development\\_index" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/inflationrate> a dsv:Column ;
+    rdfs:label " inflation\\_rate" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/interestrate> a dsv:Column ;
+    rdfs:label " interest\\_rate%" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/policydescription> a dsv:Column ;
+    rdfs:label " policy\\_description" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/totaldebttoGDPratio> a dsv:Column ;
+    rdfs:label " total\\_debt$_{ (toGDP\\_ratio) }$" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/tradebalancebillion> a dsv:Column ;
+    rdfs:label " trade\\_balance$_{ billion}" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/unemploymentrate> a dsv:Column ;
+    rdfs:label "\\* unemployment\\_rate" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EconomicsTZIFT9YV/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/>,
+        <http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/budgetdeficitbillion>,
+        <http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/currentaccountbillion>,
+        <http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/economicpolicy>,
+        <http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/fiscalbalancebillion>,
+        <http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/humandevelopmentindex>,
+        <http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/inflationrate>,
+        <http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/interestrate>,
+        <http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/policydescription>,
+        <http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/totaldebttoGDPratio>,
+        <http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/tradebalancebillion>,
+        <http://metaUnionSearch/datasets/EconomicsTZIFT9YV/column/unemploymentrate> .
+

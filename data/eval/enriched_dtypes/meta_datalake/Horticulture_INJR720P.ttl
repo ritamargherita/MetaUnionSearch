@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/HorticultureINJR720P> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_INJR720P.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/HorticultureINJR720P/datasetSchema> .
+
+<http://metaUnionSearch/datasets/HorticultureINJR720P/column/AvgPriceOfProduct> a dsv:Column ;
+    rdfs:label "AvgPriceOfProduct" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/HorticultureINJR720P/column/BotanicalName> a dsv:Column ;
+    rdfs:label "BotanicalName" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/HorticultureINJR720P/column/FinancialMetrics> a dsv:Column ;
+    rdfs:label "FinancialMetrics" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/HorticultureINJR720P/column/GrowingConditions> a dsv:Column ;
+    rdfs:label "GrowingConditions" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/HorticultureINJR720P/column/LineItemCost> a dsv:Column ;
+    rdfs:label "LineItemCost" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/HorticultureINJR720P/column/MaintenanceTasks> a dsv:Column ;
+    rdfs:label "MaintenanceTasks" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/HorticultureINJR720P/column/MarketingStrategy> a dsv:Column ;
+    rdfs:label "MarketingStrategy" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/HorticultureINJR720P/column/PlantSpecies> a dsv:Column ;
+    rdfs:label "PlantSpecies" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/HorticultureINJR720P/column/PlotID> a dsv:Column ;
+    rdfs:label "PlotID" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/HorticultureINJR720P/column/SalesRevenue> a dsv:Column ;
+    rdfs:label "SalesRevenue" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/HorticultureINJR720P/column/SizeAndShapeOfLeaves> a dsv:Column ;
+    rdfs:label "SizeAndShapeOfLeaves" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/HorticultureINJR720P/column/TargetMarket> a dsv:Column ;
+    rdfs:label "TargetMarket" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/HorticultureINJR720P/column/TotalProfitMargin> a dsv:Column ;
+    rdfs:label "TotalProfitMargin" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/HorticultureINJR720P/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/HorticultureINJR720P/column/AvgPriceOfProduct>,
+        <http://metaUnionSearch/datasets/HorticultureINJR720P/column/BotanicalName>,
+        <http://metaUnionSearch/datasets/HorticultureINJR720P/column/FinancialMetrics>,
+        <http://metaUnionSearch/datasets/HorticultureINJR720P/column/GrowingConditions>,
+        <http://metaUnionSearch/datasets/HorticultureINJR720P/column/LineItemCost>,
+        <http://metaUnionSearch/datasets/HorticultureINJR720P/column/MaintenanceTasks>,
+        <http://metaUnionSearch/datasets/HorticultureINJR720P/column/MarketingStrategy>,
+        <http://metaUnionSearch/datasets/HorticultureINJR720P/column/PlantSpecies>,
+        <http://metaUnionSearch/datasets/HorticultureINJR720P/column/PlotID>,
+        <http://metaUnionSearch/datasets/HorticultureINJR720P/column/SalesRevenue>,
+        <http://metaUnionSearch/datasets/HorticultureINJR720P/column/SizeAndShapeOfLeaves>,
+        <http://metaUnionSearch/datasets/HorticultureINJR720P/column/TargetMarket>,
+        <http://metaUnionSearch/datasets/HorticultureINJR720P/column/TotalProfitMargin> .
+

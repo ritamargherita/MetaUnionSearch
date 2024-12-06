@@ -1,0 +1,11 @@
+publisher
+family
+capacity
+area
+description
+description
+position
+description
+area
+operator
+species

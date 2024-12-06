@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_G8KSJLQF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/AnimalSpeciesStudied> a dsv:Column ;
+    rdfs:label " Animal Species Studied" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/AstronomyExperimentsConducted> a dsv:Column ;
+    rdfs:label "Astronomy Experiments Conducted" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/EVAsSuccessful> a dsv:Column ;
+    rdfs:label " EVAs Successful?" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/EarthObservationsMade> a dsv:Column ;
+    rdfs:label " Earth Observations Made" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/FamousQuotesfromspaceExistentialInsights> a dsv:Column ;
+    rdfs:label " Famous Quotes from space & Existential Insights" ;
+    dcterms:type "director" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/FundingBodiesContributions> a dsv:Column ;
+    rdfs:label " Funding Bodies' Contributions" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/MaximalPressurepascal> a dsv:Column ;
+    rdfs:label " Maximal Pressure (pascal)" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/MedicalConditionsInvestigated> a dsv:Column ;
+    rdfs:label " Medical Conditions Investigated" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/MicrogravityEffectResearch> a dsv:Column ;
+    rdfs:label " Microgravity Effect Research" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/MinimumTemperaturedegC> a dsv:Column ;
+    rdfs:label " Minimum Temperature (&degC)" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/PenentryVectorVelocitykmxD7ssupminus> a dsv:Column ;
+    rdfs:label " Penentry Vector Velocity (km&#xD7 s<sup>&minus" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/SpacewalkOccurrences> a dsv:Column ;
+    rdfs:label " Spacewalk Occurrences" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/TechnologicalDemonstrations> a dsv:Column ;
+    rdfs:label " Technological Demonstrations" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/sup> a dsv:Column ;
+    rdfs:label "</ sup>)" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/AnimalSpeciesStudied>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/AstronomyExperimentsConducted>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/EVAsSuccessful>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/EarthObservationsMade>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/FamousQuotesfromspaceExistentialInsights>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/FundingBodiesContributions>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/MaximalPressurepascal>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/MedicalConditionsInvestigated>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/MicrogravityEffectResearch>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/MinimumTemperaturedegC>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/PenentryVectorVelocitykmxD7ssupminus>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/SpacewalkOccurrences>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/TechnologicalDemonstrations>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/sup> .
+

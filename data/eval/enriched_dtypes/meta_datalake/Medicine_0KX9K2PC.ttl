@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Medicine0KX9K2PC> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_0KX9K2PC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Medicine0KX9K2PC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/FollowUpAppointmentScheduleifapplicable> a dsv:Column ;
+    rdfs:label " Follow-Up Appointment Schedule (if applicable)" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/HealthInsuranceProviderPolicyNumber> a dsv:Column ;
+    rdfs:label " Health Insurance Provider & Policy Number" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/LabTestResults> a dsv:Column ;
+    rdfs:label " Lab Test Results" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/PatientsAllergiesorAdverseReactionsHistory> a dsv:Column ;
+    rdfs:label " Patient's Allergies or Adverse Reactions History" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/PharmacyName> a dsv:Column ;
+    rdfs:label " Pharmacy Name" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/PhysicalExaminationResults> a dsv:Column ;
+    rdfs:label " Physical Examination Results" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/PrescriptionCost> a dsv:Column ;
+    rdfs:label "Prescription Cost" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/PriorHospitalizationRecordsIfAny> a dsv:Column ;
+    rdfs:label " Prior Hospitalization Records (If Any)" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/SpecialistConsultationDetails> a dsv:Column ;
+    rdfs:label " Specialist Consultation Details" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/VaccinationStatus> a dsv:Column ;
+    rdfs:label " Vaccination Status" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Medicine0KX9K2PC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/FollowUpAppointmentScheduleifapplicable>,
+        <http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/HealthInsuranceProviderPolicyNumber>,
+        <http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/LabTestResults>,
+        <http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/PatientsAllergiesorAdverseReactionsHistory>,
+        <http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/PharmacyName>,
+        <http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/PhysicalExaminationResults>,
+        <http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/PrescriptionCost>,
+        <http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/PriorHospitalizationRecordsIfAny>,
+        <http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/SpecialistConsultationDetails>,
+        <http://metaUnionSearch/datasets/Medicine0KX9K2PC/column/VaccinationStatus> .
+

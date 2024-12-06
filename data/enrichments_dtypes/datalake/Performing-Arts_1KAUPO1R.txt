@@ -1,0 +1,12 @@
+credit
+genre
+director
+artist
+name
+director
+name
+director
+name
+name
+artist
+manufacturer

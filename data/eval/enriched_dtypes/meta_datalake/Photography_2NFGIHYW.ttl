@@ -1,0 +1,96 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_2NFGIHYW.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Photography2NFGIHYW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Category> a dsv:Column ;
+    rdfs:label "Category" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Characteristics> a dsv:Column ;
+    rdfs:label "Characteristics" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Contrast> a dsv:Column ;
+    rdfs:label "Contrast" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/FileFormat> a dsv:Column ;
+    rdfs:label "File Format" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/FlashUsage> a dsv:Column ;
+    rdfs:label "Flash Usage" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/FocusMode> a dsv:Column ;
+    rdfs:label "Focus Mode" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/HueSettings> a dsv:Column ;
+    rdfs:label "Hue Settings" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/ImageOrientation> a dsv:Column ;
+    rdfs:label "Image Orientation" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/ImageSize> a dsv:Column ;
+    rdfs:label "Image Size" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/LensType> a dsv:Column ;
+    rdfs:label "Lens Type" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Location> a dsv:Column ;
+    rdfs:label "Location" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/PhotoTitle> a dsv:Column ;
+    rdfs:label "Photo Title" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/PostProcessingSoftware> a dsv:Column ;
+    rdfs:label "Post-Processing Software" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Saturation> a dsv:Column ;
+    rdfs:label "Saturation" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/SharpnessandNoiseLevel> a dsv:Column ;
+    rdfs:label "Sharpness and Noise Level" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/SubjectDistance> a dsv:Column ;
+    rdfs:label "Subject Distance" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/column/WhiteBalanceSetting> a dsv:Column ;
+    rdfs:label "White Balance Setting" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Photography2NFGIHYW/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Category>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Characteristics>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Contrast>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/FileFormat>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/FlashUsage>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/FocusMode>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/HueSettings>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/ImageOrientation>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/ImageSize>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/LensType>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Location>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/PhotoTitle>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/PostProcessingSoftware>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/Saturation>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/SharpnessandNoiseLevel>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/SubjectDistance>,
+        <http://metaUnionSearch/datasets/Photography2NFGIHYW/column/WhiteBalanceSetting> .
+

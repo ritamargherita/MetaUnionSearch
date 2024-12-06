@@ -1,0 +1,10 @@
+artist
+credit
+year
+location
+genre
+year
+name
+notes
+plays
+status

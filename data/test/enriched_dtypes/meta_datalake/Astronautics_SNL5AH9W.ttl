@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronauticsSNL5AH9W> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_SNL5AH9W.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/AstronomyFieldExpanded> a dsv:Column ;
+    rdfs:label " Astronomy Field Expanded" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/CollisionAvoidanceSystem> a dsv:Column ;
+    rdfs:label " Collision Avoidance System" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/DiscoveryMethod> a dsv:Column ;
+    rdfs:label " Discovery Method" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/ExperimentConducted> a dsv:Column ;
+    rdfs:label " Experiment Conducted" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/FundingSource> a dsv:Column ;
+    rdfs:label " Funding Source" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/LaunchSite> a dsv:Column ;
+    rdfs:label " Launch Site" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/MissionControlCenter> a dsv:Column ;
+    rdfs:label " Mission Control Center" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/PropulsionTypes> a dsv:Column ;
+    rdfs:label " Propulsion Types" ;
+    dcterms:type "manufacturer" .
+
+<http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/RocketType> a dsv:Column ;
+    rdfs:label "Rocket Type" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/TechnicalChallengesOvercome> a dsv:Column ;
+    rdfs:label " Technical Challenges Overcome" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/AstronomyFieldExpanded>,
+        <http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/CollisionAvoidanceSystem>,
+        <http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/DiscoveryMethod>,
+        <http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/ExperimentConducted>,
+        <http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/FundingSource>,
+        <http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/LaunchSite>,
+        <http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/MissionControlCenter>,
+        <http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/PropulsionTypes>,
+        <http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/RocketType>,
+        <http://metaUnionSearch/datasets/AstronauticsSNL5AH9W/column/TechnicalChallengesOvercome> .
+

@@ -1,0 +1,11 @@
+product
+product
+name
+description
+name
+notes
+description
+description
+duration
+album
+operator

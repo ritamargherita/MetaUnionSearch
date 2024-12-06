@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_2F8UZC5B.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/AstronautExperienceyears> a dsv:Column ;
+    rdfs:label " Astronaut Experience (years)" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/AstronomyDiscipline> a dsv:Column ;
+    rdfs:label " Astronomy Discipline" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/CollaborativeAgencies> a dsv:Column ;
+    rdfs:label " Collaborative Agencies" ;
+    dcterms:type "creator" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/Durationdays> a dsv:Column ;
+    rdfs:label " Duration (days)" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/MissionName> a dsv:Column ;
+    rdfs:label "Mission Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/PrimaryObjectivesExplained> a dsv:Column ;
+    rdfs:label " Primary Objectives Explained" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/ReusedFirstStageReturnCrewCapacity> a dsv:Column ;
+    rdfs:label " Reused?, First Stage Return, Crew Capacity" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/SpacecraftUsed> a dsv:Column ;
+    rdfs:label " Spacecraft Used" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/StartDate> a dsv:Column ;
+    rdfs:label " Start Date" ;
+    dcterms:type "birth Date" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/TargetPlanetorBody> a dsv:Column ;
+    rdfs:label " Target Planet or Body" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/AstronautExperienceyears>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/AstronomyDiscipline>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/CollaborativeAgencies>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/Durationdays>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/MissionName>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/PrimaryObjectivesExplained>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/ReusedFirstStageReturnCrewCapacity>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/SpacecraftUsed>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/StartDate>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/TargetPlanetorBody> .
+

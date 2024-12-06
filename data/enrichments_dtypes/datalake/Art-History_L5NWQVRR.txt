@@ -1,0 +1,13 @@
+artist
+category
+album
+origin
+collection
+description
+notes
+language
+language
+artist
+year
+product
+company

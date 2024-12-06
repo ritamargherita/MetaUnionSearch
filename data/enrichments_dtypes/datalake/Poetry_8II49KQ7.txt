@@ -1,0 +1,15 @@
+artist
+album
+album
+notes
+notes
+name
+album
+album
+genre
+name
+album
+category
+artist
+artist
+artist

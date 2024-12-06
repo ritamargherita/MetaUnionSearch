@@ -1,0 +1,11 @@
+country
+affiliation
+name
+address
+sales
+day
+category
+organisation
+affiliation
+genre
+album

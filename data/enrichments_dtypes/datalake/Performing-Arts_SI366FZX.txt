@@ -1,0 +1,12 @@
+genre
+genre
+year
+location
+album
+name
+range
+type
+type
+weight
+director
+name

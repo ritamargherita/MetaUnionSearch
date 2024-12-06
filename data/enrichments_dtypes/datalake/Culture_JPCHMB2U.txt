@@ -1,0 +1,13 @@
+origin
+class
+description
+description
+species
+class
+genre
+genre
+genre
+genre
+gender
+company
+religion

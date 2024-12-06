@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawS0LI0XY2> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_S0LI0XY2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawS0LI0XY2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawS0LI0XY2/column/AdditionalEvidence> a dsv:Column ;
+    rdfs:label " Additional Evidence" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawS0LI0XY2/column/ChargesDetail> a dsv:Column ;
+    rdfs:label " Charges Detail" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/LawS0LI0XY2/column/CourtDate> a dsv:Column ;
+    rdfs:label "Court Date" ;
+    dcterms:type "birth Date" .
+
+<http://metaUnionSearch/datasets/LawS0LI0XY2/column/DefenseCounsel> a dsv:Column ;
+    rdfs:label " Defense Counsel" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/LawS0LI0XY2/column/JudgeAssignment> a dsv:Column ;
+    rdfs:label " Judge Assignment" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/LawS0LI0XY2/column/LayJurors> a dsv:Column ;
+    rdfs:label " Lay Jurors" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/LawS0LI0XY2/column/MachinelearnedPredictions> a dsv:Column ;
+    rdfs:label " Machine-learned Predictions" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawS0LI0XY2/column/PlaintiffRepresentatives> a dsv:Column ;
+    rdfs:label " Plaintiff Representatives" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/LawS0LI0XY2/column/Sentencinginformation> a dsv:Column ;
+    rdfs:label " Sentencing information" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/LawS0LI0XY2/column/VerdictorSettlement> a dsv:Column ;
+    rdfs:label " Verdict or Settlement" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/LawS0LI0XY2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LawS0LI0XY2/column/AdditionalEvidence>,
+        <http://metaUnionSearch/datasets/LawS0LI0XY2/column/ChargesDetail>,
+        <http://metaUnionSearch/datasets/LawS0LI0XY2/column/CourtDate>,
+        <http://metaUnionSearch/datasets/LawS0LI0XY2/column/DefenseCounsel>,
+        <http://metaUnionSearch/datasets/LawS0LI0XY2/column/JudgeAssignment>,
+        <http://metaUnionSearch/datasets/LawS0LI0XY2/column/LayJurors>,
+        <http://metaUnionSearch/datasets/LawS0LI0XY2/column/MachinelearnedPredictions>,
+        <http://metaUnionSearch/datasets/LawS0LI0XY2/column/PlaintiffRepresentatives>,
+        <http://metaUnionSearch/datasets/LawS0LI0XY2/column/Sentencinginformation>,
+        <http://metaUnionSearch/datasets/LawS0LI0XY2/column/VerdictorSettlement> .
+

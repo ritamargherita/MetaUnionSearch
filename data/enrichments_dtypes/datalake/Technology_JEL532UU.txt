@@ -1,0 +1,12 @@
+category
+description
+name
+name
+description
+description
+description
+area
+description
+name
+component
+artist

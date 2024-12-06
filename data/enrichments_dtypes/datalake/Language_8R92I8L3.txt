@@ -1,0 +1,13 @@
+language
+origin
+country
+language
+address
+address
+area
+description
+description
+notes
+rank
+address
+class

@@ -1,0 +1,10 @@
+religion
+album
+area
+name
+name
+language
+religion
+name
+currency
+description

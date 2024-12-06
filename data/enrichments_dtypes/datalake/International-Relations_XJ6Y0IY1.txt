@@ -1,0 +1,10 @@
+age
+affiliation
+description
+origin
+description
+class
+description
+description
+notes
+classification

@@ -1,0 +1,10 @@
+description
+rank
+name
+weight
+status
+description
+name
+description
+description
+class

@@ -1,0 +1,16 @@
+artist
+album
+product
+person
+location
+company
+company
+album
+album
+category
+brand
+year
+product
+artist
+genre
+album

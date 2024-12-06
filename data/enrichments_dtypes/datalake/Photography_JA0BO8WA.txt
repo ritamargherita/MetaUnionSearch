@@ -1,0 +1,14 @@
+description
+type
+description
+origin
+notes
+album
+product
+product
+format
+format
+address
+capacity
+address
+artist

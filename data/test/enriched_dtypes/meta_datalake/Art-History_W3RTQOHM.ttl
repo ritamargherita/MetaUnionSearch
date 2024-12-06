@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_W3RTQOHM.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/AdditionalInformation> a dsv:Column ;
+    rdfs:label " `Additional Information`" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/AdditionalPhysicalDetails> a dsv:Column ;
+    rdfs:label " `Additional Physical Details`" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Artist> a dsv:Column ;
+    rdfs:label " `Artist`" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Artwork> a dsv:Column ;
+    rdfs:label "`Artwork`" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/DateCreated> a dsv:Column ;
+    rdfs:label " `Date Created`" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Depth> a dsv:Column ;
+    rdfs:label " `Depth`" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Height> a dsv:Column ;
+    rdfs:label " `Height`" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Medium> a dsv:Column ;
+    rdfs:label " `Medium`" ;
+    dcterms:type "brand" .
+
+<http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Notes> a dsv:Column ;
+    rdfs:label " `Notes`" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Period> a dsv:Column ;
+    rdfs:label " `Period`" ;
+    dcterms:type "nationality" .
+
+<http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Style> a dsv:Column ;
+    rdfs:label " `Style`" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/SubjectMatter> a dsv:Column ;
+    rdfs:label " `Subject Matter`" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Width> a dsv:Column ;
+    rdfs:label " `Width`" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/AdditionalInformation>,
+        <http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/AdditionalPhysicalDetails>,
+        <http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Artist>,
+        <http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Artwork>,
+        <http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/DateCreated>,
+        <http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Depth>,
+        <http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Height>,
+        <http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Medium>,
+        <http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Notes>,
+        <http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Period>,
+        <http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Style>,
+        <http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/SubjectMatter>,
+        <http://metaUnionSearch/datasets/ArtHistoryW3RTQOHM/column/Width> .
+

@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronomyR2JCPS50> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_R2JCPS50.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronomyR2JCPS50/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/Atmosphere> a dsv:Column ;
+    rdfs:label " Atmosphere" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/MagneticField> a dsv:Column ;
+    rdfs:label " Magnetic Field`" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/OrbitSizeAU> a dsv:Column ;
+    rdfs:label " Orbit Size(AU)" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/OrbitalPeriod> a dsv:Column ;
+    rdfs:label " Orbital Period" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/PlanetName> a dsv:Column ;
+    rdfs:label "`Planet Name" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/PrimaryDeclination> a dsv:Column ;
+    rdfs:label " Primary Declination" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/PrimaryRightAscension> a dsv:Column ;
+    rdfs:label " Primary Right Ascension" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/PrimaryStarName> a dsv:Column ;
+    rdfs:label " Primary Star Name" ;
+    dcterms:type "day" .
+
+<http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/PrimaryStarType> a dsv:Column ;
+    rdfs:label " Primary Star Type" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/Rings> a dsv:Column ;
+    rdfs:label " Rings" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/SatelliteCount> a dsv:Column ;
+    rdfs:label " Satellite Count" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/AstronomyR2JCPS50/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/Atmosphere>,
+        <http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/MagneticField>,
+        <http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/OrbitSizeAU>,
+        <http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/OrbitalPeriod>,
+        <http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/PlanetName>,
+        <http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/PrimaryDeclination>,
+        <http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/PrimaryRightAscension>,
+        <http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/PrimaryStarName>,
+        <http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/PrimaryStarType>,
+        <http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/Rings>,
+        <http://metaUnionSearch/datasets/AstronomyR2JCPS50/column/SatelliteCount> .
+

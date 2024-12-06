@@ -1,0 +1,13 @@
+rank
+address
+name
+weight
+weight
+capacity
+sales
+education
+capacity
+position
+result
+range
+range

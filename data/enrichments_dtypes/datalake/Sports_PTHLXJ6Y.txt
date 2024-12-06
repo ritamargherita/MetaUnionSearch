@@ -1,0 +1,14 @@
+team
+name
+elevation
+birth Date
+birth Date
+address
+day
+name
+address
+address
+address
+address
+capacity
+artist

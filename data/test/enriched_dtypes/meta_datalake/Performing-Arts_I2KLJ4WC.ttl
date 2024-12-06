@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_I2KLJ4WC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/AverageTicketPrice> a dsv:Column ;
+    rdfs:label " Average Ticket Price" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/Capacity> a dsv:Column ;
+    rdfs:label " Capacity " ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/ConstructionYear> a dsv:Column ;
+    rdfs:label " Construction Year" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/FrequentCollaborators> a dsv:Column ;
+    rdfs:label " Frequent Collaborators" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/GenrePreference> a dsv:Column ;
+    rdfs:label " Genre Preference" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/NotableProductions> a dsv:Column ;
+    rdfs:label " Notable Productions" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/Operates> a dsv:Column ;
+    rdfs:label " Operates" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/SeatingLayout> a dsv:Column ;
+    rdfs:label " Seating Layout" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/StageDimensions> a dsv:Column ;
+    rdfs:label " Stage Dimensions" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/StyleArchitecture> a dsv:Column ;
+    rdfs:label " Style Architecture" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/TheaterType> a dsv:Column ;
+    rdfs:label "Theater Type" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/AverageTicketPrice>,
+        <http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/Capacity>,
+        <http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/ConstructionYear>,
+        <http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/FrequentCollaborators>,
+        <http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/GenrePreference>,
+        <http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/NotableProductions>,
+        <http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/Operates>,
+        <http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/SeatingLayout>,
+        <http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/StageDimensions>,
+        <http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/StyleArchitecture>,
+        <http://metaUnionSearch/datasets/PerformingArtsI2KLJ4WC/column/TheaterType> .
+

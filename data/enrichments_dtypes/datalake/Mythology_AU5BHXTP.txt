@@ -1,0 +1,11 @@
+species
+album
+origin
+name
+name
+name
+team
+album
+brand
+location
+album

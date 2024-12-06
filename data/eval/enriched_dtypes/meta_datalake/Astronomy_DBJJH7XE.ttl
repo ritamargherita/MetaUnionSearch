@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronomyDBJJH7XE> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_DBJJH7XE.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronomyDBJJH7XE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/AssociatedGalaxies> a dsv:Column ;
+    rdfs:label " Associated Galaxies" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/AstrologicalSignificance> a dsv:Column ;
+    rdfs:label " Astrological Significance" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/Constellation> a dsv:Column ;
+    rdfs:label " Constellation" ;
+    dcterms:type "species" .
+
+<http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/DustCompositionRatio> a dsv:Column ;
+    rdfs:label " Dust Composition Ratio" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/GasCompositionRatio> a dsv:Column ;
+    rdfs:label " Gas Composition Ratio" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/HistoricalInterest> a dsv:Column ;
+    rdfs:label " Historical Interest" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/MythologicalStories> a dsv:Column ;
+    rdfs:label " Mythological Stories" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/NebulaName> a dsv:Column ;
+    rdfs:label "Nebula Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/NebulaType> a dsv:Column ;
+    rdfs:label " Nebula Type" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/NumberofStarsFormed> a dsv:Column ;
+    rdfs:label " Number of Stars Formed" ;
+    dcterms:type "creator" .
+
+<http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/RadiationLevel> a dsv:Column ;
+    rdfs:label " Radiation Level" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/Sizely> a dsv:Column ;
+    rdfs:label " Size (ly)" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/StarFormationRate> a dsv:Column ;
+    rdfs:label " Star Formation Rate" ;
+    dcterms:type "range" .
+
+<http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/TemperatureK> a dsv:Column ;
+    rdfs:label " Temperature (K)" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/AstronomyDBJJH7XE/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/AssociatedGalaxies>,
+        <http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/AstrologicalSignificance>,
+        <http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/Constellation>,
+        <http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/DustCompositionRatio>,
+        <http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/GasCompositionRatio>,
+        <http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/HistoricalInterest>,
+        <http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/MythologicalStories>,
+        <http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/NebulaName>,
+        <http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/NebulaType>,
+        <http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/NumberofStarsFormed>,
+        <http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/RadiationLevel>,
+        <http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/Sizely>,
+        <http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/StarFormationRate>,
+        <http://metaUnionSearch/datasets/AstronomyDBJJH7XE/column/TemperatureK> .
+

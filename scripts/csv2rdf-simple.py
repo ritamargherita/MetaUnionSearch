@@ -142,7 +142,7 @@ def main(input_folder, output_folder, selected_topics_file):
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
-        print("Usage: python csvCleaner.py <path_input_folder> <path_output_folder> <path_selected_topics>")
+        print("Usage: python csvC2rdf-simple.py <path_input_folder> <path_output_folder> <path_selected_topics>")
         sys.exit(1)
     input_folder = sys.argv[1]
     output_folder = sys.argv[2]

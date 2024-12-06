@@ -1,0 +1,6 @@
+duration
+notes
+description
+organisation
+class
+artist

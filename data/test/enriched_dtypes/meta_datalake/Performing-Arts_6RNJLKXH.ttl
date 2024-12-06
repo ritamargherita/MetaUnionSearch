@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArts6RNJLKXH> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_6RNJLKXH.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/column/AdditionalSkillsTalents> a dsv:Column ;
+    rdfs:label " Additional Skills & Talents" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/column/AudienceSizeRange> a dsv:Column ;
+    rdfs:label " Audience Size Range" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/column/Collaborations> a dsv:Column ;
+    rdfs:label " Collaborations" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/column/FestivalsAppeared> a dsv:Column ;
+    rdfs:label " Festivals Appeared" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/column/NumberOfShows> a dsv:Column ;
+    rdfs:label "Number Of Shows" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/column/ShowType> a dsv:Column ;
+    rdfs:label " Show Type" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/column/TypicalDuration> a dsv:Column ;
+    rdfs:label " Typical Duration" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/column/Venue> a dsv:Column ;
+    rdfs:label " Venue" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/column/AdditionalSkillsTalents>,
+        <http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/column/AudienceSizeRange>,
+        <http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/column/Collaborations>,
+        <http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/column/FestivalsAppeared>,
+        <http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/column/NumberOfShows>,
+        <http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/column/ShowType>,
+        <http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/column/TypicalDuration>,
+        <http://metaUnionSearch/datasets/PerformingArts6RNJLKXH/column/Venue> .
+

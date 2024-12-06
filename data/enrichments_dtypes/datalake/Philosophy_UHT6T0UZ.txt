@@ -1,0 +1,10 @@
+album
+album
+notes
+code
+name
+person
+artist
+artist
+origin
+origin

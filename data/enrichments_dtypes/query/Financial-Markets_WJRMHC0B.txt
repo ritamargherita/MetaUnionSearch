@@ -1,0 +1,15 @@
+company
+industry
+address
+address
+address
+duration
+capacity
+result
+result
+description
+address
+age
+range
+status
+format

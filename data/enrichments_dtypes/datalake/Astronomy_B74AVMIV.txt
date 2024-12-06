@@ -1,0 +1,10 @@
+name
+day
+range
+position
+range
+range
+area
+range
+company
+status

@@ -1,0 +1,15 @@
+artist
+name
+type
+capacity
+genre
+album
+album
+address
+name
+publisher
+rank
+age
+status
+name
+notes

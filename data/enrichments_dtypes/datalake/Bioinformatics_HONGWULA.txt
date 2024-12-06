@@ -1,0 +1,11 @@
+symbol
+rank
+rank
+address
+range
+description
+type
+result
+weight
+symbol
+product

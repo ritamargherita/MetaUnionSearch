@@ -1,0 +1,11 @@
+album
+year
+description
+notes
+year
+category
+description
+album
+code
+type
+genre

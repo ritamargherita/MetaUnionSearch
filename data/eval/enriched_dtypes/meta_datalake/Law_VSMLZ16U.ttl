@@ -1,0 +1,91 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_VSMLZ16U.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawVSMLZ16U/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/column/AppealStatus> a dsv:Column ;
+    rdfs:label " Appeal Status" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/column/CourtDate> a dsv:Column ;
+    rdfs:label "Court Date" ;
+    dcterms:type "order" .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/column/DefendantsNames> a dsv:Column ;
+    rdfs:label " Defendant(s) Names" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/column/DocketNumber> a dsv:Column ;
+    rdfs:label " Docket Number" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/column/Evidencepresented> a dsv:Column ;
+    rdfs:label " Evidence presented" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/column/FinancialImplications> a dsv:Column ;
+    rdfs:label " Financial Implications." ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/column/Judgesinvolved> a dsv:Column ;
+    rdfs:label " Judges involved" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/column/JuryVerdictorJudgeRuling> a dsv:Column ;
+    rdfs:label " Jury Verdict or Judge Ruling" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/column/LegalCaseName> a dsv:Column ;
+    rdfs:label " Legal Case Name" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/column/PlaintiffsNames> a dsv:Column ;
+    rdfs:label " Plaintiff(s) Names" ;
+    dcterms:type "person" .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/column/Professionalshired> a dsv:Column ;
+    rdfs:label " Professionals hired" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/column/RelevantPrecedentsCited> a dsv:Column ;
+    rdfs:label " Relevant Precedents Cited" ;
+    dcterms:type "company" .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/column/Sentencinginformation> a dsv:Column ;
+    rdfs:label " Sentencing information" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/column/StatuteViolation> a dsv:Column ;
+    rdfs:label " Statute Violation" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/column/TrialLocation> a dsv:Column ;
+    rdfs:label " Trial Location" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/column/Witnessescalled> a dsv:Column ;
+    rdfs:label " Witnesses called" ;
+    dcterms:type "credit" .
+
+<http://metaUnionSearch/datasets/LawVSMLZ16U/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LawVSMLZ16U/column/AppealStatus>,
+        <http://metaUnionSearch/datasets/LawVSMLZ16U/column/CourtDate>,
+        <http://metaUnionSearch/datasets/LawVSMLZ16U/column/DefendantsNames>,
+        <http://metaUnionSearch/datasets/LawVSMLZ16U/column/DocketNumber>,
+        <http://metaUnionSearch/datasets/LawVSMLZ16U/column/Evidencepresented>,
+        <http://metaUnionSearch/datasets/LawVSMLZ16U/column/FinancialImplications>,
+        <http://metaUnionSearch/datasets/LawVSMLZ16U/column/Judgesinvolved>,
+        <http://metaUnionSearch/datasets/LawVSMLZ16U/column/JuryVerdictorJudgeRuling>,
+        <http://metaUnionSearch/datasets/LawVSMLZ16U/column/LegalCaseName>,
+        <http://metaUnionSearch/datasets/LawVSMLZ16U/column/PlaintiffsNames>,
+        <http://metaUnionSearch/datasets/LawVSMLZ16U/column/Professionalshired>,
+        <http://metaUnionSearch/datasets/LawVSMLZ16U/column/RelevantPrecedentsCited>,
+        <http://metaUnionSearch/datasets/LawVSMLZ16U/column/Sentencinginformation>,
+        <http://metaUnionSearch/datasets/LawVSMLZ16U/column/StatuteViolation>,
+        <http://metaUnionSearch/datasets/LawVSMLZ16U/column/TrialLocation>,
+        <http://metaUnionSearch/datasets/LawVSMLZ16U/column/Witnessescalled> .
+

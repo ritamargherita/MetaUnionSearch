@@ -1,0 +1,13 @@
+class
+product
+address
+product
+description
+address
+weight
+description
+description
+description
+category
+brand
+description

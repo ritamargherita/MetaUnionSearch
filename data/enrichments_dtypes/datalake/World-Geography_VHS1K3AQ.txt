@@ -1,0 +1,7 @@
+country
+region
+region
+area
+area
+artist
+region

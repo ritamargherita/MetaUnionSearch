@@ -1,0 +1,11 @@
+company
+code
+address
+address
+weight
+result
+depth
+capacity
+age
+category
+album

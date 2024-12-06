@@ -1,0 +1,96 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_5JMSND8D.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/> a dsv:Column ;
+    rdfs:label " ... " ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/AreaComparisonkm2> a dsv:Column ;
+    rdfs:label " \"Area Comparison (km2)\"" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/CapitalComparison> a dsv:Column ;
+    rdfs:label " \"Capital Comparison\"" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/ClimateComparison> a dsv:Column ;
+    rdfs:label " \"Climate Comparison\"" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/CountryComparison> a dsv:Column ;
+    rdfs:label "\"Country Comparison\"" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/HighestPointComparison> a dsv:Column ;
+    rdfs:label " \"Highest Point Comparison\"" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/InternetTLDComparison> a dsv:Column ;
+    rdfs:label " \"Internet TLD Comparison\"" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/LatitudeComparison> a dsv:Column ;
+    rdfs:label " \"Latitude Comparison\"" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/LongitudeComparison> a dsv:Column ;
+    rdfs:label " \"Longitude Comparison\"" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/MajorLakesComparison> a dsv:Column ;
+    rdfs:label " \"Major Lakes Comparison\"" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/MajorRiversComparison> a dsv:Column ;
+    rdfs:label " \"Major Rivers Comparison\"" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/OfficialLanguagesComparison> a dsv:Column ;
+    rdfs:label " \"Official Language(s) Comparison\"" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/PopulationComparison> a dsv:Column ;
+    rdfs:label " \"Population Comparison\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/PopulationDensityComparison> a dsv:Column ;
+    rdfs:label " \"Population Density Comparison\"" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/TerrainComparison> a dsv:Column ;
+    rdfs:label " \"Terrain Comparison\"" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/someunrelateddata1> a dsv:Column ;
+    rdfs:label " \"<some unrelated data 1>\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/someunrelateddata8> a dsv:Column ;
+    rdfs:label " \"<some unrelated data 8>\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/WorldGeography5JMSND8D/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/>,
+        <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/AreaComparisonkm2>,
+        <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/CapitalComparison>,
+        <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/ClimateComparison>,
+        <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/CountryComparison>,
+        <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/HighestPointComparison>,
+        <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/InternetTLDComparison>,
+        <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/LatitudeComparison>,
+        <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/LongitudeComparison>,
+        <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/MajorLakesComparison>,
+        <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/MajorRiversComparison>,
+        <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/OfficialLanguagesComparison>,
+        <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/PopulationComparison>,
+        <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/PopulationDensityComparison>,
+        <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/TerrainComparison>,
+        <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/someunrelateddata1>,
+        <http://metaUnionSearch/datasets/WorldGeography5JMSND8D/column/someunrelateddata8> .
+

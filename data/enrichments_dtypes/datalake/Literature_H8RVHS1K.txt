@@ -1,0 +1,13 @@
+genre
+code
+name
+person
+album
+description
+name
+description
+description
+location
+description
+address
+artist

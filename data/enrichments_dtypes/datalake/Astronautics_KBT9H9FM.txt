@@ -1,0 +1,15 @@
+name
+description
+duration
+notes
+description
+name
+album
+description
+director
+album
+capacity
+component
+description
+description
+description

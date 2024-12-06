@@ -1,0 +1,15 @@
+nationality
+name
+birth Date
+birth Date
+location
+album
+collection
+notes
+origin
+artist
+notes
+affiliation
+description
+name
+description

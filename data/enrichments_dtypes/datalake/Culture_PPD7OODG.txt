@@ -1,0 +1,15 @@
+creator
+genre
+genre
+name
+artist
+album
+category
+origin
+artist
+origin
+product
+album
+organisation
+city
+product

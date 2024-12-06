@@ -1,0 +1,13 @@
+description
+description
+description
+address
+manufacturer
+address
+address
+address
+duration
+result
+description
+capacity
+duration

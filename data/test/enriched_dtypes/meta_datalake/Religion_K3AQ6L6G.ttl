@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_K3AQ6L6G.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ReligionK3AQ6L6G/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/ChallengesFaced> a dsv:Column ;
+    rdfs:label " Challenges Faced" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/ImportantSymbols> a dsv:Column ;
+    rdfs:label " Important Symbols" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/InfluenceandSpreadRate> a dsv:Column ;
+    rdfs:label " Influence and Spread Rate" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/MajorDenominations> a dsv:Column ;
+    rdfs:label " Major Denominations" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/MajorSectsSubsects> a dsv:Column ;
+    rdfs:label " Major Sects & Subsects" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/RelativeAge> a dsv:Column ;
+    rdfs:label "\"Relative Age" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/ReligiousCelebrations> a dsv:Column ;
+    rdfs:label " Religious Celebrations" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/SocioeconomicStatus> a dsv:Column ;
+    rdfs:label " Socioeconomic Status\"" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/UnmatchedColumnHeader1> a dsv:Column ;
+    rdfs:label " Unmatched Column Header 1" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/UnmatchedColumnHeader2> a dsv:Column ;
+    rdfs:label " Unmatched Column Header 2" ;
+    dcterms:type "credit" .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/UnmatchedColumnHeader3> a dsv:Column ;
+    rdfs:label " Unmatched Column Header 3" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/UnmatchedColumnHeader4> a dsv:Column ;
+    rdfs:label " Unmatched Column Header 4" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/UnmatchedColumnHeader5> a dsv:Column ;
+    rdfs:label " Unmatched Column Header 5" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/UnmatchedColumnHeader6> a dsv:Column ;
+    rdfs:label " Unmatched Column Header 6" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/UnmatchedColumnHeader7> a dsv:Column ;
+    rdfs:label " Unmatched Column Header 7" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ReligionK3AQ6L6G/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/ChallengesFaced>,
+        <http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/ImportantSymbols>,
+        <http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/InfluenceandSpreadRate>,
+        <http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/MajorDenominations>,
+        <http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/MajorSectsSubsects>,
+        <http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/RelativeAge>,
+        <http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/ReligiousCelebrations>,
+        <http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/SocioeconomicStatus>,
+        <http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/UnmatchedColumnHeader1>,
+        <http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/UnmatchedColumnHeader2>,
+        <http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/UnmatchedColumnHeader3>,
+        <http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/UnmatchedColumnHeader4>,
+        <http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/UnmatchedColumnHeader5>,
+        <http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/UnmatchedColumnHeader6>,
+        <http://metaUnionSearch/datasets/ReligionK3AQ6L6G/column/UnmatchedColumnHeader7> .
+

@@ -1,0 +1,11 @@
+city
+address
+result
+country
+continent
+location
+duration
+industry
+currency
+code
+address

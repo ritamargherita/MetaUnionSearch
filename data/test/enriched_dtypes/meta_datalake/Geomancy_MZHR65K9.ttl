@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_MZHR65K9.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeomancyMZHR65K9/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/AdditionalColumnAdvancedTechniques> a dsv:Column ;
+    rdfs:label " *Additional Column*: Advanced Techniques." ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/CulturalContext> a dsv:Column ;
+    rdfs:label " Cultural Context" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/ElementalAssociations> a dsv:Column ;
+    rdfs:label " Elemental Associations" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/FrequencyUsedbyCulture> a dsv:Column ;
+    rdfs:label " Frequency Used by Culture" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/InheritedvsInnovativeMethods> a dsv:Column ;
+    rdfs:label " Inherited vs Innovative Methods" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/InterpretationRitualUse> a dsv:Column ;
+    rdfs:label " Interpretation & Ritual Use" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/LimitationsonAlphanumericReadability> a dsv:Column ;
+    rdfs:label " Limitations on Alphanumeric Readability" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/MethodsofDivination> a dsv:Column ;
+    rdfs:label " Methods of Divination" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/PlanetaryConnections> a dsv:Column ;
+    rdfs:label " Planetary Connections" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/PossibleOutcomes> a dsv:Column ;
+    rdfs:label " Possible Outcomes" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/PractitionerExperienceLevel> a dsv:Column ;
+    rdfs:label "Practitioner Experience Level" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/ShapeAttributes> a dsv:Column ;
+    rdfs:label " Shape Attributes" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/SignificanceinTheory> a dsv:Column ;
+    rdfs:label " Significance in Theory" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/TypeofGeometry> a dsv:Column ;
+    rdfs:label " Type of Geometry" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/ZodiacSignSymbolism> a dsv:Column ;
+    rdfs:label " Zodiac Sign Symbolism" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/GeomancyMZHR65K9/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/AdditionalColumnAdvancedTechniques>,
+        <http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/CulturalContext>,
+        <http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/ElementalAssociations>,
+        <http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/FrequencyUsedbyCulture>,
+        <http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/InheritedvsInnovativeMethods>,
+        <http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/InterpretationRitualUse>,
+        <http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/LimitationsonAlphanumericReadability>,
+        <http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/MethodsofDivination>,
+        <http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/PlanetaryConnections>,
+        <http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/PossibleOutcomes>,
+        <http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/PractitionerExperienceLevel>,
+        <http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/ShapeAttributes>,
+        <http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/SignificanceinTheory>,
+        <http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/TypeofGeometry>,
+        <http://metaUnionSearch/datasets/GeomancyMZHR65K9/column/ZodiacSignSymbolism> .
+

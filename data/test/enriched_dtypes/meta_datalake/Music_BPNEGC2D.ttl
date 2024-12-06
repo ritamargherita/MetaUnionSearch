@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MusicBPNEGC2D> a dsv:Dataset ;
+    dcterms:subject "music" ;
+    dcterms:title "Music_BPNEGC2D.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MusicBPNEGC2D/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MusicBPNEGC2D/column/AudienceAgeGroup> a dsv:Column ;
+    rdfs:label " Audience Age Group" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MusicBPNEGC2D/column/DigitalSalesPlatform> a dsv:Column ;
+    rdfs:label " Digital Sales Platform" ;
+    dcterms:type "brand" .
+
+<http://metaUnionSearch/datasets/MusicBPNEGC2D/column/HarmonicProgression> a dsv:Column ;
+    rdfs:label " Harmonic Progression" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MusicBPNEGC2D/column/LyricsThemes> a dsv:Column ;
+    rdfs:label " Lyrics Themes" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MusicBPNEGC2D/column/MainInstruments> a dsv:Column ;
+    rdfs:label " Main Instruments" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MusicBPNEGC2D/column/MelodicTone> a dsv:Column ;
+    rdfs:label " Melodic Tone" ;
+    dcterms:type "genre" .
+
+<http://metaUnionSearch/datasets/MusicBPNEGC2D/column/MusicalKey> a dsv:Column ;
+    rdfs:label "Musical Key" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/MusicBPNEGC2D/column/ProductionTechniques> a dsv:Column ;
+    rdfs:label " Production Techniques" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/MusicBPNEGC2D/column/TempoBPM> a dsv:Column ;
+    rdfs:label " Tempo (BPM)" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/MusicBPNEGC2D/column/TimeSignature> a dsv:Column ;
+    rdfs:label " Time Signature" ;
+    dcterms:type "ranking" .
+
+<http://metaUnionSearch/datasets/MusicBPNEGC2D/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MusicBPNEGC2D/column/AudienceAgeGroup>,
+        <http://metaUnionSearch/datasets/MusicBPNEGC2D/column/DigitalSalesPlatform>,
+        <http://metaUnionSearch/datasets/MusicBPNEGC2D/column/HarmonicProgression>,
+        <http://metaUnionSearch/datasets/MusicBPNEGC2D/column/LyricsThemes>,
+        <http://metaUnionSearch/datasets/MusicBPNEGC2D/column/MainInstruments>,
+        <http://metaUnionSearch/datasets/MusicBPNEGC2D/column/MelodicTone>,
+        <http://metaUnionSearch/datasets/MusicBPNEGC2D/column/MusicalKey>,
+        <http://metaUnionSearch/datasets/MusicBPNEGC2D/column/ProductionTechniques>,
+        <http://metaUnionSearch/datasets/MusicBPNEGC2D/column/TempoBPM>,
+        <http://metaUnionSearch/datasets/MusicBPNEGC2D/column/TimeSignature> .
+

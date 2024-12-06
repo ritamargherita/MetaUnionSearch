@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PsychologyO2RAK1VR> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_O2RAK1VR.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PsychologyO2RAK1VR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/AddictionHistory> a dsv:Column ;
+    rdfs:label "AddictionHistory" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/DateOfBirth> a dsv:Column ;
+    rdfs:label "DateOfBirth" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/MentalHealthDiagnosis> a dsv:Column ;
+    rdfs:label "MentalHealthDiagnosis" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/SubjectID> a dsv:Column ;
+    rdfs:label "SubjectID" ;
+    dcterms:type "rank" .
+
+<http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/TherapyExperience> a dsv:Column ;
+    rdfs:label "TherapyExperience" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait10> a dsv:Column ;
+    rdfs:label "Trait10" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait11> a dsv:Column ;
+    rdfs:label "Trait11" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait12> a dsv:Column ;
+    rdfs:label "Trait12" ;
+    dcterms:type "code" .
+
+<http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait13> a dsv:Column ;
+    rdfs:label "Trait13" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait14> a dsv:Column ;
+    rdfs:label "Trait14" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait6> a dsv:Column ;
+    rdfs:label "Trait6" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait7> a dsv:Column ;
+    rdfs:label "Trait7" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait8> a dsv:Column ;
+    rdfs:label "Trait8" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait9> a dsv:Column ;
+    rdfs:label "Trait9" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/PsychologyO2RAK1VR/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/AddictionHistory>,
+        <http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/DateOfBirth>,
+        <http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/MentalHealthDiagnosis>,
+        <http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/SubjectID>,
+        <http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/TherapyExperience>,
+        <http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait10>,
+        <http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait11>,
+        <http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait12>,
+        <http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait13>,
+        <http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait14>,
+        <http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait6>,
+        <http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait7>,
+        <http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait8>,
+        <http://metaUnionSearch/datasets/PsychologyO2RAK1VR/column/Trait9> .
+

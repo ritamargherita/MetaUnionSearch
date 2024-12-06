@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Economics2W2CW1RD> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_2W2CW1RD.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Economics2W2CW1RD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Economics2W2CW1RD/column/balanceoftrade> a dsv:Column ;
+    rdfs:label " balanceoftrade" ;
+    dcterms:type "currency" .
+
+<http://metaUnionSearch/datasets/Economics2W2CW1RD/column/consumerpriceindex> a dsv:Column ;
+    rdfs:label " consumerpriceindex" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Economics2W2CW1RD/column/currentaccountbalance> a dsv:Column ;
+    rdfs:label " currentaccountbalance" ;
+    dcterms:type "currency" .
+
+<http://metaUnionSearch/datasets/Economics2W2CW1RD/column/economicindicator> a dsv:Column ;
+    rdfs:label " economicindicator" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/Economics2W2CW1RD/column/energyconsumptionpercapita> a dsv:Column ;
+    rdfs:label " energyconsumptionpercapita" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Economics2W2CW1RD/column/exportvalue> a dsv:Column ;
+    rdfs:label " exportvalue" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/Economics2W2CW1RD/column/fiscalyear> a dsv:Column ;
+    rdfs:label "fiscalyear" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Economics2W2CW1RD/column/governmentdebttoGDPratio> a dsv:Column ;
+    rdfs:label " governmentdebttoGDPratio" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Economics2W2CW1RD/column/humandevelopmentindex> a dsv:Column ;
+    rdfs:label " humandevelopmentindex" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Economics2W2CW1RD/column/importvalue> a dsv:Column ;
+    rdfs:label " importvalue" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/Economics2W2CW1RD/column/inflationrate> a dsv:Column ;
+    rdfs:label " inflationrate" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Economics2W2CW1RD/column/marketcompetitivenessranking> a dsv:Column ;
+    rdfs:label " marketcompetitivenessranking" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Economics2W2CW1RD/column/taxrevenue> a dsv:Column ;
+    rdfs:label " taxrevenue" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Economics2W2CW1RD/column/unemploymentrate> a dsv:Column ;
+    rdfs:label " unemploymentrate" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Economics2W2CW1RD/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Economics2W2CW1RD/column/balanceoftrade>,
+        <http://metaUnionSearch/datasets/Economics2W2CW1RD/column/consumerpriceindex>,
+        <http://metaUnionSearch/datasets/Economics2W2CW1RD/column/currentaccountbalance>,
+        <http://metaUnionSearch/datasets/Economics2W2CW1RD/column/economicindicator>,
+        <http://metaUnionSearch/datasets/Economics2W2CW1RD/column/energyconsumptionpercapita>,
+        <http://metaUnionSearch/datasets/Economics2W2CW1RD/column/exportvalue>,
+        <http://metaUnionSearch/datasets/Economics2W2CW1RD/column/fiscalyear>,
+        <http://metaUnionSearch/datasets/Economics2W2CW1RD/column/governmentdebttoGDPratio>,
+        <http://metaUnionSearch/datasets/Economics2W2CW1RD/column/humandevelopmentindex>,
+        <http://metaUnionSearch/datasets/Economics2W2CW1RD/column/importvalue>,
+        <http://metaUnionSearch/datasets/Economics2W2CW1RD/column/inflationrate>,
+        <http://metaUnionSearch/datasets/Economics2W2CW1RD/column/marketcompetitivenessranking>,
+        <http://metaUnionSearch/datasets/Economics2W2CW1RD/column/taxrevenue>,
+        <http://metaUnionSearch/datasets/Economics2W2CW1RD/column/unemploymentrate> .
+

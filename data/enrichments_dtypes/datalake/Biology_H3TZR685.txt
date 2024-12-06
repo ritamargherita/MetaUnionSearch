@@ -1,0 +1,14 @@
+ranking
+description
+description
+product
+description
+description
+region
+description
+name
+name
+address
+description
+description
+address

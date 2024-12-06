@@ -1,0 +1,15 @@
+address
+country
+description
+address
+currency
+location
+address
+address
+code
+language
+collection
+notes
+year
+address
+status

@@ -1,0 +1,13 @@
+name
+name
+notes
+sales
+class
+classification
+species
+status
+description
+description
+notes
+rank
+description

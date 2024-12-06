@@ -1,0 +1,10 @@
+affiliation
+artist
+range
+category
+classification
+result
+artist
+person
+notes
+affiliation

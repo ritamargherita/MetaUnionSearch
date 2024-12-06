@@ -1,0 +1,13 @@
+capacity
+capacity
+range
+region
+range
+state
+address
+name
+position
+person
+description
+component
+class

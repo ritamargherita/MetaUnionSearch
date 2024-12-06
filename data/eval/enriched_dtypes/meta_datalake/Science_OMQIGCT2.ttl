@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ScienceOMQIGCT2> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_OMQIGCT2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ScienceOMQIGCT2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/DataAnalysis> a dsv:Column ;
+    rdfs:label "Data Analysis" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/DataCollection> a dsv:Column ;
+    rdfs:label "Data Collection" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/FundingSources> a dsv:Column ;
+    rdfs:label "Funding Sources" ;
+    dcterms:type "organisation" .
+
+<http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/Limitations> a dsv:Column ;
+    rdfs:label "Limitations" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/Methodology> a dsv:Column ;
+    rdfs:label "Methodology" ;
+    dcterms:type "collection" .
+
+<http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/PublicationYear> a dsv:Column ;
+    rdfs:label "Publication Year" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/ResearchQuestions> a dsv:Column ;
+    rdfs:label "Research Questions" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/Researchers> a dsv:Column ;
+    rdfs:label "Researchers" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/Results> a dsv:Column ;
+    rdfs:label "Results" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/SampleCharacteristics> a dsv:Column ;
+    rdfs:label "Sample Characteristics" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/StudyTitle> a dsv:Column ;
+    rdfs:label "Study Title" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ScienceOMQIGCT2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/DataAnalysis>,
+        <http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/DataCollection>,
+        <http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/FundingSources>,
+        <http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/Limitations>,
+        <http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/Methodology>,
+        <http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/PublicationYear>,
+        <http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/ResearchQuestions>,
+        <http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/Researchers>,
+        <http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/Results>,
+        <http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/SampleCharacteristics>,
+        <http://metaUnionSearch/datasets/ScienceOMQIGCT2/column/StudyTitle> .
+

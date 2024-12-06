@@ -1,0 +1,15 @@
+religion
+sex
+origin
+name
+name
+name
+collection
+origin
+origin
+origin
+region
+region
+region
+range
+origin

@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Archeology8I4P40MG> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_8I4P40MG.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Archeology8I4P40MG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Archeology8I4P40MG/column/ArtificialDivision> a dsv:Column ;
+    rdfs:label " ArtificialDivision" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/Archeology8I4P40MG/column/CulturalAffiliation> a dsv:Column ;
+    rdfs:label " CulturalAffiliation" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Archeology8I4P40MG/column/Division> a dsv:Column ;
+    rdfs:label " Division" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/Archeology8I4P40MG/column/Era> a dsv:Column ;
+    rdfs:label " Era" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/Archeology8I4P40MG/column/ExcavationProgressPercentage> a dsv:Column ;
+    rdfs:label " ExcavationProgressPercentage" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Archeology8I4P40MG/column/GeologicalStrataNumber> a dsv:Column ;
+    rdfs:label " GeologicalStrataNumber" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/Archeology8I4P40MG/column/LocationDetails> a dsv:Column ;
+    rdfs:label " LocationDetails" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/Archeology8I4P40MG/column/PreservationStatus> a dsv:Column ;
+    rdfs:label " PreservationStatus" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/Archeology8I4P40MG/column/ResearcherName1> a dsv:Column ;
+    rdfs:label " ResearcherName1" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Archeology8I4P40MG/column/ResearcherName2> a dsv:Column ;
+    rdfs:label " ResearcherName2" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/Archeology8I4P40MG/column/SiteCode> a dsv:Column ;
+    rdfs:label "SiteCode" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Archeology8I4P40MG/column/SpecialFindings> a dsv:Column ;
+    rdfs:label " SpecialFindings" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Archeology8I4P40MG/column/TotalStratigraphicUnits> a dsv:Column ;
+    rdfs:label " TotalStratigraphicUnits" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/Archeology8I4P40MG/column/UndisturbedContexts> a dsv:Column ;
+    rdfs:label " UndisturbedContexts" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/Archeology8I4P40MG/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Archeology8I4P40MG/column/ArtificialDivision>,
+        <http://metaUnionSearch/datasets/Archeology8I4P40MG/column/CulturalAffiliation>,
+        <http://metaUnionSearch/datasets/Archeology8I4P40MG/column/Division>,
+        <http://metaUnionSearch/datasets/Archeology8I4P40MG/column/Era>,
+        <http://metaUnionSearch/datasets/Archeology8I4P40MG/column/ExcavationProgressPercentage>,
+        <http://metaUnionSearch/datasets/Archeology8I4P40MG/column/GeologicalStrataNumber>,
+        <http://metaUnionSearch/datasets/Archeology8I4P40MG/column/LocationDetails>,
+        <http://metaUnionSearch/datasets/Archeology8I4P40MG/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/Archeology8I4P40MG/column/ResearcherName1>,
+        <http://metaUnionSearch/datasets/Archeology8I4P40MG/column/ResearcherName2>,
+        <http://metaUnionSearch/datasets/Archeology8I4P40MG/column/SiteCode>,
+        <http://metaUnionSearch/datasets/Archeology8I4P40MG/column/SpecialFindings>,
+        <http://metaUnionSearch/datasets/Archeology8I4P40MG/column/TotalStratigraphicUnits>,
+        <http://metaUnionSearch/datasets/Archeology8I4P40MG/column/UndisturbedContexts> .
+

@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_467KD6FL.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeography467KD6FL/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/CoastalPopulation> a dsv:Column ;
+    rdfs:label " Coastal Population" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/CoastlineLengthkms> a dsv:Column ;
+    rdfs:label " Coastline Length (kms)" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/Currency> a dsv:Column ;
+    rdfs:label " Currency" ;
+    dcterms:type "currency" .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/HighestElevation> a dsv:Column ;
+    rdfs:label " Highest Elevation" ;
+    dcterms:type "format" .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/InternationalTouristArrivals> a dsv:Column ;
+    rdfs:label " International Tourist Arrivals" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/InternetPenetration> a dsv:Column ;
+    rdfs:label " Internet Penetration" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/IslandClimate> a dsv:Column ;
+    rdfs:label " Island Climate" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/IslandNation> a dsv:Column ;
+    rdfs:label "Island Nation" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/IslandSizesqkm> a dsv:Column ;
+    rdfs:label " Island Size (sq km)" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/Landmarks> a dsv:Column ;
+    rdfs:label " Landmarks" ;
+    dcterms:type "club" .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/MainIndustries> a dsv:Column ;
+    rdfs:label " Main Industries" ;
+    dcterms:type "industry" .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/NumberofIslands> a dsv:Column ;
+    rdfs:label " Number of Islands" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/NumberofLanguagesSpoken> a dsv:Column ;
+    rdfs:label " Number of Languages Spoken" ;
+    dcterms:type "plays" .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/PopulationTrend> a dsv:Column ;
+    rdfs:label " Population Trend" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/TimeZone> a dsv:Column ;
+    rdfs:label " Time Zone" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/WorldGeography467KD6FL/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/CoastalPopulation>,
+        <http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/CoastlineLengthkms>,
+        <http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/Currency>,
+        <http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/HighestElevation>,
+        <http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/InternationalTouristArrivals>,
+        <http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/InternetPenetration>,
+        <http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/IslandClimate>,
+        <http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/IslandNation>,
+        <http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/IslandSizesqkm>,
+        <http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/Landmarks>,
+        <http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/MainIndustries>,
+        <http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/NumberofIslands>,
+        <http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/NumberofLanguagesSpoken>,
+        <http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/PopulationTrend>,
+        <http://metaUnionSearch/datasets/WorldGeography467KD6FL/column/TimeZone> .
+

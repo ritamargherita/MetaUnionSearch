@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_YMJJ4AL0.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/LanguageCode> a dsv:Column ;
+    rdfs:label " Language Code" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/LanguageFamily> a dsv:Column ;
+    rdfs:label " Language Family" ;
+    dcterms:type "family" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/LanguageName> a dsv:Column ;
+    rdfs:label "Language Name" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Morphology> a dsv:Column ;
+    rdfs:label " Morphology" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/NativeSpeakers> a dsv:Column ;
+    rdfs:label " Native Speakers" ;
+    dcterms:type "requirement" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/OfficialStatus> a dsv:Column ;
+    rdfs:label " Official Status" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Origin> a dsv:Column ;
+    rdfs:label " Origin" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Pragmatics> a dsv:Column ;
+    rdfs:label " Pragmatics" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Script> a dsv:Column ;
+    rdfs:label " Script" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Semantics> a dsv:Column ;
+    rdfs:label " Semantics" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Speakers> a dsv:Column ;
+    rdfs:label " Speakers" ;
+    dcterms:type "sales" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Syntax> a dsv:Column ;
+    rdfs:label " Syntax" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/WritingSystem> a dsv:Column ;
+    rdfs:label " Writing System" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LanguageYMJJ4AL0/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/LanguageCode>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/LanguageFamily>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/LanguageName>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Morphology>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/NativeSpeakers>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/OfficialStatus>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Origin>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Pragmatics>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Script>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Semantics>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Speakers>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/Syntax>,
+        <http://metaUnionSearch/datasets/LanguageYMJJ4AL0/column/WritingSystem> .
+

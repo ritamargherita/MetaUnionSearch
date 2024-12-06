@@ -1,0 +1,14 @@
+address
+album
+artist
+range
+album
+category
+genre
+person
+religion
+category
+genre
+description
+religion
+artist

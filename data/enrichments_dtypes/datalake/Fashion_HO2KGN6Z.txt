@@ -1,0 +1,16 @@
+artist
+brand
+country
+product
+status
+album
+product
+product
+category
+description
+description
+description
+description
+product
+description
+name

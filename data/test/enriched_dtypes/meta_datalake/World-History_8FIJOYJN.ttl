@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldHistory8FIJOYJN> a dsv:Dataset ;
+    dcterms:subject "world-history" ;
+    dcterms:title "World-History_8FIJOYJN.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/FolkloreandMythology> a dsv:Column ;
+    rdfs:label " Folklore and Mythology" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/LanguagesandEvolution> a dsv:Column ;
+    rdfs:label " Languages and Evolution" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/LiteratureGenresandKeyWorks> a dsv:Column ;
+    rdfs:label " Literature Genres and Key Works" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/MigratoryPatternsandExpansions> a dsv:Column ;
+    rdfs:label " Migratory Patterns and Expansions" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/MusicandDance> a dsv:Column ;
+    rdfs:label " Music and Dance" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/Philosophies> a dsv:Column ;
+    rdfs:label " Philosophies" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/Religions> a dsv:Column ;
+    rdfs:label "Religions" ;
+    dcterms:type "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/TradeRoutesandSocialChangeimplicationsthroughCulturalExchangesandHolidaysCustomsTraditions> a dsv:Column ;
+    rdfs:label " Trade Routes and Social Change implications through Cultural Exchanges and Holidays, Customs & Traditions" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/WarsandBattleswiththeirImpacts> a dsv:Column ;
+    rdfs:label " Wars and Battles with their Impacts" ;
+    dcterms:type "origin" .
+
+<http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/FolkloreandMythology>,
+        <http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/LanguagesandEvolution>,
+        <http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/LiteratureGenresandKeyWorks>,
+        <http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/MigratoryPatternsandExpansions>,
+        <http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/MusicandDance>,
+        <http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/Philosophies>,
+        <http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/Religions>,
+        <http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/TradeRoutesandSocialChangeimplicationsthroughCulturalExchangesandHolidaysCustomsTraditions>,
+        <http://metaUnionSearch/datasets/WorldHistory8FIJOYJN/column/WarsandBattleswiththeirImpacts> .
+

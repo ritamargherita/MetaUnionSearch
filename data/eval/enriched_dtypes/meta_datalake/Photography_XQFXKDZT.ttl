@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhotographyXQFXKDZT> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_XQFXKDZT.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhotographyXQFXKDZT/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/AdditionalDetails> a dsv:Column ;
+    rdfs:label "Additional Details" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/CityShot> a dsv:Column ;
+    rdfs:label "City Shot" ;
+    dcterms:type "city" .
+
+<http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/CountryCaptured> a dsv:Column ;
+    rdfs:label "Country Captured" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/FlashFired> a dsv:Column ;
+    rdfs:label "Flash Fired?" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/FocusMethod> a dsv:Column ;
+    rdfs:label "Focus Method" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/ImageOrientation> a dsv:Column ;
+    rdfs:label "Image Orientation" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/LENSManufacturer> a dsv:Column ;
+    rdfs:label "LENS Manufacturer" ;
+    dcterms:type "manufacturer" .
+
+<http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/LENSType> a dsv:Column ;
+    rdfs:label "LENS Type" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/PhotoTitle> a dsv:Column ;
+    rdfs:label "Photo Title" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/PostProcessAdjustments> a dsv:Column ;
+    rdfs:label "Post Process Adjustments" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/StateProvince> a dsv:Column ;
+    rdfs:label "State/Province" ;
+    dcterms:type "region" .
+
+<http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/WhiteBalanceSetting> a dsv:Column ;
+    rdfs:label "White Balance Setting" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/PhotographyXQFXKDZT/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/AdditionalDetails>,
+        <http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/CityShot>,
+        <http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/CountryCaptured>,
+        <http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/FlashFired>,
+        <http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/FocusMethod>,
+        <http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/ImageOrientation>,
+        <http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/LENSManufacturer>,
+        <http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/LENSType>,
+        <http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/PhotoTitle>,
+        <http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/PostProcessAdjustments>,
+        <http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/StateProvince>,
+        <http://metaUnionSearch/datasets/PhotographyXQFXKDZT/column/WhiteBalanceSetting> .
+

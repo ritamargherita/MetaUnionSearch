@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawSN5U4W9R> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_SN5U4W9R.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawSN5U4W9R/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawSN5U4W9R/column/AdditionalDocuments> a dsv:Column ;
+    rdfs:label " Additional Documents" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/LawSN5U4W9R/column/AmicusBriefFilings> a dsv:Column ;
+    rdfs:label " Amicus Brief Filings" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawSN5U4W9R/column/CourtDate> a dsv:Column ;
+    rdfs:label "Court Date" ;
+    dcterms:type "order" .
+
+<http://metaUnionSearch/datasets/LawSN5U4W9R/column/DefendantsCounsel> a dsv:Column ;
+    rdfs:label " Defendants' Counsel" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawSN5U4W9R/column/ExpertTestimony> a dsv:Column ;
+    rdfs:label " Expert Testimony" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/LawSN5U4W9R/column/LegislationUnderConsideration> a dsv:Column ;
+    rdfs:label " Legislation Under Consideration" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawSN5U4W9R/column/LegislativeChanges> a dsv:Column ;
+    rdfs:label " Legislative Changes" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawSN5U4W9R/column/MediaCoverage> a dsv:Column ;
+    rdfs:label " Media Coverage" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/LawSN5U4W9R/column/PenaltiesAssessed> a dsv:Column ;
+    rdfs:label " Penalties Assessed" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawSN5U4W9R/column/PlaintiffsCounsel> a dsv:Column ;
+    rdfs:label " Plaintiffs' Counsel" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/LawSN5U4W9R/column/PublicOpinion> a dsv:Column ;
+    rdfs:label " Public Opinion" ;
+    dcterms:type "operator" .
+
+<http://metaUnionSearch/datasets/LawSN5U4W9R/column/RegulationsImplemented> a dsv:Column ;
+    rdfs:label " Regulations Implemented" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawSN5U4W9R/column/SpecialProvisions> a dsv:Column ;
+    rdfs:label " Special Provisions" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawSN5U4W9R/column/TypeofHearing> a dsv:Column ;
+    rdfs:label " Type of Hearing" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/LawSN5U4W9R/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LawSN5U4W9R/column/AdditionalDocuments>,
+        <http://metaUnionSearch/datasets/LawSN5U4W9R/column/AmicusBriefFilings>,
+        <http://metaUnionSearch/datasets/LawSN5U4W9R/column/CourtDate>,
+        <http://metaUnionSearch/datasets/LawSN5U4W9R/column/DefendantsCounsel>,
+        <http://metaUnionSearch/datasets/LawSN5U4W9R/column/ExpertTestimony>,
+        <http://metaUnionSearch/datasets/LawSN5U4W9R/column/LegislationUnderConsideration>,
+        <http://metaUnionSearch/datasets/LawSN5U4W9R/column/LegislativeChanges>,
+        <http://metaUnionSearch/datasets/LawSN5U4W9R/column/MediaCoverage>,
+        <http://metaUnionSearch/datasets/LawSN5U4W9R/column/PenaltiesAssessed>,
+        <http://metaUnionSearch/datasets/LawSN5U4W9R/column/PlaintiffsCounsel>,
+        <http://metaUnionSearch/datasets/LawSN5U4W9R/column/PublicOpinion>,
+        <http://metaUnionSearch/datasets/LawSN5U4W9R/column/RegulationsImplemented>,
+        <http://metaUnionSearch/datasets/LawSN5U4W9R/column/SpecialProvisions>,
+        <http://metaUnionSearch/datasets/LawSN5U4W9R/column/TypeofHearing> .
+

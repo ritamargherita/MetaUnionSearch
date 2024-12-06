@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_IE3CSMCM.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EconomicsIE3CSMCM/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/budgetsurplusdeficit> a dsv:Column ;
+    rdfs:label " budget\\_surplus\\_deficit" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/consumerpriceindex> a dsv:Column ;
+    rdfs:label " consumer\\_price\\_index" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/employmenttypesector> a dsv:Column ;
+    rdfs:label " employment\\_type\\_sector" ;
+    dcterms:type "industry" .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/exchangerate> a dsv:Column ;
+    rdfs:label " exchange\\_rate" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/fiscalpolicy> a dsv:Column ;
+    rdfs:label "fiscal\\_policy" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/ginicoefficient> a dsv:Column ;
+    rdfs:label " gini\\_coefficient" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/governmentexpenditure> a dsv:Column ;
+    rdfs:label " government\\_expenditure" ;
+    dcterms:type "industry" .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/inflation> a dsv:Column ;
+    rdfs:label " inflation" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/interestrate> a dsv:Column ;
+    rdfs:label " interest\\_rate" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/monetarystrategy> a dsv:Column ;
+    rdfs:label " monetary\\_strategy" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/povertylevel> a dsv:Column ;
+    rdfs:label " poverty\\_level" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/publicdebt> a dsv:Column ;
+    rdfs:label " public\\_debt" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/taxrevenue> a dsv:Column ;
+    rdfs:label " tax\\_revenue" ;
+    dcterms:type "currency" .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/tradedeficit> a dsv:Column ;
+    rdfs:label " trade\\_deficit" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/unemploymenttypes> a dsv:Column ;
+    rdfs:label " unemployment\\_types" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/EconomicsIE3CSMCM/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/budgetsurplusdeficit>,
+        <http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/consumerpriceindex>,
+        <http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/employmenttypesector>,
+        <http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/exchangerate>,
+        <http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/fiscalpolicy>,
+        <http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/ginicoefficient>,
+        <http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/governmentexpenditure>,
+        <http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/inflation>,
+        <http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/interestrate>,
+        <http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/monetarystrategy>,
+        <http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/povertylevel>,
+        <http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/publicdebt>,
+        <http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/taxrevenue>,
+        <http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/tradedeficit>,
+        <http://metaUnionSearch/datasets/EconomicsIE3CSMCM/column/unemploymenttypes> .
+

@@ -1,0 +1,12 @@
+region
+notes
+position
+description
+description
+description
+category
+type
+type
+description
+description
+description

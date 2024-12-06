@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AnthropologyHIB4WTXI> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_HIB4WTXI.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/Accessibility> a dsv:Column ;
+    rdfs:label " Accessibility" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/ArchaeologistName> a dsv:Column ;
+    rdfs:label "Archaeologist Name" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/CollaboratingInstitutions> a dsv:Column ;
+    rdfs:label " Collaborating Institutions" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/ExcavationYear> a dsv:Column ;
+    rdfs:label " Excavation Year" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/FieldNotes> a dsv:Column ;
+    rdfs:label " Field Notes" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/FundingSource> a dsv:Column ;
+    rdfs:label " Funding Source" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/KeyFindings> a dsv:Column ;
+    rdfs:label " Key Findings" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/MediaCoverage> a dsv:Column ;
+    rdfs:label " Media Coverage" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/Methodology> a dsv:Column ;
+    rdfs:label " Methodology" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/PreservationStatus> a dsv:Column ;
+    rdfs:label " Preservation Status" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/PublicationReferences> a dsv:Column ;
+    rdfs:label " Publication References" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/ResearchQuestion> a dsv:Column ;
+    rdfs:label " Research Question" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/TechnologyUsed> a dsv:Column ;
+    rdfs:label " Technology Used" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/Accessibility>,
+        <http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/ArchaeologistName>,
+        <http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/CollaboratingInstitutions>,
+        <http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/ExcavationYear>,
+        <http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/FieldNotes>,
+        <http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/FundingSource>,
+        <http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/KeyFindings>,
+        <http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/MediaCoverage>,
+        <http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/Methodology>,
+        <http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/PublicationReferences>,
+        <http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/ResearchQuestion>,
+        <http://metaUnionSearch/datasets/AnthropologyHIB4WTXI/column/TechnologyUsed> .
+

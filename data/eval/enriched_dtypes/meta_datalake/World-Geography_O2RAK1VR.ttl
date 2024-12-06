@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_O2RAK1VR.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/CallingCode> a dsv:Column ;
+    rdfs:label "\"Calling Code\"" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/Capital> a dsv:Column ;
+    rdfs:label "\"Capital\"" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/Continent> a dsv:Column ;
+    rdfs:label "\"Continent\"" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/CountryCode> a dsv:Column ;
+    rdfs:label "\"Country Code\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/CountryName> a dsv:Column ;
+    rdfs:label "\"Country Name\"" ;
+    dcterms:type "country" .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/Currency> a dsv:Column ;
+    rdfs:label "\"Currency\"" ;
+    dcterms:type "currency" .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/GDPpercapita> a dsv:Column ;
+    rdfs:label "\"GDP (per capita)\"" ;
+    dcterms:type "code" .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/IndependenceDay> a dsv:Column ;
+    rdfs:label "\"Independence Day\"" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/InternetUsers> a dsv:Column ;
+    rdfs:label "\"Internet Users\"" ;
+    dcterms:type "year" .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/Languages> a dsv:Column ;
+    rdfs:label "\"Language(s)\"" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/Latitude> a dsv:Column ;
+    rdfs:label "\"Latitude\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/LiteracyRate> a dsv:Column ;
+    rdfs:label "\"Literacy Rate\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/Longitude> a dsv:Column ;
+    rdfs:label "\"Longitude\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/Population> a dsv:Column ;
+    rdfs:label "\"Population\"" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/Religions> a dsv:Column ;
+    rdfs:label "\"Religion(s)\"" ;
+    dcterms:type "collection" .
+
+<http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/CallingCode>,
+        <http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/Capital>,
+        <http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/Continent>,
+        <http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/CountryCode>,
+        <http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/CountryName>,
+        <http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/Currency>,
+        <http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/GDPpercapita>,
+        <http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/IndependenceDay>,
+        <http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/InternetUsers>,
+        <http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/Languages>,
+        <http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/Latitude>,
+        <http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/LiteracyRate>,
+        <http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/Longitude>,
+        <http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/Population>,
+        <http://metaUnionSearch/datasets/WorldGeographyO2RAK1VR/column/Religions> .
+

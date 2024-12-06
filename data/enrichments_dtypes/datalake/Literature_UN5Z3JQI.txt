@@ -1,0 +1,10 @@
+album
+year
+genre
+region
+name
+artist
+name
+language
+genre
+artist

@@ -1,0 +1,17 @@
+language
+family
+country
+origin
+classification
+classification
+status
+description
+album
+language
+notes
+description
+description
+region
+description
+range
+origin

@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeophysicsC5OAOO3N> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_C5OAOO3N.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/Amplitude> a dsv:Column ;
+    rdfs:label "Amplitude" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/FreeSurfaceEffect> a dsv:Column ;
+    rdfs:label "Free Surface Effect" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/FrequencyBands> a dsv:Column ;
+    rdfs:label "Frequency Bands" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/GeologicHazardAssessment> a dsv:Column ;
+    rdfs:label "Geologic Hazard Assessment" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/LayerThickness> a dsv:Column ;
+    rdfs:label "Layer Thickness" ;
+    dcterms:type "capacity" .
+
+<http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/Phase> a dsv:Column ;
+    rdfs:label "Phase" ;
+    dcterms:type "position" .
+
+<http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/ReflectionCoefficient> a dsv:Column ;
+    rdfs:label "Reflection Coefficient" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/SeaLevelChanges> a dsv:Column ;
+    rdfs:label "Sea Level Changes" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/SeismicWaves> a dsv:Column ;
+    rdfs:label "Seismic Waves" ;
+    dcterms:type "result" .
+
+<http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/SubsurfaceImagingTechniques> a dsv:Column ;
+    rdfs:label "Subsurface Imaging Techniques" ;
+    dcterms:type "location" .
+
+<http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/TopographicCorrections> a dsv:Column ;
+    rdfs:label "Topographic Corrections" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/VelocityStructure> a dsv:Column ;
+    rdfs:label "Velocity Structure" ;
+    dcterms:type "area" .
+
+<http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/Amplitude>,
+        <http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/FreeSurfaceEffect>,
+        <http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/FrequencyBands>,
+        <http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/GeologicHazardAssessment>,
+        <http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/LayerThickness>,
+        <http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/Phase>,
+        <http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/ReflectionCoefficient>,
+        <http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/SeaLevelChanges>,
+        <http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/SeismicWaves>,
+        <http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/SubsurfaceImagingTechniques>,
+        <http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/TopographicCorrections>,
+        <http://metaUnionSearch/datasets/GeophysicsC5OAOO3N/column/VelocityStructure> .
+

@@ -1,0 +1,15 @@
+album
+publisher
+category
+publisher
+product
+component
+name
+description
+description
+description
+area
+description
+description
+description
+description

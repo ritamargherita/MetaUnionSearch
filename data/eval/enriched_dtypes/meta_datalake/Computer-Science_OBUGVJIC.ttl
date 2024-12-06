@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_OBUGVJIC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/ArtificialIntelligence> a dsv:Column ;
+    rdfs:label " Artificial Intelligence" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/ComplexityAnalysis> a dsv:Column ;
+    rdfs:label " Complexity Analysis" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/ComputerGraphics> a dsv:Column ;
+    rdfs:label " Computer Graphics" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/ConcurrentProgramming> a dsv:Column ;
+    rdfs:label " Concurrent Programming" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/KnowledgeRepresentation> a dsv:Column ;
+    rdfs:label " Knowledge Representation" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/ProgrammingParadigm> a dsv:Column ;
+    rdfs:label "Programming Paradigm" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/QuantumComputingforCS> a dsv:Column ;
+    rdfs:label " Quantum Computing (for CS)" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/SoftwareEngineeringConcepts> a dsv:Column ;
+    rdfs:label " Software Engineering Concepts" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/UserInterfaceDesign> a dsv:Column ;
+    rdfs:label " User Interface Design" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/VirtualRealityVRforCS> a dsv:Column ;
+    rdfs:label " Virtual Reality (VR) for CS" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/WebTechnologies> a dsv:Column ;
+    rdfs:label " Web Technologies" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/ArtificialIntelligence>,
+        <http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/ComplexityAnalysis>,
+        <http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/ComputerGraphics>,
+        <http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/ConcurrentProgramming>,
+        <http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/KnowledgeRepresentation>,
+        <http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/ProgrammingParadigm>,
+        <http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/QuantumComputingforCS>,
+        <http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/SoftwareEngineeringConcepts>,
+        <http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/UserInterfaceDesign>,
+        <http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/VirtualRealityVRforCS>,
+        <http://metaUnionSearch/datasets/ComputerScienceOBUGVJIC/column/WebTechnologies> .
+

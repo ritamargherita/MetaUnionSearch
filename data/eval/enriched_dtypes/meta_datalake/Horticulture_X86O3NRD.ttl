@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_X86O3NRD.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/HorticultureX86O3NRD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/AveragePlantHeight> a dsv:Column ;
+    rdfs:label " AveragePlantHeight" ;
+    dcterms:type "depth" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/CollectedBy> a dsv:Column ;
+    rdfs:label " CollectedBy" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/DifferentFromScientificClassification> a dsv:Column ;
+    rdfs:label " *DifferentFromScientificClassification*" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/FavoredTemperatureRange> a dsv:Column ;
+    rdfs:label " FavoredTemperatureRange" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/FloweringSeasonDates> a dsv:Column ;
+    rdfs:label " FloweringSeasonDates" ;
+    dcterms:type "class" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/GrowerExperienceLevelNeed> a dsv:Column ;
+    rdfs:label " GrowerExperienceLevelNeed" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/IsEndangered> a dsv:Column ;
+    rdfs:label " IsEndangered" ;
+    dcterms:type "status" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/NewColumnname> a dsv:Column ;
+    rdfs:label "NewColumnname₁" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/SameAsBotanicalName> a dsv:Column ;
+    rdfs:label " *SameAsBotanicalName*" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/SelfSufficiencyScoreLocalGrown> a dsv:Column ;
+    rdfs:label " SelfSufficiencyScore\\_Local-Grown" ;
+    dcterms:type "weight" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/SoilNutrientNeeds> a dsv:Column ;
+    rdfs:label " SoilNutrientNeeds" ;
+    dcterms:type "classification" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/SpecialPestControlMethods> a dsv:Column ;
+    rdfs:label " SpecialPestControlMethods" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/ValidatorSignature> a dsv:Column ;
+    rdfs:label " ValidatorSignature" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/AveragePlantHeight>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/CollectedBy>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/DifferentFromScientificClassification>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/FavoredTemperatureRange>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/FloweringSeasonDates>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/GrowerExperienceLevelNeed>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/IsEndangered>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/NewColumnname>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/SameAsBotanicalName>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/SelfSufficiencyScoreLocalGrown>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/SoilNutrientNeeds>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/SpecialPestControlMethods>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/ValidatorSignature> .
+

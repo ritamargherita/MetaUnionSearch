@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Astronomy8WAVAYTG> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_8WAVAYTG.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Astronomy8WAVAYTG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/ApparentDiameter> a dsv:Column ;
+    rdfs:label " Apparent Diameter" ;
+    dcterms:type "day" .
+
+<http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/BlackHolePresence> a dsv:Column ;
+    rdfs:label " Black Hole Presence" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/Declination> a dsv:Column ;
+    rdfs:label " Declination" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/Galaxy> a dsv:Column ;
+    rdfs:label "`Galaxy" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/GalaxyType> a dsv:Column ;
+    rdfs:label " Galaxy Type" ;
+    dcterms:type "type" .
+
+<http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/Luminosity> a dsv:Column ;
+    rdfs:label " Luminosity" ;
+    dcterms:type "operator" .
+
+<http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/Mass> a dsv:Column ;
+    rdfs:label " Mass" ;
+    dcterms:type "operator" .
+
+<http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/NumberofNeighboringGalaxiesWithin3LightYears> a dsv:Column ;
+    rdfs:label " Number of Neighboring Galaxies Within ~3 Light Years`" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/RightAscension> a dsv:Column ;
+    rdfs:label " Right Ascension" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/SpiralArmStructureObservable> a dsv:Column ;
+    rdfs:label " Spiral Arm Structure Observable?" ;
+    dcterms:type "education" .
+
+<http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/StarSystemFormationRate> a dsv:Column ;
+    rdfs:label " Star System Formation Rate" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/Astronomy8WAVAYTG/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/ApparentDiameter>,
+        <http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/BlackHolePresence>,
+        <http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/Declination>,
+        <http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/Galaxy>,
+        <http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/GalaxyType>,
+        <http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/Luminosity>,
+        <http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/Mass>,
+        <http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/NumberofNeighboringGalaxiesWithin3LightYears>,
+        <http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/RightAscension>,
+        <http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/SpiralArmStructureObservable>,
+        <http://metaUnionSearch/datasets/Astronomy8WAVAYTG/column/StarSystemFormationRate> .
+

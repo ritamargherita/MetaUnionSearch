@@ -1,0 +1,14 @@
+year
+year
+description
+address
+industry
+region
+capacity
+position
+address
+address
+area
+description
+notes
+description

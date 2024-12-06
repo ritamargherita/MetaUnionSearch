@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Culture2Q4NM8R9> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_2Q4NM8R9.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Culture2Q4NM8R9/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Architecture> a dsv:Column ;
+    rdfs:label " Architecture" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Cinema> a dsv:Column ;
+    rdfs:label " Cinema" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Dance> a dsv:Column ;
+    rdfs:label " Dance" ;
+    dcterms:type "language" .
+
+<http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Education> a dsv:Column ;
+    rdfs:label " Education" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/FamilyValues> a dsv:Column ;
+    rdfs:label " Family Values" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Greetings> a dsv:Column ;
+    rdfs:label " Greetings" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Literature> a dsv:Column ;
+    rdfs:label " Literature" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/NationalHolidays> a dsv:Column ;
+    rdfs:label " National Holidays" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Recreation> a dsv:Column ;
+    rdfs:label " Recreation" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Sports> a dsv:Column ;
+    rdfs:label " Sports" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Superstitions> a dsv:Column ;
+    rdfs:label " Superstitions" ;
+    dcterms:type "artist" .
+
+<http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/VisualArts> a dsv:Column ;
+    rdfs:label "Visual Arts" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/Culture2Q4NM8R9/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Architecture>,
+        <http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Cinema>,
+        <http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Dance>,
+        <http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Education>,
+        <http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/FamilyValues>,
+        <http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Greetings>,
+        <http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Literature>,
+        <http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/NationalHolidays>,
+        <http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Recreation>,
+        <http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Sports>,
+        <http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/Superstitions>,
+        <http://metaUnionSearch/datasets/Culture2Q4NM8R9/column/VisualArts> .
+

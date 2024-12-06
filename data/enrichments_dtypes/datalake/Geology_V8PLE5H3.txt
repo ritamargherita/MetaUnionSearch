@@ -1,0 +1,15 @@
+class
+rank
+class
+component
+status
+name
+area
+album
+description
+status
+notes
+album
+area
+description
+classification

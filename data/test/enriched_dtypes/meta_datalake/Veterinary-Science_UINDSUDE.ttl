@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_UINDSUDE.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/Allergen> a dsv:Column ;
+    rdfs:label " Allergen" ;
+    dcterms:type "album" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/Dosage> a dsv:Column ;
+    rdfs:label " Dosage" ;
+    dcterms:type "duration" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/ExpirationDate> a dsv:Column ;
+    rdfs:label " Expiration Date" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/MedicationName> a dsv:Column ;
+    rdfs:label " Medication Name" ;
+    dcterms:type "component" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/PrescriptionDate> a dsv:Column ;
+    rdfs:label " Prescription Date" ;
+    dcterms:type "ranking" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/Reaction> a dsv:Column ;
+    rdfs:label " Reaction" ;
+    dcterms:type "notes" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/SurgeryDate> a dsv:Column ;
+    rdfs:label " Surgery Date" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/SurgeryType> a dsv:Column ;
+    rdfs:label " Surgery Type" ;
+    dcterms:type "category" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/VaccinationDate> a dsv:Column ;
+    rdfs:label "Vaccination Date" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/VaccineType> a dsv:Column ;
+    rdfs:label " Vaccine Type" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/Allergen>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/Dosage>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/ExpirationDate>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/MedicationName>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/PrescriptionDate>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/Reaction>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/SurgeryDate>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/SurgeryType>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/VaccinationDate>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceUINDSUDE/column/VaccineType> .
+

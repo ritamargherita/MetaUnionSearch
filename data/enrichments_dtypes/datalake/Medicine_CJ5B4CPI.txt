@@ -1,0 +1,4 @@
+category
+name
+description
+artist

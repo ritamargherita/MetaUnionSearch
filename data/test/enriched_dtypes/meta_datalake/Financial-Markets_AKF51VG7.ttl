@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7> a dsv:Dataset ;
+    dcterms:subject "financial-markets" ;
+    dcterms:title "Financial-Markets_AKF51VG7.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/AutoLoansandLeasesTermLengthStatistics> a dsv:Column ;
+    rdfs:label "Auto Loans and Leases Term Length Statistics" ;
+    dcterms:type "age" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/BankingSystemLiquidityIndexes> a dsv:Column ;
+    rdfs:label "Banking System Liquidity Indexes" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/BondYield> a dsv:Column ;
+    rdfs:label "Bond Yield" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/CommercialPaperRiskSpread> a dsv:Column ;
+    rdfs:label "Commercial Paper Risk Spread" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/CommodityPrices> a dsv:Column ;
+    rdfs:label "Commodity Prices" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/DerivativesOptionsExpiryDating> a dsv:Column ;
+    rdfs:label "Derivatives & Options Expiry Dating" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/GeopoliticalConflictImpactonRegionalFinancialIndicators> a dsv:Column ;
+    rdfs:label "Geopolitical Conflict Impact on Regional Financial Indicators" ;
+    dcterms:type "description" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/HousingStartsatCityLevel> a dsv:Column ;
+    rdfs:label "Housing Starts at City Level" ;
+    dcterms:type "name" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/MergersAcquisitionsDealsValueandVolume> a dsv:Column ;
+    rdfs:label "Mergers, Acquisitions, Deals Value and Volume" ;
+    dcterms:type "publisher" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/MutualFundFlowsNetChangeperCategory> a dsv:Column ;
+    rdfs:label "Mutual Fund Flows Net Change per Category %" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/RetailSalesbySegmentatStateLevel> a dsv:Column ;
+    rdfs:label "Retail Sales by Segment at State Level" ;
+    dcterms:type "industry" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/TechIPOsValuationMetrics> a dsv:Column ;
+    rdfs:label "Tech IPOs Valuation Metrics" ;
+    dcterms:type "address" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/TreasurySecuritiesOwnershipPercentage> a dsv:Column ;
+    rdfs:label "Treasury Securities Ownership Percentage" ;
+    dcterms:type "product" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/AutoLoansandLeasesTermLengthStatistics>,
+        <http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/BankingSystemLiquidityIndexes>,
+        <http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/BondYield>,
+        <http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/CommercialPaperRiskSpread>,
+        <http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/CommodityPrices>,
+        <http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/DerivativesOptionsExpiryDating>,
+        <http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/GeopoliticalConflictImpactonRegionalFinancialIndicators>,
+        <http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/HousingStartsatCityLevel>,
+        <http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/MergersAcquisitionsDealsValueandVolume>,
+        <http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/MutualFundFlowsNetChangeperCategory>,
+        <http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/RetailSalesbySegmentatStateLevel>,
+        <http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/TechIPOsValuationMetrics>,
+        <http://metaUnionSearch/datasets/FinancialMarketsAKF51VG7/column/TreasurySecuritiesOwnershipPercentage> .
+

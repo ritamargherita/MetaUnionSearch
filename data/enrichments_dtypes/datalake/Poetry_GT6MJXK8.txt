@@ -1,0 +1,14 @@
+name
+album
+name
+language
+language
+location
+album
+album
+album
+album
+language
+origin
+notes
+religion

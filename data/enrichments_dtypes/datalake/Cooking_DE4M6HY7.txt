@@ -1,0 +1,12 @@
+name
+address
+type
+capacity
+day
+notes
+status
+name
+operator
+address
+product
+status
