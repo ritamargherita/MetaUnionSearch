@@ -14,20 +14,20 @@ def read_comparison_gt_file(comparison_gt_file_path):
 def check_float_type(df_comparison_gt):
     """
     """
-    df_comparison_gt['score'] = df_comparison_gt['score'].astype(float)
+    df_comparison_gt['mean_similarity'] = df_comparison_gt['mean_similarity'].astype(float)
     df_comparison_gt['unionable'] = df_comparison_gt['unionable'].astype(int)
     return df_comparison_gt
 
 def calculate_ROC_curve(df_comparison_gt):
     """
     """
-    fpr, tpr, thresholds = roc_curve(df_comparison_gt['unionable'], df_comparison_gt['score'])
+    fpr, tpr, thresholds = roc_curve(df_comparison_gt['unionable'], df_comparison_gt['mean_similarity'])
     return fpr, tpr, thresholds
 
 def calculate_AUC(df_comparison_gt):
     """
     """
-    roc_auc = roc_auc_score(df_comparison_gt['unionable'], df_comparison_gt['score'])
+    roc_auc = roc_auc_score(df_comparison_gt['unionable'], df_comparison_gt['mean_similarity'])
     print(f"Area Under the Curve (AUC): {roc_auc:.3f}")
     return roc_auc
 
@@ -57,7 +57,7 @@ def calculate_youdens_j(alpha, beta, tpr, fpr, thresholds):
 def make_classification_report(df_comparison_gt, optimal_threshold):
     """
     """
-    df_comparison_gt['predicted'] = (df_comparison_gt['score'] >= optimal_threshold).astype(int)
+    df_comparison_gt['predicted'] = (df_comparison_gt['mean_similarity'] >= optimal_threshold).astype(int)
     print(classification_report(df_comparison_gt['unionable'], df_comparison_gt['predicted']))
     return
 
@@ -84,10 +84,17 @@ def main(comparison_gt_file_path, alpha=1, beta=1):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2 or len(sys.argv) > 4:
-        print("Usage: python thresholdCalculator.py <comparison_gt_file_path> [<alpha_tpr> <beta_fpr>]")
-        sys.exit(1)
-    comparison_gt_file_path = sys.argv[1]
-    alpha = float(sys.argv[2]) if len(sys.argv) > 2 else 1
-    beta = float(sys.argv[3]) if len(sys.argv) > 3 else 1
+
+    """
+    ### CALCULATE THRESHOLD (simple data) - TEST SET
+    comparison_gt_file_path = "../results/test/simple/cosine_similarity_with_groundtruth.csv"
+    """
+
+    #"""
+    ### CALCULATE THRESHOLD (enriched dtypes data) - TEST SET
+    comparison_gt_file_path = "../results/test/enriched_dtypes/cosine_similarity_with_groundtruth.csv"
+    #"""
+
+    alpha = 1.5
+    beta = 1
     main(comparison_gt_file_path, alpha, beta)

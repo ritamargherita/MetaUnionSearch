@@ -36,12 +36,31 @@ def main(ss_file, gt_file, comparison_outfile_path):
     write_to_csv(comparison_df, comparison_outfile_path)
     return 
 
-
 if __name__ == "__main__":
-    if len(sys.argv) != 4:
-        print("Usage: python groundtruthComparison.py <path_semantic_similarities_file> <path_groundtruth_file> <path_comparison_output_file>")
-        sys.exit(1)
-    ss_file = sys.argv[1]
-    gt_file = sys.argv[2]
-    comparison_outfile_path = sys.argv[3]
+
+    """
+    ### COMPARE AGAINST GROUNDTRUTH (simple data) - EVALUATION SET
+    ss_file = "../results/eval/simple/cosine_similarity.csv"
+    comparison_outfile_path = "../results/eval/simple/cosine_similarity_with_groundtruth.csv"
+    """
+
+    """
+    ### COMPARE AGAINST GROUNDTRUTH (simple data) - TEST SET
+    ss_file = "../results/test/simple/cosine_similarity.csv"
+    comparison_outfile_path = "../results/test/simple/cosine_similarity_with_groundtruth.csv"
+    """
+
+    """
+    ### COMPARE AGAINST GROUNDTRUTH (dtypes data) - EVALUATION SET
+    ss_file = "../results/eval/enriched_dtypes/cosine_similarity.csv"
+    comparison_outfile_path = "../results/eval/enriched_dtypes/cosine_similarity_with_groundtruth.csv"
+    """
+
+    #"""
+    ### COMPARE AGAINST GROUNDTRUTH (dtypes data) - TEST SET
+    ss_file = "../results/test/enriched_dtypes/cosine_similarity.csv"
+    comparison_outfile_path = "../results/test/enriched_dtypes/cosine_similarity_with_groundtruth.csv"
+    #"""
+
+    gt_file = "../data/groundtruth.csv"
     main(ss_file, gt_file, comparison_outfile_path)
