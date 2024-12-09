@@ -144,28 +144,28 @@ if __name__ == "__main__":
 
     """
     ### CSV to RDF (simple data) - EVALUATION SET DATALAKE
-    input_folder = "../alt-gen/data/ugen_v2/datalake"
-    output_folder = "../data/eval/simple/meta_datalake"
-    selected_topics_file = "../data/eval/topics_eval_set.txt"
+    input_folder = "../../alt-gen/data/ugen_v2/datalake"
+    output_folder = "../../data/eval/simple/meta_datalake"
+    selected_topics_file = "../../data/eval/topics_eval_set.txt"
     """
 
     """
     ### CSV to RDF (simple data) - EVALUATION SET QUERY
-    input_folder = "../alt-gen/data/ugen_v2/query"
-    output_folder = "../data/eval/simple/meta_query"
-    selected_topics_file = "../data/eval/topics_eval_set.txt"
+    input_folder = "../../alt-gen/data/ugen_v2/query"
+    output_folder = "../../data/eval/simple/meta_query"
+    selected_topics_file = "../../data/eval/topics_eval_set.txt"
     """
 
     """
     ### CSV to RDF (simple data) - TEST SET DATALAKE
-    input_folder = "../alt-gen/data/ugen_v2/datalake"
-    output_folder = "../data/test/simple/meta_datalake"
-    selected_topics_file = "../data/test/topics_test_set.txt"
+    input_folder = "../../alt-gen/data/ugen_v2/datalake"
+    output_folder = "../../data/test/simple/meta_datalake"
+    selected_topics_file = "../../data/test/topics_test_set.txt"
     """
 
     ### CSV to RDF (simple data) - TEST SET QUERY
-    input_folder = "../alt-gen/data/ugen_v2/query"
-    output_folder = "../data/test/simple/meta_query"
-    selected_topics_file = "/data/testtopics_test_set.txt"
+    input_folder = "../../alt-gen/data/ugen_v2/query"
+    output_folder = "../../data/test/simple/meta_query"
+    selected_topics_file = "../../data/testtopics_test_set.txt"
 
     main(input_folder, output_folder, selected_topics_file)

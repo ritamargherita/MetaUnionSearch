@@ -160,11 +160,37 @@ def main(input_folder, output_folder, selected_topics_file, dtype_folder):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 5:
-        print("Usage: python csv2rdf-enriched-dtypes.py <path_input_folder> <path_output_folder> <path_selected_topics> <path_dtypes_folder")
-        sys.exit(1)
-    input_folder = sys.argv[1]
-    output_folder = sys.argv[2]
-    selected_topics_file = sys.argv[3]
-    dtype_folder = sys.argv[4]
+    
+    """
+    ### COMPUTE SEMANTIC SIMILARITY (enriched dtypes) - EVALUATION SET DATALAKE
+    input_folder = "../../alt-gen/data/ugen_v2/datalake"
+    output_folder = "../../data/eval/enriched_dtypes/meta_datalake"
+    selected_topics_file = "../../data/eval/topics_eval_set.txt"
+    dtype_folder = "../../data/enrichements_dtypes/datalake"
+    """
+
+    """
+    ### COMPUTE SEMANTIC SIMILARITY (enriched dtypes) - EVALUATION SET QUERY
+    input_folder = "../../alt-gen/data/ugen_v2/query"
+    output_folder = "../../data/eval/enriched_dtypes/meta_query"
+    selected_topics_file = "../../data/eval/topics_eval_set.txt"
+    dtype_folder = "../../data/enrichements_dtypes/query"
+    """
+
+    """
+    ### COMPUTE SEMANTIC SIMILARITY (enriched dtypes) - TEST SET DATALAKE
+    input_folder = "../../alt-gen/data/ugen_v2/datalake"
+    output_folder = "../../data/test/enriched_dtypes/meta_query"
+    selected_topics_file = "../../data/eval/topics_test_set.txt"
+    dtype_folder = "../../data/enrichements_dtypes/datalake"
+    """
+
+    #"""
+    ### COMPUTE SEMANTIC SIMILARITY (enriched dtypes) - TEST SET QUERY
+    input_folder = "../../alt-gen/data/ugen_v2/query"
+    output_folder = "../../data/test/enriched_dtypes/meta_query"
+    selected_topics_file = "../../data/eval/topics_test_set.txt"
+    dtype_folder = "../../data/enrichements_dtypes/query"
+    #"""
+
     main(input_folder, output_folder, selected_topics_file, dtype_folder)
