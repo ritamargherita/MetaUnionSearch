@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Arrest Warrants Issued",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/arrestDate"
+    },
+    {
+      "column_header": " Number_of_Witnesses",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfMembers"
+    },
+    {
+      "column_header": " Weapons_Used_if_any",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/weapon"
+    },
+    {
+      "column_header": " Fines_Imposed ($",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/convictionPenalty"
+    },
+    {
+      "column_header": " Type_of_Probation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": " Community_Service_Hours",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/service"
+    },
+    {
+      "column_header": " Restitution_Funds_Received",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": " Rehabilitation_Programs_Attended",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/serviceModule"
+    },
+    {
+      "column_header": " Parole_Eligibility_Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/convictionDate"
+    },
+    {
+      "column_header": " Parole_Hearing_Outcome",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/status"
+    },
+    {
+      "column_header": " Parole_Supervision_Status.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/administrativeStatus"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "mapping": [
+    {
+      "column_header": "Number Properties",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfProperties"
+    },
+    {
+      "column_header": "Geometric Pattern",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/productShape"
+    },
+    {
+      "column_header": "Divine Entity Correspondence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/enshrinedDeity"
+    },
+    {
+      "column_header": "Astrological Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/astrologicalSign"
+    },
+    {
+      "column_header": "Usage Complexity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/complexity"
+    },
+    {
+      "column_header": "Symbolic Interpretation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/meaning"
+    },
+    {
+      "column_header": "Additional Cultural Meanings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Historical Timeline",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": "Mathematical Probabilities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"
+    }
+  ]
+}

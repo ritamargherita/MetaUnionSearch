@@ -1,0 +1,14 @@
+{
+    "mapping": [
+        {"column_header": "Secondary Habitats", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"},
+        {"column_header": "Habitat Characteristics (subspecies-specific)", "dbpedia_property_id": "http://dbpedia.org/ontology/fauna"},
+        {"column_header": "Average Precipitation", "dbpedia_property_id": "http://dbpedia.org/ontology/average"},
+        {"column_header": "Mineral Content", "dbpedia_property_id": "http://dbpedia.org/ontology/material"},
+        {"column_header": "Soil pH/Type (additional data)", "dbpedia_property_id": "http://dbpedia.org/ontology/geology"},
+        {"column_header": "Water Quality Index", "dbpedia_property_id": "http://dbpedia.org/ontology/water"},
+        {"column_header": "Biota Interactions [Specific] (extra info)", "dbpedia_property_id": "http://dbpedia.org/ontology/fauna"},
+        {"column_header": "Non-native Invaders' Count & Success Rate%", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+        {"column_header": "Overall Health Assessment Score", "dbpedia_property_id": "http://dbpedia.org/ontology/fullScore"},
+        {"column_header": "Unique Column 11 (newly added unique topic)", "dbpedia_property_id": "http://dbpedia.org/ontology/topic"}
+    ]
+}

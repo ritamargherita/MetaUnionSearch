@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Renewable_Energy_Contribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fuelConsumption"
+    },
+    {
+      "column_header": "Energy_Consumption_per_Capita",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/perCapitaIncome"
+    },
+    {
+      "column_header": "Carbon_Emission_Trends",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/co2Emission"
+    },
+    {
+      "column_header": "Natural_Resource_Usage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfResourceOfType"
+    },
+    {
+      "column_header": "Waste_Management_Efficiency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/management"
+    },
+    {
+      "column_header": "Climate_Change_Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Endangered_Species_Protection",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    },
+    {
+      "column_header": "Nature_Reserve_Area_km2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/areaLand"
+    },
+    {
+      "column_header": "Environmental_Education_Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/education"
+    },
+    {
+      "column_header": "Corporate_Sustainability_Score",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/score"
+    }
+  ]
+}

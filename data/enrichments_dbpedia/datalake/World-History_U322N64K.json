@@ -1,0 +1,52 @@
+{
+    "mapping": [
+        {
+            "column_header": "Ancient Civilizations",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+        },
+        {
+            "column_header": "World Religions",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+        },
+        {
+            "column_header": "Philosophical Thought",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"
+        },
+        {
+            "column_header": "Literature Masterpieces",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+        },
+        {
+            "column_header": "Musician Geniuses",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/musicians"
+        },
+        {
+            "column_header": "Festivals and Celebrations",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/event"
+        },
+        {
+            "column_header": "Trade Routes",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/route"
+        },
+        {
+            "column_header": "Military Conflicts",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+        },
+        {
+            "column_header": "Currency Exchange",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/currency"
+        },
+        {
+            "column_header": "Explorers’ Voyages",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/expedition"
+        },
+        {
+            "column_header": "Gastronomy",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/chef"
+        },
+        {
+            "column_header": "Language Families",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/languageFamily"
+        }
+    ]
+}

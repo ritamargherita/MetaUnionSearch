@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Geographical Distribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfLocations"
+    },
+    {
+      "column_header": "Historical Development Stages",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": "Prominent Practitioners Throughout History",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/profession"
+    },
+    {
+      "column_header": "Symbolic Imagery Depictions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/iconographicAttributes"
+    },
+    {
+      "column_header": "Esotericism Interconnections",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherWorks"
+    },
+    {
+      "column_header": "Religious Integration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Geomantic Symbols",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/particularSign"
+    },
+    {
+      "column_header": "Social Context",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/purpose"
+    },
+    {
+      "column_header": "Political Significance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/politicalFunction"
+    },
+    {
+      "column_header": "Artistic Representations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/artisticFunction"
+    },
+    {
+      "column_header": "Scientific Perspectives",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/specialist"
+    },
+    {
+      "column_header": "Modern Adaptations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/knownFor"
+    },
+    {
+      "column_header": "Ethical Considerations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ethicalConsiderations"
+    }
+  ]
+}

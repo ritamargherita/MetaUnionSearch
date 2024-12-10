@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {"column_header": "Product ID", "dbpedia_property_id": "http://dbpedia.org/ontology/idNumber"},
+    {"column_header": " Product Name - Clothing Item", "dbpedia_property_id": "http://dbpedia.org/ontology/product"},
+    {"column_header": " Size", "dbpedia_property_id": "http://dbpedia.org/ontology/clothingSize"},
+    {"column_header": " Color", "dbpedia_property_id": "http://dbpedia.org/ontology/colour"},
+    {"column_header": " Material", "dbpedia_property_id": "http://dbpedia.org/ontology/material"},
+    {"column_header": " Additional Features", "dbpedia_property_id": "http://dbpedia.org/ontology/features"},
+    {"column_header": " Original Discount %", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": " Seller Rating", "dbpedia_property_id": "http://dbpedia.org/ontology/starRating"},
+    {"column_header": " Shipping Time Range", "dbpedia_property_id": "http://dbpedia.org/ontology/deliveryDate"},
+    {"column_header": " Sold By", "dbpedia_property_id": "http://dbpedia.org/ontology/distributingCompany"},
+    {"column_header": " Delivery Method", "dbpedia_property_id": "http://dbpedia.org/ontology/distributor"},
+    {"column_header": " Customer Review Count & Average Score", "dbpedia_property_id": "http://dbpedia.org/ontology/rating"}
+  ]
+}

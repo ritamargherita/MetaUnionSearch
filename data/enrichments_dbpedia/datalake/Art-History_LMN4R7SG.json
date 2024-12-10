@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Artist Birthplace",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/birthPlace"
+    },
+    {
+      "column_header": "Artist Nationality",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nationality"
+    },
+    {
+      "column_header": "Artwork Influences",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/associatedMusicalArtist"
+    },
+    {
+      "column_header": "Cultural Significance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Famous Works",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+    },
+    {
+      "column_header": "Historical Context",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": "Iconic Pieces",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+    },
+    {
+      "column_header": "Influential Artists",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/associatedMusicalArtist"
+    },
+    {
+      "column_header": "Movement",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/movement"
+    },
+    {
+      "column_header": "Period",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/period"
+    },
+    {
+      "column_header": "Style",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Techniques",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    }
+  ]
+}

@@ -1,4 +1,14 @@
-;"1. Proteins Produced";"2. Domain Information";"3. Cellular Location";"4. Molecular Weight";"5. Amino Acid Count";"<newline>;6. mRNA Stability Scores";""Gene Name";Chromosome;Start Position;End Position;Strand;Gene Type;Sequence;Expression Level;Mutation Frequency;Protein Interactions;GO Terms;Additional Information 1
+;"<newline>
+1. Proteins Produced";"<newline>
+2. Domain Information";"<newline>
+3. Cellular Location";"<newline>
+4. Molecular Weight";"<newline>
+5. Amino Acid Count";"<newline>
+6. mRNA Stability Scores";"<newline>
+</s>
+curr_range_counter:  2
+Time taken: 23.209139347076416 seconds
+""Gene Name";Chromosome;Start Position;End Position;Strand;Gene Type;Sequence;Expression Level;Mutation Frequency;Protein Interactions;GO Terms;Additional Information 1
 0;" ""Proteins Produced";Domain Information;Cellular Location;Molecular Weight;Amino Acid Count;mRNA Stability Scores; <newline>;;;;;;;;;;;
 1;ACTB;Actin, cytoplasmic 1;Cytoplasm;42kDa;377 amino acids;9.8; <newline>;;;;;;;;;;;
 2;TP53;Transcription factor p53;Nucleus;44kDa;393 amino acids;8.6; <newline>;;;;;;;;;;;

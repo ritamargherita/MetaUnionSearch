@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Proteins Produced",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/producedBy"
+    },
+    {
+      "column_header": "Domain Information",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/domain"
+    },
+    {
+      "column_header": "Cellular Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geneLocation"
+    },
+    {
+      "column_header": "Metabolic Pathways involved",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mapDescription"
+    },
+    {
+      "column_header": "Functional Description",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    },
+    {
+      "column_header": "Evolutionary History",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orthologousGene"
+    },
+    {
+      "column_header": "Structural Analysis Results",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/structuralSystem"
+    },
+    {
+      "column_header": "Interaction Network Scores",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/network"
+    },
+    {
+      "column_header": "Expression Pattern Across Tissues",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherInformation"
+    },
+    {
+      "column_header": "Regulatory Element Details",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/informationName"
+    },
+    {
+      "column_header": "Similarity with Other Species’ Genes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/similar"
+    },
+    {
+      "column_header": "Disease Association Studies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/disease"
+    },
+    {
+      "column_header": "Public Database Linkage ID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/id"
+    }
+  ]
+}

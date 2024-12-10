@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Computational Theory",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingInput"
+    },
+    {
+      "column_header": "Artificial Intelligence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/skills"
+    },
+    {
+      "column_header": "Software Engineering",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/developer"
+    },
+    {
+      "column_header": "Human-Computer Interaction",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Programmable Logic Controllers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+    },
+    {
+      "column_header": "Information Security",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": "Distributed Systems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/network"
+    },
+    {
+      "column_header": "Web Technologies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"
+    },
+    {
+      "column_header": "Machine Learning",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/training"
+    },
+    {
+      "column_header": "Natural Language Processing",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/processing"
+    },
+    {
+      "column_header": "Virtual Reality",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/media"
+    },
+    {
+      "column_header": "Embedded Systems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": "Computer Graphics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gameArtist"
+    }
+  ]
+}

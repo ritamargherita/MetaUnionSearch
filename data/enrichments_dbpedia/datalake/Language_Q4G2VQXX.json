@@ -1,0 +1,14 @@
+{
+    "mapping": [
+        {"column_header": "Linguistic Area name", "dbpedia_property_id": "http://dbpedia.org/ontology/regionalLanguage"},
+        {"column_header": "Language Genetic Affiliation", "dbpedia_property_id": "http://dbpedia.org/ontology/languageCode"},
+        {"column_header": "Intelligence Source(Artificial / Natural)", "dbpedia_property_id": "http://dbpedia.org/ontology/source"},
+        {"column_header": "Programming Integration Level", "dbpedia_property_id": "http://dbpedia.org/ontology/programmingLanguage"},
+        {"column_header": "Speakers", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfSpeakers"},
+        {"column_header": "Native Speakers", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfSpeakers"},
+        {"column_header": "Official Language", "dbpedia_property_id": "http://dbpedia.org/ontology/officialLanguage"},
+        {"column_header": "Writing System", "dbpedia_property_id": "http://dbpedia.org/ontology/linguisticsTradition"},
+        {"column_header": "Cultural Impact Measures & Metrics", "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"},
+        {"column_header": "Literary Traditions", "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"}
+    ]
+}

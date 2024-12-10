@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {"column_header": "Archaeologist Name", "dbpedia_property_id": "http://dbpedia.org/ontology/curator"},
+    {"column_header": "Excavation Year", "dbpedia_property_id": "http://dbpedia.org/ontology/yearOfConstruction"},
+    {"column_header": "Field Notes", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": "Research Hypothesis", "dbpedia_property_id": "http://dbpedia.org/ontology/approach"},
+    {"column_header": "Data Analysis Methods", "dbpedia_property_id": "http://dbpedia.org/ontology/detectionMethod"},
+    {"column_header": "Preservation Status", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+    {"column_header": "Column Headers Relating To Surrounding Culture", "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"},
+    {"column_header": "Column Headers Relating To Surrounding Environment", "dbpedia_property_id": "http://dbpedia.org/ontology/landuse"},
+    {"column_header": "Socioeconomic Conditions", "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"},
+    {"column_header": "Labor Division and Specialization", "dbpedia_property_id": "http://dbpedia.org/ontology/division"},
+    {"column_header": "Trade Network Information", "dbpedia_property_id": "http://dbpedia.org/ontology/network"},
+    {"column_header": "Funding Sources", "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"}
+  ]
+}

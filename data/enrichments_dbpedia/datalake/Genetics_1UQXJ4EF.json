@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Genes Associated with Diseases",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/diseasesDb"
+    },
+    {
+      "column_header": "Locus Reference Genomics (LRG) ID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/locusSupplementaryData"
+    },
+    {
+      "column_header": "Protein Structure Change",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/pdb"
+    },
+    {
+      "column_header": "Price Per Test (in USD)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/unitCost"
+    },
+    {
+      "column_header": "Average Turnaround Time (in Days)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/average"
+    },
+    {
+      "column_header": "Most Common Ethnicity Affected",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ethnicity"
+    },
+    {
+      "column_header": "Related Clinical Trials Information URL",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/drugs.com"
+    },
+    {
+      "column_header": "Gene Function Description with Ontology Terms",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geneReviewsName"
+    },
+    {
+      "column_header": "Price for Research Use Only (in USD)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/price"
+    },
+    {
+      "column_header": "Next Generation Sequencing Panel Availability",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/criteria"
+    },
+    {
+      "column_header": "Recommended Screening Conditions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/requirement"
+    },
+    {
+      "column_header": "Occupational Exposure Risk",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/occupation"
+    },
+    {
+      "column_header": "Estimated Annual Diagnosis Demand",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activeCases"
+    },
+    {
+      "column_header": "Contact Email Address to Order Tests",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geneReviewsId"
+    }
+  ]
+}

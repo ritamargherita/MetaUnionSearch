@@ -1,0 +1,14 @@
+{
+  "mapping": [
+    {"column_header": "Air_Quality_Index", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": " Water_Pollution_Level", "dbpedia_property_id": "http://dbpedia.org/ontology/water"},
+    {"column_header": " Biodiversity_Hotspots_Count", "dbpedia_property_id": "http://dbpedia.org/ontology/species"},
+    {"column_header": " Waste_Management_Effectiveness", "dbpedia_property_id": "http://dbpedia.org/ontology/management"},
+    {"column_header": " Renewable_Energy_Usage", "dbpedia_property_id": "http://dbpedia.org/ontology/uses"},
+    {"column_header": " Noise_Pollution", "dbpedia_property_id": "http://dbpedia.org/ontology/odor"},
+    {"column_header": " Recycling_Programs_Coverage", "dbpedia_property_id": "http://dbpedia.org/ontology/project"},
+    {"column_header": " Climate_Change_Awareness_Score", "dbpedia_property_id": "http://dbpedia.org/ontology/nonFictionSubject"},
+    {"column_header": " Natural_Disaster_Risk_Reduction_Score", "dbpedia_property_id": "http://dbpedia.org/ontology/casualties"},
+    {"column_header": " Public_Environmental_Education_Index", "dbpedia_property_id": "http://dbpedia.org/ontology/education"}
+  ]
+}

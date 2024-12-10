@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Experiment Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Safety Measures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": "Equipment Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": "Research Questions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/topic"
+    },
+    {
+      "column_header": "Scientist(s) Names",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/names"
+    },
+    {
+      "column_header": "Collaborating Institutions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Funding Agency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "Start Date & End Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/functionStartDate"
+    },
+    {
+      "column_header": "Time Taken",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/time"
+    },
+    {
+      "column_header": "Publication Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/status"
+    },
+    {
+      "column_header": "Ethics Approval",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/oversight"
+    },
+    {
+      "column_header": "Data Availability",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/openAccessContent"
+    }
+  ]
+}

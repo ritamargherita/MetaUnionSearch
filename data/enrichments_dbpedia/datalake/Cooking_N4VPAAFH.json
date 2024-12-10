@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "RecipeName_en",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"
+    },
+    {
+      "column_header": "CuisineRegion",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/regionServed"
+    },
+    {
+      "column_header": "PrepTime_minutes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/min"
+    },
+    {
+      "column_header": "CookTime_minutes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/min"
+    },
+    {
+      "column_header": "ServesPersons",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/serves"
+    },
+    {
+      "column_header": "Ingredient_4",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ingredientName"
+    },
+    {
+      "column_header": "Ingredient_5",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ingredientName"
+    },
+    {
+      "column_header": "Ingredient_6",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ingredientName"
+    },
+    {
+      "column_header": "Instruction_step_4",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/instruction"
+    },
+    {
+      "column_header": "Difficulty_level",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/complexity"
+    },
+    {
+      "column_header": "PrepTool_3",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/chef"
+    },
+    {
+      "column_header": "IngredientSource_local",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ingredient"
+    },
+    {
+      "column_header": "RandomColumnName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/product"
+    }
+  ]
+}

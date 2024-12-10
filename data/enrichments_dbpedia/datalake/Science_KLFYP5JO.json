@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "Researchers", "dbpedia_property_id": "http://dbpedia.org/ontology/participant"},
+    {"column_header": "Publication Date", "dbpedia_property_id": "http://dbpedia.org/ontology/publicationDate"},
+    {"column_header": "Study Location", "dbpedia_property_id": "http://dbpedia.org/ontology/location"},
+    {"column_header": "Experimental Group", "dbpedia_property_id": "http://dbpedia.org/ontology/group"},
+    {"column_header": "Controlled Group", "dbpedia_property_id": "http://dbpedia.org/ontology/group"},
+    {"column_header": "Sample Size", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfCollectionItems"},
+    {"column_header": "Observed Variable", "dbpedia_property_id": "http://dbpedia.org/ontology/value"},
+    {"column_header": "Observation Values", "dbpedia_property_id": "http://dbpedia.org/ontology/statValue"},
+    {"column_header": "Data Collection Method", "dbpedia_property_id": "http://dbpedia.org/ontology/detectionMethod"},
+    {"column_header": "Data Analysis Tool", "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"},
+    {"column_header": "Statistical Analysis & Results", "dbpedia_property_id": "http://dbpedia.org/ontology/result"},
+    {"column_header": "Significance", "dbpedia_property_id": "http://dbpedia.org/ontology/limit"},
+    {"column_header": "Limitations", "dbpedia_property_id": "http://dbpedia.org/ontology/restriction"},
+    {"column_header": "Future Research", "dbpedia_property_id": "http://dbpedia.org/ontology/project"}
+  ]
+}

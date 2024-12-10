@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "`PolicyFocus_AdditionalDetails",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/focus"
+    },
+    {
+      "column_header": " MembershipCriteria_Specifics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/restriction"
+    },
+    {
+      "column_header": " MembershipDemographics_Diversity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collectivityMinority"
+    },
+    {
+      "column_header": " MembershipDemographics_AgeDistribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationPctWomen"
+    },
+    {
+      "column_header": " MembershipDemographics_GenderDistribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gender"
+    },
+    {
+      "column_header": " DateOfLastPartyConvention",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/eventDate"
+    },
+    {
+      "column_header": " HeadquartersBuildingName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/headquarter"
+    },
+    {
+      "column_header": " HeadquartersAddress",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/managementPlace"
+    },
+    {
+      "column_header": " NumberOfInternationalAffiliations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfIntercommunality"
+    },
+    {
+      "column_header": " TotalDonationsLastYear",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+    },
+    {
+      "column_header": " CharitableWorkOfTheParty",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/recentWinner"
+    },
+    {
+      "column_header": " RecentScandalsCount",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfOfficials"
+    },
+    {
+      "column_header": " PartyLeaderCurrentTenure",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/leaderParty"
+    },
+    {
+      "column_header": " PartyLeaderAge",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/deathAge"
+    },
+    {
+      "column_header": " PartyLeaderSpouse`",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/politicalPartyOfLeader"
+    }
+  ]
+}

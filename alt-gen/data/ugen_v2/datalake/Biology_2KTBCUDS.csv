@@ -1,4 +1,7 @@
-;1. Ecosystem role;2. Trophic level;3. Adaptation mechanisms;"Protein family classification";Subcellular localized domain composition;Posttranslational modification sites;Expression regulation mechanisms;Symbiotic relationships;Disease associations;Chromosomal location;Genomic context (synteny);Phosphorylation dynamics;Coexpression networks;Gene duplication events
+;1. Ecosystem role;2. Trophic level;3. Adaptation mechanisms;"</s>
+curr_range_counter:  14
+Time taken: 29.3072452545166 seconds
+Protein family classification";Subcellular localized domain composition;Posttranslational modification sites;Expression regulation mechanisms;Symbiotic relationships;Disease associations;Chromosomal location;Genomic context (synteny);Phosphorylation dynamics;Coexpression networks;Gene duplication events
 0;  Decomposer; 2. Detrivore; 3. Excretes enzymes to break down dead organic matter, increases surface area for enzymatic degradation, possesses cell walls to protect against degradative enzymes;;;;;;;;;;;
 1; Top carnivore; 3. Camouflage for prey ambush, fast movement and sharp vision for prey capture, strong jaws and teeth for killing prey;;;;;;;;;;;;
 2; Herbivore; 2. Primary consumer; 3. Specialized stomach compartments for breaking down cellulose, strong grinding teeth, long intestines for nutrient absorption;;;;;;;;;;;

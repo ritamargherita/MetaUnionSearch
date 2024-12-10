@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "Animal Type", "dbpedia_property_id": "http://dbpedia.org/ontology/animal"},
+    {"column_header": " Breed", "dbpedia_property_id": "http://dbpedia.org/ontology/race"},
+    {"column_header": " Age", "dbpedia_property_id": "http://dbpedia.org/ontology/age"},
+    {"column_header": " Weight", "dbpedia_property_id": "http://dbpedia.org/ontology/weight"},
+    {"column_header": " Health Status", "dbpedia_property_id": "http://dbpedia.org/ontology/currentStatus"},
+    {"column_header": " Symptoms", "dbpedia_property_id": "http://dbpedia.org/ontology/symptom"},
+    {"column_header": " Additional Tests", "dbpedia_property_id": "http://dbpedia.org/ontology/testaverage"},
+    {"column_header": " Intelligence Level", "dbpedia_property_id": "http://dbpedia.org/ontology/skills"},
+    {"column_header": " Dietary Restrictions", "dbpedia_property_id": "http://dbpedia.org/ontology/restriction"},
+    {"column_header": " Environmental Factors", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": " Lab Results", "dbpedia_property_id": "http://dbpedia.org/ontology/result"},
+    {"column_header": " Diagnosis", "dbpedia_property_id": "http://dbpedia.org/ontology/medicalDiagnosis"},
+    {"column_header": " Treatment Plan", "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"},
+    {"column_header": " Follow-up", "dbpedia_property_id": "http://dbpedia.org/ontology/followedBy"}
+  ]
+}

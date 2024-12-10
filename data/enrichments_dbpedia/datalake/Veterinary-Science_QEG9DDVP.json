@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Veterinarian Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/name"
+    },
+    {
+      "column_header": "Specialization",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/specialization"
+    },
+    {
+      "column_header": "Consultation Fee",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fees"
+    },
+    {
+      "column_header": "Medications Prescribed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medication"
+    },
+    {
+      "column_header": "Procedure Recommended",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/procedure"
+    },
+    {
+      "column_header": "Follow-up Appointment",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/followedBy"
+    },
+    {
+      "column_header": "Referral to Specialist",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/specialist"
+    },
+    {
+      "column_header": "Radiology Results",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/result"
+    },
+    {
+      "column_header": "Lab Test Results",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/result"
+    },
+    {
+      "column_header": "Vaccination Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vaccination"
+    },
+    {
+      "column_header": "Parasite Prevention",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medicalCause"
+    },
+    {
+      "column_header": "Diet Recommendation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medication"
+    },
+    {
+      "column_header": "Exercise Recommendation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    },
+    {
+      "column_header": "Behavior Assessment",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherActivity"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": ""Original Columns"",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/originalName"
+    },
+    {
+      "column_header": " Complexities & Challenges",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    },
+    {
+      "column_header": " Resolutions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/resolution"
+    },
+    {
+      "column_header": " Test Cases",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/case"
+    },
+    {
+      "column_header": " Additional Resources",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfResource"
+    },
+    {
+      "column_header": " Collaborative Tools",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": " Project Objectives",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"
+    },
+    {
+      "column_header": " Stakeholder Expectations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/organisation"
+    },
+    {
+      "column_header": " Departmental Interfaces",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/department"
+    },
+    {
+      "column_header": " Regulatory Compliance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/authority"
+    },
+    {
+      "column_header": " Risk Management",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/management"
+    },
+    {
+      "column_header": " Training & Development",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/training"
+    },
+    {
+      "column_header": " Communication Plan",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/managementPlace"
+    },
+    {
+      "column_header": " Resource Allocation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/budget"
+    }
+  ]
+}

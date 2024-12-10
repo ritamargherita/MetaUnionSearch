@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Commodity Prices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/price"
+    },
+    {
+      "column_header": "Bond Types",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Years To Maturity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/years"
+    },
+    {
+      "column_header": "Derivatives (Futures)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/derivative"
+    },
+    {
+      "column_header": "Derivatives (Options)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/derivative"
+    },
+    {
+      "column_header": "Exchanges",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/stockExchange"
+    },
+    {
+      "column_header": "Central Bank Interventions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/regime"
+    },
+    {
+      "column_header": "Monetary Policy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/government"
+    },
+    {
+      "column_header": "Consumer Spending",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": "Personal Savings Rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": "Business Investments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+    },
+    {
+      "column_header": "Government Expenditure",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/budget"
+    },
+    {
+      "column_header": "Tax Revenue",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": "Political Stability Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refpol"
+    },
+    {
+      "column_header": "Corporate Earnings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/netIncome"
+    }
+  ]
+}

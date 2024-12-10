@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "Title", "dbpedia_property_id": "http://dbpedia.org/ontology/title"},
+    {"column_header": " Publication Date", "dbpedia_property_id": "http://dbpedia.org/ontology/publicationDate"},
+    {"column_header": " Publisher", "dbpedia_property_id": "http://dbpedia.org/ontology/publisher"},
+    {"column_header": " Pages Number", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfPages"},
+    {"column_header": " Edition", "dbpedia_property_id": "http://dbpedia.org/ontology/version"},
+    {"column_header": " Language Translation", "dbpedia_property_id": "http://dbpedia.org/ontology/translator"},
+    {"column_header": " Illustrator", "dbpedia_property_id": "http://dbpedia.org/ontology/illustrator"},
+    {"column_header": " ISBN", "dbpedia_property_id": "http://dbpedia.org/ontology/isbn"},
+    {"column_header": " Awards Won", "dbpedia_property_id": "http://dbpedia.org/ontology/award"},
+    {"column_header": " Female Protagonists", "dbpedia_property_id": "http://dbpedia.org/ontology/mainCharacter"},
+    {"column_header": " Male Protagonists", "dbpedia_property_id": "http://dbpedia.org/ontology/mainCharacter"},
+    {"column_header": " Setting", "dbpedia_property_id": "http://dbpedia.org/ontology/settingOfPlay"},
+    {"column_header": " Collaborative Works", "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"},
+    {"column_header": " Book Series", "dbpedia_property_id": "http://dbpedia.org/ontology/series"},
+    {"column_header": " Multimedia Features", "dbpedia_property_id": "http://dbpedia.org/ontology/features"}
+  ]
+}

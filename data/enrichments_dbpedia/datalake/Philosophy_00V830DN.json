@@ -1,0 +1,20 @@
+{
+  "mapping": [
+    {"column_header": "Philosophical Concept Variation", "dbpedia_property_id": "http://dbpedia.org/ontology/hasVariant"},
+    {"column_header": "Major Theorist", "dbpedia_property_id": "http://dbpedia.org/ontology/specialist"},
+    {"column_header": "Major Theorist School", "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"},
+    {"column_header": "# of Adherents", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfMembers"},
+    {"column_header": "Influential Work", "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"},
+    {"column_header": "Influential Work Translation", "dbpedia_property_id": "http://dbpedia.org/ontology/translator"},
+    {"column_header": "Adherent Surveyed", "dbpedia_property_id": "http://dbpedia.org/ontology/participant"},
+    {"column_header": "Adherent Demographics", "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"},
+    {"column_header": "Influence on Art", "dbpedia_property_id": "http://dbpedia.org/ontology/influenced"},
+    {"column_header": "Influence on Science", "dbpedia_property_id": "http://dbpedia.org/ontology/influenced"},
+    {"column_header": "Influence on Politics", "dbpedia_property_id": "http://dbpedia.org/ontology/influenced"},
+    {"column_header": "Influence on Society", "dbpedia_property_id": "http://dbpedia.org/ontology/influenced"},
+    {"column_header": "Criticisms of Concept", "dbpedia_property_id": "http://dbpedia.org/ontology/definition"},
+    {"column_header": "Criticisms of Theorist", "dbpedia_property_id": "http://dbpedia.org/ontology/definition"},
+    {"column_header": "Related Terminology", "dbpedia_property_id": "http://dbpedia.org/ontology/related"},
+    {"column_header": "New Philosophical Field", "dbpedia_property_id": "http://dbpedia.org/ontology/field"}
+  ]
+}

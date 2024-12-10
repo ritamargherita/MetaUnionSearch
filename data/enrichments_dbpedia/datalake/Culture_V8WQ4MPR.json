@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Census Size",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/population"
+    },
+    {
+      "column_header": "Population Growth Rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationGrowthRate"
+    },
+    {
+      "column_header": "Cultural Attire Details",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dressCode"
+    },
+    {
+      "column_header": "Preferred Communication Style 2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Work Hours 2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/work"
+    },
+    {
+      "column_header": "Social Culture 2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Cuisine Ingredients",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ingredient"
+    },
+    {
+      "column_header": "Music Genres",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/genre"
+    },
+    {
+      "column_header": "Festivals 2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/event"
+    },
+    {
+      "column_header": "Language 2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/spokenIn"
+    },
+    {
+      "column_header": "Religion 2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "National Heroes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nationalAffiliation"
+    }
+  ]
+}

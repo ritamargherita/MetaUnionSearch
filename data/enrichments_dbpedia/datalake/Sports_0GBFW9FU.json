@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Match ID", "dbpedia_property_id": "http://dbpedia.org/ontology/id"},
+    {"column_header": "Sport", "dbpedia_property_id": "http://dbpedia.org/ontology/sport"},
+    {"column_header": "Match Venue", "dbpedia_property_id": "http://dbpedia.org/ontology/stadium"},
+    {"column_header": "Match Date", "dbpedia_property_id": "http://dbpedia.org/ontology/date"},
+    {"column_header": "Home Team", "dbpedia_property_id": "http://dbpedia.org/ontology/team"},
+    {"column_header": "Away Team", "dbpedia_property_id": "http://dbpedia.org/ontology/secondTeam"},
+    {"column_header": "Home Team Score", "dbpedia_property_id": "http://dbpedia.org/ontology/fullScore"},
+    {"column_header": "Away Team Score", "dbpedia_property_id": "http://dbpedia.org/ontology/penaltyScore"},
+    {"column_header": "Attendance", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfPeopleAttending"},
+    {"column_header": "Referee", "dbpedia_property_id": "http://dbpedia.org/ontology/commissioner"},
+    {"column_header": "League", "dbpedia_property_id": "http://dbpedia.org/ontology/league"},
+    {"column_header": "Division", "dbpedia_property_id": "http://dbpedia.org/ontology/division"},
+    {"column_header": "Match Type", "dbpedia_property_id": "http://dbpedia.org/ontology/type"}
+  ]
+}

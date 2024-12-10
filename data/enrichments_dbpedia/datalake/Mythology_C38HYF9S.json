@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Mythic Object",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"
+    },
+    {
+      "column_header": "Origin",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/origin"
+    },
+    {
+      "column_header": "Description",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/description"
+    },
+    {
+      "column_header": "Special Abilities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/speciality"
+    },
+    {
+      "column_header": "Material",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/material"
+    },
+    {
+      "column_header": "Symbolization",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/identificationSymbol"
+    },
+    {
+      "column_header": "Cultural Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Religious Significance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Physical Appearance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/appearance"
+    },
+    {
+      "column_header": "Life Span",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/lifeExpectancy"
+    },
+    {
+      "column_header": "Habitat",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Behavior",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    },
+    {
+      "column_header": "Modern Depictions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/exhibition"
+    },
+    {
+      "column_header": "Related Mythologies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"
+    }
+  ]
+}

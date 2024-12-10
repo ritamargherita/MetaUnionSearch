@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Math in Pop Culture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/genre"
+    },
+    {
+      "column_header": "Educational Tools",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/education"
+    },
+    {
+      "column_header": "Mathematical Puzzles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/contest"
+    },
+    {
+      "column_header": "Careers in Math",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/profession"
+    },
+    {
+      "column_header": "Math in Art & Design",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/designer"
+    },
+    {
+      "column_header": "Mathematical Problems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/calculationNeeds"
+    },
+    {
+      "column_header": "Math in Literature",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": "Math in Film & Media",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/film"
+    },
+    {
+      "column_header": "Math in Games & Toys",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/games"
+    },
+    {
+      "column_header": "Math and Sports",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sport"
+    },
+    {
+      "column_header": "Math in Daily Life",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/education"
+    }
+  ]
+}

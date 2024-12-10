@@ -1,0 +1,14 @@
+{
+    "mapping": [
+        {"column_header": "Researchers", "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"},
+        {"column_header": "Publication Year", "dbpedia_property_id": "http://dbpedia.org/ontology/firstPublicationYear"},
+        {"column_header": "Study Location", "dbpedia_property_id": "http://dbpedia.org/ontology/location"},
+        {"column_header": "Experimental Group", "dbpedia_property_id": "http://dbpedia.org/ontology/participant"},
+        {"column_header": "Control Group", "dbpedia_property_id": "http://dbpedia.org/ontology/participant"},
+        {"column_header": "Sample Size", "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"},
+        {"column_header": "Data Collection Method 1", "dbpedia_property_id": "http://dbpedia.org/ontology/detectionMethod"},
+        {"column_header": "Data Collection Method 2", "dbpedia_property_id": "http://dbpedia.org/ontology/detectionMethod"},
+        {"column_header": "Statistical Analysis Tool", "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"},
+        {"column_header": "Findings & Implications", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"}
+    ]
+}

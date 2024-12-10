@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Additional Studies ID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/id"
+    },
+    {
+      "column_header": " Same Date&Time",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/date"
+    },
+    {
+      "column_header": " Additional Weather Parameters",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": " Delta Temperature (Δ°C)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"
+    },
+    {
+      "column_header": " Relative Humidity Change (Δ%age points)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relativeHumidity"
+    },
+    {
+      "column_header": " Atmospheric Pressure Difference (difference in h Pa)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vaporPressure"
+    },
+    {
+      "column_header": " Wind Specifics (direction*, gust speed), if available$",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/windSpeed"
+    },
+    {
+      "column_header": " Precipitation Details ($type$, accumulation$'$), if any$",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/precipitation"
+    },
+    {
+      "column_header": " Sunlight Measures (duration + UV index)$, shade factors(%$), brightness(illuminance - lux)$^***$$)^^^^*^$",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sunlight"
+    },
+    {
+      "column_header": " Subsurface Moisture Layers (& depth, soils type(*)), pore saturation(%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/waterPercentage"
+    }
+  ]
+}

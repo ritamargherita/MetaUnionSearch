@@ -1,0 +1,68 @@
+{
+  "mapping": [
+    {
+      "column_header": "Photo Title",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/title"
+    },
+    {
+      "column_header": " Category",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/category"
+    },
+    {
+      "column_header": " Characteristics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/features"
+    },
+    {
+      "column_header": " Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": " Lense Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/model"
+    },
+    {
+      "column_header": " Flash Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/feature"
+    },
+    {
+      "column_header": " White Balance Setting",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/appearance"
+    },
+    {
+      "column_header": " Focus Mode",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/focus"
+    },
+    {
+      "column_header": " Post Process Software",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"
+    },
+    {
+      "column_header": " Original Image Size (pixels) ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/imageSize"
+    },
+    {
+      "column_header": " Final Image Size (pixels)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/imageSize"
+    },
+    {
+      "column_header": " Print Dimensions (inches)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/measurements"
+    },
+    {
+      "column_header": " Duration Of Event Captured (seconds)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/duration"
+    },
+    {
+      "column_header": " Overall Rating (out of 5)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/starRating"
+    },
+    {
+      "column_header": " Comments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/comment"
+    },
+    {
+      "column_header": " Version",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/version"
+    }
+  ]
+}

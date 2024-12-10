@@ -1,0 +1,104 @@
+{
+  "mapping": [
+    {
+      "column_header": "Heritage Sites",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/heritageRegister"
+    },
+    {
+      "column_header": "Preferred Communication Style",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Dance Forms",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/movement"
+    },
+    {
+      "column_header": "National Holidays",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"
+    },
+    {
+      "column_header": "Traditional Arts and Crafts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Sports",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sport"
+    },
+    {
+      "column_header": "Literature",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": "Architecture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": "Cuisine",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"
+    },
+    {
+      "column_header": "Clothing Types",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dressCode"
+    },
+    {
+      "column_header": "Celebrations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/event"
+    },
+    {
+      "column_header": "Visual Arts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/artisticFunction"
+    },
+    {
+      "column_header": "Music Instruments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/instrument"
+    },
+    {
+      "column_header": "Folk Tales and Beliefs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"
+    },
+    {
+      "column_header": "Technological Innovation and Infrastructure",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/subsequentInfrastructure"
+    },
+    {
+      "column_header": "Poetry",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": "Recreational Activities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    },
+    {
+      "column_header": "Scientific Achievements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/achievement"
+    },
+    {
+      "column_header": "Theatre and Drama",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/drama"
+    },
+    {
+      "column_header": "Philosophy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"
+    },
+    {
+      "column_header": "Movies and Television",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/movie"
+    },
+    {
+      "column_header": "Historical Figures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/knownFor"
+    },
+    {
+      "column_header": "Currency Design",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/significantDesign"
+    },
+    {
+      "column_header": "Philanthropy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/foundation"
+    },
+    {
+      "column_header": "Architectural Styles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    }
+  ]
+}

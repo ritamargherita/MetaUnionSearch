@@ -1,0 +1,17 @@
+{
+    "mapping": [
+        {"column_header": "Biodiverse Groups", "dbpedia_property_id": "http://dbpedia.org/ontology/fauna"},
+        {"column_header": "Biodiversity Metrics", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+        {"column_header": "Group Distribution", "dbpedia_property_id": "http://dbpedia.org/ontology/populationPlace"},
+        {"column_header": "Adaptive Traits", "dbpedia_property_id": "http://dbpedia.org/ontology/skills"},
+        {"column_header": "Population Trends", "dbpedia_property_id": "http://dbpedia.org/ontology/populationYear"},
+        {"column_header": "*Endemic species*", "dbpedia_property_id": "http://dbpedia.org/ontology/species"},
+        {"column_header": "**Invasive Aliens**", "dbpedia_property_id": "http://dbpedia.org/ontology/species"},
+        {"column_header": "Habitat Preferences", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"},
+        {"column_header": "Habitat Modifications", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"},
+        {"column_header": "Conservation Efforts", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+        {"column_header": "Conservation Funding", "dbpedia_property_id": "http://dbpedia.org/ontology/projectBudgetFunding"},
+        {"column_header": "Legislation and Policies", "dbpedia_property_id": "http://dbpedia.org/ontology/legislature"},
+        {"column_header": "Threats and Challenges.", "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"}
+    ]
+}

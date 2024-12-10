@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Lens Make",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/manufacturer"
+    },
+    {
+      "column_header": "Lens Model",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/model"
+    },
+    {
+      "column_header": "Image Width",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/width"
+    },
+    {
+      "column_header": "Image Height",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/height"
+    },
+    {
+      "column_header": "Serial Number",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/idNumber"
+    },
+    {
+      "column_header": "GPS Latitude",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geolocDual"
+    },
+    {
+      "column_header": "GPS Longitude",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geolocDual"
+    },
+    {
+      "column_header": "City, State (US)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/city"
+    },
+    {
+      "column_header": "Country",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/country"
+    },
+    {
+      "column_header": "Software Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/operatingSystem"
+    },
+    {
+      "column_header": "Flash Setting",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/flashPoint"
+    },
+    {
+      "column_header": "White Balance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/comment"
+    },
+    {
+      "column_header": "Artistic Credit",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/credit"
+    },
+    {
+      "column_header": "Copyright & Trade",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/license"
+    },
+    {
+      "column_header": "Remarks or Comments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    }
+  ]
+}

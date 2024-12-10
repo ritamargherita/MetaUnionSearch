@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "MemberID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/id"
+    },
+    {
+      "column_header": "FirstName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/personName"
+    },
+    {
+      "column_header": "LastName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/personName"
+    },
+    {
+      "column_header": "DateOfBirth",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/birthDate"
+    },
+    {
+      "column_header": "PlaceOfBirth",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/birthPlace"
+    },
+    {
+      "column_header": "RelationshipStatus",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relation"
+    },
+    {
+      "column_header": "Gender",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gender"
+    },
+    {
+      "column_header": "Occupation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/occupation"
+    },
+    {
+      "column_header": "EducationLevel",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/education"
+    },
+    {
+      "column_header": "Income",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+    },
+    {
+      "column_header": "Email",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/comment"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "Elections Data", "dbpedia_property_id": "http://dbpedia.org/ontology/refpol"},
+    {"column_header": " Frequency Of Election", "dbpedia_property_id": "http://dbpedia.org/ontology/electionDate"},
+    {"column_header": " Voter Turnout%", "dbpedia_property_id": "http://dbpedia.org/ontology/popularVote"},
+    {"column_header": " Compulsory Voting Law?", "dbpedia_property_id": "http://dbpedia.org/ontology/mandate"},
+    {"column_header": " Most Recent Election Result", "dbpedia_property_id": "http://dbpedia.org/ontology/latestElection"},
+    {"column_header": " Average Age Of Voters", "dbpedia_property_id": "http://dbpedia.org/ontology/age"},
+    {"column_header": " Percentage Of Female Candidates", "dbpedia_property_id": "http://dbpedia.org/ontology/populationPctWomen"},
+    {"column_header": " Number Of Registered Political Parties", "dbpedia_property_id": "http://dbpedia.org/ontology/partyNumber"},
+    {"column_header": " Lobbying Regulations", "dbpedia_property_id": "http://dbpedia.org/ontology/politicalFunction"},
+    {"column_header": " Political Satire Presence", "dbpedia_property_id": "http://dbpedia.org/ontology/otherMedia"},
+    {"column_header": " Social Media Usage In Politics", "dbpedia_property_id": "http://dbpedia.org/ontology/media"}
+  ]
+}

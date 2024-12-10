@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "Stratum Name", "dbpedia_property_id": "http://dbpedia.org/ontology/officialName"},
+    {"column_header": "Elevation (mslas)", "dbpedia_property_id": "http://dbpedia.org/ontology/elevationQuote"},
+    {"column_header": "Glacier Cover (%)", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Permafrost Depth (м)", "dbpedia_property_id": "http://dbpedia.org/ontology/depth"},
+    {"column_header": "Storm Frequency", "dbpedia_property_id": "http://dbpedia.org/ontology/frequency"},
+    {"column_header": "Hurricane Activity Index$", "dbpedia_property_id": "http://dbpedia.org/ontology/frequency"},
+    {"column_header": "Tornado Occurrence Frequency%", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Lightning Density (# lightning strikes/(km².min))", "dbpedia_property_id": "http://dbpedia.org/ontology/frequency"},
+    {"column_header": "Volcanic Eruptions (last X years)", "dbpedia_property_id": "http://dbpedia.org/ontology/eruption"},
+    {"column_header": "Aerosol Optical Depth (500nm) (*)", "dbpedia_property_id": "http://dbpedia.org/ontology/area"},
+    {"column_header": "Black Carbon Concentration (ng/cm³) (*)", "dbpedia_property_id": "http://dbpedia.org/ontology/area"},
+    {"column_header": "Ozone Hole Area ($ km^{text{².yr^{-¹}}})^£*", "dbpedia_property_id": "http://dbpedia.org/ontology/area"},
+    {"column_header": "UV Index $^land $", "dbpedia_property_id": "http://dbpedia.org/ontology/frequency"},
+    {"column_header": "Astronomical Twilight (hour$*$days)", "dbpedia_property_id": "http://dbpedia.org/ontology/epoch"}
+  ]
+}

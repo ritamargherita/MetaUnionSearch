@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Philosophical Era",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/era"
+    },
+    {
+      "column_header": "Prominent Ideas",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableIdea"
+    },
+    {
+      "column_header": "Key Criticisms",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/comment"
+    },
+    {
+      "column_header": "Major Influences",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/influencedBy"
+    },
+    {
+      "column_header": "Impact on Other Fields",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Lasting Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Geographical Spread",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relatedPlaces"
+    },
+    {
+      "column_header": "Cultural Significance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Gender Distribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationPctWomen"
+    },
+    {
+      "column_header": "Religious Ties",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Common Misconceptions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/comment"
+    },
+    {
+      "column_header": "Major Debates",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    },
+    {
+      "column_header": "Teaching Methodologies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/teachingStaff"
+    },
+    {
+      "column_header": "Epistemological Stances",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ideology"
+    },
+    {
+      "column_header": "Metaphysical Beliefs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/theology"
+    }
+  ]
+}

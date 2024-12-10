@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Stock Market Index_2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/codeIndex"
+    },
+    {
+      "column_header": " Stock Market Sector_2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": " Interest Rates_2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": " Volatility Index_2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/volumes"
+    },
+    {
+      "column_header": " Dividend Yield_2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"
+    },
+    {
+      "column_header": " Price/Earnings Ratio_2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"
+    },
+    {
+      "column_header": " Market Capitalization_2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/marketCapitalisation"
+    },
+    {
+      "column_header": " Trading Volume_2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/volume"
+    },
+    {
+      "column_header": " New Column 1",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/portfolio"
+    },
+    {
+      "column_header": " New Column 2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/volumeQuote"
+    },
+    {
+      "column_header": " New Column 3",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/division"
+    },
+    {
+      "column_header": " New Column 4",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/capital"
+    }
+  ]
+}

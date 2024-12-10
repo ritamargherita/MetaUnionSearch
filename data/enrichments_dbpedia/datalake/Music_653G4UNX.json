@@ -1,0 +1,68 @@
+{
+    "mapping": [
+        {
+            "column_header": "Song ID",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/idNumber"
+        },
+        {
+            "column_header": "Peak Position",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/highestPosition"
+        },
+        {
+            "column_header": "Weeks On Chart",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/frequencyOfPublication"
+        },
+        {
+            "column_header": "Alternative Title",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/alternativeTitle"
+        },
+        {
+            "column_header": "Additional Artist",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/featuring"
+        },
+        {
+            "column_header": "Genre Diversify",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/musicSubgenre"
+        },
+        {
+            "column_header": "Release Date",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/releaseDate"
+        },
+        {
+            "column_header": "Extra Info",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+        },
+        {
+            "column_header": "Label Name",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/recordLabel"
+        },
+        {
+            "column_header": "Label Type",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/recordLabel"
+        },
+        {
+            "column_header": "Format",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/musicFormat"
+        },
+        {
+            "column_header": "Quality",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/quality"
+        },
+        {
+            "column_header": "Playtime Range",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/playingTime"
+        },
+        {
+            "column_header": "Produced by (additional)",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/producedBy"
+        },
+        {
+            "column_header": "Album Details",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/album"
+        },
+        {
+            "column_header": "Publisher Plus",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/publisher"
+        }
+    ]
+}

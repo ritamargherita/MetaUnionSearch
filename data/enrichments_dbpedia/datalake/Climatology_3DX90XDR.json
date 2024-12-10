@@ -1,0 +1,100 @@
+{
+  "mapping": [
+    {
+      "column_header": "Climate Model Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Simulation Start Year",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/modelStartYear"
+    },
+    {
+      "column_header": "Simulated Until Year",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/modelEndYear"
+    },
+    {
+      "column_header": "Number of Ensemble Members",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfMembers"
+    },
+    {
+      "column_header": "Initial Conditions Variance _(_% of total variance_)_",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Forcing Uncertainty _(_% of total uncertainty_)_",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Spatial Resolution _(degrees latitude x degrees longitude grid cells)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/resolution"
+    },
+    {
+      "column_header": "_ nTemporal Resolution _(timestep in seconds)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/setupTime"
+    },
+    {
+      "column_header": "_ nNumber of Diagnostic Variables Tracked",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfMembers"
+    },
+    {
+      "column_header": "Computational Resources Used _(CPU hours)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cpu"
+    },
+    {
+      "column_header": "_ nPublication Reference _(_Citation or link_)_.</s>ncurr_range_counter:  8nTime taken: 42.873818159103394 secondsnStudy Area ID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/date"
+    },
+    {
+      "column_header": "Date & Time Stamp",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/recordDate"
+    },
+    {
+      "column_header": "Additional Data SetID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/id"
+    },
+    {
+      "column_header": "Weather Condition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Temperature (°C)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"
+    },
+    {
+      "column_header": "Relative Humidity (%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Atmospheric Pressure (hPa)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vaporPressure"
+    },
+    {
+      "column_header": "Wind Speed (m/s)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/averageSpeed"
+    },
+    {
+      "column_header": "Precipitation (mm)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Solar Radiation (W/m²)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/effectiveRadiatedPower"
+    },
+    {
+      "column_header": "Soil Moisture (%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Snow Depth(cm)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/depth"
+    },
+    {
+      "column_header": "Evapotranspiration Rate( mm day^-¹ )",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Ground Temp at Multiple Layers (&deg",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"
+    }
+  ]
+}

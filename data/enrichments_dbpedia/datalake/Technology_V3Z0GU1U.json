@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Quantum Computing",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingMedia"
+    },
+    {
+      "column_header": "Internet Of Things (IoT)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/network"
+    },
+    {
+      "column_header": "Virtual Reality / Augmented Reality",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"
+    },
+    {
+      "column_header": "Blockchain and Distributed Ledgers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/chain"
+    },
+    {
+      "column_header": "Cybersecurity Threat Landscape",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": "E-commerce Evolution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/service"
+    },
+    {
+      "column_header": "Autonomous Vehicles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vehicle"
+    },
+    {
+      "column_header": "Smart Cities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/city"
+    },
+    {
+      "column_header": "Robotics Process Automation & Intelligent Systems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": "Workforce Transformation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/profession"
+    },
+    {
+      "column_header": "Ethical Considerations & Regulations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/legalArticle"
+    }
+  ]
+}

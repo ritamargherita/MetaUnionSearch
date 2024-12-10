@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Climate Pattern Type", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": "Average Temperature Anomaly (°C)", "dbpedia_property_id": "http://dbpedia.org/ontology/meanTemperature"},
+    {"column_header": "Maximum Temperature Anomalies (°C)", "dbpedia_property_id": "http://dbpedia.org/ontology/maximumTemperature"},
+    {"column_header": "Minimum Temperature Anomalies (°C)", "dbpedia_property_id": "http://dbpedia.org/ontology/minimumTemperature"},
+    {"column_header": "Extreme Rainfall Events Count", "dbpedia_property_id": "http://dbpedia.org/ontology/annualTemperature"},
+    {"column_header": "Drought Period Count", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": "Hailstorm Occurrences Count", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": "Tornado Incidents Count", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": "Heatwave Durations Count", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": "Average Cloud Cover (%)", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": "Total Sunshine Hours (hr_min)", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": "Tropical Cyclone Frequency", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": "Storm Surge Heights (cm)", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"}
+  ]
+}

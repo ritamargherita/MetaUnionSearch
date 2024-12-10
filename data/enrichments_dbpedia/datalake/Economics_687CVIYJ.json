@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "economic system type", "dbpedia_property_id": "http://dbpedia.org/ontology/governmentType"},
+    {"column_header": " inflation rate ", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": " unemployment percentage", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": " interested party comments", "dbpedia_property_id": "http://dbpedia.org/ontology/comment"},
+    {"column_header": " law regulation strength", "dbpedia_property_id": "http://dbpedia.org/ontology/strength"},
+    {"column_header": " labor force participation rate", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": " consumer price index", "dbpedia_property_id": "http://dbpedia.org/ontology/price"},
+    {"column_header": " minimum wage value", "dbpedia_property_id": "http://dbpedia.org/ontology/min"},
+    {"column_header": " total tax revenue as %of GDP (TTF)", "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"},
+    {"column_header": " public debt as %of gross domestic product(GTD)", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": " global competitiveness ranking", "dbpedia_property_id": "http://dbpedia.org/ontology/ranking"},
+    {"column_header": " global innovation Index (GII)*", "dbpedia_property_id": "http://dbpedia.org/ontology/ranking"},
+    {"column_header": " merchandise trade balance ($bn)**", "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"},
+    {"column_header": " human development index (HDI)***", "dbpedia_property_id": "http://dbpedia.org/ontology/humanDevelopmentIndex"}
+  ]
+}

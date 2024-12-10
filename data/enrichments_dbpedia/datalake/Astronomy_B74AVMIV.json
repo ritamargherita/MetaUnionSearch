@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Planet Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officialName"
+    },
+    {
+      "column_header": "Primary Star",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orbits"
+    },
+    {
+      "column_header": "Orbital Semi-Major Axis (AU)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orbitalPeriod"
+    },
+    {
+      "column_header": "Position Angle",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/position"
+    },
+    {
+      "column_header": "Orbital Incline (deg)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orbitalInclination"
+    },
+    {
+      "column_header": "Orbit Eccentricity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orbitalEccentricity"
+    },
+    {
+      "column_header": "Rotational Period (days)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rotationPeriod"
+    },
+    {
+      "column_header": "Average Temperature (K)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/meanTemperature"
+    },
+    {
+      "column_header": "Galactic Neighborhood",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/neighbourRegion"
+    },
+    {
+      "column_header": "Stellar Cluster Affiliation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cluster"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "BusinessIndustryTrendAnalysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": "CompanyName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/company"
+    },
+    {
+      "column_header": "CensusClassificationCode(e.g.,NAICS,SIC)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nisCode"
+    },
+    {
+      "column_header": "AnnualRevenue",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": "FiveYearIndustryAverageRevenueTrend(5Years)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenueYear"
+    },
+    {
+      "column_header": "CurrentAssetValue",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/capital"
+    },
+    {
+      "column_header": "CurrentLiabilityValueTrend(5Years)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "NetWorthEndingYear(optional)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/networth"
+    },
+    {
+      "column_header": "GrossProfitMargin(percent,%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "RevenueGrowthRate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "NetProfitMargin(percent,%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "ROIVariability(percent,%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "InterestCoverageRatioEndingFiveYears",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/credit"
+    },
+    {
+      "column_header": "StockPerformanceAnalysis(PercentChange,Optional)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/visitorsPercentageChange"
+    },
+    {
+      "column_header": "MarketCapitalization(optional)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/marketCapitalisation"
+    }
+  ]
+}

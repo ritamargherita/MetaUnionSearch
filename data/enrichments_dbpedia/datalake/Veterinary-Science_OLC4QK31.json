@@ -1,0 +1,14 @@
+{
+  "mapping": [
+    {"column_header": "Vaccination Date", "dbpedia_property_id": "http://dbpedia.org/ontology/vaccination"},
+    {"column_header": " Vaccination Type", "dbpedia_property_id": "http://dbpedia.org/ontology/vaccine"},
+    {"column_header": " Surgery Date", "dbpedia_property_id": "http://dbpedia.org/ontology/orderDate"},
+    {"column_header": " Surgery Type", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": " Allergy Type", "dbpedia_property_id": "http://dbpedia.org/ontology/disease"},
+    {"column_header": " Allergy Reaction", "dbpedia_property_id": "http://dbpedia.org/ontology/complications"},
+    {"column_header": " Genetic Disorder", "dbpedia_property_id": "http://dbpedia.org/ontology/disease"},
+    {"column_header": " Genetic Counseling", "dbpedia_property_id": "http://dbpedia.org/ontology/mentor"},
+    {"column_header": " Dental Checkup", "dbpedia_property_id": "http://dbpedia.org/ontology/medicalSpecialty"},
+    {"column_header": " Dietary Recommendation", "dbpedia_property_id": "http://dbpedia.org/ontology/diet"}
+  ]
+}

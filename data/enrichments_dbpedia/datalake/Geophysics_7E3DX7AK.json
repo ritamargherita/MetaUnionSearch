@@ -1,0 +1,10 @@
+{
+  "mapping": [
+    {"column_header": "Reflection Energy", "dbpedia_property_id": "http://dbpedia.org/ontology/albedo"},
+    {"column_header": "Amplitude", "dbpedia_property_id": "http://dbpedia.org/ontology/strength"},
+    {"column_header": "Geologic Hazard Assessment", "dbpedia_property_id": "http://dbpedia.org/ontology/geology"},
+    {"column_header": "Free Surface Effect", "dbpedia_property_id": "http://dbpedia.org/ontology/surfaceType"},
+    {"column_header": "Topographic Corrections", "dbpedia_property_id": "http://dbpedia.org/ontology/nationalTopographicSystemMapNumber"},
+    {"column_header": "Sea Level Changes", "dbpedia_property_id": "http://dbpedia.org/ontology/elevation"}
+  ]
+}

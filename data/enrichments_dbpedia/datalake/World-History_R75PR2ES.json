@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Religions and Philosophical Beliefs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Literature Masterpieces",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+    },
+    {
+      "column_header": "Legal System Developments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/systemOfLaw"
+    },
+    {
+      "column_header": "Diplomacy Events",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/event"
+    },
+    {
+      "column_header": "Trade Routes Established",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/route"
+    },
+    {
+      "column_header": "Military Conflicts and Alliances",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    },
+    {
+      "column_header": "Exploration Voyages",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/expedition"
+    },
+    {
+      "column_header": "Women Empowerment Documents",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/authorityMandate"
+    },
+    {
+      "column_header": "Minority Groups Statuses",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/minority"
+    },
+    {
+      "column_header": "Climate Changes Effects",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Infrastructure Projects",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": "Population Dynamics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"
+    },
+    {
+      "column_header": "Artistic Movements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/movement"
+    }
+  ]
+}

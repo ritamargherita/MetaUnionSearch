@@ -1,0 +1,14 @@
+{
+  "mapping": [
+    {"column_header": "Climate Model Type", "dbpedia_property_id": "http://dbpedia.org/ontology/model"},
+    {"column_header": "Scenario Used", "dbpedia_property_id": "http://dbpedia.org/ontology/uses"},
+    {"column_header": "Global Mean Temp Increase (°C)", "dbpedia_property_id": "http://dbpedia.org/ontology/meanTemperature"},
+    {"column_header": "Seasonal Variation Trend: Spring(trend value), Summer(trend value), Autumn(trend value), Winter(trend value)", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": "Projected Rainfall Change (%): Spring, Summer, Autumn, Winter", "dbpedia_property_id": "http://dbpedia.org/ontology/pluviometry"},
+    {"column_header": "Future Extreme Events Frequency: High temp events per 50 years, Cold temp events per 50 years, Heavy rain episodes per 50 years", "dbpedia_property_id": "http://dbpedia.org/ontology/event"},
+    {"column_header": "Change in Drought Frequency (/decade)", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": "Projected eCO2 % change", "dbpedia_property_id": "http://dbpedia.org/ontology/percentageOfAreaWater"},
+    {"column_header": "Adaptive Measures Taken*", "dbpedia_property_id": "http://dbpedia.org/ontology/approach"},
+    {"column_header": "Evaluation Metrics Used*", "dbpedia_property_id": "http://dbpedia.org/ontology/rating"}
+  ]
+}

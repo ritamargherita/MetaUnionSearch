@@ -1,0 +1,14 @@
+{
+  "mapping": [
+    {"column_header": "Genes Affecting Disease", "dbpedia_property_id": "http://dbpedia.org/ontology/diseasesDb"},
+    {"column_header": "Additional Physical Characteristics", "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"},
+    {"column_header": "Amino Acid Changes", "dbpedia_property_id": "http://dbpedia.org/ontology/variantOf"},
+    {"column_header": "Effect on Protein Function", "dbpedia_property_id": "http://dbpedia.org/ontology/otherFunction"},
+    {"column_header": "Drug Interactions", "dbpedia_property_id": "http://dbpedia.org/ontology/drug"},
+    {"column_header": "Age at Onset", "dbpedia_property_id": "http://dbpedia.org/ontology/age"},
+    {"column_header": "Locus Heterogeneity", "dbpedia_property_id": "http://dbpedia.org/ontology/locusSupplementaryData"},
+    {"column_header": "Penetrances", "dbpedia_property_id": "http://dbpedia.org/ontology/causedBy"},
+    {"column_header": "Epigenomic Modifications", "dbpedia_property_id": "http://dbpedia.org/ontology/otherFunction"},
+    {"column_header": "Environmental Triggers", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"}
+  ]
+}

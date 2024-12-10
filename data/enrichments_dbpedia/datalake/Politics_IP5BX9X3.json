@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {"column_header": "Table 2:`Election Results by Region", "dbpedia_property_id": "http://dbpedia.org/ontology/governmentRegion"},
+    {"column_header": "Public Opinion Polling Data", "dbpedia_property_id": "http://dbpedia.org/ontology/refpol"},
+    {"column_header": "Political Ideologies within party", "dbpedia_property_id": "http://dbpedia.org/ontology/ideology"},
+    {"column_header": "Legislative Bills Sponsored", "dbpedia_property_id": "http://dbpedia.org/ontology/billed"},
+    {"column_header": "Independent Auditor Reports: Financial Transparency", "dbpedia_property_id": "http://dbpedia.org/ontology/oversight"},
+    {"column_header": "Key Alliances and Rivalries", "dbpedia_property_id": "http://dbpedia.org/ontology/alliance"},
+    {"column_header": "Elected Official Turnover Rate", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfOfficials"},
+    {"column_header": "Grassroots Movement Activity Level", "dbpedia_property_id": "http://dbpedia.org/ontology/movement"},
+    {"column_header": "Voter Education Program Details", "dbpedia_property_id": "http://dbpedia.org/ontology/education"},
+    {"column_header": "International Relations Initiatives", "dbpedia_property_id": "http://dbpedia.org/ontology/internationalAffiliation"},
+    {"column_header": "Think Tank Affiliates", "dbpedia_property_id": "http://dbpedia.org/ontology/affiliate"},
+    {"column_header": "Social Media Engagement Metrics", "dbpedia_property_id": "http://dbpedia.org/ontology/activity"}
+  ]
+}

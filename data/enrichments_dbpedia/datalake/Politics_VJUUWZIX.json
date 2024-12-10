@@ -1,0 +1,14 @@
+{
+  "mapping": [
+    {"column_header": "Elections Data", "dbpedia_property_id": "http://dbpedia.org/ontology/refpol"},
+    {"column_header": "Frequency Of Elections", "dbpedia_property_id": "http://dbpedia.org/ontology/electionDate"},
+    {"column_header": "Voter Turnout Rates", "dbpedia_property_id": "http://dbpedia.org/ontology/popularVote"},
+    {"column_header": "Percentage Of Women In Politics - Globally & Nationally And By Party?", "dbpedia_property_id": "http://dbpedia.org/ontology/populationPctWomen"},
+    {"column_header": "Public Opinion Polling Details - Sampling Methods, Frequency + Data Release", "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"},
+    {"column_header": "Legislative Branch Structure - Number of Houses + Members Per House", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfHouses"},
+    {"column_header": "Judicial Review Process - Who Can Initiate + On What Grounds", "dbpedia_property_id": "http://dbpedia.org/ontology/review"},
+    {"column_header": "Cabinet Member Selection - Affirmative Action Considerations or Not", "dbpedia_property_id": "http://dbpedia.org/ontology/appointer"},
+    {"column_header": "International Alliance Commitments - Mainly Defensive, Offensively Oriented, Or Trade Focused", "dbpedia_property_id": "http://dbpedia.org/ontology/internationalAffiliation"},
+    {"column_header": "Administrative Divisions - Supervised + Responsibilities", "dbpedia_property_id": "http://dbpedia.org/ontology/administrativeStatus"}
+  ]
+}

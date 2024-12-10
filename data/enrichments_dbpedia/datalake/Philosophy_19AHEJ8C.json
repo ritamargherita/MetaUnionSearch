@@ -1,0 +1,16 @@
+{
+    "mapping": [
+        {"column_header": "Philosopher Birthplace", "dbpedia_property_id": "http://dbpedia.org/ontology/birthPlace"},
+        {"column_header": "Philosophers Era Start Year", "dbpedia_property_id": "http://dbpedia.org/ontology/foundingYear"},
+        {"column_header": "Philosophical School or Movement", "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"},
+        {"column_header": "Additional Major Works", "dbpedia_property_id": "http://dbpedia.org/ontology/otherWorks"},
+        {"column_header": "Religion Influenced by This Philosophy", "dbpedia_property_id": "http://dbpedia.org/ontology/religion"},
+        {"column_header": "Affected Modern Disciplines", "dbpedia_property_id": "http://dbpedia.org/ontology/academicDiscipline"},
+        {"column_header": "Unrelated Column 5", "dbpedia_property_id": ""},
+        {"column_header": "Unrelated Column 6", "dbpedia_property_id": ""},
+        {"column_header": "Unrelated Column 7", "dbpedia_property_id": ""},
+        {"column_header": "Unrelated Column 8", "dbpedia_property_id": ""},
+        {"column_header": "Unrelated Column 9", "dbpedia_property_id": ""},
+        {"column_header": "Unrelated Column 10", "dbpedia_property_id": ""}
+    ]
+}

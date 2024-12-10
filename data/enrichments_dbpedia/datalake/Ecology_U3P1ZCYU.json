@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Ecosystem Services",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/service"
+    },
+    {
+      "column_header": "Ecological Footprint",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": "Biodiverse Richness Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": "Carbon Sequestration Rates",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": "Oxygen Production Values",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": "Water Purification Levels",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/water"
+    },
+    {
+      "column_header": "Nutrient Cycling Efficiency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": "Pollination Contributions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fauna"
+    },
+    {
+      "column_header": "Habitats Connectivity Ratings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": "Cultural Significance Scores",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Recreational Use Value Indicators",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+    },
+    {
+      "column_header": "Climatic Stability Impacts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Economic Evaluation Estimation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    }
+  ]
+}

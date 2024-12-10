@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "IoT_Innovations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+    },
+    {
+      "column_header": "IoT_Technological Advancement",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"
+    },
+    {
+      "column_header": "IoT_Impact On Society",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "IoT_Cultural Change",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "IoT_Industry Disruption",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": "IoT_New Players",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/usingCountry"
+    },
+    {
+      "column_header": "IoT_Business Models",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"
+    },
+    {
+      "column_header": "IoT_Globalization",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/world"
+    },
+    {
+      "column_header": "IoT_Data Security",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": "IoT_Artificial Intelligence & Machine Learning",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingMedia"
+    },
+    {
+      "column_header": "IoT_Ethical Considerations & Regulations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/legalArticle"
+    },
+    {
+      "column_header": "IoT_Governing Laws",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/systemOfLaw"
+    },
+    {
+      "column_header": "IoT_Privacy Policies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/restriction"
+    },
+    {
+      "column_header": "IoT_Accountability Measures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/oversight"
+    },
+    {
+      "column_header": "IoT_Future Trends",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currentlyUsedFor"
+    }
+  ]
+}

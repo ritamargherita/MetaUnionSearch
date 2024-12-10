@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Legislative Jurisdiction",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/jurisdiction"
+    },
+    {
+      "column_header": "Legislature Session & Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/legislativePeriodName"
+    },
+    {
+      "column_header": "Bill Proponent",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/author"
+    },
+    {
+      "column_header": "Bill Opponent",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/opponent"
+    },
+    {
+      "column_header": "Consultants Engaged",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/consultant"
+    },
+    {
+      "column_header": "Expert Witnesses Called",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/expert"
+    },
+    {
+      "column_header": "Public Opinion Surveys Conducted",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": "Stakeholder Meetings Held",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/meetingBuilding"
+    },
+    {
+      "column_header": "Lobbyist Interests Considered",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": "Media Coverage During Legislation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/media"
+    },
+    {
+      "column_header": "Financial Implications",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+    }
+  ]
+}

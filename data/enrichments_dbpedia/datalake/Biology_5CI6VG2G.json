@@ -1,0 +1,10 @@
+{
+  "mapping": [
+    {"column_header": "Phylogenic tree structure", "dbpedia_property_id": "http://dbpedia.org/ontology/tree"},
+    {"column_header": "Hierarchical taxonomic classification", "dbpedia_property_id": "http://dbpedia.org/ontology/phylum"},
+    {"column_header": "Biological importance", "dbpedia_property_id": "http://dbpedia.org/ontology/purpose"},
+    {"column_header": "Evolutionary relationships", "dbpedia_property_id": "http://dbpedia.org/ontology/relation"},
+    {"column_header": "Adaptations in different environments", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"},
+    {"column_header": "", "dbpedia_property_id": ""}
+  ]
+}

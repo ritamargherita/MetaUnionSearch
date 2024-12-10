@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "BrainStructureSize", "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoNumber"},
+    {"column_header": "BrAINVolume", "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoNumber"},
+    {"column_header": "CerebralCortexThickness", "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoNumber"},
+    {"column_header": "WhiteMatterIntegrity", "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoNumber"},
+    {"column_header": "HippocampusShape", "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoType"},
+    {"column_header": "AmygdalaActivity", "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoType"},
+    {"column_header": "AnxietyLevelsUnderStress", "dbpedia_property_id": "http://dbpedia.org/ontology/mood"},
+    {"column_header": "DepressionScoresBeforeTherapy", "dbpedia_property_id": "http://dbpedia.org/ontology/mood"},
+    {"column_header": "SocialSkillsRating", "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoType"},
+    {"column_header": "IQTestResults", "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoNumber"},
+    {"column_header": "NeuroticismScaleScore", "dbpedia_property_id": "http://dbpedia.org/ontology/mood"},
+    {"column_header": "ExtraversionFactorScore", "dbpedia_property_id": "http://dbpedia.org/ontology/mood"},
+    {"column_header": "OpennesstoExperienceValue", "dbpedia_property_id": "http://dbpedia.org/ontology/mood"},
+    {"column_header": "ConscientiousnessMeasurement", "dbpedia_property_id": "http://dbpedia.org/ontology/mood"},
+    {"column_header": "AgreeablenessAssessment", "dbpedia_property_id": "http://dbpedia.org/ontology/mood"}
+  ]
+}

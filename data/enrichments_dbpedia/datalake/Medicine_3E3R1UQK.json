@@ -1,0 +1,14 @@
+{
+  "mapping": [
+    {"column_header": "Medication II", "dbpedia_property_id": "http://dbpedia.org/ontology/medication"},
+    {"column_header": "Medication III", "dbpedia_property_id": "http://dbpedia.org/ontology/medication"},
+    {"column_header": "Dosage II", "dbpedia_property_id": "http://dbpedia.org/ontology/dose"},
+    {"column_header": "Dosage III", "dbpedia_property_id": "http://dbpedia.org/ontology/dose"},
+    {"column_header": "Start Date II", "dbpedia_property_id": "http://dbpedia.org/ontology/startDate"},
+    {"column_header": "End Date II", "dbpedia_property_id": "http://dbpedia.org/ontology/endDate"},
+    {"column_header": "Refill Frequency II", "dbpedia_property_id": "http://dbpedia.org/ontology/frequencyOfPublication"},
+    {"column_header": "Refills Remaining II", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "Prescribing Physician II", "dbpedia_property_id": "http://dbpedia.org/ontology/medicalSpecialty"},
+    {"column_header": "Additional Information", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"}
+  ]
+}

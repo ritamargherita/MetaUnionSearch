@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Incident Number",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/idNumber"
+    },
+    {
+      "column_header": "Date & Time Occurred",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/startDateTime"
+    },
+    {
+      "column_header": "Offense Description",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/kindOfCriminal"
+    },
+    {
+      "column_header": "Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Incident Category",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/category"
+    },
+    {
+      "column_header": "Response Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Response Duration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/missionDuration"
+    },
+    {
+      "column_header": "Officer Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officerInCharge"
+    },
+    {
+      "column_header": "Suspect Age",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/age"
+    },
+    {
+      "column_header": "Suspect Gender",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gender"
+    },
+    {
+      "column_header": "Suspect Race",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/race"
+    }
+  ]
+}

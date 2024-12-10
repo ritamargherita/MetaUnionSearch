@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "FloweringPeriod",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/flower"
+    },
+    {
+      "column_header": "AvailabilitySeasons",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/flora"
+    },
+    {
+      "column_header": "GrowthHabit",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/plant"
+    },
+    {
+      "column_header": "SoillessCultureOptions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/production"
+    },
+    {
+      "column_header": "PropagationByCuttings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cultivatedVariety"
+    },
+    {
+      "column_header": "GeneticModified",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/status"
+    },
+    {
+      "column_header": "PestAndDiseaseResistance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/booster"
+    },
+    {
+      "column_header": "SpecialUses",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/speciality"
+    },
+    {
+      "column_header": "CommercialValue",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "RareFactorIndex",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/danger"
+    }
+  ]
+}

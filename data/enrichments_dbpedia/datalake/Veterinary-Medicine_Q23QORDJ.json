@@ -1,0 +1,40 @@
+{
+  "mapping": [
+    {
+      "column_header": "Condition Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medicalDiagnosis"
+    },
+    {
+      "column_header": "Ancillary Test Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Test Results",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/result"
+    },
+    {
+      "column_header": "Occurrence Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/eventDate"
+    },
+    {
+      "column_header": "Follow-up Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dateLastUpdated"
+    },
+    {
+      "column_header": "Consulting Veterinarian ID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/facilityId"
+    },
+    {
+      "column_header": "Vaccination History",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vaccination"
+    },
+    {
+      "column_header": "Insurance Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/status"
+    },
+    {
+      "column_header": "Remarks from Previous Visit",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/remarks"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Rocket Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Launch Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/launchSite"
+    },
+    {
+      "column_header": "Launch Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/launchDate"
+    },
+    {
+      "column_header": "Launch Successful",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/successfulLaunches"
+    },
+    {
+      "column_header": "Landing Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/landingVehicle"
+    },
+    {
+      "column_header": "Reusability",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rocketStages"
+    },
+    {
+      "column_header": "Max Payload",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/lowerEarthOrbitPayload"
+    },
+    {
+      "column_header": "Engine Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/engineType"
+    },
+    {
+      "column_header": "Fuel Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fuelType"
+    },
+    {
+      "column_header": "Manufacturer",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/manufacturer"
+    },
+    {
+      "column_header": "Country of Origin",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/countryOrigin"
+    },
+    {
+      "column_header": "First Stage Engine Count",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cylinderCount"
+    },
+    {
+      "column_header": "Second Stage Engine Count",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cylinderCount"
+    },
+    {
+      "column_header": "Total Stage Count",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rocketStages"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Number of Employees",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfEmployees"
+    },
+    {
+      "column_header": "Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Industry",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": "Year Founded",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/foundingYear"
+    },
+    {
+      "column_header": "Top Executives",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/leadership"
+    },
+    {
+      "column_header": "Ownership Structure",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/owningOrganisation"
+    },
+    {
+      "column_header": "Market Competitors",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/competition"
+    },
+    {
+      "column_header": "Legal Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currentStatus"
+    },
+    {
+      "column_header": "Last Funding Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "Last Funding Amount",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": "Valuation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "Alexa Rank",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ranking"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Business Location", "dbpedia_property_id": "http://dbpedia.org/ontology/location"},
+    {"column_header": "Number Of Employees", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfEmployees"},
+    {"column_header": "Employee Turnover Rate", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfStaff"},
+    {"column_header": "Employee Productivity Index", "dbpedia_property_id": "http://dbpedia.org/ontology/score"},
+    {"column_header": "Competitor Analysis", "dbpedia_property_id": "http://dbpedia.org/ontology/competition"},
+    {"column_header": "Market Share", "dbpedia_property_id": "http://dbpedia.org/ontology/marketCapitalisation"},
+    {"column_header": "Customer Satisfaction Score", "dbpedia_property_id": "http://dbpedia.org/ontology/rating"},
+    {"column_header": "Supply Chain Management Efficiency", "dbpedia_property_id": "http://dbpedia.org/ontology/management"},
+    {"column_header": "Technological Adaptation Index", "dbpedia_property_id": "http://dbpedia.org/ontology/score"},
+    {"column_header": "Sustainability Score", "dbpedia_property_id": "http://dbpedia.org/ontology/rating"},
+    {"column_header": "Regulatory Compliance Rating", "dbpedia_property_id": "http://dbpedia.org/ontology/rating"},
+    {"column_header": "Ethical Responsibility Rating", "dbpedia_property_id": "http://dbpedia.org/ontology/rating"},
+    {"column_header": "Brand Reputation Score", "dbpedia_property_id": "http://dbpedia.org/ontology/brand"}
+  ]
+}

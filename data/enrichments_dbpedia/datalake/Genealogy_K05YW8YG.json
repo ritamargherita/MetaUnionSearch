@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "AncesterCountryOrigin",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/origin"
+    },
+    {
+      "column_header": " AncestralProfession ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/occupation"
+    },
+    {
+      "column_header": " NumberofChildren",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfChildren"
+    },
+    {
+      "column_header": " SpousesDeceasedStatus ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/spouse"
+    },
+    {
+      "column_header": " NumberoftimesMarried",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfMarriages"
+    },
+    {
+      "column_header": " Secondspousename",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/spouseName"
+    },
+    {
+      "column_header": " Morgender",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gender"
+    },
+    {
+      "column_header": " Child1GivenName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/child"
+    },
+    {
+      "column_header": " Child1BirthDate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/birthDate"
+    },
+    {
+      "column_header": " Child1PlaceOfBirth",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/birthPlace"
+    }
+  ]
+}

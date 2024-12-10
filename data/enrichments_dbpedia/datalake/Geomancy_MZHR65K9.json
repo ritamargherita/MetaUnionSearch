@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "Practitioner Experience Level", "dbpedia_property_id": "http://dbpedia.org/ontology/skills"},
+    {"column_header": "Type of Geometry", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": "Shape Attributes", "dbpedia_property_id": "http://dbpedia.org/ontology/productShape"},
+    {"column_header": "Elemental Associations", "dbpedia_property_id": "http://dbpedia.org/ontology/elementGroup"},
+    {"column_header": "Cultural Context", "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"},
+    {"column_header": "Significance in Theory", "dbpedia_property_id": "http://dbpedia.org/ontology/meaning"},
+    {"column_header": "Methods of Divination", "dbpedia_property_id": "http://dbpedia.org/ontology/detectionMethod"},
+    {"column_header": "Possible Outcomes", "dbpedia_property_id": "http://dbpedia.org/ontology/unknownOutcomes"},
+    {"column_header": "Interpretation & Ritual Use", "dbpedia_property_id": "http://dbpedia.org/ontology/religion"},
+    {"column_header": "Limitations on Alphanumeric Readability", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": "Frequency Used by Culture", "dbpedia_property_id": "http://dbpedia.org/ontology/frequencyOfPublication"},
+    {"column_header": "Inherited vs Innovative Methods", "dbpedia_property_id": "http://dbpedia.org/ontology/technique"},
+    {"column_header": "Zodiac Sign Symbolism", "dbpedia_property_id": "http://dbpedia.org/ontology/zodiacSign"},
+    {"column_header": "Planetary Connections", "dbpedia_property_id": "http://dbpedia.org/ontology/astrologicalSign"},
+    {"column_header": "*Additional Column*: Advanced Techniques.", "dbpedia_property_id": "http://dbpedia.org/ontology/approach"}
+  ]
+}

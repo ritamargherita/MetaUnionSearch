@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Software Architecture Patterns",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": " Design Thinking Methodologies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/approach"
+    },
+    {
+      "column_header": " User Experience Metrics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": " Internet Of Things (IoT) Devices Integration Challenges",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currentlyUsedFor"
+    },
+    {
+      "column_header": " Quantum Computing Progress & Limitations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"
+    },
+    {
+      "column_header": " Cybersecurity Attacks Analysis Tools Forensics Capabilities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": " Blockchain Transparency Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ranking"
+    },
+    {
+      "column_header": " Virtual Reality/Augmented Reality Adoption Rates",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/visitorsPercentageChange"
+    },
+    {
+      "column_header": " Natural Language Processing Accuracy Comparisons",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": " Robotics Surgery Safety Protocols",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": " Synthetic Biology Research Breakthroughs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": " Autonomous Vehicles Test Scenarios",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vehicle"
+    },
+    {
+      "column_header": " Space Exploration Latest Developments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/exploration"
+    },
+    {
+      "column_header": " Climate Change Tech Solutions Evaluation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    }
+  ]
+}

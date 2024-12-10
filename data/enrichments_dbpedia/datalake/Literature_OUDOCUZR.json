@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {"column_header": "Periodic Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"},
+    {"column_header": " Social Reception", "dbpedia_property_id": "http://dbpedia.org/ontology/shareOfAudience"},
+    {"column_header": " Most Frequent Readers", "dbpedia_property_id": "http://dbpedia.org/ontology/frequencyOfPublication"},
+    {"column_header": " Adaptations Over Time", "dbpedia_property_id": "http://dbpedia.org/ontology/otherWorks"},
+    {"column_header": " Merchandising & Commercialization", "dbpedia_property_id": "http://dbpedia.org/ontology/industry"},
+    {"column_header": " Parodies and Satires", "dbpedia_property_id": "http://dbpedia.org/ontology/homage"},
+    {"column_header": " Critique by Other Authors", "dbpedia_property_id": "http://dbpedia.org/ontology/review"},
+    {"column_header": " Book Cover Designs", "dbpedia_property_id": "http://dbpedia.org/ontology/coverArtist"},
+    {"column_header": " Aesthetic Appeal", "dbpedia_property_id": "http://dbpedia.org/ontology/style"},
+    {"column_header": " Comparative Studies", "dbpedia_property_id": "http://dbpedia.org/ontology/comparable"},
+    {"column_header": " Iconographic Representations", "dbpedia_property_id": "http://dbpedia.org/ontology/iconographicAttributes"},
+    {"column_header": " AudioBook Versions", "dbpedia_property_id": "http://dbpedia.org/ontology/version"}
+  ]
+}

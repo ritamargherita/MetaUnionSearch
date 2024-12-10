@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "Seismicity Rate", "dbpedia_property_id": "http://dbpedia.org/ontology/casualties"},
+    {"column_header": " Volcanological Activity", "dbpedia_property_id": "http://dbpedia.org/ontology/volcanicActivity"},
+    {"column_header": " Erosional Features", "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"},
+    {"column_header": " Soils & Regolith", "dbpedia_property_id": "http://dbpedia.org/ontology/geology"},
+    {"column_header": " Landform Types", "dbpedia_property_id": "http://dbpedia.org/ontology/features"},
+    {"column_header": " Geomorphological Processes", "dbpedia_property_id": "http://dbpedia.org/ontology/geomorphologicalProcesses"},
+    {"column_header": " Impact Structures", "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"},
+    {"column_header": " Gems and Precious Metals", "dbpedia_property_id": "http://dbpedia.org/ontology/industry"},
+    {"column_header": " Groundwater Aquifers", "dbpedia_property_id": "http://dbpedia.org/ontology/water"},
+    {"column_header": " Tectonic Setting", "dbpedia_property_id": "http://dbpedia.org/ontology/geologicPeriod"},
+    {"column_header": " Economic Importance", "dbpedia_property_id": "http://dbpedia.org/ontology/mainInterest"},
+    {"column_header": " Natural Disaster Risk", "dbpedia_property_id": "http://dbpedia.org/ontology/casualties"},
+    {"column_header": " Climate Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": " Research Significance", "dbpedia_property_id": "http://dbpedia.org/ontology/significantProject"}
+  ]
+}

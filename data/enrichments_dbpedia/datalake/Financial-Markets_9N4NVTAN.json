@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Commodity Prices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/price"
+    },
+    {
+      "column_header": "Commodity Futures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/derivative"
+    },
+    {
+      "column_header": "Bond Yield%",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Derivatives Options",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/derivative"
+    },
+    {
+      "column_header": "Institutional Investment Holding",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/institution"
+    },
+    {
+      "column_header": "Geopolitical Risks",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    },
+    {
+      "column_header": "Private Equities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": "Mergers & Acquisitions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mergerDate"
+    },
+    {
+      "column_header": "Public Debt Ratios",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"
+    },
+    {
+      "column_header": "Regulatory Environment",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/regime"
+    }
+  ]
+}

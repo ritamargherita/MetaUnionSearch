@@ -1,0 +1,17 @@
+{
+    "mapping": [
+        {"column_header": "Phylogenetic tree structure", "dbpedia_property_id": "http://dbpedia.org/ontology/tree"},
+        {"column_header": "Conservation status", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+        {"column_header": "Ecologically relevant traits", "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"},
+        {"column_header": "Biomolecular interactions network", "dbpedia_property_id": "http://dbpedia.org/ontology/cluster"},
+        {"column_header": "Environmental factors affecting gene expression", "dbpedia_property_id": "http://dbpedia.org/ontology/environment"},
+        {"column_header": "Protein folding pattern", "dbpedia_property_id": "http://dbpedia.org/ontology/pdb"},
+        {"column_header": "Chromosomal locations", "dbpedia_property_id": "http://dbpedia.org/ontology/chromosome"},
+        {"column_header": "Disease association study results", "dbpedia_property_id": "http://dbpedia.org/ontology/disease"},
+        {"column_header": "Phenotype observations", "dbpedia_property_id": "http://dbpedia.org/ontology/phenotype"},
+        {"column_header": "Gene coexpression clusters", "dbpedia_property_id": "http://dbpedia.org/ontology/cluster"},
+        {"column_header": "Regulation mechanisms at transcription level", "dbpedia_property_id": "http://dbpedia.org/ontology/regulationMechanism"},
+        {"column_header": "Development processes influencing organism growth", "dbpedia_property_id": "http://dbpedia.org/ontology/development"},
+        {"column_header": "Population genetics diversity values", "dbpedia_property_id": "http://dbpedia.org/ontology/population"}
+    ]
+}

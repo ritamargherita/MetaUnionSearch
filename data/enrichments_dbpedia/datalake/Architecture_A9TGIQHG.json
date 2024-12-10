@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Architectural Theories",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalMovement"
+    },
+    {
+      "column_header": "Influential Figures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/influenced"
+    },
+    {
+      "column_header": "Construction Techniques",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/construction"
+    },
+    {
+      "column_header": "Philosophy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"
+    },
+    {
+      "column_header": "Preservation Methodologies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    },
+    {
+      "column_header": "Aesthetic Principles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Prominent Criticisms",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/review"
+    },
+    {
+      "column_header": "(Un)Popular Opinions about Style",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": "Future Trend Predictions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"
+    },
+    {
+      "column_header": "Cultural Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Ethical Considerations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ethics"
+    },
+    {
+      "column_header": "Economic Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+    },
+    {
+      "column_header": "Sociological Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"
+    },
+    {
+      "column_header": "Environmental Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    }
+  ]
+}

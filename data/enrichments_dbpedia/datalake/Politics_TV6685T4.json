@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Elections Results by District",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/constituencyDistrict"
+    },
+    {
+      "column_header": "Constituent Opinion Poll Data",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refpol"
+    },
+    {
+      "column_header": "Lobbying Group Contributions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "Legislation Sponsorship & Co-sponsoring",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/legislature"
+    },
+    {
+      "column_header": "Budgets Allocations per Department",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/budget"
+    },
+    {
+      "column_header": "Public Reaction To Major Policies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"
+    },
+    {
+      "column_header": "International Relationships with Other Parties/Countries",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/internationalAffiliation"
+    },
+    {
+      "column_header": "Leadership Election Dates and Winners",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/electionDateLeader"
+    },
+    {
+      "column_header": "Party Ideology Trend Over Years",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ideology"
+    },
+    {
+      "column_header": "Members’ Tenure Length Distribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfMembers"
+    }
+  ]
+}

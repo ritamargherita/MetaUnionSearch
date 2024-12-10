@@ -1,0 +1,17 @@
+{
+    "mapping": [
+        {"column_header": "Heritage Sites", "dbpedia_property_id": "http://dbpedia.org/ontology/heritageRegister"},
+        {"column_header": "Sports and Games", "dbpedia_property_id": "http://dbpedia.org/ontology/sport"},
+        {"column_header": "Literature", "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"},
+        {"column_header": "Poetry", "dbpedia_property_id": "http://dbpedia.org/ontology/novel"},
+        {"column_header": "Theater", "dbpedia_property_id": "http://dbpedia.org/ontology/drama"},
+        {"column_header": "Visual Arts", "dbpedia_property_id": "http://dbpedia.org/ontology/artisticFunction"},
+        {"column_header": "Architecture", "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"},
+        {"column_header": "Customary Rituals & Ceremonies", "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"},
+        {"column_header": "Cuisine", "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"},
+        {"column_header": "Dance Styles", "dbpedia_property_id": "http://dbpedia.org/ontology/choreographer"},
+        {"column_header": "Traditional Clothing", "dbpedia_property_id": "http://dbpedia.org/ontology/dressCode"},
+        {"column_header": "National Holidays", "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"},
+        {"column_header": "Popular Pastimes", "dbpedia_property_id": "http://dbpedia.org/ontology/otherActivity"}
+    ]
+}

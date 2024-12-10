@@ -1,0 +1,68 @@
+{
+  "mapping": [
+    {
+      "column_header": "Legislative Jurisdiction",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/jurisdiction"
+    },
+    {
+      "column_header": "Legislature Session",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/legislativePeriodName"
+    },
+    {
+      "column_header": "Bill Number",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/number"
+    },
+    {
+      "column_header": "Proposer",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/presenter"
+    },
+    {
+      "column_header": "Passage Information",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    },
+    {
+      "column_header": "Objections & Amendments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": "Public Hearings Details",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/committee"
+    },
+    {
+      "column_header": "Stakeholder Input",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/participant"
+    },
+    {
+      "column_header": "Expert Testimony",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    },
+    {
+      "column_header": "Referenced Bills",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/reference"
+    },
+    {
+      "column_header": "Constitutionality Check",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ruling"
+    },
+    {
+      "column_header": "Regulation Effectiveness",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/oversight"
+    },
+    {
+      "column_header": "Fiscally Related Measures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/budget"
+    },
+    {
+      "column_header": "Budgetary Allocation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/budget"
+    },
+    {
+      "column_header": "Implementation Timeline",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sessionNumber"
+    },
+    {
+      "column_header": "Critiques from Opposing Parties",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    }
+  ]
+}

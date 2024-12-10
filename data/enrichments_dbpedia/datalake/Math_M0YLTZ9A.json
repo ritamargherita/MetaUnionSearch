@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Problems and Solutions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    },
+    {
+      "column_header": "Famous Math Problems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+    },
+    {
+      "column_header": "Puzzles and Games",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/games"
+    },
+    {
+      "column_header": "Math in Pop Culture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/topic"
+    },
+    {
+      "column_header": "Teaching Techniques",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    },
+    {
+      "column_header": "Learning Strategies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/approach"
+    },
+    {
+      "column_header": "Assessment Methods",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    },
+    {
+      "column_header": "Math Software",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"
+    },
+    {
+      "column_header": "Mathematical Models",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/model"
+    },
+    {
+      "column_header": "Technical Vocabulary",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/subjectTerm"
+    },
+    {
+      "column_header": "Mathematical Structures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/model"
+    },
+    {
+      "column_header": "Research Topics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/areaOfSearch"
+    },
+    {
+      "column_header": "Historical Theorems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalName"
+    },
+    {
+      "column_header": "Conferences and Workshops",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    },
+    {
+      "column_header": "Professional Organizations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/organisation"
+    }
+  ]
+}

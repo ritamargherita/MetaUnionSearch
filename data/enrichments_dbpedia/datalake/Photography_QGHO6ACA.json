@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Photographer Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/photographer"
+    },
+    {
+      "column_header": " Photo ID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/id"
+    },
+    {
+      "column_header": " Shoot Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": " Time Spent Shooting",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/time"
+    },
+    {
+      "column_header": " Photo Shoot Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/shoot"
+    },
+    {
+      "column_header": " Lenses Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": " Flash Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/status"
+    },
+    {
+      "column_header": " Equipment Condition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": " Post Processing Software",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"
+    },
+    {
+      "column_header": " Noise Reduction Applied",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+    },
+    {
+      "column_header": " Color Correction Applied",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/editing"
+    },
+    {
+      "column_header": " Image Orientation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orientation"
+    },
+    {
+      "column_header": " Print Size",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sizeLogo"
+    },
+    {
+      "column_header": " Final Image Format.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/pictureFormat"
+    }
+  ]
+}

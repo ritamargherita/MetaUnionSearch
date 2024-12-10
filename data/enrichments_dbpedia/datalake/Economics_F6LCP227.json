@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "economic_policy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/government"
+    },
+    {
+      "column_header": "policy_description",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": "inflation_rate_CPI%",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "unemployment_rate_seasonally_adjusted",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "interest_rate_central_bank",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": "fiscal_year_budget/$_billions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/budget"
+    },
+    {
+      "column_header": "trade_balance_$millions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currency"
+    },
+    {
+      "column_header": "poverty_line_income_$",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+    },
+    {
+      "column_header": "**poverty_gap_index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "corruption_perceptions_index_score",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": "human_development_index_value",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/humanDevelopmentIndex"
+    },
+    {
+      "column_header": "research_and_development_expenditure$percentage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "environmental_protection_expenditure$percentage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    }
+  ]
+}

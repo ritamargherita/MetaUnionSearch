@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "ProductID", "dbpedia_property_id": "http://dbpedia.org/ontology/id"},
+    {"column_header": " ProductName_ClothesType", "dbpedia_property_id": "http://dbpedia.org/ontology/product"},
+    {"column_header": " Quantity", "dbpedia_property_id": "http://dbpedia.org/ontology/numberSold"},
+    {"column_header": " SizeVariation", "dbpedia_property_id": "http://dbpedia.org/ontology/clothingSize"},
+    {"column_header": " ColorSelection", "dbpedia_property_id": "http://dbpedia.org/ontology/colour"},
+    {"column_header": " MaterialDetails", "dbpedia_property_id": "http://dbpedia.org/ontology/material"},
+    {"column_header": " BrandInformation", "dbpedia_property_id": "http://dbpedia.org/ontology/brand"},
+    {"column_header": " DiscountRate", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": " OriginalPrice", "dbpedia_property_id": "http://dbpedia.org/ontology/price"},
+    {"column_header": " SalePrice", "dbpedia_property_id": "http://dbpedia.org/ontology/price"},
+    {"column_header": " DeliveryOptions", "dbpedia_property_id": "http://dbpedia.org/ontology/deliveryDate"},
+    {"column_header": " ManufacturingCountry", "dbpedia_property_id": "http://dbpedia.org/ontology/manufacturer"},
+    {"column_header": " ProductionTimeframe", "dbpedia_property_id": "http://dbpedia.org/ontology/production"},
+    {"column_header": " ProductCondition", "dbpedia_property_id": "http://dbpedia.org/ontology/product"},
+    {"column_header": " PurchaseDate", "dbpedia_property_id": "http://dbpedia.org/ontology/acquirementDate"}
+  ]
+}

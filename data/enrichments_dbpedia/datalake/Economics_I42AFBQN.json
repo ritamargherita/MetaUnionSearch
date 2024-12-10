@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "time_period",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/termPeriod"
+    },
+    {
+      "column_header": " variable_type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": " Gross Domestic Savings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/grossDomesticProduct"
+    },
+    {
+      "column_header": " $ trillions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectBudgetTotal"
+    },
+    {
+      "column_header": " industry_subcategory_code",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/category"
+    },
+    {
+      "column_header": " country_region_name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collectionSize"
+    },
+    {
+      "column_header": " state_abbreviation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/abbreviation"
+    },
+    {
+      "column_header": " population_size",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"
+    },
+    {
+      "column_header": " data_source",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/source"
+    },
+    {
+      "column_header": " sample_description",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": " inflation_rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"
+    }
+  ]
+}

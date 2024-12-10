@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Linguistic Area",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/linguisticsTradition"
+    },
+    {
+      "column_header": " language_iso639_5 code",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/iso6393Code"
+    },
+    {
+      "column_header": " Language Complexity Score",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/classification"
+    },
+    {
+      "column_header": " Number Of Dialects",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfSpeakers"
+    },
+    {
+      "column_header": " Typological Classification",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/classification"
+    },
+    {
+      "column_header": " Literacy Rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentageLiterate"
+    },
+    {
+      "column_header": " Age Standard Deviation For Acquisition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/age"
+    },
+    {
+      "column_header": " Geographical Distribution Continent",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/continent"
+    },
+    {
+      "column_header": " Geographic Latitude Range",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refgeo"
+    },
+    {
+      "column_header": " Word Count",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfResourceOfType"
+    }
+  ]
+}

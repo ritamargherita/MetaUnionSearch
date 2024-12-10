@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Artist Birthplace",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/birthPlace"
+    },
+    {
+      "column_header": "Year of birth",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/birthYear"
+    },
+    {
+      "column_header": "Deathyear",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/deathYear"
+    },
+    {
+      "column_header": "Ethnicity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ethnicity"
+    },
+    {
+      "column_header": "Religion",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Training/School",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/training"
+    },
+    {
+      "column_header": "Major Works/Exhibitions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+    },
+    {
+      "column_header": "Influenced",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/influenced"
+    },
+    {
+      "column_header": "Influential on",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/influencedBy"
+    },
+    {
+      "column_header": "Career Highlights",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/knownFor"
+    },
+    {
+      "column_header": "Preferred Medias",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/media"
+    },
+    {
+      "column_header": "Themes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    }
+  ]
+}

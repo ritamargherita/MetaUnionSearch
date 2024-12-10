@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Photo Title",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/title"
+    },
+    {
+      "column_header": " Category",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/category"
+    },
+    {
+      "column_header": " Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": " Post Processor Brand",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brand"
+    },
+    {
+      "column_header": " Post Processor Version",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/version"
+    },
+    {
+      "column_header": " Image Orientation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orientation"
+    },
+    {
+      "column_header": " Flash Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+    },
+    {
+      "column_header": " White Balance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/colour"
+    },
+    {
+      "column_header": " Focus Mode",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/focus"
+    },
+    {
+      "column_header": " Lens Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": " Original Image Size (pixels)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/imageSize"
+    },
+    {
+      "column_header": " Current File Format",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/pictureFormat"
+    },
+    {
+      "column_header": " Colorspace",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/colour"
+    },
+    {
+      "column_header": " Date Modified",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dateLastUpdated"
+    },
+    {
+      "column_header": " File Size",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fileSize"
+    }
+  ]
+}

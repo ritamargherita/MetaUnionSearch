@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Country",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/country"
+    },
+    {
+      "column_header": "Government Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/governmentType"
+    },
+    {
+      "column_header": "Head of State",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/head"
+    },
+    {
+      "column_header": "GDP per Capita",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gdpPerCapita"
+    },
+    {
+      "column_header": "Population Size",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"
+    },
+    {
+      "column_header": "Cultural Influence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/influenced"
+    },
+    {
+      "column_header": "Military Strength",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/strength"
+    },
+    {
+      "column_header": "Trade Agreements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/alliance"
+    },
+    {
+      "column_header": "Neighbor Nations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/neighbourRegion"
+    },
+    {
+      "column_header": "Regional Organization Membership",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/membership"
+    },
+    {
+      "column_header": "Foreign Aid Disburser",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/internationalAffiliation"
+    },
+    {
+      "column_header": "Natural Heritage Sites",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/heritageRegister"
+    },
+    {
+      "column_header": "Some Other Field**",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/field"
+    }
+  ]
+}

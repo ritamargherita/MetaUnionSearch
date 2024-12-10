@@ -1,0 +1,14 @@
+{
+    "mapping": [
+        {"column_header": "Gravity Anomalies", "dbpedia_property_id": "http://dbpedia.org/ontology/surfaceGravity"},
+        {"column_header": "Magnetic Susceptibility", "dbpedia_property_id": "http://dbpedia.org/ontology/field"},
+        {"column_header": "Electrical Resistivity", "dbpedia_property_id": "http://dbpedia.org/ontology/voltageOfElectrification"},
+        {"column_header": "Density Logging", "dbpedia_property_id": "http://dbpedia.org/ontology/density"},
+        {"column_header": "Poroelastic Properties", "dbpedia_property_id": "http://dbpedia.org/ontology/material"},
+        {"column_header": "Rock Stress Measurements", "dbpedia_property_id": "http://dbpedia.org/ontology/forces"},
+        {"column_header": "Seismic Refraction", "dbpedia_property_id": "http://dbpedia.org/ontology/displacement"},
+        {"column_header": "Thermal Properties", "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"},
+        {"column_header": "Strain Analysis", "dbpedia_property_id": "http://dbpedia.org/ontology/damage"},
+        {"column_header": "Magnetic Field Intensity", "dbpedia_property_id": "http://dbpedia.org/ontology/field"}
+    ]
+}

@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "GardenLocation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "DateLastTended",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/date"
+    },
+    {
+      "column_header": "AverageRainfall",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/average"
+    },
+    {
+      "column_header": "ClimateCondition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "MaintenanceSchedule",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/maintainedBy"
+    },
+    {
+      "column_header": "FertilityRequirements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+    },
+    {
+      "column_header": "BestCompanionPlants",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/plant"
+    },
+    {
+      "column_header": "SoilingType",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ground"
+    },
+    {
+      "column_header": "ToolsUsed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+    },
+    {
+      "column_header": "HarvestSeason",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/season"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Time Period",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/termPeriod"
+    },
+    {
+      "column_header": "Global Events",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/event"
+    },
+    {
+      "column_header": "Major Powers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/power"
+    },
+    {
+      "column_header": "International Organizations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/organisation"
+    },
+    {
+      "column_header": "Nonstate Actors",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/institution"
+    },
+    {
+      "column_header": "Geopolitics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/world"
+    },
+    {
+      "column_header": "Transitional Phases",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/period"
+    },
+    {
+      "column_header": "Crisis Management",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/management"
+    },
+    {
+      "column_header": "Conflict Resolution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    },
+    {
+      "column_header": "Peace Building",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Diplomatic Recognition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/internationalAffiliation"
+    },
+    {
+      "column_header": "Economic Sanctions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/politicalFunction"
+    },
+    {
+      "column_header": "Cybersecurity Threats",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": "Space Exploration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/spacecraft"
+    }
+  ]
+}

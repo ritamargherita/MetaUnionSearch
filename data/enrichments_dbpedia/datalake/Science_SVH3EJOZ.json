@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "Scientist", "dbpedia_property_id": "http://dbpedia.org/ontology/author"},
+    {"column_header": " Experiment_Date", "dbpedia_property_id": "http://dbpedia.org/ontology/date"},
+    {"column_header": " Funding_Agency", "dbpedia_property_id": "http://dbpedia.org/ontology/agency"},
+    {"column_header": " Collaborating_Institutes", "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"},
+    {"column_header": " Duration", "dbpedia_property_id": "http://dbpedia.org/ontology/duration"},
+    {"column_header": " Objective", "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"},
+    {"column_header": " Procedure", "dbpedia_property_id": "http://dbpedia.org/ontology/procedure"},
+    {"column_header": " Observations", "dbpedia_property_id": "http://dbpedia.org/ontology/observatory"},
+    {"column_header": " Findings", "dbpedia_property_id": "http://dbpedia.org/ontology/features"},
+    {"column_header": " References", "dbpedia_property_id": "http://dbpedia.org/ontology/reference"},
+    {"column_header": " Miscellaneous", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"}
+  ]
+}

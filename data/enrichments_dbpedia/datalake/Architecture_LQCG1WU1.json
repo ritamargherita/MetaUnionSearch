@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Number Of Floors",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/floorCount"
+    },
+    {
+      "column_header": "Main Material Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/constructionMaterial"
+    },
+    {
+      "column_header": "NumberOfRooms",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfRooms"
+    },
+    {
+      "column_header": "Energy Consumption Profile",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fuelConsumption"
+    },
+    {
+      "column_header": "Fire Safety Measures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": "Green Spaces Integration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/space"
+    },
+    {
+      "column_header": "Structural Innovations Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/structuralSystem"
+    },
+    {
+      "column_header": "Height From Ground Level",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/topFloorHeight"
+    },
+    {
+      "column_header": "Heritage Renovation Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/protectionStatus"
+    },
+    {
+      "column_header": "Building Use Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currentlyUsedFor"
+    }
+  ]
+}

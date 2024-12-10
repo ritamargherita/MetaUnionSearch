@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "Arrest Warrants Issued", "dbpedia_property_id": "http://dbpedia.org/ontology/arrestDate"},
+    {"column_header": " Number_of_Witnesses", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfMembers"},
+    {"column_header": " Weapon(if any) Used / Possessed", "dbpedia_property_id": "http://dbpedia.org/ontology/weapon"},
+    {"column_header": " Injuries Suffered By Officer (Yes / No), if yes describe injury severity", "dbpedia_property_id": "http://dbpedia.org/ontology/medicalDiagnosis"},
+    {"column_header": " Incident Location Details", "dbpedia_property_id": "http://dbpedia.org/ontology/location"},
+    {"column_header": " Arrest Type", "dbpedia_property_id": "http://dbpedia.org/ontology/criminalCharge"},
+    {"column_header": " Evidence Collected", "dbpedia_property_id": "http://dbpedia.org/ontology/source"},
+    {"column_header": " Case Status", "dbpedia_property_id": "http://dbpedia.org/ontology/status"},
+    {"column_header": " Investigating Officer", "dbpedia_property_id": "http://dbpedia.org/ontology/officerInCharge"},
+    {"column_header": " Prosecuting Attorney", "dbpedia_property_id": "http://dbpedia.org/ontology/attorneyGeneral"},
+    {"column_header": " Next Court Date.", "dbpedia_property_id": "http://dbpedia.org/ontology/convictionDate"}
+  ]
+}

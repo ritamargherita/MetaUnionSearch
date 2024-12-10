@@ -1,0 +1,56 @@
+{
+    "mapping": [
+        {
+            "column_header": "Goddess Name",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/name"
+        },
+        {
+            "column_header": "Origin",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/origin"
+        },
+        {
+            "column_header": "Divine Roles & Responsibilities",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/role"
+        },
+        {
+            "column_header": "PowERS",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/power"
+        },
+        {
+            "column_header": "WeAKneSSEs$",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/strength"
+        },
+        {
+            "column_header": "Symbolic Animals or Objects",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/animal"
+        },
+        {
+            "column_header": "Lifestyle",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+        },
+        {
+            "column_header": "Habits",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/otherActivity"
+        },
+        {
+            "column_header": "ImportANCE in CULTURE",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+        },
+        {
+            "column_header": "Related Deities",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/related"
+        },
+        {
+            "column_header": "Modern Representations",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/portrayer"
+        },
+        {
+            "column_header": "Significance in Myths and Legends",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"
+        },
+        {
+            "column_header": "Related Mythologies",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"
+        }
+    ]
+}

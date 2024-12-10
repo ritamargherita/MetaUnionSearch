@@ -1,0 +1,19 @@
+{
+    "mapping": [
+        {"column_header": "Track Number", "dbpedia_property_id": "http://dbpedia.org/ontology/trackNumber"},
+        {"column_header": " Lyrics Author", "dbpedia_property_id": "http://dbpedia.org/ontology/author"},
+        {"column_header": " Music Video URL", "dbpedia_property_id": "http://dbpedia.org/ontology/fileURL"},
+        {"column_header": " Production Company", "dbpedia_property_id": "http://dbpedia.org/ontology/productionCompany"},
+        {"column_header": " Title", "dbpedia_property_id": "http://dbpedia.org/ontology/title"},
+        {"column_header": " Artists", "dbpedia_property_id": "http://dbpedia.org/ontology/musicalArtist"},
+        {"column_header": " Genres", "dbpedia_property_id": "http://dbpedia.org/ontology/genre"},
+        {"column_header": " Release Date", "dbpedia_property_id": "http://dbpedia.org/ontology/releaseDate"},
+        {"column_header": " Language", "dbpedia_property_id": "http://dbpedia.org/ontology/originalLanguage"},
+        {"column_header": " Label", "dbpedia_property_id": "http://dbpedia.org/ontology/recordLabel"},
+        {"column_header": " Format", "dbpedia_property_id": "http://dbpedia.org/ontology/musicFormat"},
+        {"column_header": " Playtime", "dbpedia_property_id": "http://dbpedia.org/ontology/playingTime"},
+        {"column_header": " Producers", "dbpedia_property_id": "http://dbpedia.org/ontology/producer"},
+        {"column_header": " Album", "dbpedia_property_id": "http://dbpedia.org/ontology/album"},
+        {"column_header": " Publisher", "dbpedia_property_id": "http://dbpedia.org/ontology/publisher"}
+    ]
+}

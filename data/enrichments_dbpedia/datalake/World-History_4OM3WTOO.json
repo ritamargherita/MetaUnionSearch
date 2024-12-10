@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Religions And Beliefs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Languages Spoken",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officialLanguage"
+    },
+    {
+      "column_header": "Medicine & Public Health",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medicalSpecialty"
+    },
+    {
+      "column_header": "Literature Genres",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": "Clothing Styles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Music Types",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/musicType"
+    },
+    {
+      "column_header": "Cuisine Recipes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"
+    },
+    {
+      "column_header": "Trade Routes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/route"
+    },
+    {
+      "column_header": "Natural Resource Management",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/management"
+    },
+    {
+      "column_header": "Urban Planning & Development",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/urbanArea"
+    },
+    {
+      "column_header": "Environmental Impacts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Transportation Methods",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relatedMeanOfTransportation"
+    },
+    {
+      "column_header": "Governing Bodies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/governingBody"
+    },
+    {
+      "column_header": "Artisanal Crafts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/designCompany"
+    },
+    {
+      "column_header": "Archaeological Sites",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/touristicSite"
+    }
+  ]
+}

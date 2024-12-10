@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "ArcherSiteID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refgeo"
+    },
+    {
+      "column_header": "CultureAssociation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "DatingTechniqueUsed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/date"
+    },
+    {
+      "column_header": "SignificanceLevel",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/significantBuilding"
+    },
+    {
+      "column_header": "RadiocarbonDate_LabNumber",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/date"
+    },
+    {
+      "column_header": "RadiocarbonDate_Result",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/date"
+    },
+    {
+      "column_header": "StratigraphicUnitDetails",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": "BioarchaeologicalAnalysisResults",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": "GeophysicalSurveyData",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": "EnvironmentalReconstructionFindings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "HistoricalDocumentEvidenceFound",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalName"
+    },
+    {
+      "column_header": "ArchivalPhotographPresence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/picture"
+    },
+    {
+      "column_header": "FundingSource",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    }
+  ]
+}

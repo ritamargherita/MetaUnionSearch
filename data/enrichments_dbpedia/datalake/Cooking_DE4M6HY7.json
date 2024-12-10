@@ -1,0 +1,16 @@
+{
+    "mapping": [
+        {"column_header": "nChef Name", "dbpedia_property_id": "http://dbpedia.org/ontology/chef"},
+        {"column_header": "nEstimated Cost Per Meal", "dbpedia_property_id": "http://dbpedia.org/ontology/unitCost"},
+        {"column_header": "nSeasonality", "dbpedia_property_id": "http://dbpedia.org/ontology/season"},
+        {"column_header": "nCaloric Content", "dbpedia_property_id": "http://dbpedia.org/ontology/approximateCalories"},
+        {"column_header": "nTaste Rating", "dbpedia_property_id": "http://dbpedia.org/ontology/taste"},
+        {"column_header": "nDish Presentation Score", "dbpedia_property_id": "http://dbpedia.org/ontology/rating"},
+        {"column_header": "nAllergen Free", "dbpedia_property_id": "http://dbpedia.org/ontology/free"},
+        {"column_header": "nSustainability Source", "dbpedia_property_id": "http://dbpedia.org/ontology/source"},
+        {"column_header": "nWould Make Again", "dbpedia_property_id": "http://dbpedia.org/ontology/rating"},
+        {"column_header": "nLast Updated", "dbpedia_property_id": "http://dbpedia.org/ontology/dateLastUpdated"},
+        {"column_header": "nCultural Notes", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+        {"column_header": "nSpecial Occasion", "dbpedia_property_id": "http://dbpedia.org/ontology/event"}
+    ]
+}

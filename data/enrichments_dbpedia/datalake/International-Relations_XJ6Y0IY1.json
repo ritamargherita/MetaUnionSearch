@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "1. Time Period",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/termPeriod"
+    },
+    {
+      "column_header": "2. International Organizations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/organisation"
+    },
+    {
+      "column_header": "3. Trade Agreements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rankAgreement"
+    },
+    {
+      "column_header": "4. Peace Treaties",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dateAgreement"
+    },
+    {
+      "column_header": "5. Conflict Zones",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    },
+    {
+      "column_header": "6. Globalization Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/internationally"
+    },
+    {
+      "column_header": "7. Nuclear Proliferation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfBombs"
+    },
+    {
+      "column_header": "8. Environmental Accords",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/unesco"
+    },
+    {
+      "column_header": "9. Human Rights Treaties",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/internationalAffiliation"
+    },
+    {
+      "column_header": "10. Immigration Policies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/citizenship"
+    }
+  ]
+}

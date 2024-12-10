@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Period or Movement",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/termPeriod"
+    },
+    {
+      "column_header": "Geographical Region",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": "Major Works",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+    },
+    {
+      "column_header": "Additional Authors",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/author"
+    },
+    {
+      "column_header": "Newly Introduced Characters",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/characterInPlay"
+    },
+    {
+      "column_header": "Extended Plot Elements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": "Supplemental Themes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/endingTheme"
+    },
+    {
+      "column_header": "Expanded Historical Context",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": "Supplementary Cultural Significance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Extra Language Aspects",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/originalLanguage"
+    },
+    {
+      "column_header": "Distinct Literary Devices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": "Additional Symbolisms",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/symbol"
+    },
+    {
+      "column_header": "Exceptional Imaging Variations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/pictureDescription"
+    }
+  ]
+}

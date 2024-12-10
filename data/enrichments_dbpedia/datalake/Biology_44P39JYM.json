@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "Bioinformatics resources used ", "dbpedia_property_id": "http://dbpedia.org/ontology/kegg"},
+    {"column_header": " Algorithms employed", "dbpedia_property_id": "http://dbpedia.org/ontology/technique"},
+    {"column_header": " Data processing workflow", "dbpedia_property_id": "http://dbpedia.org/ontology/procedure"},
+    {"column_header": "* Organism studied*", "dbpedia_property_id": "http://dbpedia.org/ontology/species"},
+    {"column_header": " Experimental methods utilized$", "dbpedia_property_id": "http://dbpedia.org/ontology/detectionMethod"},
+    {"column_header": " Proteins involved@%", "dbpedia_property_id": "http://dbpedia.org/ontology/protein"},
+    {"column_header": " Posttranslational modifications?", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": " Subcelluar localizations^#++", "dbpedia_property_id": "http://dbpedia.org/ontology/fauna"},
+    {"column_header": " Functionally related homologous genes&%", "dbpedia_property_id": "http://dbpedia.org/ontology/orthologousGene"},
+    {"column_header": "", "dbpedia_property_id": ""},
+    {"column_header": " Regulation at transcription level$%%.", "dbpedia_property_id": "http://dbpedia.org/ontology/detectionMethod"},
+    {"column_header": " Epigenetics changes^^**.*", "dbpedia_property_id": "http://dbpedia.org/ontology/refseqmrna"},
+    {"column_header": " Ecologically relevant interactions&&***... ...<?>", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"},
+    {"column_header": " Phenotype observations when mutating@@##.. ..|| Disease associations$$$^__.........", "dbpedia_property_id": "http://dbpedia.org/ontology/disease"}
+  ]
+}

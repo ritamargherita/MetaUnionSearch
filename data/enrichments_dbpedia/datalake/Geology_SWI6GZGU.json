@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {"column_header": "Seismicity Rate", "dbpedia_property_id": "http://dbpedia.org/ontology/activity"},
+    {"column_header": "Volcanological Activity", "dbpedia_property_id": "http://dbpedia.org/ontology/volcanicActivity"},
+    {"column_header": "Tectonic Setting", "dbpedia_property_id": "http://dbpedia.org/ontology/geology"},
+    {"column_header": "Plate Boundary Types", "dbpedia_property_id": "http://dbpedia.org/ontology/orogeny"},
+    {"column_header": "Fault Orientations", "dbpedia_property_id": "http://dbpedia.org/ontology/orientation"},
+    {"column_header": "Crustal Thickness", "dbpedia_property_id": "http://dbpedia.org/ontology/depths"},
+    {"column_header": "Magmatic Arc Proximity", "dbpedia_property_id": "http://dbpedia.org/ontology/volcanicActivity"},
+    {"column_header": "Earthquake History", "dbpedia_property_id": "http://dbpedia.org/ontology/casualties"},
+    {"column_header": "Surface Deformation", "dbpedia_property_id": "http://dbpedia.org/ontology/surfaceType"},
+    {"column_header": "Soil pH Levels", "dbpedia_property_id": "http://dbpedia.org/ontology/solubility"},
+    {"column_header": "Groundwater Chemistry", "dbpedia_property_id": "http://dbpedia.org/ontology/dissolved"},
+    {"column_header": "Natural Radioactivity", "dbpedia_property_id": "http://dbpedia.org/ontology/radio"}
+  ]
+}

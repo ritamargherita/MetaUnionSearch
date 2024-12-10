@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Apparel Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Fit",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/clothingSize"
+    },
+    {
+      "column_header": "Hue",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/hsvCoordinateHue"
+    },
+    {
+      "column_header": "Fabric",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/material"
+    },
+    {
+      "column_header": "Label",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/websiteLabel"
+    },
+    {
+      "column_header": "Cost",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cost"
+    },
+    {
+      "column_header": "Collection",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collection"
+    },
+    {
+      "column_header": "Event",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/event"
+    },
+    {
+      "column_header": "Design",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/significantDesign"
+    },
+    {
+      "column_header": "Quantity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "Supplier",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/distributor"
+    },
+    {
+      "column_header": "Purchase Time",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/acquirementDate"
+    },
+    {
+      "column_header": "Return Period",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/termPeriod"
+    }
+  ]
+}

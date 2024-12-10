@@ -83,14 +83,14 @@ def main(input_file, output_file, threshold):
 if __name__ == "__main__":
 
     """
-    ### META UNION SEARCH (simple data) - EVAL SET
+    ### META UNION SEARCH (simple data)
     input_file = "../results/eval/simple/cosine_similarity_with_groundtruth.csv"
     output_file = "../results/eval/simple/meta_union_search_with_groundtruth.csv"
     threshold = 0.177
     """
 
     #"""
-    ### META UNION SEARCH (simple data) - EVAL SET
+    ### META UNION SEARCH (enriched_dtypes)
     input_file = "../results/eval/enriched_dtypes/cosine_similarity_with_groundtruth.csv"
     output_file = "../results/eval/enriched_dtypes/meta_union_search_with_groundtruth.csv"
     threshold = 0.175

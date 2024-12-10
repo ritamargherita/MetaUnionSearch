@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Rock Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/kindOfRock"
+    },
+    {
+      "column_header": "Mineral Composition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/material"
+    },
+    {
+      "column_header": "Age (Million Years)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/age"
+    },
+    {
+      "column_header": "Formation Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Rock Density",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/density"
+    },
+    {
+      "column_header": "Porosity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/strength"
+    },
+    {
+      "column_header": "Permeability",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/strength"
+    },
+    {
+      "column_header": "Shear Strength",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/strength"
+    },
+    {
+      "column_header": "Tensile Strength",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/strength"
+    },
+    {
+      "column_header": "Compressive Strength",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/strength"
+    },
+    {
+      "column_header": "Elastic Modulus",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/strength"
+    }
+  ]
+}

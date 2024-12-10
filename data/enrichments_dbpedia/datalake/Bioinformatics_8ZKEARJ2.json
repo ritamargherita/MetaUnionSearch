@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "ProteINName", "dbpedia_property_id": "http://dbpedia.org/ontology/longName"},
+    {"column_header": "_ChROMOSOME_number", "dbpedia_property_id": "http://dbpedia.org/ontology/onChromosome"},
+    {"column_header": "_STARTPosition(proteincoding)_", "dbpedia_property_id": "http://dbpedia.org/ontology/geneLocationStart"},
+    {"column_header": "_ENDPosition (stopcodon)_", "dbpedia_property_id": "http://dbpedia.org/ontology/geneLocationEnd"},
+    {"column_header": "Strandedness", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": "*gène**Type*", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": "AminoAcidSequence", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": """", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "MutationFrequency", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "MutationsAffectingFunctionalSites(*)", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "*AdditionalGOterms*", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "**/SecondaryStructure(ifapplicable)**", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "/**CrystalLatticeData *(whereavailable)**/", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "**ExperimentallyDeterminedPostTranslationalModifications**", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "*PhylogeneticAnalysisResults*", "dbpedia_property_id": "http://dbpedia.org/ontology/other"}
+  ]
+}

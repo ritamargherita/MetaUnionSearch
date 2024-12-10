@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "Philosopher Birthplace", "dbpedia_property_id": "http://dbpedia.org/ontology/birthPlace"},
+    {"column_header": "Philosophers by Century", "dbpedia_property_id": "http://dbpedia.org/ontology/era"},
+    {"column_header": "Century Duration", "dbpedia_property_id": "http://dbpedia.org/ontology/centuryBreaks"},
+    {"column_header": "Notable Ideas$", "dbpedia_property_id": "http://dbpedia.org/ontology/notableIdea"},
+    {"column_header": "Most Famous Quotes%", "dbpedia_property_id": "http://dbpedia.org/ontology/quote"},
+    {"column_header": "Common Misconceptions$", "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"},
+    {"column_header": "Related Disciplines& Associations", "dbpedia_property_id": "http://dbpedia.org/ontology/academicDiscipline"},
+    {"column_header": "Impactful Events", "dbpedia_property_id": "http://dbpedia.org/ontology/event"},
+    {"column_header": "Relevant Critics", "dbpedia_property_id": "http://dbpedia.org/ontology/related"},
+    {"column_header": "New Column 1", "dbpedia_property_id": null},
+    {"column_header": "New Column 2", "dbpedia_property_id": null},
+    {"column_header": "New Column 3", "dbpedia_property_id": null},
+    {"column_header": "New Column 4", "dbpedia_property_id": null},
+    {"column_header": "New Column 5", "dbpedia_property_id": null},
+    {"column_header": "New Column 6", "dbpedia_property_id": null}
+  ]
+}

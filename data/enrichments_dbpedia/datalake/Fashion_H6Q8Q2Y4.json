@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "Product ID", "dbpedia_property_id": "http://dbpedia.org/ontology/idNumber"},
+    {"column_header": "Product Name", "dbpedia_property_id": "http://dbpedia.org/ontology/product"},
+    {"column_header": "Clothing Type", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": "Size", "dbpedia_property_id": "http://dbpedia.org/ontology/clothingSize"},
+    {"column_header": "Color", "dbpedia_property_id": "http://dbpedia.org/ontology/colour"},
+    {"column_header": "Material", "dbpedia_property_id": "http://dbpedia.org/ontology/material"},
+    {"column_header": "Additional Details", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": "Brand", "dbpedia_property_id": "http://dbpedia.org/ontology/brand"},
+    {"column_header": "Price Range", "dbpedia_property_id": "http://dbpedia.org/ontology/range"},
+    {"column_header": "Trendiness Rating", "dbpedia_property_id": "http://dbpedia.org/ontology/rating"},
+    {"column_header": "Seasonal Popularity Score", "dbpedia_property_id": "http://dbpedia.org/ontology/rating"},
+    {"column_header": "Event Suitability Index", "dbpedia_property_id": "http://dbpedia.org/ontology/dressCode"},
+    {"column_header": "Cultural Appropriateness Indicator", "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"},
+    {"column_header": "Production Location", "dbpedia_property_id": "http://dbpedia.org/ontology/locatedInArea"}
+  ]
+}

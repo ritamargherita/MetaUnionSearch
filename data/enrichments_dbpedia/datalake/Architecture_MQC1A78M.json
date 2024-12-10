@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Architectural Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": "Structure Details - Construction Techniques",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/construction"
+    },
+    {
+      "column_header": "Structure Details - Foundation Material",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/foundation"
+    },
+    {
+      "column_header": "Structure Details - Roof Style",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/roofHeight"
+    },
+    {
+      "column_header": "Era Information - Influences and Precedents",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/era"
+    },
+    {
+      "column_header": "Era Information - Renovations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/initiallyUsedFor"
+    },
+    {
+      "column_header": "Construction Timeline",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dateConstruction"
+    },
+    {
+      "column_header": "Geographic Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Landmark Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/significantBuilding"
+    },
+    {
+      "column_header": "Preservation Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/protectionStatus"
+    },
+    {
+      "column_header": "Cultural Connection",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Public Accessibility",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publiclyAccessible"
+    },
+    {
+      "column_header": "Aesthetics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/appearance"
+    },
+    {
+      "column_header": "Surrounding Environment - Landscape Integration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/features"
+    },
+    {
+      "column_header": "Special Features",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    }
+  ]
+}

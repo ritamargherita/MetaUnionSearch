@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "fiscalyear",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/year"
+    },
+    {
+      "column_header": "economicindicator",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+    },
+    {
+      "column_header": "inflationrate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statisticValue"
+    },
+    {
+      "column_header": "unemploymentrate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statisticValue"
+    },
+    {
+      "column_header": "exportvalue",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "importvalue",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "consumerpriceindex",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statisticValue"
+    },
+    {
+      "column_header": "balanceoftrade",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "governmentdebttoGDPratio",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statisticValue"
+    },
+    {
+      "column_header": "humandevelopmentindex",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/humanDevelopmentIndex"
+    },
+    {
+      "column_header": "energyconsumptionpercapita",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statisticValue"
+    },
+    {
+      "column_header": "marketcompetitivenessranking",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/marketCapitalisation"
+    },
+    {
+      "column_header": "currentaccountbalance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "taxrevenue",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    }
+  ]
+}

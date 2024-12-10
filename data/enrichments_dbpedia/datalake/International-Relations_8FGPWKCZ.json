@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "International Organization",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/internationalAffiliation"
+    },
+    {
+      "column_header": "Global Governance Role",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/government"
+    },
+    {
+      "column_header": "Head Of State (duplicate from Table 1",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/head"
+    },
+    {
+      "column_header": "serves as a linking field)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/linkedTo"
+    },
+    {
+      "column_header": "Economic Policies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/policy"
+    },
+    {
+      "column_header": "Trade Agreements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/alliance"
+    },
+    {
+      "column_header": "Demographic Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"
+    },
+    {
+      "column_header": "Soft Power Resources",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/power"
+    },
+    {
+      "column_header": "Diplomatic Ties (duplicate from Table 1)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/alliance"
+    },
+    {
+      "column_header": "Alliances (duplicate from Table 1)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/alliance"
+    },
+    {
+      "column_header": "Regional Security Initiatives",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    },
+    {
+      "column_header": "Unique IR Theoretic Perspectives.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ideology"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "fiscal_policy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/government"
+    },
+    {
+      "column_header": "monetary_strategy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/government"
+    },
+    {
+      "column_header": "inflation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+    },
+    {
+      "column_header": "interest_rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": "exchange_rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currency"
+    },
+    {
+      "column_header": "trade_deficit",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/government"
+    },
+    {
+      "column_header": "budget_surplus_deficit",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/budget"
+    },
+    {
+      "column_header": "employment_type_sector",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": "consumer_price_index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/price"
+    },
+    {
+      "column_header": "tax_revenue",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": "government_expenditure",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/government"
+    },
+    {
+      "column_header": "public_debt",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/government"
+    },
+    {
+      "column_header": "unemployment_types",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"
+    },
+    {
+      "column_header": "poverty_level",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"
+    },
+    {
+      "column_header": "gini_coefficient",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/giniCoefficient"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "Legal Case Name", "dbpedia_property_id": "http://dbpedia.org/ontology/case"},
+    {"column_header": "Specific Laws Impacted", "dbpedia_property_id": "http://dbpedia.org/ontology/legalArticle"},
+    {"column_header": "Impact Analysis", "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"},
+    {"column_header": "Planning Committee Members and Contact Information", "dbpedia_property_id": "http://dbpedia.org/ontology/committee"},
+    {"column_header": "Media Coverage and Public Response", "dbpedia_property_id": "http://dbpedia.org/ontology/media"},
+    {"column_header": "Community Outreach Program Developments", "dbpedia_property_id": "http://dbpedia.org/ontology/projectParticipant"},
+    {"column_header": "Proceedings Timeline", "dbpedia_property_id": "http://dbpedia.org/ontology/procedure"},
+    {"column_header": "Financial Implications", "dbpedia_property_id": "http://dbpedia.org/ontology/assets"},
+    {"column_header": "Judges involved", "dbpedia_property_id": "http://dbpedia.org/ontology/judge"},
+    {"column_header": "Jury Verdict or Judge Ruling", "dbpedia_property_id": "http://dbpedia.org/ontology/ruling"},
+    {"column_header": "Sentencing information", "dbpedia_property_id": "http://dbpedia.org/ontology/convictionPenalty"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "Geometric Design", "dbpedia_property_id": "http://dbpedia.org/ontology/productShape"},
+    {"column_header": "Advanced Shape Features", "dbpedia_property_id": "http://dbpedia.org/ontology/features"},
+    {"column_header": "Additional Element Linkages", "dbpedia_property_id": "http://dbpedia.org/ontology/subsystemLink"},
+    {"column_header": "Mythological and Historical Ties", "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"},
+    {"column_header": "Symbolic Meanings", "dbpedia_property_id": "http://dbpedia.org/ontology/meaning"},
+    {"column_header": "Divinatory Procedures", "dbpedia_property_id": "http://dbpedia.org/ontology/theology"},
+    {"column_header": "Expanded Possibilities", "dbpedia_property_id": "http://dbpedia.org/ontology/notableIdea"},
+    {"column_header": "Interpretive Avenues", "dbpedia_property_id": "http://dbpedia.org/ontology/approach"},
+    {"column_header": "Limitation Considerations", "dbpedia_property_id": "http://dbpedia.org/ontology/restriction"},
+    {"column_header": "Usage Popularity", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfUseOfProperty"},
+    {"column_header": "Transmission Dynamics", "dbpedia_property_id": "http://dbpedia.org/ontology/transmission"},
+    {"column_header": "Astrological Correspondences", "dbpedia_property_id": "http://dbpedia.org/ontology/astrologicalSign"},
+    {"column_header": "Religious or Spiritual Factors", "dbpedia_property_id": "http://dbpedia.org/ontology/religion"},
+    {"column_header": "Unique Column 13", "dbpedia_property_id": "http://dbpedia.org/ontology/linkedTo"},
+    {"column_header": "Unique Column 14", "dbpedia_property_id": "http://dbpedia.org/ontology/idNumber"}
+  ]
+}

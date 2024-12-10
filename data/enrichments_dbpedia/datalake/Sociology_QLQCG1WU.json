@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "SociologicalImplications",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"
+    },
+    {
+      "column_header": "PolicyRecommendations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectKeyword"
+    },
+    {
+      "column_header": "StakeholderEngagement",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "ResearchCollaboration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectParticipant"
+    },
+    {
+      "column_header": "DataVisualization",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publication"
+    },
+    {
+      "column_header": "TheoreticalFramework",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/approach"
+    },
+    {
+      "column_header": "MethodologicalInnovations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    },
+    {
+      "column_header": "FieldworkExperiences",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/field"
+    },
+    {
+      "column_header": "ResearchImpact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publication"
+    },
+    {
+      "column_header": "ResearchFunding",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "ResearchTimeline",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/time"
+    },
+    {
+      "column_header": "DisseminationChannels",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/channel"
+    }
+  ]
+}

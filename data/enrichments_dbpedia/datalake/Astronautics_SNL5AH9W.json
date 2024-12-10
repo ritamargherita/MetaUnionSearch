@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Rocket Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rocket"
+    },
+    {
+      "column_header": "Launch Site",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/launchSite"
+    },
+    {
+      "column_header": "Discovery Method",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/detectionMethod"
+    },
+    {
+      "column_header": "Funding Source",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "Experiment Conducted",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mission"
+    },
+    {
+      "column_header": "Collision Avoidance System",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    },
+    {
+      "column_header": "Propulsion Types",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fuelType"
+    },
+    {
+      "column_header": "Mission Control Center",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/administrativeCenter"
+    },
+    {
+      "column_header": "Astronomy Field Expanded",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/field"
+    },
+    {
+      "column_header": "Technical Challenges Overcome",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/winsAtChallenges"
+    }
+  ]
+}

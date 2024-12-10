@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Senior Engineer",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/senior"
+    },
+    {
+      "column_header": "Junior Engineer",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/juniorTeam"
+    },
+    {
+      "column_header": "Engineering Discipline",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/academicDiscipline"
+    },
+    {
+      "column_header": "Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Hours Worked",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/work"
+    },
+    {
+      "column_header": "Training Completed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/training"
+    },
+    {
+      "column_header": "Certifications Held",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/certification"
+    },
+    {
+      "column_header": "Equipment Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": "Collaborative Projects",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Mentorship Programs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mentor"
+    },
+    {
+      "column_header": "Professional Affiliations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/affiliation"
+    },
+    {
+      "column_header": "Conference Attendance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfPeopleAttending"
+    },
+    {
+      "column_header": "Publications",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publication"
+    }
+  ]
+}
