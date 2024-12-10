@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhotographyK5SILU2D> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_K5SILU2D.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhotographyK5SILU2D/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/ApertureValue> a dsv:Column ;
+    rdfs:label "Aperture Value" ;
+    dsv:columnProperty "shoots" .
+
+<http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/CameraMake> a dsv:Column ;
+    rdfs:label "Camera Make" ;
+    dsv:columnProperty "photographer" .
+
+<http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/CameraModel> a dsv:Column ;
+    rdfs:label "Camera Model" ;
+    dsv:columnProperty "model" .
+
+<http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/DateTaken> a dsv:Column ;
+    rdfs:label "Date Taken" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/ExposureCompensation> a dsv:Column ;
+    rdfs:label "Exposure Compensation" ;
+    dsv:columnProperty "shoot" .
+
+<http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/FileName> a dsv:Column ;
+    rdfs:label "File Name" ;
+    dsv:columnProperty "filename" .
+
+<http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/FocalLength> a dsv:Column ;
+    rdfs:label "Focal Length" ;
+    dsv:columnProperty "shoot" .
+
+<http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/ISO> a dsv:Column ;
+    rdfs:label "ISO" ;
+    dsv:columnProperty "ISO region code" .
+
+<http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/LightSource> a dsv:Column ;
+    rdfs:label "Light Source" ;
+    dsv:columnProperty "cinematography" .
+
+<http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/MeteringMode> a dsv:Column ;
+    rdfs:label "Metering Mode" ;
+    dsv:columnProperty "shoots" .
+
+<http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/ShutterSpeed> a dsv:Column ;
+    rdfs:label "Shutter Speed" ;
+    dsv:columnProperty "shoot" .
+
+<http://metaUnionSearch/datasets/PhotographyK5SILU2D/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/ApertureValue>,
+        <http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/CameraMake>,
+        <http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/CameraModel>,
+        <http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/DateTaken>,
+        <http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/ExposureCompensation>,
+        <http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/FileName>,
+        <http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/FocalLength>,
+        <http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/ISO>,
+        <http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/LightSource>,
+        <http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/MeteringMode>,
+        <http://metaUnionSearch/datasets/PhotographyK5SILU2D/column/ShutterSpeed> .
+

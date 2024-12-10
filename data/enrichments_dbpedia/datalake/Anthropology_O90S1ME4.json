@@ -1,0 +1,18 @@
+{
+    "mapping": [
+        {"column_header": "ArchaeologistName", "dbpedia_property_id": "http://dbpedia.org/ontology/curator"},
+        {"column_header": "ExcavationYear", "dbpedia_property_id": "http://dbpedia.org/ontology/yearOfConstruction"},
+        {"column_header": "FieldNotes", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+        {"column_header": "PreservationStatus", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+        {"column_header": "NumberOfStrataStudied", "dbpedia_property_id": "http://dbpedia.org/ontology/number"},
+        {"column_header": "RadiocarbonDatingResults", "dbpedia_property_id": "http://dbpedia.org/ontology/result"},
+        {"column_header": "CulturalArtisticExpressions", "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"},
+        {"column_header": "NeighboringPopulationsDescription", "dbpedia_property_id": "http://dbpedia.org/ontology/neighboringMunicipality"},
+        {"column_header": "TradeItemsIdentified", "dbpedia_property_id": "http://dbpedia.org/ontology/supplies"},
+        {"column_header": "NaturalResourcesUtilized", "dbpedia_property_id": "http://dbpedia.org/ontology/fuel"},
+        {"column_header": "GeographicalFeaturesSurroundings", "dbpedia_property_id": "http://dbpedia.org/ontology/refgeo"},
+        {"column_header": "LithicToolsFound", "dbpedia_property_id": "http://dbpedia.org/ontology/arm"},
+        {"column_header": "PotteryShardsCollected", "dbpedia_property_id": "http://dbpedia.org/ontology/museum"},
+        {"column_header": "BoneToolsFound", "dbpedia_property_id": "http://dbpedia.org/ontology/curator"}
+    ]
+}

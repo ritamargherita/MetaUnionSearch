@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Study Area ID", "dbpedia_property_id": "http://dbpedia.org/ontology/id"},
+    {"column_header": "Date & Time Stamp", "dbpedia_property_id": "http://dbpedia.org/ontology/recordDate"},
+    {"column_header": "Weather Condition", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": "Cloud Cover (%)", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Visibility (km)", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"}, 
+    {"column_header": "Air Quality Index", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Temperature (°C)", "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"},
+    {"column_header": "Relative Humidity (%)", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Atmospheric Pressure (hPa)", "dbpedia_property_id": "http://dbpedia.org/ontology/vaporPressure"},
+    {"column_header": "Wind Speed (m/s)", "dbpedia_property_id": "http://dbpedia.org/ontology/topSpeed"},
+    {"column_header": "Precipitation (mm)", "dbpedia_property_id": "http://dbpedia.org/ontology/areaOfCatchment"},
+    {"column_header": "Solar Radiation (W/m²)", "dbpedia_property_id": "http://dbpedia.org/ontology/effectiveRadiatedPower"},
+    {"column_header": "Soil Moisture (%)", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"}
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "fashion item id",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/id"
+    },
+    {
+      "column_header": "clothing type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "size",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/clothingSize"
+    },
+    {
+      "column_header": "color",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/colour"
+    },
+    {
+      "column_header": "material",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/material"
+    },
+    {
+      "column_header": "brand name original",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brand"
+    },
+    {
+      "column_header": "designer collaboration flag",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "price per unit$",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/unitCost"
+    },
+    {
+      "column_header": "sale status [discount] percentage off",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "actual selling amount",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/price"
+    },
+    {
+      "column_header": "store",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/distributor"
+    },
+    {
+      "column_header": "purchase date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/acquirementDate"
+    },
+    {
+      "column_header": "return policy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/status"
+    }
+  ]
+}

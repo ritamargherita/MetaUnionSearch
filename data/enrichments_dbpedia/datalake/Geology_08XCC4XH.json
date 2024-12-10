@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Secondary minerals",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/kindOfRock"
+    },
+    {
+      "column_header": " Crystalline structure",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/structuralSystem"
+    },
+    {
+      "column_header": " Rock-forming processes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": " Igneous differentiation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/volcanicActivity"
+    },
+    {
+      "column_header": " Metamorphic rock types",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/kindOfRock"
+    },
+    {
+      "column_header": " Contact vs regional metamorphism",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": " Weathering products",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/material"
+    },
+    {
+      "column_header": " Geological significance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/significantProject"
+    },
+    {
+      "column_header": " Alteration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"
+    },
+    {
+      "column_header": " Age (Million Years)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/age"
+    },
+    {
+      "column_header": " Formation Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": " Stratigraphic Position",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sourcePosition"
+    },
+    {
+      "column_header": " Subsurface Conditions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/depths"
+    },
+    {
+      "column_header": " (11 columns from Table 2)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/aggregation"
+    },
+    {
+      "column_header": " (4 common columns)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/aggregation"
+    }
+  ]
+}

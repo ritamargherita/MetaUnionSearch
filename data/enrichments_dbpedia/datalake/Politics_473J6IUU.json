@@ -1,0 +1,14 @@
+{
+  "mapping": [
+    {"column_header": "Policy Development Progression", "dbpedia_property_id": "http://dbpedia.org/ontology/government"},
+    {"column_header": "Public Opinions Rating", "dbpedia_property_id": "http://dbpedia.org/ontology/rating"},
+    {"column_header": "Public Engagement Metrics", "dbpedia_property_id": "http://dbpedia.org/ontology/shareOfAudience"},
+    {"column_header": "International Relations Standing", "dbpedia_property_id": "http://dbpedia.org/ontology/internationalAffiliation"},
+    {"column_header": "Election Results History（Past5Years）", "dbpedia_property_id": "http://dbpedia.org/ontology/electionDate"},
+    {"column_header": "Grassroots Movement Strength", "dbpedia_property_id": "http://dbpedia.org/ontology/strength"},
+    {"column_header": "Third‐Party Endorsements Received", "dbpedia_property_id": "http://dbpedia.org/ontology/affiliate"},
+    {"column_header": "Legislation Track Record Analysis", "dbpedia_property_id": "http://dbpedia.org/ontology/legislature"},
+    {"column_header": "Constituent Services Evaluation", "dbpedia_property_id": "http://dbpedia.org/ontology/service"},
+    {"column_header": "Number of Scandals", "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"}
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Sepulture Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Culture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Archaeological Findings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fossil"
+    },
+    {
+      "column_header": "Number Of Burials",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfGraves"
+    },
+    {
+      "column_header": "Coordinates",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/kindOfCoordinate"
+    },
+    {
+      "column_header": "Survey Method",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/detectionMethod"
+    },
+    {
+      "column_header": "Radiocarbon Dating",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dateOfBurial"
+    },
+    {
+      "column_header": "Pottery Styles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Jewelry Types",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/decoration"
+    },
+    {
+      "column_header": "Eroding Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currentStatus"
+    },
+    {
+      "column_header": "Collaborative Project",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Lead Investigator",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectParticipant"
+    },
+    {
+      "column_header": "Funding Agency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "Fund Allocation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectBudgetFunding"
+    }
+  ]
+}

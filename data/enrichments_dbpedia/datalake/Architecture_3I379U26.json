@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Architectural Theories",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalMovement"
+    },
+    {
+      "column_header": "Fire Safety Measures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": "Acoustic Quality Assessment",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": "Lightning Protection Systems Data",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": "Maintenance Schedules & Needs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/maintainedBy"
+    },
+    {
+      "column_header": "Building Use",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currentlyUsedFor"
+    },
+    {
+      "column_header": "Construction Techniques",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/construction"
+    },
+    {
+      "column_header": "Architectural Details",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": "Urban Context",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/urbanArea"
+    },
+    {
+      "column_header": "Societal Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Preservation Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    }
+  ]
+}

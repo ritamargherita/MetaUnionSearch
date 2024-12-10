@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_8F1CBFNO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Religion8F1CBFNO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO/column/Beliefs> a dsv:Column ;
+    rdfs:label " Beliefs" ;
+    dsv:columnProperty "ideology" .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO/column/ChallengesFaced> a dsv:Column ;
+    rdfs:label " Challenges Faced" ;
+    dsv:columnProperty "wins at challenges" .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO/column/CommunityStructureRoles> a dsv:Column ;
+    rdfs:label " Community Structure & Roles" ;
+    dsv:columnProperty "role" .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO/column/DeitiesWorshipped> a dsv:Column ;
+    rdfs:label " Deities Worshipped" ;
+    dsv:columnProperty "enshrined deity" .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO/column/Demographics> a dsv:Column ;
+    rdfs:label " Demographics" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO/column/Founder> a dsv:Column ;
+    rdfs:label " Founder" ;
+    dsv:columnProperty "founded by" .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO/column/HolyTexts> a dsv:Column ;
+    rdfs:label " Holy Texts" ;
+    dsv:columnProperty "mythology" .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO/column/ImportantSymbols> a dsv:Column ;
+    rdfs:label " Important Symbols" ;
+    dsv:columnProperty "identification symbol" .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO/column/MajorDenominations> a dsv:Column ;
+    rdfs:label " Major Denominations" ;
+    dsv:columnProperty "denomination" .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO/column/MajorSectsSubsects> a dsv:Column ;
+    rdfs:label " Major Sects & Subsects" ;
+    dsv:columnProperty "religious order" .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO/column/PlaceofOrigin> a dsv:Column ;
+    rdfs:label " Place of Origin" ;
+    dsv:columnProperty "origin" .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO/column/Prophets> a dsv:Column ;
+    rdfs:label " Prophets" ;
+    dsv:columnProperty "religious head" .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO/column/ReligionName> a dsv:Column ;
+    rdfs:label "\"Religion Name" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO/column/ReligiousCelebrations> a dsv:Column ;
+    rdfs:label " Religious Celebrations" ;
+    dsv:columnProperty "feast day, holiday" .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO/column/SocioeconomicStatus> a dsv:Column ;
+    rdfs:label " Socioeconomic Status\"" ;
+    dsv:columnProperty "income" .
+
+<http://metaUnionSearch/datasets/Religion8F1CBFNO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Religion8F1CBFNO/column/Beliefs>,
+        <http://metaUnionSearch/datasets/Religion8F1CBFNO/column/ChallengesFaced>,
+        <http://metaUnionSearch/datasets/Religion8F1CBFNO/column/CommunityStructureRoles>,
+        <http://metaUnionSearch/datasets/Religion8F1CBFNO/column/DeitiesWorshipped>,
+        <http://metaUnionSearch/datasets/Religion8F1CBFNO/column/Demographics>,
+        <http://metaUnionSearch/datasets/Religion8F1CBFNO/column/Founder>,
+        <http://metaUnionSearch/datasets/Religion8F1CBFNO/column/HolyTexts>,
+        <http://metaUnionSearch/datasets/Religion8F1CBFNO/column/ImportantSymbols>,
+        <http://metaUnionSearch/datasets/Religion8F1CBFNO/column/MajorDenominations>,
+        <http://metaUnionSearch/datasets/Religion8F1CBFNO/column/MajorSectsSubsects>,
+        <http://metaUnionSearch/datasets/Religion8F1CBFNO/column/PlaceofOrigin>,
+        <http://metaUnionSearch/datasets/Religion8F1CBFNO/column/Prophets>,
+        <http://metaUnionSearch/datasets/Religion8F1CBFNO/column/ReligionName>,
+        <http://metaUnionSearch/datasets/Religion8F1CBFNO/column/ReligiousCelebrations>,
+        <http://metaUnionSearch/datasets/Religion8F1CBFNO/column/SocioeconomicStatus> .
+

@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "Legal Case Number", "dbpedia_property_id": "http://dbpedia.org/ontology/licenceNumber"},
+    {"column_header": "Legal Case Status", "dbpedia_property_id": "http://dbpedia.org/ontology/status"},
+    {"column_header": "Plaintiff Representatives", "dbpedia_property_id": "http://dbpedia.org/ontology/representative"},
+    {"column_header": "Defendant Representatives", "dbpedia_property_id": "http://dbpedia.org/ontology/representative"},
+    {"column_header": "Court Location", "dbpedia_property_id": "http://dbpedia.org/ontology/locationCity"},
+    {"column_header": "Judge Names", "dbpedia_property_id": "http://dbpedia.org/ontology/judge"},
+    {"column_header": "Verdict or Ruling", "dbpedia_property_id": "http://dbpedia.org/ontology/ruling"},
+    {"column_header": "Sentencing Information", "dbpedia_property_id": "http://dbpedia.org/ontology/convictionPenalty"},
+    {"column_header": "Appeal Status", "dbpedia_property_id": "http://dbpedia.org/ontology/currentStatus"},
+    {"column_header": "Evidence Summary", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": "Expert Witnesses", "dbpedia_property_id": "http://dbpedia.org/ontology/participant"},
+    {"column_header": "Precedents Cited", "dbpedia_property_id": "http://dbpedia.org/ontology/legalArticle"},
+    {"column_header": "Case Financial Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/marketCapitalisation"},
+    {"column_header": "Legislation Type", "dbpedia_property_id": "http://dbpedia.org/ontology/legislature"},
+    {"column_header": "Legal Proceedings Timeframe", "dbpedia_property_id": "http://dbpedia.org/ontology/duration"}
+  ]
+}

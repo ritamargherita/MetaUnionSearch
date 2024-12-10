@@ -1,0 +1,14 @@
+{
+    "mapping": [
+        {"column_header": "Additional Animals", "dbpedia_property_id": "http://dbpedia.org/ontology/animal"},
+        {"column_header": " Breed Variations", "dbpedia_property_id": "http://dbpedia.org/ontology/hasVariant"},
+        {"column_header": " Age at Maturity", "dbpedia_property_id": "http://dbpedia.org/ontology/age"},
+        {"column_header": " Adult Weight", "dbpedia_property_id": "http://dbpedia.org/ontology/weight"},
+        {"column_header": " Health Condition History", "dbpedia_property_id": "http://dbpedia.org/ontology/disease"},
+        {"column_header": " New Symptoms", "dbpedia_property_id": "http://dbpedia.org/ontology/symptom"},
+        {"column_header": " Advanced Diagnostic Tests", "dbpedia_property_id": "http://dbpedia.org/ontology/medicalDiagnosis"},
+        {"column_header": " Therapy Options", "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"},
+        {"column_header": " Progress Notes", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+        {"column_header": " Veterinary Contact Information", "dbpedia_property_id": "http://dbpedia.org/ontology/specialist"}
+    ]
+}

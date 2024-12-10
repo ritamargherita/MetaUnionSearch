@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Goddess Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/name"
+    },
+    {
+      "column_header": "Origin",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/origin"
+    },
+    {
+      "column_header": "Domain: Divine Task or Role",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/domain"
+    },
+    {
+      "column_header": "Worship Culture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Appearance Description",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/appearance"
+    },
+    {
+      "column_header": "Typical Attributes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    },
+    {
+      "column_header": "Legendary Stories",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"
+    },
+    {
+      "column_header": "Divine Powers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/power"
+    },
+    {
+      "column_header": "Daily Life and Behavior",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    },
+    {
+      "column_header": "Influence on Mythology",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/influencedBy"
+    }
+  ]
+}

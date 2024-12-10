@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "fiscalyear",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statisticYear"
+    },
+    {
+      "column_header": "economicindicator",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+    },
+    {
+      "column_header": "globalmarketshare percentage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "inflation rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": "unemployment rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statValue"
+    },
+    {
+      "column_header": "trade balance ($ billion)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": "exchange rate vs USD index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currency"
+    },
+    {
+      "column_header": "Gini coefficient",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/giniCoefficient"
+    },
+    {
+      "column_header": "consumer price index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/grossDomesticProduct"
+    },
+    {
+      "column_header": "interest rate (treasury 6 month)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": "business confidence index score",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/consumerConfidence"
+    },
+    {
+      "column_header": "retail sales ($ billion, quarterly)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": "public debt (% of GDP)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/perCapitaIncome"
+    },
+    {
+      "column_header": "private debt per capita ($)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/grossDomesticProductPerPeople"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Genetics0HICCT5H> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_0HICCT5H.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Genetics0HICCT5H/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Genetics0HICCT5H/column/ChromosomeLocation> a dsv:Column ;
+    rdfs:label "Chromosome Location" ;
+    dsv:columnProperty "chromosome" .
+
+<http://metaUnionSearch/datasets/Genetics0HICCT5H/column/ChromosomeNumber> a dsv:Column ;
+    rdfs:label "Chromosome Number" ;
+    dsv:columnProperty "on chromosome" .
+
+<http://metaUnionSearch/datasets/Genetics0HICCT5H/column/ExpressionPattern> a dsv:Column ;
+    rdfs:label "Expression Pattern" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/Genetics0HICCT5H/column/GeneDescription> a dsv:Column ;
+    rdfs:label "Gene Description" ;
+    dsv:columnProperty "medical diagnosis" .
+
+<http://metaUnionSearch/datasets/Genetics0HICCT5H/column/GeneSymbol> a dsv:Column ;
+    rdfs:label "Gene Symbol" ;
+    dsv:columnProperty "Symbol" .
+
+<http://metaUnionSearch/datasets/Genetics0HICCT5H/column/GeneticDisorder> a dsv:Column ;
+    rdfs:label "Genetic Disorder" ;
+    dsv:columnProperty "disease" .
+
+<http://metaUnionSearch/datasets/Genetics0HICCT5H/column/InheritancePattern> a dsv:Column ;
+    rdfs:label "Inheritance Pattern" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/Genetics0HICCT5H/column/MutationLocation> a dsv:Column ;
+    rdfs:label "Mutation Location" ;
+    dsv:columnProperty "Gene Location" .
+
+<http://metaUnionSearch/datasets/Genetics0HICCT5H/column/MutationType> a dsv:Column ;
+    rdfs:label "Mutation Type" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/Genetics0HICCT5H/column/PopulationFrequency> a dsv:Column ;
+    rdfs:label "Population Frequency" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/Genetics0HICCT5H/column/PrevalenceRate> a dsv:Column ;
+    rdfs:label "Prevalence Rate" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/Genetics0HICCT5H/column/RecessiveAllelesNeeded> a dsv:Column ;
+    rdfs:label "Recessive Alleles Needed" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/Genetics0HICCT5H/column/Symptoms> a dsv:Column ;
+    rdfs:label "Symptoms" ;
+    dsv:columnProperty "symptoms" .
+
+<http://metaUnionSearch/datasets/Genetics0HICCT5H/column/TestMethod> a dsv:Column ;
+    rdfs:label "Test Method" ;
+    dsv:columnProperty "Method of discovery" .
+
+<http://metaUnionSearch/datasets/Genetics0HICCT5H/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Genetics0HICCT5H/column/ChromosomeLocation>,
+        <http://metaUnionSearch/datasets/Genetics0HICCT5H/column/ChromosomeNumber>,
+        <http://metaUnionSearch/datasets/Genetics0HICCT5H/column/ExpressionPattern>,
+        <http://metaUnionSearch/datasets/Genetics0HICCT5H/column/GeneDescription>,
+        <http://metaUnionSearch/datasets/Genetics0HICCT5H/column/GeneSymbol>,
+        <http://metaUnionSearch/datasets/Genetics0HICCT5H/column/GeneticDisorder>,
+        <http://metaUnionSearch/datasets/Genetics0HICCT5H/column/InheritancePattern>,
+        <http://metaUnionSearch/datasets/Genetics0HICCT5H/column/MutationLocation>,
+        <http://metaUnionSearch/datasets/Genetics0HICCT5H/column/MutationType>,
+        <http://metaUnionSearch/datasets/Genetics0HICCT5H/column/PopulationFrequency>,
+        <http://metaUnionSearch/datasets/Genetics0HICCT5H/column/PrevalenceRate>,
+        <http://metaUnionSearch/datasets/Genetics0HICCT5H/column/RecessiveAllelesNeeded>,
+        <http://metaUnionSearch/datasets/Genetics0HICCT5H/column/Symptoms>,
+        <http://metaUnionSearch/datasets/Genetics0HICCT5H/column/TestMethod> .
+

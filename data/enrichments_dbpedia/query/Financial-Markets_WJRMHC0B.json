@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Stock Market Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/codeIndex"
+    },
+    {
+      "column_header": "Stock Market Sector",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": "Interest Rates",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": "Volatility Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": "Dividend Yield",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"
+    },
+    {
+      "column_header": "Price/Earnings Ratio",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"
+    },
+    {
+      "column_header": "Market Capitalization",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/marketCapitalisation"
+    },
+    {
+      "column_header": "Trading Volume",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/volumes"
+    },
+    {
+      "column_header": "Foreign Exchange Rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currency"
+    },
+    {
+      "column_header": "Credit Rating",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": "Gross Domestic Product",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/grossDomesticProduct"
+    },
+    {
+      "column_header": "Unemployment Rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"
+    },
+    {
+      "column_header": "Inflation Rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"
+    },
+    {
+      "column_header": "Consumer Confidence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"
+    },
+    {
+      "column_header": "Political Stability",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/politicalFunction"
+    }
+  ]
+}

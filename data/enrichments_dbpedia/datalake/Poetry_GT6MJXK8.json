@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Poet Biography",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/author"
+    },
+    {
+      "column_header": "Publication Overview",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publication"
+    },
+    {
+      "column_header": "Initial Reaction",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/review"
+    },
+    {
+      "column_header": "Cultural Context Analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Language Origin Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/originalLanguage"
+    },
+    {
+      "column_header": "Geographical Association",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refgeo"
+    },
+    {
+      "column_header": "Personal Inspiration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/inspiration"
+    },
+    {
+      "column_header": "Religious Themes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Musical Elements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/musicType"
+    },
+    {
+      "column_header": "Visual Art References",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/artisticFunction"
+    },
+    {
+      "column_header": "Gender Politics Representation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gender"
+    },
+    {
+      "column_header": "Ethnicity Exploration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ethnicity"
+    },
+    {
+      "column_header": "Historical Event Connection",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/event"
+    },
+    {
+      "column_header": "Philosophic Thought Intersection",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"
+    }
+  ]
+}

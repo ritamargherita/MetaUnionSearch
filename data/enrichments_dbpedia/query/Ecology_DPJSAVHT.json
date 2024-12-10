@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "Primary Habitat", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"},
+    {"column_header": "Habitat Characteristics", "dbpedia_property_id": "http://dbpedia.org/ontology/fauna"},
+    {"column_header": "Climate", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": "Geology", "dbpedia_property_id": "http://dbpedia.org/ontology/geology"},
+    {"column_header": "Soil Composition", "dbpedia_property_id": "http://dbpedia.org/ontology/geology"},
+    {"column_header": "Hydrology", "dbpedia_property_id": "http://dbpedia.org/ontology/water"},
+    {"column_header": "Biotic Factors", "dbpedia_property_id": "http://dbpedia.org/ontology/fauna"},
+    {"column_header": "Species Diversity", "dbpedia_property_id": "http://dbpedia.org/ontology/species"},
+    {"column_header": "Human Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"},
+    {"column_header": "Conservation Status", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+    {"column_header": "Management Strategies", "dbpedia_property_id": "http://dbpedia.org/ontology/management"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "QuantityInStock", "dbpedia_property_id": "http://dbpedia.org/ontology/supply"},
+    {"column_header": "AverageGrowRate", "dbpedia_property_id": "http://dbpedia.org/ontology/average"},
+    {"column_header": "FertlizerRecommendations", "dbpedia_property_id": "http://dbpedia.org/ontology/fertilizerRecommendation"},
+    {"column_header": "HarvestSeason", "dbpedia_property_id": "http://dbpedia.org/ontology/season"},
+    {"column_header": "OriginCountry", "dbpedia_property_id": "http://dbpedia.org/ontology/countryOrigin"},
+    {"column_header": "FamilyClassification", "dbpedia_property_id": "http://dbpedia.org/ontology/family"},
+    {"column_header": "MaximumMatureHeight", "dbpedia_property_id": "http://dbpedia.org/ontology/maximumArea"},
+    {"column_header": "MaximumMatureSpread", "dbpedia_property_id": "http://dbpedia.org/ontology/maximumArea"},
+    {"column_header": "PropagationMethods", "dbpedia_property_id": "http://dbpedia.org/ontology/cultivatedVariety"},
+    {"column_header": "MistPropensity", "dbpedia_property_id": "http://dbpedia.org/ontology/odor"},
+    {"column_header": "IdealSoilTemperatureRange", "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"},
+    {"column_header": "RootSystemDepthFeet", "dbpedia_property_id": "http://dbpedia.org/ontology/maximumArea"},
+    {"column_header": "PotentialToxicitySignals", "dbpedia_property_id": "http://dbpedia.org/ontology/lethalOnRats"},
+    {"column_header": "SoilPh", "dbpedia_property_id": "http://dbpedia.org/ontology/ph"},
+    {"column_header": "WateringFrequency", "dbpedia_property_id": "http://dbpedia.org/ontology/waterFrequency"}
+  ]
+}

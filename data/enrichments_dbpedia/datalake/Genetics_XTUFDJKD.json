@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Genes Affecting Traits",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/related"
+    },
+    {
+      "column_header": "Average Age Of Onset",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/upperAge"
+    },
+    {
+      "column_header": "Chromosome Region",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/chromosome"
+    },
+    {
+      "column_header": "Related Conditions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/disease"
+    },
+    {
+      "column_header": "Other Clinical Features",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    },
+    {
+      "column_header": "Diagnostic Markers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medicalDiagnosis"
+    },
+    {
+      "column_header": "Penetrance%",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Expressivity%",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Locus Heterogeneity?",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/locusSupplementaryData"
+    },
+    {
+      "column_header": "Animal Models Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/animal"
+    },
+    {
+      "column_header": "Gene Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/symbol"
+    },
+    {
+      "column_header": "Protein Function",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherFunction"
+    },
+    {
+      "column_header": "Additional Information",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    },
+    {
+      "column_header": "Population Frequency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"
+    }
+  ]
+}

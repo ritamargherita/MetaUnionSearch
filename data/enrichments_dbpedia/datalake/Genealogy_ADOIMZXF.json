@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "AncestorOneGivenName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/birthName"
+    },
+    {
+      "column_header": "AncestorOneMiddleName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/personName"
+    },
+    {
+      "column_header": "AncestorOneSurname",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/birthName"
+    },
+    {
+      "column_header": "AncestorOneBirthPlace",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/birthPlace"
+    },
+    {
+      "column_header": "AncestorOneDeathDate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/extinctionDate"
+    },
+    {
+      "column_header": "AncestorOneSSN",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/number"
+    },
+    {
+      "column_header": "AdoptiveMotherGivenName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mother"
+    },
+    {
+      "column_header": "AdoptiveMotherMaidenName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mother"
+    },
+    {
+      "column_header": "AdoptiveMotherSSN",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/number"
+    },
+    {
+      "column_header": "SpouseName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/spouseName"
+    },
+    {
+      "column_header": "NumberOfMarriages",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfDeaths"
+    },
+    {
+      "column_header": "Ethnicity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ethnicity"
+    },
+    {
+      "column_header": "AmountInherited",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/number"
+    }
+  ]
+}

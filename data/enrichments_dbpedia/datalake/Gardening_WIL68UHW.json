@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "Quantity", "dbpedia_property_id": "http://dbpedia.org/ontology/value"},
+    {"column_header": "Supplier Name", "dbpedia_property_id": "http://dbpedia.org/ontology/supplier"},
+    {"column_header": "DateOrdered", "dbpedia_property_id": "http://dbpedia.org/ontology/orderDate"},
+    {"column_header": "PlantTypeCategorization", "dbpedia_property_id": "http://dbpedia.org/ontology/category"},
+    {"column_header": "SoilPhCertification", "dbpedia_property_id": "http://dbpedia.org/ontology/phylum"},
+    {"column_header": "WaterEfficiencyRating", "dbpedia_property_id": "http://dbpedia.org/ontology/waterPercentage"},
+    {"column_header": "PruningToolRecommendation", "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"},
+    {"column_header": "AverageGrowRatePerYear", "dbpedia_property_id": "http://dbpedia.org/ontology/average"},
+    {"column_header": "YieldPerAcreage", "dbpedia_property_id": "http://dbpedia.org/ontology/value"},
+    {"column_header": "SunExposure", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": "HardinessZone", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"}
+  ]
+}

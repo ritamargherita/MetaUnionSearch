@@ -1,0 +1,14 @@
+{
+  "mapping": [
+    {"column_header": "Team Name", "dbpedia_property_id": "http://dbpedia.org/ontology/teamName"},
+    {"column_header": " Number of Players", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfPlayers"},
+    {"column_header": " Coach", "dbpedia_property_id": "http://dbpedia.org/ontology/coach"},
+    {"column_header": " League", "dbpedia_property_id": "http://dbpedia.org/ontology/league"},
+    {"column_header": " Conference", "dbpedia_property_id": "http://dbpedia.org/ontology/currentLeague"},
+    {"column_header": " Division", "dbpedia_property_id": "http://dbpedia.org/ontology/division"},
+    {"column_header": " Founding Year", "dbpedia_property_id": "http://dbpedia.org/ontology/foundingYear"},
+    {"column_header": " Team Colors", "dbpedia_property_id": "http://dbpedia.org/ontology/colour"},
+    {"column_header": " Mascot", "dbpedia_property_id": "http://dbpedia.org/ontology/mascot"},
+    {"column_header": " Average Ticket Price", "dbpedia_property_id": "http://dbpedia.org/ontology/average"}
+  ]
+}

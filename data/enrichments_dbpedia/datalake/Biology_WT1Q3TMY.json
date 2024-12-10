@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "Physiologically relevant processes", "dbpedia_property_id": "http://dbpedia.org/ontology/otherActivity"},
+    {"column_header": "Molecular pathways involved", "dbpedia_property_id": "http://dbpedia.org/ontology/kegg"},
+    {"column_header": "Genomic context (noncoding regions)", "dbpedia_property_id": "http://dbpedia.org/ontology/geneLocation"},
+    {"column_header": "Subcellular localizations not covered by Table 1", "dbpedia_property_id": "http://dbpedia.org/ontology/isPartOfAnatomicalStructure"},
+    {"column_header": "Individual protein molecular weight", "dbpedia_property_id": "http://dbpedia.org/ontology/molecularWeight"},
+    {"column_header": "Large scale structures it forms part of", "dbpedia_property_id": "http://dbpedia.org/ontology/isPartOfAnatomicalStructure"},
+    {"column_header": "Developmentally regulated expression profiles", "dbpedia_property_id": "http://dbpedia.org/ontology/activity"},
+    {"column_header": "Homologous relationships beyond evolutionary history from Table 1", "dbpedia_property_id": "http://dbpedia.org/ontology/related"},
+    {"column_header": "Adaptive responses to environmental stimuli", "dbpedia_property_id": "http://dbpedia.org/ontology/otherActivity"},
+    {"column_header": "Protein complex membership", "dbpedia_property_id": "http://dbpedia.org/ontology/activity"},
+    {"column_header": "Posttranslational modifications", "dbpedia_property_id": "http://dbpedia.org/ontology/otherActivity"},
+    {"column_header": "Regulatory roles played over gene expression", "dbpedia_property_id": "http://dbpedia.org/ontology/activity"},
+    {"column_header": "Interactions with other entities (additional to Table 1)", "dbpedia_property_id": "http://dbpedia.org/ontology/related"},
+    {"column_header": "Gene ontology annotations (additional to Table 1)", "dbpedia_property_id": "http://dbpedia.org/ontology/governmentType"},
+    {"column_header": "Nucleotide sequence length", "dbpedia_property_id": "http://dbpedia.org/ontology/length"}
+  ]
+}

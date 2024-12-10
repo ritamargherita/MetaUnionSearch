@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Title Information",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/title"
+    },
+    {
+      "column_header": " Original Publication Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/firstPublicationDate"
+    },
+    {
+      "column_header": " Geographical Setting",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/settingOfPlay"
+    },
+    {
+      "column_header": " Author Inspiration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/author"
+    },
+    {
+      "column_header": " #of Pages",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfPages"
+    },
+    {
+      "column_header": " Editions Available",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/series"
+    },
+    {
+      "column_header": " Book Series Info.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/series"
+    },
+    {
+      "column_header": " Audience Age Group",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/age"
+    },
+    {
+      "column_header": " Illustrations Present?",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/features"
+    },
+    {
+      "column_header": " Formatting Features",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/features"
+    }
+  ]
+}

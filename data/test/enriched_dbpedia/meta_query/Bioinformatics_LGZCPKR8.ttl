@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_LGZCPKR8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/Chromosome> a dsv:Column ;
+    rdfs:label " Chromosome" ;
+    dsv:columnProperty "chromosome" .
+
+<http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/EndPosition> a dsv:Column ;
+    rdfs:label " End Position" ;
+    dsv:columnProperty "end point" .
+
+<http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/ExpressionLevel> a dsv:Column ;
+    rdfs:label " Expression Level" ;
+    dsv:columnProperty "frequency (Hz)" .
+
+<http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/GOTerms> a dsv:Column ;
+    rdfs:label " GO Terms\"" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/GeneName> a dsv:Column ;
+    rdfs:label "\"Gene Name" ;
+    dsv:columnProperty "geneReviewsName" .
+
+<http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/GeneType> a dsv:Column ;
+    rdfs:label " Gene Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/MutationFrequency> a dsv:Column ;
+    rdfs:label " Mutation Frequency" ;
+    dsv:columnProperty "frequency (Hz)" .
+
+<http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/ProteinInteractions> a dsv:Column ;
+    rdfs:label " Protein Interactions" ;
+    dsv:columnProperty "protein (g)" .
+
+<http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/Sequence> a dsv:Column ;
+    rdfs:label " Sequence" .
+
+<http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/StartPosition> a dsv:Column ;
+    rdfs:label " Start Position" ;
+    dsv:columnProperty "start point" .
+
+<http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/Strand> a dsv:Column ;
+    rdfs:label " Strand" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/Chromosome>,
+        <http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/EndPosition>,
+        <http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/ExpressionLevel>,
+        <http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/GOTerms>,
+        <http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/GeneName>,
+        <http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/GeneType>,
+        <http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/MutationFrequency>,
+        <http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/ProteinInteractions>,
+        <http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/Sequence>,
+        <http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/StartPosition>,
+        <http://metaUnionSearch/datasets/BioinformaticsLGZCPKR8/column/Strand> .
+

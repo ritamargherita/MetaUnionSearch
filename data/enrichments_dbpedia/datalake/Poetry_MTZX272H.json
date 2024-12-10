@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "POETIC ELEMENTS",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/lyrics"
+    },
+    {
+      "column_header": "_Id.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/id"
+    },
+    {
+      "column_header": "POEM SOURCE",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/source"
+    },
+    {
+      "column_header": "MEANINGFUL QUOTES",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/quote"
+    },
+    {
+      "column_header": "AUTHOR'S LIFE EVENTS",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/roleInEvent"
+    },
+    {
+      "column_header": "STYLE INFLUENCES",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/influencedBy"
+    },
+    {
+      "column_header": "POP CULTURE REFERENCES",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "LANGUAGE ORIGIN",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/originalLanguage"
+    },
+    {
+      "column_header": "POEM STRUCTURE",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/layout"
+    },
+    {
+      "column_header": "LINE COUNT",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfLines"
+    },
+    {
+      "column_header": "PAGE LAYOUT",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/layout"
+    },
+    {
+      "column_header": "AESTHETIC APPEAL",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/appearance"
+    },
+    {
+      "column_header": "POEM TRANSLATIONS",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/translator"
+    },
+    {
+      "column_header": "CRITICAL ACCLAIM",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/review"
+    }
+  ]
+}

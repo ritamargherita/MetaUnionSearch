@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {"column_header": ""Resources Utilization", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfResourceOfType"},
+    {"column_header": "Technical Complexity", "dbpedia_property_id": "http://dbpedia.org/ontology/complexity"},
+    {"column_header": "Risk Assessment", "dbpedia_property_id": "http://dbpedia.org/ontology/security"},
+    {"column_header": "Patents Filed", "dbpedia_property_id": "http://dbpedia.org/ontology/patent"},
+    {"column_header": "Collaborative Projects", "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"},
+    {"column_header": "Industry Standards Compliance", "dbpedia_property_id": "http://dbpedia.org/ontology/industry"},
+    {"column_header": "Ethical Considerations", "dbpedia_property_id": "http://dbpedia.org/ontology/oversight"},
+    {"column_header": "Training Programs", "dbpedia_property_id": "http://dbpedia.org/ontology/training"},
+    {"column_header": "Project Milestones", "dbpedia_property_id": "http://dbpedia.org/ontology/project"},
+    {"column_header": "Certifications Earned", "dbpedia_property_id": "http://dbpedia.org/ontology/certification"},
+    {"column_header": "Environmental Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"},
+    {"column_header": "Lessons Learned"", "dbpedia_property_id": "http://dbpedia.org/ontology/lessonsLearned"}
+  ]
+}

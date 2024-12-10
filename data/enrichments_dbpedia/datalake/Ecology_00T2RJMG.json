@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "Invasive Species", "dbpedia_property_id": "http://dbpedia.org/ontology/species"},
+    {"column_header": "Native Species", "dbpedia_property_id": "http://dbpedia.org/ontology/species"},
+    {"column_header": "Population Trends", "dbpedia_property_id": "http://dbpedia.org/ontology/populationYear"},
+    {"column_header": "Biodiversity Hotspots", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"},
+    {"column_header": "Endangered Species", "dbpedia_property_id": "http://dbpedia.org/ontology/endangeredSince"},
+    {"column_header": "Protected Areas", "dbpedia_property_id": "http://dbpedia.org/ontology/protectionStatus"},
+    {"column_header": "Conservation Funding", "dbpedia_property_id": "http://dbpedia.org/ontology/projectBudgetFunding"},
+    {"column_header": "Policy Measures", "dbpedia_property_id": "http://dbpedia.org/ontology/associatedAct"},
+    {"column_header": "Research Initiatives", "dbpedia_property_id": "http://dbpedia.org/ontology/projectType"},
+    {"column_header": "Public Engagement", "dbpedia_property_id": "http://dbpedia.org/ontology/publiclyAccessible"},
+    {"column_header": "Climate Change Impact.", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"}
+  ]
+}

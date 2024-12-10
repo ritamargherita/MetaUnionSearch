@@ -1,0 +1,24 @@
+{
+  "mapping": [
+    {
+      "column_header": "Island Nation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nation"
+    },
+    {
+      "column_header": " Island Area (km2)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/island"
+    },
+    {
+      "column_header": " Coastline Length (km)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/coastLength"
+    },
+    {
+      "column_header": " Number Of Islands",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfIslands"
+    },
+    {
+      "column_header": " ",
+      "dbpedia_property_id": ""
+    }
+  ]
+}

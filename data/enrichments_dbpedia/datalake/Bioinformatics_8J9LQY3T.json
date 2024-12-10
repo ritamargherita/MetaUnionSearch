@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {
+      "column_header": "Proteins Identified",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refseqprotein"
+    },
+    {
+      "column_header": "Protein Domain Architecture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/domain"
+    },
+    {
+      "column_header": "Post-translational",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mainDomain"
+    }
+  ]
+}

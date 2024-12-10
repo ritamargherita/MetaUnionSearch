@@ -1,0 +1,14 @@
+{
+  "mapping": [
+    {"column_header": "Rocket Type", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": "Launch Site", "dbpedia_property_id": "http://dbpedia.org/ontology/launchSite"},
+    {"column_header": "Funding Agency", "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"},
+    {"column_header": "Collaborative Agencies", "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"},
+    {"column_header": "Maximum Altitude (km)", "dbpedia_property_id": "http://dbpedia.org/ontology/highestAltitude"},
+    {"column_header": "Mass at Lift-off (kg)", "dbpedia_property_id": "http://dbpedia.org/ontology/mass"},
+    {"column_header": "Number of Stages", "dbpedia_property_id": "http://dbpedia.org/ontology/rocketStages"},
+    {"column_header": "Engine Types", "dbpedia_property_id": "http://dbpedia.org/ontology/engineType"},
+    {"column_header": "Delta Velocity Required (m/sec)", "dbpedia_property_id": "http://dbpedia.org/ontology/escapeVelocity"},
+    {"column_header": "Primary Flight Phase", "dbpedia_property_id": "http://dbpedia.org/ontology/launch"}
+  ]
+}

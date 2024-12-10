@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Type", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": " _ID_", "dbpedia_property_id": "http://dbpedia.org/ontology/id"},
+    {"column_header": " Metaphors Explained", "dbpedia_property_id": "http://dbpedia.org/ontology/meaning"},
+    {"column_header": " Rhyming Patterns", "dbpedia_property_id": "http://dbpedia.org/ontology/lyrics"},
+    {"column_header": " Stanza Breakdown", "dbpedia_property_id": "http://dbpedia.org/ontology/definition"},
+    {"column_header": " Vocabulary Analysis", "dbpedia_property_id": "http://dbpedia.org/ontology/meaning"},
+    {"column_header": " Use Of Similes", "dbpedia_property_id": "http://dbpedia.org/ontology/connotation"},
+    {"column_header": " Mood Changes", "dbpedia_property_id": "http://dbpedia.org/ontology/mood"},
+    {"column_header": " Ironic Twist", "dbpedia_property_id": "http://dbpedia.org/ontology/connotation"},
+    {"column_header": " Allegory References", "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"},
+    {"column_header": " Euphemisms or Dysphemisms", "dbpedia_property_id": "http://dbpedia.org/ontology/connotation"},
+    {"column_header": " Historic Context Integrations", "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"},
+    {"column_header": " Free Verse", "dbpedia_property_id": "http://dbpedia.org/ontology/free"}
+  ]
+}

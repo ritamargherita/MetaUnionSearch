@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhilosophySK28T7A9> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_SK28T7A9.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhilosophySK28T7A9/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhilosophySK28T7A9/column/InfluentialWork> a dsv:Column ;
+    rdfs:label "Influential Work" ;
+    dsv:columnProperty "notable work" .
+
+<http://metaUnionSearch/datasets/PhilosophySK28T7A9/column/MajorTheorist> a dsv:Column ;
+    rdfs:label "Major Theorist" ;
+    dsv:columnProperty "influenced by" .
+
+<http://metaUnionSearch/datasets/PhilosophySK28T7A9/column/PhilosophicalConcept> a dsv:Column ;
+    rdfs:label "Philosophical Concept" ;
+    dsv:columnProperty "philosophicalSchool" .
+
+<http://metaUnionSearch/datasets/PhilosophySK28T7A9/column/UnrelatedColumn1> a dsv:Column ;
+    rdfs:label "Unrelated Column 1" .
+
+<http://metaUnionSearch/datasets/PhilosophySK28T7A9/column/UnrelatedColumn2> a dsv:Column ;
+    rdfs:label "Unrelated Column 2" .
+
+<http://metaUnionSearch/datasets/PhilosophySK28T7A9/column/UnrelatedColumn3> a dsv:Column ;
+    rdfs:label "Unrelated Column 3" .
+
+<http://metaUnionSearch/datasets/PhilosophySK28T7A9/column/UnrelatedColumn4> a dsv:Column ;
+    rdfs:label "Unrelated Column 4" .
+
+<http://metaUnionSearch/datasets/PhilosophySK28T7A9/column/ofAdherents> a dsv:Column ;
+    rdfs:label "# of Adherents" ;
+    dsv:columnProperty "number of members" .
+
+<http://metaUnionSearch/datasets/PhilosophySK28T7A9/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhilosophySK28T7A9/column/InfluentialWork>,
+        <http://metaUnionSearch/datasets/PhilosophySK28T7A9/column/MajorTheorist>,
+        <http://metaUnionSearch/datasets/PhilosophySK28T7A9/column/PhilosophicalConcept>,
+        <http://metaUnionSearch/datasets/PhilosophySK28T7A9/column/UnrelatedColumn1>,
+        <http://metaUnionSearch/datasets/PhilosophySK28T7A9/column/UnrelatedColumn2>,
+        <http://metaUnionSearch/datasets/PhilosophySK28T7A9/column/UnrelatedColumn3>,
+        <http://metaUnionSearch/datasets/PhilosophySK28T7A9/column/UnrelatedColumn4>,
+        <http://metaUnionSearch/datasets/PhilosophySK28T7A9/column/ofAdherents> .
+

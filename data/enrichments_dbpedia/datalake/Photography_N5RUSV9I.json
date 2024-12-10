@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "Lens Make", "dbpedia_property_id": "http://dbpedia.org/ontology/manufacturer"},
+    {"column_header": "Lens Model", "dbpedia_property_id": "http://dbpedia.org/ontology/model"},
+    {"column_header": "Image Width", "dbpedia_property_id": "http://dbpedia.org/ontology/width"},
+    {"column_header": "Image Height", "dbpedia_property_id": "http://dbpedia.org/ontology/height"},
+    {"column_header": "Photo Aspect Ratio", "dbpedia_property_id": "http://dbpedia.org/ontology/aspectRatio"},
+    {"column_header": "Color Representation", "dbpedia_property_id": "http://dbpedia.org/ontology/colour"},
+    {"column_header": "Shutter Speed TV", "dbpedia_property_id": "http://dbpedia.org/ontology/cinematography"},
+    {"column_header": "Sensor Sensitivity ISO", "dbpedia_property_id": "http://dbpedia.org/ontology/iso6391Code"},
+    {"column_header": "File Size", "dbpedia_property_id": "http://dbpedia.org/ontology/fileSize"},
+    {"column_header": "Flash Fired", "dbpedia_property_id": "http://dbpedia.org/ontology/flashPoint"},
+    {"column_header": "GPS Altitude", "dbpedia_property_id": "http://dbpedia.org/ontology/altitude"},
+    {"column_header": "City", "dbpedia_property_id": "http://dbpedia.org/ontology/city"},
+    {"column_header": "Country", "dbpedia_property_id": "http://dbpedia.org/ontology/country"},
+    {"column_header": "Exposure Compensation", "dbpedia_property_id": "http://dbpedia.org/ontology/pictureDescription"}
+  ]
+}

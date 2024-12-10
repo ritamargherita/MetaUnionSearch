@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Commodity Prices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/price"
+    },
+    {
+      "column_header": "Central Bank Interest Rates",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mainInterest"
+    },
+    {
+      "column_header": "Consumer Spending",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "Housing Market Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfHouses"
+    },
+    {
+      "column_header": "Retail Sales",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sales"
+    },
+    {
+      "column_header": "Business Confidence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": "Industrial Production",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/production"
+    },
+    {
+      "column_header": "Export Import Rates",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/marketCapitalisation"
+    },
+    {
+      "column_header": "Treasury Yield Curve",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": "Investment Grade Bond Spreads",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": "Derivatives Market",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/derivative"
+    },
+    {
+      "column_header": "Central Bank Policy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mainInterest"
+    }
+  ]
+}

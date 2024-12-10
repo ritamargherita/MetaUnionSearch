@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "FruitYieldPerAcre",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/product"
+    },
+    {
+      "column_header": "AveragePlantGrowthPeriod",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/average"
+    },
+    {
+      "column_header": "TypicalMaturityDays",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/day"
+    },
+    {
+      "column_header": "SymptomsOfPestDiseases",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/symptom"
+    },
+    {
+      "column_header": "GrowthRegionsAndSpread",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/managementRegion"
+    },
+    {
+      "column_header": "MostPopularHydroponicVegetables",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cultivatedVariety"
+    },
+    {
+      "column_header": "CommonUsesOfThePlantInLandscapingAndDecorativeArt",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/plant"
+    },
+    {
+      "column_header": "ColorThemeForFloralDesignArrangements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/colour"
+    },
+    {
+      "column_header": "FragranceValuesForFloralDesigns",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/odor"
+    },
+    {
+      "column_header": "PreferredClimateConditionsForGreenhouseFarming",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/bioclimate"
+    }
+  ]
+}

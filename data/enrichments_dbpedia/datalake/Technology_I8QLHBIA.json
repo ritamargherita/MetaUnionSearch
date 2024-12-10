@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "Software Architecture Patterns", "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"},
+    {"column_header": "Programming Languages Adoption", "dbpedia_property_id": "http://dbpedia.org/ontology/programmingLanguage"},
+    {"column_header": "User Experience Design Guidelines", "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"},
+    {"column_header": "IT Project Management Methodologies", "dbpedia_property_id": "http://dbpedia.org/ontology/management"},
+    {"column_header": "Cybersecurity Threat Analysis Tools", "dbpedia_property_id": "http://dbpedia.org/ontology/security"},
+    {"column_header": "Datacenter Physical Layout Planning", "dbpedia_property_id": "http://dbpedia.org/ontology/layout"},
+    {"column_header": "Quantum Computing Research Developments", "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"},
+    {"column_header": "Virtual Reality / Augmented Reality Applications", "dbpedia_property_id": "http://dbpedia.org/ontology/computingMedia"},
+    {"column_header": "Internet Of Things (IoT) Protocol Standards", "dbpedia_property_id": "http://dbpedia.org/ontology/network"},
+    {"column_header": "Blockchain Transactions Speed Optimizations", "dbpedia_property_id": "http://dbpedia.org/ontology/projectKeyword"},
+    {"column_header": "Edge Computing Infrastructure Improvements", "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"},
+    {"column_header": "Cloud Services Pricing Models", "dbpedia_property_id": "http://dbpedia.org/ontology/cost"},
+    {"column_header": "Open Source Licensing Options", "dbpedia_property_id": "http://dbpedia.org/ontology/license"},
+    {"column_header": "Legal Issues in Technology", "dbpedia_property_id": "http://dbpedia.org/ontology/ruling"}
+  ]
+}

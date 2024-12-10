@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Fashion Trends Prediction",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Tech Gadget Adoption Rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/usage"
+    },
+    {
+      "column_header": "Internet Penetration by Region",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/regionLink"
+    },
+    {
+      "column_header": "Digital Literacy Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/illiteracy"
+    },
+    {
+      "column_header": "Quantum Computing Advancements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingMedia"
+    },
+    {
+      "column_header": "Artificial Intelligence & Machine Learning (shared column with Table 1)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"
+    },
+    {
+      "column_header": "Cybersecurity Threats Landscape Analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": "Virtual Reality Adoption in Healthcare",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/digitalChannel"
+    },
+    {
+      "column_header": "Autonomous Vehicles Market Size Forecast",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfVehicles"
+    },
+    {
+      "column_header": "Privacy Policies & Accountability Measures (combined column from Table 1's Privacy Policies and Accountability Measures)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/oversight"
+    }
+  ]
+}

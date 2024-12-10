@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "BusinessFinancialAnalysis", "dbpedia_property_id": "http://dbpedia.org/ontology/company"},
+    {"column_header": "Company Name", "dbpedia_property_id": "http://dbpedia.org/ontology/company"},
+    {"column_header": "Census Classification Code (e.g., NAICS)", "dbpedia_property_id": "http://dbpedia.org/ontology/nisCode"},
+    {"column_header": "Annual Revenue", "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"},
+    {"column_header": "Annual Expense", "dbpedia_property_id": "http://dbpedia.org/ontology/operatingIncome"},
+    {"column_header": "Current Asset Value", "dbpedia_property_id": "http://dbpedia.org/ontology/assets"},
+    {"column_header": "Current Liability Value", "dbpedia_property_id": "http://dbpedia.org/ontology/currentStatus"},
+    {"column_header": "Net Worth", "dbpedia_property_id": "http://dbpedia.org/ontology/netIncome"},
+    {"column_header": "Revenue Growth Rate", "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"},
+    {"column_header": "Net Profit Margin", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Gross Margin", "dbpedia_property_id": "http://dbpedia.org/ontology/gross"},
+    {"column_header": "Profitability Ratio", "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"},
+    {"column_header": "EBITDA Margin", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Return on Investment (ROI) %", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Interest Coverage Ratio %", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"}
+  ]
+}

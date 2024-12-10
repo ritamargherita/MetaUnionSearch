@@ -1,0 +1,19 @@
+{
+    "mapping": [
+        {"column_header": "Quantity Sold", "dbpedia_property_id": "http://dbpedia.org/ontology/numberSold"},
+        {"column_header": "Product Code", "dbpedia_property_id": "http://dbpedia.org/ontology/codeStockExchange"},
+        {"column_header": "Manufacturer Name", "dbpedia_property_id": "http://dbpedia.org/ontology/manufacturer"},
+        {"column_header": "Batch Number", "dbpedia_property_id": "http://dbpedia.org/ontology/number"},
+        {"column_header": "Expiration Date", "dbpedia_property_id": "http://dbpedia.org/ontology/date"},
+        {"column_header": "Production Date", "dbpedia_property_id": "http://dbpedia.org/ontology/productionStartDate"},
+        {"column_header": "Storage Temperature", "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"},
+        {"column_header": "Storage Humidity", "dbpedia_property_id": "http://dbpedia.org/ontology/waterPercentage"},
+        {"column_header": "Distribution Channel", "dbpedia_property_id": "http://dbpedia.org/ontology/channel"},
+        {"column_header": "Sales Region", "dbpedia_property_id": "http://dbpedia.org/ontology/regionServed"},
+        {"column_header": "Marketing Campaign", "dbpedia_property_id": "http://dbpedia.org/ontology/promotion"},
+        {"column_header": "Sales Revenue", "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"},
+        {"column_header": "Gross Profit", "dbpedia_property_id": "http://dbpedia.org/ontology/gross"},
+        {"column_header": "Operating Cost", "dbpedia_property_id": "http://dbpedia.org/ontology/operatingIncome"},
+        {"column_header": "Net Profit", "dbpedia_property_id": "http://dbpedia.org/ontology/netIncome"}
+    ]
+}

@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Regional Bloc Membership",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/membership"
+    },
+    {
+      "column_header": "Economic Integration Level",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+    },
+    {
+      "column_header": "Security Coordination",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": "Leadership Role",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/leadership"
+    },
+    {
+      "column_header": "Intelligence Sharing",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Country",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/country"
+    },
+    {
+      "column_header": "Governance Structure",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/government"
+    },
+    {
+      "column_header": "Head Of Organization*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/leader"
+    },
+    {
+      "column_header": "Government Type*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/governmentType"
+    },
+    {
+      "column_header": "HQ Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/headquarter"
+    },
+    {
+      "column_header": "EstablishedYear",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/foundingYear"
+    },
+    {
+      "column_header": "MembersCount* (current or historical)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfMembers"
+    },
+    {
+      "column_header": "GDP per Capita*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gdpPerCapita"
+    },
+    {
+      "column_header": "Population Size* (optional if not directly related to international relations topics.)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/population"
+    }
+  ]
+}

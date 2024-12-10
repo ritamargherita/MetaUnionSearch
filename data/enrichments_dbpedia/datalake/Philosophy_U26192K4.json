@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "Philosophical Thought", "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"},
+    {"column_header": "Philosopher Biography", "dbpedia_property_id": "http://dbpedia.org/ontology/author"},
+    {"column_header": "School or Movement Affiliation", "dbpedia_property_id": "http://dbpedia.org/ontology/movement"},
+    {"column_header": "Geographical Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"},
+    {"column_header": "Time Period Spanned", "dbpedia_property_id": "http://dbpedia.org/ontology/termPeriod"},
+    {"column_header": "Unique Ideas Contributions", "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"},
+    {"column_header": "Famous Students and Mentees", "dbpedia_property_id": "http://dbpedia.org/ontology/notableStudent"},
+    {"column_header": "Criticisms Received & Responses to It", "dbpedia_property_id": "http://dbpedia.org/ontology/review"},
+    {"column_header": "Governing Political Theory (if applicable)", "dbpedia_property_id": "http://dbpedia.org/ontology/ideology"},
+    {"column_header": "&Religious Beliefs (&Impact if notable)", "dbpedia_property_id": "http://dbpedia.org/ontology/religion"},
+    {"column_header": "Related Artworks & Architecture", "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"}
+  ]
+}

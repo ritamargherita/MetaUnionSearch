@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Invasive Species",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/species"
+    },
+    {
+      "column_header": "Native Species",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/species"
+    },
+    {
+      "column_header": "Endangered Species",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/endangeredSince"
+    },
+    {
+      "column_header": "Biodiversity Hotspots",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": "Protected Areas",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/protectionStatus"
+    },
+    {
+      "column_header": "Threatened Ecosystems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    },
+    {
+      "column_header": "Ecological Restoration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    },
+    {
+      "column_header": "Ecological Footprint",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fuelConsumption"
+    },
+    {
+      "column_header": "Carbon Sequestration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Sustainable Practices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    },
+    {
+      "column_header": "Climate Change Impact.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    }
+  ]
+}

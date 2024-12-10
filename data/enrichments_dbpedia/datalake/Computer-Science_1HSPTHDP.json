@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "Artificial Intelligence", "dbpedia_property_id": "http://dbpedia.org/ontology/skills"},
+    {"column_header": "Machine Learning", "dbpedia_property_id": "http://dbpedia.org/ontology/training"},
+    {"column_header": "Natural Language Processing", "dbpedia_property_id": "http://dbpedia.org/ontology/sentence"},
+    {"column_header": "Deep Learning", "dbpedia_property_id": "http://dbpedia.org/ontology/features"},
+    {"column_header": "Robotics", "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"},
+    {"column_header": "Human-Computer Interaction", "dbpedia_property_id": "http://dbpedia.org/ontology/activity"},
+    {"column_header": "Compiler Design", "dbpedia_property_id": "http://dbpedia.org/ontology/compiler"},
+    {"column_header": "Software Engineering", "dbpedia_property_id": "http://dbpedia.org/ontology/developer"},
+    {"column_header": "Multithreading", "dbpedia_property_id": "http://dbpedia.org/ontology/runtime"},
+    {"column_header": "Virtualization", "dbpedia_property_id": "http://dbpedia.org/ontology/virtualChannel"},
+    {"column_header": "Web Technologies", "dbpedia_property_id": "http://dbpedia.org/ontology/operatingSystem"}
+  ]
+}

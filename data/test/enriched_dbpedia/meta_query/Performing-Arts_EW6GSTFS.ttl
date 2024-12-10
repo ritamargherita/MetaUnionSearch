@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_EW6GSTFS.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/Active> a dsv:Column ;
+    rdfs:label "Active" ;
+    dsv:columnProperty "current status" .
+
+<http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/ArtForm> a dsv:Column ;
+    rdfs:label "Art Form" ;
+    dsv:columnProperty "artistic function" .
+
+<http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/ArtistName> a dsv:Column ;
+    rdfs:label "Artist Name" ;
+    dsv:columnProperty "name" .
+
+<http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/Awards> a dsv:Column ;
+    rdfs:label "Awards" ;
+    dsv:columnProperty "award" .
+
+<http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/KnownFor> a dsv:Column ;
+    rdfs:label "Known For" ;
+    dsv:columnProperty "known for" .
+
+<http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/PlaceofBirth> a dsv:Column ;
+    rdfs:label "Place of Birth" ;
+    dsv:columnProperty "birth place" .
+
+<http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/PopularWorks> a dsv:Column ;
+    rdfs:label "Popular Works" ;
+    dsv:columnProperty "notable work" .
+
+<http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/StartedCareer> a dsv:Column ;
+    rdfs:label "Started Career" ;
+    dsv:columnProperty "start career" .
+
+<http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/TotalAwards> a dsv:Column ;
+    rdfs:label "Total Awards" ;
+    dsv:columnProperty "overall record" .
+
+<http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/YearofBirth> a dsv:Column ;
+    rdfs:label "Year of Birth" ;
+    dsv:columnProperty "birth year" .
+
+<http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/Active>,
+        <http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/ArtForm>,
+        <http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/ArtistName>,
+        <http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/Awards>,
+        <http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/KnownFor>,
+        <http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/PlaceofBirth>,
+        <http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/PopularWorks>,
+        <http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/StartedCareer>,
+        <http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/TotalAwards>,
+        <http://metaUnionSearch/datasets/PerformingArtsEW6GSTFS/column/YearofBirth> .
+

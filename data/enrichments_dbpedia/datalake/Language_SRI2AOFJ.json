@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "Linguistic Area", "dbpedia_property_id": "http://dbpedia.org/ontology/linguisticsTradition"},
+    {"column_header": "Language Spread Map", "dbpedia_property_id": "http://dbpedia.org/ontology/mapDescription"},
+    {"column_header": "Dialect Chain Membership", "dbpedia_property_id": "http://dbpedia.org/ontology/kinOfLanguage"},
+    {"column_header": "Speech Register Differences", "dbpedia_property_id": "http://dbpedia.org/ontology/features"},
+    {"column_header": "Typological Features", "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"},
+    {"column_header": "Phonetic Inventory Variations", "dbpedia_property_id": "http://dbpedia.org/ontology/mouthPosition"},
+    {"column_header": "Grammaticized Constructions", "dbpedia_property_id": "http://dbpedia.org/ontology/construction"},
+    {"column_header": "Semantic Shifts", "dbpedia_property_id": "http://dbpedia.org/ontology/meaning"},
+    {"column_header": "Lexical Borrowings", "dbpedia_property_id": "http://dbpedia.org/ontology/derivedWord"},
+    {"column_header": "Profanity & Taboo Expressions", "dbpedia_property_id": "http://dbpedia.org/ontology/connotation"},
+    {"column_header": "Interlanguage Phenomena", "dbpedia_property_id": "http://dbpedia.org/ontology/linguisticsTradition"},
+    {"column_header": "Language Contact Phenomena", "dbpedia_property_id": "http://dbpedia.org/ontology/otherLanguage"},    
+    {"column_header": "Literary Devices", "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"},
+    {"column_header": "Sociolinguistic Variation", "dbpedia_property_id": "http://dbpedia.org/ontology/regionalLanguage"}
+  ]
+}

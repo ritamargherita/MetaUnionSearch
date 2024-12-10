@@ -1,0 +1,40 @@
+{
+  "mapping": [
+    {
+      "column_header": "Archaeologist Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/curator"
+    },
+    {
+      "column_header": "Excavation Year",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/yearOfConstruction"
+    },
+    {
+      "column_header": "Field Notes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": "Lab Analysis Results",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/result"
+    },
+    {
+      "column_header": "Collaborating Institutions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Funding Sources",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "Public Engagement Events",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/event"
+    },
+    {
+      "column_header": "Preservation Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    },
+    {
+      "column_header": "Accessibility To Researchers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publiclyAccessible"
+    }
+  ]
+}

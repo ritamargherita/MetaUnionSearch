@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Geographical Distribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfLocations"
+    },
+    {
+      "column_header": "Historical Development Stages",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": "Prominent Practitioners Throughout History",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/profession"
+    },
+    {
+      "column_header": "Geomantic Text References",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/reference"
+    },
+    {
+      "column_header": "Key Teachings from Ancient Manuscripts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/definition"
+    },
+    {
+      "column_header": "Modern Books Exploring Concepts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+    },
+    {
+      "column_header": "Ethnic Groups with High Usage Statistics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ethnicGroup"
+    },
+    {
+      "column_header": "Regional Variants within a Single Ethnic Group",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/regionalLanguage"
+    },
+    {
+      "column_header": "Gender Differences among Professionals",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gender"
+    },
+    {
+      "column_header": "Anecdotal Evidence from Field Observations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/reference"
+    },
+    {
+      "column_header": "Fusion With Other Divinatory Arts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/musicFusionGenre"
+    },
+    {
+      "column_header": "Influence on Cultural Practices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/influencedBy"
+    },
+    {
+      "column_header": "Symbolic Interpretations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/meaning"
+    },
+    {
+      "column_header": "Scientific Explanations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/scientificName"
+    }
+  ]
+}

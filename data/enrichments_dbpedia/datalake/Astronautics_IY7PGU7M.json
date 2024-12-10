@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Moon Landing Site",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/lunarLandingSite"
+    },
+    {
+      "column_header": "End Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/endDate"
+    },
+    {
+      "column_header": "Duration (days)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/missionDuration"
+    },
+    {
+      "column_header": "Spacecraft Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/spacecraft"
+    },
+    {
+      "column_header": "Primary Objective",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"
+    },
+    {
+      "column_header": "Astronomer On Board",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/crewMember"
+    },
+    {
+      "column_header": "Orbit Achieved",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orbits"
+    },
+    {
+      "column_header": "Payloads Deployed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/satellitesDeployed"
+    },
+    {
+      "column_header": "Reusable?",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+    },
+    {
+      "column_header": "First Stage Return?",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+    },
+    {
+      "column_header": "Crew Count",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfCrew"
+    },
+    {
+      "column_header": "Surface Samples Collected",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+    }
+  ]
+}

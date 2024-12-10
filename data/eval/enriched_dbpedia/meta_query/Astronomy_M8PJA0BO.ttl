@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronomyM8PJA0BO> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_M8PJA0BO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronomyM8PJA0BO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/AbsoluteMagnitude> a dsv:Column ;
+    rdfs:label "Absolute Magnitude" ;
+    dsv:columnProperty "absolute magnitude" .
+
+<http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/ApparentMagnitude> a dsv:Column ;
+    rdfs:label "Apparent Magnitude" ;
+    dsv:columnProperty "apparent magnitude" .
+
+<http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/BlackHolePresence> a dsv:Column ;
+    rdfs:label "Black Hole Presence" ;
+    dsv:columnProperty "existence" .
+
+<http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/Declination> a dsv:Column ;
+    rdfs:label "Declination" ;
+    dsv:columnProperty "declination" .
+
+<http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/Diameter> a dsv:Column ;
+    rdfs:label "Diameter" ;
+    dsv:columnProperty "diameter (μ)" .
+
+<http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/DistancefromEarthly> a dsv:Column ;
+    rdfs:label "Distance from Earth (ly)" ;
+    dsv:columnProperty "dist_ly" .
+
+<http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/Mass> a dsv:Column ;
+    rdfs:label "Mass" ;
+    dsv:columnProperty "mass (g)" .
+
+<http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/NumberofMoons> a dsv:Column ;
+    rdfs:label "Number of Moons`" ;
+    dsv:columnProperty "number of stars" .
+
+<http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/NumberofPlanets> a dsv:Column ;
+    rdfs:label "Number of Planets" ;
+    dsv:columnProperty "number of stars" .
+
+<http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/RightAscension> a dsv:Column ;
+    rdfs:label "Right Ascension" ;
+    dsv:columnProperty "right ascension" .
+
+<http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/SpiralArmStructure> a dsv:Column ;
+    rdfs:label "Spiral Arm Structure" ;
+    dsv:columnProperty "arm" .
+
+<http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/Star> a dsv:Column ;
+    rdfs:label "`Star" ;
+    dsv:columnProperty "starring" .
+
+<http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/StarSystemFormationDate> a dsv:Column ;
+    rdfs:label "Star System Formation Date" ;
+    dsv:columnProperty "discovery date" .
+
+<http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/StarType> a dsv:Column ;
+    rdfs:label "Star Type" ;
+    dsv:columnProperty "stellar classification" .
+
+<http://metaUnionSearch/datasets/AstronomyM8PJA0BO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/AbsoluteMagnitude>,
+        <http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/ApparentMagnitude>,
+        <http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/BlackHolePresence>,
+        <http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/Declination>,
+        <http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/Diameter>,
+        <http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/DistancefromEarthly>,
+        <http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/Mass>,
+        <http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/NumberofMoons>,
+        <http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/NumberofPlanets>,
+        <http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/RightAscension>,
+        <http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/SpiralArmStructure>,
+        <http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/Star>,
+        <http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/StarSystemFormationDate>,
+        <http://metaUnionSearch/datasets/AstronomyM8PJA0BO/column/StarType> .
+

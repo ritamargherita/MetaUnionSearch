@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Medical Condition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/disease"
+    },
+    {
+      "column_header": "Diagnosis Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medicalDiagnosis"
+    },
+    {
+      "column_header": "Diagnosing Physician",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/specialist"
+    },
+    {
+      "column_header": "Prescribed Medication",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medication"
+    },
+    {
+      "column_header": "Medication Dosage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dose"
+    },
+    {
+      "column_header": "Start Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/startDate"
+    },
+    {
+      "column_header": "End Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/endDate"
+    },
+    {
+      "column_header": "Refill Frequency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/frequencyOfPublication"
+    },
+    {
+      "column_header": "Refills Remaining",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refseq"
+    },
+    {
+      "column_header": "Patient ID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/id"
+    },
+    {
+      "column_header": "Patient Age",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/age"
+    }
+  ]
+}

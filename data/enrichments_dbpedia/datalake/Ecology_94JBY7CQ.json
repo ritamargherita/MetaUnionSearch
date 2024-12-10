@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Ecosystem Services",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/service"
+    },
+    {
+      "column_header": "Ecological Processes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/bioclimate"
+    },
+    {
+      "column_header": "Biodiversity Hotspots",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": "Invasive Species Presence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fauna"
+    },
+    {
+      "column_header": "Conservation Program Effectiveness",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    },
+    {
+      "column_header": "Carbon Sequestration Rates",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/co2Emission"
+    },
+    {
+      "column_header": "Water Purification Capabilities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/water"
+    },
+    {
+      "column_header": "Threatened/Endangered Species Existence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/endangeredSince"
+    },
+    {
+      "column_header": "Habitat Restoration Progress",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": "Pollution Reduction Measures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    },
+    {
+      "column_header": "Public Outreach Programs & Education Initiatives",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/education"
+    },
+    {
+      "column_header": "Legislation & Policies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/legislature"
+    },
+    {
+      "column_header": "Funding & Resources",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "Collaborative Partnerships",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    }
+  ]
+}

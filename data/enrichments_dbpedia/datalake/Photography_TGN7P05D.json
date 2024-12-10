@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {"column_header": "Photo Title", "dbpedia_property_id": "http://dbpedia.org/ontology/title"},
+    {"column_header": "Photo Description", "dbpedia_property_id": "http://dbpedia.org/ontology/pictureDescription"},
+    {"column_header": "GPS Coordinates", "dbpedia_property_id": "http://dbpedia.org/ontology/kindOfCoordinate"},
+    {"column_header": "Best Light Direction", "dbpedia_property_id": "http://dbpedia.org/ontology/orientation"},
+    {"column_header": "Lenses Used", "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"},
+    {"column_header": "Equipment Rented", "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"},
+    {"column_header": "Post Process Software", "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"},
+    {"column_header": "Original Image Size (pixels)", "dbpedia_property_id": "http://dbpedia.org/ontology/imageSize"},
+    {"column_header": "Image Format (JPEG or RAW)", "dbpedia_property_id": "http://dbpedia.org/ontology/pictureFormat"},
+    {"column_header": "Print Dimensions", "dbpedia_property_id": "http://dbpedia.org/ontology/measurements"},
+    {"column_header": "Digital Rights", "dbpedia_property_id": "http://dbpedia.org/ontology/license"},
+    {"column_header": "Photographer's Notes", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"}
+  ]
+}

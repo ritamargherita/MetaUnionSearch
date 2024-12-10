@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Country",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/country"
+    },
+    {
+      "column_header": "Government Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/governmentType"
+    },
+    {
+      "column_header": "Head of State",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/head"
+    },
+    {
+      "column_header": "GDP per Capita",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gdpPerCapita"
+    },
+    {
+      "column_header": "Population Size",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"
+    },
+    {
+      "column_header": "Cultural Influence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/influencedBy"
+    },
+    {
+      "column_header": "Military Strength",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/strength"
+    },
+    {
+      "column_header": "Diplomatic Ties",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/tie"
+    },
+    {
+      "column_header": "Alliances",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/alliance"
+    },
+    {
+      "column_header": "Political Cooperation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "IR Theory & Practice**",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/topic"
+    }
+  ]
+}

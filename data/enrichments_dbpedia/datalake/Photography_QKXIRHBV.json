@@ -1,0 +1,76 @@
+{
+  "mapping": [
+    {
+      "column_header": "Lens Make",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/manufacturer"
+    },
+    {
+      "column_header": "Lens Model",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/model"
+    },
+    {
+      "column_header": "Photo Title",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/title"
+    },
+    {
+      "column_header": "Location Shoot",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "FNumber",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/number"
+    },
+    {
+      "column_header": "Exif Version",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/version"
+    },
+    {
+      "column_header": "Flash & Drive Mode",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/flashPoint"
+    },
+    {
+      "column_header": "Color Space",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/colour"
+    },
+    {
+      "column_header": "Digital Zoom",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/scaleFactor"
+    },
+    {
+      "column_header": "White Balance Setting",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/colour"
+    },
+    {
+      "column_header": "Focus Distance Range",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/range"
+    },
+    {
+      "column_header": "Image Width",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/width"
+    },
+    {
+      "column_header": "Image Height",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/height"
+    },
+    {
+      "column_header": "GPS Latitude",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/kindOfCoordinate"
+    },
+    {
+      "column_header": "GPS Longitude",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/kindOfCoordinate"
+    },
+    {
+      "column_header": "DateTime Original",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/date"
+    },
+    {
+      "column_header": "Software Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/operatingSystem"
+    },
+    {
+      "column_header": "Comment",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/comment"
+    }
+  ]
+}

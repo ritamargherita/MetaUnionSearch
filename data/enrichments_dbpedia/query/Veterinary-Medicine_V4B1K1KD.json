@@ -1,0 +1,14 @@
+{
+  "mapping": [
+    {"column_header": "Condition Name", "dbpedia_property_id": "http://dbpedia.org/ontology/disease"},
+    {"column_header": "Animal Type", "dbpedia_property_id": "http://dbpedia.org/ontology/animal"},
+    {"column_header": "Breed", "dbpedia_property_id": "http://dbpedia.org/ontology/race"},
+    {"column_header": "Age", "dbpedia_property_id": "http://dbpedia.org/ontology/age"},
+    {"column_header": "Gender", "dbpedia_property_id": "http://dbpedia.org/ontology/gender"},
+    {"column_header": "Symptoms", "dbpedia_property_id": "http://dbpedia.org/ontology/symptom"},
+    {"column_header": "Diagnosis", "dbpedia_property_id": "http://dbpedia.org/ontology/medicalDiagnosis"},
+    {"column_header": "Treatment Duration", "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"},
+    {"column_header": "Cost", "dbpedia_property_id": "http://dbpedia.org/ontology/unitCost"},
+    {"column_header": "Prescribed Medication", "dbpedia_property_id": "http://dbpedia.org/ontology/medication"}
+  ]
+}

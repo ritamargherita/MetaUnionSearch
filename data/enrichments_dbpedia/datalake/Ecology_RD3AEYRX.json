@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "Ecosystem Structure", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"},
+    {"column_header": "Vegetative Coverage", "dbpedia_property_id": "http://dbpedia.org/ontology/features"},
+    {"column_header": "Animal Life", "dbpedia_property_id": "http://dbpedia.org/ontology/fauna"},
+    {"column_header": "New Column A", "dbpedia_property_id": "http://dbpedia.org/ontology/feature"},
+    {"column_header": "New Column B", "dbpedia_property_id": "http://dbpedia.org/ontology/speciality"},
+    {"column_header": "Secondary Habitats", "dbpedia_property_id": "http://dbpedia.org/ontology/livingPlace"},
+    {"column_header": "Nesting Areas", "dbpedia_property_id": "http://dbpedia.org/ontology/animal"},
+    {"column_header": "Foraging Grounds", "dbpedia_property_id": "http://dbpedia.org/ontology/field"},
+    {"column_header": "Special Features", "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"},
+    {"column_header": "Disruption Risks", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+    {"column_header": "Recovery Efforts", "dbpedia_property_id": "http://dbpedia.org/ontology/recoveryCases"}
+  ]
+}

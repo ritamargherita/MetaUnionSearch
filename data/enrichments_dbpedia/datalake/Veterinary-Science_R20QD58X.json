@@ -1,0 +1,14 @@
+{"mapping": [
+    {"column_header": "Animal Type", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": " Breed", "dbpedia_property_id": "http://dbpedia.org/ontology/race"},
+    {"column_header": " Age", "dbpedia_property_id": "http://dbpedia.org/ontology/age"},
+    {"column_header": " Weight", "dbpedia_property_id": "http://dbpedia.org/ontology/weight"},
+    {"column_header": " Health Status", "dbpedia_property_id": "http://dbpedia.org/ontology/status"},
+    {"column_header": " Symptoms", "dbpedia_property_id": "http://dbpedia.org/ontology/symptom"},
+    {"column_header": " Diagnosis", "dbpedia_property_id": "http://dbpedia.org/ontology/medicalDiagnosis"},
+    {"column_header": " Treatment Plan", "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"},
+    {"column_header": " Follow-up", "dbpedia_property_id": "http://dbpedia.org/ontology/followedBy"},
+    {"column_header": " Owner Information", "dbpedia_property_id": "http://dbpedia.org/ontology/owner"},
+    {"column_header": " Additional Symptoms", "dbpedia_property_id": "http://dbpedia.org/ontology/symptom"},
+    {"column_header": " Secondary Diagnosis", "dbpedia_property_id": "http://dbpedia.org/ontology/differentialDiagnosis"}
+]}

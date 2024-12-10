@@ -1,0 +1,18 @@
+{
+    "mapping": [
+        {"column_header": "`ARTID_", "dbpedia_property_id": "http://dbpedia.org/ontology/id"},
+        {"column_header": "Title；Culture；DatCreated*", "dbpedia_property_id": "http://dbpedia.org/ontology/title"},
+        {"column_header": "Location_Found", "dbpedia_property_id": "http://dbpedia.org/ontology/location"},
+        {"column_header": "Original_Location", "dbpedia_property_id": "http://dbpedia.org/ontology/sourcePlace"},
+        {"column_header": "Medium", "dbpedia_property_id": "http://dbpedia.org/ontology/material"},
+        {"column_header": "Current_Location", "dbpedia_property_id": "http://dbpedia.org/ontology/currentCity"},
+        {"column_header": "Department_in_Museum", "dbpedia_property_id": "http://dbpedia.org/ontology/department"},
+        {"column_header": "Additional_Details", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+        {"column_header": "Period", "dbpedia_property_id": "http://dbpedia.org/ontology/period"},
+        {"column_header": "School_of_Thought", "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"},
+        {"column_header": "Genre", "dbpedia_property_id": "http://dbpedia.org/ontology/genre"},
+        {"column_header": "Iconography_and_Symbolism", "dbpedia_property_id": "http://dbpedia.org/ontology/iconographicAttributes"},
+        {"column_header": "Movement_or_Style", "dbpedia_property_id": "http://dbpedia.org/ontology/movement"},
+        {"column_header": "Additional_Notes", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"}
+    ]
+}

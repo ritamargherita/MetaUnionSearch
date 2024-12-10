@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "BusinessAnalyticsDossier",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    },
+    {
+      "column_header": "Company Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/company"
+    },
+    {
+      "column_header": "Census Classification Code (e.g., NAICS)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nisCode"
+    },
+    {
+      "column_header": "Annual Revenue",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": "Quarterly Revenue",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": "Marketing Expense (%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Sales Expense (%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Employee Count",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfEmployees"
+    },
+    {
+      "column_header": "Geographic Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Industry Division",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": "Growth Momentum",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"
+    },
+    {
+      "column_header": "Demographics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"
+    },
+    {
+      "column_header": "Market Situational Awareness",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    },
+    {
+      "column_header": "Projections & Forecasts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    },
+    {
+      "column_header": "Profitability Ratios %",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    }
+  ]
+}

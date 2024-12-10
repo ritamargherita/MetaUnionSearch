@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Treatment Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"
+    },
+    {
+      "column_header": "Treatment Cost",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/programCost"
+    },
+    {
+      "column_header": "Therapy Start Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/serviceStartDate"
+    },
+    {
+      "column_header": "Therapy End Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/serviceEndDate"
+    },
+    {
+      "column_header": "Therapy Frequency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/frequency"
+    },
+    {
+      "column_header": "Therapy Progress Notes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": "Therapist Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/name"
+    },
+    {
+      "column_header": "Prescription Coverage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/coverage"
+    },
+    {
+      "column_header": "Clinical Trial Availability",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/specialTrial"
+    },
+    {
+      "column_header": "Alternative Treatments Considered",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/alternativeTitle"
+    },
+    {
+      "column_header": "Treatment Efficacy Rating",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": "Treatment Side Effects",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/complications"
+    },
+    {
+      "column_header": "Treatment Compliance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/compliance"
+    },
+    {
+      "column_header": "Additional Medical Resources",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/resources"
+    }
+  ]
+}

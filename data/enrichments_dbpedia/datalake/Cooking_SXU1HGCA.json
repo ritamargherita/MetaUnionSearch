@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Recipe Suggestions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ingredient"
+    },
+    {
+      "column_header": "Cuisine Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"
+    },
+    {
+      "column_header": "Prep Time",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/minTime"
+    },
+    {
+      "column_header": "Cook Time",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/maxTime"
+    },
+    {
+      "column_header": "Servings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/servingTemperature"
+    },
+    {
+      "column_header": "Main Ingredient",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ingredient"
+    },
+    {
+      "column_header": "Ingredient 2|Additional Ingredients",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ingredient"
+    },
+    {
+      "column_header": "Prep Tools",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/setupTime"
+    },
+    {
+      "column_header": "Ingredient Source",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/source"
+    },
+    {
+      "column_header": "Skill Level",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/complexity"
+    },
+    {
+      "column_header": "Average Cost",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cost"
+    }
+  ]
+}

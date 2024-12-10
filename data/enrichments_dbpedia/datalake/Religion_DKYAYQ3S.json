@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Historical Development Timeline",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/creationYear"
+    },
+    {
+      "column_header": "Geographical Distribution by Country/region",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/usingCountry"
+    },
+    {
+      "column_header": "Demographic Breakdown (age group / gender)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"
+    },
+    {
+      "column_header": "Prominent Figures (not including founders or prophets)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nobelLaureates"
+    },
+    {
+      "column_header": "Art & Architecture associated with religion",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": "Cultural Impact within society",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Rituals, Practices, and Ceremonies not covered under 'religious celebrations'",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ceremonialCounty"
+    },
+    {
+      "column_header": "Adherents' Viewpoints towards Science & Technology",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ideology"
+    },
+    {
+      "column_header": "Education & Morality",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/education"
+    },
+    {
+      "column_header": "Conversion & Evangelism Approach",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/approach"
+    },
+    {
+      "column_header": "Famous Literary Works",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+    },
+    {
+      "column_header": "Music & Dance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/musicBy"
+    },
+    {
+      "column_header": "Food & Dietary Restrictions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"
+    }
+  ]
+}

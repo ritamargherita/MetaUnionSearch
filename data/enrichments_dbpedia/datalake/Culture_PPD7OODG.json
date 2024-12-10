@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Literature",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": " Visual Arts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/artist"
+    },
+    {
+      "column_header": " Dance Forms",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/choreographer"
+    },
+    {
+      "column_header": " Cinema",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/film"
+    },
+    {
+      "column_header": " Architecture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": " Customary Etiquette",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dressCode"
+    },
+    {
+      "column_header": " Sports",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sport"
+    },
+    {
+      "column_header": " Mythology",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"
+    },
+    {
+      "column_header": " Folktales",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/narrator"
+    },
+    {
+      "column_header": " Craftwork",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/creatorOfDish"
+    },
+    {
+      "column_header": " Education System",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/educationSystem"
+    },
+    {
+      "column_header": " Historical Places",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": " National Holidays",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"
+    },
+    {
+      "column_header": " Musems & Galleries",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/museum"
+    },
+    {
+      "column_header": " Culinary Traditions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"
+    }
+  ]
+}

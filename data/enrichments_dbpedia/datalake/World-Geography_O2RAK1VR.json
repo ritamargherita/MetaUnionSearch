@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Country Code",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/countryCode"
+    },
+    {
+      "column_header": "Country Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collectionSize"
+    },
+    {
+      "column_header": "Continent",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/continent"
+    },
+    {
+      "column_header": "Population",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"
+    },
+    {
+      "column_header": "Currency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currency"
+    },
+    {
+      "column_header": "Capital",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/capital"
+    },
+    {
+      "column_header": "Latitude",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/capitalCoordinates"
+    },
+    {
+      "column_header": "Longitude",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/capitalCoordinates"
+    },
+    {
+      "column_header": "GDP (per capita)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gdpPerCapita"
+    },
+    {
+      "column_header": "Language(s)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officialLanguage"
+    },
+    {
+      "column_header": "Religion(s)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Independence Day",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/liberationDate"
+    },
+    {
+      "column_header": "Internet Users",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+    },
+    {
+      "column_header": "Literacy Rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentageLiterate"
+    },
+    {
+      "column_header": "Calling Code",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/iso31661Code"
+    }
+  ]
+}

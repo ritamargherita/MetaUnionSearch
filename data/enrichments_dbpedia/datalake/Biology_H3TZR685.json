@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Bioentity ID number",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/idNumber"
+    },
+    {
+      "column_header": "Cellular location (additional details)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Protein complex membership",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/protein"
+    },
+    {
+      "column_header": "Gene expression regulation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/hasVariant"
+    },
+    {
+      "column_header": "Additional genetic information",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": "Subcellular distribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Mutation impact analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/variantOf"
+    },
+    {
+      "column_header": "Metabolic pathway associations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/kegg"
+    },
+    {
+      "column_header": "Phosphorylation sites",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/hasAnnotation"
+    },
+    {
+      "column_header": "Ubiquitination sites",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/hasAnnotation"
+    },
+    {
+      "column_header": "Sumoylating site counts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": "Wildtype domain presence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geneLocation"
+    },
+    {
+      "column_header": "Evidence documentation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/reference"
+    },
+    {
+      "column_header": "References.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/reference"
+    }
+  ]
+}

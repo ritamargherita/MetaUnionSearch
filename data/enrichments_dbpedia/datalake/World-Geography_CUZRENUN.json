@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "City Names",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/city"
+    },
+    {
+      "column_header": "_type=city_name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/city"
+    },
+    {
+      "column_header": "*Location*: "Continent"",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/continent"
+    },
+    {
+      "column_header": "CountryName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collectionSize"
+    },
+    {
+      "column_header": "_relationalop=(eq)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relation"
+    },
+    {
+      "column_header": "PopulationRanking",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotalRanking"
+    },
+    {
+      "column_header": "*Additional Info*: "Area_Code"",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/areaCode"
+    },
+    {
+      "column_header": "Timezone",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/timeZone"
+    },
+    {
+      "column_header": "CityType",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cityType"
+    },
+    {
+      "column_header": "*semantic_modifiers*: "City Size"",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cityType"
+    },
+    {
+      "column_header": "Population",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/population"
+    },
+    {
+      "column_header": "MajorAttractions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/majorShrine"
+    },
+    {
+      "column_header": "Latitude",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/locationIdentifier"
+    },
+    {
+      "column_header": "Longitude",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/locationIdentifier"
+    }
+  ]
+}

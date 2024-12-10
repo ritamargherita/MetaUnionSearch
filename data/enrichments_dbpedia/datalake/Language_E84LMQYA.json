@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Linguistic Area",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherLanguage"
+    },
+    {
+      "column_header": "Language Contact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/linguisticsTradition"
+    },
+    {
+      "column_header": "Type Of Language",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Dialectal Variation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/hasVariant"
+    },
+    {
+      "column_header": "Historical Development",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": "Religious Impact On Language",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Literary Tradition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": "Popular Culture References",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherMedia"
+    },
+    {
+      "column_header": "Legal Status & Use",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/status"
+    },
+    {
+      "column_header": "Educational Importance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/education"
+    },
+    {
+      "column_header": "Impact On Technology & Internet",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Borrowing And Lexicon Enrichment",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherLanguage"
+    },
+    {
+      "column_header": "Code Switching Frequency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/linguisticsTradition"
+    },
+    {
+      "column_header": "Glottochronology Log",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/linguisticsTradition"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Rock Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/kindOfRock"
+    },
+    {
+      "column_header": "Mineral Composition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/material"
+    },
+    {
+      "column_header": "Age (Million Years)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/age"
+    },
+    {
+      "column_header": "Formation Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Stratigraphic Position",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sourcePosition"
+    },
+    {
+      "column_header": "Subsurface Conditions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/structure"
+    },
+    {
+      "column_header": "Hydrological Properties",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/water"
+    },
+    {
+      "column_header": "Mechanical Properties",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/strength"
+    },
+    {
+      "column_header": "Weathering Grade",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/grades"
+    },
+    {
+      "column_header": "Fossil Content",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fossil"
+    },
+    {
+      "column_header": "Depositional Environment",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": "Rock Chemistry",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/chemicalFormula"
+    },
+    {
+      "column_header": "Geologic Structure",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/structuralSystem"
+    },
+    {
+      "column_header": "Tectonic Setting",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orogeny"
+    },
+    {
+      "column_header": "Metamorphic Grade.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/grades"
+    }
+  ]
+}

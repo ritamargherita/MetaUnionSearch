@@ -1,0 +1,44 @@
+{
+    "mapping": [
+        {
+            "column_header": "Rocket Type",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/rocket"
+        },
+        {
+            "column_header": "Launch Location",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/launchSite"
+        },
+        {
+            "column_header": "Surfaced Landing Site",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/landingSite"
+        },
+        {
+            "column_header": "Mission Patch Design",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/mediaItem"
+        },
+        {
+            "column_header": "Media Coverage Intensity",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/shareOfAudience"
+        },
+        {
+            "column_header": "Collaborating Agency",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/projectParticipant"
+        },
+        {
+            "column_header": "Scientific Discoveries",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/discovery date"
+        },
+        {
+            "column_header": "Technological Advancements",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/technological"
+        },
+        {
+            "column_header": "Future Applications",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/currentlyUsedFor"
+        },
+        {
+            "column_header": "Funding Sources",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Dominant Social Structures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ethnicGroup"
+    },
+    {
+      "column_header": "Common Symbolism in Art",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/iconographicAttributes"
+    },
+    {
+      "column_header": "Prevailing Religious Beliefs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Influential Literature & Philosophy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"
+    },
+    {
+      "column_header": "Impact of Science & Technology",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Trade & Commerce Routes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/route"
+    },
+    {
+      "column_header": "Architectural Influences",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": "Patronage & Sponsorship",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/artPatron"
+    },
+    {
+      "column_header": "Artistic Interactions & Collaborations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Cultural Exchange Impact.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Health Insurance Provider",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/agency"
+    },
+    {
+      "column_header": "Policy Number",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/idNumber"
+    },
+    {
+      "column_header": "Coverage Start Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/serviceStartDate"
+    },
+    {
+      "column_header": "Coverage End Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/serviceEndDate"
+    },
+    {
+      "column_header": "Premium Amount",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fees"
+    },
+    {
+      "column_header": "Deductible",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fees"
+    },
+    {
+      "column_header": "Copay",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fees"
+    },
+    {
+      "column_header": "Coinsurance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fees"
+    },
+    {
+      "column_header": "Out-of-Pocket Maximum",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/max"
+    },
+    {
+      "column_header": "Preventive Care Coverage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/service"
+    },
+    {
+      "column_header": "Prescription Drug Coverage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/drug"
+    },
+    {
+      "column_header": "Medical Equipment Coverage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": "Emergency Services Coverage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/service"
+    }
+  ]
+}

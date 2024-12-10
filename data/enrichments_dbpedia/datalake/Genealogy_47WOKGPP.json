@@ -1,0 +1,14 @@
+{
+  "mapping": [
+    {"column_header": "PersonID", "dbpedia_property_id": "http://dbpedia.org/ontology/id"},
+    {"column_header": "AncestorMotherMaidenName", "dbpedia_property_id": "http://dbpedia.org/ontology/previousName"},
+    {"column_header": "AncestorFatherFirstName", "dbpedia_property_id": "http://dbpedia.org/ontology/personName"},
+    {"column_header": "AncestorFatherLastName", "dbpedia_property_id": "http://dbpedia.org/ontology/personName"},
+    {"column_header": "SpouseName", "dbpedia_property_id": "http://dbpedia.org/ontology/spouseName"},
+    {"column_header": "MarriageDate", "dbpedia_property_id": "http://dbpedia.org/ontology/date"},
+    {"column_header": "DeathDate", "dbpedia_property_id": "http://dbpedia.org/ontology/deathDate"},
+    {"column_header": "SSN", "dbpedia_property_id": "http://dbpedia.org/ontology/id"},
+    {"column_header": "AncestralHome", "dbpedia_property_id": "http://dbpedia.org/ontology/familyMember"},
+    {"column_header": "DNAProfile", "dbpedia_property_id": "http://dbpedia.org/ontology/geneReviewsId"}
+  ]
+}

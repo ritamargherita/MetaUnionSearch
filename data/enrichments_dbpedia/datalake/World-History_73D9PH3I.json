@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Religions and Beliefs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Philosophical Thoughts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"
+    },
+    {
+      "column_header": "Historiography",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nonFictionSubject"
+    },
+    {
+      "column_header": "Major Battles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/battle"
+    },
+    {
+      "column_header": "Influential Leaders",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/leader"
+    },
+    {
+      "column_header": "Languages & Writing Systems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/originalLanguage"
+    },
+    {
+      "column_header": "Legal Systems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/systemOfLaw"
+    },
+    {
+      "column_header": "Trade Networks",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/network"
+    },
+    {
+      "column_header": "Currencies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currency"
+    },
+    {
+      "column_header": "Agricultural Practices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cultivatedVariety"
+    }
+  ]
+}

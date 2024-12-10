@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Philosopher Birthplace",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/birthPlace"
+    },
+    {
+      "column_header": "Philosophers by Century",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/era"
+    },
+    {
+      "column_header": "Number of Women Philosophers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationPctWomen"
+    },
+    {
+      "column_header": "Rated Philosophy Books",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": "Famous Thought Experiments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+    },
+    {
+      "column_header": "Quotes about Education and Epistemology",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/education"
+    },
+    {
+      "column_header": "Inspirational Quotes for Women in Philosophy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/quote"
+    },
+    {
+      "column_header": "Progressive Movements' Influence on Modern Pedagogy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/movement"
+    },
+    {
+      "column_header": "Unique Philosophical Methodologies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/approach"
+    },
+    {
+      "column_header": "Century Impact Factor",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Intersectionality in Ethics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ideology"
+    },
+    {
+      "column_header": "Curriculum Impact of 'isms'",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/academicDiscipline"
+    },
+    {
+      "column_header": "Philosophy Curriculum in Schools Today",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/educationSystem"
+    },
+    {
+      "column_header": "Unrelated Column 14",
+      "dbpedia_property_id": null
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Festival Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officialName"
+    },
+    {
+      "column_header": "Festival Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Year Founded",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/foundingYear"
+    },
+    {
+      "column_header": "Locale",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cityType"
+    },
+    {
+      "column_header": "Number Of Attendees",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfPeopleAttending"
+    },
+    {
+      "column_header": "Honorary Awards",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/honours"
+    },
+    {
+      "column_header": "Top Performances",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/bestFinish"
+    },
+    {
+      "column_header": "Volunteer Opportunities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfVolunteers"
+    },
+    {
+      "column_header": "Sponsors",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "Ticket Sales Link",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberSold"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Mathematics Subject",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/subjectTerm"
+    },
+    {
+      "column_header": "Definition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/definition"
+    },
+    {
+      "column_header": "Symbolic Representation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notation"
+    },
+    {
+      "column_header": "Common Operations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/operation"
+    },
+    {
+      "column_header": "Historical Development",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": "Key Contributors",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/knownFor"
+    },
+    {
+      "column_header": "Current Importance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currentStatus"
+    },
+    {
+      "column_header": "Potential Future Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Misunderstandings and Pitfalls",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/complications"
+    },
+    {
+      "column_header": "Supplementary Resources",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/locusSupplementaryData"
+    }
+  ]
+}

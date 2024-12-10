@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Computational Theory",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/discipline"
+    },
+    {
+      "column_header": " Software Engineering Principles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"
+    },
+    {
+      "column_header": " Program Logic & Proofs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/provCode"
+    },
+    {
+      "column_header": " Artificial Intelligence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    },
+    {
+      "column_header": " Human-Computer Interaction",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": " Cybersecurity and Encryption",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": " Research Methodology",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/requirement"
+    },
+    {
+      "column_header": " Ethics in CS",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/affair"
+    },
+    {
+      "column_header": " Cloud Computing and Virtualization",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"
+    },
+    {
+      "column_header": " Quantum Computing",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingMedia"
+    },
+    {
+      "column_header": " Parallel Processing",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cluster"
+    },
+    {
+      "column_header": " Natural Language Processing",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/languageCode"
+    },
+    {
+      "column_header": " Data Visualization",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    }
+  ]
+}

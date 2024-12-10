@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Arrest Details (if applicable)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/arrestDate"
+    },
+    {
+      "column_header": " Weapon Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/weapon"
+    },
+    {
+      "column_header": " Violation Detail",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/criminalCharge"
+    },
+    {
+      "column_header": " Case Disposition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/convictionPenalty"
+    },
+    {
+      "column_header": " Bystander Actions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/roleInEvent"
+    },
+    {
+      "column_header": " Witness Presence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/participant"
+    },
+    {
+      "column_header": " Court Attended?",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/judge"
+    },
+    {
+      "column_header": " Community Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": " Adjudication Process",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/procedure"
+    },
+    {
+      "column_header": " Rehabilitation Programmes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"
+    },
+    {
+      "column_header": " Recidivism Rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": " Additional Notes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    }
+  ]
+}

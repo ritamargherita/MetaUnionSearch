@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "Gallery Location", "dbpedia_property_id": "http://dbpedia.org/ontology/location"},
+    {"column_header": "Year Acquired", "dbpedia_property_id": "http://dbpedia.org/ontology/acquirementDate"},
+    {"column_header": "Donor Name", "dbpedia_property_id": "http://dbpedia.org/ontology/commissioner"},
+    {"column_header": "Preservation Status", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+    {"column_header": "Restoration Details", "dbpedia_property_id": "http://dbpedia.org/ontology/comment"},
+    {"column_header": "Material Value, USD", "dbpedia_property_id": "http://dbpedia.org/ontology/value"},
+    {"column_header": "Audience Impact Rating", "dbpedia_property_id": "http://dbpedia.org/ontology/rating"},
+    {"column_header": "Cultural Significance Ranking", "dbpedia_property_id": "http://dbpedia.org/ontology/ranking"},
+    {"column_header": "Trendsetting Score", "dbpedia_property_id": "http://dbpedia.org/ontology/starRating"},
+    {"column_header": "Similar Works Count", "dbpedia_property_id": "http://dbpedia.org/ontology/otherWorks"},
+    {"column_header": "Curator Comments", "dbpedia_property_id": "http://dbpedia.org/ontology/comment"}
+  ]
+}

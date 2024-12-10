@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Track Number", "dbpedia_property_id": "http://dbpedia.org/ontology/trackNumber"},
+    {"column_header": "Title", "dbpedia_property_id": "http://dbpedia.org/ontology/title"},
+    {"column_header": "Artist(s)", "dbpedia_property_id": "http://dbpedia.org/ontology/musicalArtist"},
+    {"column_header": "Genres", "dbpedia_property_id": "http://dbpedia.org/ontology/genre"},
+    {"column_header": "Release Type", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": "Season(for TV Soundtracks)", "dbpedia_property_id": "http://dbpedia.org/ontology/season"},
+    {"column_header": "Live", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": "Remixed By", "dbpedia_property_id": "http://dbpedia.org/ontology/associatedMusicalArtist"},
+    {"column_header": "Original Song Name", "dbpedia_property_id": "http://dbpedia.org/ontology/title"},
+    {"column_header": "Professionally Mastered", "dbpedia_property_id": "http://dbpedia.org/ontology/version"},
+    {"column_header": "Explicit Content", "dbpedia_property_id": "http://dbpedia.org/ontology/restriction"},
+    {"column_header": "Composer", "dbpedia_property_id": "http://dbpedia.org/ontology/composer"},
+    {"column_header": "Track Length", "dbpedia_property_id": "http://dbpedia.org/ontology/trackLength"}
+  ]
+}

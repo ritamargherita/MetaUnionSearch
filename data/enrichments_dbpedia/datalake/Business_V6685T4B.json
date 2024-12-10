@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Business Industry Trend Analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": "Competitor Marketing Strategies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/competition"
+    },
+    {
+      "column_header": "Customer Buying Patterns",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/purchasingPowerParity"
+    },
+    {
+      "column_header": "Geographical Impact on Sales",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/managementRegion"
+    },
+    {
+      "column_header": "Product Life Cycle",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/lifeExpectancy"
+    },
+    {
+      "column_header": "Market Penetration Strategy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/marketCapitalisation"
+    },
+    {
+      "column_header": "Distribution Channel Effectiveness",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/channel"
+    },
+    {
+      "column_header": "Supplier Negotiation Skills",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/supplies"
+    },
+    {
+      "column_header": "Personnel Training and Development",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/training"
+    },
+    {
+      "column_header": "Regulatory Compliance Cost",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cost"
+    },
+    {
+      "column_header": "Brand Reputation Score (%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Sales Team Performance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/team"
+    },
+    {
+      "column_header": "Stakeholder Communication",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/management"
+    },
+    {
+      "column_header": "Market Trends and Opportunities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/marketCapitalisation"
+    },
+    {
+      "column_header": "Organizational Culture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/organisation"
+    }
+  ]
+}

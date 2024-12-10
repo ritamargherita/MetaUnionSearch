@@ -1,0 +1,21 @@
+{
+  "mapping": [
+    {"column_header": "Quantitative Financial Analysis", "dbpedia_property_id": "http://dbpedia.org/ontology/interest"},
+    {"column_header": "Company Name", "dbpedia_property_id": "http://dbpedia.org/ontology/company"},
+    {"column_header": "Census Classification Code (e.g., NAICS)", "dbpedia_property_id": "http://dbpedia.org/ontology/nisCode"},
+    {"column_header": "Annual Income", "dbpedia_property_id": "http://dbpedia.org/ontology/income"},
+    {"column_header": "Annual Expenses", "dbpedia_property_id": "http://dbpedia.org/ontology/expenses"},
+    {"column_header": "Current Asset Value", "dbpedia_property_id": "http://dbpedia.org/ontology/assets"},
+    {"column_header": "Current Liabilities Value", "dbpedia_property_id": "http://dbpedia.org/ontology/liabilities"},
+    {"column_header": "Net Worth Value Re-calculated", "dbpedia_property_id": "http://dbpedia.org/ontology/value"},
+    {"column_header": "Revenue Growth Rate (%, change from previous year)", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Net Profit Margin (%, share of annual sales revenue that goes to operating income, expressed in decimal form without the symbol)", "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"},
+    {"column_header": "Gross Profit Margin (%, part of the company's general sales dollars that are directly attributable to the selling prices of all goods or services produced by a company, expressed as a percentage)", "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"},
+    {"column_header": "Profitability Ratio", "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"},
+    {"column_header": "Earnings Before Special Items, Adjustments, Deductions, Taxes, Interest, Amortization, and Depreciation (EBITDA Margin)", "dbpedia_property_id": "http://dbpedia.org/ontology/operatingIncome"},
+    {"column_header": "Return on Investment (ROI) %", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Interest Coverage Ratio %", "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"},
+    {"column_header": "Marketing Costs (money paid for efforts undertaken aimed at supplying information about products or services to customers or future potential customers to promote their main product line or subsequent increased demand)", "dbpedia_property_id": "http://dbpedia.org/ontology/marketingCosts"},
+    {"column_header": "Dividends Paid (periodic returns based on distributions to particular groups on a dollar basis)", "dbpedia_property_id": "http://dbpedia.org/ontology/dividends"}
+  ]
+}

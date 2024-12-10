@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Legal Case Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/case"
+    },
+    {
+      "column_header": " Statute Violations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/legalArticle"
+    },
+    {
+      "column_header": " Plaintiff(s) Names",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/names"
+    },
+    {
+      "column_header": " Defendant(s) Names",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/names"
+    },
+    {
+      "column_header": " Trial Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": " Judges involved",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/judge"
+    },
+    {
+      "column_header": " Jury Verdict or Judge Ruling",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ruling"
+    },
+    {
+      "column_header": " Sentencing information",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/convictionPenalty"
+    },
+    {
+      "column_header": " Appeal Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/status"
+    },
+    {
+      "column_header": " Evidence presented",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/reference"
+    },
+    {
+      "column_header": " Professionals hired",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/profession"
+    },
+    {
+      "column_header": " Witnesses called",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/participant"
+    },
+    {
+      "column_header": " Relevant Precedents Cited",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/legalArticle"
+    },
+    {
+      "column_header": " Financial Implications",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+    }
+  ]
+}

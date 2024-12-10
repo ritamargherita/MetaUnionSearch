@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "AdditionalSiteInfo", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "CulturalAffiliation", "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"},
+    {"column_header": "UniqueArtifactID_1", "dbpedia_property_id": "http://dbpedia.org/ontology/id"},
+    {"column_header": "ArtifactAttribute_1", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "ArtifactAttribute_2", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "ArtifactAttribute_3", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "ArtifactAttribute_4", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "ArtifactAttribute_5", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "ArtifactAttribute_6", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "ArtifactAttribute_7", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "ArtifactAttribute_8", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "ConservationMethodsUsed", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+    {"column_header": "ClimateChangeImpactAnalysis", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": "CollaborativeResearchInitiatives", "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"}
+  ]
+}

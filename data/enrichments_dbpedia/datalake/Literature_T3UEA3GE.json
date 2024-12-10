@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "Periodic Timeline", "dbpedia_property_id": "http://dbpedia.org/ontology/period"},
+    {"column_header": "Geographical Distribution", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfLocations"},
+    {"column_header": "Social Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"},
+    {"column_header": "Critical Reception", "dbpedia_property_id": "http://dbpedia.org/ontology/review"},
+    {"column_header": "Adaptations", "dbpedia_property_id": "http://dbpedia.org/ontology/otherWorks"},
+    {"column_header": "Intertextuality", "dbpedia_property_id": "http://dbpedia.org/ontology/influenced"},
+    {"column_header": "Parodies & Satires", "dbpedia_property_id": "http://dbpedia.org/ontology/homage"},
+    {"column_header": "Awards Won", "dbpedia_property_id": "http://dbpedia.org/ontology/award"},
+    {"column_header": "Influence On Other Works", "dbpedia_property_id": "http://dbpedia.org/ontology/influencedBy"},
+    {"column_header": "Subgenres Spawned", "dbpedia_property_id": "http://dbpedia.org/ontology/musicSubgenre"},
+    {"column_header": "Visual Art Representations", "dbpedia_property_id": "http://dbpedia.org/ontology/illustrator"}
+  ]
+}

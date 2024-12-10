@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Theater Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": " Capacity ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/capacity"
+    },
+    {
+      "column_header": " Construction Year",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/yearOfConstruction"
+    },
+    {
+      "column_header": " Architecture Style",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": " Main Stage Dimensions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/measurements"
+    },
+    {
+      "column_header": " Main Curtain Weight",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/weight"
+    },
+    {
+      "column_header": " # Of Balconies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfStores"
+    },
+    {
+      "column_header": " % Seating Occupancy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/seatingCapacity"
+    },
+    {
+      "column_header": " $ Ticket Price Range (min-$ max$-)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/min"
+    },
+    {
+      "column_header": " '§' Educational Programs(*_*)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/education"
+    }
+  ]
+}

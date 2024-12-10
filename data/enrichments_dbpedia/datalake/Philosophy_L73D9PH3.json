@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Philosophic Era",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/era"
+    },
+    {
+      "column_header": " Century Originating",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/creationYear"
+    },
+    {
+      "column_header": " Main Ideas Covered",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/topic"
+    },
+    {
+      "column_header": " Religious Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": " Cultural Significance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": " Scientific Contributions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/scientificName"
+    },
+    {
+      "column_header": " Politics & Government",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/government"
+    },
+    {
+      "column_header": " Social Implications",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"
+    },
+    {
+      "column_header": " Economic Effects",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+    },
+    {
+      "column_header": " Technological Advances",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/innovation"
+    }
+  ]
+}

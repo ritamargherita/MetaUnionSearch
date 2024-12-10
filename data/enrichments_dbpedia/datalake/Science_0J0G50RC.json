@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {"column_header": "ScientistName", "dbpedia_property_id": "http://dbpedia.org/ontology/personName"},
+    {"column_header": "StudyDate", "dbpedia_property_id": "http://dbpedia.org/ontology/date"},
+    {"column_header": "Location", "dbpedia_property_id": "http://dbpedia.org/ontology/location"},
+    {"column_header": "FundingSource", "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"},
+    {"column_header": "SampleSize", "dbpedia_property_id": "http://dbpedia.org/ontology/collectionSize"},
+    {"column_header": "ResearchQuestions", "dbpedia_property_id": "http://dbpedia.org/ontology/topic"},
+    {"column_header": "Methodology", "dbpedia_property_id": "http://dbpedia.org/ontology/approach"},
+    {"column_header": "FindingsDataPresentation", "dbpedia_property_id": "http://dbpedia.org/ontology/result"},
+    {"column_header": "Observations", "dbpedia_property_id": "http://dbpedia.org/ontology/observatory"},
+    {"column_header": "QuantitativeResults", "dbpedia_property_id": "http://dbpedia.org/ontology/result"},
+    {"column_header": "QualitiativeResults", "dbpedia_property_id": "http://dbpedia.org/ontology/information"},
+    {"column_header": "Recommendation", "dbpedia_property_id": "http://dbpedia.org/ontology/purpose"}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "mapping": [
+        {"column_header": "Morality Teachings", "dbpedia_property_id": "http://dbpedia.org/ontology/theology"},
+        {"column_header": "Spiritual Practices", "dbpedia_property_id": "http://dbpedia.org/ontology/religion"},
+        {"column_header": "Afterlife Concepts", "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"},
+        {"column_header": "Meditation Types", "dbpedia_property_id": "http://dbpedia.org/ontology/religion"},
+        {"column_header": "Clothing Rules", "dbpedia_property_id": "http://dbpedia.org/ontology/dressCode"},
+        {"column_header": "Dietary Restrictions", "dbpedia_property_id": "http://dbpedia.org/ontology/restriction"},
+        {"column_header": "Music Styles", "dbpedia_property_id": "http://dbpedia.org/ontology/musicType"},
+        {"column_header": "Artistic Expressiveness", "dbpedia_property_id": "http://dbpedia.org/ontology/artisticFunction"},
+        {"column_header": "Architectural Structures", "dbpedia_property_id": "http://dbpedia.org/ontology/building"},
+        {"column_header": "Festivals Unique To Them", "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"},
+        {"column_header": "Sacred Animals", "dbpedia_property_id": "http://dbpedia.org/ontology/animal"},
+        {"column_header": "Evangelization Methods", "dbpedia_property_id": "http://dbpedia.org/ontology/religiousOrder"},
+        {"column_header": "Modern Challenges", "dbpedia_property_id": "http://dbpedia.org/ontology/winsAtChallenges"}
+    ]
+}

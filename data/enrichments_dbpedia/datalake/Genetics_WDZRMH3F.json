@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {"column_header": "Genes Affected", "dbpedia_property_id": "http://dbpedia.org/ontology/hasVariant"},
+    {"column_header": "Average Dominancy Ratio", "dbpedia_property_id": "http://dbpedia.org/ontology/average"},
+    {"column_header": "Chromosome Arm", "dbpedia_property_id": "http://dbpedia.org/ontology/arm"},
+    {"column_header": "Linked Markers", "dbpedia_property_id": "http://dbpedia.org/ontology/linkedTo"},
+    {"column_header": "Population Frequency", "dbpedia_property_id": "http://dbpedia.org/ontology/frequencyOfPublication"},
+    {"column_header": "Test Method", "dbpedia_property_id": "http://dbpedia.org/ontology/detectionMethod"},
+    {"column_header": "Genetic Variation", "dbpedia_property_id": "http://dbpedia.org/ontology/hasVariant"},
+    {"column_header": "Variation Description", "dbpedia_property_id": "http://dbpedia.org/ontology/description"},
+    {"column_header": "Variation Prevalence", "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"},
+    {"column_header": "Variation Symptoms", "dbpedia_property_id": "http://dbpedia.org/ontology/symptom"},
+    {"column_header": "Variation Expression", "dbpedia_property_id": "http://dbpedia.org/ontology/result"},
+    {"column_header": "Variation Inheritance Pattern", "dbpedia_property_id": "http://dbpedia.org/ontology/variantOf"}
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Gene Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/name"
+    },
+    {
+      "column_header": "Chromosome",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/onChromosome"
+    },
+    {
+      "column_header": "Start Position",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geneLocationStart"
+    },
+    {
+      "column_header": "End Position",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geneLocationEnd"
+    },
+    {
+      "column_header": "Strand",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Gene Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "microRNA Targets",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mirDockings"
+    },
+    {
+      "column_header": "Expression Level",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/frequency"
+    },
+    {
+      "column_header": "Mutation Frequency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/hasVariant"
+    },
+    {
+      "column_header": "Protein Interactions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/protein"
+    },
+    {
+      "column_header": "GO Terms",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/termPeriod"
+    },
+    {
+      "column_header": "Transcription Factor Binding Sites",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/matchPoint"
+    },
+    {
+      "column_header": "mRNA Secondary Structures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refseqmrna"
+    },
+    {
+      "column_header": "Protein Tertiary Structures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/pdb"
+    },
+    {
+      "column_header": "Disease Association",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/disease"
+    }
+  ]
+}

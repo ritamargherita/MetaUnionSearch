@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Protein family classification",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/classification"
+    },
+    {
+      "column_header": "Subcellular localized domain composition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/domain"
+    },
+    {
+      "column_header": "Regulation mechanisms at transcription level",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relatedFunctions"
+    },
+    {
+      "column_header": "Regulation mechanisms at translation level",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relatedFunctions"
+    },
+    {
+      "column_header": "Posttranslational modifications details",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relatedFunctions"
+    },
+    {
+      "column_header": "Interacting proteins list and their functions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relatedFunctions"
+    },
+    {
+      "column_header": "Developmentally controlled gene expression heatmap",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": "Phylogenetical tree based on conserved domains",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relatedFunctions"
+    },
+    {
+      "column_header": "Species distribution map",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/map"
+    },
+    {
+      "column_header": "Morphologically relevant phenotype changes under knockout conditions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": "Homologous structures comparison between species",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relatedFunctions"
+    },
+    {
+      "column_header": "Related metabolic pathways analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/kegg"
+    },
+    {
+      "column_header": "Unique biological functions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relatedFunctions"
+    },
+    {
+      "column_header": "Additional notes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    }
+  ]
+}

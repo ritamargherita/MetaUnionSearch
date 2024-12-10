@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Protein Impacted by Mutations", "dbpedia_property_id": "http://dbpedia.org/ontology/variantOf"},
+    {"column_header": "Domains Affected after Variants Identified", "dbpedia_property_id": "http://dbpedia.org/ontology/domain"},
+    {"column_header": "# of Homologous Genes Found", "dbpedia_property_id": "http://dbpedia.org/ontology/orthologousGene"},
+    {"column_header": "$ Confidence Score per Homology", "dbpedia_property_id": "http://dbpedia.org/ontology/statisticLabel"},
+    {"column_header": "Disease Associated with This Gene", "dbpedia_property_id": "http://dbpedia.org/ontology/disease"},
+    {"column_header": "% Prevalence Rate", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Cellular Location (Post Translational Modifications)", "dbpedia_property_id": "http://dbpedia.org/ontology/geneLocation"},
+    {"column_header": "Transcription Factor Binding Sites Present", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": "Regulatory Sequences (Promoter / Enhancer)", "dbpedia_property_id": "http://dbpedia.org/ontology/hasAnnotation"},
+    {"column_header": "[Expression Data from Different Tissues & Conditions]", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": "Phylogenetic Tree Details", "dbpedia_property_id": "http://dbpedia.org/ontology/tree"},
+    {"column_header": "Conservation across Species", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+    {"column_header": "Additional Bioinformatics Annotations", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "Recidivism Rate", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Juvenile Crime Trending", "dbpedia_property_id": "http://dbpedia.org/ontology/visitorsPercentageChange"},
+    {"column_header": "Average Length Of Stay For Juvenile Rehabilitation Programs", "dbpedia_property_id": "http://dbpedia.org/ontology/youthYears"},
+    {"column_header": "Rehabilitation Program Completion Rates", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Prison Overcrowding Impact On Reoffending Rates", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "#Of Correctional Staff Per Institution", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfStaff"},
+    {"column_header": "Prisons Budget vs Education Fund Allocations", "dbpedia_property_id": "http://dbpedia.org/ontology/budget"},
+    {"column_header": "Community Policing Efforts Evaluation Metrics", "dbpedia_property_id": "http://dbpedia.org/ontology/rating"},
+    {"column_header": "Public Satisfaction With Community Policing", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Media Portrayals Of Crime And Their Role In Constructive Dialogue", "dbpedia_property_id": "http://dbpedia.org/ontology/media"},
+    {"column_header": "Opioids Addiction Epidemic Statistics By County", "dbpedia_property_id": "http://dbpedia.org/ontology/county"},
+    {"column_header": "Solutions Proposed For Opioids Addiction Epidemic", "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"},
+    {"column_header": "Relationship Between Unemployment Rates & Crime", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Impact Of Mental Health Resources On Reducing Crime Rates", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"}
+  ]
+}

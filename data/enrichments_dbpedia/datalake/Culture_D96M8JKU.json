@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Literature",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": "Visual Arts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/painter"
+    },
+    {
+      "column_header": "Dance Forms",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/choreographer"
+    },
+    {
+      "column_header": "Architecture Styles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": "Cinema & TV Shows",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/film"
+    },
+    {
+      "column_header": "Sports & Games",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sport"
+    },
+    {
+      "column_header": "Historical Places",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": "Celebrations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"
+    },
+    {
+      "column_header": "National Holidays",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nationalYears"
+    },
+    {
+      "column_header": "Traditional Crafts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/designer"
+    }
+  ]
+}

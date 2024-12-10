@@ -1,0 +1,25 @@
+{
+  "mapping": [
+    {"column_header": "Performance Type", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": "Genre", "dbpedia_property_id": "http://dbpedia.org/ontology/genre"},
+    {"column_header": "Date First Appeared", "dbpedia_property_id": "http://dbpedia.org/ontology/firstLaunchDate"},
+    {"column_header": "Venue", "dbpedia_property_id": "http://dbpedia.org/ontology/stadium"},
+    {"column_header": "Rehearsal City", "dbpedia_property_id": "http://dbpedia.org/ontology/city"},
+    {"column_header": "Number Of Shows", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfEpisodes"},
+    {"column_header": "Audience Response", "dbpedia_property_id": "http://dbpedia.org/ontology/shareOfAudience"},
+    {"column_header": "Collaborations", "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"},
+    {"column_header": "Average Budget", "dbpedia_property_id": "http://dbpedia.org/ontology/budget"},
+    {"column_header": "Sponsors", "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"},
+    {"column_header": "Highest Grossing Event", "dbpedia_property_id": "http://dbpedia.org/ontology/event"},
+    {"column_header": "Artist Name", "dbpedia_property_id": "http://dbpedia.org/ontology/musicalArtist"},
+    {"column_header": "Art Form", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": "Year of Birth", "dbpedia_property_id": "http://dbpedia.org/ontology/birthYear"},
+    {"column_header": "Place of Birth", "dbpedia_property_id": "http://dbpedia.org/ontology/birthPlace"},
+    {"column_header": "Known For", "dbpedia_property_id": "http://dbpedia.org/ontology/knownFor"},
+    {"column_header": "Started Career", "dbpedia_property_id": "http://dbpedia.org/ontology/startCareer"},
+    {"column_header": "Popular Works", "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"},
+    {"column_header": "Awards", "dbpedia_property_id": "http://dbpedia.org/ontology/award"},
+    {"column_header": "Total Awards", "dbpedia_property_id": "http://dbpedia.org/ontology/overallRecord"},
+    {"column_header": "Active", "dbpedia_property_id": "http://dbpedia.org/ontology/activity"}
+  ]
+}

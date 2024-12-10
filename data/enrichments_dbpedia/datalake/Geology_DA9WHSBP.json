@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Soils Analysis Method",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/approach"
+    },
+    {
+      "column_header": "Borehole Logging Data Points",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfHoles"
+    },
+    {
+      "column_header": "Seismicity Measurements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": "Tectonic Setting Characteristics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orogeny"
+    },
+    {
+      "column_header": "Geological Hazard Assessment Indices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/casualties"
+    },
+    {
+      "column_header": "Volcanologial Monitoring Parameters",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/volcanicActivity"
+    },
+    {
+      "column_header": "Ground Water Chemistry Profile",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ground"
+    },
+    {
+      "column_header": "Local Magnetic Field Variations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/field"
+    },
+    {
+      "column_header": "Spaceweathers Impact On The Region",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Astronomical Satellite Imagery For Regional Surveys",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/satellite"
+    },
+    {
+      "column_header": "Geological Time Scale",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geologicPeriod"
+    }
+  ]
+}

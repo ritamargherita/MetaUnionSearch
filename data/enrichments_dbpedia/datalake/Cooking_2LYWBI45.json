@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Chef Name", "dbpedia_property_id": "http://dbpedia.org/ontology/chef"},
+    {"column_header": "Estimated Cost per Serving", "dbpedia_property_id": "http://dbpedia.org/ontology/programCost"},
+    {"column_header": "Meal Type", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": "Dietary Restrictions", "dbpedia_property_id": "http://dbpedia.org/ontology/restriction"},
+    {"column_header": "Taste Score out of 10", "dbpedia_property_id": "http://dbpedia.org/ontology/taste"},
+    {"column_header": "Video Link to Recipe", "dbpedia_property_id": "http://dbpedia.org/ontology/webcast"},
+    {"column_header": "Special Equipment Used?", "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"},
+    {"column_header": "Scalability for Large Groups", "dbpedia_property_id": "http://dbpedia.org/ontology/teamSize"},
+    {"column_header": "Market Availability Check", "dbpedia_property_id": "http://dbpedia.org/ontology/status"},
+    {"column_header": "Raw Material Wastage After Cooking (%)", "dbpedia_property_id": "http://dbpedia.org/ontology/uses"},
+    {"column_header": "Occasion Suitable For", "dbpedia_property_id": "http://dbpedia.org/ontology/event"},
+    {"column_header": "Skill Level of Chefs", "dbpedia_property_id": "http://dbpedia.org/ontology/complexity"},
+    {"column_header": "Maximum No. of Occasional Repetition in a Week", "dbpedia_property_id": "http://dbpedia.org/ontology/max"}
+  ]
+}

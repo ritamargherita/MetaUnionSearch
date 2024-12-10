@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Mission Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mission"
+    },
+    {
+      "column_header": " Start Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/startDate"
+    },
+    {
+      "column_header": " Duration (days)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/missionDuration"
+    },
+    {
+      "column_header": " Spacecraft Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/spacecraft"
+    },
+    {
+      "column_header": " *Satellites Deployed*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/satellitesDeployed"
+    },
+    {
+      "column_header": " Primary Objective",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"
+    },
+    {
+      "column_header": " *Experiment Name*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/name"
+    },
+    {
+      "column_header": " Astronomer Involved",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/personName"
+    },
+    {
+      "column_header": " Orbit Achieved",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orbits"
+    },
+    {
+      "column_header": " Payloads Deployed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+    }
+  ]
+}

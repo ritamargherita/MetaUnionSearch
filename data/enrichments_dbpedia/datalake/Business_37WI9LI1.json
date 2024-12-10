@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "BusinessExpansionPlans",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/network"
+    },
+    {
+      "column_header": "Company Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/company"
+    },
+    {
+      "column_header": "Census Classification Code (e.g., NAICS)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nisCode"
+    },
+    {
+      "column_header": "ExpansionCost",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": "ExpansionFinancing",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/promotion"
+    },
+    {
+      "column_header": "NewHireCount",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/staff"
+    },
+    {
+      "column_header": "NewLocation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "RevenueProjection",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": "RevenueGrowthRateComparison",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gross"
+    },
+    {
+      "column_header": "NetProfitMarginComparison",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/netIncome"
+    },
+    {
+      "column_header": "GrossMarginComparison",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gross"
+    },
+    {
+      "column_header": "*EleventhColumn*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/chain"
+    }
+  ]
+}

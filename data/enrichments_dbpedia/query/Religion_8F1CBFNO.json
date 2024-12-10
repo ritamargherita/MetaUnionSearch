@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "Religion Name", "dbpedia_property_id": "http://dbpedia.org/ontology/religion"},
+    {"column_header": "Beliefs", "dbpedia_property_id": "http://dbpedia.org/ontology/ideology"},
+    {"column_header": "Deities Worshipped", "dbpedia_property_id": "http://dbpedia.org/ontology/enshrinedDeity"},
+    {"column_header": "Founder", "dbpedia_property_id": "http://dbpedia.org/ontology/foundedBy"},
+    {"column_header": "Place of Origin", "dbpedia_property_id": "http://dbpedia.org/ontology/origin"},
+    {"column_header": "Major Denominations", "dbpedia_property_id": "http://dbpedia.org/ontology/denomination"},
+    {"column_header": "Challenges Faced", "dbpedia_property_id": "http://dbpedia.org/ontology/winsAtChallenges"},
+    {"column_header": "Religious Celebrations", "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"},
+    {"column_header": "Important Symbols", "dbpedia_property_id": "http://dbpedia.org/ontology/identificationSymbol"},
+    {"column_header": "Major Sects & Subsects", "dbpedia_property_id": "http://dbpedia.org/ontology/religiousOrder"},
+    {"column_header": "Community Structure & Roles", "dbpedia_property_id": "http://dbpedia.org/ontology/role"},
+    {"column_header": "Holy Texts", "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"},
+    {"column_header": "Prophets", "dbpedia_property_id": "http://dbpedia.org/ontology/religiousHead"},
+    {"column_header": "Demographics", "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"},
+    {"column_header": "Socioeconomic Status", "dbpedia_property_id": "http://dbpedia.org/ontology/income"}
+  ]
+}

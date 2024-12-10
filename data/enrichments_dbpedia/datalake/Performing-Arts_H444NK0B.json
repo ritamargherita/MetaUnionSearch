@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "1. Artistic Group Name", "dbpedia_property_id": "http://dbpedia.org/ontology/musicBand"},
+    {"column_header": " 2. Extended Art Form", "dbpedia_property_id": "http://dbpedia.org/ontology/artistFunction"},
+    {"column_header": " 3. Birth Year", "dbpedia_property_id": "http://dbpedia.org/ontology/birthYear"},
+    {"column_header": " 4. City or Country of Origin", "dbpedia_property_id": "http://dbpedia.org/ontology/countryOrigin"},
+    {"column_header": " 5. Main Contribution(s)", "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"},
+    {"column_header": " 6. Career Start", "dbpedia_property_id": "http://dbpedia.org/ontology/startCareer"},
+    {"column_header": " 7. Popular Works", "dbpedia_property_id": "http://dbpedia.org/ontology/otherWorks"},
+    {"column_header": " 8. Awards", "dbpedia_property_id": "http://dbpedia.org/ontology/award"},
+    {"column_header": " 9. Total Awards", "dbpedia_property_id": "http://dbpedia.org/ontology/nbUniqueContrib"},
+    {"column_header": " 10. Active", "dbpedia_property_id": "http://dbpedia.org/ontology/activity"},
+    {"column_header": " 11. Influenced By", "dbpedia_property_id": "http://dbpedia.org/ontology/influencedBy"},
+    {"column_header": " 12. Influenced", "dbpedia_property_id": "http://dbpedia.org/ontology/influenced"},
+    {"column_header": " 13. Awards Category", "dbpedia_property_id": "http://dbpedia.org/ontology/award"},
+    {"column_header": " 14. Notable Performances", "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"},
+    {"column_header": " 15. Members", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfMembers"}
+  ]
+}

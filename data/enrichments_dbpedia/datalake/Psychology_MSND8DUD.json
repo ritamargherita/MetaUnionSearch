@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "FavoritePsychologist",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/doctoralAdvisor"
+    },
+    {
+      "column_header": "PreferredTheory",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"
+    },
+    {
+      "column_header": "CharacterInfluence1",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableStudent"
+    },
+    {
+      "column_header": "CharacterInfluence2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableStudent"
+    },
+    {
+      "column_header": "CharacterInfluence3",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableStudent"
+    },
+    {
+      "column_header": "CharacterInfluence4",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableStudent"
+    },
+    {
+      "column_header": "CharacterInfluence5",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableStudent"
+    },
+    {
+      "column_header": "CharacterInfluence6",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableStudent"
+    },
+    {
+      "column_header": "CharacterInfluence7",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableStudent"
+    },
+    {
+      "column_header": "CharacterInfluence8",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableStudent"
+    },
+    {
+      "column_header": "CharacterInfluence9",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableStudent"
+    },
+    {
+      "column_header": "CharacterInfluence10",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableStudent"
+    },
+    {
+      "column_header": "CharacterInfluence11",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableStudent"
+    },
+    {
+      "column_header": "FamousExperiment1",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableIdea"
+    },
+    {
+      "column_header": "FamousExperiment2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableIdea"
+    }
+  ]
+}

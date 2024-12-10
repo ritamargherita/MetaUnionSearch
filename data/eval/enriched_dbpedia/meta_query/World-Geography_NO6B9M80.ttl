@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_NO6B9M80.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/Areakm2> a dsv:Column ;
+    rdfs:label "Area (km2)" ;
+    dsv:columnProperty "area (m2)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/Capital> a dsv:Column ;
+    rdfs:label "Capital" ;
+    dsv:columnProperty "capital" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/Climate> a dsv:Column ;
+    rdfs:label "Climate" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/Continent> a dsv:Column ;
+    rdfs:label "Continent" ;
+    dsv:columnProperty "continent" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/CountryName> a dsv:Column ;
+    rdfs:label "Country Name" ;
+    dsv:columnProperty "country" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/HighestPoint> a dsv:Column ;
+    rdfs:label "Highest Point" ;
+    dsv:columnProperty "highest point" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/InternetTLD> a dsv:Column ;
+    rdfs:label "Internet TLD" ;
+    dsv:columnProperty "country top level (tld)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/Latitude> a dsv:Column ;
+    rdfs:label "Latitude" ;
+    dsv:columnProperty "capital coordinates" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/Longitude> a dsv:Column ;
+    rdfs:label "Longitude" ;
+    dsv:columnProperty "capital coordinates" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/MajorLakes> a dsv:Column ;
+    rdfs:label "Major Lakes" ;
+    dsv:columnProperty "vastest lake" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/MajorRivers> a dsv:Column ;
+    rdfs:label "Major Rivers" ;
+    dsv:columnProperty "river" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/OfficialLanguages> a dsv:Column ;
+    rdfs:label "Official Language(s)" ;
+    dsv:columnProperty "official language" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/Population> a dsv:Column ;
+    rdfs:label "Population" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/PopulationDensity> a dsv:Column ;
+    rdfs:label "Population Density" ;
+    dsv:columnProperty "population density (/sqkm)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/Terrain> a dsv:Column ;
+    rdfs:label "Terrain" ;
+    dsv:columnProperty "land" .
+
+<http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/Areakm2>,
+        <http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/Capital>,
+        <http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/Climate>,
+        <http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/Continent>,
+        <http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/CountryName>,
+        <http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/HighestPoint>,
+        <http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/InternetTLD>,
+        <http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/Latitude>,
+        <http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/Longitude>,
+        <http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/MajorLakes>,
+        <http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/MajorRivers>,
+        <http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/OfficialLanguages>,
+        <http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/Population>,
+        <http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/PopulationDensity>,
+        <http://metaUnionSearch/datasets/WorldGeographyNO6B9M80/column/Terrain> .
+

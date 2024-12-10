@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Visual Arts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/artist"
+    },
+    {
+      "column_header": " Performing Arts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/performer"
+    },
+    {
+      "column_header": " Literature Genres",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": " Holidays & Celebrations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"
+    },
+    {
+      "column_header": " Sports",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sport"
+    },
+    {
+      "column_header": " Architecture Style",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": " Historical Sites",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/touristicSite"
+    },
+    {
+      "column_header": " Museums & Galleries",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/museum"
+    },
+    {
+      "column_header": " National Symbols",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/emblem"
+    },
+    {
+      "column_header": " Education System",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/educationSystem"
+    },
+    {
+      "column_header": " Famous Personalities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/person"
+    },
+    {
+      "column_header": " Cultural Influences",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/influencedBy"
+    },
+    {
+      "column_header": " Cuisine",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"
+    }
+  ]
+}

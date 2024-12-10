@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {"column_header": "Geometric Pattern", "dbpedia_property_id": "http://dbpedia.org/ontology/productShape"},
+    {"column_header": "Geomantic Figure", "dbpedia_property_id": "http://dbpedia.org/ontology/symbol"},
+    {"column_header": "Symbolic Meaning", "dbpedia_property_id": "http://dbpedia.org/ontology/meaning"},
+    {"column_header": "Rare Variants", "dbpedia_property_id": "http://dbpedia.org/ontology/hasVariant"},
+    {"column_header": "Cultural Context", "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"},
+    {"column_header": "Advanced Techniques", "dbpedia_property_id": "http://dbpedia.org/ontology/technique"},
+    {"column_header": "Astrological Correspondences", "dbpedia_property_id": "http://dbpedia.org/ontology/astrologicalSign"},
+    {"column_header": "Divine Intervention", "dbpedia_property_id": "http://dbpedia.org/ontology/religion"},
+    {"column_header": "Occult Properties", "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"},
+    {"column_header": "Modern Adaptations", "dbpedia_property_id": "http://dbpedia.org/ontology/version"},
+    {"column_header": "Global Popularity Index", "dbpedia_property_id": "http://dbpedia.org/ontology/ranking"},
+    {"column_header": "Evolved Formats", "dbpedia_property_id": "http://dbpedia.org/ontology/programmeFormat"}
+  ]
+}

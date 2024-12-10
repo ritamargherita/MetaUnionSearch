@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "AdoptionRecordNumber",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/idNumber"
+    },
+    {
+      "column_header": "AdoptiveGivenName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officialName"
+    },
+    {
+      "column_header": "AdoptiveMiddleName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officialName"
+    },
+    {
+      "column_header": "AdoptiveSurname",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officialName"
+    },
+    {
+      "column_header": "AdoptionDate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/date"
+    },
+    {
+      "column_header": "PlaceOfAdoption",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "BiologicalMotherFirstName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officialName"
+    },
+    {
+      "column_header": "BiologicalMotherMaidenName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/previousName"
+    },
+    {
+      "column_header": "BiologicalFatherFirstName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officialName"
+    },
+    {
+      "column_header": "BiologicalFatherLastName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/previousName"
+    },
+    {
+      "column_header": "RelinquishmentDate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dateOfAbandonment"
+    },
+    {
+      "column_header": "ReasonForAdoption",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/purpose"
+    },
+    {
+      "column_header": "AdoptiveParentsFirstNames",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/personName"
+    },
+    {
+      "column_header": "AdoptiveParentsLastName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officialName"
+    }
+  ]
+}

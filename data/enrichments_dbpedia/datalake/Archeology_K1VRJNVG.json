@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "ExcavationDate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/discovered"
+    },
+    {
+      "column_header": "PrimaryInvestment",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectBudgetTotal"
+    },
+    {
+      "column_header": "FundingSource",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "ExcavationTeamLeader",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/contractor"
+    },
+    {
+      "column_header": "FieldSpecialist1",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/profession"
+    },
+    {
+      "column_header": "FieldSpecialist2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/profession"
+    },
+    {
+      "column_header": "FieldSpecialist3",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/profession"
+    },
+    {
+      "column_header": "FieldSpecialistNotes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": "LabSpecialist1",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/profession"
+    },
+    {
+      "column_header": "LabSpecialist2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/profession"
+    },
+    {
+      "column_header": "LabSpecialist3",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/profession"
+    },
+    {
+      "column_header": "LabSpecialistNotes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": "PublicationYear",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publicationDate"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "CensusYear",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/censusYear"
+    },
+    {
+      "column_header": " StateAbbreviation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/abbreviation"
+    },
+    {
+      "column_header": " CountyName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/county"
+    },
+    {
+      "column_header": " CityOrTown",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/city"
+    },
+    {
+      "column_header": " TotalPopulation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/totalPopulation"
+    },
+    {
+      "column_header": " CountryOfBirth",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/birthPlace"
+    },
+    {
+      "column_header": " OccupationalGroup",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/occupation"
+    },
+    {
+      "column_header": " AnnualIncome",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/annualTemperature"
+    },
+    {
+      "column_header": " EducationLevelAttained",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/education"
+    },
+    {
+      "column_header": " Ethnicity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ethnicity"
+    },
+    {
+      "column_header": " LifeExpectancy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/lifeExpectancy"
+    }
+  ]
+}

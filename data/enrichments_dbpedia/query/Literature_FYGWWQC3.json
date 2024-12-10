@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Literary Analysis", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": "Genre", "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"},
+    {"column_header": "Character Development", "dbpedia_property_id": "http://dbpedia.org/ontology/mainCharacter"},
+    {"column_header": "Plot Structure", "dbpedia_property_id": "http://dbpedia.org/ontology/structuralSystem"},
+    {"column_header": "Themes", "dbpedia_property_id": "http://dbpedia.org/ontology/narrator"},
+    {"column_header": "Historical Context", "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"},
+    {"column_header": "Cultural Significance", "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"},
+    {"column_header": "Author Background", "dbpedia_property_id": "http://dbpedia.org/ontology/author"},
+    {"column_header": "Language and Style", "dbpedia_property_id": "http://dbpedia.org/ontology/style"},
+    {"column_header": "Literary Devices", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": "Symbolism", "dbpedia_property_id": "http://dbpedia.org/ontology/symbol"},
+    {"column_header": "Imagery", "dbpedia_property_id": "http://dbpedia.org/ontology/pictureDescription"},
+    {"column_header": "Tone", "dbpedia_property_id": "http://dbpedia.org/ontology/style"}
+  ]
+}

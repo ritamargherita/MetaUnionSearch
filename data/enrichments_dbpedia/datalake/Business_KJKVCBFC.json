@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Quantitative Financial Analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/calculationNeeds"
+    },
+    {
+      "column_header": "CompanyName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/name"
+    },
+    {
+      "column_header": "CensusClassCode (e.g., NAICS Code)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nisCode"
+    },
+    {
+      "column_header": "AnnualIncome",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+    },
+    {
+      "column_header": "YearlyCosts?",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "PresentAssetsValue",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/capital"
+    },
+    {
+      "column_header": "PresentLiabilitiesValue",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/capitalPosition"
+    },
+    {
+      "column_header": "BalanceSheetTotal",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/marketCapitalisation"
+    },
+    {
+      "column_header": "NetIncomePercentage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "GrossMargin%",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "OperatingMargin%",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/operatingIncome"
+    },
+    {
+      "column_header": "PretaxMargin%",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "AftertaxMargin%",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "ROAPercentage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "CapitalExpenditureRatio",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    }
+  ]
+}

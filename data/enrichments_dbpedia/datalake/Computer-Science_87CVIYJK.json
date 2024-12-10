@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Software Engineering Design Patterns",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/significantDesign"
+    },
+    {
+      "column_header": "Artificial Intelligence Methodologies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/approach"
+    },
+    {
+      "column_header": "Human-Computer Interaction Techniques",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    },
+    {
+      "column_header": "Digital Forensics Procedural Standards",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/procedure"
+    },
+    {
+      "column_header": "Parallel and Distributed Systems Theory",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/approach"
+    },
+    {
+      "column_header": "Cybersecurity Threat Intelligence Sharing Platform Features",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/features"
+    },
+    {
+      "column_header": "Privacy Preservation Mechanisms",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/procedure"
+    },
+    {
+      "column_header": "Cloud Services Security Control Measures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": "Mobile Application Development Frameworks",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"
+    },
+    {
+      "column_header": "Database System Types",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    }
+  ]
+}

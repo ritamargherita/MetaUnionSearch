@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {"column_header": "IoT Devices", "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"},
+    {"column_header": " IoT Security", "dbpedia_property_id": "http://dbpedia.org/ontology/security"},
+    {"column_header": " Smart Cities", "dbpedia_property_id": "http://dbpedia.org/ontology/city"},
+    {"column_header": " Autonomous Vehicles", "dbpedia_property_id": "http://dbpedia.org/ontology/vehicle"},
+    {"column_header": " Industrial IoT", "dbpedia_property_id": "http://dbpedia.org/ontology/industry"},
+    {"column_header": " IoT in Healthcare", "dbpedia_property_id": "http://dbpedia.org/ontology/medicalSpecialty"},
+    {"column_header": " IoT in Agriculture", "dbpedia_property_id": "http://dbpedia.org/ontology/typeOfGrain"},
+    {"column_header": " IoT in Retail", "dbpedia_property_id": "http://dbpedia.org/ontology/service"},
+    {"column_header": " Wearable Devices", "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"},
+    {"column_header": " Wearable Tech Ethics", "dbpedia_property_id": "http://dbpedia.org/ontology/restriction"},
+    {"column_header": " Wearable Tech Regulations", "dbpedia_property_id": "http://dbpedia.org/ontology/security"},
+    {"column_header": " Wearable Tech Privacy Policies", "dbpedia_property_id": "http://dbpedia.org/ontology/access"}
+  ]
+}

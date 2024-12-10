@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Nebula Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ngcName"
+    },
+    {
+      "column_header": "Nebula Category",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/category"
+    },
+    {
+      "column_header": "Galactic Coordinates (longitude, latitude)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/kindOfCoordinate"
+    },
+    {
+      "column_header": "Nebula Radius (light years)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/radius_ly"
+    },
+    {
+      "column_header": "Gas Composition Percentage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Temperature Range (Kelvin)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"
+    },
+    {
+      "column_header": "Stellar Association Count",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfMembers"
+    },
+    {
+      "column_header": "Supernova Remnant Indicator",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officialName"
+    },
+    {
+      "column_header": "Dark Matter Distribution (Energy Density Mass %)^3",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/density"
+    },
+    {
+      "column_header": "Cosmic Microwave Background Signal Level (ppm)*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    }
+  ]
+}

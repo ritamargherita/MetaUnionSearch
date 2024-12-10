@@ -1,0 +1,16 @@
+{
+    "mapping": [
+        {"column_header": "Invasive Species", "dbpedia_property_id": "http://dbpedia.org/ontology/species"},
+        {"column_header": "Native Species", "dbpedia_property_id": "http://dbpedia.org/ontology/species"},
+        {"column_header": "Population Dynamics", "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"},
+        {"column_header": "Biodiversity", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"},
+        {"column_header": "Food Webs", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"},
+        {"column_header": "Ecological Succession", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"},
+        {"column_header": "Carbon Cycle", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+        {"column_header": "Nitrogen Cycle", "dbpedia_property_id": "http://dbpedia.org/ontology/plant"},
+        {"column_header": "Water Cycle", "dbpedia_property_id": "http://dbpedia.org/ontology/water"},
+        {"column_header": "Photosynthesis", "dbpedia_property_id": "http://dbpedia.org/ontology/plant"},
+        {"column_header": "Human Dependence on Ecology", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+        {"column_header": "Climate Change Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"}
+    ]
+}

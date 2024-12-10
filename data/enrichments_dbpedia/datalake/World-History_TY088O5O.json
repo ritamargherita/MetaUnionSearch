@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Religions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Religious Texts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Belief Systems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/believers"
+    },
+    {
+      "column_header": "Literature Genres",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": "Famous Works",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+    },
+    {
+      "column_header": "Holidays",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"
+    },
+    {
+      "column_header": "Music Styles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/musicType"
+    },
+    {
+      "column_header": "Famous Musicians",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/musicians"
+    },
+    {
+      "column_header": "Spoken Languages",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/spokenIn"
+    },
+    {
+      "column_header": "Writing Scripts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/originalLanguage"
+    },
+    {
+      "column_header": "Currencies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currency"
+    },
+    {
+      "column_header": "Trade Routes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/route"
+    },
+    {
+      "column_header": "Military Tactics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/militaryFunction"
+    }
+  ]
+}

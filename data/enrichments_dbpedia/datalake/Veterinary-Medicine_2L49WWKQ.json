@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Quantity Sold",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberSold"
+    },
+    {
+      "column_header": "Manufacturer Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/manufacturer"
+    },
+    {
+      "column_header": "Drug Active Ingredient",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ingredientName"
+    },
+    {
+      "column_header": "Species FDA Approved For",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/species"
+    },
+    {
+      "column_header": "Formulation Type (e.g.: tablet, injection)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/product"
+    },
+    {
+      "column_header": "Average Dose per Treatment",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dose"
+    },
+    {
+      "column_header": "Packaging Units (bottles, etc.)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/supply"
+    },
+    {
+      "column_header": "Expiry Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/date"
+    },
+    {
+      "column_header": "Batch Number",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/number"
+    },
+    {
+      "column_header": "Production Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/locatedInArea"
+    },
+    {
+      "column_header": "List Price",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/price"
+    }
+  ]
+}

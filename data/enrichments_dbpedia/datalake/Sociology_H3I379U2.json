@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "SociologicalPerspectives", "dbpedia_property_id": "http://dbpedia.org/ontology/ideology"},
+    {"column_header": "HistoricalDevelopment", "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"},
+    {"column_header": "KeyConcepts", "dbpedia_property_id": "http://dbpedia.org/ontology/notableIdea"},
+    {"column_header": "MajorContributors", "dbpedia_property_id": "http://dbpedia.org/ontology/keyPerson"},
+    {"column_header": "InfluentialStudies", "dbpedia_property_id": "http://dbpedia.org/ontology/publication"},
+    {"column_header": "MethodologicalApproaches", "dbpedia_property_id": "http://dbpedia.org/ontology/approach"},
+    {"column_header": "CriticismsAndDebates", "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"},
+    {"column_header": "PracticalApplications", "dbpedia_property_id": "http://dbpedia.org/ontology/uses"},
+    {"column_header": "TheoreticalIntegration", "dbpedia_property_id": "http://dbpedia.org/ontology/review"},
+    {"column_header": "PolicyImplications", "dbpedia_property_id": "http://dbpedia.org/ontology/government"},
+    {"column_header": "TeachingResources", "dbpedia_property_id": "http://dbpedia.org/ontology/teachingStaff"},
+    {"column_header": "ResearchCommunities", "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"},
+    {"column_header": "TechnologicalImplications", "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"}
+  ]
+}

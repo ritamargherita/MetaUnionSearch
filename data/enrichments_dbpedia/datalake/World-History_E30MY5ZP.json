@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Ancient Civilizations' Laws",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/lawCountry"
+    },
+    {
+      "column_header": " Medieval Societies' Customs ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ethnicGroup"
+    },
+    {
+      "column_header": " Renaissance Artists ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/painter"
+    },
+    {
+      "column_header": " Colonial Empires' Borders ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/border"
+    },
+    {
+      "column_header": " Industrial Era's Inventions ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/patent"
+    },
+    {
+      "column_header": " Global Conflicts' Turning Points ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    },
+    {
+      "column_header": " Environmental Movements ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/movement"
+    },
+    {
+      "column_header": " Ideologies' Founders ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/founder"
+    },
+    {
+      "column_header": " Archaeological Sites ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/touristicSite"
+    },
+    {
+      "column_header": " Literary Genres.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    }
+  ]
+}

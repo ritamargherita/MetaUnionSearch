@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Cultural Values",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Preferred Communication Style",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Dress Code",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dressCode"
+    },
+    {
+      "column_header": "Work Hours",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/work"
+    },
+    {
+      "column_header": "Social Culture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Food",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"
+    },
+    {
+      "column_header": "Climate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Sports",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sport"
+    },
+    {
+      "column_header": "Literature",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/novel"
+    },
+    {
+      "column_header": "National Anthem",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/anthem"
+    }
+  ]
+}

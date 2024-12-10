@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "Quantitative Analysis Metrics", "dbpedia_property_id": "http://dbpedia.org/ontology/statisticValue"},
+    {"column_header": "CompanyName", "dbpedia_property_id": "http://dbpedia.org/ontology/name"},
+    {"column_header": "Industry Category Code (e.g., NAICScodes)", "dbpedia_property_id": "http://dbpedia.org/ontology/industry"},
+    {"column_header": "Additional Financial Information #1", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": "Additional Financial Information #2", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": "Market Capitalization (*or another unique identifier like a ticker symbol*)", "dbpedia_property_id": "http://dbpedia.org/ontology/marketCapitalisation"},
+    {"column_header": "Price to Earnings Ratio (PE)", "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"},
+    {"column_header": "Price to Sales ratio (PS) *(-optional)*", "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"},
+    {"column_header": "Dividend Yield %", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Enterprise Value", "dbpedia_property_id": "http://dbpedia.org/ontology/value"},
+    {"column_header": "Total Debt to Equity ratio (% or unitless number form)", "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"},
+    {"column_header": "Interest Expenses To Operating Income (*_)", "dbpedia_property_id": "http://dbpedia.org/ontology/interest"},
+    {"column_header": "Quick Rate or Acid Test (*$_) *(-Optional)*", "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"},
+    {"column_header": "Debtor Collection Period (*$_) *(-Optional)*", "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"}
+  ]
+}

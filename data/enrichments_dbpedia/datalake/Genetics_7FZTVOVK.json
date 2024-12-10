@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Animal Model Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/model"
+    },
+    {
+      "column_header": "Disease Phenotype Similarity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/similar"
+    },
+    {
+      "column_header": "Lethality Indicator",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/lethalOnMice"
+    },
+    {
+      "column_header": "Gene Knockout Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geneReviewsId"
+    },
+    {
+      "column_header": "Protein Function Affected",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherFunction"
+    },
+    {
+      "column_header": "Developmental Abnormalities Present",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/disease"
+    },
+    {
+      "column_header": "Epigenomic Modifications Detectable",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/kegg"
+    },
+    {
+      "column_header": "Multi-organ System Effects",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/organSystem"
+    },
+    {
+      "column_header": "Transgenerational Impacts Observability",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "CRISPR Guide RNA Sequences",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geneLocation"
+    },
+    {
+      "column_header": "Off Target effects Percentage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "*International Organization",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/organisation"
+    },
+    {
+      "column_header": "Global Governance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/internationalAffiliation"
+    },
+    {
+      "column_header": "Leadership Financial Contribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/leadership"
+    },
+    {
+      "column_header": "Leadership Political Contribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/politicalLeader"
+    },
+    {
+      "column_header": "Membership (size)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfMembers"
+    },
+    {
+      "column_header": "Membership (status/benefits)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/membership"
+    },
+    {
+      "column_header": "Regional Grouping",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/regionServed"
+    },
+    {
+      "column_header": "Peacekeeping Contribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/isPartOfMilitaryConflict"
+    },
+    {
+      "column_header": "Diplomatic Representation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/delegation"
+    },
+    {
+      "column_header": "Trade Agreements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dateAgreement"
+    },
+    {
+      "column_header": "Treaty Obligations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/jurisdiction"
+    },
+    {
+      "column_header": "Conflict History",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    },
+    {
+      "column_header": "International Law Compliance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/legalArticle"
+    },
+    {
+      "column_header": "IR Theory & Practice*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/topic"
+    }
+  ]
+}

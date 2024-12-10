@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Time Period",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/termPeriod"
+    },
+    {
+      "column_header": "Geographical Region",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": "Economic System",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": "Natural Resources",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/land"
+    },
+    {
+      "column_header": "Trade Agreements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/alliance"
+    },
+    {
+      "column_header": "Peacekeeping Contributions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/militaryFunction"
+    },
+    {
+      "column_header": "Currency Exchange Rates",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currency"
+    },
+    {
+      "column_header": "Environmental Policies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Space Exploration Programs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/expedition"
+    },
+    {
+      "column_header": "Cybersecurity Regulations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": "Human Rights Records",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/government"
+    },
+    {
+      "column_header": "Immigration Policy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/governmentCountry"
+    },
+    {
+      "column_header": "International Conflicts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    }
+  ]
+}

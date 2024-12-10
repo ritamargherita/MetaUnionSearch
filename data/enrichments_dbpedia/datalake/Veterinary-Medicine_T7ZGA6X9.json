@@ -1,0 +1,28 @@
+{
+  "mapping": [
+    {
+      "column_header": "Vaccination Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vaccination"
+    },
+    {
+      "column_header": "Previous Surgeries",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medicalHistorySummary"
+    },
+    {
+      "column_header": "Dietary Needs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/requirement"
+    },
+    {
+      "column_header": "Environmental Factors",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Medical History Summary",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medicalHistorySummary"
+    },
+    {
+      "column_header": "",
+      "dbpedia_property_id": ""
+    }
+  ]
+}

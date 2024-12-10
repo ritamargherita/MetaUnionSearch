@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Rumors (Song)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/musicBand"
+    },
+    {
+      "column_header": "Origins (of musical style)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/stylisticOrigin"
+    },
+    {
+      "column_header": "Instruments Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/instrument"
+    },
+    {
+      "column_header": "Notable Lyrics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/lyrics"
+    },
+    {
+      "column_header": "Music Video Director",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/director"
+    },
+    {
+      "column_header": "Choreographer",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/choreographer"
+    },
+    {
+      "column_header": "Producer (Music Video)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/producer"
+    },
+    {
+      "column_header": "Cinematographer",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cinematography"
+    },
+    {
+      "column_header": "Screenwriter",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/creativeDirector"
+    },
+    {
+      "column_header": "Set Designer",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/setDesigner"
+    },
+    {
+      "column_header": "Genre of the Album (to which this song belongs)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/genre"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Anthropological Site Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/touristicSite"
+    },
+    {
+      "column_header": "Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Period",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/period"
+    },
+    {
+      "column_header": "Culture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Artifacts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/significantProject"
+    },
+    {
+      "column_header": "Language",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/originalLanguage"
+    },
+    {
+      "column_header": "Religion",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Burial Practices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/noteOnPlaceOfBurial"
+    },
+    {
+      "column_header": "Population Size",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"
+    },
+    {
+      "column_header": "Environmental Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"mapping": [{"column_header": "GardenerReviewScore", "dbpedia_property_id": "http://dbpedia.org/ontology/starRating"}, {"column_header": "#ofRatings", "dbpedia_property_id": "http://dbpedia.org/ontology/votesFor"}, {"column_header": " ", "dbpedia_property_id": "http://dbpedia.org/ontology/review"}]}

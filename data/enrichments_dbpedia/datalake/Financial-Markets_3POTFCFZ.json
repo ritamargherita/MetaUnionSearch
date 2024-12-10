@@ -1,0 +1,44 @@
+{
+    "mapping": [
+        {
+            "column_header": "Commodity Prices",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/price"
+        },
+        {
+            "column_header": "Central Bank Interest Rates",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/mainInterest"
+        },
+        {
+            "column_header": "Derivatives",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/derivative"
+        },
+        {
+            "column_header": "Consumer Spending",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+        },
+        {
+            "column_header": "Corporate Earnings",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+        },
+        {
+            "column_header": "Housing Market",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/house"
+        },
+        {
+            "column_header": "Government Debt",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/government"
+        },
+        {
+            "column_header": "Regulatory Environment",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/governingBody"
+        },
+        {
+            "column_header": "Consumer Credit",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/credit"
+        },
+        {
+            "column_header": "Investment Flows",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/investment"
+        }
+    ]
+}

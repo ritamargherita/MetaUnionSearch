@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Title",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/title"
+    },
+    {
+      "column_header": " Publication Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publicationDate"
+    },
+    {
+      "column_header": " Public Reaction",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/review"
+    },
+    {
+      "column_header": " Awards Won",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/award"
+    },
+    {
+      "column_header": " Adaptations (Movies, TV)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/filmVersion"
+    },
+    {
+      "column_header": " Age Group appeal",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/age"
+    },
+    {
+      "column_header": " Influence On Other Writers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/influenced"
+    },
+    {
+      "column_header": " Critic Reviews",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/review"
+    },
+    {
+      "column_header": " "Book Design & Illustrations"",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/design"
+    },
+    {
+      "column_header": " Sentiment Analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mood"
+    },
+    {
+      "column_header": " Genre Trends",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    }
+  ]
+}

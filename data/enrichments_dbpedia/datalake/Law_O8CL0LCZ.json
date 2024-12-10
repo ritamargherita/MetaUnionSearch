@@ -1,0 +1,19 @@
+{
+    "mapping": [
+        {"column_header": "Legislative Jurisdiction", "dbpedia_property_id": "http://dbpedia.org/ontology/jurisdiction"},
+        {"column_header": "Legislature Session", "dbpedia_property_id": "http://dbpedia.org/ontology/legislativePeriodName"},
+        {"column_header": "Bill Number", "dbpedia_property_id": "http://dbpedia.org/ontology/number"},
+        {"column_header": "Proposer Details", "dbpedia_property_id": "http://dbpedia.org/ontology/governingBody"},
+        {"column_header": "Regulating Body", "dbpedia_property_id": "http://dbpedia.org/ontology/governingBody"},
+        {"column_header": "Law Type", "dbpedia_property_id": "http://dbpedia.org/ontology/legalForm"},
+        {"column_header": "Topic Category", "dbpedia_property_id": "http://dbpedia.org/ontology/topic"},
+        {"column_header": "Regulations Detailed", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+        {"column_header": "Effective Date", "dbpedia_property_id": "http://dbpedia.org/ontology/date"},
+        {"column_header": "Amendment History", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+        {"column_header": "Publication Information", "dbpedia_property_id": "http://dbpedia.org/ontology/publication"},
+        {"column_header": "URL", "dbpedia_property_id": "http://dbpedia.org/ontology/fileURL"},
+        {"column_header": "Enforcement Bodies", "dbpedia_property_id": "http://dbpedia.org/ontology/governingBody"},
+        {"column_header": "Compliance Deadline", "dbpedia_property_id": "http://dbpedia.org/ontology/date"},
+        {"column_header": "Penaltiesfor Noncompliance", "dbpedia_property_id": "http://dbpedia.org/ontology/penaltyScore"}
+    ]
+}

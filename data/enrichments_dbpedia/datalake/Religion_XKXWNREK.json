@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Historical Evolution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/era"
+    },
+    {
+      "column_header": "Influence on Culture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/influenced"
+    },
+    {
+      "column_header": "Saints and Gurus",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/saint"
+    },
+    {
+      "column_header": "Rites of Passage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"
+    },
+    {
+      "column_header": "Art and Literature",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+    },
+    {
+      "column_header": "Famous Philosophers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"
+    },
+    {
+      "column_header": "Food and Dietary Practices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"
+    },
+    {
+      "column_header": "Music and Dance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/musicians"
+    },
+    {
+      "column_header": "Martyrs and Heroes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/victims"
+    },
+    {
+      "column_header": "Languages and Scriptures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/originalLanguage"
+    }
+  ]
+}

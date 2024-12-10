@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Stock Market Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/codeIndex"
+    },
+    {
+      "column_header": "Stock Market Sector",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": "Interest Rates",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": "Commodity Prices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/price"
+    },
+    {
+      "column_header": "Consumer Price Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/price"
+    },
+    {
+      "column_header": "Producer Price Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/price"
+    },
+    {
+      "column_header": "Trade Balance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "Current Account",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "Political Stability",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/regime"
+    },
+    {
+      "column_header": "Public Debt",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/credit"
+    },
+    {
+      "column_header": "Central Bank Policy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/government"
+    },
+    {
+      "column_header": "Gross Domestic Product",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/grossDomesticProduct"
+    },
+    {
+      "column_header": "Inflation Rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": "Foreign Exchange Rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currency"
+    },
+    {
+      "column_header": "Fiscal Policy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/government"
+    }
+  ]
+}

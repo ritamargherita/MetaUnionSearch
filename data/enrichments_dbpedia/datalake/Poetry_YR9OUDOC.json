@@ -1,0 +1,22 @@
+{
+  "mapping": [
+    {"column_header": "Sonnet Type", "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"},
+    {"column_header": "Line Length", "dbpedia_property_id": "http://dbpedia.org/ontology/lineLength"},
+    {"column_header": "Original Writer", "dbpedia_property_id": "http://dbpedia.org/ontology/author"},
+    {"column_header": "Historical Context", "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"},
+    {"column_header": "Social Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"},
+    {"column_header": "Cultural References", "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"},
+    {"column_header": "Metonymy & Synesthesia", "dbpedia_property_id": "http://dbpedia.org/ontology/meaning"},
+    {"column_header": "Allegory", "dbpedia_property_id": "http://dbpedia.org/ontology/meaning"},
+    {"column_header": "Enjambment", "dbpedia_property_id": "http://dbpedia.org/ontology/technique"},
+    {"column_header": "Hyperbole & Understatement", "dbpedia_property_id": "http://dbpedia.org/ontology/connotation"},
+    {"column_header": "Anaphora & Epistrophe", "dbpedia_property_id": "http://dbpedia.org/ontology/technique"},
+    {"column_header": "Syntax Manipulation", "dbpedia_property_id": "http://dbpedia.org/ontology/technique"},
+    {"column_header": "Concrete Language", "dbpedia_property_id": "http://dbpedia.org/ontology/definition"},
+    {"column_header": "Meter Adherence", "dbpedia_property_id": "http://dbpedia.org/ontology/technique"},
+    {"column_header": "Rhythmic Pattern", "dbpedia_property_id": "http://dbpedia.org/ontology/technique"},
+    {"column_header": "Figurative Meaning", "dbpedia_property_id": "http://dbpedia.org/ontology/meaning"},
+    {"column_header": "Expressionistic Techniques", "dbpedia_property_id": "http://dbpedia.org/ontology/technique"},
+    {"column_header": "Language Games.", "dbpedia_property_id": "http://dbpedia.org/ontology/games"}
+  ]
+}

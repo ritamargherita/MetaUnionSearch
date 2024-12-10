@@ -166,7 +166,7 @@ if __name__ == "__main__":
     input_folder = "../../alt-gen/data/ugen_v2/datalake"
     output_folder = "../../data/eval/enriched_dtypes/meta_datalake"
     selected_topics_file = "../../data/eval/topics_eval_set.txt"
-    dtype_folder = "../../data/enrichements_dtypes/datalake"
+    dtype_folder = "../../data/enrichments_dtypes/datalake"
     """
 
     """
@@ -174,7 +174,7 @@ if __name__ == "__main__":
     input_folder = "../../alt-gen/data/ugen_v2/query"
     output_folder = "../../data/eval/enriched_dtypes/meta_query"
     selected_topics_file = "../../data/eval/topics_eval_set.txt"
-    dtype_folder = "../../data/enrichements_dtypes/query"
+    dtype_folder = "../../data/enrichments_dtypes/query"
     """
 
     """
@@ -182,7 +182,7 @@ if __name__ == "__main__":
     input_folder = "../../alt-gen/data/ugen_v2/datalake"
     output_folder = "../../data/test/enriched_dtypes/meta_query"
     selected_topics_file = "../../data/eval/topics_test_set.txt"
-    dtype_folder = "../../data/enrichements_dtypes/datalake"
+    dtype_folder = "../../data/enrichments_dtypes/datalake"
     """
 
     #"""
@@ -190,7 +190,7 @@ if __name__ == "__main__":
     input_folder = "../../alt-gen/data/ugen_v2/query"
     output_folder = "../../data/test/enriched_dtypes/meta_query"
     selected_topics_file = "../../data/eval/topics_test_set.txt"
-    dtype_folder = "../../data/enrichements_dtypes/query"
+    dtype_folder = "../../data/enrichments_dtypes/query"
     #"""
 
     main(input_folder, output_folder, selected_topics_file, dtype_folder)

@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {"column_header": "Sonnet Type", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": "Similes Quantity", "dbpedia_property_id": "http://dbpedia.org/ontology/similar"},
+    {"column_header": "Enjambment Usage", "dbpedia_property_id": "http://dbpedia.org/ontology/uses"},
+    {"column_header": "Assonance Presence", "dbpedia_property_id": "http://dbpedia.org/ontology/meaning"},
+    {"column_header": "Consonance Usage", "dbpedia_property_id": "http://dbpedia.org/ontology/uses"},
+    {"column_header": "Contrasts & Parallels", "dbpedia_property_id": "http://dbpedia.org/ontology/connotation"},
+    {"column_header": "Allegory Included", "dbpedia_property_id": "http://dbpedia.org/ontology/hasVariant"},
+    {"column_header": "Sensory Language Extent", "dbpedia_property_id": "http://dbpedia.org/ontology/mood"},
+    {"column_header": "Figurative Languages Variety", "dbpedia_property_id": "http://dbpedia.org/ontology/language"},
+    {"column_header": "Mood Expression", "dbpedia_property_id": "http://dbpedia.org/ontology/mood"},
+    {"column_header": "Social Commentaries Frequency", "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"},
+    {"column_header": "Historical Context Analysis", "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"}
+  ]
+}

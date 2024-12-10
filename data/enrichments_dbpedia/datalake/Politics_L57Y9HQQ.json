@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Elections Held",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/electionDate"
+    },
+    {
+      "column_header": " Voter Turnout%",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": " Winning Candidate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/champion"
+    },
+    {
+      "column_header": " Number of Seats Won by Winning Candidate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfSeats"
+    },
+    {
+      "column_header": " Total Population in Constituency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/totalPopulation"
+    },
+    {
+      "column_header": " Minimum Age Requirement for Voting",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/lowerAge"
+    },
+    {
+      "column_header": " Political Ad Spending$",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/budget"
+    },
+    {
+      "column_header": " Campaign Issue Priorities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"
+    },
+    {
+      "column_header": " Date of the Next Election",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/latestElection"
+    },
+    {
+      "column_header": " Opposition Party Leader",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/politicalLeader"
+    },
+    {
+      "column_header": " Level Of Funding For Opposing Campaigns$",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectBudgetFunding"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "mapping": [
+    {
+      "column_header": "Culture ↔ CeramicStyle",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "ToolTypes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "HousingStructures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": "AgriculturalPractices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/production"
+    },
+    {
+      "column_header": "DressAndOrnaments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dressCode"
+    },
+    {
+      "column_header": "FoodPreferences",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"
+    },
+    {
+      "column_header": "SocialStructure",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/jointCommunity"
+    },
+    {
+      "column_header": "OralTraditions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/oralTradition"
+    }
+  ]
+}

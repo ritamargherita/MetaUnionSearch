@@ -1,0 +1,13 @@
+{
+    "mapping": [
+        {"column_header": "Geometric Pattern Origins", "dbpedia_property_id": "http://dbpedia.org/ontology/origin"},
+        {"column_header": "Number Meanings and Magical Properties", "dbpedia_property_id": "http://dbpedia.org/ontology/number"},
+        {"column_header": "Designing Process Steps and Tools", "dbpedia_property_id": "http://dbpedia.org/ontology/procedure"},
+        {"column_header": "Symbolic Images Gallery", "dbpedia_property_id": "http://dbpedia.org/ontology/galleryItem"},
+        {"column_header": "Historian Interviews Transcripts", "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"},
+        {"column_header": "Preservation Status", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+        {"column_header": "Cultural Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"},
+        {"column_header": "Geomancy Artists' Profiles", "dbpedia_property_id": "http://dbpedia.org/ontology/rkdArtistsId"},
+        {"column_header": "Geomancy in Modern Art & Design", "dbpedia_property_id": "http://dbpedia.org/ontology/production"}
+    ]
+}

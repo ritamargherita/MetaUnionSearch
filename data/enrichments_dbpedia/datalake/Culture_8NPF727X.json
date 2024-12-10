@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Heritage Monuments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/heritageRegister"
+    },
+    {
+      "column_header": "Cultural Events",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/event"
+    },
+    {
+      "column_header": "Literature",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/novel"
+    },
+    {
+      "column_header": "Traditional Arts & Craftsmanship",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/artPatron"
+    },
+    {
+      "column_header": "Customary Practices and Rituals",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "National Holidays",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"
+    },
+    {
+      "column_header": "Education System",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/educationSystem"
+    },
+    {
+      "column_header": "Sports and Games",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sport"
+    },
+    {
+      "column_header": "Cuisine",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"
+    },
+    {
+      "column_header": "Climate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Government Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/governmentType"
+    },
+    {
+      "column_header": "Population",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"
+    },
+    {
+      "column_header": "Currency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currency"
+    }
+  ]
+}

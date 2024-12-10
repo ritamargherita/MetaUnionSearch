@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Poroelastic Wave Propagation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": "Fluid Substitution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/material"
+    },
+    {
+      "column_header": "Effective Stress Law",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": "Poisson’s Ratio-Shear Modulus Relationship",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"
+    },
+    {
+      "column_header": "Compressional Velocities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/velocity"
+    },
+    {
+      "column_header": "Reservoir Characterization-Fluids Quantification",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": "Overburden Pressure",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vaporPressure"
+    },
+    {
+      "column_header": "Temperature Gradients",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"
+    },
+    {
+      "column_header": "Subsurface Imaging Techniques",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    },
+    {
+      "column_header": "Geologic Hazard Assessment",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geologicPeriod"
+    },
+    {
+      "column_header": "Signal Attenuation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/strength"
+    },
+    {
+      "column_header": "Noise Reduction",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    }
+  ]
+}

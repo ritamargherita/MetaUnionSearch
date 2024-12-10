@@ -1,0 +1,20 @@
+{
+  "mapping": [
+    {"column_header": "Title", "dbpedia_property_id": "http://dbpedia.org/ontology/title"},
+    {"column_header": "Author", "dbpedia_property_id": "http://dbpedia.org/ontology/author"},
+    {"column_header": "Metaphor Usage", "dbpedia_property_id": "http://dbpedia.org/ontology/uses"},
+    {"column_header": "Rhyme Scheme", "dbpedia_property_id": "http://dbpedia.org/ontology/style"},
+    {"column_header": "Stanza Count", "dbpedia_property_id": "http://dbpedia.org/ontology/totalTracks"}, 
+    {"column_header": "Word Choice", "dbpedia_property_id": "http://dbpedia.org/ontology/meaning"},
+    {"column_header": "Emotional Appeal", "dbpedia_property_id": "http://dbpedia.org/ontology/mood"},
+    {"column_header": "Literary Devices Used", "dbpedia_property_id": "http://dbpedia.org/ontology/style"},
+    {"column_header": "Theme Development", "dbpedia_property_id": "http://dbpedia.org/ontology/topic"},
+    {"column_header": "Imagery and Symbolism", "dbpedia_property_id": "http://dbpedia.org/ontology/iconographicAttributes"},
+    {"column_header": "Tone Variation", "dbpedia_property_id": "http://dbpedia.org/ontology/mood"},
+    {"column_header": "Rhetorical Questions", "dbpedia_property_id": "http://dbpedia.org/ontology/meaning"},
+    {"column_header": "Allusions", "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"},
+    {"column_header": "Syntax Play", "dbpedia_property_id": "http://dbpedia.org/ontology/style"},
+    {"column_header": "Genre Classification", "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"},
+    {"column_header": "Free Verse?", "dbpedia_property_id": "http://dbpedia.org/ontology/free"}
+  ]
+}

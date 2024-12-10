@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "GrowthHabitat", "dbpedia_property_id": "http://dbpedia.org/ontology/flora"},
+    {"column_header": "TypicalFruitingSeason", "dbpedia_property_id": "http://dbpedia.org/ontology/plant"},
+    {"column_header": "CommonPests", "dbpedia_property_id": "http://dbpedia.org/ontology/plant"},
+    {"column_header": "TypicalPollinators", "dbpedia_property_id": "http://dbpedia.org/ontology/plant"},
+    {"column_header": "OptimalSoilPh", "dbpedia_property_id": "http://dbpedia.org/ontology/plant"},
+    {"column_header": "PreferredClimateZone", "dbpedia_property_id": "http://dbpedia.org/ontology/bioclimate"},
+    {"column_header": "AveragePlantHeight", "dbpedia_property_id": "http://dbpedia.org/ontology/height"},
+    {"column_header": "FloweringColorRange", "dbpedia_property_id": "http://dbpedia.org/ontology/flower"},
+    {"column_header": "FloweringDuration", "dbpedia_property_id": "http://dbpedia.org/ontology/plant"},
+    {"column_header": "PropagationMethods", "dbpedia_property_id": "http://dbpedia.org/ontology/plant"},
+    {"column_header": "ConservationStatus", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+    {"column_header": "MedicinalUses", "dbpedia_property_id": "http://dbpedia.org/ontology/medication"},
+    {"column_header": "NutritionalValues", "dbpedia_property_id": "http://dbpedia.org/ontology/protein"}
+  ]
+}

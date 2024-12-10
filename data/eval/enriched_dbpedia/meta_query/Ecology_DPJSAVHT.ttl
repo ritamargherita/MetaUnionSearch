@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EcologyDPJSAVHT> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_DPJSAVHT.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EcologyDPJSAVHT/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/BioticFactors> a dsv:Column ;
+    rdfs:label "Biotic Factors" ;
+    dsv:columnProperty "fauna" .
+
+<http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/Climate> a dsv:Column ;
+    rdfs:label "Climate" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/ConservationStatus> a dsv:Column ;
+    rdfs:label "Conservation Status" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/Geology> a dsv:Column ;
+    rdfs:label "Geology" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/HabitatCharacteristics> a dsv:Column ;
+    rdfs:label "Habitat Characteristics" ;
+    dsv:columnProperty "fauna" .
+
+<http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/HumanImpact> a dsv:Column ;
+    rdfs:label "Human Impact" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/Hydrology> a dsv:Column ;
+    rdfs:label "Hydrology" ;
+    dsv:columnProperty "water" .
+
+<http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/ManagementStrategies> a dsv:Column ;
+    rdfs:label "Management Strategies" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/PrimaryHabitat> a dsv:Column ;
+    rdfs:label "Primary Habitat" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/SoilComposition> a dsv:Column ;
+    rdfs:label "Soil Composition" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/SpeciesDiversity> a dsv:Column ;
+    rdfs:label "Species Diversity" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/EcologyDPJSAVHT/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/BioticFactors>,
+        <http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/Climate>,
+        <http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/ConservationStatus>,
+        <http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/Geology>,
+        <http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/HabitatCharacteristics>,
+        <http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/HumanImpact>,
+        <http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/Hydrology>,
+        <http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/ManagementStrategies>,
+        <http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/PrimaryHabitat>,
+        <http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/SoilComposition>,
+        <http://metaUnionSearch/datasets/EcologyDPJSAVHT/column/SpeciesDiversity> .
+

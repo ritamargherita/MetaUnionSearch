@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Gene Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geneReviewsName"
+    },
+    {
+      "column_header": "Chromosome",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/chromosome"
+    },
+    {
+      "column_header": "Start Position",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/startPoint"
+    },
+    {
+      "column_header": "End Position",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/endPoint"
+    },
+    {
+      "column_header": "Strand",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Gene Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Sequence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/variant or variation"
+    },
+    {
+      "column_header": "Expression Level",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/frequency"
+    },
+    {
+      "column_header": "Mutation Frequency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/frequency"
+    },
+    {
+      "column_header": "Protein Interactions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/protein"
+    },
+    {
+      "column_header": "GO Terms",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/hasVariant"
+    }
+  ]
+}

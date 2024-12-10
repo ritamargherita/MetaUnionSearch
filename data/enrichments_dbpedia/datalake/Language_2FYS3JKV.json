@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Language Name", "dbpedia_property_id": "http://dbpedia.org/ontology/namedByLanguage"},
+    {"column_header": " Language Family", "dbpedia_property_id": "http://dbpedia.org/ontology/languageFamily"},
+    {"column_header": " Origin", "dbpedia_property_id": "http://dbpedia.org/ontology/origin"},
+    {"column_header": " Typical Scripts", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": " Speaker Count", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfSpeakers"},
+    {"column_header": " Official Status", "dbpedia_property_id": "http://dbpedia.org/ontology/status"},
+    {"column_header": " Writing System Details", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": " Grammar Description", "dbpedia_property_id": "http://dbpedia.org/ontology/description"},
+    {"column_header": " Vocabulary Description: Thematic Roles & Lexicon Related Features", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": " Syntax Details: Sentence Structure and Rules Including Word Order", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": " Semantic Features: Meaning Representation", "dbpedia_property_id": "http://dbpedia.org/ontology/meaning"},
+    {"column_header": " Pragmatic Aspect or Use in Communication and Conversation", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": " Institutional Status: Non-governmental Body, Registered Variety, Recognized, Co-official, Official, Working Language, Secondary/Associate/Additional Official Language.", "dbpedia_property_id": "http://dbpedia.org/ontology/administrativeStatus"}
+  ]
+}

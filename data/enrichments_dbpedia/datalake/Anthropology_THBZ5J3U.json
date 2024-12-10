@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Archaeologist Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/profession"
+    },
+    {
+      "column_header": "Excavation Year",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/yearOfConstruction"
+    },
+    {
+      "column_header": "Field Notes Reference",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/reference"
+    },
+    {
+      "column_header": "Key Findings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    },
+    {
+      "column_header": "Research Questions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/topic"
+    },
+    {
+      "column_header": "Data Analysis Methods",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/approach"
+    },
+    {
+      "column_header": "Preservation Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    },
+    {
+      "column_header": "Funding Sources",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "Coding System Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/note"
+    },
+    {
+      "column_header": "Research Collaborations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Seminars Attended",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": "Professional Affiliations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/affiliation"
+    },
+    {
+      "column_header": "Academic Degrees",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/education"
+    },
+    {
+      "column_header": "Supervisor Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/academicAdvisor"
+    }
+  ]
+}

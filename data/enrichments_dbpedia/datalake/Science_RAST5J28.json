@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Researchers", "dbpedia_property_id": "http://dbpedia.org/ontology/projectParticipant"},
+    {"column_header": "Study Date", "dbpedia_property_id": "http://dbpedia.org/ontology/date"},
+    {"column_header": "Location", "dbpedia_property_id": "http://dbpedia.org/ontology/location"},
+    {"column_header": "Research Topic", "dbpedia_property_id": "http://dbpedia.org/ontology/topic"},
+    {"column_header": "Experiment Group", "dbpedia_property_id": "http://dbpedia.org/ontology/participant"},
+    {"column_header": "Control Group", "dbpedia_property_id": "http://dbpedia.org/ontology/participant"},
+    {"column_header": "Sample Size", "dbpedia_property_id": "http://dbpedia.org/ontology/collectionSize"},
+    {"column_header": "p Value", "dbpedia_property_id": "http://dbpedia.org/ontology/statisticValue"},
+    {"column_header": "Statistical Significance", "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"},
+    {"column_header": "Study Funding", "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"},
+    {"column_header": "Research Ethics", "dbpedia_property_id": "http://dbpedia.org/ontology/isPeerReviewed"},
+    {"column_header": "Replication Info", "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"},
+    {"column_header": "Future Research", "dbpedia_property_id": "http://dbpedia.org/ontology/projectKeyword"}
+  ]
+}

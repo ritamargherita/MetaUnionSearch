@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Biology90O7Y22T> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_90O7Y22T.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Biology90O7Y22T/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Biology90O7Y22T/column/Biologicalentityname> a dsv:Column ;
+    rdfs:label "Biological entity name" ;
+    dsv:columnProperty "scientific name" .
+
+<http://metaUnionSearch/datasets/Biology90O7Y22T/column/Cellularlocationscompartmentalization> a dsv:Column ;
+    rdfs:label "Cellular location(s)/compartmentalization" ;
+    dsv:columnProperty "Gene Location" .
+
+<http://metaUnionSearch/datasets/Biology90O7Y22T/column/Evolutionaryhistory> a dsv:Column ;
+    rdfs:label "Evolutionary history" ;
+    dsv:columnProperty "origin" .
+
+<http://metaUnionSearch/datasets/Biology90O7Y22T/column/Expressionpatternsacrosstissueslifestages> a dsv:Column ;
+    rdfs:label "Expression patterns across tissues / life stages" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/Biology90O7Y22T/column/Geneontologyannotations> a dsv:Column ;
+    rdfs:label "Gene ontology annotations" ;
+    dsv:columnProperty "KEGG" .
+
+<http://metaUnionSearch/datasets/Biology90O7Y22T/column/Geneticinformationtype> a dsv:Column ;
+    rdfs:label "Genetic information (type)" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/Biology90O7Y22T/column/Interactionswithotherentities> a dsv:Column ;
+    rdfs:label "Interactions with other entities" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/Biology90O7Y22T/column/Mutationsandtheireffects> a dsv:Column ;
+    rdfs:label "Mutations and their effects**" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/Biology90O7Y22T/column/Nucleotidesequencelength> a dsv:Column ;
+    rdfs:label "Nucleotide sequence length" ;
+    dsv:columnProperty "length (μ)" .
+
+<http://metaUnionSearch/datasets/Biology90O7Y22T/column/Roleorfunctionwithinsystem> a dsv:Column ;
+    rdfs:label "Role or function within system" ;
+    dsv:columnProperty "role" .
+
+<http://metaUnionSearch/datasets/Biology90O7Y22T/column/Structuralfeaturesmotifs> a dsv:Column ;
+    rdfs:label "Structural features & motifs" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/Biology90O7Y22T/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Biology90O7Y22T/column/Biologicalentityname>,
+        <http://metaUnionSearch/datasets/Biology90O7Y22T/column/Cellularlocationscompartmentalization>,
+        <http://metaUnionSearch/datasets/Biology90O7Y22T/column/Evolutionaryhistory>,
+        <http://metaUnionSearch/datasets/Biology90O7Y22T/column/Expressionpatternsacrosstissueslifestages>,
+        <http://metaUnionSearch/datasets/Biology90O7Y22T/column/Geneontologyannotations>,
+        <http://metaUnionSearch/datasets/Biology90O7Y22T/column/Geneticinformationtype>,
+        <http://metaUnionSearch/datasets/Biology90O7Y22T/column/Interactionswithotherentities>,
+        <http://metaUnionSearch/datasets/Biology90O7Y22T/column/Mutationsandtheireffects>,
+        <http://metaUnionSearch/datasets/Biology90O7Y22T/column/Nucleotidesequencelength>,
+        <http://metaUnionSearch/datasets/Biology90O7Y22T/column/Roleorfunctionwithinsystem>,
+        <http://metaUnionSearch/datasets/Biology90O7Y22T/column/Structuralfeaturesmotifs> .
+

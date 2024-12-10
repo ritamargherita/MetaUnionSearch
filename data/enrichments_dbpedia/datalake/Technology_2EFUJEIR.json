@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Quantum Computing Solutions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"
+    },
+    {
+      "column_header": "Virtual Reality Applications",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/virtualChannel"
+    },
+    {
+      "column_header": "Internet Of Things (IOT) Ecosystem Development",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingMedia"
+    },
+    {
+      "column_header": "Cybersecurity Threat Mitigation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": "Robotic Process Automation Adoption",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": "Blockchain Transparency Enhanced",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/block"
+    },
+    {
+      "column_header": "Digital Platform Equity Distribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equity"
+    },
+    {
+      "column_header": "AugMENTED REALITY Content Creation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/digitalChannel"
+    },
+    {
+      "column_header": "Market Capitalizations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/marketCapitalisation"
+    },
+    {
+      "column_header": "Investments Landscape",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/portfolio"
+    },
+    {
+      "column_header": "Mergers And Acquisitions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mergerDate"
+    },
+    {
+      "column_header": "Startups Overview",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/start"
+    },
+    {
+      "column_header": "IPO Tracker",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/launch"
+    }
+  ]
+}

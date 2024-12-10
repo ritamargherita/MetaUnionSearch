@@ -1,0 +1,18 @@
+{
+    "mapping": [
+        {"column_header": "1. Ecosystem role", "dbpedia_property_id": "http://dbpedia.org/ontology/role"},
+        {"column_header": "2. Trophic level", "dbpedia_property_id": "http://dbpedia.org/ontology/fauna"},
+        {"column_header": "3. Adaptation mechanisms", "dbpedia_property_id": "http://dbpedia.org/ontology/classification"},
+        {"column_header": "Protein family classification", "dbpedia_property_id": "http://dbpedia.org/ontology/subFamily"},
+        {"column_header": "Subcellular localized domain composition", "dbpedia_property_id": "http://dbpedia.org/ontology/domain"},
+        {"column_header": "Posttranslational modification sites", "dbpedia_property_id": "http://dbpedia.org/ontology/keGG"},
+        {"column_header": "Expression regulation mechanisms", "dbpedia_property_id": "http://dbpedia.org/ontology/innervates"},
+        {"column_header": "Symbiotic relationships", "dbpedia_property_id": "http://dbpedia.org/ontology/relation"},
+        {"column_header": "Disease associations", "dbpedia_property_id": "http://dbpedia.org/ontology/disease"},
+        {"column_header": "Chromosomal location", "dbpedia_property_id": "http://dbpedia.org/ontology/onChromosome"},
+        {"column_header": "Genomic context (synteny)", "dbpedia_property_id": "http://dbpedia.org/ontology/genomeDB"},
+        {"column_header": "Phosphorylation dynamics", "dbpedia_property_id": "http://dbpedia.org/ontology/annotation"},
+        {"column_header": "Coexpression networks", "dbpedia_property_id": "http://dbpedia.org/ontology/network"},
+        {"column_header": "Gene duplication events", "dbpedia_property_id": "http://dbpedia.org/ontology/orthologousGene"}
+    ]
+}

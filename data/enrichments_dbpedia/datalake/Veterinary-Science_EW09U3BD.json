@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "nVeterinarian License Number",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/licenceNumber"
+    },
+    {
+      "column_header": "nYears of Experience",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/years"
+    },
+    {
+      "column_header": "nContinuing Education Courses Completed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/education"
+    },
+    {
+      "column_header": "nMemberships in Veterinary Associations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/membership"
+    },
+    {
+      "column_header": "nAvailability for Emergency Services",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/service"
+    },
+    {
+      "column_header": "nReferral to Specialists",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/specialist"
+    },
+    {
+      "column_header": "nPatient Admission Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/introductionDate"
+    },
+    {
+      "column_header": "nLast Vaccination Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/recommissioningDate"
+    },
+    {
+      "column_header": "nNext Scheduled Appointment",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nextEvent"
+    },
+    {
+      "column_header": "nTreatment Cost Estimate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/programCost"
+    }
+  ]
+}

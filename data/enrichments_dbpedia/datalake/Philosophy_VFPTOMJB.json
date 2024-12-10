@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Philosophic Era",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/era"
+    },
+    {
+      "column_header": "Start Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/startDate"
+    },
+    {
+      "column_header": "End Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/endDate"
+    },
+    {
+      "column_header": "Major Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "School of Thought",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"
+    },
+    {
+      "column_header": "Central Texts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/documentDesignation"
+    },
+    {
+      "column_header": "Influential Figures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableStudent"
+    },
+    {
+      "column_header": "Historical Context",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": "Cultural Significance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Relation to Science",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relation"
+    },
+    {
+      "column_header": "Relation to Art",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/movement"
+    },
+    {
+      "column_header": "Relation to Politics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/politicalFunction"
+    },
+    {
+      "column_header": "Relation to Religion",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Misconceptions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableIdea"
+    },
+    {
+      "column_header": "Common Questions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/topic"
+    }
+  ]
+}

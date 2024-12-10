@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MedicineCVFJJ50Y> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_CVFJJ50Y.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MedicineCVFJJ50Y/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/DiagnosingPhysician> a dsv:Column ;
+    rdfs:label "Diagnosing Physician" ;
+    dsv:columnProperty "specialist" .
+
+<http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/DiagnosisDate> a dsv:Column ;
+    rdfs:label "Diagnosis Date" ;
+    dsv:columnProperty "medical diagnosis" .
+
+<http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/EndDate> a dsv:Column ;
+    rdfs:label "End Date" ;
+    dsv:columnProperty "end date" .
+
+<http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/MedicalCondition> a dsv:Column ;
+    rdfs:label "Medical Condition" ;
+    dsv:columnProperty "disease" .
+
+<http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/MedicationDosage> a dsv:Column ;
+    rdfs:label "Medication Dosage" ;
+    dsv:columnProperty "Dose" .
+
+<http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/PatientAge> a dsv:Column ;
+    rdfs:label "Patient Age" ;
+    dsv:columnProperty "age" .
+
+<http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/PatientID> a dsv:Column ;
+    rdfs:label "Patient ID" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/PrescribedMedication> a dsv:Column ;
+    rdfs:label "Prescribed Medication" ;
+    dsv:columnProperty "medication" .
+
+<http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/RefillFrequency> a dsv:Column ;
+    rdfs:label "Refill Frequency" ;
+    dsv:columnProperty "frequency of publication" .
+
+<http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/RefillsRemaining> a dsv:Column ;
+    rdfs:label "Refills Remaining" ;
+    dsv:columnProperty "RefSeq" .
+
+<http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/StartDate> a dsv:Column ;
+    rdfs:label "Start Date" ;
+    dsv:columnProperty "start date" .
+
+<http://metaUnionSearch/datasets/MedicineCVFJJ50Y/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/DiagnosingPhysician>,
+        <http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/DiagnosisDate>,
+        <http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/EndDate>,
+        <http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/MedicalCondition>,
+        <http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/MedicationDosage>,
+        <http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/PatientAge>,
+        <http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/PatientID>,
+        <http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/PrescribedMedication>,
+        <http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/RefillFrequency>,
+        <http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/RefillsRemaining>,
+        <http://metaUnionSearch/datasets/MedicineCVFJJ50Y/column/StartDate> .
+

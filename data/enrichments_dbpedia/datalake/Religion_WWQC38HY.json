@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Morality Teachings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/theology"
+    },
+    {
+      "column_header": "Spiritual Practices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Afterlife Concepts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"
+    },
+    {
+      "column_header": "Holidays",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"
+    },
+    {
+      "column_header": "Sacred Spaces",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/placeOfWorship"
+    },
+    {
+      "column_header": "Artifacts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relics"
+    },
+    {
+      "column_header": "Architecture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": "Music And Dance Forms",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/musicType"
+    },
+    {
+      "column_header": "Lay Organizations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/organisation"
+    },
+    {
+      "column_header": "Scholarly Institutions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/institution"
+    },
+    {
+      "column_header": "Ethical Guidelines For Living",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ideology"
+    }
+  ]
+}

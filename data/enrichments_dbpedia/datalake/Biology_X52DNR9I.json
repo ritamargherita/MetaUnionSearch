@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Biological entity name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/informationName"
+    },
+    {
+      "column_header": "Role or function within system",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/role"
+    },
+    {
+      "column_header": "Genetic information (type)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Cellular location(s)/compartmentalization",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geneLocation"
+    },
+    {
+      "column_header": "Nucleotide sequence length",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/length"
+    },
+    {
+      "column_header": "Structural features & motifs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    },
+    {
+      "column_header": "Expression patterns across tissues / life stages",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherActivity"
+    },
+    {
+      "column_header": "Evolutionary history",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/origin"
+    },
+    {
+      "column_header": "Interactions with other entities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Gene ontology annotations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/kegg"
+    },
+    {
+      "column_header": "Mutations and their effects",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/variantOf"
+    },
+    {
+      "column_header": "Phylogenetic relationship",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/clade"
+    },
+    {
+      "column_header": "Additional characteristics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    }
+  ]
+}

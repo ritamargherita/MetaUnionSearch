@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Genetician Name", "dbpedia_property_id": "http://dbpedia.org/ontology/person"},
+    {"column_header": "Date Diagnosed", "dbpedia_property_id": "http://dbpedia.org/ontology/date"},
+    {"column_header": "Patient Age", "dbpedia_property_id": "http://dbpedia.org/ontology/age"},
+    {"column_header": "Gender", "dbpedia_property_id": "http://dbpedia.org/ontology/gender"},
+    {"column_header": "Background Information", "dbpedia_property_id": "http://dbpedia.org/ontology/background"},
+    {"column_header": "Medical ID", "dbpedia_property_id": "http://dbpedia.org/ontology/idNumber"},
+    {"column_header": "Additional Tests Recommended", "dbpedia_property_id": "http://dbpedia.org/ontology/otherInformation"},
+    {"column_header": "Follow Up Plan", "dbpedia_property_id": "http://dbpedia.org/ontology/follows"},
+    {"column_header": "Historical Family Diseases Data", "dbpedia_property_id": "http://dbpedia.org/ontology/diseasesDb"},
+    {"column_header": "Current Medications & Doses", "dbpedia_property_id": "http://dbpedia.org/ontology/medication"},
+    {"column_header": "Contact Details", "dbpedia_property_id": "http://dbpedia.org/ontology/information"},
+    {"column_header": "Appointment Details", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": "Notes", "dbpedia_property_id": "http://dbpedia.org/ontology/note"}
+  ]
+}

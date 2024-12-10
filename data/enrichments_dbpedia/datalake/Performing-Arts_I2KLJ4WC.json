@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "Theater Type", "dbpedia_property_id": "http://dbpedia.org/ontology/buildingType"},
+    {"column_header": " Capacity ", "dbpedia_property_id": "http://dbpedia.org/ontology/capacity"},
+    {"column_header": " Construction Year", "dbpedia_property_id": "http://dbpedia.org/ontology/yearOfConstruction"},
+    {"column_header": " Style Architecture", "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"},
+    {"column_header": " Stage Dimensions", "dbpedia_property_id": "http://dbpedia.org/ontology/measurements"},
+    {"column_header": " Seating Layout", "dbpedia_property_id": "http://dbpedia.org/ontology/layout"},
+    {"column_header": " Average Ticket Price", "dbpedia_property_id": "http://dbpedia.org/ontology/average"},
+    {"column_header": " Operates", "dbpedia_property_id": "http://dbpedia.org/ontology/service"},
+    {"column_header": " Genre Preference", "dbpedia_property_id": "http://dbpedia.org/ontology/genre"},
+    {"column_header": " Frequent Collaborators", "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"},
+    {"column_header": " Notable Productions", "dbpedia_property_id": "http://dbpedia.org/ontology/currentProduction"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "mapping": [
+    {"column_header": "Additional Data SetID", "dbpedia_property_id": "http://dbpedia.org/ontology/id"},
+    {"column_header": "Snow Depth(cm)", "dbpedia_property_id": "http://dbpedia.org/ontology/depths"},
+    {"column_header": "Evapotranspiration Rate(-)", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Ground Temp.(ºC) Frozen State Indicator(-)", "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"},
+    {"column_header": "Cloud Coverage(%)", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Visibility(km)", "dbpedia_property_id": "http://dbpedia.org/ontology/altitude"},
+    {"column_header": "Water Vapor Content(g/m3)", "dbpedia_property_id": "http://dbpedia.org/ontology/vaporPressure"},
+    {"column_header": "Thunderstorm Probability(%) : Tornado Risk Index(%) : Tsunami Warning Signal(signal level) : Volcanicity Status(status level)", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"}
+  ]
+}

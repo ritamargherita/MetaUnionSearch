@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Programming Paradigm",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/programmingLanguage"
+    },
+    {
+      "column_header": "Quantum Computing (for CS)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"
+    },
+    {
+      "column_header": "Virtual Reality (VR) for CS",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"
+    },
+    {
+      "column_header": "Knowledge Representation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    },
+    {
+      "column_header": "Concurrent Programming",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/programmingLanguage"
+    },
+    {
+      "column_header": "Computer Graphics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingMedia"
+    },
+    {
+      "column_header": "User Interface Design",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/design"
+    },
+    {
+      "column_header": "Web Technologies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"
+    },
+    {
+      "column_header": "Software Engineering Concepts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/programmingLanguage"
+    },
+    {
+      "column_header": "Artificial Intelligence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    },
+    {
+      "column_header": "Complexity Analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/complexity"
+    }
+  ]
+}

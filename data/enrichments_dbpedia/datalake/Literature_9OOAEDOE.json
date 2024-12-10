@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Book Title",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/title"
+    },
+    {
+      "column_header": "Publication Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publicationDate"
+    },
+    {
+      "column_header": "Genre",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/genre"
+    },
+    {
+      "column_header": "Author Intentions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/author"
+    },
+    {
+      "column_header": "Reception & Criticism",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/review"
+    },
+    {
+      "column_header": "Societal Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Adaptations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+    },
+    {
+      "column_header": "Awards Won",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/award"
+    },
+    {
+      "column_header": "Themes Revisited",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/topic"
+    },
+    {
+      "column_header": "Language & Imagery",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/originalLanguage"
+    },
+    {
+      "column_header": "Cultural Context",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "mapping": [
+    {
+      "column_header": "Additional Study Area ID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/id"
+    },
+    {
+      "column_header": "Date & Time Stamp",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/recordDate"
+    },
+    {
+      "column_header": "Additional Weather Condition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Additional Temperature (&deg;C)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"
+    },
+    {
+      "column_header": "Additional Relative Humidity (%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Additional Atmospheric Pressure (hPa)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vaporPressure"
+    },
+    {
+      "column_header": "Additional Wind Speed (m/s)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/averageSpeed"
+    },
+    {
+      "column_header": "Additional Precipitation (mm)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/areaWater"
+    },
+    {
+      "column_header": "Additional Solar Radiation (W/m²)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/effectiveRadiatedPower"
+    },
+    {
+      "column_header": "Additional Soil Moisture (%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Additional Data Set ID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/id"
+    },
+    {
+      "column_header": "Thermal Sensation Vote",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": "* Storm Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Lightning Frequency (&gt;3km from Ground)(times/*)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/frequency"
+    },
+    {
+      "column_header": "VolcanIC Activity Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/volcanicActivity"
+    },
+    {
+      "column_header": "",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/id"
+    },
+    {
+      "column_header": "Dust storm intensity&nbsp(scale_of__to___)&FRAC12",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "</mo><!-- FRAGMENT -->",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/id"
+    }
+  ]
+}

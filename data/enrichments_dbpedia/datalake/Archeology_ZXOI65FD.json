@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "ArtefactMaterial1",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/material"
+    },
+    {
+      "column_header": "ArtefactMaterial2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/material"
+    },
+    {
+      "column_header": "ArtefactMaterial3",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/material"
+    },
+    {
+      "column_header": "ArtefactMaterial4",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/material"
+    },
+    {
+      "column_header": "ArtefactMaterial5",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/material"
+    },
+    {
+      "column_header": "ExcavationToolsUsed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": "SurveyMethodsUsed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    },
+    {
+      "column_header": "FieldEquipmentAndTechniques",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": "PublicEngagementActivities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    },
+    {
+      "column_header": "FundingSources",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "FundingAmounts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectBudgetFunding"
+    },
+    {
+      "column_header": "OtherRelevantInformation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/other"
+    }
+  ]
+}

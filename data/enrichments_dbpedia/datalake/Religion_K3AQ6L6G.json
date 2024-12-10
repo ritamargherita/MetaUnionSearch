@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": ""Relative Age",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relative"
+    },
+    {
+      "column_header": " Influence and Spread Rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/shareOfAudience"
+    },
+    {
+      "column_header": " Unmatched Column Header 1",
+      "dbpedia_property_id": null
+    },
+    {
+      "column_header": " Unmatched Column Header 2",
+      "dbpedia_property_id": null
+    },
+    {
+      "column_header": " Unmatched Column Header 3",
+      "dbpedia_property_id": null
+    },
+    {
+      "column_header": " Unmatched Column Header 4",
+      "dbpedia_property_id": null
+    },
+    {
+      "column_header": " Unmatched Column Header 5",
+      "dbpedia_property_id": null
+    },
+    {
+      "column_header": " Unmatched Column Header 6",
+      "dbpedia_property_id": null
+    },
+    {
+      "column_header": " Unmatched Column Header 7",
+      "dbpedia_property_id": null
+    },
+    {
+      "column_header": " Major Denominations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/denomination"
+    },
+    {
+      "column_header": " Challenges Faced",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/winsAtChallenges"
+    },
+    {
+      "column_header": " Religious Celebrations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"
+    },
+    {
+      "column_header": " Important Symbols",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/identificationSymbol"
+    },
+    {
+      "column_header": " Major Sects & Subsects",
+      "dbpedia_property_id": null
+    },
+    {
+      "column_header": " Socioeconomic Status"",
+      "dbpedia_property_id": null
+    }
+  ]
+}

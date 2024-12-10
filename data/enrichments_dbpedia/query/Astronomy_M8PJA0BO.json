@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Star",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/starring"
+    },
+    {
+      "column_header": "Star Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/stellarClassification"
+    },
+    {
+      "column_header": "Right Ascension",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rightAscension"
+    },
+    {
+      "column_header": "Declination",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/declination"
+    },
+    {
+      "column_header": "Apparent Magnitude",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/apparentMagnitude"
+    },
+    {
+      "column_header": "Absolute Magnitude",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/absoluteMagnitude"
+    },
+    {
+      "column_header": "Distance from Earth (ly)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dist_ly"
+    },
+    {
+      "column_header": "Diameter",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/diameter"
+    },
+    {
+      "column_header": "Mass",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mass"
+    },
+    {
+      "column_header": "Star System Formation Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/discovered"
+    },
+    {
+      "column_header": "Black Hole Presence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/existence"
+    },
+    {
+      "column_header": "Spiral Arm Structure",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/arm"
+    },
+    {
+      "column_header": "Number of Planets",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfStars"
+    },
+    {
+      "column_header": "Number of Moons",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfStars"
+    }
+  ]
+}

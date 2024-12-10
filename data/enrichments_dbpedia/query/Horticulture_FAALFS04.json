@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "BotanicalName", "dbpedia_property_id": "http://dbpedia.org/ontology/scientificName"},
+    {"column_header": "ScientificClassification", "dbpedia_property_id": "http://dbpedia.org/ontology/classes"},
+    {"column_header": "NativeOrIntroduced", "dbpedia_property_id": "http://dbpedia.org/ontology/resolution"},
+    {"column_header": "OptimalSunlight", "dbpedia_property_id": "http://dbpedia.org/ontology/plant"},
+    {"column_header": "pHarDiNeSS", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"},
+    {"column_header": "LeAFArRANGEmeNT", "dbpedia_property_id": "http://dbpedia.org/ontology/leafArrangement"},
+    {"column_header": "SoilTyPe", "dbpedia_property_id": "http://dbpedia.org/ontology/ground"},
+    {"column_header": "WateRIngNeEd", "dbpedia_property_id": "http://dbpedia.org/ontology/water"},
+    {"column_header": "SuGaRSPrUNInGGTeChniQUE", "dbpedia_property_id": "http://dbpedia.org/ontology/cultivatedVariety"},
+    {"column_header": "PRoPErCoUlsCOde", "dbpedia_property_id": "http://dbpedia.org/ontology/oldcode"},
+    {"column_header": "CollecTIOnValuEs", "dbpedia_property_id": "http://dbpedia.org/ontology/collection"}
+  ]
+}

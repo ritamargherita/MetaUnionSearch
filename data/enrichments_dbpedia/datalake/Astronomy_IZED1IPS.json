@@ -1,0 +1,18 @@
+{
+    "mapping": [
+        {"column_header": "`Planet Name", "dbpedia_property_id": "http://dbpedia.org/ontology/officialName"},
+        {"column_header": " Primary Star Type", "dbpedia_property_id": "http://dbpedia.org/ontology/stellarClassification"},
+        {"column_header": " Secondary Stars Types", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfStars"},
+        {"column_header": " Semi-Major Axis (AU)", "dbpedia_property_id": "http://dbpedia.org/ontology/orbitalEccentricity"},
+        {"column_header": " Satellite*", "dbpedia_property_id": "http://dbpedia.org/ontology/satellite"},
+        {"column_header": " Orbital Period *- days", "dbpedia_property_id": "http://dbpedia.org/ontology/orbitalPeriod"},
+        {"column_header": " Rotation Period **- hours", "dbpedia_property_id": "http://dbpedia.org/ontology/rotationPeriod"},
+        {"column_header": " Surface Temperature ***- Celsius", "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"},
+        {"column_header": " Atmosphere Composition %", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+        {"column_header": " Average Density", "dbpedia_property_id": "http://dbpedia.org/ontology/density"},
+        {"column_header": " Ring System", "dbpedia_property_id": "http://dbpedia.org/ontology/otherFuelType"},
+        {"column_header": " Magnetic Field", "dbpedia_property_id": "http://dbpedia.org/ontology/otherFuelType"},
+        {"column_header": " Moons Number", "dbpedia_property_id": "http://dbpedia.org/ontology/satellitesDeployed"},
+        {"column_header": " Planetary Rings`", "dbpedia_property_id": "http://dbpedia.org/ontology/orbits"}
+    ]
+}

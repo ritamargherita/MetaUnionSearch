@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "SiteName", "dbpedia_property_id": "http://dbpedia.org/ontology/name"},
+    {"column_header": " SiteType", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": " Period", "dbpedia_property_id": "http://dbpedia.org/ontology/period"},
+    {"column_header": " Location", "dbpedia_property_id": "http://dbpedia.org/ontology/location"},
+    {"column_header": " Discoverer", "dbpedia_property_id": "http://dbpedia.org/ontology/discoverer"},
+    {"column_header": " DiscoveryYear", "dbpedia_property_id": "http://dbpedia.org/ontology/discovered"},
+    {"column_header": " ArtifactsCount", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfCollectionItems"},
+    {"column_header": " ArtifactType1", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": " ArtifactType2", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": " ArtifactType3", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": " ArtifactDescription", "dbpedia_property_id": "http://dbpedia.org/ontology/description"},
+    {"column_header": " PreservationStatus", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+    {"column_header": " Researcher1", "dbpedia_property_id": "http://dbpedia.org/ontology/personName"},
+    {"column_header": " Researcher2", "dbpedia_property_id": "http://dbpedia.org/ontology/personName"},
+    {"column_header": " ResearchBudget", "dbpedia_property_id": "http://dbpedia.org/ontology/projectBudgetTotal"}
+  ]
+}

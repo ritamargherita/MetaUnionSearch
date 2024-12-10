@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Mission Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mission"
+    },
+    {
+      "column_header": "Start Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/startDate"
+    },
+    {
+      "column_header": "Duration (days)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/missionDuration"
+    },
+    {
+      "column_header": "Spacecraft Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/spacecraft"
+    },
+    {
+      "column_header": "Astronomy Discipline",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/academicDiscipline"
+    },
+    {
+      "column_header": "Target Planet or Body",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/destination"
+    },
+    {
+      "column_header": "Primary Objectives Explained",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"
+    },
+    {
+      "column_header": "Astronaut Experience (years)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/timeInSpace"
+    },
+    {
+      "column_header": "Collaborative Agencies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Reused?, First Stage Return, Crew Capacity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/crewSize"
+    }
+  ]
+}

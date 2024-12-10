@@ -1,0 +1,68 @@
+{
+  "mapping": [
+    {
+      "column_header": "Fabric Care Instructions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/material"
+    },
+    {
+      "column_header": "Designer Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/designer"
+    },
+    {
+      "column_header": "Production Country",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sourceCountry"
+    },
+    {
+      "column_header": "Model Number",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/model"
+    },
+    {
+      "column_header": "Trending Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currentStatus"
+    },
+    {
+      "column_header": "Cultural Inspiration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Customer Reviews Average Rating",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": "Social Media Buzz Score",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/score"
+    },
+    {
+      "column_header": "Gender Category",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gender"
+    },
+    {
+      "column_header": "Ethical Certifications",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/certification"
+    },
+    {
+      "column_header": "Environmental Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Celebrity Endorsements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Historical Significance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalName"
+    },
+    {
+      "column_header": "Market Segmentation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/category"
+    },
+    {
+      "column_header": "Collaborations (Brand x Artist)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Keyword Analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectKeyword"
+    }
+  ]
+}

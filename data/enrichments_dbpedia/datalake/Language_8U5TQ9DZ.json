@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Linguistic Area", "dbpedia_property_id": "http://dbpedia.org/ontology/linguisticsTradition"},
+    {"column_header": "Language Contact", "dbpedia_property_id": "http://dbpedia.org/ontology/otherLanguage"},
+    {"column_header": "*Typological Features", "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"},
+    {"column_header": "Endangered Status", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+    {"column_header": "Geographical Distribution", "dbpedia_property_id": "http://dbpedia.org/ontology/spokenIn"},
+    {"column_header": "Speech Community Properties", "dbpedia_property_id": "http://dbpedia.org/ontology/jointCommunity"},
+    {"column_header": "Historical Development", "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"},
+    {"column_header": "Literary Tradition", "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"},
+    {"column_header": "Religious Function", "dbpedia_property_id": "http://dbpedia.org/ontology/religion"},
+    {"column_header": "Educational Role", "dbpedia_property_id": "http://dbpedia.org/ontology/education"},
+    {"column_header": "Politico–economic Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/politicalFunction"},
+    {"column_header": "Linguistic Theories", "dbpedia_property_id": "http://dbpedia.org/ontology/linguisticsTradition"},
+    {"column_header": "Cultural Significance", "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"}
+  ]
+}

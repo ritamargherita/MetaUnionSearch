@@ -1,0 +1,20 @@
+{
+    "mapping": [
+        {"column_header": "Performance Type", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+        {"column_header": "Years Active", "dbpedia_property_id": "http://dbpedia.org/ontology/activeYears"},
+        {"column_header": "Active Decade(s)", "dbpedia_property_id": "http://dbpedia.org/ontology/activeYears"},
+        {"column_header": "Major Troupes", "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"},
+        {"column_header": "Collaborations", "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"},
+        {"column_header": "Achievements", "dbpedia_property_id": "http://dbpedia.org/ontology/achievement"},
+        {"column_header": "Artistic Directorship", "dbpedia_property_id": "http://dbpedia.org/ontology/creativeDirector"},
+        {"column_header": "Awards Received", "dbpedia_property_id": "http://dbpedia.org/ontology/award"},
+        {"column_header": "Total Awards Won", "dbpedia_property_id": "http://dbpedia.org/ontology/wins"},
+        {"column_header": "Art Form", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+        {"column_header": "Artistic Influences", "dbpedia_property_id": "http://dbpedia.org/ontology/specialization"},
+        {"column_header": "Additional Skills", "dbpedia_property_id": "http://dbpedia.org/ontology/skills"},
+        {"column_header": "Education", "dbpedia_property_id": "http://dbpedia.org/ontology/education"},
+        {"column_header": "Background", "dbpedia_property_id": "http://dbpedia.org/ontology/background"},
+        {"column_header": "Notes", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+        {"column_header": "Active", "dbpedia_property_id": "http://dbpedia.org/ontology/currentStatus"}
+    ]
+}

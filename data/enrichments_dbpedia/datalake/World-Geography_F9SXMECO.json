@@ -1,0 +1,14 @@
+{
+  "mapping": [
+    {"column_header": "Island Nation", "dbpedia_property_id": "http://dbpedia.org/ontology/nation"},
+    {"column_header": " Island Area (sq km)", "dbpedia_property_id": "http://dbpedia.org/ontology/area"},
+    {"column_header": " Coastline Length (kms)*", "dbpedia_property_id": "http://dbpedia.org/ontology/coastLine"},
+    {"column_header": " Number Of Islands**", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfIslands"},
+    {"column_header": " Capital City Pop$", "dbpedia_property_id": "http://dbpedia.org/ontology/capital"},
+    {"column_header": " Currency Type(^)**", "dbpedia_property_id": "http://dbpedia.org/ontology/currency"},
+    {"column_header": " Time Zone |||~~", "dbpedia_property_id": "http://dbpedia.org/ontology/timeZone"},
+    {"column_header": " Dialling Code ####***", "dbpedia_property_id": "http://dbpedia.org/ontology/countryCode"},
+    {"column_header": " Independence Day / Observance ^^^^__*******", "dbpedia_property_id": "http://dbpedia.org/ontology/liberationDate"},
+    {"column_header": " Submarine Cables $$$$****", "dbpedia_property_id": "http://dbpedia.org/ontology/cableCar"}
+  ]
+}

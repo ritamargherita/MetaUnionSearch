@@ -1,0 +1,18 @@
+{
+    "mapping": [
+        {"column_header": "Architectural Theory Behind Design", "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalMovement"},
+        {"column_header": "Technological Innovations Used", "dbpedia_property_id": "http://dbpedia.org/ontology/introduced"},
+        {"column_header": "Influence On Urban Planning", "dbpedia_property_id": "http://dbpedia.org/ontology/influenced"},
+        {"column_header": "Impact On Community", "dbpedia_property_id": "http://dbpedia.org/ontology/jointCommunity"},
+        {"column_header": "Social Implications", "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"},
+        {"column_header": "Economic Factors", "dbpedia_property_id": "http://dbpedia.org/ontology/grossDomesticProductNominalPerCapita"},
+        {"column_header": "Political Influence", "dbpedia_property_id": "http://dbpedia.org/ontology/politicalFunction"},
+        {"column_header": "Environmental Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"},
+        {"column_header": "Preservation Status", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+        {"column_header": "Restoration Efforts", "dbpedia_property_id": "http://dbpedia.org/ontology/rebuilder"},
+        {"column_header": "Legal Considerations", "dbpedia_property_id": "http://dbpedia.org/ontology/jurisdiction"},
+        {"column_header": "Public Engagement", "dbpedia_property_id": "http://dbpedia.org/ontology/publiclyAccessible"},
+        {"column_header": "Awards & Recognition", "dbpedia_property_id": "http://dbpedia.org/ontology/award"},
+        {"column_header": "Critic Reviews", "dbpedia_property_id": "http://dbpedia.org/ontology/review"}
+    ]
+}

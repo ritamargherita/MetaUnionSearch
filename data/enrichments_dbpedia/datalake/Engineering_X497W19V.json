@@ -1,0 +1,19 @@
+{
+    "mapping": [
+        {"column_header": "Engineering Ethics", "dbpedia_property_id": "http://dbpedia.org/ontology/management"},
+        {"column_header": "Environmental Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"},
+        {"column_header": "Risk Management", "dbpedia_property_id": "http://dbpedia.org/ontology/management"},
+        {"column_header": "Stakeholder Communication", "dbpedia_property_id": "http://dbpedia.org/ontology/management"},
+        {"column_header": "Regulatory Compliance", "dbpedia_property_id": "http://dbpedia.org/ontology/certification"},
+        {"column_header": "Innovation Management", "dbpedia_property_id": "http://dbpedia.org/ontology/management"},
+        {"column_header": "Industry Standards", "dbpedia_property_id": "http://dbpedia.org/ontology/industry"},
+        {"column_header": "Training & Development", "dbpedia_property_id": "http://dbpedia.org/ontology/training"},
+        {"column_header": "Technical Documentation", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+        {"column_header": "Supply Chain Management", "dbpedia_property_id": "http://dbpedia.org/ontology/chain"},
+        {"column_header": "Process Improvement", "dbpedia_property_id": "http://dbpedia.org/ontology/management"},
+        {"column_header": "Resource Allocation", "dbpedia_property_id": "http://dbpedia.org/ontology/management"},
+        {"column_header": "Contingency Planning", "dbpedia_property_id": "http://dbpedia.org/ontology/management"},
+        {"column_header": "Operational Efficiency", "dbpedia_property_id": "http://dbpedia.org/ontology/management"},
+        {"column_header": "Knowledge Management", "dbpedia_property_id": "http://dbpedia.org/ontology/management"}
+    ]
+}

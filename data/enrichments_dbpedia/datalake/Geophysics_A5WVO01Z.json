@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Rock Types",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/kindOfRock"
+    },
+    {
+      "column_header": "Age Determination Methods",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/age"
+    },
+    {
+      "column_header": "Magnetic Susceptibility",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": "Density",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/density"
+    },
+    {
+      "column_header": "Electrical Conductivity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conductivity"
+    },
+    {
+      "column_header": "Thermal Conductivity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conductivity"
+    },
+    {
+      "column_header": "Radioactivity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    },
+    {
+      "column_header": "Strain",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/strength"
+    },
+    {
+      "column_header": "Stress",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/strength"
+    },
+    {
+      "column_header": "Fracture Orientation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orientation"
+    },
+    {
+      "column_header": "Seismic Anisotropy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherActivity"
+    },
+    {
+      "column_header": "Gravity Anomalies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/surfaceGravity"
+    },
+    {
+      "column_header": "Magnetic Anomalies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": "Geologic Provinces",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/province"
+    }
+  ]
+}

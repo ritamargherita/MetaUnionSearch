@@ -1,0 +1,74 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LanguageLIOGRP91> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_LIOGRP91.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LanguageLIOGRP91/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LanguageLIOGRP91/column/Grammar> a dsv:Column ;
+    rdfs:label " Grammar" .
+
+<http://metaUnionSearch/datasets/LanguageLIOGRP91/column/LanguageCode> a dsv:Column ;
+    rdfs:label " Language Code" ;
+    dsv:columnProperty "language code" .
+
+<http://metaUnionSearch/datasets/LanguageLIOGRP91/column/LanguageFamily> a dsv:Column ;
+    rdfs:label " Language Family" ;
+    dsv:columnProperty "family" .
+
+<http://metaUnionSearch/datasets/LanguageLIOGRP91/column/LanguageName> a dsv:Column ;
+    rdfs:label "Language Name" ;
+    dsv:columnProperty "named by language" .
+
+<http://metaUnionSearch/datasets/LanguageLIOGRP91/column/NativeSpeakers> a dsv:Column ;
+    rdfs:label " Native Speakers" ;
+    dsv:columnProperty "number of speakers" .
+
+<http://metaUnionSearch/datasets/LanguageLIOGRP91/column/OfficialLanguage> a dsv:Column ;
+    rdfs:label " Official Language" ;
+    dsv:columnProperty "official language" .
+
+<http://metaUnionSearch/datasets/LanguageLIOGRP91/column/Origin> a dsv:Column ;
+    rdfs:label " Origin" ;
+    dsv:columnProperty "origin" .
+
+<http://metaUnionSearch/datasets/LanguageLIOGRP91/column/Pragmatics> a dsv:Column ;
+    rdfs:label " Pragmatics" .
+
+<http://metaUnionSearch/datasets/LanguageLIOGRP91/column/Script> a dsv:Column ;
+    rdfs:label " Script" .
+
+<http://metaUnionSearch/datasets/LanguageLIOGRP91/column/Semantics> a dsv:Column ;
+    rdfs:label " Semantics" .
+
+<http://metaUnionSearch/datasets/LanguageLIOGRP91/column/Speakers> a dsv:Column ;
+    rdfs:label " Speakers" ;
+    dsv:columnProperty "number of speakers" .
+
+<http://metaUnionSearch/datasets/LanguageLIOGRP91/column/Syntax> a dsv:Column ;
+    rdfs:label " Syntax" .
+
+<http://metaUnionSearch/datasets/LanguageLIOGRP91/column/Vocabulary> a dsv:Column ;
+    rdfs:label " Vocabulary" .
+
+<http://metaUnionSearch/datasets/LanguageLIOGRP91/column/WritingSystem> a dsv:Column ;
+    rdfs:label " Writing System" .
+
+<http://metaUnionSearch/datasets/LanguageLIOGRP91/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LanguageLIOGRP91/column/Grammar>,
+        <http://metaUnionSearch/datasets/LanguageLIOGRP91/column/LanguageCode>,
+        <http://metaUnionSearch/datasets/LanguageLIOGRP91/column/LanguageFamily>,
+        <http://metaUnionSearch/datasets/LanguageLIOGRP91/column/LanguageName>,
+        <http://metaUnionSearch/datasets/LanguageLIOGRP91/column/NativeSpeakers>,
+        <http://metaUnionSearch/datasets/LanguageLIOGRP91/column/OfficialLanguage>,
+        <http://metaUnionSearch/datasets/LanguageLIOGRP91/column/Origin>,
+        <http://metaUnionSearch/datasets/LanguageLIOGRP91/column/Pragmatics>,
+        <http://metaUnionSearch/datasets/LanguageLIOGRP91/column/Script>,
+        <http://metaUnionSearch/datasets/LanguageLIOGRP91/column/Semantics>,
+        <http://metaUnionSearch/datasets/LanguageLIOGRP91/column/Speakers>,
+        <http://metaUnionSearch/datasets/LanguageLIOGRP91/column/Syntax>,
+        <http://metaUnionSearch/datasets/LanguageLIOGRP91/column/Vocabulary>,
+        <http://metaUnionSearch/datasets/LanguageLIOGRP91/column/WritingSystem> .
+

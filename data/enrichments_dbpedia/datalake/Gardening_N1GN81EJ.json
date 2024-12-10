@@ -1,0 +1,18 @@
+{
+    "mapping": [
+        {"column_header": "QuantityPurchased", "dbpedia_property_id": "http://dbpedia.org/ontology/numberSold"},
+        {"column_header": "TotalCost", "dbpedia_property_id": "http://dbpedia.org/ontology/totalPopulation"},
+        {"column_header": "AverageGrowRate", "dbpedia_property_id": "http://dbpedia.org/ontology/average"},
+        {"column_header": "HarvestSeason", "dbpedia_property_id": "http://dbpedia.org/ontology/season"},
+        {"column_header": "SoilType", "dbpedia_property_id": "http://dbpedia.org/ontology/ground"},
+        {"column_header": "AdditionalNutrients", "dbpedia_property_id": "http://dbpedia.org/ontology/protein"},
+        {"column_header": "PropagationMethods", "dbpedia_property_id": "http://dbpedia.org/ontology/plant"},
+        {"column_header": "MatureSizeWidth", "dbpedia_property_id": "http://dbpedia.org/ontology/width"},
+        {"column_header": "MatureSizeHeight", "dbpedia_property_id": "http://dbpedia.org/ontology/heightAboveAverageTerrain"},
+        {"column_header": "ColorVariations", "dbpedia_property_id": "http://dbpedia.org/ontology/hasVariant"},
+        {"column_header": "WaterRequirement", "dbpedia_property_id": "http://dbpedia.org/ontology/water"},
+        {"column_header": "LightCondition", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+        {"column_header": "HardinessZone", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"},
+        {"column_header": "ReasonForPopularity", "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"}
+    ]
+}

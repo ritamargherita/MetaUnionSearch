@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "ArchaeologistName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/curator"
+    },
+    {
+      "column_header": "ExcavationYear",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/year"
+    },
+    {
+      "column_header": "FieldNotesReferenceID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectReferenceID"
+    },
+    {
+      "column_header": "ResearchQuestion",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/topic"
+    },
+    {
+      "column_header": "FundingSource",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "CollaboratingInstitution(s)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectParticipant"
+    },
+    {
+      "column_header": "DataAnalysisMethodologiesUsed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": "SignificanceOfFindings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/significantDesign"
+    },
+    {
+      "column_header": "PublicationsResultFromThisStudy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publication"
+    },
+    {
+      "column_header": "YearOfPublication",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/finalPublicationYear"
+    },
+    {
+      "column_header": "ConferencePresentation(Yes/No)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "StudentCollaborator(Yes/No)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/student"
+    }
+  ]
+}

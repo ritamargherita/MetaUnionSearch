@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Anthropological Site Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/touristicSite"
+    },
+    {
+      "column_header": "Census Size",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/population"
+    },
+    {
+      "column_header": "Climate and Terrain",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Agricultural Methods",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    },
+    {
+      "column_header": "Technology Tools",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": "Social Structure",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/governmentType"
+    },
+    {
+      "column_header": "Governance System",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/government"
+    },
+    {
+      "column_header": "Trade Network",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/network"
+    },
+    {
+      "column_header": "Language",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/originalLanguage"
+    },
+    {
+      "column_header": "Religion",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Burial Practices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/placeOfBurial"
+    }
+  ]
+}

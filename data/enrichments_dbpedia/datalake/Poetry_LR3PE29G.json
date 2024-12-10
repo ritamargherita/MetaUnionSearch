@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Title",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/title"
+    },
+    {
+      "column_header": " Author",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/author"
+    },
+    {
+      "column_header": " Metaphors",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/connotation"
+    },
+    {
+      "column_header": " Rhyming(if applicable)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": " Free Verse?",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/free"
+    },
+    {
+      "column_header": " Extended Imagery / Symbolism",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/iconographicAttributes"
+    },
+    {
+      "column_header": " Additional Literary Devices Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": " Emotional Appeal, Mood, and Atmosphere",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mood"
+    },
+    {
+      "column_header": " Theme Development, Characterization, and Setting",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": " Syntax Variety and Punctuation Play",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "mapping": [
+        {"column_header": "Bond Types", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+        {"column_header": " Bond Maturity ", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+        {"column_header": " Youth Unemployment Rate%", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+        {"column_header": " Housing Price Index", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+        {"column_header": " Commodities Index (Gold)", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+        {"column_header": " Commodities Index (Oil)", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+        {"column_header": " CPI Forecast Next Year %", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+        {"column_header": " Corruption Perceptions Index", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+        {"column_header": " Technology IPO Activity", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+        {"column_header": " Google Search Trend For "Recession"", "dbpedia_property_id": "http://dbpedia.org/ontology/statisticYear"},
+        {"column_header": " Green Energy Investments", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"}
+    ]
+}

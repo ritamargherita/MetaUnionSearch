@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "AdditionalArtifactTypes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherWorks"
+    },
+    {
+      "column_header": "AveragePreservationScore",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/average"
+    },
+    {
+      "column_header": "FieldWorkDuration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": "ResearchAssistant1",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectParticipant"
+    },
+    {
+      "column_header": "ResearchAssistant2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectParticipant"
+    },
+    {
+      "column_header": "PublicEngagementActivity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    },
+    {
+      "column_header": "PublicEngagementAttendance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/average"
+    },
+    {
+      "column_header": "RestorationCostEstimate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectBudgetTotal"
+    },
+    {
+      "column_header": "CommunityImpactStatement",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherActivity"
+    },
+    {
+      "column_header": "SatelliteImageryAnalysisReport",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/satellite"
+    },
+    {
+      "column_header": "ArchaeobotanyFindings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherWorks"
+    },
+    {
+      "column_header": "ZooarchaeologyResults",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherWorks"
+    },
+    {
+      "column_header": "UniqueIdentifier",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/id"
+    },
+    {
+      "column_header": "FundingAgency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    }
+  ]
+}

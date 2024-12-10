@@ -1,0 +1,88 @@
+{
+  "mapping": [
+    {
+      "column_header": "Quantum Computing Progress",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingMedia"
+    },
+    {
+      "column_header": "Robotics Milestones",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/achievement"
+    },
+    {
+      "column_header": "Virtual Reality Developments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/media"
+    },
+    {
+      "column_header": "Augmented Reality Growth",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/significantDesign"
+    },
+    {
+      "column_header": "Internet of Things Innovators",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": "Autonomous Vehicles Designers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/designer"
+    },
+    {
+      "column_header": "Blockchain Adoption Percentage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Cybersecurity Trends Watch",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": "Cryptocurrency Market Analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/marketCapitalisation"
+    },
+    {
+      "column_header": "Social Media Strategies Evaluation and User Generated Content Analytics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/media"
+    },
+    {
+      "column_header": "Privacy Infringements Case Studies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": "Accountable Parties Tracker",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/engineer"
+    },
+    {
+      "column_header": "Regulatory Changes Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": "Public Opinion Poll Buzz",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mainInterest"
+    },
+    {
+      "column_header": "Educational Technology Outlook",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectKeyword"
+    },
+    {
+      "column_header": "Workforce Upskilling Needs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectKeyword"
+    },
+    {
+      "column_header": "Environmental Footprint Assessment for Societal Sustainable Developing Goals",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": "Geopolitical Landscapes Studied",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": "Technological Uncertainties Ahead",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": "Quarterly Fintech Innovation Reports",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": "Monthly Nanotechnology Patents Review",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "mapping": [
+        {"column_header": "Nebula Name", "dbpedia_property_id": "http://dbpedia.org/ontology/ngcName"},
+        {"column_header": "Nebula Type", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+        {"column_header": "Constellation", "dbpedia_property_id": "http://dbpedia.org/ontology/constellation"},
+        {"column_header": "Size (ly)", "dbpedia_property_id": "http://dbpedia.org/ontology/size_v"},
+        {"column_header": "Star Formation Rate", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfStars"},
+        {"column_header": "Gas Composition Ratio", "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"},
+        {"column_header": "Dust Composition Ratio", "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"},
+        {"column_header": "Temperature (K)", "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"},
+        {"column_header": "Radiation Level", "dbpedia_property_id": "http://dbpedia.org/ontology/effectiveRadiatedPower"},
+        {"column_header": "Associated Galaxies", "dbpedia_property_id": "http://dbpedia.org/ontology/associatedBand"},
+        {"column_header": "Astrological Significance", "dbpedia_property_id": "http://dbpedia.org/ontology/astrologicalSign"},
+        {"column_header": "Mythological Stories", "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"},
+        {"column_header": "Historical Interest", "dbpedia_property_id": "http://dbpedia.org/ontology/interest"},
+        {"column_header": "Number of Stars Formed", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfStars"}
+    ]
+}

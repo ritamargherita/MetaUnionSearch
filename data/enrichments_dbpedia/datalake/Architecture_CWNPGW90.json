@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Architectural Theories",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableIdea"
+    },
+    {
+      "column_header": "Influential Figures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/influenced"
+    },
+    {
+      "column_header": "Era/Geographic Region",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": "Material Types",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/constructionMaterial"
+    },
+    {
+      "column_header": "Size Characteristics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/size_v"
+    },
+    {
+      "column_header": "Light & Acoustics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    },
+    {
+      "column_header": "Structural Systems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/structuralSystem"
+    },
+    {
+      "column_header": "Maintenance Info",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/maintainedBy"
+    },
+    {
+      "column_header": "Preservation Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    },
+    {
+      "column_header": "User Navigation Methods",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publiclyAccessible"
+    },
+    {
+      "column_header": "Public Perception",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/status"
+    }
+  ]
+}

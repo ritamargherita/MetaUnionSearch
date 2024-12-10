@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Original Documents",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/previousWork"
+    },
+    {
+      "column_header": " Scholarly Interpretations ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/definition"
+    },
+    {
+      "column_header": " Historical Frameworks ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": " Influential Figures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/knownFor"
+    },
+    {
+      "column_header": " Art & Architectural Styles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": " Cultural Norms ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": " Monetary Systems ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currency"
+    },
+    {
+      "column_header": " Governmental Systems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/governmentType"
+    },
+    {
+      "column_header": " Class Divisions ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/classes"
+    },
+    {
+      "column_header": " Technological Developments ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": " Scientific Discoveries ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/discoveryDate"
+    },
+    {
+      "column_header": " Environmental Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    }
+  ]
+}

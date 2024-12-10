@@ -1,0 +1,32 @@
+{
+  "mapping": [
+    {
+      "column_header": "Philosophical Concept",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/definition"
+    },
+    {
+      "column_header": " Major Works by Varied Philosophers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+    },
+    {
+      "column_header": " Additional Techniques Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    },
+    {
+      "column_header": " Number of Adherents of Specific Schools",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"
+    },
+    {
+      "column_header": " Influence on Modern Thought and Culture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/influenced"
+    },
+    {
+      "column_header": " Relationship to Other Disciplines",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/related"
+    },
+    {
+      "column_header": " More General Concepts in Philosophy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/academicDiscipline"
+    }
+  ]
+}

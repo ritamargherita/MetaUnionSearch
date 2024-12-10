@@ -1,0 +1,70 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EnvironmentCRO8SK35> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_CRO8SK35.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EnvironmentCRO8SK35/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/AirQuality> a dsv:Column ;
+    rdfs:label "Air_Quality" ;
+    dsv:columnProperty "Odor" .
+
+<http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/AvgRainfallmm> a dsv:Column ;
+    rdfs:label "Avg_Rainfall_mm" ;
+    dsv:columnProperty "water percentage of a place" .
+
+<http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/AvgTemperatureC> a dsv:Column ;
+    rdfs:label "Avg_Temperature_C" ;
+    dsv:columnProperty "mean temperature (K)" .
+
+<http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/BiodiversityIndex> a dsv:Column ;
+    rdfs:label "Biodiversity_Index" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/ForestAreakm2> a dsv:Column ;
+    rdfs:label "Forest_Area_km2" ;
+    dsv:columnProperty "area land (m2)" .
+
+<http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/LegislationStatus> a dsv:Column ;
+    rdfs:label "Legislation_Status" ;
+    dsv:columnProperty "current status" .
+
+<http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/PollutionLevel> a dsv:Column ;
+    rdfs:label "Pollution_Level" ;
+    dsv:columnProperty "status" .
+
+<http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/PopulationDensity> a dsv:Column ;
+    rdfs:label "Population_Density" ;
+    dsv:columnProperty "population density (/sqkm)" .
+
+<http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/PublicEngagementScore> a dsv:Column ;
+    rdfs:label "Public_Engagement_Score" ;
+    dsv:columnProperty "score" .
+
+<http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/SoilHealthIndex> a dsv:Column ;
+    rdfs:label "Soil_Health_Index" .
+
+<http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/SpeciesCount> a dsv:Column ;
+    rdfs:label "Species_Count" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/WaterCleanliness> a dsv:Column ;
+    rdfs:label "Water_Cleanliness" ;
+    dsv:columnProperty "water" .
+
+<http://metaUnionSearch/datasets/EnvironmentCRO8SK35/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/AirQuality>,
+        <http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/AvgRainfallmm>,
+        <http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/AvgTemperatureC>,
+        <http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/BiodiversityIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/ForestAreakm2>,
+        <http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/LegislationStatus>,
+        <http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/PollutionLevel>,
+        <http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/PopulationDensity>,
+        <http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/PublicEngagementScore>,
+        <http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/SoilHealthIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/SpeciesCount>,
+        <http://metaUnionSearch/datasets/EnvironmentCRO8SK35/column/WaterCleanliness> .
+

@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Poet Biography",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/author"
+    },
+    {
+      "column_header": "Publications History",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publication"
+    },
+    {
+      "column_header": "Stylistic Inspiration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/stylisticOrigin"
+    },
+    {
+      "column_header": "Critique Reviews",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/review"
+    },
+    {
+      "column_header": "Era & Movement Association",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/movement"
+    },
+    {
+      "column_header": "Influential Figures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+    },
+    {
+      "column_header": "Language Origin & Culture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/origin"
+    },
+    {
+      "column_header": "Geographical Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": "Similar Works Cited",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/similar"
+    },
+    {
+      "column_header": "Parodies Produced",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/producedBy"
+    }
+  ]
+}

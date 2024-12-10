@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "economic_policy", "dbpedia_property_id": "http://dbpedia.org/ontology/government"},
+    {"column_header": "policy_details", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": "inflation_rate%", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "unemployment_rate%", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "interest_rate", "dbpedia_property_id": "http://dbpedia.org/ontology/interest"},
+    {"column_header": "exchange_rate", "dbpedia_property_id": "http://dbpedia.org/ontology/currency"},
+    {"column_header": "fiscal_balance", "dbpedia_property_id": "http://dbpedia.org/ontology/budget"},
+    {"column_header": "trade_balance", "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"},
+    {"column_header": "consumer_price_index", "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"},
+    {"column_header": "labor_force_participation", "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"},
+    {"column_header": "poverty_level", "dbpedia_property_id": "http://dbpedia.org/ontology/giniCoefficient"},
+    {"column_header": "income_distribution_inequality_measure", "dbpedia_property_id": "http://dbpedia.org/ontology/giniCoefficient"},
+    {"column_header": "GDP_growth_rate%", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"}
+  ]
+}

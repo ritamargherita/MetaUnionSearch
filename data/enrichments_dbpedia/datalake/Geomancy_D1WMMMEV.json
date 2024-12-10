@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Geographical Distribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfLocations"
+    },
+    {
+      "column_header": "Historical Development Stages",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": "Characteristics Through Time",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/time"
+    },
+    {
+      "column_header": "Style Variants Across Cultures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/hasVariant"
+    },
+    {
+      "column_header": "Prominent Practitioners & Schools",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/schoolPatron"
+    },
+    {
+      "column_header": "Religious or Philosophic Ties",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Community Integration Efforts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/jointCommunity"
+    },
+    {
+      "column_header": "Legislation Impacting Practice",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/associatedAct"
+    },
+    {
+      "column_header": "Affect On Other Forms Of Divination",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/influenced"
+    },
+    {
+      "column_header": "Public Perception Over Timeline",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/time"
+    },
+    {
+      "column_header": "Presence in Modern Pop Culture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherMedia"
+    },
+    {
+      "column_header": "Technological Adaptions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": "Scientific Research Conducted",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publication"
+    }
+  ]
+}

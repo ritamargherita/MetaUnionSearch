@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Performance Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Date & Time",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/startDateTime"
+    },
+    {
+      "column_header": "Venue Address",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/stadium"
+    },
+    {
+      "column_header": "Place of Birth",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/birthPlace"
+    },
+    {
+      "column_header": "Genre",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/genre"
+    },
+    {
+      "column_header": "Debut Performance, if applicable",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/debut"
+    },
+    {
+      "column_header": "Total Number Of Shows, if available",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfEpisodes"
+    },
+    {
+      "column_header": "Collaborations (name all major collaborators)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Ticket Sales Revenue (in USD millions)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": "Critical Reception Rating (*/5 stars based on critic reviews)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/starRating"
+    },
+    {
+      "column_header": "Audience Engagement Score (out of total score)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/shareOfAudience"
+    },
+    {
+      "column_header": "Year of Last Performance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/year"
+    },
+    {
+      "column_header": "Still Active?",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currentStatus"
+    }
+  ]
+}

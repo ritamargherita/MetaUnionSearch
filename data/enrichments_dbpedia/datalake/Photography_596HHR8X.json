@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Lens Make",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/manufacturer"
+    },
+    {
+      "column_header": "Lens Model",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/model"
+    },
+    {
+      "column_header": "FileName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/filename"
+    },
+    {
+      "column_header": "Date Taken",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/date"
+    },
+    {
+      "column_header": "Shutter Speed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cinematography"
+    },
+    {
+      "column_header": "Aperture Value",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cinematography"
+    },
+    {
+      "column_header": "Focal Length",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cinematography"
+    },
+    {
+      "column_header": "ISO",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/isoCodeRegion"
+    },
+    {
+      "column_header": "Exposure Compensation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cinematography"
+    },
+    {
+      "column_header": "Metering Mode",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cinematography"
+    },
+    {
+      "column_header": "Light Source",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cinematography"
+    },
+    {
+      "column_header": "",
+      "dbpedia_property_id": ""
+    }
+  ]
+}

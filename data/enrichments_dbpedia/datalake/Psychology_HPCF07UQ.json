@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "BrainStructureSize",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoNumber"
+    },
+    {
+      "column_header": " BrAINVolume",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoNumber"
+    },
+    {
+      "column_header": " CerebralCortexThickness",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoNumber"
+    },
+    {
+      "column_header": " WhiteMatterIntegrity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoType"
+    },
+    {
+      "column_header": " HippocampusShape",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/isPartOfAnatomicalStructure"
+    },
+    {
+      "column_header": " AmygdalaActivity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoType"
+    },
+    {
+      "column_header": " CorpusCallosumWidth",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/width"
+    },
+    {
+      "column_header": " DefaultModeNetworkConnectivity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/network"
+    },
+    {
+      "column_header": " FrontotemporalLobeFunction",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/personFunction"
+    },
+    {
+      "column_header": " ThalamicConnectionsToPrefrontals",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/isPartOfAnatomicalStructure"
+    },
+    {
+      "column_header": " HeschlsGyrusSize",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoNumber"
+    },
+    {
+      "column_header": " AuditoryCorticalThickness",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoNumber"
+    },
+    {
+      "column_header": " LimbicSystemActivities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoType"
+    },
+    {
+      "column_header": " EyeMovement",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nerve"
+    },
+    {
+      "column_header": " ReactionTime",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoNumber"
+    }
+  ]
+}

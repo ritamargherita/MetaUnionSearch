@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Theoretic Approach",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/approach"
+    },
+    {
+      "column_header": "Construction Techniques",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/construction"
+    },
+    {
+      "column_header": "_Type_of Architecture$",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/buildingType"
+    },
+    {
+      "column_header": "Era",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/era"
+    },
+    {
+      "column_header": "Symbolism & Interpretation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/meaning"
+    },
+    {
+      "column_header": "Influential Figures (Architect)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architect"
+    },
+    {
+      "column_header": "Cultural Impact & Contextualization",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Zoning Laws & Urban Planning",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/urbanArea"
+    },
+    {
+      "column_header": "Code Compliance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/codeDistrict"
+    },
+    {
+      "column_header": "Sustainability Factors",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Aesthetic Considerations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Future Trends & Predictions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/significantDesign"
+    }
+  ]
+}

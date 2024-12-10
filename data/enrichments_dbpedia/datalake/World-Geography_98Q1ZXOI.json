@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Island Nation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nation"
+    },
+    {
+      "column_header": " Island Size (km2)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/areaLand"
+    },
+    {
+      "column_header": " Coastline Length (km)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/coastLength"
+    },
+    {
+      "column_header": " Number of Islands",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfIsland"
+    },
+    {
+      "column_header": " Percentage of Land Cover by Forest",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/landPercentage"
+    },
+    {
+      "column_header": " Percentage of Land Cover by Urban Areas",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentageOfAreaWater"
+    },
+    {
+      "column_header": " Average Temperature",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/meanTemperature"
+    },
+    {
+      "column_header": " Average Precipitation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/average"
+    },
+    {
+      "column_header": " Furthest Point from Continental Land",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/longDistancePisteKilometre"
+    },
+    {
+      "column_header": " Population",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"
+    },
+    {
+      "column_header": " Internet TLD",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/topLevelDomain"
+    }
+  ]
+}

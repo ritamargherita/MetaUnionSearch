@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "* Athlete Nickname",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medalist"
+    },
+    {
+      "column_header": "Athletic Association Number (AAN)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sportGoverningBody"
+    },
+    {
+      "column_header": "Competition Identifier (CID)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/competition"
+    },
+    {
+      "column_header": "Type Of Sport",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sport"
+    },
+    {
+      "column_header": "Total Points",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fullScore"
+    },
+    {
+      "column_header": "Passes Completed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/crosses"
+    },
+    {
+      "column_header": "Blocked Shots",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/block"
+    },
+    {
+      "column_header": "Interceptions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/catch"
+    },
+    {
+      "column_header": "Penalties Conceded",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/penaltyScore"
+    },
+    {
+      "column_header": "Average Age Of Team Members",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/age"
+    },
+    {
+      "column_header": "Standard Deviation Of Players Height",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/height"
+    },
+    {
+      "column_header": "Highest Salary Amongst Team Members",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/highestRank"
+    },
+    {
+      "column_header": "Lowest Attendance During A Season",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/lowest"
+    },
+    {
+      "column_header": "Column14",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/teamSize"
+    },
+    {
+      "column_header": "Column15",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfTeams"
+    }
+  ]
+}

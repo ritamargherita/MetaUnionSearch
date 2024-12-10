@@ -1,0 +1,16 @@
+{
+    "mapping": [
+        {"column_header": "Dialects", "dbpedia_property_id": "http://dbpedia.org/ontology/variantOf"},
+        {"column_header": "Language Type", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+        {"column_header": "Usage Regions", "dbpedia_property_id": "http://dbpedia.org/ontology/region"},
+        {"column_header": "Speaking Communities Size", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfSpeakers"},
+        {"column_header": "Writing Systems Variants", "dbpedia_property_id": "http://dbpedia.org/ontology/hasVariant"},
+        {"column_header": "Speakers", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfSpeakers"},
+        {"column_header": "Native Speakers", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfSpeakers"},
+        {"column_header": "Official Language Status", "dbpedia_property_id": "http://dbpedia.org/ontology/officialLanguage"},
+        {"column_header": "Grammar", "dbpedia_property_id": "http://dbpedia.org/ontology/linguisticsTradition"},
+        {"column_header": "Vocabulary", "dbpedia_property_id": "http://dbpedia.org/ontology/definition"},
+        {"column_header": "Syntax", "dbpedia_property_id": "http://dbpedia.org/ontology/follows"},
+        {"column_header": "Language Code", "dbpedia_property_id": "http://dbpedia.org/ontology/languageCode"}
+    ]
+}

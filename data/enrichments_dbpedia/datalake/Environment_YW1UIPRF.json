@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Waste_Management",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/management"
+    },
+    {
+      "column_header": "Recycling_Rate%",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Noise_Pollution_Level",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/noise"
+    },
+    {
+      "column_header": "Natural_Disaster_Frequency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/casualties"
+    },
+    {
+      "column_header": "Climate_Change_Impact_Score",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Extinct_Specie_Count",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/species"
+    },
+    {
+      "column_header": "Renewable_Energy_Consumption_%", 
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Green_Spaces_per_Capita_km2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/areaUrban"
+    },
+    {
+      "column_header": "Environmental_Education_Level", 
+      "dbpedia_property_id": "http://dbpedia.org/ontology/education"
+    },
+    {
+      "column_header": "Green_Jobs_Employment_Rate%",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    }
+  ]
+}

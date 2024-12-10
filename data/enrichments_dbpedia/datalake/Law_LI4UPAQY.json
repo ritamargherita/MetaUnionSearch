@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Legislative History",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/legislature"
+    },
+    {
+      "column_header": "Voting Records",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/popularVote"
+    },
+    {
+      "column_header": "Bills Amendments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/associatedAct"
+    },
+    {
+      "column_header": "Legislators Information",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/politician"
+    },
+    {
+      "column_header": "Lobbyist Details",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    },
+    {
+      "column_header": "Hearing Transcripts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/note"
+    },
+    {
+      "column_header": "Public Opinion Surveys",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publiclyAccessible"
+    },
+    {
+      "column_header": "Constitutional Interpretation Effects",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currentStatus"
+    },
+    {
+      "column_header": "Court petitions Pending",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activeCases"
+    },
+    {
+      "column_header": "Policy Impact Analysis.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    }
+  ]
+}

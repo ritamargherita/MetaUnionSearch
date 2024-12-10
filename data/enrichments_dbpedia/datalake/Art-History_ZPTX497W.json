@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "1. Most Famous Works",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+    },
+    {
+      "column_header": "2. Number Of Major Exhibitions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/exhibition"
+    },
+    {
+      "column_header": "3. Average Visitor Rating",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": "4. Average Size (m²)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/area"
+    },
+    {
+      "column_header": "5. Museums Owning Artwork",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/museum"
+    },
+    {
+      "column_header": "6. Artwork Condition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    },
+    {
+      "column_header": "7. Restoration History",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/previousInfrastructure"
+    },
+    {
+      "column_header": "8. Artwork Provenance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/iconographicAttributes"
+    },
+    {
+      "column_header": "9. Symbolism In Artwork",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "10. Cultural Significance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/knownFor"
+    }
+  ]
+}

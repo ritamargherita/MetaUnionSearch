@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Country Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/country"
+    },
+    {
+      "column_header": "Continent",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/continent"
+    },
+    {
+      "column_header": "Area (km2)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/area"
+    },
+    {
+      "column_header": "Population",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"
+    },
+    {
+      "column_header": "Population Density",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationDensity"
+    },
+    {
+      "column_header": "Capital",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/capital"
+    },
+    {
+      "column_header": "Latitude",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/capitalCoordinates"
+    },
+    {
+      "column_header": "Longitude",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/capitalCoordinates"
+    },
+    {
+      "column_header": "Climate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Terrain",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/land"
+    },
+    {
+      "column_header": "Highest Point",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/highestPoint"
+    },
+    {
+      "column_header": "Major Rivers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/river"
+    },
+    {
+      "column_header": "Major Lakes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/lake"
+    },
+    {
+      "column_header": "Official Language(s)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officialLanguage"
+    },
+    {
+      "column_header": "Internet TLD",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/topLevelDomain"
+    }
+  ]
+}

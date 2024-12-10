@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Period Specific Styles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "National Literary Traditions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nationalAffiliation"
+    },
+    {
+      "column_header": "Gender & Identity Exploration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gender"
+    },
+    {
+      "column_header": "Religious & Philosophical Ideas",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Intertextual Connections",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/connectsReferencedTo"
+    },
+    {
+      "column_header": "Scientific Discoveries",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/discoverer"
+    },
+    {
+      "column_header": "Social Movements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/movement"
+    },
+    {
+      "column_header": "Geographical Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/territory"
+    },
+    {
+      "column_header": "Artistic Representations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/artisticFunction"
+    },
+    {
+      "column_header": "Pop Culture References",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Modern Media Merchandise",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/media"
+    }
+  ]
+}

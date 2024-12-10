@@ -1,0 +1,18 @@
+{
+    "mapping": [
+        {"column_header": "year", "dbpedia_property_id": "http://dbpedia.org/ontology/year"},
+        {"column_header": "quarter", "dbpedia_property_id": "http://dbpedia.org/ontology/third"},
+        {"column_header": "variable_category", "dbpedia_property_id": "http://dbpedia.org/ontology/category"},
+        {"column_header": "indicator_code", "dbpedia_property_id": "http://dbpedia.org/ontology/codeIndex"},
+        {"column_header": "economic_sector", "dbpedia_property_id": "http://dbpedia.org/ontology/industry"},
+        {"column_header": "region_name", "dbpedia_property_id": "http://dbpedia.org/ontology/circle"},
+        {"column_header": "population_density", "dbpedia_property_id": "http://dbpedia.org/ontology/populationDensity"},
+        {"column_header": "male_labor_force_participation", "dbpedia_property_id": "http://dbpedia.org/ontology/populationPctMen"},
+        {"column_header": "urbanization_rate", "dbpedia_property_id": "http://dbpedia.org/ontology/urbanArea"},
+        {"column_header": "data_version", "dbpedia_property_id": "http://dbpedia.org/ontology/version"},
+        {"column_header": "notes", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+        {"column_header": "sample_description", "dbpedia_property_id": "http://dbpedia.org/ontology/note"},
+        {"column_header": "additional_comments", "dbpedia_property_id": "http://dbpedia.org/ontology/comment"},
+        {"column_header": "research_department", "dbpedia_property_id": "http://dbpedia.org/ontology/department"}
+    ]
+}

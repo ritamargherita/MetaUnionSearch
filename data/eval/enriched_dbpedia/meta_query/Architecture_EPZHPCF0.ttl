@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArchitectureEPZHPCF0> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_EPZHPCF0.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/BuildYear> a dsv:Column ;
+    rdfs:label "Build Year" ;
+    dsv:columnProperty "year of construction" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/BuildingDescription> a dsv:Column ;
+    rdfs:label "Building Description " ;
+    dsv:columnProperty "description" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/Description> a dsv:Column ;
+    rdfs:label "Description" ;
+    dsv:columnProperty "description" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/Designer> a dsv:Column ;
+    rdfs:label "Designer" ;
+    dsv:columnProperty "designer" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/HistoricalSignificance> a dsv:Column ;
+    rdfs:label "Historical Significance" ;
+    dsv:columnProperty "historical name" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/Location> a dsv:Column ;
+    rdfs:label "Location" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/Material> a dsv:Column ;
+    rdfs:label "Material" ;
+    dsv:columnProperty "material" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/Period> a dsv:Column ;
+    rdfs:label "Period" ;
+    dsv:columnProperty "term period" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/Size> a dsv:Column ;
+    rdfs:label "Size" ;
+    dsv:columnProperty "size_v" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/SpatialConfiguration> a dsv:Column ;
+    rdfs:label "Spatial Configuration" ;
+    dsv:columnProperty "configuration" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/SpecialFeatures> a dsv:Column ;
+    rdfs:label "Special Features" ;
+    dsv:columnProperty "notable features" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/Style> a dsv:Column ;
+    rdfs:label "Style" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/SurroundingEnvironment> a dsv:Column ;
+    rdfs:label "Surrounding Environment" ;
+    dsv:columnProperty "region" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/SustainabilityRating> a dsv:Column ;
+    rdfs:label "Sustainability Rating" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/BuildYear>,
+        <http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/BuildingDescription>,
+        <http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/Description>,
+        <http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/Designer>,
+        <http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/HistoricalSignificance>,
+        <http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/Location>,
+        <http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/Material>,
+        <http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/Period>,
+        <http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/Size>,
+        <http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/SpatialConfiguration>,
+        <http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/SpecialFeatures>,
+        <http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/Style>,
+        <http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/SurroundingEnvironment>,
+        <http://metaUnionSearch/datasets/ArchitectureEPZHPCF0/column/SustainabilityRating> .
+

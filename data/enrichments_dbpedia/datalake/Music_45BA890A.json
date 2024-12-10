@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "Track Number", "dbpedia_property_id": "http://dbpedia.org/ontology/trackNumber"},
+    {"column_header": " Song Name", "dbpedia_property_id": "http://dbpedia.org/ontology/name"},
+    {"column_header": " Artists", "dbpedia_property_id": "http://dbpedia.org/ontology/musicalArtist"},
+    {"column_header": " Genre", "dbpedia_property_id": "http://dbpedia.org/ontology/genre"},
+    {"column_header": " Composer", "dbpedia_property_id": "http://dbpedia.org/ontology/composer"},
+    {"column_header": " Lyricist", "dbpedia_property_id": "http://dbpedia.org/ontology/lyrics"},
+    {"column_header": " Arranger", "dbpedia_property_id": "http://dbpedia.org/ontology/musicBy"},
+    {"column_header": " Album", "dbpedia_property_id": "http://dbpedia.org/ontology/album"},
+    {"column_header": " Contribution to Soundtrack", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": " Released Year", "dbpedia_property_id": "http://dbpedia.org/ontology/releaseDate"},
+    {"column_header": " Extra Notes", "dbpedia_property_id": "http://dbpedia.org/ontology/note"}
+  ]
+}

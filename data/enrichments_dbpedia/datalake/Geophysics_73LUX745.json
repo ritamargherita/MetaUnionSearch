@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Shear (S)Waves",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": "P-Wave Velocities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/transmission"
+    },
+    {
+      "column_header": "Reflection Coefficients",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/albedo"
+    },
+    {
+      "column_header": "Density",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/density"
+    },
+    {
+      "column_header": "Seismic Attenuation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": "Microearthquake Locations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfLocations"
+    },
+    {
+      "column_header": "Focal Mechanisms*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/focus"
+    },
+    {
+      "column_header": "Subsurface Imaging Techniques*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    },
+    {
+      "column_header": "Geologic Hazard Assessment*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geologicPeriod"
+    },
+    {
+      "column_header": "Free Surface Effect*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/causedBy"
+    },
+    {
+      "column_header": "Topographic Corrections*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/elevation"
+    },
+    {
+      "column_header": "Sea Level Changes*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sea"
+    },
+    {
+      "column_header": "Volcanic Emissions Monitoring",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/volcanicActivity"
+    },
+    {
+      "column_header": "Gravity Anomalies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/volumes"
+    },
+    {
+      "column_header": "Magnetic Anomalies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    }
+  ]
+}

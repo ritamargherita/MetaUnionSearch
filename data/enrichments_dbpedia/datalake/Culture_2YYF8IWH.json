@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {"column_header": "Dance Forms", "dbpedia_property_id": "http://dbpedia.org/ontology/movement"},
+    {"column_header": "Literature Genres", "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"},
+    {"column_header": "Historical Places", "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"},
+    {"column_header": "Visual Arts & Crafts", "dbpedia_property_id": "http://dbpedia.org/ontology/artisticFunction"},
+    {"column_header": "Sports & Games", "dbpedia_property_id": "http://dbpedia.org/ontology/sport"},
+    {"column_header": "National Holidays", "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"},
+    {"column_header": "Architectural Styles", "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"},
+    {"column_header": "Cuisine Types", "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"},
+    {"column_header": "Film Industry", "dbpedia_property_id": "http://dbpedia.org/ontology/industry"},
+    {"column_header": "Poetry Schools", "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"},
+    {"column_header": "Musical Instruments", "dbpedia_property_id": "http://dbpedia.org/ontology/instrument"},
+    {"column_header": "Folklore & Mythology", "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"}
+  ]
+}

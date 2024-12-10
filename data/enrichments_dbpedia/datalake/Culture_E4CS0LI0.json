@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Quantitative Research Methodologies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/approach"
+    },
+    {
+      "column_header": "Qualitative Research Approaches",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/approach"
+    },
+    {
+      "column_header": "Symbolism",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/symbol"
+    },
+    {
+      "column_header": "Art Forms",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/artisticFunction"
+    },
+    {
+      "column_header": "Holidays",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"
+    },
+    {
+      "column_header": "Traditional Practices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"
+    },
+    {
+      "column_header": "Literature Genres",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": "Poetry",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": "Folklore",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"
+    },
+    {
+      "column_header": "Architecture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": "Sports",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sport"
+    },
+    {
+      "column_header": "Recreation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    }
+  ]
+}

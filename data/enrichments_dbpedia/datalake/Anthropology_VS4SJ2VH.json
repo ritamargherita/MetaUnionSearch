@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Age Group Distribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/population"
+    },
+    {
+      "column_header": "Clothing Styles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Food Preferences",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"
+    },
+    {
+      "column_header": "Housing Structures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/building"
+    },
+    {
+      "column_header": "Pottery Designs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/design"
+    },
+    {
+      "column_header": "Music Instruments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/instrument"
+    },
+    {
+      "column_header": "Trading Items",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/tradingName"
+    },
+    {
+      "column_header": "Marriage Customs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/spouse"
+    },
+    {
+      "column_header": "Initiation Rites",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/consecration"
+    },
+    {
+      "column_header": "Population Migration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationQuote"
+    },
+    {
+      "column_header": "Environmental Adaptations.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    }
+  ]
+}

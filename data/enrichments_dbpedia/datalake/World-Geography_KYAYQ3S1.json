@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Island Nation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nation"
+    },
+    {
+      "column_header": " Island Size (km²)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/areaLand"
+    },
+    {
+      "column_header": " Coastline Length (km)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/coastLine"
+    },
+    {
+      "column_header": " Number Of Islands",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfIslands"
+    },
+    {
+      "column_header": " Forest Area (%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/landPercentage"
+    },
+    {
+      "column_header": " Capitals' Status ("de facto"/"joint"/"none")",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/capital"
+    },
+    {
+      "column_header": " Time Zone",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/timeZone"
+    },
+    {
+      "column_header": " Currency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currency"
+    },
+    {
+      "column_header": " Population Of Capital",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationUrban"
+    },
+    {
+      "column_header": " GDP Per Capita",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gdpPerCapita"
+    },
+    {
+      "column_header": " Major Cities Population",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationUrban"
+    }
+  ]
+}

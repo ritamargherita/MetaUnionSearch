@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "CommonName", "dbpedia_property_id": "http://dbpedia.org/ontology/commonName"},
+    {"column_header": "NutritionalValue", "dbpedia_property_id": "http://dbpedia.org/ontology/protein"},
+    {"column_header": "TypicalGrowthGrades%", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "FloweringSeasonDates", "dbpedia_property_id": "http://dbpedia.org/ontology/flower"},
+    {"column_header": "PollinatorsAndHabitatsOfSpecificPlantSpeCIes(IFApplicable*)", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"},
+    {"column_header": "GeographicDistribution", "dbpedia_property_id": "http://dbpedia.org/ontology/refgeo"},
+    {"column_header": "HistoricalSignificanceOrUse$", "dbpedia_property_id": "http://dbpedia.org/ontology/knownFor"},
+    {"column_header": "YearlyCycleDetailsAndMaintenanceNeeds", "dbpedia_property_id": "http://dbpedia.org/ontology/longName"},
+    {"column_header": "DiseaseResistancesAndPestControlMeasures*", "dbpedia_property_id": "http://dbpedia.org/ontology/disease"},
+    {"column_header": "CommercialUsageAndProduction", "dbpedia_property_id": "http://dbpedia.org/ontology/production"},
+    {"column_header": "GrowingConditions(IFApplicable*)", "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"}
+  ]
+}

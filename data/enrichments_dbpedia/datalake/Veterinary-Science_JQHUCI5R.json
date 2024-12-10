@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "Additional Tests Result", "dbpedia_property_id": "http://dbpedia.org/ontology/result"},
+    {"column_header": "Allergies Test Results", "dbpedia_property_id": "http://dbpedia.org/ontology/medicalDiagnosis"},
+    {"column_header": "Diagnostic Imaging Report", "dbpedia_property_id": "http://dbpedia.org/ontology/pictureDescription"},
+    {"column_header": "Medication Dosage Instructions", "dbpedia_property_id": "http://dbpedia.org/ontology/dose"},
+    {"column_header": "Prescribed Medications Details", "dbpedia_property_id": "http://dbpedia.org/ontology/medication"},
+    {"column_header": "Rehabilitation Therapy Schedule", "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"},
+    {"column_header": "Special Dietary Guidelines", "dbpedia_property_id": "http://dbpedia.org/ontology/note"},
+    {"column_header": "Veterinarian Notes", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": "Appointments History", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": "Follow-up Visit", "dbpedia_property_id": "http://dbpedia.org/ontology/followedBy"},
+    {"column_header": "Owner Contact Info", "dbpedia_property_id": "http://dbpedia.org/ontology/owner"}
+  ]
+}

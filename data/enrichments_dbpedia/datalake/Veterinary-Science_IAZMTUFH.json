@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Additional Tests Recommended",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/testaverage"
+    },
+    {
+      "column_header": "Test Results",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/result"
+    },
+    {
+      "column_header": "First Vaccination Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vaccination"
+    },
+    {
+      "column_header": "Second Vaccination Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dosesSecond"
+    },
+    {
+      "column_header": "Third Vaccination Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dosesFirst"
+    },
+    {
+      "column_header": "Fourth Vaccination Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vaccination"
+    },
+    {
+      "column_header": "Preventive Care Instructions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"
+    },
+    {
+      "column_header": "Medications Prescription Details",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medication"
+    },
+    {
+      "column_header": "Pharmacy Contact Info",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/company"
+    },
+    {
+      "column_header": "Next Appointment Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nextEvent"
+    },
+    {
+      "column_header": "Next Appointment Time",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/date"
+    },
+    {
+      "column_header": "Payment Method",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/credit"
+    },
+    {
+      "column_header": "Insurance Policy Number",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/idNumber"
+    },
+    {
+      "column_header": "Insurance Company Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/company"
+    },
+    {
+      "column_header": "Insurance Contact Information",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    }
+  ]
+}

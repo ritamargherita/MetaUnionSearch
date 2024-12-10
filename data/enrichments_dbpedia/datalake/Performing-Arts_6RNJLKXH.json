@@ -1,0 +1,36 @@
+{
+  "mapping": [
+    {
+      "column_header": "Number Of Shows",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfEpisodes"
+    },
+    {
+      "column_header": "Venue",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/stadium"
+    },
+    {
+      "column_header": "Audience Size Range",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfPeopleAttending"
+    },
+    {
+      "column_header": "Typical Duration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/duration"
+    },
+    {
+      "column_header": "Show Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Collaborations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Festivals Appeared",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/event"
+    },
+    {
+      "column_header": "Additional Skills & Talents",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/skills"
+    }
+  ]
+}

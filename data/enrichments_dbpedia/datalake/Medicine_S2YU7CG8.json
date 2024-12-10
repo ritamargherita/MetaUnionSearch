@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": " Separation Techniques",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    },
+    {
+      "column_header": "Treatment Start Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/serviceStartDate"
+    },
+    {
+      "column_header": "Symptom Relief Score",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relief"
+    },
+    {
+      "column_header": "New Therapy Recommended",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"
+    },
+    {
+      "column_header": "Additional Equipment Required",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": "Physical Examination Results",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/result"
+    },
+    {
+      "column_header": "Test Order Details",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/order"
+    },
+    {
+      "column_header": "Test Results",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/result"
+    },
+    {
+      "column_header": "Specialist Referral Necessity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/specialist"
+    },
+    {
+      "column_header": "Patient Comfort Level",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mood"
+    },
+    {
+      "column_header": "Follow-up Appointments Scheduled",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/followingEvent"
+    },
+    {
+      "column_header": "Alternative Treatments Explored",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"
+    }
+  ]
+}

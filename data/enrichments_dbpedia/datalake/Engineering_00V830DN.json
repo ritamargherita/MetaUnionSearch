@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Project Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": "Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "#Work Packages",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/work"
+    },
+    {
+      "column_header": "Material Selection",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/constructionMaterial"
+    },
+    {
+      "column_header": "Start Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/startDate"
+    },
+    {
+      "column_header": "End Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/endDate"
+    },
+    {
+      "column_header": "Team Lead(s) & Collaborators",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/team"
+    },
+    {
+      "column_header": "Funding Source",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "Funding Amount",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectBudgetTotal"
+    },
+    {
+      "column_header": "Milestones and Deliverables",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/achievement"
+    },
+    {
+      "column_header": "Risk Management",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/management"
+    }
+  ]
+}

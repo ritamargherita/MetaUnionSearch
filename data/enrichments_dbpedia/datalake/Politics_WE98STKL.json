@@ -1,0 +1,20 @@
+{
+  "mapping": [
+    {
+      "column_header": "Elections Data",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refpol"
+    },
+    {
+      "column_header": "Frequency Of Elections",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/electionDate"
+    },
+    {
+      "column_header": "Voter Turnout Rates",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/popularVote"
+    },
+    {
+      "column_header": "Political Donations Quantity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/electionMajority"
+    }
+  ]
+}

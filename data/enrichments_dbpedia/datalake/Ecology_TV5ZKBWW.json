@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Secondary Habitat",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": "Additional Characteristics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": "Atmospheric Conditions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Terrain Features",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/features"
+    },
+    {
+      "column_header": "Ground Composition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": "Water Sources",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/water"
+    },
+    {
+      "column_header": "Ecosystem Interactions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fauna"
+    },
+    {
+      "column_header": "Biodiversity Metrics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/species"
+    },
+    {
+      "column_header": "Human Presence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/participant"
+    },
+    {
+      "column_header": "Conservation Efforts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    },
+    {
+      "column_header": "Management Techniques",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/management"
+    },
+    {
+      "column_header": "Legislation & Policies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/legislature"
+    },
+    {
+      "column_header": "Public Perception",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publiclyAccessible"
+    },
+    {
+      "column_header": "Economic Value",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "Socio-Cultural Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "mapping": [
+    {
+      "column_header": "Computational Theory",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingInput"
+    },
+    {
+      "column_header": "Encryption Techniques",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    },
+    {
+      "column_header": "Artificial Intelligence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingInput"
+    },
+    {
+      "column_header": "Natural Language Processing",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingInput"
+    },
+    {
+      "column_header": "Human-Computer Interaction",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/approach"
+    },
+    {
+      "column_header": "Software Engineering Methodologies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    },
+    {
+      "column_header": "Machine Learning",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/training"
+    },
+    {
+      "column_header": "Reinforcement Learning",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/training"
+    },
+    {
+      "column_header": "Deep Learning",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/training"
+    },
+    {
+      "column_header": "Robotics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/automation"
+    },
+    {
+      "column_header": "Quantum Computing (Hardware Architecture)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"
+    },
+    {
+      "column_header": "Web Development",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": "Mobile Application Development",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": "Game Development",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/games"
+    },
+    {
+      "column_header": "High Performance Computing",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cluster"
+    },
+    {
+      "column_header": "Cybersecurity.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    }
+  ]
+}
