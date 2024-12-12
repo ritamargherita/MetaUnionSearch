@@ -17,111 +17,99 @@ def merge_similarity_with_groundtruth(cosine_file, groundtruth_file, output_file
 
 
 """
-### (simple) TOPIC AGNOSTIC - EVAL
-cosine_similarity_file = '../results/eval/topic-agnostic/simple/cosine_similarities.csv'              
-output_file = '../results/eval/topic-agnostic/simple/cosine_similarities_with_groundtruth.csv'    
+### (simple) TOPIC EMBEDDING - EVAL
+cosine_similarity_file = '../results/eval/topic-embedding/simple/cosine_similarities.csv'              
+output_file = '../results/eval/topic-embedding/simple/cosine_similarities_with_groundtruth.csv'    
 #"""
 
 """
-### (simple) TOPIC AGNOSTIC - TEST
-cosine_similarity_file = '../results/test/topic-agnostic/simple/cosine_similarities.csv'              
-output_file = '../results/test/topic-agnostic/simple/cosine_similarities_with_groundtruth.csv'
+### (simple) TOPIC EMBEDDING - TEST
+cosine_similarity_file = '../results/test/topic-embedding/simple/cosine_similarities.csv'              
+output_file = '../results/test/topic-embedding/simple/cosine_similarities_with_groundtruth.csv'
 #"""
 
 """
-### (dtypes) TOPIC AGNOSTIC - EVAL
-cosine_similarity_file = '../results/eval/topic-agnostic/dtypes/cosine_similarities.csv'              
-output_file = '../results/eval/topic-agnostic/dtypes/cosine_similarities_with_groundtruth.csv'    
+### (dtypes) TOPIC EMBEDDING - EVAL
+cosine_similarity_file = '../results/eval/topic-embedding/dtypes/cosine_similarities.csv'              
+output_file = '../results/eval/topic-embedding/dtypes/cosine_similarities_with_groundtruth.csv'    
 #"""
 
 """
-### (dtypes) TOPIC AGNOSTIC - TEST
-cosine_similarity_file = '../results/test/topic-agnostic/dtypes/cosine_similarities.csv'              
-output_file = '../results/test/topic-agnostic/dtypes/cosine_similarities_with_groundtruth.csv'
+### (dtypes) TOPIC EMBEDDING - TEST
+cosine_similarity_file = '../results/test/topic-embedding/dtypes/cosine_similarities.csv'              
+output_file = '../results/test/topic-embedding/dtypes/cosine_similarities_with_groundtruth.csv'
 #"""
 
 """
-### (dbpedia) TOPIC AGNOSTIC - EVAL
-cosine_similarity_file = '../results/eval/topic-agnostic/dbpedia/cosine_similarities.csv'              
-output_file = '../results/eval/topic-agnostic/dbpedia/cosine_similarities_with_groundtruth.csv'    
+### (dbpedia) TOPIC EMBEDDING - EVAL
+cosine_similarity_file = '../results/eval/topic-embedding/dbpedia/cosine_similarities.csv'              
+output_file = '../results/eval/topic-embedding/dbpedia/cosine_similarities_with_groundtruth.csv'    
 #"""
 
 """
-### (dbpedia) TOPIC AGNOSTIC - TEST
-cosine_similarity_file = '../results/test/topic-agnostic/dbpedia/cosine_similarities.csv'              
-output_file = '../results/test/topic-agnostic/dbpedia/cosine_similarities_with_groundtruth.csv'
+### (dbpedia) TOPIC EMBEDDING - TEST
+cosine_similarity_file = '../results/test/topic-embedding/dbpedia/cosine_similarities.csv'              
+output_file = '../results/test/topic-embedding/dbpedia/cosine_similarities_with_groundtruth.csv'
 #"""
 
 """
-### (simple) TOPIC GUIDED - EVAL
-cosine_similarity_file = '../results/eval/topic-guided/simple/cosine_similarities.csv'              
-output_file = '../results/eval/topic-guided/simple/cosine_similarities_with_groundtruth.csv'    
+### (dtypes-dbpedia) TOPIC EMBEDDING - EVAL
+cosine_similarity_file = '../results/eval/topic-embedding/dtypes-dbpedia/cosine_similarities.csv'              
+output_file = '../results/eval/topic-embedding/dtypes-dbpedia/cosine_similarities_with_groundtruth.csv'    
 #"""
 
 """
-### (simple) TOPIC GUIDED - TEST
-cosine_similarity_file = '../results/test/topic-guided/simple/cosine_similarities.csv'              
-output_file = '../results/test/topic-guided/simple/cosine_similarities_with_groundtruth.csv'
+### (dtypes-dbpedia) TOPIC EMBEDDING - TEST
+cosine_similarity_file = '../results/test/topic-embedding/dtypes-dbpedia/cosine_similarities.csv'              
+output_file = '../results/test/topic-embedding/dtypes-dbpedia/cosine_similarities_with_groundtruth.csv'
 #"""
 
 """
-### (dtypes) TOPIC GUIDED - EVAL
-cosine_similarity_file = '../results/eval/topic-guided/dtypes/cosine_similarities.csv'              
-output_file = '../results/eval/topic-guided/dtypes/cosine_similarities_with_groundtruth.csv'    
+### (simple) TOPIC FILTERING - EVAL
+cosine_similarity_file = '../results/eval/topic-filtering/simple/cosine_similarities.csv'              
+output_file = '../results/eval/topic-filtering/simple/cosine_similarities_with_groundtruth.csv'    
 #"""
 
 """
-### (dtypes) TOPIC GUIDED - TEST
-cosine_similarity_file = '../results/test/topic-guided/dtypes/cosine_similarities.csv'              
-output_file = '../results/test/topic-guided/dtypes/cosine_similarities_with_groundtruth.csv'
+### (simple) TOPIC FILTERING - TEST
+cosine_similarity_file = '../results/test/topic-filtering/simple/cosine_similarities.csv'              
+output_file = '../results/test/topic-filtering/simple/cosine_similarities_with_groundtruth.csv'
 #"""
 
 """
-### (dbpedia) TOPIC GUIDED - EVAL
-cosine_similarity_file = '../results/eval/topic-guided/dbpedia/cosine_similarities.csv'              
-output_file = '../results/eval/topic-guided/dbpedia/cosine_similarities_with_groundtruth.csv'    
+### (dtypes) TOPIC FILTERING - EVAL
+cosine_similarity_file = '../results/eval/topic-filtering/dtypes/cosine_similarities.csv'              
+output_file = '../results/eval/topic-filtering/dtypes/cosine_similarities_with_groundtruth.csv'    
 #"""
 
 """
-### (dbpedia) TOPIC GUIDED - TEST
-cosine_similarity_file = '../results/test/topic-guided/dbpedia/cosine_similarities.csv'              
-output_file = '../results/test/topic-guided/dbpedia/cosine_similarities_with_groundtruth.csv'
+### (dtypes) TOPIC FILTERING - TEST
+cosine_similarity_file = '../results/test/topic-filtering/dtypes/cosine_similarities.csv'              
+output_file = '../results/test/topic-filtering/dtypes/cosine_similarities_with_groundtruth.csv'
 #"""
 
 """
-### (simple) TOPIC DEPENDENT - EVAL
-cosine_similarity_file = '../results/eval/topic-dependent/simple/cosine_similarities.csv'              
-output_file = '../results/eval/topic-dependent/simple/cosine_similarities_with_groundtruth.csv'    
+### (dbpedia) TOPIC FILTERING - EVAL
+cosine_similarity_file = '../results/eval/topic-filtering/dbpedia/cosine_similarities.csv'              
+output_file = '../results/eval/topic-filtering/dbpedia/cosine_similarities_with_groundtruth.csv'    
 #"""
 
 """
-### (simple) TOPIC DEPENDENT - TEST
-cosine_similarity_file = '../results/test/topic-dependent/simple/cosine_similarities.csv'              
-output_file = '../results/test/topic-dependent/simple/cosine_similarities_with_groundtruth.csv'
+### (dbpedia) TOPIC FILTERING - TEST
+cosine_similarity_file = '../results/test/topic-filtering/dbpedia/cosine_similarities.csv'              
+output_file = '../results/test/topic-filtering/dbpedia/cosine_similarities_with_groundtruth.csv'
 #"""
 
 """
-### (dtypes) TOPIC DEPENDENT - EVAL
-cosine_similarity_file = '../results/eval/topic-dependent/dtypes/cosine_similarities.csv'              
-output_file = '../results/eval/topic-dependent/dtypes/cosine_similarities_with_groundtruth.csv'    
-#"""
-
-"""
-### (dtypes) TOPIC DEPENDENT - TEST
-cosine_similarity_file = '../results/test/topic-dependent/dtypes/cosine_similarities.csv'              
-output_file = '../results/test/topic-dependent/dtypes/cosine_similarities_with_groundtruth.csv'
-#"""
-
-"""
-### (dbpedia) TOPIC DEPENDENT - EVAL
-cosine_similarity_file = '../results/eval/topic-dependent/dbpedia/cosine_similarities.csv'              
-output_file = '../results/eval/topic-dependent/dbpedia/cosine_similarities_with_groundtruth.csv'    
+### (dtypes-dbpedia) TOPIC FILTERING - EVAL
+cosine_similarity_file = '../results/eval/topic-filtering/dtypes-dbpedia/cosine_similarities.csv'              
+output_file = '../results/eval/topic-filtering/dtypes-dbpedia/cosine_similarities_with_groundtruth.csv'    
 #"""
 
 #"""
-### (dbpedia) TOPIC DEPENDENT - TEST
-cosine_similarity_file = '../results/test/topic-dependent/dbpedia/cosine_similarities.csv'              
-output_file = '../results/test/topic-dependent/dbpedia/cosine_similarities_with_groundtruth.csv'
+### (dtypes-dbpedia) TOPIC FILTERING - TEST
+cosine_similarity_file = '../results/test/topic-filtering/dtypes-dbpedia/cosine_similarities.csv'              
+output_file = '../results/test/topic-filtering/dtypes-dbpedia/cosine_similarities_with_groundtruth.csv'
 #"""
 
 groundtruth_file = "../data/groundtruth.csv" 

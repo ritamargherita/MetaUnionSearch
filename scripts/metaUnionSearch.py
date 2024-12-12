@@ -118,66 +118,59 @@ def main(input_file, output_file, threshold):
 if __name__ == "__main__":
 
     """
-    ### META UNION SEARCH TOPIC AGNOSTIC (simple)
-    input_file = "../results/eval/topic-agnostic/simple/cosine_similarities_with_groundtruth.csv"
-    output_file = "../results/eval/topic-agnostic/simple/meta_union_search_with_groundtruth.csv"
-    threshold = 0.256
+    ### META UNION SEARCH TOPIC EMBEDDING (simple)
+    input_file = "../results/eval/topic-embedding/simple/cosine_similarities_with_groundtruth.csv"
+    output_file = "../results/eval/topic-embedding/simple/meta_union_search_with_groundtruth.csv"
+    threshold = 0.8383838383838385
     #"""
 
     """
-    ### META UNION SEARCH TOPIC AGNOSTIC (dtypes)
-    input_file = "../results/eval/topic-agnostic/dtypes/cosine_similarities_with_groundtruth.csv"
-    output_file = "../results/eval/topic-agnostic/dtypes/meta_union_search_with_groundtruth.csv"
-    threshold = 0.149
+    ### META UNION SEARCH TOPIC EMBEDDING (dtypes)
+    input_file = "../results/eval/topic-embedding/dtypes/cosine_similarities_with_groundtruth.csv"
+    output_file = "../results/eval/topic-embedding/dtypes/meta_union_search_with_groundtruth.csv"
+    threshold = 0.8181818181818182
     #"""
 
     """
-    ### META UNION SEARCH TOPIC AGNOSTIC (dbpedia)
-    input_file = "../results/eval/topic-agnostic/dbpedia/cosine_similarities_with_groundtruth.csv"
-    output_file = "../results/eval/topic-agnostic/dbpedia/meta_union_search_with_groundtruth.csv"
-    threshold = 0.124
+    ### META UNION SEARCH TOPIC EMBEDDING (dbpedia)
+    input_file = "../results/eval/topic-embedding/dbpedia/cosine_similarities_with_groundtruth.csv"
+    output_file = "../results/eval/topic-embedding/dbpedia/meta_union_search_with_groundtruth.csv"
+    threshold = 0.8080808080808082
     #"""
 
     """
-    ### META UNION SEARCH TOPIC GUIDED (simple)
-    input_file = "../results/eval/topic-guided/simple/cosine_similarities_with_groundtruth.csv"
-    output_file = "../results/eval/topic-guided/simple/meta_union_search_with_groundtruth.csv"
-    threshold = 0.321
+    ### META UNION SEARCH TOPIC EMBEDDING (dtypes-dbpedia)
+    input_file = "../results/eval/topic-embedding/dtypes-dbpedia/cosine_similarities_with_groundtruth.csv"
+    output_file = "../results/eval/topic-embedding/dtypes-dbpedia/meta_union_search_with_groundtruth.csv"
+    threshold = 0.787878787878788
     #"""
 
     """
-    ### META UNION SEARCH TOPIC GUIDED (dtypes)
-    input_file = "../results/eval/topic-guided/dtypes/cosine_similarities_with_groundtruth.csv"
-    output_file = "../results/eval/topic-guided/dtypes/meta_union_search_with_groundtruth.csv"
-    threshold = 0.258
+    ### META UNION SEARCH TOPIC FILTERING (simple)
+    input_file = "../results/eval/topic-filtering/simple/cosine_similarities_with_groundtruth.csv"
+    output_file = "../results/eval/topic-filtering/simple/meta_union_search_with_groundtruth.csv"
+    threshold = 0.6666666666666667
     #"""
 
     """
-    ### META UNION SEARCH TOPIC GUIDED (dbpedia)
-    input_file = "../results/eval/topic-guided/dbpedia/cosine_similarities_with_groundtruth.csv"
-    output_file = "../results/eval/topic-guided/dbpedia/meta_union_search_with_groundtruth.csv"
-    threshold = 0.236
+    ### META UNION SEARCH TOPIC FILTERING (dtypes)
+    input_file = "../results/eval/topic-filtering/dtypes/cosine_similarities_with_groundtruth.csv"
+    output_file = "../results/eval/topic-filtering/dtypes/meta_union_search_with_groundtruth.csv"
+    threshold = 0.6262626262626263
     #"""
 
     """
-    ### META UNION SEARCH TOPIC DEPENDENT (simple)
-    input_file = "../results/eval/topic-dependent/simple/cosine_similarities_with_groundtruth.csv"
-    output_file = "../results/eval/topic-dependent/simple/meta_union_search_with_groundtruth.csv"
-    threshold = 0.437
-    #"""
-
-    """
-    ### META UNION SEARCH TOPIC DEPENDENT (dtypes)
-    input_file = "../results/eval/topic-dependent/dtypes/cosine_similarities_with_groundtruth.csv"
-    output_file = "../results/eval/topic-dependent/dtypes/meta_union_search_with_groundtruth.csv"
-    threshold = 0.370
+    ### META UNION SEARCH TOPIC FILTERING (dbpedia)
+    input_file = "../results/eval/topic-filtering/dbpedia/cosine_similarities_with_groundtruth.csv"
+    output_file = "../results/eval/topic-filtering/dbpedia/meta_union_search_with_groundtruth.csv"
+    threshold = 0.686868686868687
     #"""
 
     #"""
-    ### META UNION SEARCH TOPIC DEPENDENT (dbpedia)
-    input_file = "../results/eval/topic-dependent/dbpedia/cosine_similarities_with_groundtruth.csv"
-    output_file = "../results/eval/topic-dependent/dbpedia/meta_union_search_with_groundtruth.csv"
-    threshold = 0.574
+    ### META UNION SEARCH TOPIC FILTERING (dtypes-dbpedia)
+    input_file = "../results/eval/topic-filtering/dtypes-dbpedia/cosine_similarities_with_groundtruth.csv"
+    output_file = "../results/eval/topic-filtering/dtypes-dbpedia/meta_union_search_with_groundtruth.csv"
+    threshold = 0.6565656565656566
     #"""
 
 
