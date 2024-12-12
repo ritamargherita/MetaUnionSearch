@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ReligionUN5Z3JQI> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_UN5Z3JQI.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ReligionUN5Z3JQI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/AfterlifeConcepts> a dsv:Column ;
+    rdfs:label "Afterlife Concepts" ;
+    dsv:columnProperty "Theology" .
+
+<http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/ArtisticExpressions> a dsv:Column ;
+    rdfs:label "Artistic Expressions" ;
+    dsv:columnProperty "artistic function" .
+
+<http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/EcologicalStewardshipEmphasis> a dsv:Column ;
+    rdfs:label "Ecological Stewardship Emphasis" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/EthicalPrinciplesandValues> a dsv:Column ;
+    rdfs:label "Ethical Principles and Values" ;
+    dsv:columnProperty "ideology" .
+
+<http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/GlobalPresenceandDispersalPatterns> a dsv:Column ;
+    rdfs:label "Global Presence and Dispersal Patterns" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/InterfaithDialogueParticipation> a dsv:Column ;
+    rdfs:label "Interfaith Dialogue Participation" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/MoralityTeachings> a dsv:Column ;
+    rdfs:label "Morality Teachings" ;
+    dsv:columnProperty "ideology" .
+
+<http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/OrdinationInitiationandTrainingProcesses> a dsv:Column ;
+    rdfs:label "Ordination, Initiation, and Training Processes" ;
+    dsv:columnProperty "Ordination" .
+
+<http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/ReligiousDiversityandPluralism> a dsv:Column ;
+    rdfs:label "Religious Diversity and Pluralism." ;
+    dsv:columnProperty "denomination" .
+
+<http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/SacredSpacesandArchitecture> a dsv:Column ;
+    rdfs:label "Sacred Spaces and Architecture" ;
+    dsv:columnProperty "place of worship" .
+
+<http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/SpiritualPractices> a dsv:Column ;
+    rdfs:label "Spiritual Practices" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/ReligionUN5Z3JQI/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/AfterlifeConcepts>,
+        <http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/ArtisticExpressions>,
+        <http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/EcologicalStewardshipEmphasis>,
+        <http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/EthicalPrinciplesandValues>,
+        <http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/GlobalPresenceandDispersalPatterns>,
+        <http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/InterfaithDialogueParticipation>,
+        <http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/MoralityTeachings>,
+        <http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/OrdinationInitiationandTrainingProcesses>,
+        <http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/ReligiousDiversityandPluralism>,
+        <http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/SacredSpacesandArchitecture>,
+        <http://metaUnionSearch/datasets/ReligionUN5Z3JQI/column/SpiritualPractices> .
+

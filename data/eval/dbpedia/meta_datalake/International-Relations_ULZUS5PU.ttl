@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU> a dsv:Dataset ;
+    dcterms:subject "international-relations" ;
+    dcterms:title "International-Relations_ULZUS5PU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/Country> a dsv:Column ;
+    rdfs:label "Country" ;
+    dsv:columnProperty "country" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/EconomicIntegrationLevel> a dsv:Column ;
+    rdfs:label "Economic Integration Level" ;
+    dsv:columnProperty "income" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/EstablishedYear> a dsv:Column ;
+    rdfs:label "EstablishedYear" ;
+    dsv:columnProperty "founding year" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/GDPperCapita> a dsv:Column ;
+    rdfs:label "GDP per Capita*" ;
+    dsv:columnProperty "gross domestic product (GDP) per capita" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/GovernanceStructure> a dsv:Column ;
+    rdfs:label "Governance Structure" ;
+    dsv:columnProperty "government" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/GovernmentType> a dsv:Column ;
+    rdfs:label "Government Type*" ;
+    dsv:columnProperty "government type" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/HQLocation> a dsv:Column ;
+    rdfs:label "HQ Location" ;
+    dsv:columnProperty "headquarter" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/HeadOfOrganization> a dsv:Column ;
+    rdfs:label "Head Of Organization*" ;
+    dsv:columnProperty "leader" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/IntelligenceSharing> a dsv:Column ;
+    rdfs:label "Intelligence Sharing" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/LeadershipRole> a dsv:Column ;
+    rdfs:label "Leadership Role" ;
+    dsv:columnProperty "leadership" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/MembersCountcurrentorhistorical> a dsv:Column ;
+    rdfs:label "MembersCount* (current or historical) " ;
+    dsv:columnProperty "number of members" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/PopulationSizeoptionalifnotdirectlyrelatedtointernationalrelationstopics> a dsv:Column ;
+    rdfs:label "Population Size* (optional if not directly related to international relations topics.)" ;
+    dsv:columnProperty "population" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/RegionalBlocMembership> a dsv:Column ;
+    rdfs:label "Regional Bloc Membership" ;
+    dsv:columnProperty "membership" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/SecurityCoordination> a dsv:Column ;
+    rdfs:label "Security Coordination" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/Country>,
+        <http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/EconomicIntegrationLevel>,
+        <http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/EstablishedYear>,
+        <http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/GDPperCapita>,
+        <http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/GovernanceStructure>,
+        <http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/GovernmentType>,
+        <http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/HQLocation>,
+        <http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/HeadOfOrganization>,
+        <http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/IntelligenceSharing>,
+        <http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/LeadershipRole>,
+        <http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/MembersCountcurrentorhistorical>,
+        <http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/PopulationSizeoptionalifnotdirectlyrelatedtointernationalrelationstopics>,
+        <http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/RegionalBlocMembership>,
+        <http://metaUnionSearch/datasets/InternationalRelationsULZUS5PU/column/SecurityCoordination> .
+

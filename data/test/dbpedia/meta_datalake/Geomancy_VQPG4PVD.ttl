@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeomancyVQPG4PVD> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_VQPG4PVD.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeomancyVQPG4PVD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/AdditionalColumn1> a dsv:Column ;
+    rdfs:label "Additional Column 1" ;
+    dsv:columnProperty "other function" .
+
+<http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/AdditionalColumn2> a dsv:Column ;
+    rdfs:label "Additional Column 2" ;
+    dsv:columnProperty "other function" .
+
+<http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/AstrologicalHouseCorrespondences> a dsv:Column ;
+    rdfs:label "Astrological House Correspondences" ;
+    dsv:columnProperty "astrological sign" .
+
+<http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/CulturalImpactAssessment> a dsv:Column ;
+    rdfs:label "Cultural Impact Assessment" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/DivineorMythologicalFigureAssociation> a dsv:Column ;
+    rdfs:label "Divine or Mythological Figure Association" ;
+    dsv:columnProperty "mythology" .
+
+<http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/EsotericismUsage> a dsv:Column ;
+    rdfs:label "Esotericism Usage" ;
+    dsv:columnProperty "escalafon" .
+
+<http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/GeographicLocationRelevance> a dsv:Column ;
+    rdfs:label "Geographic Location Relevance" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/MagicalProperties> a dsv:Column ;
+    rdfs:label "Magical Properties" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/NumberofSides> a dsv:Column ;
+    rdfs:label "Number of Sides" ;
+    dsv:columnProperty "a side" .
+
+<http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/PolygonalComplexity> a dsv:Column ;
+    rdfs:label "Polygonal Complexity" ;
+    dsv:columnProperty "complexity" .
+
+<http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/PopularMediaRepresentation> a dsv:Column ;
+    rdfs:label "Popular Media Representation" ;
+    dsv:columnProperty "media" .
+
+<http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/SymbolicMeaning> a dsv:Column ;
+    rdfs:label "Symbolic Meaning" ;
+    dsv:columnProperty "meaning" .
+
+<http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/UserEngagementandInteractivePotential> a dsv:Column ;
+    rdfs:label "User Engagement and Interactive Potential" ;
+    dsv:columnProperty "share of audience" .
+
+<http://metaUnionSearch/datasets/GeomancyVQPG4PVD/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/AdditionalColumn1>,
+        <http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/AdditionalColumn2>,
+        <http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/AstrologicalHouseCorrespondences>,
+        <http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/CulturalImpactAssessment>,
+        <http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/DivineorMythologicalFigureAssociation>,
+        <http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/EsotericismUsage>,
+        <http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/GeographicLocationRelevance>,
+        <http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/MagicalProperties>,
+        <http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/NumberofSides>,
+        <http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/PolygonalComplexity>,
+        <http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/PopularMediaRepresentation>,
+        <http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/SymbolicMeaning>,
+        <http://metaUnionSearch/datasets/GeomancyVQPG4PVD/column/UserEngagementandInteractivePotential> .
+

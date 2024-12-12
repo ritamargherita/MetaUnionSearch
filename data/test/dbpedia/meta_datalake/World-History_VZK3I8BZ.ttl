@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ> a dsv:Dataset ;
+    dcterms:subject "world-history" ;
+    dcterms:title "World-History_VZK3I8BZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/AgriculturalDevelopmentsandIrrigationTechniques> a dsv:Column ;
+    rdfs:label "Agricultural Developments and Irrigation Techniques" ;
+    dsv:columnProperty "cultivar" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/AncientCivilizations> a dsv:Column ;
+    rdfs:label "Ancient Civilizations" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/IntellectualGatheringMethods> a dsv:Column ;
+    rdfs:label "Intellectual Gathering Methods" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/LawEnforcementAgenciesandJudicialSystems> a dsv:Column ;
+    rdfs:label "Law Enforcement Agencies and Judicial Systems" ;
+    dsv:columnProperty "system of law" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/MedievalLife> a dsv:Column ;
+    rdfs:label "Medieval Life" ;
+    dsv:columnProperty "era" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/NobilityandCommoners> a dsv:Column ;
+    rdfs:label "Nobility and Commoners" ;
+    dsv:columnProperty "year of elevation into the nobility" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/PhilosophicalIdeas> a dsv:Column ;
+    rdfs:label "Philosophical Ideas" ;
+    dsv:columnProperty "philosophicalSchool" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/ReligiousBeliefs> a dsv:Column ;
+    rdfs:label "Religious Beliefs" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/RoyalFamilies> a dsv:Column ;
+    rdfs:label "Royal Families" ;
+    dsv:columnProperty "dynasty" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/TradeRoutes> a dsv:Column ;
+    rdfs:label "Trade Routes" ;
+    dsv:columnProperty "route" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/WarfareTacticsandWeapons> a dsv:Column ;
+    rdfs:label "Warfare Tactics and Weapons" ;
+    dsv:columnProperty "weapon" .
+
+<http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/AgriculturalDevelopmentsandIrrigationTechniques>,
+        <http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/AncientCivilizations>,
+        <http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/IntellectualGatheringMethods>,
+        <http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/LawEnforcementAgenciesandJudicialSystems>,
+        <http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/MedievalLife>,
+        <http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/NobilityandCommoners>,
+        <http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/PhilosophicalIdeas>,
+        <http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/ReligiousBeliefs>,
+        <http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/RoyalFamilies>,
+        <http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/TradeRoutes>,
+        <http://metaUnionSearch/datasets/WorldHistoryVZK3I8BZ/column/WarfareTacticsandWeapons> .
+

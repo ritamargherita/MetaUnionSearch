@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Business Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Number of Employees",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfEmployees"
+    },
+    {
+      "column_header": "Industry Trends",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": "Market Share",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/marketCapitalisation"
+    },
+    {
+      "column_header": "Competitor Analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfCompetitors"
+    },
+    {
+      "column_header": "Customer Analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/competition"
+    },
+    {
+      "column_header": "Supplier Analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/supply"
+    },
+    {
+      "column_header": "Regulatory Environment",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/governingBody"
+    },
+    {
+      "column_header": "Business Strategy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/management"
+    },
+    {
+      "column_header": "Management Team",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/team"
+    },
+    {
+      "column_header": "Board of Directors",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/board"
+    },
+    {
+      "column_header": "Historical Performance Analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/successfulLaunches"
+    }
+  ]
+}

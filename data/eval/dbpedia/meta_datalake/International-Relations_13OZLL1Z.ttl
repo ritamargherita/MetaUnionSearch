@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z> a dsv:Dataset ;
+    dcterms:subject "international-relations" ;
+    dcterms:title "International-Relations_13OZLL1Z.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/datasetSchema> .
+
+<http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/column/EducationSpendingasPercentageOfTotalAnnualbudget> a dsv:Column ;
+    rdfs:label "Education Spending as Percentage Of Total Annual budget." ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/column/ForeignAidBudget> a dsv:Column ;
+    rdfs:label "Foreign Aid Budget$" ;
+    dsv:columnProperty "budget ($)" .
+
+<http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/column/InternationalOrganizationParticipation> a dsv:Column ;
+    rdfs:label "*International Organization Participation*" ;
+    dsv:columnProperty "international affiliation" .
+
+<http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/column/PeacekeeperContributions> a dsv:Column ;
+    rdfs:label "Peacekeeper Contributions" ;
+    dsv:columnProperty "participates/participated in" .
+
+<http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/column/PeacekeepingMissionsHistoryPeacekeeperCasualties> a dsv:Column ;
+    rdfs:label "*Peacekeeping Missions History*: Peacekeeper Casualties" ;
+    dsv:columnProperty "casualties" .
+
+<http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/column/RemittancesSentAbroad> a dsv:Column ;
+    rdfs:label "Remittances Sent Abroad $ " ;
+    dsv:columnProperty "budget ($)" .
+
+<http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/column/TourismReceiptsInvestmentOutlookRatingLongTermShorttermperspectivesseperatelyegLTPoliticalSTpolitcaletc> a dsv:Column ;
+    rdfs:label "Tourism Receipts $, Investment Outlook Rating : Long Term / Short term perspectives seperately e.g LT_Political , ST_politcal etc." ;
+    dsv:columnProperty "touristic site" .
+
+<http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/column/TradeAgreementsTradeBalanceImportsvsExorts> a dsv:Column ;
+    rdfs:label "*Trade Agreements*, Trade Balance (Imports vs Exorts)" ;
+    dsv:columnProperty "organisation" .
+
+<http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/column/EducationSpendingasPercentageOfTotalAnnualbudget>,
+        <http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/column/ForeignAidBudget>,
+        <http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/column/InternationalOrganizationParticipation>,
+        <http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/column/PeacekeeperContributions>,
+        <http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/column/PeacekeepingMissionsHistoryPeacekeeperCasualties>,
+        <http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/column/RemittancesSentAbroad>,
+        <http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/column/TourismReceiptsInvestmentOutlookRatingLongTermShorttermperspectivesseperatelyegLTPoliticalSTpolitcaletc>,
+        <http://metaUnionSearch/datasets/InternationalRelations13OZLL1Z/column/TradeAgreementsTradeBalanceImportsvsExorts> .
+

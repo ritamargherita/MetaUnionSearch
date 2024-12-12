@@ -1,0 +1,14 @@
+{
+  "mapping": [
+    {"column_header": "Preventive Care Schedule", "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"},
+    {"column_header": "Preferred Food Brands by Animals", "dbpedia_property_id": "http://dbpedia.org/ontology/brand"},
+    {"column_header": "Dietary Restrictions", "dbpedia_property_id": "http://dbpedia.org/ontology/restriction"},
+    {"column_header": "Exercise Recommendations", "dbpedia_property_id": "http://dbpedia.org/ontology/athletics"},
+    {"column_header": "Physical Checkup History", "dbpedia_property_id": "http://dbpedia.org/ontology/specialist"},
+    {"column_header": "Vaccination Record", "dbpedia_property_id": "http://dbpedia.org/ontology/vaccination"},
+    {"column_header": "Average Lifespan", "dbpedia_property_id": "http://dbpedia.org/ontology/lifeExpectancy"},
+    {"column_header": "Common Genetic Disorders", "dbpedia_property_id": "http://dbpedia.org/ontology/disease"},
+    {"column_header": "Frequency Of Regular Visits", "dbpedia_property_id": "http://dbpedia.org/ontology/visitorsPerYear"},
+    {"column_header": "Alternative Therapy Options", "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"}
+  ]
+}

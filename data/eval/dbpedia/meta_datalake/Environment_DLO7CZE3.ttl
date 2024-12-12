@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EnvironmentDLO7CZE3> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_DLO7CZE3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/AirQualityIndex> a dsv:Column ;
+    rdfs:label "Air_Quality_Index" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/BiodiversityHotspotsCount> a dsv:Column ;
+    rdfs:label "Biodiversity_Hotspots_Count" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/ClimateChangeAwarenessScore> a dsv:Column ;
+    rdfs:label "Climate_Change_Awareness_Score" ;
+    dsv:columnProperty "non-fiction subject" .
+
+<http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/NaturalDisasterRiskReductionScore> a dsv:Column ;
+    rdfs:label "Natural_Disaster_Risk_Reduction_Score" ;
+    dsv:columnProperty "casualties" .
+
+<http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/NoisePollution> a dsv:Column ;
+    rdfs:label "Noise_Pollution" ;
+    dsv:columnProperty "Odor" .
+
+<http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/PublicEnvironmentalEducationIndex> a dsv:Column ;
+    rdfs:label "Public_Environmental_Education_Index." ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/RecyclingProgramsCoverage> a dsv:Column ;
+    rdfs:label "Recycling_Programs_Coverage" ;
+    dsv:columnProperty "project" .
+
+<http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/RenewableEnergyUsage> a dsv:Column ;
+    rdfs:label "Renewable_Energy_Usage" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/WasteManagementEffectiveness> a dsv:Column ;
+    rdfs:label "Waste_Management_Effectiveness" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/WaterPollutionLevel> a dsv:Column ;
+    rdfs:label "Water_Pollution_Level" ;
+    dsv:columnProperty "water" .
+
+<http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/AirQualityIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/BiodiversityHotspotsCount>,
+        <http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/ClimateChangeAwarenessScore>,
+        <http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/NaturalDisasterRiskReductionScore>,
+        <http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/NoisePollution>,
+        <http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/PublicEnvironmentalEducationIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/RecyclingProgramsCoverage>,
+        <http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/RenewableEnergyUsage>,
+        <http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/WasteManagementEffectiveness>,
+        <http://metaUnionSearch/datasets/EnvironmentDLO7CZE3/column/WaterPollutionLevel> .
+

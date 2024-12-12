@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Mission Title",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/title"
+    },
+    {
+      "column_header": " Launch Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/launchDate"
+    },
+    {
+      "column_header": " Duration in Space",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/timeInSpace"
+    },
+    {
+      "column_header": " Target Orbit",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/targetSpaceStation"
+    },
+    {
+      "column_header": " Astronaut's Degrees",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/selection"
+    },
+    {
+      "column_header": " Astronaut's Name and Bio",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/crewMember"
+    },
+    {
+      "column_header": " Vehicle Reusability",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vehicle"
+    },
+    {
+      "column_header": " First Stage Recovery",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/recoveryCases"
+    },
+    {
+      "column_header": " Crew Quantity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfCrew"
+    },
+    {
+      "column_header": " Additional Experiment/Cargo.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/totalCargo"
+    }
+  ]
+}

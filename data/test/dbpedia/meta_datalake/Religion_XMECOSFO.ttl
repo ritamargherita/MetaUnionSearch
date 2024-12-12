@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ReligionXMECOSFO> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_XMECOSFO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ReligionXMECOSFO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ReligionXMECOSFO/column/AnimalRightsViews> a dsv:Column ;
+    rdfs:label "Animal Rights Views" ;
+    dsv:columnProperty "animal" .
+
+<http://metaUnionSearch/datasets/ReligionXMECOSFO/column/ArtInfluencedbyReligion> a dsv:Column ;
+    rdfs:label "Art Influenced by Religion" ;
+    dsv:columnProperty "movement" .
+
+<http://metaUnionSearch/datasets/ReligionXMECOSFO/column/AverageFamilySize> a dsv:Column ;
+    rdfs:label "Average Family Size" ;
+    dsv:columnProperty "family" .
+
+<http://metaUnionSearch/datasets/ReligionXMECOSFO/column/DonationPractices> a dsv:Column ;
+    rdfs:label "Donation Practices" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/ReligionXMECOSFO/column/EnvironmentalAttitudes> a dsv:Column ;
+    rdfs:label "Environmental Attitudes" ;
+    dsv:columnProperty "ideology" .
+
+<http://metaUnionSearch/datasets/ReligionXMECOSFO/column/GeographicSpread> a dsv:Column ;
+    rdfs:label "Geographic Spread" ;
+    dsv:columnProperty "agglomeration demographics" .
+
+<http://metaUnionSearch/datasets/ReligionXMECOSFO/column/HighProfileMembers> a dsv:Column ;
+    rdfs:label "High Profile Members" ;
+    dsv:columnProperty "member" .
+
+<http://metaUnionSearch/datasets/ReligionXMECOSFO/column/NumberofFollowers> a dsv:Column ;
+    rdfs:label "Number of Followers" ;
+    dsv:columnProperty "number of members" .
+
+<http://metaUnionSearch/datasets/ReligionXMECOSFO/column/ReligionAge> a dsv:Column ;
+    rdfs:label "Religion Age" ;
+    dsv:columnProperty "age" .
+
+<http://metaUnionSearch/datasets/ReligionXMECOSFO/column/ReligionName> a dsv:Column ;
+    rdfs:label "Religion Name" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/ReligionXMECOSFO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ReligionXMECOSFO/column/AnimalRightsViews>,
+        <http://metaUnionSearch/datasets/ReligionXMECOSFO/column/ArtInfluencedbyReligion>,
+        <http://metaUnionSearch/datasets/ReligionXMECOSFO/column/AverageFamilySize>,
+        <http://metaUnionSearch/datasets/ReligionXMECOSFO/column/DonationPractices>,
+        <http://metaUnionSearch/datasets/ReligionXMECOSFO/column/EnvironmentalAttitudes>,
+        <http://metaUnionSearch/datasets/ReligionXMECOSFO/column/GeographicSpread>,
+        <http://metaUnionSearch/datasets/ReligionXMECOSFO/column/HighProfileMembers>,
+        <http://metaUnionSearch/datasets/ReligionXMECOSFO/column/NumberofFollowers>,
+        <http://metaUnionSearch/datasets/ReligionXMECOSFO/column/ReligionAge>,
+        <http://metaUnionSearch/datasets/ReligionXMECOSFO/column/ReligionName> .
+

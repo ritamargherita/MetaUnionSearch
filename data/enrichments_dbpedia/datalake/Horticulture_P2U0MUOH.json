@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "HydroponicNutrientsSolutionUsed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/plant"
+    },
+    {
+      "column_header": "PreferredGrowthMedium",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/plant"
+    },
+    {
+      "column_header": "CompanionPlantsSuited",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/flora"
+    },
+    {
+      "column_header": "AveragePestResistanceScore",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/average"
+    },
+    {
+      "column_header": "DominantFlowerColor",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/colour"
+    },
+    {
+      "column_header": "FruitShapeVariants",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cultivatedVariety"
+    },
+    {
+      "column_header": "TypicalYieldPerHarvest",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"
+    },
+    {
+      "column_header": "MinimumSurvivalTemperature",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/min"
+    },
+    {
+      "column_header": "MaximumPlantHeight",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/max"
+    },
+    {
+      "column_header": "GeneticDiversityIndex",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"
+    },
+    {
+      "column_header": "PublicEngagementActivities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    },
+    {
+      "column_header": "AccessibilityCompliance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/isHandicappedAccessible"
+    },
+    {
+      "column_header": "IndustryStandardCertifications",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    }
+  ]
+}

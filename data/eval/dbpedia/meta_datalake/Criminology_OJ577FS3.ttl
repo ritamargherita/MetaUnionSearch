@@ -1,0 +1,25 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CriminologyOJ577FS3> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_OJ577FS3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CriminologyOJ577FS3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CriminologyOJ577FS3/column/> a dsv:Column ;
+    rdfs:label "" .
+
+<http://metaUnionSearch/datasets/CriminologyOJ577FS3/column/ArrestDetailsifapplicable> a dsv:Column ;
+    rdfs:label "Arrest Details (if applicable)" ;
+    dsv:columnProperty "arrest date" .
+
+<http://metaUnionSearch/datasets/CriminologyOJ577FS3/column/WeaponUsed> a dsv:Column ;
+    rdfs:label "Weapon Used" ;
+    dsv:columnProperty "weapon" .
+
+<http://metaUnionSearch/datasets/CriminologyOJ577FS3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CriminologyOJ577FS3/column/>,
+        <http://metaUnionSearch/datasets/CriminologyOJ577FS3/column/ArrestDetailsifapplicable>,
+        <http://metaUnionSearch/datasets/CriminologyOJ577FS3/column/WeaponUsed> .
+

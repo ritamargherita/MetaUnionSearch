@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Psychology7KD6FLEE> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_7KD6FLEE.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Psychology7KD6FLEE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/AdditionalInfoColumn1> a dsv:Column ;
+    rdfs:label "AdditionalInfoColumn1" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/AdditionalInfoColumn2> a dsv:Column ;
+    rdfs:label "AdditionalInfoColumn2" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/ClientSatisfactionScore> a dsv:Column ;
+    rdfs:label "ClientSatisfactionScore" ;
+    dsv:columnProperty "number" .
+
+<http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/CounselorName> a dsv:Column ;
+    rdfs:label "CounselorName" ;
+    dsv:columnProperty "personName" .
+
+<http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/ImprovementScaleMeasurement> a dsv:Column ;
+    rdfs:label "ImprovementScaleMeasurement" ;
+    dsv:columnProperty "number" .
+
+<http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/MoodChangeTracking> a dsv:Column ;
+    rdfs:label "MoodChangeTracking" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/SelfEsteemBoostMeasures> a dsv:Column ;
+    rdfs:label "SelfEsteemBoostMeasures" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/SessionNumber> a dsv:Column ;
+    rdfs:label "SessionNumber" ;
+    dsv:columnProperty "session number" .
+
+<http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/SideEffects> a dsv:Column ;
+    rdfs:label "SideEffects" ;
+    dsv:columnProperty "treatment" .
+
+<http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/SubdomainofPsychotherapy> a dsv:Column ;
+    rdfs:label "Subdomain_of_Psychotherapy" ;
+    dsv:columnProperty "domain" .
+
+<http://metaUnionSearch/datasets/Psychology7KD6FLEE/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/AdditionalInfoColumn1>,
+        <http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/AdditionalInfoColumn2>,
+        <http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/ClientSatisfactionScore>,
+        <http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/CounselorName>,
+        <http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/ImprovementScaleMeasurement>,
+        <http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/MoodChangeTracking>,
+        <http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/SelfEsteemBoostMeasures>,
+        <http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/SessionNumber>,
+        <http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/SideEffects>,
+        <http://metaUnionSearch/datasets/Psychology7KD6FLEE/column/SubdomainofPsychotherapy> .
+

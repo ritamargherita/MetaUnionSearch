@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArts8A170XC7> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_8A170XC7.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArts8A170XC7/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/AudienceRatingAverageScores> a dsv:Column ;
+    rdfs:label "Audience Rating Average Scores" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/CollaborationswithOtherArtists> a dsv:Column ;
+    rdfs:label "Collaborations with Other Artists" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/CriticReviewsPositiveRatio> a dsv:Column ;
+    rdfs:label "Critic Reviews - Positive Ratio" ;
+    dsv:columnProperty "ratio" .
+
+<http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/GenreDiversity> a dsv:Column ;
+    rdfs:label "Genre Diversity" ;
+    dsv:columnProperty "genre" .
+
+<http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/InfluenceonPopCultureMemesMerchandiseetc> a dsv:Column ;
+    rdfs:label "Influence on Pop Culture (Memes, Merchandise etc.)" ;
+    dsv:columnProperty "other media" .
+
+<http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/LocationPreferenceCityTheater> a dsv:Column ;
+    rdfs:label "Location Preference (City, Theater)" ;
+    dsv:columnProperty "premiere place" .
+
+<http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/NumberOfShowsProduced> a dsv:Column ;
+    rdfs:label "Number Of Shows Produced" ;
+    dsv:columnProperty "number of films" .
+
+<http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/RevenueGenerated> a dsv:Column ;
+    rdfs:label "Revenue Generated" ;
+    dsv:columnProperty "revenue ($)" .
+
+<http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/SocialMediaFollowingFans> a dsv:Column ;
+    rdfs:label "Social Media Following (Fans)" ;
+    dsv:columnProperty "followed by" .
+
+<http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/TotalTicketsSold> a dsv:Column ;
+    rdfs:label "Total Tickets Sold" ;
+    dsv:columnProperty "number sold" .
+
+<http://metaUnionSearch/datasets/PerformingArts8A170XC7/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/AudienceRatingAverageScores>,
+        <http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/CollaborationswithOtherArtists>,
+        <http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/CriticReviewsPositiveRatio>,
+        <http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/GenreDiversity>,
+        <http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/InfluenceonPopCultureMemesMerchandiseetc>,
+        <http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/LocationPreferenceCityTheater>,
+        <http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/NumberOfShowsProduced>,
+        <http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/RevenueGenerated>,
+        <http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/SocialMediaFollowingFans>,
+        <http://metaUnionSearch/datasets/PerformingArts8A170XC7/column/TotalTicketsSold> .
+

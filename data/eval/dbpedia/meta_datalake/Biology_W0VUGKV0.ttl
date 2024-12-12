@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_W0VUGKV0.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BiologyW0VUGKV0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/3Dstructureinformation> a dsv:Column ;
+    rdfs:label "3D structure information" ;
+    dsv:columnProperty "PDB ID" .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Biologicalentityname> a dsv:Column ;
+    rdfs:label "Biological entity name" ;
+    dsv:columnProperty "scientific name" .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Chromosomallocation> a dsv:Column ;
+    rdfs:label "Chromosomal location" ;
+    dsv:columnProperty "on chromosome" .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Domainarchitecture> a dsv:Column ;
+    rdfs:label "Domain architecture" ;
+    dsv:columnProperty "domain" .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Enzymaticactivity> a dsv:Column ;
+    rdfs:label "Enzymatic activity" ;
+    dsv:columnProperty "activity" .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Expressionregulationmechanisms> a dsv:Column ;
+    rdfs:label "Expression regulation mechanisms" ;
+    dsv:columnProperty "role" .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Geneticinformationtype> a dsv:Column ;
+    rdfs:label "Genetic information (type)" ;
+    dsv:columnProperty "Gene Location" .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Interactionpartnersandcomplexes> a dsv:Column ;
+    rdfs:label "Interaction partners and complexes" ;
+    dsv:columnProperty "partner" .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Phenotypeassociates> a dsv:Column ;
+    rdfs:label "Phenotype associates" ;
+    dsv:columnProperty "role" .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Posttranslationalmodifications> a dsv:Column ;
+    rdfs:label "Posttranslational modifications" ;
+    dsv:columnProperty "activity" .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Proteinfamilyclassification> a dsv:Column ;
+    rdfs:label "Protein family classification" ;
+    dsv:columnProperty "sub-family" .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Roleorfunctionwithinsystem> a dsv:Column ;
+    rdfs:label "Role or function within system" ;
+    dsv:columnProperty "role" .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Speciesdistributionandconservance> a dsv:Column ;
+    rdfs:label "Species distribution and conservance" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Subcellularlocationdetails> a dsv:Column ;
+    rdfs:label "Subcellular location details" ;
+    dsv:columnProperty "is part of anatomical structure" .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Tissuespecificexpressionlevels> a dsv:Column ;
+    rdfs:label "Tissue specific expression levels" ;
+    dsv:columnProperty "activity" .
+
+<http://metaUnionSearch/datasets/BiologyW0VUGKV0/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/3Dstructureinformation>,
+        <http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Biologicalentityname>,
+        <http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Chromosomallocation>,
+        <http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Domainarchitecture>,
+        <http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Enzymaticactivity>,
+        <http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Expressionregulationmechanisms>,
+        <http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Geneticinformationtype>,
+        <http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Interactionpartnersandcomplexes>,
+        <http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Phenotypeassociates>,
+        <http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Posttranslationalmodifications>,
+        <http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Proteinfamilyclassification>,
+        <http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Roleorfunctionwithinsystem>,
+        <http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Speciesdistributionandconservance>,
+        <http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Subcellularlocationdetails>,
+        <http://metaUnionSearch/datasets/BiologyW0VUGKV0/column/Tissuespecificexpressionlevels> .
+

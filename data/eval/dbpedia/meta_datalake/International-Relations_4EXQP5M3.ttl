@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3> a dsv:Dataset ;
+    dcterms:subject "international-relations" ;
+    dcterms:title "International-Relations_4EXQP5M3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/DomesticPoliticsImpactFactor> a dsv:Column ;
+    rdfs:label "Domestic Politics Impact Factor" ;
+    dsv:columnProperty "impact factor as of" .
+
+<http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/EconomicInterdependency> a dsv:Column ;
+    rdfs:label "Economic Interdependency" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/EthicsandNormativeFrameworks> a dsv:Column ;
+    rdfs:label "Ethics and Normative Frameworks" ;
+    dsv:columnProperty "ideology" .
+
+<http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/GeopoliticalBloc> a dsv:Column ;
+    rdfs:label "Geopolitical Bloc" ;
+    dsv:columnProperty "organisation member" .
+
+<http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/GlobalGovernance> a dsv:Column ;
+    rdfs:label "Global Governance" ;
+    dsv:columnProperty "organisation" .
+
+<http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/InternationalOrganization> a dsv:Column ;
+    rdfs:label "International Organization" ;
+    dsv:columnProperty "international affiliation" .
+
+<http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/MiscellaneousNotes> a dsv:Column ;
+    rdfs:label "Miscellaneous Notes" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/RegionalIntegration> a dsv:Column ;
+    rdfs:label "Regional Integration" ;
+    dsv:columnProperty "government region" .
+
+<http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/SecurityArchitecture> a dsv:Column ;
+    rdfs:label "Security Architecture" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/SoftPowerProjection> a dsv:Column ;
+    rdfs:label "Soft Power Projection" ;
+    dsv:columnProperty "power" .
+
+<http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/DomesticPoliticsImpactFactor>,
+        <http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/EconomicInterdependency>,
+        <http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/EthicsandNormativeFrameworks>,
+        <http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/GeopoliticalBloc>,
+        <http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/GlobalGovernance>,
+        <http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/InternationalOrganization>,
+        <http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/MiscellaneousNotes>,
+        <http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/RegionalIntegration>,
+        <http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/SecurityArchitecture>,
+        <http://metaUnionSearch/datasets/InternationalRelations4EXQP5M3/column/SoftPowerProjection> .
+

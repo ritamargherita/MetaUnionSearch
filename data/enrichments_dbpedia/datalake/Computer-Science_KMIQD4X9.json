@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Computational Theory", "dbpedia_property_id": "http://dbpedia.org/ontology/field"},
+    {"column_header": "Encryption Techniques", "dbpedia_property_id": "http://dbpedia.org/ontology/technique"},
+    {"column_header": "Artificial Intelligence", "dbpedia_property_id": "http://dbpedia.org/ontology/computingInput"},
+    {"column_header": "Natural Language Processing", "dbpedia_property_id": "http://dbpedia.org/ontology/technique"},
+    {"column_header": "Human-Computer Interaction", "dbpedia_property_id": "http://dbpedia.org/ontology/approach"},
+    {"column_header": "Software Engineering Methodologies", "dbpedia_property_id": "http://dbpedia.org/ontology/approach"},
+    {"column_header": "Web Design Principles", "dbpedia_property_id": "http://dbpedia.org/ontology/style"},
+    {"column_header": "User Experience", "dbpedia_property_id": "http://dbpedia.org/ontology/experience"},
+    {"column_header": "Machine Learning", "dbpedia_property_id": "http://dbpedia.org/ontology/technique"},
+    {"column_header": "Programming Languages for Data Science", "dbpedia_property_id": "http://dbpedia.org/ontology/programmingLanguage"},
+    {"column_header": "Quantum Computing", "dbpedia_property_id": "http://dbpedia.org/ontology/field"},
+    {"column_header": "Parallel Computing", "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"},
+    {"column_header": "Computer Vision (','' is used as a separator since it doesn’t appear naturally within most field names)", "dbpedia_property_id": "http://dbpedia.org/ontology/technique"}
+  ]
+}

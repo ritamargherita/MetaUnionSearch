@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeomancyRDU390E4> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_RDU390E4.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeomancyRDU390E4/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeomancyRDU390E4/column/AffectsonLuckiness> a dsv:Column ;
+    rdfs:label "Affects on Luckiness" ;
+    dsv:columnProperty "relation" .
+
+<http://metaUnionSearch/datasets/GeomancyRDU390E4/column/AnyOtherInfo> a dsv:Column ;
+    rdfs:label "Any Other Info" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/GeomancyRDU390E4/column/Description> a dsv:Column ;
+    rdfs:label "Description" ;
+    dsv:columnProperty "description" .
+
+<http://metaUnionSearch/datasets/GeomancyRDU390E4/column/ElementalAssociations> a dsv:Column ;
+    rdfs:label "Elemental Associations" ;
+    dsv:columnProperty "element group" .
+
+<http://metaUnionSearch/datasets/GeomancyRDU390E4/column/Name> a dsv:Column ;
+    rdfs:label "Name" ;
+    dsv:columnProperty "name" .
+
+<http://metaUnionSearch/datasets/GeomancyRDU390E4/column/NumberofDivinations> a dsv:Column ;
+    rdfs:label "Number of Divinations" ;
+    dsv:columnProperty "unknown outcomes" .
+
+<http://metaUnionSearch/datasets/GeomancyRDU390E4/column/OtherMetadata> a dsv:Column ;
+    rdfs:label "Other Metadata" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/GeomancyRDU390E4/column/ReligiousInterpretation> a dsv:Column ;
+    rdfs:label "Religious Interpretation" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/GeomancyRDU390E4/column/SpiritualLocalEquivalence> a dsv:Column ;
+    rdfs:label "Spiritual Local Equivalence" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/GeomancyRDU390E4/column/SymbolicRepresentation> a dsv:Column ;
+    rdfs:label "Symbolic Representation" ;
+    dsv:columnProperty "Symbol" .
+
+<http://metaUnionSearch/datasets/GeomancyRDU390E4/column/TypeofGeometry> a dsv:Column ;
+    rdfs:label "Type of Geometry" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/GeomancyRDU390E4/column/Weightage> a dsv:Column ;
+    rdfs:label "Weightage (%)" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/GeomancyRDU390E4/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeomancyRDU390E4/column/AffectsonLuckiness>,
+        <http://metaUnionSearch/datasets/GeomancyRDU390E4/column/AnyOtherInfo>,
+        <http://metaUnionSearch/datasets/GeomancyRDU390E4/column/Description>,
+        <http://metaUnionSearch/datasets/GeomancyRDU390E4/column/ElementalAssociations>,
+        <http://metaUnionSearch/datasets/GeomancyRDU390E4/column/Name>,
+        <http://metaUnionSearch/datasets/GeomancyRDU390E4/column/NumberofDivinations>,
+        <http://metaUnionSearch/datasets/GeomancyRDU390E4/column/OtherMetadata>,
+        <http://metaUnionSearch/datasets/GeomancyRDU390E4/column/ReligiousInterpretation>,
+        <http://metaUnionSearch/datasets/GeomancyRDU390E4/column/SpiritualLocalEquivalence>,
+        <http://metaUnionSearch/datasets/GeomancyRDU390E4/column/SymbolicRepresentation>,
+        <http://metaUnionSearch/datasets/GeomancyRDU390E4/column/TypeofGeometry>,
+        <http://metaUnionSearch/datasets/GeomancyRDU390E4/column/Weightage> .
+

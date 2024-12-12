@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES> a dsv:Dataset ;
+    dcterms:subject "world-history" ;
+    dcterms:title "World-History_R75PR2ES.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/ArtisticMovements> a dsv:Column ;
+    rdfs:label "Artistic Movements" ;
+    dsv:columnProperty "movement" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/ClimateChangesEffects> a dsv:Column ;
+    rdfs:label "Climate Changes Effects" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/DiplomacyEvents> a dsv:Column ;
+    rdfs:label "Diplomacy Events" ;
+    dsv:columnProperty "event" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/ExplorationVoyages> a dsv:Column ;
+    rdfs:label "Exploration Voyages" ;
+    dsv:columnProperty "expedition" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/InfrastructureProjects> a dsv:Column ;
+    rdfs:label "Infrastructure Projects" ;
+    dsv:columnProperty "project" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/LegalSystemDevelopments> a dsv:Column ;
+    rdfs:label "Legal System Developments" ;
+    dsv:columnProperty "system of law" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/LiteratureMasterpieces> a dsv:Column ;
+    rdfs:label "Literature Masterpieces" ;
+    dsv:columnProperty "notable work" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/MilitaryConflictsandAlliances> a dsv:Column ;
+    rdfs:label "Military Conflicts and Alliances" ;
+    dsv:columnProperty "conflict" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/MinorityGroupsStatuses> a dsv:Column ;
+    rdfs:label "Minority Groups Statuses" ;
+    dsv:columnProperty "minority" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/PopulationDynamics> a dsv:Column ;
+    rdfs:label "Population Dynamics" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/ReligionsandPhilosophicalBeliefs> a dsv:Column ;
+    rdfs:label "Religions and Philosophical Beliefs" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/TradeRoutesEstablished> a dsv:Column ;
+    rdfs:label "Trade Routes Established" ;
+    dsv:columnProperty "route" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/WomenEmpowermentDocuments> a dsv:Column ;
+    rdfs:label "Women Empowerment Documents" ;
+    dsv:columnProperty "authority mandate" .
+
+<http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/ArtisticMovements>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/ClimateChangesEffects>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/DiplomacyEvents>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/ExplorationVoyages>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/InfrastructureProjects>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/LegalSystemDevelopments>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/LiteratureMasterpieces>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/MilitaryConflictsandAlliances>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/MinorityGroupsStatuses>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/PopulationDynamics>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/ReligionsandPhilosophicalBeliefs>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/TradeRoutesEstablished>,
+        <http://metaUnionSearch/datasets/WorldHistoryR75PR2ES/column/WomenEmpowermentDocuments> .
+

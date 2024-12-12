@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "nNewColumn_7",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/field"
+    },
+    {
+      "column_header": "nNewColumn_8",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/chairperson"
+    },
+    {
+      "column_header": "nNewColumn_9",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/committee"
+    },
+    {
+      "column_header": "nNewColumn_10",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/elementPeriod"
+    },
+    {
+      "column_header": "nNewColumn_11",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/significantProject"
+    },
+    {
+      "column_header": "nNewColumn_12",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/inscription"
+    },
+    {
+      "column_header": "nNewColumn_13",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": "ArtifactType4",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "ArtifactType5",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "ArtifactType6",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/museumType"
+    },
+    {
+      "column_header": "ArtifactDescription2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/hasAnnotation"
+    },
+    {
+      "column_header": "AdditionalPreservationDetails",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawV8WQ4MPR> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_V8WQ4MPR.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawV8WQ4MPR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawV8WQ4MPR/column/BillOpponent> a dsv:Column ;
+    rdfs:label "Bill Opponent" ;
+    dsv:columnProperty "opponent" .
+
+<http://metaUnionSearch/datasets/LawV8WQ4MPR/column/BillProponent> a dsv:Column ;
+    rdfs:label "Bill Proponent" ;
+    dsv:columnProperty "author" .
+
+<http://metaUnionSearch/datasets/LawV8WQ4MPR/column/ConsultantsEngaged> a dsv:Column ;
+    rdfs:label "Consultants Engaged" .
+
+<http://metaUnionSearch/datasets/LawV8WQ4MPR/column/ExpertWitnessesCalled> a dsv:Column ;
+    rdfs:label "Expert Witnesses Called" .
+
+<http://metaUnionSearch/datasets/LawV8WQ4MPR/column/FinancialImplications> a dsv:Column ;
+    rdfs:label "Financial Implications" ;
+    dsv:columnProperty "income" .
+
+<http://metaUnionSearch/datasets/LawV8WQ4MPR/column/LegislativeJurisdiction> a dsv:Column ;
+    rdfs:label "Legislative Jurisdiction" ;
+    dsv:columnProperty "jurisdiction" .
+
+<http://metaUnionSearch/datasets/LawV8WQ4MPR/column/LegislatureSessionDate> a dsv:Column ;
+    rdfs:label "Legislature Session & Date" ;
+    dsv:columnProperty "legislative period name" .
+
+<http://metaUnionSearch/datasets/LawV8WQ4MPR/column/LobbyistInterestsConsidered> a dsv:Column ;
+    rdfs:label "Lobbyist Interests Considered" ;
+    dsv:columnProperty "interest" .
+
+<http://metaUnionSearch/datasets/LawV8WQ4MPR/column/MediaCoverageDuringLegislation> a dsv:Column ;
+    rdfs:label "Media Coverage During Legislation" ;
+    dsv:columnProperty "media" .
+
+<http://metaUnionSearch/datasets/LawV8WQ4MPR/column/PublicOpinionSurveysConducted> a dsv:Column ;
+    rdfs:label "Public Opinion Surveys Conducted" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/LawV8WQ4MPR/column/StakeholderMeetingsHeld> a dsv:Column ;
+    rdfs:label "Stakeholder Meetings Held" ;
+    dsv:columnProperty "meeting building" .
+
+<http://metaUnionSearch/datasets/LawV8WQ4MPR/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LawV8WQ4MPR/column/BillOpponent>,
+        <http://metaUnionSearch/datasets/LawV8WQ4MPR/column/BillProponent>,
+        <http://metaUnionSearch/datasets/LawV8WQ4MPR/column/ConsultantsEngaged>,
+        <http://metaUnionSearch/datasets/LawV8WQ4MPR/column/ExpertWitnessesCalled>,
+        <http://metaUnionSearch/datasets/LawV8WQ4MPR/column/FinancialImplications>,
+        <http://metaUnionSearch/datasets/LawV8WQ4MPR/column/LegislativeJurisdiction>,
+        <http://metaUnionSearch/datasets/LawV8WQ4MPR/column/LegislatureSessionDate>,
+        <http://metaUnionSearch/datasets/LawV8WQ4MPR/column/LobbyistInterestsConsidered>,
+        <http://metaUnionSearch/datasets/LawV8WQ4MPR/column/MediaCoverageDuringLegislation>,
+        <http://metaUnionSearch/datasets/LawV8WQ4MPR/column/PublicOpinionSurveysConducted>,
+        <http://metaUnionSearch/datasets/LawV8WQ4MPR/column/StakeholderMeetingsHeld> .
+

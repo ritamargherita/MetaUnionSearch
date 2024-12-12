@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_MQC1A78M.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/Aesthetics> a dsv:Column ;
+    rdfs:label "Aesthetics" ;
+    dsv:columnProperty "appearance" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/ArchitecturalType> a dsv:Column ;
+    rdfs:label "Architectural Type" ;
+    dsv:columnProperty "architectural style" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/ConstructionTimeline> a dsv:Column ;
+    rdfs:label "Construction Timeline" ;
+    dsv:columnProperty "date construction" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/CulturalConnection> a dsv:Column ;
+    rdfs:label "Cultural Connection" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/EraInformationInfluencesandPrecedents> a dsv:Column ;
+    rdfs:label "Era Information - Influences and Precedents" ;
+    dsv:columnProperty "era" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/EraInformationRenovations> a dsv:Column ;
+    rdfs:label "Era Information - Renovations" ;
+    dsv:columnProperty "initally used for" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/GeographicLocation> a dsv:Column ;
+    rdfs:label "Geographic Location" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/LandmarkStatus> a dsv:Column ;
+    rdfs:label "Landmark Status" ;
+    dsv:columnProperty "significant building" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/PreservationStatus> a dsv:Column ;
+    rdfs:label "Preservation Status" ;
+    dsv:columnProperty "monument protection status" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/PublicAccessibility> a dsv:Column ;
+    rdfs:label "Public Accessibility" ;
+    dsv:columnProperty "publicly accessible" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/SpecialFeatures> a dsv:Column ;
+    rdfs:label "Special Features" ;
+    dsv:columnProperty "notable features" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/StructureDetailsConstructionTechniques> a dsv:Column ;
+    rdfs:label "Structure Details - Construction Techniques" ;
+    dsv:columnProperty "construction" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/StructureDetailsFoundationMaterial> a dsv:Column ;
+    rdfs:label "Structure Details - Foundation Material" ;
+    dsv:columnProperty "foundation" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/StructureDetailsRoofStyle> a dsv:Column ;
+    rdfs:label "Structure Details - Roof Style" ;
+    dsv:columnProperty "roof height" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/SurroundingEnvironmentLandscapeIntegration> a dsv:Column ;
+    rdfs:label "Surrounding Environment - Landscape Integration" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/ArchitectureMQC1A78M/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/Aesthetics>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/ArchitecturalType>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/ConstructionTimeline>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/CulturalConnection>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/EraInformationInfluencesandPrecedents>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/EraInformationRenovations>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/GeographicLocation>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/LandmarkStatus>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/PublicAccessibility>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/SpecialFeatures>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/StructureDetailsConstructionTechniques>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/StructureDetailsFoundationMaterial>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/StructureDetailsRoofStyle>,
+        <http://metaUnionSearch/datasets/ArchitectureMQC1A78M/column/SurroundingEnvironmentLandscapeIntegration> .
+

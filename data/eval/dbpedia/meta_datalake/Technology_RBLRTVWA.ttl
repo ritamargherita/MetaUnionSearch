@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologyRBLRTVWA> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_RBLRTVWA.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologyRBLRTVWA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/accountabilitymeasuresintechnology> a dsv:Column ;
+    rdfs:label "accountability measures in technology." ;
+    dsv:columnProperty "oversight" .
+
+<http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/bioengineeringethicsandregulations> a dsv:Column ;
+    rdfs:label "bioengineering ethics and regulations" ;
+    dsv:columnProperty "authority" .
+
+<http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/climatechangetechnologysolutions> a dsv:Column ;
+    rdfs:label "climate change technology solutions" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/cybersecuritymeasures> a dsv:Column ;
+    rdfs:label "cybersecurity measures" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/environmentalimpactassessment> a dsv:Column ;
+    rdfs:label "environmental impact assessment" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/fashiontrendsprediction> a dsv:Column ;
+    rdfs:label "fashion trends prediction" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/intellectualpropertyrights> a dsv:Column ;
+    rdfs:label "intellectual property rights" ;
+    dsv:columnProperty "patent" .
+
+<http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/internationalpolicymakingbodies> a dsv:Column ;
+    rdfs:label "international policy making bodies" ;
+    dsv:columnProperty "governing body" .
+
+<http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/longtermsustainabilityconcerns> a dsv:Column ;
+    rdfs:label "long term sustainability concerns" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/quantumcomputingdevelopments> a dsv:Column ;
+    rdfs:label "quantum computing developments" ;
+    dsv:columnProperty "computing platform" .
+
+<http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/socialmediaalgorithmschanges> a dsv:Column ;
+    rdfs:label "social media algorithms changes" ;
+    dsv:columnProperty "frequently updated" .
+
+<http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/technologicalsovereigntyconsiderations> a dsv:Column ;
+    rdfs:label "technological sovereignty considerations" ;
+    dsv:columnProperty "sovereign country" .
+
+<http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/userdataprotectionguidelines> a dsv:Column ;
+    rdfs:label "user data protection guidelines" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/virtualrealityapplications> a dsv:Column ;
+    rdfs:label "virtual reality applications" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/TechnologyRBLRTVWA/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/accountabilitymeasuresintechnology>,
+        <http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/bioengineeringethicsandregulations>,
+        <http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/climatechangetechnologysolutions>,
+        <http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/cybersecuritymeasures>,
+        <http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/environmentalimpactassessment>,
+        <http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/fashiontrendsprediction>,
+        <http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/intellectualpropertyrights>,
+        <http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/internationalpolicymakingbodies>,
+        <http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/longtermsustainabilityconcerns>,
+        <http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/quantumcomputingdevelopments>,
+        <http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/socialmediaalgorithmschanges>,
+        <http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/technologicalsovereigntyconsiderations>,
+        <http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/userdataprotectionguidelines>,
+        <http://metaUnionSearch/datasets/TechnologyRBLRTVWA/column/virtualrealityapplications> .
+

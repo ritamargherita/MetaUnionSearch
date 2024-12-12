@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Book Title",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/title"
+    },
+    {
+      "column_header": "Author",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/author"
+    },
+    {
+      "column_header": "Publication Year",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/firstPublicationYear"
+    },
+    {
+      "column_header": "Genre",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/genre"
+    },
+    {
+      "column_header": "Publisher",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publisher"
+    },
+    {
+      "column_header": "Page Count",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfPages"
+    },
+    {
+      "column_header": "ISBN",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/isbn"
+    },
+    {
+      "column_header": "Average Rating",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": "Number of Ratings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfStars"
+    },
+    {
+      "column_header": "Format",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/format"
+    },
+    {
+      "column_header": "Series",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/series"
+    },
+    {
+      "column_header": "Language",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/originalLanguage"
+    },
+    {
+      "column_header": "Description",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/description"
+    },
+    {
+      "column_header": "Availability",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/openAccessContent"
+    },
+    {
+      "column_header": "Price",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/unitCost"
+    }
+  ]
+}

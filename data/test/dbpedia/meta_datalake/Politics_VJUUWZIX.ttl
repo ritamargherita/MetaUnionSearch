@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoliticsVJUUWZIX> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_VJUUWZIX.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoliticsVJUUWZIX/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/AdministrativeDivisionsSupervisedResponsibilities> a dsv:Column ;
+    rdfs:label "Administrative Divisions - Supervised + Responsibilities`" ;
+    dsv:columnProperty "administrative status" .
+
+<http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/CabinetMemberSelectionAffirmativeActionConsiderationsorNot> a dsv:Column ;
+    rdfs:label "Cabinet Member Selection - Affirmative Action Considerations or Not" ;
+    dsv:columnProperty "appointer" .
+
+<http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/ElectionsData> a dsv:Column ;
+    rdfs:label "`Elections Data" ;
+    dsv:columnProperty "reference for politic data" .
+
+<http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/FrequencyOfElections> a dsv:Column ;
+    rdfs:label "Frequency Of Elections" ;
+    dsv:columnProperty "election date" .
+
+<http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/InternationalAllianceCommitmentsMainlyDefensiveOffensivelyOrientedOrTradeFocused> a dsv:Column ;
+    rdfs:label "International Alliance Commitments - Mainly Defensive, Offensively Oriented, Or Trade Focused" ;
+    dsv:columnProperty "international affiliation" .
+
+<http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/JudicialReviewProcessWhoCanInitiateOnWhatGrounds> a dsv:Column ;
+    rdfs:label "Judicial Review Process - Who Can Initiate + On What Grounds" ;
+    dsv:columnProperty "review" .
+
+<http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/LegislativeBranchStructureNumberofHousesMembersPerHouse> a dsv:Column ;
+    rdfs:label "Legislative Branch Structure - Number of Houses + Members Per House" ;
+    dsv:columnProperty "number of houses present)" .
+
+<http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/PercentageOfWomenInPoliticsGloballyNationallyAndByParty> a dsv:Column ;
+    rdfs:label "Percentage Of Women In Politics - Globally & Nationally And By Party?" ;
+    dsv:columnProperty "population percentage female" .
+
+<http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/PublicOpinionPollingDetailsSamplingMethodsFrequencyDataRelease> a dsv:Column ;
+    rdfs:label "Public Opinion Polling Details - Sampling Methods, Frequency + Data Release" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/VoterTurnoutRates> a dsv:Column ;
+    rdfs:label "Voter Turnout Rates" ;
+    dsv:columnProperty "Number of votes given to candidate" .
+
+<http://metaUnionSearch/datasets/PoliticsVJUUWZIX/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/AdministrativeDivisionsSupervisedResponsibilities>,
+        <http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/CabinetMemberSelectionAffirmativeActionConsiderationsorNot>,
+        <http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/ElectionsData>,
+        <http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/FrequencyOfElections>,
+        <http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/InternationalAllianceCommitmentsMainlyDefensiveOffensivelyOrientedOrTradeFocused>,
+        <http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/JudicialReviewProcessWhoCanInitiateOnWhatGrounds>,
+        <http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/LegislativeBranchStructureNumberofHousesMembersPerHouse>,
+        <http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/PercentageOfWomenInPoliticsGloballyNationallyAndByParty>,
+        <http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/PublicOpinionPollingDetailsSamplingMethodsFrequencyDataRelease>,
+        <http://metaUnionSearch/datasets/PoliticsVJUUWZIX/column/VoterTurnoutRates> .
+

@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EcologyIFY7O0PJ> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_IFY7O0PJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EcologyIFY7O0PJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/AnimalLife> a dsv:Column ;
+    rdfs:label "Animal Life" ;
+    dsv:columnProperty "fauna" .
+
+<http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/BioticFactors> a dsv:Column ;
+    rdfs:label "Biotic Factors" ;
+    dsv:columnProperty "fauna" .
+
+<http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/Climate> a dsv:Column ;
+    rdfs:label "Climate" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/Geology> a dsv:Column ;
+    rdfs:label "Geology" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/HabitatCharacteristics> a dsv:Column ;
+    rdfs:label "Habitat Characteristics" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/HumanImpact> a dsv:Column ;
+    rdfs:label "Human Impact" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/Hydrology> a dsv:Column ;
+    rdfs:label "Hydrology" ;
+    dsv:columnProperty "water" .
+
+<http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/LandUsePatterns> a dsv:Column ;
+    rdfs:label "Land Use Patterns" ;
+    dsv:columnProperty "land percentage of a place" .
+
+<http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/PrimaryHabitat> a dsv:Column ;
+    rdfs:label "Primary Habitat" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/SoilComposition> a dsv:Column ;
+    rdfs:label "Soil Composition" ;
+    dsv:columnProperty "land" .
+
+<http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/VegetativeCoverage> a dsv:Column ;
+    rdfs:label "Vegetative Coverage" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/EcologyIFY7O0PJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/AnimalLife>,
+        <http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/BioticFactors>,
+        <http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/Climate>,
+        <http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/Geology>,
+        <http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/HabitatCharacteristics>,
+        <http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/HumanImpact>,
+        <http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/Hydrology>,
+        <http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/LandUsePatterns>,
+        <http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/PrimaryHabitat>,
+        <http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/SoilComposition>,
+        <http://metaUnionSearch/datasets/EcologyIFY7O0PJ/column/VegetativeCoverage> .
+

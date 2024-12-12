@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_MZCAQHIU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/AdditionalInformation1> a dsv:Column ;
+    rdfs:label "Additional Information 1" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/AdditionalInformation2> a dsv:Column ;
+    rdfs:label "Additional Information 2" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/Chromosome> a dsv:Column ;
+    rdfs:label "Chromosome" ;
+    dsv:columnProperty "chromosome" .
+
+<http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/EndPosition> a dsv:Column ;
+    rdfs:label "End Position" ;
+    dsv:columnProperty "end point" .
+
+<http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/ExpressionLevel> a dsv:Column ;
+    rdfs:label "Expression Level" ;
+    dsv:columnProperty "frequency (Hz)" .
+
+<http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/GOTerms> a dsv:Column ;
+    rdfs:label "GO Terms" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/GeneName> a dsv:Column ;
+    rdfs:label "Gene Name" ;
+    dsv:columnProperty "geneReviewsName" .
+
+<http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/GeneType> a dsv:Column ;
+    rdfs:label "Gene Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/MutationFrequency> a dsv:Column ;
+    rdfs:label "Mutation Frequency" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/ProteinInteractions> a dsv:Column ;
+    rdfs:label "Protein Interactions" ;
+    dsv:columnProperty "protein (g)" .
+
+<http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/Sequence> a dsv:Column ;
+    rdfs:label "Sequence" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/StartPosition> a dsv:Column ;
+    rdfs:label "Start Position" ;
+    dsv:columnProperty "start point" .
+
+<http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/Strand> a dsv:Column ;
+    rdfs:label "Strand" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/AdditionalInformation1>,
+        <http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/AdditionalInformation2>,
+        <http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/Chromosome>,
+        <http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/EndPosition>,
+        <http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/ExpressionLevel>,
+        <http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/GOTerms>,
+        <http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/GeneName>,
+        <http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/GeneType>,
+        <http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/MutationFrequency>,
+        <http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/ProteinInteractions>,
+        <http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/Sequence>,
+        <http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/StartPosition>,
+        <http://metaUnionSearch/datasets/BioinformaticsMZCAQHIU/column/Strand> .
+

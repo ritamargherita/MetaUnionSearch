@@ -1,0 +1,35 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldHistoryUHT6T0UZ> a dsv:Dataset ;
+    dcterms:subject "world-history" ;
+    dcterms:title "World-History_UHT6T0UZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldHistoryUHT6T0UZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldHistoryUHT6T0UZ/column/> a dsv:Column ;
+    rdfs:label "" .
+
+<http://metaUnionSearch/datasets/WorldHistoryUHT6T0UZ/column/AncientTechnology> a dsv:Column ;
+    rdfs:label "Ancient Technology" ;
+    dsv:columnProperty "era" .
+
+<http://metaUnionSearch/datasets/WorldHistoryUHT6T0UZ/column/EnlightenmentPhilosophy> a dsv:Column ;
+    rdfs:label "Enlightenment Philosophy" ;
+    dsv:columnProperty "philosophicalSchool" .
+
+<http://metaUnionSearch/datasets/WorldHistoryUHT6T0UZ/column/MedievalArt> a dsv:Column ;
+    rdfs:label "Medieval Art" ;
+    dsv:columnProperty "artistic function" .
+
+<http://metaUnionSearch/datasets/WorldHistoryUHT6T0UZ/column/RenaissanceLiterature> a dsv:Column ;
+    rdfs:label "Renaissance Literature" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/WorldHistoryUHT6T0UZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldHistoryUHT6T0UZ/column/>,
+        <http://metaUnionSearch/datasets/WorldHistoryUHT6T0UZ/column/AncientTechnology>,
+        <http://metaUnionSearch/datasets/WorldHistoryUHT6T0UZ/column/EnlightenmentPhilosophy>,
+        <http://metaUnionSearch/datasets/WorldHistoryUHT6T0UZ/column/MedievalArt>,
+        <http://metaUnionSearch/datasets/WorldHistoryUHT6T0UZ/column/RenaissanceLiterature> .
+

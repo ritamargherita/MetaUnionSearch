@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Ecological Footprint",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Invasive Species Present",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fauna"
+    },
+    {
+      "column_header": "Endemic Species Present",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/species"
+    },
+    {
+      "column_header": "Conservation Programs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    },
+    {
+      "column_header": "Legislation and Policies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/legislature"
+    },
+    {
+      "column_header": "Public Engagement",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publiclyAccessible"
+    },
+    {
+      "column_header": "Research Initiatives",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": "Habitat Restoration Projects",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": "Climate Change Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Biodiversity Hotspots",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": "Ecotourism Potential",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/touristicSite"
+    }
+  ]
+}

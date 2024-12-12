@@ -1,0 +1,26 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Bioinformatics8J9LQY3T> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_8J9LQY3T.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Bioinformatics8J9LQY3T/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Bioinformatics8J9LQY3T/column/Posttranslational> a dsv:Column ;
+    rdfs:label "Post-translational " ;
+    dsv:columnProperty "main domain" .
+
+<http://metaUnionSearch/datasets/Bioinformatics8J9LQY3T/column/ProteinDomainArchitecture> a dsv:Column ;
+    rdfs:label "Protein Domain Architecture" ;
+    dsv:columnProperty "domain" .
+
+<http://metaUnionSearch/datasets/Bioinformatics8J9LQY3T/column/ProteinsIdentified> a dsv:Column ;
+    rdfs:label "Proteins Identified" ;
+    dsv:columnProperty "refseq protein" .
+
+<http://metaUnionSearch/datasets/Bioinformatics8J9LQY3T/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Bioinformatics8J9LQY3T/column/Posttranslational>,
+        <http://metaUnionSearch/datasets/Bioinformatics8J9LQY3T/column/ProteinDomainArchitecture>,
+        <http://metaUnionSearch/datasets/Bioinformatics8J9LQY3T/column/ProteinsIdentified> .
+

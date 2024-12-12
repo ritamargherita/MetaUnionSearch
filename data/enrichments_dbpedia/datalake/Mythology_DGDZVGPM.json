@@ -20,7 +20,7 @@
         {"column_header": "Symbolism", "dbpedia_property_id": "http://dbpedia.org/ontology/symbol"},
         {"column_header": "Importance to Culture/Religion", "dbpedia_property_id": "http://dbpedia.org/ontology/religion"},
         {"column_header": "Physical Appearance", "dbpedia_property_id": "http://dbpedia.org/ontology/appearance"},
-        {"column_header": ""Life Span" or Equivalent Concept", "dbpedia_property_id": "http://dbpedia.org/ontology/lifeExpectancy"},
+        {"column_header": "Life Span or Equivalent Concept", "dbpedia_property_id": "http://dbpedia.org/ontology/lifeExpectancy"},
         {"column_header": "Habitat", "dbpedia_property_id": "http://dbpedia.org/ontology/livingPlace"},
         {"column_header": "Behavioral Tendencies", "dbpedia_property_id": "http://dbpedia.org/ontology/behavior"},
         {"column_header": "Significance in Myths and Legends, Contemporary Popular Culture", "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"}

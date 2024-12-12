@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Architectural Theories",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalMovement"
+    },
+    {
+      "column_header": "Architect",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architect"
+    },
+    {
+      "column_header": "Construction Techniques",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    },
+    {
+      "column_header": "Budget Estimates",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/budget"
+    },
+    {
+      "column_header": "Number of Floors",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/floorCount"
+    },
+    {
+      "column_header": "Occupancy Limitations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/restriction"
+    },
+    {
+      "column_header": "Maintenance Requirements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/requirement"
+    },
+    {
+      "column_header": "Applicable Codes and Standards",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/codeBook"
+    },
+    {
+      "column_header": "Structural Systems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/structuralSystem"
+    },
+    {
+      "column_header": "Furniture and Fixtures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/features"
+    },
+    {
+      "column_header": "Accessibility Features",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/isHandicappedAccessible"
+    },
+    {
+      "column_header": "Ergonomic Considerations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/requirement"
+    },
+    {
+      "column_header": "Historical Context",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "ResearchQuestion",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/topic"
+    },
+    {
+      "column_header": "Variables",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/varietals"
+    },
+    {
+      "column_header": "DataTransformations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    },
+    {
+      "column_header": "StatisticalAnalysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"
+    },
+    {
+      "column_header": "Results",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/result"
+    },
+    {
+      "column_header": "ResearchSetting",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/circle"
+    },
+    {
+      "column_header": "ResearchParticipants",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/participant"
+    },
+    {
+      "column_header": "DataQuality",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "ResearcherPositionality",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": "FundingSources",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "Collaborators",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "DataSharing",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/license"
+    },
+    {
+      "column_header": "Copyright",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/license"
+    },
+    {
+      "column_header": "ConflictOfInterest",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    }
+  ]
+}

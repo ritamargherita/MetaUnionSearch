@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Engineering Ethics", "dbpedia_property_id": "http://dbpedia.org/ontology/engineering"},
+    {"column_header": "Professional Development", "dbpedia_property_id": "http://dbpedia.org/ontology/training"},
+    {"column_header": "Industry Regulations", "dbpedia_property_id": "http://dbpedia.org/ontology/industry"},
+    {"column_header": "Environmental Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"},
+    {"column_header": "Risk Assessment", "dbpedia_property_id": "http://dbpedia.org/ontology/security"},
+    {"column_header": "Communication Plan", "dbpedia_property_id": "http://dbpedia.org/ontology/information"},
+    {"column_header": "Stakeholder Engagement", "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"},
+    {"column_header": "Resource Allocation", "dbpedia_property_id": "http://dbpedia.org/ontology/budget"},
+    {"column_header": "Lessons Learned", "dbpedia_property_id": "http://dbpedia.org/ontology/publication"},
+    {"column_header": "Technical Publications", "dbpedia_property_id": "http://dbpedia.org/ontology/publication"},
+    {"column_header": "Workplace Diversity", "dbpedia_property_id": "http://dbpedia.org/ontology/minority"},
+    {"column_header": "Innovation Management", "dbpedia_property_id": "http://dbpedia.org/ontology/management"},
+    {"column_header": "Table 2 Key Dates", "dbpedia_property_id": "http://dbpedia.org/ontology/date"}
+  ]
+}

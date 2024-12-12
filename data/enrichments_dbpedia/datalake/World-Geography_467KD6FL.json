@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "Island Nation", "dbpedia_property_id": "http://dbpedia.org/ontology/nation"},
+    {"column_header": " Island Size (sq km)", "dbpedia_property_id": "http://dbpedia.org/ontology/areaDate"},
+    {"column_header": " Coastline Length (kms)", "dbpedia_property_id": "http://dbpedia.org/ontology/coastLength"},
+    {"column_header": " Number of Islands", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfIslands"},
+    {"column_header": " Coastal Population", "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"},
+    {"column_header": " Island Climate", "dbpedia_property_id": "http://dbpedia.org/ontology/localization"},
+    {"column_header": " Highest Elevation", "dbpedia_property_id": "http://dbpedia.org/ontology/highestAltitude"},
+    {"column_header": " Number of Languages Spoken", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfSpeakers"},
+    {"column_header": " Main Industries", "dbpedia_property_id": "http://dbpedia.org/ontology/industry"},
+    {"column_header": " Population Trend", "dbpedia_property_id": "http://dbpedia.org/ontology/populationAsOf"},
+    {"column_header": " Time Zone", "dbpedia_property_id": "http://dbpedia.org/ontology/timeZone"},
+    {"column_header": " Currency", "dbpedia_property_id": "http://dbpedia.org/ontology/currency"},
+    {"column_header": " Internet Penetration", "dbpedia_property_id": "http://dbpedia.org/ontology/openAccessContent"},
+    {"column_header": " International Tourist Arrivals", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfVisitors"},
+    {"column_header": " Landmarks", "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"}
+  ]
+}

@@ -1,0 +1,89 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY> a dsv:Dataset ;
+    dcterms:subject "music" ;
+    dcterms:title "Music_FSPEFRJY.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MusicFSPEFRJY/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/column/ChartsPeaks> a dsv:Column ;
+    rdfs:label "Charts & Peaks" ;
+    dsv:columnProperty "Temporary Placement in the Music Charts" .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/column/CollaboratingArtists> a dsv:Column ;
+    rdfs:label "Collaborating Artists" ;
+    dsv:columnProperty "associated musical artist" .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/column/ComposerArranger> a dsv:Column ;
+    rdfs:label "Composer/Arranger" ;
+    dsv:columnProperty "composer" .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/column/GenreSubgenre> a dsv:Column ;
+    rdfs:label "Genre Sub-genre" ;
+    dsv:columnProperty "music subgenre" .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/column/GrammyAwards> a dsv:Column ;
+    rdfs:label "Grammy Awards" ;
+    dsv:columnProperty "Grammy Award" .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/column/LivePerformanceVenue> a dsv:Column ;
+    rdfs:label "Live Performance Venue" ;
+    dsv:columnProperty "home arena" .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/column/LyricsWriter> a dsv:Column ;
+    rdfs:label "Lyrics Writer" ;
+    dsv:columnProperty "lyrics" .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/column/MusicInfluences> a dsv:Column ;
+    rdfs:label "Music Influences" .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/column/MusicProductionTechnology> a dsv:Column ;
+    rdfs:label "Music Production Technology" ;
+    dsv:columnProperty "production" .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/column/MusicStreamingPlatforms> a dsv:Column ;
+    rdfs:label "Music Streaming Platforms" .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/column/OtherMajorAwardNominationsWins> a dsv:Column ;
+    rdfs:label "Other Major Award Nominations/Wins" ;
+    dsv:columnProperty "award" .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/column/RadioAirplay> a dsv:Column ;
+    rdfs:label "Radio Airplay" ;
+    dsv:columnProperty "radio" .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/column/SalesPhysicalDigital> a dsv:Column ;
+    rdfs:label "Sales (Physical/Digital)" ;
+    dsv:columnProperty "sales" .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/column/SoundEngineer> a dsv:Column ;
+    rdfs:label "Sound Engineer" ;
+    dsv:columnProperty "engineer" .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/column/StudioRecordingLocation> a dsv:Column ;
+    rdfs:label "Studio Recording Location" ;
+    dsv:columnProperty "recorded in" .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/column/WorldTourDates> a dsv:Column ;
+    rdfs:label "World Tour Dates" ;
+    dsv:columnProperty "world tournament" .
+
+<http://metaUnionSearch/datasets/MusicFSPEFRJY/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MusicFSPEFRJY/column/ChartsPeaks>,
+        <http://metaUnionSearch/datasets/MusicFSPEFRJY/column/CollaboratingArtists>,
+        <http://metaUnionSearch/datasets/MusicFSPEFRJY/column/ComposerArranger>,
+        <http://metaUnionSearch/datasets/MusicFSPEFRJY/column/GenreSubgenre>,
+        <http://metaUnionSearch/datasets/MusicFSPEFRJY/column/GrammyAwards>,
+        <http://metaUnionSearch/datasets/MusicFSPEFRJY/column/LivePerformanceVenue>,
+        <http://metaUnionSearch/datasets/MusicFSPEFRJY/column/LyricsWriter>,
+        <http://metaUnionSearch/datasets/MusicFSPEFRJY/column/MusicInfluences>,
+        <http://metaUnionSearch/datasets/MusicFSPEFRJY/column/MusicProductionTechnology>,
+        <http://metaUnionSearch/datasets/MusicFSPEFRJY/column/MusicStreamingPlatforms>,
+        <http://metaUnionSearch/datasets/MusicFSPEFRJY/column/OtherMajorAwardNominationsWins>,
+        <http://metaUnionSearch/datasets/MusicFSPEFRJY/column/RadioAirplay>,
+        <http://metaUnionSearch/datasets/MusicFSPEFRJY/column/SalesPhysicalDigital>,
+        <http://metaUnionSearch/datasets/MusicFSPEFRJY/column/SoundEngineer>,
+        <http://metaUnionSearch/datasets/MusicFSPEFRJY/column/StudioRecordingLocation>,
+        <http://metaUnionSearch/datasets/MusicFSPEFRJY/column/WorldTourDates> .
+

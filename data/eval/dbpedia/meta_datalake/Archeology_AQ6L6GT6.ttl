@@ -1,0 +1,31 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArcheologyAQ6L6GT6> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_AQ6L6GT6.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArcheologyAQ6L6GT6/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArcheologyAQ6L6GT6/column/> a dsv:Column ;
+    rdfs:label "" ;
+    dsv:columnProperty "note" .
+
+<http://metaUnionSearch/datasets/ArcheologyAQ6L6GT6/column/ExcavationDate> a dsv:Column ;
+    rdfs:label "ExcavationDate" ;
+    dsv:columnProperty "discovery date" .
+
+<http://metaUnionSearch/datasets/ArcheologyAQ6L6GT6/column/ExcavatorCount> a dsv:Column ;
+    rdfs:label "ExcavatorCount" ;
+    dsv:columnProperty "elevator count" .
+
+<http://metaUnionSearch/datasets/ArcheologyAQ6L6GT6/column/SponsorType> a dsv:Column ;
+    rdfs:label "SponsorType" ;
+    dsv:columnProperty "affiliation" .
+
+<http://metaUnionSearch/datasets/ArcheologyAQ6L6GT6/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArcheologyAQ6L6GT6/column/>,
+        <http://metaUnionSearch/datasets/ArcheologyAQ6L6GT6/column/ExcavationDate>,
+        <http://metaUnionSearch/datasets/ArcheologyAQ6L6GT6/column/ExcavatorCount>,
+        <http://metaUnionSearch/datasets/ArcheologyAQ6L6GT6/column/SponsorType> .
+

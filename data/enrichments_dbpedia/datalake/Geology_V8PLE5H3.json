@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Earthquake Occurrence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/casualties"
+    },
+    {
+      "column_header": " Volcanicity Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/volcanicActivity"
+    },
+    {
+      "column_header": " Metamorphism Types",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": " Plate Boundary Classification",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orogeny"
+    },
+    {
+      "column_header": " Period under Tectonic Stress?",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geologicPeriod"
+    },
+    {
+      "column_header": " Seismoactive Region Identifier",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/region"
+    },
+    {
+      "column_header": " Magmatic Activity Details",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/eruption"
+    },
+    {
+      "column_header": " Terrestrial Impact Structures List",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": " Paleomagnetic Data",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": " Heat Flow Values",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": " Gravity Anomalies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": " Magnetic Anomalies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": " Tectonic Deformation Features",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orogeny"
+    },
+    {
+      "column_header": " Earthquake Epicenter Distribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/region"
+    },
+    {
+      "column_header": " Seismic Hazard Zones",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/region"
+    }
+  ]
+}

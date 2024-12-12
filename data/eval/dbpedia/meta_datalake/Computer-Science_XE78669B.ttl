@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerScienceXE78669B> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_XE78669B.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerScienceXE78669B/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/ArtificialIntelligence> a dsv:Column ;
+    rdfs:label "Artificial Intelligence" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/CompilerDesign> a dsv:Column ;
+    rdfs:label "Compiler Design" ;
+    dsv:columnProperty "compiler" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/Cryptography> a dsv:Column ;
+    rdfs:label "Cryptography" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/FinalProject> a dsv:Column ;
+    rdfs:label "Final Project" ;
+    dsv:columnProperty "project" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/HumanComputerInteraction> a dsv:Column ;
+    rdfs:label "Human-Computer Interaction" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/MachineLearning> a dsv:Column ;
+    rdfs:label "Machine Learning" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/NaturalLanguageProcessing> a dsv:Column ;
+    rdfs:label "Natural Language Processing" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/ParallelComputation> a dsv:Column ;
+    rdfs:label "Parallel Computation" ;
+    dsv:columnProperty "activity" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/ResearchMethods> a dsv:Column ;
+    rdfs:label "Research Methods" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/SoftwareEngineering> a dsv:Column ;
+    rdfs:label "Software Engineering" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/WebDevelopment> a dsv:Column ;
+    rdfs:label "Web Development" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScienceXE78669B/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/ArtificialIntelligence>,
+        <http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/CompilerDesign>,
+        <http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/Cryptography>,
+        <http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/FinalProject>,
+        <http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/HumanComputerInteraction>,
+        <http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/MachineLearning>,
+        <http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/NaturalLanguageProcessing>,
+        <http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/ParallelComputation>,
+        <http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/ResearchMethods>,
+        <http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/SoftwareEngineering>,
+        <http://metaUnionSearch/datasets/ComputerScienceXE78669B/column/WebDevelopment> .
+

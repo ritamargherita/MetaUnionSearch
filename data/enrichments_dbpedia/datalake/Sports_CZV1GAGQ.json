@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "TeamName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/teamName"
+    },
+    {
+      "column_header": " TeamID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/id"
+    },
+    {
+      "column_header": " CoachName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/coach"
+    },
+    {
+      "column_header": " AverageAgeOfPlayers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/average"
+    },
+    {
+      "column_header": " HeightVariance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/height"
+    },
+    {
+      "column_header": " WeightVariance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/weight"
+    },
+    {
+      "column_header": " DraftPicksHistory",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/draft"
+    },
+    {
+      "column_header": " DomesticPlayersRatio",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/internationalAffiliation"
+    },
+    {
+      "column_header": " InternationalPlayersRatio",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/internationally"
+    },
+    {
+      "column_header": " TrainingFacilitiesRating",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": " SocialMediaFollowersCount",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/followersCount"
+    },
+    {
+      "column_header": " RecentSponsorshipDeals",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currentPartner"
+    },
+    {
+      "column_header": " TotalTeamValue",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": " NumberOfMinorAchievements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/number"
+    },
+    {
+      "column_header": " NumberOfMajorAchievements.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/number"
+    }
+  ]
+}

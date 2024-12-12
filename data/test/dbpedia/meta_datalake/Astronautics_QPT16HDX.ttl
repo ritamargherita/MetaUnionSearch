@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronauticsQPT16HDX> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_QPT16HDX.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronauticsQPT16HDX/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/AstronomerInvolved> a dsv:Column ;
+    rdfs:label "Astronomer Involved" ;
+    dsv:columnProperty "personName" .
+
+<http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/Durationdays> a dsv:Column ;
+    rdfs:label "Duration (days)" ;
+    dsv:columnProperty "mission duration (s)" .
+
+<http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/ExperimentName> a dsv:Column ;
+    rdfs:label "*Experiment Name*" ;
+    dsv:columnProperty "name" .
+
+<http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/MissionName> a dsv:Column ;
+    rdfs:label "Mission Name" ;
+    dsv:columnProperty "mission" .
+
+<http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/OrbitAchieved> a dsv:Column ;
+    rdfs:label "Orbit Achieved" ;
+    dsv:columnProperty "orbits" .
+
+<http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/PayloadsDeployed> a dsv:Column ;
+    rdfs:label "Payloads Deployed" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/PrimaryObjective> a dsv:Column ;
+    rdfs:label "Primary Objective" ;
+    dsv:columnProperty "project objective" .
+
+<http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/SatellitesDeployed> a dsv:Column ;
+    rdfs:label "*Satellites Deployed*" ;
+    dsv:columnProperty "satellites deployed" .
+
+<http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/SpacecraftUsed> a dsv:Column ;
+    rdfs:label "Spacecraft Used" ;
+    dsv:columnProperty "spacecraft" .
+
+<http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/StartDate> a dsv:Column ;
+    rdfs:label "Start Date" ;
+    dsv:columnProperty "start date" .
+
+<http://metaUnionSearch/datasets/AstronauticsQPT16HDX/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/AstronomerInvolved>,
+        <http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/Durationdays>,
+        <http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/ExperimentName>,
+        <http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/MissionName>,
+        <http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/OrbitAchieved>,
+        <http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/PayloadsDeployed>,
+        <http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/PrimaryObjective>,
+        <http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/SatellitesDeployed>,
+        <http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/SpacecraftUsed>,
+        <http://metaUnionSearch/datasets/AstronauticsQPT16HDX/column/StartDate> .
+

@@ -1,0 +1,36 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Psychology8RVHS1K3> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_8RVHS1K3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Psychology8RVHS1K3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Psychology8RVHS1K3/column/PersonalityType> a dsv:Column ;
+    rdfs:label "PersonalityType" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/Psychology8RVHS1K3/column/SpecializationArea> a dsv:Column ;
+    rdfs:label "SpecializationArea" ;
+    dsv:columnProperty "specialization" .
+
+<http://metaUnionSearch/datasets/Psychology8RVHS1K3/column/SubtopicName> a dsv:Column ;
+    rdfs:label "SubtopicName" ;
+    dsv:columnProperty "subtribus" .
+
+<http://metaUnionSearch/datasets/Psychology8RVHS1K3/column/TestResultScoreTestResultScore> a dsv:Column ;
+    rdfs:label "TestResultScore₁,...,TestResultScore₅" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/Psychology8RVHS1K3/column/unusedcolumnunusedcolumn> a dsv:Column ;
+    rdfs:label "_unused_column₁,...,_unused_column₅" ;
+    dsv:columnProperty "speciality" .
+
+<http://metaUnionSearch/datasets/Psychology8RVHS1K3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Psychology8RVHS1K3/column/PersonalityType>,
+        <http://metaUnionSearch/datasets/Psychology8RVHS1K3/column/SpecializationArea>,
+        <http://metaUnionSearch/datasets/Psychology8RVHS1K3/column/SubtopicName>,
+        <http://metaUnionSearch/datasets/Psychology8RVHS1K3/column/TestResultScoreTestResultScore>,
+        <http://metaUnionSearch/datasets/Psychology8RVHS1K3/column/unusedcolumnunusedcolumn> .
+

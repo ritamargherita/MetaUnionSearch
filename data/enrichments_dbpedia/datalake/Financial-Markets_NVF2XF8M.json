@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Commodity Prices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/price"
+    },
+    {
+      "column_header": "Central Bank Interest Rates",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mainInterest"
+    },
+    {
+      "column_header": "Consumer Price Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "Producer Price Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "Housing Market Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/production"
+    },
+    {
+      "column_header": "Retail Sales",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sales"
+    },
+    {
+      "column_header": "Industrial Production",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/production"
+    },
+    {
+      "column_header": "Balance of Trade",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "Budget Balance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/budget"
+    },
+    {
+      "column_header": "Gross National Product",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/grossDomesticProduct"
+    },
+    {
+      "column_header": "Labor Productivity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    }
+  ]
+}

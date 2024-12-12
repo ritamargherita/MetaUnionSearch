@@ -1,0 +1,130 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_TJITP71S.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CriminologyTJITP71S/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/AdditionalDetails> a dsv:Column ;
+    rdfs:label "Additional Details" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/ArresteesCount> a dsv:Column ;
+    rdfs:label "Arrestees Count" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/ArrestingOfficer> a dsv:Column ;
+    rdfs:label "Arresting Officer" ;
+    dsv:columnProperty "officer in charge" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/CorrectionalFacilityClassificationSystem> a dsv:Column ;
+    rdfs:label "Correctional Facility Classification System" ;
+    dsv:columnProperty "classification" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/CrimeClearanceRates> a dsv:Column ;
+    rdfs:label "Crime Clearance Rates" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/DateTimeArrestMade> a dsv:Column ;
+    rdfs:label "Date & Time Arrest Made" ;
+    dsv:columnProperty "arrest date" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/EvidenceRecovered> a dsv:Column ;
+    rdfs:label "Evidence Recovered" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/FirearmLegislationImpactAssessment> a dsv:Column ;
+    rdfs:label "Firearm Legislation Impact Assessment" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/GangActivityMonitoring> a dsv:Column ;
+    rdfs:label "Gang Activity Monitoring" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/InjuryPresent> a dsv:Column ;
+    rdfs:label "Injury Present?" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/InternationalCooperationMeasuresagainstTransnationalOrganizedcrimescurrrangecounter4Timetaken2366068696975708secondsIncidentNumber> a dsv:Column ;
+    rdfs:label """International Cooperation Measures against Transnational Organized crime</s>
+curr_range_counter:  4
+Time taken: 23.66068696975708 seconds
+Incident Number""" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/JuvenileCrimeTrending> a dsv:Column ;
+    rdfs:label "Juvenile Crime Trending" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/LegalOutcome> a dsv:Column ;
+    rdfs:label "Legal Outcome" ;
+    dsv:columnProperty "conviction penalty" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/MinorityGroupDiscriminationwithinJusticeSystems> a dsv:Column ;
+    rdfs:label "Minority Group Discrimination within Justice Systems" ;
+    dsv:columnProperty "minority" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/PerpetratorGender> a dsv:Column ;
+    rdfs:label "Perpetrator Gender" ;
+    dsv:columnProperty "gender" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/PerpetratorRace> a dsv:Column ;
+    rdfs:label "Perpetrator Race" ;
+    dsv:columnProperty "race" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/PoliceForceDemographics> a dsv:Column ;
+    rdfs:label "Police Force Demographics" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/PrisonOvercrowdingStatistics> a dsv:Column ;
+    rdfs:label "Prison Overcrowding Statistics" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/PublicPerceptionSurveysRegardingCommunitySafety> a dsv:Column ;
+    rdfs:label "Public Perception Surveys Regarding Community Safety" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/RecidivismRate> a dsv:Column ;
+    rdfs:label "Recidivism Rate" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/ReoffendingRatiosbyRehabilitationProgram> a dsv:Column ;
+    rdfs:label "Reoffending Ratios by Rehabilitation Program" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/SuspectedMotive> a dsv:Column ;
+    rdfs:label "Suspected Motive" ;
+    dsv:columnProperty "motive" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/ViolentCrimesvsNonviolentCrimesBreakdown> a dsv:Column ;
+    rdfs:label "Violent Crimes vs Nonviolent Crimes Breakdown" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/WeaponUsed> a dsv:Column ;
+    rdfs:label "Weapon Used" ;
+    dsv:columnProperty "weapon" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/column/WitnessReports> a dsv:Column ;
+    rdfs:label "Witness Reports" .
+
+<http://metaUnionSearch/datasets/CriminologyTJITP71S/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/AdditionalDetails>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/ArresteesCount>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/ArrestingOfficer>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/CorrectionalFacilityClassificationSystem>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/CrimeClearanceRates>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/DateTimeArrestMade>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/EvidenceRecovered>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/FirearmLegislationImpactAssessment>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/GangActivityMonitoring>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/InjuryPresent>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/InternationalCooperationMeasuresagainstTransnationalOrganizedcrimescurrrangecounter4Timetaken2366068696975708secondsIncidentNumber>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/JuvenileCrimeTrending>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/LegalOutcome>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/MinorityGroupDiscriminationwithinJusticeSystems>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/PerpetratorGender>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/PerpetratorRace>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/PoliceForceDemographics>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/PrisonOvercrowdingStatistics>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/PublicPerceptionSurveysRegardingCommunitySafety>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/RecidivismRate>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/ReoffendingRatiosbyRehabilitationProgram>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/SuspectedMotive>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/ViolentCrimesvsNonviolentCrimesBreakdown>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/WeaponUsed>,
+        <http://metaUnionSearch/datasets/CriminologyTJITP71S/column/WitnessReports> .
+

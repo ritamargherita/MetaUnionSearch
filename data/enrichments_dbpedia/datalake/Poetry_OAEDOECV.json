@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Poet Biography",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/author"
+    },
+    {
+      "column_header": "Publications List",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publication"
+    },
+    {
+      "column_header": "Sympathy Level",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mood"
+    },
+    {
+      "column_header": "Critic Reviews count",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/review"
+    },
+    {
+      "column_header": "Relevance by Historical Period",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"
+    },
+    {
+      "column_header": "Social Impact Measures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Geographical Distribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfLocations"
+    },
+    {
+      "column_header": "Reading Difficulty Scores",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": "Teaching Resources Availability",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/openAccessContent"
+    },
+    {
+      "column_header": "Average Performance Evaluation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/average"
+    }
+  ]
+}

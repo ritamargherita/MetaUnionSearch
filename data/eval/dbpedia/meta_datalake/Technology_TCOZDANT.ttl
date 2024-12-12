@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_TCOZDANT.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologyTCOZDANT/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTAccountabilityMeasures> a dsv:Column ;
+    rdfs:label "IoT_Accountability Measures" ;
+    dsv:columnProperty "oversight" .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTArtificialIntelligenceMachineLearning> a dsv:Column ;
+    rdfs:label "IoT_Artificial Intelligence & Machine Learning" ;
+    dsv:columnProperty "Computing Media" .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTBusinessModels> a dsv:Column ;
+    rdfs:label "IoT_Business Models" ;
+    dsv:columnProperty "project objective" .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTCulturalChange> a dsv:Column ;
+    rdfs:label "IoT_Cultural Change" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTDataSecurity> a dsv:Column ;
+    rdfs:label "IoT_Data Security" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTEthicalConsiderationsRegulations> a dsv:Column ;
+    rdfs:label "IoT_Ethical Considerations & Regulations" ;
+    dsv:columnProperty "legal article" .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTFutureTrends> a dsv:Column ;
+    rdfs:label "IoT_Future Trends" ;
+    dsv:columnProperty "currently used for" .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTGlobalization> a dsv:Column ;
+    rdfs:label "IoT_Globalization" ;
+    dsv:columnProperty "world" .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTGoverningLaws> a dsv:Column ;
+    rdfs:label "IoT_Governing Laws" ;
+    dsv:columnProperty "system of law" .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTImpactOnSociety> a dsv:Column ;
+    rdfs:label "IoT_Impact On Society" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTIndustryDisruption> a dsv:Column ;
+    rdfs:label "IoT_Industry Disruption" ;
+    dsv:columnProperty "industry" .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTInnovations> a dsv:Column ;
+    rdfs:label "IoT_Innovations" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTNewPlayers> a dsv:Column ;
+    rdfs:label "IoT_New Players" ;
+    dsv:columnProperty "using country" .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTPrivacyPolicies> a dsv:Column ;
+    rdfs:label "IoT_Privacy Policies" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTTechnologicalAdvancement> a dsv:Column ;
+    rdfs:label "IoT_Technological Advancement" ;
+    dsv:columnProperty "computing platform" .
+
+<http://metaUnionSearch/datasets/TechnologyTCOZDANT/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTAccountabilityMeasures>,
+        <http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTArtificialIntelligenceMachineLearning>,
+        <http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTBusinessModels>,
+        <http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTCulturalChange>,
+        <http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTDataSecurity>,
+        <http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTEthicalConsiderationsRegulations>,
+        <http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTFutureTrends>,
+        <http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTGlobalization>,
+        <http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTGoverningLaws>,
+        <http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTImpactOnSociety>,
+        <http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTIndustryDisruption>,
+        <http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTInnovations>,
+        <http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTNewPlayers>,
+        <http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTPrivacyPolicies>,
+        <http://metaUnionSearch/datasets/TechnologyTCOZDANT/column/IoTTechnologicalAdvancement> .
+

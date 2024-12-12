@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {"column_header": "Igneous Category", "dbpedia_property_id": "http://dbpedia.org/ontology/kindOfRock"},
+    {"column_header": "Metamorphism Level", "dbpedia_property_id": "http://dbpedia.org/ontology/geology"},
+    {"column_header": "Secondary Deposites", "dbpedia_property_id": "http://dbpedia.org/ontology/category"},
+    {"column_header": "Soil- aroundstone Interactions", "dbpedia_property_id": "http://dbpedia.org/ontology/field"},
+    {"column_header": "Groundwater Influence", "dbpedia_property_id": "http://dbpedia.org/ontology/waterPercentage"},
+    {"column_header": "Poroelastic Behavior", "dbpedia_property_id": "http://dbpedia.org/ontology/geology"},
+    {"column_header": "Seismic Wave Transmission", "dbpedia_property_id": "http://dbpedia.org/ontology/transmission"},
+    {"column_header": "Heat Conductivity", "dbpedia_property_id": "http://dbpedia.org/ontology/thermalConductivity"},
+    {"column_header": "Chemistry Diversity", "dbpedia_property_id": "http://dbpedia.org/ontology/chemSpiderId"},
+    {"column_header": "Crystal Lattice Integrity", "dbpedia_property_id": "http://dbpedia.org/ontology/material"},
+    {"column_header": "Tectonic Setting", "dbpedia_property_id": "http://dbpedia.org/ontology/orogeny"},
+    {"column_header": "Sample ID", "dbpedia_property_id": "http://dbpedia.org/ontology/id"}
+  ]
+}

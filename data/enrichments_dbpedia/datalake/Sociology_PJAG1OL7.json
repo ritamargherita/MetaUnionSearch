@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "SocioeconomicStatus",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"
+    },
+    {
+      "column_header": "GenderIdentity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gender"
+    },
+    {
+      "column_header": "RaceEthnicity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/race"
+    },
+    {
+      "column_header": "AgeDistribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/age"
+    },
+    {
+      "column_header": "EducationalLevel",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/education"
+    },
+    {
+      "column_header": "ReligiousAffiliation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "HealthStatus",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medicalDiagnosis"
+    },
+    {
+      "column_header": "EmploymentStatus",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/occupation"
+    },
+    {
+      "column_header": "ResidentialLocation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/residence"
+    },
+    {
+      "column_header": "IncomeLevel",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+    },
+    {
+      "column_header": "FamilyStructure",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/family"
+    },
+    {
+      "column_header": "CriminalJusticeInvolvement",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/criminalCharge"
+    },
+    {
+      "column_header": "TechnologyAccess",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": "CulturalPractices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "ResearchMethods",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    }
+  ]
+}

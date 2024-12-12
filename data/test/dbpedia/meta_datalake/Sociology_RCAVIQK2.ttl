@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_RCAVIQK2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SociologyRCAVIQK2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/DataVisualization> a dsv:Column ;
+    rdfs:label "DataVisualization" ;
+    dsv:columnProperty "publication" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/PolicyRecommendations> a dsv:Column ;
+    rdfs:label "PolicyRecommendations" ;
+    dsv:columnProperty "government" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchCollaboration> a dsv:Column ;
+    rdfs:label "ResearchCollaboration" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchCollaborationOutcome> a dsv:Column ;
+    rdfs:label "ResearchCollaborationOutcome" ;
+    dsv:columnProperty "project" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchDissemination> a dsv:Column ;
+    rdfs:label "ResearchDissemination" ;
+    dsv:columnProperty "publication" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchFunding> a dsv:Column ;
+    rdfs:label "ResearchFunding" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchSupervision> a dsv:Column ;
+    rdfs:label "ResearchSupervision" ;
+    dsv:columnProperty "project participant" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchTimeline> a dsv:Column ;
+    rdfs:label "ResearchTimeline" ;
+    dsv:columnProperty "time" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/SociologicalImplications> a dsv:Column ;
+    rdfs:label "SociologicalImplications" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/StakeholderEngagement> a dsv:Column ;
+    rdfs:label "StakeholderEngagement" ;
+    dsv:columnProperty "project participant" .
+
+<http://metaUnionSearch/datasets/SociologyRCAVIQK2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/DataVisualization>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/PolicyRecommendations>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchCollaboration>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchCollaborationOutcome>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchDissemination>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchFunding>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchSupervision>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/ResearchTimeline>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/SociologicalImplications>,
+        <http://metaUnionSearch/datasets/SociologyRCAVIQK2/column/StakeholderEngagement> .
+

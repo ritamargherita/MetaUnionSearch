@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EcologyL8IZ0U2B> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_L8IZ0U2B.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EcologyL8IZ0U2B/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/BiodiversityHotspots> a dsv:Column ;
+    rdfs:label "Biodiversity Hotspots" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/CarbonSequestration> a dsv:Column ;
+    rdfs:label "Carbon Sequestration" ;
+    dsv:columnProperty "value" .
+
+<http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/ConservationSuccesses> a dsv:Column ;
+    rdfs:label "Conservation Successes." ;
+    dsv:columnProperty "conservation status system" .
+
+<http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/EcosystemServices> a dsv:Column ;
+    rdfs:label "Ecosystem Services" ;
+    dsv:columnProperty "service" .
+
+<http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/HabitatFragmentation> a dsv:Column ;
+    rdfs:label "Habitat Fragmentation" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/InvasiveSpecies> a dsv:Column ;
+    rdfs:label "Invasive Species" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/PopulationTrends> a dsv:Column ;
+    rdfs:label "Population Trends" ;
+    dsv:columnProperty "population year" .
+
+<http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/RecreationalValues> a dsv:Column ;
+    rdfs:label "Recreational Values" ;
+    dsv:columnProperty "sport" .
+
+<http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/ThreatenedHabitats> a dsv:Column ;
+    rdfs:label "Threatened Habitats" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/WaterPurification> a dsv:Column ;
+    rdfs:label "Water Purification" ;
+    dsv:columnProperty "water" .
+
+<http://metaUnionSearch/datasets/EcologyL8IZ0U2B/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/BiodiversityHotspots>,
+        <http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/CarbonSequestration>,
+        <http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/ConservationSuccesses>,
+        <http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/EcosystemServices>,
+        <http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/HabitatFragmentation>,
+        <http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/InvasiveSpecies>,
+        <http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/PopulationTrends>,
+        <http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/RecreationalValues>,
+        <http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/ThreatenedHabitats>,
+        <http://metaUnionSearch/datasets/EcologyL8IZ0U2B/column/WaterPurification> .
+

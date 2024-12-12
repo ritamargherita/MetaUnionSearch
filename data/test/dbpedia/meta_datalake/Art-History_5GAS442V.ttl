@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistory5GAS442V> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_5GAS442V.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistory5GAS442V/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/ArtistBirthplace> a dsv:Column ;
+    rdfs:label "Artist Birthplace" ;
+    dsv:columnProperty "birth place" .
+
+<http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/CareerHighlights> a dsv:Column ;
+    rdfs:label "Career Highlights" ;
+    dsv:columnProperty "known for" .
+
+<http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/Deathyear> a dsv:Column ;
+    rdfs:label "Deathyear" ;
+    dsv:columnProperty "death year" .
+
+<http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/Ethnicity> a dsv:Column ;
+    rdfs:label "Ethnicity" ;
+    dsv:columnProperty "ethnicity" .
+
+<http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/Influenced> a dsv:Column ;
+    rdfs:label "Influenced" ;
+    dsv:columnProperty "influenced" .
+
+<http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/Influentialon> a dsv:Column ;
+    rdfs:label "Influential on" ;
+    dsv:columnProperty "influenced by" .
+
+<http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/MajorWorksExhibitions> a dsv:Column ;
+    rdfs:label "Major Works/Exhibitions" ;
+    dsv:columnProperty "notable work" .
+
+<http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/PreferredMedias> a dsv:Column ;
+    rdfs:label "Preferred Medias" ;
+    dsv:columnProperty "media" .
+
+<http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/Religion> a dsv:Column ;
+    rdfs:label "Religion" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/Themes> a dsv:Column ;
+    rdfs:label "Themes" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/TrainingSchool> a dsv:Column ;
+    rdfs:label "Training/School" ;
+    dsv:columnProperty "training" .
+
+<http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/Yearofbirth> a dsv:Column ;
+    rdfs:label "Year of birth" ;
+    dsv:columnProperty "birth year" .
+
+<http://metaUnionSearch/datasets/ArtHistory5GAS442V/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/ArtistBirthplace>,
+        <http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/CareerHighlights>,
+        <http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/Deathyear>,
+        <http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/Ethnicity>,
+        <http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/Influenced>,
+        <http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/Influentialon>,
+        <http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/MajorWorksExhibitions>,
+        <http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/PreferredMedias>,
+        <http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/Religion>,
+        <http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/Themes>,
+        <http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/TrainingSchool>,
+        <http://metaUnionSearch/datasets/ArtHistory5GAS442V/column/Yearofbirth> .
+

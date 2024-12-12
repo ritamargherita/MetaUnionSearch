@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_2DWA5IMY.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Sports2DWA5IMY/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY/column/AverageAttendance> a dsv:Column ;
+    rdfs:label "Average Attendance" ;
+    dsv:columnProperty "number of people attending" .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY/column/AverageNumberOfTicketsSoldPerGame> a dsv:Column ;
+    rdfs:label "Average Number Of Tickets Sold Per Game" ;
+    dsv:columnProperty "average" .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY/column/Coach> a dsv:Column ;
+    rdfs:label "Coach" ;
+    dsv:columnProperty "coach" .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY/column/FoundingYear> a dsv:Column ;
+    rdfs:label "Founding Year" ;
+    dsv:columnProperty "founding year" .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY/column/HomeGround> a dsv:Column ;
+    rdfs:label "Home Ground" ;
+    dsv:columnProperty "home stadium" .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY/column/LeagueAffiliation> a dsv:Column ;
+    rdfs:label "League Affiliation" ;
+    dsv:columnProperty "league" .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY/column/MerchandiseSales> a dsv:Column ;
+    rdfs:label "Merchandise Sales" ;
+    dsv:columnProperty "revenue ($)" .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY/column/NumberOfPlayers> a dsv:Column ;
+    rdfs:label "Number Of Players" ;
+    dsv:columnProperty "number of players" .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY/column/NumberofConsecutiveChampionshipWins> a dsv:Column ;
+    rdfs:label "Number of Consecutive Championship Wins" ;
+    dsv:columnProperty "wins at championships" .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY/column/RevenueGenerationSources> a dsv:Column ;
+    rdfs:label "Revenue Generation Sources" ;
+    dsv:columnProperty "year of reported revenue" .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY/column/SeasonsParticipating> a dsv:Column ;
+    rdfs:label "Seasons Participating" ;
+    dsv:columnProperty "number of seasons" .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY/column/TeamLogos> a dsv:Column ;
+    rdfs:label "Team Logos" ;
+    dsv:columnProperty "logo" .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY/column/TeamNames> a dsv:Column ;
+    rdfs:label "Team Names" ;
+    dsv:columnProperty "team name" .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY/column/TitleSponsors> a dsv:Column ;
+    rdfs:label "Title Sponsors" ;
+    dsv:columnProperty "title" .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY/column/TotalChampionshipsWon> a dsv:Column ;
+    rdfs:label "Total Championships Won" ;
+    dsv:columnProperty "championships" .
+
+<http://metaUnionSearch/datasets/Sports2DWA5IMY/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Sports2DWA5IMY/column/AverageAttendance>,
+        <http://metaUnionSearch/datasets/Sports2DWA5IMY/column/AverageNumberOfTicketsSoldPerGame>,
+        <http://metaUnionSearch/datasets/Sports2DWA5IMY/column/Coach>,
+        <http://metaUnionSearch/datasets/Sports2DWA5IMY/column/FoundingYear>,
+        <http://metaUnionSearch/datasets/Sports2DWA5IMY/column/HomeGround>,
+        <http://metaUnionSearch/datasets/Sports2DWA5IMY/column/LeagueAffiliation>,
+        <http://metaUnionSearch/datasets/Sports2DWA5IMY/column/MerchandiseSales>,
+        <http://metaUnionSearch/datasets/Sports2DWA5IMY/column/NumberOfPlayers>,
+        <http://metaUnionSearch/datasets/Sports2DWA5IMY/column/NumberofConsecutiveChampionshipWins>,
+        <http://metaUnionSearch/datasets/Sports2DWA5IMY/column/RevenueGenerationSources>,
+        <http://metaUnionSearch/datasets/Sports2DWA5IMY/column/SeasonsParticipating>,
+        <http://metaUnionSearch/datasets/Sports2DWA5IMY/column/TeamLogos>,
+        <http://metaUnionSearch/datasets/Sports2DWA5IMY/column/TeamNames>,
+        <http://metaUnionSearch/datasets/Sports2DWA5IMY/column/TitleSponsors>,
+        <http://metaUnionSearch/datasets/Sports2DWA5IMY/column/TotalChampionshipsWon> .
+

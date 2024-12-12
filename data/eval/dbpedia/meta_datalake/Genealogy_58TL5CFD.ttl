@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Genealogy58TL5CFD> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_58TL5CFD.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Genealogy58TL5CFD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/ChildGivenName> a dsv:Column ;
+    rdfs:label "ChildGivenName" ;
+    dsv:columnProperty "name" .
+
+<http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/ChildMiddleName> a dsv:Column ;
+    rdfs:label "ChildMiddleName" ;
+    dsv:columnProperty "name" .
+
+<http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/ChildSurname> a dsv:Column ;
+    rdfs:label "ChildSurname" ;
+    dsv:columnProperty "name" .
+
+<http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/DeathDate> a dsv:Column ;
+    rdfs:label "DeathDate" ;
+    dsv:columnProperty "death date" .
+
+<http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/MarriageDate> a dsv:Column ;
+    rdfs:label "MarriageDate" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/MaternalGrandfatherID> a dsv:Column ;
+    rdfs:label "MaternalGrandfatherID" ;
+    dsv:columnProperty "grandsire" .
+
+<http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/MaternalGrandmotherFirstName> a dsv:Column ;
+    rdfs:label "MaternalGrandmotherFirstName" ;
+    dsv:columnProperty "birth name" .
+
+<http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/MaternalGrandmotherMaidenName> a dsv:Column ;
+    rdfs:label "MaternalGrandmotherMaidenName" ;
+    dsv:columnProperty "birth name" .
+
+<http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/PaternalGrandfatherID> a dsv:Column ;
+    rdfs:label "PaternalGrandfatherID" ;
+    dsv:columnProperty "grandsire" .
+
+<http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/PaternalGrandmotherFirstName> a dsv:Column ;
+    rdfs:label "PaternalGrandmotherFirstName" ;
+    dsv:columnProperty "birth name" .
+
+<http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/PaternalGrandmotherSurname> a dsv:Column ;
+    rdfs:label "PaternalGrandmotherSurname" ;
+    dsv:columnProperty "name" .
+
+<http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/SSN> a dsv:Column ;
+    rdfs:label "SSN" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/SpouseFirstName> a dsv:Column ;
+    rdfs:label "SpouseFirstName" ;
+    dsv:columnProperty "spouse name" .
+
+<http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/SpouseLastName> a dsv:Column ;
+    rdfs:label "SpouseLastName" ;
+    dsv:columnProperty "spouse name" .
+
+<http://metaUnionSearch/datasets/Genealogy58TL5CFD/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/ChildGivenName>,
+        <http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/ChildMiddleName>,
+        <http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/ChildSurname>,
+        <http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/DeathDate>,
+        <http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/MarriageDate>,
+        <http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/MaternalGrandfatherID>,
+        <http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/MaternalGrandmotherFirstName>,
+        <http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/MaternalGrandmotherMaidenName>,
+        <http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/PaternalGrandfatherID>,
+        <http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/PaternalGrandmotherFirstName>,
+        <http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/PaternalGrandmotherSurname>,
+        <http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/SSN>,
+        <http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/SpouseFirstName>,
+        <http://metaUnionSearch/datasets/Genealogy58TL5CFD/column/SpouseLastName> .
+

@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EcologyRD3AEYRX> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_RD3AEYRX.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EcologyRD3AEYRX/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/AnimalLife> a dsv:Column ;
+    rdfs:label "Animal Life" ;
+    dsv:columnProperty "fauna" .
+
+<http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/DisruptionRisks> a dsv:Column ;
+    rdfs:label "Disruption Risks" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/EcosystemStructure> a dsv:Column ;
+    rdfs:label "Ecosystem Structure" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/ForagingGrounds> a dsv:Column ;
+    rdfs:label "Foraging Grounds" ;
+    dsv:columnProperty "field" .
+
+<http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/NestingAreas> a dsv:Column ;
+    rdfs:label "Nesting Areas" ;
+    dsv:columnProperty "animal" .
+
+<http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/NewColumnA> a dsv:Column ;
+    rdfs:label "New Column A" ;
+    dsv:columnProperty "feature" .
+
+<http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/NewColumnB> a dsv:Column ;
+    rdfs:label "**New Column B**" ;
+    dsv:columnProperty "speciality" .
+
+<http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/RecoveryEfforts> a dsv:Column ;
+    rdfs:label "Recovery Efforts" ;
+    dsv:columnProperty "Recovery Cases" .
+
+<http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/SecondaryHabitats> a dsv:Column ;
+    rdfs:label "Secondary Habitats" ;
+    dsv:columnProperty "livingPlace" .
+
+<http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/SpecialFeatures> a dsv:Column ;
+    rdfs:label "Special Features" ;
+    dsv:columnProperty "notable features" .
+
+<http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/VegetativeCoverage> a dsv:Column ;
+    rdfs:label "Vegetative Coverage" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/EcologyRD3AEYRX/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/AnimalLife>,
+        <http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/DisruptionRisks>,
+        <http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/EcosystemStructure>,
+        <http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/ForagingGrounds>,
+        <http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/NestingAreas>,
+        <http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/NewColumnA>,
+        <http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/NewColumnB>,
+        <http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/RecoveryEfforts>,
+        <http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/SecondaryHabitats>,
+        <http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/SpecialFeatures>,
+        <http://metaUnionSearch/datasets/EcologyRD3AEYRX/column/VegetativeCoverage> .
+

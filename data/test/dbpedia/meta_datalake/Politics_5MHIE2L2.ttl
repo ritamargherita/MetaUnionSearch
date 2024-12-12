@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_5MHIE2L2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Politics5MHIE2L2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2/column/CharitableWorkOfTheParty> a dsv:Column ;
+    rdfs:label "CharitableWorkOfTheParty" ;
+    dsv:columnProperty "recent winner" .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2/column/DateOfLastPartyConvention> a dsv:Column ;
+    rdfs:label "DateOfLastPartyConvention" ;
+    dsv:columnProperty "event date" .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2/column/HeadquartersAddress> a dsv:Column ;
+    rdfs:label "HeadquartersAddress" ;
+    dsv:columnProperty "management place" .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2/column/HeadquartersBuildingName> a dsv:Column ;
+    rdfs:label "HeadquartersBuildingName" ;
+    dsv:columnProperty "headquarter" .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2/column/MembershipCriteriaSpecifics> a dsv:Column ;
+    rdfs:label "MembershipCriteria_Specifics" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2/column/MembershipDemographicsAgeDistribution> a dsv:Column ;
+    rdfs:label "MembershipDemographics_AgeDistribution" ;
+    dsv:columnProperty "population percentage female" .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2/column/MembershipDemographicsDiversity> a dsv:Column ;
+    rdfs:label "MembershipDemographics_Diversity" ;
+    dsv:columnProperty "collectivity minority" .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2/column/MembershipDemographicsGenderDistribution> a dsv:Column ;
+    rdfs:label "MembershipDemographics_GenderDistribution" ;
+    dsv:columnProperty "gender" .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2/column/NumberOfInternationalAffiliations> a dsv:Column ;
+    rdfs:label "NumberOfInternationalAffiliations" ;
+    dsv:columnProperty "number of intercommunality" .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2/column/PartyLeaderAge> a dsv:Column ;
+    rdfs:label "PartyLeaderAge" ;
+    dsv:columnProperty "death age" .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2/column/PartyLeaderCurrentTenure> a dsv:Column ;
+    rdfs:label "PartyLeaderCurrentTenure" ;
+    dsv:columnProperty "leader party" .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2/column/PartyLeaderSpouse> a dsv:Column ;
+    rdfs:label "PartyLeaderSpouse`" ;
+    dsv:columnProperty "political party of leader" .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2/column/PolicyFocusAdditionalDetails> a dsv:Column ;
+    rdfs:label "`PolicyFocus_AdditionalDetails" ;
+    dsv:columnProperty "focus" .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2/column/RecentScandalsCount> a dsv:Column ;
+    rdfs:label "RecentScandalsCount" ;
+    dsv:columnProperty "number of officials" .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2/column/TotalDonationsLastYear> a dsv:Column ;
+    rdfs:label "TotalDonationsLastYear" ;
+    dsv:columnProperty "income" .
+
+<http://metaUnionSearch/datasets/Politics5MHIE2L2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Politics5MHIE2L2/column/CharitableWorkOfTheParty>,
+        <http://metaUnionSearch/datasets/Politics5MHIE2L2/column/DateOfLastPartyConvention>,
+        <http://metaUnionSearch/datasets/Politics5MHIE2L2/column/HeadquartersAddress>,
+        <http://metaUnionSearch/datasets/Politics5MHIE2L2/column/HeadquartersBuildingName>,
+        <http://metaUnionSearch/datasets/Politics5MHIE2L2/column/MembershipCriteriaSpecifics>,
+        <http://metaUnionSearch/datasets/Politics5MHIE2L2/column/MembershipDemographicsAgeDistribution>,
+        <http://metaUnionSearch/datasets/Politics5MHIE2L2/column/MembershipDemographicsDiversity>,
+        <http://metaUnionSearch/datasets/Politics5MHIE2L2/column/MembershipDemographicsGenderDistribution>,
+        <http://metaUnionSearch/datasets/Politics5MHIE2L2/column/NumberOfInternationalAffiliations>,
+        <http://metaUnionSearch/datasets/Politics5MHIE2L2/column/PartyLeaderAge>,
+        <http://metaUnionSearch/datasets/Politics5MHIE2L2/column/PartyLeaderCurrentTenure>,
+        <http://metaUnionSearch/datasets/Politics5MHIE2L2/column/PartyLeaderSpouse>,
+        <http://metaUnionSearch/datasets/Politics5MHIE2L2/column/PolicyFocusAdditionalDetails>,
+        <http://metaUnionSearch/datasets/Politics5MHIE2L2/column/RecentScandalsCount>,
+        <http://metaUnionSearch/datasets/Politics5MHIE2L2/column/TotalDonationsLastYear> .
+

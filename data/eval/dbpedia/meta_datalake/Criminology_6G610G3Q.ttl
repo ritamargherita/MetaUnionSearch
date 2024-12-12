@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_6G610G3Q.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Criminology6G610G3Q/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/AdditionalDetails> a dsv:Column ;
+    rdfs:label "Additional Details" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/ArresteesCount> a dsv:Column ;
+    rdfs:label "Arrestees Count" ;
+    dsv:columnProperty "number of officials" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/ArrestingOfficer> a dsv:Column ;
+    rdfs:label "Arresting Officer" ;
+    dsv:columnProperty "officer in charge" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/CourtDisposition> a dsv:Column ;
+    rdfs:label "Court Disposition" ;
+    dsv:columnProperty "ruling" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/DateTimeArrestMade> a dsv:Column ;
+    rdfs:label "Date & Time Arrest Made" ;
+    dsv:columnProperty "arrest date" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/EvidenceRecovered> a dsv:Column ;
+    rdfs:label "Evidence Recovered" ;
+    dsv:columnProperty "equipment" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/IncidentNumber> a dsv:Column ;
+    rdfs:label "Incident Number" ;
+    dsv:columnProperty "id number" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/InjuryPresent> a dsv:Column ;
+    rdfs:label "Injury Present?" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/LegalOutcome> a dsv:Column ;
+    rdfs:label "Legal Outcome" ;
+    dsv:columnProperty "ruling" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/PerpetratorGender> a dsv:Column ;
+    rdfs:label "Perpetrator Gender" ;
+    dsv:columnProperty "gender" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/PerpetratorRace> a dsv:Column ;
+    rdfs:label "Perpetrator Race" ;
+    dsv:columnProperty "race" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/SuspectedMotive> a dsv:Column ;
+    rdfs:label "Suspected Motive" ;
+    dsv:columnProperty "motive" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/WeaponUsed> a dsv:Column ;
+    rdfs:label "Weapon Used" ;
+    dsv:columnProperty "weapon" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/column/WitnessReports> a dsv:Column ;
+    rdfs:label "Witness Reports" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/Criminology6G610G3Q/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/AdditionalDetails>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/ArresteesCount>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/ArrestingOfficer>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/CourtDisposition>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/DateTimeArrestMade>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/EvidenceRecovered>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/IncidentNumber>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/InjuryPresent>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/LegalOutcome>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/PerpetratorGender>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/PerpetratorRace>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/SuspectedMotive>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/WeaponUsed>,
+        <http://metaUnionSearch/datasets/Criminology6G610G3Q/column/WitnessReports> .
+

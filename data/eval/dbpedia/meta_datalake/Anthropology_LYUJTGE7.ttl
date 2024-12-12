@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AnthropologyLYUJTGE7> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_LYUJTGE7.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/AccessibilityToResearchers> a dsv:Column ;
+    rdfs:label "Accessibility To Researchers" ;
+    dsv:columnProperty "publicly accessible" .
+
+<http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/ArchaeologistName> a dsv:Column ;
+    rdfs:label "Archaeologist Name" ;
+    dsv:columnProperty "curator" .
+
+<http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/CollaboratingInstitutions> a dsv:Column ;
+    rdfs:label "Collaborating Institutions" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/ExcavationYear> a dsv:Column ;
+    rdfs:label "Excavation Year" ;
+    dsv:columnProperty "year of construction" .
+
+<http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/FieldNotes> a dsv:Column ;
+    rdfs:label "Field Notes" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/FundingSources> a dsv:Column ;
+    rdfs:label "Funding Sources" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/LabAnalysisResults> a dsv:Column ;
+    rdfs:label "Lab Analysis Results" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/PreservationStatus> a dsv:Column ;
+    rdfs:label "Preservation Status" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/PublicEngagementEvents> a dsv:Column ;
+    rdfs:label "Public Engagement Events" ;
+    dsv:columnProperty "event" .
+
+<http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/AccessibilityToResearchers>,
+        <http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/ArchaeologistName>,
+        <http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/CollaboratingInstitutions>,
+        <http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/ExcavationYear>,
+        <http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/FieldNotes>,
+        <http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/FundingSources>,
+        <http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/LabAnalysisResults>,
+        <http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/AnthropologyLYUJTGE7/column/PublicEngagementEvents> .
+

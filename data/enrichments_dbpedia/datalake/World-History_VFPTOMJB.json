@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Religions and Belief Systems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Philosophical Thoughts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"
+    },
+    {
+      "column_header": "Artistic Expressions (as a variant of Art & Architecture)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/artisticFunction"
+    },
+    {
+      "column_header": "Cultural Rituals (as a variant of Cultural Practices)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Economic Exchanges",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currency"
+    },
+    {
+      "column_header": "Political Ideologies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ideology"
+    },
+    {
+      "column_header": "Social Interactions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Scientific Methods",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/detectionMethod"
+    },
+    {
+      "column_header": "Technological Applications",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+    },
+    {
+      "column_header": "Geographical Influences",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refgeo"
+    },
+    {
+      "column_header": "Languages and Literature",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/originalLanguage"
+    },
+    {
+      "column_header": "Laws and Justice",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/systemOfLaw"
+    },
+    {
+      "column_header": "Gender Roles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gender"
+    },
+    {
+      "column_header": "Climate and Environment",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Demographics and Migration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"
+    }
+  ]
+}

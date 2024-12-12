@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/HorticultureDRIH330K> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_DRIH330K.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/HorticultureDRIH330K/datasetSchema> .
+
+<http://metaUnionSearch/datasets/HorticultureDRIH330K/column/AveragePlantHeight> a dsv:Column ;
+    rdfs:label "AveragePlantHeight" ;
+    dsv:columnProperty "average" .
+
+<http://metaUnionSearch/datasets/HorticultureDRIH330K/column/CensusID> a dsv:Column ;
+    rdfs:label "CensusID" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/HorticultureDRIH330K/column/CommonUsesAndBenefits> a dsv:Column ;
+    rdfs:label "CommonUsesAndBenefits" ;
+    dsv:columnProperty "flora" .
+
+<http://metaUnionSearch/datasets/HorticultureDRIH330K/column/FloweringPeriod> a dsv:Column ;
+    rdfs:label "FloweringPeriod" ;
+    dsv:columnProperty "flower" .
+
+<http://metaUnionSearch/datasets/HorticultureDRIH330K/column/GeneticMakeupAnalysisResults> a dsv:Column ;
+    rdfs:label "GeneticMakeupAnalysisResults" ;
+    dsv:columnProperty "geneReviewsId" .
+
+<http://metaUnionSearch/datasets/HorticultureDRIH330K/column/GeographicalDistribution> a dsv:Column ;
+    rdfs:label "GeographicalDistribution" ;
+    dsv:columnProperty "reference for geographic data" .
+
+<http://metaUnionSearch/datasets/HorticultureDRIH330K/column/PollinationMechanism> a dsv:Column ;
+    rdfs:label "PollinationMechanism" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/HorticultureDRIH330K/column/PropagationByCuttingsProcedure> a dsv:Column ;
+    rdfs:label "PropagationByCuttingsProcedure" ;
+    dsv:columnProperty "procedure" .
+
+<http://metaUnionSearch/datasets/HorticultureDRIH330K/column/QuantitativePestManagement> a dsv:Column ;
+    rdfs:label "QuantitativePestManagement" ;
+    dsv:columnProperty "its calculation needs" .
+
+<http://metaUnionSearch/datasets/HorticultureDRIH330K/column/SelectedBreedVarietiesCultivars> a dsv:Column ;
+    rdfs:label "SelectedBreedVarietiesCultivars" ;
+    dsv:columnProperty "cultivar" .
+
+<http://metaUnionSearch/datasets/HorticultureDRIH330K/column/SoilpHPreference> a dsv:Column ;
+    rdfs:label "SoilpHPreference" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/HorticultureDRIH330K/column/SymbolicValuesCulture> a dsv:Column ;
+    rdfs:label "SymbolicValuesCulture" ;
+    dsv:columnProperty "common name" .
+
+<http://metaUnionSearch/datasets/HorticultureDRIH330K/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/HorticultureDRIH330K/column/AveragePlantHeight>,
+        <http://metaUnionSearch/datasets/HorticultureDRIH330K/column/CensusID>,
+        <http://metaUnionSearch/datasets/HorticultureDRIH330K/column/CommonUsesAndBenefits>,
+        <http://metaUnionSearch/datasets/HorticultureDRIH330K/column/FloweringPeriod>,
+        <http://metaUnionSearch/datasets/HorticultureDRIH330K/column/GeneticMakeupAnalysisResults>,
+        <http://metaUnionSearch/datasets/HorticultureDRIH330K/column/GeographicalDistribution>,
+        <http://metaUnionSearch/datasets/HorticultureDRIH330K/column/PollinationMechanism>,
+        <http://metaUnionSearch/datasets/HorticultureDRIH330K/column/PropagationByCuttingsProcedure>,
+        <http://metaUnionSearch/datasets/HorticultureDRIH330K/column/QuantitativePestManagement>,
+        <http://metaUnionSearch/datasets/HorticultureDRIH330K/column/SelectedBreedVarietiesCultivars>,
+        <http://metaUnionSearch/datasets/HorticultureDRIH330K/column/SoilpHPreference>,
+        <http://metaUnionSearch/datasets/HorticultureDRIH330K/column/SymbolicValuesCulture> .
+

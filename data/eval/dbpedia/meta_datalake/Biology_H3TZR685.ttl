@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BiologyH3TZR685> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_H3TZR685.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BiologyH3TZR685/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BiologyH3TZR685/column/Additionalgeneticinformation> a dsv:Column ;
+    rdfs:label "Additional genetic information" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/BiologyH3TZR685/column/BioentityIDnumber> a dsv:Column ;
+    rdfs:label "Bioentity ID number" ;
+    dsv:columnProperty "id number" .
+
+<http://metaUnionSearch/datasets/BiologyH3TZR685/column/Cellularlocationadditionaldetails> a dsv:Column ;
+    rdfs:label "Cellular location (additional details)" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/BiologyH3TZR685/column/Evidencedocumentation> a dsv:Column ;
+    rdfs:label "Evidence documentation" ;
+    dsv:columnProperty "reference" .
+
+<http://metaUnionSearch/datasets/BiologyH3TZR685/column/Geneexpressionregulation> a dsv:Column ;
+    rdfs:label "Gene expression regulation" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/BiologyH3TZR685/column/Metabolicpathwayassociations> a dsv:Column ;
+    rdfs:label "Metabolic pathway associations" ;
+    dsv:columnProperty "KEGG" .
+
+<http://metaUnionSearch/datasets/BiologyH3TZR685/column/Mutationimpactanalysis> a dsv:Column ;
+    rdfs:label "Mutation impact analysis" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/BiologyH3TZR685/column/Phosphorylationsites> a dsv:Column ;
+    rdfs:label "Phosphorylation sites" ;
+    dsv:columnProperty "Indicates an annotation associated with this document" .
+
+<http://metaUnionSearch/datasets/BiologyH3TZR685/column/Proteincomplexmembership> a dsv:Column ;
+    rdfs:label "Protein complex membership" ;
+    dsv:columnProperty "protein (g)" .
+
+<http://metaUnionSearch/datasets/BiologyH3TZR685/column/References> a dsv:Column ;
+    rdfs:label "References." ;
+    dsv:columnProperty "reference" .
+
+<http://metaUnionSearch/datasets/BiologyH3TZR685/column/Subcellulardistribution> a dsv:Column ;
+    rdfs:label "Subcellular distribution" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/BiologyH3TZR685/column/Sumoylatingsitecounts> a dsv:Column ;
+    rdfs:label "Sumoylating site counts" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/BiologyH3TZR685/column/Ubiquitinationsites> a dsv:Column ;
+    rdfs:label "Ubiquitination sites" ;
+    dsv:columnProperty "Indicates an annotation associated with this document" .
+
+<http://metaUnionSearch/datasets/BiologyH3TZR685/column/Wildtypedomainpresence> a dsv:Column ;
+    rdfs:label "Wildtype domain presence" ;
+    dsv:columnProperty "Gene Location" .
+
+<http://metaUnionSearch/datasets/BiologyH3TZR685/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BiologyH3TZR685/column/Additionalgeneticinformation>,
+        <http://metaUnionSearch/datasets/BiologyH3TZR685/column/BioentityIDnumber>,
+        <http://metaUnionSearch/datasets/BiologyH3TZR685/column/Cellularlocationadditionaldetails>,
+        <http://metaUnionSearch/datasets/BiologyH3TZR685/column/Evidencedocumentation>,
+        <http://metaUnionSearch/datasets/BiologyH3TZR685/column/Geneexpressionregulation>,
+        <http://metaUnionSearch/datasets/BiologyH3TZR685/column/Metabolicpathwayassociations>,
+        <http://metaUnionSearch/datasets/BiologyH3TZR685/column/Mutationimpactanalysis>,
+        <http://metaUnionSearch/datasets/BiologyH3TZR685/column/Phosphorylationsites>,
+        <http://metaUnionSearch/datasets/BiologyH3TZR685/column/Proteincomplexmembership>,
+        <http://metaUnionSearch/datasets/BiologyH3TZR685/column/References>,
+        <http://metaUnionSearch/datasets/BiologyH3TZR685/column/Subcellulardistribution>,
+        <http://metaUnionSearch/datasets/BiologyH3TZR685/column/Sumoylatingsitecounts>,
+        <http://metaUnionSearch/datasets/BiologyH3TZR685/column/Ubiquitinationsites>,
+        <http://metaUnionSearch/datasets/BiologyH3TZR685/column/Wildtypedomainpresence> .
+

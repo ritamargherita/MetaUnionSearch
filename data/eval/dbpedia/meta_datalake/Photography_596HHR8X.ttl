@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Photography596HHR8X> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_596HHR8X.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Photography596HHR8X/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Photography596HHR8X/column/ApertureValue> a dsv:Column ;
+    rdfs:label "Aperture Value" ;
+    dsv:columnProperty "cinematography" .
+
+<http://metaUnionSearch/datasets/Photography596HHR8X/column/DateTaken> a dsv:Column ;
+    rdfs:label "Date Taken" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/Photography596HHR8X/column/ExposureCompensation> a dsv:Column ;
+    rdfs:label "Exposure Compensation" ;
+    dsv:columnProperty "cinematography" .
+
+<http://metaUnionSearch/datasets/Photography596HHR8X/column/FileName> a dsv:Column ;
+    rdfs:label "FileName" ;
+    dsv:columnProperty "filename" .
+
+<http://metaUnionSearch/datasets/Photography596HHR8X/column/FocalLength> a dsv:Column ;
+    rdfs:label "Focal Length" ;
+    dsv:columnProperty "cinematography" .
+
+<http://metaUnionSearch/datasets/Photography596HHR8X/column/ISO> a dsv:Column ;
+    rdfs:label "ISO" ;
+    dsv:columnProperty "ISO region code" .
+
+<http://metaUnionSearch/datasets/Photography596HHR8X/column/LensMake> a dsv:Column ;
+    rdfs:label "Lens Make" ;
+    dsv:columnProperty "manufacturer" .
+
+<http://metaUnionSearch/datasets/Photography596HHR8X/column/LensModel> a dsv:Column ;
+    rdfs:label "Lens Model" ;
+    dsv:columnProperty "model" .
+
+<http://metaUnionSearch/datasets/Photography596HHR8X/column/LightSource> a dsv:Column ;
+    rdfs:label "Light Source" ;
+    dsv:columnProperty "cinematography" .
+
+<http://metaUnionSearch/datasets/Photography596HHR8X/column/MeteringMode> a dsv:Column ;
+    rdfs:label "Metering Mode" ;
+    dsv:columnProperty "cinematography" .
+
+<http://metaUnionSearch/datasets/Photography596HHR8X/column/ShutterSpeed> a dsv:Column ;
+    rdfs:label "Shutter Speed" ;
+    dsv:columnProperty "cinematography" .
+
+<http://metaUnionSearch/datasets/Photography596HHR8X/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Photography596HHR8X/column/ApertureValue>,
+        <http://metaUnionSearch/datasets/Photography596HHR8X/column/DateTaken>,
+        <http://metaUnionSearch/datasets/Photography596HHR8X/column/ExposureCompensation>,
+        <http://metaUnionSearch/datasets/Photography596HHR8X/column/FileName>,
+        <http://metaUnionSearch/datasets/Photography596HHR8X/column/FocalLength>,
+        <http://metaUnionSearch/datasets/Photography596HHR8X/column/ISO>,
+        <http://metaUnionSearch/datasets/Photography596HHR8X/column/LensMake>,
+        <http://metaUnionSearch/datasets/Photography596HHR8X/column/LensModel>,
+        <http://metaUnionSearch/datasets/Photography596HHR8X/column/LightSource>,
+        <http://metaUnionSearch/datasets/Photography596HHR8X/column/MeteringMode>,
+        <http://metaUnionSearch/datasets/Photography596HHR8X/column/ShutterSpeed> .
+

@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AnthropologyO90S1ME4> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_O90S1ME4.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AnthropologyO90S1ME4/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/ArchaeologistName> a dsv:Column ;
+    rdfs:label "ArchaeologistName" ;
+    dsv:columnProperty "curator" .
+
+<http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/BoneToolsFound> a dsv:Column ;
+    rdfs:label "BoneToolsFound" ;
+    dsv:columnProperty "curator" .
+
+<http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/CulturalArtisticExpressions> a dsv:Column ;
+    rdfs:label "CulturalArtisticExpressions" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/ExcavationYear> a dsv:Column ;
+    rdfs:label "ExcavationYear" ;
+    dsv:columnProperty "year of construction" .
+
+<http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/FieldNotes> a dsv:Column ;
+    rdfs:label "FieldNotes" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/GeographicalFeaturesSurroundings> a dsv:Column ;
+    rdfs:label "GeographicalFeaturesSurroundings" ;
+    dsv:columnProperty "reference for geographic data" .
+
+<http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/LithicToolsFound> a dsv:Column ;
+    rdfs:label "LithicToolsFound" ;
+    dsv:columnProperty "arm" .
+
+<http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/NaturalResourcesUtilized> a dsv:Column ;
+    rdfs:label "NaturalResourcesUtilized" ;
+    dsv:columnProperty "fuel" .
+
+<http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/NeighboringPopulationsDescription> a dsv:Column ;
+    rdfs:label "NeighboringPopulationsDescription" ;
+    dsv:columnProperty "neighboring municipality" .
+
+<http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/NumberOfStrataStudied> a dsv:Column ;
+    rdfs:label "NumberOfStrataStudied" ;
+    dsv:columnProperty "number" .
+
+<http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/PotteryShardsCollected> a dsv:Column ;
+    rdfs:label "PotteryShardsCollected" ;
+    dsv:columnProperty "museum" .
+
+<http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/PreservationStatus> a dsv:Column ;
+    rdfs:label "PreservationStatus" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/RadiocarbonDatingResults> a dsv:Column ;
+    rdfs:label "RadiocarbonDatingResults" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/TradeItemsIdentified> a dsv:Column ;
+    rdfs:label "TradeItemsIdentified" ;
+    dsv:columnProperty "supplies" .
+
+<http://metaUnionSearch/datasets/AnthropologyO90S1ME4/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/ArchaeologistName>,
+        <http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/BoneToolsFound>,
+        <http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/CulturalArtisticExpressions>,
+        <http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/ExcavationYear>,
+        <http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/FieldNotes>,
+        <http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/GeographicalFeaturesSurroundings>,
+        <http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/LithicToolsFound>,
+        <http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/NaturalResourcesUtilized>,
+        <http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/NeighboringPopulationsDescription>,
+        <http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/NumberOfStrataStudied>,
+        <http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/PotteryShardsCollected>,
+        <http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/RadiocarbonDatingResults>,
+        <http://metaUnionSearch/datasets/AnthropologyO90S1ME4/column/TradeItemsIdentified> .
+

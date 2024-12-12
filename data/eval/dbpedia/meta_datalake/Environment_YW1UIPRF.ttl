@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EnvironmentYW1UIPRF> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_YW1UIPRF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/ClimateChangeImpactScore> a dsv:Column ;
+    rdfs:label "Climate_Change_Impact_Score" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/EnvironmentalEducationLevel> a dsv:Column ;
+    rdfs:label "Environmental_Education_Level" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/ExtinctSpecieCount> a dsv:Column ;
+    rdfs:label "Extinct_Specie_Count" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/GreenJobsEmploymentRate> a dsv:Column ;
+    rdfs:label "Green_Jobs_Employment_Rate%" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/GreenSpacesperCapitakm2> a dsv:Column ;
+    rdfs:label "Green_Spaces_per_Capita_km2" ;
+    dsv:columnProperty "area urban (m2)" .
+
+<http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/NaturalDisasterFrequency> a dsv:Column ;
+    rdfs:label "Natural_Disaster_Frequency" ;
+    dsv:columnProperty "casualties" .
+
+<http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/NoisePollutionLevel> a dsv:Column ;
+    rdfs:label "Noise_Pollution_Level" .
+
+<http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/RecyclingRate> a dsv:Column ;
+    rdfs:label "Recycling_Rate%" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/RenewableEnergyConsumption> a dsv:Column ;
+    rdfs:label "Renewable_Energy_Consumption_%" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/WasteManagement> a dsv:Column ;
+    rdfs:label "Waste_Management" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/ClimateChangeImpactScore>,
+        <http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/EnvironmentalEducationLevel>,
+        <http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/ExtinctSpecieCount>,
+        <http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/GreenJobsEmploymentRate>,
+        <http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/GreenSpacesperCapitakm2>,
+        <http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/NaturalDisasterFrequency>,
+        <http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/NoisePollutionLevel>,
+        <http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/RecyclingRate>,
+        <http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/RenewableEnergyConsumption>,
+        <http://metaUnionSearch/datasets/EnvironmentYW1UIPRF/column/WasteManagement> .
+

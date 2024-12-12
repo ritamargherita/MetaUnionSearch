@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MusicG7CON4RC> a dsv:Dataset ;
+    dcterms:subject "music" ;
+    dcterms:title "Music_G7CON4RC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MusicG7CON4RC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MusicG7CON4RC/column/Choreographer> a dsv:Column ;
+    rdfs:label "Choreographer" ;
+    dsv:columnProperty "choreographer" .
+
+<http://metaUnionSearch/datasets/MusicG7CON4RC/column/Composers> a dsv:Column ;
+    rdfs:label "Composer(s)" ;
+    dsv:columnProperty "music composer" .
+
+<http://metaUnionSearch/datasets/MusicG7CON4RC/column/DistributorsOnline> a dsv:Column ;
+    rdfs:label "Distributors (Online)" ;
+    dsv:columnProperty "distributor" .
+
+<http://metaUnionSearch/datasets/MusicG7CON4RC/column/DistributorsPhysicalRetail> a dsv:Column ;
+    rdfs:label "Distributors (Physical Retail)" ;
+    dsv:columnProperty "distributor" .
+
+<http://metaUnionSearch/datasets/MusicG7CON4RC/column/DistributorsRecordShops> a dsv:Column ;
+    rdfs:label "Distributors (Record Shops)" ;
+    dsv:columnProperty "distributor" .
+
+<http://metaUnionSearch/datasets/MusicG7CON4RC/column/DistributorsStreamingPlatform> a dsv:Column ;
+    rdfs:label "Distributors (Streaming Platform)" ;
+    dsv:columnProperty "distributor" .
+
+<http://metaUnionSearch/datasets/MusicG7CON4RC/column/LivePerformanceVenue1> a dsv:Column ;
+    rdfs:label "Live Performance Venue 1" ;
+    dsv:columnProperty "home arena" .
+
+<http://metaUnionSearch/datasets/MusicG7CON4RC/column/LivePerformanceVenue2> a dsv:Column ;
+    rdfs:label "Live Performance Venue 2" ;
+    dsv:columnProperty "home arena" .
+
+<http://metaUnionSearch/datasets/MusicG7CON4RC/column/LivePerformanceVenue3> a dsv:Column ;
+    rdfs:label "Live Performance Venue 3" ;
+    dsv:columnProperty "home arena" .
+
+<http://metaUnionSearch/datasets/MusicG7CON4RC/column/LyricsWriter> a dsv:Column ;
+    rdfs:label "Lyrics Writer" ;
+    dsv:columnProperty "lyrics" .
+
+<http://metaUnionSearch/datasets/MusicG7CON4RC/column/MarketingAgency> a dsv:Column ;
+    rdfs:label "Marketing Agency" ;
+    dsv:columnProperty "agency" .
+
+<http://metaUnionSearch/datasets/MusicG7CON4RC/column/MusicVideoDirector> a dsv:Column ;
+    rdfs:label "Music Video Director" ;
+    dsv:columnProperty "film director" .
+
+<http://metaUnionSearch/datasets/MusicG7CON4RC/column/RecordStudio> a dsv:Column ;
+    rdfs:label "Record Studio" ;
+    dsv:columnProperty "recorded in" .
+
+<http://metaUnionSearch/datasets/MusicG7CON4RC/column/SoundEngineer> a dsv:Column ;
+    rdfs:label "Sound Engineer" ;
+    dsv:columnProperty "engineer" .
+
+<http://metaUnionSearch/datasets/MusicG7CON4RC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MusicG7CON4RC/column/Choreographer>,
+        <http://metaUnionSearch/datasets/MusicG7CON4RC/column/Composers>,
+        <http://metaUnionSearch/datasets/MusicG7CON4RC/column/DistributorsOnline>,
+        <http://metaUnionSearch/datasets/MusicG7CON4RC/column/DistributorsPhysicalRetail>,
+        <http://metaUnionSearch/datasets/MusicG7CON4RC/column/DistributorsRecordShops>,
+        <http://metaUnionSearch/datasets/MusicG7CON4RC/column/DistributorsStreamingPlatform>,
+        <http://metaUnionSearch/datasets/MusicG7CON4RC/column/LivePerformanceVenue1>,
+        <http://metaUnionSearch/datasets/MusicG7CON4RC/column/LivePerformanceVenue2>,
+        <http://metaUnionSearch/datasets/MusicG7CON4RC/column/LivePerformanceVenue3>,
+        <http://metaUnionSearch/datasets/MusicG7CON4RC/column/LyricsWriter>,
+        <http://metaUnionSearch/datasets/MusicG7CON4RC/column/MarketingAgency>,
+        <http://metaUnionSearch/datasets/MusicG7CON4RC/column/MusicVideoDirector>,
+        <http://metaUnionSearch/datasets/MusicG7CON4RC/column/RecordStudio>,
+        <http://metaUnionSearch/datasets/MusicG7CON4RC/column/SoundEngineer> .
+

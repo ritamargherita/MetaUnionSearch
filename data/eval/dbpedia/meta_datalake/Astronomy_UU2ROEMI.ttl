@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronomyUU2ROEMI> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_UU2ROEMI.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronomyUU2ROEMI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/AssociationswithOpenClusters> a dsv:Column ;
+    rdfs:label "Associations with Open Clusters" ;
+    dsv:columnProperty "cluster" .
+
+<http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/AverageTemperatureKelvin> a dsv:Column ;
+    rdfs:label "Average Temperature_Kelvin" ;
+    dsv:columnProperty "temperature (K)" .
+
+<http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/DistanceFromSunly> a dsv:Column ;
+    rdfs:label "Distance From Sun (ly)" ;
+    dsv:columnProperty "distance (μ)" .
+
+<http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/DustComponent> a dsv:Column ;
+    rdfs:label "Dust Component?" ;
+    dsv:columnProperty "component" .
+
+<http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/GalacticCoordinateslb> a dsv:Column ;
+    rdfs:label "Galactic Coordinates (l,b)" ;
+    dsv:columnProperty "position" .
+
+<http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/GasComposition> a dsv:Column ;
+    rdfs:label "Gas Composition (%)" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/NearbySupernovaRemnantNames> a dsv:Column ;
+    rdfs:label "Nearby Supernova Remnant Names" ;
+    dsv:columnProperty "neighbour constellations" .
+
+<http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/NebulaCategory> a dsv:Column ;
+    rdfs:label "Nebula Category" ;
+    dsv:columnProperty "category" .
+
+<http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/NebulaName> a dsv:Column ;
+    rdfs:label "Nebula Name" ;
+    dsv:columnProperty "NGC name" .
+
+<http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/ProperMotionxy> a dsv:Column ;
+    rdfs:label "Proper Motion (x,y)" ;
+    dsv:columnProperty "acceleration (s)" .
+
+<http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/RadiusLightYears> a dsv:Column ;
+    rdfs:label "Radius (Light Years)" ;
+    dsv:columnProperty "Radius_ly" .
+
+<http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/RedshiftValue> a dsv:Column ;
+    rdfs:label "Redshift Value" ;
+    dsv:columnProperty "value" .
+
+<http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/StarFormationRegionsPresentorNot> a dsv:Column ;
+    rdfs:label "Star Formation Regions Present or Not" ;
+    dsv:columnProperty "source region" .
+
+<http://metaUnionSearch/datasets/AstronomyUU2ROEMI/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/AssociationswithOpenClusters>,
+        <http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/AverageTemperatureKelvin>,
+        <http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/DistanceFromSunly>,
+        <http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/DustComponent>,
+        <http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/GalacticCoordinateslb>,
+        <http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/GasComposition>,
+        <http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/NearbySupernovaRemnantNames>,
+        <http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/NebulaCategory>,
+        <http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/NebulaName>,
+        <http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/ProperMotionxy>,
+        <http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/RadiusLightYears>,
+        <http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/RedshiftValue>,
+        <http://metaUnionSearch/datasets/AstronomyUU2ROEMI/column/StarFormationRegionsPresentorNot> .
+

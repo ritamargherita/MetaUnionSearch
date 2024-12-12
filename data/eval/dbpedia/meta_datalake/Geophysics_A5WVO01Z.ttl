@@ -1,0 +1,79 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeophysicsA5WVO01Z> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_A5WVO01Z.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/AgeDeterminationMethods> a dsv:Column ;
+    rdfs:label "Age Determination Methods" ;
+    dsv:columnProperty "age" .
+
+<http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/Density> a dsv:Column ;
+    rdfs:label "Density" ;
+    dsv:columnProperty "density (μ3)" .
+
+<http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/ElectricalConductivity> a dsv:Column ;
+    rdfs:label "Electrical Conductivity" .
+
+<http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/FractureOrientation> a dsv:Column ;
+    rdfs:label "Fracture Orientation" ;
+    dsv:columnProperty "orientation" .
+
+<http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/GeologicProvinces> a dsv:Column ;
+    rdfs:label "Geologic Provinces" ;
+    dsv:columnProperty "province" .
+
+<http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/GravityAnomalies> a dsv:Column ;
+    rdfs:label "Gravity Anomalies" ;
+    dsv:columnProperty "surface gravity (g)" .
+
+<http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/MagneticAnomalies> a dsv:Column ;
+    rdfs:label "Magnetic Anomalies" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/MagneticSusceptibility> a dsv:Column ;
+    rdfs:label "Magnetic Susceptibility" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/Radioactivity> a dsv:Column ;
+    rdfs:label "Radioactivity" ;
+    dsv:columnProperty "activity" .
+
+<http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/RockTypes> a dsv:Column ;
+    rdfs:label "Rock Types" ;
+    dsv:columnProperty "kind of rock" .
+
+<http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/SeismicAnisotropy> a dsv:Column ;
+    rdfs:label "Seismic Anisotropy" ;
+    dsv:columnProperty "other activity" .
+
+<http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/Strain> a dsv:Column ;
+    rdfs:label "Strain" ;
+    dsv:columnProperty "strength" .
+
+<http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/Stress> a dsv:Column ;
+    rdfs:label "Stress" ;
+    dsv:columnProperty "strength" .
+
+<http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/ThermalConductivity> a dsv:Column ;
+    rdfs:label "Thermal Conductivity" .
+
+<http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/AgeDeterminationMethods>,
+        <http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/Density>,
+        <http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/ElectricalConductivity>,
+        <http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/FractureOrientation>,
+        <http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/GeologicProvinces>,
+        <http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/GravityAnomalies>,
+        <http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/MagneticAnomalies>,
+        <http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/MagneticSusceptibility>,
+        <http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/Radioactivity>,
+        <http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/RockTypes>,
+        <http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/SeismicAnisotropy>,
+        <http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/Strain>,
+        <http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/Stress>,
+        <http://metaUnionSearch/datasets/GeophysicsA5WVO01Z/column/ThermalConductivity> .
+

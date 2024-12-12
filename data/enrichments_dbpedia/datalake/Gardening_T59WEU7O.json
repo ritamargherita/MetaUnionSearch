@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "GardenLocation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "ClimateType",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "IrrigationSystem",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "SoilingSchedule",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/management"
+    },
+    {
+      "column_header": "PestManagement",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/management"
+    },
+    {
+      "column_header": "HarvestSeason",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/season"
+    },
+    {
+      "column_header": "TotalAreaSqMeters",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/areaTotal"
+    },
+    {
+      "column_header": "NumberofYearsUsingGarden",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/years"
+    },
+    {
+      "column_header": "BudgetAllocationYearly",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/budgetYear"
+    },
+    {
+      "column_header": "MembersInvolved",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfMembers"
+    },
+    {
+      "column_header": "CommunityEngagementLevel",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/communityIsoCode"
+    },
+    {
+      "column_header": "VolunteerEventsOrganizedAnnually",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfVolunteers"
+    },
+    {
+      "column_header": "MaintenanceRecordsKept",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/maintainedBy"
+    },
+    {
+      "column_header": "AchievementsUnlocked",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/achievement"
+    }
+  ]
+}

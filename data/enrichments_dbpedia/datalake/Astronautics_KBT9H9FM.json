@@ -1,0 +1,64 @@
+{
+    "mapping": [
+        {
+            "column_header": "Mission Name",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/mission"
+        },
+        {
+            "column_header": " Start Date",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/startDate"
+        },
+        {
+            "column_header": " Duration (days)",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/missionDuration"
+        },
+        {
+            "column_header": " Spacecraft Used",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/spacecraft"
+        },
+        {
+            "column_header": " Primary Objective",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"
+        },
+        {
+            "column_header": " Astronaut On Board",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/crewMember"
+        },
+        {
+            "column_header": " Orbit Achieved",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/orbits"
+        },
+        {
+            "column_header": " Payloads Deployed",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/satellitesDeployed"
+        },
+        {
+            "column_header": " Reusable?",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+        },
+        {
+            "column_header": " First Stage Return?",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+        },
+        {
+            "column_header": " Crew Count",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfCrew"
+        },
+        {
+            "column_header": " Funding Source",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+        },
+        {
+            "column_header": " Collaborating Agencies",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+        },
+        {
+            "column_header": " Political Significance",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/politicalFunction"
+        },
+        {
+            "column_header": " Scientific Outcomes",
+            "dbpedia_property_id": "http://dbpedia.org/ontology/result"
+        }
+    ]
+}

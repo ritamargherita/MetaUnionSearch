@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Ecology00T2RJMG> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_00T2RJMG.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Ecology00T2RJMG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Ecology00T2RJMG/column/BiodiversityHotspots> a dsv:Column ;
+    rdfs:label "Biodiversity Hotspots" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/Ecology00T2RJMG/column/ClimateChangeImpact> a dsv:Column ;
+    rdfs:label "Climate Change Impact." ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/Ecology00T2RJMG/column/ConservationFunding> a dsv:Column ;
+    rdfs:label "Conservation Funding" ;
+    dsv:columnProperty "project budget funding ($)" .
+
+<http://metaUnionSearch/datasets/Ecology00T2RJMG/column/EndangeredSpecies> a dsv:Column ;
+    rdfs:label "Endangered Species" ;
+    dsv:columnProperty "endangered since" .
+
+<http://metaUnionSearch/datasets/Ecology00T2RJMG/column/InvasiveSpecies> a dsv:Column ;
+    rdfs:label "Invasive Species" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/Ecology00T2RJMG/column/NativeSpecies> a dsv:Column ;
+    rdfs:label "Native Species" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/Ecology00T2RJMG/column/PolicyMeasures> a dsv:Column ;
+    rdfs:label "Policy Measures" ;
+    dsv:columnProperty "associated act" .
+
+<http://metaUnionSearch/datasets/Ecology00T2RJMG/column/PopulationTrends> a dsv:Column ;
+    rdfs:label "Population Trends" ;
+    dsv:columnProperty "population year" .
+
+<http://metaUnionSearch/datasets/Ecology00T2RJMG/column/ProtectedAreas> a dsv:Column ;
+    rdfs:label "Protected Areas" ;
+    dsv:columnProperty "monument protection status" .
+
+<http://metaUnionSearch/datasets/Ecology00T2RJMG/column/PublicEngagement> a dsv:Column ;
+    rdfs:label "Public Engagement" ;
+    dsv:columnProperty "publicly accessible" .
+
+<http://metaUnionSearch/datasets/Ecology00T2RJMG/column/ResearchInitiatives> a dsv:Column ;
+    rdfs:label "Research Initiatives" ;
+    dsv:columnProperty "project type" .
+
+<http://metaUnionSearch/datasets/Ecology00T2RJMG/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Ecology00T2RJMG/column/BiodiversityHotspots>,
+        <http://metaUnionSearch/datasets/Ecology00T2RJMG/column/ClimateChangeImpact>,
+        <http://metaUnionSearch/datasets/Ecology00T2RJMG/column/ConservationFunding>,
+        <http://metaUnionSearch/datasets/Ecology00T2RJMG/column/EndangeredSpecies>,
+        <http://metaUnionSearch/datasets/Ecology00T2RJMG/column/InvasiveSpecies>,
+        <http://metaUnionSearch/datasets/Ecology00T2RJMG/column/NativeSpecies>,
+        <http://metaUnionSearch/datasets/Ecology00T2RJMG/column/PolicyMeasures>,
+        <http://metaUnionSearch/datasets/Ecology00T2RJMG/column/PopulationTrends>,
+        <http://metaUnionSearch/datasets/Ecology00T2RJMG/column/ProtectedAreas>,
+        <http://metaUnionSearch/datasets/Ecology00T2RJMG/column/PublicEngagement>,
+        <http://metaUnionSearch/datasets/Ecology00T2RJMG/column/ResearchInitiatives> .
+

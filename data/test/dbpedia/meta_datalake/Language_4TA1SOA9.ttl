@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Language4TA1SOA9> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_4TA1SOA9.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Language4TA1SOA9/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Language4TA1SOA9/column/BilingualismImpact> a dsv:Column ;
+    rdfs:label "Bilingualism Impact" ;
+    dsv:columnProperty "other language of a settlement" .
+
+<http://metaUnionSearch/datasets/Language4TA1SOA9/column/CulturalSignificance> a dsv:Column ;
+    rdfs:label "Cultural Significance" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/Language4TA1SOA9/column/HistoricalDevelopmentofLanguages> a dsv:Column ;
+    rdfs:label "Historical Development of Languages" ;
+    dsv:columnProperty "original language" .
+
+<http://metaUnionSearch/datasets/Language4TA1SOA9/column/LanguageComplexity> a dsv:Column ;
+    rdfs:label "Language Complexity" ;
+    dsv:columnProperty "complexity" .
+
+<http://metaUnionSearch/datasets/Language4TA1SOA9/column/LanguageContact> a dsv:Column ;
+    rdfs:label "Language Contact" ;
+    dsv:columnProperty "linguistics tradition" .
+
+<http://metaUnionSearch/datasets/Language4TA1SOA9/column/LinguisticArea> a dsv:Column ;
+    rdfs:label "Linguistic Area" ;
+    dsv:columnProperty "regional language" .
+
+<http://metaUnionSearch/datasets/Language4TA1SOA9/column/LiteratureArtForms> a dsv:Column ;
+    rdfs:label "Literature & Art Forms" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/Language4TA1SOA9/column/ReligiousContext> a dsv:Column ;
+    rdfs:label "Religious Context" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/Language4TA1SOA9/column/SpiritualSignificance> a dsv:Column ;
+    rdfs:label "Spiritual Significance" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/Language4TA1SOA9/column/TypeofLanguage> a dsv:Column ;
+    rdfs:label "Type of Language" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/Language4TA1SOA9/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Language4TA1SOA9/column/BilingualismImpact>,
+        <http://metaUnionSearch/datasets/Language4TA1SOA9/column/CulturalSignificance>,
+        <http://metaUnionSearch/datasets/Language4TA1SOA9/column/HistoricalDevelopmentofLanguages>,
+        <http://metaUnionSearch/datasets/Language4TA1SOA9/column/LanguageComplexity>,
+        <http://metaUnionSearch/datasets/Language4TA1SOA9/column/LanguageContact>,
+        <http://metaUnionSearch/datasets/Language4TA1SOA9/column/LinguisticArea>,
+        <http://metaUnionSearch/datasets/Language4TA1SOA9/column/LiteratureArtForms>,
+        <http://metaUnionSearch/datasets/Language4TA1SOA9/column/ReligiousContext>,
+        <http://metaUnionSearch/datasets/Language4TA1SOA9/column/SpiritualSignificance>,
+        <http://metaUnionSearch/datasets/Language4TA1SOA9/column/TypeofLanguage> .
+

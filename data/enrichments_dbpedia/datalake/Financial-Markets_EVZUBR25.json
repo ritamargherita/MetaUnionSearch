@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Commodity Prices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/price"
+    },
+    {
+      "column_header": "Central Bank Interest Rates",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mainInterest"
+    },
+    {
+      "column_header": "Derivatives Market",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/derivative"
+    },
+    {
+      "column_header": "Bond Yields",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "Consumer Spending",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": "Corporate Profits",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": "Industrial Production",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/production"
+    },
+    {
+      "column_header": "Housing Market",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/house"
+    },
+    {
+      "column_header": "Regional Economic Indicators",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/regionalPrefecture"
+    },
+    {
+      "column_header": "Major Global Stock Exchanges",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/stockExchange"
+    }
+  ]
+}

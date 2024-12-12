@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EngineeringB5UL5NWQ> a dsv:Dataset ;
+    dcterms:subject "engineering" ;
+    dcterms:title "Engineering_B5UL5NWQ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/Budgeting> a dsv:Column ;
+    rdfs:label "Budgeting" ;
+    dsv:columnProperty "budget ($)" .
+
+<http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/CodeReview> a dsv:Column ;
+    rdfs:label "Code_Review" ;
+    dsv:columnProperty "review" .
+
+<http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/Devteam> a dsv:Column ;
+    rdfs:label "Dev_team" ;
+    dsv:columnProperty "team" .
+
+<http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/Enddate> a dsv:Column ;
+    rdfs:label "End_date" ;
+    dsv:columnProperty "end date" .
+
+<http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/Numberofcodemodules> a dsv:Column ;
+    rdfs:label "Number_of_code_modules" ;
+    dsv:columnProperty "numberOfClasses" .
+
+<http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/ProjectProgress> a dsv:Column ;
+    rdfs:label "Project_Progress%" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/ScopeFeaturesFunctionality> a dsv:Column ;
+    rdfs:label "Scope-Features_Functionality" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/ScrumMaster> a dsv:Column ;
+    rdfs:label "Scrum_Master?" ;
+    dsv:columnProperty "team manager" .
+
+<http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/SoftwareEngineer> a dsv:Column ;
+    rdfs:label "Software Engineer" ;
+    dsv:columnProperty "engineer" .
+
+<http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/Startdate> a dsv:Column ;
+    rdfs:label "Start_date" ;
+    dsv:columnProperty "function start date" .
+
+<http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/TestingQAProcedures> a dsv:Column ;
+    rdfs:label "Testing_QA_Procedures" ;
+    dsv:columnProperty "procedure" .
+
+<http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/Budgeting>,
+        <http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/CodeReview>,
+        <http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/Devteam>,
+        <http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/Enddate>,
+        <http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/Numberofcodemodules>,
+        <http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/ProjectProgress>,
+        <http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/ScopeFeaturesFunctionality>,
+        <http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/ScrumMaster>,
+        <http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/SoftwareEngineer>,
+        <http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/Startdate>,
+        <http://metaUnionSearch/datasets/EngineeringB5UL5NWQ/column/TestingQAProcedures> .
+

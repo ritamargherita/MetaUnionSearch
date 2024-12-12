@@ -1,0 +1,26 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BiologyFOH3HJ5S> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_FOH3HJ5S.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BiologyFOH3HJ5S/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BiologyFOH3HJ5S/column/> a dsv:Column ;
+    rdfs:label "" ;
+    dsv:columnProperty "note" .
+
+<http://metaUnionSearch/datasets/BiologyFOH3HJ5S/column/Higherleveltaxonomicclassifications> a dsv:Column ;
+    rdfs:label "Higher-level taxonomic classifications" ;
+    dsv:columnProperty "phylum" .
+
+<http://metaUnionSearch/datasets/BiologyFOH3HJ5S/column/Taxonomicclassification> a dsv:Column ;
+    rdfs:label "Taxonomic classification" ;
+    dsv:columnProperty "genus" .
+
+<http://metaUnionSearch/datasets/BiologyFOH3HJ5S/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BiologyFOH3HJ5S/column/>,
+        <http://metaUnionSearch/datasets/BiologyFOH3HJ5S/column/Higherleveltaxonomicclassifications>,
+        <http://metaUnionSearch/datasets/BiologyFOH3HJ5S/column/Taxonomicclassification> .
+

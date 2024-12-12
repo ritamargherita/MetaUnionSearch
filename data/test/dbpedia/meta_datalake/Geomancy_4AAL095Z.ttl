@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_4AAL095Z.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geomancy4AAL095Z/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/AdditionalElementLinkages> a dsv:Column ;
+    rdfs:label "Additional Element Linkages" ;
+    dsv:columnProperty "linked to" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/AdvancedShapeAnalysis> a dsv:Column ;
+    rdfs:label "Advanced Shape Analysis" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/AlternatePredictiveTechniques> a dsv:Column ;
+    rdfs:label "Alternate Predictive Techniques" ;
+    dsv:columnProperty "approach" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/EsotericMeaningsExploration> a dsv:Column ;
+    rdfs:label "Esoteric Meanings Exploration" ;
+    dsv:columnProperty "meaning" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/EvaluationScoresandRanking> a dsv:Column ;
+    rdfs:label "Evaluation Scores and Ranking" ;
+    dsv:columnProperty "ranking" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/ExpertInsights> a dsv:Column ;
+    rdfs:label "Expert Insights" ;
+    dsv:columnProperty "specialist" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/FrequencyUsedbyCulture> a dsv:Column ;
+    rdfs:label "Frequency Used by Culture" ;
+    dsv:columnProperty "frequency of publication" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/GeometricFigures> a dsv:Column ;
+    rdfs:label "Geometric Figures" ;
+    dsv:columnProperty "product shape" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/HistoricalUsageExamination> a dsv:Column ;
+    rdfs:label "Historical Usage Examination" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/InheritedvsInnovativeMethods> a dsv:Column ;
+    rdfs:label "Inherited vs Innovative Methods" ;
+    dsv:columnProperty "based on" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/LimitationonAlphanumericReadability> a dsv:Column ;
+    rdfs:label "Limitation on Alphanumeric Readability" ;
+    dsv:columnProperty "definition" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/PossibilitiesRealized> a dsv:Column ;
+    rdfs:label "Possibilities Realized" ;
+    dsv:columnProperty "unknown outcomes" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/SpecialDrawProceduralRules> a dsv:Column ;
+    rdfs:label "Special Draw Procedural Rules" ;
+    dsv:columnProperty "special trial" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/SymbolCombinatoricsImpact> a dsv:Column ;
+    rdfs:label "Symbol Combinatorics Impact" ;
+    dsv:columnProperty "Symbol" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/ZodiacSignSymbolism> a dsv:Column ;
+    rdfs:label "Zodiac Sign Symbolism" ;
+    dsv:columnProperty "zodiac sign" .
+
+<http://metaUnionSearch/datasets/Geomancy4AAL095Z/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/AdditionalElementLinkages>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/AdvancedShapeAnalysis>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/AlternatePredictiveTechniques>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/EsotericMeaningsExploration>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/EvaluationScoresandRanking>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/ExpertInsights>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/FrequencyUsedbyCulture>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/GeometricFigures>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/HistoricalUsageExamination>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/InheritedvsInnovativeMethods>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/LimitationonAlphanumericReadability>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/PossibilitiesRealized>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/SpecialDrawProceduralRules>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/SymbolCombinatoricsImpact>,
+        <http://metaUnionSearch/datasets/Geomancy4AAL095Z/column/ZodiacSignSymbolism> .
+

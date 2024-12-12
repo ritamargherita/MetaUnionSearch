@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhilosophyC1A78MX1> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_C1A78MX1.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhilosophyC1A78MX1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/AdditionalPhilosophyField> a dsv:Column ;
+    rdfs:label "Additional Philosophy Field" ;
+    dsv:columnProperty "philosophicalSchool" .
+
+<http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/AligningConceptfromTABLE1> a dsv:Column ;
+    rdfs:label "Aligning Concept from TABLE 1" ;
+    dsv:columnProperty "relation" .
+
+<http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/InfluentialWorkTable2> a dsv:Column ;
+    rdfs:label "Influential Work Table 2" ;
+    dsv:columnProperty "known for" .
+
+<http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/MajorTheoristTable2> a dsv:Column ;
+    rdfs:label "Major Theorist Table 2" ;
+    dsv:columnProperty "disciple" .
+
+<http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/PhilosophicalConceptTable2> a dsv:Column ;
+    rdfs:label "Philosophical Concept Table 2" ;
+    dsv:columnProperty "topic" .
+
+<http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/RelatedColumnAlignedWithTCFromTable1> a dsv:Column ;
+    rdfs:label "Related Column Aligned With TC From Table 1" ;
+    dsv:columnProperty "related" .
+
+<http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/UnrelatedColumn10Table2> a dsv:Column ;
+    rdfs:label "Unrelated Column 10 Table 2" ;
+    dsv:columnProperty "related" .
+
+<http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/UnrelatedColumn11Table2> a dsv:Column ;
+    rdfs:label "Unrelated Column 11 Table 2" ;
+    dsv:columnProperty "related" .
+
+<http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/UnrelatedColumn5Table2> a dsv:Column ;
+    rdfs:label "Unrelated Column 5 Table 2" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/UnrelatedColumn6Table2> a dsv:Column ;
+    rdfs:label "Unrelated Column 6 Table 2" ;
+    dsv:columnProperty "related" .
+
+<http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/UnrelatedColumn7Table2> a dsv:Column ;
+    rdfs:label "Unrelated Column 7 Table 2" ;
+    dsv:columnProperty "related" .
+
+<http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/UnrelatedColumn8Table2> a dsv:Column ;
+    rdfs:label "Unrelated Column 8 Table 2" ;
+    dsv:columnProperty "related" .
+
+<http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/UnrelatedColumn9Table2> a dsv:Column ;
+    rdfs:label "Unrelated Column 9 Table 2" ;
+    dsv:columnProperty "related" .
+
+<http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/ofAdherentsTable2> a dsv:Column ;
+    rdfs:label "# of Adherents Table 2" ;
+    dsv:columnProperty "number of members" .
+
+<http://metaUnionSearch/datasets/PhilosophyC1A78MX1/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/AdditionalPhilosophyField>,
+        <http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/AligningConceptfromTABLE1>,
+        <http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/InfluentialWorkTable2>,
+        <http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/MajorTheoristTable2>,
+        <http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/PhilosophicalConceptTable2>,
+        <http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/RelatedColumnAlignedWithTCFromTable1>,
+        <http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/UnrelatedColumn10Table2>,
+        <http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/UnrelatedColumn11Table2>,
+        <http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/UnrelatedColumn5Table2>,
+        <http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/UnrelatedColumn6Table2>,
+        <http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/UnrelatedColumn7Table2>,
+        <http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/UnrelatedColumn8Table2>,
+        <http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/UnrelatedColumn9Table2>,
+        <http://metaUnionSearch/datasets/PhilosophyC1A78MX1/column/ofAdherentsTable2> .
+

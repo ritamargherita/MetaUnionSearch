@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AnthropologyWDPPPTFE> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_WDPPPTFE.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/AlignmentNotesifneeded> a dsv:Column ;
+    rdfs:label "Alignment Notes if needed..." ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/AverageAnnualRainfall> a dsv:Column ;
+    rdfs:label "Average Annual Rainfall" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/CensusDatafromSites> a dsv:Column ;
+    rdfs:label "Census Data from Sites" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/CensusDatefromSiteyear> a dsv:Column ;
+    rdfs:label "Census Date from Site (year)" ;
+    dsv:columnProperty "census year" .
+
+<http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/CulturalTraitsSummary> a dsv:Column ;
+    rdfs:label "Cultural Traits Summary" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/Culture> a dsv:Column ;
+    rdfs:label "Culture" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/DemographicsInfo> a dsv:Column ;
+    rdfs:label "Demographics Info" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/EnvironmentalImpact> a dsv:Column ;
+    rdfs:label "Environmental Impact" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/HumidityStatistics> a dsv:Column ;
+    rdfs:label "Humidity Statistics" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/Location> a dsv:Column ;
+    rdfs:label "Location" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/NearbyRiverNames> a dsv:Column ;
+    rdfs:label "Nearby River Names" ;
+    dsv:columnProperty "river" .
+
+<http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/Period> a dsv:Column ;
+    rdfs:label "Period" ;
+    dsv:columnProperty "event period" .
+
+<http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/PrevalentWildlifeSpecies> a dsv:Column ;
+    rdfs:label "Prevalent Wildlife Species" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/AlignmentNotesifneeded>,
+        <http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/AverageAnnualRainfall>,
+        <http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/CensusDatafromSites>,
+        <http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/CensusDatefromSiteyear>,
+        <http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/CulturalTraitsSummary>,
+        <http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/Culture>,
+        <http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/DemographicsInfo>,
+        <http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/EnvironmentalImpact>,
+        <http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/HumidityStatistics>,
+        <http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/Location>,
+        <http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/NearbyRiverNames>,
+        <http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/Period>,
+        <http://metaUnionSearch/datasets/AnthropologyWDPPPTFE/column/PrevalentWildlifeSpecies> .
+

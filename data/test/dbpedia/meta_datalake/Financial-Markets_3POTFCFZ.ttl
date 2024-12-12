@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ> a dsv:Dataset ;
+    dcterms:subject "financial-markets" ;
+    dcterms:title "Financial-Markets_3POTFCFZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/CentralBankInterestRates> a dsv:Column ;
+    rdfs:label "Central Bank Interest Rates" ;
+    dsv:columnProperty "main interest" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/CommodityPrices> a dsv:Column ;
+    rdfs:label "Commodity Prices" ;
+    dsv:columnProperty "price ($)" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/ConsumerCredit> a dsv:Column ;
+    rdfs:label "Consumer Credit" ;
+    dsv:columnProperty "credit" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/ConsumerSpending> a dsv:Column ;
+    rdfs:label "Consumer Spending" ;
+    dsv:columnProperty "value" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/CorporateEarnings> a dsv:Column ;
+    rdfs:label "Corporate Earnings" ;
+    dsv:columnProperty "income" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/Derivatives> a dsv:Column ;
+    rdfs:label "Derivatives" ;
+    dsv:columnProperty "derivative" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/GovernmentDebt> a dsv:Column ;
+    rdfs:label "Government Debt" ;
+    dsv:columnProperty "government" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/HousingMarket> a dsv:Column ;
+    rdfs:label "Housing Market" ;
+    dsv:columnProperty "house" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/InvestmentFlows> a dsv:Column ;
+    rdfs:label "Investment Flows" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/RegulatoryEnvironment> a dsv:Column ;
+    rdfs:label "Regulatory Environment" ;
+    dsv:columnProperty "governing body" .
+
+<http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/CentralBankInterestRates>,
+        <http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/CommodityPrices>,
+        <http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/ConsumerCredit>,
+        <http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/ConsumerSpending>,
+        <http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/CorporateEarnings>,
+        <http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/Derivatives>,
+        <http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/GovernmentDebt>,
+        <http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/HousingMarket>,
+        <http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/InvestmentFlows>,
+        <http://metaUnionSearch/datasets/FinancialMarkets3POTFCFZ/column/RegulatoryEnvironment> .
+

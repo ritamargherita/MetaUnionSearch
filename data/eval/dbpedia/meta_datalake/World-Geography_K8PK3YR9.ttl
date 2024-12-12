@@ -1,0 +1,31 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeographyK8PK3YR9> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_K8PK3YR9.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeographyK8PK3YR9/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeographyK8PK3YR9/column/> a dsv:Column ;
+    rdfs:label "" ;
+    dsv:columnProperty "note" .
+
+<http://metaUnionSearch/datasets/WorldGeographyK8PK3YR9/column/CoastlineLength> a dsv:Column ;
+    rdfs:label "Coastline Length" ;
+    dsv:columnProperty "length of a coast" .
+
+<http://metaUnionSearch/datasets/WorldGeographyK8PK3YR9/column/IslandNation> a dsv:Column ;
+    rdfs:label "Island Nation" ;
+    dsv:columnProperty "nation" .
+
+<http://metaUnionSearch/datasets/WorldGeographyK8PK3YR9/column/IslandSizekm> a dsv:Column ;
+    rdfs:label "Island Size (km²)" ;
+    dsv:columnProperty "island" .
+
+<http://metaUnionSearch/datasets/WorldGeographyK8PK3YR9/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeographyK8PK3YR9/column/>,
+        <http://metaUnionSearch/datasets/WorldGeographyK8PK3YR9/column/CoastlineLength>,
+        <http://metaUnionSearch/datasets/WorldGeographyK8PK3YR9/column/IslandNation>,
+        <http://metaUnionSearch/datasets/WorldGeographyK8PK3YR9/column/IslandSizekm> .
+

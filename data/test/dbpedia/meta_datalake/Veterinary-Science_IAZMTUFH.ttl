@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_IAZMTUFH.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/AdditionalTestsRecommended> a dsv:Column ;
+    rdfs:label "Additional Tests Recommended" ;
+    dsv:columnProperty "testaverage" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/FirstVaccinationDate> a dsv:Column ;
+    rdfs:label "First Vaccination Date" ;
+    dsv:columnProperty "vaccination" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/FourthVaccinationDate> a dsv:Column ;
+    rdfs:label "Fourth Vaccination Date" ;
+    dsv:columnProperty "vaccination" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/InsuranceCompanyName> a dsv:Column ;
+    rdfs:label "Insurance Company Name" ;
+    dsv:columnProperty "company" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/InsuranceContactInformation> a dsv:Column ;
+    rdfs:label "Insurance Contact Information" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/InsurancePolicyNumber> a dsv:Column ;
+    rdfs:label "Insurance Policy Number" ;
+    dsv:columnProperty "id number" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/MedicationsPrescriptionDetails> a dsv:Column ;
+    rdfs:label "Medications Prescription Details" ;
+    dsv:columnProperty "medication" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/NextAppointmentDate> a dsv:Column ;
+    rdfs:label "Next Appointment Date" ;
+    dsv:columnProperty "next event" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/NextAppointmentTime> a dsv:Column ;
+    rdfs:label "Next Appointment Time" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/PaymentMethod> a dsv:Column ;
+    rdfs:label "Payment Method" ;
+    dsv:columnProperty "credit" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/PharmacyContactInfo> a dsv:Column ;
+    rdfs:label "Pharmacy Contact Info" ;
+    dsv:columnProperty "company" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/PreventiveCareInstructions> a dsv:Column ;
+    rdfs:label "Preventive Care Instructions" ;
+    dsv:columnProperty "treatment" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/SecondVaccinationDate> a dsv:Column ;
+    rdfs:label "Second Vaccination Date" ;
+    dsv:columnProperty "DosesSecond" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/TestResults> a dsv:Column ;
+    rdfs:label "Test Results" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/ThirdVaccinationDate> a dsv:Column ;
+    rdfs:label "Third Vaccination Date" ;
+    dsv:columnProperty "DosesFirst" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/AdditionalTestsRecommended>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/FirstVaccinationDate>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/FourthVaccinationDate>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/InsuranceCompanyName>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/InsuranceContactInformation>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/InsurancePolicyNumber>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/MedicationsPrescriptionDetails>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/NextAppointmentDate>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/NextAppointmentTime>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/PaymentMethod>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/PharmacyContactInfo>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/PreventiveCareInstructions>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/SecondVaccinationDate>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/TestResults>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceIAZMTUFH/column/ThirdVaccinationDate> .
+

@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Astronomy23U0H8WN> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_23U0H8WN.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Astronomy23U0H8WN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/AverageLuminositySurroundingStars> a dsv:Column ;
+    rdfs:label "Average Luminosity Surrounding Stars" ;
+    dsv:columnProperty "average" .
+
+<http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/DarkorOpen> a dsv:Column ;
+    rdfs:label "Dark or Open?" ;
+    dsv:columnProperty "world open" .
+
+<http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/Diameterlightyears> a dsv:Column ;
+    rdfs:label "Diameter (light years)" ;
+    dsv:columnProperty "diameter (μ)" .
+
+<http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/DistanceFromSolarSystemsly> a dsv:Column ;
+    rdfs:label "Distance From Solar Systems (ly)" ;
+    dsv:columnProperty "distance (μ)" .
+
+<http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/DistinguishDarkorOpen> a dsv:Column ;
+    rdfs:label "Distinguish: Dark or Open`" ;
+    dsv:columnProperty "world open" .
+
+<http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/GasComposition> a dsv:Column ;
+    rdfs:label "Gas Composition (%)" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/GasorReflection> a dsv:Column ;
+    rdfs:label "Gas or Reflection?" ;
+    dsv:columnProperty "purpose" .
+
+<http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/NebulaCategory> a dsv:Column ;
+    rdfs:label "Nebula Category" ;
+    dsv:columnProperty "category" .
+
+<http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/NebulaName> a dsv:Column ;
+    rdfs:label "`Nebula Name" ;
+    dsv:columnProperty "NGC name" .
+
+<http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/NumberOfObservableStarsWithinNebularCloud> a dsv:Column ;
+    rdfs:label "Number Of Observable Stars Within Nebular Cloud" ;
+    dsv:columnProperty "number of stars" .
+
+<http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/PlanetaryorProtoplanetary> a dsv:Column ;
+    rdfs:label "Planetary or Protoplanetary?" ;
+    dsv:columnProperty "purpose" .
+
+<http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/PrimaryPurposeStarFormationStellarNurseryorAestheticAppeal> a dsv:Column ;
+    rdfs:label "Primary Purpose: Star Formation/Stellar Nursery or Aesthetic Appeal" ;
+    dsv:columnProperty "purpose" .
+
+<http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/StellarObjectContent> a dsv:Column ;
+    rdfs:label "Stellar Object Content (%)" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/TemperatureRangeK> a dsv:Column ;
+    rdfs:label "Temperature Range (K)" ;
+    dsv:columnProperty "temperature (K)" .
+
+<http://metaUnionSearch/datasets/Astronomy23U0H8WN/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/AverageLuminositySurroundingStars>,
+        <http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/DarkorOpen>,
+        <http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/Diameterlightyears>,
+        <http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/DistanceFromSolarSystemsly>,
+        <http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/DistinguishDarkorOpen>,
+        <http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/GasComposition>,
+        <http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/GasorReflection>,
+        <http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/NebulaCategory>,
+        <http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/NebulaName>,
+        <http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/NumberOfObservableStarsWithinNebularCloud>,
+        <http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/PlanetaryorProtoplanetary>,
+        <http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/PrimaryPurposeStarFormationStellarNurseryorAestheticAppeal>,
+        <http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/StellarObjectContent>,
+        <http://metaUnionSearch/datasets/Astronomy23U0H8WN/column/TemperatureRangeK> .
+

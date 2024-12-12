@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathVRERW6Z8> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_VRERW6Z8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathVRERW6Z8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathVRERW6Z8/column/AlgorithmsTechniques> a dsv:Column ;
+    rdfs:label "Algorithms & Techniques" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/MathVRERW6Z8/column/DataSets> a dsv:Column ;
+    rdfs:label "Data Sets" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/MathVRERW6Z8/column/EducationLearning> a dsv:Column ;
+    rdfs:label "Education & Learning" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/MathVRERW6Z8/column/IndustryApplications> a dsv:Column ;
+    rdfs:label "Industry Applications" ;
+    dsv:columnProperty "industry" .
+
+<http://metaUnionSearch/datasets/MathVRERW6Z8/column/MathematicalModels> a dsv:Column ;
+    rdfs:label "Mathematical Models" ;
+    dsv:columnProperty "model" .
+
+<http://metaUnionSearch/datasets/MathVRERW6Z8/column/MathematicalProofs> a dsv:Column ;
+    rdfs:label "Mathematical Proofs" ;
+    dsv:columnProperty "definition" .
+
+<http://metaUnionSearch/datasets/MathVRERW6Z8/column/ProblemsinMath> a dsv:Column ;
+    rdfs:label "Problems in Math" ;
+    dsv:columnProperty "topic" .
+
+<http://metaUnionSearch/datasets/MathVRERW6Z8/column/ResearchTopics> a dsv:Column ;
+    rdfs:label "Research Topics" ;
+    dsv:columnProperty "topic" .
+
+<http://metaUnionSearch/datasets/MathVRERW6Z8/column/SoftwareTools> a dsv:Column ;
+    rdfs:label "Software Tools" ;
+    dsv:columnProperty "computing platform" .
+
+<http://metaUnionSearch/datasets/MathVRERW6Z8/column/TheoreticalConcepts> a dsv:Column ;
+    rdfs:label "Theoretical Concepts" ;
+    dsv:columnProperty "definition" .
+
+<http://metaUnionSearch/datasets/MathVRERW6Z8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MathVRERW6Z8/column/AlgorithmsTechniques>,
+        <http://metaUnionSearch/datasets/MathVRERW6Z8/column/DataSets>,
+        <http://metaUnionSearch/datasets/MathVRERW6Z8/column/EducationLearning>,
+        <http://metaUnionSearch/datasets/MathVRERW6Z8/column/IndustryApplications>,
+        <http://metaUnionSearch/datasets/MathVRERW6Z8/column/MathematicalModels>,
+        <http://metaUnionSearch/datasets/MathVRERW6Z8/column/MathematicalProofs>,
+        <http://metaUnionSearch/datasets/MathVRERW6Z8/column/ProblemsinMath>,
+        <http://metaUnionSearch/datasets/MathVRERW6Z8/column/ResearchTopics>,
+        <http://metaUnionSearch/datasets/MathVRERW6Z8/column/SoftwareTools>,
+        <http://metaUnionSearch/datasets/MathVRERW6Z8/column/TheoreticalConcepts> .
+

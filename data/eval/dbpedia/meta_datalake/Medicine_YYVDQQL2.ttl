@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_YYVDQQL2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MedicineYYVDQQL2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/AgeAdjustedIADLScore> a dsv:Column ;
+    rdfs:label "Age-Adjusted IADL Score" ;
+    dsv:columnProperty "ACT score" .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/ComorbidityConditionsNotRelatingtotheCurrentVisits> a dsv:Column ;
+    rdfs:label "Comorbidity Conditions Not Relating to the Current Visits" ;
+    dsv:columnProperty "complications" .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/ConsultationDate> a dsv:Column ;
+    rdfs:label "Consultation Date" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/FamilyHistoryRelevanttoPresentCondition> a dsv:Column ;
+    rdfs:label "Family History Relevant to Present Condition" ;
+    dsv:columnProperty "family" .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/GeneticPredispositionFactors> a dsv:Column ;
+    rdfs:label "Genetic Predisposition Factors" ;
+    dsv:columnProperty "Gene Location" .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/HomeSelfCareAbilitiesIADLScore> a dsv:Column ;
+    rdfs:label "Home Self-Care Abilities (IADL) Score" ;
+    dsv:columnProperty "ACT score" .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/PatientsMoodandWellbeing> a dsv:Column ;
+    rdfs:label "Patient's Mood and Wellbeing" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/PhysicalExaminationResults> a dsv:Column ;
+    rdfs:label "Physical Examination Results" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/PreviousConditions> a dsv:Column ;
+    rdfs:label "Previous Conditions" ;
+    dsv:columnProperty "previous work" .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/RadiologyImagesScanCodeswhenapplicable> a dsv:Column ;
+    rdfs:label "Radiology Images & Scan Codes, when applicable" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/ReferringDoctorifapplicable> a dsv:Column ;
+    rdfs:label "Referring Doctor, if applicable" ;
+    dsv:columnProperty "specialist" .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/SocialDeterminantsofHealthStatus> a dsv:Column ;
+    rdfs:label "Social Determinants of Health Status" ;
+    dsv:columnProperty "medical diagnosis" .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/SpecialistAppointmentsScheduled> a dsv:Column ;
+    rdfs:label "Specialist Appointments Scheduled" ;
+    dsv:columnProperty "specialist" .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/TestResultsTestDates> a dsv:Column ;
+    rdfs:label "Test Results & Test Dates" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/TreatmentTypeifapplicable> a dsv:Column ;
+    rdfs:label "Treatment Type, if applicable" ;
+    dsv:columnProperty "treatment" .
+
+<http://metaUnionSearch/datasets/MedicineYYVDQQL2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/AgeAdjustedIADLScore>,
+        <http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/ComorbidityConditionsNotRelatingtotheCurrentVisits>,
+        <http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/ConsultationDate>,
+        <http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/FamilyHistoryRelevanttoPresentCondition>,
+        <http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/GeneticPredispositionFactors>,
+        <http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/HomeSelfCareAbilitiesIADLScore>,
+        <http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/PatientsMoodandWellbeing>,
+        <http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/PhysicalExaminationResults>,
+        <http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/PreviousConditions>,
+        <http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/RadiologyImagesScanCodeswhenapplicable>,
+        <http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/ReferringDoctorifapplicable>,
+        <http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/SocialDeterminantsofHealthStatus>,
+        <http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/SpecialistAppointmentsScheduled>,
+        <http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/TestResultsTestDates>,
+        <http://metaUnionSearch/datasets/MedicineYYVDQQL2/column/TreatmentTypeifapplicable> .
+

@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Rocket Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rocket"
+    },
+    {
+      "column_header": "Launch Site",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/launchSite"
+    },
+    {
+      "column_header": "Landing Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/landingSite"
+    },
+    {
+      "column_header": "Launch Success",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/successfulLaunches"
+    },
+    {
+      "column_header": "Payload Mass",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/lowerEarthOrbitPayload"
+    },
+    {
+      "column_header": "Orbital Inclination",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orbitalInclination"
+    },
+    {
+      "column_header": "Escape Velocity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/escapeVelocity"
+    },
+    {
+      "column_header": "Perigee Height",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/height"
+    },
+    {
+      "column_header": "Apogee Height",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/height"
+    },
+    {
+      "column_header": "Satellites Delivered To ISS",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/satellitesDeployed"
+    },
+    {
+      "column_header": "Celestial Bodies Visited",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orbitalFlights"
+    }
+  ]
+}

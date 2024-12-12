@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PsychologyPK3YR9OU> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_PK3YR9OU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PsychologyPK3YR9OU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/AmygdalaActivity> a dsv:Column ;
+    rdfs:label "AmygdalaActivity" ;
+    dsv:columnProperty "brain info type" .
+
+<http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/AnxietyLevelsUnderStress> a dsv:Column ;
+    rdfs:label "AnxietyLevelsUnderStress" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/BrAINVolume> a dsv:Column ;
+    rdfs:label "BrAINVolume" ;
+    dsv:columnProperty "brain info number" .
+
+<http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/BrainStructureSize> a dsv:Column ;
+    rdfs:label "BrainStructureSize" ;
+    dsv:columnProperty "brain info type" .
+
+<http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/CerebralCortexThickness> a dsv:Column ;
+    rdfs:label "CerebralCortexThickness" ;
+    dsv:columnProperty "brain info type" .
+
+<http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/CopingStrategiesUsedFrequently> a dsv:Column ;
+    rdfs:label "CopingStrategiesUsedFrequently" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/DepressionScoresAfterTrauma> a dsv:Column ;
+    rdfs:label "DepressionScoresAfterTrauma" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/EmpathyIndexesWithPeers> a dsv:Column ;
+    rdfs:label "EmpathyIndexesWithPeers" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/ExecutiveFunctioningAbilitiesMeasures> a dsv:Column ;
+    rdfs:label "ExecutiveFunctioningAbilitiesMeasures" ;
+    dsv:columnProperty "brain info number" .
+
+<http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/HippocampusShape> a dsv:Column ;
+    rdfs:label "HippocampusShape" ;
+    dsv:columnProperty "brain info type" .
+
+<http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/IQTestResultsSummaryStatistics> a dsv:Column ;
+    rdfs:label "IQTestResultsSummaryStatistics" ;
+    dsv:columnProperty "brain info number" .
+
+<http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/SenseOfHumorPerceptionRating> a dsv:Column ;
+    rdfs:label "SenseOfHumorPerceptionRating" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/SocialInteractionSkillsAssessmentScore> a dsv:Column ;
+    rdfs:label "SocialInteractionSkillsAssessmentScore" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/WhiteMatterIntegrity> a dsv:Column ;
+    rdfs:label "WhiteMatterIntegrity" ;
+    dsv:columnProperty "brain info type" .
+
+<http://metaUnionSearch/datasets/PsychologyPK3YR9OU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/AmygdalaActivity>,
+        <http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/AnxietyLevelsUnderStress>,
+        <http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/BrAINVolume>,
+        <http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/BrainStructureSize>,
+        <http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/CerebralCortexThickness>,
+        <http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/CopingStrategiesUsedFrequently>,
+        <http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/DepressionScoresAfterTrauma>,
+        <http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/EmpathyIndexesWithPeers>,
+        <http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/ExecutiveFunctioningAbilitiesMeasures>,
+        <http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/HippocampusShape>,
+        <http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/IQTestResultsSummaryStatistics>,
+        <http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/SenseOfHumorPerceptionRating>,
+        <http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/SocialInteractionSkillsAssessmentScore>,
+        <http://metaUnionSearch/datasets/PsychologyPK3YR9OU/column/WhiteMatterIntegrity> .
+

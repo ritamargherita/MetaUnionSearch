@@ -1,0 +1,13 @@
+{"mapping": [
+    {"column_header": "Engaged Systems", "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"},
+    {"column_header": "Improved Design Methodologies", "dbpedia_property_id": "http://dbpedia.org/ontology/significantDesign"},
+    {"column_header": "Time Tracking", "dbpedia_property_id": "http://dbpedia.org/ontology/time"},
+    {"column_header": "Reserved", "dbpedia_property_id": "http://dbpedia.org/ontology/restriction"},
+    {"column_header": "Additional Resources", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfResource"},
+    {"column_header": "Detailed Cost Estimations", "dbpedia_property_id": "http://dbpedia.org/ontology/cost"},
+    {"column_header": "Enhanced Quality Assurance", "dbpedia_property_id": "http://dbpedia.org/ontology/oversight"},
+    {"column_header": "Expanded Safety Protocols", "dbpedia_property_id": "http://dbpedia.org/ontology/security"},
+    {"column_header": "Non-Technical Skills", "dbpedia_property_id": "http://dbpedia.org/ontology/skills"},
+    {"column_header": "Broadened Project Scopes", "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"},
+    {"column_header": "Current Task Status", "dbpedia_property_id": "http://dbpedia.org/ontology/currentStatus"}
+]}

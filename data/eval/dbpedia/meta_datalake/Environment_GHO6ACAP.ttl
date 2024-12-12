@@ -1,0 +1,89 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EnvironmentGHO6ACAP> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_GHO6ACAP.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/AvgEnergyConsumptionperCapita> a dsv:Column ;
+    rdfs:label """
+Avg_Energy_Consumption_per_Capita""" ;
+    dsv:columnProperty "per capita income ($)" .
+
+<http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/ClimateChangeMitigationPolicies> a dsv:Column ;
+    rdfs:label """
+Climate_Change_Mitigation_Policies""" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/EnvironmentalEducationLevel> a dsv:Column ;
+    rdfs:label """
+Environmental_Education_Level""" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/ExtinctSpeciesYearOverYearChange> a dsv:Column ;
+    rdfs:label """
+Extinct_Species_Year_Over_Year_Change""" ;
+    dsv:columnProperty "extinction year" .
+
+<http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/FaunaConservationFundingsperCapita> a dsv:Column ;
+    rdfs:label """
+Fauna_Conservation_Fundings_per_Capita""" ;
+    dsv:columnProperty "per capita income ($)" .
+
+<http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/FloraDiversityIndex> a dsv:Column ;
+    rdfs:label """
+Flora_Diversity_Index""" ;
+    dsv:columnProperty "flora" .
+
+<http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/FreshwaterQualityIndex> a dsv:Column ;
+    rdfs:label """
+Freshwater_Quality_Index""" ;
+    dsv:columnProperty "water" .
+
+<http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/NaturalDisasterFrequency> a dsv:Column ;
+    rdfs:label """
+Natural_Disaster_Frequency""" ;
+    dsv:columnProperty "casualties" .
+
+<http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/NoisePollutionLevels> a dsv:Column ;
+    rdfs:label """
+Noise_Pollution_Levels""" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/RecyclingRate> a dsv:Column ;
+    rdfs:label """
+Recycling_Rate""" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/SoilTypesandComposition> a dsv:Column ;
+    rdfs:label """
+Soil_Types_and_Composition""" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/StrategicEnvironmentalAssessments> a dsv:Column ;
+    rdfs:label """
+Strategic_Environmental_Assessments""" ;
+    dsv:columnProperty "project objective" .
+
+<http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/WasteManagement> a dsv:Column ;
+    rdfs:label """
+Waste_Management""" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/AvgEnergyConsumptionperCapita>,
+        <http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/ClimateChangeMitigationPolicies>,
+        <http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/EnvironmentalEducationLevel>,
+        <http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/ExtinctSpeciesYearOverYearChange>,
+        <http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/FaunaConservationFundingsperCapita>,
+        <http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/FloraDiversityIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/FreshwaterQualityIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/NaturalDisasterFrequency>,
+        <http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/NoisePollutionLevels>,
+        <http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/RecyclingRate>,
+        <http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/SoilTypesandComposition>,
+        <http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/StrategicEnvironmentalAssessments>,
+        <http://metaUnionSearch/datasets/EnvironmentGHO6ACAP/column/WasteManagement> .
+

@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Team Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/teamName"
+    },
+    {
+      "column_header": "Primary Color",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/colour"
+    },
+    {
+      "column_header": "Secondary Color",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/colour"
+    },
+    {
+      "column_header": "Mascot",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mascot"
+    },
+    {
+      "column_header": "Team Logo",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/logo"
+    },
+    {
+      "column_header": "Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "League",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/league"
+    },
+    {
+      "column_header": "Established Year",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/established"
+    },
+    {
+      "column_header": "Number of Championships",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/championships"
+    },
+    {
+      "column_header": "Website",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sourceWebsite"
+    },
+    {
+      "column_header": "Ownership",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/owningOrganisation"
+    }
+  ]
+}

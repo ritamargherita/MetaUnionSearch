@@ -105,7 +105,7 @@ def main(OPENAI_API_KEY, dbpedia_file_path, candidate_folder, query_folder, cand
 if __name__ == "__main__":
 
     dbpedia_file_path = "../data/dbpedia.json"
-    candidate_folder = "../alt-gen/data/ugen_v2/datalake"
+    candidate_folder = "../temp"
     query_folder = "../alt-gen/data/ugen_v2/query"
     candidate_output_folder = "../data/enrichments_dbpedia/datalake"
     query_output_folder = "../data/enrichments_dbpedia/query"

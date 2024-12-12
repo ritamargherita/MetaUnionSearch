@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldHistoryTY088O5O> a dsv:Dataset ;
+    dcterms:subject "world-history" ;
+    dcterms:title "World-History_TY088O5O.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldHistoryTY088O5O/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/BeliefSystems> a dsv:Column ;
+    rdfs:label "Belief Systems" ;
+    dsv:columnProperty "Believers" .
+
+<http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/Currencies> a dsv:Column ;
+    rdfs:label "Currencies" ;
+    dsv:columnProperty "currency" .
+
+<http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/FamousMusicians> a dsv:Column ;
+    rdfs:label "Famous Musicians" ;
+    dsv:columnProperty "musicians" .
+
+<http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/FamousWorks> a dsv:Column ;
+    rdfs:label "Famous Works" ;
+    dsv:columnProperty "notable work" .
+
+<http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/Holidays> a dsv:Column ;
+    rdfs:label "Holidays" ;
+    dsv:columnProperty "feast day, holiday" .
+
+<http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/LiteratureGenres> a dsv:Column ;
+    rdfs:label "Literature Genres" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/MilitaryTactics> a dsv:Column ;
+    rdfs:label "Military Tactics" ;
+    dsv:columnProperty "military function" .
+
+<http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/MusicStyles> a dsv:Column ;
+    rdfs:label "Music Styles" ;
+    dsv:columnProperty "musicType" .
+
+<http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/Religions> a dsv:Column ;
+    rdfs:label "Religions" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/ReligiousTexts> a dsv:Column ;
+    rdfs:label "Religious Texts" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/SpokenLanguages> a dsv:Column ;
+    rdfs:label "Spoken Languages" ;
+    dsv:columnProperty "spoken in" .
+
+<http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/TradeRoutes> a dsv:Column ;
+    rdfs:label "Trade Routes" ;
+    dsv:columnProperty "route" .
+
+<http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/WritingScripts> a dsv:Column ;
+    rdfs:label "Writing Scripts" ;
+    dsv:columnProperty "original language" .
+
+<http://metaUnionSearch/datasets/WorldHistoryTY088O5O/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/BeliefSystems>,
+        <http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/Currencies>,
+        <http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/FamousMusicians>,
+        <http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/FamousWorks>,
+        <http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/Holidays>,
+        <http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/LiteratureGenres>,
+        <http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/MilitaryTactics>,
+        <http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/MusicStyles>,
+        <http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/Religions>,
+        <http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/ReligiousTexts>,
+        <http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/SpokenLanguages>,
+        <http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/TradeRoutes>,
+        <http://metaUnionSearch/datasets/WorldHistoryTY088O5O/column/WritingScripts> .
+

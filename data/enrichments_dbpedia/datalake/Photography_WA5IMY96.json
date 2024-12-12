@@ -1,0 +1,68 @@
+{
+  "mapping": [
+    {
+      "column_header": "Equipment Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": "File Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/filename"
+    },
+    {
+      "column_header": "Date Taken",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/date"
+    },
+    {
+      "column_header": "Shutter Speed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/shoot"
+    },
+    {
+      "column_header": "Aperture Value",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/shoot"
+    },
+    {
+      "column_header": "Focal Length",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/shoot"
+    },
+    {
+      "column_header": "Flash",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/shoot"
+    },
+    {
+      "column_header": "Lens Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/shoot"
+    },
+    {
+      "column_header": "Manufacturer Model",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/model"
+    },
+    {
+      "column_header": "Copyright Info",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/license"
+    },
+    {
+      "column_header": "Location Description",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Exposure Program",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+    },
+    {
+      "column_header": "Sensing Method",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    },
+    {
+      "column_header": "Custom Rendered",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/specialEffects"
+    },
+    {
+      "column_header": "White Balance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+    },
+    {
+      "column_header": "Scene Capture Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/scene"
+    }
+  ]
+}

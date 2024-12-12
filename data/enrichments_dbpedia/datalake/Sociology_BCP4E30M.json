@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "SociologistBackground", "dbpedia_property_id": "http://dbpedia.org/ontology/background"},
+    {"column_header": "StudyYear", "dbpedia_property_id": "http://dbpedia.org/ontology/year"},
+    {"column_header": "StudyDuration", "dbpedia_property_id": "http://dbpedia.org/ontology/training"},
+    {"column_header": "FundingSource", "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"},
+    {"column_header": "CollaborationDetails", "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"},
+    {"column_header": "DataSharingPolicy", "dbpedia_property_id": "http://dbpedia.org/ontology/access"},
+    {"column_header": "AccessibilityStatement", "dbpedia_property_id": "http://dbpedia.org/ontology/publiclyAccessible"},
+    {"column_header": "ResearchBias", "dbpedia_property_id": "http://dbpedia.org/ontology/restriction"},
+    {"column_header": "OpenResearchPractices", "dbpedia_property_id": "http://dbpedia.org/ontology/openAccessContent"},
+    {"column_header": "DataQuality", "dbpedia_property_id": "http://dbpedia.org/ontology/value"},
+    {"column_header": "ResearchImpact", "dbpedia_property_id": "http://dbpedia.org/ontology/statisticValue"}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Vaccination History", "dbpedia_property_id": "http://dbpedia.org/ontology/vaccination"},
+    {"column_header": "Dietary Needs", "dbpedia_property_id": "http://dbpedia.org/ontology/requirement"},
+    {"column_header": "Surgeries Performed", "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"},
+    {"column_header": "Allergy Information", "dbpedia_property_id": "http://dbpedia.org/ontology/medicalDiagnosis"},
+    {"column_header": "Medical Conditions Record", "dbpedia_property_id": "http://dbpedia.org/ontology/disease"},
+    {"column_header": "Treatment Duration 2", "dbpedia_property_id": "http://dbpedia.org/ontology/missionDuration"},
+    {"column_header": "Cost 2", "dbpedia_property_id": "http://dbpedia.org/ontology/unitCost"},
+    {"column_header": "Prescribed Medication 2", "dbpedia_property_id": "http://dbpedia.org/ontology/medication"},
+    {"column_header": "Follow-Up Appointments", "dbpedia_property_id": "http://dbpedia.org/ontology/followingEvent"},
+    {"column_header": "Additional Diagnosis", "dbpedia_property_id": "http://dbpedia.org/ontology/differentialDiagnosis"},
+    {"column_header": "Additional Treatment", "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"},
+    {"column_header": "Additional Notes", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": "Ownership Details", "dbpedia_property_id": "http://dbpedia.org/ontology/owner"}
+  ]
+}

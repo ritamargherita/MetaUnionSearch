@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Math42QPR75P> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_42QPR75P.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Math42QPR75P/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Math42QPR75P/column/Algorithms> a dsv:Column ;
+    rdfs:label "Algorithms" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/Math42QPR75P/column/AssessmentTools> a dsv:Column ;
+    rdfs:label "Assessment Tools" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/Math42QPR75P/column/ComputationalMethods> a dsv:Column ;
+    rdfs:label "Computational Methods" ;
+    dsv:columnProperty "approach" .
+
+<http://metaUnionSearch/datasets/Math42QPR75P/column/ConferenceTopics> a dsv:Column ;
+    rdfs:label "Conference Topics" ;
+    dsv:columnProperty "topic" .
+
+<http://metaUnionSearch/datasets/Math42QPR75P/column/DataAnalysis> a dsv:Column ;
+    rdfs:label "Data Analysis" ;
+    dsv:columnProperty "computing platform" .
+
+<http://metaUnionSearch/datasets/Math42QPR75P/column/FundingSources> a dsv:Column ;
+    rdfs:label "Funding Sources" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/Math42QPR75P/column/LearningResources> a dsv:Column ;
+    rdfs:label "Learning Resources" ;
+    dsv:columnProperty "number of resource / entities for concrete type of subject" .
+
+<http://metaUnionSearch/datasets/Math42QPR75P/column/MathematicalModels> a dsv:Column ;
+    rdfs:label "Mathematical Models" ;
+    dsv:columnProperty "model" .
+
+<http://metaUnionSearch/datasets/Math42QPR75P/column/ProblemsinMath> a dsv:Column ;
+    rdfs:label "Problems in Math" ;
+    dsv:columnProperty "topic" .
+
+<http://metaUnionSearch/datasets/Math42QPR75P/column/ProfessionalOrganizations> a dsv:Column ;
+    rdfs:label "Professional Organizations" ;
+    dsv:columnProperty "organisation" .
+
+<http://metaUnionSearch/datasets/Math42QPR75P/column/ResearchAreas> a dsv:Column ;
+    rdfs:label "Research Areas" ;
+    dsv:columnProperty "course area (m2)" .
+
+<http://metaUnionSearch/datasets/Math42QPR75P/column/TeachingMethods> a dsv:Column ;
+    rdfs:label "Teaching Methods" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/Math42QPR75P/column/TheoreticalConcepts> a dsv:Column ;
+    rdfs:label "Theoretical Concepts" ;
+    dsv:columnProperty "subject term" .
+
+<http://metaUnionSearch/datasets/Math42QPR75P/column/VisualRepresentations> a dsv:Column ;
+    rdfs:label "Visual Representations" ;
+    dsv:columnProperty "definition" .
+
+<http://metaUnionSearch/datasets/Math42QPR75P/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Math42QPR75P/column/Algorithms>,
+        <http://metaUnionSearch/datasets/Math42QPR75P/column/AssessmentTools>,
+        <http://metaUnionSearch/datasets/Math42QPR75P/column/ComputationalMethods>,
+        <http://metaUnionSearch/datasets/Math42QPR75P/column/ConferenceTopics>,
+        <http://metaUnionSearch/datasets/Math42QPR75P/column/DataAnalysis>,
+        <http://metaUnionSearch/datasets/Math42QPR75P/column/FundingSources>,
+        <http://metaUnionSearch/datasets/Math42QPR75P/column/LearningResources>,
+        <http://metaUnionSearch/datasets/Math42QPR75P/column/MathematicalModels>,
+        <http://metaUnionSearch/datasets/Math42QPR75P/column/ProblemsinMath>,
+        <http://metaUnionSearch/datasets/Math42QPR75P/column/ProfessionalOrganizations>,
+        <http://metaUnionSearch/datasets/Math42QPR75P/column/ResearchAreas>,
+        <http://metaUnionSearch/datasets/Math42QPR75P/column/TeachingMethods>,
+        <http://metaUnionSearch/datasets/Math42QPR75P/column/TheoreticalConcepts>,
+        <http://metaUnionSearch/datasets/Math42QPR75P/column/VisualRepresentations> .
+

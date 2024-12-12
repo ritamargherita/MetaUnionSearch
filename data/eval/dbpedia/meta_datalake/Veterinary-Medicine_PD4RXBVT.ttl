@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_PD4RXBVT.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/AllergyInformation> a dsv:Column ;
+    rdfs:label "Allergy Information" ;
+    dsv:columnProperty "medical diagnosis" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/BehavioralIssuesTrainedOn> a dsv:Column ;
+    rdfs:label "Behavioral Issues Trained On" ;
+    dsv:columnProperty "training" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/ContactInformation> a dsv:Column ;
+    rdfs:label "Contact Information" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/DietaryNeeds> a dsv:Column ;
+    rdfs:label "Dietary Needs" ;
+    dsv:columnProperty "requirement" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/FollowUpVisitsScheduled> a dsv:Column ;
+    rdfs:label "Follow-Up Visits Scheduled" ;
+    dsv:columnProperty "following event" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/MedicalNotes> a dsv:Column ;
+    rdfs:label "Medical Notes" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/MicrochipNumber> a dsv:Column ;
+    rdfs:label "Microchip Number" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/OwnerName> a dsv:Column ;
+    rdfs:label "Owner Name" ;
+    dsv:columnProperty "owner" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/PreferredPlayStyles> a dsv:Column ;
+    rdfs:label "Preferred Play Styles" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/SpecialEquipmentNeeded> a dsv:Column ;
+    rdfs:label "Special Equipment Needed" ;
+    dsv:columnProperty "equipment" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/SurgeriesPerformed> a dsv:Column ;
+    rdfs:label "Surgeries Performed" ;
+    dsv:columnProperty "medical specialty" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/VaccinationHistory> a dsv:Column ;
+    rdfs:label "Vaccination History" ;
+    dsv:columnProperty "vaccination" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/VeterinarianID> a dsv:Column ;
+    rdfs:label "Veterinarian ID" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/AllergyInformation>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/BehavioralIssuesTrainedOn>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/ContactInformation>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/DietaryNeeds>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/FollowUpVisitsScheduled>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/MedicalNotes>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/MicrochipNumber>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/OwnerName>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/PreferredPlayStyles>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/SpecialEquipmentNeeded>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/SurgeriesPerformed>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/VaccinationHistory>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicinePD4RXBVT/column/VeterinarianID> .
+

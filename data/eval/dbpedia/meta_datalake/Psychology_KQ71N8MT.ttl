@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_KQ71N8MT.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PsychologyKQ71N8MT/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/AgreeablenessAssessment> a dsv:Column ;
+    rdfs:label "AgreeablenessAssessment" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/AmygdalaActivity> a dsv:Column ;
+    rdfs:label "AmygdalaActivity" ;
+    dsv:columnProperty "brain info type" .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/AnxietyLevelsUnderStress> a dsv:Column ;
+    rdfs:label "AnxietyLevelsUnderStress" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/BrAINVolume> a dsv:Column ;
+    rdfs:label "BrAINVolume" ;
+    dsv:columnProperty "brain info number" .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/BrainStructureSize> a dsv:Column ;
+    rdfs:label "BrainStructureSize" ;
+    dsv:columnProperty "brain info number" .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/CerebralCortexThickness> a dsv:Column ;
+    rdfs:label "CerebralCortexThickness" ;
+    dsv:columnProperty "brain info number" .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/ConscientiousnessMeasurement> a dsv:Column ;
+    rdfs:label "ConscientiousnessMeasurement" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/DepressionScoresBeforeTherapy> a dsv:Column ;
+    rdfs:label "DepressionScoresBeforeTherapy" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/ExtraversionFactorScore> a dsv:Column ;
+    rdfs:label "ExtraversionFactorScore" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/HippocampusShape> a dsv:Column ;
+    rdfs:label "HippocampusShape" ;
+    dsv:columnProperty "brain info type" .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/IQTestResults> a dsv:Column ;
+    rdfs:label "IQTestResults" ;
+    dsv:columnProperty "brain info number" .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/NeuroticismScaleScore> a dsv:Column ;
+    rdfs:label "NeuroticismScaleScore" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/OpennesstoExperienceValue> a dsv:Column ;
+    rdfs:label "OpennesstoExperienceValue" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/SocialSkillsRating> a dsv:Column ;
+    rdfs:label "SocialSkillsRating" ;
+    dsv:columnProperty "brain info type" .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/WhiteMatterIntegrity> a dsv:Column ;
+    rdfs:label "WhiteMatterIntegrity" ;
+    dsv:columnProperty "brain info number" .
+
+<http://metaUnionSearch/datasets/PsychologyKQ71N8MT/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/AgreeablenessAssessment>,
+        <http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/AmygdalaActivity>,
+        <http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/AnxietyLevelsUnderStress>,
+        <http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/BrAINVolume>,
+        <http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/BrainStructureSize>,
+        <http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/CerebralCortexThickness>,
+        <http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/ConscientiousnessMeasurement>,
+        <http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/DepressionScoresBeforeTherapy>,
+        <http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/ExtraversionFactorScore>,
+        <http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/HippocampusShape>,
+        <http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/IQTestResults>,
+        <http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/NeuroticismScaleScore>,
+        <http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/OpennesstoExperienceValue>,
+        <http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/SocialSkillsRating>,
+        <http://metaUnionSearch/datasets/PsychologyKQ71N8MT/column/WhiteMatterIntegrity> .
+

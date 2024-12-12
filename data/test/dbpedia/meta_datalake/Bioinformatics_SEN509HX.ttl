@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_SEN509HX.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BioinformaticsSEN509HX/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/Chromosome> a dsv:Column ;
+    rdfs:label "Chromosome" ;
+    dsv:columnProperty "chromosome" .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/EndPosition> a dsv:Column ;
+    rdfs:label "End Position" ;
+    dsv:columnProperty "gene location end" .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/GOTerms> a dsv:Column ;
+    rdfs:label "GO Terms" ;
+    dsv:columnProperty "term period" .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/GeneExpression> a dsv:Column ;
+    rdfs:label "Gene Expression" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/GeneName> a dsv:Column ;
+    rdfs:label "Gene Name" ;
+    dsv:columnProperty "geneReviewsName" .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/GeneticVariants> a dsv:Column ;
+    rdfs:label "Genetic Variants" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/MutationFrequency> a dsv:Column ;
+    rdfs:label "Mutation Frequency" ;
+    dsv:columnProperty "frequency (Hz)" .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/ProteinEvolution> a dsv:Column ;
+    rdfs:label "Protein Evolution" ;
+    dsv:columnProperty "clade" .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/ProteinFolding> a dsv:Column ;
+    rdfs:label "Protein Folding" ;
+    dsv:columnProperty "other function" .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/ProteinFunction> a dsv:Column ;
+    rdfs:label "Protein Function" ;
+    dsv:columnProperty "protein (g)" .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/ProteinInteractions> a dsv:Column ;
+    rdfs:label "Protein Interactions" ;
+    dsv:columnProperty "protein (g)" .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/ProteinLocation> a dsv:Column ;
+    rdfs:label "Protein Location" ;
+    dsv:columnProperty "Gene Location" .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/ProteinSize> a dsv:Column ;
+    rdfs:label "Protein Size" ;
+    dsv:columnProperty "molecular weight" .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/StartPosition> a dsv:Column ;
+    rdfs:label "Start Position" ;
+    dsv:columnProperty "gene location start" .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/Strand> a dsv:Column ;
+    rdfs:label "Strand" ;
+    dsv:columnProperty "on chromosome" .
+
+<http://metaUnionSearch/datasets/BioinformaticsSEN509HX/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/Chromosome>,
+        <http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/EndPosition>,
+        <http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/GOTerms>,
+        <http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/GeneExpression>,
+        <http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/GeneName>,
+        <http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/GeneticVariants>,
+        <http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/MutationFrequency>,
+        <http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/ProteinEvolution>,
+        <http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/ProteinFolding>,
+        <http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/ProteinFunction>,
+        <http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/ProteinInteractions>,
+        <http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/ProteinLocation>,
+        <http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/ProteinSize>,
+        <http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/StartPosition>,
+        <http://metaUnionSearch/datasets/BioinformaticsSEN509HX/column/Strand> .
+

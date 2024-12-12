@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_W02BSMEB.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AnthropologyW02BSMEB/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/AnthropologicalSiteName> a dsv:Column ;
+    rdfs:label "Anthropological Site Name" ;
+    dsv:columnProperty "touristic site" .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Artifacts> a dsv:Column ;
+    rdfs:label "Artifacts" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/BurialPractices> a dsv:Column ;
+    rdfs:label "Burial Practices" ;
+    dsv:columnProperty "place of burial" .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Climate> a dsv:Column ;
+    rdfs:label "Climate" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Culture> a dsv:Column ;
+    rdfs:label "Culture" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/EnvironmentalImpact> a dsv:Column ;
+    rdfs:label "Environmental Impact" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Language> a dsv:Column ;
+    rdfs:label "Language" ;
+    dsv:columnProperty "original language" .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Location> a dsv:Column ;
+    rdfs:label "Location" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Period> a dsv:Column ;
+    rdfs:label "Period" ;
+    dsv:columnProperty "term period" .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/PopulationSize> a dsv:Column ;
+    rdfs:label "Population Size" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Religion> a dsv:Column ;
+    rdfs:label "Religion" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/SettlementPatterns> a dsv:Column ;
+    rdfs:label "Settlement Patterns" ;
+    dsv:columnProperty "settlement" .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/SocietalStructure> a dsv:Column ;
+    rdfs:label "Societal Structure" ;
+    dsv:columnProperty "government type" .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Technology> a dsv:Column ;
+    rdfs:label "Technology" ;
+    dsv:columnProperty "industry" .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Trade> a dsv:Column ;
+    rdfs:label "Trade" ;
+    dsv:columnProperty "trading name" .
+
+<http://metaUnionSearch/datasets/AnthropologyW02BSMEB/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/AnthropologicalSiteName>,
+        <http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Artifacts>,
+        <http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/BurialPractices>,
+        <http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Climate>,
+        <http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Culture>,
+        <http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/EnvironmentalImpact>,
+        <http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Language>,
+        <http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Location>,
+        <http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Period>,
+        <http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/PopulationSize>,
+        <http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Religion>,
+        <http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/SettlementPatterns>,
+        <http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/SocietalStructure>,
+        <http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Technology>,
+        <http://metaUnionSearch/datasets/AnthropologyW02BSMEB/column/Trade> .
+

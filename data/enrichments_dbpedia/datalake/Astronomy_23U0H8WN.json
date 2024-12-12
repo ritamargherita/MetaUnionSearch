@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Nebula Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ngcName"
+    },
+    {
+      "column_header": "Nebula Category",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/category"
+    },
+    {
+      "column_header": "Distance From Solar Systems (ly)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/distance"
+    },
+    {
+      "column_header": "Diameter (light years)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/diameter"
+    },
+    {
+      "column_header": "Gas Composition (%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Stellar Object Content (%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Temperature Range (K)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"
+    },
+    {
+      "column_header": "Dark or Open?",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/worldOpen"
+    },
+    {
+      "column_header": "Average Luminosity Surrounding Stars",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/average"
+    },
+    {
+      "column_header": "Number Of Observable Stars Within Nebular Cloud",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfStars"
+    },
+    {
+      "column_header": "Planetary or Protoplanetary?",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/purpose"
+    },
+    {
+      "column_header": "Gas or Reflection?",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/purpose"
+    },
+    {
+      "column_header": "Primary Purpose: Star Formation/Stellar Nursery or Aesthetic Appeal",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/purpose"
+    },
+    {
+      "column_header": "Distinguish: Dark or Open",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/worldOpen"
+    }
+  ]
+}

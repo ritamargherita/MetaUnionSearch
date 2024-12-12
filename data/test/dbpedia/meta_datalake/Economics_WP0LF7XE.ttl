@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EconomicsWP0LF7XE> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_WP0LF7XE.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EconomicsWP0LF7XE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/GDPbillions> a dsv:Column ;
+    rdfs:label "GDP_$billions" ;
+    dsv:columnProperty "gross domestic product (GDP)" .
+
+<http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/countrycontinent> a dsv:Column ;
+    rdfs:label "country_continent" ;
+    dsv:columnProperty "continent" .
+
+<http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/countryglobal> a dsv:Column ;
+    rdfs:label "country_global" ;
+    dsv:columnProperty "country" .
+
+<http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/countryregion> a dsv:Column ;
+    rdfs:label "country_region" ;
+    dsv:columnProperty "region" .
+
+<http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/datasource> a dsv:Column ;
+    rdfs:label "data_source" ;
+    dsv:columnProperty "source" .
+
+<http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/industrycode> a dsv:Column ;
+    rdfs:label "industry_code" ;
+    dsv:columnProperty "industry" .
+
+<http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/populationmillions> a dsv:Column ;
+    rdfs:label "population_millions" ;
+    dsv:columnProperty "population" .
+
+<http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/sampledescription> a dsv:Column ;
+    rdfs:label "sample_description" ;
+    dsv:columnProperty "description" .
+
+<http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/stateabbreviation> a dsv:Column ;
+    rdfs:label "state_abbreviation" ;
+    dsv:columnProperty "abbreviation" .
+
+<http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/timeperiod> a dsv:Column ;
+    rdfs:label "time_period" ;
+    dsv:columnProperty "event period" .
+
+<http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/variabletype> a dsv:Column ;
+    rdfs:label "variable_type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/EconomicsWP0LF7XE/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/GDPbillions>,
+        <http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/countrycontinent>,
+        <http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/countryglobal>,
+        <http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/countryregion>,
+        <http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/datasource>,
+        <http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/industrycode>,
+        <http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/populationmillions>,
+        <http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/sampledescription>,
+        <http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/stateabbreviation>,
+        <http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/timeperiod>,
+        <http://metaUnionSearch/datasets/EconomicsWP0LF7XE/column/variabletype> .
+

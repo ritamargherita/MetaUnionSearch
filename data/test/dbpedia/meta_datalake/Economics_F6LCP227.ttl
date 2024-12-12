@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EconomicsF6LCP227> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_F6LCP227.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EconomicsF6LCP227/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EconomicsF6LCP227/column/corruptionperceptionsindexscore> a dsv:Column ;
+    rdfs:label "corruption_perceptions_index_score" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/EconomicsF6LCP227/column/economicpolicy> a dsv:Column ;
+    rdfs:label "economic_policy" ;
+    dsv:columnProperty "government" .
+
+<http://metaUnionSearch/datasets/EconomicsF6LCP227/column/environmentalprotectionexpenditurepercentage> a dsv:Column ;
+    rdfs:label "environmental_protection_expenditure$_$$percentage" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsF6LCP227/column/fiscalyearbudgetbillions> a dsv:Column ;
+    rdfs:label "fiscal_year_budget/$_billions" ;
+    dsv:columnProperty "budget ($)" .
+
+<http://metaUnionSearch/datasets/EconomicsF6LCP227/column/humandevelopmentindexvalue> a dsv:Column ;
+    rdfs:label "human_development_index_value" ;
+    dsv:columnProperty "Human Development Index (HDI)" .
+
+<http://metaUnionSearch/datasets/EconomicsF6LCP227/column/inflationrateCPI> a dsv:Column ;
+    rdfs:label "inflation_rate_CPI%" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsF6LCP227/column/interestratecentralbank> a dsv:Column ;
+    rdfs:label "interest_rate_central_bank" ;
+    dsv:columnProperty "interest" .
+
+<http://metaUnionSearch/datasets/EconomicsF6LCP227/column/policydescription> a dsv:Column ;
+    rdfs:label "policy_description" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/EconomicsF6LCP227/column/povertygapindex> a dsv:Column ;
+    rdfs:label "** poverty_gap_index" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsF6LCP227/column/povertylineincome> a dsv:Column ;
+    rdfs:label "poverty_line_income_$" ;
+    dsv:columnProperty "income" .
+
+<http://metaUnionSearch/datasets/EconomicsF6LCP227/column/researchanddevelopmentexpenditurepercentage> a dsv:Column ;
+    rdfs:label "research_and_development_expenditure$_$$percentage" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsF6LCP227/column/tradebalancemillions> a dsv:Column ;
+    rdfs:label "trade_balance_$_millions" ;
+    dsv:columnProperty "currency" .
+
+<http://metaUnionSearch/datasets/EconomicsF6LCP227/column/unemploymentrateseasonallyadjusted> a dsv:Column ;
+    rdfs:label "unemployment_rate_seasonally_adjusted" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsF6LCP227/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EconomicsF6LCP227/column/corruptionperceptionsindexscore>,
+        <http://metaUnionSearch/datasets/EconomicsF6LCP227/column/economicpolicy>,
+        <http://metaUnionSearch/datasets/EconomicsF6LCP227/column/environmentalprotectionexpenditurepercentage>,
+        <http://metaUnionSearch/datasets/EconomicsF6LCP227/column/fiscalyearbudgetbillions>,
+        <http://metaUnionSearch/datasets/EconomicsF6LCP227/column/humandevelopmentindexvalue>,
+        <http://metaUnionSearch/datasets/EconomicsF6LCP227/column/inflationrateCPI>,
+        <http://metaUnionSearch/datasets/EconomicsF6LCP227/column/interestratecentralbank>,
+        <http://metaUnionSearch/datasets/EconomicsF6LCP227/column/policydescription>,
+        <http://metaUnionSearch/datasets/EconomicsF6LCP227/column/povertygapindex>,
+        <http://metaUnionSearch/datasets/EconomicsF6LCP227/column/povertylineincome>,
+        <http://metaUnionSearch/datasets/EconomicsF6LCP227/column/researchanddevelopmentexpenditurepercentage>,
+        <http://metaUnionSearch/datasets/EconomicsF6LCP227/column/tradebalancemillions>,
+        <http://metaUnionSearch/datasets/EconomicsF6LCP227/column/unemploymentrateseasonallyadjusted> .
+

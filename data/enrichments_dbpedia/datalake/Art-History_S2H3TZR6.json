@@ -1,0 +1,14 @@
+{
+  "mapping": [
+    {"column_header": "Most Significantly Impactful Events", "dbpedia_property_id": "http://dbpedia.org/ontology/event"},
+    {"column_header": "Prominent Movements & Their Key Figures", "dbpedia_property_id": "http://dbpedia.org/ontology/movement"},
+    {"column_header": "Influential Critics & Theories", "dbpedia_property_id": "http://dbpedia.org/ontology/notableIdea"},
+    {"column_header": "Geographic Regions with Major Artistic Contribution", "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"},
+    {"column_header": "Notable Institutions & Exhibitions", "dbpedia_property_id": "http://dbpedia.org/ontology/museum"},
+    {"column_header": "Historical Precedents", "dbpedia_property_id": "http://dbpedia.org/ontology/previousEvent"},
+    {"column_header": "Societal Factors Influencing Arts", "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"},
+    {"column_header": "Censorship Incidents Impacting Artworks or Artists", "dbpedia_property_id": "http://dbpedia.org/ontology/review"},
+    {"column_header": "Preservation Efforts", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+    {"column_header": "Effective Dates (if applicable)", "dbpedia_property_id": "http://dbpedia.org/ontology/date"}
+  ]
+}

@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EnvironmentJLC90OUP> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_JLC90OUP.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EnvironmentJLC90OUP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/CarbonEmissionTons> a dsv:Column ;
+    rdfs:label "Carbon_Emission_Tons" ;
+    dsv:columnProperty "CO2 emission (g/km)" .
+
+<http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/ClimateChangeImpactScore> a dsv:Column ;
+    rdfs:label "Climate_Change_Impact_Score" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/ConservationFundingAmount> a dsv:Column ;
+    rdfs:label "Conservation_Funding_Amount" ;
+    dsv:columnProperty "project budget funding ($)" .
+
+<http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/EcoTourismRevenue> a dsv:Column ;
+    rdfs:label "Eco_Tourism_Revenue" ;
+    dsv:columnProperty "revenue ($)" .
+
+<http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/EndangeredSpeciesListed> a dsv:Column ;
+    rdfs:label "Endangered_Species_Listed" ;
+    dsv:columnProperty "iucn category" .
+
+<http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/GreenBuildingCertificationCount> a dsv:Column ;
+    rdfs:label "Green_Building_Certification_Count" ;
+    dsv:columnProperty "certification" .
+
+<http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/NaturalDisasterFrequency> a dsv:Column ;
+    rdfs:label "Natural_Disaster_Frequency" ;
+    dsv:columnProperty "casualties" .
+
+<http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/RecyclingRate> a dsv:Column ;
+    rdfs:label "Recycling_Rate" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/RenewableEnergyContribution> a dsv:Column ;
+    rdfs:label "Renewable_Energy_Contribution" ;
+    dsv:columnProperty "project budget funding ($)" .
+
+<http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/SustainableAgriculturePractices> a dsv:Column ;
+    rdfs:label "Sustainable_Agriculture_Practices" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/EnvironmentJLC90OUP/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/CarbonEmissionTons>,
+        <http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/ClimateChangeImpactScore>,
+        <http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/ConservationFundingAmount>,
+        <http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/EcoTourismRevenue>,
+        <http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/EndangeredSpeciesListed>,
+        <http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/GreenBuildingCertificationCount>,
+        <http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/NaturalDisasterFrequency>,
+        <http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/RecyclingRate>,
+        <http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/RenewableEnergyContribution>,
+        <http://metaUnionSearch/datasets/EnvironmentJLC90OUP/column/SustainableAgriculturePractices> .
+

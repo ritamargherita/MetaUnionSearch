@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_NUJFPWZ6.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/AncestralOrigin> a dsv:Column ;
+    rdfs:label "AncestralOrigin" ;
+    dsv:columnProperty "origin" .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/Profession> a dsv:Column ;
+    rdfs:label "Profession." ;
+    dsv:columnProperty "profession" .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseDateOfBirth> a dsv:Column ;
+    rdfs:label "SpouseDateOfBirth" ;
+    dsv:columnProperty "birth date" .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseDeathDate> a dsv:Column ;
+    rdfs:label "SpouseDeathDate" ;
+    dsv:columnProperty "death date" .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseFatherFirstName> a dsv:Column ;
+    rdfs:label "SpouseFatherFirstName" ;
+    dsv:columnProperty "family member" .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseFatherLastName> a dsv:Column ;
+    rdfs:label "SpouseFatherLastName" ;
+    dsv:columnProperty "family member" .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseGivenName> a dsv:Column ;
+    rdfs:label "SpouseGivenName" ;
+    dsv:columnProperty "personName" .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseID> a dsv:Column ;
+    rdfs:label "SpouseID" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseMarriageDate> a dsv:Column ;
+    rdfs:label "SpouseMarriageDate" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseMiddleName> a dsv:Column ;
+    rdfs:label "SpouseMiddleName" ;
+    dsv:columnProperty "personName" .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseMotherMaidenName> a dsv:Column ;
+    rdfs:label "SpouseMotherMaidenName" ;
+    dsv:columnProperty "family member" .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpousePlaceOfBirth> a dsv:Column ;
+    rdfs:label "SpousePlaceOfBirth" ;
+    dsv:columnProperty "birth place" .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseSSN> a dsv:Column ;
+    rdfs:label "SpouseSSN" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseSpouseName> a dsv:Column ;
+    rdfs:label "SpouseSpouseName" ;
+    dsv:columnProperty "spouse name" .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseSurname> a dsv:Column ;
+    rdfs:label "SpouseSurname" ;
+    dsv:columnProperty "personName" .
+
+<http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/AncestralOrigin>,
+        <http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/Profession>,
+        <http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseDateOfBirth>,
+        <http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseDeathDate>,
+        <http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseFatherFirstName>,
+        <http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseFatherLastName>,
+        <http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseGivenName>,
+        <http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseID>,
+        <http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseMarriageDate>,
+        <http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseMiddleName>,
+        <http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseMotherMaidenName>,
+        <http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpousePlaceOfBirth>,
+        <http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseSSN>,
+        <http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseSpouseName>,
+        <http://metaUnionSearch/datasets/GenealogyNUJFPWZ6/column/SpouseSurname> .
+

@@ -1,0 +1,19 @@
+{
+    "mapping": [
+        {"column_header": "Team Names", "dbpedia_property_id": "http://dbpedia.org/ontology/teamName"},
+        {"column_header": "Coach Names", "dbpedia_property_id": "http://dbpedia.org/ontology/coach"},
+        {"column_header": "Matches Played", "dbpedia_property_id": "http://dbpedia.org/ontology/games"},
+        {"column_header": "Wins", "dbpedia_property_id": "http://dbpedia.org/ontology/wins"},
+        {"column_header": "Losses", "dbpedia_property_id": "http://dbpedia.org/ontology/defeat"},
+        {"column_header": "Yellow Cards", "dbpedia_property_id": "http://dbpedia.org/ontology/yellowCard"},
+        {"column_header": "Red Cards", "dbpedia_property_id": "http://dbpedia.org/ontology/redCard"},
+        {"column_header": "Budget", "dbpedia_property_id": "http://dbpedia.org/ontology/budget"},
+        {"column_header": "Sponsors Logos", "dbpedia_property_id": "http://dbpedia.org/ontology/logo"},
+        {"column_header": "Stadium Capacity", "dbpedia_property_id": "http://dbpedia.org/ontology/capacity"},
+        {"column_header": "Average Attendance", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfPeopleAttending"},
+        {"column_header": "City Location", "dbpedia_property_id": "http://dbpedia.org/ontology/city"},
+        {"column_header": "League Position", "dbpedia_property_id": "http://dbpedia.org/ontology/currentLeague"},
+        {"column_header": "Team Mascot", "dbpedia_property_id": "http://dbpedia.org/ontology/mascot"},
+        {"column_header": "Merchandise Sales", "dbpedia_property_id": "http://dbpedia.org/ontology/numberSold"}
+    ]
+}

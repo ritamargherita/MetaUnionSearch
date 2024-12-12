@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_VHS1K3AQ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ/column/Continent> a dsv:Column ;
+    rdfs:label "Continent" ;
+    dsv:columnProperty "continent" .
+
+<http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ/column/Country> a dsv:Column ;
+    rdfs:label "Country" ;
+    dsv:columnProperty "country" .
+
+<http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ/column/Country1> a dsv:Column ;
+    rdfs:label "Country.1" ;
+    dsv:columnProperty "country" .
+
+<http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ/column/Flag> a dsv:Column ;
+    rdfs:label "Flag" ;
+    dsv:columnProperty "flag (image)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ/column/Image> a dsv:Column ;
+    rdfs:label "Image" ;
+    dsv:columnProperty "picture" .
+
+<http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ/column/Name> a dsv:Column ;
+    rdfs:label "Name" ;
+    dsv:columnProperty "name" .
+
+<http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ/column/URL> a dsv:Column ;
+    rdfs:label "URL" ;
+    dsv:columnProperty "The URL at which this file can be downloaded" .
+
+<http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ/column/Continent>,
+        <http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ/column/Country>,
+        <http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ/column/Country1>,
+        <http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ/column/Flag>,
+        <http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ/column/Image>,
+        <http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ/column/Name>,
+        <http://metaUnionSearch/datasets/WorldGeographyVHS1K3AQ/column/URL> .
+

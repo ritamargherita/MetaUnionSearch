@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Secondary Habitats",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": "Additional Habitat Characteristics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    },
+    {
+      "column_header": "Atmospheric Conditions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Mineral Composition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": "Soil Layers and Organism Distribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fauna"
+    },
+    {
+      "column_header": "Water Sources and Flow Patterns",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/watercourse"
+    },
+    {
+      "column_header": "Biotic Interactions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/species"
+    },
+    {
+      "column_header": "Distinctive Biodiversity Features",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": "Anthropogenic Influences",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    },
+    {
+      "column_header": "Ecosystem Services Value",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "Conservation Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    },
+    {
+      "column_header": "Management Strategies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/management"
+    },
+    {
+      "column_header": "Restoration Challenges",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/management"
+    }
+  ]
+}

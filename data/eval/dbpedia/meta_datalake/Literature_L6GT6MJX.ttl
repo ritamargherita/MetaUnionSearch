@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LiteratureL6GT6MJX> a dsv:Dataset ;
+    dcterms:subject "literature" ;
+    dcterms:title "Literature_L6GT6MJX.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LiteratureL6GT6MJX/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/AuthorsNames> a dsv:Column ;
+    rdfs:label "Author(s) Names" ;
+    dsv:columnProperty "author" .
+
+<http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/GenresBeyondInitialClassification> a dsv:Column ;
+    rdfs:label "Genres Beyond Initial Classification" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/LiteraryAwardsNominations> a dsv:Column ;
+    rdfs:label "Literary Awards & Nominations" ;
+    dsv:columnProperty "award" .
+
+<http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/NarrativePointOfView> a dsv:Column ;
+    rdfs:label "Narrative Point Of View" ;
+    dsv:columnProperty "narrator" .
+
+<http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/PageNumbersorExtent> a dsv:Column ;
+    rdfs:label "Page Numbers or Extent" ;
+    dsv:columnProperty "number of pages" .
+
+<http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/PublicationYear> a dsv:Column ;
+    rdfs:label "Publication Year" ;
+    dsv:columnProperty "first publication year" .
+
+<http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/PublisherJournalName> a dsv:Column ;
+    rdfs:label "Publisher / Journal Name" ;
+    dsv:columnProperty "publisher" .
+
+<http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/ReadingLevel> a dsv:Column ;
+    rdfs:label "Reading Level" ;
+    dsv:columnProperty "grades" .
+
+<http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/ReceptionAndReviews> a dsv:Column ;
+    rdfs:label "Reception And Reviews" ;
+    dsv:columnProperty "review" .
+
+<http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/RelevancytoCurriculum> a dsv:Column ;
+    rdfs:label "Relevancy to Curriculum" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/SeriesInformationifapplicable> a dsv:Column ;
+    rdfs:label "Series Information (if applicable)" ;
+    dsv:columnProperty "series" .
+
+<http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/SourceType> a dsv:Column ;
+    rdfs:label "Source Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/Title> a dsv:Column ;
+    rdfs:label "Title" ;
+    dsv:columnProperty "title" .
+
+<http://metaUnionSearch/datasets/LiteratureL6GT6MJX/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/AuthorsNames>,
+        <http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/GenresBeyondInitialClassification>,
+        <http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/LiteraryAwardsNominations>,
+        <http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/NarrativePointOfView>,
+        <http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/PageNumbersorExtent>,
+        <http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/PublicationYear>,
+        <http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/PublisherJournalName>,
+        <http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/ReadingLevel>,
+        <http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/ReceptionAndReviews>,
+        <http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/RelevancytoCurriculum>,
+        <http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/SeriesInformationifapplicable>,
+        <http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/SourceType>,
+        <http://metaUnionSearch/datasets/LiteratureL6GT6MJX/column/Title> .
+

@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ> a dsv:Dataset ;
+    dcterms:subject "financial-markets" ;
+    dcterms:title "Financial-Markets_JPM7QWRZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/BondMaturity> a dsv:Column ;
+    rdfs:label "Bond Maturity " ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/BondTypes> a dsv:Column ;
+    rdfs:label "Bond Types" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/CPIForecastNextYear> a dsv:Column ;
+    rdfs:label "CPI Forecast Next Year %" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/CommoditiesIndexGold> a dsv:Column ;
+    rdfs:label "Commodities Index (Gold)" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/CommoditiesIndexOil> a dsv:Column ;
+    rdfs:label "Commodities Index (Oil)" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/CorruptionPerceptionsIndex> a dsv:Column ;
+    rdfs:label "Corruption Perceptions Index" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/GoogleSearchTrendForRecession> a dsv:Column ;
+    rdfs:label "Google Search Trend For Recession" ;
+    dsv:columnProperty "statistic year" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/GreenEnergyInvestments> a dsv:Column ;
+    rdfs:label "Green Energy Investments" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/HousingPriceIndex> a dsv:Column ;
+    rdfs:label "Housing Price Index" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/TechnologyIPOActivity> a dsv:Column ;
+    rdfs:label "Technology IPO Activity" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/YouthUnemploymentRate> a dsv:Column ;
+    rdfs:label "Youth Unemployment Rate%" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/BondMaturity>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/BondTypes>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/CPIForecastNextYear>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/CommoditiesIndexGold>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/CommoditiesIndexOil>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/CorruptionPerceptionsIndex>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/GoogleSearchTrendForRecession>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/GreenEnergyInvestments>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/HousingPriceIndex>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/TechnologyIPOActivity>,
+        <http://metaUnionSearch/datasets/FinancialMarketsJPM7QWRZ/column/YouthUnemploymentRate> .
+

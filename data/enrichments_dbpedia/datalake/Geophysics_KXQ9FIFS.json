@@ -1,0 +1,16 @@
+{
+    "mapping": [
+        {"column_header": "Body Waves", "dbpedia_property_id": "http://dbpedia.org/ontology/bodyDiscovered"},
+        {"column_header": "Shear Velocities", "dbpedia_property_id": "http://dbpedia.org/ontology/density"},
+        {"column_header": "P-wave Attenuation", "dbpedia_property_id": "http://dbpedia.org/ontology/transmission"},
+        {"column_header": "S-wave Amplitude", "dbpedia_property_id": "http://dbpedia.org/ontology/populationDensity"},
+        {"column_header": "Density Interfaces", "dbpedia_property_id": "http://dbpedia.org/ontology/density"},
+        {"column_header": "Microearthquake Locations", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfLocations"},
+        {"column_header": "Gravity Anomalies", "dbpedia_property_id": "http://dbpedia.org/ontology/surfaceGravity"},
+        {"column_header": "Magnetic Susceptibility", "dbpedia_property_id": "http://dbpedia.org/ontology/relation"},
+        {"column_header": "Free Surface Effect", "dbpedia_property_id": "http://dbpedia.org/ontology/related"},
+        {"column_header": "Topographic Corrections", "dbpedia_property_id": "http://dbpedia.org/ontology/relief"},
+        {"column_header": "Unrelated Column 1", "dbpedia_property_id": "http://dbpedia.org/ontology/existence"},
+        {"column_header": "Unrelated Column 2", "dbpedia_property_id": "http://dbpedia.org/ontology/related"}
+    ]
+}

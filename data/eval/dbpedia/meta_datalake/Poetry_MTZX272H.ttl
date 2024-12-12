@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryMTZX272H> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_MTZX272H.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryMTZX272H/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryMTZX272H/column/AESTHETICAPPEAL> a dsv:Column ;
+    rdfs:label "AESTHETIC APPEAL" ;
+    dsv:columnProperty "appearance" .
+
+<http://metaUnionSearch/datasets/PoetryMTZX272H/column/AUTHORSLIFEEVENTS> a dsv:Column ;
+    rdfs:label "AUTHOR'S LIFE EVENTS" ;
+    dsv:columnProperty "A Person's role in an event" .
+
+<http://metaUnionSearch/datasets/PoetryMTZX272H/column/CRITICALACCLAIM> a dsv:Column ;
+    rdfs:label "CRITICAL ACCLAIM" ;
+    dsv:columnProperty "review" .
+
+<http://metaUnionSearch/datasets/PoetryMTZX272H/column/Id> a dsv:Column ;
+    rdfs:label "_Id." ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/PoetryMTZX272H/column/LANGUAGEORIGIN> a dsv:Column ;
+    rdfs:label "LANGUAGE ORIGIN" ;
+    dsv:columnProperty "original language" .
+
+<http://metaUnionSearch/datasets/PoetryMTZX272H/column/LINECOUNT> a dsv:Column ;
+    rdfs:label "LINE COUNT" ;
+    dsv:columnProperty "number of lines" .
+
+<http://metaUnionSearch/datasets/PoetryMTZX272H/column/MEANINGFULQUOTES> a dsv:Column ;
+    rdfs:label "MEANINGFUL QUOTES" ;
+    dsv:columnProperty "quote" .
+
+<http://metaUnionSearch/datasets/PoetryMTZX272H/column/PAGELAYOUT> a dsv:Column ;
+    rdfs:label "PAGE LAYOUT" ;
+    dsv:columnProperty "layout" .
+
+<http://metaUnionSearch/datasets/PoetryMTZX272H/column/POEMSOURCE> a dsv:Column ;
+    rdfs:label "POEM SOURCE" ;
+    dsv:columnProperty "source" .
+
+<http://metaUnionSearch/datasets/PoetryMTZX272H/column/POEMSTRUCTURE> a dsv:Column ;
+    rdfs:label "POEM STRUCTURE" ;
+    dsv:columnProperty "layout" .
+
+<http://metaUnionSearch/datasets/PoetryMTZX272H/column/POEMTRANSLATIONS> a dsv:Column ;
+    rdfs:label "POEM TRANSLATIONS" ;
+    dsv:columnProperty "translator" .
+
+<http://metaUnionSearch/datasets/PoetryMTZX272H/column/POETICELEMENTS> a dsv:Column ;
+    rdfs:label "POETIC ELEMENTS" ;
+    dsv:columnProperty "lyrics" .
+
+<http://metaUnionSearch/datasets/PoetryMTZX272H/column/POPCULTUREREFERENCES> a dsv:Column ;
+    rdfs:label "POP CULTURE REFERENCES" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/PoetryMTZX272H/column/STYLEINFLUENCES> a dsv:Column ;
+    rdfs:label "STYLE INFLUENCES" ;
+    dsv:columnProperty "influenced by" .
+
+<http://metaUnionSearch/datasets/PoetryMTZX272H/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryMTZX272H/column/AESTHETICAPPEAL>,
+        <http://metaUnionSearch/datasets/PoetryMTZX272H/column/AUTHORSLIFEEVENTS>,
+        <http://metaUnionSearch/datasets/PoetryMTZX272H/column/CRITICALACCLAIM>,
+        <http://metaUnionSearch/datasets/PoetryMTZX272H/column/Id>,
+        <http://metaUnionSearch/datasets/PoetryMTZX272H/column/LANGUAGEORIGIN>,
+        <http://metaUnionSearch/datasets/PoetryMTZX272H/column/LINECOUNT>,
+        <http://metaUnionSearch/datasets/PoetryMTZX272H/column/MEANINGFULQUOTES>,
+        <http://metaUnionSearch/datasets/PoetryMTZX272H/column/PAGELAYOUT>,
+        <http://metaUnionSearch/datasets/PoetryMTZX272H/column/POEMSOURCE>,
+        <http://metaUnionSearch/datasets/PoetryMTZX272H/column/POEMSTRUCTURE>,
+        <http://metaUnionSearch/datasets/PoetryMTZX272H/column/POEMTRANSLATIONS>,
+        <http://metaUnionSearch/datasets/PoetryMTZX272H/column/POETICELEMENTS>,
+        <http://metaUnionSearch/datasets/PoetryMTZX272H/column/POPCULTUREREFERENCES>,
+        <http://metaUnionSearch/datasets/PoetryMTZX272H/column/STYLEINFLUENCES> .
+

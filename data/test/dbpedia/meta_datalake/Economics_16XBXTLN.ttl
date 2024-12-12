@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Economics16XBXTLN> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_16XBXTLN.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Economics16XBXTLN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Economics16XBXTLN/column/GrossDomesticSavingsasofGNI> a dsv:Column ;
+    rdfs:label "Gross Domestic Savings as %of GNI" ;
+    dsv:columnProperty "gross domestic product as of" .
+
+<http://metaUnionSearch/datasets/Economics16XBXTLN/column/billions> a dsv:Column ;
+    rdfs:label "$ billions" ;
+    dsv:columnProperty "unit cost ($)" .
+
+<http://metaUnionSearch/datasets/Economics16XBXTLN/column/countryname> a dsv:Column ;
+    rdfs:label "country_name" ;
+    dsv:columnProperty "country" .
+
+<http://metaUnionSearch/datasets/Economics16XBXTLN/column/datasourceandmethodology> a dsv:Column ;
+    rdfs:label "data_source_and_methodology" ;
+    dsv:columnProperty "source" .
+
+<http://metaUnionSearch/datasets/Economics16XBXTLN/column/industrycodealternative> a dsv:Column ;
+    rdfs:label "industry_code_alternative" ;
+    dsv:columnProperty "code Stock Exchange" .
+
+<http://metaUnionSearch/datasets/Economics16XBXTLN/column/inflationrateconsumerprices> a dsv:Column ;
+    rdfs:label "inflation rate (consumer prices)" ;
+    dsv:columnProperty "statistic" .
+
+<http://metaUnionSearch/datasets/Economics16XBXTLN/column/interestratesshortterm> a dsv:Column ;
+    rdfs:label "interest rates - short term" ;
+    dsv:columnProperty "interest" .
+
+<http://metaUnionSearch/datasets/Economics16XBXTLN/column/populationbelowpovertyline> a dsv:Column ;
+    rdfs:label "population_below_poverty_line" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/Economics16XBXTLN/column/timeperiod> a dsv:Column ;
+    rdfs:label "time_period" ;
+    dsv:columnProperty "event period" .
+
+<http://metaUnionSearch/datasets/Economics16XBXTLN/column/unemploymentRate> a dsv:Column ;
+    rdfs:label "unemployment Rate%" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/Economics16XBXTLN/column/variabletype> a dsv:Column ;
+    rdfs:label "variable_type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/Economics16XBXTLN/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Economics16XBXTLN/column/GrossDomesticSavingsasofGNI>,
+        <http://metaUnionSearch/datasets/Economics16XBXTLN/column/billions>,
+        <http://metaUnionSearch/datasets/Economics16XBXTLN/column/countryname>,
+        <http://metaUnionSearch/datasets/Economics16XBXTLN/column/datasourceandmethodology>,
+        <http://metaUnionSearch/datasets/Economics16XBXTLN/column/industrycodealternative>,
+        <http://metaUnionSearch/datasets/Economics16XBXTLN/column/inflationrateconsumerprices>,
+        <http://metaUnionSearch/datasets/Economics16XBXTLN/column/interestratesshortterm>,
+        <http://metaUnionSearch/datasets/Economics16XBXTLN/column/populationbelowpovertyline>,
+        <http://metaUnionSearch/datasets/Economics16XBXTLN/column/timeperiod>,
+        <http://metaUnionSearch/datasets/Economics16XBXTLN/column/unemploymentRate>,
+        <http://metaUnionSearch/datasets/Economics16XBXTLN/column/variabletype> .
+

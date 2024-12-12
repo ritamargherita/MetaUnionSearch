@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Criminology2O6OV3IS> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_2O6OV3IS.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Criminology2O6OV3IS/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/AdditionalNotes> a dsv:Column ;
+    rdfs:label "Additional Notes" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/AdjudicationProcess> a dsv:Column ;
+    rdfs:label "Adjudication Process" ;
+    dsv:columnProperty "procedure" .
+
+<http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/ArrestDetailsifapplicable> a dsv:Column ;
+    rdfs:label "Arrest Details (if applicable)" ;
+    dsv:columnProperty "arrest date" .
+
+<http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/BystanderActions> a dsv:Column ;
+    rdfs:label "Bystander Actions" ;
+    dsv:columnProperty "A Person's role in an event" .
+
+<http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/CaseDisposition> a dsv:Column ;
+    rdfs:label "Case Disposition" ;
+    dsv:columnProperty "conviction penalty" .
+
+<http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/CommunityImpact> a dsv:Column ;
+    rdfs:label "Community Impact" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/CourtAttended> a dsv:Column ;
+    rdfs:label "Court Attended?" ;
+    dsv:columnProperty "judge" .
+
+<http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/RecidivismRate> a dsv:Column ;
+    rdfs:label "Recidivism Rate" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/RehabilitationProgrammes> a dsv:Column ;
+    rdfs:label "Rehabilitation Programmes" ;
+    dsv:columnProperty "treatment" .
+
+<http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/ViolationDetail> a dsv:Column ;
+    rdfs:label "Violation Detail" ;
+    dsv:columnProperty "criminal charge" .
+
+<http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/WeaponUsed> a dsv:Column ;
+    rdfs:label "Weapon Used" ;
+    dsv:columnProperty "weapon" .
+
+<http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/WitnessPresence> a dsv:Column ;
+    rdfs:label "Witness Presence" ;
+    dsv:columnProperty "participant" .
+
+<http://metaUnionSearch/datasets/Criminology2O6OV3IS/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/AdditionalNotes>,
+        <http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/AdjudicationProcess>,
+        <http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/ArrestDetailsifapplicable>,
+        <http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/BystanderActions>,
+        <http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/CaseDisposition>,
+        <http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/CommunityImpact>,
+        <http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/CourtAttended>,
+        <http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/RecidivismRate>,
+        <http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/RehabilitationProgrammes>,
+        <http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/ViolationDetail>,
+        <http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/WeaponUsed>,
+        <http://metaUnionSearch/datasets/Criminology2O6OV3IS/column/WitnessPresence> .
+

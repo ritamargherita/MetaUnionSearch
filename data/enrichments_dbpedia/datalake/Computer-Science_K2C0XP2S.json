@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Computational Theory",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingInput"
+    },
+    {
+      "column_header": "Artificial Intelligence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/skills"
+    },
+    {
+      "column_header": "Software Engineering Principles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/management"
+    },
+    {
+      "column_header": "Project Management Concepts in CS",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"
+    },
+    {
+      "column_header": "Encryption and Information Security",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": "Human-Computer Interaction",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Virtual Reality in CS",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingMedia"
+    },
+    {
+      "column_header": "Machine Learning",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/training"
+    },
+    {
+      "column_header": "Natural Language Processing",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sentence"
+    },
+    {
+      "column_header": "Cloud and Distributed Systems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/network"
+    },
+    {
+      "column_header": "Multimedia Processing.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/media"
+    }
+  ]
+}

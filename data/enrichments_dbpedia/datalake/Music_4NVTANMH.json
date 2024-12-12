@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "Song Name", "dbpedia_property_id": "http://dbpedia.org/ontology/name"},
+    {"column_header": " Performer(s)", "dbpedia_property_id": "http://dbpedia.org/ontology/performer"},
+    {"column_header": " MusicCategory", "dbpedia_property_id": "http://dbpedia.org/ontology/musicSubgenre"},
+    {"column_header": " ReleaseYear", "dbpedia_property_id": "http://dbpedia.org/ontology/releaseDate"},
+    {"column_header": " LyricsLanguage", "dbpedia_property_id": "http://dbpedia.org/ontology/translator"},
+    {"column_header": " RecordLabel", "dbpedia_property_id": "http://dbpedia.org/ontology/recordLabel"},
+    {"column_header": " FileFormat", "dbpedia_property_id": "http://dbpedia.org/ontology/fileExtension"},
+    {"column_header": " PlayLengthInSeconds", "dbpedia_property_id": "http://dbpedia.org/ontology/playingTime"},
+    {"column_header": " ProductionAssistants", "dbpedia_property_id": "http://dbpedia.org/ontology/musicians"},
+    {"column_header": " TrackNumberOnAlbum", "dbpedia_property_id": "http://dbpedia.org/ontology/trackNumber"},
+    {"column_header": " TotalTracksOnTheSameProject", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfTracks"},
+    {"column_header": " Composer", "dbpedia_property_id": "http://dbpedia.org/ontology/composer"},
+    {"column_header": " SoundEngineer", "dbpedia_property_id": "http://dbpedia.org/ontology/soundRecording"},
+    {"column_header": " ExtraInformation", "dbpedia_property_id": "http://dbpedia.org/ontology/category"}
+  ]
+}

@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_E9L4UWNR.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FashionE9L4UWNR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/CulturalImpact> a dsv:Column ;
+    rdfs:label "Cultural Impact" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/DesignerInfluence> a dsv:Column ;
+    rdfs:label "Designer Influence" ;
+    dsv:columnProperty "influenced by" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/FashionTrendsetter> a dsv:Column ;
+    rdfs:label "Fashion Trendsetter" ;
+    dsv:columnProperty "influenced" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/GenderCategory> a dsv:Column ;
+    rdfs:label "Gender Category" ;
+    dsv:columnProperty "gender" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/IconicStatus> a dsv:Column ;
+    rdfs:label "Iconic Status" ;
+    dsv:columnProperty "status" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/MaterialInnovation> a dsv:Column ;
+    rdfs:label "Material Innovation" ;
+    dsv:columnProperty "material" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/OriginalRetailCost> a dsv:Column ;
+    rdfs:label "Original Retail Cost" ;
+    dsv:columnProperty "price ($)" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/ProductionLocation> a dsv:Column ;
+    rdfs:label "Production Location" ;
+    dsv:columnProperty "located in area" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/SocialMediaHype> a dsv:Column ;
+    rdfs:label "Social Media Hype" ;
+    dsv:columnProperty "media" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/SustainabilityRating> a dsv:Column ;
+    rdfs:label "Sustainability Rating" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/TargetMarketIncome> a dsv:Column ;
+    rdfs:label "Target Market Income" ;
+    dsv:columnProperty "income" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/TrendLifespan> a dsv:Column ;
+    rdfs:label "Trend Lifespan" ;
+    dsv:columnProperty "life expectancy" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/column/YearLaunched> a dsv:Column ;
+    rdfs:label "Year Launched" ;
+    dsv:columnProperty "start year" .
+
+<http://metaUnionSearch/datasets/FashionE9L4UWNR/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/CulturalImpact>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/DesignerInfluence>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/FashionTrendsetter>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/GenderCategory>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/IconicStatus>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/MaterialInnovation>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/OriginalRetailCost>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/ProductionLocation>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/SocialMediaHype>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/SustainabilityRating>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/TargetMarketIncome>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/TrendLifespan>,
+        <http://metaUnionSearch/datasets/FashionE9L4UWNR/column/YearLaunched> .
+

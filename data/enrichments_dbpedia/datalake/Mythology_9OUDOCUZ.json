@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "God",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/enshrinedDeity"
+    },
+    {
+      "column_header": "Spouse(s)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/spouse"
+    },
+    {
+      "column_header": "Children",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/child"
+    },
+    {
+      "column_header": "Number of Arms",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/arm"
+    },
+    {
+      "column_header": "Number of Legs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfPads"
+    },
+    {
+      "column_header": "Realm",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/domain"
+    },
+    {
+      "column_header": "Role",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/role"
+    },
+    {
+      "column_header": "Divine Tools",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/power"
+    },
+    {
+      "column_header": "Festivals & Rituals",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"
+    },
+    {
+      "column_header": "Mythmaking Power",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"
+    },
+    {
+      "column_header": "Symbolic Animals",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/animal"
+    }
+  ]
+}

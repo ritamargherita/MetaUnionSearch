@@ -1,0 +1,14 @@
+{
+    "mapping": [
+        {"column_header": "Nebula Name", "dbpedia_property_id": "http://dbpedia.org/ontology/ngcName"},
+        {"column_header": "Nebula Category", "dbpedia_property_id": "http://dbpedia.org/ontology/category"},
+        {"column_header": "Gas Composition (%)", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+        {"column_header": "Dust Component", "dbpedia_property_id": "http://dbpedia.org/ontology/component"},
+        {"column_header": "Radiation Intensity (W/m³)", "dbpedia_property_id": "http://dbpedia.org/ontology/effectiveRadiatedPower"},
+        {"column_header": "Distance from Solar Systems Center (kpc)", "dbpedia_property_id": "http://dbpedia.org/ontology/distanceToNearestCity"},
+        {"column_header": "Closest Star 1 (Star Name, Distance from Nebula)", "dbpedia_property_id": "http://dbpedia.org/ontology/nearestCity"},
+        {"column_header": "Closest Star 2 (Star Name, Distance from Nebula)", "dbpedia_property_id": "http://dbpedia.org/ontology/nearestCity"},
+        {"column_header": "Closest Star 3 (Star Name, Distance from Nebula)", "dbpedia_property_id": "http://dbpedia.org/ontology/nearestCity"},
+        {"column_header": "Closest Star 4 (Star Name, Distance from Nebula)", "dbpedia_property_id": "http://dbpedia.org/ontology/nearestCity"}
+    ]
+}

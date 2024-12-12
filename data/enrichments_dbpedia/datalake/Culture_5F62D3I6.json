@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Family Structure",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/family"
+    },
+    {
+      "column_header": "Preferred Communication Style",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Greetings and Etiquette",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Non-verbal Communications",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "National Holidays",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"
+    },
+    {
+      "column_header": "Visual Arts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/artisticFunction"
+    },
+    {
+      "column_header": "Literature and Poetry",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": "Dance and Theatre",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/choreographer"
+    },
+    {
+      "column_header": "Architecture and Design",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": "Cinematography",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cinematography"
+    },
+    {
+      "column_header": "Sports and Exercise",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sport"
+    },
+    {
+      "column_header": "Climate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Cuisine",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"
+    },
+    {
+      "column_header": "Pop Culture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/genre"
+    }
+  ]
+}

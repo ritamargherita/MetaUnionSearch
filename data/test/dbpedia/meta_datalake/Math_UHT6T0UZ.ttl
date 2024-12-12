@@ -1,0 +1,35 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathUHT6T0UZ> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_UHT6T0UZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathUHT6T0UZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathUHT6T0UZ/column/Applications> a dsv:Column ;
+    rdfs:label "Applications" .
+
+<http://metaUnionSearch/datasets/MathUHT6T0UZ/column/Challenges> a dsv:Column ;
+    rdfs:label "Challenges" .
+
+<http://metaUnionSearch/datasets/MathUHT6T0UZ/column/Extensions> a dsv:Column ;
+    rdfs:label "Extensions]" .
+
+<http://metaUnionSearch/datasets/MathUHT6T0UZ/column/FutureImplications> a dsv:Column ;
+    rdfs:label "Future Implications" .
+
+<http://metaUnionSearch/datasets/MathUHT6T0UZ/column/MathematicsAreaNewCategory1NewCategory2NewCategory3NewCategory4NewCategory5ConCEPTMathConceptDEFINITIONDefinitionPROPERTIESPropertiesOPERATIONSOperationsSYMBOLISMSymbolismEXAMPLESExamplesMiscellaneousCurrentUses> a dsv:Column ;
+    rdfs:label "[Mathematics Area, New Category 1, New Category 2, New Category 3, New Category 4, New Category 5, ConCEPT: Math Concept, DEFINITION: Definition, PROPERTIES: Properties, OPERATIONS: Operations, SYMBOLISM: Symbolism, EXAMPLES: Examples, Miscellaneous: Current Uses" .
+
+<http://metaUnionSearch/datasets/MathUHT6T0UZ/column/Misconceptions> a dsv:Column ;
+    rdfs:label "Misconceptions" .
+
+<http://metaUnionSearch/datasets/MathUHT6T0UZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MathUHT6T0UZ/column/Applications>,
+        <http://metaUnionSearch/datasets/MathUHT6T0UZ/column/Challenges>,
+        <http://metaUnionSearch/datasets/MathUHT6T0UZ/column/Extensions>,
+        <http://metaUnionSearch/datasets/MathUHT6T0UZ/column/FutureImplications>,
+        <http://metaUnionSearch/datasets/MathUHT6T0UZ/column/MathematicsAreaNewCategory1NewCategory2NewCategory3NewCategory4NewCategory5ConCEPTMathConceptDEFINITIONDefinitionPROPERTIESPropertiesOPERATIONSOperationsSYMBOLISMSymbolismEXAMPLESExamplesMiscellaneousCurrentUses>,
+        <http://metaUnionSearch/datasets/MathUHT6T0UZ/column/Misconceptions> .
+

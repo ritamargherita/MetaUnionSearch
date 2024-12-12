@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ> a dsv:Dataset ;
+    dcterms:subject "music" ;
+    dcterms:title "Music_7QWRZFXZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Music7QWRZFXZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ/column/AudienceRating> a dsv:Column ;
+    rdfs:label "Audience Rating" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ/column/AudioFormat> a dsv:Column ;
+    rdfs:label "Audio Format" ;
+    dsv:columnProperty "musicFormat" .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ/column/AwardNominations> a dsv:Column ;
+    rdfs:label "Award Nominations" ;
+    dsv:columnProperty "nominee" .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ/column/AwardWins> a dsv:Column ;
+    rdfs:label "Award Wins" ;
+    dsv:columnProperty "wins" .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ/column/BitRate> a dsv:Column ;
+    rdfs:label "Bit Rate" ;
+    dsv:columnProperty "compression ratio" .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ/column/Composer> a dsv:Column ;
+    rdfs:label "Composer" ;
+    dsv:columnProperty "music composer" .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ/column/ConcertTourName> a dsv:Column ;
+    rdfs:label "Concert/Tour Name" ;
+    dsv:columnProperty "show" .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ/column/ExplicitContentIndicator> a dsv:Column ;
+    rdfs:label "Explicit Content Indicator" ;
+    dsv:columnProperty "Indicates an annotation associated with this document" .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ/column/LengthofSong> a dsv:Column ;
+    rdfs:label "Length of Song" ;
+    dsv:columnProperty "track length (μ)" .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ/column/LyricsWriter> a dsv:Column ;
+    rdfs:label "Lyrics Writer" ;
+    dsv:columnProperty "lyrics" .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ/column/MarketingCampaign> a dsv:Column ;
+    rdfs:label "Marketing Campaign" ;
+    dsv:columnProperty "promotion" .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ/column/MusicDirector> a dsv:Column ;
+    rdfs:label "Music Director" ;
+    dsv:columnProperty "creative director" .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ/column/NumberofShows> a dsv:Column ;
+    rdfs:label "Number of Shows" ;
+    dsv:columnProperty "visitors total" .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ/column/TotalEarningsfromConcertTour> a dsv:Column ;
+    rdfs:label "Total Earnings from Concert/Tour" ;
+    dsv:columnProperty "total tracks" .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ/column/VenueCityCountry> a dsv:Column ;
+    rdfs:label "Venue, City, Country" ;
+    dsv:columnProperty "location city" .
+
+<http://metaUnionSearch/datasets/Music7QWRZFXZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Music7QWRZFXZ/column/AudienceRating>,
+        <http://metaUnionSearch/datasets/Music7QWRZFXZ/column/AudioFormat>,
+        <http://metaUnionSearch/datasets/Music7QWRZFXZ/column/AwardNominations>,
+        <http://metaUnionSearch/datasets/Music7QWRZFXZ/column/AwardWins>,
+        <http://metaUnionSearch/datasets/Music7QWRZFXZ/column/BitRate>,
+        <http://metaUnionSearch/datasets/Music7QWRZFXZ/column/Composer>,
+        <http://metaUnionSearch/datasets/Music7QWRZFXZ/column/ConcertTourName>,
+        <http://metaUnionSearch/datasets/Music7QWRZFXZ/column/ExplicitContentIndicator>,
+        <http://metaUnionSearch/datasets/Music7QWRZFXZ/column/LengthofSong>,
+        <http://metaUnionSearch/datasets/Music7QWRZFXZ/column/LyricsWriter>,
+        <http://metaUnionSearch/datasets/Music7QWRZFXZ/column/MarketingCampaign>,
+        <http://metaUnionSearch/datasets/Music7QWRZFXZ/column/MusicDirector>,
+        <http://metaUnionSearch/datasets/Music7QWRZFXZ/column/NumberofShows>,
+        <http://metaUnionSearch/datasets/Music7QWRZFXZ/column/TotalEarningsfromConcertTour>,
+        <http://metaUnionSearch/datasets/Music7QWRZFXZ/column/VenueCityCountry> .
+

@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "NewColumnname₁",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/plant"
+    },
+    {
+      "column_header": "*SameAsBotanicalName*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sameName"
+    },
+    {
+      "column_header": "*DifferentFromScientificClassification*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/classification"
+    },
+    {
+      "column_header": "IsEndangered",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/endangeredSince"
+    },
+    {
+      "column_header": "FavoredTemperatureRange",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/finalPublicationDate"
+    },
+    {
+      "column_header": "SoilNutrientNeeds",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/subjectTerm"
+    },
+    {
+      "column_header": "AveragePlantHeight",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/height"
+    },
+    {
+      "column_header": "FloweringSeasonDates",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/flower"
+    },
+    {
+      "column_header": "SpecialPestControlMethods",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/speciality"
+    },
+    {
+      "column_header": "SelfSufficiencyScore_Local-Grown",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/certification"
+    },
+    {
+      "column_header": "GrowerExperienceLevelNeed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/breeder"
+    },
+    {
+      "column_header": "CollectedBy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/curator"
+    },
+    {
+      "column_header": "ValidatorSignature",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/signature"
+    }
+  ]
+}

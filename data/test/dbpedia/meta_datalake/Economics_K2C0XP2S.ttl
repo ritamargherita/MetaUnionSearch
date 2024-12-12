@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EconomicsK2C0XP2S> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_K2C0XP2S.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EconomicsK2C0XP2S/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/GrossdomesticproductGTbillions> a dsv:Column ;
+    rdfs:label "Gross_domestic_product(GT,_$ billions)" ;
+    dsv:columnProperty "gross domestic product (GDP)" .
+
+<http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/NetdomesticproductNTbillions> a dsv:Column ;
+    rdfs:label "Net_domestic_product(NT,_$ billions)" ;
+    dsv:columnProperty "net income ($)" .
+
+<http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/countryname> a dsv:Column ;
+    rdfs:label "country_name" ;
+    dsv:columnProperty "country" .
+
+<http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/datasource> a dsv:Column ;
+    rdfs:label "data_source" ;
+    dsv:columnProperty "source" .
+
+<http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/industrycode> a dsv:Column ;
+    rdfs:label "industry_code" ;
+    dsv:columnProperty "industry" .
+
+<http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/inflationrate> a dsv:Column ;
+    rdfs:label "inflation_rate" ;
+    dsv:columnProperty "fees ($)" .
+
+<http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/populationsize> a dsv:Column ;
+    rdfs:label "population_size" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/sampledescription> a dsv:Column ;
+    rdfs:label "sample_description" ;
+    dsv:columnProperty "description" .
+
+<http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/stateabbreviation> a dsv:Column ;
+    rdfs:label "state_abbreviation" ;
+    dsv:columnProperty "abbreviation" .
+
+<http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/timeperiod> a dsv:Column ;
+    rdfs:label "time_period" ;
+    dsv:columnProperty "event period" .
+
+<http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/variabletype> a dsv:Column ;
+    rdfs:label "variable_type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/EconomicsK2C0XP2S/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/GrossdomesticproductGTbillions>,
+        <http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/NetdomesticproductNTbillions>,
+        <http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/countryname>,
+        <http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/datasource>,
+        <http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/industrycode>,
+        <http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/inflationrate>,
+        <http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/populationsize>,
+        <http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/sampledescription>,
+        <http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/stateabbreviation>,
+        <http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/timeperiod>,
+        <http://metaUnionSearch/datasets/EconomicsK2C0XP2S/column/variabletype> .
+

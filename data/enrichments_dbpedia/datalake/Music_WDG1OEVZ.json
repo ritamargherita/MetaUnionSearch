@@ -1,0 +1,19 @@
+{
+    "mapping": [
+        {"column_header": "Lyrics Writer", "dbpedia_property_id": "http://dbpedia.org/ontology/lyrics"},
+        {"column_header": "Composer", "dbpedia_property_id": "http://dbpedia.org/ontology/composer"},
+        {"column_header": "/* if applicable */ nArranger / Lyricist (if different from Composers or not included)", "dbpedia_property_id": "http://dbpedia.org/ontology/associatedMusicalArtist"},
+        {"column_header": "/* If it is a classical music piece, then include Information about Performer(/Group)/Orchestra here */ nMusic Score Vendor", "dbpedia_property_id": "http://dbpedia.org/ontology/musicians"},
+        {"column_header": "Sound Engineer", "dbpedia_property_id": "http://dbpedia.org/ontology/engineer"},
+        {"column_header": "Recording Location & Studio Name", "dbpedia_property_id": "http://dbpedia.org/ontology/recordedIn"},
+        {"column_header": "Mixing Engineer", "dbpedia_property_id": "http://dbpedia.org/ontology/engineer"},
+        {"column_header": "Movie/(Game etc.) Soundtrack - Yes/'No'", "dbpedia_property_id": "http://dbpedia.org/ontology/film"},
+        {"column_header": "/* If yes > Include Movie name<& Song title</td> */ nMusical Theater –Yes '/ No'", "dbpedia_property_id": "http://dbpedia.org/ontology/currentProduction"},
+        {"column_header": "/* musical vendor details like play script publisher. */ nConductor Details", "dbpedia_property_id": "http://dbpedia.org/ontology/musicalArtist"},
+        {"column_header": "/* For classical/orchestral music */nTour -_yes 'no'", "dbpedia_property_id": "http://dbpedia.org/ontology/musicType"},
+        {"column_header": "/* details needed only when its YES */nDistributor_Name", "dbpedia_property_id": "http://dbpedia.org/ontology/distributor"},
+        {"column_header": "License-Start‐Date", "dbpedia_property_id": "http://dbpedia.org/ontology/license"},
+        {"column_header": "/*", "dbpedia_property_id": "http://dbpedia.org/ontology/comment"},
+        {"column_header": "License–End date", "dbpedia_property_id": "http://dbpedia.org/ontology/license"}
+    ]
+}

@@ -1,0 +1,70 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Politics9XJM6Z6C> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_9XJM6Z6C.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Politics9XJM6Z6C/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/CampaignFinanceTotals> a dsv:Column ;
+    rdfs:label "Campaign Finance Totals" ;
+    dsv:columnProperty "reference for politic data" .
+
+<http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/DiplomaticPrestigeRanking> a dsv:Column ;
+    rdfs:label "Diplomatic Prestige Ranking" ;
+    dsv:columnProperty "national ranking" .
+
+<http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/ElectionsData> a dsv:Column ;
+    rdfs:label "Elections Data" ;
+    dsv:columnProperty "reference for politic data" .
+
+<http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/InternationalTreatyParticipation> a dsv:Column ;
+    rdfs:label "International Treaty Participation." ;
+    dsv:columnProperty "international affiliation" .
+
+<http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/LegislativeSuccessRate> a dsv:Column ;
+    rdfs:label "Legislative Success Rate" ;
+    dsv:columnProperty "legislature" .
+
+<http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/LobbyingFirmEmploymentFigures> a dsv:Column ;
+    rdfs:label "Lobbying Firm Employment Figures" ;
+    dsv:columnProperty "number of professionals" .
+
+<http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/LowerHouseSeatsHeld> a dsv:Column ;
+    rdfs:label "Lower House Seats Held" ;
+    dsv:columnProperty "number of seats in parliament" .
+
+<http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/MilitaryStrengthIndex> a dsv:Column ;
+    rdfs:label "Military Strength Index" .
+
+<http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/NumberofPolicyThinkTanks> a dsv:Column ;
+    rdfs:label "Number of Policy Think Tanks" ;
+    dsv:columnProperty "number of offices" .
+
+<http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/PublicOpinionPollingResults> a dsv:Column ;
+    rdfs:label "Public Opinion Polling Results" ;
+    dsv:columnProperty "Number of votes given to candidate" .
+
+<http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/UpperHouseSeatsHeld> a dsv:Column ;
+    rdfs:label "Upper House Seats Held" ;
+    dsv:columnProperty "number of seats in parliament" .
+
+<http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/VoterTurnoutRates> a dsv:Column ;
+    rdfs:label "Voter Turnout Rates" ;
+    dsv:columnProperty "Number of votes given to candidate" .
+
+<http://metaUnionSearch/datasets/Politics9XJM6Z6C/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/CampaignFinanceTotals>,
+        <http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/DiplomaticPrestigeRanking>,
+        <http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/ElectionsData>,
+        <http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/InternationalTreatyParticipation>,
+        <http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/LegislativeSuccessRate>,
+        <http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/LobbyingFirmEmploymentFigures>,
+        <http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/LowerHouseSeatsHeld>,
+        <http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/MilitaryStrengthIndex>,
+        <http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/NumberofPolicyThinkTanks>,
+        <http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/PublicOpinionPollingResults>,
+        <http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/UpperHouseSeatsHeld>,
+        <http://metaUnionSearch/datasets/Politics9XJM6Z6C/column/VoterTurnoutRates> .
+

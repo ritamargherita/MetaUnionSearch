@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Title",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/title"
+    },
+    {
+      "column_header": " Publication Date ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publicationDate"
+    },
+    {
+      "column_header": " Publisher / Journal Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publisher"
+    },
+    {
+      "column_header": "*Genre*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/genre"
+    },
+    {
+      "column_header": " **Character Evolution*}",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mainCharacter"
+    },
+    {
+      "column_header": " Subgenres",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": "",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/other"
+    },
+    {
+      "column_header": " *Historical Setting*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/settingOfPlay"
+    },
+    {
+      "column_header": " Sociocultural Environment",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"
+    },
+    {
+      "column_header": "**Author Affiliation (Birthplace etc.)**",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/affiliation"
+    },
+    {
+      "column_header": " **Language**, Original vs Translation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/originalLanguage"
+    },
+    {
+      "column_header": "**Stylistic Period**",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/stylisticOrigin"
+    },
+    {
+      "column_header": " Literary Criticism",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": " Additional Information",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherInformation"
+    }
+  ]
+}

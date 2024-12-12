@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MedicineYRJVZA65> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_YRJVZA65.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MedicineYRJVZA65/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MedicineYRJVZA65/column/AdmissionDate> a dsv:Column ;
+    rdfs:label "Admission Date" ;
+    dsv:columnProperty "introduction date" .
+
+<http://metaUnionSearch/datasets/MedicineYRJVZA65/column/Email> a dsv:Column ;
+    rdfs:label "Email" ;
+    dsv:columnProperty "note" .
+
+<http://metaUnionSearch/datasets/MedicineYRJVZA65/column/MedicalRecordNumber> a dsv:Column ;
+    rdfs:label "Medical Record Number" ;
+    dsv:columnProperty "id number" .
+
+<http://metaUnionSearch/datasets/MedicineYRJVZA65/column/PatientAddress> a dsv:Column ;
+    rdfs:label "Patient Address" ;
+    dsv:columnProperty "address" .
+
+<http://metaUnionSearch/datasets/MedicineYRJVZA65/column/PatientAge> a dsv:Column ;
+    rdfs:label "Patient Age" ;
+    dsv:columnProperty "age" .
+
+<http://metaUnionSearch/datasets/MedicineYRJVZA65/column/PatientGender> a dsv:Column ;
+    rdfs:label "Patient Gender" ;
+    dsv:columnProperty "gender" .
+
+<http://metaUnionSearch/datasets/MedicineYRJVZA65/column/PhoneNumber> a dsv:Column ;
+    rdfs:label "Phone Number" ;
+    dsv:columnProperty "number" .
+
+<http://metaUnionSearch/datasets/MedicineYRJVZA65/column/PractitionerSpecialization> a dsv:Column ;
+    rdfs:label "Practitioner Specialization" ;
+    dsv:columnProperty "specialization" .
+
+<http://metaUnionSearch/datasets/MedicineYRJVZA65/column/PrescribingPhysician> a dsv:Column ;
+    rdfs:label "Prescribing Physician" ;
+    dsv:columnProperty "profession" .
+
+<http://metaUnionSearch/datasets/MedicineYRJVZA65/column/PrescriptionNotes> a dsv:Column ;
+    rdfs:label "Prescription Notes" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/MedicineYRJVZA65/column/SeparationTechnique> a dsv:Column ;
+    rdfs:label "Separation Technique" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/MedicineYRJVZA65/column/TreatingFacility> a dsv:Column ;
+    rdfs:label "Treating Facility" ;
+    dsv:columnProperty "facility id" .
+
+<http://metaUnionSearch/datasets/MedicineYRJVZA65/column/TreatmentType> a dsv:Column ;
+    rdfs:label "Treatment Type" ;
+    dsv:columnProperty "treatment" .
+
+<http://metaUnionSearch/datasets/MedicineYRJVZA65/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MedicineYRJVZA65/column/AdmissionDate>,
+        <http://metaUnionSearch/datasets/MedicineYRJVZA65/column/Email>,
+        <http://metaUnionSearch/datasets/MedicineYRJVZA65/column/MedicalRecordNumber>,
+        <http://metaUnionSearch/datasets/MedicineYRJVZA65/column/PatientAddress>,
+        <http://metaUnionSearch/datasets/MedicineYRJVZA65/column/PatientAge>,
+        <http://metaUnionSearch/datasets/MedicineYRJVZA65/column/PatientGender>,
+        <http://metaUnionSearch/datasets/MedicineYRJVZA65/column/PhoneNumber>,
+        <http://metaUnionSearch/datasets/MedicineYRJVZA65/column/PractitionerSpecialization>,
+        <http://metaUnionSearch/datasets/MedicineYRJVZA65/column/PrescribingPhysician>,
+        <http://metaUnionSearch/datasets/MedicineYRJVZA65/column/PrescriptionNotes>,
+        <http://metaUnionSearch/datasets/MedicineYRJVZA65/column/SeparationTechnique>,
+        <http://metaUnionSearch/datasets/MedicineYRJVZA65/column/TreatingFacility>,
+        <http://metaUnionSearch/datasets/MedicineYRJVZA65/column/TreatmentType> .
+

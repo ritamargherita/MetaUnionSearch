@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Ecosystem Services",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/service"
+    },
+    {
+      "column_header": "Ecological Processes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": "Food Webs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/species"
+    },
+    {
+      "column_header": "Biodiversity Metrics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    },
+    {
+      "column_header": "Invasive Species",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fauna"
+    },
+    {
+      "column_header": "Disease Spread",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/disease"
+    },
+    {
+      "column_header": "Genetic Diversity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/genus"
+    },
+    {
+      "column_header": "Population Dynamics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"
+    },
+    {
+      "column_header": "Carbon Sequestration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": "Air Quality",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Water Purification",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/water"
+    },
+    {
+      "column_header": "Recreation and Tourism",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/touristicSite"
+    },
+    {
+      "column_header": "Research Opportunities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "Climate Change Impacts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Policy and Legislation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/legislature"
+    }
+  ]
+}

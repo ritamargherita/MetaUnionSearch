@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArchitectureOM3WTOOB> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_OM3WTOOB.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/AccessibilityFeatures> a dsv:Column ;
+    rdfs:label "Accessibility Features" ;
+    dsv:columnProperty "is handicapped accessible" .
+
+<http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/ApplicableCodesandStandards> a dsv:Column ;
+    rdfs:label "Applicable Codes and Standards" ;
+    dsv:columnProperty "code book" .
+
+<http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/Architect> a dsv:Column ;
+    rdfs:label "Architect" ;
+    dsv:columnProperty "architect" .
+
+<http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/ArchitecturalTheories> a dsv:Column ;
+    rdfs:label "Architectural Theories" ;
+    dsv:columnProperty "architectural movement" .
+
+<http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/BudgetEstimates> a dsv:Column ;
+    rdfs:label "Budget Estimates" ;
+    dsv:columnProperty "budget ($)" .
+
+<http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/ConstructionTechniques> a dsv:Column ;
+    rdfs:label "Construction Techniques" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/ErgonomicConsiderations> a dsv:Column ;
+    rdfs:label "Ergonomic Considerations" ;
+    dsv:columnProperty "requirement" .
+
+<http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/FurnitureandFixtures> a dsv:Column ;
+    rdfs:label "Furniture and Fixtures" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/HistoricalContext> a dsv:Column ;
+    rdfs:label "Historical Context" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/MaintenanceRequirements> a dsv:Column ;
+    rdfs:label "Maintenance Requirements" ;
+    dsv:columnProperty "requirement" .
+
+<http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/NumberofFloors> a dsv:Column ;
+    rdfs:label "Number of Floors" ;
+    dsv:columnProperty "floor count" .
+
+<http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/OccupancyLimitations> a dsv:Column ;
+    rdfs:label "Occupancy Limitations" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/StructuralSystems> a dsv:Column ;
+    rdfs:label "Structural Systems" ;
+    dsv:columnProperty "structural system" .
+
+<http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/AccessibilityFeatures>,
+        <http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/ApplicableCodesandStandards>,
+        <http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/Architect>,
+        <http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/ArchitecturalTheories>,
+        <http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/BudgetEstimates>,
+        <http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/ConstructionTechniques>,
+        <http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/ErgonomicConsiderations>,
+        <http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/FurnitureandFixtures>,
+        <http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/HistoricalContext>,
+        <http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/MaintenanceRequirements>,
+        <http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/NumberofFloors>,
+        <http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/OccupancyLimitations>,
+        <http://metaUnionSearch/datasets/ArchitectureOM3WTOOB/column/StructuralSystems> .
+

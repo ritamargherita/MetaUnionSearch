@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Technology6MWWJPGJ> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_6MWWJPGJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Technology6MWWJPGJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/ArtificialIntelligenceMachineLearningsharedcolumnwithTable1> a dsv:Column ;
+    rdfs:label "Artificial Intelligence & Machine Learning (shared column with Table 1)" ;
+    dsv:columnProperty "computing platform" .
+
+<http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/AutonomousVehiclesMarketSizeForecast> a dsv:Column ;
+    rdfs:label "Autonomous Vehicles Market Size Forecast" ;
+    dsv:columnProperty "number of vehicles" .
+
+<http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/CybersecurityThreatsLandscapeAnalysis> a dsv:Column ;
+    rdfs:label "Cybersecurity Threats Landscape Analysis" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/DigitalLiteracyIndex> a dsv:Column ;
+    rdfs:label "Digital Literacy Index" ;
+    dsv:columnProperty "illiteracy" .
+
+<http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/FashionTrendsPrediction> a dsv:Column ;
+    rdfs:label "Fashion Trends Prediction" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/InternetPenetrationbyRegion> a dsv:Column ;
+    rdfs:label "Internet Penetration by Region" ;
+    dsv:columnProperty "region link" .
+
+<http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/PrivacyPoliciesAccountabilityMeasurescombinedcolumnfromTable1sPrivacyPoliciesandAccountabilityMeasures> a dsv:Column ;
+    rdfs:label "Privacy Policies & Accountability Measures (combined column from Table 1's Privacy Policies and Accountability Measures)" ;
+    dsv:columnProperty "oversight" .
+
+<http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/QuantumComputingAdvancements> a dsv:Column ;
+    rdfs:label "Quantum Computing Advancements" ;
+    dsv:columnProperty "Computing Media" .
+
+<http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/TechGadgetAdoptionRate> a dsv:Column ;
+    rdfs:label "Tech Gadget Adoption Rate" .
+
+<http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/VirtualRealityAdoptioninHealthcare> a dsv:Column ;
+    rdfs:label "Virtual Reality Adoption in Healthcare" ;
+    dsv:columnProperty "digital channel" .
+
+<http://metaUnionSearch/datasets/Technology6MWWJPGJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/ArtificialIntelligenceMachineLearningsharedcolumnwithTable1>,
+        <http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/AutonomousVehiclesMarketSizeForecast>,
+        <http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/CybersecurityThreatsLandscapeAnalysis>,
+        <http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/DigitalLiteracyIndex>,
+        <http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/FashionTrendsPrediction>,
+        <http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/InternetPenetrationbyRegion>,
+        <http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/PrivacyPoliciesAccountabilityMeasurescombinedcolumnfromTable1sPrivacyPoliciesandAccountabilityMeasures>,
+        <http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/QuantumComputingAdvancements>,
+        <http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/TechGadgetAdoptionRate>,
+        <http://metaUnionSearch/datasets/Technology6MWWJPGJ/column/VirtualRealityAdoptioninHealthcare> .
+

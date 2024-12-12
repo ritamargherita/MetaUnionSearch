@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Architecture3UEA3GE8> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_3UEA3GE8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Architecture3UEA3GE8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/ArchitectureFirmName> a dsv:Column ;
+    rdfs:label "Architecture Firm Name" .
+
+<http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/AwardsReceived> a dsv:Column ;
+    rdfs:label "Awards Received" ;
+    dsv:columnProperty "award" .
+
+<http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/CommunityInvolvement> a dsv:Column ;
+    rdfs:label "Community Involvement" ;
+    dsv:columnProperty "participates/participated in" .
+
+<http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/Location> a dsv:Column ;
+    rdfs:label "Location" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/NumberofProjects> a dsv:Column ;
+    rdfs:label "Number of Projects" ;
+    dsv:columnProperty "project" .
+
+<http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/ProfessionalCertifications> a dsv:Column ;
+    rdfs:label "Professional Certifications" ;
+    dsv:columnProperty "certification" .
+
+<http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/ProjectManagementStyle> a dsv:Column ;
+    rdfs:label "Project Management Style" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/ServicesOffered> a dsv:Column ;
+    rdfs:label "Services Offered" ;
+    dsv:columnProperty "service" .
+
+<http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/SustainablePractices> a dsv:Column ;
+    rdfs:label "Sustainable Practices" ;
+    dsv:columnProperty "certification" .
+
+<http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/TechnologicalInnovations> a dsv:Column ;
+    rdfs:label "Technological Innovations." .
+
+<http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/YearEstablished> a dsv:Column ;
+    rdfs:label "Year Established" ;
+    dsv:columnProperty "Established" .
+
+<http://metaUnionSearch/datasets/Architecture3UEA3GE8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/ArchitectureFirmName>,
+        <http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/AwardsReceived>,
+        <http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/CommunityInvolvement>,
+        <http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/Location>,
+        <http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/NumberofProjects>,
+        <http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/ProfessionalCertifications>,
+        <http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/ProjectManagementStyle>,
+        <http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/ServicesOffered>,
+        <http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/SustainablePractices>,
+        <http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/TechnologicalInnovations>,
+        <http://metaUnionSearch/datasets/Architecture3UEA3GE8/column/YearEstablished> .
+

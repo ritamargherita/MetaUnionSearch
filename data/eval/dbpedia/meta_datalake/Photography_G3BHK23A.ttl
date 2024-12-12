@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_G3BHK23A.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhotographyG3BHK23A/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/Category> a dsv:Column ;
+    rdfs:label "Category" ;
+    dsv:columnProperty "category" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/DateUploadedToSocialMedia> a dsv:Column ;
+    rdfs:label "Date Uploaded To Social Media" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/EditingSoftwareUsed> a dsv:Column ;
+    rdfs:label "Editing Software Used" ;
+    dsv:columnProperty "editing" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/ExternalStorageDevice> a dsv:Column ;
+    rdfs:label "External Storage Device" ;
+    dsv:columnProperty "type of storage" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/LocationShootage> a dsv:Column ;
+    rdfs:label "Location Shootage" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/PhotoSizeinMB> a dsv:Column ;
+    rdfs:label "Photo Size (in MB)" ;
+    dsv:columnProperty "size (B)" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/PhotoTitle> a dsv:Column ;
+    rdfs:label "Photo Title" ;
+    dsv:columnProperty "title" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/PostProcessEditsMade> a dsv:Column ;
+    rdfs:label "Post Process Edits Made" ;
+    dsv:columnProperty "editing" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/PrivacySetting> a dsv:Column ;
+    rdfs:label "Privacy Setting." ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/ServerType> a dsv:Column ;
+    rdfs:label "Server Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/StorageFolderPath> a dsv:Column ;
+    rdfs:label "Storage Folder Path" ;
+    dsv:columnProperty "The URL at which this file can be downloaded" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/ThumbnailCreated> a dsv:Column ;
+    rdfs:label "Thumbnail Created?" ;
+    dsv:columnProperty "thumbnail" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/TimeZone> a dsv:Column ;
+    rdfs:label "Time Zone" ;
+    dsv:columnProperty "time zone" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/UploadPlatform> a dsv:Column ;
+    rdfs:label "Upload Platform" ;
+    dsv:columnProperty "media" .
+
+<http://metaUnionSearch/datasets/PhotographyG3BHK23A/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/Category>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/DateUploadedToSocialMedia>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/EditingSoftwareUsed>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/ExternalStorageDevice>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/LocationShootage>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/PhotoSizeinMB>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/PhotoTitle>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/PostProcessEditsMade>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/PrivacySetting>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/ServerType>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/StorageFolderPath>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/ThumbnailCreated>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/TimeZone>,
+        <http://metaUnionSearch/datasets/PhotographyG3BHK23A/column/UploadPlatform> .
+

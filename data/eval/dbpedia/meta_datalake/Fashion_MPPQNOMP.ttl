@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FashionMPPQNOMP> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_MPPQNOMP.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FashionMPPQNOMP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FashionMPPQNOMP/column/> a dsv:Column ;
+    rdfs:label "... " ;
+    dsv:columnProperty "criteria" .
+
+<http://metaUnionSearch/datasets/FashionMPPQNOMP/column/AdditionalAttribute> a dsv:Column ;
+    rdfs:label "Additional_Attribute₁",
+        "Additional_Attribute₆" ;
+    dsv:columnProperty "criteria" .
+
+<http://metaUnionSearch/datasets/FashionMPPQNOMP/column/Color> a dsv:Column ;
+    rdfs:label "Color" ;
+    dsv:columnProperty "colour" .
+
+<http://metaUnionSearch/datasets/FashionMPPQNOMP/column/DesignerBrandStoreifDifferentfromPreviousColumn> a dsv:Column ;
+    rdfs:label "Designer/Brand/Store^if Different from Previous Column" ;
+    dsv:columnProperty "brand" .
+
+<http://metaUnionSearch/datasets/FashionMPPQNOMP/column/Material> a dsv:Column ;
+    rdfs:label "Material" ;
+    dsv:columnProperty "material" .
+
+<http://metaUnionSearch/datasets/FashionMPPQNOMP/column/Optional> a dsv:Column ;
+    rdfs:label "Optional*" ;
+    dsv:columnProperty "product" .
+
+<http://metaUnionSearch/datasets/FashionMPPQNOMP/column/ProductType> a dsv:Column ;
+    rdfs:label "Product Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/FashionMPPQNOMP/column/QuantityifApplicable> a dsv:Column ;
+    rdfs:label "Quantity^if Applicable" ;
+    dsv:columnProperty "value" .
+
+<http://metaUnionSearch/datasets/FashionMPPQNOMP/column/Size> a dsv:Column ;
+    rdfs:label "Size" ;
+    dsv:columnProperty "clothing size" .
+
+<http://metaUnionSearch/datasets/FashionMPPQNOMP/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FashionMPPQNOMP/column/>,
+        <http://metaUnionSearch/datasets/FashionMPPQNOMP/column/AdditionalAttribute>,
+        <http://metaUnionSearch/datasets/FashionMPPQNOMP/column/Color>,
+        <http://metaUnionSearch/datasets/FashionMPPQNOMP/column/DesignerBrandStoreifDifferentfromPreviousColumn>,
+        <http://metaUnionSearch/datasets/FashionMPPQNOMP/column/Material>,
+        <http://metaUnionSearch/datasets/FashionMPPQNOMP/column/Optional>,
+        <http://metaUnionSearch/datasets/FashionMPPQNOMP/column/ProductType>,
+        <http://metaUnionSearch/datasets/FashionMPPQNOMP/column/QuantityifApplicable>,
+        <http://metaUnionSearch/datasets/FashionMPPQNOMP/column/Size> .
+

@@ -1,0 +1,20 @@
+{
+  "mapping": [
+    {"column_header": "Study Area ID", "dbpedia_property_id": "http://dbpedia.org/ontology/id"},
+    {"column_header": "Date & Time Stamp", "dbpedia_property_id": "http://dbpedia.org/ontology/date"},
+    {"column_header": "Additional Data SetID", "dbpedia_property_id": "http://dbpedia.org/ontology/idNumber"},
+    {"column_header": "Weather Condition", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+    {"column_header": "Temperature (°C)", "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"},
+    {"column_header": "Relative Humidity (%)", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Atmospheric Pressure (hPa)", "dbpedia_property_id": "http://dbpedia.org/ontology/vaporPressure"},
+    {"column_header": "Wind Speed (m/s)", "dbpedia_property_id": "http://dbpedia.org/ontology/averageSpeed"},
+    {"column_header": "Precipitation (mm)", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Solar Radiation (W/m²)", "dbpedia_property_id": "http://dbpedia.org/ontology/effectiveRadiatedPower"},
+    {"column_header": "Soil Moisture (%)", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Snow Depth(cm)", "dbpedia_property_id": "http://dbpedia.org/ontology/depth"},
+    {"column_header": "Evapotranspiration Rate( mm day^-¹ )", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+    {"column_header": "Ground Temp at Multiple Layers (&deg", "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"},
+    {"column_header": "C - one column for each layer up to seven layers as necessary and marked accordingly from 'GroundTempLayer_02(&deg", "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"},
+    {"column_header": "C - one column for each layer up to seven layers as necessary and marked accordingly from 'GroundTempLayer_02('", "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"}
+  ]
+}

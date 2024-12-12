@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Science5HGP8IY3> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_5HGP8IY3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Science5HGP8IY3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Science5HGP8IY3/column/ConclusiveRemarks> a dsv:Column ;
+    rdfs:label "Conclusive Remarks." ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/Science5HGP8IY3/column/ControlSettings> a dsv:Column ;
+    rdfs:label "Control Settings" ;
+    dsv:columnProperty "configuration" .
+
+<http://metaUnionSearch/datasets/Science5HGP8IY3/column/Description> a dsv:Column ;
+    rdfs:label "Description" ;
+    dsv:columnProperty "description" .
+
+<http://metaUnionSearch/datasets/Science5HGP8IY3/column/ElectronEnergyLevels> a dsv:Column ;
+    rdfs:label "Electron Energy Levels" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/Science5HGP8IY3/column/Hypothesis> a dsv:Column ;
+    rdfs:label "Hypothesis" ;
+    dsv:columnProperty "approach" .
+
+<http://metaUnionSearch/datasets/Science5HGP8IY3/column/HypothesisTested> a dsv:Column ;
+    rdfs:label "Hypothesis Tested" ;
+    dsv:columnProperty "testaverage" .
+
+<http://metaUnionSearch/datasets/Science5HGP8IY3/column/MeasuredData> a dsv:Column ;
+    rdfs:label "Measured Data" ;
+    dsv:columnProperty "statistic value" .
+
+<http://metaUnionSearch/datasets/Science5HGP8IY3/column/ProcessingStepsApplied> a dsv:Column ;
+    rdfs:label "Processing Steps Applied" ;
+    dsv:columnProperty "procedure" .
+
+<http://metaUnionSearch/datasets/Science5HGP8IY3/column/QuantumPhysics> a dsv:Column ;
+    rdfs:label "Quantum Physics" ;
+    dsv:columnProperty "description" .
+
+<http://metaUnionSearch/datasets/Science5HGP8IY3/column/RawAnalysisResults> a dsv:Column ;
+    rdfs:label "Raw Analysis Results" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/Science5HGP8IY3/column/TestParameters> a dsv:Column ;
+    rdfs:label "Test Parameters" ;
+    dsv:columnProperty "criteria" .
+
+<http://metaUnionSearch/datasets/Science5HGP8IY3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Science5HGP8IY3/column/ConclusiveRemarks>,
+        <http://metaUnionSearch/datasets/Science5HGP8IY3/column/ControlSettings>,
+        <http://metaUnionSearch/datasets/Science5HGP8IY3/column/Description>,
+        <http://metaUnionSearch/datasets/Science5HGP8IY3/column/ElectronEnergyLevels>,
+        <http://metaUnionSearch/datasets/Science5HGP8IY3/column/Hypothesis>,
+        <http://metaUnionSearch/datasets/Science5HGP8IY3/column/HypothesisTested>,
+        <http://metaUnionSearch/datasets/Science5HGP8IY3/column/MeasuredData>,
+        <http://metaUnionSearch/datasets/Science5HGP8IY3/column/ProcessingStepsApplied>,
+        <http://metaUnionSearch/datasets/Science5HGP8IY3/column/QuantumPhysics>,
+        <http://metaUnionSearch/datasets/Science5HGP8IY3/column/RawAnalysisResults>,
+        <http://metaUnionSearch/datasets/Science5HGP8IY3/column/TestParameters> .
+

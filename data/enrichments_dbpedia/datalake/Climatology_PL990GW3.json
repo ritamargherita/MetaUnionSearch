@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Stratum Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officialName"
+    },
+    {
+      "column_header": " Elevation(masl) ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/elevationQuote"
+    },
+    {
+      "column_header": " Vapor Pressure difference(kPA) ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vaporPressure"
+    },
+    {
+      "column_header": " Cloud Type & Coverage (%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": " Geological Feature ID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": " Land Use Category",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/land"
+    },
+    {
+      "column_header": " Latitude",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/latitude"
+    },
+    {
+      "column_header": " Longitude",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/longitude"
+    },
+    {
+      "column_header": " Topographic Aspect/Degrees",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orientation"
+    },
+    {
+      "column_header": " Slope Gradient(%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/inclination"
+    },
+    {
+      "column_header": " Altitudinal Zone",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": " Biome Classification ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/biome"
+    },
+    {
+      "column_header": " Lightning Activity (times/km².yr)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    }
+  ]
+}

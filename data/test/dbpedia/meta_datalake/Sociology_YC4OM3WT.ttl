@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SociologyYC4OM3WT> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_YC4OM3WT.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SociologyYC4OM3WT/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/CriticismsAndDebates> a dsv:Column ;
+    rdfs:label "CriticismsAndDebates" ;
+    dsv:columnProperty "conflict" .
+
+<http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/CrossCulturalComparisons> a dsv:Column ;
+    rdfs:label "CrossCulturalComparisons" ;
+    dsv:columnProperty "ethnic group" .
+
+<http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/EmergingTrends> a dsv:Column ;
+    rdfs:label "EmergingTrends" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/FutureDirections> a dsv:Column ;
+    rdfs:label "FutureDirections" ;
+    dsv:columnProperty "introduced" .
+
+<http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/Glossary> a dsv:Column ;
+    rdfs:label "Glossary." ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/HistoricalDevelopment> a dsv:Column ;
+    rdfs:label "HistoricalDevelopment" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/InfluentialScholars> a dsv:Column ;
+    rdfs:label "InfluentialScholars" ;
+    dsv:columnProperty "influenced by" .
+
+<http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/KeyConcepts> a dsv:Column ;
+    rdfs:label "KeyConcepts" ;
+    dsv:columnProperty "key person" .
+
+<http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/MethodologicalChallenges> a dsv:Column ;
+    rdfs:label "MethodologicalChallenges" ;
+    dsv:columnProperty "approach" .
+
+<http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/PolicyImplications> a dsv:Column ;
+    rdfs:label "PolicyImplications" ;
+    dsv:columnProperty "government" .
+
+<http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/PracticalApplications> a dsv:Column ;
+    rdfs:label "PracticalApplications" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/SociologicalPerspectives> a dsv:Column ;
+    rdfs:label "SociologicalPerspectives" ;
+    dsv:columnProperty "ideology" .
+
+<http://metaUnionSearch/datasets/SociologyYC4OM3WT/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/CriticismsAndDebates>,
+        <http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/CrossCulturalComparisons>,
+        <http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/EmergingTrends>,
+        <http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/FutureDirections>,
+        <http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/Glossary>,
+        <http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/HistoricalDevelopment>,
+        <http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/InfluentialScholars>,
+        <http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/KeyConcepts>,
+        <http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/MethodologicalChallenges>,
+        <http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/PolicyImplications>,
+        <http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/PracticalApplications>,
+        <http://metaUnionSearch/datasets/SociologyYC4OM3WT/column/SociologicalPerspectives> .
+

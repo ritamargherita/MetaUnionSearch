@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geophysics4O7933VF> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_4O7933VF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geophysics4O7933VF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Crustalstructure> a dsv:Column ;
+    rdfs:label "Crustal structure" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Geoidundulations> a dsv:Column ;
+    rdfs:label "Geoid undulations" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/Geophysics4O7933VF/column/GravityAnomalies> a dsv:Column ;
+    rdfs:label "Gravity Anomalies" ;
+    dsv:columnProperty "surface gravity (g)" .
+
+<http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Heatflowmeasurements> a dsv:Column ;
+    rdfs:label "Heat flow measurements" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Isostasycalculations> a dsv:Column ;
+    rdfs:label "Isostasy calculations" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Magneticanomalymapvalues> a dsv:Column ;
+    rdfs:label "Magnetic anomaly map values" ;
+    dsv:columnProperty "map" .
+
+<http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Mohodepthvariations> a dsv:Column ;
+    rdfs:label "Moho depth variations" ;
+    dsv:columnProperty "depth (μ)" .
+
+<http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Paleointensityrecords> a dsv:Column ;
+    rdfs:label "Paleointensity records" ;
+    dsv:columnProperty "recorded in" .
+
+<http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Plateboundarycharacteristics> a dsv:Column ;
+    rdfs:label "Plate boundary characteristics" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Radiogenicisotopes> a dsv:Column ;
+    rdfs:label "Radiogenic isotopes" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Seismictomography> a dsv:Column ;
+    rdfs:label "Seismic tomography" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Strainratetensors> a dsv:Column ;
+    rdfs:label "Strain rate tensors" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Uppermantlecomposition> a dsv:Column ;
+    rdfs:label "Upper mantle composition" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geophysics4O7933VF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Crustalstructure>,
+        <http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Geoidundulations>,
+        <http://metaUnionSearch/datasets/Geophysics4O7933VF/column/GravityAnomalies>,
+        <http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Heatflowmeasurements>,
+        <http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Isostasycalculations>,
+        <http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Magneticanomalymapvalues>,
+        <http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Mohodepthvariations>,
+        <http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Paleointensityrecords>,
+        <http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Plateboundarycharacteristics>,
+        <http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Radiogenicisotopes>,
+        <http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Seismictomography>,
+        <http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Strainratetensors>,
+        <http://metaUnionSearch/datasets/Geophysics4O7933VF/column/Uppermantlecomposition> .
+

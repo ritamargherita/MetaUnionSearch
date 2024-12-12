@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoliticsT8F6KJKV> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_T8F6KJKV.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoliticsT8F6KJKV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/AffiliateOrganizationsOrBranchesPerParty> a dsv:Column ;
+    rdfs:label "Affiliate Organizations Or Branches Per Party" ;
+    dsv:columnProperty "affiliate" .
+
+<http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/AverageTenureOfMembersInYears> a dsv:Column ;
+    rdfs:label "Average Tenure Of Members In Years" ;
+    dsv:columnProperty "average" .
+
+<http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/CharitableDonationsMadeByThePartyYearlyTotaling> a dsv:Column ;
+    rdfs:label "Charitable Donations Made By The Party Yearly Totaling $`" ;
+    dsv:columnProperty "project budget total ($)" .
+
+<http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/DemographicBreakdownbyGenderAgeinSeatsHeld> a dsv:Column ;
+    rdfs:label "Demographic Breakdown by Gender/ Age/% in Seats Held" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/NumberOfSeatsHeld> a dsv:Column ;
+    rdfs:label "Number Of Seats Held " ;
+    dsv:columnProperty "number of seats" .
+
+<http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/PercentageofMinorityRepresentation> a dsv:Column ;
+    rdfs:label "Percentage of Minority Representation" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/PolicyStances> a dsv:Column ;
+    rdfs:label "Policy Stances" ;
+    dsv:columnProperty "ideology" .
+
+<http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/TotalElectionWinsAndLossesRecord> a dsv:Column ;
+    rdfs:label "Total Election Wins And Losses Record" ;
+    dsv:columnProperty "most wins" .
+
+<http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/VotingRecord> a dsv:Column ;
+    rdfs:label "`Voting Record" ;
+    dsv:columnProperty "overall record" .
+
+<http://metaUnionSearch/datasets/PoliticsT8F6KJKV/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/AffiliateOrganizationsOrBranchesPerParty>,
+        <http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/AverageTenureOfMembersInYears>,
+        <http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/CharitableDonationsMadeByThePartyYearlyTotaling>,
+        <http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/DemographicBreakdownbyGenderAgeinSeatsHeld>,
+        <http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/NumberOfSeatsHeld>,
+        <http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/PercentageofMinorityRepresentation>,
+        <http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/PolicyStances>,
+        <http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/TotalElectionWinsAndLossesRecord>,
+        <http://metaUnionSearch/datasets/PoliticsT8F6KJKV/column/VotingRecord> .
+

@@ -1,0 +1,91 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_5VWIPGSE.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/Achievements> a dsv:Column ;
+    rdfs:label "Achievements" ;
+    dsv:columnProperty "achievement" .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/Active> a dsv:Column ;
+    rdfs:label "Active" ;
+    dsv:columnProperty "current status" .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/ActiveDecades> a dsv:Column ;
+    rdfs:label "Active Decade(s)" ;
+    dsv:columnProperty "active years" .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/AdditionalSkills> a dsv:Column ;
+    rdfs:label "Additional Skills" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/ArtForm> a dsv:Column ;
+    rdfs:label "Art Form" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/ArtisticDirectorship> a dsv:Column ;
+    rdfs:label "Artistic Directorship" ;
+    dsv:columnProperty "creative director" .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/ArtisticInfluences> a dsv:Column ;
+    rdfs:label "Artistic Influences" ;
+    dsv:columnProperty "specialization" .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/AwardsReceived> a dsv:Column ;
+    rdfs:label "Awards Received" ;
+    dsv:columnProperty "award" .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/Background> a dsv:Column ;
+    rdfs:label "Background" ;
+    dsv:columnProperty "background" .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/Collaborations> a dsv:Column ;
+    rdfs:label "Collaborations" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/Education> a dsv:Column ;
+    rdfs:label "Education" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/MajorTroupes> a dsv:Column ;
+    rdfs:label "Major Troupes" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/Notes> a dsv:Column ;
+    rdfs:label "Notes" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/PerformanceType> a dsv:Column ;
+    rdfs:label "Performance Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/TotalAwardsWon> a dsv:Column ;
+    rdfs:label "Total Awards Won" ;
+    dsv:columnProperty "wins" .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/YearsActive> a dsv:Column ;
+    rdfs:label "Years Active" ;
+    dsv:columnProperty "active years" .
+
+<http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/Achievements>,
+        <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/Active>,
+        <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/ActiveDecades>,
+        <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/AdditionalSkills>,
+        <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/ArtForm>,
+        <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/ArtisticDirectorship>,
+        <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/ArtisticInfluences>,
+        <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/AwardsReceived>,
+        <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/Background>,
+        <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/Collaborations>,
+        <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/Education>,
+        <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/MajorTroupes>,
+        <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/Notes>,
+        <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/PerformanceType>,
+        <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/TotalAwardsWon>,
+        <http://metaUnionSearch/datasets/PerformingArts5VWIPGSE/column/YearsActive> .
+

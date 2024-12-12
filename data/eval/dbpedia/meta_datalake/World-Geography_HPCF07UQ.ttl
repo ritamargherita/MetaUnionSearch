@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_HPCF07UQ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityAreakm2> a dsv:Column ;
+    rdfs:label "City Area (km2)" ;
+    dsv:columnProperty "area urban (m2)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityClimate> a dsv:Column ;
+    rdfs:label "City Climate" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityHighestPoint> a dsv:Column ;
+    rdfs:label "City Highest Point" ;
+    dsv:columnProperty "highest point" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityMajorLake> a dsv:Column ;
+    rdfs:label "City Major Lake" ;
+    dsv:columnProperty "vastest lake" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityMajorRiver> a dsv:Column ;
+    rdfs:label "City Major River" ;
+    dsv:columnProperty "river" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityName> a dsv:Column ;
+    rdfs:label "City Name" ;
+    dsv:columnProperty "a municipality's present name" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityPopulation> a dsv:Column ;
+    rdfs:label "City Population" ;
+    dsv:columnProperty "population" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityPopulationDensity> a dsv:Column ;
+    rdfs:label "City Population Density" ;
+    dsv:columnProperty "population density (/sqkm)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityTerrain> a dsv:Column ;
+    rdfs:label "City Terrain" ;
+    dsv:columnProperty "city type" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CountryofBelonging> a dsv:Column ;
+    rdfs:label "Country of Belonging" ;
+    dsv:columnProperty "nation" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityAreakm2>,
+        <http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityClimate>,
+        <http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityHighestPoint>,
+        <http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityMajorLake>,
+        <http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityMajorRiver>,
+        <http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityName>,
+        <http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityPopulation>,
+        <http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityPopulationDensity>,
+        <http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CityTerrain>,
+        <http://metaUnionSearch/datasets/WorldGeographyHPCF07UQ/column/CountryofBelonging> .
+

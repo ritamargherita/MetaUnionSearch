@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Law4NM8R9RI> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_4NM8R9RI.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Law4NM8R9RI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Law4NM8R9RI/column/AppealStatus> a dsv:Column ;
+    rdfs:label "Appeal Status" ;
+    dsv:columnProperty "status" .
+
+<http://metaUnionSearch/datasets/Law4NM8R9RI/column/CourtDocketNumber> a dsv:Column ;
+    rdfs:label "Court Docket Number" ;
+    dsv:columnProperty "case" .
+
+<http://metaUnionSearch/datasets/Law4NM8R9RI/column/DateFiled> a dsv:Column ;
+    rdfs:label "Date Filed" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/Law4NM8R9RI/column/DefendantRepresentatives> a dsv:Column ;
+    rdfs:label "Defendant Representatives" ;
+    dsv:columnProperty "number of representatives" .
+
+<http://metaUnionSearch/datasets/Law4NM8R9RI/column/EvidencePresented> a dsv:Column ;
+    rdfs:label "Evidence Presented" ;
+    dsv:columnProperty "legal article" .
+
+<http://metaUnionSearch/datasets/Law4NM8R9RI/column/FinancialImplications> a dsv:Column ;
+    rdfs:label "Financial Implications" ;
+    dsv:columnProperty "income" .
+
+<http://metaUnionSearch/datasets/Law4NM8R9RI/column/JudgesInvolved> a dsv:Column ;
+    rdfs:label "Judges Involved" ;
+    dsv:columnProperty "judge" .
+
+<http://metaUnionSearch/datasets/Law4NM8R9RI/column/JuryVerdictorJudgeRuling> a dsv:Column ;
+    rdfs:label "Jury Verdict or Judge Ruling" ;
+    dsv:columnProperty "ruling" .
+
+<http://metaUnionSearch/datasets/Law4NM8R9RI/column/PlaintiffRepresentatives> a dsv:Column ;
+    rdfs:label "Plaintiff Representatives" ;
+    dsv:columnProperty "number of representatives" .
+
+<http://metaUnionSearch/datasets/Law4NM8R9RI/column/ProfessionalsHired> a dsv:Column ;
+    rdfs:label "Professionals Hired" ;
+    dsv:columnProperty "number of professionals" .
+
+<http://metaUnionSearch/datasets/Law4NM8R9RI/column/SentencingInformation> a dsv:Column ;
+    rdfs:label "Sentencing Information" ;
+    dsv:columnProperty "conviction penalty" .
+
+<http://metaUnionSearch/datasets/Law4NM8R9RI/column/TypeofLitigation> a dsv:Column ;
+    rdfs:label "Type of Litigation" ;
+    dsv:columnProperty "kind of criminal action" .
+
+<http://metaUnionSearch/datasets/Law4NM8R9RI/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Law4NM8R9RI/column/AppealStatus>,
+        <http://metaUnionSearch/datasets/Law4NM8R9RI/column/CourtDocketNumber>,
+        <http://metaUnionSearch/datasets/Law4NM8R9RI/column/DateFiled>,
+        <http://metaUnionSearch/datasets/Law4NM8R9RI/column/DefendantRepresentatives>,
+        <http://metaUnionSearch/datasets/Law4NM8R9RI/column/EvidencePresented>,
+        <http://metaUnionSearch/datasets/Law4NM8R9RI/column/FinancialImplications>,
+        <http://metaUnionSearch/datasets/Law4NM8R9RI/column/JudgesInvolved>,
+        <http://metaUnionSearch/datasets/Law4NM8R9RI/column/JuryVerdictorJudgeRuling>,
+        <http://metaUnionSearch/datasets/Law4NM8R9RI/column/PlaintiffRepresentatives>,
+        <http://metaUnionSearch/datasets/Law4NM8R9RI/column/ProfessionalsHired>,
+        <http://metaUnionSearch/datasets/Law4NM8R9RI/column/SentencingInformation>,
+        <http://metaUnionSearch/datasets/Law4NM8R9RI/column/TypeofLitigation> .
+

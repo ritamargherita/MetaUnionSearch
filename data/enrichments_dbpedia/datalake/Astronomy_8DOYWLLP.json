@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "`Planet Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officialName"
+    },
+    {
+      "column_header": " Stellar Body it Orbits",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orbits"
+    },
+    {
+      "column_header": " Planetary Mass",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mass"
+    },
+    {
+      "column_header": " Radius",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/meanRadius"
+    },
+    {
+      "column_header": " Orbital Period",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orbitalPeriod"
+    },
+    {
+      "column_header": " Satellite Count",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfOrbits"
+    },
+    {
+      "column_header": " Nebula Association",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/neighbourConstellations"
+    },
+    {
+      "column_header": " Temperature",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"
+    },
+    {
+      "column_header": " Surface Composition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/surfaceType"
+    },
+    {
+      "column_header": " Rotational Speed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rotationPeriod"
+    },
+    {
+      "column_header": " Data Acquired Year`",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/acquirementDate"
+    }
+  ]
+}

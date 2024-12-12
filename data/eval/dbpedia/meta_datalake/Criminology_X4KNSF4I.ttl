@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_X4KNSF4I.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CriminologyX4KNSF4I/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/ArmedRobberyPatterns> a dsv:Column ;
+    rdfs:label "Armed Robbery Patterns" ;
+    dsv:columnProperty "kind of criminal action" .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/ArrestWarrantsIssued> a dsv:Column ;
+    rdfs:label "Arrest Warrants Issued" ;
+    dsv:columnProperty "arrest date" .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/CommunityProgramParticipation> a dsv:Column ;
+    rdfs:label "Community Program Participation" ;
+    dsv:columnProperty "participates/participated in" .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/ConvictionsReviewed> a dsv:Column ;
+    rdfs:label "Convictions Reviewed" ;
+    dsv:columnProperty "conviction date" .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/CourtDocumentAccessibility> a dsv:Column ;
+    rdfs:label "Court Document Accessibility" ;
+    dsv:columnProperty "open access content" .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/FundAllocationBreakdown> a dsv:Column ;
+    rdfs:label "Fund Allocation Breakdown" ;
+    dsv:columnProperty "budget ($)" .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/JuvenileCrimeTrends> a dsv:Column ;
+    rdfs:label "Juvenile Crime Trends" ;
+    dsv:columnProperty "youth years" .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/NeighborhoodWatchSchemes> a dsv:Column ;
+    rdfs:label "Neighborhood Watch Schemes" ;
+    dsv:columnProperty "joint community" .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/ParoleOfficerStatistics> a dsv:Column ;
+    rdfs:label "Parole Officer Statistics" ;
+    dsv:columnProperty "officer in charge" .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/PrisonDemographics> a dsv:Column ;
+    rdfs:label "Prison Demographics" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/ProbationGranteesMonitoring> a dsv:Column ;
+    rdfs:label "Probation Grantees Monitoring" ;
+    dsv:columnProperty "project participant" .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/PublicPerceptionSurveys> a dsv:Column ;
+    rdfs:label "Public Perception Surveys" ;
+    dsv:columnProperty "share of audience" .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/RecidivismRates> a dsv:Column ;
+    rdfs:label "Recidivism Rates" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/RestorativeJusticeProject> a dsv:Column ;
+    rdfs:label "Restorative Justice Project" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/SeriousViolenceCorrelationStudy> a dsv:Column ;
+    rdfs:label "Serious Violence Correlation Study" ;
+    dsv:columnProperty "conflict" .
+
+<http://metaUnionSearch/datasets/CriminologyX4KNSF4I/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/ArmedRobberyPatterns>,
+        <http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/ArrestWarrantsIssued>,
+        <http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/CommunityProgramParticipation>,
+        <http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/ConvictionsReviewed>,
+        <http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/CourtDocumentAccessibility>,
+        <http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/FundAllocationBreakdown>,
+        <http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/JuvenileCrimeTrends>,
+        <http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/NeighborhoodWatchSchemes>,
+        <http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/ParoleOfficerStatistics>,
+        <http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/PrisonDemographics>,
+        <http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/ProbationGranteesMonitoring>,
+        <http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/PublicPerceptionSurveys>,
+        <http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/RecidivismRates>,
+        <http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/RestorativeJusticeProject>,
+        <http://metaUnionSearch/datasets/CriminologyX4KNSF4I/column/SeriousViolenceCorrelationStudy> .
+

@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_SEF6Y39C.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/ArtificialIntelligence> a dsv:Column ;
+    rdfs:label "Artificial Intelligence" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/Compilers> a dsv:Column ;
+    rdfs:label "Compilers" ;
+    dsv:columnProperty "compiler" .
+
+<http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/ComputationTheory> a dsv:Column ;
+    rdfs:label "Computation Theory" ;
+    dsv:columnProperty "Computing input" .
+
+<http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/ComputerGraphics> a dsv:Column ;
+    rdfs:label "Computer Graphics" ;
+    dsv:columnProperty "media" .
+
+<http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/DistributedSystems> a dsv:Column ;
+    rdfs:label "Distributed Systems" ;
+    dsv:columnProperty "network" .
+
+<http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/EmbeddedSystems> a dsv:Column ;
+    rdfs:label "Embedded Systems" ;
+    dsv:columnProperty "computing platform" .
+
+<http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/HumancomputerInteraction> a dsv:Column ;
+    rdfs:label "Human-computer Interaction" .
+
+<http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/InformationSecurity> a dsv:Column ;
+    rdfs:label "Information Security" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/MathematicalLogic> a dsv:Column ;
+    rdfs:label "Mathematical Logic" ;
+    dsv:columnProperty "its calculation needs" .
+
+<http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/MultimediaProcessing> a dsv:Column ;
+    rdfs:label "Multimedia Processing" ;
+    dsv:columnProperty "Computing Media" .
+
+<http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/NaturalLanguageProcessing> a dsv:Column ;
+    rdfs:label "Natural Language Processing" ;
+    dsv:columnProperty "programming language" .
+
+<http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/SoftwareEngineering> a dsv:Column ;
+    rdfs:label "Software Engineering" ;
+    dsv:columnProperty "engineer" .
+
+<http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/WebTechnologies> a dsv:Column ;
+    rdfs:label "Web Technologies" ;
+    dsv:columnProperty "programming language" .
+
+<http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/ArtificialIntelligence>,
+        <http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/Compilers>,
+        <http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/ComputationTheory>,
+        <http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/ComputerGraphics>,
+        <http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/DistributedSystems>,
+        <http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/EmbeddedSystems>,
+        <http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/HumancomputerInteraction>,
+        <http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/InformationSecurity>,
+        <http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/MathematicalLogic>,
+        <http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/MultimediaProcessing>,
+        <http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/NaturalLanguageProcessing>,
+        <http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/SoftwareEngineering>,
+        <http://metaUnionSearch/datasets/ComputerScienceSEF6Y39C/column/WebTechnologies> .
+

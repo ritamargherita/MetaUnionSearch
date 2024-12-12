@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_45QF8YLX.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/AlternativeTherapyOptions> a dsv:Column ;
+    rdfs:label "Alternative Therapy Options" ;
+    dsv:columnProperty "treatment" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/EmergencyContact1> a dsv:Column ;
+    rdfs:label "Emergency Contact 1" ;
+    dsv:columnProperty "first owner" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/EmergencyContact2> a dsv:Column ;
+    rdfs:label "Emergency Contact 2" ;
+    dsv:columnProperty "second" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/FollowupAppointments> a dsv:Column ;
+    rdfs:label "Follow-up Appointments" ;
+    dsv:columnProperty "following event" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/InsuranceCoverage> a dsv:Column ;
+    rdfs:label "Insurance Coverage" ;
+    dsv:columnProperty "fees ($)" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/MedicalEquipmentUsed> a dsv:Column ;
+    rdfs:label "Medical Equipment Used" ;
+    dsv:columnProperty "equipment" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/OwnerContactInfo> a dsv:Column ;
+    rdfs:label "Owner Contact Info" ;
+    dsv:columnProperty "owner" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/PreviousConditionsRecord> a dsv:Column ;
+    rdfs:label "Previous Conditions Record" ;
+    dsv:columnProperty "previous event" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/SpecialDietaryNeeds> a dsv:Column ;
+    rdfs:label "Special Dietary Needs" ;
+    dsv:columnProperty "requirement" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/VaccinationHistory> a dsv:Column ;
+    rdfs:label "Vaccination History" ;
+    dsv:columnProperty "vaccination" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/AlternativeTherapyOptions>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/EmergencyContact1>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/EmergencyContact2>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/FollowupAppointments>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/InsuranceCoverage>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/MedicalEquipmentUsed>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/OwnerContactInfo>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/PreviousConditionsRecord>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/SpecialDietaryNeeds>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine45QF8YLX/column/VaccinationHistory> .
+

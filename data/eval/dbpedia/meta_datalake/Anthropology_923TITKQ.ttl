@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Anthropology923TITKQ> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_923TITKQ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Anthropology923TITKQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Anthropology923TITKQ/column/ArchaeologicalTheories> a dsv:Column ;
+    rdfs:label "Archaeological Theories" ;
+    dsv:columnProperty "topic" .
+
+<http://metaUnionSearch/datasets/Anthropology923TITKQ/column/ArtifactPreservation> a dsv:Column ;
+    rdfs:label "Artifact Preservation" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/Anthropology923TITKQ/column/CollaboratingInstitutions> a dsv:Column ;
+    rdfs:label "Collaborating Institutions" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/Anthropology923TITKQ/column/CulturalArtifactIdentification> a dsv:Column ;
+    rdfs:label "Cultural Artifact Identification" ;
+    dsv:columnProperty "relics" .
+
+<http://metaUnionSearch/datasets/Anthropology923TITKQ/column/DataAnalysis> a dsv:Column ;
+    rdfs:label "Data Analysis" ;
+    dsv:columnProperty "approach" .
+
+<http://metaUnionSearch/datasets/Anthropology923TITKQ/column/DatingMethods> a dsv:Column ;
+    rdfs:label "Dating Methods" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/Anthropology923TITKQ/column/ExcavationTechniques> a dsv:Column ;
+    rdfs:label "Excavation Techniques" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/Anthropology923TITKQ/column/FieldworkMethods> a dsv:Column ;
+    rdfs:label "Fieldwork Methods" ;
+    dsv:columnProperty "Method of discovery" .
+
+<http://metaUnionSearch/datasets/Anthropology923TITKQ/column/FundingSources> a dsv:Column ;
+    rdfs:label "Funding Sources" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/Anthropology923TITKQ/column/LocalLegends> a dsv:Column ;
+    rdfs:label "Local Legends" ;
+    dsv:columnProperty "mythology" .
+
+<http://metaUnionSearch/datasets/Anthropology923TITKQ/column/PreservationStatus> a dsv:Column ;
+    rdfs:label "Preservation Status" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/Anthropology923TITKQ/column/PublicationDetails> a dsv:Column ;
+    rdfs:label "Publication Details" ;
+    dsv:columnProperty "publication" .
+
+<http://metaUnionSearch/datasets/Anthropology923TITKQ/column/ResearchQuestions> a dsv:Column ;
+    rdfs:label "Research Questions" ;
+    dsv:columnProperty "reference" .
+
+<http://metaUnionSearch/datasets/Anthropology923TITKQ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Anthropology923TITKQ/column/ArchaeologicalTheories>,
+        <http://metaUnionSearch/datasets/Anthropology923TITKQ/column/ArtifactPreservation>,
+        <http://metaUnionSearch/datasets/Anthropology923TITKQ/column/CollaboratingInstitutions>,
+        <http://metaUnionSearch/datasets/Anthropology923TITKQ/column/CulturalArtifactIdentification>,
+        <http://metaUnionSearch/datasets/Anthropology923TITKQ/column/DataAnalysis>,
+        <http://metaUnionSearch/datasets/Anthropology923TITKQ/column/DatingMethods>,
+        <http://metaUnionSearch/datasets/Anthropology923TITKQ/column/ExcavationTechniques>,
+        <http://metaUnionSearch/datasets/Anthropology923TITKQ/column/FieldworkMethods>,
+        <http://metaUnionSearch/datasets/Anthropology923TITKQ/column/FundingSources>,
+        <http://metaUnionSearch/datasets/Anthropology923TITKQ/column/LocalLegends>,
+        <http://metaUnionSearch/datasets/Anthropology923TITKQ/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/Anthropology923TITKQ/column/PublicationDetails>,
+        <http://metaUnionSearch/datasets/Anthropology923TITKQ/column/ResearchQuestions> .
+

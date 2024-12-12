@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Archeology2I1LR3PE> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_2I1LR3PE.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Archeology2I1LR3PE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/AdditionalSiteInfo1> a dsv:Column ;
+    rdfs:label "AdditionalSiteInfo_1" ;
+    dsv:columnProperty "other name" .
+
+<http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/AdditionalSiteInfo2> a dsv:Column ;
+    rdfs:label "AdditionalSiteInfo_2" ;
+    dsv:columnProperty "other name" .
+
+<http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/ArchaeoToolsUsed> a dsv:Column ;
+    rdfs:label "ArchaeoToolsUsed" ;
+    dsv:columnProperty "other occupation" .
+
+<http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/CollaboratingInstitutions> a dsv:Column ;
+    rdfs:label "CollaboratingInstitutions" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/CommunityInvolvement> a dsv:Column ;
+    rdfs:label "CommunityInvolvement" ;
+    dsv:columnProperty "joint community" .
+
+<http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/CulturalSignificance> a dsv:Column ;
+    rdfs:label "CulturalSignificance" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/FundingSources> a dsv:Column ;
+    rdfs:label "FundingSources" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/SurveyMethodologies> a dsv:Column ;
+    rdfs:label "SurveyMethodologies" ;
+    dsv:columnProperty "associated act" .
+
+<http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/additionalArtifactTypes1> a dsv:Column ;
+    rdfs:label "additionalArtifactTypes_1" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/additionalArtifactTypes2> a dsv:Column ;
+    rdfs:label "additionalArtifactTypes_2" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/Archeology2I1LR3PE/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/AdditionalSiteInfo1>,
+        <http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/AdditionalSiteInfo2>,
+        <http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/ArchaeoToolsUsed>,
+        <http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/CollaboratingInstitutions>,
+        <http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/CommunityInvolvement>,
+        <http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/CulturalSignificance>,
+        <http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/FundingSources>,
+        <http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/SurveyMethodologies>,
+        <http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/additionalArtifactTypes1>,
+        <http://metaUnionSearch/datasets/Archeology2I1LR3PE/column/additionalArtifactTypes2> .
+

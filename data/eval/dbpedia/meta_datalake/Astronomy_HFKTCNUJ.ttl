@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronomyHFKTCNUJ> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_HFKTCNUJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/AssociatedStarsConstellations> a dsv:Column ;
+    rdfs:label "Associated Stars/Constellations" ;
+    dsv:columnProperty "constellation" .
+
+<http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/DarkMatterContent> a dsv:Column ;
+    rdfs:label "Dark Matter Content" ;
+    dsv:columnProperty "stellar classification" .
+
+<http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/DistancefromSunly> a dsv:Column ;
+    rdfs:label "Distance from Sun (ly)" ;
+    dsv:columnProperty "distance (μ)" .
+
+<http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/DustPresence> a dsv:Column ;
+    rdfs:label "Dust Presence" ;
+    dsv:columnProperty "cargo gas (g)" .
+
+<http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/GalacticCoordinates> a dsv:Column ;
+    rdfs:label "Galactic Coordinates`" ;
+    dsv:columnProperty "declination" .
+
+<http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/GasComposition> a dsv:Column ;
+    rdfs:label "Gas Composition (%)" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/LifeCycleStage> a dsv:Column ;
+    rdfs:label "Life Cycle Stage" ;
+    dsv:columnProperty "stellar classification" .
+
+<http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/Luminosity> a dsv:Column ;
+    rdfs:label "Luminosity" ;
+    dsv:columnProperty "number of stars" .
+
+<http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/NebulaCategory> a dsv:Column ;
+    rdfs:label "Nebula Category" ;
+    dsv:columnProperty "category" .
+
+<http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/NebulaName> a dsv:Column ;
+    rdfs:label "`Nebula Name" ;
+    dsv:columnProperty "NGC name" .
+
+<http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/NebulaRadius> a dsv:Column ;
+    rdfs:label "Nebula Radius" ;
+    dsv:columnProperty "Radius_ly" .
+
+<http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/NumberofPulsars> a dsv:Column ;
+    rdfs:label "Number of Pulsars" ;
+    dsv:columnProperty "number of stars" .
+
+<http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/SupernovaRemnant> a dsv:Column ;
+    rdfs:label "Supernova Remnant" ;
+    dsv:columnProperty "stellar classification" .
+
+<http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/TemperatureClassification> a dsv:Column ;
+    rdfs:label "Temperature Classification" ;
+    dsv:columnProperty "stellar classification" .
+
+<http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/AssociatedStarsConstellations>,
+        <http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/DarkMatterContent>,
+        <http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/DistancefromSunly>,
+        <http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/DustPresence>,
+        <http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/GalacticCoordinates>,
+        <http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/GasComposition>,
+        <http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/LifeCycleStage>,
+        <http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/Luminosity>,
+        <http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/NebulaCategory>,
+        <http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/NebulaName>,
+        <http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/NebulaRadius>,
+        <http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/NumberofPulsars>,
+        <http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/SupernovaRemnant>,
+        <http://metaUnionSearch/datasets/AstronomyHFKTCNUJ/column/TemperatureClassification> .
+

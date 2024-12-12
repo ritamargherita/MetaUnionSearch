@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Technology7FZTVOVK> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_7FZTVOVK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Technology7FZTVOVK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Technology7FZTVOVK/column/AutonomousVehiclesDevelopmentStages> a dsv:Column ;
+    rdfs:label "Autonomous Vehicles Development Stages" ;
+    dsv:columnProperty "autonomy" .
+
+<http://metaUnionSearch/datasets/Technology7FZTVOVK/column/Biotechnologybreakthroughs> a dsv:Column ;
+    rdfs:label "Biotechnology breakthroughs" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/Technology7FZTVOVK/column/BlockchainApplicationsdiversity> a dsv:Column ;
+    rdfs:label "Blockchain Applications diversity" ;
+    dsv:columnProperty "chaîne" .
+
+<http://metaUnionSearch/datasets/Technology7FZTVOVK/column/CybersecurityThreatLandscape> a dsv:Column ;
+    rdfs:label "Cybersecurity Threat Landscape" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/Technology7FZTVOVK/column/DataManagementToolsevolution> a dsv:Column ;
+    rdfs:label "Data Management Tools evolution" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/Technology7FZTVOVK/column/InternetOfThingsIoTEcosystem> a dsv:Column ;
+    rdfs:label "Internet Of Things (IoT) Ecosystem" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/Technology7FZTVOVK/column/NaturalLanguageProcessingcapabilities> a dsv:Column ;
+    rdfs:label "Natural Language Processing capabilities" ;
+    dsv:columnProperty "programming language" .
+
+<http://metaUnionSearch/datasets/Technology7FZTVOVK/column/QuantumComputingProgress> a dsv:Column ;
+    rdfs:label "Quantum Computing Progress" ;
+    dsv:columnProperty "Computing Media" .
+
+<http://metaUnionSearch/datasets/Technology7FZTVOVK/column/Roboticsusagegrowth> a dsv:Column ;
+    rdfs:label "Robotics usage growth" ;
+    dsv:columnProperty "industry" .
+
+<http://metaUnionSearch/datasets/Technology7FZTVOVK/column/SmartCitiesinfrastructureexpansion> a dsv:Column ;
+    rdfs:label "Smart Cities infrastructure expansion." ;
+    dsv:columnProperty "subsequent infrastructure" .
+
+<http://metaUnionSearch/datasets/Technology7FZTVOVK/column/VirtualRealityAugmentedRealityadvancements> a dsv:Column ;
+    rdfs:label "Virtual Reality / Augmented Reality advancements" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/Technology7FZTVOVK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Technology7FZTVOVK/column/AutonomousVehiclesDevelopmentStages>,
+        <http://metaUnionSearch/datasets/Technology7FZTVOVK/column/Biotechnologybreakthroughs>,
+        <http://metaUnionSearch/datasets/Technology7FZTVOVK/column/BlockchainApplicationsdiversity>,
+        <http://metaUnionSearch/datasets/Technology7FZTVOVK/column/CybersecurityThreatLandscape>,
+        <http://metaUnionSearch/datasets/Technology7FZTVOVK/column/DataManagementToolsevolution>,
+        <http://metaUnionSearch/datasets/Technology7FZTVOVK/column/InternetOfThingsIoTEcosystem>,
+        <http://metaUnionSearch/datasets/Technology7FZTVOVK/column/NaturalLanguageProcessingcapabilities>,
+        <http://metaUnionSearch/datasets/Technology7FZTVOVK/column/QuantumComputingProgress>,
+        <http://metaUnionSearch/datasets/Technology7FZTVOVK/column/Roboticsusagegrowth>,
+        <http://metaUnionSearch/datasets/Technology7FZTVOVK/column/SmartCitiesinfrastructureexpansion>,
+        <http://metaUnionSearch/datasets/Technology7FZTVOVK/column/VirtualRealityAugmentedRealityadvancements> .
+

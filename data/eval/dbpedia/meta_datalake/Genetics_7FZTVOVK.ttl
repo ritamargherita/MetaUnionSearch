@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Genetics7FZTVOVK> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_7FZTVOVK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Genetics7FZTVOVK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/AnimalModelUsed> a dsv:Column ;
+    rdfs:label "Animal Model Used" ;
+    dsv:columnProperty "model" .
+
+<http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/CRISPRGuideRNASequences> a dsv:Column ;
+    rdfs:label "CRISPR Guide RNA Sequences" ;
+    dsv:columnProperty "Gene Location" .
+
+<http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/DevelopmentalAbnormalitiesPresent> a dsv:Column ;
+    rdfs:label "Developmental Abnormalities Present" ;
+    dsv:columnProperty "disease" .
+
+<http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/DiseasePhenotypeSimilarity> a dsv:Column ;
+    rdfs:label "Disease Phenotype Similarity" ;
+    dsv:columnProperty "similar" .
+
+<http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/EpigenomicModificationsDetectable> a dsv:Column ;
+    rdfs:label "Epigenomic Modifications Detectable" ;
+    dsv:columnProperty "KEGG" .
+
+<http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/GeneKnockoutImpact> a dsv:Column ;
+    rdfs:label "Gene Knockout Impact" ;
+    dsv:columnProperty "geneReviewsId" .
+
+<http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/LethalityIndicator> a dsv:Column ;
+    rdfs:label "Lethality Indicator" ;
+    dsv:columnProperty "lethal when given to mice" .
+
+<http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/MultiorganSystemEffects> a dsv:Column ;
+    rdfs:label "Multi-organ System Effects" ;
+    dsv:columnProperty "organ system" .
+
+<http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/OffTargeteffectsPercentage> a dsv:Column ;
+    rdfs:label "Off Target effects Percentage" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/ProteinFunctionAffected> a dsv:Column ;
+    rdfs:label "Protein Function Affected" ;
+    dsv:columnProperty "other function" .
+
+<http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/TransgenerationalImpactsObservability> a dsv:Column ;
+    rdfs:label "Transgenerational Impacts Observability" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/Genetics7FZTVOVK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/AnimalModelUsed>,
+        <http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/CRISPRGuideRNASequences>,
+        <http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/DevelopmentalAbnormalitiesPresent>,
+        <http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/DiseasePhenotypeSimilarity>,
+        <http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/EpigenomicModificationsDetectable>,
+        <http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/GeneKnockoutImpact>,
+        <http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/LethalityIndicator>,
+        <http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/MultiorganSystemEffects>,
+        <http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/OffTargeteffectsPercentage>,
+        <http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/ProteinFunctionAffected>,
+        <http://metaUnionSearch/datasets/Genetics7FZTVOVK/column/TransgenerationalImpactsObservability> .
+

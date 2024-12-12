@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryJK1EYY37> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_JK1EYY37.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryJK1EYY37/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryJK1EYY37/column/FigurativeLanguageTypes> a dsv:Column ;
+    rdfs:label "Figurative Language Types" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/PoetryJK1EYY37/column/GeographicalInspiration> a dsv:Column ;
+    rdfs:label "Geographical Inspiration" ;
+    dsv:columnProperty "Relates an entity to the populated place in which it is located." .
+
+<http://metaUnionSearch/datasets/PoetryJK1EYY37/column/HistoricalReferenceCount> a dsv:Column ;
+    rdfs:label "Historical Reference Count" ;
+    dsv:columnProperty "known for" .
+
+<http://metaUnionSearch/datasets/PoetryJK1EYY37/column/PoetBiography> a dsv:Column ;
+    rdfs:label "Poet Biography" ;
+    dsv:columnProperty "author" .
+
+<http://metaUnionSearch/datasets/PoetryJK1EYY37/column/PublicationsList> a dsv:Column ;
+    rdfs:label "Publications List" ;
+    dsv:columnProperty "publication" .
+
+<http://metaUnionSearch/datasets/PoetryJK1EYY37/column/ReadingDifficultyScore> a dsv:Column ;
+    rdfs:label "Reading Difficulty Score" ;
+    dsv:columnProperty "lowest" .
+
+<http://metaUnionSearch/datasets/PoetryJK1EYY37/column/SentimentAnalysisGraph> a dsv:Column ;
+    rdfs:label "Sentiment Analysis Graph" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/PoetryJK1EYY37/column/SocialContextRelevance> a dsv:Column ;
+    rdfs:label "Social Context Relevance" ;
+    dsv:columnProperty "related" .
+
+<http://metaUnionSearch/datasets/PoetryJK1EYY37/column/SympathyLevel> a dsv:Column ;
+    rdfs:label "Sympathy Level" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PoetryJK1EYY37/column/WordFrequencyDistribution> a dsv:Column ;
+    rdfs:label "Word Frequency Distribution" ;
+    dsv:columnProperty "frequency of publication" .
+
+<http://metaUnionSearch/datasets/PoetryJK1EYY37/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryJK1EYY37/column/FigurativeLanguageTypes>,
+        <http://metaUnionSearch/datasets/PoetryJK1EYY37/column/GeographicalInspiration>,
+        <http://metaUnionSearch/datasets/PoetryJK1EYY37/column/HistoricalReferenceCount>,
+        <http://metaUnionSearch/datasets/PoetryJK1EYY37/column/PoetBiography>,
+        <http://metaUnionSearch/datasets/PoetryJK1EYY37/column/PublicationsList>,
+        <http://metaUnionSearch/datasets/PoetryJK1EYY37/column/ReadingDifficultyScore>,
+        <http://metaUnionSearch/datasets/PoetryJK1EYY37/column/SentimentAnalysisGraph>,
+        <http://metaUnionSearch/datasets/PoetryJK1EYY37/column/SocialContextRelevance>,
+        <http://metaUnionSearch/datasets/PoetryJK1EYY37/column/SympathyLevel>,
+        <http://metaUnionSearch/datasets/PoetryJK1EYY37/column/WordFrequencyDistribution> .
+

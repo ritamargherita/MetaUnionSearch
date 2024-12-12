@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_TA8IRCD9.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/AdditionalDetails> a dsv:Column ;
+    rdfs:label "Additional Details`" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/AlternateArtworkTitles> a dsv:Column ;
+    rdfs:label "Alternate Artwork Titles" ;
+    dsv:columnProperty "alternative title" .
+
+<http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/ArtistName> a dsv:Column ;
+    rdfs:label "Artist Name" ;
+    dsv:columnProperty "main artist" .
+
+<http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/ArtworkNumber> a dsv:Column ;
+    rdfs:label "`Artwork Number" ;
+    dsv:columnProperty "Dutch artwork code" .
+
+<http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/CulturalContext> a dsv:Column ;
+    rdfs:label "Cultural Context" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/DateCreated> a dsv:Column ;
+    rdfs:label "Date Created" ;
+    dsv:columnProperty "created" .
+
+<http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/DimensionsInCM> a dsv:Column ;
+    rdfs:label "Dimensions In CM" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/Medium> a dsv:Column ;
+    rdfs:label "Medium" ;
+    dsv:columnProperty "material" .
+
+<http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/Period> a dsv:Column ;
+    rdfs:label "Period" ;
+    dsv:columnProperty "term period" .
+
+<http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/Style> a dsv:Column ;
+    rdfs:label "Style" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/SubjectMatterDetails> a dsv:Column ;
+    rdfs:label "Subject Matter Details" ;
+    dsv:columnProperty "subject term" .
+
+<http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/AdditionalDetails>,
+        <http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/AlternateArtworkTitles>,
+        <http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/ArtistName>,
+        <http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/ArtworkNumber>,
+        <http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/CulturalContext>,
+        <http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/DateCreated>,
+        <http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/DimensionsInCM>,
+        <http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/Medium>,
+        <http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/Period>,
+        <http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/Style>,
+        <http://metaUnionSearch/datasets/ArtHistoryTA8IRCD9/column/SubjectMatterDetails> .
+

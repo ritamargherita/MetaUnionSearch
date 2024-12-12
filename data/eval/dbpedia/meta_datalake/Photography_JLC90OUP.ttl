@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhotographyJLC90OUP> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_JLC90OUP.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhotographyJLC90OUP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/Category> a dsv:Column ;
+    rdfs:label "Category" ;
+    dsv:columnProperty "category" .
+
+<http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/CreationDate> a dsv:Column ;
+    rdfs:label "Creation Date" ;
+    dsv:columnProperty "year of creation" .
+
+<http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/FilePath> a dsv:Column ;
+    rdfs:label "File Path" ;
+    dsv:columnProperty "The URL at which this file can be downloaded" .
+
+<http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/FlashUsage> a dsv:Column ;
+    rdfs:label "Flash Usage" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/LensType> a dsv:Column ;
+    rdfs:label "Lens Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/Location> a dsv:Column ;
+    rdfs:label "Location" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/OriginalFileSize> a dsv:Column ;
+    rdfs:label "Original File Size" ;
+    dsv:columnProperty "size (B)" .
+
+<http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/PhotoTitle> a dsv:Column ;
+    rdfs:label "Photo Title" ;
+    dsv:columnProperty "title" .
+
+<http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/PhotographerNotes> a dsv:Column ;
+    rdfs:label "Photographer Notes" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/StarRating> a dsv:Column ;
+    rdfs:label "Star Rating" ;
+    dsv:columnProperty "star rating" .
+
+<http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/Subcategory> a dsv:Column ;
+    rdfs:label "Subcategory" ;
+    dsv:columnProperty "sub-family" .
+
+<http://metaUnionSearch/datasets/PhotographyJLC90OUP/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/Category>,
+        <http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/CreationDate>,
+        <http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/FilePath>,
+        <http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/FlashUsage>,
+        <http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/LensType>,
+        <http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/Location>,
+        <http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/OriginalFileSize>,
+        <http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/PhotoTitle>,
+        <http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/PhotographerNotes>,
+        <http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/StarRating>,
+        <http://metaUnionSearch/datasets/PhotographyJLC90OUP/column/Subcategory> .
+

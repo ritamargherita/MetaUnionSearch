@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeomancyD1WMMMEV> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_D1WMMMEV.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeomancyD1WMMMEV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/AffectOnOtherFormsOfDivination> a dsv:Column ;
+    rdfs:label "Affect On Other Forms Of Divination" ;
+    dsv:columnProperty "influenced" .
+
+<http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/CharacteristicsThroughTime> a dsv:Column ;
+    rdfs:label "Characteristics Through Time" ;
+    dsv:columnProperty "time" .
+
+<http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/CommunityIntegrationEfforts> a dsv:Column ;
+    rdfs:label "Community Integration Efforts" ;
+    dsv:columnProperty "joint community" .
+
+<http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/GeographicalDistribution> a dsv:Column ;
+    rdfs:label "Geographical Distribution" ;
+    dsv:columnProperty "number of locations" .
+
+<http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/HistoricalDevelopmentStages> a dsv:Column ;
+    rdfs:label "Historical Development Stages" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/LegislationImpactingPractice> a dsv:Column ;
+    rdfs:label "Legislation Impacting Practice" ;
+    dsv:columnProperty "associated act" .
+
+<http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/PresenceinModernPopCulture> a dsv:Column ;
+    rdfs:label "Presence in Modern Pop Culture" ;
+    dsv:columnProperty "other media" .
+
+<http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/ProminentPractitionersSchools> a dsv:Column ;
+    rdfs:label "Prominent Practitioners & Schools" ;
+    dsv:columnProperty "school patron" .
+
+<http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/PublicPerceptionOverTimeline> a dsv:Column ;
+    rdfs:label "Public Perception Over Timeline" ;
+    dsv:columnProperty "time" .
+
+<http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/ReligiousorPhilosophicTies> a dsv:Column ;
+    rdfs:label "Religious or Philosophic Ties" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/ScientificResearchConducted> a dsv:Column ;
+    rdfs:label "Scientific Research Conducted" ;
+    dsv:columnProperty "publication" .
+
+<http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/StyleVariantsAcrossCultures> a dsv:Column ;
+    rdfs:label "Style Variants Across Cultures" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/TechnologicalAdaptions> a dsv:Column ;
+    rdfs:label "Technological Adaptions" ;
+    dsv:columnProperty "equipment" .
+
+<http://metaUnionSearch/datasets/GeomancyD1WMMMEV/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/AffectOnOtherFormsOfDivination>,
+        <http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/CharacteristicsThroughTime>,
+        <http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/CommunityIntegrationEfforts>,
+        <http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/GeographicalDistribution>,
+        <http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/HistoricalDevelopmentStages>,
+        <http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/LegislationImpactingPractice>,
+        <http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/PresenceinModernPopCulture>,
+        <http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/ProminentPractitionersSchools>,
+        <http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/PublicPerceptionOverTimeline>,
+        <http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/ReligiousorPhilosophicTies>,
+        <http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/ScientificResearchConducted>,
+        <http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/StyleVariantsAcrossCultures>,
+        <http://metaUnionSearch/datasets/GeomancyD1WMMMEV/column/TechnologicalAdaptions> .
+

@@ -1,7 +1,7 @@
 {
   "mapping": [
     {
-      "column_header": ""Relative Age",
+      "column_header": "Relative Age",
       "dbpedia_property_id": "http://dbpedia.org/ontology/relative"
     },
     {
@@ -57,7 +57,7 @@
       "dbpedia_property_id": null
     },
     {
-      "column_header": " Socioeconomic Status"",
+      "column_header": " Socioeconomic Status",
       "dbpedia_property_id": null
     }
   ]

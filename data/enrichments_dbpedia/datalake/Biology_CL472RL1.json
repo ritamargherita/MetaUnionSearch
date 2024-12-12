@@ -1,0 +1,17 @@
+{
+    "mapping": [
+        {"column_header": "Phylogenic tree structure", "dbpedia_property_id": "http://dbpedia.org/ontology/tree"},
+        {"column_header": "Conservation status", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+        {"column_header": "Ecologically relevant traits", "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"},
+        {"column_header": "Population genetics data", "dbpedia_property_id": "http://dbpedia.org/ontology/genomeDB"},
+        {"column_header": "Community distribution", "dbpedia_property_id": "http://dbpedia.org/ontology/jointCommunity"},
+        {"column_header": "Metabolic pathway associations", "dbpedia_property_id": "http://dbpedia.org/ontology/technique"},
+        {"column_header": "Syndromes & Diseases", "dbpedia_property_id": "http://dbpedia.org/ontology/disease"},
+        {"column_header": "Effect of environment", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
+        {"column_header": "Phenotype observations", "dbpedia_property_id": "http://dbpedia.org/ontology/variantOf"},
+        {"column_header": "Experimental techniques used", "dbpedia_property_id": "http://dbpedia.org/ontology/detectionMethod"},
+        {"column_header": "Regulatory elements", "dbpedia_property_id": "http://dbpedia.org/ontology/uses"},
+        {"column_header": "Paleontological evidence", "dbpedia_property_id": "http://dbpedia.org/ontology/fossil"},
+        {"column_header": "Biological interactions", "dbpedia_property_id": "http://dbpedia.org/ontology/biome"}
+    ]
+}

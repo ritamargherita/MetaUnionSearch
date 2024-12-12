@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Horticulture67H488S2> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_67H488S2.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Horticulture67H488S2/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Horticulture67H488S2/column/AvailabilitySeasons> a dsv:Column ;
+    rdfs:label "AvailabilitySeasons" ;
+    dsv:columnProperty "flora" .
+
+<http://metaUnionSearch/datasets/Horticulture67H488S2/column/CommercialValue> a dsv:Column ;
+    rdfs:label "CommercialValue" ;
+    dsv:columnProperty "value" .
+
+<http://metaUnionSearch/datasets/Horticulture67H488S2/column/FloweringPeriod> a dsv:Column ;
+    rdfs:label "FloweringPeriod" ;
+    dsv:columnProperty "flower" .
+
+<http://metaUnionSearch/datasets/Horticulture67H488S2/column/GeneticModified> a dsv:Column ;
+    rdfs:label "GeneticModified" ;
+    dsv:columnProperty "status" .
+
+<http://metaUnionSearch/datasets/Horticulture67H488S2/column/GrowthHabit> a dsv:Column ;
+    rdfs:label "GrowthHabit" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/Horticulture67H488S2/column/PestAndDiseaseResistance> a dsv:Column ;
+    rdfs:label "PestAndDiseaseResistance" ;
+    dsv:columnProperty "booster" .
+
+<http://metaUnionSearch/datasets/Horticulture67H488S2/column/PropagationByCuttings> a dsv:Column ;
+    rdfs:label "PropagationByCuttings" ;
+    dsv:columnProperty "cultivar" .
+
+<http://metaUnionSearch/datasets/Horticulture67H488S2/column/RareFactorIndex> a dsv:Column ;
+    rdfs:label "RareFactorIndex" .
+
+<http://metaUnionSearch/datasets/Horticulture67H488S2/column/SoillessCultureOptions> a dsv:Column ;
+    rdfs:label "SoillessCultureOptions" ;
+    dsv:columnProperty "production" .
+
+<http://metaUnionSearch/datasets/Horticulture67H488S2/column/SpecialUses> a dsv:Column ;
+    rdfs:label "SpecialUses" ;
+    dsv:columnProperty "speciality" .
+
+<http://metaUnionSearch/datasets/Horticulture67H488S2/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Horticulture67H488S2/column/AvailabilitySeasons>,
+        <http://metaUnionSearch/datasets/Horticulture67H488S2/column/CommercialValue>,
+        <http://metaUnionSearch/datasets/Horticulture67H488S2/column/FloweringPeriod>,
+        <http://metaUnionSearch/datasets/Horticulture67H488S2/column/GeneticModified>,
+        <http://metaUnionSearch/datasets/Horticulture67H488S2/column/GrowthHabit>,
+        <http://metaUnionSearch/datasets/Horticulture67H488S2/column/PestAndDiseaseResistance>,
+        <http://metaUnionSearch/datasets/Horticulture67H488S2/column/PropagationByCuttings>,
+        <http://metaUnionSearch/datasets/Horticulture67H488S2/column/RareFactorIndex>,
+        <http://metaUnionSearch/datasets/Horticulture67H488S2/column/SoillessCultureOptions>,
+        <http://metaUnionSearch/datasets/Horticulture67H488S2/column/SpecialUses> .
+

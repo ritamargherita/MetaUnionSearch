@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SociologyQLQCG1WU> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_QLQCG1WU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SociologyQLQCG1WU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/DataVisualization> a dsv:Column ;
+    rdfs:label "DataVisualization" ;
+    dsv:columnProperty "publication" .
+
+<http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/DisseminationChannels> a dsv:Column ;
+    rdfs:label "DisseminationChannels" ;
+    dsv:columnProperty "channel" .
+
+<http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/FieldworkExperiences> a dsv:Column ;
+    rdfs:label "FieldworkExperiences" ;
+    dsv:columnProperty "field" .
+
+<http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/MethodologicalInnovations> a dsv:Column ;
+    rdfs:label "MethodologicalInnovations" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/PolicyRecommendations> a dsv:Column ;
+    rdfs:label "PolicyRecommendations" ;
+    dsv:columnProperty "project keyword" .
+
+<http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/ResearchCollaboration> a dsv:Column ;
+    rdfs:label "ResearchCollaboration" ;
+    dsv:columnProperty "project participant" .
+
+<http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/ResearchFunding> a dsv:Column ;
+    rdfs:label "ResearchFunding" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/ResearchImpact> a dsv:Column ;
+    rdfs:label "ResearchImpact" ;
+    dsv:columnProperty "publication" .
+
+<http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/ResearchTimeline> a dsv:Column ;
+    rdfs:label "ResearchTimeline" ;
+    dsv:columnProperty "time" .
+
+<http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/SociologicalImplications> a dsv:Column ;
+    rdfs:label "SociologicalImplications" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/StakeholderEngagement> a dsv:Column ;
+    rdfs:label "StakeholderEngagement" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/TheoreticalFramework> a dsv:Column ;
+    rdfs:label "TheoreticalFramework" ;
+    dsv:columnProperty "approach" .
+
+<http://metaUnionSearch/datasets/SociologyQLQCG1WU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/DataVisualization>,
+        <http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/DisseminationChannels>,
+        <http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/FieldworkExperiences>,
+        <http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/MethodologicalInnovations>,
+        <http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/PolicyRecommendations>,
+        <http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/ResearchCollaboration>,
+        <http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/ResearchFunding>,
+        <http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/ResearchImpact>,
+        <http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/ResearchTimeline>,
+        <http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/SociologicalImplications>,
+        <http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/StakeholderEngagement>,
+        <http://metaUnionSearch/datasets/SociologyQLQCG1WU/column/TheoreticalFramework> .
+

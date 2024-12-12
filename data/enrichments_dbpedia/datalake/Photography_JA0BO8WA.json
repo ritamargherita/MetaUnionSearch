@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "Photo Title", "dbpedia_property_id": "http://dbpedia.org/ontology/title"},
+    {"column_header": " Category", "dbpedia_property_id": "http://dbpedia.org/ontology/category"},
+    {"column_header": " Characteristics", "dbpedia_property_id": "http://dbpedia.org/ontology/features"},
+    {"column_header": " Location", "dbpedia_property_id": "http://dbpedia.org/ontology/location"},
+    {"column_header": " Taking Scene", "dbpedia_property_id": "http://dbpedia.org/ontology/scene"},
+    {"column_header": " Time Of Day", "dbpedia_property_id": "http://dbpedia.org/ontology/time"},
+    {"column_header": " Equipment Used", "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"},
+    {"column_header": " Editing Software", "dbpedia_property_id": "http://dbpedia.org/ontology/editing"},
+    {"column_header": " Post Process Applied", "dbpedia_property_id": "http://dbpedia.org/ontology/production"},
+    {"column_header": " Photo Orientations", "dbpedia_property_id": "http://dbpedia.org/ontology/orientation"},
+    {"column_header": " Color Profile", "dbpedia_property_id": "http://dbpedia.org/ontology/colour"},
+    {"column_header": " Image Size", "dbpedia_property_id": "http://dbpedia.org/ontology/imageSize"},
+    {"column_header": " Resolution & Quality", "dbpedia_property_id": "http://dbpedia.org/ontology/resolution"},
+    {"column_header": " File Format", "dbpedia_property_id": "http://dbpedia.org/ontology/pictureFormat"}
+  ]
+}

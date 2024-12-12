@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Politics2EI7XZUR> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_2EI7XZUR.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Politics2EI7XZUR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Politics2EI7XZUR/column/AnnualBudget> a dsv:Column ;
+    rdfs:label "Annual Budget" ;
+    dsv:columnProperty "budget ($)" .
+
+<http://metaUnionSearch/datasets/Politics2EI7XZUR/column/IdeologicalAffiliation> a dsv:Column ;
+    rdfs:label "Ideological Affiliation" ;
+    dsv:columnProperty "ideology" .
+
+<http://metaUnionSearch/datasets/Politics2EI7XZUR/column/MembershipTrends> a dsv:Column ;
+    rdfs:label "Membership Trends" ;
+    dsv:columnProperty "membership" .
+
+<http://metaUnionSearch/datasets/Politics2EI7XZUR/column/NumberofScandals> a dsv:Column ;
+    rdfs:label "Number of Scandals" ;
+    dsv:columnProperty "Suspected Cases" .
+
+<http://metaUnionSearch/datasets/Politics2EI7XZUR/column/OppositionParty> a dsv:Column ;
+    rdfs:label "Opposition Party`" ;
+    dsv:columnProperty "other party" .
+
+<http://metaUnionSearch/datasets/Politics2EI7XZUR/column/PartyLeader> a dsv:Column ;
+    rdfs:label "Party Leader" ;
+    dsv:columnProperty "political leader" .
+
+<http://metaUnionSearch/datasets/Politics2EI7XZUR/column/PolicyFocus> a dsv:Column ;
+    rdfs:label "Policy Focus" ;
+    dsv:columnProperty "focus" .
+
+<http://metaUnionSearch/datasets/Politics2EI7XZUR/column/PoliticalParty> a dsv:Column ;
+    rdfs:label "`Political Party" ;
+    dsv:columnProperty "party" .
+
+<http://metaUnionSearch/datasets/Politics2EI7XZUR/column/PoliticiansCount> a dsv:Column ;
+    rdfs:label "Politicians Count" ;
+    dsv:columnProperty "number of officials" .
+
+<http://metaUnionSearch/datasets/Politics2EI7XZUR/column/SourceofAnnualBudget> a dsv:Column ;
+    rdfs:label "Source of Annual Budget" ;
+    dsv:columnProperty "budget ($)" .
+
+<http://metaUnionSearch/datasets/Politics2EI7XZUR/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Politics2EI7XZUR/column/AnnualBudget>,
+        <http://metaUnionSearch/datasets/Politics2EI7XZUR/column/IdeologicalAffiliation>,
+        <http://metaUnionSearch/datasets/Politics2EI7XZUR/column/MembershipTrends>,
+        <http://metaUnionSearch/datasets/Politics2EI7XZUR/column/NumberofScandals>,
+        <http://metaUnionSearch/datasets/Politics2EI7XZUR/column/OppositionParty>,
+        <http://metaUnionSearch/datasets/Politics2EI7XZUR/column/PartyLeader>,
+        <http://metaUnionSearch/datasets/Politics2EI7XZUR/column/PolicyFocus>,
+        <http://metaUnionSearch/datasets/Politics2EI7XZUR/column/PoliticalParty>,
+        <http://metaUnionSearch/datasets/Politics2EI7XZUR/column/PoliticiansCount>,
+        <http://metaUnionSearch/datasets/Politics2EI7XZUR/column/SourceofAnnualBudget> .
+

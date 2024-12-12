@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ClimatologyAC4JXFPK> a dsv:Dataset ;
+    dcterms:subject "climatology" ;
+    dcterms:title "Climatology_AC4JXFPK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/AridityIndex> a dsv:Column ;
+    rdfs:label "Aridity Index" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/AtmosphericCO2Concentrationppm> a dsv:Column ;
+    rdfs:label "Atmospheric CO2 Concentration (ppm)" ;
+    dsv:columnProperty "CO2 emission (g/km)" .
+
+<http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/AverageTemperatureC> a dsv:Column ;
+    rdfs:label "Average Temperature (°C)" ;
+    dsv:columnProperty "mean temperature (K)" .
+
+<http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/Elevationmslas> a dsv:Column ;
+    rdfs:label "Elevation(mslas)" ;
+    dsv:columnProperty "elevation quote" .
+
+<http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/LandCoverType> a dsv:Column ;
+    rdfs:label "Land Cover Type (%)" ;
+    dsv:columnProperty "land percentage of a place" .
+
+<http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/MaxTemperatureC> a dsv:Column ;
+    rdfs:label "Max Temperature (°C)" ;
+    dsv:columnProperty "maximum temperature (K)" .
+
+<http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/MeanAnnualPrecipitationmm> a dsv:Column ;
+    rdfs:label "Mean Annual Precipitation (mm)" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/MinTemperatureC> a dsv:Column ;
+    rdfs:label "Min Temperature (°C)" ;
+    dsv:columnProperty "minimum temperature (K)" .
+
+<http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/NetPrimaryProductivitygCm> a dsv:Column ;
+    rdfs:label "Net Primary Productivity (gC/m²)" ;
+    dsv:columnProperty "net income ($)" .
+
+<http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/PopulationDensitykm> a dsv:Column ;
+    rdfs:label "Population Density (/km²)" ;
+    dsv:columnProperty "population density (/sqkm)" .
+
+<http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/PotentialEvapotranspirationmm> a dsv:Column ;
+    rdfs:label "Potential Evapotranspiration (mm)" ;
+    dsv:columnProperty "temperature (K)" .
+
+<http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/StratumName> a dsv:Column ;
+    rdfs:label "Stratum Name" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/UrbanAreas> a dsv:Column ;
+    rdfs:label "Urban Areas (%)" ;
+    dsv:columnProperty "urban area" .
+
+<http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/WaterBodieskm> a dsv:Column ;
+    rdfs:label "Water Bodies (km²)" ;
+    dsv:columnProperty "area water (m2)" .
+
+<http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/AridityIndex>,
+        <http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/AtmosphericCO2Concentrationppm>,
+        <http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/AverageTemperatureC>,
+        <http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/Elevationmslas>,
+        <http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/LandCoverType>,
+        <http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/MaxTemperatureC>,
+        <http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/MeanAnnualPrecipitationmm>,
+        <http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/MinTemperatureC>,
+        <http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/NetPrimaryProductivitygCm>,
+        <http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/PopulationDensitykm>,
+        <http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/PotentialEvapotranspirationmm>,
+        <http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/StratumName>,
+        <http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/UrbanAreas>,
+        <http://metaUnionSearch/datasets/ClimatologyAC4JXFPK/column/WaterBodieskm> .
+

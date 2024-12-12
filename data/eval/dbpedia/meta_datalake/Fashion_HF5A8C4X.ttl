@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FashionHF5A8C4X> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_HF5A8C4X.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FashionHF5A8C4X/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FashionHF5A8C4X/column/AveragePurchasePrice> a dsv:Column ;
+    rdfs:label "Average Purchase Price" ;
+    dsv:columnProperty "average" .
+
+<http://metaUnionSearch/datasets/FashionHF5A8C4X/column/BestSellerRank> a dsv:Column ;
+    rdfs:label "Best Seller Rank" ;
+    dsv:columnProperty "highest rank" .
+
+<http://metaUnionSearch/datasets/FashionHF5A8C4X/column/ClosureType> a dsv:Column ;
+    rdfs:label "Closure Type" ;
+    dsv:columnProperty "closed" .
+
+<http://metaUnionSearch/datasets/FashionHF5A8C4X/column/ClothingType> a dsv:Column ;
+    rdfs:label "Clothing Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/FashionHF5A8C4X/column/CulturalOrigin> a dsv:Column ;
+    rdfs:label "Cultural Origin" ;
+    dsv:columnProperty "origin" .
+
+<http://metaUnionSearch/datasets/FashionHF5A8C4X/column/CustomerRating> a dsv:Column ;
+    rdfs:label "Customer Rating" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/FashionHF5A8C4X/column/DesignerName> a dsv:Column ;
+    rdfs:label "Designer Name" ;
+    dsv:columnProperty "designer" .
+
+<http://metaUnionSearch/datasets/FashionHF5A8C4X/column/FabricType> a dsv:Column ;
+    rdfs:label "Fabric Type" ;
+    dsv:columnProperty "material" .
+
+<http://metaUnionSearch/datasets/FashionHF5A8C4X/column/GarmentCare> a dsv:Column ;
+    rdfs:label "Garment Care" .
+
+<http://metaUnionSearch/datasets/FashionHF5A8C4X/column/MaterialType> a dsv:Column ;
+    rdfs:label "Material Type" ;
+    dsv:columnProperty "material" .
+
+<http://metaUnionSearch/datasets/FashionHF5A8C4X/column/PatternType> a dsv:Column ;
+    rdfs:label "Pattern Type" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/FashionHF5A8C4X/column/PopularSize> a dsv:Column ;
+    rdfs:label "Popular Size" ;
+    dsv:columnProperty "clothing size" .
+
+<http://metaUnionSearch/datasets/FashionHF5A8C4X/column/SeasonalTrend> a dsv:Column ;
+    rdfs:label "Seasonal Trend" ;
+    dsv:columnProperty "season" .
+
+<http://metaUnionSearch/datasets/FashionHF5A8C4X/column/StyleEra> a dsv:Column ;
+    rdfs:label "Style Era" ;
+    dsv:columnProperty "era" .
+
+<http://metaUnionSearch/datasets/FashionHF5A8C4X/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FashionHF5A8C4X/column/AveragePurchasePrice>,
+        <http://metaUnionSearch/datasets/FashionHF5A8C4X/column/BestSellerRank>,
+        <http://metaUnionSearch/datasets/FashionHF5A8C4X/column/ClosureType>,
+        <http://metaUnionSearch/datasets/FashionHF5A8C4X/column/ClothingType>,
+        <http://metaUnionSearch/datasets/FashionHF5A8C4X/column/CulturalOrigin>,
+        <http://metaUnionSearch/datasets/FashionHF5A8C4X/column/CustomerRating>,
+        <http://metaUnionSearch/datasets/FashionHF5A8C4X/column/DesignerName>,
+        <http://metaUnionSearch/datasets/FashionHF5A8C4X/column/FabricType>,
+        <http://metaUnionSearch/datasets/FashionHF5A8C4X/column/GarmentCare>,
+        <http://metaUnionSearch/datasets/FashionHF5A8C4X/column/MaterialType>,
+        <http://metaUnionSearch/datasets/FashionHF5A8C4X/column/PatternType>,
+        <http://metaUnionSearch/datasets/FashionHF5A8C4X/column/PopularSize>,
+        <http://metaUnionSearch/datasets/FashionHF5A8C4X/column/SeasonalTrend>,
+        <http://metaUnionSearch/datasets/FashionHF5A8C4X/column/StyleEra> .
+

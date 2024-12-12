@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Vaccination History", "dbpedia_property_id": "http://dbpedia.org/ontology/vaccination"},
+    {"column_header": "Dietary Needs", "dbpedia_property_id": "http://dbpedia.org/ontology/requirement"},
+    {"column_header": "Surgeries Performed", "dbpedia_property_id": "http://dbpedia.org/ontology/medicalSpecialty"},
+    {"column_header": "Allergy Information", "dbpedia_property_id": "http://dbpedia.org/ontology/medicalDiagnosis"},
+    {"column_header": "Special Equipment Needed", "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"},
+    {"column_header": "Follow-Up Visits Scheduled", "dbpedia_property_id": "http://dbpedia.org/ontology/followingEvent"},
+    {"column_header": "Behavioral Issues Trained On", "dbpedia_property_id": "http://dbpedia.org/ontology/training"},
+    {"column_header": "Preferred Play Styles", "dbpedia_property_id": "http://dbpedia.org/ontology/style"},
+    {"column_header": "Microchip Number", "dbpedia_property_id": "http://dbpedia.org/ontology/id"},
+    {"column_header": "Medical Notes", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+    {"column_header": "Owner Name", "dbpedia_property_id": "http://dbpedia.org/ontology/owner"},
+    {"column_header": "Contact Information", "dbpedia_property_id": "http://dbpedia.org/ontology/information"},
+    {"column_header": "Veterinarian ID", "dbpedia_property_id": "http://dbpedia.org/ontology/id"}
+  ]
+}

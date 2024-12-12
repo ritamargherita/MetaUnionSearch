@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Sports1ZBM21YA> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_1ZBM21YA.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Sports1ZBM21YA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Sports1ZBM21YA/column/AthelticAssociationNumberAAN> a dsv:Column ;
+    rdfs:label "Atheltic Association Number (AAN)" ;
+    dsv:columnProperty "iafd id" .
+
+<http://metaUnionSearch/datasets/Sports1ZBM21YA/column/AthleteNickname> a dsv:Column ;
+    rdfs:label "Athlete Nickname" ;
+    dsv:columnProperty "associate" .
+
+<http://metaUnionSearch/datasets/Sports1ZBM21YA/column/BlockAttempts> a dsv:Column ;
+    rdfs:label "Block Attempts" ;
+    dsv:columnProperty "block" .
+
+<http://metaUnionSearch/datasets/Sports1ZBM21YA/column/DefendedSteals> a dsv:Column ;
+    rdfs:label "Defended Steals" ;
+    dsv:columnProperty "achievement" .
+
+<http://metaUnionSearch/datasets/Sports1ZBM21YA/column/Height> a dsv:Column ;
+    rdfs:label "Height" ;
+    dsv:columnProperty "height (μ)" .
+
+<http://metaUnionSearch/datasets/Sports1ZBM21YA/column/OffensiveRebounds> a dsv:Column ;
+    rdfs:label "Offensive Rebounds" ;
+    dsv:columnProperty "wins" .
+
+<http://metaUnionSearch/datasets/Sports1ZBM21YA/column/PersonalFouls> a dsv:Column ;
+    rdfs:label "Personal Fouls" ;
+    dsv:columnProperty "Penalties Team A" .
+
+<http://metaUnionSearch/datasets/Sports1ZBM21YA/column/PointsEarned> a dsv:Column ;
+    rdfs:label "Points Earned" ;
+    dsv:columnProperty "career points" .
+
+<http://metaUnionSearch/datasets/Sports1ZBM21YA/column/Position> a dsv:Column ;
+    rdfs:label "Position" ;
+    dsv:columnProperty "position" .
+
+<http://metaUnionSearch/datasets/Sports1ZBM21YA/column/TeamName> a dsv:Column ;
+    rdfs:label "Team Name" ;
+    dsv:columnProperty "team name" .
+
+<http://metaUnionSearch/datasets/Sports1ZBM21YA/column/TournamentIdentifierTID> a dsv:Column ;
+    rdfs:label "Tournament Identifier (TID)" ;
+    dsv:columnProperty "tournament record" .
+
+<http://metaUnionSearch/datasets/Sports1ZBM21YA/column/TypeofSport> a dsv:Column ;
+    rdfs:label "Type of Sport" ;
+    dsv:columnProperty "sport" .
+
+<http://metaUnionSearch/datasets/Sports1ZBM21YA/column/Weight> a dsv:Column ;
+    rdfs:label "Weight" ;
+    dsv:columnProperty "weight (g)" .
+
+<http://metaUnionSearch/datasets/Sports1ZBM21YA/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Sports1ZBM21YA/column/AthelticAssociationNumberAAN>,
+        <http://metaUnionSearch/datasets/Sports1ZBM21YA/column/AthleteNickname>,
+        <http://metaUnionSearch/datasets/Sports1ZBM21YA/column/BlockAttempts>,
+        <http://metaUnionSearch/datasets/Sports1ZBM21YA/column/DefendedSteals>,
+        <http://metaUnionSearch/datasets/Sports1ZBM21YA/column/Height>,
+        <http://metaUnionSearch/datasets/Sports1ZBM21YA/column/OffensiveRebounds>,
+        <http://metaUnionSearch/datasets/Sports1ZBM21YA/column/PersonalFouls>,
+        <http://metaUnionSearch/datasets/Sports1ZBM21YA/column/PointsEarned>,
+        <http://metaUnionSearch/datasets/Sports1ZBM21YA/column/Position>,
+        <http://metaUnionSearch/datasets/Sports1ZBM21YA/column/TeamName>,
+        <http://metaUnionSearch/datasets/Sports1ZBM21YA/column/TournamentIdentifierTID>,
+        <http://metaUnionSearch/datasets/Sports1ZBM21YA/column/TypeofSport>,
+        <http://metaUnionSearch/datasets/Sports1ZBM21YA/column/Weight> .
+

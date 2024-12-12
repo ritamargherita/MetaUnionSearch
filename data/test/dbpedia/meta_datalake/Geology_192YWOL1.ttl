@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geology192YWOL1> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_192YWOL1.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geology192YWOL1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geology192YWOL1/column/CaveSystems> a dsv:Column ;
+    rdfs:label "Cave Systems" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/Geology192YWOL1/column/ErosionalFeatures> a dsv:Column ;
+    rdfs:label "Erosional Features" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/Geology192YWOL1/column/GeologicTimeScale> a dsv:Column ;
+    rdfs:label "Geologic Time Scale" ;
+    dsv:columnProperty "geologic period" .
+
+<http://metaUnionSearch/datasets/Geology192YWOL1/column/GeologicalStressesMovements> a dsv:Column ;
+    rdfs:label "Geological Stresses & Movements" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geology192YWOL1/column/GeomorphicFeatures> a dsv:Column ;
+    rdfs:label "Geomorphic Features" ;
+    dsv:columnProperty "notable features" .
+
+<http://metaUnionSearch/datasets/Geology192YWOL1/column/HydrothermalSystems> a dsv:Column ;
+    rdfs:label "Hydrothermal Systems" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geology192YWOL1/column/LandformEvolution> a dsv:Column ;
+    rdfs:label "Landform Evolution" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geology192YWOL1/column/MineralDeposits> a dsv:Column ;
+    rdfs:label "Mineral Deposits" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geology192YWOL1/column/MountainBuildingProcesses> a dsv:Column ;
+    rdfs:label "Mountain Building Processes" ;
+    dsv:columnProperty "orogeny" .
+
+<http://metaUnionSearch/datasets/Geology192YWOL1/column/NaturalResources> a dsv:Column ;
+    rdfs:label "Natural Resources" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geology192YWOL1/column/PlateTectonicsImpact> a dsv:Column ;
+    rdfs:label "Plate Tectonics Impact" ;
+    dsv:columnProperty "orogeny" .
+
+<http://metaUnionSearch/datasets/Geology192YWOL1/column/SeismicActivity> a dsv:Column ;
+    rdfs:label "Seismic Activity" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geology192YWOL1/column/SoilFormation> a dsv:Column ;
+    rdfs:label "Soil Formation" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geology192YWOL1/column/VolcanismIndications> a dsv:Column ;
+    rdfs:label "Volcanism Indications" ;
+    dsv:columnProperty "volcanic activity" .
+
+<http://metaUnionSearch/datasets/Geology192YWOL1/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Geology192YWOL1/column/CaveSystems>,
+        <http://metaUnionSearch/datasets/Geology192YWOL1/column/ErosionalFeatures>,
+        <http://metaUnionSearch/datasets/Geology192YWOL1/column/GeologicTimeScale>,
+        <http://metaUnionSearch/datasets/Geology192YWOL1/column/GeologicalStressesMovements>,
+        <http://metaUnionSearch/datasets/Geology192YWOL1/column/GeomorphicFeatures>,
+        <http://metaUnionSearch/datasets/Geology192YWOL1/column/HydrothermalSystems>,
+        <http://metaUnionSearch/datasets/Geology192YWOL1/column/LandformEvolution>,
+        <http://metaUnionSearch/datasets/Geology192YWOL1/column/MineralDeposits>,
+        <http://metaUnionSearch/datasets/Geology192YWOL1/column/MountainBuildingProcesses>,
+        <http://metaUnionSearch/datasets/Geology192YWOL1/column/NaturalResources>,
+        <http://metaUnionSearch/datasets/Geology192YWOL1/column/PlateTectonicsImpact>,
+        <http://metaUnionSearch/datasets/Geology192YWOL1/column/SeismicActivity>,
+        <http://metaUnionSearch/datasets/Geology192YWOL1/column/SoilFormation>,
+        <http://metaUnionSearch/datasets/Geology192YWOL1/column/VolcanismIndications> .
+

@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SportsM3GITAZV> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_M3GITAZV.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SportsM3GITAZV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SportsM3GITAZV/column/AverageAge> a dsv:Column ;
+    rdfs:label "Average Age" ;
+    dsv:columnProperty "average" .
+
+<http://metaUnionSearch/datasets/SportsM3GITAZV/column/ConsecutiveChampionshipWinsRecord> a dsv:Column ;
+    rdfs:label "Consecutive Championship Wins Record" ;
+    dsv:columnProperty "tournament record" .
+
+<http://metaUnionSearch/datasets/SportsM3GITAZV/column/EstablishedYear> a dsv:Column ;
+    rdfs:label "Established Year" ;
+    dsv:columnProperty "Established" .
+
+<http://metaUnionSearch/datasets/SportsM3GITAZV/column/HeadCoachName> a dsv:Column ;
+    rdfs:label "Head Coach Name" ;
+    dsv:columnProperty "coach" .
+
+<http://metaUnionSearch/datasets/SportsM3GITAZV/column/League> a dsv:Column ;
+    rdfs:label "League" ;
+    dsv:columnProperty "league" .
+
+<http://metaUnionSearch/datasets/SportsM3GITAZV/column/MostMemorableMomentsinTeamHistory> a dsv:Column ;
+    rdfs:label "Most Memorable Moments in Team History" ;
+    dsv:columnProperty "tournament of champions" .
+
+<http://metaUnionSearch/datasets/SportsM3GITAZV/column/NumberofCoaches> a dsv:Column ;
+    rdfs:label "Number of Coaches" ;
+    dsv:columnProperty "number of players" .
+
+<http://metaUnionSearch/datasets/SportsM3GITAZV/column/OldestPlayerAge> a dsv:Column ;
+    rdfs:label "Oldest Player Age" ;
+    dsv:columnProperty "upper age" .
+
+<http://metaUnionSearch/datasets/SportsM3GITAZV/column/RivalTeams> a dsv:Column ;
+    rdfs:label "Rival Teams" ;
+    dsv:columnProperty "rival" .
+
+<http://metaUnionSearch/datasets/SportsM3GITAZV/column/TeamCity> a dsv:Column ;
+    rdfs:label "Team City" ;
+    dsv:columnProperty "city" .
+
+<http://metaUnionSearch/datasets/SportsM3GITAZV/column/TeamName> a dsv:Column ;
+    rdfs:label "Team Name" ;
+    dsv:columnProperty "team name" .
+
+<http://metaUnionSearch/datasets/SportsM3GITAZV/column/TotalChampionshipWins> a dsv:Column ;
+    rdfs:label "Total Championship Wins" ;
+    dsv:columnProperty "championships" .
+
+<http://metaUnionSearch/datasets/SportsM3GITAZV/column/YoungestPlayerAge> a dsv:Column ;
+    rdfs:label "Youngest Player Age" ;
+    dsv:columnProperty "lower age" .
+
+<http://metaUnionSearch/datasets/SportsM3GITAZV/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SportsM3GITAZV/column/AverageAge>,
+        <http://metaUnionSearch/datasets/SportsM3GITAZV/column/ConsecutiveChampionshipWinsRecord>,
+        <http://metaUnionSearch/datasets/SportsM3GITAZV/column/EstablishedYear>,
+        <http://metaUnionSearch/datasets/SportsM3GITAZV/column/HeadCoachName>,
+        <http://metaUnionSearch/datasets/SportsM3GITAZV/column/League>,
+        <http://metaUnionSearch/datasets/SportsM3GITAZV/column/MostMemorableMomentsinTeamHistory>,
+        <http://metaUnionSearch/datasets/SportsM3GITAZV/column/NumberofCoaches>,
+        <http://metaUnionSearch/datasets/SportsM3GITAZV/column/OldestPlayerAge>,
+        <http://metaUnionSearch/datasets/SportsM3GITAZV/column/RivalTeams>,
+        <http://metaUnionSearch/datasets/SportsM3GITAZV/column/TeamCity>,
+        <http://metaUnionSearch/datasets/SportsM3GITAZV/column/TeamName>,
+        <http://metaUnionSearch/datasets/SportsM3GITAZV/column/TotalChampionshipWins>,
+        <http://metaUnionSearch/datasets/SportsM3GITAZV/column/YoungestPlayerAge> .
+

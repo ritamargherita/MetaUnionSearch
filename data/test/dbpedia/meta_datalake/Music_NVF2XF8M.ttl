@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MusicNVF2XF8M> a dsv:Dataset ;
+    dcterms:subject "music" ;
+    dcterms:title "Music_NVF2XF8M.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MusicNVF2XF8M/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MusicNVF2XF8M/column/Choreographer> a dsv:Column ;
+    rdfs:label "Choreographer" ;
+    dsv:columnProperty "choreographer" .
+
+<http://metaUnionSearch/datasets/MusicNVF2XF8M/column/Cinematographer> a dsv:Column ;
+    rdfs:label "Cinematographer" ;
+    dsv:columnProperty "cinematography" .
+
+<http://metaUnionSearch/datasets/MusicNVF2XF8M/column/GenreoftheAlbumtowhichthissongbelongs> a dsv:Column ;
+    rdfs:label "Genre of the Album (to which this song belongs)" ;
+    dsv:columnProperty "genre" .
+
+<http://metaUnionSearch/datasets/MusicNVF2XF8M/column/InstrumentsUsed> a dsv:Column ;
+    rdfs:label "Instruments Used" ;
+    dsv:columnProperty "instrument" .
+
+<http://metaUnionSearch/datasets/MusicNVF2XF8M/column/MusicVideoDirector> a dsv:Column ;
+    rdfs:label "Music Video Director" ;
+    dsv:columnProperty "film director" .
+
+<http://metaUnionSearch/datasets/MusicNVF2XF8M/column/NotableLyrics> a dsv:Column ;
+    rdfs:label "Notable Lyrics" ;
+    dsv:columnProperty "lyrics" .
+
+<http://metaUnionSearch/datasets/MusicNVF2XF8M/column/Originsofmusicalstyle> a dsv:Column ;
+    rdfs:label "Origins (of musical style)" ;
+    dsv:columnProperty "stylistic origin" .
+
+<http://metaUnionSearch/datasets/MusicNVF2XF8M/column/ProducerMusicVideo> a dsv:Column ;
+    rdfs:label "Producer (Music Video)" ;
+    dsv:columnProperty "producer" .
+
+<http://metaUnionSearch/datasets/MusicNVF2XF8M/column/RumorsSong> a dsv:Column ;
+    rdfs:label "Rumors (Song)" ;
+    dsv:columnProperty "Music Band" .
+
+<http://metaUnionSearch/datasets/MusicNVF2XF8M/column/Screenwriter> a dsv:Column ;
+    rdfs:label "Screenwriter" ;
+    dsv:columnProperty "creative director" .
+
+<http://metaUnionSearch/datasets/MusicNVF2XF8M/column/SetDesigner> a dsv:Column ;
+    rdfs:label "Set Designer" ;
+    dsv:columnProperty "set designer" .
+
+<http://metaUnionSearch/datasets/MusicNVF2XF8M/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MusicNVF2XF8M/column/Choreographer>,
+        <http://metaUnionSearch/datasets/MusicNVF2XF8M/column/Cinematographer>,
+        <http://metaUnionSearch/datasets/MusicNVF2XF8M/column/GenreoftheAlbumtowhichthissongbelongs>,
+        <http://metaUnionSearch/datasets/MusicNVF2XF8M/column/InstrumentsUsed>,
+        <http://metaUnionSearch/datasets/MusicNVF2XF8M/column/MusicVideoDirector>,
+        <http://metaUnionSearch/datasets/MusicNVF2XF8M/column/NotableLyrics>,
+        <http://metaUnionSearch/datasets/MusicNVF2XF8M/column/Originsofmusicalstyle>,
+        <http://metaUnionSearch/datasets/MusicNVF2XF8M/column/ProducerMusicVideo>,
+        <http://metaUnionSearch/datasets/MusicNVF2XF8M/column/RumorsSong>,
+        <http://metaUnionSearch/datasets/MusicNVF2XF8M/column/Screenwriter>,
+        <http://metaUnionSearch/datasets/MusicNVF2XF8M/column/SetDesigner> .
+

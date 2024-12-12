@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Genetics0RCXN22P> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_0RCXN22P.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Genetics0RCXN22P/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Genetics0RCXN22P/column/AffectedPathways> a dsv:Column ;
+    rdfs:label "Affected Pathways " ;
+    dsv:columnProperty "disease" .
+
+<http://metaUnionSearch/datasets/Genetics0RCXN22P/column/ClinicalImplications> a dsv:Column ;
+    rdfs:label "Clinical Implications$" ;
+    dsv:columnProperty "treatment" .
+
+<http://metaUnionSearch/datasets/Genetics0RCXN22P/column/DeletionorDuplication> a dsv:Column ;
+    rdfs:label "Deletion or Duplication?" ;
+    dsv:columnProperty "caused by" .
+
+<http://metaUnionSearch/datasets/Genetics0RCXN22P/column/EnvironmentalFactors> a dsv:Column ;
+    rdfs:label "Environmental Factors##" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/Genetics0RCXN22P/column/EpigeneticModifications> a dsv:Column ;
+    rdfs:label "Epigenetic Modifications^^" ;
+    dsv:columnProperty "causalties" .
+
+<http://metaUnionSearch/datasets/Genetics0RCXN22P/column/GeneLoci> a dsv:Column ;
+    rdfs:label "Gene Loci*" ;
+    dsv:columnProperty "Gene Location" .
+
+<http://metaUnionSearch/datasets/Genetics0RCXN22P/column/GenesAssociatedWITHDiseases> a dsv:Column ;
+    rdfs:label "Genes Associated WITH Diseases" ;
+    dsv:columnProperty "diseasesDb" .
+
+<http://metaUnionSearch/datasets/Genetics0RCXN22P/column/MinorAlleleFrequency> a dsv:Column ;
+    rdfs:label "Minor Allele Frequency%" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/Genetics0RCXN22P/column/PolymorphismsFound> a dsv:Column ;
+    rdfs:label "Polymorphisms Found*" ;
+    dsv:columnProperty "locus supplementary data" .
+
+<http://metaUnionSearch/datasets/Genetics0RCXN22P/column/PostTranslationalModifications> a dsv:Column ;
+    rdfs:label "Post-Translational Modifications^^^" ;
+    dsv:columnProperty "other function" .
+
+<http://metaUnionSearch/datasets/Genetics0RCXN22P/column/PromoterMethylation> a dsv:Column ;
+    rdfs:label "Promoter Methylation%" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/Genetics0RCXN22P/column/ProteinFunction> a dsv:Column ;
+    rdfs:label "Protein Function" ;
+    dsv:columnProperty "other function" .
+
+<http://metaUnionSearch/datasets/Genetics0RCXN22P/column/RNAInterference> a dsv:Column ;
+    rdfs:label "RNA Interference^^" ;
+    dsv:columnProperty "medical cause" .
+
+<http://metaUnionSearch/datasets/Genetics0RCXN22P/column/TranscriptionFactorBinding> a dsv:Column ;
+    rdfs:label "Transcription Factor Binding%" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/Genetics0RCXN22P/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Genetics0RCXN22P/column/AffectedPathways>,
+        <http://metaUnionSearch/datasets/Genetics0RCXN22P/column/ClinicalImplications>,
+        <http://metaUnionSearch/datasets/Genetics0RCXN22P/column/DeletionorDuplication>,
+        <http://metaUnionSearch/datasets/Genetics0RCXN22P/column/EnvironmentalFactors>,
+        <http://metaUnionSearch/datasets/Genetics0RCXN22P/column/EpigeneticModifications>,
+        <http://metaUnionSearch/datasets/Genetics0RCXN22P/column/GeneLoci>,
+        <http://metaUnionSearch/datasets/Genetics0RCXN22P/column/GenesAssociatedWITHDiseases>,
+        <http://metaUnionSearch/datasets/Genetics0RCXN22P/column/MinorAlleleFrequency>,
+        <http://metaUnionSearch/datasets/Genetics0RCXN22P/column/PolymorphismsFound>,
+        <http://metaUnionSearch/datasets/Genetics0RCXN22P/column/PostTranslationalModifications>,
+        <http://metaUnionSearch/datasets/Genetics0RCXN22P/column/PromoterMethylation>,
+        <http://metaUnionSearch/datasets/Genetics0RCXN22P/column/ProteinFunction>,
+        <http://metaUnionSearch/datasets/Genetics0RCXN22P/column/RNAInterference>,
+        <http://metaUnionSearch/datasets/Genetics0RCXN22P/column/TranscriptionFactorBinding> .
+

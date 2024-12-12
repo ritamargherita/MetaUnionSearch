@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_WAR7JZ2N.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment1> a dsv:Column ;
+    rdfs:label "Astronomy Experiment 1" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment10> a dsv:Column ;
+    rdfs:label "Astronomy Experiment 10" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment11> a dsv:Column ;
+    rdfs:label "Astronomy Experiment 11" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment12> a dsv:Column ;
+    rdfs:label "Astronomy Experiment 12" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment2> a dsv:Column ;
+    rdfs:label "Astronomy Experiment 2" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment3> a dsv:Column ;
+    rdfs:label "Astronomy Experiment 3" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment4> a dsv:Column ;
+    rdfs:label "Astronomy Experiment 4" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment5> a dsv:Column ;
+    rdfs:label "Astronomy Experiment 5" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment6> a dsv:Column ;
+    rdfs:label "Astronomy Experiment 6" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment7> a dsv:Column ;
+    rdfs:label "Astronomy Experiment 7" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment8> a dsv:Column ;
+    rdfs:label "Astronomy Experiment 8" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment9> a dsv:Column ;
+    rdfs:label "Astronomy Experiment 9" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment1>,
+        <http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment10>,
+        <http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment11>,
+        <http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment12>,
+        <http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment2>,
+        <http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment3>,
+        <http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment4>,
+        <http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment5>,
+        <http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment6>,
+        <http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment7>,
+        <http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment8>,
+        <http://metaUnionSearch/datasets/AstronauticsWAR7JZ2N/column/AstronomyExperiment9> .
+

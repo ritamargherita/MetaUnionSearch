@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/HorticultureL5FTW0A9> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_L5FTW0A9.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/HorticultureL5FTW0A9/datasetSchema> .
+
+<http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/CommercialUsageAndProduction> a dsv:Column ;
+    rdfs:label "CommercialUsageAndProduction" ;
+    dsv:columnProperty "production" .
+
+<http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/CommonName> a dsv:Column ;
+    rdfs:label "CommonName" ;
+    dsv:columnProperty "common name" .
+
+<http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/DiseaseResistancesAndPestControlMeasures> a dsv:Column ;
+    rdfs:label "DiseaseResistancesAndPestControlMeasures*" ;
+    dsv:columnProperty "disease" .
+
+<http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/FloweringSeasonDates> a dsv:Column ;
+    rdfs:label "FloweringSeasonDates" ;
+    dsv:columnProperty "flower" .
+
+<http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/GeographicDistribution> a dsv:Column ;
+    rdfs:label "GeographicDistribution" ;
+    dsv:columnProperty "reference for geographic data" .
+
+<http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/GrowingConditionsIFApplicable> a dsv:Column ;
+    rdfs:label "GrowingConditions(IFApplicable*)" ;
+    dsv:columnProperty "cuisine" .
+
+<http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/HistoricalSignificanceOrUse> a dsv:Column ;
+    rdfs:label "HistoricalSignificanceOrUse$" ;
+    dsv:columnProperty "known for" .
+
+<http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/NutritionalValue> a dsv:Column ;
+    rdfs:label "NutritionalValue" ;
+    dsv:columnProperty "protein (g)" .
+
+<http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/PollinatorsAndHabitatsOfSpecificPlantSpeCIesIFApplicable> a dsv:Column ;
+    rdfs:label "PollinatorsAndHabitatsOfSpecificPlantSpeCIes(IFApplicable*)" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/TypicalGrowthGrades> a dsv:Column ;
+    rdfs:label "TypicalGrowthGrades%" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/YearlyCycleDetailsAndMaintenanceNeeds> a dsv:Column ;
+    rdfs:label "YearlyCycleDetailsAndMaintenanceNeeds" ;
+    dsv:columnProperty "longName" .
+
+<http://metaUnionSearch/datasets/HorticultureL5FTW0A9/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/CommercialUsageAndProduction>,
+        <http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/CommonName>,
+        <http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/DiseaseResistancesAndPestControlMeasures>,
+        <http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/FloweringSeasonDates>,
+        <http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/GeographicDistribution>,
+        <http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/GrowingConditionsIFApplicable>,
+        <http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/HistoricalSignificanceOrUse>,
+        <http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/NutritionalValue>,
+        <http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/PollinatorsAndHabitatsOfSpecificPlantSpeCIesIFApplicable>,
+        <http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/TypicalGrowthGrades>,
+        <http://metaUnionSearch/datasets/HorticultureL5FTW0A9/column/YearlyCycleDetailsAndMaintenanceNeeds> .
+

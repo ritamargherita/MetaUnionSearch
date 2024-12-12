@@ -1,0 +1,92 @@
+{
+  "mapping": [
+    {
+      "column_header": "Title",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/title"
+    },
+    {
+      "column_header": "Author",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/author"
+    },
+    {
+      "column_header": "Figures of Speech Extensiveness",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    },
+    {
+      "column_header": "Use of Synesthesia",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    },
+    {
+      "column_header": "Allusion Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    },
+    {
+      "column_header": "Sentiment Analysis Results",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mood"
+    },
+    {
+      "column_header": "Overall Poem Length",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/length"
+    },
+    {
+      "column_header": "Average Word Count per Stanza",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/average"
+    },
+    {
+      "column_header": "Rare Words List",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    },
+    {
+      "column_header": "Spanish Vocabulary Percentage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Noun Gender Parity Score",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gender"
+    },
+    {
+      "column_header": "Enjambments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    },
+    {
+      "column_header": "Disrupted Rhymes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    },
+    {
+      "column_header": "Unusual Syllable Sequences",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    },
+    {
+      "column_header": "Special Character Incorporation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/decoration"
+    },
+    {
+      "column_header": "Formatted Text Decorative Techniques",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/decoration"
+    },
+    {
+      "column_header": "Visuo-Local Color Change Frequency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/hsvCoordinateHue"
+    },
+    {
+      "column_header": "Symbol Density Overlaid Images Opacity Rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/symbol"
+    },
+    {
+      "column_header": "Bilingual Sensory Appeals",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    },
+    {
+      "column_header": "Music Type Embeddedness",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/musicType"
+    },
+    {
+      "column_header": "Free Verse?",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/free"
+    },
+    {
+      "column_header": "Concrete Poem?",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/free"
+    }
+  ]
+}

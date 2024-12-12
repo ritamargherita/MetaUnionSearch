@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P> a dsv:Dataset ;
+    dcterms:subject "cooking" ;
+    dcterms:title "Cooking_7OV77G1P.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Cooking7OV77G1P/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/AverageCost> a dsv:Column ;
+    rdfs:label "Average Cost$$" ;
+    dsv:columnProperty "cost ($)" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/CookTimealternate> a dsv:Column ;
+    rdfs:label "Cook Time (alternate)" ;
+    dsv:columnProperty "maximum preparation time (s)" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/Cuisine> a dsv:Column ;
+    rdfs:label "Cuisine" ;
+    dsv:columnProperty "cuisine" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/DietaryRestrictions> a dsv:Column ;
+    rdfs:label "Dietary Restrictions?" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/EstimatedCalories> a dsv:Column ;
+    rdfs:label "Estimated Calories*" ;
+    dsv:columnProperty "approximate calories (J)" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/IngredientSource> a dsv:Column ;
+    rdfs:label "Ingredient Source*$" ;
+    dsv:columnProperty "source" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/IngredientsList> a dsv:Column ;
+    rdfs:label "Ingredients List" ;
+    dsv:columnProperty "ingredient name (literal)" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/NewToolsUsed> a dsv:Column ;
+    rdfs:label "New Tools Used^" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/PrepTimealternate> a dsv:Column ;
+    rdfs:label "Prep Time (alternate)" ;
+    dsv:columnProperty "minimum preparation time (s)" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/RecipeName> a dsv:Column ;
+    rdfs:label "Recipe Name" ;
+    dsv:columnProperty "creator of dish" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/Servings> a dsv:Column ;
+    rdfs:label "Servings**" ;
+    dsv:columnProperty "serving size (g)" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/column/StepswithTimestamps> a dsv:Column ;
+    rdfs:label "Steps with Timestamps$" ;
+    dsv:columnProperty "time" .
+
+<http://metaUnionSearch/datasets/Cooking7OV77G1P/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/AverageCost>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/CookTimealternate>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/Cuisine>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/DietaryRestrictions>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/EstimatedCalories>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/IngredientSource>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/IngredientsList>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/NewToolsUsed>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/PrepTimealternate>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/RecipeName>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/Servings>,
+        <http://metaUnionSearch/datasets/Cooking7OV77G1P/column/StepswithTimestamps> .
+

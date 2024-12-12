@@ -1,0 +1,18 @@
+{
+    "mapping": [
+        {"column_header": "Photo Title", "dbpedia_property_id": "http://dbpedia.org/ontology/title"},
+        {"column_header": "Category", "dbpedia_property_id": "http://dbpedia.org/ontology/category"},
+        {"column_header": "Location Shootage", "dbpedia_property_id": "http://dbpedia.org/ontology/location"},
+        {"column_header": "Time Zone", "dbpedia_property_id": "http://dbpedia.org/ontology/timeZone"},
+        {"column_header": "External Storage Device", "dbpedia_property_id": "http://dbpedia.org/ontology/typeOfStorage"},
+        {"column_header": "Storage Folder Path", "dbpedia_property_id": "http://dbpedia.org/ontology/fileURL"},
+        {"column_header": "Photo Size (in MB)", "dbpedia_property_id": "http://dbpedia.org/ontology/fileSize"},
+        {"column_header": "Thumbnail Created?", "dbpedia_property_id": "http://dbpedia.org/ontology/thumbnail"},
+        {"column_header": "Editing Software Used", "dbpedia_property_id": "http://dbpedia.org/ontology/editing"},
+        {"column_header": "Post Process Edits Made", "dbpedia_property_id": "http://dbpedia.org/ontology/editing"},
+        {"column_header": "Date Uploaded To Social Media", "dbpedia_property_id": "http://dbpedia.org/ontology/date"},
+        {"column_header": "Upload Platform", "dbpedia_property_id": "http://dbpedia.org/ontology/media"},
+        {"column_header": "Server Type", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+        {"column_header": "Privacy Setting", "dbpedia_property_id": "http://dbpedia.org/ontology/restriction"}
+    ]
+}

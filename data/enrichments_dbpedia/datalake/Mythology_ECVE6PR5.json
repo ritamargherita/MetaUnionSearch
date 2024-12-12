@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "God",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/enshrinedDeity"
+    },
+    {
+      "column_header": "Spouse(ves)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/spouse"
+    },
+    {
+      "column_header": "Children",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/child"
+    },
+    {
+      "column_header": "Divine Roles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/role"
+    },
+    {
+      "column_header": "Mythmaking Purpose",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/purpose"
+    },
+    {
+      "column_header": "Associations with Natural Phenomena",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"
+    },
+    {
+      "column_header": "Interaction With Humans",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Religious Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/status"
+    },
+    {
+      "column_header": "Cultural Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Origin Stories",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/origin"
+    },
+    {
+      "column_header": "Parallels Within Other Cultures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mythology"
+    },
+    {
+      "column_header": "Sibling Dynamics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sibling"
+    },
+    {
+      "column_header": "Parental Relationships",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/parent"
+    },
+    {
+      "column_header": "Family Tree Connections",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/family"
+    },
+    {
+      "column_header": "Pop Culture Portrayals",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/portrayer"
+    }
+  ]
+}

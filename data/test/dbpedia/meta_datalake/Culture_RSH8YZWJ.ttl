@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CultureRSH8YZWJ> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_RSH8YZWJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CultureRSH8YZWJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/ArchitectureStyles> a dsv:Column ;
+    rdfs:label "Architecture Styles" ;
+    dsv:columnProperty "architectural style" .
+
+<http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/ArtMovements> a dsv:Column ;
+    rdfs:label "Art Movements" ;
+    dsv:columnProperty "movement" .
+
+<http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/CraftTraditions> a dsv:Column ;
+    rdfs:label "Craft Traditions" ;
+    dsv:columnProperty "decoration" .
+
+<http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/DanceForms> a dsv:Column ;
+    rdfs:label "Dance Forms" ;
+    dsv:columnProperty "choreographer" .
+
+<http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/EducationSystem> a dsv:Column ;
+    rdfs:label "Education System" ;
+    dsv:columnProperty "education system" .
+
+<http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/FamilyStructures> a dsv:Column ;
+    rdfs:label "Family Structures" ;
+    dsv:columnProperty "family" .
+
+<http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/HolidaysCelebrations> a dsv:Column ;
+    rdfs:label "Holidays & Celebrations" ;
+    dsv:columnProperty "feast day, holiday" .
+
+<http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/LiteratureGenres> a dsv:Column ;
+    rdfs:label "Literature Genres" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/MusicInstruments> a dsv:Column ;
+    rdfs:label "Music Instruments" ;
+    dsv:columnProperty "instrument" .
+
+<http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/NationalSymbolism> a dsv:Column ;
+    rdfs:label "National Symbolism" ;
+    dsv:columnProperty "emblem" .
+
+<http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/PoliticalIdeologies> a dsv:Column ;
+    rdfs:label "Political Ideologies" ;
+    dsv:columnProperty "ideology" .
+
+<http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/SportsGames> a dsv:Column ;
+    rdfs:label "Sports & Games" ;
+    dsv:columnProperty "sport" .
+
+<http://metaUnionSearch/datasets/CultureRSH8YZWJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/ArchitectureStyles>,
+        <http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/ArtMovements>,
+        <http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/CraftTraditions>,
+        <http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/DanceForms>,
+        <http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/EducationSystem>,
+        <http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/FamilyStructures>,
+        <http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/HolidaysCelebrations>,
+        <http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/LiteratureGenres>,
+        <http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/MusicInstruments>,
+        <http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/NationalSymbolism>,
+        <http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/PoliticalIdeologies>,
+        <http://metaUnionSearch/datasets/CultureRSH8YZWJ/column/SportsGames> .
+

@@ -1,0 +1,104 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_QN6C3BE3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/AdditionalInformation1> a dsv:Column ;
+    rdfs:label "Additional Information 1" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/Chromosome> a dsv:Column ;
+    rdfs:label "Chromosome" ;
+    dsv:columnProperty "chromosome" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/EndPosition> a dsv:Column ;
+    rdfs:label "End Position" ;
+    dsv:columnProperty "end" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/ExpressionLevel> a dsv:Column ;
+    rdfs:label "Expression Level" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/GOTerms> a dsv:Column ;
+    rdfs:label "GO Terms" ;
+    dsv:columnProperty "other information of a settlement" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/GeneType> a dsv:Column ;
+    rdfs:label "Gene Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/MutationFrequency> a dsv:Column ;
+    rdfs:label "Mutation Frequency" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/ProteinInteractions> a dsv:Column ;
+    rdfs:label "Protein Interactions" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/Sequence> a dsv:Column ;
+    rdfs:label "Sequence" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/StartPosition> a dsv:Column ;
+    rdfs:label "Start Position" ;
+    dsv:columnProperty "gene location start" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/Strand> a dsv:Column ;
+    rdfs:label "Strand" ;
+    dsv:columnProperty "on chromosome" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/newline1ProteinsProduced> a dsv:Column ;
+    rdfs:label """<newline>
+1. Proteins Produced""" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/newline2DomainInformation> a dsv:Column ;
+    rdfs:label """<newline>
+2. Domain Information""" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/newline3CellularLocation> a dsv:Column ;
+    rdfs:label """<newline>
+3. Cellular Location""" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/newline4MolecularWeight> a dsv:Column ;
+    rdfs:label """<newline>
+4. Molecular Weight""" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/newline5AminoAcidCount> a dsv:Column ;
+    rdfs:label """<newline>
+5. Amino Acid Count""" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/newline6mRNAStabilityScores> a dsv:Column ;
+    rdfs:label """<newline>
+6. mRNA Stability Scores""" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/newlinescurrrangecounter2Timetaken23209139347076416secondsGeneName> a dsv:Column ;
+    rdfs:label """<newline>
+</s>
+curr_range_counter:  2
+Time taken: 23.209139347076416 seconds
+Gene Name""" .
+
+<http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/AdditionalInformation1>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/Chromosome>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/EndPosition>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/ExpressionLevel>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/GOTerms>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/GeneType>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/MutationFrequency>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/ProteinInteractions>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/Sequence>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/StartPosition>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/Strand>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/newline1ProteinsProduced>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/newline2DomainInformation>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/newline3CellularLocation>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/newline4MolecularWeight>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/newline5AminoAcidCount>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/newline6mRNAStabilityScores>,
+        <http://metaUnionSearch/datasets/BioinformaticsQN6C3BE3/column/newlinescurrrangecounter2Timetaken23209139347076416secondsGeneName> .
+

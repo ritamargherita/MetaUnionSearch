@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerScience2277KXXS> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_2277KXXS.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerScience2277KXXS/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/ArtificialIntelligence> a dsv:Column ;
+    rdfs:label "Artificial Intelligence" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/ComputerGraphics> a dsv:Column ;
+    rdfs:label "Computer Graphics" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/ComputerVision> a dsv:Column ;
+    rdfs:label "Computer Vision" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/Cybersecurity> a dsv:Column ;
+    rdfs:label "Cybersecurity" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/DataMining> a dsv:Column ;
+    rdfs:label "Data Mining" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/DigitalForensics> a dsv:Column ;
+    rdfs:label "Digital Forensics" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/DistributedSystems> a dsv:Column ;
+    rdfs:label "Distributed Systems" ;
+    dsv:columnProperty "cluster" .
+
+<http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/HighPerformanceComputing> a dsv:Column ;
+    rdfs:label "High Performance Computing" ;
+    dsv:columnProperty "computing platform" .
+
+<http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/HumanComputerInteraction> a dsv:Column ;
+    rdfs:label "Human Computer Interaction" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/MachineLearning> a dsv:Column ;
+    rdfs:label "Machine Learning " ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/NaturalLanguageProcessing> a dsv:Column ;
+    rdfs:label "Natural Language Processing" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/ProgrammingParadigms> a dsv:Column ;
+    rdfs:label "Programming Paradigms" ;
+    dsv:columnProperty "programming language" .
+
+<http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/SoftwareTesting> a dsv:Column ;
+    rdfs:label "Software Testing" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/WebDevelopment> a dsv:Column ;
+    rdfs:label "Web Development" ;
+    dsv:columnProperty "programming language" .
+
+<http://metaUnionSearch/datasets/ComputerScience2277KXXS/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/ArtificialIntelligence>,
+        <http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/ComputerGraphics>,
+        <http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/ComputerVision>,
+        <http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/Cybersecurity>,
+        <http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/DataMining>,
+        <http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/DigitalForensics>,
+        <http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/DistributedSystems>,
+        <http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/HighPerformanceComputing>,
+        <http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/HumanComputerInteraction>,
+        <http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/MachineLearning>,
+        <http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/NaturalLanguageProcessing>,
+        <http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/ProgrammingParadigms>,
+        <http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/SoftwareTesting>,
+        <http://metaUnionSearch/datasets/ComputerScience2277KXXS/column/WebDevelopment> .
+

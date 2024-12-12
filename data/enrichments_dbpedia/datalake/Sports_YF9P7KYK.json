@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "TeamName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/teamName"
+    },
+    {
+      "column_header": " TeamID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/id"
+    },
+    {
+      "column_header": " Coachname",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/coach"
+    },
+    {
+      "column_header": " MatchesWon",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/championships"
+    },
+    {
+      "column_header": " MatchesLost",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/defeat"
+    },
+    {
+      "column_header": " AveragePointsPerGame",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/average"
+    },
+    {
+      "column_header": " TotalPlayers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfPlayers"
+    },
+    {
+      "column_header": " HomeGames",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/homeArena"
+    },
+    {
+      "column_header": " AwayGames",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/games"
+    },
+    {
+      "column_header": " ConsecutiveWins",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/championships"
+    },
+    {
+      "column_header": " ChampionshipTitles.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/championships"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU> a dsv:Dataset ;
+    dcterms:subject "international-relations" ;
+    dcterms:title "International-Relations_YV2V1ITU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/CurrencyExchangeRates> a dsv:Column ;
+    rdfs:label "Currency Exchange Rates" ;
+    dsv:columnProperty "currency" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/CybersecurityRegulations> a dsv:Column ;
+    rdfs:label "Cybersecurity Regulations" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/EconomicSystem> a dsv:Column ;
+    rdfs:label "Economic System" ;
+    dsv:columnProperty "industry" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/EnvironmentalPolicies> a dsv:Column ;
+    rdfs:label "Environmental Policies" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/GeographicalRegion> a dsv:Column ;
+    rdfs:label "Geographical Region" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/HumanRightsRecords> a dsv:Column ;
+    rdfs:label "Human Rights Records" ;
+    dsv:columnProperty "government" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/ImmigrationPolicy> a dsv:Column ;
+    rdfs:label "Immigration Policy" ;
+    dsv:columnProperty "government country" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/InternationalConflicts> a dsv:Column ;
+    rdfs:label "International Conflicts" ;
+    dsv:columnProperty "conflict" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/NaturalResources> a dsv:Column ;
+    rdfs:label "Natural Resources" ;
+    dsv:columnProperty "land" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/PeacekeepingContributions> a dsv:Column ;
+    rdfs:label "Peacekeeping Contributions" ;
+    dsv:columnProperty "military function" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/SpaceExplorationPrograms> a dsv:Column ;
+    rdfs:label "Space Exploration Programs" ;
+    dsv:columnProperty "expedition" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/TimePeriod> a dsv:Column ;
+    rdfs:label "Time Period" ;
+    dsv:columnProperty "term period" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/TradeAgreements> a dsv:Column ;
+    rdfs:label "Trade Agreements" ;
+    dsv:columnProperty "alliance" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/CurrencyExchangeRates>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/CybersecurityRegulations>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/EconomicSystem>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/EnvironmentalPolicies>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/GeographicalRegion>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/HumanRightsRecords>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/ImmigrationPolicy>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/InternationalConflicts>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/NaturalResources>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/PeacekeepingContributions>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/SpaceExplorationPrograms>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/TimePeriod>,
+        <http://metaUnionSearch/datasets/InternationalRelationsYV2V1ITU/column/TradeAgreements> .
+

@@ -1,0 +1,92 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A> a dsv:Dataset ;
+    dcterms:subject "mythology" ;
+    dcterms:title "Mythology_RVHS1K3A.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MythologyRVHS1K3A/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/1God> a dsv:Column ;
+    rdfs:label "1. God" ;
+    dsv:columnProperty "enshrined deity" .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/2Spouseves> a dsv:Column ;
+    rdfs:label "2. Spouse(ves)" ;
+    dsv:columnProperty "spouse" .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/3Children> a dsv:Column ;
+    rdfs:label "3. Children" ;
+    dsv:columnProperty "child" .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/AdditionalAbilitiesNotMentioned> a dsv:Column ;
+    rdfs:label "Additional Abilities Not Mentioned*" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/AlternateNames> a dsv:Column ;
+    rdfs:label "Alternate Names" ;
+    dsv:columnProperty "other name" .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/DifferencesfromOriginalDescription> a dsv:Column ;
+    rdfs:label "Differences from Original Description*" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/Etymology> a dsv:Column ;
+    rdfs:label "Etymology" ;
+    dsv:columnProperty "meaning" .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/EvolutionOverTime> a dsv:Column ;
+    rdfs:label "Evolution Over Time##" ;
+    dsv:columnProperty "origin" .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/GeographicalDistribution> a dsv:Column ;
+    rdfs:label "Geographical Distribution_" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/HistoricalContext> a dsv:Column ;
+    rdfs:label "Historical Context_" .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/InfluenceOnLiteratureAndMedia> a dsv:Column ;
+    rdfs:label "Influence On Literature And Media **" ;
+    dsv:columnProperty "influenced by" .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/InterpretationbyScholars> a dsv:Column ;
+    rdfs:label "Interpretation by Scholars^^" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/SimilaritiestoOtherEntries> a dsv:Column ;
+    rdfs:label "Similarities to Other Entries*" ;
+    dsv:columnProperty "similar" .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/UnpopularityRanking> a dsv:Column ;
+    rdfs:label "(Un)popularity Ranking" ;
+    dsv:columnProperty "ranking" .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/ofModernRepresentations> a dsv:Column ;
+    rdfs:label "# of Modern Representations" ;
+    dsv:columnProperty "number of films" .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/scurrrangecounter10Timetaken474816529750824secondsMythalogueTitle> a dsv:Column ;
+    rdfs:label """</s>
+curr_range_counter:  10
+Time taken: 47.4816529750824 seconds
+Mythalogue Title""" .
+
+<http://metaUnionSearch/datasets/MythologyRVHS1K3A/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/1God>,
+        <http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/2Spouseves>,
+        <http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/3Children>,
+        <http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/AdditionalAbilitiesNotMentioned>,
+        <http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/AlternateNames>,
+        <http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/DifferencesfromOriginalDescription>,
+        <http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/Etymology>,
+        <http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/EvolutionOverTime>,
+        <http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/GeographicalDistribution>,
+        <http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/HistoricalContext>,
+        <http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/InfluenceOnLiteratureAndMedia>,
+        <http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/InterpretationbyScholars>,
+        <http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/SimilaritiestoOtherEntries>,
+        <http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/UnpopularityRanking>,
+        <http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/ofModernRepresentations>,
+        <http://metaUnionSearch/datasets/MythologyRVHS1K3A/column/scurrrangecounter10Timetaken474816529750824secondsMythalogueTitle> .
+

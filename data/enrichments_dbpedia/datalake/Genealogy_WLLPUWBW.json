@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "AncestralHomeCountry",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ethnicGroup"
+    },
+    {
+      "column_header": "NumberofChildren",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfMembers"
+    },
+    {
+      "column_header": "YDNAHaplogroup",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/chromosome"
+    },
+    {
+      "column_header": "MTDA Hapolgroup",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/chromosome"
+    },
+    {
+      "column_header": "FamousRelativeNames",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/familyMember"
+    },
+    {
+      "column_header": "CelebrityRelations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/related"
+    },
+    {
+      "column_header": "GeneticGroupsEthnicities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ethnicGroup"
+    },
+    {
+      "column_header": "DNAtestProvider",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sourceName"
+    },
+    {
+      "column_header": "DonorRegistrationStatus",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/registration"
+    },
+    {
+      "column_header": "FamilyTreeOwnerConsents",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/family"
+    },
+    {
+      "column_header": "UniqueDNAIdentifier",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/number"
+    }
+  ]
+}

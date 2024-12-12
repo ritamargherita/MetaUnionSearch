@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Major Conflicts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    },
+    {
+      "column_header": "International Relationships",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/internationalAffiliation"
+    },
+    {
+      "column_header": "Globalization Effects",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/world"
+    },
+    {
+      "column_header": "Demographic Shifts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"
+    },
+    {
+      "column_header": "Religious Developments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Intellectual Movements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/movement"
+    },
+    {
+      "column_header": "Significant Legislation and Treaties",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/associatedAct"
+    },
+    {
+      "column_header": "Environmental Changes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Influential Philosophers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"
+    },
+    {
+      "column_header": "Literature Works",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"
+    }
+  ]
+}

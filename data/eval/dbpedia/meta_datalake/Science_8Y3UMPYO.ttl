@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Science8Y3UMPYO> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_8Y3UMPYO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Science8Y3UMPYO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Science8Y3UMPYO/column/Analysis> a dsv:Column ;
+    rdfs:label "Analysis" ;
+    dsv:columnProperty "Aggregation" .
+
+<http://metaUnionSearch/datasets/Science8Y3UMPYO/column/ConceptName> a dsv:Column ;
+    rdfs:label "Concept Name" ;
+    dsv:columnProperty "information name" .
+
+<http://metaUnionSearch/datasets/Science8Y3UMPYO/column/Conclusion> a dsv:Column ;
+    rdfs:label "Conclusion" ;
+    dsv:columnProperty "achievement" .
+
+<http://metaUnionSearch/datasets/Science8Y3UMPYO/column/Control> a dsv:Column ;
+    rdfs:label "Control" ;
+    dsv:columnProperty "criteria" .
+
+<http://metaUnionSearch/datasets/Science8Y3UMPYO/column/Description> a dsv:Column ;
+    rdfs:label "Description" ;
+    dsv:columnProperty "description" .
+
+<http://metaUnionSearch/datasets/Science8Y3UMPYO/column/ExperimentType> a dsv:Column ;
+    rdfs:label "Experiment Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/Science8Y3UMPYO/column/ExperimentalResults> a dsv:Column ;
+    rdfs:label "Experimental Results" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/Science8Y3UMPYO/column/Hypothesis> a dsv:Column ;
+    rdfs:label "Hypothesis" ;
+    dsv:columnProperty "approach" .
+
+<http://metaUnionSearch/datasets/Science8Y3UMPYO/column/MathematicalModel> a dsv:Column ;
+    rdfs:label "Mathematical Model" ;
+    dsv:columnProperty "model" .
+
+<http://metaUnionSearch/datasets/Science8Y3UMPYO/column/Observations> a dsv:Column ;
+    rdfs:label "Observations" ;
+    dsv:columnProperty "observatory" .
+
+<http://metaUnionSearch/datasets/Science8Y3UMPYO/column/Predictions> a dsv:Column ;
+    rdfs:label "Predictions" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/Science8Y3UMPYO/column/QuantumPhysics> a dsv:Column ;
+    rdfs:label "Quantum Physics" ;
+    dsv:columnProperty "subject term" .
+
+<http://metaUnionSearch/datasets/Science8Y3UMPYO/column/Variables> a dsv:Column ;
+    rdfs:label "Variables" ;
+    dsv:columnProperty "statistic" .
+
+<http://metaUnionSearch/datasets/Science8Y3UMPYO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Science8Y3UMPYO/column/Analysis>,
+        <http://metaUnionSearch/datasets/Science8Y3UMPYO/column/ConceptName>,
+        <http://metaUnionSearch/datasets/Science8Y3UMPYO/column/Conclusion>,
+        <http://metaUnionSearch/datasets/Science8Y3UMPYO/column/Control>,
+        <http://metaUnionSearch/datasets/Science8Y3UMPYO/column/Description>,
+        <http://metaUnionSearch/datasets/Science8Y3UMPYO/column/ExperimentType>,
+        <http://metaUnionSearch/datasets/Science8Y3UMPYO/column/ExperimentalResults>,
+        <http://metaUnionSearch/datasets/Science8Y3UMPYO/column/Hypothesis>,
+        <http://metaUnionSearch/datasets/Science8Y3UMPYO/column/MathematicalModel>,
+        <http://metaUnionSearch/datasets/Science8Y3UMPYO/column/Observations>,
+        <http://metaUnionSearch/datasets/Science8Y3UMPYO/column/Predictions>,
+        <http://metaUnionSearch/datasets/Science8Y3UMPYO/column/QuantumPhysics>,
+        <http://metaUnionSearch/datasets/Science8Y3UMPYO/column/Variables> .
+

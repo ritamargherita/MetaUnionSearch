@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "AncesterCount",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfMembersAsOf"
+    },
+    {
+      "column_header": "DirectLineDescendantCount",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfMembersAsOf"
+    },
+    {
+      "column_header": "DNAProfilesOfRelatives",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geneReviewsId"
+    },
+    {
+      "column_header": "HaplogroupResults",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geneReviewsName"
+    },
+    {
+      "column_header": "FamousRelatives",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/familyMember"
+    },
+    {
+      "column_header": "GeographicOriginsAnalysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refgeo"
+    },
+    {
+      "column_header": "PatronymicOrMatronymicAnalysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/patron"
+    },
+    {
+      "column_header": "DNAConnectionProbabilityScore",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/prominence"
+    },
+    {
+      "column_header": "LivingUserRelationshipProbability",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/currentPartner"
+    },
+    {
+      "column_header": "UniqueSharedDNAInformation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "Column1", "dbpedia_property_id": "http://dbpedia.org/ontology/field"},
+    {"column_header": "Column2", "dbpedia_property_id": "http://dbpedia.org/ontology/eptFinalTable"},
+    {"column_header": "Column3", "dbpedia_property_id": "http://dbpedia.org/ontology/wptFinalTable"},
+    {"column_header": "Column4", "dbpedia_property_id": "http://dbpedia.org/ontology/firstPopularVote"},
+    {"column_header": "Column5", "dbpedia_property_id": "http://dbpedia.org/ontology/result"},
+    {"column_header": "Column6", "dbpedia_property_id": "http://dbpedia.org/ontology/secondPopularVote"},
+    {"column_header": "Column7", "dbpedia_property_id": "http://dbpedia.org/ontology/secondCommander"},
+    {"column_header": "Column8", "dbpedia_property_id": "http://dbpedia.org/ontology/thirdCommander"},
+    {"column_header": "Column9", "dbpedia_property_id": "http://dbpedia.org/ontology/third"},
+    {"column_header": "Column10", "dbpedia_property_id": "http://dbpedia.org/ontology/fourthCommander"},
+    {"column_header": "Column11", "dbpedia_property_id": "http://dbpedia.org/ontology/board"},
+    {"column_header": "Column12", "dbpedia_property_id": "http://dbpedia.org/ontology/committee"},
+    {"column_header": "Column13", "dbpedia_property_id": "http://dbpedia.org/ontology/elementPeriod"},
+    {"column_header": "Column14", "dbpedia_property_id": "http://dbpedia.org/ontology/icd9"},
+    {"column_header": "Column15", "dbpedia_property_id": "http://dbpedia.org/ontology/genomeDB"}
+  ]
+}

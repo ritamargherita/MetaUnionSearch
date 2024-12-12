@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "Previous Conditions", "dbpedia_property_id": "http://dbpedia.org/ontology/previousWork"},
+    {"column_header": "Physical Examination Results", "dbpedia_property_id": "http://dbpedia.org/ontology/result"},
+    {"column_header": "Treatment Type, if applicable", "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"},
+    {"column_header": "Referring Doctor, if applicable", "dbpedia_property_id": "http://dbpedia.org/ontology/specialist"},
+    {"column_header": "Consultation Date", "dbpedia_property_id": "http://dbpedia.org/ontology/date"},
+    {"column_header": "Specialist Appointments Scheduled", "dbpedia_property_id": "http://dbpedia.org/ontology/specialist"},
+    {"column_header": "Test Results & Test Dates", "dbpedia_property_id": "http://dbpedia.org/ontology/result"},
+    {"column_header": "Radiology Images & Scan Codes, when applicable", "dbpedia_property_id": "http://dbpedia.org/ontology/result"},
+    {"column_header": "Patient's Mood and Wellbeing", "dbpedia_property_id": "http://dbpedia.org/ontology/mood"},
+    {"column_header": "Home Self-Care Abilities (IADL) Score", "dbpedia_property_id": "http://dbpedia.org/ontology/actScore"},
+    {"column_header": "Age-Adjusted IADL Score", "dbpedia_property_id": "http://dbpedia.org/ontology/actScore"},
+    {"column_header": "Social Determinants of Health Status", "dbpedia_property_id": "http://dbpedia.org/ontology/medicalDiagnosis"},
+    {"column_header": "Comorbidity Conditions Not Relating to the Current Visits", "dbpedia_property_id": "http://dbpedia.org/ontology/complications"},
+    {"column_header": "Family History Relevant to Present Condition", "dbpedia_property_id": "http://dbpedia.org/ontology/family"},
+    {"column_header": "Genetic Predisposition Factors", "dbpedia_property_id": "http://dbpedia.org/ontology/geneLocation"}
+  ]
+}

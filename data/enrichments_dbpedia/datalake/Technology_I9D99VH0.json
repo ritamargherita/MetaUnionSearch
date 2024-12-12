@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Tech Giants Investments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "Open Source Project Adoption",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": "Quantum Computing Progression",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"
+    },
+    {
+      "column_header": "Virtual Reality Applications",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+    },
+    {
+      "column_header": "Cybersecurity Threat Landscape",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": "Internet Of Things Expansion",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/network"
+    },
+    {
+      "column_header": "Robotics Process Automation Development",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": "Distributed Ledger Implementation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"
+    },
+    {
+      "column_header": "Natural Language Understanding Evolution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectKeyword"
+    },
+    {
+      "column_header": "Cloud Services Consolidation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/service"
+    },
+    {
+      "column_header": "Big Data Analytics Growth",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": "Supercomputers Capabilities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"
+    },
+    {
+      "column_header": "Edge Computing Proliferation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/computingInput"
+    }
+  ]
+}

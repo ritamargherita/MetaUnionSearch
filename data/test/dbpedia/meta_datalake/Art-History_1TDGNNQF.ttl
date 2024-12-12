@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_1TDGNNQF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/ArthurBethunePortraitSeriesIdentityOfTraylorsPatron> a dsv:Column ;
+    rdfs:label "`Arthur Bethune Portrait Series - Identity Of Traylor’s Patron?" ;
+    dsv:columnProperty "patron (art)" .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/ArthurBethunesNotesonTraylorsArt> a dsv:Column ;
+    rdfs:label "Arthur Bethune's Notes on Traylor's Art" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Artist> a dsv:Column ;
+    rdfs:label "Artist" ;
+    dsv:columnProperty "painter" .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Artwork> a dsv:Column ;
+    rdfs:label "Artwork" ;
+    dsv:columnProperty "gallery item" .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/DateCreated> a dsv:Column ;
+    rdfs:label "Date Created" ;
+    dsv:columnProperty "created" .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/DateOFExhibitionAtHowardUniversityGalleryOfFineArts> a dsv:Column ;
+    rdfs:label "Date OF Exhibition At Howard University Gallery Of Fine Arts" ;
+    dsv:columnProperty "exhibition" .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Depth> a dsv:Column ;
+    rdfs:label "Depth" ;
+    dsv:columnProperty "depth (μ)" .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Height> a dsv:Column ;
+    rdfs:label "Height" ;
+    dsv:columnProperty "height (μ)" .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Medium> a dsv:Column ;
+    rdfs:label "Medium" ;
+    dsv:columnProperty "material" .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Notes> a dsv:Column ;
+    rdfs:label "Notes`" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/NumberOFPaintingsInTheSeries> a dsv:Column ;
+    rdfs:label "Number OF Paintings In The Series" ;
+    dsv:columnProperty "number of films" .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Period> a dsv:Column ;
+    rdfs:label "Period" ;
+    dsv:columnProperty "term period" .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Style> a dsv:Column ;
+    rdfs:label "Style" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/SubjectMatter> a dsv:Column ;
+    rdfs:label "Subject Matter" ;
+    dsv:columnProperty "topic" .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Width> a dsv:Column ;
+    rdfs:label "Width" ;
+    dsv:columnProperty "width (μ)" .
+
+<http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/ArthurBethunePortraitSeriesIdentityOfTraylorsPatron>,
+        <http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/ArthurBethunesNotesonTraylorsArt>,
+        <http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Artist>,
+        <http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Artwork>,
+        <http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/DateCreated>,
+        <http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/DateOFExhibitionAtHowardUniversityGalleryOfFineArts>,
+        <http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Depth>,
+        <http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Height>,
+        <http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Medium>,
+        <http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Notes>,
+        <http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/NumberOFPaintingsInTheSeries>,
+        <http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Period>,
+        <http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Style>,
+        <http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/SubjectMatter>,
+        <http://metaUnionSearch/datasets/ArtHistory1TDGNNQF/column/Width> .
+

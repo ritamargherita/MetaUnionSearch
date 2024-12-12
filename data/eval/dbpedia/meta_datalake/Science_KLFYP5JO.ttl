@@ -1,0 +1,79 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ScienceKLFYP5JO> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_KLFYP5JO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ScienceKLFYP5JO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/ControlledGroup> a dsv:Column ;
+    rdfs:label "Controlled Group" .
+
+<http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/DataAnalysisTool> a dsv:Column ;
+    rdfs:label "Data Analysis Tool" ;
+    dsv:columnProperty "statistic" .
+
+<http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/DataCollectionMethod> a dsv:Column ;
+    rdfs:label "Data Collection Method" ;
+    dsv:columnProperty "Method of discovery" .
+
+<http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/ExperimentalGroup> a dsv:Column ;
+    rdfs:label "Experimental Group" .
+
+<http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/FutureResearch> a dsv:Column ;
+    rdfs:label "Future Research" ;
+    dsv:columnProperty "project" .
+
+<http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/Limitations> a dsv:Column ;
+    rdfs:label "Limitations" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/ObservationValues> a dsv:Column ;
+    rdfs:label "Observation Values" ;
+    dsv:columnProperty "stat value" .
+
+<http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/ObservedVariable> a dsv:Column ;
+    rdfs:label "Observed Variable" ;
+    dsv:columnProperty "value" .
+
+<http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/PublicationDate> a dsv:Column ;
+    rdfs:label "Publication Date" ;
+    dsv:columnProperty "publication date" .
+
+<http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/Researchers> a dsv:Column ;
+    rdfs:label "Researchers" ;
+    dsv:columnProperty "participant" .
+
+<http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/SampleSize> a dsv:Column ;
+    rdfs:label "Sample Size" ;
+    dsv:columnProperty "number of items in collection" .
+
+<http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/Significance> a dsv:Column ;
+    rdfs:label "Significance" ;
+    dsv:columnProperty "limit" .
+
+<http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/StatisticalAnalysisResults> a dsv:Column ;
+    rdfs:label "Statistical Analysis & Results" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/StudyLocation> a dsv:Column ;
+    rdfs:label "Study Location" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/ScienceKLFYP5JO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/ControlledGroup>,
+        <http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/DataAnalysisTool>,
+        <http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/DataCollectionMethod>,
+        <http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/ExperimentalGroup>,
+        <http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/FutureResearch>,
+        <http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/Limitations>,
+        <http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/ObservationValues>,
+        <http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/ObservedVariable>,
+        <http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/PublicationDate>,
+        <http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/Researchers>,
+        <http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/SampleSize>,
+        <http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/Significance>,
+        <http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/StatisticalAnalysisResults>,
+        <http://metaUnionSearch/datasets/ScienceKLFYP5JO/column/StudyLocation> .
+

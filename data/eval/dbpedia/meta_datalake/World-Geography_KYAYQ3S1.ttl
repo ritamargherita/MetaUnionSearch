@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_KYAYQ3S1.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/CapitalsStatusdefactojointnone> a dsv:Column ;
+    rdfs:label "Capitals' Status (de facto/joint/none)" ;
+    dsv:columnProperty "capital" .
+
+<http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/CoastlineLengthkm> a dsv:Column ;
+    rdfs:label "Coastline Length (km)" ;
+    dsv:columnProperty "coast line (μ)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/Currency> a dsv:Column ;
+    rdfs:label "Currency" ;
+    dsv:columnProperty "currency" .
+
+<http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/ForestArea> a dsv:Column ;
+    rdfs:label "Forest Area (%)" ;
+    dsv:columnProperty "land percentage of a place" .
+
+<http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/GDPPerCapita> a dsv:Column ;
+    rdfs:label "GDP Per Capita" ;
+    dsv:columnProperty "gross domestic product (GDP) per capita" .
+
+<http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/IslandNation> a dsv:Column ;
+    rdfs:label "Island Nation" ;
+    dsv:columnProperty "nation" .
+
+<http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/IslandSizekm> a dsv:Column ;
+    rdfs:label "Island Size (km²)" ;
+    dsv:columnProperty "area land (m2)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/MajorCitiesPopulation> a dsv:Column ;
+    rdfs:label "Major Cities Population" ;
+    dsv:columnProperty "population urban" .
+
+<http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/NumberOfIslands> a dsv:Column ;
+    rdfs:label "Number Of Islands" ;
+    dsv:columnProperty "number of islands" .
+
+<http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/PopulationOfCapital> a dsv:Column ;
+    rdfs:label "Population Of Capital" ;
+    dsv:columnProperty "population urban" .
+
+<http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/TimeZone> a dsv:Column ;
+    rdfs:label "Time Zone" ;
+    dsv:columnProperty "time zone" .
+
+<http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/CapitalsStatusdefactojointnone>,
+        <http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/CoastlineLengthkm>,
+        <http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/Currency>,
+        <http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/ForestArea>,
+        <http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/GDPPerCapita>,
+        <http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/IslandNation>,
+        <http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/IslandSizekm>,
+        <http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/MajorCitiesPopulation>,
+        <http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/NumberOfIslands>,
+        <http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/PopulationOfCapital>,
+        <http://metaUnionSearch/datasets/WorldGeographyKYAYQ3S1/column/TimeZone> .
+

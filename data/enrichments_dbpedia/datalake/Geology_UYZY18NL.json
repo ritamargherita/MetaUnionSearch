@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Statistical Analysis Method",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/approach"
+    },
+    {
+      "column_header": "Sample Size",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"
+    },
+    {
+      "column_header": "Average Value",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/average"
+    },
+    {
+      "column_header": "Standard Deviation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statisticValue"
+    },
+    {
+      "column_header": "Variance Ratio",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"
+    },
+    {
+      "column_header": "Outlier Present?",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"
+    },
+    {
+      "column_header": "Biological Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Chemical Stability",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/chemicalFormula"
+    },
+    {
+      "column_header": "Economic Importance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": "Colour & Texture Description",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/colour"
+    },
+    {
+      "column_header": "Other Notable Features",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    },
+    {
+      "column_header": "Crystal Structure Details",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/structuralSystem"
+    },
+    {
+      "column_header": "Additional Isotope Data",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/atomicNumber"
+    }
+  ]
+}

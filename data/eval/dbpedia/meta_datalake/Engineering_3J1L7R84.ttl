@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Engineering3J1L7R84> a dsv:Dataset ;
+    dcterms:subject "engineering" ;
+    dcterms:title "Engineering_3J1L7R84.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Engineering3J1L7R84/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Engineering3J1L7R84/column/AdditionalComponents> a dsv:Column ;
+    rdfs:label "Additional Components #" ;
+    dsv:columnProperty "component" .
+
+<http://metaUnionSearch/datasets/Engineering3J1L7R84/column/CollaboratingPartners> a dsv:Column ;
+    rdfs:label "Collaborating Partners" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/Engineering3J1L7R84/column/CostBreakdown> a dsv:Column ;
+    rdfs:label "Cost Breakdown*" ;
+    dsv:columnProperty "cost ($)" .
+
+<http://metaUnionSearch/datasets/Engineering3J1L7R84/column/DesignProcess> a dsv:Column ;
+    rdfs:label "Design Process" ;
+    dsv:columnProperty "significant design" .
+
+<http://metaUnionSearch/datasets/Engineering3J1L7R84/column/EngineeredSystemsv2> a dsv:Column ;
+    rdfs:label "Engineered Systems v2" ;
+    dsv:columnProperty "project" .
+
+<http://metaUnionSearch/datasets/Engineering3J1L7R84/column/GeographicalLocations> a dsv:Column ;
+    rdfs:label "Geographical Locations*" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/Engineering3J1L7R84/column/OriginalEquipmentManufacturer> a dsv:Column ;
+    rdfs:label "Original Equipment Manufacturer" ;
+    dsv:columnProperty "manufacturer" .
+
+<http://metaUnionSearch/datasets/Engineering3J1L7R84/column/ProjectManager> a dsv:Column ;
+    rdfs:label "Project Manager" ;
+    dsv:columnProperty "manager" .
+
+<http://metaUnionSearch/datasets/Engineering3J1L7R84/column/ProjectMilestones> a dsv:Column ;
+    rdfs:label "Project Milestones" ;
+    dsv:columnProperty "project" .
+
+<http://metaUnionSearch/datasets/Engineering3J1L7R84/column/ProjectScope> a dsv:Column ;
+    rdfs:label "Project Scope" ;
+    dsv:columnProperty "project objective" .
+
+<http://metaUnionSearch/datasets/Engineering3J1L7R84/column/ProjectStatus> a dsv:Column ;
+    rdfs:label "Project Status" ;
+    dsv:columnProperty "status" .
+
+<http://metaUnionSearch/datasets/Engineering3J1L7R84/column/ProjectTeam> a dsv:Column ;
+    rdfs:label "Project Team" ;
+    dsv:columnProperty "team" .
+
+<http://metaUnionSearch/datasets/Engineering3J1L7R84/column/RiskManagement> a dsv:Column ;
+    rdfs:label "Risk Management" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/Engineering3J1L7R84/column/VerificationValidation> a dsv:Column ;
+    rdfs:label "Verification & Validation*" ;
+    dsv:columnProperty "criteria" .
+
+<http://metaUnionSearch/datasets/Engineering3J1L7R84/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Engineering3J1L7R84/column/AdditionalComponents>,
+        <http://metaUnionSearch/datasets/Engineering3J1L7R84/column/CollaboratingPartners>,
+        <http://metaUnionSearch/datasets/Engineering3J1L7R84/column/CostBreakdown>,
+        <http://metaUnionSearch/datasets/Engineering3J1L7R84/column/DesignProcess>,
+        <http://metaUnionSearch/datasets/Engineering3J1L7R84/column/EngineeredSystemsv2>,
+        <http://metaUnionSearch/datasets/Engineering3J1L7R84/column/GeographicalLocations>,
+        <http://metaUnionSearch/datasets/Engineering3J1L7R84/column/OriginalEquipmentManufacturer>,
+        <http://metaUnionSearch/datasets/Engineering3J1L7R84/column/ProjectManager>,
+        <http://metaUnionSearch/datasets/Engineering3J1L7R84/column/ProjectMilestones>,
+        <http://metaUnionSearch/datasets/Engineering3J1L7R84/column/ProjectScope>,
+        <http://metaUnionSearch/datasets/Engineering3J1L7R84/column/ProjectStatus>,
+        <http://metaUnionSearch/datasets/Engineering3J1L7R84/column/ProjectTeam>,
+        <http://metaUnionSearch/datasets/Engineering3J1L7R84/column/RiskManagement>,
+        <http://metaUnionSearch/datasets/Engineering3J1L7R84/column/VerificationValidation> .
+

@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Type (of poetry)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Formality Level",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Sound Device Utilization",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/soundRecording"
+    },
+    {
+      "column_header": "Visual Presentation & Layout",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/layout"
+    },
+    {
+      "column_header": "Cultural Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    },
+    {
+      "column_header": "Language Origin & Diversity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/originalLanguage"
+    },
+    {
+      "column_header": "Religious or Philosophic Ideas Present",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Allegory Representation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/subjectTerm"
+    },
+    {
+      "column_header": "Audience Engagement Approach",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/approach"
+    },
+    {
+      "column_header": "Gender/Political Agenda",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/gender"
+    },
+    {
+      "column_header": "Genre Classification",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": "Free Verse",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/free"
+    },
+    {
+      "column_header": "Stanza Count",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfSpeakers"
+    },
+    {
+      "column_header": "Word Choice",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/category"
+    }
+  ]
+}

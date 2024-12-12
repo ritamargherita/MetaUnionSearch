@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MythologyE29GD8AF> a dsv:Dataset ;
+    dcterms:subject "mythology" ;
+    dcterms:title "Mythology_E29GD8AF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MythologyE29GD8AF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MythologyE29GD8AF/column/BehavioralTendencies> a dsv:Column ;
+    rdfs:label "Behavioral Tendencies" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/MythologyE29GD8AF/column/Description> a dsv:Column ;
+    rdfs:label "Description" ;
+    dsv:columnProperty "description" .
+
+<http://metaUnionSearch/datasets/MythologyE29GD8AF/column/GodHeroineDeityStatus> a dsv:Column ;
+    rdfs:label "God/Heroine/Deity Status" ;
+    dsv:columnProperty "enshrined deity" .
+
+<http://metaUnionSearch/datasets/MythologyE29GD8AF/column/Habitat> a dsv:Column ;
+    rdfs:label "Habitat" ;
+    dsv:columnProperty "livingPlace" .
+
+<http://metaUnionSearch/datasets/MythologyE29GD8AF/column/ImportancetoCultureReligion> a dsv:Column ;
+    rdfs:label "Importance to Culture/Religion" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/MythologyE29GD8AF/column/LifeSpanorEquivalentConcept> a dsv:Column ;
+    rdfs:label "Life Span or Equivalent Concept" ;
+    dsv:columnProperty "life expectancy" .
+
+<http://metaUnionSearch/datasets/MythologyE29GD8AF/column/MythologicalFigure> a dsv:Column ;
+    rdfs:label "Mythological Figure" ;
+    dsv:columnProperty "mythology" .
+
+<http://metaUnionSearch/datasets/MythologyE29GD8AF/column/OriginContinent> a dsv:Column ;
+    rdfs:label "Origin (Continent)" ;
+    dsv:columnProperty "continent" .
+
+<http://metaUnionSearch/datasets/MythologyE29GD8AF/column/PhysicalAppearance> a dsv:Column ;
+    rdfs:label "Physical Appearance" ;
+    dsv:columnProperty "appearance" .
+
+<http://metaUnionSearch/datasets/MythologyE29GD8AF/column/Powers> a dsv:Column ;
+    rdfs:label "Powers" ;
+    dsv:columnProperty "power" .
+
+<http://metaUnionSearch/datasets/MythologyE29GD8AF/column/RelatedMythologiesIfDifferentfromTable1> a dsv:Column ;
+    rdfs:label "Related Mythologies (If Different from Table 1)" ;
+    dsv:columnProperty "mythology" .
+
+<http://metaUnionSearch/datasets/MythologyE29GD8AF/column/SignificanceinMythsandLegendsContemporaryPopularCulture> a dsv:Column ;
+    rdfs:label "Significance in Myths and Legends, Contemporary Popular Culture" ;
+    dsv:columnProperty "mythology" .
+
+<http://metaUnionSearch/datasets/MythologyE29GD8AF/column/Symbolism> a dsv:Column ;
+    rdfs:label "Symbolism" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/MythologyE29GD8AF/column/Weaknesses> a dsv:Column ;
+    rdfs:label "Weaknesses" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/MythologyE29GD8AF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MythologyE29GD8AF/column/BehavioralTendencies>,
+        <http://metaUnionSearch/datasets/MythologyE29GD8AF/column/Description>,
+        <http://metaUnionSearch/datasets/MythologyE29GD8AF/column/GodHeroineDeityStatus>,
+        <http://metaUnionSearch/datasets/MythologyE29GD8AF/column/Habitat>,
+        <http://metaUnionSearch/datasets/MythologyE29GD8AF/column/ImportancetoCultureReligion>,
+        <http://metaUnionSearch/datasets/MythologyE29GD8AF/column/LifeSpanorEquivalentConcept>,
+        <http://metaUnionSearch/datasets/MythologyE29GD8AF/column/MythologicalFigure>,
+        <http://metaUnionSearch/datasets/MythologyE29GD8AF/column/OriginContinent>,
+        <http://metaUnionSearch/datasets/MythologyE29GD8AF/column/PhysicalAppearance>,
+        <http://metaUnionSearch/datasets/MythologyE29GD8AF/column/Powers>,
+        <http://metaUnionSearch/datasets/MythologyE29GD8AF/column/RelatedMythologiesIfDifferentfromTable1>,
+        <http://metaUnionSearch/datasets/MythologyE29GD8AF/column/SignificanceinMythsandLegendsContemporaryPopularCulture>,
+        <http://metaUnionSearch/datasets/MythologyE29GD8AF/column/Symbolism>,
+        <http://metaUnionSearch/datasets/MythologyE29GD8AF/column/Weaknesses> .
+

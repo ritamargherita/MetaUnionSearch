@@ -1,0 +1,70 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldHistoryGW90JPKL> a dsv:Dataset ;
+    dcterms:subject "world-history" ;
+    dcterms:title "World-History_GW90JPKL.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/ArtArchitecture> a dsv:Column ;
+    rdfs:label "Art & Architecture" ;
+    dsv:columnProperty "architectural style" .
+
+<http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/CulturalPractices> a dsv:Column ;
+    rdfs:label "Cultural Practices " ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/EconomicSystems> a dsv:Column ;
+    rdfs:label "Economic Systems " .
+
+<http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/GeographicalImpact> a dsv:Column ;
+    rdfs:label "Geographical Impact" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/Historiography> a dsv:Column ;
+    rdfs:label "Historiography " ;
+    dsv:columnProperty "non-fiction subject" .
+
+<http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/KeyFigures> a dsv:Column ;
+    rdfs:label "Key Figures" ;
+    dsv:columnProperty "key person" .
+
+<http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/PoliticalStructures> a dsv:Column ;
+    rdfs:label "Political Structures" ;
+    dsv:columnProperty "government" .
+
+<http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/PrimarySources> a dsv:Column ;
+    rdfs:label "Primary Sources" ;
+    dsv:columnProperty "source" .
+
+<http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/ScientificAdvancements> a dsv:Column ;
+    rdfs:label "Scientific Advancements " ;
+    dsv:columnProperty "scientific name" .
+
+<http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/SecondaryResources> a dsv:Column ;
+    rdfs:label "Secondary Resources " ;
+    dsv:columnProperty "other occupation" .
+
+<http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/SocialHierarchies> a dsv:Column ;
+    rdfs:label "Social Hierarchies " ;
+    dsv:columnProperty "ethnic group" .
+
+<http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/TechnologicalInnovations> a dsv:Column ;
+    rdfs:label "Technological Innovations " ;
+    dsv:columnProperty "patent" .
+
+<http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/ArtArchitecture>,
+        <http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/CulturalPractices>,
+        <http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/EconomicSystems>,
+        <http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/GeographicalImpact>,
+        <http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/Historiography>,
+        <http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/KeyFigures>,
+        <http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/PoliticalStructures>,
+        <http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/PrimarySources>,
+        <http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/ScientificAdvancements>,
+        <http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/SecondaryResources>,
+        <http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/SocialHierarchies>,
+        <http://metaUnionSearch/datasets/WorldHistoryGW90JPKL/column/TechnologicalInnovations> .
+

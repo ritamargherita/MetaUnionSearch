@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Ecology24BVN8NN> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_24BVN8NN.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Ecology24BVN8NN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Ecology24BVN8NN/column/BiologicalInteractions> a dsv:Column ;
+    rdfs:label "Biological Interactions" ;
+    dsv:columnProperty "fauna" .
+
+<http://metaUnionSearch/datasets/Ecology24BVN8NN/column/ClimateConditions> a dsv:Column ;
+    rdfs:label "Climate Conditions" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/Ecology24BVN8NN/column/ConservationMeasures> a dsv:Column ;
+    rdfs:label "Conservation Measures" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/Ecology24BVN8NN/column/EcosystemType> a dsv:Column ;
+    rdfs:label "Ecosystem Type" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/Ecology24BVN8NN/column/GeologicalFeatures> a dsv:Column ;
+    rdfs:label "Geological Features" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Ecology24BVN8NN/column/HumanInfluence> a dsv:Column ;
+    rdfs:label "Human Influence" ;
+    dsv:columnProperty "influenced by" .
+
+<http://metaUnionSearch/datasets/Ecology24BVN8NN/column/LandUse> a dsv:Column ;
+    rdfs:label "Land Use" ;
+    dsv:columnProperty "land" .
+
+<http://metaUnionSearch/datasets/Ecology24BVN8NN/column/ProtectionStatus> a dsv:Column ;
+    rdfs:label "Protection Status" ;
+    dsv:columnProperty "monument protection status" .
+
+<http://metaUnionSearch/datasets/Ecology24BVN8NN/column/SoilProperties> a dsv:Column ;
+    rdfs:label "Soil Properties" .
+
+<http://metaUnionSearch/datasets/Ecology24BVN8NN/column/SpeciesRichness> a dsv:Column ;
+    rdfs:label "Species Richness" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/Ecology24BVN8NN/column/WaterFeatures> a dsv:Column ;
+    rdfs:label "Water Features" ;
+    dsv:columnProperty "water" .
+
+<http://metaUnionSearch/datasets/Ecology24BVN8NN/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Ecology24BVN8NN/column/BiologicalInteractions>,
+        <http://metaUnionSearch/datasets/Ecology24BVN8NN/column/ClimateConditions>,
+        <http://metaUnionSearch/datasets/Ecology24BVN8NN/column/ConservationMeasures>,
+        <http://metaUnionSearch/datasets/Ecology24BVN8NN/column/EcosystemType>,
+        <http://metaUnionSearch/datasets/Ecology24BVN8NN/column/GeologicalFeatures>,
+        <http://metaUnionSearch/datasets/Ecology24BVN8NN/column/HumanInfluence>,
+        <http://metaUnionSearch/datasets/Ecology24BVN8NN/column/LandUse>,
+        <http://metaUnionSearch/datasets/Ecology24BVN8NN/column/ProtectionStatus>,
+        <http://metaUnionSearch/datasets/Ecology24BVN8NN/column/SoilProperties>,
+        <http://metaUnionSearch/datasets/Ecology24BVN8NN/column/SpeciesRichness>,
+        <http://metaUnionSearch/datasets/Ecology24BVN8NN/column/WaterFeatures> .
+

@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Quantity Prescribed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dose"
+    },
+    {
+      "column_header": " Side Effects",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/symptom"
+    },
+    {
+      "column_header": " Manufacturer Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/manufacturer"
+    },
+    {
+      "column_header": " Storage Instructions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/typeOfStorage"
+    },
+    {
+      "column_header": " MED Insurance Co Pay Amount",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/unitCost"
+    },
+    {
+      "column_header": " Patient Out-of-Pocket Cost",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fees"
+    },
+    {
+      "column_header": " Pharmacy Name and Contact Info",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/distributor"
+    },
+    {
+      "column_header": " FDA Approval Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/status"
+    },
+    {
+      "column_header": " Last Renewal Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dateLastUpdated"
+    },
+    {
+      "column_header": " Next Refilling Due Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/recommissioningDate"
+    },
+    {
+      "column_header": " Additional Notes.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    }
+  ]
+}

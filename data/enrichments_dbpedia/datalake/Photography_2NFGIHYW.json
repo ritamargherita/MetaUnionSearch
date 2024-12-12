@@ -1,0 +1,72 @@
+{
+  "mapping": [
+    {
+      "column_header": "Photo Title",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/title"
+    },
+    {
+      "column_header": "Category",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/category"
+    },
+    {
+      "column_header": "Characteristics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/features"
+    },
+    {
+      "column_header": "Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Lens Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Flash Usage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/flashPoint"
+    },
+    {
+      "column_header": "White Balance Setting",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orientation"
+    },
+    {
+      "column_header": "Focus Mode",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/focus"
+    },
+    {
+      "column_header": "Post-Processing Software",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/media"
+    },
+    {
+      "column_header": "Image Orientation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/orientation"
+    },
+    {
+      "column_header": "Sharpness and Noise Level",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/appearance"
+    },
+    {
+      "column_header": "Subject Distance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/distance"
+    },
+    {
+      "column_header": "Image Size",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/imageSize"
+    },
+    {
+      "column_header": "Contrast",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/contrast"
+    },
+    {
+      "column_header": "Saturation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/hsvCoordinateSaturation"
+    },
+    {
+      "column_header": "Hue Settings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/hsvCoordinateHue"
+    },
+    {
+      "column_header": "File Format",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/pictureFormat"
+    }
+  ]
+}

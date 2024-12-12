@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Anthropological Site Census", "dbpedia_property_id": "http://dbpedia.org/ontology/censusYear"},
+    {"column_header": "Site Location", "dbpedia_property_id": "http://dbpedia.org/ontology/location"},
+    {"column_header": "Time Period", "dbpedia_property_id": "http://dbpedia.org/ontology/termPeriod"},
+    {"column_header": "Dominant Culture", "dbpedia_property_id": "http://dbpedia.org/ontology/ethnicity"},
+    {"column_header": "Artifacts", "dbpedia_property_id": "http://dbpedia.org/ontology/significantProject"},
+    {"column_header": "Language", "dbpedia_property_id": "http://dbpedia.org/ontology/originalLanguage"},
+    {"column_header": "Religion", "dbpedia_property_id": "http://dbpedia.org/ontology/religion"},
+    {"column_header": "Burial Practices", "dbpedia_property_id": "http://dbpedia.org/ontology/placeOfBurial"},
+    {"column_header": "Population Count", "dbpedia_property_id": "http://dbpedia.org/ontology/population"},
+    {"column_header": "Environmental Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"},
+    {"column_header": "Socio-Political Structure", "dbpedia_property_id": "http://dbpedia.org/ontology/governmentType"},
+    {"column_header": "Economic Systems", "dbpedia_property_id": "http://dbpedia.org/ontology/industry"},
+    {"column_header": "Material Culture", "dbpedia_property_id": "http://dbpedia.org/ontology/material"}
+  ]
+}

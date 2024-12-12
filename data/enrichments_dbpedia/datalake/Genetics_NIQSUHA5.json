@@ -1,0 +1,18 @@
+{
+    "mapping": [
+        {"column_header": "NewlyDiscoveredGenes", "dbpedia_property_id": "http://dbpedia.org/ontology/discovered"},
+        {"column_header": "AdditionalPrevalenceData", "dbpedia_property_id": "http://dbpedia.org/ontology/population"},
+        {"column_header": "NovelMutationsTypes", "dbpedia_property_id": "http://dbpedia.org/ontology/novel"},
+        {"column_header": "MutationLocation2", "dbpedia_property_id": "http://dbpedia.org/ontology/geneLocation"},
+        {"column_header": "PopulationFrequency2", "dbpedia_property_id": "http://dbpedia.org/ontology/populationQuote"},
+        {"column_header": "TestMethod2", "dbpedia_property_id": "http://dbpedia.org/ontology/testaverage"},
+        {"column_header": "GeneticDisorder2", "dbpedia_property_id": "http://dbpedia.org/ontology/disease"},
+        {"column_header": "ChromosomeNumber2", "dbpedia_property_id": "http://dbpedia.org/ontology/onChromosome"},
+        {"column_header": "ChromosomeLocation2", "dbpedia_property_id": "http://dbpedia.org/ontology/chromosome"},
+        {"column_header": "Symptoms2", "dbpedia_property_id": "http://dbpedia.org/ontology/symptom"},
+        {"column_header": "ExpressionPattern2", "dbpedia_property_id": "http://dbpedia.org/ontology/value"},
+        {"column_header": "RecessiveAllelesNeeded2", "dbpedia_property_id": "http://dbpedia.org/ontology/variantOf"},
+        {"column_header": "InheritancePattern2", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+        {"column_header": "GeneDescription2", "dbpedia_property_id": "http://dbpedia.org/ontology/precursor"}
+    ]
+}

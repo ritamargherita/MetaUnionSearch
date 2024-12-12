@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Literature",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"
+    },
+    {
+      "column_header": "Cinematography",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cinematography"
+    },
+    {
+      "column_header": "Visual Arts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/painter"
+    },
+    {
+      "column_header": "Performing Arts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/performer"
+    },
+    {
+      "column_header": "Customary Rites",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/consecration"
+    },
+    {
+      "column_header": "Architecture",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": "National Holidays",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"
+    },
+    {
+      "column_header": "Sports and Recreation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sport"
+    },
+    {
+      "column_header": "Fashion Trends",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Cuisine Types",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"
+    },
+    {
+      "column_header": "Cultural Symbols",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/identificationSymbol"
+    }
+  ]
+}

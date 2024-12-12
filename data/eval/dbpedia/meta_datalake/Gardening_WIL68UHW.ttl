@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GardeningWIL68UHW> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_WIL68UHW.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GardeningWIL68UHW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GardeningWIL68UHW/column/AverageGrowRatePerYear> a dsv:Column ;
+    rdfs:label "AverageGrowRatePerYear" ;
+    dsv:columnProperty "average" .
+
+<http://metaUnionSearch/datasets/GardeningWIL68UHW/column/DateOrdered> a dsv:Column ;
+    rdfs:label "DateOrdered" ;
+    dsv:columnProperty "order date" .
+
+<http://metaUnionSearch/datasets/GardeningWIL68UHW/column/HardinessZone> a dsv:Column ;
+    rdfs:label "HardinessZone" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/GardeningWIL68UHW/column/PlantTypeCategorization> a dsv:Column ;
+    rdfs:label "PlantTypeCategorization" ;
+    dsv:columnProperty "category" .
+
+<http://metaUnionSearch/datasets/GardeningWIL68UHW/column/PruningToolRecommendation> a dsv:Column ;
+    rdfs:label "PruningToolRecommendation" ;
+    dsv:columnProperty "equipment" .
+
+<http://metaUnionSearch/datasets/GardeningWIL68UHW/column/Quantity> a dsv:Column ;
+    rdfs:label "Quantity" ;
+    dsv:columnProperty "value" .
+
+<http://metaUnionSearch/datasets/GardeningWIL68UHW/column/SoilPhCertification> a dsv:Column ;
+    rdfs:label "SoilPhCertification" ;
+    dsv:columnProperty "phylum" .
+
+<http://metaUnionSearch/datasets/GardeningWIL68UHW/column/SunExposure> a dsv:Column ;
+    rdfs:label "SunExposure" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/GardeningWIL68UHW/column/SupplierName> a dsv:Column ;
+    rdfs:label "Supplier Name" .
+
+<http://metaUnionSearch/datasets/GardeningWIL68UHW/column/WaterEfficiencyRating> a dsv:Column ;
+    rdfs:label "WaterEfficiencyRating" ;
+    dsv:columnProperty "water percentage of a place" .
+
+<http://metaUnionSearch/datasets/GardeningWIL68UHW/column/YieldPerAcreage> a dsv:Column ;
+    rdfs:label "YieldPerAcreage" ;
+    dsv:columnProperty "value" .
+
+<http://metaUnionSearch/datasets/GardeningWIL68UHW/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GardeningWIL68UHW/column/AverageGrowRatePerYear>,
+        <http://metaUnionSearch/datasets/GardeningWIL68UHW/column/DateOrdered>,
+        <http://metaUnionSearch/datasets/GardeningWIL68UHW/column/HardinessZone>,
+        <http://metaUnionSearch/datasets/GardeningWIL68UHW/column/PlantTypeCategorization>,
+        <http://metaUnionSearch/datasets/GardeningWIL68UHW/column/PruningToolRecommendation>,
+        <http://metaUnionSearch/datasets/GardeningWIL68UHW/column/Quantity>,
+        <http://metaUnionSearch/datasets/GardeningWIL68UHW/column/SoilPhCertification>,
+        <http://metaUnionSearch/datasets/GardeningWIL68UHW/column/SunExposure>,
+        <http://metaUnionSearch/datasets/GardeningWIL68UHW/column/SupplierName>,
+        <http://metaUnionSearch/datasets/GardeningWIL68UHW/column/WaterEfficiencyRating>,
+        <http://metaUnionSearch/datasets/GardeningWIL68UHW/column/YieldPerAcreage> .
+

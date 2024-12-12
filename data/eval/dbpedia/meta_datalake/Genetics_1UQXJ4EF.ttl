@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Genetics1UQXJ4EF> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_1UQXJ4EF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Genetics1UQXJ4EF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/AverageTurnaroundTimeinDays> a dsv:Column ;
+    rdfs:label "Average Turnaround Time (in Days)" ;
+    dsv:columnProperty "average" .
+
+<http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/ContactEmailAddresstoOrderTests> a dsv:Column ;
+    rdfs:label "Contact Email Address to Order Tests" ;
+    dsv:columnProperty "geneReviewsId" .
+
+<http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/EstimatedAnnualDiagnosisDemand> a dsv:Column ;
+    rdfs:label "Estimated Annual Diagnosis Demand" ;
+    dsv:columnProperty "Active Cases" .
+
+<http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/GeneFunctionDescriptionwithOntologyTerms> a dsv:Column ;
+    rdfs:label "Gene Function Description with Ontology Terms" ;
+    dsv:columnProperty "geneReviewsName" .
+
+<http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/GenesAssociatedwithDiseases> a dsv:Column ;
+    rdfs:label "Genes Associated with Diseases" ;
+    dsv:columnProperty "diseasesDb" .
+
+<http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/LocusReferenceGenomicsLRGID> a dsv:Column ;
+    rdfs:label "Locus Reference Genomics (LRG) ID" ;
+    dsv:columnProperty "locus supplementary data" .
+
+<http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/MostCommonEthnicityAffected> a dsv:Column ;
+    rdfs:label "Most Common Ethnicity Affected" ;
+    dsv:columnProperty "ethnicity" .
+
+<http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/NextGenerationSequencingPanelAvailability> a dsv:Column ;
+    rdfs:label "Next Generation Sequencing Panel Availability" ;
+    dsv:columnProperty "criteria" .
+
+<http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/OccupationalExposureRisk> a dsv:Column ;
+    rdfs:label "Occupational Exposure Risk" ;
+    dsv:columnProperty "occupation" .
+
+<http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/PricePerTestinUSD> a dsv:Column ;
+    rdfs:label "Price Per Test (in USD)" ;
+    dsv:columnProperty "unit cost ($)" .
+
+<http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/PriceforResearchUseOnlyinUSD> a dsv:Column ;
+    rdfs:label "Price for Research Use Only (in USD)" ;
+    dsv:columnProperty "price ($)" .
+
+<http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/ProteinStructureChange> a dsv:Column ;
+    rdfs:label "Protein Structure Change" ;
+    dsv:columnProperty "PDB ID" .
+
+<http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/RecommendedScreeningConditions> a dsv:Column ;
+    rdfs:label "Recommended Screening Conditions" ;
+    dsv:columnProperty "requirement" .
+
+<http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/RelatedClinicalTrialsInformationURL> a dsv:Column ;
+    rdfs:label "Related Clinical Trials Information URL" ;
+    dsv:columnProperty "drugs.com" .
+
+<http://metaUnionSearch/datasets/Genetics1UQXJ4EF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/AverageTurnaroundTimeinDays>,
+        <http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/ContactEmailAddresstoOrderTests>,
+        <http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/EstimatedAnnualDiagnosisDemand>,
+        <http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/GeneFunctionDescriptionwithOntologyTerms>,
+        <http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/GenesAssociatedwithDiseases>,
+        <http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/LocusReferenceGenomicsLRGID>,
+        <http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/MostCommonEthnicityAffected>,
+        <http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/NextGenerationSequencingPanelAvailability>,
+        <http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/OccupationalExposureRisk>,
+        <http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/PricePerTestinUSD>,
+        <http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/PriceforResearchUseOnlyinUSD>,
+        <http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/ProteinStructureChange>,
+        <http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/RecommendedScreeningConditions>,
+        <http://metaUnionSearch/datasets/Genetics1UQXJ4EF/column/RelatedClinicalTrialsInformationURL> .
+

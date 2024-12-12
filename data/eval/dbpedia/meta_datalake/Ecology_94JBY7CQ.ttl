@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Ecology94JBY7CQ> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_94JBY7CQ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Ecology94JBY7CQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/BiodiversityHotspots> a dsv:Column ;
+    rdfs:label "Biodiversity Hotspots" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/CarbonSequestrationRates> a dsv:Column ;
+    rdfs:label "Carbon Sequestration Rates" ;
+    dsv:columnProperty "CO2 emission (g/km)" .
+
+<http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/CollaborativePartnerships> a dsv:Column ;
+    rdfs:label "Collaborative Partnerships" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/ConservationProgramEffectiveness> a dsv:Column ;
+    rdfs:label "Conservation Program Effectiveness" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/EcologicalProcesses> a dsv:Column ;
+    rdfs:label "Ecological Processes" ;
+    dsv:columnProperty "bioclimate" .
+
+<http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/EcosystemServices> a dsv:Column ;
+    rdfs:label "Ecosystem Services" ;
+    dsv:columnProperty "service" .
+
+<http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/FundingResources> a dsv:Column ;
+    rdfs:label "Funding & Resources" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/HabitatRestorationProgress> a dsv:Column ;
+    rdfs:label "Habitat Restoration Progress" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/InvasiveSpeciesPresence> a dsv:Column ;
+    rdfs:label "Invasive Species Presence" ;
+    dsv:columnProperty "fauna" .
+
+<http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/LegislationPolicies> a dsv:Column ;
+    rdfs:label "Legislation & Policies" ;
+    dsv:columnProperty "legislature" .
+
+<http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/PollutionReductionMeasures> a dsv:Column ;
+    rdfs:label "Pollution Reduction Measures" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/PublicOutreachProgramsEducationInitiatives> a dsv:Column ;
+    rdfs:label "Public Outreach Programs & Education Initiatives" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/ThreatenedEndangeredSpeciesExistence> a dsv:Column ;
+    rdfs:label "Threatened/Endangered Species Existence" ;
+    dsv:columnProperty "endangered since" .
+
+<http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/WaterPurificationCapabilities> a dsv:Column ;
+    rdfs:label "Water Purification Capabilities" ;
+    dsv:columnProperty "water" .
+
+<http://metaUnionSearch/datasets/Ecology94JBY7CQ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/BiodiversityHotspots>,
+        <http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/CarbonSequestrationRates>,
+        <http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/CollaborativePartnerships>,
+        <http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/ConservationProgramEffectiveness>,
+        <http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/EcologicalProcesses>,
+        <http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/EcosystemServices>,
+        <http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/FundingResources>,
+        <http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/HabitatRestorationProgress>,
+        <http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/InvasiveSpeciesPresence>,
+        <http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/LegislationPolicies>,
+        <http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/PollutionReductionMeasures>,
+        <http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/PublicOutreachProgramsEducationInitiatives>,
+        <http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/ThreatenedEndangeredSpeciesExistence>,
+        <http://metaUnionSearch/datasets/Ecology94JBY7CQ/column/WaterPurificationCapabilities> .
+

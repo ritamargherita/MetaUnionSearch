@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_9UR73A70.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/AlternativeTherapyOptions> a dsv:Column ;
+    rdfs:label "Alternative Therapy Options" ;
+    dsv:columnProperty "treatment" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/AverageLifespan> a dsv:Column ;
+    rdfs:label "Average Lifespan" ;
+    dsv:columnProperty "life expectancy" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/CommonGeneticDisorders> a dsv:Column ;
+    rdfs:label "Common Genetic Disorders" ;
+    dsv:columnProperty "disease" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/DietaryRestrictions> a dsv:Column ;
+    rdfs:label "Dietary Restrictions" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/ExerciseRecommendations> a dsv:Column ;
+    rdfs:label "Exercise Recommendations" ;
+    dsv:columnProperty "athletics" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/FrequencyOfRegularVisits> a dsv:Column ;
+    rdfs:label "Frequency Of Regular Visits" ;
+    dsv:columnProperty "visitors per year" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/PhysicalCheckupHistory> a dsv:Column ;
+    rdfs:label "Physical Checkup History" ;
+    dsv:columnProperty "specialist" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/PreferredFoodBrandsbyAnimals> a dsv:Column ;
+    rdfs:label "Preferred Food Brands by Animals" ;
+    dsv:columnProperty "brand" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/PreventiveCareSchedule> a dsv:Column ;
+    rdfs:label "Preventive Care Schedule" ;
+    dsv:columnProperty "treatment" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/VaccinationRecord> a dsv:Column ;
+    rdfs:label "Vaccination Record" ;
+    dsv:columnProperty "vaccination" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/AlternativeTherapyOptions>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/AverageLifespan>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/CommonGeneticDisorders>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/DietaryRestrictions>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/ExerciseRecommendations>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/FrequencyOfRegularVisits>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/PhysicalCheckupHistory>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/PreferredFoodBrandsbyAnimals>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/PreventiveCareSchedule>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine9UR73A70/column/VaccinationRecord> .
+

@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhotographyJE7AK2WN> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_JE7AK2WN.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhotographyJE7AK2WN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/ApertureValue> a dsv:Column ;
+    rdfs:label "Aperture Value" ;
+    dsv:columnProperty "apparent magnitude" .
+
+<http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/CameraMake> a dsv:Column ;
+    rdfs:label "Camera Make" ;
+    dsv:columnProperty "photographer" .
+
+<http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/CameraModel> a dsv:Column ;
+    rdfs:label "Camera Model" ;
+    dsv:columnProperty "model" .
+
+<http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/DateTaken> a dsv:Column ;
+    rdfs:label "Date Taken" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/ExposureCompensation> a dsv:Column ;
+    rdfs:label "Exposure Compensation" ;
+    dsv:columnProperty "stat value" .
+
+<http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/FileName> a dsv:Column ;
+    rdfs:label "File Name" ;
+    dsv:columnProperty "filename" .
+
+<http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/FocalLength> a dsv:Column ;
+    rdfs:label "Focal Length" ;
+    dsv:columnProperty "length (μ)" .
+
+<http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/ISO> a dsv:Column ;
+    rdfs:label "ISO" ;
+    dsv:columnProperty "ISO region code" .
+
+<http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/PhotoDescription> a dsv:Column ;
+    rdfs:label "Photo Description" ;
+    dsv:columnProperty "picture description" .
+
+<http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/PhotoTitle> a dsv:Column ;
+    rdfs:label "Photo Title" ;
+    dsv:columnProperty "title" .
+
+<http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/ShutterSpeed> a dsv:Column ;
+    rdfs:label "Shutter Speed" ;
+    dsv:columnProperty "shoot" .
+
+<http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/Tags> a dsv:Column ;
+    rdfs:label "Tags" ;
+    dsv:columnProperty "tag" .
+
+<http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/ThumbnailPath> a dsv:Column ;
+    rdfs:label "Thumbnail Path" ;
+    dsv:columnProperty "thumbnail" .
+
+<http://metaUnionSearch/datasets/PhotographyJE7AK2WN/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/ApertureValue>,
+        <http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/CameraMake>,
+        <http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/CameraModel>,
+        <http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/DateTaken>,
+        <http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/ExposureCompensation>,
+        <http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/FileName>,
+        <http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/FocalLength>,
+        <http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/ISO>,
+        <http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/PhotoDescription>,
+        <http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/PhotoTitle>,
+        <http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/ShutterSpeed>,
+        <http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/Tags>,
+        <http://metaUnionSearch/datasets/PhotographyJE7AK2WN/column/ThumbnailPath> .
+

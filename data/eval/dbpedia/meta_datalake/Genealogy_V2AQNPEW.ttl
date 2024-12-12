@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GenealogyV2AQNPEW> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_V2AQNPEW.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GenealogyV2AQNPEW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/BiologicalFatherBirthDate> a dsv:Column ;
+    rdfs:label "BiologicalFatherBirthDate" ;
+    dsv:columnProperty "birth date" .
+
+<http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/BiologicalFatherPersonID> a dsv:Column ;
+    rdfs:label "BiologicalFatherPersonID" ;
+    dsv:columnProperty "parent" .
+
+<http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/BiologicalMotherBirthDate> a dsv:Column ;
+    rdfs:label "BiologicalMotherBirthDate" ;
+    dsv:columnProperty "birth date" .
+
+<http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/BiologicalMotherPersonID> a dsv:Column ;
+    rdfs:label "BiologicalMotherPersonID" ;
+    dsv:columnProperty "parent" .
+
+<http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/ChildAdoptionDetails> a dsv:Column ;
+    rdfs:label "ChildAdoptionDetails" ;
+    dsv:columnProperty "child" .
+
+<http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/ChildGivenName> a dsv:Column ;
+    rdfs:label "ChildGivenName" ;
+    dsv:columnProperty "name" .
+
+<http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/ChildMiddleName> a dsv:Column ;
+    rdfs:label "ChildMiddleName" ;
+    dsv:columnProperty "name" .
+
+<http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/ChildSSN> a dsv:Column ;
+    rdfs:label "ChildSSN" ;
+    dsv:columnProperty "person" .
+
+<http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/ChildSurname> a dsv:Column ;
+    rdfs:label "ChildSurname" ;
+    dsv:columnProperty "name" .
+
+<http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/DeathDate> a dsv:Column ;
+    rdfs:label "DeathDate" ;
+    dsv:columnProperty "death date" .
+
+<http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/MarriageDate> a dsv:Column ;
+    rdfs:label "MarriageDate" ;
+    dsv:columnProperty "Parents Wedding Date" .
+
+<http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/SpouseName> a dsv:Column ;
+    rdfs:label "SpouseName" ;
+    dsv:columnProperty "spouse name" .
+
+<http://metaUnionSearch/datasets/GenealogyV2AQNPEW/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/BiologicalFatherBirthDate>,
+        <http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/BiologicalFatherPersonID>,
+        <http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/BiologicalMotherBirthDate>,
+        <http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/BiologicalMotherPersonID>,
+        <http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/ChildAdoptionDetails>,
+        <http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/ChildGivenName>,
+        <http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/ChildMiddleName>,
+        <http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/ChildSSN>,
+        <http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/ChildSurname>,
+        <http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/DeathDate>,
+        <http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/MarriageDate>,
+        <http://metaUnionSearch/datasets/GenealogyV2AQNPEW/column/SpouseName> .
+

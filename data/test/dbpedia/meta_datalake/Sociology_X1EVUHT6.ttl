@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_X1EVUHT6.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SociologyX1EVUHT6/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/DataInterpretation> a dsv:Column ;
+    rdfs:label "DataInterpretation" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/DataQuality> a dsv:Column ;
+    rdfs:label "DataQuality" ;
+    dsv:columnProperty "is peer reviewed" .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/Dissemination> a dsv:Column ;
+    rdfs:label "Dissemination" ;
+    dsv:columnProperty "publication" .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/Hypothesis> a dsv:Column ;
+    rdfs:label "Hypothesis" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/InstitutionalReviewBoard> a dsv:Column ;
+    rdfs:label "InstitutionalReviewBoard" ;
+    dsv:columnProperty "institution" .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/ResearchBudget> a dsv:Column ;
+    rdfs:label "ResearchBudget" ;
+    dsv:columnProperty "project budget total ($)" .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/ResearchCollaboration> a dsv:Column ;
+    rdfs:label "ResearchCollaboration" ;
+    dsv:columnProperty "project participant" .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/ResearchFundingSources> a dsv:Column ;
+    rdfs:label "ResearchFundingSources" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/ResearchPermissions> a dsv:Column ;
+    rdfs:label "ResearchPermissions" ;
+    dsv:columnProperty "criteria" .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/ResearchQuestion> a dsv:Column ;
+    rdfs:label "ResearchQuestion" ;
+    dsv:columnProperty "topic" .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/ResearchRegulations> a dsv:Column ;
+    rdfs:label "ResearchRegulations" ;
+    dsv:columnProperty "authority" .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/ResearchSetting> a dsv:Column ;
+    rdfs:label "ResearchSetting" ;
+    dsv:columnProperty "purpose" .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/ResearchTimeline> a dsv:Column ;
+    rdfs:label "ResearchTimeline" ;
+    dsv:columnProperty "time" .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/StakeholderEngagement> a dsv:Column ;
+    rdfs:label "StakeholderEngagement" ;
+    dsv:columnProperty "project participant" .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/Variables> a dsv:Column ;
+    rdfs:label "Variables" ;
+    dsv:columnProperty "statistic" .
+
+<http://metaUnionSearch/datasets/SociologyX1EVUHT6/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/DataInterpretation>,
+        <http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/DataQuality>,
+        <http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/Dissemination>,
+        <http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/Hypothesis>,
+        <http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/InstitutionalReviewBoard>,
+        <http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/ResearchBudget>,
+        <http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/ResearchCollaboration>,
+        <http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/ResearchFundingSources>,
+        <http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/ResearchPermissions>,
+        <http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/ResearchQuestion>,
+        <http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/ResearchRegulations>,
+        <http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/ResearchSetting>,
+        <http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/ResearchTimeline>,
+        <http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/StakeholderEngagement>,
+        <http://metaUnionSearch/datasets/SociologyX1EVUHT6/column/Variables> .
+

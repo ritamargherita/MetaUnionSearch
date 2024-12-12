@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "ResearchSetting",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/purpose"
+    },
+    {
+      "column_header": "ResearchQuestion",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/topic"
+    },
+    {
+      "column_header": "Hypothesis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    },
+    {
+      "column_header": "Variables",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"
+    },
+    {
+      "column_header": "DataQuality",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/isPeerReviewed"
+    },
+    {
+      "column_header": "ResearchTimeline",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/time"
+    },
+    {
+      "column_header": "DataInterpretation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    },
+    {
+      "column_header": "StakeholderEngagement",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectParticipant"
+    },
+    {
+      "column_header": "ResearchCollaboration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectParticipant"
+    },
+    {
+      "column_header": "ResearchBudget",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectBudgetTotal"
+    },
+    {
+      "column_header": "Dissemination",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/publication"
+    },
+    {
+      "column_header": "InstitutionalReviewBoard",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/institution"
+    },
+    {
+      "column_header": "ResearchPermissions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/criteria"
+    },
+    {
+      "column_header": "ResearchRegulations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/authority"
+    },
+    {
+      "column_header": "ResearchFundingSources",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    }
+  ]
+}

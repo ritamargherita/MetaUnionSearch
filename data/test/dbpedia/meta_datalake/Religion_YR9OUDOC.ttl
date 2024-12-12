@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_YR9OUDOC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ReligionYR9OUDOC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/ArtAndArchitecture> a dsv:Column ;
+    rdfs:label "ArtAndArchitecture" ;
+    dsv:columnProperty "movement" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/Demographics> a dsv:Column ;
+    rdfs:label "Demographics" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/EnvironmentalViews> a dsv:Column ;
+    rdfs:label "EnvironmentalViews" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/EthnicityLinks> a dsv:Column ;
+    rdfs:label "EthnicityLinks" ;
+    dsv:columnProperty "ethnicity" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/GenderRoleInfluence> a dsv:Column ;
+    rdfs:label "GenderRoleInfluence" ;
+    dsv:columnProperty "gender" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/GeographicalDivisions> a dsv:Column ;
+    rdfs:label "GeographicalDivisions" ;
+    dsv:columnProperty "government region" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/HistoricalDevelopments> a dsv:Column ;
+    rdfs:label "HistoricalDevelopments" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/NumberOfFollowers> a dsv:Column ;
+    rdfs:label "NumberOfFollowers" ;
+    dsv:columnProperty "number" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/PoliticalAffiliations> a dsv:Column ;
+    rdfs:label "PoliticalAffiliations" ;
+    dsv:columnProperty "political function" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/RegionalSpread> a dsv:Column ;
+    rdfs:label "RegionalSpread" ;
+    dsv:columnProperty "region served" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/RelationshipToOtherBeliefSystems> a dsv:Column ;
+    rdfs:label "RelationshipToOtherBeliefSystems" ;
+    dsv:columnProperty "relation" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/ScientificCommunityInteractions> a dsv:Column ;
+    rdfs:label "ScientificCommunityInteractions" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/SocioeconomicStatus> a dsv:Column ;
+    rdfs:label "SocioeconomicStatus" ;
+    dsv:columnProperty "income" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/YoungPeopleImpact> a dsv:Column ;
+    rdfs:label "YoungPeopleImpact" ;
+    dsv:columnProperty "youth wing" .
+
+<http://metaUnionSearch/datasets/ReligionYR9OUDOC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/ArtAndArchitecture>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/Demographics>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/EnvironmentalViews>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/EthnicityLinks>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/GenderRoleInfluence>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/GeographicalDivisions>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/HistoricalDevelopments>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/NumberOfFollowers>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/PoliticalAffiliations>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/RegionalSpread>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/RelationshipToOtherBeliefSystems>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/ScientificCommunityInteractions>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/SocioeconomicStatus>,
+        <http://metaUnionSearch/datasets/ReligionYR9OUDOC/column/YoungPeopleImpact> .
+

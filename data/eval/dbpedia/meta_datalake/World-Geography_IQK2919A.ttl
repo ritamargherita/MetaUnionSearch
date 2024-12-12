@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeographyIQK2919A> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_IQK2919A.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeographyIQK2919A/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Areakm2> a dsv:Column ;
+    rdfs:label "Area (km2)" ;
+    dsv:columnProperty "area (m2)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Capital> a dsv:Column ;
+    rdfs:label "Capital" ;
+    dsv:columnProperty "capital" .
+
+<http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Climate> a dsv:Column ;
+    rdfs:label "_Climate_" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Continent> a dsv:Column ;
+    rdfs:label "Continent" ;
+    dsv:columnProperty "continent" .
+
+<http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Extras1> a dsv:Column ;
+    rdfs:label "Extras 1" ;
+    dsv:columnProperty "next entity" .
+
+<http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Extras2> a dsv:Column ;
+    rdfs:label "Extras 2" ;
+    dsv:columnProperty "next event" .
+
+<http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Latitude> a dsv:Column ;
+    rdfs:label "Latitude" ;
+    dsv:columnProperty "capital coordinates" .
+
+<http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Longitude> a dsv:Column ;
+    rdfs:label "Longitude" ;
+    dsv:columnProperty "capital coordinates" .
+
+<http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/NextTopic> a dsv:Column ;
+    rdfs:label "**Next Topic**" ;
+    dsv:columnProperty "topic" .
+
+<http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Population> a dsv:Column ;
+    rdfs:label "Population" ;
+    dsv:columnProperty "population" .
+
+<http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/PopulationDensity> a dsv:Column ;
+    rdfs:label "Population Density" ;
+    dsv:columnProperty "population density (/sqkm)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Terrain> a dsv:Column ;
+    rdfs:label "_Terrain_" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/WorldGeographyIQK2919A/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Areakm2>,
+        <http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Capital>,
+        <http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Climate>,
+        <http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Continent>,
+        <http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Extras1>,
+        <http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Extras2>,
+        <http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Latitude>,
+        <http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Longitude>,
+        <http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/NextTopic>,
+        <http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Population>,
+        <http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/PopulationDensity>,
+        <http://metaUnionSearch/datasets/WorldGeographyIQK2919A/column/Terrain> .
+

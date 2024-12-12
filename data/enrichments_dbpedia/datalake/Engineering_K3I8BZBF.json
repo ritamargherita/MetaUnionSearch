@@ -1,6 +1,6 @@
 {
   "mapping": [
-    {"column_header": ""Resources Utilization", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfResourceOfType"},
+    {"column_header": "Resources Utilization", "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfResourceOfType"},
     {"column_header": "Technical Complexity", "dbpedia_property_id": "http://dbpedia.org/ontology/complexity"},
     {"column_header": "Risk Assessment", "dbpedia_property_id": "http://dbpedia.org/ontology/security"},
     {"column_header": "Patents Filed", "dbpedia_property_id": "http://dbpedia.org/ontology/patent"},
@@ -11,6 +11,6 @@
     {"column_header": "Project Milestones", "dbpedia_property_id": "http://dbpedia.org/ontology/project"},
     {"column_header": "Certifications Earned", "dbpedia_property_id": "http://dbpedia.org/ontology/certification"},
     {"column_header": "Environmental Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"},
-    {"column_header": "Lessons Learned"", "dbpedia_property_id": "http://dbpedia.org/ontology/lessonsLearned"}
+    {"column_header": "Lessons Learned", "dbpedia_property_id": "http://dbpedia.org/ontology/lessonsLearned"}
   ]
 }

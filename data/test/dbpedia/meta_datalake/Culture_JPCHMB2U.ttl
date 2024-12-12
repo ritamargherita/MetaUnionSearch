@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CultureJPCHMB2U> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_JPCHMB2U.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CultureJPCHMB2U/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CultureJPCHMB2U/column/Cinema> a dsv:Column ;
+    rdfs:label "Cinema" ;
+    dsv:columnProperty "film" .
+
+<http://metaUnionSearch/datasets/CultureJPCHMB2U/column/CulturalValues> a dsv:Column ;
+    rdfs:label "Cultural Values" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/CultureJPCHMB2U/column/DressCode> a dsv:Column ;
+    rdfs:label "Dress Code" ;
+    dsv:columnProperty "dress code" .
+
+<http://metaUnionSearch/datasets/CultureJPCHMB2U/column/Festivals> a dsv:Column ;
+    rdfs:label "Festivals" ;
+    dsv:columnProperty "event" .
+
+<http://metaUnionSearch/datasets/CultureJPCHMB2U/column/IconicArchitecture> a dsv:Column ;
+    rdfs:label "Iconic Architecture" ;
+    dsv:columnProperty "architectural style" .
+
+<http://metaUnionSearch/datasets/CultureJPCHMB2U/column/Literature> a dsv:Column ;
+    rdfs:label "Literature" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/CultureJPCHMB2U/column/Music> a dsv:Column ;
+    rdfs:label "Music" ;
+    dsv:columnProperty "musicians" .
+
+<http://metaUnionSearch/datasets/CultureJPCHMB2U/column/PreferredCommunicationStyle> a dsv:Column ;
+    rdfs:label "Preferred Communication Style" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/CultureJPCHMB2U/column/Religion> a dsv:Column ;
+    rdfs:label "Religion" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/CultureJPCHMB2U/column/SocialCulture> a dsv:Column ;
+    rdfs:label "Social Culture" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/CultureJPCHMB2U/column/Sports> a dsv:Column ;
+    rdfs:label "Sports" ;
+    dsv:columnProperty "sport" .
+
+<http://metaUnionSearch/datasets/CultureJPCHMB2U/column/VisualArts> a dsv:Column ;
+    rdfs:label "Visual Arts" ;
+    dsv:columnProperty "artistic function" .
+
+<http://metaUnionSearch/datasets/CultureJPCHMB2U/column/WorkHours> a dsv:Column ;
+    rdfs:label "Work Hours" ;
+    dsv:columnProperty "work" .
+
+<http://metaUnionSearch/datasets/CultureJPCHMB2U/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CultureJPCHMB2U/column/Cinema>,
+        <http://metaUnionSearch/datasets/CultureJPCHMB2U/column/CulturalValues>,
+        <http://metaUnionSearch/datasets/CultureJPCHMB2U/column/DressCode>,
+        <http://metaUnionSearch/datasets/CultureJPCHMB2U/column/Festivals>,
+        <http://metaUnionSearch/datasets/CultureJPCHMB2U/column/IconicArchitecture>,
+        <http://metaUnionSearch/datasets/CultureJPCHMB2U/column/Literature>,
+        <http://metaUnionSearch/datasets/CultureJPCHMB2U/column/Music>,
+        <http://metaUnionSearch/datasets/CultureJPCHMB2U/column/PreferredCommunicationStyle>,
+        <http://metaUnionSearch/datasets/CultureJPCHMB2U/column/Religion>,
+        <http://metaUnionSearch/datasets/CultureJPCHMB2U/column/SocialCulture>,
+        <http://metaUnionSearch/datasets/CultureJPCHMB2U/column/Sports>,
+        <http://metaUnionSearch/datasets/CultureJPCHMB2U/column/VisualArts>,
+        <http://metaUnionSearch/datasets/CultureJPCHMB2U/column/WorkHours> .
+

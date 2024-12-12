@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Horticulture3CGD8LKB> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_3CGD8LKB.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Horticulture3CGD8LKB/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/AdditionalNotes> a dsv:Column ;
+    rdfs:label "AdditionalNotes" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/BloomingPeriod> a dsv:Column ;
+    rdfs:label "BloomingPeriod" ;
+    dsv:columnProperty "flower" .
+
+<http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/Cultivar> a dsv:Column ;
+    rdfs:label "Cultivar" ;
+    dsv:columnProperty "cultivar" .
+
+<http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/Family> a dsv:Column ;
+    rdfs:label "Family" ;
+    dsv:columnProperty "family" .
+
+<http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/FruitType> a dsv:Column ;
+    rdfs:label "FruitType" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/Genus> a dsv:Column ;
+    rdfs:label "Genus" ;
+    dsv:columnProperty "genus" .
+
+<http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/GrowthHabit> a dsv:Column ;
+    rdfs:label "GrowthHabit" ;
+    dsv:columnProperty "growing grape" .
+
+<http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/HardinessZone> a dsv:Column ;
+    rdfs:label "HardinessZone" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/Pollination> a dsv:Column ;
+    rdfs:label "Pollination" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/PropagationMethods> a dsv:Column ;
+    rdfs:label "PropagationMethods" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/Species> a dsv:Column ;
+    rdfs:label "Species" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/Horticulture3CGD8LKB/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/AdditionalNotes>,
+        <http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/BloomingPeriod>,
+        <http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/Cultivar>,
+        <http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/Family>,
+        <http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/FruitType>,
+        <http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/Genus>,
+        <http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/GrowthHabit>,
+        <http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/HardinessZone>,
+        <http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/Pollination>,
+        <http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/PropagationMethods>,
+        <http://metaUnionSearch/datasets/Horticulture3CGD8LKB/column/Species> .
+

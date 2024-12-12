@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronauticsK1DZCJD7> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_K1DZCJD7.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/AstronomerOnBoard> a dsv:Column ;
+    rdfs:label "Astronomer On Board" ;
+    dsv:columnProperty "crew member" .
+
+<http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/DawnofAstronomyMilestone> a dsv:Column ;
+    rdfs:label "Dawn of Astronomy Milestone" ;
+    dsv:columnProperty "epoch" .
+
+<http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/FirstStageReturn> a dsv:Column ;
+    rdfs:label "First Stage Return?" ;
+    dsv:columnProperty "first launch" .
+
+<http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/HubbleDiscoveriesKey> a dsv:Column ;
+    rdfs:label "Hubble Discoveries Key" ;
+    dsv:columnProperty "discoverer" .
+
+<http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/LaunchDate> a dsv:Column ;
+    rdfs:label "Launch Date" ;
+    dsv:columnProperty "launch date" .
+
+<http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/NASABudgetbillionsdollars> a dsv:Column ;
+    rdfs:label "NASA Budget (billions dollars)" ;
+    dsv:columnProperty "project budget total ($)" .
+
+<http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/NewHorizonsLaunchSite> a dsv:Column ;
+    rdfs:label "New Horizons Launch Site" ;
+    dsv:columnProperty "launch site" .
+
+<http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/OrbitAchieved> a dsv:Column ;
+    rdfs:label "Orbit Achieved" ;
+    dsv:columnProperty "orbits" .
+
+<http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/PayloadsDeployed> a dsv:Column ;
+    rdfs:label "Payloads Deployed" ;
+    dsv:columnProperty "satellites deployed" .
+
+<http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/Reusable> a dsv:Column ;
+    rdfs:label "Reusable?" ;
+    dsv:columnProperty "missions" .
+
+<http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/AstronomerOnBoard>,
+        <http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/DawnofAstronomyMilestone>,
+        <http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/FirstStageReturn>,
+        <http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/HubbleDiscoveriesKey>,
+        <http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/LaunchDate>,
+        <http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/NASABudgetbillionsdollars>,
+        <http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/NewHorizonsLaunchSite>,
+        <http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/OrbitAchieved>,
+        <http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/PayloadsDeployed>,
+        <http://metaUnionSearch/datasets/AstronauticsK1DZCJD7/column/Reusable> .
+

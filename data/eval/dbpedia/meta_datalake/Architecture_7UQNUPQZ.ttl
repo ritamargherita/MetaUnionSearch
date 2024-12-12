@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Architecture7UQNUPQZ> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_7UQNUPQZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Architecture7UQNUPQZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/AccreditationStatus> a dsv:Column ;
+    rdfs:label "Accreditation Status" ;
+    dsv:columnProperty "status" .
+
+<http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/CurriculumStructure> a dsv:Column ;
+    rdfs:label "Curriculum Structure" ;
+    dsv:columnProperty "classes" .
+
+<http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/DepartmentHead> a dsv:Column ;
+    rdfs:label "Department Head" ;
+    dsv:columnProperty "department" .
+
+<http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/FacultyQualifications> a dsv:Column ;
+    rdfs:label "Faculty Qualifications" ;
+    dsv:columnProperty "faculty size" .
+
+<http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/GraduateEmploymentRates> a dsv:Column ;
+    rdfs:label "Graduate Employment Rates" ;
+    dsv:columnProperty "employer" .
+
+<http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/Location> a dsv:Column ;
+    rdfs:label "Location" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/Period> a dsv:Column ;
+    rdfs:label "Period" ;
+    dsv:columnProperty "event period" .
+
+<http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/SchoolDescription> a dsv:Column ;
+    rdfs:label "School Description" ;
+    dsv:columnProperty "school" .
+
+<http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/StudentOpportunities> a dsv:Column ;
+    rdfs:label "Student Opportunities" ;
+    dsv:columnProperty "student" .
+
+<http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/Style> a dsv:Column ;
+    rdfs:label "Style" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/Architecture7UQNUPQZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/AccreditationStatus>,
+        <http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/CurriculumStructure>,
+        <http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/DepartmentHead>,
+        <http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/FacultyQualifications>,
+        <http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/GraduateEmploymentRates>,
+        <http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/Location>,
+        <http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/Period>,
+        <http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/SchoolDescription>,
+        <http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/StudentOpportunities>,
+        <http://metaUnionSearch/datasets/Architecture7UQNUPQZ/column/Style> .
+

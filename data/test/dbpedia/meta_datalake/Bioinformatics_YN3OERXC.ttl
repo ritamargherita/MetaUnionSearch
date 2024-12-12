@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BioinformaticsYN3OERXC> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_YN3OERXC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/AdditionalBioinformaticsAnnotations> a dsv:Column ;
+    rdfs:label "Additional Bioinformatics Annotations" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/CellularLocationPostTranslationalModifications> a dsv:Column ;
+    rdfs:label "Cellular Location (Post Translational Modifications)" ;
+    dsv:columnProperty "Gene Location" .
+
+<http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/ConfidenceScoreperHomology> a dsv:Column ;
+    rdfs:label "$ Confidence Score per Homology" ;
+    dsv:columnProperty "statistic label" .
+
+<http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/ConservationacrossSpecies> a dsv:Column ;
+    rdfs:label "Conservation across Species" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/DiseaseAssociatedwithThisGene> a dsv:Column ;
+    rdfs:label "Disease Associated with This Gene" ;
+    dsv:columnProperty "disease" .
+
+<http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/DomainsAffectedafterVariantsIdentified> a dsv:Column ;
+    rdfs:label "Domains Affected after Variants Identified" ;
+    dsv:columnProperty "domain" .
+
+<http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/ExpressionDatafromDifferentTissuesConditions> a dsv:Column ;
+    rdfs:label "[Expression Data from Different Tissues & Conditions]" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/PhylogeneticTreeDetails> a dsv:Column ;
+    rdfs:label "Phylogenetic Tree Details" ;
+    dsv:columnProperty "tree" .
+
+<http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/PrevalenceRate> a dsv:Column ;
+    rdfs:label "% Prevalence Rate" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/ProteinImpactedbyMutations> a dsv:Column ;
+    rdfs:label "Protein Impacted by Mutations" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/RegulatorySequencesPromoterEnhancer> a dsv:Column ;
+    rdfs:label "Regulatory Sequences (Promoter / Enhancer)" ;
+    dsv:columnProperty "Indicates an annotation associated with this document" .
+
+<http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/TranscriptionFactorBindingSitesPresent> a dsv:Column ;
+    rdfs:label "Transcription Factor Binding Sites Present" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/ofHomologousGenesFound> a dsv:Column ;
+    rdfs:label "# of Homologous Genes Found" ;
+    dsv:columnProperty "Orthologous Gene" .
+
+<http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/AdditionalBioinformaticsAnnotations>,
+        <http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/CellularLocationPostTranslationalModifications>,
+        <http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/ConfidenceScoreperHomology>,
+        <http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/ConservationacrossSpecies>,
+        <http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/DiseaseAssociatedwithThisGene>,
+        <http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/DomainsAffectedafterVariantsIdentified>,
+        <http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/ExpressionDatafromDifferentTissuesConditions>,
+        <http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/PhylogeneticTreeDetails>,
+        <http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/PrevalenceRate>,
+        <http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/ProteinImpactedbyMutations>,
+        <http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/RegulatorySequencesPromoterEnhancer>,
+        <http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/TranscriptionFactorBindingSitesPresent>,
+        <http://metaUnionSearch/datasets/BioinformaticsYN3OERXC/column/ofHomologousGenesFound> .
+

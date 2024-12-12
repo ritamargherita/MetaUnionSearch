@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EconomicsIQD4X9G7> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_IQD4X9G7.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EconomicsIQD4X9G7/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/GDP2> a dsv:Column ;
+    rdfs:label "GDP_2" ;
+    dsv:columnProperty "gross domestic product (GDP)" .
+
+<http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/billion2> a dsv:Column ;
+    rdfs:label "$ billion_2" ;
+    dsv:columnProperty "project budget total ($)" .
+
+<http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/countryname2> a dsv:Column ;
+    rdfs:label "country_name_2" ;
+    dsv:columnProperty "country" .
+
+<http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/datasource2> a dsv:Column ;
+    rdfs:label "data_source_2" ;
+    dsv:columnProperty "reference for general data" .
+
+<http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/industrycode2> a dsv:Column ;
+    rdfs:label "industry_code_2" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/inflationrate> a dsv:Column ;
+    rdfs:label "inflation_rate" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/interestrate> a dsv:Column ;
+    rdfs:label "interest_rate" ;
+    dsv:columnProperty "interest" .
+
+<http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/populationsize2> a dsv:Column ;
+    rdfs:label "population_size_2" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/sampledescription2> a dsv:Column ;
+    rdfs:label "sample_description_2" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/stateabbreviation2> a dsv:Column ;
+    rdfs:label "state_abbreviation_2" ;
+    dsv:columnProperty "abbreviation" .
+
+<http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/timeperiod> a dsv:Column ;
+    rdfs:label "time_period" ;
+    dsv:columnProperty "event period" .
+
+<http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/unemploymentrate> a dsv:Column ;
+    rdfs:label "unemployment_rate" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/variabletype> a dsv:Column ;
+    rdfs:label "variable_type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/EconomicsIQD4X9G7/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/GDP2>,
+        <http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/billion2>,
+        <http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/countryname2>,
+        <http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/datasource2>,
+        <http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/industrycode2>,
+        <http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/inflationrate>,
+        <http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/interestrate>,
+        <http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/populationsize2>,
+        <http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/sampledescription2>,
+        <http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/stateabbreviation2>,
+        <http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/timeperiod>,
+        <http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/unemploymentrate>,
+        <http://metaUnionSearch/datasets/EconomicsIQD4X9G7/column/variabletype> .
+

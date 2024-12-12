@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArts760JGL4C> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_760JGL4C.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArts760JGL4C/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/AudienceEngagementScoreoutoftotalscore> a dsv:Column ;
+    rdfs:label "Audience Engagement Score (out of total score)" ;
+    dsv:columnProperty "share of audience" .
+
+<http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/Collaborationsnameallmajorcollaborators> a dsv:Column ;
+    rdfs:label "Collaborations (name all major collaborators)" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/CriticalReceptionRating5starsbasedoncriticreviews> a dsv:Column ;
+    rdfs:label "Critical Reception Rating (*/5 stars based on critic reviews)" ;
+    dsv:columnProperty "star rating" .
+
+<http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/DateTime> a dsv:Column ;
+    rdfs:label "Date & Time" ;
+    dsv:columnProperty "start date and time" .
+
+<http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/DebutPerformanceifapplicable> a dsv:Column ;
+    rdfs:label "Debut Performance, if applicable" ;
+    dsv:columnProperty "debut" .
+
+<http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/Genre> a dsv:Column ;
+    rdfs:label "Genre" ;
+    dsv:columnProperty "genre" .
+
+<http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/PerformanceType> a dsv:Column ;
+    rdfs:label "Performance Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/PlaceofBirth> a dsv:Column ;
+    rdfs:label "Place of Birth" ;
+    dsv:columnProperty "birth place" .
+
+<http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/StillActive> a dsv:Column ;
+    rdfs:label "Still Active?" ;
+    dsv:columnProperty "current status" .
+
+<http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/TicketSalesRevenueinUSDmillions> a dsv:Column ;
+    rdfs:label "Ticket Sales Revenue (in USD millions)" ;
+    dsv:columnProperty "revenue ($)" .
+
+<http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/TotalNumberOfShowsifavailable> a dsv:Column ;
+    rdfs:label "Total Number Of Shows, if available" ;
+    dsv:columnProperty "number of episodes" .
+
+<http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/VenueAddress> a dsv:Column ;
+    rdfs:label "Venue Address" ;
+    dsv:columnProperty "Stadium" .
+
+<http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/YearofLastPerformance> a dsv:Column ;
+    rdfs:label "Year of Last Performance" ;
+    dsv:columnProperty "year" .
+
+<http://metaUnionSearch/datasets/PerformingArts760JGL4C/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/AudienceEngagementScoreoutoftotalscore>,
+        <http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/Collaborationsnameallmajorcollaborators>,
+        <http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/CriticalReceptionRating5starsbasedoncriticreviews>,
+        <http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/DateTime>,
+        <http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/DebutPerformanceifapplicable>,
+        <http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/Genre>,
+        <http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/PerformanceType>,
+        <http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/PlaceofBirth>,
+        <http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/StillActive>,
+        <http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/TicketSalesRevenueinUSDmillions>,
+        <http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/TotalNumberOfShowsifavailable>,
+        <http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/VenueAddress>,
+        <http://metaUnionSearch/datasets/PerformingArts760JGL4C/column/YearofLastPerformance> .
+

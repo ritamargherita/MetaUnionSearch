@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SportsPTHLXJ6Y> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_PTHLXJ6Y.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SportsPTHLXJ6Y/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/AverageAttendance> a dsv:Column ;
+    rdfs:label "Average Attendance%" ;
+    dsv:columnProperty "number of people attending" .
+
+<http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/CoachNames> a dsv:Column ;
+    rdfs:label "Coach Names" ;
+    dsv:columnProperty "coach" .
+
+<http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/ConcessionStandsIncome> a dsv:Column ;
+    rdfs:label "Concession Stands Income" ;
+    dsv:columnProperty "income" .
+
+<http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/FoodRevenue> a dsv:Column ;
+    rdfs:label "Food Revenue" ;
+    dsv:columnProperty "revenue ($)" .
+
+<http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/MerchandiseRevenue> a dsv:Column ;
+    rdfs:label "Merchandise Revenue" ;
+    dsv:columnProperty "revenue ($)" .
+
+<http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/NumberofInternationalPlayers> a dsv:Column ;
+    rdfs:label "Number of International Players" ;
+    dsv:columnProperty "number of players" .
+
+<http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/SeasonEndDate> a dsv:Column ;
+    rdfs:label "Season End Date" ;
+    dsv:columnProperty "end year" .
+
+<http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/SeasonStartDate> a dsv:Column ;
+    rdfs:label "Season Start Date" ;
+    dsv:columnProperty "start year" .
+
+<http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/SponsorsLogos> a dsv:Column ;
+    rdfs:label "Sponsors Logos" ;
+    dsv:columnProperty "logo" .
+
+<http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/StadiumCapacity> a dsv:Column ;
+    rdfs:label "Stadium Capacity" ;
+    dsv:columnProperty "capacity" .
+
+<http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/TeamNames> a dsv:Column ;
+    rdfs:label "Team Names" ;
+    dsv:columnProperty "team name" .
+
+<http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/TicketSalesRevenue> a dsv:Column ;
+    rdfs:label "Ticket Sales Revenue" ;
+    dsv:columnProperty "revenue ($)" .
+
+<http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/TotalMatchesPlayed> a dsv:Column ;
+    rdfs:label "Total Matches Played" ;
+    dsv:columnProperty "number of matches or caps" .
+
+<http://metaUnionSearch/datasets/SportsPTHLXJ6Y/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/AverageAttendance>,
+        <http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/CoachNames>,
+        <http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/ConcessionStandsIncome>,
+        <http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/FoodRevenue>,
+        <http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/MerchandiseRevenue>,
+        <http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/NumberofInternationalPlayers>,
+        <http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/SeasonEndDate>,
+        <http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/SeasonStartDate>,
+        <http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/SponsorsLogos>,
+        <http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/StadiumCapacity>,
+        <http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/TeamNames>,
+        <http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/TicketSalesRevenue>,
+        <http://metaUnionSearch/datasets/SportsPTHLXJ6Y/column/TotalMatchesPlayed> .
+

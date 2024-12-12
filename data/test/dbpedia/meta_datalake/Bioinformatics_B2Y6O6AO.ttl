@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_B2Y6O6AO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/PosttranslationalModificationSites> a dsv:Column ;
+    rdfs:label "Post-translational Modification Sites" ;
+    dsv:columnProperty "other function" .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinDisorderPrediction> a dsv:Column ;
+    rdfs:label "Protein Disorder Prediction" ;
+    dsv:columnProperty "other function" .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinDomainAnalysis> a dsv:Column ;
+    rdfs:label "Protein Domain Analysis" ;
+    dsv:columnProperty "domain" .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinEvolutionaryAnalysis> a dsv:Column ;
+    rdfs:label "Protein Evolutionary Analysis" ;
+    dsv:columnProperty "clade" .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinFamilyClassification> a dsv:Column ;
+    rdfs:label "Protein Family Classification" ;
+    dsv:columnProperty "sub-family" .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinFunctionPrediction> a dsv:Column ;
+    rdfs:label "Protein Function Prediction" ;
+    dsv:columnProperty "other function" .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinLigandInteractions> a dsv:Column ;
+    rdfs:label "Protein-Ligand Interactions" ;
+    dsv:columnProperty "other function" .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinProteinInteractions> a dsv:Column ;
+    rdfs:label "Protein-Protein Interactions" ;
+    dsv:columnProperty "other function" .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinSequenceAlignment> a dsv:Column ;
+    rdfs:label "Protein Sequence Alignment" ;
+    dsv:columnProperty "PDB ID" .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinStructures> a dsv:Column ;
+    rdfs:label "Protein Structures" ;
+    dsv:columnProperty "PDB ID" .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinSubcellularLocalization> a dsv:Column ;
+    rdfs:label "Protein Subcellular Localization" ;
+    dsv:columnProperty "is part of anatomical structure" .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinThreedimensionalStructureAlignment> a dsv:Column ;
+    rdfs:label "Protein Three-dimensional Structure Alignment" ;
+    dsv:columnProperty "PDB ID" .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/SecondaryStructurePrediction> a dsv:Column ;
+    rdfs:label "Secondary Structure Prediction" ;
+    dsv:columnProperty "model" .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/SequenceMotifs> a dsv:Column ;
+    rdfs:label "Sequence Motifs" ;
+    dsv:columnProperty "domain" .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/TertiaryStructurePrediction> a dsv:Column ;
+    rdfs:label "Tertiary Structure Prediction" ;
+    dsv:columnProperty "model" .
+
+<http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/PosttranslationalModificationSites>,
+        <http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinDisorderPrediction>,
+        <http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinDomainAnalysis>,
+        <http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinEvolutionaryAnalysis>,
+        <http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinFamilyClassification>,
+        <http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinFunctionPrediction>,
+        <http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinLigandInteractions>,
+        <http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinProteinInteractions>,
+        <http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinSequenceAlignment>,
+        <http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinStructures>,
+        <http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinSubcellularLocalization>,
+        <http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/ProteinThreedimensionalStructureAlignment>,
+        <http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/SecondaryStructurePrediction>,
+        <http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/SequenceMotifs>,
+        <http://metaUnionSearch/datasets/BioinformaticsB2Y6O6AO/column/TertiaryStructurePrediction> .
+

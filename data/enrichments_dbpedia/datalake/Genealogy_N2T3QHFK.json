@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {
+      "column_header": "AncestralHomeCountry",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/number"
+    },
+    {
+      "column_header": " NumberofOffspring",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfMembersAsOf"
+    },
+    {
+      "column_header": "",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/note"
+    }
+  ]
+}

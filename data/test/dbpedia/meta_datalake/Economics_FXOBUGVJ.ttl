@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EconomicsFXOBUGVJ> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_FXOBUGVJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/Ginicoefficient> a dsv:Column ;
+    rdfs:label "Gini coefficient" ;
+    dsv:columnProperty "gini coefficient" .
+
+<http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/businessconfidenceindexscore> a dsv:Column ;
+    rdfs:label "business confidence index score" .
+
+<http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/consumerpriceindex> a dsv:Column ;
+    rdfs:label "consumer price index" ;
+    dsv:columnProperty "gross domestic product (GDP)" .
+
+<http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/economicindicator> a dsv:Column ;
+    rdfs:label "economicindicator" ;
+    dsv:columnProperty "income" .
+
+<http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/exchangeratevsUSDindex> a dsv:Column ;
+    rdfs:label "exchange rate vs USD index" ;
+    dsv:columnProperty "currency" .
+
+<http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/fiscalyear> a dsv:Column ;
+    rdfs:label "fiscalyear" ;
+    dsv:columnProperty "statistic year" .
+
+<http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/globalmarketsharepercentage> a dsv:Column ;
+    rdfs:label "globalmarketshare percentage" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/inflationrate> a dsv:Column ;
+    rdfs:label "inflation rate" ;
+    dsv:columnProperty "interest" .
+
+<http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/interestratetreasury6month> a dsv:Column ;
+    rdfs:label "interest rate (treasury 6 month)" ;
+    dsv:columnProperty "interest" .
+
+<http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/privatedebtpercapita> a dsv:Column ;
+    rdfs:label "private debt per capita ($)" ;
+    dsv:columnProperty "gross domestic product per people" .
+
+<http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/publicdebtofGDP> a dsv:Column ;
+    rdfs:label "public debt (% of GDP)" ;
+    dsv:columnProperty "per capita income ($)" .
+
+<http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/retailsalesbillionquarterly> a dsv:Column ;
+    rdfs:label "retail sales ($ billion, quarterly)" ;
+    dsv:columnProperty "revenue ($)" .
+
+<http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/tradebalancebillion> a dsv:Column ;
+    rdfs:label "trade balance ($ billion)" ;
+    dsv:columnProperty "revenue ($)" .
+
+<http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/unemploymentrate> a dsv:Column ;
+    rdfs:label "unemployment rate" ;
+    dsv:columnProperty "stat value" .
+
+<http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/Ginicoefficient>,
+        <http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/businessconfidenceindexscore>,
+        <http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/consumerpriceindex>,
+        <http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/economicindicator>,
+        <http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/exchangeratevsUSDindex>,
+        <http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/fiscalyear>,
+        <http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/globalmarketsharepercentage>,
+        <http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/inflationrate>,
+        <http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/interestratetreasury6month>,
+        <http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/privatedebtpercapita>,
+        <http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/publicdebtofGDP>,
+        <http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/retailsalesbillionquarterly>,
+        <http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/tradebalancebillion>,
+        <http://metaUnionSearch/datasets/EconomicsFXOBUGVJ/column/unemploymentrate> .
+

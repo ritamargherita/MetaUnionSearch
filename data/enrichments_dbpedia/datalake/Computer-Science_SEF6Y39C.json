@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Artificial Intelligence", "dbpedia_property_id": "http://dbpedia.org/ontology/skills"},
+    {"column_header": "Distributed Systems", "dbpedia_property_id": "http://dbpedia.org/ontology/network"},
+    {"column_header": "Computer Graphics", "dbpedia_property_id": "http://dbpedia.org/ontology/media"},
+    {"column_header": "Software Engineering", "dbpedia_property_id": "http://dbpedia.org/ontology/engineer"},
+    {"column_header": "Human-computer Interaction", "dbpedia_property_id": "http://dbpedia.org/ontology/interaction"},
+    {"column_header": "Compilers", "dbpedia_property_id": "http://dbpedia.org/ontology/compiler"},
+    {"column_header": "Embedded Systems", "dbpedia_property_id": "http://dbpedia.org/ontology/computingPlatform"},
+    {"column_header": "Information Security", "dbpedia_property_id": "http://dbpedia.org/ontology/security"},
+    {"column_header": "Web Technologies", "dbpedia_property_id": "http://dbpedia.org/ontology/programmingLanguage"},
+    {"column_header": "Mathematical Logic", "dbpedia_property_id": "http://dbpedia.org/ontology/calculationNeeds"},
+    {"column_header": "Computation Theory", "dbpedia_property_id": "http://dbpedia.org/ontology/computingInput"},
+    {"column_header": "Multimedia Processing", "dbpedia_property_id": "http://dbpedia.org/ontology/computingMedia"},
+    {"column_header": "Natural Language Processing", "dbpedia_property_id": "http://dbpedia.org/ontology/programmingLanguage"}
+  ]
+}

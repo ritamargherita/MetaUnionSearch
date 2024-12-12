@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Photography3FG6IZED> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_3FG6IZED.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Photography3FG6IZED/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Photography3FG6IZED/column/AdditionalCommentsfromJudges> a dsv:Column ;
+    rdfs:label "Additional Comments from Judges" ;
+    dsv:columnProperty "comment" .
+
+<http://metaUnionSearch/datasets/Photography3FG6IZED/column/AestheticAppealRating5> a dsv:Column ;
+    rdfs:label "Aesthetic Appeal Rating/5" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/Photography3FG6IZED/column/BestTimetoVisit> a dsv:Column ;
+    rdfs:label "Best Time to Visit" ;
+    dsv:columnProperty "other information of a settlement" .
+
+<http://metaUnionSearch/datasets/Photography3FG6IZED/column/Latitude> a dsv:Column ;
+    rdfs:label "Latitude" ;
+    dsv:columnProperty "located in area" .
+
+<http://metaUnionSearch/datasets/Photography3FG6IZED/column/LegalStatusorCopyrightInformation> a dsv:Column ;
+    rdfs:label "Legal Status or Copyright Information" ;
+    dsv:columnProperty "license" .
+
+<http://metaUnionSearch/datasets/Photography3FG6IZED/column/Location> a dsv:Column ;
+    rdfs:label "Location" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/Photography3FG6IZED/column/Longitude> a dsv:Column ;
+    rdfs:label "Longitude" ;
+    dsv:columnProperty "located in area" .
+
+<http://metaUnionSearch/datasets/Photography3FG6IZED/column/NumberofTimesFeaturedinMagazines> a dsv:Column ;
+    rdfs:label "Number of Times Featured in Magazines" ;
+    dsv:columnProperty "frequency of publication" .
+
+<http://metaUnionSearch/datasets/Photography3FG6IZED/column/PhotoID> a dsv:Column ;
+    rdfs:label "Photo ID" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/Photography3FG6IZED/column/PhotographerName> a dsv:Column ;
+    rdfs:label "Photographer Name" ;
+    dsv:columnProperty "photographer" .
+
+<http://metaUnionSearch/datasets/Photography3FG6IZED/column/PublicationsLogos> a dsv:Column ;
+    rdfs:label "Publications Logos" ;
+    dsv:columnProperty "logo" .
+
+<http://metaUnionSearch/datasets/Photography3FG6IZED/column/TotalPointsEarnedforThisPicture> a dsv:Column ;
+    rdfs:label "Total Points Earned for This Picture" ;
+    dsv:columnProperty "score" .
+
+<http://metaUnionSearch/datasets/Photography3FG6IZED/column/TypeofLens> a dsv:Column ;
+    rdfs:label "Type of Lens" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/Photography3FG6IZED/column/WeatherConditions> a dsv:Column ;
+    rdfs:label "Weather Conditions" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/Photography3FG6IZED/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Photography3FG6IZED/column/AdditionalCommentsfromJudges>,
+        <http://metaUnionSearch/datasets/Photography3FG6IZED/column/AestheticAppealRating5>,
+        <http://metaUnionSearch/datasets/Photography3FG6IZED/column/BestTimetoVisit>,
+        <http://metaUnionSearch/datasets/Photography3FG6IZED/column/Latitude>,
+        <http://metaUnionSearch/datasets/Photography3FG6IZED/column/LegalStatusorCopyrightInformation>,
+        <http://metaUnionSearch/datasets/Photography3FG6IZED/column/Location>,
+        <http://metaUnionSearch/datasets/Photography3FG6IZED/column/Longitude>,
+        <http://metaUnionSearch/datasets/Photography3FG6IZED/column/NumberofTimesFeaturedinMagazines>,
+        <http://metaUnionSearch/datasets/Photography3FG6IZED/column/PhotoID>,
+        <http://metaUnionSearch/datasets/Photography3FG6IZED/column/PhotographerName>,
+        <http://metaUnionSearch/datasets/Photography3FG6IZED/column/PublicationsLogos>,
+        <http://metaUnionSearch/datasets/Photography3FG6IZED/column/TotalPointsEarnedforThisPicture>,
+        <http://metaUnionSearch/datasets/Photography3FG6IZED/column/TypeofLens>,
+        <http://metaUnionSearch/datasets/Photography3FG6IZED/column/WeatherConditions> .
+

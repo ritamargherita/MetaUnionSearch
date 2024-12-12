@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MedicineS2YU7CG8> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_S2YU7CG8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MedicineS2YU7CG8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/AdditionalEquipmentRequired> a dsv:Column ;
+    rdfs:label "Additional Equipment Required" ;
+    dsv:columnProperty "equipment" .
+
+<http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/AlternativeTreatmentsExplored> a dsv:Column ;
+    rdfs:label "Alternative Treatments Explored" ;
+    dsv:columnProperty "treatment" .
+
+<http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/FollowupAppointmentsScheduled> a dsv:Column ;
+    rdfs:label "Follow-up Appointments Scheduled" ;
+    dsv:columnProperty "following event" .
+
+<http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/NewTherapyRecommended> a dsv:Column ;
+    rdfs:label "New Therapy Recommended" ;
+    dsv:columnProperty "treatment" .
+
+<http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/PatientComfortLevel> a dsv:Column ;
+    rdfs:label "Patient Comfort Level" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/PhysicalExaminationResults> a dsv:Column ;
+    rdfs:label "Physical Examination Results" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/SeparationTechniques> a dsv:Column ;
+    rdfs:label " Separation Techniques" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/SpecialistReferralNecessity> a dsv:Column ;
+    rdfs:label "Specialist Referral Necessity" ;
+    dsv:columnProperty "specialist" .
+
+<http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/SymptomReliefScore> a dsv:Column ;
+    rdfs:label "Symptom Relief Score" ;
+    dsv:columnProperty "relief" .
+
+<http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/TestOrderDetails> a dsv:Column ;
+    rdfs:label "Test Order Details" ;
+    dsv:columnProperty "order (taxonomy)" .
+
+<http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/TestResults> a dsv:Column ;
+    rdfs:label "Test Results" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/TreatmentStartDate> a dsv:Column ;
+    rdfs:label "Treatment Start Date" ;
+    dsv:columnProperty "service start date" .
+
+<http://metaUnionSearch/datasets/MedicineS2YU7CG8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/AdditionalEquipmentRequired>,
+        <http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/AlternativeTreatmentsExplored>,
+        <http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/FollowupAppointmentsScheduled>,
+        <http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/NewTherapyRecommended>,
+        <http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/PatientComfortLevel>,
+        <http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/PhysicalExaminationResults>,
+        <http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/SeparationTechniques>,
+        <http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/SpecialistReferralNecessity>,
+        <http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/SymptomReliefScore>,
+        <http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/TestOrderDetails>,
+        <http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/TestResults>,
+        <http://metaUnionSearch/datasets/MedicineS2YU7CG8/column/TreatmentStartDate> .
+

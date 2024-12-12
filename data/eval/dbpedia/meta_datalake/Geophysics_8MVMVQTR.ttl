@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geophysics8MVMVQTR> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_8MVMVQTR.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geophysics8MVMVQTR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/AmbientNoiseLevels> a dsv:Column ;
+    rdfs:label "Ambient Noise Levels" ;
+    dsv:columnProperty "sound recording" .
+
+<http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/AttenuationFactors> a dsv:Column ;
+    rdfs:label "Attenuation Factors" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/CoreMantleBoundaryFeatures> a dsv:Column ;
+    rdfs:label "Core-Mantle Boundary Features" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/CrustalFluidFlow> a dsv:Column ;
+    rdfs:label "Crustal Fluid Flow" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/IntraplateSeismicity> a dsv:Column ;
+    rdfs:label "Intraplate Seismicity" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/LaboratoryRockPhysicsExperiments> a dsv:Column ;
+    rdfs:label "Laboratory Rock Physics Experiments" ;
+    dsv:columnProperty "kind of rock" .
+
+<http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/LithosphericFlexure> a dsv:Column ;
+    rdfs:label "Lithospheric Flexure" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/MantleTransitionZoneStructure> a dsv:Column ;
+    rdfs:label "Mantle Transition Zone Structure" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/MicroseismicityandStressField> a dsv:Column ;
+    rdfs:label "Microseismicity and Stress Field" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/UpperMantleShearWaveSplitting> a dsv:Column ;
+    rdfs:label "Upper Mantle Shear Wave Splitting" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geophysics8MVMVQTR/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/AmbientNoiseLevels>,
+        <http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/AttenuationFactors>,
+        <http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/CoreMantleBoundaryFeatures>,
+        <http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/CrustalFluidFlow>,
+        <http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/IntraplateSeismicity>,
+        <http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/LaboratoryRockPhysicsExperiments>,
+        <http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/LithosphericFlexure>,
+        <http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/MantleTransitionZoneStructure>,
+        <http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/MicroseismicityandStressField>,
+        <http://metaUnionSearch/datasets/Geophysics8MVMVQTR/column/UpperMantleShearWaveSplitting> .
+

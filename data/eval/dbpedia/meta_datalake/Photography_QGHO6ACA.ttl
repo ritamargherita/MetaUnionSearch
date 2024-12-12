@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhotographyQGHO6ACA> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_QGHO6ACA.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhotographyQGHO6ACA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/ColorCorrectionApplied> a dsv:Column ;
+    rdfs:label "Color Correction Applied" ;
+    dsv:columnProperty "editing" .
+
+<http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/EquipmentCondition> a dsv:Column ;
+    rdfs:label "Equipment Condition" ;
+    dsv:columnProperty "equipment" .
+
+<http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/FinalImageFormat> a dsv:Column ;
+    rdfs:label "Final Image Format." ;
+    dsv:columnProperty "picture format" .
+
+<http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/FlashStatus> a dsv:Column ;
+    rdfs:label "Flash Status" ;
+    dsv:columnProperty "status" .
+
+<http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/ImageOrientation> a dsv:Column ;
+    rdfs:label "Image Orientation" ;
+    dsv:columnProperty "orientation" .
+
+<http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/LensesUsed> a dsv:Column ;
+    rdfs:label "Lenses Used" ;
+    dsv:columnProperty "equipment" .
+
+<http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/NoiseReductionApplied> a dsv:Column ;
+    rdfs:label "Noise Reduction Applied" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/PhotoID> a dsv:Column ;
+    rdfs:label "Photo ID" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/PhotoShootType> a dsv:Column ;
+    rdfs:label "Photo Shoot Type" ;
+    dsv:columnProperty "shoot" .
+
+<http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/PhotographerName> a dsv:Column ;
+    rdfs:label "Photographer Name" ;
+    dsv:columnProperty "photographer" .
+
+<http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/PostProcessingSoftware> a dsv:Column ;
+    rdfs:label "Post Processing Software" ;
+    dsv:columnProperty "computing platform" .
+
+<http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/PrintSize> a dsv:Column ;
+    rdfs:label "Print Size" ;
+    dsv:columnProperty "size logo" .
+
+<http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/ShootLocation> a dsv:Column ;
+    rdfs:label "Shoot Location" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/TimeSpentShooting> a dsv:Column ;
+    rdfs:label "Time Spent Shooting" ;
+    dsv:columnProperty "time" .
+
+<http://metaUnionSearch/datasets/PhotographyQGHO6ACA/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/ColorCorrectionApplied>,
+        <http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/EquipmentCondition>,
+        <http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/FinalImageFormat>,
+        <http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/FlashStatus>,
+        <http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/ImageOrientation>,
+        <http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/LensesUsed>,
+        <http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/NoiseReductionApplied>,
+        <http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/PhotoID>,
+        <http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/PhotoShootType>,
+        <http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/PhotographerName>,
+        <http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/PostProcessingSoftware>,
+        <http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/PrintSize>,
+        <http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/ShootLocation>,
+        <http://metaUnionSearch/datasets/PhotographyQGHO6ACA/column/TimeSpentShooting> .
+

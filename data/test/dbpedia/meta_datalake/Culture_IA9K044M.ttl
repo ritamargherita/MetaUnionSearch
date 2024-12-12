@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CultureIA9K044M> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_IA9K044M.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CultureIA9K044M/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CultureIA9K044M/column/Architecture> a dsv:Column ;
+    rdfs:label "Architecture" ;
+    dsv:columnProperty "architectural style" .
+
+<http://metaUnionSearch/datasets/CultureIA9K044M/column/Cuisine> a dsv:Column ;
+    rdfs:label "Cuisine" ;
+    dsv:columnProperty "cuisine" .
+
+<http://metaUnionSearch/datasets/CultureIA9K044M/column/CustomaryRitualsCeremonies> a dsv:Column ;
+    rdfs:label "Customary Rituals & Ceremonies" ;
+    dsv:columnProperty "feast day, holiday" .
+
+<http://metaUnionSearch/datasets/CultureIA9K044M/column/DanceStyles> a dsv:Column ;
+    rdfs:label "Dance Styles" ;
+    dsv:columnProperty "choreographer" .
+
+<http://metaUnionSearch/datasets/CultureIA9K044M/column/HeritageSites> a dsv:Column ;
+    rdfs:label "*Heritage Sites*" ;
+    dsv:columnProperty "heritage register" .
+
+<http://metaUnionSearch/datasets/CultureIA9K044M/column/Literature> a dsv:Column ;
+    rdfs:label "Literature" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/CultureIA9K044M/column/NationalHolidays> a dsv:Column ;
+    rdfs:label "National Holidays" ;
+    dsv:columnProperty "feast day, holiday" .
+
+<http://metaUnionSearch/datasets/CultureIA9K044M/column/Poetry> a dsv:Column ;
+    rdfs:label "Poetry" ;
+    dsv:columnProperty "novel" .
+
+<http://metaUnionSearch/datasets/CultureIA9K044M/column/PopularPastimes> a dsv:Column ;
+    rdfs:label "Popular Pastimes" ;
+    dsv:columnProperty "other activity" .
+
+<http://metaUnionSearch/datasets/CultureIA9K044M/column/SportsandGames> a dsv:Column ;
+    rdfs:label "Sports and Games" ;
+    dsv:columnProperty "sport" .
+
+<http://metaUnionSearch/datasets/CultureIA9K044M/column/Theater> a dsv:Column ;
+    rdfs:label "Theater" ;
+    dsv:columnProperty "drama" .
+
+<http://metaUnionSearch/datasets/CultureIA9K044M/column/TraditionalClothing> a dsv:Column ;
+    rdfs:label "Traditional Clothing" ;
+    dsv:columnProperty "dress code" .
+
+<http://metaUnionSearch/datasets/CultureIA9K044M/column/VisualArts> a dsv:Column ;
+    rdfs:label "Visual Arts" ;
+    dsv:columnProperty "artistic function" .
+
+<http://metaUnionSearch/datasets/CultureIA9K044M/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CultureIA9K044M/column/Architecture>,
+        <http://metaUnionSearch/datasets/CultureIA9K044M/column/Cuisine>,
+        <http://metaUnionSearch/datasets/CultureIA9K044M/column/CustomaryRitualsCeremonies>,
+        <http://metaUnionSearch/datasets/CultureIA9K044M/column/DanceStyles>,
+        <http://metaUnionSearch/datasets/CultureIA9K044M/column/HeritageSites>,
+        <http://metaUnionSearch/datasets/CultureIA9K044M/column/Literature>,
+        <http://metaUnionSearch/datasets/CultureIA9K044M/column/NationalHolidays>,
+        <http://metaUnionSearch/datasets/CultureIA9K044M/column/Poetry>,
+        <http://metaUnionSearch/datasets/CultureIA9K044M/column/PopularPastimes>,
+        <http://metaUnionSearch/datasets/CultureIA9K044M/column/SportsandGames>,
+        <http://metaUnionSearch/datasets/CultureIA9K044M/column/Theater>,
+        <http://metaUnionSearch/datasets/CultureIA9K044M/column/TraditionalClothing>,
+        <http://metaUnionSearch/datasets/CultureIA9K044M/column/VisualArts> .
+

@@ -1,0 +1,85 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_7AEF9S9W.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Fashion7AEF9S9W/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Availability> a dsv:Column ;
+    rdfs:label "Availability" ;
+    dsv:columnProperty "open access content" .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Brand> a dsv:Column ;
+    rdfs:label "Brand" ;
+    dsv:columnProperty "brand" .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Color> a dsv:Column ;
+    rdfs:label "Color" ;
+    dsv:columnProperty "colour" .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/CustomerReviews> a dsv:Column ;
+    rdfs:label "Customer Reviews" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Material> a dsv:Column ;
+    rdfs:label "Material" ;
+    dsv:columnProperty "material" .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Occasion> a dsv:Column ;
+    rdfs:label "Occasion" ;
+    dsv:columnProperty "event" .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/PriceRange> a dsv:Column ;
+    rdfs:label "Price Range" ;
+    dsv:columnProperty "value" .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/ProductID> a dsv:Column ;
+    rdfs:label "Product ID" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/ProductName> a dsv:Column ;
+    rdfs:label "Product Name" ;
+    dsv:columnProperty "product" .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/PurchaseDate> a dsv:Column ;
+    rdfs:label "Purchase Date" ;
+    dsv:columnProperty "order date" .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/ReturnPolicy> a dsv:Column ;
+    rdfs:label "Return Policy" ;
+    dsv:columnProperty "review" .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Season> a dsv:Column ;
+    rdfs:label "Season" ;
+    dsv:columnProperty "season" .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Size> a dsv:Column ;
+    rdfs:label "Size" ;
+    dsv:columnProperty "size blazon" .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Store> a dsv:Column ;
+    rdfs:label "Store" .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Style> a dsv:Column ;
+    rdfs:label "Style" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/Fashion7AEF9S9W/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Availability>,
+        <http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Brand>,
+        <http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Color>,
+        <http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/CustomerReviews>,
+        <http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Material>,
+        <http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Occasion>,
+        <http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/PriceRange>,
+        <http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/ProductID>,
+        <http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/ProductName>,
+        <http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/PurchaseDate>,
+        <http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/ReturnPolicy>,
+        <http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Season>,
+        <http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Size>,
+        <http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Store>,
+        <http://metaUnionSearch/datasets/Fashion7AEF9S9W/column/Style> .
+

@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "CensusYear",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/censusYear"
+    },
+    {
+      "column_header": "AncestralHomeCountry",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/citizenship"
+    },
+    {
+      "column_header": "ImmigrationYear",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nationalYears"
+    },
+    {
+      "column_header": "NaturalizationDocNumber",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/documentNumber"
+    },
+    {
+      "column_header": "PeriodofMilitaryService_Startdate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/serviceStartDate"
+    },
+    {
+      "column_header": "PeriodofMilitaryService_Enddate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/serviceEndDate"
+    },
+    {
+      "column_header": "OccupationHistory",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/occupation"
+    },
+    {
+      "column_header": "CriminalRecord",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/criminalCharge"
+    },
+    {
+      "column_header": "ReligiousAffiliation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "EducationLevel",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/education"
+    },
+    {
+      "column_header": "NumberOfChildren",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfPersonInOccupation"
+    },
+    {
+      "column_header": "Patrilineage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/parent"
+    },
+    {
+      "column_header": "MatriarchyPaternalSide",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/parent"
+    }
+  ]
+}

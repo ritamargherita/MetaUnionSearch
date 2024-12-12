@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeomancyBR9GP9IT> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_BR9GP9IT.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeomancyBR9GP9IT/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/CulturalImpact> a dsv:Column ;
+    rdfs:label "Cultural Impact" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/DesigningProcessStepsandTools> a dsv:Column ;
+    rdfs:label "Designing Process Steps and Tools" ;
+    dsv:columnProperty "procedure" .
+
+<http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/GeomancyArtistsProfiles> a dsv:Column ;
+    rdfs:label "Geomancy Artists' Profiles" ;
+    dsv:columnProperty "RKDartists id" .
+
+<http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/GeomancyinModernArtDesign> a dsv:Column ;
+    rdfs:label "Geomancy in Modern Art & Design" ;
+    dsv:columnProperty "production" .
+
+<http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/GeometricPatternOrigins> a dsv:Column ;
+    rdfs:label "Geometric Pattern Origins" ;
+    dsv:columnProperty "origin" .
+
+<http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/HistorianInterviewsTranscripts> a dsv:Column ;
+    rdfs:label "Historian Interviews Transcripts" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/NumberMeaningsandMagicalProperties> a dsv:Column ;
+    rdfs:label "Number Meanings and Magical Properties" ;
+    dsv:columnProperty "number" .
+
+<http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/PreservationStatus> a dsv:Column ;
+    rdfs:label "Preservation Status" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/SymbolicImagesGallery> a dsv:Column ;
+    rdfs:label "Symbolic Images Gallery" ;
+    dsv:columnProperty "gallery item" .
+
+<http://metaUnionSearch/datasets/GeomancyBR9GP9IT/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/CulturalImpact>,
+        <http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/DesigningProcessStepsandTools>,
+        <http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/GeomancyArtistsProfiles>,
+        <http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/GeomancyinModernArtDesign>,
+        <http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/GeometricPatternOrigins>,
+        <http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/HistorianInterviewsTranscripts>,
+        <http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/NumberMeaningsandMagicalProperties>,
+        <http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/GeomancyBR9GP9IT/column/SymbolicImagesGallery> .
+

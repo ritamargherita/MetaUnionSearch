@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geophysics1PCM8SJU> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_1PCM8SJU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geophysics1PCM8SJU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/CRResidualTensorCuriePointDepthDetermination> a dsv:Column ;
+    rdfs:label "CR Residual Tensor：Curie Point Depth Determination" ;
+    dsv:columnProperty "depths" .
+
+<http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/ElectricalConductivities> a dsv:Column ;
+    rdfs:label "Electrical Conductivities" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/GravityAnomalies> a dsv:Column ;
+    rdfs:label "Gravity Anomalies" ;
+    dsv:columnProperty "surface gravity (g)" .
+
+<http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/HeatFlowMeasurements> a dsv:Column ;
+    rdfs:label "Heat Flow Measurements" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/MagnetotellurricResponseResistivityDistribution> a dsv:Column ;
+    rdfs:label "Magnetotellurric Response：Resistivity Distribution" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/PorePressureEstimates> a dsv:Column ;
+    rdfs:label "Pore Pressure Estimates" ;
+    dsv:columnProperty "vapor pressure (hPa)" .
+
+<http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/QuantitativeMagneticData> a dsv:Column ;
+    rdfs:label "Quantitative Magnetic Data" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/SaturationLevels> a dsv:Column ;
+    rdfs:label "Saturation Levels" ;
+    dsv:columnProperty "saturation coordinate in the HSV colour space" .
+
+<http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/ThermalGradients> a dsv:Column ;
+    rdfs:label "Thermal Gradients" ;
+    dsv:columnProperty "temperature (K)" .
+
+<http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/VolcanologicalActivityMonitoring> a dsv:Column ;
+    rdfs:label "Volcanological Activity Monitoring" ;
+    dsv:columnProperty "volcanic activity" .
+
+<http://metaUnionSearch/datasets/Geophysics1PCM8SJU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/CRResidualTensorCuriePointDepthDetermination>,
+        <http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/ElectricalConductivities>,
+        <http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/GravityAnomalies>,
+        <http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/HeatFlowMeasurements>,
+        <http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/MagnetotellurricResponseResistivityDistribution>,
+        <http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/PorePressureEstimates>,
+        <http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/QuantitativeMagneticData>,
+        <http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/SaturationLevels>,
+        <http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/ThermalGradients>,
+        <http://metaUnionSearch/datasets/Geophysics1PCM8SJU/column/VolcanologicalActivityMonitoring> .
+

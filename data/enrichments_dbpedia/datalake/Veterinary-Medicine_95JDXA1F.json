@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Previous Conditions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medicalDiagnosis"
+    },
+    {
+      "column_header": "Vaccination History",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vaccination"
+    },
+    {
+      "column_header": "Special Dietary Needs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/requirement"
+    },
+    {
+      "column_header": "Food Allergies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": "Owner Information (Phone, Address)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/owner"
+    },
+    {
+      "column_header": "Appointment Schedule",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/startDateTime"
+    },
+    {
+      "column_header": "Emergency Contacts",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    },
+    {
+      "column_header": "Contraindicated Medications",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medication"
+    },
+    {
+      "column_header": "Insurance Coverage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/license"
+    },
+    {
+      "column_header": "Medical Notes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    }
+  ]
+}

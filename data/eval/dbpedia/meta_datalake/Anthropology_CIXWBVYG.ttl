@@ -1,0 +1,70 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AnthropologyCIXWBVYG> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_CIXWBVYG.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/ArchaeologistName> a dsv:Column ;
+    rdfs:label "Archaeologist Name" ;
+    dsv:columnProperty "curator" .
+
+<http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/ColumnHeadersRelatingToSurroundingCulture> a dsv:Column ;
+    rdfs:label "Column Headers Relating To Surrounding Culture" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/ColumnHeadersRelatingToSurroundingEnvironment> a dsv:Column ;
+    rdfs:label "Column Headers Relating To Surrounding Environment" .
+
+<http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/DataAnalysisMethods> a dsv:Column ;
+    rdfs:label "Data Analysis Methods" ;
+    dsv:columnProperty "Method of discovery" .
+
+<http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/ExcavationYear> a dsv:Column ;
+    rdfs:label "Excavation Year" ;
+    dsv:columnProperty "year of construction" .
+
+<http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/FieldNotes> a dsv:Column ;
+    rdfs:label "Field Notes" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/FundingSources> a dsv:Column ;
+    rdfs:label "Funding Sources" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/LaborDivisionandSpecialization> a dsv:Column ;
+    rdfs:label "Labor Division and Specialization" ;
+    dsv:columnProperty "division" .
+
+<http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/PreservationStatus> a dsv:Column ;
+    rdfs:label "Preservation Status" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/ResearchHypothesis> a dsv:Column ;
+    rdfs:label "Research Hypothesis" ;
+    dsv:columnProperty "approach" .
+
+<http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/SocioeconomicConditions> a dsv:Column ;
+    rdfs:label "Socioeconomic Conditions" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/TradeNetworkInformation> a dsv:Column ;
+    rdfs:label "Trade Network Information" ;
+    dsv:columnProperty "network" .
+
+<http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/ArchaeologistName>,
+        <http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/ColumnHeadersRelatingToSurroundingCulture>,
+        <http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/ColumnHeadersRelatingToSurroundingEnvironment>,
+        <http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/DataAnalysisMethods>,
+        <http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/ExcavationYear>,
+        <http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/FieldNotes>,
+        <http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/FundingSources>,
+        <http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/LaborDivisionandSpecialization>,
+        <http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/ResearchHypothesis>,
+        <http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/SocioeconomicConditions>,
+        <http://metaUnionSearch/datasets/AnthropologyCIXWBVYG/column/TradeNetworkInformation> .
+

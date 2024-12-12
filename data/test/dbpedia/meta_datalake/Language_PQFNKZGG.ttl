@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LanguagePQFNKZGG> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_PQFNKZGG.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LanguagePQFNKZGG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/CulturalSignificance> a dsv:Column ;
+    rdfs:label "Cultural Significance" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/EducationalStatus> a dsv:Column ;
+    rdfs:label "Educational Status" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/HistoricalDevelopment> a dsv:Column ;
+    rdfs:label "Historical Development" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/LanguageDialects> a dsv:Column ;
+    rdfs:label "Language Dialects" ;
+    dsv:columnProperty "other language of a settlement" .
+
+<http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/LegalStatus> a dsv:Column ;
+    rdfs:label "Legal Status" ;
+    dsv:columnProperty "status" .
+
+<http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/LinguisticComplexity> a dsv:Column ;
+    rdfs:label "Linguistic Complexity" ;
+    dsv:columnProperty "complexity" .
+
+<http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/LinguisticInfluence> a dsv:Column ;
+    rdfs:label "Linguistic Influence" ;
+    dsv:columnProperty "influenced" .
+
+<http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/LinguisticRegion> a dsv:Column ;
+    rdfs:label "Linguistic Region" ;
+    dsv:columnProperty "regional language" .
+
+<http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/NotableFeatures> a dsv:Column ;
+    rdfs:label "Notable Features" ;
+    dsv:columnProperty "notable features" .
+
+<http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/PreservationEfforts> a dsv:Column ;
+    rdfs:label "Preservation Efforts" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/UseinLiterature> a dsv:Column ;
+    rdfs:label "Use in Literature" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/LanguagePQFNKZGG/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/CulturalSignificance>,
+        <http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/EducationalStatus>,
+        <http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/HistoricalDevelopment>,
+        <http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/LanguageDialects>,
+        <http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/LegalStatus>,
+        <http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/LinguisticComplexity>,
+        <http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/LinguisticInfluence>,
+        <http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/LinguisticRegion>,
+        <http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/NotableFeatures>,
+        <http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/PreservationEfforts>,
+        <http://metaUnionSearch/datasets/LanguagePQFNKZGG/column/UseinLiterature> .
+

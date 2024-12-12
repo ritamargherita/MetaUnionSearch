@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MythologyC38HYF9S> a dsv:Dataset ;
+    dcterms:subject "mythology" ;
+    dcterms:title "Mythology_C38HYF9S.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MythologyC38HYF9S/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MythologyC38HYF9S/column/Behavior> a dsv:Column ;
+    rdfs:label "Behavior" ;
+    dsv:columnProperty "activity" .
+
+<http://metaUnionSearch/datasets/MythologyC38HYF9S/column/CulturalImpact> a dsv:Column ;
+    rdfs:label "Cultural Impact" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/MythologyC38HYF9S/column/Description> a dsv:Column ;
+    rdfs:label "Description" ;
+    dsv:columnProperty "description" .
+
+<http://metaUnionSearch/datasets/MythologyC38HYF9S/column/Habitat> a dsv:Column ;
+    rdfs:label "Habitat" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/MythologyC38HYF9S/column/LifeSpan> a dsv:Column ;
+    rdfs:label "Life Span" ;
+    dsv:columnProperty "life expectancy" .
+
+<http://metaUnionSearch/datasets/MythologyC38HYF9S/column/Material> a dsv:Column ;
+    rdfs:label "Material" ;
+    dsv:columnProperty "material" .
+
+<http://metaUnionSearch/datasets/MythologyC38HYF9S/column/ModernDepictions> a dsv:Column ;
+    rdfs:label "Modern Depictions" ;
+    dsv:columnProperty "exhibition" .
+
+<http://metaUnionSearch/datasets/MythologyC38HYF9S/column/MythicObject> a dsv:Column ;
+    rdfs:label "Mythic Object" ;
+    dsv:columnProperty "mythology" .
+
+<http://metaUnionSearch/datasets/MythologyC38HYF9S/column/Origin> a dsv:Column ;
+    rdfs:label "Origin" ;
+    dsv:columnProperty "origin" .
+
+<http://metaUnionSearch/datasets/MythologyC38HYF9S/column/PhysicalAppearance> a dsv:Column ;
+    rdfs:label "Physical Appearance" ;
+    dsv:columnProperty "appearance" .
+
+<http://metaUnionSearch/datasets/MythologyC38HYF9S/column/RelatedMythologies> a dsv:Column ;
+    rdfs:label "Related Mythologies" ;
+    dsv:columnProperty "mythology" .
+
+<http://metaUnionSearch/datasets/MythologyC38HYF9S/column/ReligiousSignificance> a dsv:Column ;
+    rdfs:label "Religious Significance" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/MythologyC38HYF9S/column/SpecialAbilities> a dsv:Column ;
+    rdfs:label "Special Abilities" ;
+    dsv:columnProperty "speciality" .
+
+<http://metaUnionSearch/datasets/MythologyC38HYF9S/column/Symbolization> a dsv:Column ;
+    rdfs:label "Symbolization" ;
+    dsv:columnProperty "identification symbol" .
+
+<http://metaUnionSearch/datasets/MythologyC38HYF9S/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MythologyC38HYF9S/column/Behavior>,
+        <http://metaUnionSearch/datasets/MythologyC38HYF9S/column/CulturalImpact>,
+        <http://metaUnionSearch/datasets/MythologyC38HYF9S/column/Description>,
+        <http://metaUnionSearch/datasets/MythologyC38HYF9S/column/Habitat>,
+        <http://metaUnionSearch/datasets/MythologyC38HYF9S/column/LifeSpan>,
+        <http://metaUnionSearch/datasets/MythologyC38HYF9S/column/Material>,
+        <http://metaUnionSearch/datasets/MythologyC38HYF9S/column/ModernDepictions>,
+        <http://metaUnionSearch/datasets/MythologyC38HYF9S/column/MythicObject>,
+        <http://metaUnionSearch/datasets/MythologyC38HYF9S/column/Origin>,
+        <http://metaUnionSearch/datasets/MythologyC38HYF9S/column/PhysicalAppearance>,
+        <http://metaUnionSearch/datasets/MythologyC38HYF9S/column/RelatedMythologies>,
+        <http://metaUnionSearch/datasets/MythologyC38HYF9S/column/ReligiousSignificance>,
+        <http://metaUnionSearch/datasets/MythologyC38HYF9S/column/SpecialAbilities>,
+        <http://metaUnionSearch/datasets/MythologyC38HYF9S/column/Symbolization> .
+

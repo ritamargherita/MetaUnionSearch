@@ -1,0 +1,26 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GenealogyN2T3QHFK> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_N2T3QHFK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GenealogyN2T3QHFK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GenealogyN2T3QHFK/column/> a dsv:Column ;
+    rdfs:label "" ;
+    dsv:columnProperty "note" .
+
+<http://metaUnionSearch/datasets/GenealogyN2T3QHFK/column/AncestralHomeCountry> a dsv:Column ;
+    rdfs:label "AncestralHomeCountry" ;
+    dsv:columnProperty "number" .
+
+<http://metaUnionSearch/datasets/GenealogyN2T3QHFK/column/NumberofOffspring> a dsv:Column ;
+    rdfs:label "NumberofOffspring" ;
+    dsv:columnProperty "number of members as of" .
+
+<http://metaUnionSearch/datasets/GenealogyN2T3QHFK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GenealogyN2T3QHFK/column/>,
+        <http://metaUnionSearch/datasets/GenealogyN2T3QHFK/column/AncestralHomeCountry>,
+        <http://metaUnionSearch/datasets/GenealogyN2T3QHFK/column/NumberofOffspring> .
+

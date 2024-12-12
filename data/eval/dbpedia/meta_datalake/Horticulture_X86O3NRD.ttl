@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_X86O3NRD.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/HorticultureX86O3NRD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/AveragePlantHeight> a dsv:Column ;
+    rdfs:label "AveragePlantHeight" ;
+    dsv:columnProperty "height (μ)" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/CollectedBy> a dsv:Column ;
+    rdfs:label "CollectedBy" ;
+    dsv:columnProperty "curator" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/DifferentFromScientificClassification> a dsv:Column ;
+    rdfs:label "*DifferentFromScientificClassification*" ;
+    dsv:columnProperty "classification" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/FavoredTemperatureRange> a dsv:Column ;
+    rdfs:label "FavoredTemperatureRange" ;
+    dsv:columnProperty "final publication date" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/FloweringSeasonDates> a dsv:Column ;
+    rdfs:label "FloweringSeasonDates" ;
+    dsv:columnProperty "flower" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/GrowerExperienceLevelNeed> a dsv:Column ;
+    rdfs:label "GrowerExperienceLevelNeed" ;
+    dsv:columnProperty "breeder" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/IsEndangered> a dsv:Column ;
+    rdfs:label "IsEndangered" ;
+    dsv:columnProperty "endangered since" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/NewColumnname> a dsv:Column ;
+    rdfs:label "NewColumnname₁" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/SameAsBotanicalName> a dsv:Column ;
+    rdfs:label "*SameAsBotanicalName*" ;
+    dsv:columnProperty "same name" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/SelfSufficiencyScoreLocalGrown> a dsv:Column ;
+    rdfs:label "SelfSufficiencyScore_Local-Grown" ;
+    dsv:columnProperty "certification" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/SoilNutrientNeeds> a dsv:Column ;
+    rdfs:label "SoilNutrientNeeds" ;
+    dsv:columnProperty "subject term" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/SpecialPestControlMethods> a dsv:Column ;
+    rdfs:label "SpecialPestControlMethods" ;
+    dsv:columnProperty "speciality" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/ValidatorSignature> a dsv:Column ;
+    rdfs:label "ValidatorSignature" ;
+    dsv:columnProperty "signature" .
+
+<http://metaUnionSearch/datasets/HorticultureX86O3NRD/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/AveragePlantHeight>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/CollectedBy>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/DifferentFromScientificClassification>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/FavoredTemperatureRange>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/FloweringSeasonDates>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/GrowerExperienceLevelNeed>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/IsEndangered>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/NewColumnname>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/SameAsBotanicalName>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/SelfSufficiencyScoreLocalGrown>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/SoilNutrientNeeds>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/SpecialPestControlMethods>,
+        <http://metaUnionSearch/datasets/HorticultureX86O3NRD/column/ValidatorSignature> .
+

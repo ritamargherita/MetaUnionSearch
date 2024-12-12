@@ -1,0 +1,36 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArcheologyUN5Z3JQI> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_UN5Z3JQI.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArcheologyUN5Z3JQI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArcheologyUN5Z3JQI/column/> a dsv:Column ;
+    rdfs:label "" ;
+    dsv:columnProperty "note" .
+
+<http://metaUnionSearch/datasets/ArcheologyUN5Z3JQI/column/ArticleSource> a dsv:Column ;
+    rdfs:label "ArticleSource" ;
+    dsv:columnProperty "publication" .
+
+<http://metaUnionSearch/datasets/ArcheologyUN5Z3JQI/column/ArticleSummaryCount> a dsv:Column ;
+    rdfs:label "ArticleSummaryCount" ;
+    dsv:columnProperty "number of items in collection" .
+
+<http://metaUnionSearch/datasets/ArcheologyUN5Z3JQI/column/LargeArtifact4> a dsv:Column ;
+    rdfs:label "LargeArtifact4" ;
+    dsv:columnProperty "size_v" .
+
+<http://metaUnionSearch/datasets/ArcheologyUN5Z3JQI/column/PublicationDate> a dsv:Column ;
+    rdfs:label "PublicationDate" ;
+    dsv:columnProperty "publication date" .
+
+<http://metaUnionSearch/datasets/ArcheologyUN5Z3JQI/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArcheologyUN5Z3JQI/column/>,
+        <http://metaUnionSearch/datasets/ArcheologyUN5Z3JQI/column/ArticleSource>,
+        <http://metaUnionSearch/datasets/ArcheologyUN5Z3JQI/column/ArticleSummaryCount>,
+        <http://metaUnionSearch/datasets/ArcheologyUN5Z3JQI/column/LargeArtifact4>,
+        <http://metaUnionSearch/datasets/ArcheologyUN5Z3JQI/column/PublicationDate> .
+

@@ -3,7 +3,7 @@
     {"column_header": "Recidivism Rate", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
     {"column_header": "Juvenile Crime Trending", "dbpedia_property_id": "http://dbpedia.org/ontology/kindOfCriminalAction"},
     {"column_header": "Prison Overcrowding Statistics", "dbpedia_property_id": "http://dbpedia.org/ontology/convictionPenalty"},
-    {"column_header": "Correlation between Education Level and "Crime Committed"", "dbpedia_property_id": "http://dbpedia.org/ontology/education"},
+    {"column_header": "Correlation between Education Level and Crime Committed", "dbpedia_property_id": "http://dbpedia.org/ontology/education"},
     {"column_header": "Incarceration Cost per Individual", "dbpedia_property_id": "http://dbpedia.org/ontology/unitCost"},
     {"column_header": "Drug Use Stats by Region", "dbpedia_property_id": "http://dbpedia.org/ontology/drug"},
     {"column_header": "Clearance Rates Compared Across States", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},

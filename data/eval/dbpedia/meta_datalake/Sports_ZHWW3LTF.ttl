@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_ZHWW3LTF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SportsZHWW3LTF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF/column/AthleteNickname> a dsv:Column ;
+    rdfs:label "* Athlete Nickname" ;
+    dsv:columnProperty "medalist" .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF/column/AthleticAssociationNumberAAN> a dsv:Column ;
+    rdfs:label "Athletic Association Number (AAN)" ;
+    dsv:columnProperty "sport governing body" .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF/column/AverageAgeOfTeamMembers> a dsv:Column ;
+    rdfs:label "Average Age Of Team Members" ;
+    dsv:columnProperty "age" .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF/column/BlockedShots> a dsv:Column ;
+    rdfs:label "Blocked Shots" ;
+    dsv:columnProperty "block" .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF/column/Column14> a dsv:Column ;
+    rdfs:label "Column14" ;
+    dsv:columnProperty "team size" .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF/column/Column15> a dsv:Column ;
+    rdfs:label "Column15" ;
+    dsv:columnProperty "number of teams" .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF/column/CompetitionIdentifierCID> a dsv:Column ;
+    rdfs:label "Competition Identifier (CID)" ;
+    dsv:columnProperty "competition" .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF/column/HighestSalaryAmongstTeamMembers> a dsv:Column ;
+    rdfs:label "Highest Salary Amongst Team Members" ;
+    dsv:columnProperty "highest rank" .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF/column/Interceptions> a dsv:Column ;
+    rdfs:label "Interceptions" ;
+    dsv:columnProperty "catch" .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF/column/LowestAttendanceDuringASeason> a dsv:Column ;
+    rdfs:label "Lowest Attendance During A Season" ;
+    dsv:columnProperty "lowest" .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF/column/PassesCompleted> a dsv:Column ;
+    rdfs:label "Passes Completed" ;
+    dsv:columnProperty "crosses" .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF/column/PenaltiesConceded> a dsv:Column ;
+    rdfs:label "Penalties Conceded" ;
+    dsv:columnProperty "penalty score" .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF/column/StandardDeviationOfPlayersHeight> a dsv:Column ;
+    rdfs:label "Standard Deviation Of Players Height" ;
+    dsv:columnProperty "height (μ)" .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF/column/TotalPoints> a dsv:Column ;
+    rdfs:label "Total Points" ;
+    dsv:columnProperty "full score" .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF/column/TypeOfSport> a dsv:Column ;
+    rdfs:label "Type Of Sport" ;
+    dsv:columnProperty "sport" .
+
+<http://metaUnionSearch/datasets/SportsZHWW3LTF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SportsZHWW3LTF/column/AthleteNickname>,
+        <http://metaUnionSearch/datasets/SportsZHWW3LTF/column/AthleticAssociationNumberAAN>,
+        <http://metaUnionSearch/datasets/SportsZHWW3LTF/column/AverageAgeOfTeamMembers>,
+        <http://metaUnionSearch/datasets/SportsZHWW3LTF/column/BlockedShots>,
+        <http://metaUnionSearch/datasets/SportsZHWW3LTF/column/Column14>,
+        <http://metaUnionSearch/datasets/SportsZHWW3LTF/column/Column15>,
+        <http://metaUnionSearch/datasets/SportsZHWW3LTF/column/CompetitionIdentifierCID>,
+        <http://metaUnionSearch/datasets/SportsZHWW3LTF/column/HighestSalaryAmongstTeamMembers>,
+        <http://metaUnionSearch/datasets/SportsZHWW3LTF/column/Interceptions>,
+        <http://metaUnionSearch/datasets/SportsZHWW3LTF/column/LowestAttendanceDuringASeason>,
+        <http://metaUnionSearch/datasets/SportsZHWW3LTF/column/PassesCompleted>,
+        <http://metaUnionSearch/datasets/SportsZHWW3LTF/column/PenaltiesConceded>,
+        <http://metaUnionSearch/datasets/SportsZHWW3LTF/column/StandardDeviationOfPlayersHeight>,
+        <http://metaUnionSearch/datasets/SportsZHWW3LTF/column/TotalPoints>,
+        <http://metaUnionSearch/datasets/SportsZHWW3LTF/column/TypeOfSport> .
+

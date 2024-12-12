@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_SUHA51LI.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologySUHA51LI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/AgileProjectManagementTools> a dsv:Column ;
+    rdfs:label "Agile Project Management Tools" ;
+    dsv:columnProperty "project objective" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/CloudDeploymentStrategies> a dsv:Column ;
+    rdfs:label "Cloud Deployment Strategies" ;
+    dsv:columnProperty "currently used for" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/CodeReviewPractices> a dsv:Column ;
+    rdfs:label "Code Review Practices" ;
+    dsv:columnProperty "review" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/DatabaseManagementTechniques> a dsv:Column ;
+    rdfs:label "Database Management Techniques" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/DevOpsToolsComparison> a dsv:Column ;
+    rdfs:label "DevOps Tools Comparison" ;
+    dsv:columnProperty "project keyword" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/ITInfrastructureManagement> a dsv:Column ;
+    rdfs:label "IT Infrastructure Management" ;
+    dsv:columnProperty "management region" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/SoftwareArchitecturePatterns> a dsv:Column ;
+    rdfs:label "Software Architecture Patterns" ;
+    dsv:columnProperty "architectural style" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/SoftwareDevelopmentMethodologies> a dsv:Column ;
+    rdfs:label "Software Development Methodologies" ;
+    dsv:columnProperty "approach" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/SoftwareTestingMetrics> a dsv:Column ;
+    rdfs:label "Software Testing Metrics" ;
+    dsv:columnProperty "testaverage" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/UIUXDesignTrends> a dsv:Column ;
+    rdfs:label "UI/UX Design Trends" ;
+    dsv:columnProperty "significant design" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/column/VersionControlSystems> a dsv:Column ;
+    rdfs:label "Version Control Systems" ;
+    dsv:columnProperty "configuration" .
+
+<http://metaUnionSearch/datasets/TechnologySUHA51LI/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/AgileProjectManagementTools>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/CloudDeploymentStrategies>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/CodeReviewPractices>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/DatabaseManagementTechniques>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/DevOpsToolsComparison>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/ITInfrastructureManagement>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/SoftwareArchitecturePatterns>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/SoftwareDevelopmentMethodologies>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/SoftwareTestingMetrics>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/UIUXDesignTrends>,
+        <http://metaUnionSearch/datasets/TechnologySUHA51LI/column/VersionControlSystems> .
+

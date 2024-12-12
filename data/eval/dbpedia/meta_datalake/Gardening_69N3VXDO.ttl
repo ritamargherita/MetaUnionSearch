@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Gardening69N3VXDO> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_69N3VXDO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Gardening69N3VXDO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Gardening69N3VXDO/column/AgeToMaturity> a dsv:Column ;
+    rdfs:label "AgeToMaturity" ;
+    dsv:columnProperty "age" .
+
+<http://metaUnionSearch/datasets/Gardening69N3VXDO/column/Category> a dsv:Column ;
+    rdfs:label "Category" ;
+    dsv:columnProperty "category" .
+
+<http://metaUnionSearch/datasets/Gardening69N3VXDO/column/CommonName> a dsv:Column ;
+    rdfs:label "CommonName" ;
+    dsv:columnProperty "common name" .
+
+<http://metaUnionSearch/datasets/Gardening69N3VXDO/column/GrowthHabit> a dsv:Column ;
+    rdfs:label "GrowthHabit" ;
+    dsv:columnProperty "classification" .
+
+<http://metaUnionSearch/datasets/Gardening69N3VXDO/column/HardinessZone> a dsv:Column ;
+    rdfs:label "HardinessZone" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/Gardening69N3VXDO/column/HarvestSeason> a dsv:Column ;
+    rdfs:label "HarvestSeason" ;
+    dsv:columnProperty "season" .
+
+<http://metaUnionSearch/datasets/Gardening69N3VXDO/column/PestsAndDiseasesResistance> a dsv:Column ;
+    rdfs:label "PestsAndDiseasesResistance" ;
+    dsv:columnProperty "disease" .
+
+<http://metaUnionSearch/datasets/Gardening69N3VXDO/column/ScientificName> a dsv:Column ;
+    rdfs:label "ScientificName" ;
+    dsv:columnProperty "scientific name" .
+
+<http://metaUnionSearch/datasets/Gardening69N3VXDO/column/Spacing> a dsv:Column ;
+    rdfs:label "Spacing" ;
+    dsv:columnProperty "space" .
+
+<http://metaUnionSearch/datasets/Gardening69N3VXDO/column/SunExposure> a dsv:Column ;
+    rdfs:label "SunExposure" ;
+    dsv:columnProperty "wins at sun" .
+
+<http://metaUnionSearch/datasets/Gardening69N3VXDO/column/TemperatureRange> a dsv:Column ;
+    rdfs:label "TemperatureRange" ;
+    dsv:columnProperty "temperature (K)" .
+
+<http://metaUnionSearch/datasets/Gardening69N3VXDO/column/WaterNeeds> a dsv:Column ;
+    rdfs:label "WaterNeeds" ;
+    dsv:columnProperty "water" .
+
+<http://metaUnionSearch/datasets/Gardening69N3VXDO/column/YieldPerHarvest> a dsv:Column ;
+    rdfs:label "YieldPerHarvest" ;
+    dsv:columnProperty "produces" .
+
+<http://metaUnionSearch/datasets/Gardening69N3VXDO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Gardening69N3VXDO/column/AgeToMaturity>,
+        <http://metaUnionSearch/datasets/Gardening69N3VXDO/column/Category>,
+        <http://metaUnionSearch/datasets/Gardening69N3VXDO/column/CommonName>,
+        <http://metaUnionSearch/datasets/Gardening69N3VXDO/column/GrowthHabit>,
+        <http://metaUnionSearch/datasets/Gardening69N3VXDO/column/HardinessZone>,
+        <http://metaUnionSearch/datasets/Gardening69N3VXDO/column/HarvestSeason>,
+        <http://metaUnionSearch/datasets/Gardening69N3VXDO/column/PestsAndDiseasesResistance>,
+        <http://metaUnionSearch/datasets/Gardening69N3VXDO/column/ScientificName>,
+        <http://metaUnionSearch/datasets/Gardening69N3VXDO/column/Spacing>,
+        <http://metaUnionSearch/datasets/Gardening69N3VXDO/column/SunExposure>,
+        <http://metaUnionSearch/datasets/Gardening69N3VXDO/column/TemperatureRange>,
+        <http://metaUnionSearch/datasets/Gardening69N3VXDO/column/WaterNeeds>,
+        <http://metaUnionSearch/datasets/Gardening69N3VXDO/column/YieldPerHarvest> .
+

@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "Title (if applicable)", "dbpedia_property_id": "http://dbpedia.org/ontology/title"},
+    {"column_header": "Originality", "dbpedia_property_id": "http://dbpedia.org/ontology/approach"},
+    {"column_header": "Critical Reception", "dbpedia_property_id": "http://dbpedia.org/ontology/review"},
+    {"column_header": "Public Response", "dbpedia_property_id": "http://dbpedia.org/ontology/comment"},
+    {"column_header": "Influence on Other Works", "dbpedia_property_id": "http://dbpedia.org/ontology/influenced"},
+    {"column_header": "Author's Purpose & Intentions", "dbpedia_property_id": "http://dbpedia.org/ontology/purpose"},
+    {"column_header": "Adaptations Over Time and Across Media", "dbpedia_property_id": "http://dbpedia.org/ontology/otherMedia"},
+    {"column_header": "Geographical Influences", "dbpedia_property_id": "http://dbpedia.org/ontology/refgeo"},
+    {"column_header": "Religious & Philosophical Themes", "dbpedia_property_id": "http://dbpedia.org/ontology/religion"},
+    {"column_header": "Literary Movements", "dbpedia_property_id": "http://dbpedia.org/ontology/movement"},
+    {"column_header": "Author's Life Events", "dbpedia_property_id": "http://dbpedia.org/ontology/author"}
+  ]
+}

@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ> a dsv:Dataset ;
+    dcterms:subject "religion" ;
+    dcterms:title "Religion_07UQNUPQ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Religion07UQNUPQ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ/column/BeliefSystem> a dsv:Column ;
+    rdfs:label "Belief System" ;
+    dsv:columnProperty "ideology" .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ/column/ChallengesFacedbyFollowers> a dsv:Column ;
+    rdfs:label "Challenges Faced by Followers" ;
+    dsv:columnProperty "wins at challenges" .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ/column/CommunityStructureVariations> a dsv:Column ;
+    rdfs:label "Community Structure Variations" ;
+    dsv:columnProperty "joint community" .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ/column/ContemporaryInterpretationsInfluencingPractice> a dsv:Column ;
+    rdfs:label "Contemporary Interpretations Influencing Practice" ;
+    dsv:columnProperty "Theology" .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ/column/DeitiesWorshipped> a dsv:Column ;
+    rdfs:label "Deities Worshipped" ;
+    dsv:columnProperty "enshrined deity" .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ/column/Demographics> a dsv:Column ;
+    rdfs:label "Demographics" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ/column/Founder> a dsv:Column ;
+    rdfs:label "Founder" ;
+    dsv:columnProperty "founded by" .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ/column/HistoricalElementsImpactingBeliefs> a dsv:Column ;
+    rdfs:label "Historical Elements Impacting Beliefs" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ/column/ImportantSymbols> a dsv:Column ;
+    rdfs:label "Important Symbols" ;
+    dsv:columnProperty "identification symbol" .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ/column/MajorDenominations> a dsv:Column ;
+    rdfs:label "Major Denominations" ;
+    dsv:columnProperty "denomination" .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ/column/ReligiousCelebrations> a dsv:Column ;
+    rdfs:label "Religious Celebrations" ;
+    dsv:columnProperty "feast day, holiday" .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ/column/ReligiousName> a dsv:Column ;
+    rdfs:label "Religious Name" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ/column/SecondaryDivisions> a dsv:Column ;
+    rdfs:label "Secondary Divisions" ;
+    dsv:columnProperty "division" .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ/column/SectarianDifferences> a dsv:Column ;
+    rdfs:label "Sectarian Differences" ;
+    dsv:columnProperty "denomination" .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ/column/SocioeconomicStatus> a dsv:Column ;
+    rdfs:label "Socioeconomic Status" ;
+    dsv:columnProperty "income" .
+
+<http://metaUnionSearch/datasets/Religion07UQNUPQ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Religion07UQNUPQ/column/BeliefSystem>,
+        <http://metaUnionSearch/datasets/Religion07UQNUPQ/column/ChallengesFacedbyFollowers>,
+        <http://metaUnionSearch/datasets/Religion07UQNUPQ/column/CommunityStructureVariations>,
+        <http://metaUnionSearch/datasets/Religion07UQNUPQ/column/ContemporaryInterpretationsInfluencingPractice>,
+        <http://metaUnionSearch/datasets/Religion07UQNUPQ/column/DeitiesWorshipped>,
+        <http://metaUnionSearch/datasets/Religion07UQNUPQ/column/Demographics>,
+        <http://metaUnionSearch/datasets/Religion07UQNUPQ/column/Founder>,
+        <http://metaUnionSearch/datasets/Religion07UQNUPQ/column/HistoricalElementsImpactingBeliefs>,
+        <http://metaUnionSearch/datasets/Religion07UQNUPQ/column/ImportantSymbols>,
+        <http://metaUnionSearch/datasets/Religion07UQNUPQ/column/MajorDenominations>,
+        <http://metaUnionSearch/datasets/Religion07UQNUPQ/column/ReligiousCelebrations>,
+        <http://metaUnionSearch/datasets/Religion07UQNUPQ/column/ReligiousName>,
+        <http://metaUnionSearch/datasets/Religion07UQNUPQ/column/SecondaryDivisions>,
+        <http://metaUnionSearch/datasets/Religion07UQNUPQ/column/SectarianDifferences>,
+        <http://metaUnionSearch/datasets/Religion07UQNUPQ/column/SocioeconomicStatus> .
+

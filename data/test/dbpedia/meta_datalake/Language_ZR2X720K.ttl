@@ -1,0 +1,96 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_ZR2X720K.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LanguageZR2X720K/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/ComprehensiveWrittenStandardizationEfforts> a dsv:Column ;
+    rdfs:label "ComprehensiveWrittenStandardizationEfforts" ;
+    dsv:columnProperty "language regulator or academy" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/DialectVarietiesCountAndNames> a dsv:Column ;
+    rdfs:label "DialectVarietiesCountAndNames" ;
+    dsv:columnProperty "relation" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/FamousWorksInThisLanguage> a dsv:Column ;
+    rdfs:label "FamousWorksInThisLanguage" ;
+    dsv:columnProperty "name" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/GlottochronologyLogistics> a dsv:Column ;
+    rdfs:label "GlottochronologyLogistics" ;
+    dsv:columnProperty "linguistics tradition" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/HistoricalDevelopmentStagesOfLanguageChange> a dsv:Column ;
+    rdfs:label "HistoricalDevelopmentStagesOfLanguageChange" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/IsOfficiallyRecognized> a dsv:Column ;
+    rdfs:label "IsOfficiallyRecognized" ;
+    dsv:columnProperty "official language" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/LanguageFamilyId> a dsv:Column ;
+    rdfs:label "LanguageFamilyId" ;
+    dsv:columnProperty "kindOfLanguage" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/LanguageName> a dsv:Column ;
+    rdfs:label "LanguageName" ;
+    dsv:columnProperty "name" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/LearningDifficultyForEnglishSpeaker> a dsv:Column ;
+    rdfs:label "LearningDifficultyForEnglishSpeaker" ;
+    dsv:columnProperty "training" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/LegalStatusAndUsageConstraints> a dsv:Column ;
+    rdfs:label "LegalStatusAndUsageConstraints" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/LinguaFrancaImpact> a dsv:Column ;
+    rdfs:label "LinguaFrancaImpact" ;
+    dsv:columnProperty "named by language" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/OriginCountry> a dsv:Column ;
+    rdfs:label "OriginCountry" ;
+    dsv:columnProperty "country origin" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/RegionalVariationsWithinCountries> a dsv:Column ;
+    rdfs:label "RegionalVariationsWithinCountries" ;
+    dsv:columnProperty "regional language" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/RelationToOtherLanguages> a dsv:Column ;
+    rdfs:label "RelationToOtherLanguages" ;
+    dsv:columnProperty "de facto language" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/ScriptDesign> a dsv:Column ;
+    rdfs:label "ScriptDesign" ;
+    dsv:columnProperty "linguistics tradition" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/SpecialtyUsageExamplesInCertainFieldsOrDomains> a dsv:Column ;
+    rdfs:label "SpecialtyUsageExamplesInCertainFieldsOrDomains" ;
+    dsv:columnProperty "specialist" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/column/SpeechSoundSystem> a dsv:Column ;
+    rdfs:label "SpeechSoundSystem" ;
+    dsv:columnProperty "spoken in" .
+
+<http://metaUnionSearch/datasets/LanguageZR2X720K/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LanguageZR2X720K/column/ComprehensiveWrittenStandardizationEfforts>,
+        <http://metaUnionSearch/datasets/LanguageZR2X720K/column/DialectVarietiesCountAndNames>,
+        <http://metaUnionSearch/datasets/LanguageZR2X720K/column/FamousWorksInThisLanguage>,
+        <http://metaUnionSearch/datasets/LanguageZR2X720K/column/GlottochronologyLogistics>,
+        <http://metaUnionSearch/datasets/LanguageZR2X720K/column/HistoricalDevelopmentStagesOfLanguageChange>,
+        <http://metaUnionSearch/datasets/LanguageZR2X720K/column/IsOfficiallyRecognized>,
+        <http://metaUnionSearch/datasets/LanguageZR2X720K/column/LanguageFamilyId>,
+        <http://metaUnionSearch/datasets/LanguageZR2X720K/column/LanguageName>,
+        <http://metaUnionSearch/datasets/LanguageZR2X720K/column/LearningDifficultyForEnglishSpeaker>,
+        <http://metaUnionSearch/datasets/LanguageZR2X720K/column/LegalStatusAndUsageConstraints>,
+        <http://metaUnionSearch/datasets/LanguageZR2X720K/column/LinguaFrancaImpact>,
+        <http://metaUnionSearch/datasets/LanguageZR2X720K/column/OriginCountry>,
+        <http://metaUnionSearch/datasets/LanguageZR2X720K/column/RegionalVariationsWithinCountries>,
+        <http://metaUnionSearch/datasets/LanguageZR2X720K/column/RelationToOtherLanguages>,
+        <http://metaUnionSearch/datasets/LanguageZR2X720K/column/ScriptDesign>,
+        <http://metaUnionSearch/datasets/LanguageZR2X720K/column/SpecialtyUsageExamplesInCertainFieldsOrDomains>,
+        <http://metaUnionSearch/datasets/LanguageZR2X720K/column/SpeechSoundSystem> .
+

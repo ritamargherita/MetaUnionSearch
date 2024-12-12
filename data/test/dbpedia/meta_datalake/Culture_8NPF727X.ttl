@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Culture8NPF727X> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_8NPF727X.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Culture8NPF727X/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Culture8NPF727X/column/Climate> a dsv:Column ;
+    rdfs:label "Climate" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/Culture8NPF727X/column/Cuisine> a dsv:Column ;
+    rdfs:label "Cuisine" ;
+    dsv:columnProperty "cuisine" .
+
+<http://metaUnionSearch/datasets/Culture8NPF727X/column/CulturalEvents> a dsv:Column ;
+    rdfs:label "Cultural Events" ;
+    dsv:columnProperty "event" .
+
+<http://metaUnionSearch/datasets/Culture8NPF727X/column/Currency> a dsv:Column ;
+    rdfs:label "Currency" ;
+    dsv:columnProperty "currency" .
+
+<http://metaUnionSearch/datasets/Culture8NPF727X/column/CustomaryPracticesandRituals> a dsv:Column ;
+    rdfs:label "Customary Practices and Rituals" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/Culture8NPF727X/column/EducationSystem> a dsv:Column ;
+    rdfs:label "Education System" ;
+    dsv:columnProperty "education system" .
+
+<http://metaUnionSearch/datasets/Culture8NPF727X/column/GovernmentType> a dsv:Column ;
+    rdfs:label "Government Type" ;
+    dsv:columnProperty "government type" .
+
+<http://metaUnionSearch/datasets/Culture8NPF727X/column/HeritageMonuments> a dsv:Column ;
+    rdfs:label "Heritage Monuments" ;
+    dsv:columnProperty "heritage register" .
+
+<http://metaUnionSearch/datasets/Culture8NPF727X/column/Literature> a dsv:Column ;
+    rdfs:label "Literature" ;
+    dsv:columnProperty "novel" .
+
+<http://metaUnionSearch/datasets/Culture8NPF727X/column/NationalHolidays> a dsv:Column ;
+    rdfs:label "National Holidays" ;
+    dsv:columnProperty "feast day, holiday" .
+
+<http://metaUnionSearch/datasets/Culture8NPF727X/column/Population> a dsv:Column ;
+    rdfs:label "Population" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/Culture8NPF727X/column/SportsandGames> a dsv:Column ;
+    rdfs:label "Sports and Games" ;
+    dsv:columnProperty "sport" .
+
+<http://metaUnionSearch/datasets/Culture8NPF727X/column/TraditionalArtsCraftsmanship> a dsv:Column ;
+    rdfs:label "Traditional Arts & Craftsmanship" ;
+    dsv:columnProperty "patron (art)" .
+
+<http://metaUnionSearch/datasets/Culture8NPF727X/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Culture8NPF727X/column/Climate>,
+        <http://metaUnionSearch/datasets/Culture8NPF727X/column/Cuisine>,
+        <http://metaUnionSearch/datasets/Culture8NPF727X/column/CulturalEvents>,
+        <http://metaUnionSearch/datasets/Culture8NPF727X/column/Currency>,
+        <http://metaUnionSearch/datasets/Culture8NPF727X/column/CustomaryPracticesandRituals>,
+        <http://metaUnionSearch/datasets/Culture8NPF727X/column/EducationSystem>,
+        <http://metaUnionSearch/datasets/Culture8NPF727X/column/GovernmentType>,
+        <http://metaUnionSearch/datasets/Culture8NPF727X/column/HeritageMonuments>,
+        <http://metaUnionSearch/datasets/Culture8NPF727X/column/Literature>,
+        <http://metaUnionSearch/datasets/Culture8NPF727X/column/NationalHolidays>,
+        <http://metaUnionSearch/datasets/Culture8NPF727X/column/Population>,
+        <http://metaUnionSearch/datasets/Culture8NPF727X/column/SportsandGames>,
+        <http://metaUnionSearch/datasets/Culture8NPF727X/column/TraditionalArtsCraftsmanship> .
+

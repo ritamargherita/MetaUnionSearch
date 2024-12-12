@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Philosophy19AHEJ8C> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_19AHEJ8C.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Philosophy19AHEJ8C/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/AdditionalMajorWorks> a dsv:Column ;
+    rdfs:label "Additional Major Works" ;
+    dsv:columnProperty "other works" .
+
+<http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/AffectedModernDisciplines> a dsv:Column ;
+    rdfs:label "Affected Modern Disciplines" ;
+    dsv:columnProperty "academic discipline" .
+
+<http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/PhilosopherBirthplace> a dsv:Column ;
+    rdfs:label "Philosopher Birthplace" ;
+    dsv:columnProperty "birth place" .
+
+<http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/PhilosophersEraStartYear> a dsv:Column ;
+    rdfs:label "Philosophers Era Start Year" ;
+    dsv:columnProperty "founding year" .
+
+<http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/PhilosophicalSchoolorMovement> a dsv:Column ;
+    rdfs:label "Philosophical School or Movement" ;
+    dsv:columnProperty "philosophicalSchool" .
+
+<http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/ReligionInfluencedbyThisPhilosophy> a dsv:Column ;
+    rdfs:label "Religion Influenced by This Philosophy" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/UnrelatedColumn10> a dsv:Column ;
+    rdfs:label "Unrelated Column 10" .
+
+<http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/UnrelatedColumn5> a dsv:Column ;
+    rdfs:label "Unrelated Column 5" .
+
+<http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/UnrelatedColumn6> a dsv:Column ;
+    rdfs:label "Unrelated Column 6" .
+
+<http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/UnrelatedColumn7> a dsv:Column ;
+    rdfs:label "Unrelated Column 7" .
+
+<http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/UnrelatedColumn8> a dsv:Column ;
+    rdfs:label "Unrelated Column 8" .
+
+<http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/UnrelatedColumn9> a dsv:Column ;
+    rdfs:label "Unrelated Column 9" .
+
+<http://metaUnionSearch/datasets/Philosophy19AHEJ8C/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/AdditionalMajorWorks>,
+        <http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/AffectedModernDisciplines>,
+        <http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/PhilosopherBirthplace>,
+        <http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/PhilosophersEraStartYear>,
+        <http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/PhilosophicalSchoolorMovement>,
+        <http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/ReligionInfluencedbyThisPhilosophy>,
+        <http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/UnrelatedColumn10>,
+        <http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/UnrelatedColumn5>,
+        <http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/UnrelatedColumn6>,
+        <http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/UnrelatedColumn7>,
+        <http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/UnrelatedColumn8>,
+        <http://metaUnionSearch/datasets/Philosophy19AHEJ8C/column/UnrelatedColumn9> .
+

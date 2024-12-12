@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_I4N2EX7Z.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/EngineManufacturer> a dsv:Column ;
+    rdfs:label "Engine Manufacturer" ;
+    dsv:columnProperty "manufacturer" .
+
+<http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/FuelTypes> a dsv:Column ;
+    rdfs:label "Fuel Types" ;
+    dsv:columnProperty "fuel type" .
+
+<http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/LaunchSite> a dsv:Column ;
+    rdfs:label "Launch Site" ;
+    dsv:columnProperty "launch site" .
+
+<http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/LaunchesThisYear> a dsv:Column ;
+    rdfs:label "Launches This Year" ;
+    dsv:columnProperty "launches" .
+
+<http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/MaxAltitudekm> a dsv:Column ;
+    rdfs:label "Max Altitude (km)" ;
+    dsv:columnProperty "highest altitude" .
+
+<http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/NextLaunchScheduled> a dsv:Column ;
+    rdfs:label "Next Launch Scheduled" ;
+    dsv:columnProperty "launch" .
+
+<http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/NumberOfStages> a dsv:Column ;
+    rdfs:label "Number Of Stages" ;
+    dsv:columnProperty "number of rocket stages" .
+
+<http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/Partnerships> a dsv:Column ;
+    rdfs:label "Partnerships" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/RocketType> a dsv:Column ;
+    rdfs:label "Rocket Type" ;
+    dsv:columnProperty "rocket" .
+
+<http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/TotalMasskg> a dsv:Column ;
+    rdfs:label "Total Mass (kg)" ;
+    dsv:columnProperty "total mass (g)" .
+
+<http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/EngineManufacturer>,
+        <http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/FuelTypes>,
+        <http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/LaunchSite>,
+        <http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/LaunchesThisYear>,
+        <http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/MaxAltitudekm>,
+        <http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/NextLaunchScheduled>,
+        <http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/NumberOfStages>,
+        <http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/Partnerships>,
+        <http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/RocketType>,
+        <http://metaUnionSearch/datasets/AstronauticsI4N2EX7Z/column/TotalMasskg> .
+

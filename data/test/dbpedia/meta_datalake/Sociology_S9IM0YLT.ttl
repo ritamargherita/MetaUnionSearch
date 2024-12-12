@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SociologyS9IM0YLT> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_S9IM0YLT.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SociologyS9IM0YLT/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/ChallengesEnountered> a dsv:Column ;
+    rdfs:label "ChallengesEnountered" ;
+    dsv:columnProperty "wins at challenges" .
+
+<http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/ComparisonWithOtherStudies> a dsv:Column ;
+    rdfs:label "ComparisonWithOtherStudies" ;
+    dsv:columnProperty "similar" .
+
+<http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/CulturalPractices> a dsv:Column ;
+    rdfs:label "CulturalPractices" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/DemographicsInformation> a dsv:Column ;
+    rdfs:label "DemographicsInformation" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/GeographicLocation> a dsv:Column ;
+    rdfs:label "GeographicLocation" ;
+    dsv:columnProperty "Location Identifier" .
+
+<http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/ImplicationsForSociologistsAndPolicyMakers> a dsv:Column ;
+    rdfs:label "ImplicationsForSociologistsAndPolicyMakers" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/LessonsLearnedNoteandindicatenonsemanticalignment> a dsv:Column ;
+    rdfs:label "LessonsLearned (Note: * and ** indicate non-semantic alignment)" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/QualitativeResults> a dsv:Column ;
+    rdfs:label "QualitativeResults" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/QuantitativeResults> a dsv:Column ;
+    rdfs:label "QuantitativeResults" ;
+    dsv:columnProperty "statistic" .
+
+<http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/SecondaryDataSources> a dsv:Column ;
+    rdfs:label "SecondaryDataSources" ;
+    dsv:columnProperty "second" .
+
+<http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/SocioeconomicStatus> a dsv:Column ;
+    rdfs:label "SocioeconomicStatus" ;
+    dsv:columnProperty "income" .
+
+<http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/StatisticalTestsUsed> a dsv:Column ;
+    rdfs:label "StatisticalTestsUsed" ;
+    dsv:columnProperty "statistic" .
+
+<http://metaUnionSearch/datasets/SociologyS9IM0YLT/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/ChallengesEnountered>,
+        <http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/ComparisonWithOtherStudies>,
+        <http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/CulturalPractices>,
+        <http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/DemographicsInformation>,
+        <http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/GeographicLocation>,
+        <http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/ImplicationsForSociologistsAndPolicyMakers>,
+        <http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/LessonsLearnedNoteandindicatenonsemanticalignment>,
+        <http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/QualitativeResults>,
+        <http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/QuantitativeResults>,
+        <http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/SecondaryDataSources>,
+        <http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/SocioeconomicStatus>,
+        <http://metaUnionSearch/datasets/SociologyS9IM0YLT/column/StatisticalTestsUsed> .
+

@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AnthropologyPH6H77Q5> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_PH6H77Q5.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/ArchaeologistName> a dsv:Column ;
+    rdfs:label "Archaeologist Name" ;
+    dsv:columnProperty "curator" .
+
+<http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/CarbonDatingResults> a dsv:Column ;
+    rdfs:label "Carbon Dating Results" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/CeramicAnalysis> a dsv:Column ;
+    rdfs:label "Ceramic Analysis" ;
+    dsv:columnProperty "material" .
+
+<http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/ClimateData> a dsv:Column ;
+    rdfs:label "Climate Data" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/DatingMethodsUsed> a dsv:Column ;
+    rdfs:label "Dating Methods Used" ;
+    dsv:columnProperty "date use" .
+
+<http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/ExcavationYear> a dsv:Column ;
+    rdfs:label "Excavation Year" ;
+    dsv:columnProperty "year of construction" .
+
+<http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/FaunalAnalysis> a dsv:Column ;
+    rdfs:label "Faunal Analysis" ;
+    dsv:columnProperty "fauna" .
+
+<http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/FieldNotes> a dsv:Column ;
+    rdfs:label "Field Notes" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/FloraAnalysis> a dsv:Column ;
+    rdfs:label "Flora Analysis" ;
+    dsv:columnProperty "flora" .
+
+<http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/GeographicalCoordinates> a dsv:Column ;
+    rdfs:label "Geographical Coordinates" .
+
+<http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/HumanRemainsStudy> a dsv:Column ;
+    rdfs:label "Human Remains Study" ;
+    dsv:columnProperty "body discovered" .
+
+<http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/LithicArtifactTypes> a dsv:Column ;
+    rdfs:label "Lithic Artifact Types" ;
+    dsv:columnProperty "kind of rock" .
+
+<http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/SoilAnalysis> a dsv:Column ;
+    rdfs:label "Soil Analysis" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/ArchaeologistName>,
+        <http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/CarbonDatingResults>,
+        <http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/CeramicAnalysis>,
+        <http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/ClimateData>,
+        <http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/DatingMethodsUsed>,
+        <http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/ExcavationYear>,
+        <http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/FaunalAnalysis>,
+        <http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/FieldNotes>,
+        <http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/FloraAnalysis>,
+        <http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/GeographicalCoordinates>,
+        <http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/HumanRemainsStudy>,
+        <http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/LithicArtifactTypes>,
+        <http://metaUnionSearch/datasets/AnthropologyPH6H77Q5/column/SoilAnalysis> .
+

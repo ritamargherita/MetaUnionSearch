@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeophysicsTM63RMAJ> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_TM63RMAJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/AttenuationFactors> a dsv:Column ;
+    rdfs:label "Attenuation Factors" ;
+    dsv:columnProperty "acceleration (s)" .
+
+<http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/CrustalStructure> a dsv:Column ;
+    rdfs:label "Crustal Structure" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/DensityStructures> a dsv:Column ;
+    rdfs:label "Density Structures" ;
+    dsv:columnProperty "density (μ3)" .
+
+<http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/LayerThickness> a dsv:Column ;
+    rdfs:label "Layer Thickness" ;
+    dsv:columnProperty "depth (μ)" .
+
+<http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/PwavetoSwaveVelocityRatio> a dsv:Column ;
+    rdfs:label "P-wave to S-wave Velocity Ratio" ;
+    dsv:columnProperty "ratio" .
+
+<http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/RefractionCoefficients> a dsv:Column ;
+    rdfs:label "Refraction Coefficients" ;
+    dsv:columnProperty "ratio" .
+
+<http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/RockPhysics> a dsv:Column ;
+    rdfs:label "Rock Physics" ;
+    dsv:columnProperty "kind of rock" .
+
+<http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/SeismicAnisotropy> a dsv:Column ;
+    rdfs:label "Seismic Anisotropy" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/SeismicNoiseLevels> a dsv:Column ;
+    rdfs:label "Seismic Noise Levels" ;
+    dsv:columnProperty "volcanic activity" .
+
+<http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/ShearSandCompressionalPWavesProperties> a dsv:Column ;
+    rdfs:label "Shear (S) and Compressional (P) Waves Properties" ;
+    dsv:columnProperty "compression ratio" .
+
+<http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/SwaveVelocity> a dsv:Column ;
+    rdfs:label "S-wave Velocity" ;
+    dsv:columnProperty "average speed (kmh)" .
+
+<http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/AttenuationFactors>,
+        <http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/CrustalStructure>,
+        <http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/DensityStructures>,
+        <http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/LayerThickness>,
+        <http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/PwavetoSwaveVelocityRatio>,
+        <http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/RefractionCoefficients>,
+        <http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/RockPhysics>,
+        <http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/SeismicAnisotropy>,
+        <http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/SeismicNoiseLevels>,
+        <http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/ShearSandCompressionalPWavesProperties>,
+        <http://metaUnionSearch/datasets/GeophysicsTM63RMAJ/column/SwaveVelocity> .
+

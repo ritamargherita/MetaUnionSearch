@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Musical Key",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/musicalKey"
+    },
+    {
+      "column_header": "Time Signature",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/signature"
+    },
+    {
+      "column_header": "Tempo (BPM)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/playingTime"
+    },
+    {
+      "column_header": "Lyrics by",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/lyrics"
+    },
+    {
+      "column_header": "Origin",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/origin"
+    },
+    {
+      "column_header": "Subgenres",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/musicSubgenre"
+    },
+    {
+      "column_header": "Professional reviews",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/review"
+    },
+    {
+      "column_header": "Live performances",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfLiveAlbums"
+    },
+    {
+      "column_header": "Audience size",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfPeopleAttending"
+    },
+    {
+      "column_header": "Satisfaction score*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    }
+  ]
+}

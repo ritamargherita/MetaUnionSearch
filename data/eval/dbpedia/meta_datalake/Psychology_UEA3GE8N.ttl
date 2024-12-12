@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PsychologyUEA3GE8N> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_UEA3GE8N.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PsychologyUEA3GE8N/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/Age> a dsv:Column ;
+    rdfs:label "Age" ;
+    dsv:columnProperty "age" .
+
+<http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/AnnualIncome> a dsv:Column ;
+    rdfs:label "AnnualIncome" ;
+    dsv:columnProperty "annual temperature (K)" .
+
+<http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/DateOfBirth> a dsv:Column ;
+    rdfs:label "DateOfBirth" ;
+    dsv:columnProperty "birth date" .
+
+<http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/EducationLevel> a dsv:Column ;
+    rdfs:label "EducationLevel" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/Gender> a dsv:Column ;
+    rdfs:label "Gender" ;
+    dsv:columnProperty "gender" .
+
+<http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/HasChildren> a dsv:Column ;
+    rdfs:label "HasChildren" ;
+    dsv:columnProperty "child" .
+
+<http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/MaritalStatus> a dsv:Column ;
+    rdfs:label "MaritalStatus" ;
+    dsv:columnProperty "spouse" .
+
+<http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/Occupation> a dsv:Column ;
+    rdfs:label "Occupation" ;
+    dsv:columnProperty "occupation" .
+
+<http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/PersonalityType> a dsv:Column ;
+    rdfs:label "PersonalityType" ;
+    dsv:columnProperty "person" .
+
+<http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/SubjectID> a dsv:Column ;
+    rdfs:label "SubjectID" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/Trait6> a dsv:Column ;
+    rdfs:label "Trait6" ;
+    dsv:columnProperty "appearance" .
+
+<http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/Trait7> a dsv:Column ;
+    rdfs:label "Trait7" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/PsychologyUEA3GE8N/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/Age>,
+        <http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/AnnualIncome>,
+        <http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/DateOfBirth>,
+        <http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/EducationLevel>,
+        <http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/Gender>,
+        <http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/HasChildren>,
+        <http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/MaritalStatus>,
+        <http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/Occupation>,
+        <http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/PersonalityType>,
+        <http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/SubjectID>,
+        <http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/Trait6>,
+        <http://metaUnionSearch/datasets/PsychologyUEA3GE8N/column/Trait7> .
+

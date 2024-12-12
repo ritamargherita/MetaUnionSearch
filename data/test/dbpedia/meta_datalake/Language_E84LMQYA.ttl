@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LanguageE84LMQYA> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_E84LMQYA.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LanguageE84LMQYA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LanguageE84LMQYA/column/BorrowingAndLexiconEnrichment> a dsv:Column ;
+    rdfs:label "Borrowing And Lexicon Enrichment" ;
+    dsv:columnProperty "other language of a settlement" .
+
+<http://metaUnionSearch/datasets/LanguageE84LMQYA/column/CodeSwitchingFrequency> a dsv:Column ;
+    rdfs:label "Code Switching Frequency" ;
+    dsv:columnProperty "linguistics tradition" .
+
+<http://metaUnionSearch/datasets/LanguageE84LMQYA/column/DialectalVariation> a dsv:Column ;
+    rdfs:label "Dialectal Variation" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/LanguageE84LMQYA/column/EducationalImportance> a dsv:Column ;
+    rdfs:label "Educational Importance" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/LanguageE84LMQYA/column/GlottochronologyLog> a dsv:Column ;
+    rdfs:label "Glottochronology Log" ;
+    dsv:columnProperty "linguistics tradition" .
+
+<http://metaUnionSearch/datasets/LanguageE84LMQYA/column/HistoricalDevelopment> a dsv:Column ;
+    rdfs:label "Historical Development" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/LanguageE84LMQYA/column/ImpactOnTechnologyInternet> a dsv:Column ;
+    rdfs:label "Impact On Technology & Internet" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/LanguageE84LMQYA/column/LanguageContact> a dsv:Column ;
+    rdfs:label "Language Contact" ;
+    dsv:columnProperty "linguistics tradition" .
+
+<http://metaUnionSearch/datasets/LanguageE84LMQYA/column/LegalStatusUse> a dsv:Column ;
+    rdfs:label "Legal Status & Use" ;
+    dsv:columnProperty "status" .
+
+<http://metaUnionSearch/datasets/LanguageE84LMQYA/column/LinguisticArea> a dsv:Column ;
+    rdfs:label "Linguistic Area" ;
+    dsv:columnProperty "other language of a settlement" .
+
+<http://metaUnionSearch/datasets/LanguageE84LMQYA/column/LiteraryTradition> a dsv:Column ;
+    rdfs:label "Literary Tradition" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/LanguageE84LMQYA/column/PopularCultureReferences> a dsv:Column ;
+    rdfs:label "Popular Culture References" ;
+    dsv:columnProperty "other media" .
+
+<http://metaUnionSearch/datasets/LanguageE84LMQYA/column/ReligiousImpactOnLanguage> a dsv:Column ;
+    rdfs:label "Religious Impact On Language" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/LanguageE84LMQYA/column/TypeOfLanguage> a dsv:Column ;
+    rdfs:label "Type Of Language" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/LanguageE84LMQYA/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LanguageE84LMQYA/column/BorrowingAndLexiconEnrichment>,
+        <http://metaUnionSearch/datasets/LanguageE84LMQYA/column/CodeSwitchingFrequency>,
+        <http://metaUnionSearch/datasets/LanguageE84LMQYA/column/DialectalVariation>,
+        <http://metaUnionSearch/datasets/LanguageE84LMQYA/column/EducationalImportance>,
+        <http://metaUnionSearch/datasets/LanguageE84LMQYA/column/GlottochronologyLog>,
+        <http://metaUnionSearch/datasets/LanguageE84LMQYA/column/HistoricalDevelopment>,
+        <http://metaUnionSearch/datasets/LanguageE84LMQYA/column/ImpactOnTechnologyInternet>,
+        <http://metaUnionSearch/datasets/LanguageE84LMQYA/column/LanguageContact>,
+        <http://metaUnionSearch/datasets/LanguageE84LMQYA/column/LegalStatusUse>,
+        <http://metaUnionSearch/datasets/LanguageE84LMQYA/column/LinguisticArea>,
+        <http://metaUnionSearch/datasets/LanguageE84LMQYA/column/LiteraryTradition>,
+        <http://metaUnionSearch/datasets/LanguageE84LMQYA/column/PopularCultureReferences>,
+        <http://metaUnionSearch/datasets/LanguageE84LMQYA/column/ReligiousImpactOnLanguage>,
+        <http://metaUnionSearch/datasets/LanguageE84LMQYA/column/TypeOfLanguage> .
+

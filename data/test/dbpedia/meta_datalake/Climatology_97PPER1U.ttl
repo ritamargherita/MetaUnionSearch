@@ -1,0 +1,89 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Climatology97PPER1U> a dsv:Dataset ;
+    dcterms:subject "climatology" ;
+    dcterms:title "Climatology_97PPER1U.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Climatology97PPER1U/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Climatology97PPER1U/column/AnnualRainfallChangesdevianceormmincrease> a dsv:Column ;
+    rdfs:label """
+Annual Rainfall Changes ({% deviance or mm increase})""" ;
+    dsv:columnProperty "annual temperature (K)" .
+
+<http://metaUnionSearch/datasets/Climatology97PPER1U/column/AnthropogenicForcingIndexesindexnamesuchasCO2forcingindexetc> a dsv:Column ;
+    rdfs:label """
+Anthropogenic Forcing Indexes {(*index name such as CO_2 forcing index etc.*)}""" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/Climatology97PPER1U/column/BiosphereImpactSummarizedeffectsummary> a dsv:Column ;
+    rdfs:label """
+Biosphere Impact Summarized{*(effect summary)*}""" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/Climatology97PPER1U/column/CarbonDioxideConcentrationLevelppmvpartspermillionbyvolume> a dsv:Column ;
+    rdfs:label """
+Carbon Dioxide Concentration Level(ppmv - parts per million by volume)""" ;
+    dsv:columnProperty "CO2 emission (g/km)" .
+
+<http://metaUnionSearch/datasets/Climatology97PPER1U/column/ClimateType> a dsv:Column ;
+    rdfs:label """
+Climate Type""" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/Climatology97PPER1U/column/CycloneIntensityTrendincreasingORdecreasedwithcategorychanges> a dsv:Column ;
+    rdfs:label """
+Cyclone Intensity Trend({increasing OR decreased with category changes})""" ;
+    dsv:columnProperty "bioclimate" .
+
+<http://metaUnionSearch/datasets/Climatology97PPER1U/column/Extremeweathereventstrendspecificextremeeventtypelikeheatwavesdrought> a dsv:Column ;
+    rdfs:label """
+Extreme weather events trend {(*specific extreme event type* like heatwaves, drought)}""" ;
+    dsv:columnProperty "event" .
+
+<http://metaUnionSearch/datasets/Climatology97PPER1U/column/GlacierMeltingExtentchangeannually> a dsv:Column ;
+    rdfs:label """
+Glacier Melting Extent(% change annually)""" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/Climatology97PPER1U/column/GlobalMeanTempIncreaseoCfrompreindustrial> a dsv:Column ;
+    rdfs:label """
+Global Mean Temp Increase (^o C from preindustrial)""" ;
+    dsv:columnProperty "mean temperature (K)" .
+
+<http://metaUnionSearch/datasets/Climatology97PPER1U/column/MethaneConcentrationLevelsppbvpartsperbillionbyvolume> a dsv:Column ;
+    rdfs:label """
+Methane Concentration Levels {(ppbv - parts per billion by volume)}""" ;
+    dsv:columnProperty "CO2 emission (g/km)" .
+
+<http://metaUnionSearch/datasets/Climatology97PPER1U/column/OceanAcidificationpHLevelspHTunitsdecreaseindicatingacidityrise> a dsv:Column ;
+    rdfs:label """
+Ocean Acidification pH Levels{pHT units decrease indicating acidity rise }""" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/Climatology97PPER1U/column/SealevelRiseRatemmyearannualrate> a dsv:Column ;
+    rdfs:label """
+Sea level Rise Rate ((mm /year) - annual rate)""" ;
+    dsv:columnProperty "annual temperature (K)" .
+
+<http://metaUnionSearch/datasets/Climatology97PPER1U/column/StormFrequencyChangenumberofstormsyear> a dsv:Column ;
+    rdfs:label """
+Storm Frequency Change({number of storms/ year})""" ;
+    dsv:columnProperty "frequency of publication" .
+
+<http://metaUnionSearch/datasets/Climatology97PPER1U/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Climatology97PPER1U/column/AnnualRainfallChangesdevianceormmincrease>,
+        <http://metaUnionSearch/datasets/Climatology97PPER1U/column/AnthropogenicForcingIndexesindexnamesuchasCO2forcingindexetc>,
+        <http://metaUnionSearch/datasets/Climatology97PPER1U/column/BiosphereImpactSummarizedeffectsummary>,
+        <http://metaUnionSearch/datasets/Climatology97PPER1U/column/CarbonDioxideConcentrationLevelppmvpartspermillionbyvolume>,
+        <http://metaUnionSearch/datasets/Climatology97PPER1U/column/ClimateType>,
+        <http://metaUnionSearch/datasets/Climatology97PPER1U/column/CycloneIntensityTrendincreasingORdecreasedwithcategorychanges>,
+        <http://metaUnionSearch/datasets/Climatology97PPER1U/column/Extremeweathereventstrendspecificextremeeventtypelikeheatwavesdrought>,
+        <http://metaUnionSearch/datasets/Climatology97PPER1U/column/GlacierMeltingExtentchangeannually>,
+        <http://metaUnionSearch/datasets/Climatology97PPER1U/column/GlobalMeanTempIncreaseoCfrompreindustrial>,
+        <http://metaUnionSearch/datasets/Climatology97PPER1U/column/MethaneConcentrationLevelsppbvpartsperbillionbyvolume>,
+        <http://metaUnionSearch/datasets/Climatology97PPER1U/column/OceanAcidificationpHLevelspHTunitsdecreaseindicatingacidityrise>,
+        <http://metaUnionSearch/datasets/Climatology97PPER1U/column/SealevelRiseRatemmyearannualrate>,
+        <http://metaUnionSearch/datasets/Climatology97PPER1U/column/StormFrequencyChangenumberofstormsyear> .
+

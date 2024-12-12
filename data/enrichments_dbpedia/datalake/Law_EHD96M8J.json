@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Legislative Jurisdiction",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/jurisdiction"
+    },
+    {
+      "column_header": "Legislature Session",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/legislativePeriodName"
+    },
+    {
+      "column_header": "Bill Number",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/number"
+    },
+    {
+      "column_header": "Legislative Body Composition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/legislature"
+    },
+    {
+      "column_header": "Committee Involved",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/committeeInLegislature"
+    },
+    {
+      "column_header": "Lobbyist Information",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    },
+    {
+      "column_header": "Voting Record",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/overallRecord"
+    },
+    {
+      "column_header": "Amendments Proposed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/amendment"
+    },
+    {
+      "column_header": "Amendment Votes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/votesFor"
+    },
+    {
+      "column_header": "Passage Vote & Final Reading Result",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/votesFor"
+    },
+    {
+      "column_header": "Budgetary Impact",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/budget"
+    },
+    {
+      "column_header": "Implementation Timeline",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dateBudget"
+    },
+    {
+      "column_header": "Case Impact Analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/case"
+    }
+  ]
+}

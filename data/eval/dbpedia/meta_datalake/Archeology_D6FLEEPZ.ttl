@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_D6FLEEPZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/ArchaeologicalFindings> a dsv:Column ;
+    rdfs:label "Archaeological Findings" ;
+    dsv:columnProperty "fossil" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/CollaborativeProject> a dsv:Column ;
+    rdfs:label "Collaborative Project" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/Coordinates> a dsv:Column ;
+    rdfs:label "Coordinates" ;
+    dsv:columnProperty "kind of coordinate" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/Culture> a dsv:Column ;
+    rdfs:label "Culture" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/ErodingStatus> a dsv:Column ;
+    rdfs:label "Eroding Status" ;
+    dsv:columnProperty "current status" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/FundAllocation> a dsv:Column ;
+    rdfs:label "Fund Allocation" ;
+    dsv:columnProperty "project budget funding ($)" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/FundingAgency> a dsv:Column ;
+    rdfs:label "Funding Agency" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/JewelryTypes> a dsv:Column ;
+    rdfs:label "Jewelry Types" ;
+    dsv:columnProperty "decoration" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/LeadInvestigator> a dsv:Column ;
+    rdfs:label "Lead Investigator" ;
+    dsv:columnProperty "project participant" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/NumberOfBurials> a dsv:Column ;
+    rdfs:label "Number Of Burials" ;
+    dsv:columnProperty "number of graves" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/PotteryStyles> a dsv:Column ;
+    rdfs:label "Pottery Styles" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/RadiocarbonDating> a dsv:Column ;
+    rdfs:label "Radiocarbon Dating" ;
+    dsv:columnProperty "date of burial" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/SepultureType> a dsv:Column ;
+    rdfs:label "Sepulture Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/SurveyMethod> a dsv:Column ;
+    rdfs:label "Survey Method" ;
+    dsv:columnProperty "Method of discovery" .
+
+<http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/ArchaeologicalFindings>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/CollaborativeProject>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/Coordinates>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/Culture>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/ErodingStatus>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/FundAllocation>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/FundingAgency>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/JewelryTypes>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/LeadInvestigator>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/NumberOfBurials>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/PotteryStyles>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/RadiocarbonDating>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/SepultureType>,
+        <http://metaUnionSearch/datasets/ArcheologyD6FLEEPZ/column/SurveyMethod> .
+

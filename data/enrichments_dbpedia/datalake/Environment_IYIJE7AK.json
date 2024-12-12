@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Renewable_Energy_Contribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/production"
+    },
+    {
+      "column_header": "Natural_Disaster_Frequency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/casualties"
+    },
+    {
+      "column_header": "Endangered_Species_Listed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/endangeredSince"
+    },
+    {
+      "column_header": "Conservation_Efforts_Budget",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectBudgetFunding"
+    },
+    {
+      "column_header": "Climate_Change_Impact_Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Ecological_Footprint",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Recycling_Rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Sustainable_Farming_Practices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cultivatedVariety"
+    },
+    {
+      "column_header": "Community_Education_Level",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/education"
+    },
+    {
+      "column_header": "Urban_Planning_Index",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/urbanArea"
+    }
+  ]
+}

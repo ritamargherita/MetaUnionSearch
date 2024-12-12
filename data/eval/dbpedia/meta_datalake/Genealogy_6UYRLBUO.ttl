@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Genealogy6UYRLBUO> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_6UYRLBUO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Genealogy6UYRLBUO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/AfricanAmericanPopulation> a dsv:Column ;
+    rdfs:label "AfricanAmericanPopulation" ;
+    dsv:columnProperty "ethnic group" .
+
+<http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/AsianPopulation> a dsv:Column ;
+    rdfs:label "AsianPopulation" ;
+    dsv:columnProperty "ethnic group" .
+
+<http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/AvgGenerationalStatusInFamily> a dsv:Column ;
+    rdfs:label "AvgGenerationalStatusInFamily" ;
+    dsv:columnProperty "family" .
+
+<http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/CensusYear> a dsv:Column ;
+    rdfs:label "CensusYear" ;
+    dsv:columnProperty "census year" .
+
+<http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/CityOrTown> a dsv:Column ;
+    rdfs:label "CityOrTown" ;
+    dsv:columnProperty "city" .
+
+<http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/CountyName> a dsv:Column ;
+    rdfs:label "CountyName" ;
+    dsv:columnProperty "county" .
+
+<http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/HispanicLatinoPop> a dsv:Column ;
+    rdfs:label "Hispanic/LatinoPop." ;
+    dsv:columnProperty "ethnic group" .
+
+<http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/HouseholdSizeAvg> a dsv:Column ;
+    rdfs:label "HouseholdSizeAvg" ;
+    dsv:columnProperty "house" .
+
+<http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/MedianHouseValue> a dsv:Column ;
+    rdfs:label "MedianHouseValue" ;
+    dsv:columnProperty "value" .
+
+<http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/NativeAmericanPopulation> a dsv:Column ;
+    rdfs:label "NativeAmericanPopulation" ;
+    dsv:columnProperty "ethnic group" .
+
+<http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/StateAbbreviation> a dsv:Column ;
+    rdfs:label "StateAbbreviation" ;
+    dsv:columnProperty "abbreviation" .
+
+<http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/TotalPopulation> a dsv:Column ;
+    rdfs:label "TotalPopulation" ;
+    dsv:columnProperty "total population" .
+
+<http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/WhitePopulation> a dsv:Column ;
+    rdfs:label "WhitePopulation" ;
+    dsv:columnProperty "ethnic group" .
+
+<http://metaUnionSearch/datasets/Genealogy6UYRLBUO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/AfricanAmericanPopulation>,
+        <http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/AsianPopulation>,
+        <http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/AvgGenerationalStatusInFamily>,
+        <http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/CensusYear>,
+        <http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/CityOrTown>,
+        <http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/CountyName>,
+        <http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/HispanicLatinoPop>,
+        <http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/HouseholdSizeAvg>,
+        <http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/MedianHouseValue>,
+        <http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/NativeAmericanPopulation>,
+        <http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/StateAbbreviation>,
+        <http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/TotalPopulation>,
+        <http://metaUnionSearch/datasets/Genealogy6UYRLBUO/column/WhitePopulation> .
+

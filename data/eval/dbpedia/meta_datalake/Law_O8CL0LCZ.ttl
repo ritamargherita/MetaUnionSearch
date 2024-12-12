@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_O8CL0LCZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawO8CL0LCZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/AmendmentHistory> a dsv:Column ;
+    rdfs:label "Amendment History" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/BillNumber> a dsv:Column ;
+    rdfs:label "Bill Number" ;
+    dsv:columnProperty "number" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/ComplianceDeadline> a dsv:Column ;
+    rdfs:label "Compliance Deadline" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/EffectiveDate> a dsv:Column ;
+    rdfs:label "Effective Date" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/EnforcementBodies> a dsv:Column ;
+    rdfs:label "Enforcement Bodies" ;
+    dsv:columnProperty "governing body" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/LawType> a dsv:Column ;
+    rdfs:label "Law Type" ;
+    dsv:columnProperty "legal form" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/LegislativeJurisdiction> a dsv:Column ;
+    rdfs:label "Legislative Jurisdiction" ;
+    dsv:columnProperty "jurisdiction" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/LegislatureSession> a dsv:Column ;
+    rdfs:label "Legislature Session" ;
+    dsv:columnProperty "legislative period name" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/PenaltiesforNoncompliance> a dsv:Column ;
+    rdfs:label "Penaltiesfor Noncompliance" ;
+    dsv:columnProperty "penalty score" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/ProposerDetails> a dsv:Column ;
+    rdfs:label "Proposer Details" ;
+    dsv:columnProperty "governing body" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/PublicationInformation> a dsv:Column ;
+    rdfs:label "Publication Information" ;
+    dsv:columnProperty "publication" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/RegulatingBody> a dsv:Column ;
+    rdfs:label "Regulating Body" ;
+    dsv:columnProperty "governing body" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/RegulationsDetailed> a dsv:Column ;
+    rdfs:label "Regulations Detailed" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/TopicCategory> a dsv:Column ;
+    rdfs:label "Topic Category" ;
+    dsv:columnProperty "topic" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/column/URL> a dsv:Column ;
+    rdfs:label "URL" ;
+    dsv:columnProperty "The URL at which this file can be downloaded" .
+
+<http://metaUnionSearch/datasets/LawO8CL0LCZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/AmendmentHistory>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/BillNumber>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/ComplianceDeadline>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/EffectiveDate>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/EnforcementBodies>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/LawType>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/LegislativeJurisdiction>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/LegislatureSession>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/PenaltiesforNoncompliance>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/ProposerDetails>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/PublicationInformation>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/RegulatingBody>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/RegulationsDetailed>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/TopicCategory>,
+        <http://metaUnionSearch/datasets/LawO8CL0LCZ/column/URL> .
+

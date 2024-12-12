@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeomancyBO1EPMKV> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_BO1EPMKV.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeomancyBO1EPMKV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/GeographicalDistribution> a dsv:Column ;
+    rdfs:label "Geographical Distribution" ;
+    dsv:columnProperty "number of locations" .
+
+<http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/GeomanticInfluencesonArchitecture> a dsv:Column ;
+    rdfs:label "Geomantic Influences on Architecture" ;
+    dsv:columnProperty "architectural style" .
+
+<http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/GeomanticRitualsPractices> a dsv:Column ;
+    rdfs:label "Geomantic Rituals & Practices" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/GeomanticToolsEquipment> a dsv:Column ;
+    rdfs:label "Geomantic Tools & Equipment" ;
+    dsv:columnProperty "equipment" .
+
+<http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/HistoricalDevelopmentStages> a dsv:Column ;
+    rdfs:label "Historical Development Stages" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/LegendaryArtifactsConnectivity> a dsv:Column ;
+    rdfs:label "Legendary Artifacts Connectivity" ;
+    dsv:columnProperty "relics" .
+
+<http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/ModernAdaptationsofGeomancy> a dsv:Column ;
+    rdfs:label "Modern Adaptations of Geomancy" ;
+    dsv:columnProperty "notableIdea" .
+
+<http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/MythologicalFolkloricTales> a dsv:Column ;
+    rdfs:label "Mythological & Folkloric Tales" ;
+    dsv:columnProperty "mythology" .
+
+<http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/PopularCulturalReferences> a dsv:Column ;
+    rdfs:label "Popular Cultural References" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/ProminentFiguresTheirContributions> a dsv:Column ;
+    rdfs:label "Prominent Figures & Their Contributions" ;
+    dsv:columnProperty "notable features" .
+
+<http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/ReligiousAssociationAndPractices> a dsv:Column ;
+    rdfs:label "Religious Association And Practices" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/SymbolicImagesMeanings> a dsv:Column ;
+    rdfs:label "Symbolic Images & Meanings" ;
+    dsv:columnProperty "meaning" .
+
+<http://metaUnionSearch/datasets/GeomancyBO1EPMKV/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/GeographicalDistribution>,
+        <http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/GeomanticInfluencesonArchitecture>,
+        <http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/GeomanticRitualsPractices>,
+        <http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/GeomanticToolsEquipment>,
+        <http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/HistoricalDevelopmentStages>,
+        <http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/LegendaryArtifactsConnectivity>,
+        <http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/ModernAdaptationsofGeomancy>,
+        <http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/MythologicalFolkloricTales>,
+        <http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/PopularCulturalReferences>,
+        <http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/ProminentFiguresTheirContributions>,
+        <http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/ReligiousAssociationAndPractices>,
+        <http://metaUnionSearch/datasets/GeomancyBO1EPMKV/column/SymbolicImagesMeanings> .
+

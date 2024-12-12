@@ -1,0 +1,99 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_USSR6GI0.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/AvgRainfallmm> a dsv:Column ;
+    rdfs:label "Avg_Rainfall_mm" ;
+    dsv:columnProperty "pluviometry" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/AvgTemperatureC> a dsv:Column ;
+    rdfs:label "Avg_Temperature_C" ;
+    dsv:columnProperty "temperature (K)" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/BiodiversityIndex> a dsv:Column ;
+    rdfs:label "Biodiversity_Index" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/ClimateChangeAwarenessSurveyResults> a dsv:Column ;
+    rdfs:label "Climate_Change_Awareness_Survey_Results" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/EcologicalBalanceIndex> a dsv:Column ;
+    rdfs:label "Ecological_Balance_Index" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/FashionablyGreenSpaces> a dsv:Column ;
+    rdfs:label "Fashionably_Green_Spaces" ;
+    dsv:columnProperty "colour name" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/ForestAreakm2> a dsv:Column ;
+    rdfs:label "Forest_Area_km2" ;
+    dsv:columnProperty "area land (m2)" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/GreenInfrastructureImpactScore> a dsv:Column ;
+    rdfs:label "Green_Infrastructure_Impact_Score" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/IndustrialEmissionskgperday> a dsv:Column ;
+    rdfs:label "Industrial_Emissions_kgper_day" ;
+    dsv:columnProperty "CO2 emission (g/km)" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/LegislationStatus> a dsv:Column ;
+    rdfs:label "Legislation_Status" ;
+    dsv:columnProperty "current status" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/NoisyAreasPercentage> a dsv:Column ;
+    rdfs:label "Noisy_Areas_Percentage" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/PollutionLevel> a dsv:Column ;
+    rdfs:label "Pollution_Level" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/PopulationDensity> a dsv:Column ;
+    rdfs:label "Population_Density" ;
+    dsv:columnProperty "population density (/sqkm)" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/PublicEngagementScore> a dsv:Column ;
+    rdfs:label "Public_Engagement_Score" ;
+    dsv:columnProperty "score" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/RecyclingRate> a dsv:Column ;
+    rdfs:label "Recycling_Rate" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/SoilHealthIndex> a dsv:Column ;
+    rdfs:label "Soil_Health_Index" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/SpeciesCount> a dsv:Column ;
+    rdfs:label "Species_Count" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/WildlifeCorridorsKm2> a dsv:Column ;
+    rdfs:label "Wildlife_Corridors_Km2" ;
+    dsv:columnProperty "area (m2)" .
+
+<http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/AvgRainfallmm>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/AvgTemperatureC>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/BiodiversityIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/ClimateChangeAwarenessSurveyResults>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/EcologicalBalanceIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/FashionablyGreenSpaces>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/ForestAreakm2>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/GreenInfrastructureImpactScore>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/IndustrialEmissionskgperday>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/LegislationStatus>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/NoisyAreasPercentage>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/PollutionLevel>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/PopulationDensity>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/PublicEngagementScore>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/RecyclingRate>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/SoilHealthIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/SpeciesCount>,
+        <http://metaUnionSearch/datasets/EnvironmentUSSR6GI0/column/WildlifeCorridorsKm2> .
+

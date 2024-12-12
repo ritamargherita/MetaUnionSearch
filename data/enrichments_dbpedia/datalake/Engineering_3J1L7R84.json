@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Engineered Systems v2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": "Design Process",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/significantDesign"
+    },
+    {
+      "column_header": "Project Milestones",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    },
+    {
+      "column_header": "Original Equipment Manufacturer",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/manufacturer"
+    },
+    {
+      "column_header": "Additional Components #",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/component"
+    },
+    {
+      "column_header": "Cost Breakdown*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cost"
+    },
+    {
+      "column_header": "Verification & Validation*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/criteria"
+    },
+    {
+      "column_header": "Risk Management",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/management"
+    },
+    {
+      "column_header": "Collaborating Partners",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Geographical Locations*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Project Team",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/team"
+    },
+    {
+      "column_header": "Project Scope",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"
+    },
+    {
+      "column_header": "Project Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/status"
+    },
+    {
+      "column_header": "Project Manager",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/manager"
+    }
+  ]
+}

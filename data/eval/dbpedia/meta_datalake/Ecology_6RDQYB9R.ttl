@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Ecology6RDQYB9R> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_6RDQYB9R.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Ecology6RDQYB9R/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/Biodiversity> a dsv:Column ;
+    rdfs:label "Biodiversity" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/CarbonCycle> a dsv:Column ;
+    rdfs:label "Carbon Cycle" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/ClimateChangeImpact> a dsv:Column ;
+    rdfs:label "Climate Change Impact." ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/EcologicalSuccession> a dsv:Column ;
+    rdfs:label "Ecological Succession" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/FoodWebs> a dsv:Column ;
+    rdfs:label "Food Webs" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/HumanDependenceonEcology> a dsv:Column ;
+    rdfs:label "Human Dependence on Ecology" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/InvasiveSpecies> a dsv:Column ;
+    rdfs:label "Invasive Species" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/NativeSpecies> a dsv:Column ;
+    rdfs:label "Native Species" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/NitrogenCycle> a dsv:Column ;
+    rdfs:label "Nitrogen Cycle" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/Photosynthesis> a dsv:Column ;
+    rdfs:label "Photosynthesis" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/PopulationDynamics> a dsv:Column ;
+    rdfs:label "Population Dynamics" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/WaterCycle> a dsv:Column ;
+    rdfs:label "Water Cycle" ;
+    dsv:columnProperty "water" .
+
+<http://metaUnionSearch/datasets/Ecology6RDQYB9R/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/Biodiversity>,
+        <http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/CarbonCycle>,
+        <http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/ClimateChangeImpact>,
+        <http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/EcologicalSuccession>,
+        <http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/FoodWebs>,
+        <http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/HumanDependenceonEcology>,
+        <http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/InvasiveSpecies>,
+        <http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/NativeSpecies>,
+        <http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/NitrogenCycle>,
+        <http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/Photosynthesis>,
+        <http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/PopulationDynamics>,
+        <http://metaUnionSearch/datasets/Ecology6RDQYB9R/column/WaterCycle> .
+

@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhilosophyL73D9PH3> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_L73D9PH3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhilosophyL73D9PH3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/CenturyOriginating> a dsv:Column ;
+    rdfs:label "Century Originating" ;
+    dsv:columnProperty "year of creation" .
+
+<http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/CulturalSignificance> a dsv:Column ;
+    rdfs:label "Cultural Significance" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/EconomicEffects> a dsv:Column ;
+    rdfs:label "Economic Effects" ;
+    dsv:columnProperty "income" .
+
+<http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/MainIdeasCovered> a dsv:Column ;
+    rdfs:label "Main Ideas Covered" ;
+    dsv:columnProperty "topic" .
+
+<http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/PhilosophicEra> a dsv:Column ;
+    rdfs:label "Philosophic Era" ;
+    dsv:columnProperty "era" .
+
+<http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/PoliticsGovernment> a dsv:Column ;
+    rdfs:label "Politics & Government" ;
+    dsv:columnProperty "government" .
+
+<http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/ReligiousImpact> a dsv:Column ;
+    rdfs:label "Religious Impact" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/ScientificContributions> a dsv:Column ;
+    rdfs:label "Scientific Contributions" ;
+    dsv:columnProperty "scientific name" .
+
+<http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/SocialImplications> a dsv:Column ;
+    rdfs:label "Social Implications" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/TechnologicalAdvances> a dsv:Column ;
+    rdfs:label "Technological Advances" .
+
+<http://metaUnionSearch/datasets/PhilosophyL73D9PH3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/CenturyOriginating>,
+        <http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/CulturalSignificance>,
+        <http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/EconomicEffects>,
+        <http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/MainIdeasCovered>,
+        <http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/PhilosophicEra>,
+        <http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/PoliticsGovernment>,
+        <http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/ReligiousImpact>,
+        <http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/ScientificContributions>,
+        <http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/SocialImplications>,
+        <http://metaUnionSearch/datasets/PhilosophyL73D9PH3/column/TechnologicalAdvances> .
+

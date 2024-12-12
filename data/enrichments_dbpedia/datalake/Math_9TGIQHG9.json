@@ -1,14 +1,14 @@
 {
   "mapping": [
-    {"column_header": ""Number Type"", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
-    {"column_header": ""Identities"", "dbpedia_property_id": "http://dbpedia.org/ontology/identificationSymbol"},
-    {"column_header": ""Fractions & Decimals"", "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"},
-    {"column_header": ""Algebraic Expressions"", "dbpedia_property_id": "http://dbpedia.org/ontology/formula"},
-    {"column_header": ""Geometry - Shapes"", "dbpedia_property_id": "http://dbpedia.org/ontology/productShape"},
-    {"column_header": ""Geometry - Measurements"", "dbpedia_property_id": "http://dbpedia.org/ontology/measurements"},
-    {"column_header": ""Measurement Tools"", "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"},
-    {"column_header": ""Historical Context"", "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"},
-    {"column_header": ""Key Figures"", "dbpedia_property_id": "http://dbpedia.org/ontology/keyPerson"},
-    {"column_header": ""Misconceptions"", "dbpedia_property_id": "http://dbpedia.org/ontology/illiteracy"}
+    {"column_header": "Number Type", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": "Identities", "dbpedia_property_id": "http://dbpedia.org/ontology/identificationSymbol"},
+    {"column_header": "Fractions & Decimals", "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"},
+    {"column_header": "Algebraic Expressions", "dbpedia_property_id": "http://dbpedia.org/ontology/formula"},
+    {"column_header": "Geometry - Shapes", "dbpedia_property_id": "http://dbpedia.org/ontology/productShape"},
+    {"column_header": "Geometry - Measurements", "dbpedia_property_id": "http://dbpedia.org/ontology/measurements"},
+    {"column_header": "Measurement Tools", "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"},
+    {"column_header": "Historical Context", "dbpedia_property_id": "http://dbpedia.org/ontology/historicalRegion"},
+    {"column_header": "Key Figures", "dbpedia_property_id": "http://dbpedia.org/ontology/keyPerson"},
+    {"column_header": "Misconceptions", "dbpedia_property_id": "http://dbpedia.org/ontology/illiteracy"}
   ]
 }

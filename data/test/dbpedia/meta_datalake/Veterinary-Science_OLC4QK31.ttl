@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_OLC4QK31.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/AllergyReaction> a dsv:Column ;
+    rdfs:label "Allergy Reaction" ;
+    dsv:columnProperty "complications" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/AllergyType> a dsv:Column ;
+    rdfs:label "Allergy Type" ;
+    dsv:columnProperty "disease" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/DentalCheckup> a dsv:Column ;
+    rdfs:label "Dental Checkup" ;
+    dsv:columnProperty "medical specialty" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/DietaryRecommendation> a dsv:Column ;
+    rdfs:label "Dietary Recommendation" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/GeneticCounseling> a dsv:Column ;
+    rdfs:label "Genetic Counseling" ;
+    dsv:columnProperty "mentor" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/GeneticDisorder> a dsv:Column ;
+    rdfs:label "Genetic Disorder" ;
+    dsv:columnProperty "disease" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/SurgeryDate> a dsv:Column ;
+    rdfs:label "Surgery Date" ;
+    dsv:columnProperty "order date" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/SurgeryType> a dsv:Column ;
+    rdfs:label "Surgery Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/VaccinationDate> a dsv:Column ;
+    rdfs:label "Vaccination Date" ;
+    dsv:columnProperty "vaccination" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/VaccinationType> a dsv:Column ;
+    rdfs:label "Vaccination Type" ;
+    dsv:columnProperty "Vaccine" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/AllergyReaction>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/AllergyType>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/DentalCheckup>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/DietaryRecommendation>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/GeneticCounseling>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/GeneticDisorder>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/SurgeryDate>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/SurgeryType>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/VaccinationDate>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceOLC4QK31/column/VaccinationType> .
+

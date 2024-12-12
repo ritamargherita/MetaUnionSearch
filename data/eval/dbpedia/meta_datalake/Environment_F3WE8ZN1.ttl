@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_F3WE8ZN1.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/BiofuelProduction> a dsv:Column ;
+    rdfs:label "Biofuel_Production" ;
+    dsv:columnProperty "production" .
+
+<http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/CarbonEmissionsperCapita> a dsv:Column ;
+    rdfs:label "Carbon_Emissions_per_Capita" ;
+    dsv:columnProperty "CO2 emission (g/km)" .
+
+<http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/ClimateChangePolicyGrade> a dsv:Column ;
+    rdfs:label "Climate_Change_Policy_Grade" ;
+    dsv:columnProperty "grades" .
+
+<http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/EndangeredSpeciesListing> a dsv:Column ;
+    rdfs:label "Endangered_Species_Listing" ;
+    dsv:columnProperty "iucn category" .
+
+<http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/EnergyEfficiencyIndex> a dsv:Column ;
+    rdfs:label "Energy_Efficiency_Index" ;
+    dsv:columnProperty "ratio" .
+
+<http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/GreenBuildingCertifications> a dsv:Column ;
+    rdfs:label "Green_Building_Certifications" ;
+    dsv:columnProperty "certification" .
+
+<http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/NaturalDisasterImpact> a dsv:Column ;
+    rdfs:label "Natural_Disaster_Impact" ;
+    dsv:columnProperty "casualties" .
+
+<http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/ProtectedAreasPercentage> a dsv:Column ;
+    rdfs:label "Protected_Areas_Percentage" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/RecyclingRate> a dsv:Column ;
+    rdfs:label "Recycling_Rate" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/RenewableEnergyProduction> a dsv:Column ;
+    rdfs:label "Renewable_Energy_Production" ;
+    dsv:columnProperty "production" .
+
+<http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/SustainableAgriculturePractices> a dsv:Column ;
+    rdfs:label "Sustainable_Agriculture_Practices" ;
+    dsv:columnProperty "industry" .
+
+<http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/WasteGenerationperCapita> a dsv:Column ;
+    rdfs:label "Waste_Generation_per_Capita" ;
+    dsv:columnProperty "per capita income ($)" .
+
+<http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/WaterUsageperCapita> a dsv:Column ;
+    rdfs:label "Water_Usage_per_Capita" ;
+    dsv:columnProperty "water percentage of a place" .
+
+<http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/BiofuelProduction>,
+        <http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/CarbonEmissionsperCapita>,
+        <http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/ClimateChangePolicyGrade>,
+        <http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/EndangeredSpeciesListing>,
+        <http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/EnergyEfficiencyIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/GreenBuildingCertifications>,
+        <http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/NaturalDisasterImpact>,
+        <http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/ProtectedAreasPercentage>,
+        <http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/RecyclingRate>,
+        <http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/RenewableEnergyProduction>,
+        <http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/SustainableAgriculturePractices>,
+        <http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/WasteGenerationperCapita>,
+        <http://metaUnionSearch/datasets/EnvironmentF3WE8ZN1/column/WaterUsageperCapita> .
+

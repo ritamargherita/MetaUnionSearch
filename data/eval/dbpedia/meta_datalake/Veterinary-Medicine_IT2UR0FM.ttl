@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_IT2UR0FM.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/10ExerciseRoutine> a dsv:Column ;
+    rdfs:label "10. Exercise Routine" ;
+    dsv:columnProperty "activity" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/11VaccinationRecords> a dsv:Column ;
+    rdfs:label "11. Vaccination Records" ;
+    dsv:columnProperty "vaccination" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/12FleasTicksRepellentUsed> a dsv:Column ;
+    rdfs:label "12. Fleas & Ticks Repellent Used" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/13HeartwormPreventionUsed> a dsv:Column ;
+    rdfs:label "13. Heartworm Prevention Used" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/14DietaryRestrictions> a dsv:Column ;
+    rdfs:label "14. Dietary Restrictions" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/1SeparationAnxietyDisorder> a dsv:Column ;
+    rdfs:label "1. Separation Anxiety Disorder" ;
+    dsv:columnProperty "complications" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/2PetOwnerEducationLevel> a dsv:Column ;
+    rdfs:label "2. Pet Owner Education Level" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/3NumberOfPetsAtHome> a dsv:Column ;
+    rdfs:label "3. Number Of Pets At Home" ;
+    dsv:columnProperty "number of rooms" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/4RehomingHistory> a dsv:Column ;
+    rdfs:label "4. Rehoming History" ;
+    dsv:columnProperty "previous work" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/5NeuteredStatus> a dsv:Column ;
+    rdfs:label "5. Neutered Status" ;
+    dsv:columnProperty "status" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/6TrainingExperience> a dsv:Column ;
+    rdfs:label "6. Training Experience" ;
+    dsv:columnProperty "training" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/7PlayfulBehaviorFrequency> a dsv:Column ;
+    rdfs:label "7. Playful Behavior Frequency" ;
+    dsv:columnProperty "activity" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/8AggressionLevels> a dsv:Column ;
+    rdfs:label "8. Aggression Levels" ;
+    dsv:columnProperty "conflict" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/9FeedingPattern> a dsv:Column ;
+    rdfs:label "9. Feeding Pattern" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/10ExerciseRoutine>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/11VaccinationRecords>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/12FleasTicksRepellentUsed>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/13HeartwormPreventionUsed>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/14DietaryRestrictions>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/1SeparationAnxietyDisorder>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/2PetOwnerEducationLevel>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/3NumberOfPetsAtHome>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/4RehomingHistory>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/5NeuteredStatus>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/6TrainingExperience>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/7PlayfulBehaviorFrequency>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/8AggressionLevels>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicineIT2UR0FM/column/9FeedingPattern> .
+

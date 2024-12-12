@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Business473J6IUU> a dsv:Dataset ;
+    dcterms:subject "business" ;
+    dcterms:title "Business_473J6IUU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Business473J6IUU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/AnnualIncome> a dsv:Column ;
+    rdfs:label "Annual Income" ;
+    dsv:columnProperty "income" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/BusinessPerformanceIndicators> a dsv:Column ;
+    rdfs:label "Business Performance Indicators" ;
+    dsv:columnProperty "its calculation needs" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/CensusClassificationCodeegNAICSCode> a dsv:Column ;
+    rdfs:label "Census Classification Code (e.g., NAICS Code)" ;
+    dsv:columnProperty "NIS code" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/CompanyName> a dsv:Column ;
+    rdfs:label "Company Name" ;
+    dsv:columnProperty "company" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/CurrentAssetsValue> a dsv:Column ;
+    rdfs:label "Current Assets Value" ;
+    dsv:columnProperty "assets ($)" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/CurrentLiabilitiesValue> a dsv:Column ;
+    rdfs:label "Current Liabilities Value" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/EBITDAMargin> a dsv:Column ;
+    rdfs:label "EBITDA Margin" ;
+    dsv:columnProperty "operating income ($)" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/Equity> a dsv:Column ;
+    rdfs:label "Equity" ;
+    dsv:columnProperty "equity ($)" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/GrossMargin> a dsv:Column ;
+    rdfs:label "Gross Margin" ;
+    dsv:columnProperty "gross ($)" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/InterestCoverageRatio> a dsv:Column ;
+    rdfs:label "Interest Coverage Ratio" ;
+    dsv:columnProperty "ratio" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/NetProfitMargin> a dsv:Column ;
+    rdfs:label "Net Profit Margin" ;
+    dsv:columnProperty "ratio" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/ReturnonInvestmentROI> a dsv:Column ;
+    rdfs:label "Return on Investment (ROI) %" ;
+    dsv:columnProperty "interest" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/RevenueGrowthRateorSalesGrowthRateYoY> a dsv:Column ;
+    rdfs:label "Revenue Growth Rate or Sales Growth Rate YoY" ;
+    dsv:columnProperty "revenue ($)" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/column/TotalExpenses> a dsv:Column ;
+    rdfs:label "Total Expenses" ;
+    dsv:columnProperty "operating income ($)" .
+
+<http://metaUnionSearch/datasets/Business473J6IUU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Business473J6IUU/column/AnnualIncome>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/BusinessPerformanceIndicators>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/CensusClassificationCodeegNAICSCode>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/CompanyName>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/CurrentAssetsValue>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/CurrentLiabilitiesValue>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/EBITDAMargin>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/Equity>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/GrossMargin>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/InterestCoverageRatio>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/NetProfitMargin>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/ReturnonInvestmentROI>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/RevenueGrowthRateorSalesGrowthRateYoY>,
+        <http://metaUnionSearch/datasets/Business473J6IUU/column/TotalExpenses> .
+

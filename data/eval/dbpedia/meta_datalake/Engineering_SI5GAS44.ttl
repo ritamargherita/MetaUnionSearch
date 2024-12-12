@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EngineeringSI5GAS44> a dsv:Dataset ;
+    dcterms:subject "engineering" ;
+    dcterms:title "Engineering_SI5GAS44.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EngineeringSI5GAS44/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/AdditionalResources> a dsv:Column ;
+    rdfs:label "Additional Resources" ;
+    dsv:columnProperty "numberOfResource" .
+
+<http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/BroadenedProjectScopes> a dsv:Column ;
+    rdfs:label "Broadened Project Scopes" ;
+    dsv:columnProperty "project objective" .
+
+<http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/CurrentTaskStatus> a dsv:Column ;
+    rdfs:label "Current Task Status]" ;
+    dsv:columnProperty "current status" .
+
+<http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/DetailedCostEstimations> a dsv:Column ;
+    rdfs:label "Detailed Cost Estimations" ;
+    dsv:columnProperty "cost ($)" .
+
+<http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/EngagedSystems> a dsv:Column ;
+    rdfs:label "[Engaged Systems" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/EnhancedQualityAssurance> a dsv:Column ;
+    rdfs:label "Enhanced Quality Assurance" ;
+    dsv:columnProperty "oversight" .
+
+<http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/ExpandedSafetyProtocols> a dsv:Column ;
+    rdfs:label "Expanded Safety Protocols" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/ImprovedDesignMethodologies> a dsv:Column ;
+    rdfs:label "Improved Design Methodologies" ;
+    dsv:columnProperty "significant design" .
+
+<http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/NonTechnicalSkills> a dsv:Column ;
+    rdfs:label "Non-Technical Skills" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/Reserved> a dsv:Column ;
+    rdfs:label "Reserved" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/TimeTracking> a dsv:Column ;
+    rdfs:label "Time Tracking" ;
+    dsv:columnProperty "time" .
+
+<http://metaUnionSearch/datasets/EngineeringSI5GAS44/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/AdditionalResources>,
+        <http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/BroadenedProjectScopes>,
+        <http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/CurrentTaskStatus>,
+        <http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/DetailedCostEstimations>,
+        <http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/EngagedSystems>,
+        <http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/EnhancedQualityAssurance>,
+        <http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/ExpandedSafetyProtocols>,
+        <http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/ImprovedDesignMethodologies>,
+        <http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/NonTechnicalSkills>,
+        <http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/Reserved>,
+        <http://metaUnionSearch/datasets/EngineeringSI5GAS44/column/TimeTracking> .
+

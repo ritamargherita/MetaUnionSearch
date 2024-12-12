@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "Engineering Ethics", "dbpedia_property_id": "http://dbpedia.org/ontology/engineer"},
+    {"column_header": "Environmental Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"},
+    {"column_header": "Risk Assessment", "dbpedia_property_id": "http://dbpedia.org/ontology/security"},
+    {"column_header": "Technical Publications", "dbpedia_property_id": "http://dbpedia.org/ontology/publication"},
+    {"column_header": "Patents & Licenses", "dbpedia_property_id": "http://dbpedia.org/ontology/patent"},
+    {"column_header": "Continuing Education", "dbpedia_property_id": "http://dbpedia.org/ontology/education"},
+    {"column_header": "Professional Memberships", "dbpedia_property_id": "http://dbpedia.org/ontology/membership"},
+    {"column_header": "Mentorship Programs", "dbpedia_property_id": "http://dbpedia.org/ontology/mentor"},
+    {"column_header": "Industry Collaborations", "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"},
+    {"column_header": "Community Outreach", "dbpedia_property_id": "http://dbpedia.org/ontology/organisation"},
+    {"column_header": "Internship Opportunities", "dbpedia_property_id": "http://dbpedia.org/ontology/training"},
+    {"column_header": "Diversity & Inclusion", "dbpedia_property_id": "http://dbpedia.org/ontology/minority"},
+    {"column_header": "Alumni Relations", "dbpedia_property_id": "http://dbpedia.org/ontology/alumni"},
+    {"column_header": "Student Organizations", "dbpedia_property_id": "http://dbpedia.org/ontology/student"}
+  ]
+}

@@ -1,0 +1,1 @@
+{"mapping": [{"column_header": "Renewable_Energy_Production", "dbpedia_property_id": "http://dbpedia.org/ontology/production"}, {"column_header": "Recycling_Rate", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"}, {"column_header": "", "dbpedia_property_id": "http://dbpedia.org/ontology/note"}]}

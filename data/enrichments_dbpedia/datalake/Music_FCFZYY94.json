@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Peak Position", "dbpedia_property_id": "http://dbpedia.org/ontology/highestPosition"},
+    {"column_header": "Weeks On Chart", "dbpedia_property_id": "http://dbpedia.org/ontology/frequencyOfPublication"},
+    {"column_header": "Production Company", "dbpedia_property_id": "http://dbpedia.org/ontology/productionCompany"},
+    {"column_header": "Music Video Director", "dbpedia_property_id": "http://dbpedia.org/ontology/director"},
+    {"column_header": "Movie or Show (if featured as soundtrack)", "dbpedia_property_id": "http://dbpedia.org/ontology/movie"},
+    {"column_header": "Episode Number (for TV show features)", "dbpedia_property_id": "http://dbpedia.org/ontology/episodeNumber"},
+    {"column_header": "Conductor", "dbpedia_property_id": "http://dbpedia.org/ontology/musicComposer"},
+    {"column_header": "Orchestra Name", "dbpedia_property_id": "http://dbpedia.org/ontology/band"},
+    {"column_header": "Marketing and Sales - Digital Platform Streaming Count", "dbpedia_property_id": "http://dbpedia.org/ontology/digitalChannel"},
+    {"column_header": "Physical Copies Sold", "dbpedia_property_id": "http://dbpedia.org/ontology/numberSold"},
+    {"column_header": "*Billboard* Hot 100 Peak", "dbpedia_property_id": "http://dbpedia.org/ontology/highestPosition"},
+    {"column_header": "US Streamings Weekly Summit Percentage", "dbpedia_property_id": "http://dbpedia.org/ontology/shareOfAudience"},
+    {"column_header": "Global Download Chart Leader Board Place", "dbpedia_property_id": "http://dbpedia.org/ontology/highestPlace"}
+  ]
+}

@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ClimatologySZJIVF4D> a dsv:Dataset ;
+    dcterms:subject "climatology" ;
+    dcterms:title "Climatology_SZJIVF4D.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ClimatologySZJIVF4D/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/AnthropogenicDisturbanceFactorsfactornamewithimpactlevel> a dsv:Column ;
+    rdfs:label "Anthropogenic Disturbance Factors (factor name with impact level)" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/AspectDirectiondegreesfromNorth> a dsv:Column ;
+    rdfs:label "Aspect Direction (degrees from North)" ;
+    dsv:columnProperty "orientation" .
+
+<http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/BiodiversityIndicatorSpeciesListspecienamescommonscientificformsseparatedby> a dsv:Column ;
+    rdfs:label "Biodiversity Indicator Species List (specie names | common + scientific forms separated by |)" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/ElevationBandMinMaxmasl> a dsv:Column ;
+    rdfs:label "Elevation Band Min - Max (masl)" ;
+    dsv:columnProperty "minimum elevation (μ)" .
+
+<http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/GeologicalFormationstype> a dsv:Column ;
+    rdfs:label "Geological Formations (type)" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/HydrologicalFeaturesnametype> a dsv:Column ;
+    rdfs:label "Hydrological Features (name / type)" ;
+    dsv:columnProperty "watercourse" .
+
+<http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/LandUseHistoryyearrangeorperiodshistoricalevents> a dsv:Column ;
+    rdfs:label "Land Use History (year range or periods - historical events)" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/LightExposureCategory> a dsv:Column ;
+    rdfs:label "Light Exposure Category" ;
+    dsv:columnProperty "category" .
+
+<http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/MeanAnnualEvapotranspirationmm> a dsv:Column ;
+    rdfs:label "Mean Annual Evapotranspiration (mm)" ;
+    dsv:columnProperty "annual temperature (K)" .
+
+<http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/SlopeDegreedegrees> a dsv:Column ;
+    rdfs:label "Slope Degree (degrees)" ;
+    dsv:columnProperty "inclination" .
+
+<http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/SoilpHLevel> a dsv:Column ;
+    rdfs:label "Soil pH Level." ;
+    dsv:columnProperty "phylum" .
+
+<http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/SoilsTypesUSDAID> a dsv:Column ;
+    rdfs:label "Soils Types (USDA ID)" .
+
+<http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/StratumName> a dsv:Column ;
+    rdfs:label "Stratum Name" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/VegetationType> a dsv:Column ;
+    rdfs:label "Vegetation Type" ;
+    dsv:columnProperty "flora" .
+
+<http://metaUnionSearch/datasets/ClimatologySZJIVF4D/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/AnthropogenicDisturbanceFactorsfactornamewithimpactlevel>,
+        <http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/AspectDirectiondegreesfromNorth>,
+        <http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/BiodiversityIndicatorSpeciesListspecienamescommonscientificformsseparatedby>,
+        <http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/ElevationBandMinMaxmasl>,
+        <http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/GeologicalFormationstype>,
+        <http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/HydrologicalFeaturesnametype>,
+        <http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/LandUseHistoryyearrangeorperiodshistoricalevents>,
+        <http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/LightExposureCategory>,
+        <http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/MeanAnnualEvapotranspirationmm>,
+        <http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/SlopeDegreedegrees>,
+        <http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/SoilpHLevel>,
+        <http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/SoilsTypesUSDAID>,
+        <http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/StratumName>,
+        <http://metaUnionSearch/datasets/ClimatologySZJIVF4D/column/VegetationType> .
+

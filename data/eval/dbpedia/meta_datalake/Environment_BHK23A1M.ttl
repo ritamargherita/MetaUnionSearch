@@ -1,0 +1,26 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EnvironmentBHK23A1M> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_BHK23A1M.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EnvironmentBHK23A1M/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EnvironmentBHK23A1M/column/> a dsv:Column ;
+    rdfs:label "" ;
+    dsv:columnProperty "note" .
+
+<http://metaUnionSearch/datasets/EnvironmentBHK23A1M/column/RecyclingRate> a dsv:Column ;
+    rdfs:label "Recycling_Rate" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EnvironmentBHK23A1M/column/RenewableEnergyProduction> a dsv:Column ;
+    rdfs:label "Renewable_Energy_Production" ;
+    dsv:columnProperty "production" .
+
+<http://metaUnionSearch/datasets/EnvironmentBHK23A1M/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EnvironmentBHK23A1M/column/>,
+        <http://metaUnionSearch/datasets/EnvironmentBHK23A1M/column/RecyclingRate>,
+        <http://metaUnionSearch/datasets/EnvironmentBHK23A1M/column/RenewableEnergyProduction> .
+

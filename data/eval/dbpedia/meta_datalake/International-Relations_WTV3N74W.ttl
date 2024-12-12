@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W> a dsv:Dataset ;
+    dcterms:subject "international-relations" ;
+    dcterms:title "International-Relations_WTV3N74W.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/datasetSchema> .
+
+<http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/EmbassiesandConsulatesAbroad> a dsv:Column ;
+    rdfs:label "Embassies and Consulates Abroad" ;
+    dsv:columnProperty "international affiliation" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/FundingContributionstoInternationalScientificResearch> a dsv:Column ;
+    rdfs:label "Funding Contributions to International Scientific Research." ;
+    dsv:columnProperty "project budget funding ($)" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/InternationalCulturalExchangeInitiatives> a dsv:Column ;
+    rdfs:label "International Cultural Exchange Initiatives" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/InternationalSportsEventHostingHistory> a dsv:Column ;
+    rdfs:label "International Sports Event Hosting History" ;
+    dsv:columnProperty "number of sports events" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/InternationalStudentExchangePrograms> a dsv:Column ;
+    rdfs:label "International Student Exchange Programs" ;
+    dsv:columnProperty "student" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/MajorDiplomaticIncidents> a dsv:Column ;
+    rdfs:label "Major Diplomatic Incidents" ;
+    dsv:columnProperty "conflict" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/NobelPeacePrizeLaureates> a dsv:Column ;
+    rdfs:label "Nobel Peace Prize Laureates" ;
+    dsv:columnProperty "nobel laureates" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/OngoingAidReceived> a dsv:Column ;
+    rdfs:label "Ongoing Aid Received" ;
+    dsv:columnProperty "relief" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/ParticipationinSpaceExplorationPrograms> a dsv:Column ;
+    rdfs:label "Participation in Space Exploration Programs" ;
+    dsv:columnProperty "spacecraft" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/UNESCOWorldHeritageSitesCount> a dsv:Column ;
+    rdfs:label "UNESCO World Heritage Sites Count" ;
+    dsv:columnProperty "heritage register" .
+
+<http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/EmbassiesandConsulatesAbroad>,
+        <http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/FundingContributionstoInternationalScientificResearch>,
+        <http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/InternationalCulturalExchangeInitiatives>,
+        <http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/InternationalSportsEventHostingHistory>,
+        <http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/InternationalStudentExchangePrograms>,
+        <http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/MajorDiplomaticIncidents>,
+        <http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/NobelPeacePrizeLaureates>,
+        <http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/OngoingAidReceived>,
+        <http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/ParticipationinSpaceExplorationPrograms>,
+        <http://metaUnionSearch/datasets/InternationalRelationsWTV3N74W/column/UNESCOWorldHeritageSitesCount> .
+

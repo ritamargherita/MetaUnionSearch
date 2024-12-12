@@ -1,0 +1,101 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_YR9OUDOC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryYR9OUDOC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/Allegory> a dsv:Column ;
+    rdfs:label "Allegory" ;
+    dsv:columnProperty "meaning" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/AnaphoraEpistrophe> a dsv:Column ;
+    rdfs:label "Anaphora & Epistrophe" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/ConcreteLanguage> a dsv:Column ;
+    rdfs:label "Concrete Language" ;
+    dsv:columnProperty "definition" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/CulturalReferences> a dsv:Column ;
+    rdfs:label "Cultural References" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/Enjambment> a dsv:Column ;
+    rdfs:label "Enjambment" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/ExpressionisticTechniques> a dsv:Column ;
+    rdfs:label "Expressionistic Techniques" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/FigurativeMeaning> a dsv:Column ;
+    rdfs:label "Figurative Meaning" ;
+    dsv:columnProperty "meaning" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/HistoricalContext> a dsv:Column ;
+    rdfs:label "Historical Context" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/HyperboleUnderstatement> a dsv:Column ;
+    rdfs:label "Hyperbole & Understatement" ;
+    dsv:columnProperty "connotation" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/LanguageGames> a dsv:Column ;
+    rdfs:label "Language Games." ;
+    dsv:columnProperty "games" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/LineLength> a dsv:Column ;
+    rdfs:label "Line Length" ;
+    dsv:columnProperty "line length (μ)" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/MeterAdherence> a dsv:Column ;
+    rdfs:label "Meter Adherence" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/MetonymySynesthesia> a dsv:Column ;
+    rdfs:label "Metonymy & Synesthesia" ;
+    dsv:columnProperty "meaning" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/OriginalWriter> a dsv:Column ;
+    rdfs:label "Original Writer" ;
+    dsv:columnProperty "author" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/RhythmicPattern> a dsv:Column ;
+    rdfs:label "Rhythmic Pattern" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/SocialImpact> a dsv:Column ;
+    rdfs:label "Social Impact" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/SonnetType> a dsv:Column ;
+    rdfs:label "Sonnet Type" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/SyntaxManipulation> a dsv:Column ;
+    rdfs:label "Syntax Manipulation" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/PoetryYR9OUDOC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/Allegory>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/AnaphoraEpistrophe>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/ConcreteLanguage>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/CulturalReferences>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/Enjambment>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/ExpressionisticTechniques>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/FigurativeMeaning>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/HistoricalContext>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/HyperboleUnderstatement>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/LanguageGames>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/LineLength>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/MeterAdherence>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/MetonymySynesthesia>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/OriginalWriter>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/RhythmicPattern>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/SocialImpact>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/SonnetType>,
+        <http://metaUnionSearch/datasets/PoetryYR9OUDOC/column/SyntaxManipulation> .
+

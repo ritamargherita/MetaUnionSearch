@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathLQCG1WU1> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_LQCG1WU1.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathLQCG1WU1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathLQCG1WU1/column/Applications> a dsv:Column ;
+    rdfs:label "*Applications*" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/MathLQCG1WU1/column/Challenges> a dsv:Column ;
+    rdfs:label "*Challenges*" ;
+    dsv:columnProperty "wins at challenges" .
+
+<http://metaUnionSearch/datasets/MathLQCG1WU1/column/Concept> a dsv:Column ;
+    rdfs:label "*Concept*" ;
+    dsv:columnProperty "topic" .
+
+<http://metaUnionSearch/datasets/MathLQCG1WU1/column/CurrentUse> a dsv:Column ;
+    rdfs:label "*Current Use*" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/MathLQCG1WU1/column/Examples> a dsv:Column ;
+    rdfs:label "*Examples*" ;
+    dsv:columnProperty "known for" .
+
+<http://metaUnionSearch/datasets/MathLQCG1WU1/column/Extensions> a dsv:Column ;
+    rdfs:label "*Extensions*" ;
+    dsv:columnProperty "project keyword" .
+
+<http://metaUnionSearch/datasets/MathLQCG1WU1/column/FutureImplications> a dsv:Column ;
+    rdfs:label "*Future Implications*" ;
+    dsv:columnProperty "current record" .
+
+<http://metaUnionSearch/datasets/MathLQCG1WU1/column/HistoricalContext> a dsv:Column ;
+    rdfs:label "*Historical Context*" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/MathLQCG1WU1/column/KeyFigures> a dsv:Column ;
+    rdfs:label "*Key Figures*" ;
+    dsv:columnProperty "key person" .
+
+<http://metaUnionSearch/datasets/MathLQCG1WU1/column/MathematicsArea> a dsv:Column ;
+    rdfs:label "Mathematics Area" ;
+    dsv:columnProperty "area of search" .
+
+<http://metaUnionSearch/datasets/MathLQCG1WU1/column/Misconceptions> a dsv:Column ;
+    rdfs:label "*Misconceptions*" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/MathLQCG1WU1/column/Operations> a dsv:Column ;
+    rdfs:label "*Operations*" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/MathLQCG1WU1/column/Properties> a dsv:Column ;
+    rdfs:label "*Properties*" ;
+    dsv:columnProperty "numberOfProperties" .
+
+<http://metaUnionSearch/datasets/MathLQCG1WU1/column/Symbolism> a dsv:Column ;
+    rdfs:label "*Symbolism*" ;
+    dsv:columnProperty "Symbol" .
+
+<http://metaUnionSearch/datasets/MathLQCG1WU1/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MathLQCG1WU1/column/Applications>,
+        <http://metaUnionSearch/datasets/MathLQCG1WU1/column/Challenges>,
+        <http://metaUnionSearch/datasets/MathLQCG1WU1/column/Concept>,
+        <http://metaUnionSearch/datasets/MathLQCG1WU1/column/CurrentUse>,
+        <http://metaUnionSearch/datasets/MathLQCG1WU1/column/Examples>,
+        <http://metaUnionSearch/datasets/MathLQCG1WU1/column/Extensions>,
+        <http://metaUnionSearch/datasets/MathLQCG1WU1/column/FutureImplications>,
+        <http://metaUnionSearch/datasets/MathLQCG1WU1/column/HistoricalContext>,
+        <http://metaUnionSearch/datasets/MathLQCG1WU1/column/KeyFigures>,
+        <http://metaUnionSearch/datasets/MathLQCG1WU1/column/MathematicsArea>,
+        <http://metaUnionSearch/datasets/MathLQCG1WU1/column/Misconceptions>,
+        <http://metaUnionSearch/datasets/MathLQCG1WU1/column/Operations>,
+        <http://metaUnionSearch/datasets/MathLQCG1WU1/column/Properties>,
+        <http://metaUnionSearch/datasets/MathLQCG1WU1/column/Symbolism> .
+

@@ -1,0 +1,16 @@
+{
+  "mapping": [
+    {"column_header": "SubjectID", "dbpedia_property_id": "http://dbpedia.org/ontology/id"},
+    {"column_header": "DateOfBirth", "dbpedia_property_id": "http://dbpedia.org/ontology/birthDate"},
+    {"column_header": "Gender", "dbpedia_property_id": "http://dbpedia.org/ontology/gender"},
+    {"column_header": "Age", "dbpedia_property_id": "http://dbpedia.org/ontology/age"},
+    {"column_header": "EducationLevel", "dbpedia_property_id": "http://dbpedia.org/ontology/education"},
+    {"column_header": "Occupation", "dbpedia_property_id": "http://dbpedia.org/ontology/occupation"},
+    {"column_header": "AnnualIncome", "dbpedia_property_id": "http://dbpedia.org/ontology/annualTemperature"},
+    {"column_header": "MaritalStatus", "dbpedia_property_id": "http://dbpedia.org/ontology/spouse"},
+    {"column_header": "HasChildren", "dbpedia_property_id": "http://dbpedia.org/ontology/child"},
+    {"column_header": "PersonalityType", "dbpedia_property_id": "http://dbpedia.org/ontology/person"},
+    {"column_header": "Trait6", "dbpedia_property_id": "http://dbpedia.org/ontology/appearance"},
+    {"column_header": "Trait7", "dbpedia_property_id": "http://dbpedia.org/ontology/features"}
+  ]
+}

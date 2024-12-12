@@ -1,0 +1,91 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8> a dsv:Dataset ;
+    dcterms:subject "climatology" ;
+    dcterms:title "Climatology_TEN7GGO8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/AdditionalDataSetID> a dsv:Column ;
+    rdfs:label "Additional Data SetID" ;
+    dsv:columnProperty "id number" .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/AtmosphericPressurehPa> a dsv:Column ;
+    rdfs:label "Atmospheric Pressure (hPa)" ;
+    dsv:columnProperty "vapor pressure (hPa)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/ConecolumnforeachlayeruptosevenlayersasnecessaryandmarkedaccordinglyfromGroundTempLayer02> a dsv:Column ;
+    rdfs:label "C - one column for each layer up to seven layers as necessary and marked accordingly from 'GroundTempLayer_02(')." ;
+    dsv:columnProperty "temperature (K)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/ConecolumnforeachlayeruptosevenlayersasnecessaryandmarkedaccordinglyfromGroundTempLayer02deg> a dsv:Column ;
+    rdfs:label "C - one column for each layer up to seven layers as necessary and marked accordingly from 'GroundTempLayer_02(&deg" ;
+    dsv:columnProperty "temperature (K)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/DateTimeStamp> a dsv:Column ;
+    rdfs:label "Date & Time Stamp" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/EvapotranspirationRatemmday> a dsv:Column ;
+    rdfs:label "Evapotranspiration Rate( mm day^-¹ )" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/GroundTempatMultipleLayersdeg> a dsv:Column ;
+    rdfs:label "Ground Temp at Multiple Layers (&deg" ;
+    dsv:columnProperty "temperature (K)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/Precipitationmm> a dsv:Column ;
+    rdfs:label "Precipitation (mm)" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/RelativeHumidity> a dsv:Column ;
+    rdfs:label "Relative Humidity (%)" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/SnowDepthcm> a dsv:Column ;
+    rdfs:label "Snow Depth(cm) " ;
+    dsv:columnProperty "depth (μ)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/SoilMoisture> a dsv:Column ;
+    rdfs:label "Soil Moisture (%)" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/SolarRadiationWm> a dsv:Column ;
+    rdfs:label "Solar Radiation (W/m²)" ;
+    dsv:columnProperty "effectiveRadiatedPower (W)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/StudyAreaID> a dsv:Column ;
+    rdfs:label "Study Area ID" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/TemperatureC> a dsv:Column ;
+    rdfs:label "Temperature (°C)" ;
+    dsv:columnProperty "temperature (K)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/WeatherCondition> a dsv:Column ;
+    rdfs:label "Weather Condition" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/WindSpeedms> a dsv:Column ;
+    rdfs:label "Wind Speed (m/s)" ;
+    dsv:columnProperty "average speed (kmh)" .
+
+<http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/AdditionalDataSetID>,
+        <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/AtmosphericPressurehPa>,
+        <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/ConecolumnforeachlayeruptosevenlayersasnecessaryandmarkedaccordinglyfromGroundTempLayer02>,
+        <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/ConecolumnforeachlayeruptosevenlayersasnecessaryandmarkedaccordinglyfromGroundTempLayer02deg>,
+        <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/DateTimeStamp>,
+        <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/EvapotranspirationRatemmday>,
+        <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/GroundTempatMultipleLayersdeg>,
+        <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/Precipitationmm>,
+        <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/RelativeHumidity>,
+        <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/SnowDepthcm>,
+        <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/SoilMoisture>,
+        <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/SolarRadiationWm>,
+        <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/StudyAreaID>,
+        <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/TemperatureC>,
+        <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/WeatherCondition>,
+        <http://metaUnionSearch/datasets/ClimatologyTEN7GGO8/column/WindSpeedms> .
+

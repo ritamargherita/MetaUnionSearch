@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Environment1I4EOYFG> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_1I4EOYFG.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Environment1I4EOYFG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Environment1I4EOYFG/column/EndangeredSpeciesEducationProgramFundings> a dsv:Column ;
+    rdfs:label "Endangered_Species_Education_Program_Fundings$" ;
+    dsv:columnProperty "project budget funding ($)" .
+
+<http://metaUnionSearch/datasets/Environment1I4EOYFG/column/EnergyEfficiencyRating> a dsv:Column ;
+    rdfs:label "Energy_Efficiency_Rating" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/Environment1I4EOYFG/column/Fashionability> a dsv:Column ;
+    rdfs:label "Fashionability" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/Environment1I4EOYFG/column/HistoricalSiteProtectionStatus> a dsv:Column ;
+    rdfs:label "Historical_Site_Protection_Status" ;
+    dsv:columnProperty "monument protection status" .
+
+<http://metaUnionSearch/datasets/Environment1I4EOYFG/column/NaturalResourceDepletionScore> a dsv:Column ;
+    rdfs:label "Natural_Resource_Depletion_Score" ;
+    dsv:columnProperty "number of all resource / entities of a class" .
+
+<http://metaUnionSearch/datasets/Environment1I4EOYFG/column/NoisePollutionLevel> a dsv:Column ;
+    rdfs:label "Noise_Pollution_Level" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/Environment1I4EOYFG/column/RecyclingRate> a dsv:Column ;
+    rdfs:label "Recycling_Rate%" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/Environment1I4EOYFG/column/WasteManagementIndex> a dsv:Column ;
+    rdfs:label "Waste_Management_Index" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/Environment1I4EOYFG/column/WetlandsConservationAreakm2> a dsv:Column ;
+    rdfs:label "Wetlands_Conservation_Area_km2" ;
+    dsv:columnProperty "area land (m2)" .
+
+<http://metaUnionSearch/datasets/Environment1I4EOYFG/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Environment1I4EOYFG/column/EndangeredSpeciesEducationProgramFundings>,
+        <http://metaUnionSearch/datasets/Environment1I4EOYFG/column/EnergyEfficiencyRating>,
+        <http://metaUnionSearch/datasets/Environment1I4EOYFG/column/Fashionability>,
+        <http://metaUnionSearch/datasets/Environment1I4EOYFG/column/HistoricalSiteProtectionStatus>,
+        <http://metaUnionSearch/datasets/Environment1I4EOYFG/column/NaturalResourceDepletionScore>,
+        <http://metaUnionSearch/datasets/Environment1I4EOYFG/column/NoisePollutionLevel>,
+        <http://metaUnionSearch/datasets/Environment1I4EOYFG/column/RecyclingRate>,
+        <http://metaUnionSearch/datasets/Environment1I4EOYFG/column/WasteManagementIndex>,
+        <http://metaUnionSearch/datasets/Environment1I4EOYFG/column/WetlandsConservationAreakm2> .
+

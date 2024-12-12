@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EnvironmentUF93AXMS> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_UF93AXMS.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EnvironmentUF93AXMS/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/CarbonEmissionsTons> a dsv:Column ;
+    rdfs:label "Carbon_Emissions_Tons" ;
+    dsv:columnProperty "CO2 emission (g/km)" .
+
+<http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/ClimateChangeMitigationPolicies> a dsv:Column ;
+    rdfs:label "Climate_Change_Mitigation_Policies" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/CorporateSustainabilityScore> a dsv:Column ;
+    rdfs:label "Corporate_Sustainability_Score." ;
+    dsv:columnProperty "score" .
+
+<http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/EndangeredSpeciesListed> a dsv:Column ;
+    rdfs:label "Endangered_Species_Listed" ;
+    dsv:columnProperty "iucn category" .
+
+<http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/EnvironmentalEducationPrograms> a dsv:Column ;
+    rdfs:label "Environmental_Education_Programs" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/FossilFuelUsage> a dsv:Column ;
+    rdfs:label "Fossil_Fuel_Usage" ;
+    dsv:columnProperty "fossil" .
+
+<http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/GreenBuildingInitiatives> a dsv:Column ;
+    rdfs:label "Green_Building_Initiatives" ;
+    dsv:columnProperty "project keyword" .
+
+<http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/HabitatConservationEfforts> a dsv:Column ;
+    rdfs:label "Habitat_Conservation_Efforts" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/NaturalResourceConsumption> a dsv:Column ;
+    rdfs:label "Natural_Resource_Consumption" ;
+    dsv:columnProperty "number of all resource / entities of a class" .
+
+<http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/RecyclingRate> a dsv:Column ;
+    rdfs:label "Recycling_Rate" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/RenewableEnergyContribution> a dsv:Column ;
+    rdfs:label "Renewable_Energy_Contribution" ;
+    dsv:columnProperty "fuel consumption" .
+
+<http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/WasteManagementIndex> a dsv:Column ;
+    rdfs:label "Waste_Management_Index" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/EnvironmentUF93AXMS/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/CarbonEmissionsTons>,
+        <http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/ClimateChangeMitigationPolicies>,
+        <http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/CorporateSustainabilityScore>,
+        <http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/EndangeredSpeciesListed>,
+        <http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/EnvironmentalEducationPrograms>,
+        <http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/FossilFuelUsage>,
+        <http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/GreenBuildingInitiatives>,
+        <http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/HabitatConservationEfforts>,
+        <http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/NaturalResourceConsumption>,
+        <http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/RecyclingRate>,
+        <http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/RenewableEnergyContribution>,
+        <http://metaUnionSearch/datasets/EnvironmentUF93AXMS/column/WasteManagementIndex> .
+

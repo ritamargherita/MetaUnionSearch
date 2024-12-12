@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryH8RVHS1K> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_H8RVHS1K.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryH8RVHS1K/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/Author> a dsv:Column ;
+    rdfs:label "Author" ;
+    dsv:columnProperty "author" .
+
+<http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/Emotion> a dsv:Column ;
+    rdfs:label "Emotion" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/FigurativeLanguage> a dsv:Column ;
+    rdfs:label "Figurative Language" ;
+    dsv:columnProperty "connotation" .
+
+<http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/GenreClassificationextended> a dsv:Column ;
+    rdfs:label "Genre Classification (extended)" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/LiteratureTech> a dsv:Column ;
+    rdfs:label "Literature Tech." ;
+    dsv:columnProperty "genre" .
+
+<http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/Metaphors> a dsv:Column ;
+    rdfs:label "Metaphors" ;
+    dsv:columnProperty "connotation" .
+
+<http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/MoodTempo> a dsv:Column ;
+    rdfs:label "Mood & Tempo" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/PunctuationVariety> a dsv:Column ;
+    rdfs:label "Punctuation Variety" ;
+    dsv:columnProperty "definition" .
+
+<http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/Rhymes> a dsv:Column ;
+    rdfs:label "Rhymes" ;
+    dsv:columnProperty "definition" .
+
+<http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/Stanzas> a dsv:Column ;
+    rdfs:label "Stanzas" ;
+    dsv:columnProperty "scene" .
+
+<http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/Title> a dsv:Column ;
+    rdfs:label "Title" ;
+    dsv:columnProperty "title" .
+
+<http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/TopicExploration> a dsv:Column ;
+    rdfs:label "Topic Exploration" ;
+    dsv:columnProperty "topic" .
+
+<http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/VisualRepresentation> a dsv:Column ;
+    rdfs:label "Visual Representation" ;
+    dsv:columnProperty "picture description" .
+
+<http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/Vocabulary> a dsv:Column ;
+    rdfs:label "Vocabulary" ;
+    dsv:columnProperty "term period" .
+
+<http://metaUnionSearch/datasets/PoetryH8RVHS1K/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/Author>,
+        <http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/Emotion>,
+        <http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/FigurativeLanguage>,
+        <http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/GenreClassificationextended>,
+        <http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/LiteratureTech>,
+        <http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/Metaphors>,
+        <http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/MoodTempo>,
+        <http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/PunctuationVariety>,
+        <http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/Rhymes>,
+        <http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/Stanzas>,
+        <http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/Title>,
+        <http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/TopicExploration>,
+        <http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/VisualRepresentation>,
+        <http://metaUnionSearch/datasets/PoetryH8RVHS1K/column/Vocabulary> .
+

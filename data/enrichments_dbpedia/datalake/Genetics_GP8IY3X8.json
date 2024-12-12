@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Genetic Disorder",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/disease"
+    },
+    {
+      "column_header": "Prevalence Rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"
+    },
+    {
+      "column_header": "Chromosome Number",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/onChromosome"
+    },
+    {
+      "column_header": "Chromosome Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geneLocation"
+    },
+    {
+      "column_header": "Symptoms",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/symptom"
+    },
+    {
+      "column_header": "Expression Pattern",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/other"  
+    },
+    {
+      "column_header": "Recessive Alleles Needed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/other"
+    },
+    {
+      "column_header": "Dominant Allele Frequency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/other"
+    },
+    {
+      "column_header": "Inheritance Pattern",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/other"
+    },
+    {
+      "column_header": "Gene Symbol",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/symbol"
+    },
+    {
+      "column_header": "Gene Description",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/other"
+    },
+    {
+      "column_header": "Mutation Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/other"
+    },
+    {
+      "column_header": "Mutation Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geneLocation"
+    },
+    {
+      "column_header": "Population Frequency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"
+    },
+    {
+      "column_header": "Additional Information",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    }
+  ]
+}

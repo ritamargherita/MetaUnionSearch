@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScience35HONMRS> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_35HONMRS.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/AdditionalTests> a dsv:Column ;
+    rdfs:label "Additional Tests" ;
+    dsv:columnProperty "testaverage" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/Age> a dsv:Column ;
+    rdfs:label "Age" ;
+    dsv:columnProperty "age" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/AnimalType> a dsv:Column ;
+    rdfs:label "Animal Type" ;
+    dsv:columnProperty "animal" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/Breed> a dsv:Column ;
+    rdfs:label "Breed" ;
+    dsv:columnProperty "race" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/Diagnosis> a dsv:Column ;
+    rdfs:label "Diagnosis" ;
+    dsv:columnProperty "medical diagnosis" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/DietaryRestrictions> a dsv:Column ;
+    rdfs:label "Dietary Restrictions" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/EnvironmentalFactors> a dsv:Column ;
+    rdfs:label "Environmental Factors" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/Followup> a dsv:Column ;
+    rdfs:label "Follow-up" ;
+    dsv:columnProperty "followed by" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/HealthStatus> a dsv:Column ;
+    rdfs:label "Health Status" ;
+    dsv:columnProperty "current status" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/IntelligenceLevel> a dsv:Column ;
+    rdfs:label "Intelligence Level" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/LabResults> a dsv:Column ;
+    rdfs:label "Lab Results" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/Symptoms> a dsv:Column ;
+    rdfs:label "Symptoms" ;
+    dsv:columnProperty "symptoms" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/TreatmentPlan> a dsv:Column ;
+    rdfs:label "Treatment Plan" ;
+    dsv:columnProperty "treatment" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/Weight> a dsv:Column ;
+    rdfs:label "Weight" ;
+    dsv:columnProperty "weight (g)" .
+
+<http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/AdditionalTests>,
+        <http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/Age>,
+        <http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/AnimalType>,
+        <http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/Breed>,
+        <http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/Diagnosis>,
+        <http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/DietaryRestrictions>,
+        <http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/EnvironmentalFactors>,
+        <http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/Followup>,
+        <http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/HealthStatus>,
+        <http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/IntelligenceLevel>,
+        <http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/LabResults>,
+        <http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/Symptoms>,
+        <http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/TreatmentPlan>,
+        <http://metaUnionSearch/datasets/VeterinaryScience35HONMRS/column/Weight> .
+

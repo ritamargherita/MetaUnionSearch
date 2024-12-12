@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Nebula Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ngcName"
+    },
+    {
+      "column_header": " Nebula Category",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/category"
+    },
+    {
+      "column_header": " Constellations Located In",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/constellation"
+    },
+    {
+      "column_header": " Size (light years)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/measurements"
+    },
+    {
+      "column_header": " Star Formation Rate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": " Gas Composition (%)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": " Temperature (K)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"
+    },
+    {
+      "column_header": " Radiation Level",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/strength"
+    },
+    {
+      "column_header": " Dust Distribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/density"
+    },
+    {
+      "column_header": " Magnetic Field Strength",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/field"
+    },
+    {
+      "column_header": " Rotational Period",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rotationPeriod"
+    }
+  ]
+}

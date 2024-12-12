@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeography8CX9J1IC> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_8CX9J1IC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/CoastlineLengthkm> a dsv:Column ;
+    rdfs:label "Coastline Length (km)" ;
+    dsv:columnProperty "length of a coast" .
+
+<http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/EndemicFloraFauna> a dsv:Column ;
+    rdfs:label "Endemic Flora & Fauna" ;
+    dsv:columnProperty "flora" .
+
+<http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/InternetTLD> a dsv:Column ;
+    rdfs:label "Internet TLD" ;
+    dsv:columnProperty "country top level (tld)" .
+
+<http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/IslandNation> a dsv:Column ;
+    rdfs:label "Island Nation" ;
+    dsv:columnProperty "nation" .
+
+<http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/MarineLifeRichness> a dsv:Column ;
+    rdfs:label "Marine Life Richness" ;
+    dsv:columnProperty "WoRMS" .
+
+<http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/NationalAnimal> a dsv:Column ;
+    rdfs:label "National Animal" ;
+    dsv:columnProperty "animal" .
+
+<http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/NumberOfIslands> a dsv:Column ;
+    rdfs:label "Number Of Islands" ;
+    dsv:columnProperty "number of islands" .
+
+<http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/OceanicRegion> a dsv:Column ;
+    rdfs:label "Oceanic Region" ;
+    dsv:columnProperty "sea" .
+
+<http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/UnderwaterTerrains> a dsv:Column ;
+    rdfs:label "Underwater Terrains" ;
+    dsv:columnProperty "depths" .
+
+<http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/VolcanismInformation> a dsv:Column ;
+    rdfs:label "Volcanism Information" ;
+    dsv:columnProperty "volcanic activity" .
+
+<http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/CoastlineLengthkm>,
+        <http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/EndemicFloraFauna>,
+        <http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/InternetTLD>,
+        <http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/IslandNation>,
+        <http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/MarineLifeRichness>,
+        <http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/NationalAnimal>,
+        <http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/NumberOfIslands>,
+        <http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/OceanicRegion>,
+        <http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/UnderwaterTerrains>,
+        <http://metaUnionSearch/datasets/WorldGeography8CX9J1IC/column/VolcanismInformation> .
+

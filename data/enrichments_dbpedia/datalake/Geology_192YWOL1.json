@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "Erosional Features", "dbpedia_property_id": "http://dbpedia.org/ontology/features"},
+    {"column_header": "Geological Stresses & Movements", "dbpedia_property_id": "http://dbpedia.org/ontology/geology"},
+    {"column_header": "Volcanism Indications", "dbpedia_property_id": "http://dbpedia.org/ontology/volcanicActivity"},
+    {"column_header": "Plate Tectonics Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/orogeny"},
+    {"column_header": "Seismic Activity", "dbpedia_property_id": "http://dbpedia.org/ontology/geology"},
+    {"column_header": "Mountain Building Processes", "dbpedia_property_id": "http://dbpedia.org/ontology/orogeny"},
+    {"column_header": "Cave Systems", "dbpedia_property_id": "http://dbpedia.org/ontology/features"},
+    {"column_header": "Soil Formation", "dbpedia_property_id": "http://dbpedia.org/ontology/geology"},
+    {"column_header": "Mineral Deposits", "dbpedia_property_id": "http://dbpedia.org/ontology/geology"},
+    {"column_header": "Geomorphic Features", "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"},
+    {"column_header": "Hydrothermal Systems", "dbpedia_property_id": "http://dbpedia.org/ontology/geology"},
+    {"column_header": "Natural Resources", "dbpedia_property_id": "http://dbpedia.org/ontology/geology"},
+    {"column_header": "Landform Evolution", "dbpedia_property_id": "http://dbpedia.org/ontology/geology"},
+    {"column_header": "Geologic Time Scale", "dbpedia_property_id": "http://dbpedia.org/ontology/geologicPeriod"}
+  ]
+}

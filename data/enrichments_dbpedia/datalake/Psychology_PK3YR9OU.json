@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "BrainStructureSize",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoType"
+    },
+    {
+      "column_header": " BrAINVolume",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoNumber"
+    },
+    {
+      "column_header": " CerebralCortexThickness",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoType"
+    },
+    {
+      "column_header": " WhiteMatterIntegrity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoType"
+    },
+    {
+      "column_header": " HippocampusShape",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoType"
+    },
+    {
+      "column_header": " AmygdalaActivity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoType"
+    },
+    {
+      "column_header": " AnxietyLevelsUnderStress",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mood"
+    },
+    {
+      "column_header": " DepressionScoresAfterTrauma",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mood"
+    },
+    {
+      "column_header": " EmpathyIndexesWithPeers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mood"
+    },
+    {
+      "column_header": " SocialInteractionSkillsAssessmentScore",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mood"
+    },
+    {
+      "column_header": " IQTestResultsSummaryStatistics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoNumber"
+    },
+    {
+      "column_header": " ExecutiveFunctioningAbilitiesMeasures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoNumber"
+    },
+    {
+      "column_header": " CopingStrategiesUsedFrequently",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mood"
+    },
+    {
+      "column_header": " SenseOfHumorPerceptionRating",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mood"
+    }
+  ]
+}

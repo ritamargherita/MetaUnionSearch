@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Horticulture8NFVD6XD> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_8NFVD6XD.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Horticulture8NFVD6XD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/AvgGrowthRateMonthly> a dsv:Column ;
+    rdfs:label "AvgGrowthRateMonthly" ;
+    dsv:columnProperty "month" .
+
+<http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/BloomColorVarieties> a dsv:Column ;
+    rdfs:label "BloomColorVarieties" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/FloweringSeasonAndWeatherPreference> a dsv:Column ;
+    rdfs:label "FloweringSeasonAndWeatherPreference" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/FrequencyOfPestLifting> a dsv:Column ;
+    rdfs:label "FrequencyOfPestLifting" ;
+    dsv:columnProperty "frequency (Hz)" .
+
+<http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/FruitYieldPerAcre> a dsv:Column ;
+    rdfs:label "FruitYieldPerAcre" ;
+    dsv:columnProperty "production" .
+
+<http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/ProductionLimitationsAndSpecifics> a dsv:Column ;
+    rdfs:label "ProductionLimitationsAndSpecifics" ;
+    dsv:columnProperty "production" .
+
+<http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/PruningTimeOfYear> a dsv:Column ;
+    rdfs:label "PruningTimeOfYear" ;
+    dsv:columnProperty "month" .
+
+<http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/RegionalOrLocalVarietiesWithSpecificsAndUsageRestrictions> a dsv:Column ;
+    rdfs:label "RegionalOrLocalVarietiesWithSpecificsAndUsageRestrictions" ;
+    dsv:columnProperty "cultivar" .
+
+<http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/SoilTempRangeDuringGrowthPer100Days> a dsv:Column ;
+    rdfs:label "SoilTempRangeDuringGrowthPer100Days" ;
+    dsv:columnProperty "temperature (K)" .
+
+<http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/SpeciesRecommendations> a dsv:Column ;
+    rdfs:label "SpeciesRecommendations" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/SpecificFeaturesAdaptedForClimateZoneAndGeographicLocation> a dsv:Column ;
+    rdfs:label "SpecificFeaturesAdaptedForClimateZoneAndGeographicLocation" ;
+    dsv:columnProperty "region" .
+
+<http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/TipsForHealthyEstablishmentAndDiseaseManagement> a dsv:Column ;
+    rdfs:label "TipsForHealthyEstablishmentAndDiseaseManagement" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/TypicalPollinator> a dsv:Column ;
+    rdfs:label "TypicalPollinator" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/Horticulture8NFVD6XD/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/AvgGrowthRateMonthly>,
+        <http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/BloomColorVarieties>,
+        <http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/FloweringSeasonAndWeatherPreference>,
+        <http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/FrequencyOfPestLifting>,
+        <http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/FruitYieldPerAcre>,
+        <http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/ProductionLimitationsAndSpecifics>,
+        <http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/PruningTimeOfYear>,
+        <http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/RegionalOrLocalVarietiesWithSpecificsAndUsageRestrictions>,
+        <http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/SoilTempRangeDuringGrowthPer100Days>,
+        <http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/SpeciesRecommendations>,
+        <http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/SpecificFeaturesAdaptedForClimateZoneAndGeographicLocation>,
+        <http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/TipsForHealthyEstablishmentAndDiseaseManagement>,
+        <http://metaUnionSearch/datasets/Horticulture8NFVD6XD/column/TypicalPollinator> .
+

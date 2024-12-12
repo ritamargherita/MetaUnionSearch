@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EnvironmentIYIJE7AK> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_IYIJE7AK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/ClimateChangeImpactIndex> a dsv:Column ;
+    rdfs:label "Climate_Change_Impact_Index" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/CommunityEducationLevel> a dsv:Column ;
+    rdfs:label "Community_Education_Level" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/ConservationEffortsBudget> a dsv:Column ;
+    rdfs:label "Conservation_Efforts_Budget" ;
+    dsv:columnProperty "project budget funding ($)" .
+
+<http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/EcologicalFootprint> a dsv:Column ;
+    rdfs:label "Ecological_Footprint" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/EndangeredSpeciesListed> a dsv:Column ;
+    rdfs:label "Endangered_Species_Listed" ;
+    dsv:columnProperty "endangered since" .
+
+<http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/NaturalDisasterFrequency> a dsv:Column ;
+    rdfs:label "Natural_Disaster_Frequency" ;
+    dsv:columnProperty "casualties" .
+
+<http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/RecyclingRate> a dsv:Column ;
+    rdfs:label "Recycling_Rate" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/RenewableEnergyContribution> a dsv:Column ;
+    rdfs:label "Renewable_Energy_Contribution" ;
+    dsv:columnProperty "production" .
+
+<http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/SustainableFarmingPractices> a dsv:Column ;
+    rdfs:label "Sustainable_Farming_Practices" ;
+    dsv:columnProperty "cultivar" .
+
+<http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/UrbanPlanningIndex> a dsv:Column ;
+    rdfs:label "Urban_Planning_Index" ;
+    dsv:columnProperty "urban area" .
+
+<http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/ClimateChangeImpactIndex>,
+        <http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/CommunityEducationLevel>,
+        <http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/ConservationEffortsBudget>,
+        <http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/EcologicalFootprint>,
+        <http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/EndangeredSpeciesListed>,
+        <http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/NaturalDisasterFrequency>,
+        <http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/RecyclingRate>,
+        <http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/RenewableEnergyContribution>,
+        <http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/SustainableFarmingPractices>,
+        <http://metaUnionSearch/datasets/EnvironmentIYIJE7AK/column/UrbanPlanningIndex> .
+

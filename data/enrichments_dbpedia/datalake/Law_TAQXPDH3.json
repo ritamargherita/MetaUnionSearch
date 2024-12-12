@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {"column_header": "Court Date", "dbpedia_property_id": "http://dbpedia.org/ontology/date"},
+    {"column_header": "Type of Hearing", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
+    {"column_header": "Legislation Under Review", "dbpedia_property_id": "http://dbpedia.org/ontology/legislature"},
+    {"column_header": "Amicus Curiae Filings", "dbpedia_property_id": "http://dbpedia.org/ontology/review"},
+    {"column_header": "Legal Case Name", "dbpedia_property_id": "http://dbpedia.org/ontology/case"},
+    {"column_header": "Statute Violations", "dbpedia_property_id": "http://dbpedia.org/ontology/legalArticle"},
+    {"column_header": "Plaintiff(s) Names", "dbpedia_property_id": "http://dbpedia.org/ontology/names"},
+    {"column_header": "Defense Arguments", "dbpedia_property_id": "http://dbpedia.org/ontology/argument"},
+    {"column_header": "Defendant(s) Names", "dbpedia_property_id": "http://dbpedia.org/ontology/names"},
+    {"column_header": "Counterclaims (if Any)", "dbpedia_property_id": "http://dbpedia.org/ontology/casSupplemental"},
+    {"column_header": "Courtroom Observers & Public Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/publiclyAccessible"},
+    {"column_header": "Judicial Opinion and Analysis", "dbpedia_property_id": "http://dbpedia.org/ontology/ruling"},
+    {"column_header": "Final Disposition", "dbpedia_property_id": "http://dbpedia.org/ontology/end"},
+    {"column_header": "Appealed to Higher Court", "dbpedia_property_id": "http://dbpedia.org/ontology/ruling"},
+    {"column_header": "Higher Court Ruling Details (where applicable)", "dbpedia_property_id": "http://dbpedia.org/ontology/ruling"}
+  ]
+}

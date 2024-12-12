@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Genetics8QLHBIAW> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_8QLHBIAW.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Genetics8QLHBIAW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/DeNovoMutationsPercentage> a dsv:Column ;
+    rdfs:label "DeNovoMutationsPercentage" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/ExpressionPattern> a dsv:Column ;
+    rdfs:label "ExpressionPattern" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/GeneDescription> a dsv:Column ;
+    rdfs:label "GeneDescription" ;
+    dsv:columnProperty "geneReviewsName" .
+
+<http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/GeneSymbol> a dsv:Column ;
+    rdfs:label "GeneSymbol" ;
+    dsv:columnProperty "Symbol" .
+
+<http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/GenomicRegion> a dsv:Column ;
+    rdfs:label "GenomicRegion" ;
+    dsv:columnProperty "Gene Location" .
+
+<http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/GermlineVariantsPercentage> a dsv:Column ;
+    rdfs:label "GermlineVariantsPercentage" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/InheritancePattern> a dsv:Column ;
+    rdfs:label "InheritancePattern" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/LikelyGeneCulprit> a dsv:Column ;
+    rdfs:label "LikelyGeneCulprit" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/MultipleAlternativeSplicingForms> a dsv:Column ;
+    rdfs:label "MultipleAlternativeSplicingForms" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/MutationLocation> a dsv:Column ;
+    rdfs:label "MutationLocation" ;
+    dsv:columnProperty "Gene Location" .
+
+<http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/MutationType> a dsv:Column ;
+    rdfs:label "MutationType" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/PopulationFrequency> a dsv:Column ;
+    rdfs:label "PopulationFrequency" ;
+    dsv:columnProperty "population" .
+
+<http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/RecessiveAllelesNeededPercentage> a dsv:Column ;
+    rdfs:label "RecessiveAllelesNeededPercentage" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/Symptoms> a dsv:Column ;
+    rdfs:label "Symptoms" ;
+    dsv:columnProperty "symptoms" .
+
+<http://metaUnionSearch/datasets/Genetics8QLHBIAW/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/DeNovoMutationsPercentage>,
+        <http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/ExpressionPattern>,
+        <http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/GeneDescription>,
+        <http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/GeneSymbol>,
+        <http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/GenomicRegion>,
+        <http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/GermlineVariantsPercentage>,
+        <http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/InheritancePattern>,
+        <http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/LikelyGeneCulprit>,
+        <http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/MultipleAlternativeSplicingForms>,
+        <http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/MutationLocation>,
+        <http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/MutationType>,
+        <http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/PopulationFrequency>,
+        <http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/RecessiveAllelesNeededPercentage>,
+        <http://metaUnionSearch/datasets/Genetics8QLHBIAW/column/Symptoms> .
+

@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeologyRQAHLJ2X> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_RQAHLJ2X.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeologyRQAHLJ2X/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/BedslopeOrientationsandSizes> a dsv:Column ;
+    rdfs:label "Bedslope Orientations and Sizes" ;
+    dsv:columnProperty "orientation" .
+
+<http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/FoldingPatternsandShearingZones> a dsv:Column ;
+    rdfs:label "Folding Patterns and Shearing Zones" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/GeologicalStructures> a dsv:Column ;
+    rdfs:label "Geological Structures" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/GlacialHistoryErosions> a dsv:Column ;
+    rdfs:label "Glacial History & Erosions" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/ImpactEvents> a dsv:Column ;
+    rdfs:label "Impact Events" ;
+    dsv:columnProperty "event" .
+
+<http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/MetamorphosisTypesandGrades> a dsv:Column ;
+    rdfs:label "Metamorphosis Types and Grades" ;
+    dsv:columnProperty "grades" .
+
+<http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/QuaternaryFeatures> a dsv:Column ;
+    rdfs:label "Quaternary Features" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/SeismoactivityEarthquakes> a dsv:Column ;
+    rdfs:label "Seismoactivity & Earthquakes" ;
+    dsv:columnProperty "event" .
+
+<http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/SoilsAnalysis> a dsv:Column ;
+    rdfs:label "Soils Analysis" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/TectonicSetting> a dsv:Column ;
+    rdfs:label "Tectonic Setting" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/VolcanismActivity> a dsv:Column ;
+    rdfs:label "Volcanism Activity" ;
+    dsv:columnProperty "volcanic activity" .
+
+<http://metaUnionSearch/datasets/GeologyRQAHLJ2X/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/BedslopeOrientationsandSizes>,
+        <http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/FoldingPatternsandShearingZones>,
+        <http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/GeologicalStructures>,
+        <http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/GlacialHistoryErosions>,
+        <http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/ImpactEvents>,
+        <http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/MetamorphosisTypesandGrades>,
+        <http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/QuaternaryFeatures>,
+        <http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/SeismoactivityEarthquakes>,
+        <http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/SoilsAnalysis>,
+        <http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/TectonicSetting>,
+        <http://metaUnionSearch/datasets/GeologyRQAHLJ2X/column/VolcanismActivity> .
+

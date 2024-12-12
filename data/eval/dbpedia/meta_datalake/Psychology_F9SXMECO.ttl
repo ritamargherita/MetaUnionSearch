@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PsychologyF9SXMECO> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_F9SXMECO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PsychologyF9SXMECO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/AdditionalTrainingCourses> a dsv:Column ;
+    rdfs:label "AdditionalTrainingCourses" ;
+    dsv:columnProperty "training" .
+
+<http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/CurrentPsychologyCareerGoals> a dsv:Column ;
+    rdfs:label "CurrentPsychologyCareerGoals" ;
+    dsv:columnProperty "profession" .
+
+<http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/DisagreedWithPsychologicalConcept> a dsv:Column ;
+    rdfs:label "DisagreedWithPsychologicalConcept" ;
+    dsv:columnProperty "conflict" .
+
+<http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/FamousQuoteByFavPsych> a dsv:Column ;
+    rdfs:label "FamousQuoteByFavPsych" ;
+    dsv:columnProperty "quote" .
+
+<http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/FavoriteBookOnPsychology> a dsv:Column ;
+    rdfs:label "FavoriteBookOnPsychology" ;
+    dsv:columnProperty "non-fiction subject" .
+
+<http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/FavoritePsychologicalConcept> a dsv:Column ;
+    rdfs:label "FavoritePsychologicalConcept" ;
+    dsv:columnProperty "philosophicalSchool" .
+
+<http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/FavoritePsychologist> a dsv:Column ;
+    rdfs:label "FavoritePsychologist" ;
+    dsv:columnProperty "specialist" .
+
+<http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/FutureOfPsychologyInterest> a dsv:Column ;
+    rdfs:label "FutureOfPsychologyInterest" ;
+    dsv:columnProperty "role" .
+
+<http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/MembershipInPsychologicalAssociations> a dsv:Column ;
+    rdfs:label "MembershipInPsychologicalAssociations" ;
+    dsv:columnProperty "membership" .
+
+<http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/MostInfluentialPsychologist> a dsv:Column ;
+    rdfs:label "MostInfluentialPsychologist" ;
+    dsv:columnProperty "specialist" .
+
+<http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/PreferedPsychologyResearchMethod> a dsv:Column ;
+    rdfs:label "PreferedPsychologyResearchMethod" ;
+    dsv:columnProperty "discipline" .
+
+<http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/PsychologicalQuestionStillUnanswered> a dsv:Column ;
+    rdfs:label "PsychologicalQuestionStillUnanswered" ;
+    dsv:columnProperty "topic" .
+
+<http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/RoleModelInPsychologyCareer> a dsv:Column ;
+    rdfs:label "RoleModelInPsychologyCareer" ;
+    dsv:columnProperty "mentor" .
+
+<http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/YearsOfPsychologyStudy> a dsv:Column ;
+    rdfs:label "YearsOfPsychologyStudy" ;
+    dsv:columnProperty "years" .
+
+<http://metaUnionSearch/datasets/PsychologyF9SXMECO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/AdditionalTrainingCourses>,
+        <http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/CurrentPsychologyCareerGoals>,
+        <http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/DisagreedWithPsychologicalConcept>,
+        <http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/FamousQuoteByFavPsych>,
+        <http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/FavoriteBookOnPsychology>,
+        <http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/FavoritePsychologicalConcept>,
+        <http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/FavoritePsychologist>,
+        <http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/FutureOfPsychologyInterest>,
+        <http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/MembershipInPsychologicalAssociations>,
+        <http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/MostInfluentialPsychologist>,
+        <http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/PreferedPsychologyResearchMethod>,
+        <http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/PsychologicalQuestionStillUnanswered>,
+        <http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/RoleModelInPsychologyCareer>,
+        <http://metaUnionSearch/datasets/PsychologyF9SXMECO/column/YearsOfPsychologyStudy> .
+

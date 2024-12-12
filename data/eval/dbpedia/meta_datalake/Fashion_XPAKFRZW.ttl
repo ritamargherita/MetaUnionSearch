@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_XPAKFRZW.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FashionXPAKFRZW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/CelebrityEndorsementStatusWithNamesList> a dsv:Column ;
+    rdfs:label "Celebrity Endorsement Status With Names List" ;
+    dsv:columnProperty "names" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/CollaborationDetailswithOtherBrandsOrArtists> a dsv:Column ;
+    rdfs:label "Collaboration Details with Other Brands Or Artists" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/DesignerName> a dsv:Column ;
+    rdfs:label "Designer Name" ;
+    dsv:columnProperty "designer" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/EthicalManufacturingCertificationsHeldbyCompany> a dsv:Column ;
+    rdfs:label "Ethical Manufacturing Certifications Held by Company." ;
+    dsv:columnProperty "certification" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/FashionTrendsetter> a dsv:Column ;
+    rdfs:label "Fashion Trendsetter" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/GenderNeutralorSpecializedCollection> a dsv:Column ;
+    rdfs:label "Gender Neutral or Specialized Collection?" ;
+    dsv:columnProperty "gender" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/ModelHeightandMeasurements> a dsv:Column ;
+    rdfs:label "Model Height and Measurements" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/NumberOfLikesAndCommentsOnPostings> a dsv:Column ;
+    rdfs:label "Number Of Likes And Comments On Postings" ;
+    dsv:columnProperty "number of stars" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/ProfessionalModelsWearingOutfitPhotosURL> a dsv:Column ;
+    rdfs:label "Professional Models Wearing Outfit Photos (URL)" ;
+    dsv:columnProperty "gallery item" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/RunwayInspiration> a dsv:Column ;
+    rdfs:label "Runway Inspiration" ;
+    dsv:columnProperty "designation of runway" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/SocialMediaBuzzScoreHashtags> a dsv:Column ;
+    rdfs:label "Social Media Buzz Score #Hashtags" ;
+    dsv:columnProperty "tag" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/SustainableFabricsUsed> a dsv:Column ;
+    rdfs:label "Sustainable Fabrics Used%" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/TargetAudience> a dsv:Column ;
+    rdfs:label "Target Audience" ;
+    dsv:columnProperty "share of audience" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/column/UserGeneratedContentGalleryURLInstagram> a dsv:Column ;
+    rdfs:label "User Generated Content Gallery URL(Instagram)" ;
+    dsv:columnProperty "The URL at which this file can be downloaded" .
+
+<http://metaUnionSearch/datasets/FashionXPAKFRZW/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/CelebrityEndorsementStatusWithNamesList>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/CollaborationDetailswithOtherBrandsOrArtists>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/DesignerName>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/EthicalManufacturingCertificationsHeldbyCompany>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/FashionTrendsetter>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/GenderNeutralorSpecializedCollection>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/ModelHeightandMeasurements>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/NumberOfLikesAndCommentsOnPostings>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/ProfessionalModelsWearingOutfitPhotosURL>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/RunwayInspiration>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/SocialMediaBuzzScoreHashtags>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/SustainableFabricsUsed>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/TargetAudience>,
+        <http://metaUnionSearch/datasets/FashionXPAKFRZW/column/UserGeneratedContentGalleryURLInstagram> .
+

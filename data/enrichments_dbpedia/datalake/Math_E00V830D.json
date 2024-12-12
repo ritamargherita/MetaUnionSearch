@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Problems in Math", "dbpedia_property_id": "http://dbpedia.org/ontology/calculationNeeds"},
+    {"column_header": "Famous Math Problems", "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"},
+    {"column_header": "Mathematical Theorems", "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"},
+    {"column_header": "Puzzles and Brain Teasers", "dbpedia_property_id": "http://dbpedia.org/ontology/brainInfoType"},
+    {"column_header": "Math Software and Tools", "dbpedia_property_id": "http://dbpedia.org/ontology/programmingLanguage"},
+    {"column_header": "Math Websites and Resources", "dbpedia_property_id": "http://dbpedia.org/ontology/sourceWebsite"},
+    {"column_header": "Math Journals and Publications", "dbpedia_property_id": "http://dbpedia.org/ontology/publication"},
+    {"column_header": "Mathematicians' Biographies", "dbpedia_property_id": "http://dbpedia.org/ontology/notableWork"},
+    {"column_header": "Math Competitions", "dbpedia_property_id": "http://dbpedia.org/ontology/contest"},
+    {"column_header": "Math Curricula", "dbpedia_property_id": "http://dbpedia.org/ontology/education"},
+    {"column_header": "Math Education Standards", "dbpedia_property_id": "http://dbpedia.org/ontology/educationSystem"},
+    {"column_header": "Mathematical Modeling", "dbpedia_property_id": "http://dbpedia.org/ontology/model"},
+    {"column_header": "Math Careers", "dbpedia_property_id": "http://dbpedia.org/ontology/profession"}
+  ]
+}

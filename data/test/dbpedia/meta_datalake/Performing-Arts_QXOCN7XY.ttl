@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_QXOCN7XY.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/1SeparateProductionCompany> a dsv:Column ;
+    rdfs:label "1. Separate Production Company" ;
+    dsv:columnProperty "company" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/2ArtisticDirection> a dsv:Column ;
+    rdfs:label "2. Artistic Direction" ;
+    dsv:columnProperty "artistic function" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/CharityWork> a dsv:Column ;
+    rdfs:label "Charity Work" ;
+    dsv:columnProperty "work" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/CollaborativePerformances> a dsv:Column ;
+    rdfs:label "Collaborative Performances" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/DanceStylesMastered> a dsv:Column ;
+    rdfs:label "Dance Styles Mastered" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/FamousTeachers> a dsv:Column ;
+    rdfs:label "Famous Teachers" ;
+    dsv:columnProperty "head teacher" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/InspirationalArtists> a dsv:Column ;
+    rdfs:label "Inspirational Artists" ;
+    dsv:columnProperty "associated musical artist" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/InternationalTours> a dsv:Column ;
+    rdfs:label "International Tours" ;
+    dsv:columnProperty "internationally" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/LocalCommunityEngagement> a dsv:Column ;
+    rdfs:label "Local Community Engagement" ;
+    dsv:columnProperty "local authority" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/MusicalInstrumentsPlayed> a dsv:Column ;
+    rdfs:label "Musical Instruments Played" ;
+    dsv:columnProperty "instrument" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/PuppetrySkills> a dsv:Column ;
+    rdfs:label "Puppetry Skills" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/scurrrangecounter11Timetaken24789568662643433secondsTimetaken5044835865497589secondsTimetaken23474632740020752secondsnbsp> a dsv:Column ;
+    rdfs:label """</s>
+curr_range_counter:  11
+Time taken: 24.789568662643433 seconds
+Time taken: 504.4835865497589 seconds
+Time taken: 23.474632740020752 seconds
+&nbsp""" .
+
+<http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/1SeparateProductionCompany>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/2ArtisticDirection>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/CharityWork>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/CollaborativePerformances>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/DanceStylesMastered>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/FamousTeachers>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/InspirationalArtists>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/InternationalTours>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/LocalCommunityEngagement>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/MusicalInstrumentsPlayed>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/PuppetrySkills>,
+        <http://metaUnionSearch/datasets/PerformingArtsQXOCN7XY/column/scurrrangecounter11Timetaken24789568662643433secondsTimetaken5044835865497589secondsTimetaken23474632740020752secondsnbsp> .
+

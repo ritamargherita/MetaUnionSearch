@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Elections Data",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refpol"
+    },
+    {
+      "column_header": " Frequency Of Election",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/electionDate"
+    },
+    {
+      "column_header": " Voter Turnout Rates%",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": " Political Dynasties Details",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dynasty"
+    },
+    {
+      "column_header": " NumberOfGenerationsInPower",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/generationUnits"
+    },
+    {
+      "column_header": " RelativesInPoliticsCount",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relative"
+    },
+    {
+      "column_header": " AverageCampaignExpensesPerCandidate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/popularVote"
+    },
+    {
+      "column_header": " VotingMethodExplanation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/media"
+    },
+    {
+      "column_header": " AgeRestrictionsForVotersAndContestants",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/age"
+    },
+    {
+      "column_header": " MediaAccessDuringCampaigning",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/media"
+    },
+    {
+      "column_header": " LegislativeBranchStructureInformation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/legislature"
+    },
+    {
+      "column_header": " MinisterialPositionDetails",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/minister"
+    },
+    {
+      "column_header": " ParliamentaryImmunityRegulations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/politicalFunction"
+    }
+  ]
+}

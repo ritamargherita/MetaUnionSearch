@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_EJ8CX9J1.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/AdditionalNotes> a dsv:Column ;
+    rdfs:label "Additional Notes" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/Address> a dsv:Column ;
+    rdfs:label "Address" ;
+    dsv:columnProperty "address" .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/ArchitectType> a dsv:Column ;
+    rdfs:label "Architect Type" ;
+    dsv:columnProperty "architect" .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/City> a dsv:Column ;
+    rdfs:label "City" ;
+    dsv:columnProperty "city" .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/ConstructionCost> a dsv:Column ;
+    rdfs:label "Construction Cost" ;
+    dsv:columnProperty "cost ($)" .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/EndDate> a dsv:Column ;
+    rdfs:label "End Date" ;
+    dsv:columnProperty "end date" .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/Period> a dsv:Column ;
+    rdfs:label "Period" ;
+    dsv:columnProperty "term period" .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/ProjectDuration> a dsv:Column ;
+    rdfs:label "Project Duration" ;
+    dsv:columnProperty "mission duration (s)" .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/Size> a dsv:Column ;
+    rdfs:label "Size" ;
+    dsv:columnProperty "size_v" .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/SpecialFeatures> a dsv:Column ;
+    rdfs:label "Special Features" ;
+    dsv:columnProperty "notable features" .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/StartDate> a dsv:Column ;
+    rdfs:label "Start Date" ;
+    dsv:columnProperty "start date" .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/State> a dsv:Column ;
+    rdfs:label "State" ;
+    dsv:columnProperty "state" .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/Style> a dsv:Column ;
+    rdfs:label "Style" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/SustainabilityRating> a dsv:Column ;
+    rdfs:label "Sustainability Rating" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/ZipCode> a dsv:Column ;
+    rdfs:label "Zip Code" ;
+    dsv:columnProperty "zip code" .
+
+<http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/AdditionalNotes>,
+        <http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/Address>,
+        <http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/ArchitectType>,
+        <http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/City>,
+        <http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/ConstructionCost>,
+        <http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/EndDate>,
+        <http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/Period>,
+        <http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/ProjectDuration>,
+        <http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/Size>,
+        <http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/SpecialFeatures>,
+        <http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/StartDate>,
+        <http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/State>,
+        <http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/Style>,
+        <http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/SustainabilityRating>,
+        <http://metaUnionSearch/datasets/ArchitectureEJ8CX9J1/column/ZipCode> .
+

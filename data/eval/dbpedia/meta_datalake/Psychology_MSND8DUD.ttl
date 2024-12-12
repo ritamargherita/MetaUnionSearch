@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD> a dsv:Dataset ;
+    dcterms:subject "psychology" ;
+    dcterms:title "Psychology_MSND8DUD.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PsychologyMSND8DUD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence1> a dsv:Column ;
+    rdfs:label "CharacterInfluence1" ;
+    dsv:columnProperty "notable student" .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence10> a dsv:Column ;
+    rdfs:label "CharacterInfluence10" ;
+    dsv:columnProperty "notable student" .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence11> a dsv:Column ;
+    rdfs:label "CharacterInfluence11" ;
+    dsv:columnProperty "notable student" .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence2> a dsv:Column ;
+    rdfs:label "CharacterInfluence2" ;
+    dsv:columnProperty "notable student" .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence3> a dsv:Column ;
+    rdfs:label "CharacterInfluence3" ;
+    dsv:columnProperty "notable student" .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence4> a dsv:Column ;
+    rdfs:label "CharacterInfluence4" ;
+    dsv:columnProperty "notable student" .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence5> a dsv:Column ;
+    rdfs:label "CharacterInfluence5" ;
+    dsv:columnProperty "notable student" .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence6> a dsv:Column ;
+    rdfs:label "CharacterInfluence6" ;
+    dsv:columnProperty "notable student" .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence7> a dsv:Column ;
+    rdfs:label "CharacterInfluence7" ;
+    dsv:columnProperty "notable student" .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence8> a dsv:Column ;
+    rdfs:label "CharacterInfluence8" ;
+    dsv:columnProperty "notable student" .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence9> a dsv:Column ;
+    rdfs:label "CharacterInfluence9" ;
+    dsv:columnProperty "notable student" .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/FamousExperiment1> a dsv:Column ;
+    rdfs:label "FamousExperiment1" ;
+    dsv:columnProperty "notableIdea" .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/FamousExperiment2> a dsv:Column ;
+    rdfs:label "FamousExperiment2" ;
+    dsv:columnProperty "notableIdea" .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/FavoritePsychologist> a dsv:Column ;
+    rdfs:label "FavoritePsychologist" ;
+    dsv:columnProperty "doctoral advisor" .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/PreferredTheory> a dsv:Column ;
+    rdfs:label "PreferredTheory" ;
+    dsv:columnProperty "philosophicalSchool" .
+
+<http://metaUnionSearch/datasets/PsychologyMSND8DUD/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence1>,
+        <http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence10>,
+        <http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence11>,
+        <http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence2>,
+        <http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence3>,
+        <http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence4>,
+        <http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence5>,
+        <http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence6>,
+        <http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence7>,
+        <http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence8>,
+        <http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/CharacterInfluence9>,
+        <http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/FamousExperiment1>,
+        <http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/FamousExperiment2>,
+        <http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/FavoritePsychologist>,
+        <http://metaUnionSearch/datasets/PsychologyMSND8DUD/column/PreferredTheory> .
+

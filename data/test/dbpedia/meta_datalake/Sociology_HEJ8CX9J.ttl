@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SociologyHEJ8CX9J> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_HEJ8CX9J.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SociologyHEJ8CX9J/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column1> a dsv:Column ;
+    rdfs:label "Column1" ;
+    dsv:columnProperty "field" .
+
+<http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column10> a dsv:Column ;
+    rdfs:label "Column10" ;
+    dsv:columnProperty "committee" .
+
+<http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column11> a dsv:Column ;
+    rdfs:label "Column11" ;
+    dsv:columnProperty "ICD9" .
+
+<http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column12> a dsv:Column ;
+    rdfs:label "Column12" ;
+    dsv:columnProperty "Genome DB" .
+
+<http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column13> a dsv:Column ;
+    rdfs:label "Column13" ;
+    dsv:columnProperty "row number" .
+
+<http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column14> a dsv:Column ;
+    rdfs:label "Column14" ;
+    dsv:columnProperty "chairman" .
+
+<http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column2> a dsv:Column ;
+    rdfs:label "Column2" ;
+    dsv:columnProperty "ept final table" .
+
+<http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column3> a dsv:Column ;
+    rdfs:label "Column3" ;
+    dsv:columnProperty "wpt final table" .
+
+<http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column4> a dsv:Column ;
+    rdfs:label "Column4" ;
+    dsv:columnProperty "firstPopularVote" .
+
+<http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column5> a dsv:Column ;
+    rdfs:label "Column5" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column6> a dsv:Column ;
+    rdfs:label "Column6" ;
+    dsv:columnProperty "secondPopularVote" .
+
+<http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column7> a dsv:Column ;
+    rdfs:label "Column7" ;
+    dsv:columnProperty "third commander" .
+
+<http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column8> a dsv:Column ;
+    rdfs:label "Column8" ;
+    dsv:columnProperty "fourth commander" .
+
+<http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column9> a dsv:Column ;
+    rdfs:label "Column9" ;
+    dsv:columnProperty "board" .
+
+<http://metaUnionSearch/datasets/SociologyHEJ8CX9J/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column1>,
+        <http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column10>,
+        <http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column11>,
+        <http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column12>,
+        <http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column13>,
+        <http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column14>,
+        <http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column2>,
+        <http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column3>,
+        <http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column4>,
+        <http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column5>,
+        <http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column6>,
+        <http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column7>,
+        <http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column8>,
+        <http://metaUnionSearch/datasets/SociologyHEJ8CX9J/column/Column9> .
+

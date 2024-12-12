@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MusicUUPTJ7O0> a dsv:Dataset ;
+    dcterms:subject "music" ;
+    dcterms:title "Music_UUPTJ7O0.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MusicUUPTJ7O0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/Artists> a dsv:Column ;
+    rdfs:label "Artist(s)" ;
+    dsv:columnProperty "musical artist" .
+
+<http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/Composer> a dsv:Column ;
+    rdfs:label "Composer" ;
+    dsv:columnProperty "composer" .
+
+<http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/ExplicitContent> a dsv:Column ;
+    rdfs:label "Explicit Content" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/Genres> a dsv:Column ;
+    rdfs:label "Genres" ;
+    dsv:columnProperty "genre" .
+
+<http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/Live> a dsv:Column ;
+    rdfs:label "Live" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/OriginalSongName> a dsv:Column ;
+    rdfs:label "Original Song Name" ;
+    dsv:columnProperty "title" .
+
+<http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/ProfessionallyMastered> a dsv:Column ;
+    rdfs:label "Professionally Mastered" ;
+    dsv:columnProperty "version" .
+
+<http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/ReleaseType> a dsv:Column ;
+    rdfs:label "Release Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/RemixedBy> a dsv:Column ;
+    rdfs:label "Remixed By" ;
+    dsv:columnProperty "associated musical artist" .
+
+<http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/SeasonforTVSoundtracks> a dsv:Column ;
+    rdfs:label "Season(for TV Soundtracks)" ;
+    dsv:columnProperty "season" .
+
+<http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/Title> a dsv:Column ;
+    rdfs:label "Title" ;
+    dsv:columnProperty "title" .
+
+<http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/TrackLength> a dsv:Column ;
+    rdfs:label "Track Length" ;
+    dsv:columnProperty "track length (μ)" .
+
+<http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/TrackNumber> a dsv:Column ;
+    rdfs:label "Track Number" ;
+    dsv:columnProperty "track number" .
+
+<http://metaUnionSearch/datasets/MusicUUPTJ7O0/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/Artists>,
+        <http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/Composer>,
+        <http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/ExplicitContent>,
+        <http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/Genres>,
+        <http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/Live>,
+        <http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/OriginalSongName>,
+        <http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/ProfessionallyMastered>,
+        <http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/ReleaseType>,
+        <http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/RemixedBy>,
+        <http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/SeasonforTVSoundtracks>,
+        <http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/Title>,
+        <http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/TrackLength>,
+        <http://metaUnionSearch/datasets/MusicUUPTJ7O0/column/TrackNumber> .
+

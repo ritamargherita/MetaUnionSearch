@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronauticsP4VS6KFR> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_P4VS6KFR.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/AstronomerOnBoard> a dsv:Column ;
+    rdfs:label "Astronomer On Board" ;
+    dsv:columnProperty "crew member" .
+
+<http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/CrewCount> a dsv:Column ;
+    rdfs:label "Crew Count" ;
+    dsv:columnProperty "number of crew" .
+
+<http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/Durationdays> a dsv:Column ;
+    rdfs:label "Duration (days)" ;
+    dsv:columnProperty "mission duration (s)" .
+
+<http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/ExperimentResults> a dsv:Column ;
+    rdfs:label "Experiment Results" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/FirstStageReturn> a dsv:Column ;
+    rdfs:label "First Stage Return?" ;
+    dsv:columnProperty "launch" .
+
+<http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/LaunchVehicleUsed> a dsv:Column ;
+    rdfs:label "Launch Vehicle Used" ;
+    dsv:columnProperty "launch vehicle" .
+
+<http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/MissionName> a dsv:Column ;
+    rdfs:label "Mission Name" ;
+    dsv:columnProperty "mission" .
+
+<http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/OrbitAchieved> a dsv:Column ;
+    rdfs:label "Orbit Achieved" ;
+    dsv:columnProperty "orbits" .
+
+<http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/PayloadsDeployed> a dsv:Column ;
+    rdfs:label "Payloads Deployed" ;
+    dsv:columnProperty "satellites deployed" .
+
+<http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/PrimaryObjective> a dsv:Column ;
+    rdfs:label "Primary Objective" ;
+    dsv:columnProperty "project objective" .
+
+<http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/Reusable> a dsv:Column ;
+    rdfs:label "Reusable?" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/ScientificEquipment> a dsv:Column ;
+    rdfs:label "Scientific Equipment" ;
+    dsv:columnProperty "equipment" .
+
+<http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/SpacecraftUsed> a dsv:Column ;
+    rdfs:label "Spacecraft Used" ;
+    dsv:columnProperty "spacecraft" .
+
+<http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/StartDate> a dsv:Column ;
+    rdfs:label "Start Date" ;
+    dsv:columnProperty "start date" .
+
+<http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/AstronomerOnBoard>,
+        <http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/CrewCount>,
+        <http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/Durationdays>,
+        <http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/ExperimentResults>,
+        <http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/FirstStageReturn>,
+        <http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/LaunchVehicleUsed>,
+        <http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/MissionName>,
+        <http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/OrbitAchieved>,
+        <http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/PayloadsDeployed>,
+        <http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/PrimaryObjective>,
+        <http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/Reusable>,
+        <http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/ScientificEquipment>,
+        <http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/SpacecraftUsed>,
+        <http://metaUnionSearch/datasets/AstronauticsP4VS6KFR/column/StartDate> .
+

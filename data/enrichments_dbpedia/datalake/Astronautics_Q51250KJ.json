@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "MISSION_ID",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/id"
+    },
+    {
+      "column_header": "Mission_Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/book"
+    },
+    {
+      "column_header": "Start_Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/firstLaunchDate"
+    },
+    {
+      "column_header": "Duration_Days",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/missionDuration"
+    },
+    {
+      "column_header": "Spacecraft_Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/spacecraft"
+    },
+    {
+      "column_header": "Primary_Objective",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectObjective"
+    },
+    {
+      "column_header": "Astronomer_On_Board",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/crewMember"
+    },
+    {
+      "column_header": "Orbits_Achieved",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfOrbits"
+    },
+    {
+      "column_header": "Payloads_Deployed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/satellitesDeployed"
+    },
+    {
+      "column_header": "Reusable",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/uses"
+    },
+    {
+      "column_header": "First_Stage_Return",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/launch"
+    },
+    {
+      "column_header": "Crew_Count",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfCrew"
+    },
+    {
+      "column_header": "Spaceflight_Program",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/missions"
+    },
+    {
+      "column_header": "Starship_Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/type"
+    },
+    {
+      "column_header": "Additional_Info_1",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/information"
+    }
+  ]
+}

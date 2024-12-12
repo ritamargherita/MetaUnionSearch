@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MedicineP2KNWDQH> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_P2KNWDQH.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MedicineP2KNWDQH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/DiagnosingPhysician> a dsv:Column ;
+    rdfs:label "Diagnosing Physician" ;
+    dsv:columnProperty "specialist" .
+
+<http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/DiagnosisDate> a dsv:Column ;
+    rdfs:label "Diagnosis Date" ;
+    dsv:columnProperty "certification date" .
+
+<http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/EndDate> a dsv:Column ;
+    rdfs:label "End Date" ;
+    dsv:columnProperty "end date" .
+
+<http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/MedicalCondition> a dsv:Column ;
+    rdfs:label "Medical Condition" ;
+    dsv:columnProperty "disease" .
+
+<http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/MedicationDosage> a dsv:Column ;
+    rdfs:label "Medication Dosage" ;
+    dsv:columnProperty "Dose" .
+
+<http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/PatientAge> a dsv:Column ;
+    rdfs:label "Patient Age" ;
+    dsv:columnProperty "age" .
+
+<http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/PatientID> a dsv:Column ;
+    rdfs:label "Patient ID" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/PharmacyName> a dsv:Column ;
+    rdfs:label "Pharmacy Name" ;
+    dsv:columnProperty "filling station" .
+
+<http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/PrescribedMedication> a dsv:Column ;
+    rdfs:label "Prescribed Medication" ;
+    dsv:columnProperty "medication" .
+
+<http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/PrescriptionCost> a dsv:Column ;
+    rdfs:label "Prescription Cost" ;
+    dsv:columnProperty "unit cost ($)" .
+
+<http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/RefillFrequency> a dsv:Column ;
+    rdfs:label "Refill Frequency" ;
+    dsv:columnProperty "frequency (Hz)" .
+
+<http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/RefillsRemaining> a dsv:Column ;
+    rdfs:label "Refills Remaining" ;
+    dsv:columnProperty "id number" .
+
+<http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/StartDate> a dsv:Column ;
+    rdfs:label "Start Date" ;
+    dsv:columnProperty "start date" .
+
+<http://metaUnionSearch/datasets/MedicineP2KNWDQH/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/DiagnosingPhysician>,
+        <http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/DiagnosisDate>,
+        <http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/EndDate>,
+        <http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/MedicalCondition>,
+        <http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/MedicationDosage>,
+        <http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/PatientAge>,
+        <http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/PatientID>,
+        <http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/PharmacyName>,
+        <http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/PrescribedMedication>,
+        <http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/PrescriptionCost>,
+        <http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/RefillFrequency>,
+        <http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/RefillsRemaining>,
+        <http://metaUnionSearch/datasets/MedicineP2KNWDQH/column/StartDate> .
+

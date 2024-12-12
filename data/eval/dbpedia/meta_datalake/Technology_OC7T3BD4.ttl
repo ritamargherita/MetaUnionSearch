@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologyOC7T3BD4> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_OC7T3BD4.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologyOC7T3BD4/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/AutonomousVehiclesTestScenarios> a dsv:Column ;
+    rdfs:label "Autonomous Vehicles Test Scenarios" ;
+    dsv:columnProperty "vehicle" .
+
+<http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/BlockchainTransparencyIndex> a dsv:Column ;
+    rdfs:label "Blockchain Transparency Index" ;
+    dsv:columnProperty "ranking" .
+
+<http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/ClimateChangeTechSolutionsEvaluation> a dsv:Column ;
+    rdfs:label "Climate Change Tech Solutions Evaluation" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/CybersecurityAttacksAnalysisToolsForensicsCapabilities> a dsv:Column ;
+    rdfs:label "Cybersecurity Attacks Analysis Tools Forensics Capabilities" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/DesignThinkingMethodologies> a dsv:Column ;
+    rdfs:label "Design Thinking Methodologies" ;
+    dsv:columnProperty "approach" .
+
+<http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/InternetOfThingsIoTDevicesIntegrationChallenges> a dsv:Column ;
+    rdfs:label "Internet Of Things (IoT) Devices Integration Challenges" ;
+    dsv:columnProperty "currently used for" .
+
+<http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/NaturalLanguageProcessingAccuracyComparisons> a dsv:Column ;
+    rdfs:label "Natural Language Processing Accuracy Comparisons" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/QuantumComputingProgressLimitations> a dsv:Column ;
+    rdfs:label "Quantum Computing Progress & Limitations" ;
+    dsv:columnProperty "computing platform" .
+
+<http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/RoboticsSurgerySafetyProtocols> a dsv:Column ;
+    rdfs:label "Robotics Surgery Safety Protocols" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/SoftwareArchitecturePatterns> a dsv:Column ;
+    rdfs:label "Software Architecture Patterns" ;
+    dsv:columnProperty "architectural style" .
+
+<http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/SpaceExplorationLatestDevelopments> a dsv:Column ;
+    rdfs:label "Space Exploration Latest Developments" .
+
+<http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/SyntheticBiologyResearchBreakthroughs> a dsv:Column ;
+    rdfs:label "Synthetic Biology Research Breakthroughs" ;
+    dsv:columnProperty "project" .
+
+<http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/UserExperienceMetrics> a dsv:Column ;
+    rdfs:label "User Experience Metrics" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/VirtualRealityAugmentedRealityAdoptionRates> a dsv:Column ;
+    rdfs:label "Virtual Reality/Augmented Reality Adoption Rates" ;
+    dsv:columnProperty "visitor percentage change" .
+
+<http://metaUnionSearch/datasets/TechnologyOC7T3BD4/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/AutonomousVehiclesTestScenarios>,
+        <http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/BlockchainTransparencyIndex>,
+        <http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/ClimateChangeTechSolutionsEvaluation>,
+        <http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/CybersecurityAttacksAnalysisToolsForensicsCapabilities>,
+        <http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/DesignThinkingMethodologies>,
+        <http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/InternetOfThingsIoTDevicesIntegrationChallenges>,
+        <http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/NaturalLanguageProcessingAccuracyComparisons>,
+        <http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/QuantumComputingProgressLimitations>,
+        <http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/RoboticsSurgerySafetyProtocols>,
+        <http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/SoftwareArchitecturePatterns>,
+        <http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/SpaceExplorationLatestDevelopments>,
+        <http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/SyntheticBiologyResearchBreakthroughs>,
+        <http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/UserExperienceMetrics>,
+        <http://metaUnionSearch/datasets/TechnologyOC7T3BD4/column/VirtualRealityAugmentedRealityAdoptionRates> .
+

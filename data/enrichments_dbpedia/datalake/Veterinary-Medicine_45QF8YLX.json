@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Previous Conditions Record",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/previousEvent"
+    },
+    {
+      "column_header": "Vaccination History",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vaccination"
+    },
+    {
+      "column_header": "Special Dietary Needs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/requirement"
+    },
+    {
+      "column_header": "Follow-up Appointments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/followingEvent"
+    },
+    {
+      "column_header": "Owner Contact Info",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/owner"
+    },
+    {
+      "column_header": "Medical Equipment Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": "Insurance Coverage",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fees"
+    },
+    {
+      "column_header": "Alternative Therapy Options",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"
+    },
+    {
+      "column_header": "Emergency Contact 1",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/firstOwner"
+    },
+    {
+      "column_header": "Emergency Contact 2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/second"
+    }
+  ]
+}

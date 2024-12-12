@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J> a dsv:Dataset ;
+    dcterms:subject "law" ;
+    dcterms:title "Law_EHD96M8J.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LawEHD96M8J/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/AmendmentVotes> a dsv:Column ;
+    rdfs:label "Amendment Votes" ;
+    dsv:columnProperty "Number of votes in favour of the resolution" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/AmendmentsProposed> a dsv:Column ;
+    rdfs:label "Amendments Proposed" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/BillNumber> a dsv:Column ;
+    rdfs:label "Bill Number" ;
+    dsv:columnProperty "number" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/BudgetaryImpact> a dsv:Column ;
+    rdfs:label "Budgetary Impact" ;
+    dsv:columnProperty "budget ($)" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/CaseImpactAnalysis> a dsv:Column ;
+    rdfs:label "Case Impact Analysis" ;
+    dsv:columnProperty "case" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/CommitteeInvolved> a dsv:Column ;
+    rdfs:label "Committee Involved" ;
+    dsv:columnProperty "committee in legislature" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/ImplementationTimeline> a dsv:Column ;
+    rdfs:label "Implementation Timeline" ;
+    dsv:columnProperty "date budget" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/LegislativeBodyComposition> a dsv:Column ;
+    rdfs:label "Legislative Body Composition" ;
+    dsv:columnProperty "legislature" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/LegislativeJurisdiction> a dsv:Column ;
+    rdfs:label "Legislative Jurisdiction" ;
+    dsv:columnProperty "jurisdiction" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/LegislatureSession> a dsv:Column ;
+    rdfs:label "Legislature Session" ;
+    dsv:columnProperty "legislative period name" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/LobbyistInformation> a dsv:Column ;
+    rdfs:label "Lobbyist Information" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/PassageVoteFinalReadingResult> a dsv:Column ;
+    rdfs:label "Passage Vote & Final Reading Result" ;
+    dsv:columnProperty "Number of votes in favour of the resolution" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/column/VotingRecord> a dsv:Column ;
+    rdfs:label "Voting Record" ;
+    dsv:columnProperty "overall record" .
+
+<http://metaUnionSearch/datasets/LawEHD96M8J/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LawEHD96M8J/column/AmendmentVotes>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/AmendmentsProposed>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/BillNumber>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/BudgetaryImpact>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/CaseImpactAnalysis>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/CommitteeInvolved>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/ImplementationTimeline>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/LegislativeBodyComposition>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/LegislativeJurisdiction>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/LegislatureSession>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/LobbyistInformation>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/PassageVoteFinalReadingResult>,
+        <http://metaUnionSearch/datasets/LawEHD96M8J/column/VotingRecord> .
+

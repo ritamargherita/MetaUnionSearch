@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_K2C0XP2S.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/ArtificialIntelligence> a dsv:Column ;
+    rdfs:label "Artificial Intelligence" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/CloudandDistributedSystems> a dsv:Column ;
+    rdfs:label "Cloud and Distributed Systems" ;
+    dsv:columnProperty "network" .
+
+<http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/ComputationalTheory> a dsv:Column ;
+    rdfs:label "Computational Theory" ;
+    dsv:columnProperty "Computing input" .
+
+<http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/EncryptionandInformationSecurity> a dsv:Column ;
+    rdfs:label "Encryption and Information Security" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/HumanComputerInteraction> a dsv:Column ;
+    rdfs:label "Human-Computer Interaction" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/MachineLearning> a dsv:Column ;
+    rdfs:label "Machine Learning" ;
+    dsv:columnProperty "training" .
+
+<http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/MultimediaProcessing> a dsv:Column ;
+    rdfs:label "Multimedia Processing." ;
+    dsv:columnProperty "media" .
+
+<http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/NaturalLanguageProcessing> a dsv:Column ;
+    rdfs:label "Natural Language Processing" ;
+    dsv:columnProperty "sentence" .
+
+<http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/ProjectManagementConceptsinCS> a dsv:Column ;
+    rdfs:label "Project Management Concepts in CS" ;
+    dsv:columnProperty "project objective" .
+
+<http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/SoftwareEngineeringPrinciples> a dsv:Column ;
+    rdfs:label "Software Engineering Principles" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/VirtualRealityinCS> a dsv:Column ;
+    rdfs:label "Virtual Reality in CS" ;
+    dsv:columnProperty "Computing Media" .
+
+<http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/ArtificialIntelligence>,
+        <http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/CloudandDistributedSystems>,
+        <http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/ComputationalTheory>,
+        <http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/EncryptionandInformationSecurity>,
+        <http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/HumanComputerInteraction>,
+        <http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/MachineLearning>,
+        <http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/MultimediaProcessing>,
+        <http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/NaturalLanguageProcessing>,
+        <http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/ProjectManagementConceptsinCS>,
+        <http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/SoftwareEngineeringPrinciples>,
+        <http://metaUnionSearch/datasets/ComputerScienceK2C0XP2S/column/VirtualRealityinCS> .
+

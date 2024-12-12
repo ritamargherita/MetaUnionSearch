@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FashionXFCYZ7SD> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_XFCYZ7SD.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FashionXFCYZ7SD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/CelebrityEndorsement> a dsv:Column ;
+    rdfs:label "Celebrity Endorsement" ;
+    dsv:columnProperty "promotion" .
+
+<http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/CulturalImpact> a dsv:Column ;
+    rdfs:label "Cultural Impact" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/CustomerEngagement> a dsv:Column ;
+    rdfs:label "Customer Engagement" .
+
+<http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/DesignerInfluence> a dsv:Column ;
+    rdfs:label "Designer Influence" ;
+    dsv:columnProperty "influenced" .
+
+<http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/FashionTrendsetter> a dsv:Column ;
+    rdfs:label "Fashion Trendsetter" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/IconicStatus> a dsv:Column ;
+    rdfs:label "Iconic Status" ;
+    dsv:columnProperty "status" .
+
+<http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/MagazineFeatures> a dsv:Column ;
+    rdfs:label "Magazine Features" ;
+    dsv:columnProperty "magazine" .
+
+<http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/RunwayAppearances> a dsv:Column ;
+    rdfs:label "Runway Appearances" ;
+    dsv:columnProperty "appearance" .
+
+<http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/SocialMediaBuzz> a dsv:Column ;
+    rdfs:label "Social Media Buzz" ;
+    dsv:columnProperty "media" .
+
+<http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/ThemeInspiration> a dsv:Column ;
+    rdfs:label "Theme Inspiration" ;
+    dsv:columnProperty "designer company" .
+
+<http://metaUnionSearch/datasets/FashionXFCYZ7SD/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/CelebrityEndorsement>,
+        <http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/CulturalImpact>,
+        <http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/CustomerEngagement>,
+        <http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/DesignerInfluence>,
+        <http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/FashionTrendsetter>,
+        <http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/IconicStatus>,
+        <http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/MagazineFeatures>,
+        <http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/RunwayAppearances>,
+        <http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/SocialMediaBuzz>,
+        <http://metaUnionSearch/datasets/FashionXFCYZ7SD/column/ThemeInspiration> .
+

@@ -1,0 +1,14 @@
+{
+    "mapping": [
+        {"column_header": "Advanced Analytics", "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"},
+        {"column_header": "Species-Specific Conditions", "dbpedia_property_id": "http://dbpedia.org/ontology/species"},
+        {"column_header": "Disease Prevalence Rate", "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"},
+        {"column_header": "Wildlife Exposure Risk Factors", "dbpedia_property_id": "http://dbpedia.org/ontology/field"},
+        {"column_header": "Zoonotic Diseases Transmission Methods", "dbpedia_property_id": "http://dbpedia.org/ontology/disease"},
+        {"column_header": "Treatments Efficacy Data", "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"},
+        {"column_header": "Genetic Disposition Analysis Results", "dbpedia_property_id": "http://dbpedia.org/ontology/geneLocation"},
+        {"column_header": "Field Observation Notes", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+        {"column_header": "Additional Therapies Recommended", "dbpedia_property_id": "http://dbpedia.org/ontology/medication"},
+        {"column_header": "Follow-Up Care Plans", "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"}
+    ]
+}

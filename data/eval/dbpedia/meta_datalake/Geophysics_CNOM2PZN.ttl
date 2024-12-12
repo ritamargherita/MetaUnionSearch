@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeophysicsCNOM2PZN> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_CNOM2PZN.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/BouguerAnomaly> a dsv:Column ;
+    rdfs:label "Bouguer Anomaly" ;
+    dsv:columnProperty "field" .
+
+<http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/CuriePointDepthMapping> a dsv:Column ;
+    rdfs:label "Curie Point Depth Mapping" ;
+    dsv:columnProperty "depths" .
+
+<http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/Datacubes> a dsv:Column ;
+    rdfs:label "Data cubes" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/GeoidUndulations> a dsv:Column ;
+    rdfs:label "Geoid Undulations" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/GravitationalGradientTensorComponentsTzzTxyTyzTzx> a dsv:Column ;
+    rdfs:label "Gravitational Gradient Tensor Components (Tzz, Txy, Tyz, Tzx)" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/GravityAnomalies> a dsv:Column ;
+    rdfs:label "Gravity Anomalies" ;
+    dsv:columnProperty "surface gravity (g)" .
+
+<http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/HeatFlowMeasurements> a dsv:Column ;
+    rdfs:label "Heat Flow Measurements" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/MagneticSusceptibilityMap> a dsv:Column ;
+    rdfs:label "Magnetic Susceptibility Map" ;
+    dsv:columnProperty "map" .
+
+<http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/MainfieldStrength> a dsv:Column ;
+    rdfs:label "Mainfield Strength" ;
+    dsv:columnProperty "strength" .
+
+<http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/Maps> a dsv:Column ;
+    rdfs:label "Maps" ;
+    dsv:columnProperty "map" .
+
+<http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/RadiometricData> a dsv:Column ;
+    rdfs:label "Radiometric Data" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/SpatiallyVaryingBaselineSVBLcorrections> a dsv:Column ;
+    rdfs:label "Spatially Varying Baseline (SVBL) corrections" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/TopographyBathymetry> a dsv:Column ;
+    rdfs:label "Topography & Bathymetry" ;
+    dsv:columnProperty "map" .
+
+<http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/BouguerAnomaly>,
+        <http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/CuriePointDepthMapping>,
+        <http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/Datacubes>,
+        <http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/GeoidUndulations>,
+        <http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/GravitationalGradientTensorComponentsTzzTxyTyzTzx>,
+        <http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/GravityAnomalies>,
+        <http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/HeatFlowMeasurements>,
+        <http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/MagneticSusceptibilityMap>,
+        <http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/MainfieldStrength>,
+        <http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/Maps>,
+        <http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/RadiometricData>,
+        <http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/SpatiallyVaryingBaselineSVBLcorrections>,
+        <http://metaUnionSearch/datasets/GeophysicsCNOM2PZN/column/TopographyBathymetry> .
+

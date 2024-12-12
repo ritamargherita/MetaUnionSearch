@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8> a dsv:Dataset ;
+    dcterms:subject "world-history" ;
+    dcterms:title "World-History_YR0QF4B8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/10EconomicSystems> a dsv:Column ;
+    rdfs:label "10. Economic Systems" ;
+    dsv:columnProperty "government type" .
+
+<http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/11PoliticalStructures> a dsv:Column ;
+    rdfs:label "11. Political Structures" ;
+    dsv:columnProperty "political function" .
+
+<http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/1ReligionsandBeliefSystems> a dsv:Column ;
+    rdfs:label "1. Religions and Belief Systems" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/2PhilosophicalThoughts> a dsv:Column ;
+    rdfs:label "2. Philosophical Thoughts" ;
+    dsv:columnProperty "philosophicalSchool" .
+
+<http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/3Historiography> a dsv:Column ;
+    rdfs:label "3. Historiography" ;
+    dsv:columnProperty "non-fiction subject" .
+
+<http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/4PrimarySources> a dsv:Column ;
+    rdfs:label "4. Primary Sources" ;
+    dsv:columnProperty "source" .
+
+<http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/5SecondaryResources> a dsv:Column ;
+    rdfs:label "5. Secondary Resources" ;
+    dsv:columnProperty "number of resource / entities for concrete type of subject" .
+
+<http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/6MilitaryConflicts> a dsv:Column ;
+    rdfs:label "6. Military Conflicts" ;
+    dsv:columnProperty "is part of military conflict" .
+
+<http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/7AlliancesandTreaties> a dsv:Column ;
+    rdfs:label "7. Alliances and Treaties" ;
+    dsv:columnProperty "alliance" .
+
+<http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/8ArtandArchitecture> a dsv:Column ;
+    rdfs:label "8. Art and Architecture" ;
+    dsv:columnProperty "architectural style" .
+
+<http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/9CulturalPractices> a dsv:Column ;
+    rdfs:label "9. Cultural Practices" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/10EconomicSystems>,
+        <http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/11PoliticalStructures>,
+        <http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/1ReligionsandBeliefSystems>,
+        <http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/2PhilosophicalThoughts>,
+        <http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/3Historiography>,
+        <http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/4PrimarySources>,
+        <http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/5SecondaryResources>,
+        <http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/6MilitaryConflicts>,
+        <http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/7AlliancesandTreaties>,
+        <http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/8ArtandArchitecture>,
+        <http://metaUnionSearch/datasets/WorldHistoryYR0QF4B8/column/9CulturalPractices> .
+

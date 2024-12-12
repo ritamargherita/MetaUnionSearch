@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArtsSI366FZX> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_SI366FZX.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArtsSI366FZX/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/AudienceEngagement> a dsv:Column ;
+    rdfs:label "Audience Engagement" ;
+    dsv:columnProperty "share of audience" .
+
+<http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/BoxOfficeRevenueinUSD> a dsv:Column ;
+    rdfs:label "Box Office Revenue (in USD)" ;
+    dsv:columnProperty "revenue ($)" .
+
+<http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/CityCountry> a dsv:Column ;
+    rdfs:label "City, Country" ;
+    dsv:columnProperty "city" .
+
+<http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/Collaborators> a dsv:Column ;
+    rdfs:label "Collaborators" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/CriticalReception> a dsv:Column ;
+    rdfs:label "Critical Reception" ;
+    dsv:columnProperty "review" .
+
+<http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/DebutYear> a dsv:Column ;
+    rdfs:label "Debut Year" ;
+    dsv:columnProperty "debut" .
+
+<http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/Genre> a dsv:Column ;
+    rdfs:label "Genre" ;
+    dsv:columnProperty "genre" .
+
+<http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/IconicPerformancees> a dsv:Column ;
+    rdfs:label "Iconic Performance(es)" ;
+    dsv:columnProperty "current production" .
+
+<http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/Playwright> a dsv:Column ;
+    rdfs:label "Playwright" ;
+    dsv:columnProperty "author" .
+
+<http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/RunningTimemins> a dsv:Column ;
+    rdfs:label "Running Time (mins)" ;
+    dsv:columnProperty "min" .
+
+<http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/StageDirector> a dsv:Column ;
+    rdfs:label "Stage Director" ;
+    dsv:columnProperty "film director" .
+
+<http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/TheaterType> a dsv:Column ;
+    rdfs:label "Theater Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/PerformingArtsSI366FZX/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/AudienceEngagement>,
+        <http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/BoxOfficeRevenueinUSD>,
+        <http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/CityCountry>,
+        <http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/Collaborators>,
+        <http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/CriticalReception>,
+        <http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/DebutYear>,
+        <http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/Genre>,
+        <http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/IconicPerformancees>,
+        <http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/Playwright>,
+        <http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/RunningTimemins>,
+        <http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/StageDirector>,
+        <http://metaUnionSearch/datasets/PerformingArtsSI366FZX/column/TheaterType> .
+

@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SociologySNVNQ65Q> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_SNVNQ65Q.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SociologySNVNQ65Q/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/Conclusion> a dsv:Column ;
+    rdfs:label "Conclusion" ;
+    dsv:columnProperty "end" .
+
+<http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/DataAnalysis> a dsv:Column ;
+    rdfs:label "DataAnalysis" ;
+    dsv:columnProperty "procedure" .
+
+<http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/DataCollectionMethod> a dsv:Column ;
+    rdfs:label "DataCollectionMethod" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/Methodology> a dsv:Column ;
+    rdfs:label "Methodology" ;
+    dsv:columnProperty "approach" .
+
+<http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/ParticipantObservations> a dsv:Column ;
+    rdfs:label "ParticipantObservations" ;
+    dsv:columnProperty "participant" .
+
+<http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/References> a dsv:Column ;
+    rdfs:label "References" ;
+    dsv:columnProperty "reference for general data" .
+
+<http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/ResearchDesign> a dsv:Column ;
+    rdfs:label "ResearchDesign" ;
+    dsv:columnProperty "significant design" .
+
+<http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/Results> a dsv:Column ;
+    rdfs:label "Results" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/SampleSize> a dsv:Column ;
+    rdfs:label "SampleSize" ;
+    dsv:columnProperty "number of items in collection" .
+
+<http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/SociologicalTheory> a dsv:Column ;
+    rdfs:label "SociologicalTheory" ;
+    dsv:columnProperty "ideology" .
+
+<http://metaUnionSearch/datasets/SociologySNVNQ65Q/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/Conclusion>,
+        <http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/DataAnalysis>,
+        <http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/DataCollectionMethod>,
+        <http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/Methodology>,
+        <http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/ParticipantObservations>,
+        <http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/References>,
+        <http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/ResearchDesign>,
+        <http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/Results>,
+        <http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/SampleSize>,
+        <http://metaUnionSearch/datasets/SociologySNVNQ65Q/column/SociologicalTheory> .
+

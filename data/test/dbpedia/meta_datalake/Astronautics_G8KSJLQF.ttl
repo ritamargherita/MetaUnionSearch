@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_G8KSJLQF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/AnimalSpeciesStudied> a dsv:Column ;
+    rdfs:label "Animal Species Studied" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/AstronomyExperimentsConducted> a dsv:Column ;
+    rdfs:label "Astronomy Experiments Conducted" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/EVAsSuccessful> a dsv:Column ;
+    rdfs:label "EVAs Successful?" ;
+    dsv:columnProperty "successful launches" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/EarthObservationsMade> a dsv:Column ;
+    rdfs:label "Earth Observations Made" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/FamousQuotesfromspaceExistentialInsights> a dsv:Column ;
+    rdfs:label "Famous Quotes from space & Existential Insights" ;
+    dsv:columnProperty "motto" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/FundingBodiesContributions> a dsv:Column ;
+    rdfs:label "Funding Bodies' Contributions" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/MaximalPressurepascal> a dsv:Column ;
+    rdfs:label "Maximal Pressure (pascal)" ;
+    dsv:columnProperty "boiler pressure" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/MedicalConditionsInvestigated> a dsv:Column ;
+    rdfs:label "Medical Conditions Investigated" ;
+    dsv:columnProperty "medical diagnosis" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/MicrogravityEffectResearch> a dsv:Column ;
+    rdfs:label "Microgravity Effect Research" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/MinimumTemperaturedegC> a dsv:Column ;
+    rdfs:label "Minimum Temperature (&degC)" ;
+    dsv:columnProperty "minimum temperature (K)" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/PenentryVectorVelocitykmxD7ssupminus> a dsv:Column ;
+    rdfs:label "Penentry Vector Velocity (km&#xD7 s<sup>&minus" ;
+    dsv:columnProperty "escape velocity (kmh)" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/SpacewalkOccurrences> a dsv:Column ;
+    rdfs:label "Spacewalk Occurrences" ;
+    dsv:columnProperty "spacewalk begin" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/TechnologicalDemonstrations> a dsv:Column ;
+    rdfs:label "Technological Demonstrations" ;
+    dsv:columnProperty "significant project" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/sup> a dsv:Column ;
+    rdfs:label "</ sup>)" .
+
+<http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/AnimalSpeciesStudied>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/AstronomyExperimentsConducted>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/EVAsSuccessful>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/EarthObservationsMade>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/FamousQuotesfromspaceExistentialInsights>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/FundingBodiesContributions>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/MaximalPressurepascal>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/MedicalConditionsInvestigated>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/MicrogravityEffectResearch>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/MinimumTemperaturedegC>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/PenentryVectorVelocitykmxD7ssupminus>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/SpacewalkOccurrences>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/TechnologicalDemonstrations>,
+        <http://metaUnionSearch/datasets/AstronauticsG8KSJLQF/column/sup> .
+

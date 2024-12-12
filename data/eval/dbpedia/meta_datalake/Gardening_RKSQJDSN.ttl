@@ -1,0 +1,69 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GardeningRKSQJDSN> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_RKSQJDSN.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GardeningRKSQJDSN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/DateofLastWater> a dsv:Column ;
+    rdfs:label "DateofLastWater" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/FertilizerRecommendations> a dsv:Column ;
+    rdfs:label "FertilizerRecommendations " .
+
+<http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/QuantityPurchased> a dsv:Column ;
+    rdfs:label "QuantityPurchased " ;
+    dsv:columnProperty "number sold" .
+
+<http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/SupplierDetailsOriginCountry> a dsv:Column ;
+    rdfs:label "SupplierDetails； OriginCountry" ;
+    dsv:columnProperty "country origin" .
+
+<http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/TotalCost> a dsv:Column ;
+    rdfs:label "TotalCost " ;
+    dsv:columnProperty "billed" .
+
+<http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/averageMatureHeight> a dsv:Column ;
+    rdfs:label "averageMatureHeight " ;
+    dsv:columnProperty "height (μ)" .
+
+<http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/botanicalFamily> a dsv:Column ;
+    rdfs:label " botanicalFamily " ;
+    dsv:columnProperty "flora" .
+
+<http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/colorVariety> a dsv:Column ;
+    rdfs:label "colorVariety " ;
+    dsv:columnProperty "colour" .
+
+<http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/floweringSeason> a dsv:Column ;
+    rdfs:label "floweringSeason " ;
+    dsv:columnProperty "flower" .
+
+<http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/idealSoilDepth> a dsv:Column ;
+    rdfs:label "idealSoilDepth " .
+
+<http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/maintenanceTips> a dsv:Column ;
+    rdfs:label "maintenanceTips " ;
+    dsv:columnProperty "maintained by" .
+
+<http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/wildlifeAttractor> a dsv:Column ;
+    rdfs:label "wildlifeAttractor " ;
+    dsv:columnProperty "fauna" .
+
+<http://metaUnionSearch/datasets/GardeningRKSQJDSN/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/DateofLastWater>,
+        <http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/FertilizerRecommendations>,
+        <http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/QuantityPurchased>,
+        <http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/SupplierDetailsOriginCountry>,
+        <http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/TotalCost>,
+        <http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/averageMatureHeight>,
+        <http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/botanicalFamily>,
+        <http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/colorVariety>,
+        <http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/floweringSeason>,
+        <http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/idealSoilDepth>,
+        <http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/maintenanceTips>,
+        <http://metaUnionSearch/datasets/GardeningRKSQJDSN/column/wildlifeAttractor> .
+

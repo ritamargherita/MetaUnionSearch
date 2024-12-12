@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldHistory73D9PH3I> a dsv:Dataset ;
+    dcterms:subject "world-history" ;
+    dcterms:title "World-History_73D9PH3I.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldHistory73D9PH3I/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/AgriculturalPractices> a dsv:Column ;
+    rdfs:label "Agricultural Practices" ;
+    dsv:columnProperty "cultivar" .
+
+<http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/Currencies> a dsv:Column ;
+    rdfs:label "Currencies" ;
+    dsv:columnProperty "currency" .
+
+<http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/Historiography> a dsv:Column ;
+    rdfs:label "Historiography" ;
+    dsv:columnProperty "non-fiction subject" .
+
+<http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/InfluentialLeaders> a dsv:Column ;
+    rdfs:label "Influential Leaders" ;
+    dsv:columnProperty "leader" .
+
+<http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/LanguagesWritingSystems> a dsv:Column ;
+    rdfs:label "Languages & Writing Systems" ;
+    dsv:columnProperty "original language" .
+
+<http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/LegalSystems> a dsv:Column ;
+    rdfs:label "Legal Systems" ;
+    dsv:columnProperty "system of law" .
+
+<http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/MajorBattles> a dsv:Column ;
+    rdfs:label "Major Battles" ;
+    dsv:columnProperty "battle" .
+
+<http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/PhilosophicalThoughts> a dsv:Column ;
+    rdfs:label "Philosophical Thoughts" ;
+    dsv:columnProperty "philosophicalSchool" .
+
+<http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/ReligionsandBeliefs> a dsv:Column ;
+    rdfs:label "Religions and Beliefs" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/TradeNetworks> a dsv:Column ;
+    rdfs:label "Trade Networks" ;
+    dsv:columnProperty "network" .
+
+<http://metaUnionSearch/datasets/WorldHistory73D9PH3I/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/AgriculturalPractices>,
+        <http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/Currencies>,
+        <http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/Historiography>,
+        <http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/InfluentialLeaders>,
+        <http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/LanguagesWritingSystems>,
+        <http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/LegalSystems>,
+        <http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/MajorBattles>,
+        <http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/PhilosophicalThoughts>,
+        <http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/ReligionsandBeliefs>,
+        <http://metaUnionSearch/datasets/WorldHistory73D9PH3I/column/TradeNetworks> .
+

@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD> a dsv:Dataset ;
+    dcterms:subject "science" ;
+    dcterms:title "Science_G2KTBCUD.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ScienceG2KTBCUD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/AdditionalVariables> a dsv:Column ;
+    rdfs:label "_Additional Variables_" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/AnalysisMethod> a dsv:Column ;
+    rdfs:label "Analysis Method" ;
+    dsv:columnProperty "approach" .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/CollaboratingInstitution> a dsv:Column ;
+    rdfs:label "Collaborating Institution" ;
+    dsv:columnProperty "institution" .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/Conclusion> a dsv:Column ;
+    rdfs:label "Conclusion" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/Control> a dsv:Column ;
+    rdfs:label "Control" ;
+    dsv:columnProperty "criteria" .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/DataCollectionMethod> a dsv:Column ;
+    rdfs:label "Data Collection Method" ;
+    dsv:columnProperty "Method of discovery" .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/DetailedDescription> a dsv:Column ;
+    rdfs:label "Detailed Description" ;
+    dsv:columnProperty "description" .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/ExperimentDuration> a dsv:Column ;
+    rdfs:label "Experiment Duration" ;
+    dsv:columnProperty "duration (s)" .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/ExtendedConceptName> a dsv:Column ;
+    rdfs:label "_Extended Concept Name_" ;
+    dsv:columnProperty "description" .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/FundingSource> a dsv:Column ;
+    rdfs:label "Funding Source" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/SampleSize> a dsv:Column ;
+    rdfs:label "Sample Size" ;
+    dsv:columnProperty "number of items in collection" .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/SubConcept> a dsv:Column ;
+    rdfs:label "_Sub-Concept" ;
+    dsv:columnProperty "sub-classis" .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/Subdiscipline> a dsv:Column ;
+    rdfs:label "_Subdiscipline" ;
+    dsv:columnProperty "academic discipline" .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/TestData> a dsv:Column ;
+    rdfs:label "Test Data" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/Type> a dsv:Column ;
+    rdfs:label "_Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/ScienceG2KTBCUD/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/AdditionalVariables>,
+        <http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/AnalysisMethod>,
+        <http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/CollaboratingInstitution>,
+        <http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/Conclusion>,
+        <http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/Control>,
+        <http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/DataCollectionMethod>,
+        <http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/DetailedDescription>,
+        <http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/ExperimentDuration>,
+        <http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/ExtendedConceptName>,
+        <http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/FundingSource>,
+        <http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/SampleSize>,
+        <http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/SubConcept>,
+        <http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/Subdiscipline>,
+        <http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/TestData>,
+        <http://metaUnionSearch/datasets/ScienceG2KTBCUD/column/Type> .
+

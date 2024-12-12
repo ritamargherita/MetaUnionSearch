@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "Building Type",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/buildingType"
+    },
+    {
+      "column_header": "Architectural Style",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": "Period",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/termPeriod"
+    },
+    {
+      "column_header": "Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Construction Method",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/construction"
+    },
+    {
+      "column_header": "Material Model",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/constructionMaterial"
+    },
+    {
+      "column_header": "Size",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sizeBlazon"
+    },
+    {
+      "column_header": "Sustainability Rating",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": "Year Built",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/yearOfConstruction"
+    },
+    {
+      "column_header": "Architect",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architect"
+    },
+    {
+      "column_header": "Historical Significance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/historicalName"
+    },
+    {
+      "column_header": "Additional Details",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": "Spatially Organized Elements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/elementGroup"
+    },
+    {
+      "column_header": "Surroundings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Special Architecture Elements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    }
+  ]
+}

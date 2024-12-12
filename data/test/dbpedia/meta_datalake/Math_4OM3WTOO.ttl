@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_4OM3WTOO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Math4OM3WTOO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO/column/Applications> a dsv:Column ;
+    rdfs:label "Applications" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO/column/Challenges> a dsv:Column ;
+    rdfs:label "Challenges" ;
+    dsv:columnProperty "wins at challenges" .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO/column/CurrentUses> a dsv:Column ;
+    rdfs:label "Current Uses" ;
+    dsv:columnProperty "currently used for" .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO/column/Definition> a dsv:Column ;
+    rdfs:label "Definition" ;
+    dsv:columnProperty "definition" .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO/column/Examples> a dsv:Column ;
+    rdfs:label "Examples" ;
+    dsv:columnProperty "description" .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO/column/Extensions> a dsv:Column ;
+    rdfs:label "Extensions" ;
+    dsv:columnProperty "other works" .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO/column/FutureImplications> a dsv:Column ;
+    rdfs:label "Future Implications" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO/column/HistoricalContext> a dsv:Column ;
+    rdfs:label "Historical Context" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO/column/KeyFigures> a dsv:Column ;
+    rdfs:label "Key Figures" ;
+    dsv:columnProperty "key person" .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO/column/MathematicsArea> a dsv:Column ;
+    rdfs:label "Mathematics Area" ;
+    dsv:columnProperty "course area (m2)" .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO/column/MathematicsConcept> a dsv:Column ;
+    rdfs:label "Mathematics Concept" ;
+    dsv:columnProperty "subject term" .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO/column/Misconceptions> a dsv:Column ;
+    rdfs:label "Misconceptions" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO/column/Operations> a dsv:Column ;
+    rdfs:label "Operations" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO/column/Properties> a dsv:Column ;
+    rdfs:label "Properties" ;
+    dsv:columnProperty "numberOfProperties" .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO/column/Symbolisms> a dsv:Column ;
+    rdfs:label "Symbolisms" ;
+    dsv:columnProperty "Symbol" .
+
+<http://metaUnionSearch/datasets/Math4OM3WTOO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Math4OM3WTOO/column/Applications>,
+        <http://metaUnionSearch/datasets/Math4OM3WTOO/column/Challenges>,
+        <http://metaUnionSearch/datasets/Math4OM3WTOO/column/CurrentUses>,
+        <http://metaUnionSearch/datasets/Math4OM3WTOO/column/Definition>,
+        <http://metaUnionSearch/datasets/Math4OM3WTOO/column/Examples>,
+        <http://metaUnionSearch/datasets/Math4OM3WTOO/column/Extensions>,
+        <http://metaUnionSearch/datasets/Math4OM3WTOO/column/FutureImplications>,
+        <http://metaUnionSearch/datasets/Math4OM3WTOO/column/HistoricalContext>,
+        <http://metaUnionSearch/datasets/Math4OM3WTOO/column/KeyFigures>,
+        <http://metaUnionSearch/datasets/Math4OM3WTOO/column/MathematicsArea>,
+        <http://metaUnionSearch/datasets/Math4OM3WTOO/column/MathematicsConcept>,
+        <http://metaUnionSearch/datasets/Math4OM3WTOO/column/Misconceptions>,
+        <http://metaUnionSearch/datasets/Math4OM3WTOO/column/Operations>,
+        <http://metaUnionSearch/datasets/Math4OM3WTOO/column/Properties>,
+        <http://metaUnionSearch/datasets/Math4OM3WTOO/column/Symbolisms> .
+

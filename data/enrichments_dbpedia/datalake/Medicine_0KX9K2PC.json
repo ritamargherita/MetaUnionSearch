@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Prescription Cost",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/programCost"
+    },
+    {
+      "column_header": "Pharmacy Name",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/tradingName"
+    },
+    {
+      "column_header": "Physical Examination Results",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/result"
+    },
+    {
+      "column_header": "Lab Test Results",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/result"
+    },
+    {
+      "column_header": "Specialist Consultation Details",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/specialist"
+    },
+    {
+      "column_header": "Follow-Up Appointment Schedule (if applicable)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/followingEvent"
+    },
+    {
+      "column_header": "Health Insurance Provider & Policy Number",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/insurance"
+    },
+    {
+      "column_header": "Patient's Allergies or Adverse Reactions History",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/symptom"
+    },
+    {
+      "column_header": "Vaccination Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vaccination"
+    },
+    {
+      "column_header": "Prior Hospitalization Records (If Any)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medicalDiagnosis"
+    }
+  ]
+}

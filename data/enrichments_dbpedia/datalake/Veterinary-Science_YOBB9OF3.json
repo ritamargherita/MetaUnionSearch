@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Additional Tests",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/testaverage"
+    },
+    {
+      "column_header": "Recheck Date",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/date"
+    },
+    {
+      "column_header": "Treatment Progress",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"
+    },
+    {
+      "column_header": "Secondary Health Issues",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/complications"
+    },
+    {
+      "column_header": "Medical History",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/medicalHistory"
+    },
+    {
+      "column_header": "Vaccination Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/vaccination"
+    },
+    {
+      "column_header": "Dietary Recommendations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/requirement"
+    },
+    {
+      "column_header": "Exercise Needs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    },
+    {
+      "column_header": "Behavior Analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/behavior"
+    },
+    {
+      "column_header": "Client Preferences",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/preferences"
+    }
+  ]
+}

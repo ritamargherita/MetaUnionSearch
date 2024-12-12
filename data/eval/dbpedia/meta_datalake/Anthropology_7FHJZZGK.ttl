@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Anthropology7FHJZZGK> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_7FHJZZGK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Anthropology7FHJZZGK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/AgriculturalTools> a dsv:Column ;
+    rdfs:label "Agricultural Tools" ;
+    dsv:columnProperty "equipment" .
+
+<http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/BeliefSystems> a dsv:Column ;
+    rdfs:label "Belief Systems*" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/CensusDatafromSites> a dsv:Column ;
+    rdfs:label "Census Data from Sites" ;
+    dsv:columnProperty "census year" .
+
+<http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/ClothingStyles> a dsv:Column ;
+    rdfs:label "Clothing Styles" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/ContactHistorywithOtherCulturesifapplicable> a dsv:Column ;
+    rdfs:label "Contact History with Other Cultures (if applicable)" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/DemographicsInfo> a dsv:Column ;
+    rdfs:label "Demographics Info" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/EconomicSystems> a dsv:Column ;
+    rdfs:label "Economic Systems" ;
+    dsv:columnProperty "industry" .
+
+<http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/EnvironmentalImpact> a dsv:Column ;
+    rdfs:label "Environmental Impact." ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/FoodProductionMethods> a dsv:Column ;
+    rdfs:label "Food Production Methods" ;
+    dsv:columnProperty "production" .
+
+<http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/LeadershipStructures> a dsv:Column ;
+    rdfs:label "Leadership Structures" ;
+    dsv:columnProperty "leadership" .
+
+<http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/LinguisticFeatures> a dsv:Column ;
+    rdfs:label "Linguistic Features" ;
+    dsv:columnProperty "family" .
+
+<http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/MarriageandFamilySystem> a dsv:Column ;
+    rdfs:label "Marriage and Family System" ;
+    dsv:columnProperty "family" .
+
+<http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/PersonalAdornments> a dsv:Column ;
+    rdfs:label "Personal Adornments" ;
+    dsv:columnProperty "decoration" .
+
+<http://metaUnionSearch/datasets/Anthropology7FHJZZGK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/AgriculturalTools>,
+        <http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/BeliefSystems>,
+        <http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/CensusDatafromSites>,
+        <http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/ClothingStyles>,
+        <http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/ContactHistorywithOtherCulturesifapplicable>,
+        <http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/DemographicsInfo>,
+        <http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/EconomicSystems>,
+        <http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/EnvironmentalImpact>,
+        <http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/FoodProductionMethods>,
+        <http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/LeadershipStructures>,
+        <http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/LinguisticFeatures>,
+        <http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/MarriageandFamilySystem>,
+        <http://metaUnionSearch/datasets/Anthropology7FHJZZGK/column/PersonalAdornments> .
+

@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP> a dsv:Dataset ;
+    dcterms:subject "computer-science" ;
+    dcterms:title "Computer-Science_YXQBWEWP.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/ArtificialIntelligence> a dsv:Column ;
+    rdfs:label "Artificial Intelligence" ;
+    dsv:columnProperty "Computing input" .
+
+<http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/ComputationalTheory> a dsv:Column ;
+    rdfs:label "Computational Theory" ;
+    dsv:columnProperty "activity" .
+
+<http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/Cybersecurity> a dsv:Column ;
+    rdfs:label "Cybersecurity" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/DigitalLogicCircuitDesign> a dsv:Column ;
+    rdfs:label "Digital Logic & Circuit Design" ;
+    dsv:columnProperty "Computing input" .
+
+<http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/GameDevelopment> a dsv:Column ;
+    rdfs:label "Game Development" ;
+    dsv:columnProperty "games" .
+
+<http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/HumanComputerInteraction> a dsv:Column ;
+    rdfs:label "Human-Computer Interaction" .
+
+<http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/MachineLearning> a dsv:Column ;
+    rdfs:label "Machine Learning" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/NaturalLanguageProcessing> a dsv:Column ;
+    rdfs:label "Natural Language Processing" ;
+    dsv:columnProperty "language code" .
+
+<http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/ProgrammingParadigms> a dsv:Column ;
+    rdfs:label "Programming Paradigms" ;
+    dsv:columnProperty "programming language" .
+
+<http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/SeriousGames> a dsv:Column ;
+    rdfs:label "Serious Games" ;
+    dsv:columnProperty "games" .
+
+<http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/SoftwareEngineering> a dsv:Column ;
+    rdfs:label "Software Engineering" ;
+    dsv:columnProperty "project" .
+
+<http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/VirtualReality> a dsv:Column ;
+    rdfs:label "Virtual Reality" ;
+    dsv:columnProperty "computing platform" .
+
+<http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/WebDevelopment> a dsv:Column ;
+    rdfs:label "Web Development" ;
+    dsv:columnProperty "developer" .
+
+<http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/ArtificialIntelligence>,
+        <http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/ComputationalTheory>,
+        <http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/Cybersecurity>,
+        <http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/DigitalLogicCircuitDesign>,
+        <http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/GameDevelopment>,
+        <http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/HumanComputerInteraction>,
+        <http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/MachineLearning>,
+        <http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/NaturalLanguageProcessing>,
+        <http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/ProgrammingParadigms>,
+        <http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/SeriousGames>,
+        <http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/SoftwareEngineering>,
+        <http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/VirtualReality>,
+        <http://metaUnionSearch/datasets/ComputerScienceYXQBWEWP/column/WebDevelopment> .
+

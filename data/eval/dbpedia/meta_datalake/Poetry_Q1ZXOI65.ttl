@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryQ1ZXOI65> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_Q1ZXOI65.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryQ1ZXOI65/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/AllegoryPresent> a dsv:Column ;
+    rdfs:label "Allegory Present?" ;
+    dsv:columnProperty "description" .
+
+<http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/ConnotationsAnalysis> a dsv:Column ;
+    rdfs:label "Connotations Analysis" ;
+    dsv:columnProperty "connotation" .
+
+<http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/ConsonanceAssonances> a dsv:Column ;
+    rdfs:label "Consonance & Assonances" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/DramaClassification> a dsv:Column ;
+    rdfs:label "Drama Classification" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/Enjambment> a dsv:Column ;
+    rdfs:label "Enjambment" ;
+    dsv:columnProperty "definition" .
+
+<http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/HyperboleUse> a dsv:Column ;
+    rdfs:label "Hyperbole Use" ;
+    dsv:columnProperty "meaning" .
+
+<http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/IambicPentameter> a dsv:Column ;
+    rdfs:label "Iambic Pentameter" ;
+    dsv:columnProperty "definition" .
+
+<http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/IntelligenceorFeelings> a dsv:Column ;
+    rdfs:label "Intelligence or Feelings?" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/SimileUsage> a dsv:Column ;
+    rdfs:label "Simile Usage" ;
+    dsv:columnProperty "meaning" .
+
+<http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/SonnetType> a dsv:Column ;
+    rdfs:label "Sonnet Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/UseofPersonifications> a dsv:Column ;
+    rdfs:label "Use of Personifications" ;
+    dsv:columnProperty "person function" .
+
+<http://metaUnionSearch/datasets/PoetryQ1ZXOI65/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/AllegoryPresent>,
+        <http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/ConnotationsAnalysis>,
+        <http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/ConsonanceAssonances>,
+        <http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/DramaClassification>,
+        <http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/Enjambment>,
+        <http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/HyperboleUse>,
+        <http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/IambicPentameter>,
+        <http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/IntelligenceorFeelings>,
+        <http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/SimileUsage>,
+        <http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/SonnetType>,
+        <http://metaUnionSearch/datasets/PoetryQ1ZXOI65/column/UseofPersonifications> .
+

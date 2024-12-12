@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoliticsUOW7SFQM> a dsv:Dataset ;
+    dcterms:subject "politics" ;
+    dcterms:title "Politics_UOW7SFQM.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoliticsUOW7SFQM/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/AverageAgeOfVoters> a dsv:Column ;
+    rdfs:label "Average Age Of Voters" ;
+    dsv:columnProperty "age" .
+
+<http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/CompulsoryVotingLaw> a dsv:Column ;
+    rdfs:label "Compulsory Voting Law?" ;
+    dsv:columnProperty "political mandate" .
+
+<http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/ElectionsData> a dsv:Column ;
+    rdfs:label "Elections Data" ;
+    dsv:columnProperty "reference for politic data" .
+
+<http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/FrequencyOfElection> a dsv:Column ;
+    rdfs:label "Frequency Of Election" ;
+    dsv:columnProperty "election date" .
+
+<http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/LobbyingRegulations> a dsv:Column ;
+    rdfs:label "Lobbying Regulations" ;
+    dsv:columnProperty "political function" .
+
+<http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/MostRecentElectionResult> a dsv:Column ;
+    rdfs:label "Most Recent Election Result" ;
+    dsv:columnProperty "date of latest election" .
+
+<http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/NumberOfRegisteredPoliticalParties> a dsv:Column ;
+    rdfs:label "Number Of Registered Political Parties" ;
+    dsv:columnProperty "party number" .
+
+<http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/PercentageOfFemaleCandidates> a dsv:Column ;
+    rdfs:label "Percentage Of Female Candidates" ;
+    dsv:columnProperty "population percentage female" .
+
+<http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/PoliticalSatirePresence> a dsv:Column ;
+    rdfs:label "Political Satire Presence" ;
+    dsv:columnProperty "other media" .
+
+<http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/SocialMediaUsageInPolitics> a dsv:Column ;
+    rdfs:label "Social Media Usage In Politics" ;
+    dsv:columnProperty "media" .
+
+<http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/VoterTurnout> a dsv:Column ;
+    rdfs:label "Voter Turnout%" ;
+    dsv:columnProperty "Number of votes given to candidate" .
+
+<http://metaUnionSearch/datasets/PoliticsUOW7SFQM/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/AverageAgeOfVoters>,
+        <http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/CompulsoryVotingLaw>,
+        <http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/ElectionsData>,
+        <http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/FrequencyOfElection>,
+        <http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/LobbyingRegulations>,
+        <http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/MostRecentElectionResult>,
+        <http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/NumberOfRegisteredPoliticalParties>,
+        <http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/PercentageOfFemaleCandidates>,
+        <http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/PoliticalSatirePresence>,
+        <http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/SocialMediaUsageInPolitics>,
+        <http://metaUnionSearch/datasets/PoliticsUOW7SFQM/column/VoterTurnout> .
+

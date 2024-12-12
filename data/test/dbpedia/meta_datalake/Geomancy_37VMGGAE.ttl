@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geomancy37VMGGAE> a dsv:Dataset ;
+    dcterms:subject "geomancy" ;
+    dcterms:title "Geomancy_37VMGGAE.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geomancy37VMGGAE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/ConnectiontoOtherEsotericPractices> a dsv:Column ;
+    rdfs:label "Connection to Other Esoteric Practices" ;
+    dsv:columnProperty "influenced by" .
+
+<http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/EthicalConsiderationsandGuidelines> a dsv:Column ;
+    rdfs:label "Ethical Considerations and Guidelines." ;
+    dsv:columnProperty "oversight" .
+
+<http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/GeographicalDistribution> a dsv:Column ;
+    rdfs:label "Geographical Distribution" ;
+    dsv:columnProperty "number of locations" .
+
+<http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/GoverningBodiesorAssociations> a dsv:Column ;
+    rdfs:label "Governing Bodies or Associations" ;
+    dsv:columnProperty "governing body" .
+
+<http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/HistoricalDevelopmentStages> a dsv:Column ;
+    rdfs:label "Historical Development Stages" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/InfluenceonArtandLiterature> a dsv:Column ;
+    rdfs:label "Influence on Art and Literature" ;
+    dsv:columnProperty "influenced" .
+
+<http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/KeyText> a dsv:Column ;
+    rdfs:label "Key Text" ;
+    dsv:columnProperty "notable work" .
+
+<http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/MisconceptionsandStereotypes> a dsv:Column ;
+    rdfs:label "Misconceptions and Stereotypes" ;
+    dsv:columnProperty "ideology" .
+
+<http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/ModernPopularityandAdaptations> a dsv:Column ;
+    rdfs:label "Modern Popularity and Adaptations" ;
+    dsv:columnProperty "known for" .
+
+<http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/ProminentPractitionersThroughoutHistory> a dsv:Column ;
+    rdfs:label "Prominent Practitioners Throughout History" ;
+    dsv:columnProperty "key person" .
+
+<http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/ReligiousorPhilosophicSchoolsUtilizingIt> a dsv:Column ;
+    rdfs:label "Religious or Philosophic Schools Utilizing It" ;
+    dsv:columnProperty "philosophicalSchool" .
+
+<http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/ScientificResearchandValidation> a dsv:Column ;
+    rdfs:label "Scientific Research and Validation" ;
+    dsv:columnProperty "is peer reviewed" .
+
+<http://metaUnionSearch/datasets/Geomancy37VMGGAE/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/ConnectiontoOtherEsotericPractices>,
+        <http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/EthicalConsiderationsandGuidelines>,
+        <http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/GeographicalDistribution>,
+        <http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/GoverningBodiesorAssociations>,
+        <http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/HistoricalDevelopmentStages>,
+        <http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/InfluenceonArtandLiterature>,
+        <http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/KeyText>,
+        <http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/MisconceptionsandStereotypes>,
+        <http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/ModernPopularityandAdaptations>,
+        <http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/ProminentPractitionersThroughoutHistory>,
+        <http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/ReligiousorPhilosophicSchoolsUtilizingIt>,
+        <http://metaUnionSearch/datasets/Geomancy37VMGGAE/column/ScientificResearchandValidation> .
+

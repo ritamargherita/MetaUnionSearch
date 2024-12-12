@@ -1,0 +1,79 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathI379U261> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_I379U261.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathI379U261/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathI379U261/column/> a dsv:Column ;
+    rdfs:label "" .
+
+<http://metaUnionSearch/datasets/MathI379U261/column/1> a dsv:Column ;
+    rdfs:label ".1" .
+
+<http://metaUnionSearch/datasets/MathI379U261/column/2> a dsv:Column ;
+    rdfs:label ".2" .
+
+<http://metaUnionSearch/datasets/MathI379U261/column/3> a dsv:Column ;
+    rdfs:label ".3" .
+
+<http://metaUnionSearch/datasets/MathI379U261/column/4> a dsv:Column ;
+    rdfs:label ".4" .
+
+<http://metaUnionSearch/datasets/MathI379U261/column/CommonOperations> a dsv:Column ;
+    rdfs:label "Common Operations" .
+
+<http://metaUnionSearch/datasets/MathI379U261/column/CurrentImportance> a dsv:Column ;
+    rdfs:label "Current Importance" ;
+    dsv:columnProperty "current status" .
+
+<http://metaUnionSearch/datasets/MathI379U261/column/Definition> a dsv:Column ;
+    rdfs:label "Definition" ;
+    dsv:columnProperty "definition" .
+
+<http://metaUnionSearch/datasets/MathI379U261/column/HistoricalDevelopment> a dsv:Column ;
+    rdfs:label "Historical Development" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/MathI379U261/column/KeyContributors> a dsv:Column ;
+    rdfs:label "Key Contributors" ;
+    dsv:columnProperty "known for" .
+
+<http://metaUnionSearch/datasets/MathI379U261/column/MathematicsSubject> a dsv:Column ;
+    rdfs:label "Mathematics Subject" ;
+    dsv:columnProperty "subject term" .
+
+<http://metaUnionSearch/datasets/MathI379U261/column/MisunderstandingsandPitfalls> a dsv:Column ;
+    rdfs:label "Misunderstandings and Pitfalls" ;
+    dsv:columnProperty "complications" .
+
+<http://metaUnionSearch/datasets/MathI379U261/column/PotentialFutureImpact> a dsv:Column ;
+    rdfs:label "Potential Future Impact" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/MathI379U261/column/SupplementaryResources> a dsv:Column ;
+    rdfs:label "Supplementary Resources" ;
+    dsv:columnProperty "locus supplementary data" .
+
+<http://metaUnionSearch/datasets/MathI379U261/column/SymbolicRepresentation> a dsv:Column ;
+    rdfs:label "Symbolic Representation" .
+
+<http://metaUnionSearch/datasets/MathI379U261/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MathI379U261/column/>,
+        <http://metaUnionSearch/datasets/MathI379U261/column/1>,
+        <http://metaUnionSearch/datasets/MathI379U261/column/2>,
+        <http://metaUnionSearch/datasets/MathI379U261/column/3>,
+        <http://metaUnionSearch/datasets/MathI379U261/column/4>,
+        <http://metaUnionSearch/datasets/MathI379U261/column/CommonOperations>,
+        <http://metaUnionSearch/datasets/MathI379U261/column/CurrentImportance>,
+        <http://metaUnionSearch/datasets/MathI379U261/column/Definition>,
+        <http://metaUnionSearch/datasets/MathI379U261/column/HistoricalDevelopment>,
+        <http://metaUnionSearch/datasets/MathI379U261/column/KeyContributors>,
+        <http://metaUnionSearch/datasets/MathI379U261/column/MathematicsSubject>,
+        <http://metaUnionSearch/datasets/MathI379U261/column/MisunderstandingsandPitfalls>,
+        <http://metaUnionSearch/datasets/MathI379U261/column/PotentialFutureImpact>,
+        <http://metaUnionSearch/datasets/MathI379U261/column/SupplementaryResources>,
+        <http://metaUnionSearch/datasets/MathI379U261/column/SymbolicRepresentation> .
+

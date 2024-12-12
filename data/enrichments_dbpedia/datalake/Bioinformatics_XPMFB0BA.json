@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Genomic Region Alias",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/locusSupplementaryData"
+    },
+    {
+      "column_header": " mRNA Accession Number",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refseqmrna"
+    },
+    {
+      "column_header": " Transcript Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/status"
+    },
+    {
+      "column_header": " Exon Count",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfOutdegree"
+    },
+    {
+      "column_header": " Splice Variants Details",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/hasVariant"
+    },
+    {
+      "column_header": " Proteins Produced by This Gene",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refseqprotein"
+    },
+    {
+      "column_header": " Functional Domains & Motifs Information",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/domain"
+    },
+    {
+      "column_header": " Subcellular Localization Probability Distribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/relatedFunctions"
+    },
+    {
+      "column_header": " New Column 1 (non-semantic)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    },
+    {
+      "column_header": " New Column 2 (non-semantic)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    }
+  ]
+}

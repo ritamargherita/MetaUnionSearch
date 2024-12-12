@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Researchers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Publication Year",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/firstPublicationYear"
+    },
+    {
+      "column_header": "Study Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Experimental Group",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/participant"
+    },
+    {
+      "column_header": "Comparison Group(s)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/participant"
+    },
+    {
+      "column_header": "Funding Source",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "Ethical Approval Status",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/status"
+    },
+    {
+      "column_header": "Sample Size",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"
+    },
+    {
+      "column_header": "Statistical Methodology Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/statistic"
+    },
+    {
+      "column_header": "Testing Equipment Details",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": "Research Limitations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/restriction"
+    },
+    {
+      "column_header": "Observational Findings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    },
+    {
+      "column_header": "Keywords",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectKeyword"
+    },
+    {
+      "column_header": "Notable Quotes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/quote"
+    }
+  ]
+}

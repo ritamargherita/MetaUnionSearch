@@ -1,0 +1,101 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_QKXIRHBV.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/ColorSpace> a dsv:Column ;
+    rdfs:label "Color Space" ;
+    dsv:columnProperty "colour" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/Comment> a dsv:Column ;
+    rdfs:label "Comment" ;
+    dsv:columnProperty "comment" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/DateTimeOriginal> a dsv:Column ;
+    rdfs:label "DateTime Original" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/DigitalZoom> a dsv:Column ;
+    rdfs:label "Digital Zoom" ;
+    dsv:columnProperty "scale factor" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/ExifVersion> a dsv:Column ;
+    rdfs:label "Exif Version" ;
+    dsv:columnProperty "version" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/FNumber> a dsv:Column ;
+    rdfs:label "FNumber" ;
+    dsv:columnProperty "number" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/FlashDriveMode> a dsv:Column ;
+    rdfs:label "Flash & Drive Mode" ;
+    dsv:columnProperty "flash point" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/FocusDistanceRange> a dsv:Column ;
+    rdfs:label "Focus Distance Range" ;
+    dsv:columnProperty "range" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/GPSLatitude> a dsv:Column ;
+    rdfs:label "GPS Latitude" ;
+    dsv:columnProperty "kind of coordinate" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/GPSLongitude> a dsv:Column ;
+    rdfs:label "GPS Longitude" ;
+    dsv:columnProperty "kind of coordinate" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/ImageHeight> a dsv:Column ;
+    rdfs:label "Image Height" ;
+    dsv:columnProperty "height (μ)" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/ImageWidth> a dsv:Column ;
+    rdfs:label "Image Width" ;
+    dsv:columnProperty "width (μ)" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/LensMake> a dsv:Column ;
+    rdfs:label "Lens Make" ;
+    dsv:columnProperty "manufacturer" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/LensModel> a dsv:Column ;
+    rdfs:label "Lens Model" ;
+    dsv:columnProperty "model" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/LocationShoot> a dsv:Column ;
+    rdfs:label "Location Shoot" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/PhotoTitle> a dsv:Column ;
+    rdfs:label "Photo Title" ;
+    dsv:columnProperty "title" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/SoftwareUsed> a dsv:Column ;
+    rdfs:label "Software Used" ;
+    dsv:columnProperty "operating system" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/WhiteBalanceSetting> a dsv:Column ;
+    rdfs:label "White Balance Setting" ;
+    dsv:columnProperty "colour" .
+
+<http://metaUnionSearch/datasets/PhotographyQKXIRHBV/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/ColorSpace>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/Comment>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/DateTimeOriginal>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/DigitalZoom>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/ExifVersion>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/FNumber>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/FlashDriveMode>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/FocusDistanceRange>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/GPSLatitude>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/GPSLongitude>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/ImageHeight>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/ImageWidth>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/LensMake>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/LensModel>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/LocationShoot>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/PhotoTitle>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/SoftwareUsed>,
+        <http://metaUnionSearch/datasets/PhotographyQKXIRHBV/column/WhiteBalanceSetting> .
+

@@ -1,0 +1,85 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_CUYHYQ8S.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GardeningCUYHYQ8S/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/AverageLifespan> a dsv:Column ;
+    rdfs:label "AverageLifespan" ;
+    dsv:columnProperty "life expectancy" .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/CetumProductionKgM2> a dsv:Column ;
+    rdfs:label "CetumProductionKgM2" ;
+    dsv:columnProperty "production years" .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/DiseaseResistance> a dsv:Column ;
+    rdfs:label "DiseaseResistance" ;
+    dsv:columnProperty "disease" .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/FertilityRequirements> a dsv:Column ;
+    rdfs:label "FertilityRequirements" .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/FlowerColor> a dsv:Column ;
+    rdfs:label "FlowerColor" ;
+    dsv:columnProperty "colour" .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/GrowthEstimatedTime> a dsv:Column ;
+    rdfs:label "GrowthEstimatedTime" ;
+    dsv:columnProperty "term period" .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/HarvestSeason> a dsv:Column ;
+    rdfs:label "HarvestSeason" ;
+    dsv:columnProperty "season" .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/IrrigationType> a dsv:Column ;
+    rdfs:label "IrrigationType" ;
+    dsv:columnProperty "water" .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/PlantHeight> a dsv:Column ;
+    rdfs:label "PlantHeight" ;
+    dsv:columnProperty "height against" .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/PotentialCompanionPlants> a dsv:Column ;
+    rdfs:label "PotentialCompanionPlants" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/PropagationMethods> a dsv:Column ;
+    rdfs:label "PropagationMethods" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/PruningFrequency> a dsv:Column ;
+    rdfs:label "PruningFrequency" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/QuantityOfWaterNeeded> a dsv:Column ;
+    rdfs:label "QuantityOfWaterNeeded" ;
+    dsv:columnProperty "water" .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/SoilTemperature> a dsv:Column ;
+    rdfs:label "SoilTemperature" ;
+    dsv:columnProperty "temperature (K)" .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/SpacingRecommendations> a dsv:Column ;
+    rdfs:label "SpacingRecommendations" ;
+    dsv:columnProperty "space" .
+
+<http://metaUnionSearch/datasets/GardeningCUYHYQ8S/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/AverageLifespan>,
+        <http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/CetumProductionKgM2>,
+        <http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/DiseaseResistance>,
+        <http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/FertilityRequirements>,
+        <http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/FlowerColor>,
+        <http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/GrowthEstimatedTime>,
+        <http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/HarvestSeason>,
+        <http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/IrrigationType>,
+        <http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/PlantHeight>,
+        <http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/PotentialCompanionPlants>,
+        <http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/PropagationMethods>,
+        <http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/PruningFrequency>,
+        <http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/QuantityOfWaterNeeded>,
+        <http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/SoilTemperature>,
+        <http://metaUnionSearch/datasets/GardeningCUYHYQ8S/column/SpacingRecommendations> .
+

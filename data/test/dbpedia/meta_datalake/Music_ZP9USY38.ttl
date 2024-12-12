@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MusicZP9USY38> a dsv:Dataset ;
+    dcterms:subject "music" ;
+    dcterms:title "Music_ZP9USY38.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MusicZP9USY38/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MusicZP9USY38/column/BPMBeatsPerMinute> a dsv:Column ;
+    rdfs:label "BPM (Beats Per Minute)" ;
+    dsv:columnProperty "playing time (s)" .
+
+<http://metaUnionSearch/datasets/MusicZP9USY38/column/Choreographer> a dsv:Column ;
+    rdfs:label "Choreographer" ;
+    dsv:columnProperty "choreographer" .
+
+<http://metaUnionSearch/datasets/MusicZP9USY38/column/InstrumentsUsed> a dsv:Column ;
+    rdfs:label "Instruments Used" ;
+    dsv:columnProperty "instrument" .
+
+<http://metaUnionSearch/datasets/MusicZP9USY38/column/InternationalStandardRecordingCode> a dsv:Column ;
+    rdfs:label "International Standard Recording Code" ;
+    dsv:columnProperty "identification symbol" .
+
+<http://metaUnionSearch/datasets/MusicZP9USY38/column/KeySignature> a dsv:Column ;
+    rdfs:label "Key Signature" ;
+    dsv:columnProperty "signature" .
+
+<http://metaUnionSearch/datasets/MusicZP9USY38/column/Lyricsby> a dsv:Column ;
+    rdfs:label "Lyrics by" ;
+    dsv:columnProperty "lyrics" .
+
+<http://metaUnionSearch/datasets/MusicZP9USY38/column/Mood> a dsv:Column ;
+    rdfs:label "Mood" ;
+    dsv:columnProperty "mood" .
+
+<http://metaUnionSearch/datasets/MusicZP9USY38/column/MusicVideoDirector> a dsv:Column ;
+    rdfs:label "Music Video Director" ;
+    dsv:columnProperty "film director" .
+
+<http://metaUnionSearch/datasets/MusicZP9USY38/column/OriginalCopyrightHolder> a dsv:Column ;
+    rdfs:label "Original Copyright Holder" ;
+    dsv:columnProperty "original danse competititon" .
+
+<http://metaUnionSearch/datasets/MusicZP9USY38/column/SoundEngineer> a dsv:Column ;
+    rdfs:label "Sound Engineer" ;
+    dsv:columnProperty "engineer" .
+
+<http://metaUnionSearch/datasets/MusicZP9USY38/column/TimeSignature> a dsv:Column ;
+    rdfs:label "Time Signature" ;
+    dsv:columnProperty "signature" .
+
+<http://metaUnionSearch/datasets/MusicZP9USY38/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MusicZP9USY38/column/BPMBeatsPerMinute>,
+        <http://metaUnionSearch/datasets/MusicZP9USY38/column/Choreographer>,
+        <http://metaUnionSearch/datasets/MusicZP9USY38/column/InstrumentsUsed>,
+        <http://metaUnionSearch/datasets/MusicZP9USY38/column/InternationalStandardRecordingCode>,
+        <http://metaUnionSearch/datasets/MusicZP9USY38/column/KeySignature>,
+        <http://metaUnionSearch/datasets/MusicZP9USY38/column/Lyricsby>,
+        <http://metaUnionSearch/datasets/MusicZP9USY38/column/Mood>,
+        <http://metaUnionSearch/datasets/MusicZP9USY38/column/MusicVideoDirector>,
+        <http://metaUnionSearch/datasets/MusicZP9USY38/column/OriginalCopyrightHolder>,
+        <http://metaUnionSearch/datasets/MusicZP9USY38/column/SoundEngineer>,
+        <http://metaUnionSearch/datasets/MusicZP9USY38/column/TimeSignature> .
+

@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EngineeringYZMEPGTH> a dsv:Dataset ;
+    dcterms:subject "engineering" ;
+    dcterms:title "Engineering_YZMEPGTH.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EngineeringYZMEPGTH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/CollaboratingInstitutions> a dsv:Column ;
+    rdfs:label "Collaborating Institutions" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/CompetedWork> a dsv:Column ;
+    rdfs:label "%Competed Work" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/CostEstimation> a dsv:Column ;
+    rdfs:label "Cost Estimation" ;
+    dsv:columnProperty "cost ($)" .
+
+<http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/EngineeringDiscipline> a dsv:Column ;
+    rdfs:label "Engineering Discipline" ;
+    dsv:columnProperty "academic discipline" .
+
+<http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/LessonsLearned> a dsv:Column ;
+    rdfs:label "Lessons Learned" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/MaterialSelection> a dsv:Column ;
+    rdfs:label "Material Selection" ;
+    dsv:columnProperty "material" .
+
+<http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/OngoingProject> a dsv:Column ;
+    rdfs:label "+Ongoing Project?" ;
+    dsv:columnProperty "project" .
+
+<http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/ProjectStatus> a dsv:Column ;
+    rdfs:label "Project Status" ;
+    dsv:columnProperty "status" .
+
+<http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/ProjectTimeline> a dsv:Column ;
+    rdfs:label "Project Timeline" ;
+    dsv:columnProperty "project" .
+
+<http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/ResourceAllocation> a dsv:Column ;
+    rdfs:label "Resource Allocation" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/RiskManagementPlan> a dsv:Column ;
+    rdfs:label "Risk Management Plan" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/StakeholderEngagement> a dsv:Column ;
+    rdfs:label "Stakeholder Engagement" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/TestingResults> a dsv:Column ;
+    rdfs:label "Testing Results" ;
+    dsv:columnProperty "testaverage" .
+
+<http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/WorkPackages> a dsv:Column ;
+    rdfs:label "#Work Packages" ;
+    dsv:columnProperty "work" .
+
+<http://metaUnionSearch/datasets/EngineeringYZMEPGTH/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/CollaboratingInstitutions>,
+        <http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/CompetedWork>,
+        <http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/CostEstimation>,
+        <http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/EngineeringDiscipline>,
+        <http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/LessonsLearned>,
+        <http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/MaterialSelection>,
+        <http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/OngoingProject>,
+        <http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/ProjectStatus>,
+        <http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/ProjectTimeline>,
+        <http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/ResourceAllocation>,
+        <http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/RiskManagementPlan>,
+        <http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/StakeholderEngagement>,
+        <http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/TestingResults>,
+        <http://metaUnionSearch/datasets/EngineeringYZMEPGTH/column/WorkPackages> .
+

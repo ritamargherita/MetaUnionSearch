@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PoetryXKXWNREK> a dsv:Dataset ;
+    dcterms:subject "poetry" ;
+    dcterms:title "Poetry_XKXWNREK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PoetryXKXWNREK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PoetryXKXWNREK/column/CollaboratorsAndPeers> a dsv:Column ;
+    rdfs:label "Collaborators And Peers" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/PoetryXKXWNREK/column/CulturalContext> a dsv:Column ;
+    rdfs:label "Cultural Context" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/PoetryXKXWNREK/column/EducationBackgroundMentors> a dsv:Column ;
+    rdfs:label "Education Background & Mentors" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/PoetryXKXWNREK/column/FormativeExperiences> a dsv:Column ;
+    rdfs:label "Formative Experiences" ;
+    dsv:columnProperty "mentor" .
+
+<http://metaUnionSearch/datasets/PoetryXKXWNREK/column/InspirationSources> a dsv:Column ;
+    rdfs:label "Inspiration Sources" ;
+    dsv:columnProperty "source" .
+
+<http://metaUnionSearch/datasets/PoetryXKXWNREK/column/PoetBiography> a dsv:Column ;
+    rdfs:label "Poet Biography" ;
+    dsv:columnProperty "author" .
+
+<http://metaUnionSearch/datasets/PoetryXKXWNREK/column/PoetryLanguageOrigin> a dsv:Column ;
+    rdfs:label "Poetry Language Origin" ;
+    dsv:columnProperty "original language" .
+
+<http://metaUnionSearch/datasets/PoetryXKXWNREK/column/PrevalenceOfPersonalThemes> a dsv:Column ;
+    rdfs:label "Prevalence Of Personal Themes" ;
+    dsv:columnProperty "ethnicity" .
+
+<http://metaUnionSearch/datasets/PoetryXKXWNREK/column/PublicationsList> a dsv:Column ;
+    rdfs:label "Publications List" ;
+    dsv:columnProperty "publication" .
+
+<http://metaUnionSearch/datasets/PoetryXKXWNREK/column/StyleEvolutionOverTime> a dsv:Column ;
+    rdfs:label "Style Evolution Over Time" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/PoetryXKXWNREK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PoetryXKXWNREK/column/CollaboratorsAndPeers>,
+        <http://metaUnionSearch/datasets/PoetryXKXWNREK/column/CulturalContext>,
+        <http://metaUnionSearch/datasets/PoetryXKXWNREK/column/EducationBackgroundMentors>,
+        <http://metaUnionSearch/datasets/PoetryXKXWNREK/column/FormativeExperiences>,
+        <http://metaUnionSearch/datasets/PoetryXKXWNREK/column/InspirationSources>,
+        <http://metaUnionSearch/datasets/PoetryXKXWNREK/column/PoetBiography>,
+        <http://metaUnionSearch/datasets/PoetryXKXWNREK/column/PoetryLanguageOrigin>,
+        <http://metaUnionSearch/datasets/PoetryXKXWNREK/column/PrevalenceOfPersonalThemes>,
+        <http://metaUnionSearch/datasets/PoetryXKXWNREK/column/PublicationsList>,
+        <http://metaUnionSearch/datasets/PoetryXKXWNREK/column/StyleEvolutionOverTime> .
+

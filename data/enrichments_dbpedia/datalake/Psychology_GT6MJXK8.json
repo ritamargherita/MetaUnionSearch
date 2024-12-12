@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "FavoritePsychologist",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/specialist"
+    },
+    {
+      "column_header": "FirstBookRead_inField",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/firstMention"
+    },
+    {
+      "column_header": "MostImpactfulTheory_toPatient",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableIdea"
+    },
+    {
+      "column_header": "NumberofYearsExperience",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/years"
+    },
+    {
+      "column_header": "PreferredResearchMethodologies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/specialization"
+    },
+    {
+      "column_header": "SpecializationArea01",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/specialization"
+    },
+    {
+      "column_header": "SpecializationArea02",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/specialization"
+    },
+    {
+      "column_header": "SpecializedTechniquesUsed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": "PatientsDemographicPreferece_age",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/age"
+    },
+    {
+      "column_header": "PreferredSessionTimeslot_hour",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/average"
+    },
+    {
+      "column_header": "AverageRatingFromReviewers",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": "NumberOfPublicationsLastYear",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/finalPublicationYear"
+    },
+    {
+      "column_header": "AdditionalColumn1",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/abstract"
+    },
+    {
+      "column_header": "AdditionalColumn2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherName"
+    }
+  ]
+}

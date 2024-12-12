@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Religions And Beliefs",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Languages Spoken",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officialLanguage"
+    },
+    {
+      "column_header": "Holidays and Celebrations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"
+    },
+    {
+      "column_header": "Daily Life - Food",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"
+    },
+    {
+      "column_header": "Trade Routes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/route"
+    },
+    {
+      "column_header": "Communication Methods",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/channel"
+    },
+    {
+      "column_header": "Clothing Styles and Textiles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Major Organizations and Alliances",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/alliance"
+    },
+    {
+      "column_header": "Demographic Changes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"
+    },
+    {
+      "column_header": "Law Systems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/systemOfLaw"
+    },
+    {
+      "column_header": "Diplomacy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    },
+    {
+      "column_header": "Architectural Styles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/architecturalStyle"
+    },
+    {
+      "column_header": "Music and Dance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/musicians"
+    }
+  ]
+}

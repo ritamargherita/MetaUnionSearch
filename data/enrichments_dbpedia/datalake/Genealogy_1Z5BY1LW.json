@@ -1,0 +1,14 @@
+{
+    "mapping": [
+        {"column_header": "ChildGivenName", "dbpedia_property_id": "http://dbpedia.org/ontology/child"},
+        {"column_header": "ChildMotherMaidenName", "dbpedia_property_id": "http://dbpedia.org/ontology/birthName"},
+        {"column_header": "ChildFatherFirstName", "dbpedia_property_id": "http://dbpedia.org/ontology/parent"},
+        {"column_header": "ChildFatherLastName", "dbpedia_property_id": "http://dbpedia.org/ontology/parent"},
+        {"column_header": "SpouseAliasNames", "dbpedia_property_id": "http://dbpedia.org/ontology/spouseName"},
+        {"column_header": "MarriageLocation", "dbpedia_property_id": "http://dbpedia.org/ontology/residence"},
+        {"column_header": "DivorceDate", "dbpedia_property_id": "http://dbpedia.org/ontology/spouse"},
+        {"column_header": "NumberOfChildren", "dbpedia_property_id": "http://dbpedia.org/ontology/number"},
+        {"column_header": "AncestryOrigins", "dbpedia_property_id": "http://dbpedia.org/ontology/ethnicity"},
+        {"column_header": "FamilyWealth", "dbpedia_property_id": "http://dbpedia.org/ontology/family"}
+    ]
+}

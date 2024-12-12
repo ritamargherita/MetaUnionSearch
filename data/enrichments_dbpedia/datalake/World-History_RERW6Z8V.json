@@ -1,0 +1,14 @@
+{
+  "mapping": [
+    {"column_header": "Religious Beliefs", "dbpedia_property_id": "http://dbpedia.org/ontology/religion"},
+    {"column_header": "Literature", "dbpedia_property_id": "http://dbpedia.org/ontology/literaryGenre"},
+    {"column_header": "Music", "dbpedia_property_id": "http://dbpedia.org/ontology/musicBy"},
+    {"column_header": "Art", "dbpedia_property_id": "http://dbpedia.org/ontology/artisticFunction"},
+    {"column_header": "Philosophy", "dbpedia_property_id": "http://dbpedia.org/ontology/philosophicalSchool"},
+    {"column_header": "Science", "dbpedia_property_id": "http://dbpedia.org/ontology/science"},
+    {"column_header": "Technology", "dbpedia_property_id": "http://dbpedia.org/ontology/technology"},
+    {"column_header": "Politics", "dbpedia_property_id": "http://dbpedia.org/ontology/government"},
+    {"column_header": "Economy", "dbpedia_property_id": "http://dbpedia.org/ontology/income"},
+    {"column_header": "Geography", "dbpedia_property_id": "http://dbpedia.org/ontology/map"}
+  ]
+}

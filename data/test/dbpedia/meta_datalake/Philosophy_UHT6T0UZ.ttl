@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ> a dsv:Dataset ;
+    dcterms:subject "philosophy" ;
+    dcterms:title "Philosophy_UHT6T0UZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/CentralIdeas> a dsv:Column ;
+    rdfs:label "Central Ideas" ;
+    dsv:columnProperty "main interest" .
+
+<http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/CoreTenets> a dsv:Column ;
+    rdfs:label "Core Tenets" ;
+    dsv:columnProperty "main domain" .
+
+<http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/Criticisms> a dsv:Column ;
+    rdfs:label "Criticisms" ;
+    dsv:columnProperty "comment" .
+
+<http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/NotableQuotes> a dsv:Column ;
+    rdfs:label "Notable Quotes" ;
+    dsv:columnProperty "quote" .
+
+<http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/RelatedFigures> a dsv:Column ;
+    rdfs:label "Related Figures" ;
+    dsv:columnProperty "related functions" .
+
+<http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/ScholarlyArticles> a dsv:Column ;
+    rdfs:label "Scholarly Articles" ;
+    dsv:columnProperty "publication" .
+
+<http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/UnrelatedColumn5> a dsv:Column ;
+    rdfs:label "Unrelated Column 5" ;
+    dsv:columnProperty "related" .
+
+<http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/UnrelatedColumn6> a dsv:Column ;
+    rdfs:label "Unrelated Column 6" ;
+    dsv:columnProperty "related" .
+
+<http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/UnrelatedColumn7> a dsv:Column ;
+    rdfs:label "Unrelated Column 7" ;
+    dsv:columnProperty "related" .
+
+<http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/UnrelatedColumn8> a dsv:Column ;
+    rdfs:label "Unrelated Column 8" ;
+    dsv:columnProperty "related" .
+
+<http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/CentralIdeas>,
+        <http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/CoreTenets>,
+        <http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/Criticisms>,
+        <http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/NotableQuotes>,
+        <http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/RelatedFigures>,
+        <http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/ScholarlyArticles>,
+        <http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/UnrelatedColumn5>,
+        <http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/UnrelatedColumn6>,
+        <http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/UnrelatedColumn7>,
+        <http://metaUnionSearch/datasets/PhilosophyUHT6T0UZ/column/UnrelatedColumn8> .
+

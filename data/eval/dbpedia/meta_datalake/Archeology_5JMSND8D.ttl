@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D> a dsv:Dataset ;
+    dcterms:subject "archeology" ;
+    dcterms:title "Archeology_5JMSND8D.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Archeology5JMSND8D/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D/column/ArchaeologistTeamLead> a dsv:Column ;
+    rdfs:label "ArchaeologistTeamLead" ;
+    dsv:columnProperty "key person" .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D/column/ArchaeologyFieldSpecialty> a dsv:Column ;
+    rdfs:label "ArchaeologyFieldSpecialty" ;
+    dsv:columnProperty "discipline" .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D/column/CollaborativeInstitutions> a dsv:Column ;
+    rdfs:label "CollaborativeInstitutions" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D/column/CommunityEngagementProgram> a dsv:Column ;
+    rdfs:label "CommunityEngagementProgram" ;
+    dsv:columnProperty "training" .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D/column/EducationalOutreachInitiatives> a dsv:Column ;
+    rdfs:label "EducationalOutreachInitiatives" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D/column/ExcavationDate> a dsv:Column ;
+    rdfs:label "ExcavationDate" ;
+    dsv:columnProperty "discovery date" .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D/column/FundingSource> a dsv:Column ;
+    rdfs:label "FundingSource" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D/column/GlobalSignificanceRating> a dsv:Column ;
+    rdfs:label "GlobalSignificanceRating" ;
+    dsv:columnProperty "project keyword" .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D/column/GovernmentRegulations> a dsv:Column ;
+    rdfs:label "GovernmentRegulations" ;
+    dsv:columnProperty "government" .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D/column/KeyFindingsSummary> a dsv:Column ;
+    rdfs:label "KeyFindingsSummary" ;
+    dsv:columnProperty "publication" .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D/column/LocalSupportIndex> a dsv:Column ;
+    rdfs:label "LocalSupportIndex" ;
+    dsv:columnProperty "association of local government" .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D/column/MediaCoverageScale> a dsv:Column ;
+    rdfs:label "MediaCoverageScale" ;
+    dsv:columnProperty "media" .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D/column/NumberOfVisitorsPerYear> a dsv:Column ;
+    rdfs:label "NumberOfVisitorsPerYear" ;
+    dsv:columnProperty "project" .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D/column/PublicInterestLevel> a dsv:Column ;
+    rdfs:label "PublicInterestLevel" ;
+    dsv:columnProperty "publicly accessible" .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D/column/ScientificPapersPublished> a dsv:Column ;
+    rdfs:label "ScientificPapersPublished" ;
+    dsv:columnProperty "scientific name" .
+
+<http://metaUnionSearch/datasets/Archeology5JMSND8D/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Archeology5JMSND8D/column/ArchaeologistTeamLead>,
+        <http://metaUnionSearch/datasets/Archeology5JMSND8D/column/ArchaeologyFieldSpecialty>,
+        <http://metaUnionSearch/datasets/Archeology5JMSND8D/column/CollaborativeInstitutions>,
+        <http://metaUnionSearch/datasets/Archeology5JMSND8D/column/CommunityEngagementProgram>,
+        <http://metaUnionSearch/datasets/Archeology5JMSND8D/column/EducationalOutreachInitiatives>,
+        <http://metaUnionSearch/datasets/Archeology5JMSND8D/column/ExcavationDate>,
+        <http://metaUnionSearch/datasets/Archeology5JMSND8D/column/FundingSource>,
+        <http://metaUnionSearch/datasets/Archeology5JMSND8D/column/GlobalSignificanceRating>,
+        <http://metaUnionSearch/datasets/Archeology5JMSND8D/column/GovernmentRegulations>,
+        <http://metaUnionSearch/datasets/Archeology5JMSND8D/column/KeyFindingsSummary>,
+        <http://metaUnionSearch/datasets/Archeology5JMSND8D/column/LocalSupportIndex>,
+        <http://metaUnionSearch/datasets/Archeology5JMSND8D/column/MediaCoverageScale>,
+        <http://metaUnionSearch/datasets/Archeology5JMSND8D/column/NumberOfVisitorsPerYear>,
+        <http://metaUnionSearch/datasets/Archeology5JMSND8D/column/PublicInterestLevel>,
+        <http://metaUnionSearch/datasets/Archeology5JMSND8D/column/ScientificPapersPublished> .
+

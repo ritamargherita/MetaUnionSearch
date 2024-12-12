@@ -1,0 +1,91 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_VH1I4EOY.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/AspectRatio> a dsv:Column ;
+    rdfs:label "Aspect Ratio" ;
+    dsv:columnProperty "Aspect Ratio" .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/Category> a dsv:Column ;
+    rdfs:label "Category" ;
+    dsv:columnProperty "category" .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/ColorSpace> a dsv:Column ;
+    rdfs:label "Color Space" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/EditingDetails> a dsv:Column ;
+    rdfs:label "Editing Details" ;
+    dsv:columnProperty "editing" .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/ExposureProgram> a dsv:Column ;
+    rdfs:label "Exposure Program" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/FlashMode> a dsv:Column ;
+    rdfs:label "Flash Mode" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/FocusMode> a dsv:Column ;
+    rdfs:label "Focus Mode" ;
+    dsv:columnProperty "focus" .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/ISOSetting> a dsv:Column ;
+    rdfs:label "ISO Setting" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/Location> a dsv:Column ;
+    rdfs:label "Location" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/MeteringMode> a dsv:Column ;
+    rdfs:label "Metering Mode" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/NoiseReduction> a dsv:Column ;
+    rdfs:label "Noise Reduction" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/PhotoOrientation> a dsv:Column ;
+    rdfs:label "Photo Orientation" ;
+    dsv:columnProperty "orientation" .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/PhotoTitle> a dsv:Column ;
+    rdfs:label "Photo Title" ;
+    dsv:columnProperty "title" .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/PostProcessor> a dsv:Column ;
+    rdfs:label "Post Processor" ;
+    dsv:columnProperty "editing" .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/Sharpening> a dsv:Column ;
+    rdfs:label "Sharpening." ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/WhiteBalance> a dsv:Column ;
+    rdfs:label "White Balance" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/PhotographyVH1I4EOY/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/AspectRatio>,
+        <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/Category>,
+        <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/ColorSpace>,
+        <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/EditingDetails>,
+        <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/ExposureProgram>,
+        <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/FlashMode>,
+        <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/FocusMode>,
+        <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/ISOSetting>,
+        <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/Location>,
+        <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/MeteringMode>,
+        <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/NoiseReduction>,
+        <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/PhotoOrientation>,
+        <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/PhotoTitle>,
+        <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/PostProcessor>,
+        <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/Sharpening>,
+        <http://metaUnionSearch/datasets/PhotographyVH1I4EOY/column/WhiteBalance> .
+

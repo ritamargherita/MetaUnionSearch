@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geology51IFI031> a dsv:Dataset ;
+    dcterms:subject "geology" ;
+    dcterms:title "Geology_51IFI031.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geology51IFI031/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/AdditionalData> a dsv:Column ;
+    rdfs:label "Additional Data" ;
+    dsv:columnProperty "other information of a settlement" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/Biogenicity> a dsv:Column ;
+    rdfs:label "Biogenicity" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/ChemicalsElementalAnalysis> a dsv:Column ;
+    rdfs:label "Chemicals & Elemental Analysis" ;
+    dsv:columnProperty "chemical formula" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/Crystallinity> a dsv:Column ;
+    rdfs:label "Crystallinity" ;
+    dsv:columnProperty "material" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/GrainSize> a dsv:Column ;
+    rdfs:label "Grain Size" ;
+    dsv:columnProperty "type of grain (wheat etc.)" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/IgneousTexture> a dsv:Column ;
+    rdfs:label "Igneous Texture" ;
+    dsv:columnProperty "kind of rock" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/LandscapeImpact> a dsv:Column ;
+    rdfs:label "Landscape Impact" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/LithologicalDescription> a dsv:Column ;
+    rdfs:label "Lithological Description" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/MetamorphismLevel> a dsv:Column ;
+    rdfs:label "Metamorphism Level" ;
+    dsv:columnProperty "orogeny" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/column/TectonicSettingEarthquakePotential> a dsv:Column ;
+    rdfs:label "Tectonic Setting : Earthquake Potential" .
+
+<http://metaUnionSearch/datasets/Geology51IFI031/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Geology51IFI031/column/AdditionalData>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/Biogenicity>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/ChemicalsElementalAnalysis>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/Crystallinity>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/GrainSize>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/IgneousTexture>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/LandscapeImpact>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/LithologicalDescription>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/MetamorphismLevel>,
+        <http://metaUnionSearch/datasets/Geology51IFI031/column/TectonicSettingEarthquakePotential> .
+

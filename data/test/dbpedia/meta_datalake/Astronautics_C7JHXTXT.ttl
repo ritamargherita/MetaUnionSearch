@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronauticsC7JHXTXT> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_C7JHXTXT.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/> a dsv:Column ;
+    rdfs:label "_,_" ;
+    dsv:columnProperty "comment" .
+
+<http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/AdditionalDataPoint1> a dsv:Column ;
+    rdfs:label "Additional Data Point 1" ;
+    dsv:columnProperty "locus supplementary data" .
+
+<http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/AdditionalDataPoint2> a dsv:Column ;
+    rdfs:label "Additional Data Point 2" ;
+    dsv:columnProperty "locus supplementary data" .
+
+<http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/BudgetAllocatedtoResearch> a dsv:Column ;
+    rdfs:label "Budget Allocated to Research" ;
+    dsv:columnProperty "project budget total ($)" .
+
+<http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/CoordinatesatLaunch> a dsv:Column ;
+    rdfs:label "Coordinates at Launch" ;
+    dsv:columnProperty "launch site" .
+
+<http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/MedicalMonitoringsResults> a dsv:Column ;
+    rdfs:label "Medical Monitorings & Results" ;
+    dsv:columnProperty "medical diagnosis" .
+
+<http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/SponsoringAgency> a dsv:Column ;
+    rdfs:label "Sponsoring Agency" ;
+    dsv:columnProperty "agency" .
+
+<http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/TemperatureVariationsStudied> a dsv:Column ;
+    rdfs:label "Temperature Variations Studied" ;
+    dsv:columnProperty "temperature (K)" .
+
+<http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/WeightlessnessExperiencedbyPlants> a dsv:Column ;
+    rdfs:label "Weightlessness Experienced by Plants" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/>,
+        <http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/AdditionalDataPoint1>,
+        <http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/AdditionalDataPoint2>,
+        <http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/BudgetAllocatedtoResearch>,
+        <http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/CoordinatesatLaunch>,
+        <http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/MedicalMonitoringsResults>,
+        <http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/SponsoringAgency>,
+        <http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/TemperatureVariationsStudied>,
+        <http://metaUnionSearch/datasets/AstronauticsC7JHXTXT/column/WeightlessnessExperiencedbyPlants> .
+

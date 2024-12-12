@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Astronautics2WZMTFC8> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_2WZMTFC8.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Astronautics2WZMTFC8/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/AstronautsProfession> a dsv:Column ;
+    rdfs:label "Astronaut's Profession" ;
+    dsv:columnProperty "profession" .
+
+<http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/AverageAltitude> a dsv:Column ;
+    rdfs:label "Average Altitude" ;
+    dsv:columnProperty "altitude" .
+
+<http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/CrewCount> a dsv:Column ;
+    rdfs:label "Crew Count." ;
+    dsv:columnProperty "number of crew" .
+
+<http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/Extended> a dsv:Column ;
+    rdfs:label "Extended?" ;
+    dsv:columnProperty "date extended" .
+
+<http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/FirstStageReusability> a dsv:Column ;
+    rdfs:label "First Stage Reusability" ;
+    dsv:columnProperty "number of rocket stages" .
+
+<http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/IsVehicleSolarPowered> a dsv:Column ;
+    rdfs:label "Is Vehicle Solar Powered?" ;
+    dsv:columnProperty "power" .
+
+<http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/LaunchSite> a dsv:Column ;
+    rdfs:label "Launch Site" ;
+    dsv:columnProperty "launch site" .
+
+<http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/MaximumAltitude> a dsv:Column ;
+    rdfs:label "Maximum Altitude" ;
+    dsv:columnProperty "highest altitude" .
+
+<http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/NonspacebornePayloadNames> a dsv:Column ;
+    rdfs:label "Non-spaceborne Payload Names" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/PayloadsDeployedCount> a dsv:Column ;
+    rdfs:label "Payloads Deployed Count" ;
+    dsv:columnProperty "number of launches" .
+
+<http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/PlannedEndDate> a dsv:Column ;
+    rdfs:label "Planned End Date" ;
+    dsv:columnProperty "end date" .
+
+<http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/SecondaryPurpose> a dsv:Column ;
+    rdfs:label "Secondary Purpose" ;
+    dsv:columnProperty "purpose" .
+
+<http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/SponsoringAgency> a dsv:Column ;
+    rdfs:label "Sponsoring Agency" ;
+    dsv:columnProperty "agency" .
+
+<http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/TotalExperiments> a dsv:Column ;
+    rdfs:label "Total Experiments" ;
+    dsv:columnProperty "total launches" .
+
+<http://metaUnionSearch/datasets/Astronautics2WZMTFC8/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/AstronautsProfession>,
+        <http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/AverageAltitude>,
+        <http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/CrewCount>,
+        <http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/Extended>,
+        <http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/FirstStageReusability>,
+        <http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/IsVehicleSolarPowered>,
+        <http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/LaunchSite>,
+        <http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/MaximumAltitude>,
+        <http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/NonspacebornePayloadNames>,
+        <http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/PayloadsDeployedCount>,
+        <http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/PlannedEndDate>,
+        <http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/SecondaryPurpose>,
+        <http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/SponsoringAgency>,
+        <http://metaUnionSearch/datasets/Astronautics2WZMTFC8/column/TotalExperiments> .
+

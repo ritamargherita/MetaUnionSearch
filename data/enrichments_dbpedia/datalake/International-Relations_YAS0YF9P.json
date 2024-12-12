@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Colonial History",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/colonialName"
+    },
+    {
+      "column_header": "Resource Distribution",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfUniqeResources"
+    },
+    {
+      "column_header": "Economic Interdependency",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/income"
+    },
+    {
+      "column_header": "Political Ideology",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ideology"
+    },
+    {
+      "column_header": "Domestic Politics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/government"
+    },
+    {
+      "column_header": "Trade Agreements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/alliance"
+    },
+    {
+      "column_header": "Scientific Collaboration",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": "Tourism and Travel",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/touristicSite"
+    },
+    {
+      "column_header": "Geographic Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Regional Organizations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/regionalCouncil"
+    },
+    {
+      "column_header": "Cybersecurity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/security"
+    },
+    {
+      "column_header": "Soft Power",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/power"
+    },
+    {
+      "column_header": "Human Rights Record",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ethicalRecord"
+    },
+    {
+      "column_header": "Cultural Exchange",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    }
+  ]
+}

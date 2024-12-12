@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BioinformaticsHONGWULA> a dsv:Dataset ;
+    dcterms:subject "bioinformatics" ;
+    dcterms:title "Bioinformatics_HONGWULA.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BioinformaticsHONGWULA/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/chromSome> a dsv:Column ;
+    rdfs:label "chromSome" ;
+    dsv:columnProperty "chromosome" .
+
+<http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/expressionLevelnew> a dsv:Column ;
+    rdfs:label "expressionLevel_new" ;
+    dsv:columnProperty "feature" .
+
+<http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/gTypenew> a dsv:Column ;
+    rdfs:label "gType_new" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/geneName> a dsv:Column ;
+    rdfs:label "geneName" ;
+    dsv:columnProperty "geneReviewsName" .
+
+<http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/mutFreqByPopulation> a dsv:Column ;
+    rdfs:label "mutFreqByPopulation" ;
+    dsv:columnProperty "total population reference" .
+
+<http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/positionEnd> a dsv:Column ;
+    rdfs:label "positionEnd" ;
+    dsv:columnProperty "gene location end" .
+
+<http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/positionStart> a dsv:Column ;
+    rdfs:label "positionStart" ;
+    dsv:columnProperty "position" .
+
+<http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/proteinsInteractingWithThisOne1proteinsInteractingWithThisOne2proteinsInteractingWithThisOne10> a dsv:Column ;
+    rdfs:label "proteinsInteractingWithThisOne1, proteinsInteractingWithThisOne2, ..., proteinsInteractingWithThisOne10" ;
+    dsv:columnProperty "participates/participated in" .
+
+<http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/sequence> a dsv:Column ;
+    rdfs:label "sequence" ;
+    dsv:columnProperty "refseq protein" .
+
+<http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/specificGOtermPathwayOrFunction1specificGOtermPathwayOrFunction2specificGOtermPathwayOrFunctionN> a dsv:Column ;
+    rdfs:label "specificGOtermPathwayOrFunction1, specificGOtermPathwayOrFunction2, ..., specificGOtermPathwayOrFunctionN" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/strAND> a dsv:Column ;
+    rdfs:label "strAND" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/BioinformaticsHONGWULA/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/chromSome>,
+        <http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/expressionLevelnew>,
+        <http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/gTypenew>,
+        <http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/geneName>,
+        <http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/mutFreqByPopulation>,
+        <http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/positionEnd>,
+        <http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/positionStart>,
+        <http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/proteinsInteractingWithThisOne1proteinsInteractingWithThisOne2proteinsInteractingWithThisOne10>,
+        <http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/sequence>,
+        <http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/specificGOtermPathwayOrFunction1specificGOtermPathwayOrFunction2specificGOtermPathwayOrFunctionN>,
+        <http://metaUnionSearch/datasets/BioinformaticsHONGWULA/column/strAND> .
+

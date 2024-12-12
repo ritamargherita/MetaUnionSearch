@@ -1,66 +1,128 @@
 import pandas as pd
-import sys
 
-def make_df(file):
-    """
-    """
-    df = pd.read_csv(file)
-    return df
+def merge_similarity_with_groundtruth(cosine_file, groundtruth_file, output_file):
+    cosine_df = pd.read_csv(cosine_file)
+    groundtruth_df = pd.read_csv(groundtruth_file)
+    cosine_df['query_table'] = cosine_df['query_table'].str.split('.').str[0]
+    cosine_df['data_lake_table'] = cosine_df['data_lake_table'].str.split('.').str[0]
+    groundtruth_df['query_table'] = groundtruth_df['query_table'].str.split('.').str[0]
+    groundtruth_df['data_lake_table'] = groundtruth_df['data_lake_table'].str.split('.').str[0]
+    groundtruth_dict = {
+        (row['query_table'], row['data_lake_table']): row['unionable']
+        for _, row in groundtruth_df.iterrows()}
+    cosine_df['unionable'] = cosine_df.apply(
+        lambda row: groundtruth_dict.get((row['query_table'], row['data_lake_table']), 0),
+        axis=1)
+    cosine_df.to_csv(output_file, index=False)
 
-def compare_dfs(ss_df, gt_df):
-    """
-    """
-    ss_df['query_table'] = ss_df['query'] + '.csv'
-    ss_df['data_lake_table'] = ss_df['candidate'] + '.csv'
-    comparison_df = pd.merge(
-        ss_df,
-        gt_df[['query_table', 'data_lake_table', 'unionable']],
-        how='left',
-        on=['query_table', 'data_lake_table']
-    )
-    comparison_df.drop(columns=['query_table', 'data_lake_table'], inplace=True)
-    return comparison_df
 
-def write_to_csv(comparison_df, comparison_outfile_path):
-    """
-    """
-    comparison_df.to_csv(comparison_outfile_path, index=False)
-    return
+"""
+### (simple) TOPIC AGNOSTIC - EVAL
+cosine_similarity_file = '../results/eval/topic-agnostic/simple/cosine_similarities.csv'              
+output_file = '../results/eval/topic-agnostic/simple/cosine_similarities_with_groundtruth.csv'    
+#"""
 
-def main(ss_file, gt_file, comparison_outfile_path):
-    """
-    """
-    ss_df = make_df(ss_file)
-    gt_df = make_df(gt_file)
-    comparison_df = compare_dfs(ss_df, gt_df)
-    write_to_csv(comparison_df, comparison_outfile_path)
-    return 
+"""
+### (simple) TOPIC AGNOSTIC - TEST
+cosine_similarity_file = '../results/test/topic-agnostic/simple/cosine_similarities.csv'              
+output_file = '../results/test/topic-agnostic/simple/cosine_similarities_with_groundtruth.csv'
+#"""
 
-if __name__ == "__main__":
+"""
+### (dtypes) TOPIC AGNOSTIC - EVAL
+cosine_similarity_file = '../results/eval/topic-agnostic/dtypes/cosine_similarities.csv'              
+output_file = '../results/eval/topic-agnostic/dtypes/cosine_similarities_with_groundtruth.csv'    
+#"""
 
-    """
-    ### addGroundtruthInfo (simple data) - EVALUATION SET
-    ss_file = "../results/eval/simple/cosine_similarity.csv"
-    comparison_outfile_path = "../results/eval/simple/cosine_similarity_with_groundtruth.csv"
-    """
+"""
+### (dtypes) TOPIC AGNOSTIC - TEST
+cosine_similarity_file = '../results/test/topic-agnostic/dtypes/cosine_similarities.csv'              
+output_file = '../results/test/topic-agnostic/dtypes/cosine_similarities_with_groundtruth.csv'
+#"""
 
-    """
-    ### addGroundtruthInfo (simple data) - TEST SET
-    ss_file = "../results/test/simple/cosine_similarity.csv"
-    comparison_outfile_path = "../results/test/simple/cosine_similarity_with_groundtruth.csv"
-    """
+"""
+### (dbpedia) TOPIC AGNOSTIC - EVAL
+cosine_similarity_file = '../results/eval/topic-agnostic/dbpedia/cosine_similarities.csv'              
+output_file = '../results/eval/topic-agnostic/dbpedia/cosine_similarities_with_groundtruth.csv'    
+#"""
 
-    """
-    ### addGroundtruthInfo (dtypes data) - EVALUATION SET
-    ss_file = "../results/eval/enriched_dtypes/cosine_similarity.csv"
-    comparison_outfile_path = "../results/eval/enriched_dtypes/cosine_similarity_with_groundtruth.csv"
-    """
+"""
+### (dbpedia) TOPIC AGNOSTIC - TEST
+cosine_similarity_file = '../results/test/topic-agnostic/dbpedia/cosine_similarities.csv'              
+output_file = '../results/test/topic-agnostic/dbpedia/cosine_similarities_with_groundtruth.csv'
+#"""
 
-    #"""
-    ### addGroundtruthInfo (dtypes data) - TEST SET
-    ss_file = "../results/test/enriched_dtypes/cosine_similarity.csv"
-    comparison_outfile_path = "../results/test/enriched_dtypes/cosine_similarity_with_groundtruth.csv"
-    #"""
+"""
+### (simple) TOPIC GUIDED - EVAL
+cosine_similarity_file = '../results/eval/topic-guided/simple/cosine_similarities.csv'              
+output_file = '../results/eval/topic-guided/simple/cosine_similarities_with_groundtruth.csv'    
+#"""
 
-    gt_file = "../data/groundtruth.csv"
-    main(ss_file, gt_file, comparison_outfile_path)
+"""
+### (simple) TOPIC GUIDED - TEST
+cosine_similarity_file = '../results/test/topic-guided/simple/cosine_similarities.csv'              
+output_file = '../results/test/topic-guided/simple/cosine_similarities_with_groundtruth.csv'
+#"""
+
+"""
+### (dtypes) TOPIC GUIDED - EVAL
+cosine_similarity_file = '../results/eval/topic-guided/dtypes/cosine_similarities.csv'              
+output_file = '../results/eval/topic-guided/dtypes/cosine_similarities_with_groundtruth.csv'    
+#"""
+
+"""
+### (dtypes) TOPIC GUIDED - TEST
+cosine_similarity_file = '../results/test/topic-guided/dtypes/cosine_similarities.csv'              
+output_file = '../results/test/topic-guided/dtypes/cosine_similarities_with_groundtruth.csv'
+#"""
+
+"""
+### (dbpedia) TOPIC GUIDED - EVAL
+cosine_similarity_file = '../results/eval/topic-guided/dbpedia/cosine_similarities.csv'              
+output_file = '../results/eval/topic-guided/dbpedia/cosine_similarities_with_groundtruth.csv'    
+#"""
+
+"""
+### (dbpedia) TOPIC GUIDED - TEST
+cosine_similarity_file = '../results/test/topic-guided/dbpedia/cosine_similarities.csv'              
+output_file = '../results/test/topic-guided/dbpedia/cosine_similarities_with_groundtruth.csv'
+#"""
+
+"""
+### (simple) TOPIC DEPENDENT - EVAL
+cosine_similarity_file = '../results/eval/topic-dependent/simple/cosine_similarities.csv'              
+output_file = '../results/eval/topic-dependent/simple/cosine_similarities_with_groundtruth.csv'    
+#"""
+
+"""
+### (simple) TOPIC DEPENDENT - TEST
+cosine_similarity_file = '../results/test/topic-dependent/simple/cosine_similarities.csv'              
+output_file = '../results/test/topic-dependent/simple/cosine_similarities_with_groundtruth.csv'
+#"""
+
+"""
+### (dtypes) TOPIC DEPENDENT - EVAL
+cosine_similarity_file = '../results/eval/topic-dependent/dtypes/cosine_similarities.csv'              
+output_file = '../results/eval/topic-dependent/dtypes/cosine_similarities_with_groundtruth.csv'    
+#"""
+
+"""
+### (dtypes) TOPIC DEPENDENT - TEST
+cosine_similarity_file = '../results/test/topic-dependent/dtypes/cosine_similarities.csv'              
+output_file = '../results/test/topic-dependent/dtypes/cosine_similarities_with_groundtruth.csv'
+#"""
+
+"""
+### (dbpedia) TOPIC DEPENDENT - EVAL
+cosine_similarity_file = '../results/eval/topic-dependent/dbpedia/cosine_similarities.csv'              
+output_file = '../results/eval/topic-dependent/dbpedia/cosine_similarities_with_groundtruth.csv'    
+#"""
+
+#"""
+### (dbpedia) TOPIC DEPENDENT - TEST
+cosine_similarity_file = '../results/test/topic-dependent/dbpedia/cosine_similarities.csv'              
+output_file = '../results/test/topic-dependent/dbpedia/cosine_similarities_with_groundtruth.csv'
+#"""
+
+groundtruth_file = "../data/groundtruth.csv" 
+merge_similarity_with_groundtruth(cosine_similarity_file, groundtruth_file, output_file)

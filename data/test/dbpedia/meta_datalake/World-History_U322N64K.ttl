@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldHistoryU322N64K> a dsv:Dataset ;
+    dcterms:subject "world-history" ;
+    dcterms:title "World-History_U322N64K.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldHistoryU322N64K/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/AncientCivilizations> a dsv:Column ;
+    rdfs:label "Ancient Civilizations" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/CurrencyExchange> a dsv:Column ;
+    rdfs:label "Currency Exchange" ;
+    dsv:columnProperty "currency" .
+
+<http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/ExplorersVoyages> a dsv:Column ;
+    rdfs:label "Explorers’ Voyages" ;
+    dsv:columnProperty "expedition" .
+
+<http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/FestivalsandCelebrations> a dsv:Column ;
+    rdfs:label "Festivals and Celebrations" ;
+    dsv:columnProperty "event" .
+
+<http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/Gastronomy> a dsv:Column ;
+    rdfs:label "Gastronomy" ;
+    dsv:columnProperty "chef" .
+
+<http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/LanguageFamilies> a dsv:Column ;
+    rdfs:label "Language Families" ;
+    dsv:columnProperty "family" .
+
+<http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/LiteratureMasterpieces> a dsv:Column ;
+    rdfs:label "Literature Masterpieces" ;
+    dsv:columnProperty "notable work" .
+
+<http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/MilitaryConflicts> a dsv:Column ;
+    rdfs:label "Military Conflicts" ;
+    dsv:columnProperty "conflict" .
+
+<http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/MusicianGeniuses> a dsv:Column ;
+    rdfs:label "Musician Geniuses" ;
+    dsv:columnProperty "musicians" .
+
+<http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/PhilosophicalThought> a dsv:Column ;
+    rdfs:label "Philosophical Thought" ;
+    dsv:columnProperty "philosophicalSchool" .
+
+<http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/TradeRoutes> a dsv:Column ;
+    rdfs:label "Trade Routes" ;
+    dsv:columnProperty "route" .
+
+<http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/WorldReligions> a dsv:Column ;
+    rdfs:label "World Religions" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistoryU322N64K/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/AncientCivilizations>,
+        <http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/CurrencyExchange>,
+        <http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/ExplorersVoyages>,
+        <http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/FestivalsandCelebrations>,
+        <http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/Gastronomy>,
+        <http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/LanguageFamilies>,
+        <http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/LiteratureMasterpieces>,
+        <http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/MilitaryConflicts>,
+        <http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/MusicianGeniuses>,
+        <http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/PhilosophicalThought>,
+        <http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/TradeRoutes>,
+        <http://metaUnionSearch/datasets/WorldHistoryU322N64K/column/WorldReligions> .
+

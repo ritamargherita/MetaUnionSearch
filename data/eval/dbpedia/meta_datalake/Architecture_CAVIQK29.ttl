@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArchitectureCAVIQK29> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_CAVIQK29.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArchitectureCAVIQK29/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/Accessibility> a dsv:Column ;
+    rdfs:label "Accessibility" ;
+    dsv:columnProperty "publicly accessible" .
+
+<http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/ArchitecturalDetails> a dsv:Column ;
+    rdfs:label "Architectural Details" ;
+    dsv:columnProperty "architectural style" .
+
+<http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/Condition> a dsv:Column ;
+    rdfs:label "Condition" ;
+    dsv:columnProperty "status" .
+
+<http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/Era> a dsv:Column ;
+    rdfs:label "Era" ;
+    dsv:columnProperty "era" .
+
+<http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/Events> a dsv:Column ;
+    rdfs:label "Events" ;
+    dsv:columnProperty "event" .
+
+<http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/Influences> a dsv:Column ;
+    rdfs:label "Influences" ;
+    dsv:columnProperty "influenced" .
+
+<http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/Region> a dsv:Column ;
+    rdfs:label "Region" ;
+    dsv:columnProperty "region" .
+
+<http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/Restrictions> a dsv:Column ;
+    rdfs:label "Restrictions" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/StructureType> a dsv:Column ;
+    rdfs:label "Structure Type" ;
+    dsv:columnProperty "buildingType" .
+
+<http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/Usage> a dsv:Column ;
+    rdfs:label "Usage" ;
+    dsv:columnProperty "currently used for" .
+
+<http://metaUnionSearch/datasets/ArchitectureCAVIQK29/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/Accessibility>,
+        <http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/ArchitecturalDetails>,
+        <http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/Condition>,
+        <http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/Era>,
+        <http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/Events>,
+        <http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/Influences>,
+        <http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/Region>,
+        <http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/Restrictions>,
+        <http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/StructureType>,
+        <http://metaUnionSearch/datasets/ArchitectureCAVIQK29/column/Usage> .
+

@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Recipe Features", "dbpedia_property_id": "http://dbpedia.org/ontology/features"},
+    {"column_header": "Cuisine", "dbpedia_property_id": "http://dbpedia.org/ontology/cuisine"},
+    {"column_header": "Prep Time (mins)", "dbpedia_property_id": "http://dbpedia.org/ontology/minTime"},
+    {"column_header": "Cook Time (mins)", "dbpedia_property_id": "http://dbpedia.org/ontology/maxTime"},
+    {"column_header": "Servings", "dbpedia_property_id": "http://dbpedia.org/ontology/servingTemperature"},
+    {"column_header": "Ingredient List", "dbpedia_property_id": "http://dbpedia.org/ontology/ingredient"},
+    {"column_header": "Nutritional Value", "dbpedia_property_id": "http://dbpedia.org/ontology/approximateCalories"},
+    {"column_header": "Recipe Source", "dbpedia_property_id": "http://dbpedia.org/ontology/source"},
+    {"column_header": "Cookware", "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"},
+    {"column_header": "Appliances", "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"},
+    {"column_header": "Season", "dbpedia_property_id": "http://dbpedia.org/ontology/season"},
+    {"column_header": "Course", "dbpedia_property_id": "http://dbpedia.org/ontology/course"},
+    {"column_header": "Dietary Preferences", "dbpedia_property_id": "http://dbpedia.org/ontology/complexity"}
+  ]
+}

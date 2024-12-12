@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Fashion3B4HQEYO> a dsv:Dataset ;
+    dcterms:subject "fashion" ;
+    dcterms:title "Fashion_3B4HQEYO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Fashion3B4HQEYO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/AverageCustomerRating> a dsv:Column ;
+    rdfs:label "Average Customer Rating" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/CelebrityStylistEndorsements> a dsv:Column ;
+    rdfs:label "Celebrity Stylist Endorsements" ;
+    dsv:columnProperty "designer" .
+
+<http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/CulturalAppropriationConcerns> a dsv:Column ;
+    rdfs:label "Cultural Appropriation Concerns" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/EnvironmentalImpactScore> a dsv:Column ;
+    rdfs:label "Environmental Impact Score" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/EthicalProductionEfforts> a dsv:Column ;
+    rdfs:label "Ethical Production Efforts" ;
+    dsv:columnProperty "production" .
+
+<http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/FabricCareTips> a dsv:Column ;
+    rdfs:label "Fabric Care Tips" ;
+    dsv:columnProperty "material" .
+
+<http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/GarmentConstructionDetails> a dsv:Column ;
+    rdfs:label "Garment Construction Details" ;
+    dsv:columnProperty "construction" .
+
+<http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/RunwayInspirationSources> a dsv:Column ;
+    rdfs:label "Runway Inspiration Sources" ;
+    dsv:columnProperty "source" .
+
+<http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/SocialMediaHypeRankings> a dsv:Column ;
+    rdfs:label "Social Media Hype Rankings" ;
+    dsv:columnProperty "ranking" .
+
+<http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/SustainableBrandsIndex> a dsv:Column ;
+    rdfs:label "Sustainable Brands Index" ;
+    dsv:columnProperty "brand" .
+
+<http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/TrendingDesigners> a dsv:Column ;
+    rdfs:label "Trending Designers" ;
+    dsv:columnProperty "designer" .
+
+<http://metaUnionSearch/datasets/Fashion3B4HQEYO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/AverageCustomerRating>,
+        <http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/CelebrityStylistEndorsements>,
+        <http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/CulturalAppropriationConcerns>,
+        <http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/EnvironmentalImpactScore>,
+        <http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/EthicalProductionEfforts>,
+        <http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/FabricCareTips>,
+        <http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/GarmentConstructionDetails>,
+        <http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/RunwayInspirationSources>,
+        <http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/SocialMediaHypeRankings>,
+        <http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/SustainableBrandsIndex>,
+        <http://metaUnionSearch/datasets/Fashion3B4HQEYO/column/TrendingDesigners> .
+

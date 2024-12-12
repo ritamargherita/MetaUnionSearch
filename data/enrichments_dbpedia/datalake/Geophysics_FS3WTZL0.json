@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Gravity Anomalies",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/surfaceGravity"
+    },
+    {
+      "column_header": " Magnetic Susceptibility Map",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/map"
+    },
+    {
+      "column_header": " Electrical Resistivity Profiling",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/measurements"
+    },
+    {
+      "column_header": " Radioactivity Measurements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    },
+    {
+      "column_header": " Temperature Gradient Profile",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/temperature"
+    },
+    {
+      "column_header": " Rock Stress Analysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/strength"
+    },
+    {
+      "column_header": " Pore Pressure Estimation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/solubility"
+    },
+    {
+      "column_header": " Solute Transport Modelings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/solvent"
+    },
+    {
+      "column_header": " Radon Emission Monitoring",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    },
+    {
+      "column_header": " MagnetoTellurric (MT) Method",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/technique"
+    },
+    {
+      "column_header": " Inclined Magnetic Field Observation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/inclination"
+    },
+    {
+      "column_header": " Rock Mechanical Properties Test",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/strength"
+    },
+    {
+      "column_header": " Volcanological Eruptions Forecast & Earthquake Prediction Models",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/volcanicActivity"
+    }
+  ]
+}

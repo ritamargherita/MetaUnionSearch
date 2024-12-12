@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhotographyN5RUSV9I> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_N5RUSV9I.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhotographyN5RUSV9I/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/City> a dsv:Column ;
+    rdfs:label "City" ;
+    dsv:columnProperty "city" .
+
+<http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/ColorRepresentation> a dsv:Column ;
+    rdfs:label "Color Representation" ;
+    dsv:columnProperty "colour" .
+
+<http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/Country> a dsv:Column ;
+    rdfs:label "Country" ;
+    dsv:columnProperty "country" .
+
+<http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/ExposureCompensation> a dsv:Column ;
+    rdfs:label "Exposure Compensation" ;
+    dsv:columnProperty "picture description" .
+
+<http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/FileSize> a dsv:Column ;
+    rdfs:label "File Size" ;
+    dsv:columnProperty "size (B)" .
+
+<http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/FlashFired> a dsv:Column ;
+    rdfs:label "Flash Fired" ;
+    dsv:columnProperty "flash point" .
+
+<http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/GPSAltitude> a dsv:Column ;
+    rdfs:label "GPS Altitude" ;
+    dsv:columnProperty "altitude" .
+
+<http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/ImageHeight> a dsv:Column ;
+    rdfs:label "Image Height" ;
+    dsv:columnProperty "height (μ)" .
+
+<http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/ImageWidth> a dsv:Column ;
+    rdfs:label "Image Width" ;
+    dsv:columnProperty "width (μ)" .
+
+<http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/LensMake> a dsv:Column ;
+    rdfs:label "Lens Make" ;
+    dsv:columnProperty "manufacturer" .
+
+<http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/LensModel> a dsv:Column ;
+    rdfs:label "Lens Model" ;
+    dsv:columnProperty "model" .
+
+<http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/PhotoAspectRatio> a dsv:Column ;
+    rdfs:label "Photo Aspect Ratio" ;
+    dsv:columnProperty "Aspect Ratio" .
+
+<http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/SensorSensitivityISO> a dsv:Column ;
+    rdfs:label "Sensor Sensitivity ISO" ;
+    dsv:columnProperty "ISO 639-1 code" .
+
+<http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/ShutterSpeedTV> a dsv:Column ;
+    rdfs:label "Shutter Speed TV" ;
+    dsv:columnProperty "cinematography" .
+
+<http://metaUnionSearch/datasets/PhotographyN5RUSV9I/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/City>,
+        <http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/ColorRepresentation>,
+        <http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/Country>,
+        <http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/ExposureCompensation>,
+        <http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/FileSize>,
+        <http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/FlashFired>,
+        <http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/GPSAltitude>,
+        <http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/ImageHeight>,
+        <http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/ImageWidth>,
+        <http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/LensMake>,
+        <http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/LensModel>,
+        <http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/PhotoAspectRatio>,
+        <http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/SensorSensitivityISO>,
+        <http://metaUnionSearch/datasets/PhotographyN5RUSV9I/column/ShutterSpeedTV> .
+

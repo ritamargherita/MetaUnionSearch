@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/InternationalRelations60GBFW9F> a dsv:Dataset ;
+    dcterms:subject "international-relations" ;
+    dcterms:title "International-Relations_60GBFW9F.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/datasetSchema> .
+
+<http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/ConflictHistory> a dsv:Column ;
+    rdfs:label "Conflict History" ;
+    dsv:columnProperty "conflict" .
+
+<http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/CulturalDiplomacy> a dsv:Column ;
+    rdfs:label "Cultural Diplomacy" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/EconomicAid> a dsv:Column ;
+    rdfs:label "Economic Aid$" ;
+    dsv:columnProperty "project budget funding ($)" .
+
+<http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/EmbassiesAbroad> a dsv:Column ;
+    rdfs:label "Embassies Abroad" ;
+    dsv:columnProperty "international affiliation" .
+
+<http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/GlobalEvents> a dsv:Column ;
+    rdfs:label "Global Events " ;
+    dsv:columnProperty "event" .
+
+<http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/InternationalLawCompliance> a dsv:Column ;
+    rdfs:label "International Law Compliance" ;
+    dsv:columnProperty "jurisdiction" .
+
+<http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/PeacekeepingMissions> a dsv:Column ;
+    rdfs:label "Peacekeeping Missions" ;
+    dsv:columnProperty "missions" .
+
+<http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/RegionalOrganizationsParticipation> a dsv:Column ;
+    rdfs:label "Regional Organizations Participation" ;
+    dsv:columnProperty "regional council" .
+
+<http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/SpaceCooperation> a dsv:Column ;
+    rdfs:label "Space Cooperation" ;
+    dsv:columnProperty "space" .
+
+<http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/TechnologyExchange> a dsv:Column ;
+    rdfs:label "Technology Exchange" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/TimePeriod> a dsv:Column ;
+    rdfs:label "Time Period" ;
+    dsv:columnProperty "term period" .
+
+<http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/TradeAgreements> a dsv:Column ;
+    rdfs:label "Trade Agreements" ;
+    dsv:columnProperty "date of an agreement" .
+
+<http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/TreatyObligations> a dsv:Column ;
+    rdfs:label "Treaty Obligations" ;
+    dsv:columnProperty "jurisdiction" .
+
+<http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/ConflictHistory>,
+        <http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/CulturalDiplomacy>,
+        <http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/EconomicAid>,
+        <http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/EmbassiesAbroad>,
+        <http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/GlobalEvents>,
+        <http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/InternationalLawCompliance>,
+        <http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/PeacekeepingMissions>,
+        <http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/RegionalOrganizationsParticipation>,
+        <http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/SpaceCooperation>,
+        <http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/TechnologyExchange>,
+        <http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/TimePeriod>,
+        <http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/TradeAgreements>,
+        <http://metaUnionSearch/datasets/InternationalRelations60GBFW9F/column/TreatyObligations> .
+

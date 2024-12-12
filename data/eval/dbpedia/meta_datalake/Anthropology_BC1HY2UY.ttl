@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AnthropologyBC1HY2UY> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_BC1HY2UY.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/AnthropologicalSiteName> a dsv:Column ;
+    rdfs:label "Anthropological Site Name" ;
+    dsv:columnProperty "touristic site" .
+
+<http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/Anthropologist> a dsv:Column ;
+    rdfs:label "Anthropologist" ;
+    dsv:columnProperty "curator" .
+
+<http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/Artifacts> a dsv:Column ;
+    rdfs:label "Artifacts" ;
+    dsv:columnProperty "relics" .
+
+<http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/Culture> a dsv:Column ;
+    rdfs:label "Culture" ;
+    dsv:columnProperty "ethnicity" .
+
+<http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/DataAnalysis> a dsv:Column ;
+    rdfs:label "Data Analysis" ;
+    dsv:columnProperty "source" .
+
+<http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/FieldworkDuration> a dsv:Column ;
+    rdfs:label "Fieldwork Duration" ;
+    dsv:columnProperty "mission duration (s)" .
+
+<http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/Findings> a dsv:Column ;
+    rdfs:label "Findings" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/FundingSource> a dsv:Column ;
+    rdfs:label "Funding Source" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/Limitations> a dsv:Column ;
+    rdfs:label "Limitations" ;
+    dsv:columnProperty "limit" .
+
+<http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/Location> a dsv:Column ;
+    rdfs:label "Location" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/Period> a dsv:Column ;
+    rdfs:label "Period" ;
+    dsv:columnProperty "event period" .
+
+<http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/PublicationDate> a dsv:Column ;
+    rdfs:label "Publication Date" ;
+    dsv:columnProperty "publication date" .
+
+<http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/Recommendations> a dsv:Column ;
+    rdfs:label "Recommendations" ;
+    dsv:columnProperty "review" .
+
+<http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/ResearchMethod> a dsv:Column ;
+    rdfs:label "Research Method" ;
+    dsv:columnProperty "approach" .
+
+<http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/AnthropologicalSiteName>,
+        <http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/Anthropologist>,
+        <http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/Artifacts>,
+        <http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/Culture>,
+        <http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/DataAnalysis>,
+        <http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/FieldworkDuration>,
+        <http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/Findings>,
+        <http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/FundingSource>,
+        <http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/Limitations>,
+        <http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/Location>,
+        <http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/Period>,
+        <http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/PublicationDate>,
+        <http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/Recommendations>,
+        <http://metaUnionSearch/datasets/AnthropologyBC1HY2UY/column/ResearchMethod> .
+

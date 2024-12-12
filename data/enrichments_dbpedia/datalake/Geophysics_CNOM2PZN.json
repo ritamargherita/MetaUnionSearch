@@ -1,0 +1,17 @@
+{
+  "mapping": [
+    {"column_header": "Gravity Anomalies", "dbpedia_property_id": "http://dbpedia.org/ontology/surfaceGravity"},
+    {"column_header": "Magnetic Susceptibility Map", "dbpedia_property_id": "http://dbpedia.org/ontology/map"},
+    {"column_header": "Mainfield Strength", "dbpedia_property_id": "http://dbpedia.org/ontology/strength"},
+    {"column_header": "Radiometric Data", "dbpedia_property_id": "http://dbpedia.org/ontology/measurements"},
+    {"column_header": "Bouguer Anomaly", "dbpedia_property_id": "http://dbpedia.org/ontology/field"},
+    {"column_header": "Curie Point Depth Mapping", "dbpedia_property_id": "http://dbpedia.org/ontology/depths"},
+    {"column_header": "Heat Flow Measurements", "dbpedia_property_id": "http://dbpedia.org/ontology/measurements"},
+    {"column_header": "Topography & Bathymetry", "dbpedia_property_id": "http://dbpedia.org/ontology/map"},
+    {"column_header": "Gravitational Gradient Tensor Components (Tzz, Txy, Tyz, Tzx)", "dbpedia_property_id": "http://dbpedia.org/ontology/measurements"},
+    {"column_header": "Spatially Varying Baseline (SVBL) corrections", "dbpedia_property_id": "http://dbpedia.org/ontology/measurements"},
+    {"column_header": "Maps", "dbpedia_property_id": "http://dbpedia.org/ontology/map"},
+    {"column_header": "Data cubes", "dbpedia_property_id": "http://dbpedia.org/ontology/measurements"},
+    {"column_header": "Geoid Undulations", "dbpedia_property_id": "http://dbpedia.org/ontology/measurements"}
+  ]
+}

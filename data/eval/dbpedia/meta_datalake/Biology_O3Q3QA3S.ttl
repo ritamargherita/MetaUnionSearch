@@ -1,0 +1,83 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BiologyO3Q3QA3S> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_O3Q3QA3S.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BiologyO3Q3QA3S/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Biomolecularinteractionsnetwork> a dsv:Column ;
+    rdfs:label """
+Biomolecular interactions network""" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Conservationstatus> a dsv:Column ;
+    rdfs:label """
+Conservation status""" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Ecologicallysignificanttraits> a dsv:Column ;
+    rdfs:label """
+Ecologically significant traits""" ;
+    dsv:columnProperty "notable features" .
+
+<http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Epigeneticmodifications> a dsv:Column ;
+    rdfs:label """
+Epigenetic modifications""" ;
+    dsv:columnProperty "Gene Location" .
+
+<http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Geneduplicationevents> a dsv:Column ;
+    rdfs:label """
+Gene duplication events""" ;
+    dsv:columnProperty "geneReviewsId" .
+
+<http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Generegulatorynetworks> a dsv:Column ;
+    rdfs:label """
+Gene regulatory networks""" ;
+    dsv:columnProperty "ChEMBL" .
+
+<http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Genomicdistributionpatterns> a dsv:Column ;
+    rdfs:label """
+Genomic distribution patterns""" ;
+    dsv:columnProperty "Genome DB" .
+
+<http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Metabolicpathwaysinvolved> a dsv:Column ;
+    rdfs:label """
+Metabolic pathways involved""" ;
+    dsv:columnProperty "KEGG" .
+
+<http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Phylogenictreestructure> a dsv:Column ;
+    rdfs:label """
+Phylogenic tree structure""" ;
+    dsv:columnProperty "tree" .
+
+<http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Populationgeneticsdata> a dsv:Column ;
+    rdfs:label """
+Population genetics data""" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Selectivepressuresshaping> a dsv:Column ;
+    rdfs:label """
+Selective pressures shaping""" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Syntenyanalysis> a dsv:Column ;
+    rdfs:label """
+Synteny analysis""" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/BiologyO3Q3QA3S/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Biomolecularinteractionsnetwork>,
+        <http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Conservationstatus>,
+        <http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Ecologicallysignificanttraits>,
+        <http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Epigeneticmodifications>,
+        <http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Geneduplicationevents>,
+        <http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Generegulatorynetworks>,
+        <http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Genomicdistributionpatterns>,
+        <http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Metabolicpathwaysinvolved>,
+        <http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Phylogenictreestructure>,
+        <http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Populationgeneticsdata>,
+        <http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Selectivepressuresshaping>,
+        <http://metaUnionSearch/datasets/BiologyO3Q3QA3S/column/Syntenyanalysis> .
+

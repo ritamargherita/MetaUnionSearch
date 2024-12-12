@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Key Signature",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/signature"
+    },
+    {
+      "column_header": "Time Signature",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/signature"
+    },
+    {
+      "column_header": "BPM (Beats Per Minute)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/playingTime"
+    },
+    {
+      "column_header": "Music Video Director",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/director"
+    },
+    {
+      "column_header": "Choreographer",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/choreographer"
+    },
+    {
+      "column_header": "Lyrics by",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/lyrics"
+    },
+    {
+      "column_header": "Sound Engineer",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/engineer"
+    },
+    {
+      "column_header": "Original Copyright Holder",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/originalDanseCompetition"
+    },
+    {
+      "column_header": "International Standard Recording Code",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/identificationSymbol"
+    },
+    {
+      "column_header": "Mood",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mood"
+    },
+    {
+      "column_header": "Instruments Used",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/instrument"
+    }
+  ]
+}

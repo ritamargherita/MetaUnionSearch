@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Horticulture3LYXI3MW> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_3LYXI3MW.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Horticulture3LYXI3MW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/AveragePlantHeight> a dsv:Column ;
+    rdfs:label "AveragePlantHeight" ;
+    dsv:columnProperty "height (μ)" .
+
+<http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/CommonPests> a dsv:Column ;
+    rdfs:label "CommonPests" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/ConservationStatus> a dsv:Column ;
+    rdfs:label "ConservationStatus" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/FloweringColorRange> a dsv:Column ;
+    rdfs:label "FloweringColorRange" ;
+    dsv:columnProperty "flower" .
+
+<http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/FloweringDuration> a dsv:Column ;
+    rdfs:label "FloweringDuration" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/GrowthHabitat> a dsv:Column ;
+    rdfs:label "GrowthHabitat" ;
+    dsv:columnProperty "flora" .
+
+<http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/MedicinalUses> a dsv:Column ;
+    rdfs:label "MedicinalUses" ;
+    dsv:columnProperty "medication" .
+
+<http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/NutritionalValues> a dsv:Column ;
+    rdfs:label "NutritionalValues" ;
+    dsv:columnProperty "protein (g)" .
+
+<http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/OptimalSoilPh> a dsv:Column ;
+    rdfs:label "OptimalSoilPh" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/PreferredClimateZone> a dsv:Column ;
+    rdfs:label "PreferredClimateZone" ;
+    dsv:columnProperty "bioclimate" .
+
+<http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/PropagationMethods> a dsv:Column ;
+    rdfs:label "PropagationMethods" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/TypicalFruitingSeason> a dsv:Column ;
+    rdfs:label "TypicalFruitingSeason" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/TypicalPollinators> a dsv:Column ;
+    rdfs:label "TypicalPollinators" ;
+    dsv:columnProperty "plant" .
+
+<http://metaUnionSearch/datasets/Horticulture3LYXI3MW/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/AveragePlantHeight>,
+        <http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/CommonPests>,
+        <http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/ConservationStatus>,
+        <http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/FloweringColorRange>,
+        <http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/FloweringDuration>,
+        <http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/GrowthHabitat>,
+        <http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/MedicinalUses>,
+        <http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/NutritionalValues>,
+        <http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/OptimalSoilPh>,
+        <http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/PreferredClimateZone>,
+        <http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/PropagationMethods>,
+        <http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/TypicalFruitingSeason>,
+        <http://metaUnionSearch/datasets/Horticulture3LYXI3MW/column/TypicalPollinators> .
+

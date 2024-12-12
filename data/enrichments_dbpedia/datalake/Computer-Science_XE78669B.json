@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "Artificial Intelligence",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/skills"
+    },
+    {
+      "column_header": "Machine Learning",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/skills"
+    },
+    {
+      "column_header": "Natural Language Processing",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/skills"
+    },
+    {
+      "column_header": "Human-Computer Interaction",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/skills"
+    },
+    {
+      "column_header": "Software Engineering",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/skills"
+    },
+    {
+      "column_header": "Web Development",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/skills"
+    },
+    {
+      "column_header": "Compiler Design",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/compiler"
+    },
+    {
+      "column_header": "Cryptography",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/skills"
+    },
+    {
+      "column_header": "Parallel Computation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    },
+    {
+      "column_header": "Research Methods",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fundedBy"
+    },
+    {
+      "column_header": "Final Project",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/project"
+    }
+  ]
+}

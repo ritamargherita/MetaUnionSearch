@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/HorticultureA1PPU1OJ> a dsv:Dataset ;
+    dcterms:subject "horticulture" ;
+    dcterms:title "Horticulture_A1PPU1OJ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/AdditionalCulturalInfo> a dsv:Column ;
+    rdfs:label "AdditionalCulturalInfo" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/CommonNames> a dsv:Column ;
+    rdfs:label "CommonNames" ;
+    dsv:columnProperty "common name" .
+
+<http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/LeafArrangementv2> a dsv:Column ;
+    rdfs:label "LeafArrangement_v2" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/NativeOrIntroducedv2> a dsv:Column ;
+    rdfs:label "NativeOrIntroduced_v2" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/OptimalSunlightv2> a dsv:Column ;
+    rdfs:label "OptimalSunlight_v2" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/ProperPlantCode> a dsv:Column ;
+    rdfs:label "ProperPlantCode" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/PruningTips> a dsv:Column ;
+    rdfs:label "PruningTips" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/ScientificClassificationv2> a dsv:Column ;
+    rdfs:label "Scientific_Classification_v2" ;
+    dsv:columnProperty "scientific name" .
+
+<http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/SoilTypePreference> a dsv:Column ;
+    rdfs:label "SoilTypePreference" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/SpecialFeatures> a dsv:Column ;
+    rdfs:label "SpecialFeatures" ;
+    dsv:columnProperty "notable features" .
+
+<http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/WateringNeeds> a dsv:Column ;
+    rdfs:label "WateringNeeds" ;
+    dsv:columnProperty "water" .
+
+<http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/AdditionalCulturalInfo>,
+        <http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/CommonNames>,
+        <http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/LeafArrangementv2>,
+        <http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/NativeOrIntroducedv2>,
+        <http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/OptimalSunlightv2>,
+        <http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/ProperPlantCode>,
+        <http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/PruningTips>,
+        <http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/ScientificClassificationv2>,
+        <http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/SoilTypePreference>,
+        <http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/SpecialFeatures>,
+        <http://metaUnionSearch/datasets/HorticultureA1PPU1OJ/column/WateringNeeds> .
+

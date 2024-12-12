@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CriminologyLLZCF0TU> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_LLZCF0TU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CriminologyLLZCF0TU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/ArrestLocationType> a dsv:Column ;
+    rdfs:label "Arrest Location Type" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/ArrestOutcome> a dsv:Column ;
+    rdfs:label "Arrest Outcome" ;
+    dsv:columnProperty "criminal charge" .
+
+<http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/ArrestTeamMembersInvolved> a dsv:Column ;
+    rdfs:label "Arrest Team Members Involved" ;
+    dsv:columnProperty "pole driver team" .
+
+<http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/ArrestType> a dsv:Column ;
+    rdfs:label "Arrest Type" ;
+    dsv:columnProperty "kind of criminal action" .
+
+<http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/ArrestWeaponUsed> a dsv:Column ;
+    rdfs:label "Arrest Weapon Used" ;
+    dsv:columnProperty "weapon" .
+
+<http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/ArrestingOfficerID> a dsv:Column ;
+    rdfs:label "Arresting Officer ID" ;
+    dsv:columnProperty "id number" .
+
+<http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/CaseNumber> a dsv:Column ;
+    rdfs:label "Case Number" ;
+    dsv:columnProperty "case" .
+
+<http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/CommunityPolicingEffectivenessScore> a dsv:Column ;
+    rdfs:label "Community Policing Effectiveness Score" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/DateTimeofArrest> a dsv:Column ;
+    rdfs:label "Date & Time of Arrest" ;
+    dsv:columnProperty "arrest date" .
+
+<http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/GangInvolvementConfirmation> a dsv:Column ;
+    rdfs:label "Gang Involvement Confirmation" ;
+    dsv:columnProperty "kind of criminal" .
+
+<http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/IncidentClearanceTime> a dsv:Column ;
+    rdfs:label "Incident Clearance Time" ;
+    dsv:columnProperty "end date and time" .
+
+<http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/PostArrestCounselingReferral> a dsv:Column ;
+    rdfs:label "Post-Arrest Counseling Referral" ;
+    dsv:columnProperty "other information of a settlement" .
+
+<http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/ProbationOfficerInvolved> a dsv:Column ;
+    rdfs:label "Probation Officer Involved" ;
+    dsv:columnProperty "officer in charge" .
+
+<http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/SuspectPropertyDescription> a dsv:Column ;
+    rdfs:label "Suspect Property Description" ;
+    dsv:columnProperty "other information of a settlement" .
+
+<http://metaUnionSearch/datasets/CriminologyLLZCF0TU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/ArrestLocationType>,
+        <http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/ArrestOutcome>,
+        <http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/ArrestTeamMembersInvolved>,
+        <http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/ArrestType>,
+        <http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/ArrestWeaponUsed>,
+        <http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/ArrestingOfficerID>,
+        <http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/CaseNumber>,
+        <http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/CommunityPolicingEffectivenessScore>,
+        <http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/DateTimeofArrest>,
+        <http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/GangInvolvementConfirmation>,
+        <http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/IncidentClearanceTime>,
+        <http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/PostArrestCounselingReferral>,
+        <http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/ProbationOfficerInvolved>,
+        <http://metaUnionSearch/datasets/CriminologyLLZCF0TU/column/SuspectPropertyDescription> .
+

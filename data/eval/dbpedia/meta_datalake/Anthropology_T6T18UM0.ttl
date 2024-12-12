@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AnthropologyT6T18UM0> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_T6T18UM0.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AnthropologyT6T18UM0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/AgriculturalPractices> a dsv:Column ;
+    rdfs:label "Agricultural Practices" ;
+    dsv:columnProperty "cultivar" .
+
+<http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/AncientCivilizationName> a dsv:Column ;
+    rdfs:label "Ancient Civilization Name" ;
+    dsv:columnProperty "historical name" .
+
+<http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/AnthropologyID> a dsv:Column ;
+    rdfs:label "AnthropologyID" ;
+    dsv:columnProperty "nationality" .
+
+<http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/ArchitectureDesign> a dsv:Column ;
+    rdfs:label "Architecture & Design" ;
+    dsv:columnProperty "architectural style" .
+
+<http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/CulturalArtforms> a dsv:Column ;
+    rdfs:label "Cultural Artforms" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/Literature> a dsv:Column ;
+    rdfs:label "Literature" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/Music> a dsv:Column ;
+    rdfs:label "Music" ;
+    dsv:columnProperty "musicians" .
+
+<http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/NaturalResources> a dsv:Column ;
+    rdfs:label "Natural Resources" ;
+    dsv:columnProperty "land" .
+
+<http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/PopulationSize> a dsv:Column ;
+    rdfs:label "Population Size" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/TechnologyTools> a dsv:Column ;
+    rdfs:label "Technology Tools" ;
+    dsv:columnProperty "equipment" .
+
+<http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/TradePartners> a dsv:Column ;
+    rdfs:label "Trade Partners" ;
+    dsv:columnProperty "partner" .
+
+<http://metaUnionSearch/datasets/AnthropologyT6T18UM0/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/AgriculturalPractices>,
+        <http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/AncientCivilizationName>,
+        <http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/AnthropologyID>,
+        <http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/ArchitectureDesign>,
+        <http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/CulturalArtforms>,
+        <http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/Literature>,
+        <http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/Music>,
+        <http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/NaturalResources>,
+        <http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/PopulationSize>,
+        <http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/TechnologyTools>,
+        <http://metaUnionSearch/datasets/AnthropologyT6T18UM0/column/TradePartners> .
+

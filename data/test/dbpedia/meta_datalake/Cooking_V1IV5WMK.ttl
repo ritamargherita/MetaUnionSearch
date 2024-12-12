@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CookingV1IV5WMK> a dsv:Dataset ;
+    dcterms:subject "cooking" ;
+    dcterms:title "Cooking_V1IV5WMK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CookingV1IV5WMK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CookingV1IV5WMK/column/AdditionalNotes> a dsv:Column ;
+    rdfs:label "Additional Notes" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/CookingV1IV5WMK/column/CookTime> a dsv:Column ;
+    rdfs:label "Cook Time" ;
+    dsv:columnProperty "maximum preparation time (s)" .
+
+<http://metaUnionSearch/datasets/CookingV1IV5WMK/column/Cuisine> a dsv:Column ;
+    rdfs:label "Cuisine" ;
+    dsv:columnProperty "cuisine" .
+
+<http://metaUnionSearch/datasets/CookingV1IV5WMK/column/Difficulty> a dsv:Column ;
+    rdfs:label "Difficulty" ;
+    dsv:columnProperty "complexity" .
+
+<http://metaUnionSearch/datasets/CookingV1IV5WMK/column/IngredientQuantity1> a dsv:Column ;
+    rdfs:label "Ingredient Quantity 1" ;
+    dsv:columnProperty "ingredient" .
+
+<http://metaUnionSearch/datasets/CookingV1IV5WMK/column/IngredientQuantity2> a dsv:Column ;
+    rdfs:label "Ingredient Quantity 2" ;
+    dsv:columnProperty "ingredient" .
+
+<http://metaUnionSearch/datasets/CookingV1IV5WMK/column/IngredientQuantity3> a dsv:Column ;
+    rdfs:label "Ingredient Quantity 3" ;
+    dsv:columnProperty "ingredient" .
+
+<http://metaUnionSearch/datasets/CookingV1IV5WMK/column/IngredientSource> a dsv:Column ;
+    rdfs:label "Ingredient Source" ;
+    dsv:columnProperty "source" .
+
+<http://metaUnionSearch/datasets/CookingV1IV5WMK/column/Instructions> a dsv:Column ;
+    rdfs:label "Instructions" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/CookingV1IV5WMK/column/PrepTime> a dsv:Column ;
+    rdfs:label "Prep Time" ;
+    dsv:columnProperty "minimum preparation time (s)" .
+
+<http://metaUnionSearch/datasets/CookingV1IV5WMK/column/PrepTools> a dsv:Column ;
+    rdfs:label "Prep Tools" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/CookingV1IV5WMK/column/RecipeID> a dsv:Column ;
+    rdfs:label "Recipe ID" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/CookingV1IV5WMK/column/RecipeName> a dsv:Column ;
+    rdfs:label "Recipe Name" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/CookingV1IV5WMK/column/Servings> a dsv:Column ;
+    rdfs:label "Servings" ;
+    dsv:columnProperty "serving temperature" .
+
+<http://metaUnionSearch/datasets/CookingV1IV5WMK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CookingV1IV5WMK/column/AdditionalNotes>,
+        <http://metaUnionSearch/datasets/CookingV1IV5WMK/column/CookTime>,
+        <http://metaUnionSearch/datasets/CookingV1IV5WMK/column/Cuisine>,
+        <http://metaUnionSearch/datasets/CookingV1IV5WMK/column/Difficulty>,
+        <http://metaUnionSearch/datasets/CookingV1IV5WMK/column/IngredientQuantity1>,
+        <http://metaUnionSearch/datasets/CookingV1IV5WMK/column/IngredientQuantity2>,
+        <http://metaUnionSearch/datasets/CookingV1IV5WMK/column/IngredientQuantity3>,
+        <http://metaUnionSearch/datasets/CookingV1IV5WMK/column/IngredientSource>,
+        <http://metaUnionSearch/datasets/CookingV1IV5WMK/column/Instructions>,
+        <http://metaUnionSearch/datasets/CookingV1IV5WMK/column/PrepTime>,
+        <http://metaUnionSearch/datasets/CookingV1IV5WMK/column/PrepTools>,
+        <http://metaUnionSearch/datasets/CookingV1IV5WMK/column/RecipeID>,
+        <http://metaUnionSearch/datasets/CookingV1IV5WMK/column/RecipeName>,
+        <http://metaUnionSearch/datasets/CookingV1IV5WMK/column/Servings> .
+

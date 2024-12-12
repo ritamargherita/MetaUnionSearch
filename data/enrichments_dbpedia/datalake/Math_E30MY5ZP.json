@@ -1,0 +1,14 @@
+{
+    "mapping": [
+        {"column_header": "Mathematics Area: Geometry Detailed", "dbpedia_property_id": "http://dbpedia.org/ontology/subjectTerm"},
+        {"column_header": "Concept: Geometric Objects", "dbpedia_property_id": "http://dbpedia.org/ontology/definition"},
+        {"column_header": "Definition (Ext): Definitions of Geometric Objects and Their Properties", "dbpedia_property_id": "http://dbpedia.org/ontology/definition"},
+        {"column_header": "Properties(Further): Further Properties of Geometric Objects", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+        {"column_header": "Operations(New): New Geometric Operations", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+        {"column_header": "Symbolisms (More): Additional Symbolic Representations in Geometry", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+        {"column_header": "Examples Extended: Extended Examples in Geometry", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+        {"column_header": "Current Use Expansion: Specific Uses and Applications of Geometry in Current Contexts", "dbpedia_property_id": "http://dbpedia.org/ontology/currentlyUsedFor"},
+        {"column_header": "Future Projections: Potential Future Developments in Geometry", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"},
+        {"column_header": "Emerging Trends: Emerging Research Areas and Trends in Geometry", "dbpedia_property_id": "http://dbpedia.org/ontology/notes"}
+    ]
+}

@@ -1,0 +1,130 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_HJK1EYY3.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/AirportsnearCity> a dsv:Column ;
+    rdfs:label "Airports near City" ;
+    dsv:columnProperty "important station" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/AverageCostOfLiving> a dsv:Column ;
+    rdfs:label "$$$ Average Cost Of Living $$$" ;
+    dsv:columnProperty "average" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/AverageSalary> a dsv:Column ;
+    rdfs:label "Average Salary" ;
+    dsv:columnProperty "salary ($)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/Busesservingnearbytowns> a dsv:Column ;
+    rdfs:label "Buses serving nearby towns" ;
+    dsv:columnProperty "other serving lines" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/CityNames> a dsv:Column ;
+    rdfs:label "City Names" ;
+    dsv:columnProperty "city" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/CoordinatesLatitudeLongitude> a dsv:Column ;
+    rdfs:label "Coordinates (Latitude, Longitude)" ;
+    dsv:columnProperty "kind of coordinate" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/Countriescontainingthecity> a dsv:Column ;
+    rdfs:label "Countries containing the city" ;
+    dsv:columnProperty "using country" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/CurrentInternationalRelations> a dsv:Column ;
+    rdfs:label "Current International Relations" ;
+    dsv:columnProperty "international affiliation" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/EducationalInstitutions> a dsv:Column ;
+    rdfs:label "Educational Institutions" ;
+    dsv:columnProperty "institution" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/GreaterMetroDensity> a dsv:Column ;
+    rdfs:label "Greater Metro Density" ;
+    dsv:columnProperty "population metro density (/sqkm)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/InfamousorNotableEvents> a dsv:Column ;
+    rdfs:label "(Infamous or Notable Events)" ;
+    dsv:columnProperty "event" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/LandmarksTouristAttractions> a dsv:Column ;
+    rdfs:label "Landmarks & Tourist Attractions" ;
+    dsv:columnProperty "touristic site" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/LanguageSpokenbyMajority> a dsv:Column ;
+    rdfs:label "Language Spoken by Majority" ;
+    dsv:columnProperty "de facto language" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/MetropolitanAreakm> a dsv:Column ;
+    rdfs:label "Metropolitan Area (km²)" ;
+    dsv:columnProperty "area metro (m2)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/PoliticalStructures> a dsv:Column ;
+    rdfs:label "Political Structures" ;
+    dsv:columnProperty "government type" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/ReligiousBuildingsandSites> a dsv:Column ;
+    rdfs:label "Religious Buildings and Sites" ;
+    dsv:columnProperty "place of worship" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/ShoppingCentersandMarkets> a dsv:Column ;
+    rdfs:label "Shopping Centers and Markets" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/TimezoneOffsetfromUTC> a dsv:Column ;
+    rdfs:label "Timezone Offset from UTC" ;
+    dsv:columnProperty "UTC offset" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/TotalPopulation> a dsv:Column ;
+    rdfs:label "Total Population" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/Trainsgoingtomajorcitiesoutsidecountryifapplicable> a dsv:Column ;
+    rdfs:label "Trains going to major cities outside country if applicable" ;
+    dsv:columnProperty "serving railway line" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/TransportationHub> a dsv:Column ;
+    rdfs:label "Transportation Hub?" ;
+    dsv:columnProperty "hub airport" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/UndergroundSystem> a dsv:Column ;
+    rdfs:label "Underground System?" ;
+    dsv:columnProperty "station structure" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/UrbanPopulation> a dsv:Column ;
+    rdfs:label "Urban Population" ;
+    dsv:columnProperty "population urban" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/WorldCitiesStatus> a dsv:Column ;
+    rdfs:label "World Cities Status" ;
+    dsv:columnProperty "city type" .
+
+<http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/AirportsnearCity>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/AverageCostOfLiving>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/AverageSalary>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/Busesservingnearbytowns>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/CityNames>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/CoordinatesLatitudeLongitude>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/Countriescontainingthecity>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/CurrentInternationalRelations>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/EducationalInstitutions>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/GreaterMetroDensity>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/InfamousorNotableEvents>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/LandmarksTouristAttractions>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/LanguageSpokenbyMajority>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/MetropolitanAreakm>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/PoliticalStructures>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/ReligiousBuildingsandSites>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/ShoppingCentersandMarkets>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/TimezoneOffsetfromUTC>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/TotalPopulation>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/Trainsgoingtomajorcitiesoutsidecountryifapplicable>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/TransportationHub>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/UndergroundSystem>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/UrbanPopulation>,
+        <http://metaUnionSearch/datasets/WorldGeographyHJK1EYY3/column/WorldCitiesStatus> .
+

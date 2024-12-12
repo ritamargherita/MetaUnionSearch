@@ -1,0 +1,64 @@
+{
+  "mapping": [
+    {
+      "column_header": "ArrowheadShape",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/shape"
+    },
+    {
+      "column_header": "CulturalAffiliation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "PotteryDesignPattern",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/iconographicAttributes"
+    },
+    {
+      "column_header": "SoilComposition",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/soil"
+    },
+    {
+      "column_header": "SampleSizeStudied",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sampleSize"
+    },
+    {
+      "column_header": "RadiocarbonDatingResults",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/radio"
+    },
+    {
+      "column_header": "DendrochronologyMethodUsed",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/woodDating"
+    },
+    {
+      "column_header": "GeophysicsSurveyMethodUtilized",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geophysics"
+    },
+    {
+      "column_header": "PetroglyphIconographyInterpretation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/iconographicAttributes"
+    },
+    {
+      "column_header": "StratigraphyLayerClassification",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/stratigraphy"
+    },
+    {
+      "column_header": "PaleoethnobotanyDataCollected",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/paleoethnobotany"
+    },
+    {
+      "column_header": "ExperimentalReconstructionOutcome",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/experimentOutcome"
+    },
+    {
+      "column_header": "EthnoarchaeologyFindings",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ethnoarchaeology"
+    },
+    {
+      "column_header": "ComparativeEthnicityResearch",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ethnicGroup"
+    },
+    {
+      "column_header": "PublicEngagementActivities",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/activity"
+    }
+  ]
+}

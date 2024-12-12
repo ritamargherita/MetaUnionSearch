@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "God(dess)", "dbpedia_property_id": "http://dbpedia.org/ontology/enshrinedDeity"},
+    {"column_header": "Spouse", "dbpedia_property_id": "http://dbpedia.org/ontology/spouse"},
+    {"column_header": "Children", "dbpedia_property_id": "http://dbpedia.org/ontology/child"},
+    {"column_header": "Roles", "dbpedia_property_id": "http://dbpedia.org/ontology/role"},
+    {"column_header": "Domains", "dbpedia_property_id": "http://dbpedia.org/ontology/domain"},
+    {"column_header": "Ascension", "dbpedia_property_id": "http://dbpedia.org/ontology/ascent"},
+    {"column_header": "Demise", "dbpedia_property_id": "http://dbpedia.org/ontology/fate"},
+    {"column_header": "Nephilim", "dbpedia_property_id": "http://dbpedia.org/ontology/child"},
+    {"column_header": "Siblings", "dbpedia_property_id": "http://dbpedia.org/ontology/sibling"},
+    {"column_header": "Offspring", "dbpedia_property_id": "http://dbpedia.org/ontology/child"},
+    {"column_header": "Alliance", "dbpedia_property_id": "http://dbpedia.org/ontology/alliance"},
+    {"column_header": "Enemies", "dbpedia_property_id": "http://dbpedia.org/ontology/enemy"},
+    {"column_header": "Regalia", "dbpedia_property_id": "http://dbpedia.org/ontology/decoration"},
+    {"column_header": "Festivals", "dbpedia_property_id": "http://dbpedia.org/ontology/feastDay"}
+  ]
+}

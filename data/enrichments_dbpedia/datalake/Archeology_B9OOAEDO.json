@@ -1,0 +1,48 @@
+{
+  "mapping": [
+    {
+      "column_header": "ExcavationDate",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/discovered"
+    },
+    {
+      "column_header": "FieldDirector",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/participant"
+    },
+    {
+      "column_header": "SurveyMethod",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/field"
+    },
+    {
+      "column_header": "LabAnalysisBy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/department"
+    },
+    {
+      "column_header": "ChemicalTests",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/chemSpiderId"
+    },
+    {
+      "column_header": "RadiocarbonDating",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dateOfBurial"
+    },
+    {
+      "column_header": "GeologicalAnalysis",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/geology"
+    },
+    {
+      "column_header": "Archaeobotany",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fauna"
+    },
+    {
+      "column_header": "Zooarchaeology",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/animal"
+    },
+    {
+      "column_header": "Photogrammetry",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/picture"
+    },
+    {
+      "column_header": "ConservationStatus",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Sports0GBFW9FU> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_0GBFW9FU.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Sports0GBFW9FU/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Sports0GBFW9FU/column/Attendance> a dsv:Column ;
+    rdfs:label "Attendance" ;
+    dsv:columnProperty "number of people attending" .
+
+<http://metaUnionSearch/datasets/Sports0GBFW9FU/column/AwayTeam> a dsv:Column ;
+    rdfs:label "Away Team" ;
+    dsv:columnProperty "second team" .
+
+<http://metaUnionSearch/datasets/Sports0GBFW9FU/column/AwayTeamScore> a dsv:Column ;
+    rdfs:label "Away Team Score" ;
+    dsv:columnProperty "penalty score" .
+
+<http://metaUnionSearch/datasets/Sports0GBFW9FU/column/Division> a dsv:Column ;
+    rdfs:label "Division" ;
+    dsv:columnProperty "division" .
+
+<http://metaUnionSearch/datasets/Sports0GBFW9FU/column/HomeTeam> a dsv:Column ;
+    rdfs:label "Home Team" ;
+    dsv:columnProperty "team" .
+
+<http://metaUnionSearch/datasets/Sports0GBFW9FU/column/HomeTeamScore> a dsv:Column ;
+    rdfs:label "Home Team Score" ;
+    dsv:columnProperty "full score" .
+
+<http://metaUnionSearch/datasets/Sports0GBFW9FU/column/League> a dsv:Column ;
+    rdfs:label "League" ;
+    dsv:columnProperty "league" .
+
+<http://metaUnionSearch/datasets/Sports0GBFW9FU/column/MatchDate> a dsv:Column ;
+    rdfs:label "Match Date" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/Sports0GBFW9FU/column/MatchID> a dsv:Column ;
+    rdfs:label "Match ID" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/Sports0GBFW9FU/column/MatchType> a dsv:Column ;
+    rdfs:label "Match Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/Sports0GBFW9FU/column/MatchVenue> a dsv:Column ;
+    rdfs:label "Match Venue" ;
+    dsv:columnProperty "Stadium" .
+
+<http://metaUnionSearch/datasets/Sports0GBFW9FU/column/Referee> a dsv:Column ;
+    rdfs:label "Referee" ;
+    dsv:columnProperty "commissioner" .
+
+<http://metaUnionSearch/datasets/Sports0GBFW9FU/column/Sport> a dsv:Column ;
+    rdfs:label "Sport" ;
+    dsv:columnProperty "sport" .
+
+<http://metaUnionSearch/datasets/Sports0GBFW9FU/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Sports0GBFW9FU/column/Attendance>,
+        <http://metaUnionSearch/datasets/Sports0GBFW9FU/column/AwayTeam>,
+        <http://metaUnionSearch/datasets/Sports0GBFW9FU/column/AwayTeamScore>,
+        <http://metaUnionSearch/datasets/Sports0GBFW9FU/column/Division>,
+        <http://metaUnionSearch/datasets/Sports0GBFW9FU/column/HomeTeam>,
+        <http://metaUnionSearch/datasets/Sports0GBFW9FU/column/HomeTeamScore>,
+        <http://metaUnionSearch/datasets/Sports0GBFW9FU/column/League>,
+        <http://metaUnionSearch/datasets/Sports0GBFW9FU/column/MatchDate>,
+        <http://metaUnionSearch/datasets/Sports0GBFW9FU/column/MatchID>,
+        <http://metaUnionSearch/datasets/Sports0GBFW9FU/column/MatchType>,
+        <http://metaUnionSearch/datasets/Sports0GBFW9FU/column/MatchVenue>,
+        <http://metaUnionSearch/datasets/Sports0GBFW9FU/column/Referee>,
+        <http://metaUnionSearch/datasets/Sports0GBFW9FU/column/Sport> .
+

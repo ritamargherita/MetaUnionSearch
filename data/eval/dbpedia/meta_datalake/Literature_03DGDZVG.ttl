@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG> a dsv:Dataset ;
+    dcterms:subject "literature" ;
+    dcterms:title "Literature_03DGDZVG.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Literature03DGDZVG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG/column/Author> a dsv:Column ;
+    rdfs:label "Author" ;
+    dsv:columnProperty "author" .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG/column/Availability> a dsv:Column ;
+    rdfs:label "Availability" ;
+    dsv:columnProperty "open access content" .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG/column/AverageRating> a dsv:Column ;
+    rdfs:label "Average Rating" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG/column/BookTitle> a dsv:Column ;
+    rdfs:label "Book Title" ;
+    dsv:columnProperty "title" .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG/column/Description> a dsv:Column ;
+    rdfs:label "Description" ;
+    dsv:columnProperty "description" .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG/column/Format> a dsv:Column ;
+    rdfs:label "Format" ;
+    dsv:columnProperty "format (object)" .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG/column/Genre> a dsv:Column ;
+    rdfs:label "Genre" ;
+    dsv:columnProperty "genre" .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG/column/ISBN> a dsv:Column ;
+    rdfs:label "ISBN" ;
+    dsv:columnProperty "ISBN" .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG/column/Language> a dsv:Column ;
+    rdfs:label "Language" ;
+    dsv:columnProperty "original language" .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG/column/NumberofRatings> a dsv:Column ;
+    rdfs:label "Number of Ratings" ;
+    dsv:columnProperty "number of stars" .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG/column/PageCount> a dsv:Column ;
+    rdfs:label "Page Count" ;
+    dsv:columnProperty "number of pages" .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG/column/Price> a dsv:Column ;
+    rdfs:label "Price" ;
+    dsv:columnProperty "unit cost ($)" .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG/column/PublicationYear> a dsv:Column ;
+    rdfs:label "Publication Year" ;
+    dsv:columnProperty "first publication year" .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG/column/Publisher> a dsv:Column ;
+    rdfs:label "Publisher" ;
+    dsv:columnProperty "publisher" .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG/column/Series> a dsv:Column ;
+    rdfs:label "Series" ;
+    dsv:columnProperty "series" .
+
+<http://metaUnionSearch/datasets/Literature03DGDZVG/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Literature03DGDZVG/column/Author>,
+        <http://metaUnionSearch/datasets/Literature03DGDZVG/column/Availability>,
+        <http://metaUnionSearch/datasets/Literature03DGDZVG/column/AverageRating>,
+        <http://metaUnionSearch/datasets/Literature03DGDZVG/column/BookTitle>,
+        <http://metaUnionSearch/datasets/Literature03DGDZVG/column/Description>,
+        <http://metaUnionSearch/datasets/Literature03DGDZVG/column/Format>,
+        <http://metaUnionSearch/datasets/Literature03DGDZVG/column/Genre>,
+        <http://metaUnionSearch/datasets/Literature03DGDZVG/column/ISBN>,
+        <http://metaUnionSearch/datasets/Literature03DGDZVG/column/Language>,
+        <http://metaUnionSearch/datasets/Literature03DGDZVG/column/NumberofRatings>,
+        <http://metaUnionSearch/datasets/Literature03DGDZVG/column/PageCount>,
+        <http://metaUnionSearch/datasets/Literature03DGDZVG/column/Price>,
+        <http://metaUnionSearch/datasets/Literature03DGDZVG/column/PublicationYear>,
+        <http://metaUnionSearch/datasets/Literature03DGDZVG/column/Publisher>,
+        <http://metaUnionSearch/datasets/Literature03DGDZVG/column/Series> .
+

@@ -1,0 +1,69 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathRVU8FIJO> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_RVU8FIJO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathRVU8FIJO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathRVU8FIJO/column/Applications> a dsv:Column ;
+    rdfs:label "Applications" ;
+    dsv:columnProperty "currently used for" .
+
+<http://metaUnionSearch/datasets/MathRVU8FIJO/column/Challenges> a dsv:Column ;
+    rdfs:label "Challenges" ;
+    dsv:columnProperty "wins at challenges" .
+
+<http://metaUnionSearch/datasets/MathRVU8FIJO/column/CurrentUses> a dsv:Column ;
+    rdfs:label "Current Uses" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/MathRVU8FIJO/column/Extension1> a dsv:Column ;
+    rdfs:label "Extension 1" .
+
+<http://metaUnionSearch/datasets/MathRVU8FIJO/column/Extension2> a dsv:Column ;
+    rdfs:label "Extension 2" .
+
+<http://metaUnionSearch/datasets/MathRVU8FIJO/column/FutureImplications> a dsv:Column ;
+    rdfs:label "Future Implications" ;
+    dsv:columnProperty "purpose" .
+
+<http://metaUnionSearch/datasets/MathRVU8FIJO/column/HistoricalContext> a dsv:Column ;
+    rdfs:label "Historical Context" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/MathRVU8FIJO/column/KeyFigures> a dsv:Column ;
+    rdfs:label "Key Figures" ;
+    dsv:columnProperty "key person" .
+
+<http://metaUnionSearch/datasets/MathRVU8FIJO/column/MathematicsAreaType> a dsv:Column ;
+    rdfs:label "Mathematics Area: Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/MathRVU8FIJO/column/Misconceptions> a dsv:Column ;
+    rdfs:label "Misconceptions" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/MathRVU8FIJO/column/Operations> a dsv:Column ;
+    rdfs:label "Operations" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/MathRVU8FIJO/column/Set> a dsv:Column ;
+    rdfs:label "Set" ;
+    dsv:columnProperty "list of singles" .
+
+<http://metaUnionSearch/datasets/MathRVU8FIJO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MathRVU8FIJO/column/Applications>,
+        <http://metaUnionSearch/datasets/MathRVU8FIJO/column/Challenges>,
+        <http://metaUnionSearch/datasets/MathRVU8FIJO/column/CurrentUses>,
+        <http://metaUnionSearch/datasets/MathRVU8FIJO/column/Extension1>,
+        <http://metaUnionSearch/datasets/MathRVU8FIJO/column/Extension2>,
+        <http://metaUnionSearch/datasets/MathRVU8FIJO/column/FutureImplications>,
+        <http://metaUnionSearch/datasets/MathRVU8FIJO/column/HistoricalContext>,
+        <http://metaUnionSearch/datasets/MathRVU8FIJO/column/KeyFigures>,
+        <http://metaUnionSearch/datasets/MathRVU8FIJO/column/MathematicsAreaType>,
+        <http://metaUnionSearch/datasets/MathRVU8FIJO/column/Misconceptions>,
+        <http://metaUnionSearch/datasets/MathRVU8FIJO/column/Operations>,
+        <http://metaUnionSearch/datasets/MathRVU8FIJO/column/Set> .
+

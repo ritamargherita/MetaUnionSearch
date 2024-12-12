@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO> a dsv:Dataset ;
+    dcterms:subject "financial-markets" ;
+    dcterms:title "Financial-Markets_O8NDI6SO.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/datasetSchema> .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/BondYields> a dsv:Column ;
+    rdfs:label "Bond Yields" ;
+    dsv:columnProperty "interest" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/CentralBankPolicy> a dsv:Column ;
+    rdfs:label "Central Bank Policy" ;
+    dsv:columnProperty "regime" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/CommercialPaper> a dsv:Column ;
+    rdfs:label "Commercial Paper" ;
+    dsv:columnProperty "note" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/CommodityPrices> a dsv:Column ;
+    rdfs:label "Commodity Prices" ;
+    dsv:columnProperty "price ($)" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/ConsumerCredit> a dsv:Column ;
+    rdfs:label "Consumer Credit" ;
+    dsv:columnProperty "credit" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/Derivatives> a dsv:Column ;
+    rdfs:label "Derivatives" ;
+    dsv:columnProperty "derivative" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/EarningsReports> a dsv:Column ;
+    rdfs:label "Earnings Reports" ;
+    dsv:columnProperty "revenue ($)" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/EconomicIndicators> a dsv:Column ;
+    rdfs:label "Economic Indicators" ;
+    dsv:columnProperty "value" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/IndustryAnalysis> a dsv:Column ;
+    rdfs:label "Industry Analysis" ;
+    dsv:columnProperty "industry" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/MutualFunds> a dsv:Column ;
+    rdfs:label "Mutual Funds" ;
+    dsv:columnProperty "portfolio" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/Options> a dsv:Column ;
+    rdfs:label "Options" ;
+    dsv:columnProperty "derivative" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/RegulatoryEnvironment> a dsv:Column ;
+    rdfs:label "Regulatory Environment" ;
+    dsv:columnProperty "oversight" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/RetailSales> a dsv:Column ;
+    rdfs:label "Retail Sales" ;
+    dsv:columnProperty "sales" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/SectorPerformance> a dsv:Column ;
+    rdfs:label "Sector Performance" ;
+    dsv:columnProperty "market capitalisation ($)" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/ShadowBanking> a dsv:Column ;
+    rdfs:label "Shadow Banking" ;
+    dsv:columnProperty "credit" .
+
+<http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/BondYields>,
+        <http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/CentralBankPolicy>,
+        <http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/CommercialPaper>,
+        <http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/CommodityPrices>,
+        <http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/ConsumerCredit>,
+        <http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/Derivatives>,
+        <http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/EarningsReports>,
+        <http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/EconomicIndicators>,
+        <http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/IndustryAnalysis>,
+        <http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/MutualFunds>,
+        <http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/Options>,
+        <http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/RegulatoryEnvironment>,
+        <http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/RetailSales>,
+        <http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/SectorPerformance>,
+        <http://metaUnionSearch/datasets/FinancialMarketsO8NDI6SO/column/ShadowBanking> .
+

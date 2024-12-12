@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ> a dsv:Dataset ;
+    dcterms:subject "culture" ;
+    dcterms:title "Culture_MLZ16UFZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CultureMLZ16UFZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/Climate> a dsv:Column ;
+    rdfs:label "Climate" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/CulturalValues> a dsv:Column ;
+    rdfs:label "Cultural Values" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/DressCode> a dsv:Column ;
+    rdfs:label "Dress Code" ;
+    dsv:columnProperty "dress code" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/Food> a dsv:Column ;
+    rdfs:label "Food" ;
+    dsv:columnProperty "cuisine" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/Literature> a dsv:Column ;
+    rdfs:label "Literature" ;
+    dsv:columnProperty "novel" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/NationalAnthem> a dsv:Column ;
+    rdfs:label "National Anthem" ;
+    dsv:columnProperty "anthem" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/PreferredCommunicationStyle> a dsv:Column ;
+    rdfs:label "Preferred Communication Style" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/SocialCulture> a dsv:Column ;
+    rdfs:label "Social Culture" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/Sports> a dsv:Column ;
+    rdfs:label "Sports" ;
+    dsv:columnProperty "sport" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/WorkHours> a dsv:Column ;
+    rdfs:label "Work Hours" ;
+    dsv:columnProperty "work" .
+
+<http://metaUnionSearch/datasets/CultureMLZ16UFZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/Climate>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/CulturalValues>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/DressCode>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/Food>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/Literature>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/NationalAnthem>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/PreferredCommunicationStyle>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/SocialCulture>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/Sports>,
+        <http://metaUnionSearch/datasets/CultureMLZ16UFZ/column/WorkHours> .
+

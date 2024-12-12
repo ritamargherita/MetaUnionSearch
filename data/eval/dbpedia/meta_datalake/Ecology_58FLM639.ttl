@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_58FLM639.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Ecology58FLM639/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639/column/AirQuality> a dsv:Column ;
+    rdfs:label "Air Quality" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639/column/BiodiversityMetrics> a dsv:Column ;
+    rdfs:label "Biodiversity Metrics" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639/column/CarbonSequestration> a dsv:Column ;
+    rdfs:label "Carbon Sequestration" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639/column/ClimateChangeImpacts> a dsv:Column ;
+    rdfs:label "Climate Change Impacts" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639/column/DiseaseSpread> a dsv:Column ;
+    rdfs:label "Disease Spread" ;
+    dsv:columnProperty "disease" .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639/column/EcologicalProcesses> a dsv:Column ;
+    rdfs:label "Ecological Processes" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639/column/EcosystemServices> a dsv:Column ;
+    rdfs:label "Ecosystem Services" ;
+    dsv:columnProperty "service" .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639/column/FoodWebs> a dsv:Column ;
+    rdfs:label "Food Webs" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639/column/GeneticDiversity> a dsv:Column ;
+    rdfs:label "Genetic Diversity" ;
+    dsv:columnProperty "genus" .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639/column/InvasiveSpecies> a dsv:Column ;
+    rdfs:label "Invasive Species" ;
+    dsv:columnProperty "fauna" .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639/column/PolicyandLegislation> a dsv:Column ;
+    rdfs:label "Policy and Legislation" ;
+    dsv:columnProperty "legislature" .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639/column/PopulationDynamics> a dsv:Column ;
+    rdfs:label "Population Dynamics" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639/column/RecreationandTourism> a dsv:Column ;
+    rdfs:label "Recreation and Tourism" ;
+    dsv:columnProperty "touristic site" .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639/column/ResearchOpportunities> a dsv:Column ;
+    rdfs:label "Research Opportunities" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639/column/WaterPurification> a dsv:Column ;
+    rdfs:label "Water Purification" ;
+    dsv:columnProperty "water" .
+
+<http://metaUnionSearch/datasets/Ecology58FLM639/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Ecology58FLM639/column/AirQuality>,
+        <http://metaUnionSearch/datasets/Ecology58FLM639/column/BiodiversityMetrics>,
+        <http://metaUnionSearch/datasets/Ecology58FLM639/column/CarbonSequestration>,
+        <http://metaUnionSearch/datasets/Ecology58FLM639/column/ClimateChangeImpacts>,
+        <http://metaUnionSearch/datasets/Ecology58FLM639/column/DiseaseSpread>,
+        <http://metaUnionSearch/datasets/Ecology58FLM639/column/EcologicalProcesses>,
+        <http://metaUnionSearch/datasets/Ecology58FLM639/column/EcosystemServices>,
+        <http://metaUnionSearch/datasets/Ecology58FLM639/column/FoodWebs>,
+        <http://metaUnionSearch/datasets/Ecology58FLM639/column/GeneticDiversity>,
+        <http://metaUnionSearch/datasets/Ecology58FLM639/column/InvasiveSpecies>,
+        <http://metaUnionSearch/datasets/Ecology58FLM639/column/PolicyandLegislation>,
+        <http://metaUnionSearch/datasets/Ecology58FLM639/column/PopulationDynamics>,
+        <http://metaUnionSearch/datasets/Ecology58FLM639/column/RecreationandTourism>,
+        <http://metaUnionSearch/datasets/Ecology58FLM639/column/ResearchOpportunities>,
+        <http://metaUnionSearch/datasets/Ecology58FLM639/column/WaterPurification> .
+

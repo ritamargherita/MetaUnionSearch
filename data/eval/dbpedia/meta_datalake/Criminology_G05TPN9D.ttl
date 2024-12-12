@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CriminologyG05TPN9D> a dsv:Dataset ;
+    dcterms:subject "criminology" ;
+    dcterms:title "Criminology_G05TPN9D.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CriminologyG05TPN9D/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/> a dsv:Column ;
+    rdfs:label "..." .
+
+<http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/ArrestDetails> a dsv:Column ;
+    rdfs:label "Arrest Details" ;
+    dsv:columnProperty "arrest date" .
+
+<http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/CaseStatus> a dsv:Column ;
+    rdfs:label "Case Status" ;
+    dsv:columnProperty "current status" .
+
+<http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/CourtDisposition> a dsv:Column ;
+    rdfs:label "Court Disposition" ;
+    dsv:columnProperty "ruling" .
+
+<http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/EvidenceItem10Description> a dsv:Column ;
+    rdfs:label "Evidence Item 10 - Description" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/EvidenceItem1Description> a dsv:Column ;
+    rdfs:label "Evidence Item 1 - Description" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/EvidenceItem2Description> a dsv:Column ;
+    rdfs:label "Evidence Item 2 - Description" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/LegalCharges> a dsv:Column ;
+    rdfs:label "Legal Charges" ;
+    dsv:columnProperty "criminal charge" .
+
+<http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/OfficerID> a dsv:Column ;
+    rdfs:label "Officer ID" ;
+    dsv:columnProperty "id number" .
+
+<http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/OfficerName> a dsv:Column ;
+    rdfs:label "Officer Name" ;
+    dsv:columnProperty "officer in charge" .
+
+<http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/WitnessCount> a dsv:Column ;
+    rdfs:label "Witness Count" ;
+    dsv:columnProperty "number of members" .
+
+<http://metaUnionSearch/datasets/CriminologyG05TPN9D/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/>,
+        <http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/ArrestDetails>,
+        <http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/CaseStatus>,
+        <http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/CourtDisposition>,
+        <http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/EvidenceItem10Description>,
+        <http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/EvidenceItem1Description>,
+        <http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/EvidenceItem2Description>,
+        <http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/LegalCharges>,
+        <http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/OfficerID>,
+        <http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/OfficerName>,
+        <http://metaUnionSearch/datasets/CriminologyG05TPN9D/column/WitnessCount> .
+

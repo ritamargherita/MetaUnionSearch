@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV> a dsv:Dataset ;
+    dcterms:subject "medicine" ;
+    dcterms:title "Medicine_H8IUNCLV.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MedicineH8IUNCLV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/AdditionalNotes> a dsv:Column ;
+    rdfs:label "Additional Notes." ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/FDAApprovalStatus> a dsv:Column ;
+    rdfs:label "FDA Approval Status" ;
+    dsv:columnProperty "status" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/LastRenewalDate> a dsv:Column ;
+    rdfs:label "Last Renewal Date" ;
+    dsv:columnProperty "Date Last Updated" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/MEDInsuranceCoPayAmount> a dsv:Column ;
+    rdfs:label "MED Insurance Co Pay Amount" ;
+    dsv:columnProperty "unit cost ($)" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/ManufacturerName> a dsv:Column ;
+    rdfs:label "Manufacturer Name" ;
+    dsv:columnProperty "manufacturer" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/NextRefillingDueDate> a dsv:Column ;
+    rdfs:label "Next Refilling Due Date" ;
+    dsv:columnProperty "recommissioning date" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/PatientOutofPocketCost> a dsv:Column ;
+    rdfs:label "Patient Out-of-Pocket Cost" ;
+    dsv:columnProperty "fees ($)" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/PharmacyNameandContactInfo> a dsv:Column ;
+    rdfs:label "Pharmacy Name and Contact Info" ;
+    dsv:columnProperty "distributor" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/QuantityPrescribed> a dsv:Column ;
+    rdfs:label "Quantity Prescribed" ;
+    dsv:columnProperty "Dose" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/SideEffects> a dsv:Column ;
+    rdfs:label "Side Effects" ;
+    dsv:columnProperty "symptoms" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/StorageInstructions> a dsv:Column ;
+    rdfs:label "Storage Instructions" ;
+    dsv:columnProperty "type of storage" .
+
+<http://metaUnionSearch/datasets/MedicineH8IUNCLV/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/AdditionalNotes>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/FDAApprovalStatus>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/LastRenewalDate>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/MEDInsuranceCoPayAmount>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/ManufacturerName>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/NextRefillingDueDate>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/PatientOutofPocketCost>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/PharmacyNameandContactInfo>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/QuantityPrescribed>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/SideEffects>,
+        <http://metaUnionSearch/datasets/MedicineH8IUNCLV/column/StorageInstructions> .
+

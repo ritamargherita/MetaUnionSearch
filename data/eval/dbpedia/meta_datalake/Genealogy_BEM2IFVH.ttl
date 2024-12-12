@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GenealogyBEM2IFVH> a dsv:Dataset ;
+    dcterms:subject "genealogy" ;
+    dcterms:title "Genealogy_BEM2IFVH.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GenealogyBEM2IFVH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/AdoptionDate> a dsv:Column ;
+    rdfs:label "AdoptionDate" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/AdoptionRecordNumber> a dsv:Column ;
+    rdfs:label "AdoptionRecordNumber" ;
+    dsv:columnProperty "id number" .
+
+<http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/AdoptiveGivenName> a dsv:Column ;
+    rdfs:label "AdoptiveGivenName" ;
+    dsv:columnProperty "official name" .
+
+<http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/AdoptiveMiddleName> a dsv:Column ;
+    rdfs:label "AdoptiveMiddleName" ;
+    dsv:columnProperty "official name" .
+
+<http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/AdoptiveParentsFirstNames> a dsv:Column ;
+    rdfs:label "AdoptiveParentsFirstNames" ;
+    dsv:columnProperty "personName" .
+
+<http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/AdoptiveParentsLastName> a dsv:Column ;
+    rdfs:label "AdoptiveParentsLastName" ;
+    dsv:columnProperty "official name" .
+
+<http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/AdoptiveSurname> a dsv:Column ;
+    rdfs:label "AdoptiveSurname" ;
+    dsv:columnProperty "official name" .
+
+<http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/BiologicalFatherFirstName> a dsv:Column ;
+    rdfs:label "BiologicalFatherFirstName" ;
+    dsv:columnProperty "official name" .
+
+<http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/BiologicalFatherLastName> a dsv:Column ;
+    rdfs:label "BiologicalFatherLastName" ;
+    dsv:columnProperty "previous name" .
+
+<http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/BiologicalMotherFirstName> a dsv:Column ;
+    rdfs:label "BiologicalMotherFirstName" ;
+    dsv:columnProperty "official name" .
+
+<http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/BiologicalMotherMaidenName> a dsv:Column ;
+    rdfs:label "BiologicalMotherMaidenName" ;
+    dsv:columnProperty "previous name" .
+
+<http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/PlaceOfAdoption> a dsv:Column ;
+    rdfs:label "PlaceOfAdoption" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/ReasonForAdoption> a dsv:Column ;
+    rdfs:label "ReasonForAdoption" ;
+    dsv:columnProperty "purpose" .
+
+<http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/RelinquishmentDate> a dsv:Column ;
+    rdfs:label "RelinquishmentDate" ;
+    dsv:columnProperty "date of abandonment" .
+
+<http://metaUnionSearch/datasets/GenealogyBEM2IFVH/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/AdoptionDate>,
+        <http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/AdoptionRecordNumber>,
+        <http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/AdoptiveGivenName>,
+        <http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/AdoptiveMiddleName>,
+        <http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/AdoptiveParentsFirstNames>,
+        <http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/AdoptiveParentsLastName>,
+        <http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/AdoptiveSurname>,
+        <http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/BiologicalFatherFirstName>,
+        <http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/BiologicalFatherLastName>,
+        <http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/BiologicalMotherFirstName>,
+        <http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/BiologicalMotherMaidenName>,
+        <http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/PlaceOfAdoption>,
+        <http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/ReasonForAdoption>,
+        <http://metaUnionSearch/datasets/GenealogyBEM2IFVH/column/RelinquishmentDate> .
+

@@ -1,43 +1,43 @@
 {
   "mapping": [
     {
-      "column_header": ""City Name"",
+      "column_header": "City Name",
       "dbpedia_property_id": "http://dbpedia.org/ontology/presentName"
     },
     {
-      "column_header": ""Country of Belonging"",
+      "column_header": "Country of Belonging",
       "dbpedia_property_id": "http://dbpedia.org/ontology/nation"
     },
     {
-      "column_header": ""City Area (km2)"",
+      "column_header": "City Area (km2)",
       "dbpedia_property_id": "http://dbpedia.org/ontology/areaUrban"
     },
     {
-      "column_header": ""City Population"",
+      "column_header": "City Population",
       "dbpedia_property_id": "http://dbpedia.org/ontology/population"
     },
     {
-      "column_header": ""City Population Density"",
+      "column_header": "City Population Density",
       "dbpedia_property_id": "http://dbpedia.org/ontology/populationDensity"
     },
     {
-      "column_header": ""City Climate"",
+      "column_header": "City Climate",
       "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
     },
     {
-      "column_header": ""City Terrain"",
+      "column_header": "City Terrain",
       "dbpedia_property_id": "http://dbpedia.org/ontology/cityType"
     },
     {
-      "column_header": ""City Highest Point"",
+      "column_header": "City Highest Point",
       "dbpedia_property_id": "http://dbpedia.org/ontology/highestPoint"
     },
     {
-      "column_header": ""City Major River"",
+      "column_header": "City Major River",
       "dbpedia_property_id": "http://dbpedia.org/ontology/river"
     },
     {
-      "column_header": ""City Major Lake"",
+      "column_header": "City Major Lake",
       "dbpedia_property_id": "http://dbpedia.org/ontology/lake"
     }
   ]

@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathYMQC1A78> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_YMQC1A78.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathYMQC1A78/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathYMQC1A78/column/ConjecturesandOpenQuestions> a dsv:Column ;
+    rdfs:label "Conjectures and Open Questions" ;
+    dsv:columnProperty "notable work" .
+
+<http://metaUnionSearch/datasets/MathYMQC1A78/column/FamousMathProblems> a dsv:Column ;
+    rdfs:label "Famous Math Problems" ;
+    dsv:columnProperty "notable work" .
+
+<http://metaUnionSearch/datasets/MathYMQC1A78/column/MathPuzzles> a dsv:Column ;
+    rdfs:label "Math Puzzles" ;
+    dsv:columnProperty "notable work" .
+
+<http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicalConferences> a dsv:Column ;
+    rdfs:label "Mathematical Conferences" .
+
+<http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicalHardware> a dsv:Column ;
+    rdfs:label "Mathematical Hardware" ;
+    dsv:columnProperty "equipment" .
+
+<http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicalModels> a dsv:Column ;
+    rdfs:label "Mathematical Models" ;
+    dsv:columnProperty "model" .
+
+<http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicalOrganizations> a dsv:Column ;
+    rdfs:label "Mathematical Organizations" ;
+    dsv:columnProperty "organisation" .
+
+<http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicalResearch> a dsv:Column ;
+    rdfs:label "Mathematical Research" ;
+    dsv:columnProperty "notable work" .
+
+<http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicalSoftware> a dsv:Column ;
+    rdfs:label "Mathematical Software" ;
+    dsv:columnProperty "computing platform" .
+
+<http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicalStandards> a dsv:Column ;
+    rdfs:label "Mathematical Standards" ;
+    dsv:columnProperty "grades" .
+
+<http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicalTheorems> a dsv:Column ;
+    rdfs:label "Mathematical Theorems" ;
+    dsv:columnProperty "notable work" .
+
+<http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematiciansCareers> a dsv:Column ;
+    rdfs:label "Mathematicians' Careers" ;
+    dsv:columnProperty "profession" .
+
+<http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicsEducation> a dsv:Column ;
+    rdfs:label "Mathematics Education" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/MathYMQC1A78/column/ProblemsinMath> a dsv:Column ;
+    rdfs:label "Problems in Math" ;
+    dsv:columnProperty "notable work" .
+
+<http://metaUnionSearch/datasets/MathYMQC1A78/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MathYMQC1A78/column/ConjecturesandOpenQuestions>,
+        <http://metaUnionSearch/datasets/MathYMQC1A78/column/FamousMathProblems>,
+        <http://metaUnionSearch/datasets/MathYMQC1A78/column/MathPuzzles>,
+        <http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicalConferences>,
+        <http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicalHardware>,
+        <http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicalModels>,
+        <http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicalOrganizations>,
+        <http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicalResearch>,
+        <http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicalSoftware>,
+        <http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicalStandards>,
+        <http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicalTheorems>,
+        <http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematiciansCareers>,
+        <http://metaUnionSearch/datasets/MathYMQC1A78/column/MathematicsEducation>,
+        <http://metaUnionSearch/datasets/MathYMQC1A78/column/ProblemsinMath> .
+

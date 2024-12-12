@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Geophysics5URYBL2O> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_5URYBL2O.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Geophysics5URYBL2O/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/10Reflectionseismostratigraphicprofiling> a dsv:Column ;
+    rdfs:label "10. Reflection seismo-stratigraphic profiling" ;
+    dsv:columnProperty "map description" .
+
+<http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/11Aquiferpropertyassessment> a dsv:Column ;
+    rdfs:label "11. Aquifer property assessment" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/12Aquitardsidentification> a dsv:Column ;
+    rdfs:label "12. Aquitards identification" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/13Volcanologymonitoringindicators> a dsv:Column ;
+    rdfs:label "13. Volcanology monitoring indicators" ;
+    dsv:columnProperty "volcanic activity" .
+
+<http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/1GravityAnomalies> a dsv:Column ;
+    rdfs:label "1. Gravity Anomalies" ;
+    dsv:columnProperty "surface gravity (g)" .
+
+<http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/2Magneticanomalymapvalues> a dsv:Column ;
+    rdfs:label "2. Magnetic anomaly map values" ;
+    dsv:columnProperty "map" .
+
+<http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/3Mohodepthvariations> a dsv:Column ;
+    rdfs:label "3. Moho depth variations" ;
+    dsv:columnProperty "average depth (μ)" .
+
+<http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/4Isostasymeasurements> a dsv:Column ;
+    rdfs:label "4. Isostasy measurements" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/5Heatflowdensity> a dsv:Column ;
+    rdfs:label "5. Heat flow density" ;
+    dsv:columnProperty "density (μ3)" .
+
+<http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/6Paleointensityrecords> a dsv:Column ;
+    rdfs:label "6. Paleointensity records" ;
+    dsv:columnProperty "fossil" .
+
+<http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/7Radiometricdatingresults> a dsv:Column ;
+    rdfs:label "7. Radiometric dating results" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/8Strainanalysis> a dsv:Column ;
+    rdfs:label "8. Strain analysis" ;
+    dsv:columnProperty "displacement (μ³)" .
+
+<http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/9Fracturepatterncharacterization> a dsv:Column ;
+    rdfs:label "9. Fracture pattern characterization" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/Geophysics5URYBL2O/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/10Reflectionseismostratigraphicprofiling>,
+        <http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/11Aquiferpropertyassessment>,
+        <http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/12Aquitardsidentification>,
+        <http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/13Volcanologymonitoringindicators>,
+        <http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/1GravityAnomalies>,
+        <http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/2Magneticanomalymapvalues>,
+        <http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/3Mohodepthvariations>,
+        <http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/4Isostasymeasurements>,
+        <http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/5Heatflowdensity>,
+        <http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/6Paleointensityrecords>,
+        <http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/7Radiometricdatingresults>,
+        <http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/8Strainanalysis>,
+        <http://metaUnionSearch/datasets/Geophysics5URYBL2O/column/9Fracturepatterncharacterization> .
+

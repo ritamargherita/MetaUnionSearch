@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "`Ar Workcode",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/oldcode"
+    },
+    {
+      "column_header": "Created Location",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/location"
+    },
+    {
+      "column_header": "Preserved Museum",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/museum"
+    },
+    {
+      "column_header": "Restoration Details",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/note"
+    },
+    {
+      "column_header": "Artist",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/painter"
+    },
+    {
+      "column_header": "Date Created",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/created"
+    },
+    {
+      "column_header": "Medium",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/material"
+    },
+    {
+      "column_header": "Width",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/width"
+    },
+    {
+      "column_header": "Height",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/height"
+    },
+    {
+      "column_header": "Depth",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/depth"
+    },
+    {
+      "column_header": "Period",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/termPeriod"
+    },
+    {
+      "column_header": "Style",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Subject Matter",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/topic"
+    },
+    {
+      "column_header": "Notes`",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notes"
+    }
+  ]
+}

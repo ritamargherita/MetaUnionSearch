@@ -1,0 +1,91 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_WA5IMY96.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PhotographyWA5IMY96/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/ApertureValue> a dsv:Column ;
+    rdfs:label "Aperture Value" ;
+    dsv:columnProperty "shoot" .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/CopyrightInfo> a dsv:Column ;
+    rdfs:label "Copyright Info" ;
+    dsv:columnProperty "license" .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/CustomRendered> a dsv:Column ;
+    rdfs:label "Custom Rendered" ;
+    dsv:columnProperty "special effects" .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/DateTaken> a dsv:Column ;
+    rdfs:label "Date Taken" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/EquipmentUsed> a dsv:Column ;
+    rdfs:label "Equipment Used" ;
+    dsv:columnProperty "equipment" .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/ExposureProgram> a dsv:Column ;
+    rdfs:label "Exposure Program" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/FileName> a dsv:Column ;
+    rdfs:label "File Name" ;
+    dsv:columnProperty "filename" .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/Flash> a dsv:Column ;
+    rdfs:label "Flash" ;
+    dsv:columnProperty "shoot" .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/FocalLength> a dsv:Column ;
+    rdfs:label "Focal Length" ;
+    dsv:columnProperty "shoot" .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/LensType> a dsv:Column ;
+    rdfs:label "Lens Type" ;
+    dsv:columnProperty "shoot" .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/LocationDescription> a dsv:Column ;
+    rdfs:label "Location Description" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/ManufacturerModel> a dsv:Column ;
+    rdfs:label "Manufacturer Model" ;
+    dsv:columnProperty "model" .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/SceneCaptureType> a dsv:Column ;
+    rdfs:label "Scene Capture Type" ;
+    dsv:columnProperty "scene" .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/SensingMethod> a dsv:Column ;
+    rdfs:label "Sensing Method" ;
+    dsv:columnProperty "technique" .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/ShutterSpeed> a dsv:Column ;
+    rdfs:label "Shutter Speed" ;
+    dsv:columnProperty "shoot" .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/WhiteBalance> a dsv:Column ;
+    rdfs:label "White Balance" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/PhotographyWA5IMY96/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/ApertureValue>,
+        <http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/CopyrightInfo>,
+        <http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/CustomRendered>,
+        <http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/DateTaken>,
+        <http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/EquipmentUsed>,
+        <http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/ExposureProgram>,
+        <http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/FileName>,
+        <http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/Flash>,
+        <http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/FocalLength>,
+        <http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/LensType>,
+        <http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/LocationDescription>,
+        <http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/ManufacturerModel>,
+        <http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/SceneCaptureType>,
+        <http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/SensingMethod>,
+        <http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/ShutterSpeed>,
+        <http://metaUnionSearch/datasets/PhotographyWA5IMY96/column/WhiteBalance> .
+

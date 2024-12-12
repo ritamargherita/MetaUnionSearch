@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeophysicsI804EYNI> a dsv:Dataset ;
+    dcterms:subject "geophysics" ;
+    dcterms:title "Geophysics_I804EYNI.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeophysicsI804EYNI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Earthquakeepicenterlocations> a dsv:Column ;
+    rdfs:label "Earthquake epicenter locations" ;
+    dsv:columnProperty "maximum depth (μ)" .
+
+<http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/EstimatedVpVsorvsvalues> a dsv:Column ;
+    rdfs:label "Estimated Vp/(Vs or vs) values" ;
+    dsv:columnProperty "value" .
+
+<http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Geoidundulations> a dsv:Column ;
+    rdfs:label "Geoid undulations" ;
+    dsv:columnProperty "depths" .
+
+<http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Gravitationalpotentialatsurfacepoints> a dsv:Column ;
+    rdfs:label "Gravitational potential at surface points" ;
+    dsv:columnProperty "surface gravity (g)" .
+
+<http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/GravityAnomalies> a dsv:Column ;
+    rdfs:label "Gravity Anomalies" ;
+    dsv:columnProperty "surface gravity (g)" .
+
+<http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Isostasyprinciplesapplied> a dsv:Column ;
+    rdfs:label "Isostasy principles applied" ;
+    dsv:columnProperty "geology" .
+
+<http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Magneticanomalymapvalues> a dsv:Column ;
+    rdfs:label "Magnetic anomaly map values" ;
+    dsv:columnProperty "map description" .
+
+<http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Mohodepthvariations> a dsv:Column ;
+    rdfs:label "Moho depth variations" ;
+    dsv:columnProperty "depth (μ)" .
+
+<http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Paleointensitymeasurementsfromrocks> a dsv:Column ;
+    rdfs:label "Paleointensity measurements from rocks" ;
+    dsv:columnProperty "geologic period" .
+
+<http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Radiometricagedatingresults> a dsv:Column ;
+    rdfs:label "Radiometric age dating results" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Rocktypeclassificationsbaseduponseismoelectricmethods> a dsv:Column ;
+    rdfs:label "Rock type classifications based upon seismo-electric methods" ;
+    dsv:columnProperty "kind of rock" .
+
+<http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Strainratetensorcomponents> a dsv:Column ;
+    rdfs:label "Strain rate tensor components" ;
+    dsv:columnProperty "stat value" .
+
+<http://metaUnionSearch/datasets/GeophysicsI804EYNI/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Earthquakeepicenterlocations>,
+        <http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/EstimatedVpVsorvsvalues>,
+        <http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Geoidundulations>,
+        <http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Gravitationalpotentialatsurfacepoints>,
+        <http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/GravityAnomalies>,
+        <http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Isostasyprinciplesapplied>,
+        <http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Magneticanomalymapvalues>,
+        <http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Mohodepthvariations>,
+        <http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Paleointensitymeasurementsfromrocks>,
+        <http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Radiometricagedatingresults>,
+        <http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Rocktypeclassificationsbaseduponseismoelectricmethods>,
+        <http://metaUnionSearch/datasets/GeophysicsI804EYNI/column/Strainratetensorcomponents> .
+

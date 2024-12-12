@@ -1,0 +1,60 @@
+{
+  "mapping": [
+    {
+      "column_header": "Country Comparison",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/country"
+    },
+    {
+      "column_header": "Area Comparison (km2)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/areaTotal"
+    },
+    {
+      "column_header": "Population Comparison",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"
+    },
+    {
+      "column_header": "Population Density Comparison",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationDensity"
+    },
+    {
+      "column_header": "Capital Comparison",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/capital"
+    },
+    {
+      "column_header": "Latitude Comparison",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/capitalCoordinates"
+    },
+    {
+      "column_header": "Longitude Comparison",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/capitalCoordinates"
+    },
+    {
+      "column_header": "Climate Comparison",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": "Terrain Comparison",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/notableFeatures"
+    },
+    {
+      "column_header": "Highest Point Comparison",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/highestPoint"
+    },
+    {
+      "column_header": "Major Rivers Comparison",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/river"
+    },
+    {
+      "column_header": "Major Lakes Comparison",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/lake"
+    },
+    {
+      "column_header": "Official Language(s) Comparison",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/officialLanguage"
+    },
+    {
+      "column_header": "Internet TLD Comparison",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/topLevelDomain"
+    }
+  ]
+}

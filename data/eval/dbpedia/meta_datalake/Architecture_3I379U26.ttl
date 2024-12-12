@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Architecture3I379U26> a dsv:Dataset ;
+    dcterms:subject "architecture" ;
+    dcterms:title "Architecture_3I379U26.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Architecture3I379U26/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Architecture3I379U26/column/AcousticQualityAssessment> a dsv:Column ;
+    rdfs:label "Acoustic Quality Assessment" ;
+    dsv:columnProperty "architectural style" .
+
+<http://metaUnionSearch/datasets/Architecture3I379U26/column/ArchitecturalDetails> a dsv:Column ;
+    rdfs:label "Architectural Details" ;
+    dsv:columnProperty "architectural style" .
+
+<http://metaUnionSearch/datasets/Architecture3I379U26/column/ArchitecturalTheories> a dsv:Column ;
+    rdfs:label "Architectural Theories" ;
+    dsv:columnProperty "architectural movement" .
+
+<http://metaUnionSearch/datasets/Architecture3I379U26/column/BuildingUse> a dsv:Column ;
+    rdfs:label "Building Use" ;
+    dsv:columnProperty "currently used for" .
+
+<http://metaUnionSearch/datasets/Architecture3I379U26/column/ConstructionTechniques> a dsv:Column ;
+    rdfs:label "Construction Techniques" ;
+    dsv:columnProperty "construction" .
+
+<http://metaUnionSearch/datasets/Architecture3I379U26/column/FireSafetyMeasures> a dsv:Column ;
+    rdfs:label "Fire Safety Measures" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/Architecture3I379U26/column/LightningProtectionSystemsData> a dsv:Column ;
+    rdfs:label "Lightning Protection Systems Data" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/Architecture3I379U26/column/MaintenanceSchedulesNeeds> a dsv:Column ;
+    rdfs:label "Maintenance Schedules & Needs" ;
+    dsv:columnProperty "maintained by" .
+
+<http://metaUnionSearch/datasets/Architecture3I379U26/column/PreservationStatus> a dsv:Column ;
+    rdfs:label "Preservation Status" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/Architecture3I379U26/column/SocietalImpact> a dsv:Column ;
+    rdfs:label "Societal Impact" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/Architecture3I379U26/column/UrbanContext> a dsv:Column ;
+    rdfs:label "Urban Context" ;
+    dsv:columnProperty "urban area" .
+
+<http://metaUnionSearch/datasets/Architecture3I379U26/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Architecture3I379U26/column/AcousticQualityAssessment>,
+        <http://metaUnionSearch/datasets/Architecture3I379U26/column/ArchitecturalDetails>,
+        <http://metaUnionSearch/datasets/Architecture3I379U26/column/ArchitecturalTheories>,
+        <http://metaUnionSearch/datasets/Architecture3I379U26/column/BuildingUse>,
+        <http://metaUnionSearch/datasets/Architecture3I379U26/column/ConstructionTechniques>,
+        <http://metaUnionSearch/datasets/Architecture3I379U26/column/FireSafetyMeasures>,
+        <http://metaUnionSearch/datasets/Architecture3I379U26/column/LightningProtectionSystemsData>,
+        <http://metaUnionSearch/datasets/Architecture3I379U26/column/MaintenanceSchedulesNeeds>,
+        <http://metaUnionSearch/datasets/Architecture3I379U26/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/Architecture3I379U26/column/SocietalImpact>,
+        <http://metaUnionSearch/datasets/Architecture3I379U26/column/UrbanContext> .
+

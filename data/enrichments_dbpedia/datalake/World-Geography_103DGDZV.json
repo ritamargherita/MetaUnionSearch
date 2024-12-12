@@ -1,0 +1,15 @@
+{
+  "mapping": [
+    {"column_header": "City Name", "dbpedia_property_id": "http://dbpedia.org/ontology/city"},
+    {"column_header": "Metro Pop.", "dbpedia_property_id": "http://dbpedia.org/ontology/populationMetro"},
+    {"column_header": "Timezone", "dbpedia_property_id": "http://dbpedia.org/ontology/timeZone"},
+    {"column_header": "CountryName", "dbpedia_property_id": "http://dbpedia.org/ontology/country"},
+    {"column_header": "Continent", "dbpedia_property_id": "http://dbpedia.org/ontology/continent"},
+    {"column_header": "State or Province", "dbpedia_property_id": "http://dbpedia.org/ontology/province"},
+    {"column_header": "Mean Elevation", "dbpedia_property_id": "http://dbpedia.org/ontology/elevation"},
+    {"column_header": "Main Industry(ies)", "dbpedia_property_id": "http://dbpedia.org/ontology/industry"},
+    {"column_header": "Currency", "dbpedia_property_id": "http://dbpedia.org/ontology/currency"},
+    {"column_header": "Currency Code", "dbpedia_property_id": "http://dbpedia.org/ontology/currencyCode"},
+    {"column_header": "Phone Prefix+(country code)", "dbpedia_property_id": "http://dbpedia.org/ontology/internationalPhonePrefix"}
+  ]
+}

@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EngineeringH8LMN4R7> a dsv:Dataset ;
+    dcterms:subject "engineering" ;
+    dcterms:title "Engineering_H8LMN4R7.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EngineeringH8LMN4R7/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/AdditionalWorkBreakdownStructureWBS> a dsv:Column ;
+    rdfs:label "Additional Work Breakdown Structure(WBS)" ;
+    dsv:columnProperty "work" .
+
+<http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/BudgetAdjustments> a dsv:Column ;
+    rdfs:label "Budget Adjustments" ;
+    dsv:columnProperty "budget ($)" .
+
+<http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/ConstructionMaterialAnalysis> a dsv:Column ;
+    rdfs:label "Construction Material Analysis" ;
+    dsv:columnProperty "construction material" .
+
+<http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/ContractorsDetails> a dsv:Column ;
+    rdfs:label "Contractors Details" ;
+    dsv:columnProperty "contractor" .
+
+<http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/EngineerResponsible> a dsv:Column ;
+    rdfs:label "Engineer Responsible" ;
+    dsv:columnProperty "engineer" .
+
+<http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/EnvironmentalImpactStudyCompliance> a dsv:Column ;
+    rdfs:label "Environmental Impact Study & Compliance" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/PaymentSchedule> a dsv:Column ;
+    rdfs:label "Payment Schedule" ;
+    dsv:columnProperty "budget ($)" .
+
+<http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/ProjectMilestones> a dsv:Column ;
+    rdfs:label "Project Milestones" ;
+    dsv:columnProperty "project" .
+
+<http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/ResourceAllocationPlan> a dsv:Column ;
+    rdfs:label "Resource Allocation Plan" ;
+    dsv:columnProperty "number of all resource / entities of a class" .
+
+<http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/RevisedDesignMethodologies> a dsv:Column ;
+    rdfs:label "Revised Design Methodologies" ;
+    dsv:columnProperty "significant design" .
+
+<http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/TestingProcedures> a dsv:Column ;
+    rdfs:label "Testing Procedures" ;
+    dsv:columnProperty "procedure" .
+
+<http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/TotalRating> a dsv:Column ;
+    rdfs:label "Total Rating" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/EngineeringH8LMN4R7/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/AdditionalWorkBreakdownStructureWBS>,
+        <http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/BudgetAdjustments>,
+        <http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/ConstructionMaterialAnalysis>,
+        <http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/ContractorsDetails>,
+        <http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/EngineerResponsible>,
+        <http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/EnvironmentalImpactStudyCompliance>,
+        <http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/PaymentSchedule>,
+        <http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/ProjectMilestones>,
+        <http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/ResourceAllocationPlan>,
+        <http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/RevisedDesignMethodologies>,
+        <http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/TestingProcedures>,
+        <http://metaUnionSearch/datasets/EngineeringH8LMN4R7/column/TotalRating> .
+

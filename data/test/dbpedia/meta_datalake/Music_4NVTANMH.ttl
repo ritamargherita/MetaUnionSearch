@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Music4NVTANMH> a dsv:Dataset ;
+    dcterms:subject "music" ;
+    dcterms:title "Music_4NVTANMH.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Music4NVTANMH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Music4NVTANMH/column/Composer> a dsv:Column ;
+    rdfs:label "Composer" ;
+    dsv:columnProperty "composer" .
+
+<http://metaUnionSearch/datasets/Music4NVTANMH/column/ExtraInformation> a dsv:Column ;
+    rdfs:label "ExtraInformation" ;
+    dsv:columnProperty "category" .
+
+<http://metaUnionSearch/datasets/Music4NVTANMH/column/FileFormat> a dsv:Column ;
+    rdfs:label "FileFormat" ;
+    dsv:columnProperty "The extension of this file" .
+
+<http://metaUnionSearch/datasets/Music4NVTANMH/column/LyricsLanguage> a dsv:Column ;
+    rdfs:label "LyricsLanguage" ;
+    dsv:columnProperty "translator" .
+
+<http://metaUnionSearch/datasets/Music4NVTANMH/column/MusicCategory> a dsv:Column ;
+    rdfs:label "MusicCategory" ;
+    dsv:columnProperty "music subgenre" .
+
+<http://metaUnionSearch/datasets/Music4NVTANMH/column/Performers> a dsv:Column ;
+    rdfs:label "Performer(s)" ;
+    dsv:columnProperty "performer" .
+
+<http://metaUnionSearch/datasets/Music4NVTANMH/column/PlayLengthInSeconds> a dsv:Column ;
+    rdfs:label "PlayLengthInSeconds" ;
+    dsv:columnProperty "playing time (s)" .
+
+<http://metaUnionSearch/datasets/Music4NVTANMH/column/ProductionAssistants> a dsv:Column ;
+    rdfs:label "ProductionAssistants" ;
+    dsv:columnProperty "musicians" .
+
+<http://metaUnionSearch/datasets/Music4NVTANMH/column/RecordLabel> a dsv:Column ;
+    rdfs:label "RecordLabel" ;
+    dsv:columnProperty "record label" .
+
+<http://metaUnionSearch/datasets/Music4NVTANMH/column/ReleaseYear> a dsv:Column ;
+    rdfs:label "ReleaseYear" ;
+    dsv:columnProperty "release date" .
+
+<http://metaUnionSearch/datasets/Music4NVTANMH/column/SongName> a dsv:Column ;
+    rdfs:label "Song Name" ;
+    dsv:columnProperty "name" .
+
+<http://metaUnionSearch/datasets/Music4NVTANMH/column/SoundEngineer> a dsv:Column ;
+    rdfs:label "SoundEngineer" ;
+    dsv:columnProperty "sound recording" .
+
+<http://metaUnionSearch/datasets/Music4NVTANMH/column/TotalTracksOnTheSameProject> a dsv:Column ;
+    rdfs:label "TotalTracksOnTheSameProject" ;
+    dsv:columnProperty "number of tracks" .
+
+<http://metaUnionSearch/datasets/Music4NVTANMH/column/TrackNumberOnAlbum> a dsv:Column ;
+    rdfs:label "TrackNumberOnAlbum" ;
+    dsv:columnProperty "track number" .
+
+<http://metaUnionSearch/datasets/Music4NVTANMH/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Music4NVTANMH/column/Composer>,
+        <http://metaUnionSearch/datasets/Music4NVTANMH/column/ExtraInformation>,
+        <http://metaUnionSearch/datasets/Music4NVTANMH/column/FileFormat>,
+        <http://metaUnionSearch/datasets/Music4NVTANMH/column/LyricsLanguage>,
+        <http://metaUnionSearch/datasets/Music4NVTANMH/column/MusicCategory>,
+        <http://metaUnionSearch/datasets/Music4NVTANMH/column/Performers>,
+        <http://metaUnionSearch/datasets/Music4NVTANMH/column/PlayLengthInSeconds>,
+        <http://metaUnionSearch/datasets/Music4NVTANMH/column/ProductionAssistants>,
+        <http://metaUnionSearch/datasets/Music4NVTANMH/column/RecordLabel>,
+        <http://metaUnionSearch/datasets/Music4NVTANMH/column/ReleaseYear>,
+        <http://metaUnionSearch/datasets/Music4NVTANMH/column/SongName>,
+        <http://metaUnionSearch/datasets/Music4NVTANMH/column/SoundEngineer>,
+        <http://metaUnionSearch/datasets/Music4NVTANMH/column/TotalTracksOnTheSameProject>,
+        <http://metaUnionSearch/datasets/Music4NVTANMH/column/TrackNumberOnAlbum> .
+

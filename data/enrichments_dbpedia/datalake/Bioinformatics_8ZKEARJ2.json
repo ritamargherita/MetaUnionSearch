@@ -7,7 +7,7 @@
     {"column_header": "Strandedness", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
     {"column_header": "*gène**Type*", "dbpedia_property_id": "http://dbpedia.org/ontology/type"},
     {"column_header": "AminoAcidSequence", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
-    {"column_header": """", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
+    {"column_header": "", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
     {"column_header": "MutationFrequency", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
     {"column_header": "MutationsAffectingFunctionalSites(*)", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},
     {"column_header": "*AdditionalGOterms*", "dbpedia_property_id": "http://dbpedia.org/ontology/other"},

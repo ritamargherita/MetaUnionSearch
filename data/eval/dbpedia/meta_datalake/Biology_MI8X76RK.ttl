@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BiologyMI8X76RK> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_MI8X76RK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BiologyMI8X76RK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Alternativesplicingvariants> a dsv:Column ;
+    rdfs:label "Alternative splicing variants" ;
+    dsv:columnProperty "refseq protein" .
+
+<http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Averageproteinmolecularweight> a dsv:Column ;
+    rdfs:label "Average protein molecular weight" ;
+    dsv:columnProperty "molecular weight" .
+
+<http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Cellmembranetopography> a dsv:Column ;
+    rdfs:label "Cell membrane topography" ;
+    dsv:columnProperty "surface area (m2)" .
+
+<http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Cellsurfaceexpressiondynamics> a dsv:Column ;
+    rdfs:label "Cell surface expression dynamics" ;
+    dsv:columnProperty "type of surface" .
+
+<http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Expressionchangesunderstressconditions> a dsv:Column ;
+    rdfs:label "Expression changes under stress conditions" ;
+    dsv:columnProperty "Deaths" .
+
+<http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Homeostaticregulationmechanisms> a dsv:Column ;
+    rdfs:label "Homeostatic regulation mechanisms" ;
+    dsv:columnProperty "atomic weight" .
+
+<http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Numberofphosphorylationsites> a dsv:Column ;
+    rdfs:label "Number of phosphorylation sites" ;
+    dsv:columnProperty "number of locations" .
+
+<http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Posttranslationalmodifications> a dsv:Column ;
+    rdfs:label "Posttranslational modifications" ;
+    dsv:columnProperty "KEGG" .
+
+<http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Proteinfamilyclassification> a dsv:Column ;
+    rdfs:label "Protein family classification" ;
+    dsv:columnProperty "classification" .
+
+<http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Regulationattranscriptionlevel> a dsv:Column ;
+    rdfs:label "Regulation at transcription level" ;
+    dsv:columnProperty "innervates" .
+
+<http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Relatedmetabolicpathways> a dsv:Column ;
+    rdfs:label "Related metabolic pathways" ;
+    dsv:columnProperty "KEGG" .
+
+<http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Subcellularcolocalizations> a dsv:Column ;
+    rdfs:label "Subcellular colocalizations" ;
+    dsv:columnProperty "Gene Location" .
+
+<http://metaUnionSearch/datasets/BiologyMI8X76RK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Alternativesplicingvariants>,
+        <http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Averageproteinmolecularweight>,
+        <http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Cellmembranetopography>,
+        <http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Cellsurfaceexpressiondynamics>,
+        <http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Expressionchangesunderstressconditions>,
+        <http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Homeostaticregulationmechanisms>,
+        <http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Numberofphosphorylationsites>,
+        <http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Posttranslationalmodifications>,
+        <http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Proteinfamilyclassification>,
+        <http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Regulationattranscriptionlevel>,
+        <http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Relatedmetabolicpathways>,
+        <http://metaUnionSearch/datasets/BiologyMI8X76RK/column/Subcellularcolocalizations> .
+

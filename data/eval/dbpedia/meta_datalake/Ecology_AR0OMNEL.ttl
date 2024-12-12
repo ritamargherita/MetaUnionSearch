@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EcologyAR0OMNEL> a dsv:Dataset ;
+    dcterms:subject "ecology" ;
+    dcterms:title "Ecology_AR0OMNEL.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EcologyAR0OMNEL/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/AquaticFeatures> a dsv:Column ;
+    rdfs:label "Aquatic Features" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/BiodiversityIndicators> a dsv:Column ;
+    rdfs:label "Biodiversity Indicators" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/ClimateChangeImpact> a dsv:Column ;
+    rdfs:label "Climate Change Impact" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/ConservationPolicy> a dsv:Column ;
+    rdfs:label "Conservation Policy" ;
+    dsv:columnProperty "conservation status system" .
+
+<http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/EcosystemStructure> a dsv:Column ;
+    rdfs:label "Ecosystem Structure" ;
+    dsv:columnProperty "biome" .
+
+<http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/InvasiveSpecies> a dsv:Column ;
+    rdfs:label "Invasive Species" ;
+    dsv:columnProperty "species" .
+
+<http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/LegalMeasures> a dsv:Column ;
+    rdfs:label "Legal Measures" ;
+    dsv:columnProperty "jurisdiction" .
+
+<http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/NaturalDisturbances> a dsv:Column ;
+    rdfs:label "Natural Disturbances" ;
+    dsv:columnProperty "caused by" .
+
+<http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/PublicAwareness> a dsv:Column ;
+    rdfs:label "Public Awareness" ;
+    dsv:columnProperty "publicly accessible" .
+
+<http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/SocioeconomicFactors> a dsv:Column ;
+    rdfs:label "Socioeconomic Factors" ;
+    dsv:columnProperty "demographics" .
+
+<http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/VegetativeCommunities> a dsv:Column ;
+    rdfs:label "Vegetative Communities" ;
+    dsv:columnProperty "flora" .
+
+<http://metaUnionSearch/datasets/EcologyAR0OMNEL/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/AquaticFeatures>,
+        <http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/BiodiversityIndicators>,
+        <http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/ClimateChangeImpact>,
+        <http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/ConservationPolicy>,
+        <http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/EcosystemStructure>,
+        <http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/InvasiveSpecies>,
+        <http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/LegalMeasures>,
+        <http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/NaturalDisturbances>,
+        <http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/PublicAwareness>,
+        <http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/SocioeconomicFactors>,
+        <http://metaUnionSearch/datasets/EcologyAR0OMNEL/column/VegetativeCommunities> .
+

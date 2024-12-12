@@ -1,0 +1,18 @@
+{
+  "mapping": [
+    {"column_header": "SiteCode", "dbpedia_property_id": "http://dbpedia.org/ontology/oldcode"},
+    {"column_header": "LocationDetails", "dbpedia_property_id": "http://dbpedia.org/ontology/location"},
+    {"column_header": "CulturalAffiliation", "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"},
+    {"column_header": "Era", "dbpedia_property_id": "http://dbpedia.org/ontology/era"},
+    {"column_header": "Division", "dbpedia_property_id": "http://dbpedia.org/ontology/division"},
+    {"column_header": "TotalStratigraphicUnits", "dbpedia_property_id": "http://dbpedia.org/ontology/aggregation"},
+    {"column_header": "GeologicalStrataNumber", "dbpedia_property_id": "http://dbpedia.org/ontology/geologicPeriod"},
+    {"column_header": "ExcavationProgressPercentage", "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"},
+    {"column_header": "ArtificialDivision", "dbpedia_property_id": "http://dbpedia.org/ontology/division"},
+    {"column_header": "UndisturbedContexts", "dbpedia_property_id": "http://dbpedia.org/ontology/geology"},
+    {"column_header": "SpecialFindings", "dbpedia_property_id": "http://dbpedia.org/ontology/exhibition"},
+    {"column_header": "PreservationStatus", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+    {"column_header": "ResearcherName1", "dbpedia_property_id": "http://dbpedia.org/ontology/personName"},
+    {"column_header": "ResearcherName2", "dbpedia_property_id": "http://dbpedia.org/ontology/personName"}
+  ]
+}

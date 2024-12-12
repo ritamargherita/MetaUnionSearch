@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MythologyL6GT6MJX> a dsv:Dataset ;
+    dcterms:subject "mythology" ;
+    dcterms:title "Mythology_L6GT6MJX.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MythologyL6GT6MJX/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/AdditionalAbilitiesNotMentioned> a dsv:Column ;
+    rdfs:label "Additional Abilities Not Mentioned*" ;
+    dsv:columnProperty "skills" .
+
+<http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/AlternateNames> a dsv:Column ;
+    rdfs:label "Alternate Names" ;
+    dsv:columnProperty "alternative title" .
+
+<http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/DifferencesfromOriginalDescription> a dsv:Column ;
+    rdfs:label "Differences from Original Description*" ;
+    dsv:columnProperty "description" .
+
+<http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/Etymology> a dsv:Column ;
+    rdfs:label "Etymology" ;
+    dsv:columnProperty "origin" .
+
+<http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/EvolutionOverTime> a dsv:Column ;
+    rdfs:label "Evolution Over Time##" .
+
+<http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/GeographicalDistribution> a dsv:Column ;
+    rdfs:label "Geographical Distribution_" ;
+    dsv:columnProperty "number of locations" .
+
+<http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/HistoricalContext> a dsv:Column ;
+    rdfs:label "Historical Context_" ;
+    dsv:columnProperty "historical region" .
+
+<http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/InfluenceOnLiteratureAndMedia> a dsv:Column ;
+    rdfs:label "Influence On Literature And Media **" ;
+    dsv:columnProperty "influenced by" .
+
+<http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/InterpretationbyScholars> a dsv:Column ;
+    rdfs:label "Interpretation by Scholars^^" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/MythalogueTitle> a dsv:Column ;
+    rdfs:label "Mythalogue Title" ;
+    dsv:columnProperty "title" .
+
+<http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/PublicOpinion> a dsv:Column ;
+    rdfs:label "Public Opinion$$" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/SimilaritiestoOtherEntries> a dsv:Column ;
+    rdfs:label "Similarities to Other Entries*" ;
+    dsv:columnProperty "similar" .
+
+<http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/UnpopularityRanking> a dsv:Column ;
+    rdfs:label "(Un)popularity Ranking" ;
+    dsv:columnProperty "rank" .
+
+<http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/ofModernRepresentations> a dsv:Column ;
+    rdfs:label "# of Modern Representations" ;
+    dsv:columnProperty "number of representatives" .
+
+<http://metaUnionSearch/datasets/MythologyL6GT6MJX/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/AdditionalAbilitiesNotMentioned>,
+        <http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/AlternateNames>,
+        <http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/DifferencesfromOriginalDescription>,
+        <http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/Etymology>,
+        <http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/EvolutionOverTime>,
+        <http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/GeographicalDistribution>,
+        <http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/HistoricalContext>,
+        <http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/InfluenceOnLiteratureAndMedia>,
+        <http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/InterpretationbyScholars>,
+        <http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/MythalogueTitle>,
+        <http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/PublicOpinion>,
+        <http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/SimilaritiestoOtherEntries>,
+        <http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/UnpopularityRanking>,
+        <http://metaUnionSearch/datasets/MythologyL6GT6MJX/column/ofModernRepresentations> .
+

@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD> a dsv:Dataset ;
+    dcterms:subject "veterinary-science" ;
+    dcterms:title "Veterinary-Science_EW09U3BD.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/AvailabilityforEmergencyServices> a dsv:Column ;
+    rdfs:label """
+Availability for Emergency Services""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/ContinuingEducationCoursesCompleted> a dsv:Column ;
+    rdfs:label """
+Continuing Education Courses Completed""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/LastVaccinationDate> a dsv:Column ;
+    rdfs:label """
+Last Vaccination Date""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/MembershipsinVeterinaryAssociations> a dsv:Column ;
+    rdfs:label """
+Memberships in Veterinary Associations""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/NextScheduledAppointment> a dsv:Column ;
+    rdfs:label """
+Next Scheduled Appointment""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/PatientAdmissionDate> a dsv:Column ;
+    rdfs:label """
+Patient Admission Date""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/ReferraltoSpecialists> a dsv:Column ;
+    rdfs:label """
+Referral to Specialists""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/TreatmentCostEstimate> a dsv:Column ;
+    rdfs:label """
+Treatment Cost Estimate""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/VeterinarianLicenseNumber> a dsv:Column ;
+    rdfs:label """
+Veterinarian License Number""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/YearsofExperience> a dsv:Column ;
+    rdfs:label """
+Years of Experience""" .
+
+<http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/AvailabilityforEmergencyServices>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/ContinuingEducationCoursesCompleted>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/LastVaccinationDate>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/MembershipsinVeterinaryAssociations>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/NextScheduledAppointment>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/PatientAdmissionDate>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/ReferraltoSpecialists>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/TreatmentCostEstimate>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/VeterinarianLicenseNumber>,
+        <http://metaUnionSearch/datasets/VeterinaryScienceEW09U3BD/column/YearsofExperience> .
+

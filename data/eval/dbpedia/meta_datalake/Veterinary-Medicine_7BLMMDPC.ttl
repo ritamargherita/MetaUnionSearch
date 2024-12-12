@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC> a dsv:Dataset ;
+    dcterms:subject "veterinary-medicine" ;
+    dcterms:title "Veterinary-Medicine_7BLMMDPC.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/datasetSchema> .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/BatchNumber> a dsv:Column ;
+    rdfs:label "Batch Number" ;
+    dsv:columnProperty "number" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/DistributionChannel> a dsv:Column ;
+    rdfs:label "Distribution Channel" ;
+    dsv:columnProperty "channel" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/ExpirationDate> a dsv:Column ;
+    rdfs:label "Expiration Date" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/GrossProfit> a dsv:Column ;
+    rdfs:label "Gross Profit" ;
+    dsv:columnProperty "gross ($)" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/ManufacturerName> a dsv:Column ;
+    rdfs:label "Manufacturer Name" ;
+    dsv:columnProperty "manufacturer" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/MarketingCampaign> a dsv:Column ;
+    rdfs:label "Marketing Campaign" ;
+    dsv:columnProperty "promotion" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/NetProfit> a dsv:Column ;
+    rdfs:label "Net Profit" ;
+    dsv:columnProperty "net income ($)" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/OperatingCost> a dsv:Column ;
+    rdfs:label "Operating Cost" ;
+    dsv:columnProperty "operating income ($)" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/ProductCode> a dsv:Column ;
+    rdfs:label "Product Code" ;
+    dsv:columnProperty "code Stock Exchange" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/ProductionDate> a dsv:Column ;
+    rdfs:label "Production Date" ;
+    dsv:columnProperty "production start date" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/QuantitySold> a dsv:Column ;
+    rdfs:label "Quantity Sold" ;
+    dsv:columnProperty "number sold" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/SalesRegion> a dsv:Column ;
+    rdfs:label "Sales Region" ;
+    dsv:columnProperty "region served" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/SalesRevenue> a dsv:Column ;
+    rdfs:label "Sales Revenue" ;
+    dsv:columnProperty "revenue ($)" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/StorageHumidity> a dsv:Column ;
+    rdfs:label "Storage Humidity" ;
+    dsv:columnProperty "water percentage of a place" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/StorageTemperature> a dsv:Column ;
+    rdfs:label "Storage Temperature" ;
+    dsv:columnProperty "temperature (K)" .
+
+<http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/BatchNumber>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/DistributionChannel>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/ExpirationDate>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/GrossProfit>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/ManufacturerName>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/MarketingCampaign>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/NetProfit>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/OperatingCost>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/ProductCode>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/ProductionDate>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/QuantitySold>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/SalesRegion>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/SalesRevenue>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/StorageHumidity>,
+        <http://metaUnionSearch/datasets/VeterinaryMedicine7BLMMDPC/column/StorageTemperature> .
+

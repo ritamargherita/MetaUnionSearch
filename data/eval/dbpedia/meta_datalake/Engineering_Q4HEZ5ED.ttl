@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED> a dsv:Dataset ;
+    dcterms:subject "engineering" ;
+    dcterms:title "Engineering_Q4HEZ5ED.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/CommunicationPlan> a dsv:Column ;
+    rdfs:label "Communication Plan" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/EngineeringEthics> a dsv:Column ;
+    rdfs:label "Engineering Ethics" .
+
+<http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/EnvironmentalImpact> a dsv:Column ;
+    rdfs:label "Environmental Impact" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/IndustryRegulations> a dsv:Column ;
+    rdfs:label "Industry Regulations" ;
+    dsv:columnProperty "industry" .
+
+<http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/InnovationManagement> a dsv:Column ;
+    rdfs:label "Innovation Management" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/LessonsLearned> a dsv:Column ;
+    rdfs:label "Lessons Learned" ;
+    dsv:columnProperty "publication" .
+
+<http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/ProfessionalDevelopment> a dsv:Column ;
+    rdfs:label "Professional Development" ;
+    dsv:columnProperty "training" .
+
+<http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/ResourceAllocation> a dsv:Column ;
+    rdfs:label "Resource Allocation" ;
+    dsv:columnProperty "budget ($)" .
+
+<http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/RiskAssessment> a dsv:Column ;
+    rdfs:label "Risk Assessment" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/StakeholderEngagement> a dsv:Column ;
+    rdfs:label "Stakeholder Engagement" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/Table2KeyDates> a dsv:Column ;
+    rdfs:label "Table 2 Key Dates" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/TechnicalPublications> a dsv:Column ;
+    rdfs:label "Technical Publications" ;
+    dsv:columnProperty "publication" .
+
+<http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/WorkplaceDiversity> a dsv:Column ;
+    rdfs:label "Workplace Diversity" ;
+    dsv:columnProperty "minority" .
+
+<http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/CommunicationPlan>,
+        <http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/EngineeringEthics>,
+        <http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/EnvironmentalImpact>,
+        <http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/IndustryRegulations>,
+        <http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/InnovationManagement>,
+        <http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/LessonsLearned>,
+        <http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/ProfessionalDevelopment>,
+        <http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/ResourceAllocation>,
+        <http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/RiskAssessment>,
+        <http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/StakeholderEngagement>,
+        <http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/Table2KeyDates>,
+        <http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/TechnicalPublications>,
+        <http://metaUnionSearch/datasets/EngineeringQ4HEZ5ED/column/WorkplaceDiversity> .
+

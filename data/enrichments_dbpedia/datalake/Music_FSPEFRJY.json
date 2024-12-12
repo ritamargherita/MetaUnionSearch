@@ -1,0 +1,20 @@
+{
+  "mapping": [
+    {"column_header": "Lyrics Writer", "dbpedia_property_id": "http://dbpedia.org/ontology/lyrics"},
+    {"column_header": "Composer/Arranger", "dbpedia_property_id": "http://dbpedia.org/ontology/composer"},
+    {"column_header": "Music Production Technology", "dbpedia_property_id": "http://dbpedia.org/ontology/production"},
+    {"column_header": "Sound Engineer", "dbpedia_property_id": "http://dbpedia.org/ontology/engineer"},
+    {"column_header": "Live Performance Venue", "dbpedia_property_id": "http://dbpedia.org/ontology/homeArena"},
+    {"column_header": "Studio Recording Location", "dbpedia_property_id": "http://dbpedia.org/ontology/recordedIn"},
+    {"column_header": "Charts & Peaks", "dbpedia_property_id": "http://dbpedia.org/ontology/tempPlace"},
+    {"column_header": "Radio Airplay", "dbpedia_property_id": "http://dbpedia.org/ontology/radio"},
+    {"column_header": "Grammy Awards", "dbpedia_property_id": "http://dbpedia.org/ontology/grammyAward"},
+    {"column_header": "Other Major Award Nominations/Wins", "dbpedia_property_id": "http://dbpedia.org/ontology/award"},
+    {"column_header": "Music Streaming Platforms", "dbpedia_property_id": "http://dbpedia.org/ontology/platform"},
+    {"column_header": "Sales (Physical/Digital)", "dbpedia_property_id": "http://dbpedia.org/ontology/sales"},
+    {"column_header": "World Tour Dates", "dbpedia_property_id": "http://dbpedia.org/ontology/worldTournament"},
+    {"column_header": "Collaborating Artists", "dbpedia_property_id": "http://dbpedia.org/ontology/associatedMusicalArtist"},
+    {"column_header": "Genre Sub-genre", "dbpedia_property_id": "http://dbpedia.org/ontology/musicSubgenre"},
+    {"column_header": "Music Influences", "dbpedia_property_id": "http://dbpedia.org/ontology/influence"}
+  ]
+}

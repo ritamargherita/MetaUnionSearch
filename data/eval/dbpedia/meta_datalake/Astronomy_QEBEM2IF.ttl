@@ -1,0 +1,111 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF> a dsv:Dataset ;
+    dcterms:subject "astronomy" ;
+    dcterms:title "Astronomy_QEBEM2IF.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/Diameterkpc> a dsv:Column ;
+    rdfs:label "Diameter (kpc)" ;
+    dsv:columnProperty "diameter (μ)" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/GalacticCoordinatesXYZ> a dsv:Column ;
+    rdfs:label "Galactic Coordinates (X, Y, Z)" ;
+    dsv:columnProperty "kind of coordinate" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/GalaxyName> a dsv:Column ;
+    rdfs:label "`Galaxy Name" ;
+    dsv:columnProperty "NGC name" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/GalaxyType> a dsv:Column ;
+    rdfs:label "Galaxy Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/MassM> a dsv:Column ;
+    rdfs:label "Mass (M☉)" ;
+    dsv:columnProperty "mass (g)" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/RedshiftFactor> a dsv:Column ;
+    rdfs:label "Redshift Factor" ;
+    dsv:columnProperty "red long distance piste number" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarAbsoluteMagnitude> a dsv:Column ;
+    rdfs:label "Star_Absolute Magnitude" ;
+    dsv:columnProperty "absolute magnitude" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarApparentMagnitude> a dsv:Column ;
+    rdfs:label "Star_Apparent Magnitude" ;
+    dsv:columnProperty "apparent magnitude" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarBlackHolePresence> a dsv:Column ;
+    rdfs:label "Star_Black Hole Presence" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarDeclination> a dsv:Column ;
+    rdfs:label "Star_Declination" ;
+    dsv:columnProperty "declination" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarDiameter> a dsv:Column ;
+    rdfs:label "Star_Diameter" ;
+    dsv:columnProperty "diameter (μ)" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarDistancefromEarthly> a dsv:Column ;
+    rdfs:label "Star_Distance from Earth (ly)" ;
+    dsv:columnProperty "Radius_ly" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarMass> a dsv:Column ;
+    rdfs:label "Star_Mass" ;
+    dsv:columnProperty "mass (g)" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarNumberofMoons> a dsv:Column ;
+    rdfs:label "Star_Number of Moons" ;
+    dsv:columnProperty "number of stars" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarNumberofPlanets> a dsv:Column ;
+    rdfs:label "Star_Number of Planets" ;
+    dsv:columnProperty "number of orbits" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarRightAscension> a dsv:Column ;
+    rdfs:label "Star_Right Ascension" ;
+    dsv:columnProperty "right ascension" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarSpiralArmStructure> a dsv:Column ;
+    rdfs:label "Star_Spiral Arm Structure" ;
+    dsv:columnProperty "arm" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarStar> a dsv:Column ;
+    rdfs:label "Star_Star" ;
+    dsv:columnProperty "number of stars" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarStarType> a dsv:Column ;
+    rdfs:label "Star_Star Type" ;
+    dsv:columnProperty "stellar classification" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/UniqueInfo> a dsv:Column ;
+    rdfs:label "Unique Info`" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/AstronomyQEBEM2IF/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/Diameterkpc>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/GalacticCoordinatesXYZ>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/GalaxyName>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/GalaxyType>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/MassM>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/RedshiftFactor>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarAbsoluteMagnitude>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarApparentMagnitude>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarBlackHolePresence>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarDeclination>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarDiameter>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarDistancefromEarthly>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarMass>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarNumberofMoons>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarNumberofPlanets>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarRightAscension>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarSpiralArmStructure>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarStar>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/StarStarType>,
+        <http://metaUnionSearch/datasets/AstronomyQEBEM2IF/column/UniqueInfo> .
+

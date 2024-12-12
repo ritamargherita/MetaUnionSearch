@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EnvironmentSBTN76MZ> a dsv:Dataset ;
+    dcterms:subject "environment" ;
+    dcterms:title "Environment_SBTN76MZ.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/BioplasticsUsage> a dsv:Column ;
+    rdfs:label "Bioplastics_Usage." ;
+    dsv:columnProperty "project keyword" .
+
+<http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/ClimateChangePolicy> a dsv:Column ;
+    rdfs:label "Climate_Change_Policy" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/EcoTourismRevenue> a dsv:Column ;
+    rdfs:label "Eco_Tourism_Revenue" ;
+    dsv:columnProperty "revenue ($)" .
+
+<http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/EndangeredSpeciesProgram> a dsv:Column ;
+    rdfs:label "Endangered_Species_Program" ;
+    dsv:columnProperty "endangered since" .
+
+<http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/EnvironmentalEducationPrograms> a dsv:Column ;
+    rdfs:label "Environmental_Education_Programs" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/FossilFuelConsumption> a dsv:Column ;
+    rdfs:label "Fossil_Fuel_Consumption" ;
+    dsv:columnProperty "fuel consumption" .
+
+<http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/GreenSpaceAvailability> a dsv:Column ;
+    rdfs:label "Green_Space_Availability" ;
+    dsv:columnProperty "has outside place" .
+
+<http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/NaturalDisasterResponse> a dsv:Column ;
+    rdfs:label "Natural_Disaster_Response" ;
+    dsv:columnProperty "relief" .
+
+<http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/RecyclingInitiatives> a dsv:Column ;
+    rdfs:label "Recycling_Initiatives" ;
+    dsv:columnProperty "project keyword" .
+
+<http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/RenewableEnergyInvestment> a dsv:Column ;
+    rdfs:label "Renewable_Energy_Investment" ;
+    dsv:columnProperty "project keyword" .
+
+<http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/SustainableAgriculturePractices> a dsv:Column ;
+    rdfs:label "Sustainable_Agriculture_Practices" ;
+    dsv:columnProperty "project keyword" .
+
+<http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/BioplasticsUsage>,
+        <http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/ClimateChangePolicy>,
+        <http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/EcoTourismRevenue>,
+        <http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/EndangeredSpeciesProgram>,
+        <http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/EnvironmentalEducationPrograms>,
+        <http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/FossilFuelConsumption>,
+        <http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/GreenSpaceAvailability>,
+        <http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/NaturalDisasterResponse>,
+        <http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/RecyclingInitiatives>,
+        <http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/RenewableEnergyInvestment>,
+        <http://metaUnionSearch/datasets/EnvironmentSBTN76MZ/column/SustainableAgriculturePractices> .
+

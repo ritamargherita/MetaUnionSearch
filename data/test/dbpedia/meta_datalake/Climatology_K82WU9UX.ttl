@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ClimatologyK82WU9UX> a dsv:Dataset ;
+    dcterms:subject "climatology" ;
+    dcterms:title "Climatology_K82WU9UX.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ClimatologyK82WU9UX/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/AdditionalStudiesID> a dsv:Column ;
+    rdfs:label "Additional Studies ID" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/AdditionalWeatherParameters> a dsv:Column ;
+    rdfs:label "Additional Weather Parameters" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/AtmosphericPressureDifferencedifferenceinhPa> a dsv:Column ;
+    rdfs:label "Atmospheric Pressure Difference (difference in h Pa)" ;
+    dsv:columnProperty "vapor pressure (hPa)" .
+
+<http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/DeltaTemperatureC> a dsv:Column ;
+    rdfs:label "Delta Temperature (Δ°C)" ;
+    dsv:columnProperty "temperature (K)" .
+
+<http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/PrecipitationDetailstypeaccumulationifany> a dsv:Column ;
+    rdfs:label "Precipitation Details ($type$, accumulation$'$), if any$" .
+
+<http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/RelativeHumidityChangeagepoints> a dsv:Column ;
+    rdfs:label "Relative Humidity Change (Δ%age points)" .
+
+<http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/SameDateTime> a dsv:Column ;
+    rdfs:label "Same Date&Time" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/SubsurfaceMoistureLayersdepthsoilstypeporesaturation> a dsv:Column ;
+    rdfs:label "Subsurface Moisture Layers (& depth, soils type(*)), pore saturation(%)" ;
+    dsv:columnProperty "water percentage of a place" .
+
+<http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/SunlightMeasuresdurationUVindexshadefactorsbrightnessilluminancelux> a dsv:Column ;
+    rdfs:label "Sunlight Measures (duration + UV index)$, shade factors(%$), brightness(illuminance - lux)$^***$$)^^^^*^$" .
+
+<http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/WindSpecificsdirectiongustspeedifavailable> a dsv:Column ;
+    rdfs:label "Wind Specifics (direction*, gust speed), if available$" .
+
+<http://metaUnionSearch/datasets/ClimatologyK82WU9UX/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/AdditionalStudiesID>,
+        <http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/AdditionalWeatherParameters>,
+        <http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/AtmosphericPressureDifferencedifferenceinhPa>,
+        <http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/DeltaTemperatureC>,
+        <http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/PrecipitationDetailstypeaccumulationifany>,
+        <http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/RelativeHumidityChangeagepoints>,
+        <http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/SameDateTime>,
+        <http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/SubsurfaceMoistureLayersdepthsoilstypeporesaturation>,
+        <http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/SunlightMeasuresdurationUVindexshadefactorsbrightnessilluminancelux>,
+        <http://metaUnionSearch/datasets/ClimatologyK82WU9UX/column/WindSpecificsdirectiongustspeedifavailable> .
+

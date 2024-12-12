@@ -1,0 +1,85 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT> a dsv:Dataset ;
+    dcterms:subject "sociology" ;
+    dcterms:title "Sociology_KFS6VFPT.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SociologyKFS6VFPT/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/AdditionalVariables> a dsv:Column ;
+    rdfs:label "AdditionalVariables" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/Conclusion> a dsv:Column ;
+    rdfs:label "Conclusion" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/Contributions> a dsv:Column ;
+    rdfs:label "Contributions" ;
+    dsv:columnProperty "known for" .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/DataAnalysisPlan> a dsv:Column ;
+    rdfs:label "DataAnalysisPlan" ;
+    dsv:columnProperty "Aggregation" .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/DataCollectionMethod> a dsv:Column ;
+    rdfs:label "DataCollectionMethod" ;
+    dsv:columnProperty "collection" .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/Findings> a dsv:Column ;
+    rdfs:label "Findings" ;
+    dsv:columnProperty "result" .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/FutureResearch> a dsv:Column ;
+    rdfs:label "FutureResearch" .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/Limitations> a dsv:Column ;
+    rdfs:label "Limitations" ;
+    dsv:columnProperty "limit" .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/Population> a dsv:Column ;
+    rdfs:label "Population" ;
+    dsv:columnProperty "population" .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/Replicability> a dsv:Column ;
+    rdfs:label "Replicability" ;
+    dsv:columnProperty "open access content" .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/ResearchDesign> a dsv:Column ;
+    rdfs:label "ResearchDesign" ;
+    dsv:columnProperty "significant design" .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/ResearchEthics> a dsv:Column ;
+    rdfs:label "ResearchEthics" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/SampleSize> a dsv:Column ;
+    rdfs:label "SampleSize" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/SamplingStrategy> a dsv:Column ;
+    rdfs:label "SamplingStrategy" ;
+    dsv:columnProperty "population as of" .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/SociologicalTheory> a dsv:Column ;
+    rdfs:label "SociologicalTheory" ;
+    dsv:columnProperty "ideology" .
+
+<http://metaUnionSearch/datasets/SociologyKFS6VFPT/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/AdditionalVariables>,
+        <http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/Conclusion>,
+        <http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/Contributions>,
+        <http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/DataAnalysisPlan>,
+        <http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/DataCollectionMethod>,
+        <http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/Findings>,
+        <http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/FutureResearch>,
+        <http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/Limitations>,
+        <http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/Population>,
+        <http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/Replicability>,
+        <http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/ResearchDesign>,
+        <http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/ResearchEthics>,
+        <http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/SampleSize>,
+        <http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/SamplingStrategy>,
+        <http://metaUnionSearch/datasets/SociologyKFS6VFPT/column/SociologicalTheory> .
+

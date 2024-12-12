@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY> a dsv:Dataset ;
+    dcterms:subject "biology" ;
+    dcterms:title "Biology_WT1Q3TMY.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/BiologyWT1Q3TMY/datasetSchema> .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Adaptiveresponsestoenvironmentalstimuli> a dsv:Column ;
+    rdfs:label "Adaptive responses to environmental stimuli" ;
+    dsv:columnProperty "other activity" .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Developmentallyregulatedexpressionprofiles> a dsv:Column ;
+    rdfs:label "Developmentally regulated expression profiles" ;
+    dsv:columnProperty "activity" .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/GeneontologyannotationsadditionaltoTable1> a dsv:Column ;
+    rdfs:label "Gene ontology annotations (additional to Table 1)" ;
+    dsv:columnProperty "government type" .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Genomiccontextnoncodingregions> a dsv:Column ;
+    rdfs:label "Genomic context (noncoding regions)" ;
+    dsv:columnProperty "Gene Location" .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/HomologousrelationshipsbeyondevolutionaryhistoryfromTable1> a dsv:Column ;
+    rdfs:label "Homologous relationships beyond evolutionary history from Table 1" ;
+    dsv:columnProperty "related" .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Individualproteinmolecularweight> a dsv:Column ;
+    rdfs:label "Individual protein molecular weight" ;
+    dsv:columnProperty "molecular weight" .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/InteractionswithotherentitiesadditionaltoTable1> a dsv:Column ;
+    rdfs:label "Interactions with other entities (additional to Table 1)" ;
+    dsv:columnProperty "related" .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Largescalestructuresitformspartof> a dsv:Column ;
+    rdfs:label "Large scale structures it forms part of" ;
+    dsv:columnProperty "is part of anatomical structure" .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Molecularpathwaysinvolved> a dsv:Column ;
+    rdfs:label "Molecular pathways involved" ;
+    dsv:columnProperty "KEGG" .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Nucleotidesequencelength> a dsv:Column ;
+    rdfs:label "Nucleotide sequence length" ;
+    dsv:columnProperty "length (μ)" .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Physiologicallyrelevantprocesses> a dsv:Column ;
+    rdfs:label "Physiologically relevant processes" ;
+    dsv:columnProperty "other activity" .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Posttranslationalmodifications> a dsv:Column ;
+    rdfs:label "Posttranslational modifications" ;
+    dsv:columnProperty "other activity" .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Proteincomplexmembership> a dsv:Column ;
+    rdfs:label "Protein complex membership" ;
+    dsv:columnProperty "activity" .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Regulatoryrolesplayedovergeneexpression> a dsv:Column ;
+    rdfs:label "Regulatory roles played over gene expression" ;
+    dsv:columnProperty "activity" .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/SubcellularlocalizationsnotcoveredbyTable1> a dsv:Column ;
+    rdfs:label "Subcellular localizations not covered by Table 1" ;
+    dsv:columnProperty "is part of anatomical structure" .
+
+<http://metaUnionSearch/datasets/BiologyWT1Q3TMY/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Adaptiveresponsestoenvironmentalstimuli>,
+        <http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Developmentallyregulatedexpressionprofiles>,
+        <http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/GeneontologyannotationsadditionaltoTable1>,
+        <http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Genomiccontextnoncodingregions>,
+        <http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/HomologousrelationshipsbeyondevolutionaryhistoryfromTable1>,
+        <http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Individualproteinmolecularweight>,
+        <http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/InteractionswithotherentitiesadditionaltoTable1>,
+        <http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Largescalestructuresitformspartof>,
+        <http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Molecularpathwaysinvolved>,
+        <http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Nucleotidesequencelength>,
+        <http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Physiologicallyrelevantprocesses>,
+        <http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Posttranslationalmodifications>,
+        <http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Proteincomplexmembership>,
+        <http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/Regulatoryrolesplayedovergeneexpression>,
+        <http://metaUnionSearch/datasets/BiologyWT1Q3TMY/column/SubcellularlocalizationsnotcoveredbyTable1> .
+

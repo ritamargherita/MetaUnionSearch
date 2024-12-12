@@ -1,0 +1,83 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV> a dsv:Dataset ;
+    dcterms:subject "gardening" ;
+    dcterms:title "Gardening_U6Y0PRZV.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GardeningU6Y0PRZV/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/AverageGrowRate> a dsv:Column ;
+    rdfs:label "AverageGrowRate" ;
+    dsv:columnProperty "average" .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/FamilyClassification> a dsv:Column ;
+    rdfs:label "FamilyClassification" ;
+    dsv:columnProperty "family" .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/FertlizerRecommendations> a dsv:Column ;
+    rdfs:label "FertlizerRecommendations" .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/HarvestSeason> a dsv:Column ;
+    rdfs:label "HarvestSeason" ;
+    dsv:columnProperty "season" .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/IdealSoilTemperatureRange> a dsv:Column ;
+    rdfs:label "IdealSoilTemperatureRange" ;
+    dsv:columnProperty "temperature (K)" .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/MaximumMatureHeight> a dsv:Column ;
+    rdfs:label "MaximumMatureHeight" ;
+    dsv:columnProperty "maximum area" .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/MaximumMatureSpread> a dsv:Column ;
+    rdfs:label "MaximumMatureSpread" ;
+    dsv:columnProperty "maximum area" .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/MistPropensity> a dsv:Column ;
+    rdfs:label "MistPropensity" ;
+    dsv:columnProperty "Odor" .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/OriginCountry> a dsv:Column ;
+    rdfs:label "OriginCountry" ;
+    dsv:columnProperty "country origin" .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/PotentialToxicitySignals> a dsv:Column ;
+    rdfs:label "PotentialToxicitySignals" ;
+    dsv:columnProperty "lethal when given to rats" .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/PropagationMethods> a dsv:Column ;
+    rdfs:label "PropagationMethods" ;
+    dsv:columnProperty "cultivar" .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/QuantityInStock> a dsv:Column ;
+    rdfs:label "QuantityInStock" ;
+    dsv:columnProperty "supply" .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/RootSystemDepthFeet> a dsv:Column ;
+    rdfs:label "RootSystemDepthFeet" ;
+    dsv:columnProperty "maximum area" .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/SoilPh> a dsv:Column ;
+    rdfs:label "SoilPh" .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/WateringFrequency> a dsv:Column ;
+    rdfs:label "WateringFrequency" .
+
+<http://metaUnionSearch/datasets/GardeningU6Y0PRZV/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/AverageGrowRate>,
+        <http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/FamilyClassification>,
+        <http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/FertlizerRecommendations>,
+        <http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/HarvestSeason>,
+        <http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/IdealSoilTemperatureRange>,
+        <http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/MaximumMatureHeight>,
+        <http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/MaximumMatureSpread>,
+        <http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/MistPropensity>,
+        <http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/OriginCountry>,
+        <http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/PotentialToxicitySignals>,
+        <http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/PropagationMethods>,
+        <http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/QuantityInStock>,
+        <http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/RootSystemDepthFeet>,
+        <http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/SoilPh>,
+        <http://metaUnionSearch/datasets/GardeningU6Y0PRZV/column/WateringFrequency> .
+

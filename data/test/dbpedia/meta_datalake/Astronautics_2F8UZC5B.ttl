@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B> a dsv:Dataset ;
+    dcterms:subject "astronautics" ;
+    dcterms:title "Astronautics_2F8UZC5B.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/AstronautExperienceyears> a dsv:Column ;
+    rdfs:label "Astronaut Experience (years)" ;
+    dsv:columnProperty "total time person has spent in space (s)" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/AstronomyDiscipline> a dsv:Column ;
+    rdfs:label "Astronomy Discipline" ;
+    dsv:columnProperty "academic discipline" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/CollaborativeAgencies> a dsv:Column ;
+    rdfs:label "Collaborative Agencies" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/Durationdays> a dsv:Column ;
+    rdfs:label "Duration (days)" ;
+    dsv:columnProperty "mission duration (s)" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/MissionName> a dsv:Column ;
+    rdfs:label "Mission Name" ;
+    dsv:columnProperty "mission" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/PrimaryObjectivesExplained> a dsv:Column ;
+    rdfs:label "Primary Objectives Explained" ;
+    dsv:columnProperty "project objective" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/ReusedFirstStageReturnCrewCapacity> a dsv:Column ;
+    rdfs:label "Reused?, First Stage Return, Crew Capacity" ;
+    dsv:columnProperty "crew size" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/SpacecraftUsed> a dsv:Column ;
+    rdfs:label "Spacecraft Used" ;
+    dsv:columnProperty "spacecraft" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/StartDate> a dsv:Column ;
+    rdfs:label "Start Date" ;
+    dsv:columnProperty "start date" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/TargetPlanetorBody> a dsv:Column ;
+    rdfs:label "Target Planet or Body" ;
+    dsv:columnProperty "destination" .
+
+<http://metaUnionSearch/datasets/Astronautics2F8UZC5B/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/AstronautExperienceyears>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/AstronomyDiscipline>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/CollaborativeAgencies>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/Durationdays>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/MissionName>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/PrimaryObjectivesExplained>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/ReusedFirstStageReturnCrewCapacity>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/SpacecraftUsed>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/StartDate>,
+        <http://metaUnionSearch/datasets/Astronautics2F8UZC5B/column/TargetPlanetorBody> .
+

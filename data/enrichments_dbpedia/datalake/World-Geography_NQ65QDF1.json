@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Island Nation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/nation"
+    },
+    {
+      "column_header": " Island Area (km2)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/areaWater"
+    },
+    {
+      "column_header": " Coastline Length (km)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/coastLength"
+    },
+    {
+      "column_header": " Number Of Islands",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfIslands"
+    },
+    {
+      "column_header": " Underwater Volcanoes",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/volcanoId"
+    },
+    {
+      "column_header": " Closest Continent",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/continent"
+    },
+    {
+      "column_header": " Average Temperature (°C)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/meanTemperature"
+    },
+    {
+      "column_header": " Precipitation (mm)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/climate"
+    },
+    {
+      "column_header": " Dominant Marine Life",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/fauna"
+    },
+    {
+      "column_header": " Famous Coral Reef System",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sea"
+    },
+    {
+      "column_header": " Highest Elevation (m)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/highestPoint"
+    },
+    {
+      "column_header": " Population",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/populationTotal"
+    }
+  ]
+}

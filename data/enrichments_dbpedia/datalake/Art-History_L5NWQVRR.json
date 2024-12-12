@@ -6,7 +6,7 @@
     {"column_header": "Key Concept/Theme", "dbpedia_property_id": "http://dbpedia.org/ontology/ideology"},
     {"column_header": "Major Exhibitions", "dbpedia_property_id": "http://dbpedia.org/ontology/exhibition"},
     {"column_header": "Curatorial Approach", "dbpedia_property_id": "http://dbpedia.org/ontology/approach"},
-    {"column_header": ""Conservation & Restoration" Challenges*", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
+    {"column_header": "Conservation & Restoration Challenges*", "dbpedia_property_id": "http://dbpedia.org/ontology/conservationStatus"},
     {"column_header": "Public Response*", "dbpedia_property_id": "http://dbpedia.org/ontology/comment"},
     {"column_header": "Socio-Political Climate Impact", "dbpedia_property_id": "http://dbpedia.org/ontology/climate"},
     {"column_header": "Artwork Title", "dbpedia_property_id": "http://dbpedia.org/ontology/title"},

@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS> a dsv:Dataset ;
+    dcterms:subject "cooking" ;
+    dcterms:title "Cooking_WOT0VXQS.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/CookingWOT0VXQS/datasetSchema> .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS/column/AdditionalIngredients> a dsv:Column ;
+    rdfs:label "Additional Ingredients" ;
+    dsv:columnProperty "ingredient" .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS/column/CaloriesperServing> a dsv:Column ;
+    rdfs:label "Calories per Serving" ;
+    dsv:columnProperty "approximate calories (J)" .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS/column/CookTime> a dsv:Column ;
+    rdfs:label "Cook Time" ;
+    dsv:columnProperty "maximum preparation time (s)" .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS/column/DietaryRestrictions> a dsv:Column ;
+    rdfs:label "Dietary Restrictions" ;
+    dsv:columnProperty "restriction" .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS/column/ExtraPreparationSteps> a dsv:Column ;
+    rdfs:label "Extra Preparation Steps" ;
+    dsv:columnProperty "procedure" .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS/column/ImageURL> a dsv:Column ;
+    rdfs:label "Image URL" ;
+    dsv:columnProperty "The URL at which this file can be downloaded" .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS/column/IngredientSource> a dsv:Column ;
+    rdfs:label "Ingredient Source" ;
+    dsv:columnProperty "source" .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS/column/NutrientBreakdown> a dsv:Column ;
+    rdfs:label "Nutrient Breakdown" ;
+    dsv:columnProperty "ingredient" .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS/column/OriginalCreator> a dsv:Column ;
+    rdfs:label "Original Creator" ;
+    dsv:columnProperty "creator (agent)" .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS/column/PrepTime> a dsv:Column ;
+    rdfs:label "Prep Time" ;
+    dsv:columnProperty "minimum preparation time (s)" .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS/column/RatingAverage> a dsv:Column ;
+    rdfs:label "Rating Average" ;
+    dsv:columnProperty "rating" .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS/column/RecipeID> a dsv:Column ;
+    rdfs:label "Recipe ID" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS/column/ReviewCount> a dsv:Column ;
+    rdfs:label "Review Count" ;
+    dsv:columnProperty "review" .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS/column/Servings> a dsv:Column ;
+    rdfs:label "Servings" ;
+    dsv:columnProperty "serving size (g)" .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS/column/SpecialUtensils> a dsv:Column ;
+    rdfs:label "Special Utensils" ;
+    dsv:columnProperty "equipment" .
+
+<http://metaUnionSearch/datasets/CookingWOT0VXQS/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/CookingWOT0VXQS/column/AdditionalIngredients>,
+        <http://metaUnionSearch/datasets/CookingWOT0VXQS/column/CaloriesperServing>,
+        <http://metaUnionSearch/datasets/CookingWOT0VXQS/column/CookTime>,
+        <http://metaUnionSearch/datasets/CookingWOT0VXQS/column/DietaryRestrictions>,
+        <http://metaUnionSearch/datasets/CookingWOT0VXQS/column/ExtraPreparationSteps>,
+        <http://metaUnionSearch/datasets/CookingWOT0VXQS/column/ImageURL>,
+        <http://metaUnionSearch/datasets/CookingWOT0VXQS/column/IngredientSource>,
+        <http://metaUnionSearch/datasets/CookingWOT0VXQS/column/NutrientBreakdown>,
+        <http://metaUnionSearch/datasets/CookingWOT0VXQS/column/OriginalCreator>,
+        <http://metaUnionSearch/datasets/CookingWOT0VXQS/column/PrepTime>,
+        <http://metaUnionSearch/datasets/CookingWOT0VXQS/column/RatingAverage>,
+        <http://metaUnionSearch/datasets/CookingWOT0VXQS/column/RecipeID>,
+        <http://metaUnionSearch/datasets/CookingWOT0VXQS/column/ReviewCount>,
+        <http://metaUnionSearch/datasets/CookingWOT0VXQS/column/Servings>,
+        <http://metaUnionSearch/datasets/CookingWOT0VXQS/column/SpecialUtensils> .
+

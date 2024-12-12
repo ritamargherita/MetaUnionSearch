@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG> a dsv:Dataset ;
+    dcterms:subject "engineering" ;
+    dcterms:title "Engineering_3QXKHKTG.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Engineering3QXKHKTG/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/Certifications> a dsv:Column ;
+    rdfs:label "Certifications" ;
+    dsv:columnProperty "certification" .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/CollaborativeProjects> a dsv:Column ;
+    rdfs:label "Collaborative Projects" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/DesignTools> a dsv:Column ;
+    rdfs:label "Design Tools" ;
+    dsv:columnProperty "designer company" .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/EngineeringSpecialization> a dsv:Column ;
+    rdfs:label "Engineering Specialization" ;
+    dsv:columnProperty "specialization" .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/EthicalGuidelines> a dsv:Column ;
+    rdfs:label "Ethical Guidelines" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/IndustryApplication> a dsv:Column ;
+    rdfs:label "Industry Application" ;
+    dsv:columnProperty "industry" .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/InnovationMetrics> a dsv:Column ;
+    rdfs:label "Innovation Metrics" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/LeadEngineer> a dsv:Column ;
+    rdfs:label "Lead Engineer" ;
+    dsv:columnProperty "principal engineer" .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/MentorshipOpportunities> a dsv:Column ;
+    rdfs:label "Mentorship Opportunities" ;
+    dsv:columnProperty "mentor" .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/ProfessionalAssociations> a dsv:Column ;
+    rdfs:label "Professional Associations" ;
+    dsv:columnProperty "organisation" .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/ProjectMilestones> a dsv:Column ;
+    rdfs:label "Project Milestones" ;
+    dsv:columnProperty "project" .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/RegulatoryCompliance> a dsv:Column ;
+    rdfs:label "Regulatory Compliance" ;
+    dsv:columnProperty "authority" .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/RiskManagement> a dsv:Column ;
+    rdfs:label "Risk Management" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/TrainingPrograms> a dsv:Column ;
+    rdfs:label "Training Programs" ;
+    dsv:columnProperty "training" .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/WorkEnvironment> a dsv:Column ;
+    rdfs:label "Work Environment" ;
+    dsv:columnProperty "work" .
+
+<http://metaUnionSearch/datasets/Engineering3QXKHKTG/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/Certifications>,
+        <http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/CollaborativeProjects>,
+        <http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/DesignTools>,
+        <http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/EngineeringSpecialization>,
+        <http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/EthicalGuidelines>,
+        <http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/IndustryApplication>,
+        <http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/InnovationMetrics>,
+        <http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/LeadEngineer>,
+        <http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/MentorshipOpportunities>,
+        <http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/ProfessionalAssociations>,
+        <http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/ProjectMilestones>,
+        <http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/RegulatoryCompliance>,
+        <http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/RiskManagement>,
+        <http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/TrainingPrograms>,
+        <http://metaUnionSearch/datasets/Engineering3QXKHKTG/column/WorkEnvironment> .
+

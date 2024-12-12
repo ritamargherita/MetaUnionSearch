@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/GeneticsXI9D99VH> a dsv:Dataset ;
+    dcterms:subject "genetics" ;
+    dcterms:title "Genetics_XI9D99VH.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/GeneticsXI9D99VH/datasetSchema> .
+
+<http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/AdditionalPhysicalCharacteristics> a dsv:Column ;
+    rdfs:label "Additional Physical Characteristics" ;
+    dsv:columnProperty "notable features" .
+
+<http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/AgeatOnset> a dsv:Column ;
+    rdfs:label "Age at Onset" ;
+    dsv:columnProperty "age" .
+
+<http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/AminoAcidChanges> a dsv:Column ;
+    rdfs:label "Amino Acid Changes" ;
+    dsv:columnProperty "variant or variation" .
+
+<http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/DrugInteractions> a dsv:Column ;
+    rdfs:label "Drug Interactions" ;
+    dsv:columnProperty "Drug" .
+
+<http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/EffectonProteinFunction> a dsv:Column ;
+    rdfs:label "Effect on Protein Function" ;
+    dsv:columnProperty "other function" .
+
+<http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/EnvironmentalTriggers> a dsv:Column ;
+    rdfs:label "Environmental Triggers" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/EpigenomicModifications> a dsv:Column ;
+    rdfs:label "Epigenomic Modifications" ;
+    dsv:columnProperty "other function" .
+
+<http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/GenesAffectingDisease> a dsv:Column ;
+    rdfs:label "Genes Affecting Disease" ;
+    dsv:columnProperty "diseasesDb" .
+
+<http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/LocusHeterogeneity> a dsv:Column ;
+    rdfs:label "Locus Heterogeneity" ;
+    dsv:columnProperty "locus supplementary data" .
+
+<http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/Penetrances> a dsv:Column ;
+    rdfs:label "Penetrances" ;
+    dsv:columnProperty "caused by" .
+
+<http://metaUnionSearch/datasets/GeneticsXI9D99VH/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/AdditionalPhysicalCharacteristics>,
+        <http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/AgeatOnset>,
+        <http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/AminoAcidChanges>,
+        <http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/DrugInteractions>,
+        <http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/EffectonProteinFunction>,
+        <http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/EnvironmentalTriggers>,
+        <http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/EpigenomicModifications>,
+        <http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/GenesAffectingDisease>,
+        <http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/LocusHeterogeneity>,
+        <http://metaUnionSearch/datasets/GeneticsXI9D99VH/column/Penetrances> .
+

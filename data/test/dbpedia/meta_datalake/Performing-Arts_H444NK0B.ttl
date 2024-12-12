@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B> a dsv:Dataset ;
+    dcterms:subject "performing-arts" ;
+    dcterms:title "Performing-Arts_H444NK0B.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/PerformingArtsH444NK0B/datasetSchema> .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/10Active> a dsv:Column ;
+    rdfs:label "10. Active" ;
+    dsv:columnProperty "activity" .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/11InfluencedBy> a dsv:Column ;
+    rdfs:label "11. Influenced By" ;
+    dsv:columnProperty "influenced by" .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/12Influenced> a dsv:Column ;
+    rdfs:label "12. Influenced" ;
+    dsv:columnProperty "influenced" .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/13AwardsCategory> a dsv:Column ;
+    rdfs:label "13. Awards Category" ;
+    dsv:columnProperty "award" .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/14NotablePerformances> a dsv:Column ;
+    rdfs:label "14. Notable Performances" ;
+    dsv:columnProperty "notable work" .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/15Members> a dsv:Column ;
+    rdfs:label "15. Members" ;
+    dsv:columnProperty "number of members" .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/1ArtisticGroupName> a dsv:Column ;
+    rdfs:label "1. Artistic Group Name" ;
+    dsv:columnProperty "Music Band" .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/2ExtendedArtForm> a dsv:Column ;
+    rdfs:label "2. Extended Art Form" ;
+    dsv:columnProperty "artist function" .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/3BirthYear> a dsv:Column ;
+    rdfs:label "3. Birth Year" ;
+    dsv:columnProperty "birth year" .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/4CityorCountryofOrigin> a dsv:Column ;
+    rdfs:label "4. City or Country of Origin" ;
+    dsv:columnProperty "country origin" .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/5MainContributions> a dsv:Column ;
+    rdfs:label "5. Main Contribution(s)" ;
+    dsv:columnProperty "notable work" .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/6CareerStart> a dsv:Column ;
+    rdfs:label "6. Career Start" ;
+    dsv:columnProperty "start career" .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/7PopularWorks> a dsv:Column ;
+    rdfs:label "7. Popular Works" ;
+    dsv:columnProperty "other works" .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/8Awards> a dsv:Column ;
+    rdfs:label "8. Awards" ;
+    dsv:columnProperty "award" .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/9TotalAwards> a dsv:Column ;
+    rdfs:label "9. Total Awards" ;
+    dsv:columnProperty "Number of unique contributors" .
+
+<http://metaUnionSearch/datasets/PerformingArtsH444NK0B/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/10Active>,
+        <http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/11InfluencedBy>,
+        <http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/12Influenced>,
+        <http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/13AwardsCategory>,
+        <http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/14NotablePerformances>,
+        <http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/15Members>,
+        <http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/1ArtisticGroupName>,
+        <http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/2ExtendedArtForm>,
+        <http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/3BirthYear>,
+        <http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/4CityorCountryofOrigin>,
+        <http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/5MainContributions>,
+        <http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/6CareerStart>,
+        <http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/7PopularWorks>,
+        <http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/8Awards>,
+        <http://metaUnionSearch/datasets/PerformingArtsH444NK0B/column/9TotalAwards> .
+

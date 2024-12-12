@@ -1,0 +1,91 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67> a dsv:Dataset ;
+    dcterms:subject "economics" ;
+    dcterms:title "Economics_MX23SY67.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EconomicsMX23SY67/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/column/consumerpriceindex> a dsv:Column ;
+    rdfs:label "consumer_price_index" ;
+    dsv:columnProperty "price ($)" .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/column/economicindicator> a dsv:Column ;
+    rdfs:label "economic_indicator" ;
+    dsv:columnProperty "statistic" .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/column/energyimportsdependencypercentage> a dsv:Column ;
+    rdfs:label "energy_imports_dependency_percentage" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/column/exportstototaltradevaluepercentage> a dsv:Column ;
+    rdfs:label "exports_to_total_trade_value_percentage" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/column/fiscalyear> a dsv:Column ;
+    rdfs:label "fiscal_year" ;
+    dsv:columnProperty "statistic year" .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/column/ginicoefficient> a dsv:Column ;
+    rdfs:label "gini_coefficient" ;
+    dsv:columnProperty "gini coefficient" .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/column/hightechnologymanufacturingexportspercentagetotalmanufacturingexports> a dsv:Column ;
+    rdfs:label "high_technology_manufacturing_exports_percentage_total_manufacturing_exports" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/column/humandevelopmentindexranking> a dsv:Column ;
+    rdfs:label "human_development_index_ranking" ;
+    dsv:columnProperty "human development index rank" .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/column/inflationrate> a dsv:Column ;
+    rdfs:label "inflation_rate" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/column/internetuserpenetranceratepercentage> a dsv:Column ;
+    rdfs:label "internet_user_penetrance_rate_percentage." ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/column/lifeexpectancyatbirthyrbothsexescombined> a dsv:Column ;
+    rdfs:label "life_expectancy_at_birth_yr_both_sexes_combined" ;
+    dsv:columnProperty "life expectancy" .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/column/merchandiseexportssurplusordeficitpercentage> a dsv:Column ;
+    rdfs:label "merchandise_exports_surplus_or_deficit_percentage" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/column/povertylineincomepercentage> a dsv:Column ;
+    rdfs:label "poverty_line_income_percentage" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/column/researchanddevelopmentexpenditureasaproportionofgrossdomesticproductpercentage> a dsv:Column ;
+    rdfs:label "research_and_development_expenditure_as_a_proportion_of_gross_domestic_product_percentage" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/column/servicesexportssubservicesimportspercentageoftradevalue> a dsv:Column ;
+    rdfs:label "services_exports_sub_services_imports_percentage_of_trade_value" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/column/unemploymentpercentage> a dsv:Column ;
+    rdfs:label "unemployment_percentage" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/EconomicsMX23SY67/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EconomicsMX23SY67/column/consumerpriceindex>,
+        <http://metaUnionSearch/datasets/EconomicsMX23SY67/column/economicindicator>,
+        <http://metaUnionSearch/datasets/EconomicsMX23SY67/column/energyimportsdependencypercentage>,
+        <http://metaUnionSearch/datasets/EconomicsMX23SY67/column/exportstototaltradevaluepercentage>,
+        <http://metaUnionSearch/datasets/EconomicsMX23SY67/column/fiscalyear>,
+        <http://metaUnionSearch/datasets/EconomicsMX23SY67/column/ginicoefficient>,
+        <http://metaUnionSearch/datasets/EconomicsMX23SY67/column/hightechnologymanufacturingexportspercentagetotalmanufacturingexports>,
+        <http://metaUnionSearch/datasets/EconomicsMX23SY67/column/humandevelopmentindexranking>,
+        <http://metaUnionSearch/datasets/EconomicsMX23SY67/column/inflationrate>,
+        <http://metaUnionSearch/datasets/EconomicsMX23SY67/column/internetuserpenetranceratepercentage>,
+        <http://metaUnionSearch/datasets/EconomicsMX23SY67/column/lifeexpectancyatbirthyrbothsexescombined>,
+        <http://metaUnionSearch/datasets/EconomicsMX23SY67/column/merchandiseexportssurplusordeficitpercentage>,
+        <http://metaUnionSearch/datasets/EconomicsMX23SY67/column/povertylineincomepercentage>,
+        <http://metaUnionSearch/datasets/EconomicsMX23SY67/column/researchanddevelopmentexpenditureasaproportionofgrossdomesticproductpercentage>,
+        <http://metaUnionSearch/datasets/EconomicsMX23SY67/column/servicesexportssubservicesimportspercentageoftradevalue>,
+        <http://metaUnionSearch/datasets/EconomicsMX23SY67/column/unemploymentpercentage> .
+

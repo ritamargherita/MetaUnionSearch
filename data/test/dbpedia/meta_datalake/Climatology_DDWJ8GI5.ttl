@@ -1,0 +1,129 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5> a dsv:Dataset ;
+    dcterms:subject "climatology" ;
+    dcterms:title "Climatology_DDWJ8GI5.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/> a dsv:Column ;
+    rdfs:label ")" ;
+    dsv:columnProperty "area (m2)" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/1> a dsv:Column ;
+    rdfs:label ").1" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/AdditionalSensorData> a dsv:Column ;
+    rdfs:label "Additional Sensor Data" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/AdditionalTemperatureData> a dsv:Column ;
+    rdfs:label "Additional Temperature Data" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/AdditionalWeatherData> a dsv:Column ;
+    rdfs:label "Additional Weather Data" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/AtmosphericPressurehPa> a dsv:Column ;
+    rdfs:label "Atmospheric Pressure (hPa)" ;
+    dsv:columnProperty "vapor pressure (hPa)" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/AverageTemperatureCMaxTemperatureapos> a dsv:Column ;
+    rdfs:label "Average Temperature(ºC)_, Max_Temperature&apos" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/CloudCoverage967> a dsv:Column ;
+    rdfs:label "Cloud Coverage (&#967" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/DateTimeStamp> a dsv:Column ;
+    rdfs:label "Date & Time Stamp" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/E> a dsv:Column ;
+    rdfs:label "_E)" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/GeographicalLocationdeg> a dsv:Column ;
+    rdfs:label "Geographical Location(&deg" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/MinTemperatureCminTemp> a dsv:Column ;
+    rdfs:label "Min_Temperature_(^∘C)/min_Temp*" ;
+    dsv:columnProperty "minimum temperature (K)" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/Ndeg> a dsv:Column ;
+    rdfs:label "_N,& deg" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/Precipitationmm> a dsv:Column ;
+    rdfs:label "Precipitation (mm)" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/RelativeHumidity> a dsv:Column ;
+    rdfs:label "Relative Humidity (%)" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/SatelliteImageReference> a dsv:Column ;
+    rdfs:label "Satellite Image Reference" ;
+    dsv:columnProperty "satellite" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/SoilMoisture> a dsv:Column ;
+    rdfs:label "Soil Moisture (%)" ;
+    dsv:columnProperty "percentage" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/SolarRadiationWmx00BFD> a dsv:Column ;
+    rdfs:label "Solar Radiation (W/m&#x00BFD" ;
+    dsv:columnProperty "effectiveRadiatedPower (W)" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/StudyAreaID> a dsv:Column ;
+    rdfs:label "Study Area ID" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/WindSpeedms> a dsv:Column ;
+    rdfs:label "Wind Speed (m/s)" ;
+    dsv:columnProperty "average speed (kmh)" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/kmx00BFD> a dsv:Column ;
+    rdfs:label "/km&#x00BFD" ;
+    dsv:columnProperty "area (m2)" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/o> a dsv:Column ;
+    rdfs:label "(/o)^_" ;
+    dsv:columnProperty "min" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/sup2> a dsv:Column ;
+    rdfs:label "&sup2" ;
+    dsv:columnProperty "area (m2)" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/x03B4> a dsv:Column ;
+    rdfs:label "&#x03B4" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/1>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/AdditionalSensorData>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/AdditionalTemperatureData>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/AdditionalWeatherData>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/AtmosphericPressurehPa>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/AverageTemperatureCMaxTemperatureapos>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/CloudCoverage967>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/DateTimeStamp>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/E>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/GeographicalLocationdeg>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/MinTemperatureCminTemp>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/Ndeg>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/Precipitationmm>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/RelativeHumidity>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/SatelliteImageReference>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/SoilMoisture>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/SolarRadiationWmx00BFD>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/StudyAreaID>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/WindSpeedms>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/kmx00BFD>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/o>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/sup2>,
+        <http://metaUnionSearch/datasets/ClimatologyDDWJ8GI5/column/x03B4> .
+

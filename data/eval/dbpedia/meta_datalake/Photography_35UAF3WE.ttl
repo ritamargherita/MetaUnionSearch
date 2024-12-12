@@ -1,0 +1,91 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE> a dsv:Dataset ;
+    dcterms:subject "photography" ;
+    dcterms:title "Photography_35UAF3WE.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Photography35UAF3WE/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/column/Category> a dsv:Column ;
+    rdfs:label "Category" ;
+    dsv:columnProperty "category" .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/column/Characteristics> a dsv:Column ;
+    rdfs:label "Characteristics" ;
+    dsv:columnProperty "features" .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/column/Comments> a dsv:Column ;
+    rdfs:label "Comments" ;
+    dsv:columnProperty "comment" .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/column/DurationOfEventCapturedseconds> a dsv:Column ;
+    rdfs:label "Duration Of Event Captured (seconds)" ;
+    dsv:columnProperty "duration (s)" .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/column/FinalImageSizepixels> a dsv:Column ;
+    rdfs:label "Final Image Size (pixels)" ;
+    dsv:columnProperty "image size (px)" .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/column/FlashUsed> a dsv:Column ;
+    rdfs:label "Flash Used" ;
+    dsv:columnProperty "feature" .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/column/FocusMode> a dsv:Column ;
+    rdfs:label "Focus Mode" ;
+    dsv:columnProperty "focus" .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/column/LenseType> a dsv:Column ;
+    rdfs:label "Lense Type" ;
+    dsv:columnProperty "model" .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/column/Location> a dsv:Column ;
+    rdfs:label "Location" ;
+    dsv:columnProperty "location" .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/column/OriginalImageSizepixels> a dsv:Column ;
+    rdfs:label "Original Image Size (pixels) " ;
+    dsv:columnProperty "image size (px)" .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/column/OverallRatingoutof5> a dsv:Column ;
+    rdfs:label "Overall Rating (out of 5)" ;
+    dsv:columnProperty "star rating" .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/column/PhotoTitle> a dsv:Column ;
+    rdfs:label "Photo Title" ;
+    dsv:columnProperty "title" .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/column/PostProcessSoftware> a dsv:Column ;
+    rdfs:label "Post Process Software" ;
+    dsv:columnProperty "computing platform" .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/column/PrintDimensionsinches> a dsv:Column ;
+    rdfs:label "Print Dimensions (inches)" ;
+    dsv:columnProperty "measurements" .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/column/Version> a dsv:Column ;
+    rdfs:label "Version" ;
+    dsv:columnProperty "version" .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/column/WhiteBalanceSetting> a dsv:Column ;
+    rdfs:label "White Balance Setting" ;
+    dsv:columnProperty "appearance" .
+
+<http://metaUnionSearch/datasets/Photography35UAF3WE/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Photography35UAF3WE/column/Category>,
+        <http://metaUnionSearch/datasets/Photography35UAF3WE/column/Characteristics>,
+        <http://metaUnionSearch/datasets/Photography35UAF3WE/column/Comments>,
+        <http://metaUnionSearch/datasets/Photography35UAF3WE/column/DurationOfEventCapturedseconds>,
+        <http://metaUnionSearch/datasets/Photography35UAF3WE/column/FinalImageSizepixels>,
+        <http://metaUnionSearch/datasets/Photography35UAF3WE/column/FlashUsed>,
+        <http://metaUnionSearch/datasets/Photography35UAF3WE/column/FocusMode>,
+        <http://metaUnionSearch/datasets/Photography35UAF3WE/column/LenseType>,
+        <http://metaUnionSearch/datasets/Photography35UAF3WE/column/Location>,
+        <http://metaUnionSearch/datasets/Photography35UAF3WE/column/OriginalImageSizepixels>,
+        <http://metaUnionSearch/datasets/Photography35UAF3WE/column/OverallRatingoutof5>,
+        <http://metaUnionSearch/datasets/Photography35UAF3WE/column/PhotoTitle>,
+        <http://metaUnionSearch/datasets/Photography35UAF3WE/column/PostProcessSoftware>,
+        <http://metaUnionSearch/datasets/Photography35UAF3WE/column/PrintDimensionsinches>,
+        <http://metaUnionSearch/datasets/Photography35UAF3WE/column/Version>,
+        <http://metaUnionSearch/datasets/Photography35UAF3WE/column/WhiteBalanceSetting> .
+

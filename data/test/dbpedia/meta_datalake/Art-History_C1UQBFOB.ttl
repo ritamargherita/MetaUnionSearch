@@ -1,0 +1,111 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB> a dsv:Dataset ;
+    dcterms:subject "art-history" ;
+    dcterms:title "Art-History_C1UQBFOB.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/datasetSchema> .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/AdditionalInfoA> a dsv:Column ;
+    rdfs:label "Additional Info A" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/AdditionalInfoB> a dsv:Column ;
+    rdfs:label "Additional Info B" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/Artist> a dsv:Column ;
+    rdfs:label "Artist" ;
+    dsv:columnProperty "painter" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/Artwork> a dsv:Column ;
+    rdfs:label "`Artwork" ;
+    dsv:columnProperty "created" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/CuratorComments> a dsv:Column ;
+    rdfs:label "Curator Comments" ;
+    dsv:columnProperty "comment" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/DateCreated> a dsv:Column ;
+    rdfs:label "Date Created" ;
+    dsv:columnProperty "date" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/Depthin> a dsv:Column ;
+    rdfs:label "Depth (in)" ;
+    dsv:columnProperty "depth (μ)" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/ExtraColumn10> a dsv:Column ;
+    rdfs:label "Extra Column 10" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/ExtraColumn11> a dsv:Column ;
+    rdfs:label "Extra Column 11" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/ExtraColumn12> a dsv:Column ;
+    rdfs:label "Extra Column 12" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/ExtraColumn13> a dsv:Column ;
+    rdfs:label "Extra Column 13`" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/ExtraColumn7> a dsv:Column ;
+    rdfs:label "Extra Column 7" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/ExtraColumn8> a dsv:Column ;
+    rdfs:label "Extra Column 8" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/ExtraColumn9> a dsv:Column ;
+    rdfs:label "Extra Column 9" ;
+    dsv:columnProperty "other" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/Heightin> a dsv:Column ;
+    rdfs:label "Height (in)" ;
+    dsv:columnProperty "height (μ)" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/Medium> a dsv:Column ;
+    rdfs:label "Medium" ;
+    dsv:columnProperty "material" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/Period> a dsv:Column ;
+    rdfs:label "Period" ;
+    dsv:columnProperty "event period" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/Style> a dsv:Column ;
+    rdfs:label "Style" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/SubjectMatter> a dsv:Column ;
+    rdfs:label "Subject Matter" ;
+    dsv:columnProperty "subject term" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/Widthin> a dsv:Column ;
+    rdfs:label "Width (in)" ;
+    dsv:columnProperty "width (μ)" .
+
+<http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/AdditionalInfoA>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/AdditionalInfoB>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/Artist>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/Artwork>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/CuratorComments>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/DateCreated>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/Depthin>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/ExtraColumn10>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/ExtraColumn11>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/ExtraColumn12>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/ExtraColumn13>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/ExtraColumn7>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/ExtraColumn8>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/ExtraColumn9>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/Heightin>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/Medium>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/Period>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/Style>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/SubjectMatter>,
+        <http://metaUnionSearch/datasets/ArtHistoryC1UQBFOB/column/Widthin> .
+

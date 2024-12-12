@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19> a dsv:Dataset ;
+    dcterms:subject "technology" ;
+    dcterms:title "Technology_W9XHRO19.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/TechnologyW9XHRO19/datasetSchema> .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/BigTechCompaniesMarketShares> a dsv:Column ;
+    rdfs:label "Big Tech Companies Market Shares" ;
+    dsv:columnProperty "market capitalisation ($)" .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/BlockchainImplementationCases> a dsv:Column ;
+    rdfs:label "Blockchain Implementation Cases" ;
+    dsv:columnProperty "source" .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/CloudAdoptionRates> a dsv:Column ;
+    rdfs:label "Cloud Adoption Rates" ;
+    dsv:columnProperty "open access content" .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/CybersecurityThreatLandscape> a dsv:Column ;
+    rdfs:label "Cybersecurity Threat Landscape" ;
+    dsv:columnProperty "security" .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/DarkWebActivities> a dsv:Column ;
+    rdfs:label "Dark Web Activities" ;
+    dsv:columnProperty "other media" .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/DeepFakesDetectionSources> a dsv:Column ;
+    rdfs:label "Deep Fakes Detection Sources" ;
+    dsv:columnProperty "sourceText" .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/EncryptionAlgorithms> a dsv:Column ;
+    rdfs:label "Encryption Algorithms" ;
+    dsv:columnProperty "computing platform" .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/HumanCapitalDevelopment> a dsv:Column ;
+    rdfs:label "Human Capital Development" ;
+    dsv:columnProperty "Human Development Index (HDI)" .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/ITBudgetAllocations> a dsv:Column ;
+    rdfs:label "IT Budget Allocations" ;
+    dsv:columnProperty "budget ($)" .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/InternetOfThingsDevicesConnectivityStandards> a dsv:Column ;
+    rdfs:label "Internet Of Things Devices Connectivity Standards" ;
+    dsv:columnProperty "other activity" .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/MalwareTypes> a dsv:Column ;
+    rdfs:label "Malware Types" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/PostQuantumEraPreparatoryEfforts> a dsv:Column ;
+    rdfs:label "Post-Quantum Era Preparatory Efforts" ;
+    dsv:columnProperty "era" .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/QuantumComputingApplications> a dsv:Column ;
+    rdfs:label "Quantum Computing Applications" ;
+    dsv:columnProperty "Computing input" .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/VirtualPrivateNetworkVPNUsage> a dsv:Column ;
+    rdfs:label "Virtual Private Network (VPN) Usage" ;
+    dsv:columnProperty "network" .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/ZeroTrustArchitectureStrategies> a dsv:Column ;
+    rdfs:label "Zero Trust Architecture Strategies" ;
+    dsv:columnProperty "approach" .
+
+<http://metaUnionSearch/datasets/TechnologyW9XHRO19/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/BigTechCompaniesMarketShares>,
+        <http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/BlockchainImplementationCases>,
+        <http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/CloudAdoptionRates>,
+        <http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/CybersecurityThreatLandscape>,
+        <http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/DarkWebActivities>,
+        <http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/DeepFakesDetectionSources>,
+        <http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/EncryptionAlgorithms>,
+        <http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/HumanCapitalDevelopment>,
+        <http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/ITBudgetAllocations>,
+        <http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/InternetOfThingsDevicesConnectivityStandards>,
+        <http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/MalwareTypes>,
+        <http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/PostQuantumEraPreparatoryEfforts>,
+        <http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/QuantumComputingApplications>,
+        <http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/VirtualPrivateNetworkVPNUsage>,
+        <http://metaUnionSearch/datasets/TechnologyW9XHRO19/column/ZeroTrustArchitectureStrategies> .
+

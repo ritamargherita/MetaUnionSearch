@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LiteratureF5E8II49> a dsv:Dataset ;
+    dcterms:subject "literature" ;
+    dcterms:title "Literature_F5E8II49.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LiteratureF5E8II49/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LiteratureF5E8II49/column/AuthorsBiography> a dsv:Column ;
+    rdfs:label "Author's Biography" ;
+    dsv:columnProperty "author" .
+
+<http://metaUnionSearch/datasets/LiteratureF5E8II49/column/CulturalImpact> a dsv:Column ;
+    rdfs:label "Cultural Impact" ;
+    dsv:columnProperty "reference for cultural data" .
+
+<http://metaUnionSearch/datasets/LiteratureF5E8II49/column/GenreClassification> a dsv:Column ;
+    rdfs:label "Genre Classification" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/LiteratureF5E8II49/column/LanguageandImagery> a dsv:Column ;
+    rdfs:label "Language and Imagery" ;
+    dsv:columnProperty "original language" .
+
+<http://metaUnionSearch/datasets/LiteratureF5E8II49/column/LiteraryAnalysis> a dsv:Column ;
+    rdfs:label "Literary Analysis" ;
+    dsv:columnProperty "notes" .
+
+<http://metaUnionSearch/datasets/LiteratureF5E8II49/column/LiteraryDevices> a dsv:Column ;
+    rdfs:label "Literary Devices" ;
+    dsv:columnProperty "notable features" .
+
+<http://metaUnionSearch/datasets/LiteratureF5E8II49/column/LiterarySignificance> a dsv:Column ;
+    rdfs:label "Literary Significance" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/LiteratureF5E8II49/column/LiteratureType> a dsv:Column ;
+    rdfs:label "Literature Type" ;
+    dsv:columnProperty "type" .
+
+<http://metaUnionSearch/datasets/LiteratureF5E8II49/column/SymbolismExplained> a dsv:Column ;
+    rdfs:label "Symbolism Explained" ;
+    dsv:columnProperty "Symbol" .
+
+<http://metaUnionSearch/datasets/LiteratureF5E8II49/column/ToneThemes> a dsv:Column ;
+    rdfs:label "Tone & Themes" ;
+    dsv:columnProperty "style" .
+
+<http://metaUnionSearch/datasets/LiteratureF5E8II49/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LiteratureF5E8II49/column/AuthorsBiography>,
+        <http://metaUnionSearch/datasets/LiteratureF5E8II49/column/CulturalImpact>,
+        <http://metaUnionSearch/datasets/LiteratureF5E8II49/column/GenreClassification>,
+        <http://metaUnionSearch/datasets/LiteratureF5E8II49/column/LanguageandImagery>,
+        <http://metaUnionSearch/datasets/LiteratureF5E8II49/column/LiteraryAnalysis>,
+        <http://metaUnionSearch/datasets/LiteratureF5E8II49/column/LiteraryDevices>,
+        <http://metaUnionSearch/datasets/LiteratureF5E8II49/column/LiterarySignificance>,
+        <http://metaUnionSearch/datasets/LiteratureF5E8II49/column/LiteratureType>,
+        <http://metaUnionSearch/datasets/LiteratureF5E8II49/column/SymbolismExplained>,
+        <http://metaUnionSearch/datasets/LiteratureF5E8II49/column/ToneThemes> .
+

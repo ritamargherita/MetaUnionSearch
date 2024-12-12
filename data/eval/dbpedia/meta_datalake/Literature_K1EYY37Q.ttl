@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/LiteratureK1EYY37Q> a dsv:Dataset ;
+    dcterms:subject "literature" ;
+    dcterms:title "Literature_K1EYY37Q.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/LiteratureK1EYY37Q/datasetSchema> .
+
+<http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/AgeAppropriateness> a dsv:Column ;
+    rdfs:label "Age Appropriateness" ;
+    dsv:columnProperty "age" .
+
+<http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/Author> a dsv:Column ;
+    rdfs:label "Author" ;
+    dsv:columnProperty "author" .
+
+<http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/Availability> a dsv:Column ;
+    rdfs:label "Availability" ;
+    dsv:columnProperty "open access content" .
+
+<http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/Awards> a dsv:Column ;
+    rdfs:label "Awards" ;
+    dsv:columnProperty "award" .
+
+<http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/Genre> a dsv:Column ;
+    rdfs:label "Genre" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/LiteraryAnalysis> a dsv:Column ;
+    rdfs:label "Literary Analysis" ;
+    dsv:columnProperty "novel" .
+
+<http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/PublicationYear> a dsv:Column ;
+    rdfs:label "Publication Year" ;
+    dsv:columnProperty "first publication year" .
+
+<http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/ReadingLevel> a dsv:Column ;
+    rdfs:label "Reading Level" ;
+    dsv:columnProperty "grades" .
+
+<http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/RecommendationReason> a dsv:Column ;
+    rdfs:label "Recommendation Reason" ;
+    dsv:columnProperty "topic" .
+
+<http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/Setting> a dsv:Column ;
+    rdfs:label "Setting" ;
+    dsv:columnProperty "setting of play" .
+
+<http://metaUnionSearch/datasets/LiteratureK1EYY37Q/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/AgeAppropriateness>,
+        <http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/Author>,
+        <http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/Availability>,
+        <http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/Awards>,
+        <http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/Genre>,
+        <http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/LiteraryAnalysis>,
+        <http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/PublicationYear>,
+        <http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/ReadingLevel>,
+        <http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/RecommendationReason>,
+        <http://metaUnionSearch/datasets/LiteratureK1EYY37Q/column/Setting> .
+

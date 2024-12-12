@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/SportsYF9P7KYK> a dsv:Dataset ;
+    dcterms:subject "sports" ;
+    dcterms:title "Sports_YF9P7KYK.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/SportsYF9P7KYK/datasetSchema> .
+
+<http://metaUnionSearch/datasets/SportsYF9P7KYK/column/AveragePointsPerGame> a dsv:Column ;
+    rdfs:label "AveragePointsPerGame" ;
+    dsv:columnProperty "average" .
+
+<http://metaUnionSearch/datasets/SportsYF9P7KYK/column/AwayGames> a dsv:Column ;
+    rdfs:label "AwayGames" ;
+    dsv:columnProperty "games" .
+
+<http://metaUnionSearch/datasets/SportsYF9P7KYK/column/ChampionshipTitles> a dsv:Column ;
+    rdfs:label "ChampionshipTitles." ;
+    dsv:columnProperty "championships" .
+
+<http://metaUnionSearch/datasets/SportsYF9P7KYK/column/Coachname> a dsv:Column ;
+    rdfs:label "Coachname" ;
+    dsv:columnProperty "coach" .
+
+<http://metaUnionSearch/datasets/SportsYF9P7KYK/column/ConsecutiveWins> a dsv:Column ;
+    rdfs:label "ConsecutiveWins" ;
+    dsv:columnProperty "championships" .
+
+<http://metaUnionSearch/datasets/SportsYF9P7KYK/column/HomeGames> a dsv:Column ;
+    rdfs:label "HomeGames" ;
+    dsv:columnProperty "home arena" .
+
+<http://metaUnionSearch/datasets/SportsYF9P7KYK/column/MatchesLost> a dsv:Column ;
+    rdfs:label "MatchesLost" ;
+    dsv:columnProperty "defeat" .
+
+<http://metaUnionSearch/datasets/SportsYF9P7KYK/column/MatchesWon> a dsv:Column ;
+    rdfs:label "MatchesWon" ;
+    dsv:columnProperty "championships" .
+
+<http://metaUnionSearch/datasets/SportsYF9P7KYK/column/TeamID> a dsv:Column ;
+    rdfs:label "TeamID" ;
+    dsv:columnProperty "id" .
+
+<http://metaUnionSearch/datasets/SportsYF9P7KYK/column/TeamName> a dsv:Column ;
+    rdfs:label "TeamName" ;
+    dsv:columnProperty "team name" .
+
+<http://metaUnionSearch/datasets/SportsYF9P7KYK/column/TotalPlayers> a dsv:Column ;
+    rdfs:label "TotalPlayers" ;
+    dsv:columnProperty "number of players" .
+
+<http://metaUnionSearch/datasets/SportsYF9P7KYK/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/SportsYF9P7KYK/column/AveragePointsPerGame>,
+        <http://metaUnionSearch/datasets/SportsYF9P7KYK/column/AwayGames>,
+        <http://metaUnionSearch/datasets/SportsYF9P7KYK/column/ChampionshipTitles>,
+        <http://metaUnionSearch/datasets/SportsYF9P7KYK/column/Coachname>,
+        <http://metaUnionSearch/datasets/SportsYF9P7KYK/column/ConsecutiveWins>,
+        <http://metaUnionSearch/datasets/SportsYF9P7KYK/column/HomeGames>,
+        <http://metaUnionSearch/datasets/SportsYF9P7KYK/column/MatchesLost>,
+        <http://metaUnionSearch/datasets/SportsYF9P7KYK/column/MatchesWon>,
+        <http://metaUnionSearch/datasets/SportsYF9P7KYK/column/TeamID>,
+        <http://metaUnionSearch/datasets/SportsYF9P7KYK/column/TeamName>,
+        <http://metaUnionSearch/datasets/SportsYF9P7KYK/column/TotalPlayers> .
+

@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Language2R5MUBJD> a dsv:Dataset ;
+    dcterms:subject "language" ;
+    dcterms:title "Language_2R5MUBJD.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Language2R5MUBJD/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Language2R5MUBJD/column/LanguageFamily> a dsv:Column ;
+    rdfs:label "Language Family" ;
+    dsv:columnProperty "family" .
+
+<http://metaUnionSearch/datasets/Language2R5MUBJD/column/LanguageName> a dsv:Column ;
+    rdfs:label "Language Name" ;
+    dsv:columnProperty "named by language" .
+
+<http://metaUnionSearch/datasets/Language2R5MUBJD/column/LiteraturePresence> a dsv:Column ;
+    rdfs:label "Literature Presence" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/Language2R5MUBJD/column/MajorPoetsWriters> a dsv:Column ;
+    rdfs:label "Major Poets & Writers" ;
+    dsv:columnProperty "author" .
+
+<http://metaUnionSearch/datasets/Language2R5MUBJD/column/NativeSpeakers> a dsv:Column ;
+    rdfs:label "Native Speakers" ;
+    dsv:columnProperty "number of speakers" .
+
+<http://metaUnionSearch/datasets/Language2R5MUBJD/column/OfficialLanguage> a dsv:Column ;
+    rdfs:label "Official Language" ;
+    dsv:columnProperty "official language" .
+
+<http://metaUnionSearch/datasets/Language2R5MUBJD/column/Origin> a dsv:Column ;
+    rdfs:label "Origin" ;
+    dsv:columnProperty "origin" .
+
+<http://metaUnionSearch/datasets/Language2R5MUBJD/column/PhoneticsDetails> a dsv:Column ;
+    rdfs:label "Phonetics Details" ;
+    dsv:columnProperty "pronunciation" .
+
+<http://metaUnionSearch/datasets/Language2R5MUBJD/column/Script> a dsv:Column ;
+    rdfs:label "Script" ;
+    dsv:columnProperty "language code" .
+
+<http://metaUnionSearch/datasets/Language2R5MUBJD/column/Speakers> a dsv:Column ;
+    rdfs:label "Speakers" ;
+    dsv:columnProperty "number of speakers" .
+
+<http://metaUnionSearch/datasets/Language2R5MUBJD/column/TextbooksAvailability> a dsv:Column ;
+    rdfs:label "Textbooks Availability" ;
+    dsv:columnProperty "offered classes" .
+
+<http://metaUnionSearch/datasets/Language2R5MUBJD/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Language2R5MUBJD/column/LanguageFamily>,
+        <http://metaUnionSearch/datasets/Language2R5MUBJD/column/LanguageName>,
+        <http://metaUnionSearch/datasets/Language2R5MUBJD/column/LiteraturePresence>,
+        <http://metaUnionSearch/datasets/Language2R5MUBJD/column/MajorPoetsWriters>,
+        <http://metaUnionSearch/datasets/Language2R5MUBJD/column/NativeSpeakers>,
+        <http://metaUnionSearch/datasets/Language2R5MUBJD/column/OfficialLanguage>,
+        <http://metaUnionSearch/datasets/Language2R5MUBJD/column/Origin>,
+        <http://metaUnionSearch/datasets/Language2R5MUBJD/column/PhoneticsDetails>,
+        <http://metaUnionSearch/datasets/Language2R5MUBJD/column/Script>,
+        <http://metaUnionSearch/datasets/Language2R5MUBJD/column/Speakers>,
+        <http://metaUnionSearch/datasets/Language2R5MUBJD/column/TextbooksAvailability> .
+

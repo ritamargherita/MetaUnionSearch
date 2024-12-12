@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/EngineeringR9A7MFP0> a dsv:Dataset ;
+    dcterms:subject "engineering" ;
+    dcterms:title "Engineering_R9A7MFP0.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/EngineeringR9A7MFP0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/CommunicationPlan> a dsv:Column ;
+    rdfs:label "Communication Plan" ;
+    dsv:columnProperty "information" .
+
+<http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/EngineeringEthics> a dsv:Column ;
+    rdfs:label "Engineering Ethics" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/EnvironmentalImpact> a dsv:Column ;
+    rdfs:label "Environmental Impact" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/IndustryTrends> a dsv:Column ;
+    rdfs:label "Industry Trends" ;
+    dsv:columnProperty "industry" .
+
+<http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/InnovationMetrics> a dsv:Column ;
+    rdfs:label "Innovation Metrics" ;
+    dsv:columnProperty "impact factor" .
+
+<http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/LessonsLearned> a dsv:Column ;
+    rdfs:label "Lessons Learned" ;
+    dsv:columnProperty "project objective" .
+
+<http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/RegulatoryCompliance> a dsv:Column ;
+    rdfs:label "Regulatory Compliance" ;
+    dsv:columnProperty "certification" .
+
+<http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/ResourceAllocation> a dsv:Column ;
+    rdfs:label "Resource Allocation" ;
+    dsv:columnProperty "number of all resource / entities of a class" .
+
+<http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/RiskManagement> a dsv:Column ;
+    rdfs:label "Risk Management" ;
+    dsv:columnProperty "management" .
+
+<http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/StakeholderEngagement> a dsv:Column ;
+    rdfs:label "Stakeholder Engagement" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/Table2SpecificProjectID> a dsv:Column ;
+    rdfs:label "Table 2-Specific Project ID" ;
+    dsv:columnProperty "project reference ID" .
+
+<http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/TrainingPrograms> a dsv:Column ;
+    rdfs:label "Training Programs" ;
+    dsv:columnProperty "training" .
+
+<http://metaUnionSearch/datasets/EngineeringR9A7MFP0/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/CommunicationPlan>,
+        <http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/EngineeringEthics>,
+        <http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/EnvironmentalImpact>,
+        <http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/IndustryTrends>,
+        <http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/InnovationMetrics>,
+        <http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/LessonsLearned>,
+        <http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/RegulatoryCompliance>,
+        <http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/ResourceAllocation>,
+        <http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/RiskManagement>,
+        <http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/StakeholderEngagement>,
+        <http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/Table2SpecificProjectID>,
+        <http://metaUnionSearch/datasets/EngineeringR9A7MFP0/column/TrainingPrograms> .
+

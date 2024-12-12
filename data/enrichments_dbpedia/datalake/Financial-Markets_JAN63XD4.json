@@ -1,0 +1,52 @@
+{
+  "mapping": [
+    {
+      "column_header": "Commodity Prices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/price"
+    },
+    {
+      "column_header": "Bond Yield",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/interest"
+    },
+    {
+      "column_header": "Treasury Securities Ownership%",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"
+    },
+    {
+      "column_header": "Derivatives Expiry Dating",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dateUse"
+    },
+    {
+      "column_header": "Commercial Paper Risk Spread",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "Hedge Fund Performance Indicators",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": "Private Equity Valuation Metrics",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/value"
+    },
+    {
+      "column_header": "Real Estate Prices",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/price"
+    },
+    {
+      "column_header": "New Listing Announcements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/announcedFrom"
+    },
+    {
+      "column_header": "IPOs Share Allocation Data",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/shareOfAudience"
+    },
+    {
+      "column_header": "Mergers & Acquisitions Deals News",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mergerDate"
+    },
+    {
+      "column_header": "Analyst Upgrades/Downgrades Recommendations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    }
+  ]
+}

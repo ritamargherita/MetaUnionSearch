@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V> a dsv:Dataset ;
+    dcterms:subject "world-history" ;
+    dcterms:title "World-History_RERW6Z8V.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Art> a dsv:Column ;
+    rdfs:label "Art" ;
+    dsv:columnProperty "artistic function" .
+
+<http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Economy> a dsv:Column ;
+    rdfs:label "Economy" ;
+    dsv:columnProperty "income" .
+
+<http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Geography> a dsv:Column ;
+    rdfs:label "Geography" ;
+    dsv:columnProperty "map" .
+
+<http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Literature> a dsv:Column ;
+    rdfs:label "Literature" ;
+    dsv:columnProperty "literary genre" .
+
+<http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Music> a dsv:Column ;
+    rdfs:label "Music" ;
+    dsv:columnProperty "music by" .
+
+<http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Philosophy> a dsv:Column ;
+    rdfs:label "Philosophy" ;
+    dsv:columnProperty "philosophicalSchool" .
+
+<http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Politics> a dsv:Column ;
+    rdfs:label "Politics" ;
+    dsv:columnProperty "government" .
+
+<http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/ReligiousBeliefs> a dsv:Column ;
+    rdfs:label "Religious Beliefs" ;
+    dsv:columnProperty "religion" .
+
+<http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Science> a dsv:Column ;
+    rdfs:label "Science" .
+
+<http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Technology> a dsv:Column ;
+    rdfs:label "Technology" .
+
+<http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Art>,
+        <http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Economy>,
+        <http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Geography>,
+        <http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Literature>,
+        <http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Music>,
+        <http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Philosophy>,
+        <http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Politics>,
+        <http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/ReligiousBeliefs>,
+        <http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Science>,
+        <http://metaUnionSearch/datasets/WorldHistoryRERW6Z8V/column/Technology> .
+

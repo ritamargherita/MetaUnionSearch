@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_98Q1ZXOI.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/AveragePrecipitation> a dsv:Column ;
+    rdfs:label "Average Precipitation" ;
+    dsv:columnProperty "average" .
+
+<http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/AverageTemperature> a dsv:Column ;
+    rdfs:label "Average Temperature" ;
+    dsv:columnProperty "mean temperature (K)" .
+
+<http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/CoastlineLengthkm> a dsv:Column ;
+    rdfs:label "Coastline Length (km)" ;
+    dsv:columnProperty "length of a coast" .
+
+<http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/FurthestPointfromContinentalLand> a dsv:Column ;
+    rdfs:label "Furthest Point from Continental Land" ;
+    dsv:columnProperty "long distance piste kilometre (μ)" .
+
+<http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/InternetTLD> a dsv:Column ;
+    rdfs:label "Internet TLD" ;
+    dsv:columnProperty "country top level (tld)" .
+
+<http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/IslandNation> a dsv:Column ;
+    rdfs:label "Island Nation" ;
+    dsv:columnProperty "nation" .
+
+<http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/IslandSizekm2> a dsv:Column ;
+    rdfs:label "Island Size (km2)" ;
+    dsv:columnProperty "area land (m2)" .
+
+<http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/NumberofIslands> a dsv:Column ;
+    rdfs:label "Number of Islands" ;
+    dsv:columnProperty "number of islands" .
+
+<http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/PercentageofLandCoverbyForest> a dsv:Column ;
+    rdfs:label "Percentage of Land Cover by Forest" ;
+    dsv:columnProperty "land percentage of a place" .
+
+<http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/PercentageofLandCoverbyUrbanAreas> a dsv:Column ;
+    rdfs:label "Percentage of Land Cover by Urban Areas" ;
+    dsv:columnProperty "percentage of area water" .
+
+<http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/Population> a dsv:Column ;
+    rdfs:label "Population" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/AveragePrecipitation>,
+        <http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/AverageTemperature>,
+        <http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/CoastlineLengthkm>,
+        <http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/FurthestPointfromContinentalLand>,
+        <http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/InternetTLD>,
+        <http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/IslandNation>,
+        <http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/IslandSizekm2>,
+        <http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/NumberofIslands>,
+        <http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/PercentageofLandCoverbyForest>,
+        <http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/PercentageofLandCoverbyUrbanAreas>,
+        <http://metaUnionSearch/datasets/WorldGeography98Q1ZXOI/column/Population> .
+

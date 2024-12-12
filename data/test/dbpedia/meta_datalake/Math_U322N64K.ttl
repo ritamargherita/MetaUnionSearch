@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/MathU322N64K> a dsv:Dataset ;
+    dcterms:subject "math" ;
+    dcterms:title "Math_U322N64K.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/MathU322N64K/datasetSchema> .
+
+<http://metaUnionSearch/datasets/MathU322N64K/column/ChallengesArea> a dsv:Column ;
+    rdfs:label "Challenges Area" ;
+    dsv:columnProperty "wins at challenges" .
+
+<http://metaUnionSearch/datasets/MathU322N64K/column/CurrentUsesTeaching> a dsv:Column ;
+    rdfs:label "Current Uses Teaching" ;
+    dsv:columnProperty "currently used for" .
+
+<http://metaUnionSearch/datasets/MathU322N64K/column/DefinitionArea> a dsv:Column ;
+    rdfs:label "Definition Area" ;
+    dsv:columnProperty "area of search" .
+
+<http://metaUnionSearch/datasets/MathU322N64K/column/FutureImplicationsTeaching> a dsv:Column ;
+    rdfs:label "Future Implications Teaching" ;
+    dsv:columnProperty "uses" .
+
+<http://metaUnionSearch/datasets/MathU322N64K/column/HistoricalContextTeaching> a dsv:Column ;
+    rdfs:label "Historical Context Teaching" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/MathU322N64K/column/KeyFiguresTeaching> a dsv:Column ;
+    rdfs:label "Key Figures Teaching" ;
+    dsv:columnProperty "key person" .
+
+<http://metaUnionSearch/datasets/MathU322N64K/column/MathematicsArea> a dsv:Column ;
+    rdfs:label "[Mathematics Area " ;
+    dsv:columnProperty "area of search" .
+
+<http://metaUnionSearch/datasets/MathU322N64K/column/MisconceptionsArea> a dsv:Column ;
+    rdfs:label "Misconceptions Area" ;
+    dsv:columnProperty "illiteracy" .
+
+<http://metaUnionSearch/datasets/MathU322N64K/column/OperationsArea> a dsv:Column ;
+    rdfs:label "Operations Area" ;
+    dsv:columnProperty "area of search" .
+
+<http://metaUnionSearch/datasets/MathU322N64K/column/PropertiesArea> a dsv:Column ;
+    rdfs:label "Properties Area" ;
+    dsv:columnProperty "area of search" .
+
+<http://metaUnionSearch/datasets/MathU322N64K/column/SymbolismArea> a dsv:Column ;
+    rdfs:label "Symbolism Area" ;
+    dsv:columnProperty "area of search" .
+
+<http://metaUnionSearch/datasets/MathU322N64K/column/TeachingMethodologies> a dsv:Column ;
+    rdfs:label "Teaching Methodologies]" ;
+    dsv:columnProperty "education system" .
+
+<http://metaUnionSearch/datasets/MathU322N64K/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/MathU322N64K/column/ChallengesArea>,
+        <http://metaUnionSearch/datasets/MathU322N64K/column/CurrentUsesTeaching>,
+        <http://metaUnionSearch/datasets/MathU322N64K/column/DefinitionArea>,
+        <http://metaUnionSearch/datasets/MathU322N64K/column/FutureImplicationsTeaching>,
+        <http://metaUnionSearch/datasets/MathU322N64K/column/HistoricalContextTeaching>,
+        <http://metaUnionSearch/datasets/MathU322N64K/column/KeyFiguresTeaching>,
+        <http://metaUnionSearch/datasets/MathU322N64K/column/MathematicsArea>,
+        <http://metaUnionSearch/datasets/MathU322N64K/column/MisconceptionsArea>,
+        <http://metaUnionSearch/datasets/MathU322N64K/column/OperationsArea>,
+        <http://metaUnionSearch/datasets/MathU322N64K/column/PropertiesArea>,
+        <http://metaUnionSearch/datasets/MathU322N64K/column/SymbolismArea>,
+        <http://metaUnionSearch/datasets/MathU322N64K/column/TeachingMethodologies> .
+

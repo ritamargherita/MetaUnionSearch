@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U> a dsv:Dataset ;
+    dcterms:subject "anthropology" ;
+    dcterms:title "Anthropology_THBZ5J3U.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/datasetSchema> .
+
+<http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/AcademicDegrees> a dsv:Column ;
+    rdfs:label "Academic Degrees" ;
+    dsv:columnProperty "education" .
+
+<http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/ArchaeologistName> a dsv:Column ;
+    rdfs:label "Archaeologist Name" ;
+    dsv:columnProperty "profession" .
+
+<http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/CodingSystemUsed> a dsv:Column ;
+    rdfs:label "Coding System Used" ;
+    dsv:columnProperty "note" .
+
+<http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/DataAnalysisMethods> a dsv:Column ;
+    rdfs:label "Data Analysis Methods" ;
+    dsv:columnProperty "approach" .
+
+<http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/ExcavationYear> a dsv:Column ;
+    rdfs:label "Excavation Year" ;
+    dsv:columnProperty "year of construction" .
+
+<http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/FieldNotesReference> a dsv:Column ;
+    rdfs:label "Field Notes Reference" ;
+    dsv:columnProperty "reference" .
+
+<http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/FundingSources> a dsv:Column ;
+    rdfs:label "Funding Sources" ;
+    dsv:columnProperty "funded by" .
+
+<http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/KeyFindings> a dsv:Column ;
+    rdfs:label "Key Findings" ;
+    dsv:columnProperty "notable features" .
+
+<http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/PreservationStatus> a dsv:Column ;
+    rdfs:label "Preservation Status" ;
+    dsv:columnProperty "conservation status" .
+
+<http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/ProfessionalAffiliations> a dsv:Column ;
+    rdfs:label "Professional Affiliations" ;
+    dsv:columnProperty "affiliation" .
+
+<http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/ResearchCollaborations> a dsv:Column ;
+    rdfs:label "Research Collaborations" ;
+    dsv:columnProperty "collaboration" .
+
+<http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/ResearchQuestions> a dsv:Column ;
+    rdfs:label "Research Questions" ;
+    dsv:columnProperty "topic" .
+
+<http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/SeminarsAttended> a dsv:Column ;
+    rdfs:label "Seminars Attended" ;
+    dsv:columnProperty "project" .
+
+<http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/SupervisorName> a dsv:Column ;
+    rdfs:label "Supervisor Name" ;
+    dsv:columnProperty "academic advisor" .
+
+<http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/AcademicDegrees>,
+        <http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/ArchaeologistName>,
+        <http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/CodingSystemUsed>,
+        <http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/DataAnalysisMethods>,
+        <http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/ExcavationYear>,
+        <http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/FieldNotesReference>,
+        <http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/FundingSources>,
+        <http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/KeyFindings>,
+        <http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/PreservationStatus>,
+        <http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/ProfessionalAffiliations>,
+        <http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/ResearchCollaborations>,
+        <http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/ResearchQuestions>,
+        <http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/SeminarsAttended>,
+        <http://metaUnionSearch/datasets/AnthropologyTHBZ5J3U/column/SupervisorName> .
+

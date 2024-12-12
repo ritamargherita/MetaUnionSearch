@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Subdomain_of_Psychotherapy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/domain"
+    },
+    {
+      "column_header": "SessionNumber",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/sessionNumber"
+    },
+    {
+      "column_header": "CounselorName",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/personName"
+    },
+    {
+      "column_header": "ClientSatisfactionScore",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/number"
+    },
+    {
+      "column_header": "SideEffects",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/treatment"
+    },
+    {
+      "column_header": "ImprovementScaleMeasurement",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/number"
+    },
+    {
+      "column_header": "MoodChangeTracking",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/mood"
+    },
+    {
+      "column_header": "SelfEsteemBoostMeasures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/other"
+    },
+    {
+      "column_header": "AdditionalInfoColumn1",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/other"
+    },
+    {
+      "column_header": "AdditionalInfoColumn2",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/other"
+    }
+  ]
+}

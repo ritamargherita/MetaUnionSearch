@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Census Data from Sites",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/censusYear"
+    },
+    {
+      "column_header": "Demographics Info",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/demographics"
+    },
+    {
+      "column_header": "Economic Systems",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/industry"
+    },
+    {
+      "column_header": "Contact History with Other Cultures (if applicable)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": "Leadership Structures",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/leadership"
+    },
+    {
+      "column_header": "Marriage and Family System",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/family"
+    },
+    {
+      "column_header": "Linguistic Features",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/languageFamily"
+    },
+    {
+      "column_header": "Belief Systems*",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/religion"
+    },
+    {
+      "column_header": "Food Production Methods",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/production"
+    },
+    {
+      "column_header": "Agricultural Tools",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/equipment"
+    },
+    {
+      "column_header": "Clothing Styles",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/style"
+    },
+    {
+      "column_header": "Personal Adornments",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/decoration"
+    },
+    {
+      "column_header": "Environmental Impact.",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/impactFactor"
+    }
+  ]
+}

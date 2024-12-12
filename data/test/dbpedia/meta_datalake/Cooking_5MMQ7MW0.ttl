@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/Cooking5MMQ7MW0> a dsv:Dataset ;
+    dcterms:subject "cooking" ;
+    dcterms:title "Cooking_5MMQ7MW0.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/Cooking5MMQ7MW0/datasetSchema> .
+
+<http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column1> a dsv:Column ;
+    rdfs:label """
+Column1""" .
+
+<http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column10> a dsv:Column ;
+    rdfs:label """
+Column10""" .
+
+<http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column2> a dsv:Column ;
+    rdfs:label """
+Column2""" .
+
+<http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column3> a dsv:Column ;
+    rdfs:label """
+Column3""" .
+
+<http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column4> a dsv:Column ;
+    rdfs:label """
+Column4""" .
+
+<http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column5> a dsv:Column ;
+    rdfs:label """
+Column5""" .
+
+<http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column6> a dsv:Column ;
+    rdfs:label """
+Column6""" .
+
+<http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column7> a dsv:Column ;
+    rdfs:label """
+Column7""" .
+
+<http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column8> a dsv:Column ;
+    rdfs:label """
+Column8""" .
+
+<http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column9> a dsv:Column ;
+    rdfs:label """
+Column9""" .
+
+<http://metaUnionSearch/datasets/Cooking5MMQ7MW0/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column1>,
+        <http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column10>,
+        <http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column2>,
+        <http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column3>,
+        <http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column4>,
+        <http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column5>,
+        <http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column6>,
+        <http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column7>,
+        <http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column8>,
+        <http://metaUnionSearch/datasets/Cooking5MMQ7MW0/column/Column9> .
+

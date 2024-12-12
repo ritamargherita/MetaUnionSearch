@@ -1,0 +1,44 @@
+{
+  "mapping": [
+    {
+      "column_header": "Number Of Shows Produced",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberOfFilms"
+    },
+    {
+      "column_header": " Total Tickets Sold",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/numberSold"
+    },
+    {
+      "column_header": " Revenue Generated",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/revenue"
+    },
+    {
+      "column_header": " Location Preference (City, Theater)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/premierePlace"
+    },
+    {
+      "column_header": " Critic Reviews - Positive Ratio",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"
+    },
+    {
+      "column_header": " Audience Rating Average Scores",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/rating"
+    },
+    {
+      "column_header": " Collaborations with Other Artists",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": " Social Media Following (Fans)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/followedBy"
+    },
+    {
+      "column_header": " Influence on Pop Culture (Memes, Merchandise etc.)",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/otherMedia"
+    },
+    {
+      "column_header": " Genre Diversity",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/genre"
+    }
+  ]
+}

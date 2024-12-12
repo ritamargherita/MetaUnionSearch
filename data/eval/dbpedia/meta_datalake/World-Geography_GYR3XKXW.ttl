@@ -1,0 +1,69 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_GYR3XKXW.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/CityNames> a dsv:Column ;
+    rdfs:label "City Names" ;
+    dsv:columnProperty "city" .
+
+<http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/Climate> a dsv:Column ;
+    rdfs:label "Climate" ;
+    dsv:columnProperty "climate" .
+
+<http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/Continent> a dsv:Column ;
+    rdfs:label "Continent" ;
+    dsv:columnProperty "continent" .
+
+<http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/CountryName> a dsv:Column ;
+    rdfs:label "Country Name" ;
+    dsv:columnProperty "government country" .
+
+<http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/InternetTLD> a dsv:Column ;
+    rdfs:label "Internet TLD" ;
+    dsv:columnProperty "country top level (tld)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/Latitude> a dsv:Column ;
+    rdfs:label "Latitude" .
+
+<http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/Longitude> a dsv:Column ;
+    rdfs:label "Longitude" .
+
+<http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/Population> a dsv:Column ;
+    rdfs:label "Population" ;
+    dsv:columnProperty "population total" .
+
+<http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/PopulationDensity> a dsv:Column ;
+    rdfs:label "Population Density" ;
+    dsv:columnProperty "population density (/sqkm)" .
+
+<http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/Terrain> a dsv:Column ;
+    rdfs:label "Terrain" ;
+    dsv:columnProperty "land" .
+
+<http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/Timezone> a dsv:Column ;
+    rdfs:label "Timezone" ;
+    dsv:columnProperty "time zone" .
+
+<http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/UTCOffset> a dsv:Column ;
+    rdfs:label "UTC Offset" ;
+    dsv:columnProperty "UTC offset" .
+
+<http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/CityNames>,
+        <http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/Climate>,
+        <http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/Continent>,
+        <http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/CountryName>,
+        <http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/InternetTLD>,
+        <http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/Latitude>,
+        <http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/Longitude>,
+        <http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/Population>,
+        <http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/PopulationDensity>,
+        <http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/Terrain>,
+        <http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/Timezone>,
+        <http://metaUnionSearch/datasets/WorldGeographyGYR3XKXW/column/UTCOffset> .
+

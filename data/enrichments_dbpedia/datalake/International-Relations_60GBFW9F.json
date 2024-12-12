@@ -1,0 +1,56 @@
+{
+  "mapping": [
+    {
+      "column_header": "Time Period",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/termPeriod"
+    },
+    {
+      "column_header": " Global Events ",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/event"
+    },
+    {
+      "column_header": " Trade Agreements",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/dateAgreement"
+    },
+    {
+      "column_header": " Economic Aid$",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/projectBudgetFunding"
+    },
+    {
+      "column_header": " Peacekeeping Missions",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/missions"
+    },
+    {
+      "column_header": " Embassies Abroad",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/internationalAffiliation"
+    },
+    {
+      "column_header": " Treaty Obligations",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/jurisdiction"
+    },
+    {
+      "column_header": " Regional Organizations Participation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/regionalCouncil"
+    },
+    {
+      "column_header": " Conflict History",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/conflict"
+    },
+    {
+      "column_header": " International Law Compliance",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/jurisdiction"
+    },
+    {
+      "column_header": " Cultural Diplomacy",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/refcul"
+    },
+    {
+      "column_header": " Technology Exchange",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/collaboration"
+    },
+    {
+      "column_header": " Space Cooperation",
+      "dbpedia_property_id": "http://dbpedia.org/ontology/space"
+    }
+  ]
+}

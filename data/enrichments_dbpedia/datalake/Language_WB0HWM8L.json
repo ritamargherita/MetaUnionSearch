@@ -1,0 +1,17 @@
+{
+    "mapping": [
+        {"column_header": "Linguistic Area", "dbpedia_property_id": "http://dbpedia.org/ontology/linguisticsTradition"},
+        {"column_header": " Language Contact", "dbpedia_property_id": "http://dbpedia.org/ontology/otherLanguage"},
+        {"column_header": " #of Genetic Families", "dbpedia_property_id": "http://dbpedia.org/ontology/family"},
+        {"column_header": " Typological Features", "dbpedia_property_id": "http://dbpedia.org/ontology/features"},
+        {"column_header": " Dialect Chain%", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+        {"column_header": " Mutual Intelligibility%", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+        {"column_header": " Lexical Similarity %", "dbpedia_property_id": "http://dbpedia.org/ontology/percentage"},
+        {"column_header": " Phoneme Inventory Size", "dbpedia_property_id": "http://dbpedia.org/ontology/features"},
+        {"column_header": " Word Order Frequencies (SOV / SVO etc.)", "dbpedia_property_id": "http://dbpedia.org/ontology/features"},
+        {"column_header": " Morpho-phonosyntactic Ruleset Complexities*", "dbpedia_property_id": "http://dbpedia.org/ontology/features"},
+        {"column_header": " Scrabble Point Average**", "dbpedia_property_id": "http://dbpedia.org/ontology/average"},
+        {"column_header": " Text Sample Length Distribution Percentiles***", "dbpedia_property_id": "http://dbpedia.org/ontology/average"},
+        {"column_header": " Type-Token Ratio****", "dbpedia_property_id": "http://dbpedia.org/ontology/ratio"}
+    ]
+}

@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dsv: <https://w3id.org/dsv-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN> a dsv:Dataset ;
+    dcterms:subject "world-geography" ;
+    dcterms:title "World-Geography_CUZRENUN.csv" ;
+    dsv:datasetSchema <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/datasetSchema> .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/AdditionalInfoAreaCode> a dsv:Column ;
+    rdfs:label "*Additional Info*: Area_Code" ;
+    dsv:columnProperty "area code" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/CityNames> a dsv:Column ;
+    rdfs:label "City Names" ;
+    dsv:columnProperty "city" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/CityType> a dsv:Column ;
+    rdfs:label "CityType " ;
+    dsv:columnProperty "city type" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/CountryName> a dsv:Column ;
+    rdfs:label "CountryName " ;
+    dsv:columnProperty "country" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/Latitude> a dsv:Column ;
+    rdfs:label "Latitude" ;
+    dsv:columnProperty "Location Identifier" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/LocationContinent> a dsv:Column ;
+    rdfs:label "*Location*: Continent" ;
+    dsv:columnProperty "continent" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/Longitude> a dsv:Column ;
+    rdfs:label "Longitude" ;
+    dsv:columnProperty "Location Identifier" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/MajorAttractions> a dsv:Column ;
+    rdfs:label "MajorAttractions" ;
+    dsv:columnProperty "major shrine" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/Population> a dsv:Column ;
+    rdfs:label "Population" ;
+    dsv:columnProperty "population" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/PopulationRanking> a dsv:Column ;
+    rdfs:label "PopulationRanking " ;
+    dsv:columnProperty "total population ranking" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/Timezone> a dsv:Column ;
+    rdfs:label "Timezone" ;
+    dsv:columnProperty "time zone" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/relationalopeq> a dsv:Column ;
+    rdfs:label "_relationalop=(eq)" ;
+    dsv:columnProperty "relation" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/semanticmodifiersCitySize> a dsv:Column ;
+    rdfs:label "*semantic_modifiers*: City Size" ;
+    dsv:columnProperty "city type" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/typecityname> a dsv:Column ;
+    rdfs:label "_type=city_name " ;
+    dsv:columnProperty "city" .
+
+<http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/datasetSchema> a dsv:DatasetSchema ;
+    dsv:column <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/AdditionalInfoAreaCode>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/CityNames>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/CityType>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/CountryName>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/Latitude>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/LocationContinent>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/Longitude>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/MajorAttractions>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/Population>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/PopulationRanking>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/Timezone>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/relationalopeq>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/semanticmodifiersCitySize>,
+        <http://metaUnionSearch/datasets/WorldGeographyCUZRENUN/column/typecityname> .
+
